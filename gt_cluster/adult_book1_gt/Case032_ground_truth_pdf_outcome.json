@@ -1,0 +1,158 @@
+{
+  "case_id": "Case032",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Superior Semicircular Canal Dehiscence (SSCD) Syndrome",
+      "rationale_short": "Supported by sound-induced dizziness (Tullio phenomenon), low-frequency conductive hearing loss with normal acoustic reflexes, abnormally low cVEMP thresholds, and CT confirmation of dehiscence."
+    },
+    {
+      "rank": 2,
+      "label": "Otosclerosis",
+      "rationale_short": "Considered due to conductive hearing loss, but ruled out by the presence of acoustic reflexes and the specific vestibular symptoms (Tullio phenomenon)."
+    },
+    {
+      "rank": 3,
+      "label": "Perilymph Fistula",
+      "rationale_short": "Can present with pressure-induced dizziness, but imaging and VEMP results strongly favor SSCD."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and identify any air-bone gaps."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition abilities and validate pure-tone thresholds."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and rule out common causes of conductive loss."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To check for retrocochlear pathology or middle ear fixation; presence in conductive loss suggests third window."
+      },
+      {
+        "action": "Computerized Dynamic Posturography (CDP)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate functional balance and sensory integration."
+      },
+      {
+        "action": "Videonystagmography (VNG) & Rotary Chair",
+        "urgency": "routine",
+        "rationale_short": "To assess horizontal canal function and rule out other vestibular pathologies."
+      },
+      {
+        "action": "Cervical Vestibular-Evoked Myogenic Potential (cVEMP)",
+        "urgency": "soon",
+        "rationale_short": "Diagnostic test for SSCD; assesses vestibular hypersensitivity/thresholds."
+      },
+      {
+        "action": "CT Scan (Temporal Bone)",
+        "urgency": "soon",
+        "rationale_short": "Imaging to visualize the bony dehiscence of the superior canal."
+      },
+      {
+        "action": "Subjective Questionnaire (SSCD Symptoms)",
+        "urgency": "routine",
+        "rationale_short": "To quantify symptom severity and impact on quality of life."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation revealed a left-sided low-frequency conductive hearing loss. Crucially, tympanometry was normal and acoustic reflexes were present, a pattern highly suggestive of a third window lesion rather than middle ear pathology. Standard vestibular testing (CDP, VNG, Rotary Chair) was normal, indicating intact horizontal canal and general balance function despite the specific sound-induced symptoms.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing right; mild conductive loss left at 250 and 500 Hz with air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent word recognition scores (100% Right, 96% Left)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at normal levels bilaterally, despite the conductive component on the left."
+          },
+          {
+            "name": "Computerized Dynamic Posturography (CDP)",
+            "category": "Vestibular",
+            "result_summary": "Normal SOT and MCT performance."
+          },
+          {
+            "name": "Videonystagmography (VNG) & Rotary Chair",
+            "category": "Vestibular",
+            "result_summary": "Normal oculomotor, caloric, and rotary chair findings; no nystagmus."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Specialized testing confirmed the diagnosis of SSCD. cVEMP thresholds were abnormally low in the affected left ear, indicating hypersensitivity. High-resolution CT imaging visualized the dehiscence. The subjective questionnaire documented severe symptoms, particularly dizziness triggered by loud noises and pressure.",
+        "tests": [
+          {
+            "name": "Cervical Vestibular-Evoked Myogenic Potential (cVEMP)",
+            "category": "Electrophysiology",
+            "result_summary": "Normal thresholds Right (80-85 dB nHL); abnormally low thresholds Left (60-65 dB nHL)."
+          },
+          {
+            "name": "CT Scan (Temporal Bone)",
+            "category": "Imaging",
+            "result_summary": "Revealed thinning and/or dehiscence of the roof of the left superior semicircular canal."
+          },
+          {
+            "name": "Subjective Questionnaire (SSCD Symptoms)",
+            "category": "Questionnaire",
+            "result_summary": "Pre-op scores showed profound symptoms (5/5) for dizziness, loud noise sensitivity, and pressure changes."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical repair of the superior semicircular canal dehiscence (cartilage cap technique via transmastoid approach)",
+      "Avoidance of triggers (loud sounds, pressure changes) if surgery is declined"
+    ],
+    "counseling_actions": [
+      "Explain the 'third window' phenomenon and how it allows pressure/sound to stimulate the balance system",
+      "Discuss the Tullio phenomenon (dizziness from loud sounds)",
+      "Explain the discrepancy between conductive hearing loss and normal tympanometry/reflexes",
+      "Discuss surgical risks (hearing loss, facial paralysis, dizziness) versus benefits"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurotology",
+      "rationale_short": "Referral for specialized testing (cVEMP, CT) and surgical evaluation of suspected SSCD."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3 weeks and 11 weeks post-operatively",
+    "objective": "Monitor symptom resolution and quality of life using the subjective questionnaire."
+  },
+  "expected_outcome": [
+    "Subjective Questionnaire (SSCD Symptoms) at 11 weeks post-op: Significant improvement in dizziness and balance complaints; denied vertigo from pressure changes, coughing, or sneezing.",
+    "Subjective Questionnaire (SSCD Symptoms) at 11 weeks post-op: Reported only slight symptoms provoked by loud noises (score improved from 5 to 1).",
+    "Patient reported slight improvement in aural fullness and autophony, but denied reduction in tinnitus or hearing loss.",
+    "Overall global severity of ear symptoms reduced from profound (5/5) to slight (1/5) impact on daily activities."
+  ]
+}

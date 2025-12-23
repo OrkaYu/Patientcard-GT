@@ -1,0 +1,134 @@
+{
+  "case_id": "Case003",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acoustic Neuroma (Vestibular Schwannoma)",
+      "rationale_short": "Unilateral SNHL, tinnitus, and aural fullness combined with positive acoustic reflex decay and delayed ABR latencies strongly indicate retrocochlear pathology."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-Induced Hearing Loss",
+      "rationale_short": "History of unprotected noise exposure explains bilateral high-frequency involvement but does not account for the asymmetry or retrocochlear signs."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing sensitivity and configuration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Screen for retrocochlear pathology via reflex thresholds and decay."
+      },
+      {
+        "action": "Otoacoustic emissions",
+        "urgency": "routine",
+        "rationale_short": "Assess cochlear outer hair cell function."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "Electrophysiological assessment to confirm retrocochlear pathway integrity."
+      },
+      {
+        "action": "Magnetic Resonance Imaging (MRI)",
+        "urgency": "soon",
+        "rationale_short": "Imaging to visualize potential space-occupying lesions in the internal auditory canal."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The initial evaluation revealed asymmetric sensorineural hearing loss (worse in the left ear) with positive acoustic reflex decay in the left ear, raising suspicion for retrocochlear pathology. Subsequent medical workup (ABR and MRI) confirmed a left-sided acoustic neuroma.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Right ear: Normal (250-1000 Hz) to slight loss (2000-8000 Hz). Left ear: Slight to moderate SNHL (250-4000 Hz) recovering to mild at 8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "SRT: Right 15 dB HL, Left 35 dB HL. WRS: 100% bilaterally at 40 dB SL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type Ad (hypercompliant) bilaterally with normal pressure and volume."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal thresholds bilaterally. Reflex decay negative in Right ear, positive in Left ear at 500 and 1000 Hz."
+          },
+          {
+            "name": "Otoacoustic emissions",
+            "category": "Physiological",
+            "result_summary": "Absent at 1500 to 6000 Hz bilaterally."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Normal latencies in Right ear; delayed peak and interpeak latencies in Left ear."
+          },
+          {
+            "name": "Magnetic Resonance Imaging (MRI)",
+            "category": "Imaging",
+            "result_summary": "4x3x2 mm lesion in the left internal auditory canal (acoustic neuroma)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to otologist",
+      "Hearing protection (due to noise history)",
+      "Vocational Rehabilitation (post-surgery)"
+    ],
+    "counseling_actions": [
+      "Explain asymmetric hearing loss and retrocochlear signs (reflex decay).",
+      "Discuss need for medical evaluation (MRI) before considering amplification.",
+      "Counsel on ear protection in the presence of loud noise."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss",
+      "Unilateral tinnitus",
+      "Unilateral aural fullness",
+      "Positive acoustic reflex decay",
+      "Delayed ABR latencies"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist",
+      "rationale_short": "Suspected retrocochlear pathology (acoustic neuroma) requiring medical diagnosis and management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-operative",
+    "objective": "Monitor hearing thresholds, manage vestibular symptoms, and support vocational rehabilitation."
+  },
+  "expected_outcome": [
+    "Surgery was performed and the left acoustic neuroma was removed.",
+    "Patient reported postoperative dizziness and left-sided facial weakness.",
+    "Postoperative Pure-tone Audiometry: Significant decrease in hearing sensitivity in the left ear (250-8000 Hz).",
+    "Postoperative Speech Audiometry: Left ear SRT 47 dB HL, WRS 92% at 75 dB HL.",
+    "Patient unable to continue construction work due to dizziness; pursuing new career via Vocational Rehabilitation."
+  ]
+}

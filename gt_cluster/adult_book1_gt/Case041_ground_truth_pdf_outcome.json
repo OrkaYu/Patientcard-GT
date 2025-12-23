@@ -1,0 +1,100 @@
+{
+  "case_id": "Case041",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Under-amplification due to earmold acoustics",
+      "rationale_short": "Patient reported poor sound quality and audibility; REM confirmed gain was significantly below NAL-NL1 targets due to new earmolds and software incompatibility prevented digital adjustment."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds for gain target calculation."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding capabilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To rule out middle ear pathology."
+      },
+      {
+        "action": "Real Ear to Coupler Difference (RECD)",
+        "urgency": "routine",
+        "rationale_short": "To account for individual ear canal acoustics in gain calculations."
+      },
+      {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid gain against prescriptive targets before and after modification."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presented with mild to moderately severe SNHL and normal middle ear function. Verification measures revealed that the hearing aids with new earmolds were significantly under-amplifying speech relative to NAL-NL1 targets. RECD measurements indicated smaller than average ear canals. Physical modifications to the earmolds were performed to improve the gain response.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral mild to moderately severe sensorineural hearing loss; symmetrical configuration (Right AC thresholds: 250Hz 35, 500Hz 40, 1000Hz 50, 2000Hz 55, 4000Hz 65, 8000Hz 70 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Good word recognition ability at elevated levels (Right WRS 96% at 80 dB; Left WRS 92% at 80 dB)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear function (Type A) bilaterally."
+          },
+          {
+            "name": "Real Ear to Coupler Difference (RECD)",
+            "category": "Verification",
+            "result_summary": "Measured values deviate from average, indicating smaller ear canals (e.g., 13.7 dB at 4000 Hz vs average 10.0 dB)."
+          },
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Verification",
+            "result_summary": "Pre-modification REIG was 8-12 dB below NAL-NL1 targets. Post-modification REIG approximated targets well, particularly in high frequencies."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Reduce earmold vent size from 2mm to 1mm to increase low-frequency gain",
+      "Add 3mm Libby horn to increase high-frequency gain",
+      "Insert 1500 Ohm damper to smooth mid-frequency peaks"
+    ],
+    "counseling_actions": [
+      "Inform patient that modifications are a temporary solution for travel",
+      "Advise follow-up with original audiologist for fine-tuning upon return home",
+      "Explain that software incompatibility necessitated physical acoustic modifications"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Original audiologist/home clinic",
+      "rationale_short": "Patient needs permanent programming/fine-tuning which requires the specific manufacturer software available at her home clinic."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Upon return to home state",
+    "objective": "Fine-tuning with original audiologist using manufacturer software."
+  },
+  "expected_outcome": [
+    "Patient reported a marked increase in her ability to understand speech.",
+    "Post-modification Real Ear Insertion Gain (REIG) better approximated NAL-NL1 targets in the high frequencies compared with the unmodified target gain."
+  ]
+}

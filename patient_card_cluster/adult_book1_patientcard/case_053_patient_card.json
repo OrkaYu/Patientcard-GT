@@ -1,0 +1,140 @@
+{
+  "case_id": "case_53",
+  "title": "Hearing Aid Candidacy and Selection",
+  "demographics": {
+    "age_years": 75,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I sometimes have trouble hearing my grandchildren and occasionally struggle hearing my friends at the bridge club.",
+  "problem_summary": {
+    "onset": "Gradual (deteriorated over time)",
+    "course": "Progressive",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Arthritis in fingers (bothersome in bad weather).",
+    "functional_impact": "Difficulty communicating with son, trouble hearing TV, symphony, and in social situations (bridge club).",
+    "goals_motivation": "Wants to hear grandchildren, friends, TV, and symphony; willing to try two hearing aids."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-03-28",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is accompanied by her son, who reports her hearing has deteriorated and he has difficulty communicating with her. He is concerned about her living alone. Patient admits to difficulties in specific social and home situations.",
+        "otologic_history": "None explicitly mentioned beyond hearing loss.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Arthritis in fingers.",
+        "prior_management": "Not a previous hearing aid user.",
+        "patient_goals": "Improve hearing for TV, bridge club, symphony, and gardening. Wants to try two aids."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 53.1"
+          ],
+          "key_findings": "Bilateral mild to moderate gradually sloping sensorineural hearing loss. Symmetrical configuration.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "20-25 dB HL at 250Hz sloping to ~50-55 dB HL at 4000-8000Hz",
+            "Left_AC_Thresholds": "30 dB HL at 250Hz sloping to ~50-60 dB HL at 4000-8000Hz",
+            "Bone_Conduction": "Matches air conduction (Sensorineural)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 53.1"
+          ],
+          "key_findings": "SRTs in good agreement with PTAs. Word recognition scores indicate only a slight loss of ability to recognize speech in quiet.",
+          "numeric_results": {
+            "SRT_Right": "25 dB HL",
+            "SRT_Left": "30 dB HL",
+            "WRS_Right": "86% (at 40 dB SL)",
+            "WRS_Left": "82% (at 40 dB SL)",
+            "LDLs": "95 dB HL (bilateral)"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "QuickSIN revealed a signal-to-noise ratio loss indicating the need for a +7 dB SNR to perform as well as a normal listener.",
+          "numeric_results": {
+            "SNR_Loss": "7 dB"
+          }
+        },
+        {
+          "name": "Tympanometry and Reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 53.1"
+          ],
+          "key_findings": "Normal middle ear function (Type A). Acoustic reflexes present at reduced sensation levels consistent with recruitment. No decay.",
+          "numeric_results": {
+            "Tympanogram_Type": "A",
+            "Reflexes": "Present (mostly 90-100 dB HL range)"
+          }
+        },
+        {
+          "name": "Needs Assessment / Self-Report",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 53.1"
+          ],
+          "key_findings": "Completed HHIE, SAC, SOAC, and a specific selection table. Identified dexterity issues (arthritis), need for wind noise management (gardening), and desire for TV streaming.",
+          "numeric_results": {
+            "Dexterity_Rating": "Moderate (Arthritis)",
+            "Telephone_Use": "Landline, wants acoustic coupling",
+            "Preference": "Wants to try two aids"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, symmetrical, mild-to-moderate gradually sloping sensorineural hearing loss. Speech recognition in quiet is good (82-86%), but QuickSIN testing reveals a 7 dB SNR loss, indicating significant difficulty in background noise. Middle ear function is normal. Dexterity is a complicating factor due to arthritis.",
+  "counseling_points": [
+    "Due to your arthritis, we need to select a device that is easy to handle, likely with a remote control for volume adjustments.",
+    "Your hearing loss in background noise (SNR loss) means you will need directional microphones to help you hear at the bridge club.",
+    "For gardening, we will prioritize wind noise reduction features.",
+    "Since you enjoy TV and the symphony, wireless streaming accessories would be very beneficial.",
+    "Realistic expectations: Hearing aids will help, but a +7 dB signal-to-noise ratio improvement is needed for you to hear like a normal listener in noise."
+  ],
+  "notes_for_actor": [
+    "Portray a 75-year-old woman who is generally active (gardening, bridge) but frustrated by communication limits.",
+    "Demonstrate some stiffness or difficulty with fine motor skills in your hands to simulate the arthritis mentioned.",
+    "Be open to trying hearing aids but express concern about handling small batteries or buttons."
+  ]
+}

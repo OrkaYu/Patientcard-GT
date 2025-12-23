@@ -1,0 +1,134 @@
+{
+  "case_id": "case_23",
+  "title": "The Mystery of the 4000 Hz Air–Bone Gap",
+  "demographics": {
+    "age_years": 69,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have been experiencing a spinning and lightheaded sensation that has increased to every evening for the past month. It starts at night and sometimes wakes me up. I also have trouble hearing on the telephone.",
+  "problem_summary": {
+    "onset": "Symptoms present for a while, increasing in frequency over the past month.",
+    "course": "Occurs every evening; starts at night and can wake patient from sleep.",
+    "laterality": "Bilateral hearing loss reported (Right better than Left).",
+    "associated_symptoms": "Otalgia behind and in front of left pinna radiating down neck; occasional tinnitus and aural fullness (associated with sinus infections).",
+    "functional_impact": "Difficulty communicating on the telephone using either ear.",
+    "goals_motivation": "Audiological examination prior to appointment with an otologist."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-04-12",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "69-year-old female reporting dizziness (spinning/lightheaded) increasing to every evening. Reports bilateral hearing loss and difficulty on the phone.",
+        "otologic_history": "Otalgia (left ear/neck). Occasional tinnitus/fullness linked to sinus infections. No other reported otologic history.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Referral to otologist pending.",
+        "patient_goals": "Assessment of hearing and dizziness."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 23.1"
+          ],
+          "key_findings": "Normal hearing 250-1000 Hz. Slight SNHL 2000-3000 Hz. Moderate to moderately severe hearing loss 4000-8000 Hz. Significant air-bone gap noted at 4000 Hz bilaterally using TDH-50 headphones.",
+          "numeric_results": {
+            "Air-Bone Gap (4000 Hz)": "25 dB",
+            "Right Ear 4000 Hz AC": "~55-60 dB HL",
+            "Left Ear 4000 Hz AC": "~60 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 23.1"
+          ],
+          "key_findings": "Slight loss in ability to receive speech (SRT). Word recognition scores (WRS) revealed normal ability to recognize speech bilaterally.",
+          "numeric_results": {
+            "SRT Right": "25 dB HL",
+            "SRT Left": "25 dB HL",
+            "WRS Right": "92% (at 70 dB HL)",
+            "WRS Left": "92% (at 70 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 23.1"
+          ],
+          "key_findings": "Normal tympanograms bilaterally.",
+          "numeric_results": {
+            "Type": "A"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 23.1"
+          ],
+          "key_findings": "Normal ARTs from 500 to 4000 Hz (ipsilateral and contralateral). Negative reflex decay at 500 and 1000 Hz.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry (Retest)",
+          "timepoint_label": "Investigation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 23.2"
+          ],
+          "key_findings": "Retest of air conduction thresholds from 4000 to 8000 Hz using insert earphones (immittance tips) to determine if the 4000 Hz air-bone gap was caused by collapsed ear canals.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the low frequencies sloping to a moderate-to-moderately severe sensorineural hearing loss in the high frequencies (4000-8000 Hz). A notable 25 dB air-bone gap was observed at 4000 Hz using standard headphones, despite normal middle ear function indicated by tympanometry and acoustic reflexes. This discrepancy warranted investigation into potential collapsed ear canals or calibration artifacts.",
+  "counseling_points": [
+    "You have some high-frequency hearing loss, which explains your difficulty on the telephone.",
+    "We noticed a gap between your hearing levels on two different tests at a specific pitch (4000 Hz).",
+    "Because your middle ear test was normal, this gap might be caused by the headphones pressing on your ears (collapsed canals) rather than a medical problem inside the ear.",
+    "We used different earplugs (insert earphones) to double-check these results.",
+    "Your dizziness symptoms occurring at night are significant and should be discussed in detail with the otologist."
+  ],
+  "notes_for_actor": [
+    "Portray a 69-year-old woman who is concerned about nightly dizziness.",
+    "Mention that the dizziness feels like spinning and lightheadedness.",
+    "Report pain behind and in front of your left ear that goes down your neck.",
+    "If asked about hearing, note that the right ear seems better than the left, but the phone is hard with either."
+  ]
+}

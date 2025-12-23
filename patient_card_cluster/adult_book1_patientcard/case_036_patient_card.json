@@ -1,0 +1,154 @@
+{
+  "case_id": "case_36",
+  "title": "Unilateral Peripheral Vestibular Dysfunction Confounded by Central Inhibition",
+  "demographics": {
+    "age_years": 39,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "The patient reports that the world 'jiggles' when he chews or uses handheld power tools that vibrate. He also reports difficulty walking in the dark and persistent imbalance with fast head turns.",
+  "problem_summary": {
+    "onset": "6 years ago",
+    "course": "Occasional vertigo and imbalance; persistent symptoms despite prior treatments.",
+    "laterality": "Initially diagnosed as bilateral; final diagnosis right unilateral.",
+    "associated_symptoms": "Oscillopsia (visual jiggling) with vibration/head movement, imbalance in dark.",
+    "functional_impact": "Difficulty walking in the dark; visual disturbance with vibration (power tools, chewing).",
+    "goals_motivation": "Seeking further evaluation after multiple previous diagnoses and failed treatments."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology/Neurotology Clinic",
+      "history": {
+        "present_illness": "39-year-old male with a 6-year history of occasional vertigo and imbalance with fast head/body turns. Reports oscillopsia ('jiggling') with vibration.",
+        "otologic_history": "Previously diagnosed with bilateral peripheral vestibular loss, bilateral perilymphatic fistulae, and BPPV.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "MRI and CT scans were unremarkable.",
+        "prior_management": "Repositioning maneuvers for BPPV, sequential middle ear explorations, and packing for suspected perilymphatic fistula (all without resolution).",
+        "patient_goals": "Correct diagnosis and management of persistent imbalance."
+      },
+      "tests": [
+        {
+          "name": "Clinical Vestibular Exam",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal oculomotor exam (saccades, pursuit). Negative Dix-Hallpike. Positive Head Impulse Test (HIT) in the right horizontal plane (refixation saccade visible).",
+          "numeric_results": {
+            "HIT": "Positive (Right)",
+            "Nystagmus": "Absent (spontaneous and gaze-evoked)"
+          }
+        },
+        {
+          "name": "Dynamic Visual Acuity (DVAT)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Markedly reduced results. Performance diminished significantly with head movement, consistent with oscillopsia.",
+          "numeric_results": {
+            "Lines_lost": "> 7 lines (Normal is < 2)"
+          }
+        },
+        {
+          "name": "Posturography (Clinical/Foam)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Increased sway standing with eyes closed. Patient fell with delayed posture response when standing on 3-inch foam with eyes closed.",
+          "numeric_results": null
+        },
+        {
+          "name": "Bithermal Caloric Irrigation",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Results were bilaterally reduced, initially suggesting bilateral dysfunction.",
+          "numeric_results": {
+            "Total_eye_speed": "12°/s"
+          }
+        },
+        {
+          "name": "Ice Water Caloric Irrigation",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 36.1"
+          ],
+          "key_findings": "Revealed a marked asymmetry not seen in bithermal testing. The right ear was significantly less responsive than the left.",
+          "numeric_results": {
+            "Right_Response": "3°/s",
+            "Left_Response": "37°/s"
+          }
+        },
+        {
+          "name": "Rotational Chair (RC)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 36.2"
+          ],
+          "key_findings": "Decreased low-frequency VOR gain with phase lead. Asymmetry noted with clockwise (rightward) rotations being weaker than counterclockwise.",
+          "numeric_results": {
+            "Gain_decrease_frequencies": "0.025 Hz and 0.05 Hz",
+            "Asymmetry_direction": "Rightward (CW) weaker than Leftward (CCW)"
+          }
+        },
+        {
+          "name": "cVEMP",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal threshold levels bilaterally.",
+          "numeric_results": {
+            "Left_Threshold": "85 dB nHL",
+            "Right_Threshold": "90 dB nHL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with symptoms and initial caloric findings (bilateral weakness) that mimic bilateral vestibular loss. However, ice water calorics and rotational chair testing reveal a distinct right unilateral peripheral vestibular dysfunction. The initial bilateral appearance is attributed to 'central inhibition' or cerebellar clamping, where the brain suppresses the intact side to minimize asymmetry.",
+  "counseling_points": [
+    "Although your initial tests looked like both ears were weak, the ice water test shows your left ear is working well and the weakness is actually only in your right ear.",
+    "The 'bilateral' weakness we saw earlier is likely your brain trying to help—it 'clamped down' on the good side to balance things out, which is why you feel off-balance.",
+    "The 'jiggling' vision (oscillopsia) you experience with power tools happens because the balance reflex isn't stabilizing your eyes quickly enough against vibration.",
+    "Since you have one working ear, you are a good candidate for vestibular rehabilitation therapy to help your brain compensate."
+  ],
+  "notes_for_actor": [
+    "When describing your symptoms, emphasize the visual disturbance ('jiggling') specifically when using vibrating tools or chewing.",
+    "You should express frustration about having seen multiple doctors and receiving different diagnoses (bilateral loss, fistula) without getting better.",
+    "If asked to stand with eyes closed on a soft surface (foam), you should fall or lose balance significantly."
+  ]
+}

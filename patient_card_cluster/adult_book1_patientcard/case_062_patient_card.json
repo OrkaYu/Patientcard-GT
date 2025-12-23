@@ -1,0 +1,166 @@
+{
+  "case_id": "case_62",
+  "title": "Clinical Management of a Patient with a Folded Electrode Array",
+  "demographics": {
+    "age_years": 78,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "United States"
+  },
+  "chief_complaint": "I'm having trouble understanding speech with my right implant, and my left implant has a 'hollow' sound quality. I hear noises like music and engines in my head, but they don't bother me too much.",
+  "problem_summary": {
+    "onset": "Gradual hearing loss over 25 years; loss of residual low-frequency hearing in right ear after initial hybrid implantation.",
+    "course": "Received right Hybrid CI in 2007 (FDA trial) and left Standard CI in 2008. Stopped using acoustic component in right ear due to progression of loss.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Tinnitus (music, voices, engine noise); history of dizziness/disequilibrium after left ear surgery.",
+    "functional_impact": "Limited speech recognition in the right ear; satisfactory benefit but poor sound quality in the left ear.",
+    "goals_motivation": "Improve speech understanding and sound quality, though initially apprehensive about revision surgery due to fear of dizziness."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2011-10-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presented for reprogramming. Right ear had a Hybrid L24 device (implanted 2007) but lost residual hearing, rendering the acoustic component useless. Left ear had a Freedom Contour (implanted 2008).",
+        "otologic_history": "History of gradual hearing loss (25 years). Bilateral HA use for 23 years prior to CIs.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "History of dizziness and disequilibrium following left CI surgery.",
+        "prior_management": "Bimodal fitting initially, then bilateral CI. Declined right ear revision in 2008 due to dizziness fears.",
+        "patient_goals": "Improve performance of right device."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Profound sensorineural hearing loss bilaterally.",
+          "numeric_results": {
+            "Right_ear_measurable_hearing": "500-750 Hz at 105-110 dB HL",
+            "Left_ear": "No measurable hearing reported in text"
+          }
+        },
+        {
+          "name": "Sound-field Thresholds",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Right hybrid CI performance was poor compared to the left standard CI.",
+          "numeric_results": {
+            "Right_Hybrid_CI_thresholds": "40 to 95 dB HL (FM warble tones)",
+            "Left_Standard_CI_thresholds": "15 to 30 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 62.2"
+          ],
+          "key_findings": "AzBio sentences in quiet at 60 dB SPL showed significant asymmetry in performance.",
+          "numeric_results": {
+            "Right_CI_only": "10%",
+            "Left_CI_only": "76%",
+            "Bilateral": "76%"
+          }
+        },
+        {
+          "name": "CT Scan",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 62.1"
+          ],
+          "key_findings": "Right Hybrid CI leads in good position. Left CI showed electrode 'fold-over' in the ascending limb of the basal turn.",
+          "numeric_results": null
+        },
+        {
+          "name": "Vestibular Assessment",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Normal vestibular function bilaterally (VNG and CDP).",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 6 months after right ear revision surgery (explant of Hybrid, reimplant with Standard array).",
+        "prior_management": "Right ear reimplanted. Full insertion achieved. Activated 1 month post-op.",
+        "patient_goals": "Assess benefit of revision surgery."
+      },
+      "tests": [
+        {
+          "name": "Sound-field Thresholds",
+          "timepoint_label": "Post-op",
+          "ear": "right",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Significant improvement in detection thresholds with new standard array.",
+          "numeric_results": {
+            "Right_CI_thresholds": "20 to 25 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op (6 months)",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 62.2",
+            "Figure 62.3"
+          ],
+          "key_findings": "Right ear performance surpassed the left ear. Patient reported 'fuller' sound quality.",
+          "numeric_results": {
+            "Right_CI_AzBio_Quiet": "92%",
+            "Left_CI_AzBio_Quiet": "68%",
+            "Bilateral_AzBio_Quiet": "96%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presented with profound bilateral SNHL. Initially, the right ear (Hybrid device) provided minimal benefit (10% speech recognition) due to loss of residual acoustic hearing, while the left ear (Standard device) provided good benefit (76%) despite a confirmed electrode fold-over. Following reimplantation of the right ear with a standard array, speech recognition improved dramatically to 92%, surpassing the left ear and providing a fuller sound quality.",
+  "counseling_points": [
+    "Because you have lost the natural low-pitch hearing in your right ear, the Hybrid device is no longer providing the benefit it once did.",
+    "Replacing the right Hybrid device with a standard cochlear implant is likely to significantly improve your speech understanding.",
+    "Regarding your left ear: Although the scan shows the electrode is folded, you are performing very well with it. We generally do not recommend replacing a functioning implant that provides good speech scores.",
+    "Your dizziness evaluation is normal, which is reassuring regarding the risks of a second surgery, though we will monitor you closely."
+  ],
+  "notes_for_actor": [
+    "You are 78 years old and generally happy with your left implant, though it sounds a bit 'hollow'.",
+    "You are very nervous about dizziness because you had a bad experience after your left ear surgery years ago.",
+    "You are initially hesitant about another surgery but willing to proceed if it helps you understand speech better on your right side."
+  ]
+}

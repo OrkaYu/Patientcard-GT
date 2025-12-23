@@ -1,0 +1,123 @@
+{
+  "case_id": "Case044",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right single-sided deafness (SSD)",
+      "rationale_short": "History of right acoustic neuroma removal 15 years ago; audiometry confirms anacusis in the right ear."
+    },
+    {
+      "rank": 2,
+      "label": "Left high-frequency sensorineural hearing loss",
+      "rationale_short": "Patient reports recent decline; audiometry shows slight SNHL at 250 Hz, normal mid-frequencies, sloping to moderate SNHL at 6000-8000 Hz."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds in both ears given the history of SSD and reported decline in the better ear."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition ability and validate pure-tone thresholds."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the auditory pathway."
+      },
+      {
+        "action": "Real-ear measurements (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify the hearing aid fitting in the left ear against prescriptive targets."
+      },
+      {
+        "action": "Electroacoustic Analysis",
+        "urgency": "routine",
+        "rationale_short": "To verify the transparency of the CROS transmitter."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Diagnostic evaluation confirmed long-standing right anacusis and revealed a left mild-to-moderate high-frequency sensorineural hearing loss. Middle ear function was normal bilaterally. Speech recognition was excellent in the left ear but absent in the right.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: No measurable hearing (anacusis). Left ear: Slight SNHL at 250 Hz, normal 500-2000 Hz, sloping to moderate SNHL at 6000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left SRT 15 dB HL, WRS 100% at 45 dB SL. Right SRT and WRS: No response."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear function bilaterally (Type A)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsi/contra absent. Left ipsi normal 500-4000 Hz. Left contra present at 1000 Hz, absent/elevated elsewhere."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Fitting of Phonak BICROS system. Verification ensured appropriate gain for the left ear hearing loss and transparency of the CROS transmitter.",
+        "tests": [
+          {
+            "name": "Real-ear measurements (REM)",
+            "category": "Verification",
+            "result_summary": "Verified fit of Phonak Audeo S Smart III (Left) using NAL-NL1 targets; measurements showed appropriate gain and smooth frequency response."
+          },
+          {
+            "name": "Electroacoustic Analysis",
+            "category": "Verification",
+            "result_summary": "Transparency verification: Output with CROS transmitter ON (95.2 dB SPL) showed similar frequency response to hearing aid alone (89.6 dB SPL)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit Phonak BICROS system (Phonak Audeo S Smart III on left, CROS transmitter on right)",
+      "Use open dome for left ear fitting"
+    ],
+    "counseling_actions": [
+      "Discussed amplification options for UHL including TransEar, AOIS, SoundBite, and BICROS",
+      "Explained that BICROS routes sound from the poorer ear to the better ear but does not restore binaural hearing or localization",
+      "Counseled that noise from the right side will be routed to the left ear, which can be distracting",
+      "Advised that the device will amplify high frequencies in the better ear to improve clarity",
+      "Discussed realistic expectations regarding localization and speech in noise"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient has known stable right SSD and manageable left SNHL; routine follow-up for device maintenance and hearing monitoring."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Monitor hearing thresholds in the better ear and ensure continued benefit from the BICROS device."
+  },
+  "expected_outcome": [
+    "Patient reports the Phonak left BICROS is very beneficial and uses it regularly.",
+    "Patient asks for repetition less often and can converse with speakers on her right side.",
+    "Patient reports less fatigue in noisy environments, though localization difficulty persists."
+  ]
+}

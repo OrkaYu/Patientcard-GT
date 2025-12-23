@@ -1,0 +1,121 @@
+{
+  "case_id": "Case008",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Neurofibromatosis type 2 (NF2) with Bilateral Vestibular Schwannomas",
+      "rationale_short": "MRI confirmed bilateral masses consistent with vestibular schwannomas; history of bilateral hearing loss."
+    },
+    {
+      "rank": 2,
+      "label": "Bilateral Profound Sensorineural Hearing Loss",
+      "rationale_short": "Audiometry showed no response to pure-tone signals at equipment limits; SAT 100 dB HL in left ear only."
+    },
+    {
+      "rank": 3,
+      "label": "Bilateral Vestibular Hypofunction",
+      "rationale_short": "VNG and cVEMPs revealed absent responses bilaterally."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess degree and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine speech awareness thresholds given profound loss."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To evaluate aided performance for CI candidacy (HINT)."
+      },
+      {
+        "action": "Diagnostic Imaging (MRI)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate for retrocochlear lesions given sudden loss and history of VS."
+      },
+      {
+        "action": "Vestibular Assessment",
+        "urgency": "routine",
+        "rationale_short": "To assess vestibular function given reports of imbalance and bilateral pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with bilateral profound SNHL and bilateral vestibular hypofunction. MRI confirms bilateral vestibular schwannomas, consistent with NF2. The left tumor is large (1.8 cm) and the right is small (4.4 mm).",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral profound SNHL; no response at limits."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left SAT 100 dB HL; Right No Response."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "Aided HINT in quiet: 0%."
+          },
+          {
+            "name": "Diagnostic Imaging (MRI)",
+            "category": "Imaging",
+            "result_summary": "Bilateral vestibular schwannomas; Left 1.8 cm (filling IAC), Right 4.4 mm (intracanalicular)."
+          },
+          {
+            "name": "Vestibular Assessment",
+            "category": "Vestibular",
+            "result_summary": "Absent cVEMPs bilaterally; no measurable caloric responses (bilateral hypofunction)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Cochlear Implant (Right ear)",
+      "Observational approach to monitor tumor growth",
+      "Psychological assessment for CI candidacy",
+      "Post-operative mapping using default settings"
+    ],
+    "counseling_actions": [
+      "Discuss realistic expectations regarding speech recognition due to 35-year auditory deprivation in the right ear.",
+      "Explain that the left ear is not a CI candidate due to large tumor size.",
+      "Advise that tumor growth could impact CI function or require explantation.",
+      "Clarify that ABI is not considered as tumor removal is not planned.",
+      "Counsel on the risks of surgery and potential for limited benefit."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden sensorineural hearing loss",
+      "Bilateral vestibular schwannomas"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Skull base tumor team (neurotology, neurosurgery, radiation oncology)",
+      "rationale_short": "To review options regarding tumor treatment (observation vs surgery/radiation) and clearance for auditory rehabilitation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Long-term",
+    "objective": "Monitor tumor growth via MRI/CT and assess CI performance and mapping needs."
+  },
+  "expected_outcome": [
+    "Intraoperative neural response telemetry (NRT): No measurable response.",
+    "Aided sound-field thresholds: Improved to 20-25 dB HL with CI.",
+    "HINT sentences in quiet (several months post-activation): 88%.",
+    "AzBio sentences in quiet (5-year follow-up): 81%.",
+    "AzBio sentences in noise (+10 dB SNR) (5-year follow-up): 37%.",
+    "Computed tomographic (CT) scan (5-year follow-up): No tumor growth demonstrated.",
+    "Patient achieved significant open-set word recognition, improved voice modulation, and effective telephone use."
+  ]
+}

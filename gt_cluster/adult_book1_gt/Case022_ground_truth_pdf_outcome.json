@@ -1,0 +1,133 @@
+{
+  "case_id": "Case022",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otosclerosis (Left Ear)",
+      "rationale_short": "Unilateral conductive hearing loss with Carhart notch at 2000 Hz, absent acoustic reflexes, and normal tympanometry (Type A)."
+    },
+    {
+      "rank": 2,
+      "label": "Misophonia",
+      "rationale_short": "Patient reports strong negative reaction to specific soft sounds and low tolerance, distinct from recruitment."
+    },
+    {
+      "rank": 3,
+      "label": "Sensorineural Hearing Loss (Previous Diagnosis - Incorrect)",
+      "rationale_short": "Previous diagnosis ruled out by current findings of air-bone gaps and Weber lateralization to the affected ear."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear mobility and pressure."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess stapedial reflex arc and differentiate conductive vs sensorineural pathology."
+      },
+      {
+        "action": "Weber Tuning Fork",
+        "urgency": "routine",
+        "rationale_short": "To confirm laterality and type of hearing loss (conductive vs sensorineural)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation at a previous clinic 1 year prior. Results indicated asymmetric sensorineural hearing loss, with mild low-frequency loss in the right ear and moderate rising to mild mixed (interpreted as SNHL) in the left ear. Tympanometry was reported as 'peaked' but lacked data; reflexes were not reported. The diagnosis was incorrect based on later findings.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: mild low-frequency SNHL rising to normal. Left ear: moderate rising to mild mixed loss (interpreted as SNHL). Missing bone conduction masking info."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs agreed with PTAs. Word recognition scores were 100% bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Reported as 'peaked' but no specific values recorded."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Current evaluation revealed normal hearing in the right ear and mild conductive hearing loss in the left ear, contrasting with the previous SNHL diagnosis. Key findings included a significant air-bone gap in the left ear, a Carhart notch at 2000 Hz, normal tympanograms, and absent acoustic reflexes, consistent with otosclerosis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal hearing (0-10 dB HL). Left ear: Mild conductive loss (~40 dB HL flat) with 30-40 dB air-bone gaps and Carhart notch at 2000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs consistent with PTAs (Right 5 dB, Left 40 dB). Excellent word recognition (Right 96%, Left 92%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally (Right 0.6 mL, Left 0.5 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent bilaterally to ipsilateral and contralateral stimulation at 500-4000 Hz."
+          },
+          {
+            "name": "Weber Tuning Fork",
+            "category": "Tuning Fork",
+            "result_summary": "Lateralized to the left ear (512 Hz), confirming conductive component."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical consultation (stapedectomy) for left ear otosclerosis",
+      "Amplification (hearing aids) as an alternative to surgery",
+      "Referral to otologist for medical management"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of conductive hearing loss (otosclerosis) versus the previous incorrect diagnosis of nerve damage",
+      "Counsel on the excellent prognosis for hearing improvement via surgery or hearing aids",
+      "Discuss the impact of pregnancy on management timeline (delaying surgery)",
+      "Address misophonia and sound sensitivity issues"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "To evaluate for ossicular chain fixation (otosclerosis) and discuss surgical options."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 year",
+    "objective": "Return for follow-up examination and discussion regarding corrective surgery after pregnancy."
+  },
+  "expected_outcome": [
+    "Diagnosis corrected from sensorineural hearing loss to conductive hearing loss (otosclerosis) in the left ear.",
+    "Patient was provided with a surgical option to improve hearing.",
+    "Surgical intervention was deferred for 1 year due to patient's pregnancy."
+  ]
+}

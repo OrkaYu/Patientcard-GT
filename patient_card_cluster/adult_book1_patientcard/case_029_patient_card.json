@@ -1,0 +1,193 @@
+{
+  "case_id": "case_29",
+  "title": "Significant Differences in Word Recognition Scores",
+  "demographics": {
+    "age_years": 85,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I am having increased difficulty recognizing speech in noise and understanding female talkers. I also have trouble communicating on the telephone.",
+  "problem_summary": {
+    "onset": "Long-standing hearing loss; recent decline noted in 2012.",
+    "course": "Stable from 2007 to 2011, followed by a significant decline in the right ear in 2012.",
+    "laterality": "Bilateral asymmetric sensorineural hearing loss.",
+    "associated_symptoms": "Fullness in the right ear; no tinnitus, vertigo, or dizziness reported.",
+    "functional_impact": "Difficulty with speech in noise and telephone use; physical difficulty inserting right hearing aid due to ear canal narrowing.",
+    "goals_motivation": "To determine if hearing changes require hearing aid adjustments."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2007-03-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Initial evaluation for hearing loss.",
+        "otologic_history": "Unremarkable at this time.",
+        "prior_management": "None prior; fit with bilateral hearing aids following this visit."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 29.1"
+          ],
+          "key_findings": "Normal limits 250-2000 Hz bilaterally. Right: Moderate to moderate-severe SNHL 3-8 kHz. Left: Mild to moderate-severe SNHL 3-8 kHz.",
+          "numeric_results": {
+            "Right_250Hz": "15 dB HL",
+            "Right_8000Hz": "15 dB HL",
+            "Left_250Hz": "15 dB HL",
+            "Left_8000Hz": "70 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 29.1"
+          ],
+          "key_findings": "SRTs within normal limits. WRS showed slight difficulty in the right ear and normal ability in the left.",
+          "numeric_results": {
+            "Right_SRT": "10 dB HL",
+            "Right_WRS": "88%",
+            "Left_SRT": "10 dB HL",
+            "Left_WRS": "98%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2011-03-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Annual monitoring visit.",
+        "otologic_history": "Patient underwent Mohs micrographic surgery for basal cell carcinoma of the right concha AFTER this exam.",
+        "prior_management": "Using bilateral hearing aids with thin tubes and open earmolds."
+      },
+      "tests": [
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Annual Monitor",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table 29.1"
+          ],
+          "key_findings": "WRS scores slightly reduced from baseline but stable compared to previous year (2010).",
+          "numeric_results": {
+            "Right_WRS": "80%",
+            "Left_WRS": "82%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2012-03-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports increased difficulty hearing.",
+        "otologic_history": "Post-Mohs surgery (2011). Right external meatus narrowed with prolapsing conchal cartilage. Patient reports sensation of fullness in right ear.",
+        "prior_management": "Right hearing aid coupled with thin tube and small dome due to canal narrowing preventing custom mold use."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 29.1"
+          ],
+          "key_findings": "Right ear shows 10 dB decrease at 250 Hz and 3000-4000 Hz compared to previous. Left ear stable.",
+          "numeric_results": {
+            "Right_250Hz": "25 dB HL",
+            "Right_4000Hz": "75 dB HL",
+            "Left_250Hz": "20 dB HL",
+            "Left_4000Hz": "55 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 29.1",
+            "Table 29.2"
+          ],
+          "key_findings": "Significant decrease in Right WRS (40% drop). Non-significant decrease in Left WRS (12% drop).",
+          "numeric_results": {
+            "Right_WRS": "40%",
+            "Left_WRS": "70%",
+            "Right_Change_from_2011": "-40%",
+            "Left_Change_from_2011": "-12%"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Contralateral reflexes absent/elevated bilaterally. Ipsilateral absent right 500-4000 Hz. Abnormal reflex decay in right ear at 1000 Hz.",
+          "numeric_results": null
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Diagnostic Workup",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Delayed absolute latencies for Wave V bilaterally. Absent Wave I and II right ear. No strong indication of central dysfunction, but CT scan ordered to confirm.",
+          "numeric_results": {
+            "Click_Rate": "11.1 and 67.1 clicks/sec",
+            "Intensity": "90 dB nHL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral asymmetric sensorineural hearing loss. While thresholds have remained relatively stable with only minor shifts, there is a statistically significant decline in word recognition scores in the right ear (dropping from 80% to 40% over one year). The left ear shows a smaller decline (82% to 70%) which is not statistically significant based on critical difference tables. Acoustic reflex decay was positive in the right ear.",
+  "counseling_points": [
+    "The drop in your word recognition score in the right ear is statistically significant and warrants medical investigation.",
+    "The change in the left ear score is within the range of expected variability and is not considered a significant decline.",
+    "We are referring you to an otologist to investigate the asymmetry and the reflex decay findings.",
+    "The CT scan and ABR results help rule out retrocochlear pathology (like a tumor) despite the changes in your hearing scores."
+  ],
+  "notes_for_actor": [
+    "You are an 85-year-old male.",
+    "You have had skin cancer surgery on your right ear which makes the ear canal feel 'full' and tight.",
+    "You are not dizzy and do not have tinnitus.",
+    "You are concerned because you are struggling more to understand speech, especially in noise or on the phone."
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "case_id": "case_30",
+  "title": "Revisiting Acoustic Reflexes",
+  "demographics": {
+    "age_years": 38,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "Australia"
+  },
+  "chief_complaint": "I woke up one morning with sudden hearing loss in both ears. I've also had some headaches, a sore throat, and brief dizzy spells recently.",
+  "problem_summary": {
+    "onset": "Sudden onset (awoke with loss).",
+    "course": "Acute; currently being treated with corticosteroids by ENT.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Headaches, pharyngitis, mild otalgia, high-pitched tinnitus (left ear), brief vertigo (<30s).",
+    "functional_impact": "Significant reduction in auditory access due to bilateral sudden loss.",
+    "goals_motivation": "Audiological examination and follow-up monitoring as referred by ENT."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-11-14",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient awoke with bilateral hearing loss. GP diagnosed bronchiectasis. ENT diagnosed bilateral Sudden Sensorineural Hearing Loss (SSNHL) suspected to be caused by ischemic episodes in cochlear/vestibular arteries. Started on corticosteroids.",
+        "otologic_history": "Recent headaches, pharyngitis, mild otalgia. Brief vertigo and left-sided tinnitus. History of TMJ surgery 10 years ago with right-sided facial palsy (reported as recovered).",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Bronchiectasis.",
+        "prior_management": "Self-managed recent cold symptoms with bed rest. Currently on corticosteroids for SSNHL.",
+        "patient_goals": "Assessment and monitoring."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 30.1"
+          ],
+          "key_findings": "Right ear shows mild to severe SNHL, gradually sloping. Left ear shows profound SNHL.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "250Hz: 30, 500Hz: 35, 1000Hz: 45, 2000Hz: 55, 4000Hz: 70, 8000Hz: 80 dB HL",
+            "Left_Ear_Thresholds": "Profound loss/No Response across frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 30.1"
+          ],
+          "key_findings": "SRT aligns with PTA. Word recognition is excellent in the right ear but very poor in the left ear.",
+          "numeric_results": {
+            "Right_SRT": "30 dB HL",
+            "Left_SRT": ">90 dB HL",
+            "Right_WRS": "93% at 90 dB HL",
+            "Left_WRS": "3% at 90 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 30.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Vol": "1.09 mL",
+            "Right_Admittance": "0.72 mL",
+            "Right_Pressure": "-5 daPa",
+            "Left_Vol": "1.16 mL",
+            "Left_Admittance": "0.74 mL",
+            "Left_Pressure": "-5 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 30.1",
+            "Fig. 30.2"
+          ],
+          "key_findings": "Unusual pattern: Reflexes present ONLY in the Right Contralateral condition (Stim Right/Probe Left). Absent in all other conditions (Right Ipsi, Left Ipsi, Left Contra). This suggests a Right 7th nerve (facial) lesion affecting the efferent pathway on the right side.",
+          "numeric_results": {
+            "Right_Contra_Thresholds": "100, 95, 85 dB HL at 500, 1k, 2k Hz",
+            "Right_Ipsi": "Absent",
+            "Left_Ipsi": "Absent",
+            "Left_Contra": "Absent"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Distortion-product otoacoustic emissions (DPOAEs).",
+          "numeric_results": {
+            "Right_Ear": "Present up to 1000 Hz",
+            "Left_Ear": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral sudden sensorineural hearing loss: mild-to-severe sloping in the right ear and profound in the left ear. Middle ear function is normal. However, acoustic reflex testing reveals a specific pattern (present only in the right contralateral condition) that indicates a lesion involving the right 7th cranial nerve (facial nerve), likely related to prior TMJ surgery, in addition to the cochlear/8th nerve pathology causing the hearing loss.",
+  "counseling_points": [
+    "Your hearing test confirms a significant sudden hearing loss in both ears, more severe in the left.",
+    "The reflex test showed a specific pattern that suggests an issue with the facial nerve on the right side, likely related to your past TMJ surgery.",
+    "We recommend further testing of the facial nerve (electroneurography) to investigate this fully.",
+    "We will continue to monitor your hearing weekly while you are under the care of your ENT."
+  ],
+  "notes_for_actor": [
+    "When asked about medical history initially, do not mention the TMJ surgery or facial palsy. Only reveal this when the audiologist specifically asks about past events affecting the head, neck, or jaw.",
+    "You are anxious about the sudden loss of hearing."
+  ]
+}

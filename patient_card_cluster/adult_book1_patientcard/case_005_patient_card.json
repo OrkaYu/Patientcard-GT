@@ -1,0 +1,200 @@
+{
+  "case_id": "case_5",
+  "title": "Auditory and Vestibular Neuropathy in an Adult Patient",
+  "demographics": {
+    "age_years": 32,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I lost my hearing suddenly in both ears about five months ago, and I have this constant ringing. I also feel dizzy, off-balance, and sometimes have blurred vision and tingling in my face, hands, and feet.",
+  "problem_summary": {
+    "onset": "Sudden onset 5 months prior to evaluation.",
+    "course": "Fluctuating hearing loss; symptoms began after an 'emotional breakdown' during a stressful life event.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Tinnitus, dizziness, imbalance, blurred vision (oscillopsia), intermittent tingling/numbness of face and extremities. History of anxiety and depression.",
+    "functional_impact": "Significant difficulty understanding speech; generalized imbalance and unsteadiness.",
+    "goals_motivation": "Seeking diagnosis and management for hearing loss and balance issues."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "5-month history of sudden bilateral hearing loss and tinnitus. Patient reports normal hearing and balance prior to this incident.",
+        "otologic_history": "No history of noise exposure, ear surgeries, or trauma. No known family history of hearing loss.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Anxiety, depression, smoker (1 pack/day). Neurotology consultation sought for concurrent numbness/tingling.",
+        "prior_management": "None reported.",
+        "patient_goals": "Diagnosis of hearing and balance symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.1a"
+          ],
+          "key_findings": "Bilateral asymmetrical SNHL with poor reliability. Low-frequency loss rising to better thresholds in high frequencies (reverse slope configuration). Significant disagreement between PTA and SRT.",
+          "numeric_results": {
+            "Right_Ear_PTA": "62 dB HL",
+            "Left_Ear_PTA": "45 dB HL",
+            "Right_Ear_Configuration": "Moderate to severe SNHL at 250 Hz rising to slight loss at 8000 Hz",
+            "Left_Ear_Configuration": "Moderate SNHL at 250 Hz rising to within normal limits at 8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "SRTs were significantly better than PTAs (functional/non-organic pattern or neural dyssynchrony). WRS was disproportionately poor compared to pure tone thresholds.",
+          "numeric_results": {
+            "Right_Ear_SRT": "35 dB HL",
+            "Left_Ear_SRT": "30 dB HL",
+            "Right_Ear_WRS": "12% at 105 dB HL",
+            "Left_Ear_WRS": "52% at 90 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Consistent with normal middle ear function.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Ipsilateral and contralateral acoustic reflex thresholds were absent bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAEs)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.2"
+          ],
+          "key_findings": "Robust DPOAEs present bilaterally despite 'moderate to severe' behavioral thresholds. This preserves outer hair cell function, contrasting with absent reflexes.",
+          "numeric_results": {
+            "Range": "Present at 750 to 8000 Hz bilaterally"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Specialized Diagnostics",
+      "history": {
+        "present_illness": "Follow-up testing recommended due to inconsistent audiological results (mismatch between PTA, SRT, and OAEs) and reports of dizziness.",
+        "otologic_history": "Previous findings suggestive of Auditory Neuropathy Spectrum Disorder (ANSD).",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "Ongoing dizziness and imbalance.",
+        "prior_management": "Referral for ABR and Vestibular Function Testing.",
+        "patient_goals": "Definitive diagnosis."
+      },
+      "tests": [
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.3"
+          ],
+          "key_findings": "No repeatable neural responses at high intensities. Cochlear Microphonic (CM) present and reverses with polarity, confirming outer hair cell function and neural dyssynchrony consistent with ANSD.",
+          "numeric_results": {
+            "Neural_Response": "Absent at 85 dB nHL",
+            "Cochlear_Microphonic": "Present bilaterally, reverses with polarity"
+          }
+        },
+        {
+          "name": "Vestibular Function Testing (VNG/Calorics)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal ocular motility. Bilaterally abnormal caloric responses indicating peripheral vestibular weakness.",
+          "numeric_results": {
+            "Total_Caloric_Response": "13 deg/sec (significantly reduced, <30 deg/sec is abnormal)"
+          }
+        },
+        {
+          "name": "Rotational Chair (SHA)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Abnormally reduced vestibulo-ocular reflex (VOR) gain across multiple frequencies.",
+          "numeric_results": {}
+        },
+        {
+          "name": "VEMPs (cVEMP and oVEMP)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Absent bilaterally, suggesting dysfunction of both superior and inferior vestibular nerve divisions.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a classic profile of Auditory Neuropathy Spectrum Disorder (ANSD) and concurrent vestibular neuropathy. Behavioral audiometry shows a fluctuating, low-frequency sensorineural hearing loss with extremely poor word recognition that is disproportionate to pure-tone thresholds. Objective testing confirms the diagnosis: Otoacoustic emissions and Cochlear Microphonics are preserved (indicating normal outer hair cell function), while ABR neural components and acoustic reflexes are absent (indicating neural dyssynchrony). Vestibular testing reveals a bilateral peripheral vestibular weakness affecting both the superior and inferior vestibular nerves.",
+  "counseling_points": [
+    "Your test results show a condition called Auditory Neuropathy Spectrum Disorder (ANSD). This means your inner ear organ is working, but the connection to the hearing nerve is not firing synchronously.",
+    "This explains why you can hear sounds (tones) but have great difficulty understanding speech clearly.",
+    "You also have weakness in the balance nerves of both ears, which explains your unsteadiness and dizziness.",
+    "Because this involves both hearing and balance nerves, we need to investigate underlying causes. We are referring you to Neurology and Genetic Counseling.",
+    "Traditional hearing aids may not provide enough clarity. We will evaluate you for a Cochlear Implant, which can often bypass the damaged nerve area.",
+    "Vestibular Rehabilitation Therapy (VRT) is recommended to help your brain compensate for the balance weakness."
+  ],
+  "notes_for_actor": [
+    "Portray significant difficulty understanding speech, even when the speaker is loud. It sounds 'garbled' rather than just quiet.",
+    "You are anxious and distressed about the sudden onset of these symptoms.",
+    "When performing pure-tone audiometry, be inconsistent with your button presses (poor reliability).",
+    "Describe your dizziness not as spinning vertigo, but as a constant feeling of being off-balance, unsteady, or like the world is bobbing (oscillopsia) when you walk."
+  ]
+}

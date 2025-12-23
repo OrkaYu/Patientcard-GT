@@ -1,0 +1,134 @@
+{
+  "case_id": "Case019",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Auditory Neuropathy Spectrum Disorder (ANSD)",
+      "rationale_short": "Indicated by absent acoustic reflexes, robust OAEs, and degraded ABR waveforms despite mild-to-moderate SNHL."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural Hearing Loss (Cochlear)",
+      "rationale_short": "Initial audiogram suggested cochlear loss, but ruled out by the presence of robust OAEs and absent reflexes."
+    },
+    {
+      "rank": 3,
+      "label": "Central Auditory Processing Disorder (CAPD)",
+      "rationale_short": "Patient showed deficits on CAPD battery, but these are likely secondary to the neural dyssynchrony of ANSD."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition in quiet."
+      },
+      {
+        "action": "Tympanometry & Reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and the acoustic reflex arc."
+      },
+      {
+        "action": "Speech-in-noise (SPIN)",
+        "urgency": "routine",
+        "rationale_short": "To investigate complaints of poor hearing aid benefit in noise."
+      },
+      {
+        "action": "Otoacoustic Emissions (OAEs)",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function and differentiate cochlear from neural pathology."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To assess neural synchrony and integrity of the auditory pathway."
+      },
+      {
+        "action": "CAPD Battery",
+        "urgency": "routine",
+        "rationale_short": "To quantify auditory processing deficits in difficult listening environments."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial testing showed bilateral mild-to-moderate sensorineural hearing loss with normal middle ear pressure but absent acoustic reflexes. While word recognition in quiet was good, performance in noise with hearing aids was significantly worse than unaided performance, validating the patient's complaints.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Bilateral symmetrical mild-to-moderate SNHL, sloping from 35-40 dB HL in lows to 50-60 dB HL in highs."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRTs 33-35 dB HL; WRS 80-90% at 80 dB HL; no rollover."
+          },
+          {
+            "name": "Tympanometry & Reflexes",
+            "result_summary": "Normal Type A tympanograms; absent ipsilateral and contralateral acoustic reflexes at 500-4000 Hz."
+          },
+          {
+            "name": "Speech-in-noise (SPIN)",
+            "result_summary": "In noise (65 dB SPL), HP score dropped from 54% (unaided) to 18% (aided), confirming hearing aids were detrimental in noise."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Diagnostic testing confirmed Auditory Neuropathy Spectrum Disorder (ANSD). The combination of robust OAEs (normal outer hair cell function) and absent/degraded ABR waveforms (neural dyssynchrony) is diagnostic. Behavioral testing revealed severe temporal processing deficits.",
+        "tests": [
+          {
+            "name": "Otoacoustic Emissions (OAEs)",
+            "result_summary": "TEOAEs and DPOAEs present with abnormally large amplitudes bilaterally."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "result_summary": "Significantly degraded morphology; no repeatable Wave I; questionable Waves III/V; no prominent cochlear microphonic."
+          },
+          {
+            "name": "CAPD Battery",
+            "result_summary": "Poor performance on LPFS, CS, TPDD, RGDT (no gap detection <40ms), and MLD (0 dB release); normal Frequency Pattern."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to otologist and neurologist for comprehensive otoneurological assessment",
+      "Communication training (nonauditory strategies)",
+      "Use of hearing aids in quiet environments only",
+      "Removal of hearing aids in noisy environments",
+      "Consideration of cochlear implants if difficulties persist"
+    ],
+    "counseling_actions": [
+      "Explained ANSD diagnosis as a disorder of neural timing/synchrony rather than just sensitivity",
+      "Explained why hearing aids amplify noise/distortion in this condition",
+      "Discussed visual communication strategies (e.g., lip reading, cued speech)",
+      "Counseled on the option to return hearing aids for credit"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist and Neurologist",
+      "rationale_short": "To investigate the etiology of ANSD and rule out other neurological conditions."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Following medical assessment",
+    "objective": "Return for communication training and ongoing management."
+  },
+  "expected_outcome": [
+    "Diagnosis of bilateral Auditory Neuropathy Spectrum Disorder (ANSD) confirmed.",
+    "Patient elected to continue using hearing aids in quiet but remove them in noise.",
+    "Patient agreed to complete otoneurological assessment.",
+    "Patient agreed to return for communication training."
+  ]
+}

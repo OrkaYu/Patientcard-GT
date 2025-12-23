@@ -1,0 +1,123 @@
+{
+  "case_id": "case_8",
+  "title": "Bilateral Vestibular Schwannomas (NF2) and Cochlear Implantation",
+  "demographics": {
+    "age_years": 75,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I suddenly lost the last bit of hearing I had in my left ear back in February. I can't hear anything at all now, and I have to write notes just to communicate with people.",
+  "problem_summary": {
+    "onset": "Sudden loss in right ear ~35 years ago; gradual decline in left ear until sudden complete loss in Feb 2008.",
+    "course": "Progressive/Sudden stepwise.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Occasional imbalance, inability to modulate voice volume (shouting). Denies vertigo, otalgia, or tinnitus.",
+    "functional_impact": "Reliance on written communication; shouting due to lack of auditory feedback.",
+    "goals_motivation": "Interested in cochlear implants to improve communication and voice modulation."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2008-05-01",
+      "setting": "Audiology and Otolaryngology Clinic",
+      "history": {
+        "present_illness": "Patient presented following sudden hearing loss in the left ear in Feb 2008. Prior to this, he had some residual hearing in the left ear but had not used amplification since 1989.",
+        "otologic_history": "Right ear sudden loss ~35 years prior; diagnosed with vestibular schwannoma (VS) at that time but refused surgery. No history of ear infections or surgeries.",
+        "noise_exposure_history": "History of exposure to machinery and guns; reported wearing ear protection most of the time.",
+        "medical_psych_history": "Suspected Neurofibromatosis type 2 (NF2) due to bilateral masses. Subcutaneous lipomas identified. Minimal risk of depression noted by psychologist.",
+        "prior_management": "Briefly tried bilateral hearing aids recently with no benefit. Never used HA in right ear previously.",
+        "patient_goals": "To communicate without writing and modulate voice volume."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Bilateral profound sensorineural hearing loss. No response to pure-tone signals at the limits of the audiometer.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "No Response at limits",
+            "Left_Ear_Thresholds": "No Response at limits"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Profound loss confirmed by speech awareness thresholds.",
+          "numeric_results": {
+            "Left_SAT": "100 dB HL",
+            "Right_SAT": "No Response"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "CI Candidacy",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Aided testing with bilateral hearing aids programmed to NAL-NL1 targets. HINT sentences presented in quiet.",
+          "numeric_results": {
+            "HINT_Quiet_70dBA": "0%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Diagnostic Imaging (MRI)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.1"
+          ],
+          "key_findings": "MRI with gadolinium revealed bilateral masses consistent with vestibular schwannomas (VS).",
+          "numeric_results": {
+            "Left_Mass": "1.8 cm (filling IAC, extending to CPA)",
+            "Right_Mass": "4.4 mm (intracanalicular, extending to labyrinth)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Vestibular Assessment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "key_findings": "VNG and cVEMPs performed. Results suggestive of bilateral vestibular hypofunction.",
+          "numeric_results": {
+            "cVEMPs_500Hz_95dB": "Absent bilaterally",
+            "Caloric_Responses": "No measurable response (warm or ice water)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral profound sensorineural hearing loss and bilateral vestibular hypofunction. Audiometry shows no responses at equipment limits, with a Speech Awareness Threshold of 100 dB HL in the left ear only. Aided speech recognition is 0%. Imaging confirms bilateral vestibular schwannomas, leading to a diagnosis of NF2.",
+  "counseling_points": [
+    "Due to the large tumor size on the left, a cochlear implant is not viable for that ear.",
+    "The right ear is a candidate for CI because the tumor is small and the cochlear nerve appears intact.",
+    "Expectations must be realistic: You have not heard in the right ear for 35 years, which may limit speech understanding success.",
+    "If the tumor on the right grows, it could impact the implant's function or require removal of the device.",
+    "An auditory brainstem implant (ABI) is not currently considered because tumor removal is not part of the plan."
+  ],
+  "notes_for_actor": [
+    "You are profoundly deaf. You cannot hear the audiologist at all.",
+    "You should shout when speaking because you cannot hear your own voice to modulate the volume.",
+    "You rely entirely on written notes to understand what others are saying.",
+    "You are generally resistant to tumor surgery (refused it 35 years ago) but are motivated to try the implant for communication."
+  ]
+}

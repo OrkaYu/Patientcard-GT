@@ -1,0 +1,124 @@
+{
+  "case_id": "case_54",
+  "title": "Amplification for Mixed Hearing Loss",
+  "demographics": {
+    "age_years": 40,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am here for a second opinion regarding the sudden hearing loss in my right ear. Sounds are extremely painful in that ear, and I am having significant difficulty communicating.",
+  "problem_summary": {
+    "onset": "Longstanding bilateral otosclerosis; sudden hearing loss in the right ear occurred a few weeks after a healed tympanic membrane perforation.",
+    "course": "Right stapedotomy 10 years ago provided initial improvement. Recent sudden drop in right hearing was treated with oral steroids and one intratympanic injection without improvement.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Right ear aural fullness, tinnitus, and extreme sensitivity to sound (hyperacusis).",
+    "functional_impact": "Significant difficulty communicating due to combined mixed loss in left ear and new sudden loss/sensitivity in right ear.",
+    "goals_motivation": "Seeking second opinion and treatment options; currently using a loaner Pocketalker."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-06-18",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports no improvement after first dexamethasone injection. Wears an earplug in the right ear due to loudness discomfort.",
+        "otologic_history": "Bilateral otosclerosis. Right stapedotomy ~10 years ago. Recent right otitis media and perforation (healed).",
+        "prior_management": "Oral steroids, acyclovir, clindamycin (no benefit). One intratympanic injection.",
+        "patient_goals": "Improve communication; currently using loaner Pocketalker."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-injection (2 weeks)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 54.1"
+          ],
+          "key_findings": "Right ear: Severe mixed hearing loss (250-2000 Hz), rising to moderate SNHL at 3000 Hz, sloping to severe SNHL (4000-6000 Hz). Left ear: Moderate-to-severe mixed hearing loss. Masking was limited by patient discomfort (right) and magnitude of loss (left).",
+          "numeric_results": {
+            "Right_AC_Thresholds": "Severe mixed range (approx 70-90 dB HL)",
+            "Left_AC_Thresholds": "Moderate-severe mixed range (approx 60-70 dB HL)",
+            "Left_Air_Bone_Gap": "Present (Bone thresholds approx 20-35 dB HL)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-injection (2 weeks)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 54.1"
+          ],
+          "key_findings": "Left ear shows normal word recognition ability. Right ear word recognition could not be measured due to sound sensitivity.",
+          "numeric_results": {
+            "Left_SRT": "60 dB HL",
+            "Left_WRS": "100% at 80 dB HL",
+            "Right_SRT": "60 dB HL",
+            "Right_WRS": "DNT (Did Not Test due to discomfort)",
+            "Right_LDL": "10 dB SL (reported)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-injection (2 weeks)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not performed due to previous stapedotomy in the right ear and clinic protocol regarding surgically modified ears.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up two weeks after a second dexamethasone injection.",
+        "prior_management": "Second intratympanic injection performed after V1.",
+        "patient_goals": "Determine if hearing improved; medical clearance for amplification."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Left ear stable. Right ear hearing decreased slightly. Otologist decided against further injections or surgery on the left ear.",
+          "numeric_results": {
+            "Right_Ear_Change": "Decrease by 10 dB HL at 500 and 3000 Hz; Decrease by 25 dB HL at 6000 and 8000 Hz"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a complex bilateral mixed hearing loss. The left ear shows a stable moderate-to-severe mixed loss with excellent word recognition. The right ear (post-stapedotomy) has a severe mixed/sensorineural loss with extreme hyperacusis (LDLs at 10 dB SL) and unmeasurable word recognition. The asymmetry and right-sided tolerance issues present significant challenges for standard binaural amplification.",
+  "counseling_points": [
+    "Due to the extreme sensitivity in your right ear, putting a hearing aid in that ear is not recommended right now.",
+    "We can consider a 'BiCROS' system: a microphone on your right ear sends sound to a hearing aid in your left ear, so you can hear sounds from both sides through your better ear.",
+    "Another option is a single hearing aid for just your left ear, though you would still miss sounds from your right side.",
+    "Communication strategies are vital: face each other, stay within 3 feet, and choose quiet areas for conversation."
+  ],
+  "notes_for_actor": [
+    "You are extremely sensitive to loud sounds in your right ear. You should wear an earplug in the right ear during the examination.",
+    "React with visible discomfort if the audiologist plays loud sounds or speaks too loudly near your right side.",
+    "You are anxious about your communication difficulties but hesitant about devices that might make things too loud."
+  ]
+}

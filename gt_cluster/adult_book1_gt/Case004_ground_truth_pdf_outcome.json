@@ -1,0 +1,112 @@
+{
+  "case_id": "Case004",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Functional hearing loss",
+      "rationale_short": "Significant inconsistencies between voluntary thresholds (mixed loss) and objective measures (Type A tympanograms, present acoustic reflexes); poor agreement between SRT and PTA in the right ear."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To inspect the external ear canal and tympanic membrane."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc and cross-check behavioral thresholds."
+      },
+      {
+        "action": "Pure-tone Stenger test",
+        "urgency": "routine",
+        "rationale_short": "To check for non-organic unilateral hearing loss."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a voluntary audiogram suggesting unilateral moderately severe mixed hearing loss in the left ear. However, significant internal inconsistencies suggest functional (non-organic) hearing loss. Specifically, the presence of normal ipsilateral acoustic reflexes and Type A tympanograms in the left ear contradicts the voluntary display of a mixed loss with a conductive component. Additionally, the Right Ear SRT is elevated relative to the pure-tone average.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Clear external canals bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Slight hearing loss at 250 Hz and 3000-8000 Hz; normal at 500-2000 Hz. Left ear: Moderately severe mixed hearing loss (flat configuration approx 60-70 dB HL) with air-bone gap (approx 40-45 dB HL), but validity is questionable."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear SRT (26 dB HL) elevated compared to PTA (poor agreement). Left ear SRT (56 dB HL) agrees with voluntary PTA but WRS is very poor (26% at 92 dB HL)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear function bilaterally (Type A), which contradicts the air-bone gap seen in the Left Ear pure-tone thresholds."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal ipsilateral reflexes present at 500-1000 Hz bilaterally (RE 95/90 dB, LE 85/85 dB). Presence in LE is inconsistent with the degree of mixed/conductive loss presented on the audiogram."
+          },
+          {
+            "name": "Pure-tone Stenger test",
+            "category": "Special Test",
+            "result_summary": "Negative at 500 and 1000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Reinstruction and retesting",
+      "Referral for electrophysiological testing (ABR and ASSR)",
+      "Referral for repeat audiogram"
+    ],
+    "counseling_actions": [
+      "Counsel patient on test inconsistencies",
+      "Reinstruct on test procedures to ensure understanding",
+      "Counsel regarding suspicion of functional hearing loss"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Electrophysiological testing (ABR/ASSR)",
+      "rationale_short": "To estimate organic hearing sensitivity due to unreliable behavioral results."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Soon",
+    "objective": "Obtain objective thresholds via ABR/ASSR and repeat behavioral testing."
+  },
+  "expected_outcome": [
+    "ASSR test results indicated hearing to be within normal limits in the right ear and a mild to moderate hearing loss in the left ear at 250 to 2000 Hz.",
+    "ABR waveforms were established with Wave V peaks identified at 40 dB nHL bilaterally, indicating no more than a mild hearing loss in either ear between 2000 and 4000 Hz.",
+    "The patient was counseled regarding the results and that a functional hearing loss was suspected.",
+    "The patient was referred for a repeat audiogram."
+  ]
+}

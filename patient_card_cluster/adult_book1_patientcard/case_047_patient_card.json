@@ -1,0 +1,163 @@
+{
+  "case_id": "case_47",
+  "title": "Do You Hear What I Hear?",
+  "demographics": {
+    "age_years": null,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I am hearing voices and radio or television signals through my hearing aids.",
+  "problem_summary": {
+    "onset": "Symptoms began recently, approximately 8 months after receiving new hearing aids.",
+    "course": "Patient was initially pleased, then experienced weakness in aids at 4 months (resolved with cleaning), and now reports auditory hallucinations/interference at 8 months.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Hearing voices, radio signals; previously reported weak amplification.",
+    "functional_impact": "Distracting and concerning; patient believes he is picking up radio signals.",
+    "goals_motivation": "Wants to stop hearing voices/signals and ensure aids are working."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "8 months prior to current visit",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Fitting of fourth pair of hearing aids. Patient is an experienced user (20 years).",
+        "otologic_history": "Long-standing hearing loss.",
+        "noise_exposure_history": "Occupational exposure likely (automotive mechanic).",
+        "medical_psych_history": "None noted.",
+        "prior_management": "Previous hearing aids worn for 20 years.",
+        "patient_goals": "Improved hearing."
+      },
+      "tests": [
+        {
+          "name": "Electroacoustic Analysis (2-cc coupler)",
+          "timepoint_label": "Dispensing (Baseline)",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 47.1"
+          ],
+          "key_findings": "Hearing aids met manufacturer specifications. Patient reported best hearing in 20 years.",
+          "numeric_results": {
+            "OSPL90_peak": "124 dB SPL @ 1600 Hz",
+            "Avg_OSPL90": "118 dB SPL",
+            "Avg_Gain_50dB_Input": "44 dB",
+            "Equivalent_Input_Noise": "35 dB",
+            "Distortion_500Hz": "3%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "4 months prior to current visit",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned for scheduled maintenance reporting dissatisfaction. Felt aids were providing less amplification than at dispensing.",
+        "otologic_history": "No changes reported.",
+        "noise_exposure_history": "Continued work as mechanic.",
+        "medical_psych_history": "Work environment involves high heat and humidity (summer months).",
+        "prior_management": "Daily use of hearing aids.",
+        "patient_goals": "Restore loudness/clarity."
+      },
+      "tests": [
+        {
+          "name": "Electroacoustic Analysis (2-cc coupler)",
+          "timepoint_label": "4-month check",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 47.1"
+          ],
+          "key_findings": "Initial analysis confirmed aids were not functioning properly (reduced gain). After cleaning microphones/receivers and dehumidifying, performance returned to optimal.",
+          "numeric_results": {
+            "OSPL90_peak": "122 dB SPL @ 1600 Hz",
+            "Avg_OSPL90": "115 dB SPL",
+            "Avg_Gain_50dB_Input": "41 dB (Decreased from baseline)",
+            "Equivalent_Input_Noise": "39 dB",
+            "Distortion_500Hz": "5%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "Current Visit",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports hearing aids are receiving radio/TV signals and he hears voices when wearing them. Voices are indiscernible, like a radio tuned between stations.",
+        "otologic_history": "No changes.",
+        "noise_exposure_history": "Continued work in auto repair (dust, sweat, heat).",
+        "medical_psych_history": "Denies history of hallucinations without aids.",
+        "prior_management": "Uses desiccant jar (reminded at last visit).",
+        "patient_goals": "Resolve the 'voices'."
+      },
+      "tests": [
+        {
+          "name": "Physical Inspection",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Accumulation of moisture and rust found in the battery compartments of both instruments.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Listening Check",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Auditorially very uncomfortable for the clinician; instruments were amplifying at an unusually high output level.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Electroacoustic Analysis (2-cc coupler)",
+          "timepoint_label": "8-month check",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table 47.1"
+          ],
+          "key_findings": "Significant increase in gain and noise floor compared to baseline, consistent with moisture damage/internal component issues.",
+          "numeric_results": {
+            "OSPL90_peak": "121 dB SPL @ 1500 Hz",
+            "Avg_Gain_50dB_Input": "54 dB (Significant increase from 44 dB baseline)",
+            "Equivalent_Input_Noise": "46 dB (Significant increase from 35 dB baseline)",
+            "Distortion_500Hz": "7%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient is an experienced hearing aid user working in a high-humidity, dusty environment (automotive repair). While initial fitting was successful, subsequent visits revealed performance fluctuations driven by moisture ingress. The current presentation of 'hearing voices' correlates with electroacoustic findings of excessive gain and high internal noise floors caused by sweat and debris accumulation, rather than psychiatric auditory hallucinations.",
+  "counseling_points": [
+    "The 'voices' you are hearing are actually internal noise and static caused by moisture damage in the hearing aid circuits, not radio signals.",
+    "Your work environment (heat, sweat, dust) is very harsh on hearing aids.",
+    "We need to send the aids for repair and apply a protective internal coating.",
+    "You must use an electronic dehumidifier every night, not just the standard jar."
+  ],
+  "notes_for_actor": [
+    "Portray a rational person who is confused and slightly concerned about hearing voices, but convinced it is a technical issue (radio signals) rather than a mental health one.",
+    "Emphasize that you work in a hot garage and sweat a lot.",
+    "Express relief when told the 'voices' are just the hearing aids malfunctioning."
+  ]
+}

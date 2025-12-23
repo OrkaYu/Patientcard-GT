@@ -1,0 +1,197 @@
+{
+  "case_id": "case_66",
+  "title": "Recommendation and Verification of a Personally Worn FM System",
+  "demographics": {
+    "age_years": 68,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I do not hear well with my current hearing aids, especially in group settings and noisy environments. I am constantly asking others to repeat, and I use captions on the television to follow the dialogue.",
+  "problem_summary": {
+    "onset": "Hearing loss first evident in high school.",
+    "course": "Progressive; began investigating hearing aids approximately 15 years ago.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Constant bilateral tinnitus (louder in left ear); history of positional vertigo 1 year ago (resolved with Epley maneuver).",
+    "functional_impact": "Significant difficulty in noise and groups; previous gain increases by audiologist did not improve communication; often reduces volume to prevent discomfort.",
+    "goals_motivation": "Improve communication in noisy environments and group settings."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2010-08-12",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports progressive hearing loss since high school. Currently wears bilateral BTEs but reports poor benefit in noise.",
+        "otologic_history": "Denies otalgia. Reports familial history of progressive hearing loss (father). History of BPPV (resolved).",
+        "noise_exposure_history": "Denies excessive noise exposure.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Has worn hearing aids for ~15 years. Current BTEs adjusted with increased gain previously, which caused discomfort without improving clarity.",
+        "patient_goals": "Better hearing in noise."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 66.1"
+          ],
+          "key_findings": "Right ear: Mild SNHL (250-6000 Hz) sloping to moderate at 8000 Hz. Left ear: Mild SNHL (250-500 Hz) sloping to moderate (1000-8000 Hz).",
+          "numeric_results": {
+            "RE_AC_Thresholds": "25-30 dB HL at low freqs sloping to ~55 dB HL at 8 kHz",
+            "LE_AC_Thresholds": "30-35 dB HL at low freqs sloping to ~60-65 dB HL at high freqs"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 66.1"
+          ],
+          "key_findings": "SRTs mildly (Right) to moderately (Left) impaired. Word recognition scores are poor bilaterally (approx 50%) despite presentation at most intelligible levels.",
+          "numeric_results": {
+            "RE_SRT": "40 dB HL",
+            "LE_SRT": "45 dB HL",
+            "RE_WRS": "52% (at 80 dB HL / 40 dB SL)",
+            "LE_WRS": "50% (at 85 dB HL / 40 dB SL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 66.1"
+          ],
+          "key_findings": "Normal tympanograms (Type A).",
+          "numeric_results": {
+            "RE_ECV": "1.4 mL",
+            "LE_ECV": "1.4 mL",
+            "RE_Peak_Pressure": "20 daPa",
+            "LE_Peak_Pressure": "0 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 66.1"
+          ],
+          "key_findings": "Ipsilateral reflexes normal (500-4000 Hz). Contralateral reflexes elevated or absent. Decay testing could not be performed.",
+          "numeric_results": null
+        },
+        {
+          "name": "Loudness Discomfort Levels (LDLs)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 66.1"
+          ],
+          "key_findings": "Frequency-specific loudness judgments performed to measure LDLs.",
+          "numeric_results": {
+            "RE_500Hz": "80 dB HL (94.4 dB SPL)",
+            "RE_1000Hz": "90 dB HL (102.0 dB SPL)",
+            "RE_2000Hz": "80 dB HL (95.1 dB SPL)",
+            "RE_4000Hz": "85 dB HL (104.0 dB SPL)",
+            "LE_500Hz": "80 dB HL (95.5 dB SPL)",
+            "LE_1000Hz": "90 dB HL (100.7 dB SPL)",
+            "LE_2000Hz": "85 dB HL (103.2 dB SPL)",
+            "LE_4000Hz": "85 dB HL (96.1 dB SPL)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Fitting of new amplification and FM system.",
+        "otologic_history": "N/A",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "Selected Phonak Exelia Art M BTEs and Phonak SmartLink+ transmitter with MyLink+ neckloop.",
+        "patient_goals": "Verify fitting and FM transparency."
+      },
+      "tests": [
+        {
+          "name": "Real-ear measures (REM)",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 66.2",
+            "Fig. 66.3"
+          ],
+          "key_findings": "Hearing aids programmed to NAL-NL1 targets. Measured REIG matched targets closely for 50, 65, and 80 dB SPL inputs. RESR90 curves corresponded appropriately to LDLs.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 66.5",
+            "Fig. 66.6"
+          ],
+          "key_findings": "FM Verification. Telecoil response verified (RSETS > 0 dB). FM transparency verified (EFMHA65 within 2 dB of EHA65).",
+          "numeric_results": {
+            "Right_RSETS": "0.9 dB",
+            "Left_RSETS": "2.4 dB",
+            "Right_Transparency_Diff": "4 dB (EFMHA65 > EHA65)",
+            "Left_Transparency_Diff": "1 dB (EFMHA65 > EHA65)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral mild-to-moderate sensorineural hearing loss with flat to sloping configuration. Despite the degree of loss, word recognition scores are disproportionately poor (50-52% bilaterally), suggesting significant cochlear distortion or retrocochlear involvement (though reflexes/decay were inconclusive/absent). This explains the limited benefit from previous amplification strategies that focused solely on gain.",
+  "counseling_points": [
+    "Your hearing test shows a mild-to-moderate hearing loss, but more importantly, your ability to understand words is significantly reduced (around 50%).",
+    "Because of this 'clarity' issue, simply making sounds louder with hearing aids won't fix the distortion—it's like turning up the volume on a fuzzy radio station.",
+    "To help you hear in noise, we are recommending an FM system. This acts like a direct wire from the speaker to your ears, bypassing the background noise.",
+    "You will need to have the person you want to hear speak into the FM microphone for it to work effectively."
+  ],
+  "notes_for_actor": [
+    "Portray frustration with your current hearing aids—they make things loud, but you still can't understand words, especially in crowds.",
+    "You are motivated to try new technology (FM system) because you are socially withdrawing (e.g., dining out, playing cards).",
+    "You rely heavily on TV captions and are tired of asking people to repeat themselves."
+  ]
+}

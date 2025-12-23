@@ -1,0 +1,109 @@
+{
+  "case_id": "Case056",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Single-Sided Deafness (SSD)",
+      "rationale_short": "Profound sensorineural hearing loss in the left ear ('dead ear') with aidable hearing in the right ear."
+    },
+    {
+      "rank": 2,
+      "label": "Mixed Hearing Loss (Right Ear)",
+      "rationale_short": "History of mastoidectomy and facial nerve decompression with progressive conductive component and sensorineural loss."
+    },
+    {
+      "rank": 3,
+      "label": "Profound Sensorineural Hearing Loss (Left Ear)",
+      "rationale_short": "History of sudden hearing loss, stapes surgery, and perilymphatic fistula with no measurable hearing."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech recognition abilities and potential for amplification benefit."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status given history of surgeries and chronic disease."
+      },
+      {
+        "action": "Real-ear measures (Probe Microphone)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid output against prescriptive and transcranial targets."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results confirm a 'dead' left ear with profound sensorineural loss and a right ear with profound mixed loss. The right ear retains good speech recognition at high levels and has bone conduction thresholds (~30-40 dB HL) sufficient to support transcranial transmission of sound from the left side.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear: Profound loss (no response > 110 dB HL). Right ear: Mixed loss; profound in lows/highs, moderate in mids (1500-3000 Hz). Right BC avg ~30-40 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 74 dB HL, WRS 88% at 104 dB HL. Left SAT 85 dB HL, WRS 0% at 104 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Flat tympanograms (Type B) bilaterally, consistent with history of middle ear disease and surgery."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Fitting and verification of a Transcranial CROS (Left CIC) and Conventional Right CIC. Real-ear measures confirmed that the left aid met transcranial crossover targets and the right aid met DSL v5.0 targets, ensuring audibility and comfort.",
+        "tests": [
+          {
+            "name": "Real-ear measures (Probe Microphone)",
+            "category": "Verification",
+            "result_summary": "Left ear (Transcranial CROS): Measured REAR for soft input (55 dB SPL) met the transcranial threshold targets (unmasked left thresholds representing crossover). Right ear: Soft, Moderate, and Loud inputs met DSL [i/o] 5.0 targets from 500-4000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit Transcranial CROS system (Left CIC high power) to route signal via bone conduction to right cochlea",
+      "Fit Conventional Hearing Aid (Right CIC)",
+      "Include push-button volume control on both aids for management of noisy environments",
+      "Ensure deep, tight fit for the left instrument to maximize transcranial transmission"
+    ],
+    "counseling_actions": [
+      "Explain the mechanism of Transcranial CROS (vibrating the skull to send sound to the better ear)",
+      "Discuss the benefits of CIC style for bicycle helmet use and telephone placement",
+      "Instruct on using the volume control for comfort in noise",
+      "Emphasize the need for regular hygiene and ear canal monitoring due to the deep fit and history of infections"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Regular 6-month monitoring of mastoid cavity and ear canal health is required due to history of chronic disease and exposed bone."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Every 6 months (per otologist schedule) or as needed",
+    "objective": "Monitor middle/outer ear health and verify continued benefit from amplification."
+  },
+  "expected_outcome": [
+    "The patient was provided with a solution that met his expectations and allowed him to successfully communicate at work and on the telephone.",
+    "The patient is able to hear while bicycle riding.",
+    "The patient reports using the volume control to provide listening comfort in specific, noisy listening situations."
+  ]
+}

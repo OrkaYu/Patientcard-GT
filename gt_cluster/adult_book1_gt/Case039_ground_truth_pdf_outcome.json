@@ -1,0 +1,163 @@
+{
+  "case_id": "Case039",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Superior Semicircular Canal Dehiscence (SSCD)",
+      "rationale_short": "Indicated by Tullio phenomenon, Hennebert sign, autophony, low-frequency conductive loss with preserved acoustic reflexes, and presence of cVEMP responses."
+    },
+    {
+      "rank": 2,
+      "label": "Perilymphatic Fistula",
+      "rationale_short": "Can present with pressure-induced vertigo (Hennebert sign) and hearing loss, but less likely to show the specific 'third window' audiometric pattern."
+    },
+    {
+      "rank": 3,
+      "label": "Ménière's Disease",
+      "rationale_short": "Causes episodic vertigo and low-frequency hearing loss, but typically sensorineural rather than conductive, and does not present with sound-induced vertigo."
+    },
+    {
+      "rank": 4,
+      "label": "Otosclerosis",
+      "rationale_short": "Causes low-frequency conductive hearing loss but is typically associated with absent acoustic reflexes, unlike the preserved reflexes seen here."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and identify any air-bone gaps."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and tympanic membrane mobility."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To check for retrocochlear pathology and middle ear muscle reflexes; preservation in conductive loss is a key sign of SSCD."
+      },
+      {
+        "action": "Office Examination (Valsalva)",
+        "urgency": "soon",
+        "rationale_short": "To test for pressure-induced nystagmus (Hennebert sign) indicative of a third window lesion."
+      },
+      {
+        "action": "Videonystagmography (VNG)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate vestibular function and rule out peripheral vestibular hypofunction."
+      },
+      {
+        "action": "cVEMP",
+        "urgency": "soon",
+        "rationale_short": "To assess saccular function; presence of response despite conductive loss suggests SSCD."
+      },
+      {
+        "action": "CT Scan",
+        "urgency": "soon",
+        "rationale_short": "High-resolution imaging to visualize the bone overlying the superior semicircular canal."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry revealed a mild low-frequency conductive hearing loss in the left ear with significant air-bone gaps. Paradoxically, acoustic reflexes were present at normal levels, and tympanometry was normal Type A. The patient reported dizziness during tympanometry and reflex testing, suggesting sound/pressure sensitivity.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal. Left ear mild conductive loss at 250-500 Hz with air-bone gaps (~35 dB at 250 Hz, ~25 dB at 500 Hz), rising to normal at 1000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal SRTs (RE 8 dB, LE 10 dB) and excellent WRS (100% bilaterally)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A bilaterally. Patient reported becoming 'slightly dizzy' during left ear testing."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at normal levels bilaterally (85-95 dB HL) despite left conductive loss. Patient reported dizziness and tilted left during stimulation."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Neurotology examination confirmed pressure-induced vestibular symptoms consistent with a superior canal dehiscence.",
+        "tests": [
+          {
+            "name": "Office Examination (Valsalva)",
+            "category": "Vestibular",
+            "result_summary": "Nose-pinch Valsalva evoked downbeating torsional nystagmus (fast-phase clockwise), suggesting superior semicircular canal involvement."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Vestibular testing showed normal VNG results but confirmed the presence of cVEMP responses in the left ear despite the conductive hearing loss, which is diagnostic for SSCD.",
+        "tests": [
+          {
+            "name": "Videonystagmography (VNG)",
+            "category": "Vestibular",
+            "result_summary": "Normal oculomotor, positional, and caloric results. No significant unilateral weakness (7% left) or directional preponderance."
+          },
+          {
+            "name": "cVEMP",
+            "category": "Vestibular",
+            "result_summary": "Responses present bilaterally. Left amplitude larger than right (though asymmetry ratio 23% considered normal). Presence of cVEMP despite conductive loss is the critical finding."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Imaging provided anatomical confirmation of the diagnosis.",
+        "tests": [
+          {
+            "name": "CT Scan",
+            "category": "Imaging",
+            "result_summary": "Revealed dehiscence (absence of bone) overlying the left superior semicircular canal."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical repair (plugging or resurfacing of the superior canal)",
+      "Vestibular therapy (post-operative)",
+      "Avoidance of triggers (loud sounds, straining) if surgery is declined"
+    ],
+    "counseling_actions": [
+      "Explain the 'third window' mechanism causing sound/pressure energy to leak into the vestibular system",
+      "Clarify that the hearing loss is not due to middle ear pathology despite the 'conductive' pattern",
+      "Discuss surgical options versus conservative management based on symptom severity"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurotology",
+      "rationale_short": "Referral for medical evaluation and CT imaging to confirm suspected Superior Semicircular Canal Dehiscence."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3 months post-surgery",
+    "objective": "Monitor resolution of vertigo, hyperacusis, and tinnitus, and assess vestibular compensation."
+  },
+  "expected_outcome": [
+    "Patient underwent a plugging procedure for her left SSCD and received vestibular therapy.",
+    "At 3 months post-surgery, patient reported marked improvement in vertigo, hyperacusis, and pulsatile tinnitus."
+  ]
+}

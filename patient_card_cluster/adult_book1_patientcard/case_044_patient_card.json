@@ -1,0 +1,178 @@
+{
+  "case_id": "case_44",
+  "title": "Fitting BICROS to a Patient with Long-Standing Unilateral Hearing Loss",
+  "demographics": {
+    "age_years": 67,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have noticed a decline in hearing in my left ear and have been having greater difficulty communicating in the last year. I am interested in hearing assistive devices to make it easier to communicate.",
+  "problem_summary": {
+    "onset": "Right ear hearing loss occurred 15 years ago following surgery. Left ear hearing loss is a recent decline.",
+    "course": "Right ear is stable (anacusis); Left ear is progressive/declining.",
+    "laterality": "Bilateral asymmetric (Right single-sided deafness; Left high-frequency loss).",
+    "associated_symptoms": "Tinnitus in the left ear (not bothersome), occasional pressure in the right ear.",
+    "functional_impact": "Previously functioned well with positioning strategies, but recent decline in the better ear has made communication difficult.",
+    "goals_motivation": "Highly motivated for amplification; interested in devices to improve communication but wishes to avoid surgery or dental work."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2011-05-25",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient lost all hearing in right ear 15 years ago post-acoustic neuroma removal. Recently noticed decline in left ear.",
+        "otologic_history": "Right acoustic tumor removal ~15 years ago. Occasional pressure in right ear.",
+        "noise_exposure_history": "Denied.",
+        "medical_psych_history": "Denies dizziness or familial history of hearing loss.",
+        "prior_management": "Active in acoustic tumor support group. Uses behavioral strategies (asking people to sit on left side).",
+        "patient_goals": "Investigate amplification options."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 44.1"
+          ],
+          "key_findings": "Right ear: No measurable hearing (anacusis). Left ear: Slight SNHL at 250 Hz, normal 500-2000 Hz, sloping to moderate SNHL at 6000-8000 Hz.",
+          "numeric_results": {
+            "Right_Thresholds": "No response at limits",
+            "Left_250Hz": "20 dB HL",
+            "Left_500Hz": "10 dB HL",
+            "Left_1000Hz": "5 dB HL",
+            "Left_2000Hz": "15 dB HL",
+            "Left_4000Hz": "45 dB HL",
+            "Left_8000Hz": "60 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 44.1"
+          ],
+          "key_findings": "Left ear shows excellent word recognition. Right ear had no response to spondees.",
+          "numeric_results": {
+            "Left_SRT": "15 dB HL",
+            "Left_WRS": "100% at 45 dB SL (approx 60 dB HL)",
+            "Right_SRT": "No Response",
+            "Right_WRS": "CNT"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 44.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right_ECV": "1.4 mL",
+            "Right_Peak_Pressure": "10 daPa",
+            "Left_ECV": "1.3 mL",
+            "Left_Peak_Pressure": "15 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 44.1"
+          ],
+          "key_findings": "Right ipsi/contra absent. Left ipsi normal 500-4000 Hz. Left contra present at 1000 Hz, elevated/absent at other frequencies.",
+          "numeric_results": {
+            "Left_Ipsi_500_4000Hz": "Present/Normal",
+            "Right_Ipsi_Contra": "Absent"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up for device selection and fitting.",
+        "prior_management": "Discussed TransEar, AOIS, SoundBite, and BICROS. Patient rejected surgical/dental options and deep-fit molds.",
+        "patient_goals": "Proceed with Phonak BICROS fitting."
+      },
+      "tests": [
+        {
+          "name": "Real-ear measurements (REM)",
+          "timepoint_label": "Fitting",
+          "ear": "left",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 44.2"
+          ],
+          "key_findings": "Verified fit of Phonak Audeo S Smart III (Left) using NAL-NL1 targets. Measurements showed appropriate gain and smooth frequency response.",
+          "numeric_results": {
+            "Inputs_Tested": "50, 65, 80 dB SPL",
+            "Fitting_Formula": "NAL-NL1"
+          }
+        },
+        {
+          "name": "Electroacoustic Analysis",
+          "timepoint_label": "Fitting",
+          "ear": "soundfield",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 44.3"
+          ],
+          "key_findings": "Transparency verification of the CROS transmitter. Output with transmitter ON was similar to hearing aid alone, confirming transparency.",
+          "numeric_results": {
+            "Average_Output_Aid_Only": "89.6 dB SPL",
+            "Average_Output_With_CROS": "95.2 dB SPL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with long-standing single-sided deafness in the right ear and a recently developed mild-to-moderate high-frequency sensorineural hearing loss in the left ear. Speech recognition remains excellent in the better (left) ear. Due to the hearing loss in the better ear, a BICROS solution was selected to provide amplification for the left ear while routing signals from the right side.",
+  "counseling_points": [
+    "The BICROS system will pick up sound from your right side and send it to your left ear, but it does not restore hearing in the right ear.",
+    "You will still have difficulty telling where sounds are coming from (localization) because you are hearing everything in one ear.",
+    "In noisy situations, noise from the right side will be sent to your left ear, which can sometimes be distracting, though the device has noise reduction features.",
+    "Since you have hearing loss in your 'good' ear, the device will also amplify sounds to help you hear high-pitched speech clearly on that side."
+  ],
+  "notes_for_actor": [
+    "You are comfortable with your long-standing single-sided deafness and have adapted well socially (e.g., asking people to sit on your good side).",
+    "Your main concern is the NEW decline in your 'good' ear, which is making your old coping strategies less effective.",
+    "You are resistant to surgical options (BAHA/AOIS) or devices requiring dental work (SoundBite).",
+    "You are practical and articulate about your communication needs."
+  ]
+}

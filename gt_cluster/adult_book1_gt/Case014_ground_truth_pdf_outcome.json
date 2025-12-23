@@ -1,0 +1,154 @@
+{
+  "case_id": "Case014",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Musical Hallucinations (Central Origin)",
+      "rationale_short": "Onset followed a TIA; characteristics (familiar songs, constant) and failure of masking suggest central pathology (cortical reorganization) rather than peripheral ear origin."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural Hearing Loss",
+      "rationale_short": "Bilateral moderate reversed trough-shaped hearing loss confirmed by pure-tone audiometry."
+    },
+    {
+      "rank": 3,
+      "label": "Tinnitus",
+      "rationale_short": "Patient reports buzzing/ringing in the left ear occurring simultaneously with the music in the right ear."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration given the complaint of auditory hallucinations and tinnitus."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech recognition ability in quiet."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear pathway integrity."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To assess functional hearing in noise (QuickSIN)."
+      },
+      {
+        "action": "Residual Inhibition assessment",
+        "urgency": "routine",
+        "rationale_short": "To determine if external noise can mask the musical hallucinations or provide residual inhibition."
+      },
+      {
+        "action": "Distortion-product otoacoustic emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function."
+      },
+      {
+        "action": "Spontaneous otoacoustic emissions (SOAEs)",
+        "urgency": "routine",
+        "rationale_short": "To investigate if spontaneous cochlear activity correlates with the musical perceptions."
+      },
+      {
+        "action": "Vestibular testing",
+        "urgency": "routine",
+        "rationale_short": "Comprehensive assessment (VNG, Dix-Hallpike, calorics) as part of a research study protocol."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with bilateral moderate reversed trough-shaped sensorineural hearing loss, with the right ear having slightly better low-frequency thresholds. Speech recognition is excellent in quiet but shows mild SNR loss in noise. DPOAEs are robust bilaterally. Interestingly, SOAEs are present in the right ear (where music is heard) and absent in the left, likely due to better hearing sensitivity in the right ear, though the hallucinations are believed to be central in origin. Residual inhibition testing failed to mask the music. Vestibular function is normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral moderate reversed trough-shaped sensorineural hearing loss (better hearing at 1000-4000 Hz). Right ear thresholds slightly better than left in low frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs 15 dB HL bilaterally. WRS 88% (Right) and 92% (Left) at 85 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral and contralateral reflexes present at expected levels."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "QuickSIN at 70 dB HL showed mild SNR loss (3.0 dB Right, 3.5 dB Left)."
+          },
+          {
+            "name": "Residual Inhibition assessment",
+            "category": "Tinnitus/Hallucination",
+            "result_summary": "Speech noise at 80 dB HL failed to mask musical perceptions or provide residual inhibition."
+          },
+          {
+            "name": "Distortion-product otoacoustic emissions (DPOAEs)",
+            "category": "OAEs",
+            "result_summary": "Present and robust at 750 to 8000 Hz bilaterally."
+          },
+          {
+            "name": "Spontaneous otoacoustic emissions (SOAEs)",
+            "category": "OAEs",
+            "result_summary": "Absent in the left ear; present in the right ear (1000-2000 Hz range). Patient heard music during the test."
+          },
+          {
+            "name": "Vestibular testing",
+            "category": "Vestibular",
+            "result_summary": "VNG, Dix-Hallpike, and bithermal caloric testing were all within normal limits."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit with bilateral mild gain digitally programmable BTE thin-tube hearing instruments.",
+      "Consideration of masking generators (excluded due to lack of masking effect).",
+      "Offer of neurological follow-up with pharmacological treatment (declined by patient)."
+    ],
+    "counseling_actions": [
+      "Explain that musical hallucinations likely stem from a central origin (brain) following the TIA, rather than the ear.",
+      "Discuss the presence of SOAEs in the right ear as a physiological 'echo' due to better hearing, likely unrelated to the hallucinations.",
+      "Advise that external sounds do not effectively mask the music.",
+      "Counsel on the use of hearing aids to improve communication and potentially help the brain process environmental sounds."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Referral for potential pharmacological management of hallucinations, though the patient initially declined this option."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3 months",
+    "objective": "Monitor hearing aid benefit and status of musical hallucinations."
+  },
+  "expected_outcome": [
+    "Patient elected to continue wearing hearing instruments.",
+    "After 3 months, patient reported significant improvement in ability to recognize speech.",
+    "Patient reported no or little reduction in musical hallucinations with hearing aid use.",
+    "Patient reported gradual habituation to the music and felt able to 'live with them'.",
+    "Patient rated the present perception as being about half as annoying compared to the initial perception."
+  ]
+}

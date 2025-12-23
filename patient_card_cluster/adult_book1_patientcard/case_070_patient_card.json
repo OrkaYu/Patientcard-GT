@@ -1,0 +1,124 @@
+{
+  "case_id": "case_70",
+  "title": "It’s Not All About the Hearing Aid",
+  "demographics": {
+    "age_years": 76,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "The patient reports that 'everyone else talks too fast, does not speak clearly, and mumbles.' He believes his family 'tells secrets' so he cannot hear them.",
+  "problem_summary": {
+    "onset": "Hearing loss has been present for over 15 years; significant subjective decline in the last 2 years.",
+    "course": "Progressive deterioration.",
+    "laterality": "Bilateral.",
+    "associated_symptoms": "Anger, frustration, suspicion/paranoia regarding family communication, social withdrawal.",
+    "functional_impact": "Severe strain on marital and family relationships; patient only communicates effectively with his 9-year-old granddaughter.",
+    "goals_motivation": "Patient is resistant to new amplification, believing the issue is others mumbling. Wife wants comfortable TV volume and improved communication."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-12-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient scheduled for follow-up due to continued difficulties despite wearing bilateral hearing aids (15 years total usage). Current aids are a 7-year-old BTE (Right) and 12-year-old BTE (Left). Reports significant conflict with wife and son regarding communication.",
+        "otologic_history": "History of melanoma on the helix of the right pinna (removed); patient believes earmold caused it.",
+        "noise_exposure_history": "History of noise exposure from years as a farmer.",
+        "medical_psych_history": "Displays considerable anger and frustration; believes family is intentionally excluding him.",
+        "prior_management": "Long-time hearing aid user (15 years).",
+        "patient_goals": "Initially stated he wanted to quit testing because 'it was a waste of time since I can't hear anything.'"
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 70.1"
+          ],
+          "key_findings": "Moderately severe to profound sensorineural hearing loss in the right ear and moderate to profound sensorineural hearing loss in the left ear. Symmetrical bone conduction thresholds indicate sensorineural nature.",
+          "numeric_results": {
+            "Right_PTA": "65 dB HL (per table)",
+            "Left_PTA": "66 dB HL (per table)",
+            "Right_Thresholds": "Slope from ~25 dB at 500Hz to ~80 dB at 4000Hz",
+            "Left_Thresholds": "Slope from ~35 dB at 500Hz to ~80 dB at 4000Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 70.1"
+          ],
+          "key_findings": "Word recognition scores (WRS) are very poor bilaterally, showing a significant decrease from the evaluation 2 years prior. Testing performed at reduced SL due to loudness recruitment.",
+          "numeric_results": {
+            "SRT_Right": "75 dB HL",
+            "SRT_Left": "65 dB HL",
+            "WRS_Right": "20% (at 95 dB HL)",
+            "WRS_Left": "24% (at 85 dB HL)"
+          }
+        },
+        {
+          "name": "Immittance",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 70.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally. Acoustic reflexes absent.",
+          "numeric_results": {
+            "Tympanogram_Type": "Type A bilateral",
+            "ECV_Right": "0.6 mL",
+            "ECV_Left": "0.5 mL",
+            "Static_Admittance_Right": "1.4 mL",
+            "Static_Admittance_Left": "1.6 mL",
+            "Peak_Pressure": "10 daPa (R) / -10 daPa (L)"
+          }
+        },
+        {
+          "name": "Self-Report Scales",
+          "timepoint_label": "Follow-up",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Clinician administered the Hearing Handicap Inventory for the Elderly (HHIE) and Client-Oriented Scale of Improvement (COSI) to assist in intervention planning.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, sloping, moderate-to-profound sensorineural hearing loss. Most notably, word recognition ability is extremely poor (20-24%), which is a significant decline from previous assessments and limits the potential benefit of amplification alone. Middle ear function is normal.",
+  "counseling_points": [
+    "Acknowledge the frustration and anger you are feeling; these are common reactions to communication breakdown.",
+    "Your word recognition scores indicate that even when sound is loud enough, clarity is a major challenge.",
+    "Hearing aids alone will not solve the communication issues; we need a rehabilitation plan involving your family.",
+    "We recommend a communication training program (like LACE) and family counseling strategies before finalizing new devices.",
+    "It is important to rule out any medical contributors to the decline, given your history of melanoma."
+  ],
+  "notes_for_actor": [
+    "Portray significant anger and defensiveness toward the clinician and family.",
+    "Insist that others are mumbling or whispering to keep secrets from you.",
+    "Show reluctance to participate in testing, claiming it is a waste of time.",
+    "Be dismissive of the idea that new hearing aids will help, citing mistrust of family communication."
+  ]
+}

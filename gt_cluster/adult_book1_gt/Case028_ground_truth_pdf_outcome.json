@@ -1,0 +1,157 @@
+{
+  "case_id": "Case028",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acquired Auditory Neuropathy Spectrum Disorder (ANSD)",
+      "rationale_short": "Right ear showed robust DPOAEs and Cochlear Microphonics (normal outer hair cell function) with absent ABR, absent acoustic reflexes, and poor speech recognition."
+    },
+    {
+      "rank": 2,
+      "label": "Profound Sensorineural Hearing Loss",
+      "rationale_short": "Left ear showed no responses on behavioral or electrophysiological testing, consistent with history of childhood deafness."
+    },
+    {
+      "rank": 3,
+      "label": "HIV Encephalopathy",
+      "rationale_short": "Underlying central nervous system pathology confirmed by CT, likely contributing to the auditory neuropathy."
+    },
+    {
+      "rank": 4,
+      "label": "Functional Hearing Loss",
+      "rationale_short": "Initial behavioral inconsistency suggested non-organic component, but electrophysiology confirmed organic neuropathy; functional overlay possible."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To assess ear canal and tympanic membrane status."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds and configuration."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and retrocochlear function."
+      },
+      {
+        "action": "Distortion-product otoacoustic emissions (DPOAE)",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function and distinguish sensory from neural loss."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To assess neural synchrony and confirm auditory neuropathy."
+      },
+      {
+        "action": "Auditory Steady-State Response (ASSR)",
+        "urgency": "soon",
+        "rationale_short": "To estimate frequency-specific thresholds objectively."
+      },
+      {
+        "action": "Late-latency responses (LLR)",
+        "urgency": "soon",
+        "rationale_short": "To assess cortical detection of sound."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial testing revealed a profound loss in the left ear. Right ear results were inconsistent; initial thresholds were severe-to-profound, but reinstruction yielded a Speech Awareness Threshold (SAT) of 25 dB HL and approximate thresholds of 50 dB HL. Despite this, word recognition was poor/absent. The key finding was the presence of robust DPOAEs in the right ear alongside absent acoustic reflexes and inconsistent behavioral thresholds, raising suspicion for Auditory Neuropathy or functional loss.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Normal anatomy and tympanic membranes bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Left ear: No response. Right ear: Inconsistent; SAT 25 dB HL, pure-tone thresholds approx 50 dB HL (unreliable), Bone 35 dB HL at 1kHz. Word recognition poor/inconsistent."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A (normal) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes bilaterally."
+          },
+          {
+            "name": "Distortion-product otoacoustic emissions (DPOAE)",
+            "category": "OAE",
+            "result_summary": "Left ear: Absent. Right ear: Robust emissions present, consistent with normal outer hair cell function."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Electrophysiological testing confirmed Acquired Auditory Neuropathy in the right ear. ABR showed a Cochlear Microphonic (indicating hair cell function) but no synchronous neural waves. ASSR was absent. However, Late-Latency Responses (LLR) were present in the right ear down to mild levels (15-20 dB), indicating sound was reaching the cortex despite brainstem dys-synchrony. Left ear remained unresponsive on all measures.",
+        "tests": [
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear: Cochlear Microphonic present (reverses with polarity); neural waves I-V absent. Left ear: Absent."
+          },
+          {
+            "name": "Auditory Steady-State Response (ASSR)",
+            "category": "Electrophysiology",
+            "result_summary": "Absent at all frequencies in both ears."
+          },
+          {
+            "name": "Late-latency responses (LLR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear: Responses observed down to 15 dB at 500 Hz and 20 dB at 2000 Hz. Left ear: Absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Assistive listening devices",
+      "Trial options (hearing aids or FM systems)"
+    ],
+    "counseling_actions": [
+      "Explain diagnosis of Auditory Neuropathy (inner ear works, nerve connection unsynchronized)",
+      "Discuss why speech understanding is poor despite detection of sound",
+      "Explain that traditional hearing aids may not clarify speech due to dys-synchrony",
+      "Relate condition to recent infections and treatments (HIV/meningitis)"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden hearing loss",
+      "Asymmetric hearing loss",
+      "Discrepancy between objective (OAE) and subjective/neural tests"
+    ],
+    "escalation": {
+      "urgency": "discontinue and refer now",
+      "destination": "Hospice care",
+      "rationale_short": "Patient diagnosed with terminal HIV encephalopathy and did not pursue audiological treatment."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "None",
+    "objective": "Patient discharged to hospice care and subsequently died."
+  },
+  "expected_outcome": [
+    "Transaxial CT images of the brain showed marked periventricular white matter disease, as well as white matter disease in the pons and the middle cerebral peduncle.",
+    "Patient was diagnosed with HIV encephalopathy.",
+    "Patient did not pursue audiological treatment options.",
+    "Patient was discharged under hospice care and died shortly thereafter."
+  ]
+}

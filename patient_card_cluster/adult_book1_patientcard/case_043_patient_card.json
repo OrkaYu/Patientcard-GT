@@ -1,0 +1,135 @@
+{
+  "case_id": "case_43",
+  "title": "Medical Professional with Hearing Loss Seeking Amplified Stethoscope",
+  "demographics": {
+    "age_years": 58,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I need a stethoscope that will amplify breath, lung, and heart sounds to compensate for my hearing loss. I have also noticed a decrease in my hearing recently.",
+  "problem_summary": {
+    "onset": "Hearing loss detected 7 years ago; recent perceived decrease.",
+    "course": "Stable for years, then recent decrease associated with vertigo episodes.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Vertigo (Ménière's disease), currently under control.",
+    "functional_impact": "Inability to detect breath/lung and heart sounds during standard auscultation procedures required for her job as a nurse practitioner.",
+    "goals_motivation": "Primary goal is to find an amplified stethoscope solution for work."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-03-21",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is a nurse practitioner reporting difficulty with auscultation. She has a history of Ménière's disease. Vertigo is currently controlled.",
+        "otologic_history": "Diagnosed with Ménière's disease 7 years ago at another facility.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Medically cleared by otology consult.",
+        "prior_management": "None specified regarding prior amplification.",
+        "patient_goals": "Wants an amplified stethoscope."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 43.1"
+          ],
+          "key_findings": "Bilateral symmetrical moderate to moderately severe sensorineural hearing loss, flat in configuration.",
+          "numeric_results": {
+            "Right_AC_250Hz": "45 dB HL",
+            "Right_AC_500Hz": "50 dB HL",
+            "Right_AC_1000Hz": "50 dB HL",
+            "Right_AC_2000Hz": "55 dB HL",
+            "Right_AC_4000Hz": "55 dB HL",
+            "Left_AC_250Hz": "50 dB HL",
+            "Left_AC_500Hz": "55 dB HL",
+            "Left_AC_1000Hz": "55 dB HL",
+            "Left_AC_2000Hz": "55 dB HL",
+            "Left_AC_4000Hz": "60 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 43.1"
+          ],
+          "key_findings": "SRTs consistent with pure-tone findings. Word recognition scores indicate slight loss in ability to recognize speech.",
+          "numeric_results": {
+            "Right_SRT": "45 dB HL",
+            "Left_SRT": "50 dB HL",
+            "Right_WRS": "88% (at 80 dB HL)",
+            "Left_WRS": "84% (at 80 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanic membrane mobility (Type A).",
+          "numeric_results": {
+            "Type": "A (Bilateral)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up for device selection and fitting.",
+        "patient_goals": "Integration of hearing aids with stethoscope."
+      },
+      "tests": [
+        {
+          "name": "Hearing Aid Fitting",
+          "timepoint_label": "Treatment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient fit with bilateral RITE hearing instruments and a Bluetooth-enabled amplified stethoscope.",
+          "numeric_results": {
+            "Hearing_Aids": "Oticon Intiga 8 RITE",
+            "Streamer": "ConnectLine",
+            "Stethoscope": "Audiologist's Choice Bluetooth Amplified Stethoscope (AC-Scope)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, symmetrical, moderate to moderately severe sensorineural hearing loss with a flat configuration. Speech recognition scores are good bilaterally (88% AD, 84% AS). Middle ear function is normal.",
+  "counseling_points": [
+    "Your hearing loss affects more than just your job; bilateral hearing aids are recommended for daily communication, not just the stethoscope.",
+    "For auscultation, we need to ensure you can hear low-frequency sounds (breath/heart) which are often soft.",
+    "We can integrate an amplified stethoscope with hearing aids using Bluetooth streaming or a direct audio cable.",
+    "Using a stethoscope with RITE hearing aids allows you to keep the hearing aids in your ears while working."
+  ],
+  "notes_for_actor": [
+    "You are a medical professional (Nurse Practitioner) and very focused on the specific task of using a stethoscope.",
+    "You may initially be resistant to or dismissive of the need for general hearing aids, focusing only on the work tool.",
+    "You are knowledgeable about medical terms but may not understand audiological technology integration (Bluetooth streamers)."
+  ]
+}

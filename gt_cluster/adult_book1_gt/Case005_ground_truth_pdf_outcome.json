@@ -1,0 +1,169 @@
+{
+  "case_id": "Case005",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Auditory Neuropathy Spectrum Disorder (ANSD)",
+      "rationale_short": "Present OAEs and Cochlear Microphonics (indicating normal OHC function) with absent ABR neural responses and acoustic reflexes (indicating neural dyssynchrony)."
+    },
+    {
+      "rank": 2,
+      "label": "Bilateral Vestibular Neuropathy",
+      "rationale_short": "Bilaterally abnormal caloric responses, reduced VOR gain on rotational chair, and absent cVEMPs/oVEMPs indicate weakness of superior and inferior vestibular nerves."
+    },
+    {
+      "rank": 3,
+      "label": "Generalized Peripheral Neuropathy",
+      "rationale_short": "Considered due to patient reports of tingling/numbness in extremities, though vibration sense was intact and neurological workup was inconclusive."
+    },
+    {
+      "rank": 4,
+      "label": "Non-organic Hearing Loss",
+      "rationale_short": "Initially suspected due to mismatch between PTA and SRT, but ruled out by objective evidence of ANSD."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and auditory nerve."
+      },
+      {
+        "action": "Otoacoustic Emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate outer hair cell function, critical for distinguishing sensory loss from neural synchrony disorders."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To objectively assess neural integrity and check for cochlear microphonics to confirm ANSD."
+      },
+      {
+        "action": "Vestibular Function Testing (VNG/Calorics)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate peripheral vestibular function given reports of dizziness."
+      },
+      {
+        "action": "Rotational Chair (SHA)",
+        "urgency": "soon",
+        "rationale_short": "To assess the vestibulo-ocular reflex (VOR) across frequencies."
+      },
+      {
+        "action": "VEMPs (cVEMP and oVEMP)",
+        "urgency": "soon",
+        "rationale_short": "To assess the function of the otolith organs and vestibular nerve divisions."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Behavioral testing revealed a bilateral, asymmetrical, fluctuating sensorineural hearing loss with poor reliability. A significant mismatch was noted between pure-tone averages and speech reception thresholds, along with disproportionately poor word recognition scores. The presence of robust DPOAEs despite absent acoustic reflexes and elevated thresholds strongly suggested Auditory Neuropathy Spectrum Disorder (ANSD).",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Bilateral asymmetrical SNHL with reverse slope configuration; Right PTA 62 dB HL, Left PTA 45 dB HL; poor reliability."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "SRTs (Right 35 dB, Left 30 dB) significantly better than PTAs; WRS very poor (Right 12%, Left 52%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear function bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes bilaterally."
+          },
+          {
+            "name": "Otoacoustic Emissions (DPOAEs)",
+            "category": "Physiological",
+            "result_summary": "Present and robust from 750 to 8000 Hz bilaterally, indicating preserved outer hair cell function."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Objective testing confirmed the diagnosis of ANSD, evidenced by the presence of Cochlear Microphonics with absent neural ABR responses. Comprehensive vestibular testing revealed a bilateral peripheral vestibular weakness affecting both superior and inferior nerve divisions, explaining the patient's imbalance and oscillopsia.",
+        "tests": [
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "No repeatable neural response at 85 dB nHL; Cochlear Microphonic present and reverses with polarity."
+          },
+          {
+            "name": "Vestibular Function Testing (VNG/Calorics)",
+            "category": "Vestibular",
+            "result_summary": "Normal ocular motility; bilaterally abnormal caloric responses (Total response 13 deg/sec)."
+          },
+          {
+            "name": "Rotational Chair (SHA)",
+            "category": "Vestibular",
+            "result_summary": "Abnormally reduced VOR gain across multiple frequencies."
+          },
+          {
+            "name": "VEMPs (cVEMP and oVEMP)",
+            "category": "Vestibular",
+            "result_summary": "Absent bilaterally, indicating dysfunction of superior and inferior vestibular nerves."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral for Cochlear Implant (CI) evaluation",
+      "Vestibular Rehabilitation Therapy (VRT)",
+      "Aural rehabilitation exercises"
+    ],
+    "counseling_actions": [
+      "Explain ANSD diagnosis: inner ear works but nerve connection is asynchronous.",
+      "Explain that traditional hearing aids may not provide clarity due to neural dyssynchrony.",
+      "Discuss vestibular neuropathy as the cause of unsteadiness and oscillopsia.",
+      "Recommend genetic counseling to investigate hereditary causes.",
+      "Recommend neurology consultation to rule out generalized neuropathies."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset bilateral hearing loss",
+      "Neurological symptoms (tingling/numbness of face and extremities)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurology and Genetic Counseling",
+      "rationale_short": "To investigate potential underlying causes of combined auditory and vestibular neuropathy, such as generalized peripheral neuropathy or genetic conditions."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor progress with cochlear implant and vestibular rehabilitation; determine etiology via specialist referrals."
+  },
+  "expected_outcome": [
+    "Cochlear Implant (Right Ear): Patient received a CI for the right ear after an 18-month insurance appeal process.",
+    "Functional Hearing Outcome: Patient performs well with CI, hears new sounds (birds, car horns) daily, and wears the device full time.",
+    "Neurological Workup: MRI/CT of brain and spine were normal; bloodwork for autoimmune/infectious causes was negative.",
+    "Balance Outcome: Patient continues to report poor balance and frequent (weekly) falls despite intact vibration sense.",
+    "Rehabilitation Status: Completes aural rehab exercises 30 minutes daily; VRT remains indicated for ongoing fall risk."
+  ]
+}

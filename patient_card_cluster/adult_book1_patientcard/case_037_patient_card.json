@@ -1,0 +1,160 @@
+{
+  "case_id": "case_37",
+  "title": "Differential Diagnosis of Central versus Peripheral Vertigo",
+  "demographics": {
+    "age_years": 51,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been feeling nauseous, vomiting, and feeling 'drunk' when I get up or walk for the past 5 months. I feel like I'm being pulled to the earth and loud sounds make me dizzy.",
+  "problem_summary": {
+    "onset": "5 months ago.",
+    "course": "Constant dizziness, more severe in the morning. Daily positional exercises prescribed elsewhere did not help.",
+    "laterality": "Bilateral indicators, symptoms suggest left ear more active.",
+    "associated_symptoms": "Nausea, vomiting, falls, Tullio phenomenon (dizziness triggered by loud sounds), dizziness with exertion/straining.",
+    "functional_impact": "Needs to hold onto walls while walking; falls reported.",
+    "goals_motivation": "Seeking diagnosis after failed management with positional exercises."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology and Vestibular Clinic",
+      "history": {
+        "present_illness": "5-month history of constant dizziness, nausea, and imbalance. Reports feeling 'drunk' and a sensation of being pulled to earth. Denies true vertigo, hearing loss, tinnitus, or aural fullness.",
+        "otologic_history": "Car accident 20 years ago resulted in subdural hematoma; diagnosed with acute labyrinthitis 1 month later and took Antivert for 9 months.",
+        "noise_exposure_history": "Reports loud sounds trigger seizures and dizziness.",
+        "medical_psych_history": "Celiac disease, severe anemia, shingles, bradycardia. History of alcohol/drug abuse (17 years ago). Bipolar disorder and seizure disorder regulated with lithium. Migraines regulated with sumatriptan.",
+        "prior_management": "Prescribed Meclizine (Antivert) 20 years ago. Recently performed daily positional exercises (head turns/rolling) prescribed by an outside facility without improvement.",
+        "patient_goals": "Determine cause of dizziness and imbalance."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.1"
+          ],
+          "key_findings": "Mild bilateral conductive hearing loss at 250 Hz with significant air-bone gaps. Right ear rises to slight loss at 500/4000 Hz. Left ear normal at 250-4000 Hz except slight loss at 500 Hz.",
+          "numeric_results": {
+            "Right_ABG_250Hz": "30 dB",
+            "Left_ABG_250Hz": "20 dB",
+            "Right_AC_Thresholds": "250Hz: ~40 dB HL, 500Hz: ~25 dB HL, 1000-2000Hz: ~10-15 dB HL",
+            "Left_AC_Thresholds": "250Hz: ~25 dB HL, 500Hz: ~20 dB HL, 1000-4000Hz: ~10-15 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.1"
+          ],
+          "key_findings": "Speech recognition thresholds (SRT) and word recognition scores (WRS) are within normal limits bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "13 dB HL",
+            "SRT_Left": "17 dB HL",
+            "WRS_Right": "100%",
+            "WRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.1"
+          ],
+          "key_findings": "Normal tympanograms bilaterally.",
+          "numeric_results": {
+            "Right_Type": "A",
+            "Left_Type": "A",
+            "Right_Peak_Pressure": "-40 daPa",
+            "Left_Peak_Pressure": "-20 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.1"
+          ],
+          "key_findings": "Normal ipsilateral and contralateral acoustic reflex thresholds.",
+          "numeric_results": {
+            "Reflexes": "Present/Normal"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "VNG",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "No spontaneous/gaze-evoked nystagmus. Robust saccadic eye movements (likely Lithium effect). High-frequency headshake resulted in significant downbeat nystagmus. Dix-Hallpike unremarkable but patient became disoriented upon sitting up. Bithermal calorics showed right reduced vestibular response.",
+          "numeric_results": {
+            "Caloric_Asymmetry": "23% (Right weakness)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "cVEMP",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.2"
+          ],
+          "key_findings": "Significant asymmetry with left amplitude greater than right. Reduced amplitude threshold response in the left ear. Patient experienced extreme vertigo during left cVEMP testing (Tullio phenomenon observed).",
+          "numeric_results": {
+            "Asymmetry_Ratio": "51%",
+            "Left_Threshold": "65 dB nHL (Reduced/Abnormal)",
+            "Right_Threshold": "Eliminated below 70 dB nHL (Normal)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity in the mid-to-high frequencies but a mild low-frequency conductive hearing loss characterized by air-bone gaps at 250 Hz bilaterally, despite normal middle ear function (Type A tympanograms and reflexes). Vestibular testing reveals signs of Third Window Syndrome, specifically Superior Semicircular Canal Dehiscence (SSCD), indicated by reduced cVEMP thresholds on the left and observed Tullio phenomenon. Central vestibular signs (saccades, downbeat nystagmus) are likely attributed to long-term Lithium usage.",
+  "counseling_points": [
+    "Your hearing test shows a specific type of gap in the low pitches that, combined with your dizziness from loud sounds, suggests a condition called Superior Semicircular Canal Dehiscence (a thinning of the bone in the inner ear).",
+    "The dizziness you feel when hearing loud noises or straining is a hallmark of this 'third window' in the inner ear.",
+    "Some of the eye movement patterns we saw (saccades) are likely related to your long-term use of Lithium, which is a known side effect and not necessarily a new problem.",
+    "We are recommending a CT scan of the temporal bones to confirm the presence of the bone thinning (dehiscence).",
+    "Surgical repair (plugging the canal) is a treatment option if the symptoms are debilitating."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is generally steady while sitting but becomes very disoriented and feels 'drunk' immediately upon standing or moving the head quickly.",
+    "Emphasize that loud sounds are very uncomfortable and make you feel dizzy (Tullio phenomenon).",
+    "You have a complex medical history; if asked about the Lithium, mention you have been on it for over 15 years for bipolar disorder.",
+    "You are frustrated because previous exercises made you feel worse or didn't help."
+  ]
+}

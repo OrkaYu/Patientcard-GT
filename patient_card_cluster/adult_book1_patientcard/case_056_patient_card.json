@@ -1,0 +1,159 @@
+{
+  "case_id": "case_56",
+  "title": "Asymmetric Amplification Solution",
+  "demographics": {
+    "age_years": 50,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have one 'dead' ear and one 'bad' ear. My current hearing aid whistles whenever I try to use the phone or wear my bicycle helmet, so I have to take it out, which makes it hard to run my business or ride safely.",
+  "problem_summary": {
+    "onset": "Childhood/Young Adult (Right ear issues since age 16; Left ear deafness at age 24).",
+    "course": "Right ear: Progressive mixed loss. Left ear: Sudden profound loss.",
+    "laterality": "Bilateral asymmetric",
+    "associated_symptoms": "Synkinesis (right face), feedback with current aid, difficulty localizing sound.",
+    "functional_impact": "Difficulty hearing customers/employees in retail setting, inability to use phone with aid, safety concerns while cycling due to lack of auditory awareness.",
+    "goals_motivation": "Wants to hear from both sides, use the telephone without feedback, and wear a bicycle helmet while hearing."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-06-08",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports current ITC aid in right ear is inadequate. Feedback occurs with phone and bike helmet. Needs volume control for noisy trade shows.",
+        "otologic_history": "Right Ear: Facial nerve decompression/mastoidectomy at age 16 (chronic OM); progressive conductive loss since age 30; exposed bone in canal; history of fungal infections. Left Ear: Stapes surgery at age 20 (revision for perilymphatic fistula); sudden total hearing loss at age 24 during a flight.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Congenital mandibular anomaly.",
+        "prior_management": "Right ITC hearing aid (worn since age 40). Exploratory surgery for right ear ruled out due to only hearing ear status. Declined AOIS (implant) option.",
+        "patient_goals": "Hear effectively on telephone, hear while cycling with helmet, hear customers from left side."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 56.1"
+          ],
+          "key_findings": "Left ear: Profound hearing loss (flat) with no measurable bone conduction. Right ear: Mixed hearing loss; profound in lows (250-1000 Hz), recovering to moderate in mids (1500-3000 Hz), dropping to profound in highs (4000-8000 Hz).",
+          "numeric_results": {
+            "Right_AC_250Hz": "85 dB HL",
+            "Right_AC_2000Hz": "60 dB HL",
+            "Right_AC_8000Hz": "90 dB HL",
+            "Right_BC_Avg": "~30-40 dB HL",
+            "Left_AC": "No response > 110 dB HL",
+            "Left_BC": "No response"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 56.1"
+          ],
+          "key_findings": "Right ear shows good agreement with PTA and good word recognition at high intensity. Left ear has no measurable recognition.",
+          "numeric_results": {
+            "Right_SRT": "74 dB HL",
+            "Right_WRS": "88% at 104 dB HL",
+            "Left_SAT": "85 dB HL",
+            "Left_WRS": "0% at 104 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 56.1"
+          ],
+          "key_findings": "Flat tympanograms consistent with history of middle ear disease/surgery.",
+          "numeric_results": {
+            "Right_Vol": "1.7 mL",
+            "Right_Admittance": "0.1 mL",
+            "Left_Vol": "1.1 mL",
+            "Left_Admittance": "0.1 mL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2012-07-08",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Fitting visit for new amplification system.",
+        "otologic_history": "See V1.",
+        "noise_exposure_history": "See V1.",
+        "medical_psych_history": "See V1.",
+        "prior_management": "Decision made to fit Transcranial CROS (Left CIC) and Conventional Right CIC.",
+        "patient_goals": "Verify audibility and comfort."
+      },
+      "tests": [
+        {
+          "name": "Real-ear measures (Probe Microphone)",
+          "timepoint_label": "Fitting",
+          "ear": "left",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 56.2",
+            "Fig. 56.3"
+          ],
+          "key_findings": "Transcranial CROS verification. Unmasked thresholds measured in left ear (representing crossover to right cochlea) used as targets. Left CIC programmed to meet these targets.",
+          "numeric_results": {
+            "Result": "Measured REAR for soft input (55 dB SPL) met the transcranial threshold targets."
+          }
+        },
+        {
+          "name": "Real-ear measures (Probe Microphone)",
+          "timepoint_label": "Fitting",
+          "ear": "right",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 56.4"
+          ],
+          "key_findings": "Right CIC verification against DSL [i/o] 5.0 targets.",
+          "numeric_results": {
+            "Result": "Soft (55), Moderate (65), and Loud (75) inputs met prescriptive targets from 500-4000 Hz."
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a profound mixed hearing loss in the right ear and a profound sensorineural 'dead' ear on the left. The right ear retains good speech discrimination at high levels despite the mixed component. The left ear has no usable hearing, but bone conduction thresholds in the right ear are sufficient (~30 dB HL) to support transcranial transmission of sound from the left side.",
+  "counseling_points": [
+    "We are fitting you with a 'Transcranial CROS' system. The high-power aid in your 'dead' left ear will vibrate the skull to send sound to your better right ear.",
+    "We chose Completely-in-the-Canal (CIC) aids for both ears to allow you to wear your bicycle helmet and use the phone without feedback.",
+    "A volume control has been added to the aids so you can adjust for noisy environments like trade shows.",
+    "Because of your history of ear infections and the deep fit required, regular hygiene and monitoring of your ear canals are essential."
+  ],
+  "notes_for_actor": [
+    "Portray an active, busy business owner who is frustrated by the limitations of his current hearing aid.",
+    "Emphasize that cycling is essential to your mental health, so the solution MUST work with a helmet.",
+    "You are knowledgeable about your ear history (surgeries, 'dead' ear) but need a practical solution for work and safety."
+  ]
+}

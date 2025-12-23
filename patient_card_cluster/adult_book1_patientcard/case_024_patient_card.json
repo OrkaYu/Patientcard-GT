@@ -1,0 +1,224 @@
+{
+  "case_id": "case_24",
+  "title": "Misuse of Insert Earphones during Pure-Tone Audiometry",
+  "demographics": {
+    "age_years": 65,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I had a tube put in my right ear about seven months ago to fix the fluid, but I haven't noticed much improvement in my hearing. My other doctor said the test showed my hearing actually got worse after the surgery, which is confusing.",
+  "problem_summary": {
+    "onset": "Chronic history of Otitis Media (OM); most recent PE tube insertion 7 months ago.",
+    "course": "Fluctuating conductive loss; reported 'paradoxical worsening' on audiograms following recent PE tube placement.",
+    "laterality": "Bilateral history; currently Right Ear is the primary concern.",
+    "associated_symptoms": "History of ear drainage (currently resolved), minimal subjective hearing improvement post-surgery.",
+    "functional_impact": "Patient is concerned about the reported worsening of hearing status despite surgical intervention.",
+    "goals_motivation": "To understand why hearing reportedly worsened and to monitor the status of the PE tube."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-05-01",
+      "setting": "Outside Facility",
+      "history": {
+        "present_illness": "Pre-operative evaluation prior to PE tube insertion in the right ear.",
+        "otologic_history": "History of bilateral chronic OM, greater in right ear.",
+        "prior_management": "Repeated PE tubes in the past.",
+        "patient_goals": "Baseline assessment before surgery."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 24.1"
+          ],
+          "key_findings": "Moderate conductive hearing loss (CHL) at 250-500 Hz, rising to mild CHL at 1000-6000 Hz. Significant air-bone gaps.",
+          "numeric_results": {
+            "transducer": "ER-3A Insert Earphones",
+            "RE_250Hz_AC": "45 dB HL",
+            "RE_500Hz_AC": "45 dB HL",
+            "RE_1000Hz_AC": "35 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2012-07-01",
+      "setting": "Outside Facility",
+      "history": {
+        "present_illness": "2 months post-PE tube insertion in the right ear.",
+        "otologic_history": "PE tube inserted 2 months prior.",
+        "prior_management": "Otologist noted 'paradoxical worsening' of hearing based on this exam.",
+        "patient_goals": "Post-op check."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 24.2"
+          ],
+          "key_findings": "Worsening of low-frequency thresholds compared to pre-op, despite functional PE tube. Moderately severe CHL at 250 Hz.",
+          "numeric_results": {
+            "transducer": "ER-3A Insert Earphones",
+            "RE_250Hz_AC": "65 dB HL",
+            "RE_500Hz_AC": "55 dB HL",
+            "change_from_preop": "20 dB poorer at 250 Hz, 10 dB poorer at 500 Hz"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2013-03-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up for 'worsening' hearing and PE tube monitoring.",
+        "otologic_history": "Right PE tube in place for 7 months. No recent OM in left ear.",
+        "medical_psych_history": "None contributory.",
+        "prior_management": "Otologist adopted 'wait-and-see' approach after V2 results.",
+        "patient_goals": "Clarify hearing status."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right PE tube patent. Left ear normal.",
+          "numeric_results": null
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 24.3"
+          ],
+          "key_findings": "Right ear flat (Type B) with abnormally large ear canal volume, consistent with patent PE tube. Left ear normal.",
+          "numeric_results": {
+            "RE_ECV": "2.4 mL",
+            "RE_Peak_Pressure": "NP (No Peak)",
+            "LE_ECV": "1.9 mL",
+            "LE_Peak_Pressure": "-25 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 24.3"
+          ],
+          "key_findings": "Right ipsilateral and contralateral reflexes absent. Left ipsilateral reflexes present.",
+          "numeric_results": {
+            "RE_Ipsi": "Absent at 500, 1k, 2k Hz",
+            "LE_Ipsi": "Present (90, 85, 85 dB HL)"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up (Inserts)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 24.3"
+          ],
+          "key_findings": "Using insert earphones: Right ear thresholds comparable to V2 (poor low-frequency thresholds). Left ear normal.",
+          "numeric_results": {
+            "transducer": "ER-3A Insert Earphones",
+            "RE_PTA": "30 dB HL",
+            "LE_PTA": "8 dB HL",
+            "RE_250Hz_AC": "65 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 24.3"
+          ],
+          "key_findings": "SRTs in good agreement with PTAs. Word recognition excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "25 dB HL",
+            "LE_SRT": "10 dB HL",
+            "RE_WRS": "96% at 70 dB HL",
+            "LE_WRS": "96% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up (Supra-aural)",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 24.4"
+          ],
+          "key_findings": "Using supra-aural headphones: Significant improvement in low-frequency thresholds compared to insert earphones. Confirms artifact.",
+          "numeric_results": {
+            "transducer": "TDH-50P Supra-aural Headphones",
+            "RE_250Hz_AC": "50 dB HL",
+            "RE_500Hz_AC": "40 dB HL",
+            "improvement_vs_inserts": "15 dB improvement at 250 and 500 Hz"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a patent PE tube in the right ear and normal hearing in the left ear. Initial testing with insert earphones suggested a worsening of low-frequency conductive hearing loss in the right ear post-surgery. However, re-evaluation using supra-aural headphones revealed significantly better low-frequency thresholds (15 dB improvement at 250 and 500 Hz). The discrepancy confirms that the use of insert earphones in an ear with a patent PE tube (low impedance) resulted in an artifactual loss of sound pressure level in the ear canal, leading to inaccurate 'worse' thresholds.",
+  "counseling_points": [
+    "The 'worsening' of hearing you were told about was actually a measurement error caused by the type of earplugs used during the test.",
+    "Because you have a tube in your eardrum, the foam earplugs (insert earphones) let some sound escape or lose energy differently than headphones that sit over your ears.",
+    "When we tested you with the over-the-ear headphones, your hearing levels were better and matched what we expect for an ear with a tube.",
+    "Your tube is open and working correctly to keep air in the middle ear.",
+    "We will inform your ear doctor that your hearing has not actually dropped, so they don't need to worry about other complications."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is confused and slightly anxious because you were told your hearing got worse after a surgery that was supposed to help.",
+    "You feel fine physically (no pain, no drainage), which makes the 'worse' test results even more puzzling to you.",
+    "Express relief when explained that it was just a testing equipment issue, not a medical failure."
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "case_id": "Case047",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Hearing aid malfunction due to moisture damage",
+      "rationale_short": "Physical inspection revealed rust and moisture; EAA showed excessive gain and high noise floor consistent with internal component damage from sweat/humidity."
+    },
+    {
+      "rank": 2,
+      "label": "Psychiatric auditory hallucinations",
+      "rationale_short": "Ruled out as 'voices' were indiscernible static occurring only when wearing aids, and symptoms resolved with device repair."
+    },
+    {
+      "rank": 3,
+      "label": "Radio frequency interference",
+      "rationale_short": "Patient suspected radio signals, but findings confirmed internal device noise and feedback rather than external signal pickup."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Electroacoustic Analysis (2-cc coupler)",
+        "urgency": "routine",
+        "rationale_short": "Baseline verification of hearing aid performance at initial dispensing."
+      },
+      {
+        "action": "Electroacoustic Analysis (2-cc coupler)",
+        "urgency": "routine",
+        "rationale_short": "Routine maintenance check to monitor performance stability over time."
+      },
+      {
+        "action": "Physical Inspection",
+        "urgency": "routine",
+        "rationale_short": "Visual check for damage or debris given the report of 'hearing voices' and work environment."
+      },
+      {
+        "action": "Listening Check",
+        "urgency": "routine",
+        "rationale_short": "Subjective verification by clinician to characterize the reported auditory anomalies."
+      },
+      {
+        "action": "Electroacoustic Analysis (2-cc coupler)",
+        "urgency": "routine",
+        "rationale_short": "Objective measurement of gain, output, and noise floor to identify internal malfunctions."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial dispensing visit. Hearing aids met manufacturer specifications and the patient reported the best hearing experience in 20 years.",
+        "tests": [
+          {
+            "name": "Electroacoustic Analysis (2-cc coupler)",
+            "category": "Electroacoustics",
+            "result_summary": "Performance met specs. OSPL90 peak 124 dB SPL @ 1600 Hz; Avg Gain (50 dB input) 44 dB; Equivalent Input Noise 35 dB."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "4-month maintenance visit. Patient reported reduced amplification. Testing confirmed reduced gain, which was restored to optimal levels after cleaning microphones/receivers and dehumidifying.",
+        "tests": [
+          {
+            "name": "Electroacoustic Analysis (2-cc coupler)",
+            "category": "Electroacoustics",
+            "result_summary": "Avg Gain (50 dB input) decreased to 41 dB (from 44 dB baseline). Performance returned to baseline after cleaning."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "8-month visit (Current). Patient reported 'hearing voices'. Investigation revealed moisture damage causing excessive gain and internal noise, mimicking radio signals. This correlated with the patient's high-humidity work environment.",
+        "tests": [
+          {
+            "name": "Physical Inspection",
+            "category": "Observation",
+            "result_summary": "Accumulation of moisture and rust found in the battery compartments of both instruments."
+          },
+          {
+            "name": "Listening Check",
+            "category": "Functional",
+            "result_summary": "Auditorially very uncomfortable; instruments were amplifying at an unusually high output level."
+          },
+          {
+            "name": "Electroacoustic Analysis (2-cc coupler)",
+            "category": "Electroacoustics",
+            "result_summary": "Significant deviation from baseline. Avg Gain (50 dB input) increased to 54 dB; Equivalent Input Noise increased to 46 dB; Distortion at 500 Hz 7%."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Comprehensive cleaning and reprogramming of hearing aids to initial settings",
+      "Send hearing aids to manufacturer for application of internal protective coating",
+      "Purchase and use of electronic dehumidifier nightly",
+      "Continue quarterly hearing aid cleanings"
+    ],
+    "counseling_actions": [
+      "Explain that the 'voices' are actually internal noise and static caused by moisture damage, not psychiatric hallucinations or radio signals",
+      "Educate on the impact of the work environment (heat, sweat, dust) on hearing aid components",
+      "Instruct on the importance of using the electronic dehumidifier every night to prevent recurrence"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology Clinic",
+      "rationale_short": "Issue is technical (hearing aid malfunction) and requires ongoing audiological maintenance and repair."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Quarterly (every 4 months)",
+    "objective": "Regular deep cleaning and performance verification to manage moisture accumulation from work environment."
+  },
+  "expected_outcome": [
+    "After comprehensive cleaning and reprogramming to initial settings, the patient expressed satisfaction and reported he no longer heard voices.",
+    "Hearing aids were sent to the manufacturer for an internal protective coating to prevent future moisture damage.",
+    "Patient purchased an electronic dehumidifier for nightly use.",
+    "Patient declined the use of sweat sock covers."
+  ]
+}

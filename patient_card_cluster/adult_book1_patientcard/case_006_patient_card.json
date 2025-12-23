@@ -1,0 +1,178 @@
+{
+  "case_id": "case_6",
+  "title": "You Really Should See a Doctor about That",
+  "demographics": {
+    "age_years": 55,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "Australia"
+  },
+  "chief_complaint": "I've found it increasingly difficult to hear in noisy environments over the past 5 years. I've already done my research, bought these hearing aids online, and I just need you to fit them.",
+  "problem_summary": {
+    "onset": "Gradual deterioration over the past 10 years, particularly noticeable in the last 5 years.",
+    "course": "Slowly progressive.",
+    "laterality": "Patient reports no difference between ears; testing reveals asymmetry (Right worse than Left).",
+    "associated_symptoms": "Bilateral tinnitus (constant, low-level 'cicada/cricket-like'), which has become worse in the right ear recently.",
+    "functional_impact": "Affects communication with family and clients, especially in background noise, with multiple talkers, or at a distance.",
+    "goals_motivation": "Highly motivated; wants to fit the BTE hearing aids he purchased online to save money."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-10-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports hearing loss attributed to aging. He holds the telephone to his left ear (to write with right hand) and reports no difficulty on the phone. No vertigo or dizziness.",
+        "otologic_history": "Long-standing bilateral tinnitus, recently worse in the right ear. No history of ear disease or surgery.",
+        "noise_exposure_history": "Electrical engineer. Worked in public sector and private practice. Exposed to loud noise but reports always wearing protection (though not always early in career).",
+        "medical_psych_history": "Good health. Appendix removed in primary school.",
+        "prior_management": "Purchased two BTE hearing aids online based on personal research.",
+        "patient_goals": "Fit the online hearing aids immediately."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6.1"
+          ],
+          "key_findings": "Bilateral asymmetric sensorineural hearing loss. Mild to moderately severe >1000 Hz in the right ear; slight to moderate >1000 Hz in the left ear.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "Drops from ~25 dB HL at 500 Hz to ~60-70 dB HL at 4000-8000 Hz",
+            "Left_AC_Thresholds": "Drops from ~20 dB HL at 500 Hz to ~40-50 dB HL at 4000-8000 Hz",
+            "Asymmetry": "Right ear thresholds poorer by >15 dB at one frequency and >20 dB at two adjacent frequencies compared to left."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6.1"
+          ],
+          "key_findings": "SRTs consistent with PTA. Word recognition scores (NAL-AB lists) show slight difficulty in the right ear and normal ability in the left ear. No rollover.",
+          "numeric_results": {
+            "SRT_Right": "25 dB HL",
+            "SRT_Left": "23 dB HL",
+            "WRS_Right": "87% at 90 dB HL",
+            "WRS_Left": "100% at 90 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A). Static admittance at the lower end of normal range.",
+          "numeric_results": {
+            "Static_Admittance_Right": "0.2 mL",
+            "Static_Admittance_Left": "0.2 mL",
+            "Pressure_Right": "-5 daPa",
+            "Pressure_Left": "-20 daPa",
+            "Volume_Right": "1.6 mL",
+            "Volume_Left": "1.5 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6.1"
+          ],
+          "key_findings": "Present at 500 and 1000 Hz; absent at 2000 and 4000 Hz bilaterally.",
+          "numeric_results": {
+            "Thresholds_500_1000Hz": "95 to 105 dB HL",
+            "Thresholds_2000_4000Hz": "Absent"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Medical / Radiology",
+      "history": {
+        "present_illness": "Referral generated by audiologist due to asymmetric findings (thresholds, WRS, tinnitus).",
+        "prior_management": "Otologic exam showed no abnormalities. Referred for MRI."
+      },
+      "tests": [
+        {
+          "name": "MRI (T2-weighted with gadolinium)",
+          "timepoint_label": "Diagnostic",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "5 mm nodular mass in the right internal auditory canal with subtle widening of the right porus acusticus internus. Left ear normal.",
+          "numeric_results": {
+            "Mass_Size": "5 mm"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient diagnosed with acoustic neuroma (vestibular schwannoma).",
+        "prior_management": "Patient elected to undergo stereotactic radiosurgery. Returned to audiologist requesting to be fitted with hearing aids.",
+        "patient_goals": "Proceed with hearing aid fitting."
+      },
+      "tests": [
+        {
+          "name": "Consultation",
+          "timepoint_label": "Pre-fitting clearance",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Medical contraindications for fitting ruled out/managed. Audiologist agreed to fit aids with quarterly monitoring protocol.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral asymmetric sensorineural hearing loss, significantly worse in the right ear above 1000 Hz. Word recognition is excellent in the left ear (100%) but slightly reduced in the right ear (87%). The asymmetry in thresholds, speech scores, and tinnitus presentation led to the identification of a right-sided acoustic neuroma.",
+  "counseling_points": [
+    "Your hearing test shows an asymmetry (difference between ears) that requires medical investigation before we can proceed with hearing aids.",
+    "While you feel your hearing loss is just due to age, the difference in scores and the worsening tinnitus in your right ear are 'red flags' that need an MRI to rule out other causes.",
+    "The MRI confirmed a small acoustic neuroma on the right side. This is a benign, slow-growing growth on the hearing nerve.",
+    "Now that the medical diagnosis is managed and you have chosen radiosurgery, we can proceed with fitting your hearing aids.",
+    "We will need to monitor your hearing closely (quarterly) to check for any changes related to the neuroma or the treatment."
+  ],
+  "notes_for_actor": [
+    "Portray an educated, confident engineer who trusts his own research ('Dr. Google').",
+    "Initially, be resistant to the referral. You think the audiologist is just 'wasting time and money' and you just want the aids fitted.",
+    "You are not dizzy, but you should mention the 'cricket' sound in your ears, noting specifically that the right one is louder lately.",
+    "After the diagnosis, become more compliant but remain eager to get the hearing aids working."
+  ]
+}

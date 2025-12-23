@@ -1,0 +1,109 @@
+{
+  "case_id": "Case054",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Otosclerosis",
+      "rationale_short": "Longstanding history with previous right stapedotomy and persistent air-bone gap in the left ear."
+    },
+    {
+      "rank": 2,
+      "label": "Sudden Sensorineural Hearing Loss (Right Ear)",
+      "rationale_short": "Acute onset of hearing loss in the right ear following a healed perforation, unresponsive to steroid treatment."
+    },
+    {
+      "rank": 3,
+      "label": "Hyperacusis (Right Ear)",
+      "rationale_short": "Extreme sensitivity to sound in the right ear with LDLs at 10 dB SL, preventing standard testing."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds following sudden loss and initial steroid treatment."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition and uncomfortable loudness levels."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up evaluation to monitor hearing status after second intratympanic injection."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Evaluation revealed a complex bilateral mixed hearing loss. The left ear showed stable moderate-to-severe mixed loss with excellent word recognition. The right ear (post-stapedotomy) demonstrated severe mixed to sensorineural loss with extreme hyperacusis and unmeasurable word recognition.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Severe mixed loss (250-2000 Hz) rising to moderate SNHL at 3000 Hz, sloping to severe SNHL (4000-6000 Hz). Left ear: Moderate-to-severe mixed loss. Masking limited by discomfort."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "Left ear: WRS 100% at 80 dB HL. Right ear: WRS DNT due to discomfort. Right LDL: 10 dB SL."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up after the second steroid injection showed no improvement in the right ear, with a slight progression of loss in the high frequencies. The left ear remained stable.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear stable. Right ear thresholds decreased by 10 dB HL at 500/3000 Hz and 25 dB HL at 6000/8000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Intratympanic dexamethasone injection",
+      "Hearing Aid Evaluation (HAE)",
+      "Demonstration of amplification options: Left monaural hearing aid, Left BiCROS, Left AOIS (on headband)",
+      "Fitting of Left Phonak Solana microP BTE BiCROS receiver with ITC transmitter",
+      "Real-ear insertion gain (REIG) verification",
+      "Fine-tuning adjustments (increased gain in mid/high frequencies for noise programs)",
+      "Electronic dehumidifier",
+      "Weather radio with bed shaker"
+    ],
+    "counseling_actions": [
+      "Counseling on realistic expectations for BiCROS (localization, background noise)",
+      "Discussion of advantages and disadvantages of monaural vs. BiCROS vs. AOIS",
+      "Recommendation to wait on right ear amplification due to hyperacusis",
+      "Communication strategies (face-to-face, slow clear speech, distance < 3 feet, quiet environments)",
+      "Instruction on device use and care"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden sensorineural hearing loss",
+      "Hyperacusis"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Hearing Aid Evaluation",
+      "rationale_short": "Patient medically cleared for amplification after medical management of sudden loss was exhausted."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Two weeks",
+    "objective": "Monitor progress with BiCROS, perform fine-tuning, and administer outcome questionnaire."
+  },
+  "expected_outcome": [
+    "Washington University School of Medicine Outcome Questionnaire: Improvement from 'Unaided' (U) to 'New' (N) reported across all domains (Home, Work, Social Situations).",
+    "Patient Report: Pleased with ability to hear music and people at a concert.",
+    "Patient Report: Doing well with BiCROS in quiet and on the telephone.",
+    "Patient Report: Slight improvement in background noise and significant improvement in quiet situations.",
+    "Patient Report: Noted some difficulty in background noise and hearing the TV, which was addressed with programming adjustments."
+  ]
+}

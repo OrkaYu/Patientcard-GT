@@ -1,0 +1,123 @@
+{
+  "case_id": "Case025",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Pseudohypoacusis",
+      "rationale_short": "Confirmed by lack of shadow curve (crossover) in unmasked testing, significant SRT/PTA discrepancy (SRT 25 dB better), and positive Stenger test."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-induced hearing loss",
+      "rationale_short": "Underlying organic loss is likely mild given the history of blast trauma and 4 kHz notch in the right ear, supported by MCIL predictions."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Initial assessment of hearing sensitivity following blast trauma."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up evaluation to monitor hearing status."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Diagnostic evaluation for legal documentation; assesses thresholds and crossover."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition; checks for agreement with pure-tone thresholds."
+      },
+      {
+        "action": "Stenger Test",
+        "urgency": "routine",
+        "rationale_short": "To identify pseudohypoacusis in cases of unilateral hearing loss."
+      },
+      {
+        "action": "Minimum Contralateral Interference Levels (MCIL)",
+        "urgency": "routine",
+        "rationale_short": "To estimate true organic thresholds in the pseudohypacusic ear."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation by a general practitioner showed normal hearing in the right ear and severe-to-profound loss in the left ear. No masking was used, raising questions about validity.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear thresholds 0-10 dB HL; Left ear thresholds 70-110 dB HL. No masking used."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up evaluation showed poor test-retest reliability compared to the first visit, with continued severe-to-profound loss in the left ear and no masking used.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal; Left ear severe-to-profound loss with variability from V1. No masking used."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Diagnostic evaluation revealed significant inconsistencies indicating pseudohypoacusis. The absence of a shadow curve, a large SRT/PTA discrepancy, and a positive Stenger test confirmed the diagnosis. MCIL testing suggested true thresholds are likely mild.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "RE normal with 4 kHz notch. LE unmasked thresholds 75-85 dB HL with no shadow curve (crossover) observed."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "LE SRT 55 dB HL, significantly better (25 dB) than the PTA of 80 dB HL. WRS 62%."
+          },
+          {
+            "name": "Stenger Test",
+            "category": "Special Tests",
+            "result_summary": "Positive at 500 Hz and 4000 Hz; patient failed to respond to bilateral stimulation when signal was louder in the 'bad' ear but softer than voluntary threshold."
+          },
+          {
+            "name": "Minimum Contralateral Interference Levels (MCIL)",
+            "category": "Special Tests",
+            "result_summary": "Predicted true thresholds of 15-20 dB HL at 500 Hz and 30-35 dB HL at 4000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Documentation of test inconsistencies",
+      "Objective threshold estimation (e.g., ABR/OAE)"
+    ],
+    "counseling_actions": [
+      "Discuss inconsistencies between tone and speech results with the patient",
+      "Explain that specialized testing indicates hearing is likely in the mild range rather than severe",
+      "Emphasize the need for accurate physiological thresholds for legal documentation"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Additional audiological tests",
+      "rationale_short": "Referral for objective testing (likely electrophysiological) to confirm true hearing thresholds given the diagnosis of pseudohypoacusis."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate referral",
+    "objective": "To obtain valid organic hearing thresholds via objective measures."
+  },
+  "expected_outcome": []
+}

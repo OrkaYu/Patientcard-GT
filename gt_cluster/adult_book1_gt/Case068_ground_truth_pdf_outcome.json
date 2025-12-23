@@ -1,0 +1,124 @@
+{
+  "case_id": "Case068",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Hyperacusis",
+      "rationale_short": "Evidenced by significantly reduced Loudness Discomfort Levels (LDLs) ranging from 70–76 dB HL and reported sensitivity to environmental sounds."
+    },
+    {
+      "rank": 2,
+      "label": "Subjective Tinnitus",
+      "rationale_short": "Patient reports constant bilateral high-pitched ringing/buzzing; TRQ score of 40 indicates clinically significant distress."
+    },
+    {
+      "rank": 3,
+      "label": "Sound-triggered Headaches",
+      "rationale_short": "Severe daily headaches triggered by specific sounds and electrical emissions, correlated with hyperacusis symptoms."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and rule out hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition thresholds and word recognition abilities."
+      },
+      {
+        "action": "Immittance audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDLs)",
+        "urgency": "routine",
+        "rationale_short": "To quantify sound tolerance and diagnose hyperacusis."
+      },
+      {
+        "action": "Subjective Tinnitus Ratings",
+        "urgency": "routine",
+        "rationale_short": "To establish baseline awareness and disturbance levels."
+      },
+      {
+        "action": "Tinnitus Reaction Questionnaire (TRQ)",
+        "urgency": "routine",
+        "rationale_short": "To measure the psychological impact and distress caused by tinnitus."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient has normal hearing sensitivity and middle ear function. However, she presents with significant hyperacusis as indicated by reduced LDLs (70-76 dB HL) and severe tinnitus distress (TRQ 40), with symptoms heavily linked to environmental sounds and headaches.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Pure-tone thresholds were within normal limits bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Speech recognition thresholds (SRTs) and word recognition scores (WRSs) were normal."
+          },
+          {
+            "name": "Immittance audiometry",
+            "category": "Tympanometry",
+            "result_summary": "Results were normal."
+          },
+          {
+            "name": "Loudness Discomfort Levels (LDLs)",
+            "category": "Sound Tolerance",
+            "result_summary": "Significantly reduced bilaterally (70–76 dB HL across 500-4000 Hz), indicating hyperacusis."
+          },
+          {
+            "name": "Subjective Tinnitus Ratings",
+            "category": "Questionnaire",
+            "result_summary": "100% awareness and 80% disturbance during awake time in the past week."
+          },
+          {
+            "name": "Tinnitus Reaction Questionnaire (TRQ)",
+            "category": "Questionnaire",
+            "result_summary": "Total score 40, indicating clinically significant distress. Question 24 (suicide) score was 0."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Sound therapy using white or pink noise to desensitize the auditory system.",
+      "Initial trial with a Personal Listening Device (PLD) followed by custom in-the-ear (ITE) sound generators.",
+      "Protocol: Wear devices for at least 8 hours/day, gradually increasing output to a comfortable listening level (CLL).",
+      "Coordination with neurologist to monitor and reduce headache medications once acclimated to sound therapy."
+    ],
+    "counseling_actions": [
+      "Explain neurophysiological principles of tinnitus and hyperacusis (increased central gain).",
+      "Discuss the 'vicious cycle' of negative emotional reaction and attention exacerbating symptoms.",
+      "Advise against overuse of hearing protection (earplugs) in quiet environments.",
+      "Provide recommended reading: 'Consumer Handbook on Tinnitus' by Richard S. Tyler."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Proceed with sound therapy fitting and management; no immediate medical red flags (MRI normal, no suicidal ideation)."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2 weeks following the fitting of sound generators",
+    "objective": "To monitor progress and ensure sound generators do not exacerbate headaches."
+  },
+  "expected_outcome": [
+    "Loudness Discomfort Levels (LDLs) at 11 months: Improved to >90 dB HL bilaterally (Right: 96, 96, 94, 98 dB HL; Left: 94, 96, 92, 96 dB HL at 500, 1000, 2000, 4000 Hz).",
+    "Tinnitus Reaction Questionnaire (TRQ) at 11 months: Total score reduced to 3, indicating no significant disturbance.",
+    "Subjective Tinnitus Ratings at 11 months: Awareness reduced to 10% and disturbance reduced to 5% of awake time.",
+    "Patient reported cessation of headache medications and that tinnitus no longer interferes with sleep."
+  ]
+}

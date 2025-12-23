@@ -1,0 +1,109 @@
+{
+  "case_id": "Case042",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Audiometry reveals bilateral symmetrical mild to moderately severe hearing loss with no air-bone gaps; tympanometry is normal."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status."
+      },
+      {
+        "action": "Real-Ear Measures (RECD Analysis)",
+        "urgency": "routine",
+        "rationale_short": "To measure individual ear canal acoustics (Real-Ear to Coupler Difference) for accurate hearing aid fitting."
+      },
+      {
+        "action": "Audibility Calculation (AI)",
+        "urgency": "routine",
+        "rationale_short": "To quantify the proportion of speech cues audible to the patient."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Diagnostic testing revealed a bilateral, symmetrical, mild to moderately severe sensorineural hearing loss. While speech recognition thresholds aligned with pure-tone averages, word recognition scores were disproportionately poor (44-48%) bilaterally. Tympanometry was within normal limits.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical mild to moderately severe hearing loss (PTA ~35 dB)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs 35 dB AU; WRS very poor (48% RT, 44% LT at 75 dB HL)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "The patient returned for hearing aid fitting. Initial programming based on predicted RECDs resulted in patient disappointment. Verification measures showed the patient's ear canals were smaller than average (measured RECD > predicted), leading to under-amplification. Recalculation with measured RECDs demonstrated significantly improved audibility.",
+        "tests": [
+          {
+            "name": "Real-Ear Measures (RECD Analysis)",
+            "category": "Verification",
+            "result_summary": "Measured RECD values were significantly higher than predicted (e.g., 17 dB vs 13 dB at 4000 Hz), indicating smaller ear canal volume."
+          },
+          {
+            "name": "Audibility Calculation (AI)",
+            "category": "Calculation",
+            "result_summary": "Unaided AI 0.42; Aided AI with predicted RECD 0.74; Aided AI with measured RECD 0.89."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit bilateral Receiver-In-The-Canal (RIC) hearing aids",
+      "Obtain individual Real-Ear to Coupler Difference (RECD) measures",
+      "Program hearing aids to NAL-NL1 targets using measured RECD values",
+      "Verify fitting using probe-microphone measures (Real-Ear Aided Response)"
+    ],
+    "counseling_actions": [
+      "Explain that the patient's ear canals are smaller than average, affecting sound pressure levels",
+      "Discuss the difference in audibility between predicted and measured RECD settings",
+      "Counsel on the expected improvement in speech clarity (AI 0.89) with the adjusted settings",
+      "Discuss the importance of perceived value and satisfaction in hearing aid adoption"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology follow-up",
+      "rationale_short": "To monitor hearing aid benefit and acclimatization."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor hearing aid benefit, audibility, and patient satisfaction."
+  },
+  "expected_outcome": [
+    "Measured RECD values were markedly greater than predicted values (e.g., 17 dB vs 13 dB at 4000 Hz), confirming smaller ear canal volume.",
+    "Aided audibility index (AI) improved from 0.74 using predicted RECDs to 0.89 using measured RECDs.",
+    "The use of individual RECD measures is expected to increase perceived value, patient satisfaction, and the likelihood of hearing aid adoption."
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "case_id": "Case066",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Audiometry reveals mild sloping to moderate sensorineural hearing loss bilaterally; history is progressive."
+    },
+    {
+      "rank": 2,
+      "label": "Cochlear distortion or retrocochlear involvement",
+      "rationale_short": "Word recognition scores are disproportionately poor (50-52%) relative to pure-tone thresholds, suggesting significant distortion or neural pathology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition ability, particularly given complaints of clarity."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc and screen for retrocochlear pathology."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDLs)",
+        "urgency": "routine",
+        "rationale_short": "To measure dynamic range and establish upper limits for hearing aid output."
+      },
+      {
+        "action": "Real-ear measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify that hearing aid gain and output match prescribed NAL-NL1 targets."
+      },
+      {
+        "action": "FM Verification",
+        "urgency": "routine",
+        "rationale_short": "To verify the transparency and telecoil response of the FM system."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation revealed bilateral mild sloping to moderate sensorineural hearing loss. Word recognition scores were disproportionately poor (approx 50%) bilaterally, suggesting significant cochlear distortion. Middle ear function was normal, though contralateral reflexes were elevated or absent.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right: Mild SNHL (250-6000 Hz) sloping to moderate at 8000 Hz. Left: Mild SNHL (250-500 Hz) sloping to moderate (1000-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: 40 dB HL (Right), 45 dB HL (Left). WRS: 52% (Right), 50% (Left) at 40 dB SL (poor)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral reflexes normal; contralateral reflexes elevated or absent."
+          },
+          {
+            "name": "Loudness Discomfort Levels (LDLs)",
+            "category": "Audiometry",
+            "result_summary": "Frequency-specific LDLs measured (e.g., 80-90 dB HL) to guide fitting."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Fitting and verification of new hearing aids and FM system. Real-ear measures confirmed gain matched NAL-NL1 targets and output was appropriate. FM verification confirmed transparency and appropriate telecoil response.",
+        "tests": [
+          {
+            "name": "Real-ear measures (REM)",
+            "category": "Verification",
+            "result_summary": "REIG matched NAL-NL1 targets for 50, 65, and 80 dB SPL inputs. RESR90 curves corresponded to LDLs."
+          },
+          {
+            "name": "Other",
+            "category": "Verification",
+            "result_summary": "FM Verification: RSETS 0.9 dB (Right) and 2.4 dB (Left). FM transparency confirmed (EFMHA65 within acceptable range of EHA65)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit bilateral Phonak Exelia Art M BTE hearing aids with Lucite earmolds.",
+      "Fit Phonak SmartLink+ transmitter and MyLink+ neckloop FM system.",
+      "Program hearing aids to NAL-NL1 targets.",
+      "Enable telecoil and FM programs (mic only, telecoil only, mic + telecoil).",
+      "Pair FM transmitter with Bluetooth cell phone.",
+      "Provide audio input cords for television use."
+    ],
+    "counseling_actions": [
+      "Explained that poor word recognition scores indicate clarity issues that gain alone cannot fix.",
+      "Counseled on realistic expectations for amplification given the distortion.",
+      "Instructed on proper use of FM microphone (placement close to speaker).",
+      "Instructed on use of hearing aid programs and Bluetooth connectivity."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology Clinic",
+      "rationale_short": "Patient requires routine follow-up to monitor performance with new amplification and FM system."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Monitor benefit from hearing aids and FM system."
+  },
+  "expected_outcome": [
+    "Patient reported new hearing aids were much clearer than previous ones and provided better hearing alone.",
+    "Patient reported using the FM system in church, restaurants, watching television, and playing cards.",
+    "Patient was able to turn off TV captions for news; FM system was helpful for movies.",
+    "Communication with husband improved and patient resumed social activities like dining out.",
+    "Patient stated that the explanation of her WRS helped her understand her hearing challenges."
+  ]
+}

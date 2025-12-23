@@ -1,0 +1,115 @@
+{
+  "case_id": "Case034",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right Internuclear Ophthalmoplegia (INO)",
+      "rationale_short": "History of right pontine stroke; VOG shows disconjugate saccades with lag in right eye adduction and gaze-evoked nystagmus in the left eye."
+    },
+    {
+      "rank": 2,
+      "label": "Left Reduced Vestibular Response",
+      "rationale_short": "Caloric testing shows 48% left weakness; etiology may be peripheral or related to central pathway involvement from the stroke."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "cVEMP",
+        "urgency": "routine",
+        "rationale_short": "Assess otolith function (saccule) and inferior vestibular nerve integrity in patient with imbalance."
+      },
+      {
+        "action": "Video-oculography (Gaze)",
+        "urgency": "routine",
+        "rationale_short": "Evaluate for spontaneous or gaze-evoked nystagmus indicating central or peripheral pathology."
+      },
+      {
+        "action": "Video-oculography (Saccades)",
+        "urgency": "routine",
+        "rationale_short": "Assess central oculomotor function, specifically looking for disconjugate eye movements consistent with INO."
+      },
+      {
+        "action": "Bithermal Caloric Irrigation",
+        "urgency": "routine",
+        "rationale_short": "Assess lateral semicircular canal function and determine if a peripheral vestibular weakness exists."
+      },
+      {
+        "action": "Computerized Dynamic Posturography",
+        "urgency": "routine",
+        "rationale_short": "Evaluate functional balance and sensory integration."
+      },
+      {
+        "action": "Rotational Chair",
+        "urgency": "routine",
+        "rationale_short": "Assess vestibulo-ocular reflex over a range of frequencies."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Evaluation confirms central vestibular pathology consistent with the history of right pontine stroke. The primary finding is a persistent Right Internuclear Ophthalmoplegia (INO), characterized by disconjugate saccades (lag in right eye adduction) and gaze-evoked nystagmus in the left eye. There is also a significant left reduced vestibular response (48%) and bilaterally absent cVEMPs. Posturography and rotational chair testing were normal.",
+        "tests": [
+          {
+            "name": "cVEMP",
+            "category": "Vestibular",
+            "result_summary": "Responses absent in both ears."
+          },
+          {
+            "name": "Video-oculography (Gaze)",
+            "category": "Vestibular",
+            "result_summary": "4°/s leftward beating gaze nystagmus present for leftward gaze without fixation in the left (abducting) eye only."
+          },
+          {
+            "name": "Video-oculography (Saccades)",
+            "category": "Vestibular",
+            "result_summary": "Disconjugate saccades consistent with Right INO; lag noted in the right (adducting) eye when moving leftward."
+          },
+          {
+            "name": "Bithermal Caloric Irrigation",
+            "category": "Vestibular",
+            "result_summary": "48% left reduced vestibular response. No spontaneous nystagmus."
+          },
+          {
+            "name": "Computerized Dynamic Posturography",
+            "category": "Balance",
+            "result_summary": "Normal results."
+          },
+          {
+            "name": "Rotational Chair",
+            "category": "Vestibular",
+            "result_summary": "Normal results."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue physical activities as much as possible.",
+      "Minimize exposure to complex visual environments (e.g., crowded marketplaces) that require rapid saccadic adjustments."
+    ],
+    "counseling_actions": [
+      "Explain that the persistent imbalance is due to the coordination problem between the eyes (INO) and left-sided vestibular weakness.",
+      "Clarify that the 'lag' in the right eye causes visual distortion during rapid head movements.",
+      "Advise moving the head more slowly to allow eyes to track together effectively.",
+      "Counsel on safety and caution in busy visual environments."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Continued management of post-stroke symptoms including diplopia, imbalance, and mood changes."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "18 months post-stroke (as per outcome)",
+    "objective": "Monitor resolution of INO, imbalance, and manage post-stroke comorbidities."
+  },
+  "expected_outcome": [
+    "Neurology follow-up 18 months post-stroke: Patient reported continued diplopia and imbalance.",
+    "Patient experienced significant post-stroke depression and insomnia."
+  ]
+}

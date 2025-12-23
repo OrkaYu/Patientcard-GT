@@ -1,0 +1,183 @@
+{
+  "case_id": "case_15",
+  "title": "Multiple Pathologies in a Single Patient",
+  "demographics": {
+    "age_years": 60,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a constant 'sizzling' tinnitus in my left ear that started about 3 months ago when I began chemotherapy. I also feel like my hearing has decreased in both ears.",
+  "problem_summary": {
+    "onset": "3 months ago (current symptoms); History of sudden hearing loss 3 years prior.",
+    "course": "Acute worsening coinciding with cisplatin chemotherapy initiation.",
+    "laterality": "Bilateral hearing loss; Left-sided tinnitus.",
+    "associated_symptoms": "Constant 'sizzling' tinnitus (left ear).",
+    "functional_impact": "Difficulty receiving speech, particularly in the left ear.",
+    "goals_motivation": "Concerned about hearing changes during cancer treatment."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient referred for constant left-sided tinnitus and bilateral hearing decrease starting 3 months ago, concurrent with cisplatin chemotherapy for mesothelioma of the left upper thorax.",
+        "otologic_history": "History of left CPA meningioma diagnosed 3 years prior (treated with Gamma Knife). Hearing had recovered post-treatment but has now worsened.",
+        "noise_exposure_history": "Positive history of occupational noise exposure. Did not use protection previously, but has used it consistently since starting chemotherapy.",
+        "medical_psych_history": "Left upper lung mesothelioma (current); Left CPA meningioma (3 years prior).",
+        "prior_management": "Gamma Knife Radiosurgery (GKRS) for meningioma 3 years ago.",
+        "patient_goals": "Evaluate hearing status amidst chemotherapy."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.1"
+          ],
+          "key_findings": "Asymmetric SNHL. Right: Slight SNHL (250-2k Hz) sloping to moderate/mod-severe (3k-8k Hz). Left: Mild SNHL (500-1500 Hz) decreasing to mod-severe (2k-3k Hz). Left ear significantly poorer than right at 500-3000 Hz.",
+          "numeric_results": {
+            "Right_250_2000Hz": "Slight SNHL",
+            "Right_3000_8000Hz": "Moderate to moderately severe SNHL",
+            "Left_500_1500Hz": "Mild SNHL",
+            "Left_2000_3000Hz": "Moderately severe SNHL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.1"
+          ],
+          "key_findings": "Right SRT slight loss, Left SRT mild loss. Significant rollover observed in the Left ear.",
+          "numeric_results": {
+            "WRS_Right": "98%",
+            "WRS_Left_PBmax": "68%",
+            "WRS_Left_HighLevel": "20% (at +10 dB HL)",
+            "Rollover_Index_Left": "0.71"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.1"
+          ],
+          "key_findings": "Right ipsilateral normal. Left ipsilateral elevated at 500 Hz, absent at 1k/2k Hz. Left contralateral absent 500-2000 Hz.",
+          "numeric_results": {
+            "Left_Ipsi_1000Hz": "Absent",
+            "Left_Ipsi_2000Hz": "Absent"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal bilateral tympanograms.",
+          "numeric_results": {
+            "Type": "A"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Historical data: 3 years prior to current visit. Presented with sudden SNHL in left ear persisting for 2 months.",
+        "otologic_history": "No tinnitus or vertigo reported at this time.",
+        "medical_psych_history": "MRI revealed left cerebellopontine angle (CPA) meningioma extending into IAC.",
+        "prior_management": "None at time of test.",
+        "patient_goals": "Diagnosis of sudden hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Historical (3 Years Prior)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.2"
+          ],
+          "key_findings": "Right: Normal 250-3k Hz, slight loss 6k-8k Hz. Left: Normal 250-1k Hz, moderate-severe SNHL 1.5k-6k Hz, recovery to mild at 8k Hz.",
+          "numeric_results": {
+            "Left_WRS": "8% (Very poor)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Historical data: 2 years after V2 (1 year prior to current V1). Follow-up after Gamma Knife Radiosurgery (GKRS).",
+        "otologic_history": "Patient perceived slightly decreased hearing compared to post-op recovery, but MRI showed tumor stable and reduced in size.",
+        "noise_exposure_history": "Occupational noise exposure evident (notch).",
+        "prior_management": "Post-GKRS.",
+        "patient_goals": "Monitoring."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Historical (1 Year Prior)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.3"
+          ],
+          "key_findings": "Hearing thresholds had largely returned to normal/near-normal. Both ears showed a 'notch' at 6000 Hz attributed to noise exposure.",
+          "numeric_results": {
+            "WRS_Right": "100%",
+            "WRS_Left": "100%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a complex mixed etiology. While there is bilateral high-frequency sensorineural hearing loss consistent with cisplatin ototoxicity and noise exposure, the left ear exhibits significant asymmetry, extremely poor speech recognition with rollover (RI 0.71), and absent acoustic reflexes. These retrocochlear signs in the left ear, distinct from the expected cochlear pattern of ototoxicity, indicate a recurrence or progression of the previously treated CPA meningioma.",
+  "counseling_points": [
+    "Your hearing test shows changes in both ears, likely due to the chemotherapy, but the left ear shows specific signs that are concerning for reasons other than the medication.",
+    "The 'rollover' in your speech scores (where louder speech becomes harder to understand) and the reflex test results suggest the issue in the left ear is related to the nerve or the previous tumor site, rather than just the inner ear hair cells.",
+    "It is critical to obtain a new MRI to check the status of the meningioma, as these results suggest it may be compressing the auditory nerve again.",
+    "Continue using hearing protection consistently to prevent further damage from noise, especially while your ears are vulnerable from the chemotherapy."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is weary from cancer treatment but specifically annoyed by the new 'sizzling' sound in the left ear.",
+    "You are diligent about hearing protection now, so you might be frustrated that your hearing is getting worse despite your efforts.",
+    "You may have trouble understanding the audiologist if they speak quickly or softly, especially on your left side."
+  ]
+}

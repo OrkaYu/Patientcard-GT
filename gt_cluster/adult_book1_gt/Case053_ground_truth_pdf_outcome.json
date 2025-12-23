@@ -1,0 +1,106 @@
+{
+  "case_id": "Case053",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Audiometry reveals a bilateral, symmetrical, mild-to-moderate gradually sloping sensorineural hearing loss with air and bone conduction thresholds matching, consistent with presbycusis."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, configuration, and type of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds, word recognition scores, and loudness discomfort levels."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To quantify the signal-to-noise ratio loss (QuickSIN) and determine directional microphone needs."
+      },
+      {
+        "action": "Tympanometry and Reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and check for retrocochlear signs."
+      },
+      {
+        "action": "Needs Assessment / Self-Report",
+        "urgency": "routine",
+        "rationale_short": "To assess communication needs, dexterity issues (arthritis), and self-perceived disability (HHIE, SAC, SOAC)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Evaluation reveals a bilateral mild-to-moderate sloping sensorineural hearing loss with good word recognition in quiet but a significant SNR loss (+7 dB) indicating difficulty in noise. Middle ear function is normal. Dexterity issues due to arthritis and specific lifestyle needs (TV, bridge, gardening) dictate the selection of automated features and accessories.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral mild to moderate gradually sloping SNHL. Right: 20-25 dB HL sloping to 50-55 dB HL. Left: 30 dB HL sloping to 50-60 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs 25 dB HL (Right) and 30 dB HL (Left); WRS 86% (Right) and 82% (Left) at 40 dB SL; LDLs 95 dB HL bilaterally."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "QuickSIN revealed a 7 dB SNR loss, indicating the need for a +7 dB signal-to-noise ratio to perform like a normal listener."
+          },
+          {
+            "name": "Tympanometry and Reflexes",
+            "category": "Immittance",
+            "result_summary": "Type A tympanograms bilaterally. Reflexes present at reduced sensation levels (recruitment), no decay."
+          },
+          {
+            "name": "Needs Assessment / Self-Report",
+            "category": "Questionnaire",
+            "result_summary": "Completed HHIE, SAC, SOAC, and selection table. Identified dexterity issues (arthritis), need for wind noise management, and desire for TV streaming."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit bilateral mini-BTE hearing aids with open domes.",
+      "Enable automatic and adaptive directionality, feedback management, and digital noise reduction (DNR).",
+      "Provide compatible TV streamer.",
+      "Recommend amplified telephone.",
+      "Utilize Program #4 specifically for wind noise reduction (gardening)."
+    ],
+    "counseling_actions": [
+      "Counsel on realistic expectations regarding the 7 dB SNR loss and hearing in background noise.",
+      "Discuss dexterity strategies for device handling due to arthritis (e.g., remote control vs. automatic features).",
+      "Instruct on use of the TV streamer with the patient's son present.",
+      "Counsel on phone use strategies (acoustic coupling vs. amplified phone).",
+      "Re-instruct on program selection for outdoor/windy environments."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Routine follow-up for hearing aid fitting, verification, and counseling."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "30 days",
+    "objective": "Assess adjustment to hearing aids, verify benefit (COSI), and address specific issues with phone use and wind noise."
+  },
+  "expected_outcome": [
+    "Patient reported adjusting well to the new hearing aids and finding them beneficial in most situations.",
+    "Difficulty hearing over the phone was resolved by purchasing an amplified telephone similar to the one demonstrated in the clinic.",
+    "Wind noise complaint while gardening was addressed by re-instructing the patient to use Program #4.",
+    "COSI documentation confirmed improvement in targeted areas, including hearing the television with the streamer."
+  ]
+}

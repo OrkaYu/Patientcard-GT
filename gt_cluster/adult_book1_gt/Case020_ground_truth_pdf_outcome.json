@@ -1,0 +1,116 @@
+{
+  "case_id": "Case020",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Auditory Processing Disorder (APD) / Generalized Neurological Pathway Disorder",
+      "rationale_short": "APD battery confirmed significant abnormalities in auditory figure-ground, dichotic listening, and temporal processing consistent with a neurological basis."
+    },
+    {
+      "rank": 2,
+      "label": "Auditory Neuropathy Spectrum Disorder (ANSD)",
+      "rationale_short": "History of abnormal ABR with present OAEs and elevated reflexes, though considered part of the broader neurological deficits."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone and Speech Audiometry (External Review)",
+        "urgency": "routine",
+        "rationale_short": "Review baseline hearing sensitivity and word recognition ability."
+      },
+      {
+        "action": "Physiologic Measures (External Review)",
+        "urgency": "routine",
+        "rationale_short": "Review neural integrity via OAEs, ARTs, and ABR to investigate auditory neuropathy."
+      },
+      {
+        "action": "BKB-SIN Test",
+        "urgency": "routine",
+        "rationale_short": "Assess speech recognition performance in background noise."
+      },
+      {
+        "action": "SCAN-3A (APD Battery)",
+        "urgency": "routine",
+        "rationale_short": "Comprehensive assessment of central auditory processing skills."
+      },
+      {
+        "action": "Staggered Spondee Word Test (SSW)",
+        "urgency": "routine",
+        "rationale_short": "Assess dichotic listening and integration abilities."
+      },
+      {
+        "action": "Dichotic Digits Test (DDT)",
+        "urgency": "routine",
+        "rationale_short": "Assess dichotic listening with low linguistic load."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing sensitivity is normal, but physiologic testing indicates auditory neuropathy spectrum characteristics (present OAEs, abnormal ABR). Behavioral APD testing reveals severe deficits in auditory figure-ground, dichotic listening, and temporal processing, with a composite score in the 2nd percentile. A significant Left Ear Advantage (LEA) on multiple tests suggests atypical language processing organization.",
+        "tests": [
+          {
+            "name": "Pure-tone and Speech Audiometry (External Review)",
+            "category": "Audiometry",
+            "result_summary": "Hearing within normal limits bilaterally; Word Recognition Scores (WRS) 100%."
+          },
+          {
+            "name": "Physiologic Measures (External Review)",
+            "category": "Electrophysiology",
+            "result_summary": "OAEs present; ARTs elevated; reflex decay present bilaterally; ABR abnormal (90 dB nHL required for repeatable response)."
+          },
+          {
+            "name": "BKB-SIN Test",
+            "category": "Speech-in-Noise",
+            "result_summary": "SNR loss of 8.5 dB, indicating moderate difficulty understanding sentences in noise."
+          },
+          {
+            "name": "SCAN-3A (APD Battery)",
+            "category": "APD Battery",
+            "result_summary": "Composite score 69 (2nd percentile). Core subtests ranged 1st-25th percentile. Time Compressed Sentences (53rd percentile) was normal. Left Ear Advantage noted on multiple subtests."
+          },
+          {
+            "name": "Staggered Spondee Word Test (SSW)",
+            "category": "APD Battery",
+            "result_summary": "Total errors 21 (norm 1.61). All conditions substantially poorer than cutoff. Left Ear Advantage observed in competing conditions."
+          },
+          {
+            "name": "Dichotic Digits Test (DDT)",
+            "category": "APD Battery",
+            "result_summary": "Right Ear 65%, Left Ear 55%. Scores well below cutoff. Right Ear Advantage of 10% observed."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue use of compensatory strategies (self-pacing, quiet environments, strict organization)",
+      "Monitor for developing technology that may assist in the future",
+      "Use of visual cues and context to support auditory information"
+    ],
+    "counseling_actions": [
+      "Explain the neurological basis of deficits related to intrauterine drug exposure",
+      "Discuss the Left Ear Advantage findings indicating atypical brain organization for language",
+      "Validate the patient's success and intellectual ability despite sensory/cognitive factors",
+      "Advise that specific remediation/training is unlikely to change physiological status; compensatory strategies are the best option"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Self-management",
+      "rationale_short": "Patient has developed effective compensatory strategies; no specific medical or surgical intervention is indicated for the APD/neurological findings."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor for new assistive technology and maintain compensatory strategies."
+  },
+  "expected_outcome": [
+    "Patient has earned a doctorate and maintains a successful personal and professional life.",
+    "Patient continues to use intellectual gifts and determination to overcome multiple factors that might have prevented academic and personal success."
+  ]
+}

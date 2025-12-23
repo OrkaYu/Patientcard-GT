@@ -1,0 +1,95 @@
+{
+  "case_id": "case_45",
+  "title": "High Frequency Gain-Dependent Word Recognition",
+  "demographics": {
+    "age_years": null,
+    "sex": null,
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am having significant trouble understanding speech, and I want to know if amplification will actually improve my clarity.",
+  "problem_summary": {
+    "onset": "Gradual",
+    "course": "Stable sensorineural hearing loss",
+    "laterality": "Bilateral (implied by audiometric examples)",
+    "associated_symptoms": "Reduced speech clarity, potential concern for cochlear dead regions.",
+    "functional_impact": "Difficulty recognizing words, particularly high-frequency consonants.",
+    "goals_motivation": "To determine if high-frequency amplification improves speech understanding or if cochlear distortion limits benefit."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Four adult patients presented with high-frequency (>1000 Hz) hearing thresholds greater than 55 dB HL and baseline Word Recognition Scores (WRS) of 80% or poorer.",
+        "otologic_history": "Sensorineural hearing loss ranging from mild-to-moderate to severe/profound.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Assessment of potential for high-frequency amplification benefit versus cochlear dead regions.",
+        "patient_goals": "Improve word recognition."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 45.2",
+            "Figure 45.3"
+          ],
+          "key_findings": "Four distinct audiometric configurations presented (Cases A-D). All show high-frequency sensorineural hearing loss greater than 55 dB HL above 1000 Hz. Case A and B: Mild to moderate SNHL. Case C: Mild to profound SNHL. Case D: Severe SNHL (PTA = 88 dB HL).",
+          "numeric_results": {
+            "Case_D_PTA": "88 dB HL",
+            "HF_Thresholds": "> 55 dB HL (>1000 Hz)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Experimental",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 45.2",
+            "Figure 45.3"
+          ],
+          "key_findings": "Word recognition measured under two conditions: 1) Original baseline (phonemically balanced CVC words). 2) High-frequency gain-adjusted (14 dB additional gain >1000 Hz). Presentation levels adjusted for audibility (80-85 dB HL for A-C; 100 dB HL for D). All four cases showed significant improvement with HF gain, contrary to concerns about cochlear dead regions.",
+          "numeric_results": {
+            "Case_A_Original_WRS": "50%",
+            "Case_A_HF_Gain_WRS": "80%",
+            "Case_A_Improvement": "30%",
+            "Case_B_Original_WRS": "75%",
+            "Case_B_HF_Gain_WRS": "100%",
+            "Case_B_Improvement": "25%",
+            "Case_C_Original_WRS": "65%",
+            "Case_C_HF_Gain_WRS": "95%",
+            "Case_C_Improvement": "30%",
+            "Case_D_Original_WRS": "20%",
+            "Case_D_HF_Gain_WRS": "60%",
+            "Case_D_Improvement": "40%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation of four adults with varying degrees of high-frequency sensorineural hearing loss demonstrated that adding 14 dB of gain above 1000 Hz significantly improved word recognition scores in all cases. Improvements ranged from 25% to 40% over baseline scores. This suggests that despite the severity of loss or potential for cochlear dead regions, these patients retained the capacity to utilize high-frequency speech cues when made audible.",
+  "counseling_points": [
+    "Although you have significant hearing loss in the high pitches, our testing shows that your nerves are still able to process speech sounds in that range.",
+    "When we added extra volume specifically to the high frequencies, your ability to understand words improved dramatically (by 25-40%).",
+    "This indicates that hearing aids programmed with sufficient high-frequency gain will likely provide significant benefit for speech clarity.",
+    "We do not see evidence that 'dead regions' in the inner ear will prevent you from benefiting from amplification."
+  ],
+  "notes_for_actor": [
+    "This case represents a composite of four patients. Portray a patient with significant difficulty understanding speech who might be skeptical that hearing aids will help because 'making it louder doesn't make it clearer' in their past experience.",
+    "Express surprise and satisfaction when the 'high frequency gain' condition is simulated, as the clarity of words improves noticeably."
+  ]
+}

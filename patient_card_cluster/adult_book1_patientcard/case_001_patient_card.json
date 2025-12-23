@@ -1,0 +1,222 @@
+{
+  "case_id": "case_1",
+  "title": "Posttraumatic Stress Disorder Mimics Auditory Processing Disorder",
+  "demographics": {
+    "age_years": 26,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have constant ringing in both ears and hearing loss. I have trouble hearing in quiet and noise, I get dizzy, and I'm sensitive to loud sounds. My memory is bad, I'm irritable, and I can't sleep.",
+  "problem_summary": {
+    "onset": "Following deployment to Iraq (2007-2008).",
+    "course": "Persistent symptoms since discharge; constant tinnitus.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Tinnitus, dizziness/imbalance, memory loss, irritability, hyperacusis, sleep disturbance, blurred vision (transient).",
+    "functional_impact": "Severe self-perceived hearing handicap (HHIA-S score 28); difficulty in diverse listening environments; anxiety in noisy places.",
+    "goals_motivation": "Plans to attend college; wants to listen in social situations with less effort and fatigue."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-04-02",
+      "setting": "VA Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports bilateral hearing loss and constant tinnitus following deployment. Also reports dizziness and memory issues.",
+        "otologic_history": "History of blast exposures. No prior hearing protection use reported during blasts.",
+        "noise_exposure_history": "Completed two tours in Iraq (OIF). Sustained 25+ blast exposures (IEDs, RPG, IRAM).",
+        "medical_psych_history": "Diagnosed with PTSD. Confirmed mild Traumatic Brain Injury (mTBI) with intracranial hematomas following RPG blast. Loss of consciousness reported.",
+        "prior_management": "Previous diagnosis of PTSD; CT scan confirmed mTBI.",
+        "patient_goals": "Improve functional communication for college."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 1.1"
+          ],
+          "key_findings": "Bilateral slight hearing loss at 250-1000 Hz, rising to within normal limits at 2000-8000 Hz.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "20-25 dB HL at 250-500 Hz, improving to 0-10 dB HL at 2k-8k Hz",
+            "Left_Ear_Thresholds": "15-20 dB HL at 250-500 Hz, improving to 0-5 dB HL at 2k-8k Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 1.1"
+          ],
+          "key_findings": "Mild SRT loss in the right ear, slight in the left. Word recognition scores are excellent bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "20 dB HL",
+            "SRT_Left": "17 dB HL",
+            "WRS_Right": "100%",
+            "WRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 1.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Peak_Pressure": "-25 daPa",
+            "Left_Peak_Pressure": "-25 daPa",
+            "Right_Static_Admittance": "1.0 mL",
+            "Left_Static_Admittance": "0.8 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 1.1"
+          ],
+          "key_findings": "Ipsilateral and contralateral reflexes within normal limits. Reflex decay negative.",
+          "numeric_results": {
+            "Reflexes": "Present/Normal at 500, 1000, 2000, 4000 Hz"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing Handicap Inventory for Adults (HHIA-S) indicated severe handicap.",
+          "numeric_results": {
+            "HHIA-S_Score": "28"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "VA Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up to address functional hearing deficits despite normal peripheral sensitivity.",
+        "otologic_history": "Previous evaluation showed normal peripheral hearing (high frequencies) but slight low-frequency loss.",
+        "noise_exposure_history": "Unchanged.",
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "Referred for vestibular and APD evaluation.",
+        "patient_goals": "Address difficulty hearing in noise and auditory memory issues."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Vestibular Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Comprehensive vestibular evaluation (ocular motor, positional, caloric, rotational chair) was performed.",
+          "numeric_results": {
+            "Result": "Within normal limits"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "APD Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 1.1"
+          ],
+          "key_findings": "Words-in-Noise (WIN) test revealed severe SNR loss.",
+          "numeric_results": {
+            "WIN_Score": "18.8 dB SNR",
+            "Norm": "<= 6.0 dB SNR"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "APD Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 1.1"
+          ],
+          "key_findings": "Adaptive Test of Temporal Resolution (ATTR) showed poor gap detection thresholds.",
+          "numeric_results": {
+            "Gap_Detection_Threshold": "54.5 msec",
+            "Norm": "3.0 msec"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "APD Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 1.1"
+          ],
+          "key_findings": "LiSN-S (Listening in Spatialized Noise) showed deficits in using spatial and talker cues.",
+          "numeric_results": {
+            "Low_cue_SRT": "14.6 dB",
+            "High_cue_SRT": "14.2 dB",
+            "Talker_Advantage": "-0.4 dB",
+            "Spatial_Advantage": "-0.2 dB"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Peripheral hearing sensitivity is essentially normal, with only slight low-frequency hearing loss and excellent word recognition in quiet. However, auditory processing evaluation reveals significant deficits in speech-in-noise performance, temporal resolution, and spatial processing. Results meet criteria for Auditory Processing Disorder (APD).",
+  "counseling_points": [
+    "Your standard hearing test is mostly normal, but your brain is struggling to process complex sounds, which explains your difficulty in noise.",
+    "We recommend using an FM system (like the Phonak iSense) to help bring the speaker's voice directly to your ears in classrooms.",
+    "Communication strategies, such as facing the speaker and sitting in the front row, will be essential for your college courses.",
+    "Progressive Tinnitus Management (PTM) groups can help you learn to manage your reaction to the ringing in your ears."
+  ],
+  "notes_for_actor": [
+    "Portray a young veteran who is frustrated that previous doctors might have said your hearing is 'fine' despite your struggles.",
+    "Exhibit signs of hyperacusis (sensitivity to loud noises) and mild anxiety/irritability consistent with PTSD.",
+    "You are motivated to go to college but worried about your ability to concentrate and hear the professor."
+  ]
+}

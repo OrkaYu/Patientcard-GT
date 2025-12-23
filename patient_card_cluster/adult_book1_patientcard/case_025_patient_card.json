@@ -1,0 +1,191 @@
+{
+  "case_id": "case_25",
+  "title": "Pseudohypoacusis: The Stenger Test",
+  "demographics": {
+    "age_years": 46,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I lost hearing in my left ear after a barrel exploded near my head at work about a year ago.",
+  "problem_summary": {
+    "onset": "1 year prior to evaluation following an occupational blast injury.",
+    "course": "Patient reports constant symptoms; previous records show fluctuating severe-to-profound loss.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Constant high-frequency tinnitus; difficulty communicating in noise.",
+    "functional_impact": "Significant difficulty communicating in noisy listening environments.",
+    "goals_motivation": "Referred by attorney; involved in litigation regarding the occupational injury."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2008-04-02",
+      "setting": "General Practitioner's Office",
+      "history": {
+        "present_illness": "Initial evaluation following blast trauma.",
+        "otologic_history": "Trauma to left side of face required two plastic surgeries.",
+        "noise_exposure_history": "Blast exposure (barrel explosion).",
+        "medical_psych_history": "None reported.",
+        "prior_management": "None.",
+        "patient_goals": "Document hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 25.1"
+          ],
+          "key_findings": "Right ear within normal limits. Left ear shows severe-to-profound hearing loss. No masking was used.",
+          "numeric_results": {
+            "RE_thresholds": "0-10 dB HL",
+            "LE_thresholds": "70-110 dB HL (variable)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2008-08-01",
+      "setting": "General Practitioner's Office",
+      "history": {
+        "present_illness": "Follow-up evaluation 4 months after initial test.",
+        "otologic_history": "Same as V1.",
+        "noise_exposure_history": "Same as V1.",
+        "medical_psych_history": "None reported.",
+        "prior_management": "None.",
+        "patient_goals": "Re-evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 25.2"
+          ],
+          "key_findings": "Right ear normal. Left ear severe-to-profound loss. Poor test-retest reliability compared to V1. No masking used.",
+          "numeric_results": {
+            "RE_thresholds": "0-10 dB HL",
+            "LE_thresholds": "Varied from V1"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2008-10-01",
+      "setting": "Audiology Clinic (Author)",
+      "history": {
+        "present_illness": "Referred by attorney for diagnostic audiological evaluation.",
+        "otologic_history": "History of blast trauma to left head.",
+        "noise_exposure_history": "Occupational explosion 1 year prior.",
+        "medical_psych_history": "Denies hearing loss prior to accident.",
+        "prior_management": "Seen twice by GP.",
+        "patient_goals": "Legal/medical documentation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 25.3"
+          ],
+          "key_findings": "RE normal with 4kHz notch. LE unmasked thresholds 75-85 dB HL. Lack of shadow curve (crossover) suggests pseudohypoacusis.",
+          "numeric_results": {
+            "RE_PTA": "8 dB HL",
+            "LE_PTA": "80 dB HL",
+            "RE_4kHz": "20 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 25.3"
+          ],
+          "key_findings": "Significant SRT/PTA discrepancy in the left ear (SRT 25 dB better than PTA).",
+          "numeric_results": {
+            "RE_SRT": "8 dB HL",
+            "RE_WRS": "96%",
+            "LE_SRT": "55 dB HL",
+            "LE_WRS": "62%"
+          }
+        },
+        {
+          "name": "Stenger Test",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 25.1"
+          ],
+          "key_findings": "Positive Stenger at 500 and 4000 Hz. Patient failed to respond to bilateral stimulation when the signal was louder in the 'bad' ear but softer than admitted threshold, indicating he heard it but chose not to respond.",
+          "numeric_results": {
+            "500Hz_Result": "Positive",
+            "4000Hz_Result": "Positive"
+          }
+        },
+        {
+          "name": "Minimum Contralateral Interference Levels (MCIL)",
+          "timepoint_label": "Diagnostic",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 25.2"
+          ],
+          "key_findings": "MCIL procedure predicts true thresholds are significantly better than voluntary thresholds.",
+          "numeric_results": {
+            "Predicted_True_Threshold_500Hz": "15-20 dB HL",
+            "Predicted_True_Threshold_4000Hz": "30-35 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a voluntary severe-to-profound hearing loss in the left ear that is inconsistent with physiological acoustics. The absence of a shadow curve (crossover) in unmasked testing, a significant discrepancy between SRT and PTA (SRT is 25 dB better), and a positive Stenger test all confirm pseudohypoacusis. MCIL testing suggests the true hearing in the left ear is likely no worse than a mild hearing loss.",
+  "counseling_points": [
+    "I noticed some inconsistencies in the test results today, particularly between how you hear speech versus tones.",
+    "Our specialized testing indicates your left ear is detecting sounds at much softer levels than the initial tone test suggested.",
+    "Specifically, the tests suggest your hearing levels are likely in the mild range rather than the severe range.",
+    "It is important we get an accurate measure of your true hearing levels to proceed with any medical or legal documentation."
+  ],
+  "notes_for_actor": [
+    "You are a 46-year-old male involved in a lawsuit regarding a workplace explosion.",
+    "You are feigning (faking) a severe hearing loss in your left ear.",
+    "During standard testing, do not press the button for the left ear unless the sound is very loud (75-85 dB).",
+    "However, when speech is played, you accidentally respond at softer levels (55 dB) because speech is easier to recognize.",
+    "During the Stenger test (when sounds play in both ears at once): If you hear the sound in your 'bad' (left) ear, do NOT respond, even if you can also hear it in your 'good' ear. This is the 'Stenger effect' that gives you away."
+  ]
+}

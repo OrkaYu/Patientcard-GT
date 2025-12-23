@@ -1,0 +1,204 @@
+{
+  "case_id": "case_31",
+  "title": "Could It Be (Central) Auditory Processing Disorder?",
+  "demographics": {
+    "age_years": 25,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "Australia"
+  },
+  "chief_complaint": "I'm ready to be discharged from rehab and I really want to go back to my job at the IT help desk. My social worker is worried about whether I can handle the noise and the phones, so she sent me here to check my hearing and processing.",
+  "problem_summary": {
+    "onset": "6 months ago following a traumatic brain injury (TBI) from a motor vehicle accident.",
+    "course": "Acute hospitalization with GCS drop to 6, craniectomy for subdural hematoma, and coma. Gradual recovery in Brain Injury Rehabilitation Unit (BIRU); GCS returned to 15.",
+    "laterality": "Bilateral hearing loss; diffuse brain injury (bifrontal, bitemporal, left temporoparietal).",
+    "associated_symptoms": "Mild anxiety, difficulty concentrating/tracking multiple stimuli, verbose speech, word-finding difficulties, reduced fine motor function.",
+    "functional_impact": "Concerns regarding ability to function in a noisy call center environment; difficulty with abstract meanings and rapid information flow.",
+    "goals_motivation": "Highly motivated to return to work at his previous IT company."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-03-07",
+      "setting": "Audiology Clinic (University)",
+      "history": {
+        "present_illness": "Patient is 6 months post-TBI. Referred for CAP assessment prior to return-to-work planning.",
+        "otologic_history": "Hemorrhaging from both ears at scene of accident. Temporal bone fractures implied by nature of injury/hearing loss pattern.",
+        "noise_exposure_history": "Previous work in a noisy call center.",
+        "medical_psych_history": "Severe TBI (bifrontal/bitemporal contusions, SAH, SDH). Left temporoparietal infarct. Current mild anxiety and cognitive deficits.",
+        "prior_management": "Neurosurgery (craniectomy), ICU care, inpatient rehabilitation.",
+        "patient_goals": "Clearance to return to IT help desk role."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-CAP Assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 31.1"
+          ],
+          "key_findings": "Bilateral asymmetrical mild-to-moderate sensorineural hearing loss at 3000–8000 Hz. Hearing is slightly poorer in the left ear. Low and mid-frequencies are within normal limits.",
+          "numeric_results": {
+            "Right_PTA": "8 dB HL",
+            "Left_PTA": "12 dB HL",
+            "Right_Thresholds": "250-2k Hz: 5-10 dB; 3k: 30 dB; 4k: 45 dB; 8k: 40 dB",
+            "Left_Thresholds": "250-2k Hz: 5-10 dB; 3k: 40 dB; 4k: 55 dB; 8k: 50 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-CAP Assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 31.1"
+          ],
+          "key_findings": "Word recognition scores consistent with pure-tone thresholds. Testing used NAL-AB word lists.",
+          "numeric_results": {
+            "Right_SRT": "8 dB HL",
+            "Left_SRT": "12 dB HL",
+            "Right_WRS": "91% at 50 dB HL",
+            "Left_WRS": "87% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry & Reflexes",
+          "timepoint_label": "Pre-CAP Assessment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 31.1"
+          ],
+          "key_findings": "Type A tympanograms bilaterally. Acoustic reflexes present/normal except absent at 4000 Hz (consistent with HL).",
+          "numeric_results": {
+            "Right_ECV": "1.2 mL",
+            "Left_ECV": "1.4 mL",
+            "Reflexes_4kHz": "Absent (CNT)"
+          }
+        },
+        {
+          "name": "OAEs & Electrophysiology",
+          "timepoint_label": "Pre-CAP Assessment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "TEOAEs/DPOAEs present to 3000 Hz. ABR within normal limits. ALLR (Late Latency) showed normal latency but abnormally large amplitude, suggestive of cortical disinhibition.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2013-03-14",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up for behavioral CAP assessment 1 week after standard audiometry.",
+        "patient_goals": "Determine functional hearing status for work."
+      },
+      "tests": [
+        {
+          "name": "Low-Pass Filtered Speech (LPFS)",
+          "timepoint_label": "CAP Assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 31.2"
+          ],
+          "key_findings": "Performance dropped significantly (>60%) when words were filtered compared to unfiltered. Scores well below normal limits for filtered condition.",
+          "numeric_results": {
+            "Unfiltered_Score": "~80-90% (Normal)",
+            "Filtered_Score": "~15-20% (Abnormal)"
+          }
+        },
+        {
+          "name": "Competing Sentences (CS)",
+          "timepoint_label": "CAP Assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 31.2"
+          ],
+          "key_findings": "Performance decreased >50% in the presence of competing sentences (dichotic) compared to non-competing (monotic).",
+          "numeric_results": {
+            "Non_Competing_Score": "~85% (Normal)",
+            "Competing_Score": "~25% (Abnormal)"
+          }
+        },
+        {
+          "name": "Two-Pair Dichotic Digits (TPDD)",
+          "timepoint_label": "CAP Assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 31.2"
+          ],
+          "key_findings": "Scores below normal limits. Interestingly, ability to repeat digits did not differ between dichotic vs monotic conditions.",
+          "numeric_results": {
+            "Right_Dichotic": "~60%",
+            "Left_Dichotic": "~45%"
+          }
+        },
+        {
+          "name": "Frequency Pattern (FP)",
+          "timepoint_label": "CAP Assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 31.2"
+          ],
+          "key_findings": "Ability to follow patterns decreased >40% when labeling with words (linguistic) vs humming (non-linguistic). Suggests interhemispheric transfer or labeling deficit.",
+          "numeric_results": {
+            "Humming_Score": "~65%",
+            "Labeling_Score": "~15%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral asymmetrical mild-to-moderate high-frequency sensorineural hearing loss. Functional auditory processing assessment reveals significant deficits in auditory closure (filtered speech), figure-ground discrimination (competing sentences), and temporal patterning (labeling), with scores dropping drastically under challenging conditions compared to baseline tasks. While peripheral hearing loss and cognitive factors contribute, the results indicate substantial functional difficulty in noisy or complex listening environments.",
+  "counseling_points": [
+    "Your hearing tests confirm some permanent high-pitch hearing loss from the accident, which makes speech less clear.",
+    "The processing tests show that your brain struggles significantly when there is background noise or when you have to multitask with your hearing.",
+    "Returning to the IT help desk, which is a very noisy environment requiring phone use, would be extremely difficult and frustrating for you right now.",
+    "We strongly recommend a modified role, such as the 'IT support officer' position, where you can work in a quiet area and handle one problem at a time.",
+    "Using a wireless headset connected directly to your phone and computer will help block out noise and deliver sound directly to your ears."
+  ],
+  "notes_for_actor": [
+    "Portray mild anxiety and some difficulty staying on track in conversation (slightly verbose).",
+    "You are motivated to work but may not fully realize your limitations until explained.",
+    "You have trouble tracking more than one thing at a time.",
+    "Physically, you walk without assistance but may have slightly reduced fine motor control."
+  ]
+}

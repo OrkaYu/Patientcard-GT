@@ -1,0 +1,209 @@
+{
+  "case_id": "case_32",
+  "title": "Diagnosis and Treatment of Superior Semicircular Canal Dehiscence Syndrome",
+  "demographics": {
+    "age_years": 49,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been getting dizzy and lightheaded for seconds to minutes at a time, especially when there are loud sounds. I also hear a fullness and ringing in my left ear, and my own voice sounds unusually loud.",
+  "problem_summary": {
+    "onset": "Symptoms began after an upper respiratory infection and bronchitis.",
+    "course": "Several month history; brief positional vertigo resolved with Epley maneuvers previously, but sound-induced dizziness persists.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Sound-induced dizziness (Tullio phenomenon), autophony (hearing self speak/breathe/chew loudly), tinnitus, aural fullness.",
+    "functional_impact": "Uses a musician's earplug in the left ear to help prevent dizziness and lightheadedness.",
+    "goals_motivation": "Seeking diagnosis and management of dizziness and auditory symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2011-11-07",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports dizziness/imbalance lasting seconds to minutes, exacerbated by loud sounds. History of positional vertigo (resolved). Reports left-sided hearing loss, tinnitus, autophony, and intermittent aural fullness.",
+        "otologic_history": "Denied history of chronic otitis media, previous ear surgeries, or head trauma.",
+        "medical_psych_history": "Denied history of migraines or anxiety.",
+        "prior_management": "Epley maneuvers resolved prior positional vertigo component. Uses earplug in left ear for symptom control."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 32.1"
+          ],
+          "key_findings": "Normal hearing bilaterally, with the exception of a mild conductive hearing loss at 250 and 500 Hz in the left ear. Air-bone gaps present in low frequencies on the left.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "Within normal limits (0-15 dB HL)",
+            "Left_AC_Thresholds_250Hz": "~25 dB HL",
+            "Left_AC_Thresholds_500Hz": "~20 dB HL",
+            "Left_BC_Thresholds": "0 dB HL (Normal)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 32.1"
+          ],
+          "key_findings": "Excellent word recognition scores bilaterally. SRTs consistent with pure tone averages.",
+          "numeric_results": {
+            "SRT_Right": "12 dB HL",
+            "SRT_Left": "10 dB HL",
+            "WRS_Right": "100%",
+            "WRS_Left": "96%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 32.1"
+          ],
+          "key_findings": "Normal middle ear pressure, ear canal volume, and static admittance bilaterally.",
+          "numeric_results": {
+            "Right_Type": "A",
+            "Left_Type": "A",
+            "Right_Volume": "1.52 mL",
+            "Left_Volume": "1.71 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 32.1"
+          ],
+          "key_findings": "Present at normal hearing levels for ipsilateral and contralateral conditions bilaterally.",
+          "numeric_results": {
+            "Right_Ipsi_1000Hz": "85 dB",
+            "Left_Ipsi_1000Hz": "85 dB"
+          }
+        },
+        {
+          "name": "Computerized Dynamic Posturography (CDP)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal performance on Sensory Organization Test (SOT) and Motor Control Test (MCT). Ability to maintain upright stance under changing sensory conditions was normal.",
+          "numeric_results": null
+        },
+        {
+          "name": "Videonystagmography (VNG) & Rotary Chair",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal oculomotor testing. No spontaneous or positional nystagmus. Bithermal caloric responses robust and symmetric. Rotary chair showed normal phase, gain, and symmetry.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Specialized Vestibular/Neurotology Evaluation",
+      "history": {
+        "present_illness": "Referral to neurotologist for suspected Superior Semicircular Canal Dehiscence (SSCD) based on sound-induced dizziness and low-frequency conductive loss with normal middle ear function."
+      },
+      "tests": [
+        {
+          "name": "Cervical Vestibular-Evoked Myogenic Potential (cVEMP)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 32.2"
+          ],
+          "key_findings": "Thresholds were normal in the right ear and abnormally low in the left ear, consistent with SSCD.",
+          "numeric_results": {
+            "Right_Threshold": "80-85 dB nHL",
+            "Left_Threshold": "60-65 dB nHL"
+          }
+        },
+        {
+          "name": "CT Scan (Temporal Bone)",
+          "timepoint_label": "Diagnostic",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "High-resolution CT revealed thinning and/or dehiscence of the roof of the left superior semicircular canal.",
+          "numeric_results": null
+        },
+        {
+          "name": "Subjective Questionnaire (SSCD Symptoms)",
+          "timepoint_label": "Pre-op",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 32.1"
+          ],
+          "key_findings": "Patient reported severe to profound symptoms (score 5/5) for dizziness/vertigo, loud noise sensitivity, and pressure changes. Moderate to profound hearing symptoms.",
+          "numeric_results": {
+            "Dizziness_Vertigo_Imbalance": "5 (Profound)",
+            "Vertigo_Loud_Noises": "5 (Profound)",
+            "Fullness_Sensation": "3 (Moderate)",
+            "Hear_Own_Heartbeat/Chewing": "0 (None)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a mild low-frequency conductive hearing loss in the left ear, despite normal tympanometry and acoustic reflexes. Standard vestibular testing (VNG, Rotary Chair, CDP) is within normal limits. However, specialized testing reveals abnormally low cVEMP thresholds on the left side and CT imaging confirms dehiscence of the left superior semicircular canal, consistent with Superior Semicircular Canal Dehiscence (SSCD) syndrome.",
+  "counseling_points": [
+    "Explain the 'third window' phenomenon: A thinning or hole in the bone overlying the superior canal allows pressure and sound to stimulate the balance system inappropriately.",
+    "Discuss the 'Tullio phenomenon': This explains why loud sounds (like your own voice or external noise) are making you dizzy.",
+    "Review the discrepancy between the conductive hearing loss and normal middle ear tests (tympanometry), which is a hallmark of this condition.",
+    "Discuss management options: Avoidance of triggers (loud sounds, pressure changes) versus surgical repair (plugging or resurfacing the canal) if symptoms severely impact quality of life."
+  ],
+  "notes_for_actor": [
+    "Emphasize that loud sounds make you dizzy immediately (Tullio phenomenon).",
+    "Describe 'autophony' clearly: 'When I speak, it sounds like my head is in a barrel' or 'I can hear my own footsteps thumping in my left ear.'",
+    "You are anxious about loud environments because they trigger your imbalance.",
+    "Note that you have already tried Epley maneuvers for BPPV, but they didn't fix the sound-induced dizziness."
+  ]
+}

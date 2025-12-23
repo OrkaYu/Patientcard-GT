@@ -1,0 +1,163 @@
+{
+  "case_id": "case_42",
+  "title": "Real-Ear Aided Response and Audibility",
+  "demographics": {
+    "age_years": 61,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am struggling to recognize speech on the telephone, in the classroom, and during group conversations.",
+  "problem_summary": {
+    "onset": "Gradual (implied)",
+    "course": "Increasing awareness of difficulty",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Difficulty on telephone and in groups",
+    "functional_impact": "Affects work as a tenured professor (teaching, advising students) and social interactions.",
+    "goals_motivation": "Highly motivated; scheduled appointment himself to address communication struggles."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-03-12",
+      "setting": "University Speech and Hearing Center",
+      "history": {
+        "present_illness": "Patient is a tenured professor responsible for teaching, research, and advising. He reports increasing difficulty hearing in daily environments.",
+        "otologic_history": "None specified beyond hearing loss.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "None.",
+        "patient_goals": "Improve speech recognition."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 42.1",
+            "Table 42.2"
+          ],
+          "key_findings": "Bilateral symmetrical mild to moderately severe hearing loss.",
+          "numeric_results": {
+            "RT_Thresholds_Hz_dBHL": "250:25, 500:30, 1000:35, 2000:40, 4000:45, 6000:50",
+            "LT_Thresholds": "Symmetrical to Right",
+            "PTA_RT": "35 dB",
+            "PTA_LT": "35 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 42.1"
+          ],
+          "key_findings": "SRTs consistent with pure tone thresholds. Word recognition scores (WRS) are very poor bilaterally, disproportionate to the degree of hearing loss.",
+          "numeric_results": {
+            "SRT_RT": "35 dB",
+            "SRT_LT": "35 dB",
+            "WRS_RT": "48% (at 75 dB HL)",
+            "WRS_LT": "44% (at 75 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 42.1"
+          ],
+          "key_findings": "Normal tympanograms (Type A) indicated by peaks near 0 daPa.",
+          "numeric_results": {
+            "Static_Admittance": "Within normal limits (visual estimate)",
+            "Peak_Pressure": "~0 daPa (visual estimate)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "University Speech and Hearing Center",
+      "history": {
+        "present_illness": "Patient returned for fitting of bilateral Receiver-In-The-Canal (RIC) hearing aids.",
+        "otologic_history": "N/A",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "Hearing aids programmed initially using predicted RECD values.",
+        "patient_goals": "Better speech understanding."
+      },
+      "tests": [
+        {
+          "name": "Real-Ear Measures (RECD Analysis)",
+          "timepoint_label": "Fitting",
+          "ear": "right",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 42.1",
+            "Fig. 42.2"
+          ],
+          "key_findings": "Measured RECD values were significantly higher than predicted values, indicating the patient's ear canal volume is smaller than the 2cc coupler average. Using predicted values resulted in insufficient gain.",
+          "numeric_results": {
+            "RECD_Predicted_4000Hz": "13 dB",
+            "RECD_Measured_4000Hz": "17 dB",
+            "RECD_Difference_4000Hz": "4 dB",
+            "RECD_Measured_1000Hz": "11 dB (vs 8 dB predicted)"
+          }
+        },
+        {
+          "name": "Audibility Calculation (AI)",
+          "timepoint_label": "Fitting Analysis",
+          "ear": "right",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 42.3",
+            "Table 42.2",
+            "Table 42.3"
+          ],
+          "key_findings": "Initial programming (predicted RECD) provided suboptimal audibility. Using measured RECD would significantly improve access to speech cues.",
+          "numeric_results": {
+            "Unaided_AI": "0.42",
+            "Aided_AI_Predicted_RECD": "0.74",
+            "Aided_AI_Measured_RECD": "0.89"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "JN presents with a bilateral, symmetrical mild to moderately severe sensorineural hearing loss with disproportionately poor word recognition scores (44-48%). Initial hearing aid fitting using predicted ear canal acoustics (RECD) resulted in under-amplification and patient disappointment. Investigation revealed his ear canals are smaller than average (higher measured RECD), requiring specific programming adjustments to achieve optimal audibility (AI 0.89 vs 0.74).",
+  "counseling_points": [
+    "Your ear canals are smaller than the 'average' ear, which changes how sound behaves inside them.",
+    "Because we initially used an average prediction, your hearing aids were not giving you quite enough volume in the pitch ranges critical for speech.",
+    "By measuring your specific ear canal acoustics, we can adjust the hearing aids to provide the exact amount of sound you need.",
+    "This adjustment increases the audible speech cues available to you from 74% to 89%, which should help with your clarity on the phone and in class."
+  ],
+  "notes_for_actor": [
+    "In the first visit, appear professional but concerned about your ability to teach and advise students effectively.",
+    "In the second visit (fitting), express clear disappointment. You expected these expensive devices to work immediately, but they don't seem to help much in the 'real world' yet.",
+    "Be skeptical until the audiologist explains *why* the first setting didn't work (the size of your ear canal)."
+  ]
+}

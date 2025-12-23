@@ -1,0 +1,179 @@
+{
+  "case_id": "case_12",
+  "title": "Vestibular Schwannoma",
+  "demographics": {
+    "age_years": 63,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "United States"
+  },
+  "chief_complaint": "I have a sensation of fullness in my left ear.",
+  "problem_summary": {
+    "onset": "Gradual onset of aural fullness; incidental finding of asymmetry led to diagnosis.",
+    "course": "Initially monitored ('wait and scan'); tumor showed growth after 1 year, leading to a decision for intervention.",
+    "laterality": "Left",
+    "associated_symptoms": "Aural fullness, mild tinnitus (left), minimal vertigo/disequilibrium.",
+    "functional_impact": "Minimal auditory impact initially (hearing sensitivity normal); primary concern is the intracranial tumor.",
+    "goals_motivation": "Monitor tumor growth and preserve hearing/function."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2010-06-15",
+      "setting": "External Institution",
+      "history": {
+        "present_illness": "Patient presented with aural fullness. Referred for otology appointment.",
+        "otologic_history": "History of occipital osteoma repair as a child. Mild tinnitus in left ear.",
+        "noise_exposure_history": "No significant noise exposure reported.",
+        "medical_psych_history": "Generally healthy.",
+        "prior_management": "None; initial diagnostic phase.",
+        "patient_goals": "Evaluation of ear fullness."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline (External)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.1"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. Slight asymmetry at 4000 and 8000 Hz (left ear worse).",
+          "numeric_results": {
+            "PTA_Right": "8 dB HL",
+            "PTA_Left": "11 dB HL",
+            "Threshold_4kHz_Left": "Elevated compared to Right (approx 15 dB asymmetry)",
+            "Threshold_3kHz": "Not measured"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline (External)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.1"
+          ],
+          "key_findings": "Speech recognition thresholds consistent with pure tones. Excellent word recognition.",
+          "numeric_results": {
+            "SRT_Right": "10 dB HL",
+            "SRT_Left": "10 dB HL",
+            "WRS_Right": "100% at 55 dB HL",
+            "WRS_Left": "100% at 55 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2011-05-31",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 12 months after initial diagnosis of left vestibular schwannoma (13mm). Patient elected 'wait and scan' approach initially.",
+        "otologic_history": "MRI confirmed vestibular schwannoma in left internal auditory canal. Repeat MRI shows tumor growth.",
+        "noise_exposure_history": "None.",
+        "medical_psych_history": "No changes.",
+        "prior_management": "Monitoring via MRI and audiology.",
+        "patient_goals": "Pre-intervention evaluation before stereotactic radiation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-treatment (12-month follow-up)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.2"
+          ],
+          "key_findings": "Normal hearing sensitivity maintained bilaterally. No air-bone gaps. Asymmetry at 8000 Hz persists (20 dB).",
+          "numeric_results": {
+            "PTA_Right": "8 dB HL",
+            "PTA_Left": "9 dB HL",
+            "Bone_Conduction": "Equivalent to air conduction (sensorineural)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-treatment (12-month follow-up)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.2"
+          ],
+          "key_findings": "Excellent speech recognition ability remains.",
+          "numeric_results": {
+            "SRT_Right": "6 dB HL",
+            "SRT_Left": "10 dB HL",
+            "WRS_Right": "100% at 50 dB HL",
+            "WRS_Left": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Pre-treatment (12-month follow-up)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.2"
+          ],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Type": "A bilaterally",
+            "Volume_Right": "1.3 mL",
+            "Volume_Left": "1.5 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Pre-treatment (12-month follow-up)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.2"
+          ],
+          "key_findings": "Significant asymmetry in ipsilateral reflexes. Present/Normal in Right ear, Absent in Left ear despite normal hearing thresholds.",
+          "numeric_results": {
+            "Right_Ipsi_500_1k_2k": "85-90 dB HL",
+            "Left_Ipsi_500_1k_2k": "Absent (>100-105 dB HL)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally and excellent word recognition scores. However, diagnostic indicators point to retrocochlear pathology in the left ear, specifically the absence of ipsilateral acoustic reflexes and high-frequency threshold asymmetry at 8000 Hz. These findings are consistent with the MRI-confirmed vestibular schwannoma.",
+  "counseling_points": [
+    "Although your hearing test shows you can still hear very soft sounds, the reflex test shows the nerve on the left side is not responding normally.",
+    "Since the MRI shows the tumor has grown, we need to move from monitoring to treatment.",
+    "We will proceed with the stereotactic radiation (CyberKnife) as discussed to stop the tumor growth.",
+    "We will need to continue monitoring your hearing closely after the radiation treatment."
+  ],
+  "notes_for_actor": [
+    "You have normal hearing but a feeling of fullness in the left ear.",
+    "You are likely anxious because you have been diagnosed with a brain tumor (acoustic neuroma), even though it is benign.",
+    "You initially chose to wait and watch, but now that it is growing, you are accepting the need for radiation."
+  ]
+}

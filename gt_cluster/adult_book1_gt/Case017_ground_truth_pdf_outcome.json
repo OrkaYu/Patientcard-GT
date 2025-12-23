@@ -1,0 +1,104 @@
+{
+  "case_id": "Case017",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sensorineural Hearing Loss with Cochlear Dead Regions (CDR)",
+      "rationale_short": "Bilateral asymmetric SNHL with disproportionately poor speech recognition in the right ear; TEN test confirmed CDRs at 1000 and 3000 Hz (Right) and 3000 Hz (Left)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given patient's report of poor performance with aids."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition ability and check for consistency with pure-tone thresholds."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear function and middle ear status."
+      },
+      {
+        "action": "Threshold Equalizing Noise (TEN) test",
+        "urgency": "routine",
+        "rationale_short": "To investigate the presence of Cochlear Dead Regions given the poor speech recognition and reports of distortion."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To assess aided functional performance and determine candidacy for cochlear implantation."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry reveals bilateral asymmetric SNHL, significantly poorer in the right ear. Speech recognition is disproportionately poor in the right ear (max 60%), raising suspicion of cochlear dead regions (CDRs). The TEN test confirms CDRs at 1000 and 3000 Hz in the right ear and 3000 Hz in the left ear, explaining the patient's perception of distortion ('tinny/harsh' sounds) and lack of benefit from amplification in those regions. Aided testing shows sentence recognition of 73%, which is currently better than the criteria for cochlear implant referral.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral asymmetric SNHL. Right ear: moderate (45-50 dB HL) at 250-500 Hz sloping to profound (90-100+ dB HL) at 2000-8000 Hz. Left ear: moderate-to-severe sloping to profound. Right ear thresholds are worse than left at 1000-2000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "Very poor recognition bilaterally, worse in right ear. Right SRT 70 dB, WRS 33% at 80 dB and 60% at 110 dB. Left SRT 50 dB, WRS 80% at 80-110 dB."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Elevated or absent reflexes consistent with SNHL."
+          },
+          {
+            "name": "Threshold Equalizing Noise (TEN) test",
+            "category": "Specialized",
+            "result_summary": "Positive for Cochlear Dead Regions (CDRs). Right ear: CDRs at 1000 Hz and 3000 Hz. Left ear: CDR at 3000 Hz. Off-frequency listening detected."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "Aided sentence recognition: 73% at 65 dBA (monitored live voice, no visual cues)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Reduce hearing aid amplification in high frequencies (above 1700 Hz in the right ear) to minimize distortion.",
+      "Monitor hearing thresholds and speech recognition at least every 3 years.",
+      "Review decision to refer for Cochlear Implant (CI) if hearing deteriorates."
+    ],
+    "counseling_actions": [
+      "Explain the concept of Cochlear Dead Regions and how amplification in these areas causes distortion rather than clarity.",
+      "Counsel on realistic expectations regarding hearing aid performance.",
+      "Discuss communication tactics and optimal positioning to reduce background noise impact.",
+      "Recommend attending speechreading classes.",
+      "Suggest assistive devices such as a remote wireless microphone for meetings."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology Clinic",
+      "rationale_short": "Patient is to be monitored every 3 years to track progression and review CI candidacy; current performance exceeds CI referral criteria."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Every 3 years",
+    "objective": "Monitor hearing thresholds and speech recognition abilities to reassess potential candidacy for cochlear implantation."
+  },
+  "expected_outcome": [
+    "Aided speech tests: 73% sentence recognition at 65 dBA (monitored live voice, no visual cues), exceeding the 50% criteria for cochlear implantation.",
+    "Reduction in amplification above 1700 Hz in the right ear resulted in greater listening comfort, resolving complaints of tinny and harsh sounds.",
+    "Patient accepted the limitations of her hearing and became receptive to counseling, communication tactics, and assistive devices.",
+    "Satisfaction with hearing aids improved, and no further appointments were requested over the subsequent 2 years."
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "case_id": "Case002",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Collapsing external ear canals",
+      "rationale_short": "Explains the artifactual conductive loss with supra-aural headphones and the functional difficulty in noise due to loss of natural canal resonance."
+    },
+    {
+      "rank": 2,
+      "label": "Presbycusis",
+      "rationale_short": "Patient has mild high-frequency sensorineural hearing loss, but this does not account for the initial air-bone gaps or the degree of difficulty in noise."
+    },
+    {
+      "rank": 3,
+      "label": "Middle ear pathology",
+      "rationale_short": "Initially suggested by air-bone gaps but ruled out by normal tympanometry, acoustic reflexes, and OAEs."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Initial assessment of hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear function to investigate the conductive component."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess integrity of the reflex arc and cross-check middle ear status."
+      },
+      {
+        "action": "Otoacoustic Emissions (OAEs)",
+        "urgency": "routine",
+        "rationale_short": "Assess cochlear outer hair cell function; presence contradicts conductive loss."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "urgent",
+        "rationale_short": "Retest with insert earphones to rule out collapsing ear canals."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up retest to confirm thresholds."
+      },
+      {
+        "action": "Real Ear Probe Tube Microphone Measurement",
+        "urgency": "routine",
+        "rationale_short": "Measure ear canal resonance in collapsed vs. stented states."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial testing with supra-aural headphones revealed a significant conductive/mixed hearing loss, which was inconsistent with normal tympanometry, present ipsilateral reflexes, and normal OAEs. An immediate retest using insert earphones resolved the air-bone gaps, confirming that the initial results were an artifact caused by collapsing ear canals under the pressure of the headphones.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Initial Test",
+            "result_summary": "Using TDH-39 earphones: Mild to moderate-severe high-frequency conductive/mixed loss with 35 dB air-bone gaps in high frequencies and 15-20 dB gaps at 250-500 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Initial Test",
+            "result_summary": "SRTs consistent with PTA; Word Recognition Scores excellent (96% Right, 92% Left)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Initial Test",
+            "result_summary": "Normal ear canal volume, static compliance, and pressure (Type A) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Initial Test",
+            "result_summary": "Contralateral reflexes absent 500-4000 Hz; Ipsilateral reflexes present bilaterally."
+          },
+          {
+            "name": "Otoacoustic Emissions (OAEs)",
+            "category": "Initial Test",
+            "result_summary": "Responses within normal range to 2000 Hz; present but slightly reduced at 4000 Hz."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Immediate Retest",
+            "result_summary": "Using ER-3A insert earphones: Air-bone gaps resolved; thresholds within 5 dB of bone conduction; hearing essentially normal for age."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "The patient returned with continued complaints of difficulty in noise despite 'normal' thresholds. Repeat audiometry confirmed normal sensitivity with inserts. Real-ear measurements demonstrated that the patient's polychondritis causes the ear canals to collapse even without headphones, destroying the natural quarter-wavelength resonance and reducing high-frequency amplification, which explains the functional deficit.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Follow-up",
+            "result_summary": "Normal hearing except for mild high-frequency sensorineural loss at 4000 Hz and above."
+          },
+          {
+            "name": "Real Ear Probe Tube Microphone Measurement",
+            "category": "Follow-up",
+            "result_summary": "REUR in collapsed state showed loss of natural resonance; REUR with Lucite stent showed restored resonance similar to a normal unoccluded canal."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Custom-made Lucite stents (hollow ear pieces) to prop open ear canals",
+      "Earmold impressions taken with jaw open to minimize canal collapse"
+    ],
+    "counseling_actions": [
+      "Explain that the initial hearing loss was an artifact of headphones collapsing the ear canals",
+      "Clarify that the difficulty in noise is caused by the loss of natural ear canal resonance due to cartilage softening from polychondritis",
+      "Explain how the Lucite stents will restore the natural sound pathway and improve hearing in noise"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngology",
+      "rationale_short": "Referral for management of the underlying polychondritis."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Following fitting of stents",
+    "objective": "Verify benefit of stents and improvement in speech intelligibility index."
+  },
+  "expected_outcome": [
+    "Patient reported ability to carry on normal activities and hear most people, even in many adverse listening environments.",
+    "Measured Speech Intelligibility Index (SII) improved from 40% (collapsed state) to 100% (with Lucite stent)."
+  ]
+}

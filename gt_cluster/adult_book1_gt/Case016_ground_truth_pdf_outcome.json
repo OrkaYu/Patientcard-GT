@@ -1,0 +1,198 @@
+{
+  "case_id": "Case016",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Pseudohypoacusis (Functional Hearing Loss)",
+      "rationale_short": "Confirmed by inconsistencies between severe subjective hearing loss and normal objective measures (reflexes, OAEs, ABR), positive Stenger, and resolution of hearing loss upon re-test after counseling."
+    },
+    {
+      "rank": 2,
+      "label": "Vestibular Migraine",
+      "rationale_short": "Supported by history of spontaneous vertigo episodes lasting hours to days, accompanied by headache, nausea, and photophobia."
+    },
+    {
+      "rank": 3,
+      "label": "Visual Motion Sensitivity",
+      "rationale_short": "Patient reports unsteadiness provoked by walking in grocery store aisles and moving objects; confirmed by symptoms during optokinetics testing."
+    },
+    {
+      "rank": 4,
+      "label": "Perilymphatic Fistula",
+      "rationale_short": "Considered due to trauma history and reported symptoms, but ruled out by negative fistula tests, lack of exertion-induced symptoms, and normal tympanometry."
+    },
+    {
+      "rank": 5,
+      "label": "Superior Canal Dehiscence",
+      "rationale_short": "CT showed thinning of the superior canal roof, but VEMPs were absent (not enhanced) and the air-bone gap was too large to be explained solely by SCD."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "CT scan of temporal bones",
+        "urgency": "routine",
+        "rationale_short": "To evaluate for structural pathology given history of trauma and surgeries."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Initial evaluation of hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To cross-check middle ear status and hearing sensitivity."
+      },
+      {
+        "action": "Distortion-product otoacoustic emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "Objective assessment of outer hair cell function to investigate inconsistencies."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "Threshold estimation to rule out retrocochlear pathology and confirm sensitivity."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Repeat testing after counseling to establish true organic thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Repeat testing to confirm consistency with new thresholds."
+      },
+      {
+        "action": "Vestibular Evaluation",
+        "urgency": "routine",
+        "rationale_short": "Comprehensive battery (VNG, Rotary Chair, VEMPs, Posturography) to evaluate disequilibrium."
+      },
+      {
+        "action": "Otologic Exam",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status and check for fistula."
+      },
+      {
+        "action": "Psychiatric Consult",
+        "urgency": "routine",
+        "rationale_short": "To evaluate for anxiety, depression, or other contributors to functional symptoms."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Radiology studies revealed thinning of the superior canal roof but no definite dehiscence, ruling out obvious structural causes for the reported severity of symptoms.",
+        "tests": [
+          {
+            "name": "CT scan of temporal bones",
+            "category": "Imaging",
+            "result_summary": "Thinning of the roof of the superior canal on the right ear but no definite areas of focal bone dehiscence; temporal bones otherwise unremarkable."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Initial behavioral testing suggested severe conductive hearing loss, but this was contradicted by normal acoustic reflexes, OAEs, and ABR thresholds. Following counseling on these inconsistencies, repeat behavioral testing revealed normal hearing sensitivity. Vestibular testing was largely normal, with absent right VEMPs likely due to prior surgeries.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Initial: Right ear severe conductive loss (80-90 dB HL) with 65-75 dB air-bone gaps; Left ear normal. Positive Stenger."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Initial: Right WRS 85% at 90 dB HL (10 dB SL), excellent score at low sensation level inconsistent with severe loss."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal thresholds bilaterally (85-95 dB HL), contradicting the severe conductive loss."
+          },
+          {
+            "name": "Distortion-product otoacoustic emissions (DPOAEs)",
+            "category": "OAEs",
+            "result_summary": "Present 2000-4000 Hz in right ear, indicating normal outer hair cell function."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Wave V present at 20 dB nHL with appropriate latencies, indicating normal sensitivity 1000-4000 Hz."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Follow-up: Right ear thresholds 0-15 dB HL (250-8000 Hz) with slight 10 dB air-bone gap at low frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Follow-up: SRT 10 dB HL, WRS 100% at 50 dB HL."
+          },
+          {
+            "name": "Vestibular Evaluation",
+            "category": "Vestibular",
+            "result_summary": "VNG, Rotary Chair, and Posturography normal. VEMPs normal left, absent right (likely secondary to middle ear surgeries)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Multidisciplinary consults ruled out active otologic pathology and major psychiatric disorders. The evaluation pointed towards vestibular migraine and visual motion sensitivity as the primary causes of disequilibrium.",
+        "tests": [
+          {
+            "name": "Otologic Exam",
+            "category": "Medical",
+            "result_summary": "Scarring and tympanosclerosis on TM; no spontaneous nystagmus; no active fistula."
+          },
+          {
+            "name": "Psychiatric Consult",
+            "category": "Medical",
+            "result_summary": "MINI showed no significant depression or anxiety; noted possibility of vestibular migraine."
+          },
+          {
+            "name": "Physical Therapy Evaluation",
+            "category": "Rehabilitation",
+            "result_summary": "Umbrella optokinetics testing induced 'warm' feeling similar to grocery store symptoms; VOR and gait normal."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Migraine abortive therapies (e.g., triptans, prochlorperazine)",
+      "Home-based habituation exercises (umbrella optokinetics)",
+      "Physical therapy for visual motion sensitivity",
+      "Physical Therapy Evaluation"
+    ],
+    "counseling_actions": [
+      "Explanation of inconsistencies between subjective and objective test results",
+      "Reassurance regarding normal hearing sensitivity and inner ear function",
+      "Education on visual motion sensitivity and its triggers (e.g., grocery aisles)",
+      "Discussion of vestibular migraine as a potential cause of spontaneous vertigo"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Physical Therapy",
+      "rationale_short": "For habituation therapy to address visual motion sensitivity and improve tolerance to visual stimuli."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor motion-provoked symptoms and adherence to habituation exercises."
+  },
+  "expected_outcome": [
+    "The primary outcome for this patient is to remain in contact with physical therapy should his motion-provoked symptoms become more severe."
+  ]
+}

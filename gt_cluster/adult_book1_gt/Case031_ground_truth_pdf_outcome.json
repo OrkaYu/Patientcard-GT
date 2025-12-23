@@ -1,0 +1,153 @@
+{
+  "case_id": "Case031",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Functional auditory processing deficits",
+      "rationale_short": "Significant deficits in auditory closure, figure-ground discrimination, and temporal patterning (labeling) compared to baseline tasks, consistent with TBI sequelae."
+    },
+    {
+      "rank": 2,
+      "label": "Bilateral high-frequency sensorineural hearing loss",
+      "rationale_short": "Asymmetrical mild-to-moderate SNHL at 3000–8000 Hz, likely associated with temporal bone trauma from the accident."
+    },
+    {
+      "rank": 3,
+      "label": "Cognitive and language deficits",
+      "rationale_short": "Documented history of TBI with deficits in attention, tracking, and word-finding which contribute to poor performance on complex auditory tasks."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity following TBI and reported hearing difficulties."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition abilities and cross-check pure-tone thresholds."
+      },
+      {
+        "action": "Tympanometry & Reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and integrity of the acoustic reflex arc."
+      },
+      {
+        "action": "OAEs & Electrophysiology",
+        "urgency": "routine",
+        "rationale_short": "To evaluate cochlear outer hair cell function and neural integrity (ABR/ALLR) given the history of TBI."
+      },
+      {
+        "action": "Low-Pass Filtered Speech (LPFS)",
+        "urgency": "routine",
+        "rationale_short": "Behavioral CAP test to assess auditory closure."
+      },
+      {
+        "action": "Competing Sentences (CS)",
+        "urgency": "routine",
+        "rationale_short": "Behavioral CAP test to assess figure-ground discrimination (binaural separation)."
+      },
+      {
+        "action": "Two-Pair Dichotic Digits (TPDD)",
+        "urgency": "routine",
+        "rationale_short": "Behavioral CAP test to assess binaural integration."
+      },
+      {
+        "action": "Frequency Pattern (FP)",
+        "urgency": "routine",
+        "rationale_short": "Behavioral CAP test to assess temporal patterning and interhemispheric transfer."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Standard audiological assessment revealed bilateral asymmetrical mild-to-moderate high-frequency sensorineural hearing loss, consistent with the history of trauma. Peripheral function was otherwise intact (normal tympanometry, OAEs present to 3 kHz). Electrophysiology showed normal ABR but abnormally large amplitude on ALLR, suggestive of cortical disinhibition.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral asymmetrical mild-to-moderate SNHL at 3000–8000 Hz; poorer in the left ear. Low and mid-frequencies within normal limits."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word recognition scores consistent with pure-tone thresholds (Right 91%, Left 87% at 50 dB HL)."
+          },
+          {
+            "name": "Tympanometry & Reflexes",
+            "category": "Immittance",
+            "result_summary": "Type A tympanograms bilaterally. Reflexes present except at 4000 Hz (consistent with HL)."
+          },
+          {
+            "name": "OAEs & Electrophysiology",
+            "category": "Electrophysiology",
+            "result_summary": "TEOAEs/DPOAEs present to 3000 Hz. ABR normal. ALLR showed normal latency but abnormally large amplitude."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Behavioral CAP assessment demonstrated significant functional deficits. Performance dropped drastically on filtered speech, competing sentences, and linguistic labeling of frequency patterns compared to non-challenging baseline conditions (unfiltered, monotic, humming). Interestingly, dichotic digit performance was poor but did not differ from the monotic condition.",
+        "tests": [
+          {
+            "name": "Low-Pass Filtered Speech (LPFS)",
+            "category": "CAP Assessment",
+            "result_summary": "Performance dropped >60% in filtered condition compared to unfiltered; scores well below normal limits."
+          },
+          {
+            "name": "Competing Sentences (CS)",
+            "category": "CAP Assessment",
+            "result_summary": "Performance decreased >50% in dichotic condition compared to monotic; scores well below normal limits."
+          },
+          {
+            "name": "Two-Pair Dichotic Digits (TPDD)",
+            "category": "CAP Assessment",
+            "result_summary": "Scores below normal limits; performance did not differ between dichotic and monotic conditions."
+          },
+          {
+            "name": "Frequency Pattern (FP)",
+            "category": "CAP Assessment",
+            "result_summary": "Ability to follow patterns decreased >40% when labeling (linguistic) vs humming (non-linguistic)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Return to work in a modified role as an 'IT support officer' rather than help desk operator.",
+      "Work in a quiet laboratory environment.",
+      "Solve client IT problems offline in a serial manner (one at a time).",
+      "Use assistive listening devices, specifically a wireless headset connected to phone and computer.",
+      "CAPD intervention/rehabilitation program with the audiologist."
+    ],
+    "counseling_actions": [
+      "Explain that hearing tests confirm permanent high-frequency hearing loss.",
+      "Discuss how processing tests show significant difficulty with background noise and multitasking.",
+      "Advise that the previous noisy help desk role would be extremely difficult and frustrating.",
+      "Recommend slowing down the rate of information flow in conversations.",
+      "Counsel on the use of the wireless headset to improve signal-to-noise ratio."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Social Worker / Rehabilitation Team",
+      "rationale_short": "Report functional findings to the social worker to guide return-to-work planning and job role modification."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor functional status in the new work role and continue rehabilitation programs."
+  },
+  "expected_outcome": [
+    "Patient successfully returned to work as an IT support officer (modified role).",
+    "Patient was able to work in a quiet laboratory solving problems serially.",
+    "Patient used a wireless headset to connect to phones, computers, and a roving microphone.",
+    "Patient continued with rehabilitation programs, including CAPD intervention.",
+    "Patient continues to recover from TBI slowly but steadily."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "case_id": "Case026",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Cisplatin-induced ototoxicity",
+      "rationale_short": "Bilateral tinnitus and progressive high-frequency sensorineural hearing loss temporally associated with cisplatin chemotherapy."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-induced hearing loss",
+      "rationale_short": "Possible contributor to the baseline high-frequency notch, but does not account for the rapid progression observed during chemotherapy."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "soon",
+        "rationale_short": "To establish baseline hearing thresholds and monitor for ototoxic changes in the standard frequency range."
+      },
+      {
+        "action": "High-frequency audiometry (HFA)",
+        "urgency": "soon",
+        "rationale_short": "Essential for early detection of ototoxicity as cisplatin typically affects the basal cochlea (high frequencies) first."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess functional hearing ability and word recognition, though often unaffected in early ototoxicity."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To rule out middle ear pathology."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the reflex arc and check for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Baseline evaluation 6 days post-first dose revealed normal hearing in the standard range (250-4000 Hz) with slight sensorineural hearing loss at 6000 and 8000 Hz. High-frequency audiometry showed measurable thresholds up to 14,000 Hz. Tinnitus was the primary complaint.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal 250-4000 Hz; slight SNHL at 6000 and 8000 Hz bilaterally (20-25 dB HL)."
+          },
+          {
+            "name": "High-frequency audiometry (HFA)",
+            "category": "Audiometry",
+            "result_summary": "Thresholds 25-55 dB HL from 9000-14,000 Hz; No Response at 16,000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "SRT 15 dB HL bilaterally; WRS 100% bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present 500-4000 Hz; decay negative."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Monitoring prior to the third dose revealed significant ototoxic progression. Tinnitus increased. Significant threshold shifts (>10 dB) were noted in the extended high frequencies bilaterally and in the low frequencies (250-500 Hz) in the right ear.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: New slight SNHL at 250-500 Hz (10 dB shift), mild SNHL >4000 Hz (20 dB shift at 8000 Hz). Left ear: Significant changes at 6000-8000 Hz."
+          },
+          {
+            "name": "High-frequency audiometry (HFA)",
+            "category": "Audiometry",
+            "result_summary": "Significant shifts (10-35 dB) across 9000-14,000 Hz bilaterally. Right ear thresholds reached 50-60 dB HL."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor hearing thresholds (conventional and HFA) prior to each chemotherapy dose",
+      "Use hearing protection to avoid additive noise-induced damage",
+      "Consider hearing assistive technologies if communication difficulty arises"
+    ],
+    "counseling_actions": [
+      "Explain that tinnitus and high-frequency hearing loss are side effects of cisplatin",
+      "Inform patient that results will be shared with the oncologist to discuss risk/benefit of continuing medication",
+      "Advise on communication strategies and hearing conservation"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Oncologist",
+      "rationale_short": "Significant ototoxic threshold shifts detected; oncologist must determine whether to modify or continue chemotherapy regimen."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Prior to next chemotherapy dose",
+    "objective": "Monitor for further ototoxic changes using comprehensive audiometry and HFA."
+  },
+  "expected_outcome": []
+}

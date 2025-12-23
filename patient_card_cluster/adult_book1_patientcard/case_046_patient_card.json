@@ -1,0 +1,182 @@
+{
+  "case_id": "case_46",
+  "title": "The Case of the Missing C#",
+  "demographics": {
+    "age_years": 68,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I don't enjoy playing the piano anymore because the notes around C# sound slightly 'flat', even though I just had the piano tuned. The higher-pitched notes on the right side of the keyboard also sound 'thin'.",
+  "problem_summary": {
+    "onset": "Noticed recently after retirement when playing piano more frequently.",
+    "course": "Persistent; piano tuning did not resolve the issue.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Pitch distortion (dyplacusis), perception of sounds being 'flat' or 'thin'.",
+    "functional_impact": "Loss of enjoyment in musical hobbies (piano playing).",
+    "goals_motivation": "To enjoy playing music again without distortion."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-03-07",
+      "setting": "Audiology Clinic (specializing in music)",
+      "history": {
+        "present_illness": "Patient reports specific distortion with the note C# on the piano (sounding flat) and high notes sounding thin.",
+        "otologic_history": "No other reported otologic issues.",
+        "noise_exposure_history": "Worked in noisy environments; avid gun enthusiast.",
+        "medical_psych_history": "None reported.",
+        "prior_management": "Had piano tuned recently.",
+        "patient_goals": "Restore enjoyment of music."
+      },
+      "tests": [
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal middle ear function. Ear canal volume, static compliance, and middle ear pressure within normal limits.",
+          "numeric_results": {
+            "Type": "A (implied by normal limits)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Elevated at 500 and 1000 Hz; absent at 2000 and 4000 Hz.",
+          "numeric_results": null
+        },
+        {
+          "name": "Otoacoustic emissions (OAE)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "No measurable responses bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 46.1"
+          ],
+          "key_findings": "Bilateral symmetrical mild to profound high-frequency sensorineural hearing loss. Sharply falling configuration beyond 500-1000 Hz, flat to 3000 Hz, falling again to 6000 Hz, with recovery at 8000 Hz.",
+          "numeric_results": {
+            "RE_250Hz": "10 dB HL",
+            "RE_500Hz": "15 dB HL",
+            "RE_1000Hz": "55 dB HL",
+            "RE_2000Hz": "60 dB HL",
+            "RE_4000Hz": "80 dB HL",
+            "RE_8000Hz": "65 dB HL",
+            "LE_250Hz": "10 dB HL",
+            "LE_500Hz": "15 dB HL",
+            "LE_1000Hz": "60 dB HL",
+            "LE_2000Hz": "65 dB HL",
+            "LE_4000Hz": "85 dB HL",
+            "LE_8000Hz": "70 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 46.1"
+          ],
+          "key_findings": "SRTs suggest moderate to severe loss (likely influenced by slope). Word recognition scores are excellent in quiet.",
+          "numeric_results": {
+            "RE_WRS": "96%",
+            "LE_WRS": "92%",
+            "RE_SRT": "65 dB HL",
+            "LE_SRT": "70 dB HL",
+            "Unaided_SII": "14%"
+          }
+        },
+        {
+          "name": "Pitch Perception / Piano Test",
+          "timepoint_label": "Baseline",
+          "ear": "soundfield",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient played piano to identify problematic notes. C# notes at 277, 554, and 1109 Hz caused difficulty (sounded flat). Higher frequency C# (2218 Hz) and High C (4186 Hz) sounded 'thin' but not flat.",
+          "numeric_results": {
+            "Problem_Notes": "C# (277 Hz, 554 Hz, 1109 Hz)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Fitting appointment. Addressing the 'flat' sound quality in music.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "Unchanged.",
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "Assessment completed.",
+        "patient_goals": "Adjust hearing aids to improve piano sound quality."
+      },
+      "tests": [
+        {
+          "name": "Real Ear Measures (REM)",
+          "timepoint_label": "Fitting",
+          "ear": "right",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 46.2"
+          ],
+          "key_findings": "Initial fit matched NAL-NL2 targets well. Systematic gain reduction was performed to identify the frequency region causing distortion. Reducing gain at fundamental C# (274 Hz) and first harmonic (554 Hz) did not help. Notch filtering at the higher harmonic region (1000-1500 Hz) resolved the issue.",
+          "numeric_results": {
+            "Final_Adjustment": "15 dB notch filter between 1000 Hz and 1500 Hz",
+            "Target_Match": "Good match to NAL-NL2 prior to notch filtering"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral, symmetrical, high-frequency sensorineural hearing loss, characterized by a steep slope beyond 1000 Hz and recovery at 8000 Hz. Despite excellent word recognition in quiet, the unaided Speech Intelligibility Index is low (14%). The patient exhibits dyplacusis (pitch distortion), perceiving specific musical notes (C#) as 'flat', likely due to cochlear dead regions or significant hair cell damage in the 1000–2000 Hz range.",
+  "counseling_points": [
+    "Your hearing loss is concentrated in the high frequencies, which explains why speech isn't clear in noise and why high piano notes sound 'thin'.",
+    "The 'flat' sound you hear when playing C# is called dyplacusis. This happens when damage to the inner ear causes the pitch to be perceived incorrectly.",
+    "We believe the distortion is coming from the harmonics of the note, rather than the fundamental note itself.",
+    "To fix this, we have programmed a 'notch' in your hearing aids to reduce amplification specifically in the 1000–1500 Hz range. This removes the distorted information while keeping other sounds audible."
+  ],
+  "notes_for_actor": [
+    "You are a knowledgeable amateur musician. You know your piano is in tune, so you are confused and frustrated that it sounds 'flat'.",
+    "Be specific about the note C#. It's not just 'music sounds bad'; it is specifically that note.",
+    "You have a history of noise exposure (guns, work), so you might expect some hearing loss, but the pitch distortion is the most bothersome symptom."
+  ]
+}

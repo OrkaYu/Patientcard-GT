@@ -1,0 +1,179 @@
+{
+  "case_id": "case_7",
+  "title": "Acoustic Neuroma",
+  "demographics": {
+    "age_years": 31,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "US (implied by military/clinic context)"
+  },
+  "chief_complaint": "I have had hearing loss in my left ear for about a year and a half that seems to come and go. Recently the feeling of fullness stopped, but now I have a ringing sound in that ear.",
+  "problem_summary": {
+    "onset": "Approximately 1.5 years prior to appointment.",
+    "course": "Progressive and fluctuating. Treated with steroids 2 months prior with no improvement. 6 weeks prior, aural fullness resolved but hearing loss persisted and tinnitus began.",
+    "laterality": "Left ear.",
+    "associated_symptoms": "Unilateral tinnitus (left). Denies otalgia, otorrhea, dizziness.",
+    "functional_impact": "Persistent hearing loss despite resolution of fullness.",
+    "goals_motivation": "Seeking diagnosis after failed steroid treatment."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports progressive, fluctuating hearing loss in the left ear with aural fullness for 1.5 years. 2 months ago, treated by urgent care with steroids (no improvement). 6 weeks ago, sudden relief in fullness, but loss persisted and tinnitus started.",
+        "otologic_history": "Denies otalgia, otorrhea, or dizziness.",
+        "noise_exposure_history": "10-year history of military service and recreational noise exposure involving rifles held on the right shoulder.",
+        "medical_psych_history": "None reported.",
+        "prior_management": "Consulted urgent care physician 2 months prior; prescribed steroids which were ineffective.",
+        "patient_goals": "Determine cause of left ear symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.1"
+          ],
+          "key_findings": "Right ear within normal limits (250-8000 Hz). Left ear shows mild to moderate mid- to high-frequency sensorineural hearing loss (1500-6000 Hz) with recovery to normal at 8000 Hz.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "Left_Ear_Thresholds": "Normal (0-15 dB) at 250-1000 Hz; dropping to ~40-50 dB HL at 2000-4000 Hz; recovery to ~15 dB HL at 8000 Hz",
+            "PTA_Right": "3 dB",
+            "PTA_Left": "8 dB (2-frequency average used)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.1"
+          ],
+          "key_findings": "Normal ability to recognize speech bilaterally. No significant rollover observed.",
+          "numeric_results": {
+            "SRT_Right": "3 dB",
+            "SRT_Left": "5 dB",
+            "WRS_Right": "100% at 80 dB HL, 100% at 95 dB HL",
+            "WRS_Left": "100% at 80 dB HL, 100% at 95 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.1"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally. Slight positive pressure but within normal range.",
+          "numeric_results": {
+            "Right_Pressure": "+45 daPa",
+            "Left_Pressure": "+55 daPa",
+            "Right_Static_Admittance": "0.7 mL",
+            "Left_Static_Admittance": "0.4 mL",
+            "Right_Canal_Volume": "1.2 mL",
+            "Left_Canal_Volume": "1.9 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.1"
+          ],
+          "key_findings": "Mostly normal, but elevated thresholds observed for left ear stimulation at higher frequencies.",
+          "numeric_results": {
+            "Stim_Right_Ipsi": "Normal (80-85 dB)",
+            "Stim_Right_Contra": "Normal (80-90 dB)",
+            "Stim_Left_Ipsi": "Normal at 500/1k; Elevated (105 dB) at 2k; Elevated/Absent (105 dB) at 4k",
+            "Stim_Left_Contra": "Normal at 500/1k; Elevated (105 dB) at 2k; Elevated (105 dB) at 4k"
+          }
+        },
+        {
+          "name": "Electrocochleography (ECoG)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.2"
+          ],
+          "key_findings": "Robust waveforms with normal latencies and SP/AP ratios. Ruled out Meniere's disease/excess fluid.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Radiology / Medical Follow-up",
+      "history": {
+        "present_illness": "Follow-up after audiological evaluation revealed asymmetry.",
+        "otologic_history": "Referral to otoneurologist.",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "MRI ordered.",
+        "patient_goals": "Definitive diagnosis."
+      },
+      "tests": [
+        {
+          "name": "MRI",
+          "timepoint_label": "Diagnosis",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.3",
+            "Fig. 7.4"
+          ],
+          "key_findings": "Confirmed presence of a large Acoustic Neuroma (AN) pressing against the left middle cerebellar peduncle.",
+          "numeric_results": {
+            "Tumor_Size": "1.5 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild-to-moderate mid-to-high frequency sensorineural hearing loss in the left ear, contrasting with normal hearing in the right ear. Despite the asymmetry, speech recognition scores are excellent (100%) bilaterally with no rollover. Acoustic reflexes are elevated in the left ear at high frequencies, and MRI imaging confirmed a 1.5 cm acoustic neuroma on the left side.",
+  "counseling_points": [
+    "The MRI has confirmed a benign growth called an Acoustic Neuroma (or Vestibular Schwannoma) on your hearing nerve.",
+    "Although 'tumor' sounds scary, these are typically slow-growing and not cancerous. However, it is occupying space and pressing on the nerve, which explains your hearing loss and tinnitus.",
+    "Your speech understanding is excellent right now, which is a very positive sign.",
+    "Treatment options include active surveillance (monitoring), radiation therapy, or microsurgery. Since you are currently undecided, we will support you as you discuss these options with your surgeon."
+  ],
+  "notes_for_actor": [
+    "You are a 31-year-old male with a military background.",
+    "You are generally healthy but frustrated by the left ear hearing loss and ringing.",
+    "You are anxious about the diagnosis of a 'tumor' but relieved to have an answer after the steroids didn't work.",
+    "You are currently undecided on treatment (surgery vs. radiation vs. waiting) and may ask questions about the risks of each."
+  ]
+}

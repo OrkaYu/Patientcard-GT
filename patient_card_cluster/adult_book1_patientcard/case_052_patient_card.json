@@ -1,0 +1,179 @@
+{
+  "case_id": "case_52",
+  "title": "An Unconventional Monaural Hearing Aid Fitting",
+  "demographics": {
+    "age_years": 59,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am a very active runner and triathlete, but I have a very difficult time localizing sound and orienting myself to my surroundings. I also have trouble recognizing speech in noise and hearing anyone on my left side.",
+  "problem_summary": {
+    "onset": "Sudden hearing loss in the left ear occurred approximately 8 years ago.",
+    "course": "Hearing decreased significantly with an episode of vertigo (resolved after 2 days). Hearing has been stable since. Constant tinnitus in the left ear began 1 year ago.",
+    "laterality": "Left unilateral",
+    "associated_symptoms": "History of vertigo (resolved); constant tinnitus in the left ear.",
+    "functional_impact": "Inability to localize sound or orient to surroundings, specifically during triathlons; difficulty hearing speech on the left side.",
+    "goals_motivation": "Primary goal is sound awareness and ability to localize sound for safety during sports."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-06-28",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports sudden hearing loss in left ear 8 years ago with vertigo. Vertigo resolved, but hearing did not recover. Tinnitus started 1 year ago.",
+        "otologic_history": "MRI 8 years ago was negative for retrocochlear pathology.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Hospitalization for vertigo 8 years ago.",
+        "prior_management": "No medical intervention or amplification since onset.",
+        "patient_goals": "Improve localization and awareness for triathlons."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 52.1"
+          ],
+          "key_findings": "Normal hearing in the right ear (250-8000 Hz). Gradually sloping moderately-severe to severe SNHL in the left ear.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "10-15 dB HL across frequencies",
+            "Left_AC_Thresholds": "Sloping from ~60 dB HL at 250 Hz to ~90 dB HL at 8000 Hz",
+            "Left_BC_Thresholds": "Consistent with AC (sensorineural)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 52.1"
+          ],
+          "key_findings": "Normal speech recognition in right ear. Moderately-severe SRT loss in left ear with very poor word recognition ability.",
+          "numeric_results": {
+            "SRT_Right": "5 dB HL",
+            "SRT_Left": "60 dB HL",
+            "WRS_Right": "100% at 50 dB HL",
+            "WRS_Left": "38% at 90 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 52.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally.",
+          "numeric_results": {
+            "Right_Volume": "1.1 mL",
+            "Left_Volume": "1.2 mL",
+            "Type": "A (bilateral)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 52.1"
+          ],
+          "key_findings": "Right ipsi/contra normal. Left ipsi/contra present at 500/1000 Hz but absent at 2000/4000 Hz. Decay negative.",
+          "numeric_results": {
+            "Left_Reflexes_2k_4k": "Absent"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Hearing Aid Evaluation (HAE) visit, 2 weeks post-evaluation.",
+        "patient_goals": "Patient prioritized sound awareness and localization over sound quality/distortion. Needs device for triathlons."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-fitting counseling",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Discussed CROS, BiCROS, BAHA, SoundBite, and monaural amplification. Patient chose monaural amplification for the poorer (left) ear despite poor WRS, to aid localization.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Hearing Aid Fitting visit, 2 weeks post-HAE.",
+        "prior_management": "Fitted with Phonak Naida S CRT V with power receiver and custom c-shell mold."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Fitting Verification",
+          "ear": "left",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 52.2",
+            "Fig. 52.3"
+          ],
+          "key_findings": "Real Ear Measures (REM) matched NAL-NL1 targets. LDLs measured to ensure output did not exceed discomfort levels. Directional microphones verified in test box.",
+          "numeric_results": {
+            "Loudness_Judgment_50dB": "Soft",
+            "Loudness_Judgment_65dB": "Comfortable",
+            "Loudness_Judgment_80dB": "Loud, but okay",
+            "Directional_Test": "Effective front-to-back ratio verified (Fig 52.3)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a moderately-severe to severe sensorineural hearing loss in the left ear. Word recognition is excellent in the right ear (100%) but very poor in the left ear (38%), suggesting significant distortion. Despite the poor speech clarity in the left ear, the patient elected for monaural amplification in that ear to restore localization cues and environmental awareness.",
+  "counseling_points": [
+    "Because your word recognition score in the left ear is 38%, the hearing aid will provide sound awareness but speech may still sound distorted.",
+    "Fitting the poorer ear is unconventional, but it is the only option that restores the ability to localize sound, which is your primary goal for triathlons.",
+    "We have applied a moisture-resistant coating and provided a drying kit to protect the aid during exercise.",
+    "If the sound becomes uncomfortable or if the distortion is too distracting, we can discuss CROS options which route sound to your better ear."
+  ],
+  "notes_for_actor": [
+    "You are an active triathlete concerned about safety because you can't tell where sounds are coming from.",
+    "You are not looking for perfect speech clarity; you just want to know 'where' things are.",
+    "You are willing to accept distortion in the bad ear if it helps you orient yourself.",
+    "You experienced vertigo 8 years ago but are fine now."
+  ]
+}

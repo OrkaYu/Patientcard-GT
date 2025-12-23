@@ -1,0 +1,203 @@
+{
+  "case_id": "case_49",
+  "title": "Liquefaction (Hydrolytic) Necrosis from a Hearing Aid Battery in the Ear Canal",
+  "demographics": {
+    "age_years": 84,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am having trouble recognizing conversations in most listening situations.",
+  "problem_summary": {
+    "onset": "Gradual hearing loss; acute presentation of foreign body 3 months after hearing aid fitting.",
+    "course": "Hearing loss is stable; foreign body issue is acute.",
+    "laterality": "Bilateral hearing loss; Right ear foreign body.",
+    "associated_symptoms": "Reduced benefit from hearing aids; patient denied pain or sensation of obstruction.",
+    "functional_impact": "Mild-to-moderate handicap in daily life; recent reduction in hearing aid benefit.",
+    "goals_motivation": "To improve speech recognition and restore hearing aid benefit."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2010-01-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presented for a comprehensive examination reporting inability to recognize conversations.",
+        "otologic_history": "No specific prior history noted.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "No appearance of cognitive decline.",
+        "prior_management": "None prior to this visit.",
+        "patient_goals": "Improve communication ability."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 49.1"
+          ],
+          "key_findings": "Bilateral symmetrical mild to severe sensorineural hearing loss, gradually sloping.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 35, 500Hz: 40, 1kHz: 50, 2kHz: 60, 4kHz: 75, 8kHz: 80 dB HL",
+            "Left_AC_Thresholds": "250Hz: 35, 500Hz: 45, 1kHz: 45, 2kHz: 65, 4kHz: 80, 8kHz: 85 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 49.1"
+          ],
+          "key_findings": "Moderate loss in ability to receive speech (SRT). Slight loss in word recognition ability (WRS) using NU-6 lists.",
+          "numeric_results": {
+            "SRT_Right": "48 dB HL",
+            "SRT_Left": "45 dB HL",
+            "WRS_Right": "86% at 85 dB HL",
+            "WRS_Left": "88% at 85 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 49.1"
+          ],
+          "key_findings": "Normal ear canal volume, static compliance, and middle ear pressure (Type A).",
+          "numeric_results": {
+            "Right_Volume": "1.8 mL",
+            "Left_Volume": "1.6 mL",
+            "Right_Pressure": "-25 daPa",
+            "Left_Pressure": "-5 daPa",
+            "Right_Compliance": "0.9 mL",
+            "Left_Compliance": "1.1 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 49.1"
+          ],
+          "key_findings": "Normal contralateral and ipsilateral thresholds at 1000 Hz.",
+          "numeric_results": {
+            "Right_Ipsi_1k": "95 dB",
+            "Left_Ipsi_1k": "90 dB",
+            "Right_Contra_1k": "85 dB",
+            "Left_Contra_1k": "90 dB"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "QuickSIN testing revealed a moderate signal-to-noise ratio loss.",
+          "numeric_results": {
+            "SNR_Loss": "12 dB (bilateral)"
+          }
+        },
+        {
+          "name": "Self-report scale",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing Handicap Inventory–Elderly (HHIE) indicated mild-to-moderate handicap.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2010-02-15",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Routine hearing aid check.",
+        "prior_management": "Fitted with bilateral RITE instruments (using #312 batteries) in Jan 2010."
+      },
+      "tests": [
+        {
+          "name": "Electroacoustic analysis",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Revealed proper functioning of the hearing instruments.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2010-05-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reported receiving reduced benefit from her instruments.",
+        "otologic_history": "Patient denied perception of any obstruction."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Follow-up",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Debris observed close to TM, appearing as dark cerumen. Upon attempted removal, found to be a solid, hard object firmly adhering to the canal wall. Identified as a #312 hearing aid battery.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral symmetrical mild-to-severe sensorineural hearing loss with good word recognition in quiet but moderate SNR loss. Following a successful fitting, she returned 3 months later with a #312 hearing aid battery lodged in the right ear canal. The battery was firmly adhered to the canal wall, mimicking impacted cerumen, and could not be removed via standard curette.",
+  "counseling_points": [
+    "The object in your right ear is not wax; it is a hearing aid battery.",
+    "Because the battery is stuck to the ear canal wall, I cannot safely remove it here.",
+    "This is a medical emergency because the battery can leak fluids that damage the ear.",
+    "I am referring you to an ear specialist (otologist) immediately for removal.",
+    "Do not put any water or drops in your ear, as moisture can cause the battery to leak more."
+  ],
+  "notes_for_actor": [
+    "You are an 84-year-old woman with no signs of dementia.",
+    "In the final visit, you are completely unaware that a battery is in your ear.",
+    "You feel no pain or fullness; you only notice the hearing aid isn't helping as much.",
+    "You should appear surprised when told there is a battery in your ear.",
+    "You do not recall losing a battery inside your ear."
+  ]
+}

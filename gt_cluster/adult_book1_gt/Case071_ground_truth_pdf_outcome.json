@@ -1,0 +1,185 @@
+{
+  "case_id": "Case071",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Mild to moderate SNHL, stable over a decade, associated with history of noise exposure and aging."
+    },
+    {
+      "rank": 2,
+      "label": "Exostoses",
+      "rationale_short": "Bilateral bony growths in ear canals identified on otoscopy; history of cold water swimming."
+    },
+    {
+      "rank": 3,
+      "label": "Age-related auditory processing decline",
+      "rationale_short": "Evidenced by declining speech-in-noise scores (SNR loss) despite stable pure-tone thresholds."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline evaluation of hearing sensitivity."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess retrocochlear pathway integrity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess word recognition abilities in quiet."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Monitor stability of hearing thresholds at follow-up."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "Evaluate functional hearing in noise (QuickSIN)."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Monitor stability of hearing thresholds."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "Monitor progression of SNR loss."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "Monitor aided performance and processing abilities."
+      },
+      {
+        "action": "Brain Training Performance",
+        "urgency": "routine",
+        "rationale_short": "Track improvements in cognitive skills from training program."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation revealed bilateral symmetrical mild to moderate sensorineural hearing loss and bilateral exostoses (Right > Left). Middle ear function and retrocochlear screening were normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilaterally symmetrical mild to moderate sensorineural hearing loss."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanograms."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal thresholds through 2000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word recognition testing in quiet was within normal limits."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up showed stable hearing loss. Patient expressed interest in 'less noticeable' amplification after previously deferring treatment.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Hearing loss found to be stable."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Patient using left CIC hearing aid; right ear fit prevented by exostoses. Speech-in-noise testing was normal.",
+        "tests": [
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "QuickSIN performance within normal limits (~2 dB SNR loss)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Hearing thresholds remained stable, but speech-in-noise ability declined to mild-to-moderate SNR loss. Exostoses appeared smaller. Patient started brain training.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Hearing remained stable."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "QuickSIN score decreased to mild-to-moderate SNR loss (5.5 dB SNR loss at 65 dB HL)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V5",
+        "collective_interpretation": "Monitoring progress with bilateral open-fit mini-BTEs and brain training. SNR loss stabilized, and cognitive training showed improvements in memory and discrimination.",
+        "tests": [
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "Fairly stable SNR loss (4.5 dB SNR loss at 55 dB HL)."
+          },
+          {
+            "name": "Brain Training Performance",
+            "category": "Cognitive/Rehab",
+            "result_summary": "Improvement in sound discrimination (14%), auditory memory (4%), and long-term memory (24%) over 4 years."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral open-fit mini-BTE hearing aids",
+      "Remote microphone paired with hearing aids",
+      "Auditory brain training program (BrainHQ)"
+    ],
+    "counseling_actions": [
+      "Discussed the effects of long-term untreated hearing loss on auditory processing and cognition.",
+      "Counseled on the benefits of binaural amplification versus cosmetic preferences.",
+      "Explained the nature of exostoses and their impact on custom hearing aid fitting.",
+      "Encouraged consistent brain training to improve processing speed and memory."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiological monitoring and continued brain training",
+      "rationale_short": "Condition is managed with amplification and training; no medical red flags requiring referral."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual or biennial",
+    "objective": "Monitor hearing thresholds, speech-in-noise ability, and cognitive training progress."
+  },
+  "expected_outcome": [
+    "Fit with new open-fit mini-BTE hearing aids paired wirelessly with a remote microphone to enhance speech in noise and TV listening.",
+    "Patient reports performing better on brain training exercises and hearing subtleties in speech and conversations previously missed."
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "case_id": "Case006",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Vestibular Schwannoma (Acoustic Neuroma)",
+      "rationale_short": "Asymmetric SNHL, asymmetric tinnitus (worse in right), and poorer word recognition in the right ear are classic signs of retrocochlear pathology."
+    },
+    {
+      "rank": 2,
+      "label": "Presbycusis",
+      "rationale_short": "Patient age (55) and gradual onset are consistent with age-related loss, but this does not explain the asymmetry."
+    },
+    {
+      "rank": 3,
+      "label": "Noise-induced hearing loss",
+      "rationale_short": "History of noise exposure as an electrical engineer, but noise damage is typically symmetric."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Standard assessment to determine degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding and check for rollover or asymmetry in word recognition."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc; absence or elevation can indicate retrocochlear pathology."
+      },
+      {
+        "action": "MRI (T2-weighted with gadolinium)",
+        "urgency": "soon",
+        "rationale_short": "Gold standard imaging to rule out retrocochlear pathology given asymmetric auditory findings."
+      },
+      {
+        "action": "Consultation",
+        "urgency": "routine",
+        "rationale_short": "To review medical findings and determine clearance for hearing aid fitting."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiological assessment revealed bilateral asymmetric sensorineural hearing loss (worse in the right ear), asymmetric tinnitus, and slightly reduced word recognition in the right ear compared to the left. Acoustic reflexes were absent at high frequencies. These asymmetric findings constitute red flags requiring medical referral.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral asymmetric SNHL; Right ear mild to moderately severe (>1000 Hz), Left ear slight to moderate (>1000 Hz). Right thresholds poorer by >15-20 dB at high frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "SRTs consistent with PTA. WRS Right 87%, Left 100% at 90 dB HL. No rollover."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A bilaterally; static admittance at lower end of normal (0.2 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at 500/1000 Hz; absent at 2000/4000 Hz bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "MRI confirmed the presence of a retrocochlear lesion in the right internal auditory canal, consistent with the asymmetric audiological findings.",
+        "tests": [
+          {
+            "name": "MRI (T2-weighted with gadolinium)",
+            "category": "Imaging",
+            "result_summary": "5 mm nodular mass in the right internal auditory canal with subtle widening of the right porus acusticus internus; Left ear normal."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Following the diagnosis of acoustic neuroma and the patient's decision to undergo stereotactic radiosurgery, medical clearance was provided to proceed with hearing aid fitting with a strict monitoring protocol.",
+        "tests": [
+          {
+            "name": "Consultation",
+            "category": "Management",
+            "result_summary": "Medical contraindications ruled out/managed; agreement to fit aids with quarterly monitoring."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit the patient's previously purchased BTE hearing aids.",
+      "Stereotactic radiosurgery (elected medical management).",
+      "Quarterly monitoring of hearing thresholds and hearing aid settings."
+    ],
+    "counseling_actions": [
+      "Explain the significance of asymmetric hearing loss, tinnitus, and speech scores as indicators for medical referral.",
+      "Counsel on the MRI findings (acoustic neuroma) and the benign nature of the tumor.",
+      "Discuss the importance of monitoring hearing closely due to the tumor and radiosurgery treatment.",
+      "Set expectations for hearing aid benefit given the retrocochlear pathology."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss (>15 dB difference at one frequency, >20 dB at two adjacent).",
+      "Asymmetric tinnitus (worse in the right ear).",
+      "Asymmetric word recognition scores (Right 87% vs Left 100%).",
+      "Absent acoustic reflexes at 2000 and 4000 Hz."
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist",
+      "rationale_short": "Referral required to investigate asymmetric auditory findings and rule out retrocochlear pathology via MRI."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Quarterly",
+    "objective": "Monitor hearing thresholds and hearing aid performance for any changes related to the acoustic neuroma or the effects of stereotactic radiosurgery."
+  },
+  "expected_outcome": [
+    "The audiologist successfully fitted the patient with his previously purchased hearing aids.",
+    "A monitoring protocol was initiated to track progress as the patient underwent stereotactic radiosurgery for the acoustic neuroma."
+  ]
+}

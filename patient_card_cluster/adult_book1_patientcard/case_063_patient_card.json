@@ -1,0 +1,148 @@
+{
+  "case_id": "case_63",
+  "title": "Test Measures Matter",
+  "demographics": {
+    "age_years": 54,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am having significant difficulty hearing, particularly in challenging environments like background noise at my noisy workplace. It is impacting my ability to do my job, and I rely heavily on email because I can't use the phone unless it's a close friend or family member.",
+  "problem_summary": {
+    "onset": "Approximately 15 years ago.",
+    "course": "Progressive; hearing aids used for 12 years.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Difficulty in noise, reliance on lip-reading/captions.",
+    "functional_impact": "Workplace difficulties, reliance on email over phone, use of closed captioning and TVEars.",
+    "goals_motivation": "Referred for Cochlear Implant (CI) evaluation due to struggles despite appropriate amplification."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-11-12",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presents for CI evaluation. Currently wears bilateral Phonak Naida V UP hearing aids verified to NAL-NL1 targets. Also uses FM system (Phonak ZoomLink/MyLink).",
+        "otologic_history": "History of left facial paralysis.",
+        "noise_exposure_history": "Workplace reported as very noisy.",
+        "medical_psych_history": "Etiology unknown but likely genetic (mother had similar pattern).",
+        "prior_management": "Bilateral hearing aids for 12 years; FM system; TVEars.",
+        "patient_goals": "Determine candidacy for cochlear implantation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 63.1"
+          ],
+          "key_findings": "Bilateral symmetrical sensorineural hearing loss. Right ear: mild SNHL at 250 Hz sloping to moderate-profound at 500-8000 Hz. Left ear: moderate SNHL at 250 Hz sloping to profound. No measurable hearing in high frequencies (3-8 kHz Right, 2-8 kHz Left).",
+          "numeric_results": {
+            "Right_250Hz": "Mild SNHL",
+            "Left_250Hz": "Moderate SNHL",
+            "High_Frequencies": "No measurable hearing >2000-3000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 63.1"
+          ],
+          "key_findings": "Very poor word recognition ability bilaterally using NU-6 word lists at most comfortable level (85 dB HL).",
+          "numeric_results": {
+            "WRS_Right_85dB_HL": "36%",
+            "WRS_Left_85dB_HL": "28%"
+          }
+        },
+        {
+          "name": "Speech audiometry (HINT)",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 63.1"
+          ],
+          "key_findings": "Initial evaluation using HINT sentences in quiet. Scores were high, exceeding FDA criteria for candidacy (typically <=50% or <=60%). These scores suggested she was NOT a candidate.",
+          "numeric_results": {
+            "HINT_Right_Quiet": "69%",
+            "HINT_Left_Quiet": "64%",
+            "HINT_Bilateral_Quiet": "88%"
+          }
+        },
+        {
+          "name": "Speech audiometry (MSTB Revised)",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 63.2"
+          ],
+          "key_findings": "Additional testing using the revised Minimum Speech Test Battery (MSTB) to better reflect real-world difficulty. Scores on AzBio and CNC were significantly poorer than HINT, qualifying her for CI candidacy.",
+          "numeric_results": {
+            "AzBio_Right_Quiet": "45%",
+            "AzBio_Left_Quiet": "36%",
+            "AzBio_Bilateral_Quiet": "54%",
+            "CNC_Words_Right": "20%",
+            "CNC_Words_Left": "0%",
+            "CNC_Words_Bilateral": "4%",
+            "CNC_Phonemes_Right": "47%",
+            "CNC_Phonemes_Left": "21%",
+            "CNC_Phonemes_Bilateral": "33%"
+          }
+        },
+        {
+          "name": "Speech-in-noise (BKB-SIN)",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 63.2"
+          ],
+          "key_findings": "Severe signal-to-noise ratio (SNR) loss indicated in all conditions.",
+          "numeric_results": {
+            "SNR_Loss_Right": "20 dB (Severe)",
+            "SNR_Loss_Left": "22 dB (Severe)",
+            "SNR_Loss_Bilateral": "17 dB (Severe)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient has a bilateral symmetrical sensorineural hearing loss, sloping from mild/moderate in the low frequencies to profound in the highs. While unaided word recognition is poor, initial aided testing with HINT sentences in quiet showed artificially high scores (ceiling effect). Comprehensive testing with the revised MSTB (AzBio, CNC, BKB-SIN) revealed significant deficits in speech understanding, particularly for single words and in noise, confirming CI candidacy.",
+  "counseling_points": [
+    "Although your hearing aids help in quiet situations with simple sentences, our advanced testing shows you struggle significantly with single words and background noise.",
+    "Based on the more rigorous testing (AzBio and CNC), you meet the criteria for a cochlear implant.",
+    "We recommend implantation in your Right ear. Typically we choose the poorer ear, but due to your history of facial paralysis on the Left, the Right ear is the safer surgical option.",
+    "Using a cochlear implant in one ear and a hearing aid in the other (bimodal hearing) can provide better speech understanding in noise than hearing aids alone."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated that standard tests (like HINT) say you are 'doing fine' when you know you are struggling at work.",
+    "Emphasize that your workplace is noisy and you feel at risk of not being able to do your job.",
+    "Mention your history of facial paralysis if asked about your medical history."
+  ]
+}

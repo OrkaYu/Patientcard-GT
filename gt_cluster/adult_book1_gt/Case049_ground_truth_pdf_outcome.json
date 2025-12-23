@@ -1,0 +1,151 @@
+{
+  "case_id": "Case049",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Foreign body in ear canal (Hearing Aid Battery)",
+      "rationale_short": "Otoscopy revealed a #312 hearing aid battery firmly adhered to the right ear canal wall."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural hearing loss",
+      "rationale_short": "Underlying bilateral symmetrical mild-to-severe hearing loss established at baseline."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Initial comprehensive assessment of hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess retrocochlear pathway integrity."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "Evaluate functional hearing in noise (QuickSIN)."
+      },
+      {
+        "action": "Self-report scale",
+        "urgency": "routine",
+        "rationale_short": "Assess perceived hearing handicap (HHIE)."
+      },
+      {
+        "action": "Electroacoustic analysis",
+        "urgency": "routine",
+        "rationale_short": "Verify hearing aid function during follow-up check."
+      },
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Investigate cause of reduced hearing aid benefit and check ear canal status."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Baseline evaluation revealed bilateral symmetrical mild-to-severe sensorineural hearing loss with normal middle ear function. Speech understanding in quiet was good, but speech-in-noise testing showed moderate SNR loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical mild to severe sensorineural hearing loss, gradually sloping."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs (45-48 dB HL) consistent with pure tones; WRS slight loss (86-88% at 85 dB HL)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms with normal volume and compliance."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal contralateral and ipsilateral thresholds at 1000 Hz."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "QuickSIN revealed a moderate SNR loss of 12 dB bilaterally."
+          },
+          {
+            "name": "Self-report scale",
+            "category": "Questionnaire",
+            "result_summary": "HHIE indicated mild-to-moderate handicap."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Routine hearing aid check confirmed devices were functioning correctly.",
+        "tests": [
+          {
+            "name": "Electroacoustic analysis",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Revealed proper functioning of the hearing instruments."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Investigation into reduced hearing aid benefit revealed a foreign body in the right ear canal, identified as a hearing aid battery.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Debris observed close to TM; upon attempted removal with curette, object was solid, hard, and adhered to wall. Identified as #312 battery."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Attempted mechanical removal with ear curette (failed due to adherence)",
+      "Immediate referral to otologist for removal",
+      "Reinstruction on proper hearing aid care and battery insertion (post-removal)"
+    ],
+    "counseling_actions": [
+      "Informed patient the object is a battery, not wax",
+      "Explained the situation is a medical emergency due to risk of leakage and tissue damage",
+      "Advised against putting water or drops in the ear to prevent electrolyte leakage"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Foreign body in ear canal (hearing aid battery)",
+      "Object firmly adhered to canal wall"
+    ],
+    "escalation": {
+      "urgency": "discontinue and refer now",
+      "destination": "Otologist or Emergency Room",
+      "rationale_short": "Battery in ear canal is an emergency due to risk of liquefaction necrosis; mechanical removal failed."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate",
+    "objective": "Emergency removal of the battery by a specialist."
+  },
+  "expected_outcome": [
+    "Otoscopy: No observable changes to the right ear canal following battery removal.",
+    "Pure-tone audiometry: No change in pure-tone thresholds following battery extraction.",
+    "Patient was reinstructed on the proper care and use of the instruments, especially in regard to proper battery insertion."
+  ]
+}

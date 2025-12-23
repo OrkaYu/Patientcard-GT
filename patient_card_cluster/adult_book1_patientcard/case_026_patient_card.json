@@ -1,0 +1,210 @@
+{
+  "case_id": "case_26",
+  "title": "Ototoxicity and Cisplatin",
+  "demographics": {
+    "age_years": 39,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I developed ringing in both ears immediately after my first chemotherapy treatment. It was louder in my right ear at first, and while the intensity has gone down, the ringing is still there.",
+  "problem_summary": {
+    "onset": "Sudden onset of bilateral tinnitus within 24 hours of receiving the first dose of cisplatin and gemcitabine.",
+    "course": "Tinnitus intensity decreased initially but persisted; tinnitus increased again and became constant after the second dose.",
+    "laterality": "Bilateral.",
+    "associated_symptoms": "Tinnitus (initially louder in right ear). No subjective hearing loss reported initially.",
+    "functional_impact": "Patient is concerned about the bothersome tinnitus and potential for hearing difficulty.",
+    "goals_motivation": "Monitor hearing during chemotherapy for testicular cancer."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient diagnosed with testicular cancer in mid-June. Surgery in early July. Started chemotherapy (cisplatin and gemcitabine) in September. Developed bilateral tinnitus 24 hours after first dose. Referred for audiology 6 days post-treatment.",
+        "otologic_history": "No prior history mentioned.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Testicular cancer.",
+        "prior_management": "None.",
+        "patient_goals": "Establish baseline (functional) hearing status and monitor for ototoxicity."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-Dose 1 (Functional Baseline)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 26.1"
+          ],
+          "key_findings": "Normal hearing from 250-4000 Hz. Slight sensorineural hearing loss at 6000 and 8000 Hz bilaterally.",
+          "numeric_results": {
+            "Right_250-4000Hz": "10-15 dB HL",
+            "Left_250-4000Hz": "5-20 dB HL",
+            "Right_6000Hz": "25 dB HL",
+            "Right_8000Hz": "20 dB HL",
+            "Left_6000Hz": "25 dB HL",
+            "Left_8000Hz": "20 dB HL"
+          }
+        },
+        {
+          "name": "High-frequency audiometry (HFA)",
+          "timepoint_label": "Post-Dose 1 (Functional Baseline)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 26.1"
+          ],
+          "key_findings": "Measurable thresholds up to 14,000 Hz; No Response (NR) at 16,000 Hz.",
+          "numeric_results": {
+            "Right_9000Hz": "25 dB HL",
+            "Right_10000Hz": "20 dB HL",
+            "Right_11200Hz": "25 dB HL",
+            "Right_12500Hz": "25 dB HL",
+            "Right_14000Hz": "50 dB HL",
+            "Left_9000Hz": "25 dB HL",
+            "Left_10000Hz": "25 dB HL",
+            "Left_11200Hz": "25 dB HL",
+            "Left_12500Hz": "30 dB HL",
+            "Left_14000Hz": "55 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-Dose 1 (Functional Baseline)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal speech recognition thresholds and excellent word recognition.",
+          "numeric_results": {
+            "SRT_Right": "15 dB HL",
+            "SRT_Left": "15 dB HL",
+            "WRS_Right": "100%",
+            "WRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-Dose 1 (Functional Baseline)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanograms bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Post-Dose 1 (Functional Baseline)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Ipsilateral and contralateral reflexes present 500-4000 Hz. Decay negative at 500 and 1000 Hz.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned 24 hours prior to scheduled 3rd dose (after receiving 2nd dose). Reported tinnitus increased bilaterally within 24 hours of the 2nd dose and has not decreased. No subjective change in hearing sensitivity reported.",
+        "otologic_history": "Received 2nd dose of cisplatin since last visit.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Ongoing chemotherapy.",
+        "prior_management": "Monitoring.",
+        "patient_goals": "Monitor status prior to 3rd dose."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-Dose 2 / Pre-Dose 3",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 26.2"
+          ],
+          "key_findings": "Right ear: Slight SNHL 250-500 Hz (new), rising to normal 1-4k, sloping to mild SNHL >4k. Left ear: Normal 250-4k, sloping to mild SNHL >4k. Significant changes (>10dB) noted at specific frequencies.",
+          "numeric_results": {
+            "Right_250Hz": "25 dB HL (10 dB change)",
+            "Right_500Hz": "20 dB HL (10 dB change)",
+            "Right_8000Hz": "40 dB HL (20 dB change)",
+            "Left_Change_6000Hz": "Significant change noted",
+            "Left_Change_8000Hz": "Significant change noted"
+          }
+        },
+        {
+          "name": "High-frequency audiometry (HFA)",
+          "timepoint_label": "Post-Dose 2 / Pre-Dose 3",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 26.2"
+          ],
+          "key_findings": "Significant threshold shifts observed in both ears across high frequencies.",
+          "numeric_results": {
+            "Right_9000Hz": "50 dB HL (25 dB change)",
+            "Right_10000Hz": "50 dB HL (30 dB change)",
+            "Right_12500Hz": "60 dB HL (35 dB change)",
+            "Right_14000Hz": "50 dB HL (0 dB change)",
+            "Left_9000Hz": "45 dB HL",
+            "Left_10000Hz": "50 dB HL",
+            "Left_11200Hz": "50 dB HL",
+            "Left_12500Hz": "55 dB HL",
+            "Left_14000Hz": "55 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-Dose 2 / Pre-Dose 3",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not measured due to patient's lack of perceived difficulty with speech.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with cisplatin-induced ototoxicity characterized by bilateral tinnitus and progressive high-frequency sensorineural hearing loss. Initial testing showed only slight high-frequency loss, but following the second dose, significant threshold shifts were observed in the extended high frequencies (9000–14,000 Hz) bilaterally, as well as shifts in the standard frequencies (including low frequencies in the right ear). Despite these objective changes, the patient does not yet report subjective difficulty with speech understanding.",
+  "counseling_points": [
+    "Explain that the ringing (tinnitus) and changes in the high-pitch hearing test are side effects of the cisplatin chemotherapy.",
+    "Inform the patient that while speech understanding remains good now, the hearing loss in the high pitches is significant and warrants close monitoring.",
+    "Discuss the importance of hearing protection (avoiding loud noise) to prevent additive damage to the ears during treatment.",
+    "Advise that these results will be shared with the oncologist to discuss the risk/benefit of continuing the current medication regimen."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is anxious about the cancer treatment but increasingly annoyed by the persistent ringing in the ears.",
+    "You do not feel like you are having trouble hearing people talk yet, but the tinnitus is distracting.",
+    "You are worried that the ringing means your ears are being damaged permanently."
+  ]
+}

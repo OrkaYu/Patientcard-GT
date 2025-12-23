@@ -1,0 +1,91 @@
+{
+  "case_id": "Case051",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Insufficient OSPL90 (Output Saturation)",
+      "rationale_short": "The C4-Passion device had a significantly lower OSPL90 (108 dB SPL) compared to the patient's previous Diva 9 (125 dB SPL), causing saturation and clipping of loud speech peaks."
+    },
+    {
+      "rank": 2,
+      "label": "Input Stage Saturation",
+      "rationale_short": "Considered but unlikely as both devices use 16-bit ADCs with similar dynamic ranges, and directional microphones typically reduce input levels."
+    },
+    {
+      "rank": 3,
+      "label": "Signal Processing Differences",
+      "rationale_short": "Unlikely to be the cause as gain settings for soft/normal sounds were matched and noise reduction algorithms were similar between devices."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To confirm current hearing thresholds and configuration."
+      },
+      {
+        "action": "Hearing Instrument Verification",
+        "urgency": "routine",
+        "rationale_short": "To compare the electroacoustic characteristics (gain and OSPL90) of the new versus old hearing aids."
+      },
+      {
+        "action": "Speech-in-noise (HINT)",
+        "urgency": "routine",
+        "rationale_short": "To objectively evaluate and compare speech recognition performance in noise with different devices."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometric testing confirmed a flat moderate-severe SNHL. Verification showed that while gain for soft/average inputs was matched between devices, the new C4-Passion had insufficient OSPL90 (108 dB SPL) compared to the previous Diva 9 (125 dB SPL), leading to saturation. Comparative HINT testing demonstrated that this lack of headroom significantly degraded performance in noise (+2 dB SNR) compared to the old aids (-2 dB SNR), whereas the proposed C4-FS model restored and improved performance (-3 dB SNR).",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Flat sensorineural hearing loss at 60 dB HL."
+          },
+          {
+            "name": "Hearing Instrument Verification",
+            "category": "Electroacoustic Analysis",
+            "result_summary": "C4-Passion OSPL90 (108 dB SPL) was significantly lower than Diva 9 (125 dB SPL); frequency output matched at 50 and 65 dB inputs."
+          },
+          {
+            "name": "Speech-in-noise (HINT)",
+            "category": "Functional Testing",
+            "result_summary": "RTS results: Diva 9 (-2 dB SNR), C4-Passion (+2 dB SNR), C4-FS (-3 dB SNR). Estimated 30-50% improvement with C4-FS over C4-Passion."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit Widex CLEAR Fusion (C4-FS) RIC hearing aids with P-receiver",
+      "Ensure OSPL90 is comparable to previous devices (approx. 118-124 dB SPL)"
+    ],
+    "counseling_actions": [
+      "Explain that the 'muffled' sound is due to the smaller hearing aid clipping loud speech peaks because of insufficient power (OSPL90)",
+      "Advise that the C4-FS model provides the necessary power to match previous performance while remaining cosmetically discreet",
+      "Discuss HINT results showing a potential 30-50% improvement in speech recognition with the proposed device"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology Clinic",
+      "rationale_short": "Proceed with fitting the proposed higher-power RIC devices."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Next day and again in 2 weeks",
+    "objective": "Monitor patient satisfaction, sound quality perception, and speech recognition in noise."
+  },
+  "expected_outcome": [
+    "Patient reported an improvement in sound quality.",
+    "Speech with the C4-FS was reportedly clearer and more natural than with the Diva 9 and C4-Passion.",
+    "Patient reported a more three-dimensional perception of his listening environments.",
+    "Confirmed initial satisfaction and reported excellent sound quality and better speech recognition in noisy background."
+  ]
+}

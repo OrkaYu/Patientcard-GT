@@ -1,0 +1,179 @@
+{
+  "case_id": "case_27",
+  "title": "Facial Nerve Monitoring with Electroneuronography",
+  "demographics": {
+    "age_years": 21,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I was in a severe car accident two weeks ago. I have paralysis on both sides of my face and my hearing seems a little decreased.",
+  "problem_summary": {
+    "onset": "Acute onset 14 days prior following a motor vehicle accident.",
+    "course": "Facial paralysis is severe/total (House-Brackmann VI/VI). Hearing loss is mild. Left facial nerve function showed transient signs of recovery before deteriorating.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Mild tingling sensation in lips (right side), headaches, decreased lip sensation when lying down.",
+    "functional_impact": "Total facial paralysis (unable to close eyes, difficulty speaking), mild hearing difficulty.",
+    "goals_motivation": "Determine the status of the facial nerves to guide surgical vs. medical management."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Neurotology/Audiology Department",
+      "history": {
+        "present_illness": "Patient sustained severe head injury 14 days ago from an MVA (unrestrained driver). CT showed bilateral longitudinal temporal bone fractures traversing the horizontal segment of the facial nerve canal. Presented with bilateral facial nerve paralysis (House-Brackmann Grade VI/VI).",
+        "otologic_history": "No evidence of CSF leak, otorrhea, or drainage. Denies otalgia, tinnitus, or vertigo.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Pulmonary contusions, small subarachnoid hemorrhage. Treated with 60mg prednisone daily for 6 days.",
+        "prior_management": "EMG performed in hospital. Referred for audiology and ENoG.",
+        "patient_goals": "Assessment of facial nerve function."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Initial Assessment (Day 14 post-trauma)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 27.1"
+          ],
+          "key_findings": "Right ear: Slight HL at 250 Hz, otherwise normal. Left ear: Slight conductive HL at 250-500 Hz, rising to normal at 1000 Hz, then mild conductive HL 2000-8000 Hz with air-bone gaps.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250Hz: 20, 500Hz: 10, 1000Hz: 5, 2000Hz: 5, 4000Hz: 10, 8000Hz: 10 dB HL",
+            "LE_AC_Thresholds": "250Hz: 25, 500Hz: 20, 1000Hz: 10, 2000Hz: 25, 4000Hz: 35, 8000Hz: 30 dB HL",
+            "LE_BC_Thresholds": "500Hz: 0, 1000Hz: 0, 2000Hz: 5, 4000Hz: 5 dB HL",
+            "RE_BC": "Not performed due to sensitivity/pain from fractures."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Initial Assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 27.1"
+          ],
+          "key_findings": "Speech Awareness Thresholds (SAT) obtained due to patient difficulty speaking. Consistent with pure-tone averages. Word recognition not measured.",
+          "numeric_results": {
+            "RE_SAT": "15 dB HL",
+            "LE_SAT": "20 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Initial Assessment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 27.1"
+          ],
+          "key_findings": "Normal tympanograms bilaterally (Type A).",
+          "numeric_results": {
+            "RE_Static_Admittance": "0.8 mL",
+            "RE_Peak_Pressure": "0 daPa",
+            "LE_Static_Admittance": "0.7 mL",
+            "LE_Peak_Pressure": "-80 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Initial Assessment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 27.1"
+          ],
+          "key_findings": "Right ipsilateral present at 1000 and 2000 Hz. Absent for right/left contralateral and left ipsilateral stimulation.",
+          "numeric_results": {
+            "RE_Ipsi_1000Hz": "100 dB HL",
+            "RE_Ipsi_2000Hz": "100 dB HL",
+            "LE_Ipsi": "Absent",
+            "Contra_Stim": "Absent bilaterally"
+          }
+        },
+        {
+          "name": "Electroneuronography (ENoG)",
+          "timepoint_label": "Initial Assessment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 27.2"
+          ],
+          "key_findings": "Right facial nerve showed minimal response. Left facial nerve showed no observable response (absent).",
+          "numeric_results": {
+            "Right_Response_Amplitude": "58 µV",
+            "Right_Response_Latency": "8 ms",
+            "Left_Response": "Absent"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (Serial Monitoring)",
+      "history": {
+        "present_illness": "Serial monitoring over 15 days following initial assessment (up to ~29 days post-trauma).",
+        "otologic_history": "Patient reported headaches and decreased lip sensation when lying down.",
+        "prior_management": "Monitoring to determine need for surgical decompression.",
+        "patient_goals": "Evaluation for surgery."
+      },
+      "tests": [
+        {
+          "name": "Electroneuronography (ENoG)",
+          "timepoint_label": "Serial Monitoring (Days 3, 10, 15 post-initial)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 27.2"
+          ],
+          "key_findings": "Right side remained stable with low amplitude. Left side showed transient recovery (small response appeared) but then declined and disappeared by Day 15 follow-up, indicating critical distress.",
+          "numeric_results": {
+            "Right_Response": "Stable low amplitude (~58 µV range)",
+            "Left_Response_Day_3_10": "Small response present (transient recovery)",
+            "Left_Response_Day_15": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity in the right ear and a mild conductive hearing loss in the high frequencies in the left ear, likely due to ossicular disruption or hemotympanum associated with temporal bone fractures. Bilateral facial nerve paralysis is present; ENoG monitoring reveals severe denervation on the right (stable) and total denervation on the left after a brief period of recovery, suggesting the left nerve is in critical distress.",
+  "counseling_points": [
+    "Your hearing test shows normal hearing on the right and a mild loss on the left, likely caused by the trauma to the ear bones or blood behind the eardrum.",
+    "The nerve test (ENoG) shows that the facial nerve on the right is weak but stable.",
+    "The facial nerve on the left initially showed signs of waking up, but recent tests show it has stopped responding again.",
+    "Because the left nerve response has disappeared, surgical decompression is recommended to relieve pressure on the nerve.",
+    "Since you cannot close your eyes fully, it is critical to use eye drops and protection to prevent eye damage."
+  ],
+  "notes_for_actor": [
+    "Portray a patient with total facial paralysis (mask-like face, no expression).",
+    "You cannot close your eyes or move your lips.",
+    "Speech should be difficult/mumbled; use hand signals (like raising an arm) to respond to questions or test sounds.",
+    "You are compliant but anxious about the paralysis not improving."
+  ]
+}

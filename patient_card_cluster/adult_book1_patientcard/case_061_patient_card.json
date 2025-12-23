@@ -1,0 +1,198 @@
+{
+  "case_id": "case_61",
+  "title": "Revisiting Cochlear Implant Candidacy",
+  "demographics": {
+    "age_years": 48,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I rely on my husband to translate group conversations for me, and I'm having trouble functioning without him. My volunteer firefighter activities and social outings, like camping, are becoming too difficult due to my hearing loss.",
+  "problem_summary": {
+    "onset": "Diagnosed at age 27.",
+    "course": "Progressive; recent decrease in thresholds (0-10 dB shift) accompanied by a significant drop in word recognition scores.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Difficulty in noise, reliance on visual cues/spouse.",
+    "functional_impact": "Social withdrawal, difficulty with volunteer work and group interactions.",
+    "goals_motivation": "Strong desire to improve hearing; willing to risk residual hearing for potential benefit."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reported a recent decrease in hearing. She has worn bilateral hearing aids since diagnosis at age 27.",
+        "otologic_history": "Progressive SNHL.",
+        "prior_management": "Bilateral ReSound ITE hearing aids purchased 2 years ago.",
+        "patient_goals": "Evaluate candidacy for CI due to declining performance."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 61.1"
+          ],
+          "key_findings": "Flat, moderately severe sensorineural hearing loss. Recent threshold shift of 0-5 dB (Right) and 5-10 dB (Left).",
+          "numeric_results": {
+            "configuration": "Flat",
+            "severity": "Moderately severe",
+            "threshold_range": "Approx 55-70 dB HL across frequencies (visual est from Fig 61.1)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Significant decrease in Word Recognition Scores (WRS) compared to previous exams.",
+          "numeric_results": {
+            "WRS_Right": "Decreased from 84% to 60%",
+            "WRS_Left": "Decreased from 78% to 36%"
+          }
+        },
+        {
+          "name": "Tympanometry & Reflexes",
+          "timepoint_label": "Pre-op Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal middle ear function; absent reflexes.",
+          "numeric_results": {
+            "tympanograms": "Normal (Type A)",
+            "acoustic_reflexes": "Absent ipsilateral and contralateral at 500-1000 Hz"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (OAE)",
+          "timepoint_label": "Pre-op Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Consistent with magnitude of hearing loss.",
+          "numeric_results": {
+            "DPOAEs": "Absent bilaterally"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Hearing aid verification and trial to ensure optimized amplification before CI consideration.",
+        "prior_management": "Patient's own ITEs were under-amplifying. Fitted with loaner Phonak Extra 411 BTEs adjusted to DSL targets.",
+        "patient_goals": "Determine if better hearing aids provide sufficient benefit."
+      },
+      "tests": [
+        {
+          "name": "Real Ear Measures (REM)",
+          "timepoint_label": "Hearing Aid Trial",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Loaner aids adjusted to meet adult DSL targets. Patient reported settings comfortable."
+        },
+        {
+          "name": "Aided Soundfield Thresholds",
+          "timepoint_label": "Hearing Aid Trial",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 61.2"
+          ],
+          "key_findings": "Despite meeting DSL targets, desired aided thresholds of 25 dB HL could not be achieved.",
+          "numeric_results": {
+            "aided_thresholds_approx": "30-45 dB HL range (visual est from Fig 61.2)",
+            "target_goal": "25 dB HL (not achieved)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "1 month post-fitting",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Return after 1-month trial with optimized loaner hearing aids.",
+        "patient_goals": "Reported no noticeable functional improvement despite new aids."
+      },
+      "tests": [
+        {
+          "name": "Speech-in-noise / Speech Perception",
+          "timepoint_label": "CI Candidacy Eval",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 61.1"
+          ],
+          "key_findings": "Scores fall within CI candidacy range (defined as <60% best aided condition, <50% ear to be implanted). HINT administered in quiet for this protocol.",
+          "numeric_results": {
+            "HINT_Quiet_Binaural_50dBHL": "59%",
+            "CNC_Words_Binaural_50dBHL": "32%",
+            "HINT_Quiet_Right_60dBHL": "51%",
+            "HINT_Quiet_Left_60dBHL": "30%"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Pre-op Diagnostic",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Performed to rule out Auditory Neuropathy Spectrum Disorder (ANSD) given the 'good/bad days' report.",
+          "numeric_results": {
+            "waveforms": "Wave I, III, V complex present at threshold and suprathreshold",
+            "diagnosis": "Ruled out ANSD"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral flat moderately severe sensorineural hearing loss. Despite optimized amplification with BTE hearing aids verified to DSL targets, she demonstrates poor functional speech understanding, with aided sentence recognition (HINT) in quiet at 59% binaurally and 30% in the left ear. Although her pure-tone thresholds suggest significant residual hearing ('off-label' for traditional criteria), her speech recognition scores meet the criteria for cochlear implantation. ABR testing ruled out auditory neuropathy.",
+  "counseling_points": [
+    "Even though your hearing chart shows you have some usable hearing, your ability to understand speech with hearing aids is lower than we would expect.",
+    "You are considered an 'off-label' candidate because you have more residual hearing than typical CI candidates, but your functional struggle is significant.",
+    "There is a risk of losing the natural hearing you currently have in the implanted ear during surgery.",
+    "We recommend implanting the left ear because it has poorer speech understanding, allowing you to keep using the right ear for the telephone.",
+    "We will need to work with your insurance carefully since this is an off-label case, though approval is likely given your poor speech scores."
+  ],
+  "notes_for_actor": [
+    "Portray a positive disposition but clear frustration with your functional limitations.",
+    "Emphasize that you rely heavily on your husband to 'translate' for you in social settings.",
+    "You are active (camping, volunteer firefighter) and motivated to solve this problem.",
+    "You are willing to take the risk of losing residual hearing in one ear if it means a chance at better clarity."
+  ]
+}

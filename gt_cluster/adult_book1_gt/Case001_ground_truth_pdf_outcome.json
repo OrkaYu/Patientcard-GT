@@ -1,0 +1,155 @@
+{
+  "case_id": "Case001",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Auditory Processing Disorder (APD)",
+      "rationale_short": "Patient scored outside two standard deviations on multiple auditory processing tests (WIN, ATTR, LiSN-S) despite normal peripheral hearing sensitivity."
+    },
+    {
+      "rank": 2,
+      "label": "Posttraumatic Stress Disorder (PTSD) / Mild Traumatic Brain Injury (mTBI)",
+      "rationale_short": "History of blast exposures and confirmed mTBI; symptoms mimic APD, and functional improvements were attributed largely to mental health counseling."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity given reports of hearing loss and tinnitus."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities in quiet."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and rule out retrocochlear pathology."
+      },
+      {
+        "action": "Hearing Handicap Inventory for Adults (HHIA-S)",
+        "urgency": "routine",
+        "rationale_short": "To quantify the self-perceived functional hearing handicap."
+      },
+      {
+        "action": "Comprehensive vestibular evaluation",
+        "urgency": "soon",
+        "rationale_short": "To investigate reported dizziness and imbalance."
+      },
+      {
+        "action": "Words-in-Noise (WIN) test",
+        "urgency": "soon",
+        "rationale_short": "To assess speech recognition in noise as part of the APD battery."
+      },
+      {
+        "action": "Adaptive Test of Temporal Resolution (ATTR)",
+        "urgency": "soon",
+        "rationale_short": "To measure temporal resolution (gap detection) as part of the APD battery."
+      },
+      {
+        "action": "Listening in Spatialized Noise (LiSN-S)",
+        "urgency": "soon",
+        "rationale_short": "To assess auditory stream segregation and spatial processing skills."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing sensitivity was essentially normal with only slight low-frequency loss, and middle ear function was normal. However, the patient reported a severe self-perceived hearing handicap inconsistent with the peripheral results.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral slight hearing loss at 250-1000 Hz, rising to within normal limits at 2000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Mild SRT loss in the right ear (20 dB HL), slight in the left (17 dB HL); Word Recognition Scores 100% bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear function bilaterally (Type A)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral and contralateral reflexes within normal limits; reflex decay negative."
+          },
+          {
+            "name": "Hearing Handicap Inventory for Adults (HHIA-S)",
+            "category": "Questionnaire",
+            "result_summary": "Score of 28, indicating severe self-perceived hearing handicap."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Vestibular testing was normal. Auditory processing evaluation revealed significant deficits in speech-in-noise performance, temporal resolution, and spatial processing, meeting criteria for APD.",
+        "tests": [
+          {
+            "name": "Comprehensive vestibular evaluation",
+            "category": "Vestibular",
+            "result_summary": "Within normal limits."
+          },
+          {
+            "name": "Words-in-Noise (WIN) test",
+            "category": "APD",
+            "result_summary": "18.8 dB SNR, indicating severe SNR loss (Norm: <= 6.0 dB SNR)."
+          },
+          {
+            "name": "Adaptive Test of Temporal Resolution (ATTR)",
+            "category": "APD",
+            "result_summary": "Gap detection threshold 54.5 msec, indicating poor temporal resolution (Norm: 3.0 msec)."
+          },
+          {
+            "name": "Listening in Spatialized Noise (LiSN-S)",
+            "category": "APD",
+            "result_summary": "Deficits in spatial and talker cues; Low-cue SRT 14.6 dB, High-cue SRT 14.2 dB."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "FM system trial (Phonak iSense with ZoomLink+ or SmartLink+)",
+      "Auditory training (Brain Fitness Program / BrainHQ)",
+      "Progressive Tinnitus Management (PTM) group sessions",
+      "Hearing conservation strategies (disposable ear plugs for excessive noise)"
+    ],
+    "counseling_actions": [
+      "Communication strategies (facing speaker, reducing background noise, preferential seating)",
+      "Counseling on hyperacusis and tinnitus management",
+      "Explanation of APD results and their impact on listening in noise"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Mental Health Services",
+      "rationale_short": "To address PTSD symptoms which may be exacerbating or mimicking auditory processing deficits."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "12 weeks",
+    "objective": "Re-evaluation of auditory processing skills and review of functional goals (COSI) following counseling and therapy."
+  },
+  "expected_outcome": [
+    "Words-in-Noise (WIN) test: 15.6 dB SNR (severe SNR loss), showing improvement from baseline but remaining abnormal.",
+    "Adaptive Test of Temporal Resolution (ATTR): Gap detection threshold 15.5 msec, significantly improved from baseline but still abnormal.",
+    "Listening in Spatialized Noise (LiSN-S): Low-cue SRT 10.6 dB, High-cue SRT 8.2 dB, Talker Advantage 1.4 dB, Spatial Advantage 5.6 dB; improved scores but still below normal limits.",
+    "Patient reported significantly reduced anxiety and avoidance behaviors in social situations.",
+    "Patient found the FM system and Brain Fitness Program helpful and reported significant improvements in daily quality of life."
+  ]
+}

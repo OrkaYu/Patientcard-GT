@@ -1,0 +1,178 @@
+{
+  "case_id": "case_40",
+  "title": "Central Vestibular Dysfunction—Type I Chiari Malformation",
+  "demographics": {
+    "age_years": 30,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have dizzy spells several times a day, usually after exercising or cleaning the house. My head feels like it is 'swimming' and I can't focus. I also get bad headaches starting at the back of my head when I sneeze or cough, and my vision gets blurry when I turn my head quickly.",
+  "problem_summary": {
+    "onset": "Approximately 3 years ago.",
+    "course": "Symptoms have become more intense and frequent within the last 6 months; dizziness now occurs multiple times daily.",
+    "laterality": "Bilateral/Central",
+    "associated_symptoms": "Oscillopsia (blurry vision with head movement), diplopia (double vision), occipital headaches triggered by Valsalva-like maneuvers (sneezing/coughing).",
+    "functional_impact": "Interfering with quality of life; stopped playing softball due to double vision.",
+    "goals_motivation": "Seeking explanation for increased dizziness and visual problems."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology and Neurotology Clinic",
+      "history": {
+        "present_illness": "Patient reports multiple daily episodes of dizziness lasting <30 seconds, triggered by exertion. Describes sensation as 'swimming' rather than spinning vertigo. Denies nausea/vomiting. Reports blurry vision with quick head turns and two episodes of diplopia.",
+        "otologic_history": "Denies hearing loss, tinnitus, or aural fullness.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "History of headaches since high school, recently worsened. Headaches triggered by sneezing/coughing, relief found by lying on stomach with head hanging over the edge. No migraine diagnosis. Appropriate contact lens prescription confirmed by ophthalmology.",
+        "prior_management": "Uses over-the-counter pain medication for headaches.",
+        "patient_goals": "Investigate cause of dizziness and visual disturbances."
+      },
+      "tests": [
+        {
+          "name": "Dizziness Handicap Inventory (DHI)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Score indicates a moderate perceived handicap due to dizziness.",
+          "numeric_results": {
+            "total_score": "38"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 40.1"
+          ],
+          "key_findings": "Hearing thresholds within normal limits (250-8000 Hz) bilaterally.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "5-10 dB HL range",
+            "Left_AC_Thresholds": "5-15 dB HL range"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 40.1"
+          ],
+          "key_findings": "Speech recognition thresholds (SRT) consistent with pure-tone average. Word recognition scores (WRS) excellent bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "10 dB HL",
+            "SRT_Left": "13 dB HL",
+            "WRS_Right": "96% at 55 dB HL",
+            "WRS_Left": "100% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 40.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Volume": "1.3 mL",
+            "Right_Peak_Pressure": "25 daPa",
+            "Left_Volume": "1.5 mL",
+            "Left_Peak_Pressure": "25 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 40.1"
+          ],
+          "key_findings": "Reflexes present at normal or slightly elevated sensation levels (500-4000 Hz).",
+          "numeric_results": {
+            "Right_Ipsi_1000Hz": "95 dB",
+            "Left_Ipsi_1000Hz": "95 dB"
+          }
+        },
+        {
+          "name": "Videonystagmography (VNG) - Oculomotor",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 40.2",
+            "Fig. 40.3",
+            "Fig. 40.4"
+          ],
+          "key_findings": "Abnormal. Bilateral horizontal gaze nystagmus (direction-changing). Reduced gain on smooth pursuit and optokinetic testing. Nystagmus intruded on pursuit tracings.",
+          "numeric_results": {
+            "Smooth_Pursuit_Gain": "Reduced at 0.2 Hz and 0.4 Hz",
+            "OPK_Gain": "Reduced at 20 deg/s and 40 deg/s"
+          }
+        },
+        {
+          "name": "Videonystagmography (VNG) - Caloric",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 40.5"
+          ],
+          "key_findings": "Robust and symmetrical caloric responses (no peripheral weakness). Significant failure of fixation suppression noted (central sign).",
+          "numeric_results": {
+            "Unilateral_Weakness": "Normal/Symmetrical",
+            "Fixation_Index_Right_Cool": "0.62 (Abnormal)",
+            "Fixation_Index_Left_Cool": "0.65 (Abnormal)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity and middle ear function bilaterally. However, vestibular evaluation reveals significant central vestibular dysfunction. Key findings include direction-changing gaze nystagmus, impaired smooth pursuit and optokinetic gain, and a failure of fixation suppression during caloric testing. These results localize pathology to the central nervous system, specifically the cerebellum, rather than the peripheral vestibular system.",
+  "counseling_points": [
+    "Your hearing test is completely normal, ruling out inner ear hearing problems.",
+    "The dizziness and balance tests show signs that the issue is coming from the central connections in the brain (specifically the cerebellum) rather than the inner ear balance organs.",
+    "The 'swimming' sensation and blurry vision when moving your head are due to the brain's difficulty coordinating eye movements with head movements.",
+    "Based on these results and your specific headache symptoms, a referral for an MRI is necessary to look at the structure of the brain and skull base."
+  ],
+  "notes_for_actor": [
+    "You do not have spinning vertigo (room spinning). Describe it as 'swimming', imbalance, or hard to focus.",
+    "Emphasize the headaches: they start at the back of the head/neck and happen when you cough or sneeze.",
+    "Mention that the only way to stop the headache is lying on your stomach with your head hanging over the edge of the bed.",
+    "You are concerned because you had to stop playing softball due to seeing two balls (double vision)."
+  ]
+}

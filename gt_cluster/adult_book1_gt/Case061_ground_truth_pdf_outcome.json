@@ -1,0 +1,146 @@
+{
+  "case_id": "Case061",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Patient presents with progressive, flat, moderately severe sensorineural hearing loss."
+    },
+    {
+      "rank": 2,
+      "label": "Cochlear implant candidacy (off-label)",
+      "rationale_short": "Speech recognition scores meet CI criteria (<60% best aided), though pure-tone thresholds show more residual hearing than typical candidates."
+    },
+    {
+      "rank": 3,
+      "label": "Auditory Neuropathy Spectrum Disorder (ANSD)",
+      "rationale_short": "Considered due to patient report of 'good/bad days' but ruled out by presence of ABR waves I, III, and V."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess degree and configuration of hearing loss and monitor threshold shifts."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition abilities, which had significantly declined."
+      },
+      {
+        "action": "Tympanometry & Reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and acoustic reflex pathways."
+      },
+      {
+        "action": "Otoacoustic Emissions (OAE)",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function; absent results consistent with hearing loss magnitude."
+      },
+      {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid fittings against DSL targets during trial."
+      },
+      {
+        "action": "Aided Soundfield Thresholds",
+        "urgency": "routine",
+        "rationale_short": "To measure functional gain with optimized hearing aids."
+      },
+      {
+        "action": "Speech-in-noise / Speech Perception",
+        "urgency": "routine",
+        "rationale_short": "To evaluate functional speech understanding for CI candidacy (HINT, CNC)."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To rule out Auditory Neuropathy Spectrum Disorder given patient history."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation revealed a flat, moderately severe sensorineural hearing loss with a recent threshold shift and significant decline in word recognition scores. Middle ear function was normal, but reflexes and OAEs were absent, consistent with the degree of cochlear hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Flat, moderately severe SNHL; recent shift of 0-5 dB (Right) and 5-10 dB (Left)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "WRS decreased significantly: Right 60% (from 84%), Left 36% (from 78%)."
+          },
+          {
+            "name": "Tympanometry & Reflexes",
+            "result_summary": "Normal tympanograms (Type A); absent ipsilateral and contralateral reflexes at 500-1000 Hz."
+          },
+          {
+            "name": "Otoacoustic Emissions (OAE)",
+            "result_summary": "Absent bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Hearing aid verification and trial were conducted. Although loaner aids were verified to meet DSL targets, the desired aided sound-field thresholds of 25 dB HL could not be achieved, reaching only 30-45 dB HL.",
+        "tests": [
+          {
+            "name": "Real Ear Measures (REM)",
+            "result_summary": "Loaner aids adjusted to meet adult DSL targets; patient reported settings comfortable."
+          },
+          {
+            "name": "Aided Soundfield Thresholds",
+            "result_summary": "30-45 dB HL range achieved; goal of 25 dB HL not met."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Following a 1-month trial, functional testing showed no noticeable improvement. Speech perception scores fell within CI candidacy criteria despite the 'off-label' residual hearing. ABR testing ruled out ANSD.",
+        "tests": [
+          {
+            "name": "Speech-in-noise / Speech Perception",
+            "result_summary": "HINT (Quiet) 59% binaural, 30% left; CNC 32% binaural. Scores met CI candidacy criteria."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "result_summary": "Wave I, III, V complex present; ruled out ANSD."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Cochlear implantation (Left ear recommended)",
+      "Post-operative aural rehabilitation (auditory-based therapy) for minimum 2 months"
+    ],
+    "counseling_actions": [
+      "Discuss 'off-label' candidacy status due to significant residual hearing.",
+      "Counsel on the risk of losing natural residual hearing in the implanted ear.",
+      "Explain recommendation for left ear implantation to preserve the better right ear for telephone use.",
+      "Manage expectations regarding variability in CI performance.",
+      "Discuss insurance approval process for off-label cases."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Cochlear Implant Surgeon / Otologist",
+      "rationale_short": "Patient meets functional criteria for cochlear implantation despite off-label audiometric thresholds and has not benefited from optimized amplification."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-operative activation and long-term follow-up (e.g., 3 years 7 months mentioned).",
+    "objective": "Monitor aided thresholds, speech recognition performance, and acclimatization to the implant."
+  },
+  "expected_outcome": [
+    "Aided sound-field thresholds with the CI alone showed improvement compared to preoperative hearing aids and remained stable at 3 years 7 months post-activation.",
+    "Speech recognition scores (HINT-Quiet, HINT +10 dB SNR, and CNC words) demonstrated significant benefit compared to preoperative performance, with improvements observed at 2 months, 5 months, 1 year, and 2.7 years.",
+    "Patient reported significant functional improvement, describing the ability to converse in a noisy restaurant without lip-reading and stating she was 'blown away' by what she could hear."
+  ]
+}

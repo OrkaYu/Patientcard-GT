@@ -1,0 +1,129 @@
+{
+  "case_id": "Case037",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Superior Semicircular Canal Dehiscence (SSCD)",
+      "rationale_short": "Indicated by Tullio phenomenon, low-frequency air-bone gaps with normal tympanometry, and reduced cVEMP thresholds."
+    },
+    {
+      "rank": 2,
+      "label": "Central Vestibular Disorder (Lithium Toxicity)",
+      "rationale_short": "Long-term Lithium use likely causing observed saccadic eye movements and downbeat nystagmus."
+    },
+    {
+      "rank": 3,
+      "label": "Perilymphatic Fistula",
+      "rationale_short": "Considered due to pressure-induced dizziness, but less likely given the reduced cVEMP thresholds which suggest dehiscence."
+    },
+    {
+      "rank": 4,
+      "label": "Vestibular Migraine",
+      "rationale_short": "History of migraines present, but specific mechanical triggers (sound/pressure) strongly favor a third window pathology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and check for air-bone gaps associated with third window lesions."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and rule out middle ear pathology as cause of conductive loss."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear function and confirm intact reflex arc despite air-bone gaps."
+      },
+      {
+        "action": "Other (VNG)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate vestibular function, oculomotor status, and presence of nystagmus."
+      },
+      {
+        "action": "Other (cVEMP)",
+        "urgency": "soon",
+        "rationale_short": "To assess otolith function and check for reduced thresholds indicative of SSCD."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry revealed a mild low-frequency conductive hearing loss with air-bone gaps at 250 Hz bilaterally, despite normal middle ear function (normal tympanograms and reflexes). This dissociation is a hallmark of Third Window Syndrome. VNG testing showed central signs (saccades, downbeat nystagmus) attributed to long-term Lithium use, and a mild right caloric weakness. cVEMP testing confirmed the suspicion of SSCD with a significantly reduced threshold and increased amplitude in the left ear, along with an observed Tullio phenomenon during testing.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Mild bilateral conductive hearing loss at 250 Hz with air-bone gaps of 30 dB (Right) and 20 dB (Left). Normal hearing sensitivity in mid-to-high frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Speech recognition thresholds (SRT) and word recognition scores (WRS) within normal limits bilaterally (100%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal ipsilateral and contralateral thresholds."
+          },
+          {
+            "name": "Other (VNG)",
+            "category": "Vestibular",
+            "result_summary": "No spontaneous nystagmus; robust saccadic eye movements (Lithium effect); high-frequency headshake elicited downbeat nystagmus; 23% right caloric weakness."
+          },
+          {
+            "name": "Other (cVEMP)",
+            "category": "Vestibular",
+            "result_summary": "51% asymmetry (Left > Right); Left ear threshold reduced to 65 dB nHL; Tullio phenomenon (vertigo/nystagmus) observed during left ear stimulation."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "CT scan of temporal bones to confirm dehiscence",
+      "Surgical repair (plugging of the superior semicircular canal) via middle fossa craniotomy",
+      "Vestibular rehabilitation therapy (post-surgery)"
+    ],
+    "counseling_actions": [
+      "Explain the 'Third Window' mechanism causing dizziness with loud sounds (Tullio) and pressure.",
+      "Discuss the impact of long-term Lithium use on eye movements (saccades) versus the peripheral pathology.",
+      "Counsel on surgical options (plugging vs resurfacing) and associated risks, including sensorineural hearing loss."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurotologist",
+      "rationale_short": "Referral for CT imaging to confirm SSCD and discussion of surgical management options."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 week and 6 months postoperative",
+    "objective": "Monitor symptom resolution, vestibular compensation, and surgical outcomes."
+  },
+  "expected_outcome": [
+    "At 1 week postsurgery, patient reported significant improvement in symptoms with only occasional vertigo.",
+    "Post-surgical VNG (1 week): Mild right beat nystagmus post-headshake and downbeating nystagmus in head-hanging position (expected outcome of canal plugging).",
+    "Post-surgical cVEMP: The reduced left threshold response was no longer present; results returned to within normal limits.",
+    "Post-surgical Bithermal Caloric Irrigations: No change in horizontal semicircular canal function.",
+    "At 6 months postoperative: No evidence of downbeating nystagmus on headshake or head-hanging positional testing.",
+    "At 6 months postoperative: Patient was fully resolved of all symptoms, denied falls, and was able to walk unassisted."
+  ]
+}

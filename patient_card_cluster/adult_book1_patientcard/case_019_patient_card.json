@@ -1,0 +1,184 @@
+{
+  "case_id": "case_19",
+  "title": "My Hearing Aids Do Not Help Me at All",
+  "demographics": {
+    "age_years": 57,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "Australia"
+  },
+  "chief_complaint": "My hearing aids are of no benefit and often make things worse in noisy listening environments. It is as if the hearing aids mix noise with the voices I am trying to hear.",
+  "problem_summary": {
+    "onset": "Slow deterioration over the past 5 years.",
+    "course": "Gradual decline.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Infrequent 'buzzing noise' (tinnitus); difficulty hearing in noise; agitation regarding TV volume.",
+    "functional_impact": "Affecting work as an accountant (meetings, phone calls) and home life (grandchildren, TV volume).",
+    "goals_motivation": "Highly motivated; self-referred for hearing aids initially."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2010-06-01",
+      "setting": "Private Audiology Practice",
+      "history": {
+        "present_illness": "Patient on a 4-week trial of bilateral BTE hearing aids. Reports benefit in quiet but significant difficulty in noise, often removing aids to hear better.",
+        "otologic_history": "No history of vertigo, noise exposure, or family history of hearing loss.",
+        "medical_psych_history": "Generally healthy; takes OTC medication for hay fever.",
+        "prior_management": "Currently in week 3 of a 4-week hearing aid trial (NAL-NL2 targets met).",
+        "patient_goals": "Improve hearing in noisy environments."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 19.1"
+          ],
+          "key_findings": "Bilateral symmetrical mild-to-moderate sensorineural hearing loss, gradually sloping.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 35, 500Hz: 40, 1k: 40, 2k: 40, 4k: 50, 8k: 50 dB HL",
+            "Left_AC_Thresholds": "250Hz: 35, 500Hz: 35, 1k: 40, 2k: 40, 4k: 50, 8k: 60 dB HL",
+            "Bone_Conduction": "Matches air conduction (sensorineural)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 19.1"
+          ],
+          "key_findings": "Mild loss in ability to receive speech (SRT). Word recognition good in quiet with no significant rollover.",
+          "numeric_results": {
+            "SRT_Right": "35 dB HL",
+            "SRT_Left": "33 dB HL",
+            "WRS_Right": "80% at 80 dB HL",
+            "WRS_Left": "90% at 80 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry & Reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 19.1"
+          ],
+          "key_findings": "Normal middle ear function (Type A tympanograms) but absent acoustic reflexes.",
+          "numeric_results": {
+            "Tympanometry": "Normal pressure, compliance, and volume.",
+            "Acoustic_Reflexes": "Absent ipsilateral and contralateral at 500-4000 Hz."
+          }
+        },
+        {
+          "name": "Speech-in-noise (SPIN)",
+          "timepoint_label": "During HA Trial",
+          "ear": "bilateral",
+          "condition": "aided vs unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Performance improved with HAs in quiet, but significantly degraded with HAs in noise compared to unaided.",
+          "numeric_results": {
+            "Quiet_Unaided_HP": "80%",
+            "Quiet_Aided_HP": "96%",
+            "Noise_Unaided_HP": "54%",
+            "Noise_Aided_HP": "18% (Worse than unaided)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "University Audiology Clinic",
+      "history": {
+        "present_illness": "Referral for site-of-lesion assessment due to absent ARTs and poor aided performance in noise.",
+        "otologic_history": "Previous findings confirmed.",
+        "prior_management": "Hearing aid trial paused/under review."
+      },
+      "tests": [
+        {
+          "name": "Otoacoustic Emissions (OAEs)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "TEOAEs and DPOAEs present with abnormally large amplitudes, suggesting disinhibition of outer hair cell activity.",
+          "numeric_results": null
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 19.3"
+          ],
+          "key_findings": "Significantly degraded waveform morphology. No repeatable Wave I. No prominent cochlear microphonic.",
+          "numeric_results": {
+            "Stimulus": "90 dB nHL clicks",
+            "Waveform": "Degraded/Absent"
+          }
+        },
+        {
+          "name": "CAPD Battery",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 19.2"
+          ],
+          "key_findings": "Performed poorly on 5 out of 6 behavioral tests. Severe temporal processing deficits.",
+          "numeric_results": {
+            "RGDT": "Unable to detect gaps up to 40 msec",
+            "MLD": "0 dB (No release from masking)",
+            "LPFS": "Significantly decreased scores (approx 20-25%)",
+            "Frequency_Pattern": "Normal (able to describe patterns)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild-to-moderate sensorineural hearing loss on the audiogram but exhibits a profile consistent with Auditory Neuropathy Spectrum Disorder (ANSD). Key indicators include absent acoustic reflexes, present and robust OAEs, and absent/degraded ABR waveforms. Functionally, this results in severe difficulty understanding speech in noise and temporal processing deficits, explaining why amplification exacerbates the signal-to-noise problem.",
+  "counseling_points": [
+    "Your hearing difficulty is not just about volume (sensitivity) but about how the nerve sends timing information to the brain (synchrony). This is called Auditory Neuropathy Spectrum Disorder (ANSD).",
+    "This condition explains why hearing aids help in quiet (making sounds louder) but hurt in noise (amplifying the 'blur' or distortion).",
+    "We recommend medical clearance with an otologist and neurologist.",
+    "For management, visual communication strategies are crucial. You may continue using hearing aids in quiet if helpful, but removing them in noise is a valid strategy.",
+    "Cochlear implants are a potential treatment option to consider if difficulties persist, as they can bypass the dyssynchronous part of the ear."
+  ],
+  "notes_for_actor": [
+    "Portray frustration specifically regarding the hearing aids in noise—emphasize that they make the background noise 'mix' with the speech, making it impossible to understand.",
+    "You are motivated and cooperative but confused why the devices that were supposed to help are making things worse in social situations.",
+    "Mention the 'buzzing' tinnitus but note it is infrequent."
+  ]
+}

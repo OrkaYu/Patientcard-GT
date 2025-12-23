@@ -1,0 +1,201 @@
+{
+  "case_id": "case_22",
+  "title": "One Patient with Two Audiological Examinations",
+  "demographics": {
+    "age_years": 27,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have 'sensitive hearing' and certain sounds like chewing or coins banging together are painful to me. I also have trouble hearing on my left side and have difficulty understanding speech in background noise.",
+  "problem_summary": {
+    "onset": "Childhood (hearing loss and misophonia).",
+    "course": "Long-standing; recent onset of dizziness and increased misophonia after stopping medication.",
+    "laterality": "Left ear hearing loss; bilateral sound sensitivity.",
+    "associated_symptoms": "Misophonia (strong negative reaction to soft sounds), recent dizziness, anxiety.",
+    "functional_impact": "Positions people on her right side to hear; avoids public places without earplugs due to sound sensitivity.",
+    "goals_motivation": "Seeking a second opinion regarding hearing loss and sensitivity; starting a family."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Previous Audiology Clinic (approx. 1 year prior)",
+      "history": {
+        "present_illness": "Patient sought evaluation for hearing loss and sensitivity.",
+        "otologic_history": "Reported history of hearing loss since childhood.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "History of anxiety and OCD.",
+        "prior_management": "Diagnosed with asymmetric SNHL; recommended to return to referring physician.",
+        "patient_goals": "Evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline (Previous)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 22.1"
+          ],
+          "key_findings": "Reported as asymmetric sensorineural hearing loss. Right ear shows mild low-frequency loss rising to normal. Left ear shows moderate rising to mild mixed loss (though interpreted as SNHL by previous clinician). Missing bone conduction masking and transducer info.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "25 dB HL at 250 Hz, 20 dB at 500 Hz, improving to 0-10 dB at high frequencies",
+            "Left_AC_Thresholds": "40 dB HL at 250 Hz, 35 dB at 500 Hz, rising to 20 dB at 2000 Hz",
+            "Left_BC_Unmasked": "10-15 dB HL (indicates air-bone gap, though ignored in previous report)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline (Previous)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 22.1"
+          ],
+          "key_findings": "SRTs agree with PTAs. Excellent word recognition bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "25 dB HL",
+            "SRT_Left": "40 dB HL",
+            "WRS_Right": "100% at 60 dB HL",
+            "WRS_Left": "100% at 70 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline (Previous)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 22.1"
+          ],
+          "key_findings": "Report text stated 'peaked', but data was not recorded on the form. Acoustic reflexes not recorded.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Current Audiology Clinic",
+      "history": {
+        "present_illness": "Second opinion sought due to communication difficulties and misophonia.",
+        "otologic_history": "No history of ear pathology known to patient. Brother has hearing loss.",
+        "noise_exposure_history": "Does not use hearing protection in public.",
+        "medical_psych_history": "Recently ceased anxiety/OCD medication to start a family.",
+        "prior_management": "Previous hearing aid recommendation mentioned by patient but not pursued.",
+        "patient_goals": "Clarify diagnosis and hearing sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 22.2"
+          ],
+          "key_findings": "Right ear normal hearing (significant improvement from V1). Left ear mild conductive hearing loss with Carhart notch at 2000 Hz. Significant air-bone gaps present in Left ear.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "0-10 dB HL across frequencies",
+            "Left_AC_Thresholds": "Flat configuration approx 40 dB HL",
+            "Left_BC_Masked": "0-10 dB HL (normal cochlear function) with notch to 25 dB HL at 2000 Hz",
+            "Air_Bone_Gap_Left": "Approx 30-40 dB in low/mid frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 22.2"
+          ],
+          "key_findings": "SRTs consistent with PTAs. Word recognition remains excellent.",
+          "numeric_results": {
+            "SRT_Right": "5 dB HL",
+            "SRT_Left": "40 dB HL",
+            "WRS_Right": "96% at 50 dB HL",
+            "WRS_Left": "92% at 65 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 22.2"
+          ],
+          "key_findings": "Normal tympanic membrane mobility bilaterally (Type A).",
+          "numeric_results": {
+            "Static_Admittance_Right": "0.6 mL",
+            "Static_Admittance_Left": "0.5 mL",
+            "Peak_Pressure_Right": "-10 daPa",
+            "Peak_Pressure_Left": "-5 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Absent reflexes bilaterally to ipsilateral and contralateral stimulation at 500-4000 Hz (consistent with conductive pathology in the left ear).",
+          "numeric_results": null
+        },
+        {
+          "name": "Weber Tuning Fork",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Lateralized to the left ear (512 Hz), confirming conductive component.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a mild conductive hearing loss in the left ear. This contrasts with a previous evaluation that suggested bilateral involvement and sensorineural pathology. Current testing reveals a significant air-bone gap in the left ear, a Carhart notch at 2000 Hz, and absent acoustic reflexes, consistent with ossicular chain fixation (otosclerosis).",
+  "counseling_points": [
+    "Your hearing loss in the left ear is 'conductive,' meaning sound is blocked from reaching the inner ear, likely due to a fixation of the tiny bones in your middle ear (otosclerosis).",
+    "The previous test results likely had technical errors (masking issues or headphone placement) that made the hearing look worse than it is.",
+    "Your inner ear function (nerve hearing) is actually normal in both ears.",
+    "Because the loss is conductive, you may be a candidate for medical or surgical management, unlike what you were told previously."
+  ],
+  "notes_for_actor": [
+    "Portray anxiety regarding the 'sensitive hearing' (misophonia).",
+    "Express confusion about why the previous doctor said you had nerve damage but this one might say something different.",
+    "Mention that you stopped your anxiety medication because you want to start a family."
+  ]
+}

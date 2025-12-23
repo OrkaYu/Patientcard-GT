@@ -1,0 +1,229 @@
+{
+  "case_id": "case_71",
+  "title": "Exostoses, Hearing Aids, and Brain Training",
+  "demographics": {
+    "age_years": 86,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I'm having slight difficulties hearing in daily situations, like hearing my wife, following conversations in social settings, and listening to the television.",
+  "problem_summary": {
+    "onset": "Gradual adult-onset; presented at age 74.",
+    "course": "Hearing thresholds remained stable over a decade, but speech-in-noise ability declined over time.",
+    "laterality": "Bilateral.",
+    "associated_symptoms": "Bilateral exostoses (bony growths) in ear canals; history of noise exposure (Navy pilot).",
+    "functional_impact": "Difficulty with soft speech and television; reduced processing speed and memory skills.",
+    "goals_motivation": "Interested in 'training his brain' to improve memory, focus, and processing speed."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2000-01-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presented at age 74 reporting slight hearing difficulties.",
+        "otologic_history": "Avid swimmer in youth. Otoscopy revealed bilateral exostoses (Right > Left).",
+        "noise_exposure_history": "Long history of noise exposure as a Navy pilot.",
+        "medical_psych_history": "Negative for familial hearing loss or ototoxic medications.",
+        "prior_management": "None.",
+        "patient_goals": "Initially chose not to treat hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Bilaterally symmetrical mild to moderate sensorineural hearing loss.",
+          "numeric_results": null
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanograms.",
+          "numeric_results": null
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal thresholds through 2000 Hz.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Word recognition testing in quiet at a comfortably loud level was within normal limits.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2002-01-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up appointment; patient had not returned in 2001.",
+        "prior_management": "Deferred hearing aids in 2000.",
+        "patient_goals": "Preference for a custom-fit hearing aid that was 'less noticeable'."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing loss found to be stable.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2006-01-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Routine periodic evaluation.",
+        "prior_management": "Successful use of monaural Left CIC hearing aid (Right ear fit prevented by exostoses). Patient declined Right aid in 2004 and 2006."
+      },
+      "tests": [
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "aided (left only) / earphones",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "QuickSIN performance was within normal limits.",
+          "numeric_results": {
+            "QuickSIN Score": "~2 dB SNR loss",
+            "Performance Range": "0.5 dB SNR at 65 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "2009-01-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Reported wearing left CIC intermittently with decreasing benefit.",
+        "otologic_history": "Exostoses appeared to have decreased in size bilaterally.",
+        "prior_management": "Started online brain training (BrainHQ) in 2008."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing remained stable.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "QuickSIN score decreased from normal to mild-to-moderate SNR loss.",
+          "numeric_results": {
+            "QuickSIN Score": "5.5 dB SNR loss at 65 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V5",
+      "date": "2012-01-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Monitoring progress with bilateral open-fit mini-BTEs and brain training.",
+        "prior_management": "Averaging 10 hours of use per day with bilateral hearing aids. Completed ~40 brain training sessions per year."
+      },
+      "tests": [
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Indicated a fairly stable SNR loss compared to 2009.",
+          "numeric_results": {
+            "QuickSIN Score": "4.5 dB SNR loss at 55 dB HL"
+          }
+        },
+        {
+          "name": "Brain Training Performance",
+          "timepoint_label": "Longitudinal (2008-2012)",
+          "ear": "N/A",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 71.1"
+          ],
+          "key_findings": "Showed improvement in processing speed, sound discrimination, and memory tasks over 4 years.",
+          "numeric_results": {
+            "Processing Speed Improvement (2008-2012)": "No change (plateaued)",
+            "Sound Discrimination Improvement (2012)": "14%",
+            "Auditory Memory (Match It) Improvement (2012)": "4%",
+            "Long-term Memory (Story Teller) Improvement (2012)": "24%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a long-standing, stable bilateral mild-to-moderate sensorineural hearing loss and a history of noise exposure. While pure-tone thresholds remained stable over a decade, speech-in-noise abilities (SNR loss) showed decline consistent with aging and auditory deprivation, moving from normal to mild-to-moderate loss. The patient has successfully transitioned from monaural CIC amplification to bilateral open-fit mini-BTEs, complemented by consistent auditory brain training.",
+  "counseling_points": [
+    "Even if your hearing thresholds on the chart don't change, your brain's ability to process speech in noise can decline over time.",
+    "Using two hearing aids provides better support for your brain than just one, especially for understanding speech in noisy places.",
+    "Exostoses (surfer's ear) are benign, but they can complicate wearing certain types of custom hearing aids.",
+    "Auditory brain training exercises can help improve processing speed and memory, working alongside your hearing aids."
+  ],
+  "notes_for_actor": [
+    "You are an 86-year-old former Navy pilot who used to be an avid swimmer.",
+    "You are motivated to maintain your cognitive health and are diligent about doing your 'brain exercises' on the computer.",
+    "Initially, you were vain about hearing aids (wanted 'less noticeable'), but you have become more accepting of behind-the-ear styles as you realized the benefit."
+  ]
+}

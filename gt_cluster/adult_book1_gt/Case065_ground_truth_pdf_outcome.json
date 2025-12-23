@@ -1,0 +1,170 @@
+{
+  "case_id": "Case065",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right ear high-frequency sensorineural hearing loss (HFSNHL)",
+      "rationale_short": "Audiometry revealed mild-to-moderate SNHL at 4000-8000 Hz in the right ear, consistent with blast exposure."
+    },
+    {
+      "rank": 2,
+      "label": "Left Benign Paroxysmal Positional Vertigo (BPPV)",
+      "rationale_short": "Vestibular evaluation identified left peripheral weakness; successfully treated with canalith repositioning."
+    },
+    {
+      "rank": 3,
+      "label": "Functional hearing deficit (Speech-in-noise difficulty)",
+      "rationale_short": "Performance Perceptual Test (PPT) showed actual speech recognition in noise was poorer than norms despite normal results on other processing tests."
+    },
+    {
+      "rank": 4,
+      "label": "Subjective tinnitus",
+      "rationale_short": "Patient reports constant ringing in the right ear, likely associated with the right-sided hearing loss and blast injury."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity given complaints of hearing loss and blast exposure."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc and screen for retrocochlear pathology."
+      },
+      {
+        "action": "Vestibular Evaluation",
+        "urgency": "soon",
+        "rationale_short": "To investigate reported dizziness and imbalance."
+      },
+      {
+        "action": "Performance Perceptual Test (PPT)",
+        "urgency": "routine",
+        "rationale_short": "To assess functional speech-in-noise ability and self-perception of difficulty."
+      },
+      {
+        "action": "Adaptive Test of Temporal Resolution (ATTR)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate temporal processing (gap detection) capabilities."
+      },
+      {
+        "action": "Time Compressed Sentences Test (TCST)",
+        "urgency": "routine",
+        "rationale_short": "To assess processing of rapid speech."
+      },
+      {
+        "action": "Staggered Spondaic Word (SSW)",
+        "urgency": "routine",
+        "rationale_short": "To assess binaural separation and interhemispheric transfer."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results revealed normal hearing in the left ear and a mild-to-moderate high-frequency sensorineural hearing loss in the right ear. Middle ear function was normal bilaterally. Vestibular evaluation identified a left peripheral weakness consistent with BPPV.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal 250-3000 Hz, mild-to-moderate SNHL 4000-8000 Hz. Left ear: Normal 250-8000 Hz with slight dip at 6000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs agreed with PTA; Word Recognition Scores were 100% bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at expected levels 500-4000 Hz; no decay observed."
+          },
+          {
+            "name": "Vestibular Evaluation",
+            "category": "Vestibular",
+            "result_summary": "Rotational chair and calorics revealed left peripheral weakness; diagnosed as Left BPPV."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Functional testing highlighted a specific deficit in speech-in-noise performance (PPT) that was poorer than norms, while other central auditory processing skills (temporal resolution, rapid speech, dichotic listening) were intact.",
+        "tests": [
+          {
+            "name": "Performance Perceptual Test (PPT)",
+            "category": "Functional Hearing",
+            "result_summary": "Actual binaural speech recognition in noise (13.7 dB SNR) was poorer than norms; PPDIS of 0.7 dB indicated accurate self-assessment."
+          },
+          {
+            "name": "Adaptive Test of Temporal Resolution (ATTR)",
+            "category": "Auditory Processing",
+            "result_summary": "Gap detection threshold 3.26 ms (within normal limits)."
+          },
+          {
+            "name": "Time Compressed Sentences Test (TCST)",
+            "category": "Auditory Processing",
+            "result_summary": "100% accuracy at 50% and 60% compression (normal)."
+          },
+          {
+            "name": "Staggered Spondaic Word (SSW)",
+            "category": "Auditory Processing",
+            "result_summary": "100% accuracy (normal binaural separation)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Canalith repositioning (for BPPV)",
+      "Personal FM system (Phonak iSense)",
+      "Computerized auditory training (Brain Fitness Program)",
+      "Hearing protection in noisy environments"
+    ],
+    "counseling_actions": [
+      "Explained that right-sided hearing loss and tinnitus are likely due to blast exposure.",
+      "Discussed functional testing results showing specific difficulty with speech in noise.",
+      "Counseled on the benefits of an FM system to improve signal-to-noise ratio in the classroom.",
+      "Recommended auditory training to improve processing skills.",
+      "Emphasized the importance of hearing protection to prevent further damage."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss",
+      "Unilateral tinnitus"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngology",
+      "rationale_short": "Referral to rule out retrocochlear pathology given asymmetric hearing loss and unilateral tinnitus (MRI was subsequently performed and normal)."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month",
+    "objective": "Re-evaluation of functional performance with FM system and review of subjective outcomes."
+  },
+  "expected_outcome": [
+    "Performance Perceptual Test (PPT): Revealed an SNR advantage of approximately +14 dB when using the FM system.",
+    "Self-report questionnaire (Auditory Processing): Reflected self-perceived improvement in auditory memory, confidence, and processing speed.",
+    "Quality of Life Questionnaire: 6 of 26 items reflected self-perceived improvements.",
+    "Patient reported using the FM system at least 3 hours a day and found it significantly improved his daily quality of life and classroom listening.",
+    "Patient decided to retain the FM system at the end of the trial period."
+  ]
+}

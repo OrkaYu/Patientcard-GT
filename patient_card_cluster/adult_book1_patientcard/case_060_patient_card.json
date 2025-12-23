@@ -1,0 +1,169 @@
+{
+  "case_id": "case_60",
+  "title": "Effect of Domes versus Custom Earmolds",
+  "demographics": {
+    "age_years": 65,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am having increased difficulty recognizing speech in noise and understanding female talkers. It is hard to communicate on the telephone and I am struggling to hear during meetings at my law office.",
+  "problem_summary": {
+    "onset": "Long-standing hearing loss, with recent subjective and objective decline.",
+    "course": "Progressive; recent decrease in hearing sensitivity and word recognition in the right ear.",
+    "laterality": "Bilateral; asymmetric (Right worse than Left).",
+    "associated_symptoms": "None reported (no tinnitus, recruitment, otalgia, dizziness, fullness, or vertigo).",
+    "functional_impact": "Significant difficulty in work environment (attorney), specifically meetings and phone use.",
+    "goals_motivation": "Improve communication for work; initially cost-conscious regarding hearing aid coupling (domes vs. molds)."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned for annual evaluation. Reported increased difficulty since last year.",
+        "otologic_history": "No history of otologic surgery or noise exposure. MRI ordered by otologist was negative.",
+        "medical_psych_history": "Medical clearance for amplification obtained following negative MRI.",
+        "prior_management": "None (first-time hearing aid user).",
+        "patient_goals": "Improve hearing for work."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Annual Eval",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Asymmetric SNHL. Left: slight to moderately severe. Right: slight to severe. Normal at 250 Hz bilaterally. Significant threshold decline in Right ear compared to previous year.",
+          "numeric_results": {
+            "frequency_range": "500 to 8000 Hz",
+            "right_ear_decline_1000Hz": "15 dB",
+            "right_ear_decline_2000Hz": "10 dB",
+            "asymmetry_1000Hz": "25 dB difference",
+            "asymmetry_8000Hz": "20 dB difference"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Annual Eval",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Significant decrease in Word Recognition Score (WRS) in the right ear compared to prior year. Left ear WRS stable.",
+          "numeric_results": {
+            "WRS_right_current": "76%",
+            "WRS_right_previous": "92%",
+            "significance": "p < 0.05"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Annual Eval",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Within normal limits.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Annual Eval",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Thresholds and decay (500 and 1000 Hz) within normal limits. Consistent with cochlear involvement.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Hearing Aid Fitting (HAF). Patient initially elected to try open domes to reduce cost, despite recommendation for custom earmolds.",
+        "otologic_history": "MRI negative.",
+        "prior_management": "Fitted with Widex Clear 440-F RIC hearing aids.",
+        "patient_goals": "Trial with domes."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Initial Fit (Domes)",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 60.1",
+            "Figure 60.2a"
+          ],
+          "key_findings": "Real Ear Insertion Gain (REIG) significantly below NAL-NL1 targets in high frequencies due to feedback limitations with open domes. Feedback test showed limited available gain.",
+          "numeric_results": {
+            "REIG_deficit_3000_4000Hz": "10 to 15 dB below target",
+            "target_rule": "NAL-NL1",
+            "input_level": "65 dB SPL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up after 2 weeks. Patient agreed to switch to custom earmolds due to inability to hit targets with domes.",
+        "prior_management": "Impressions taken, custom silicone earmolds manufactured.",
+        "patient_goals": "Improve high-frequency audibility and comfort."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up (Custom Molds)",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 60.2b",
+            "Figure 60.3"
+          ],
+          "key_findings": "Feedback test revealed significantly greater available gain. REIG matched NAL-NL1 targets in the 3000-4000 Hz range. Patient reported molds were more comfortable than domes.",
+          "numeric_results": {
+            "REIG_match": "Matched target at 3000-4000 Hz"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric sensorineural hearing loss, with a recent significant decline in thresholds and word recognition in the right ear. Initial fitting with open domes resulted in insufficient gain (10–15 dB below target) in the 3000–4000 Hz range due to feedback. Switching to custom earmolds allowed for successful matching of NAL-NL1 targets and improved physical comfort.",
+  "counseling_points": [
+    "Because of your hearing loss configuration, 'open domes' leak too much sound, causing feedback (whistling) before we can give you the volume you need.",
+    "To hear speech clearly in noise, we need to boost the high pitches (3000–4000 Hz). Only custom earmolds can seal the ear well enough to reach those targets.",
+    "Although custom molds cost more initially, they provide better retention, comfort, and the necessary gain for your specific hearing loss.",
+    "The drop in your word recognition score on the right side was significant, which is why the medical referral was so important."
+  ],
+  "notes_for_actor": [
+    "You are a professional (attorney) who is articulate but struggling in meetings.",
+    "Initially, you are skeptical about 'custom molds' because of the extra cost and perhaps vanity/size, preferring the cheaper 'domes'.",
+    "However, after trying the domes for 2 weeks, you found them uncomfortable and not helpful enough.",
+    "In the final visit, express relief that the custom molds actually feel better and sound better."
+  ]
+}

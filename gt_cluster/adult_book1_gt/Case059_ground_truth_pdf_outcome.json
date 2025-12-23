@@ -1,0 +1,144 @@
+{
+  "case_id": "Case059",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Symmetrical moderate to severe thresholds, normal tympanometry, and acoustic reflexes consistent with cochlear site of lesion."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology."
+      },
+      {
+        "action": "Speech Intelligibility Index (SII) calculation",
+        "urgency": "routine",
+        "rationale_short": "To quantify unaided speech audibility."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDLs)",
+        "urgency": "routine",
+        "rationale_short": "To establish upper limits for hearing aid output (RESR90)."
+      },
+      {
+        "action": "Client-Oriented Scale of Improvement (COSI)",
+        "urgency": "routine",
+        "rationale_short": "To identify specific listening goals and assess outcomes."
+      },
+      {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid gain and output against prescribed targets."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results revealed a bilateral symmetrical moderate to severe sensorineural hearing loss with a gradually sloping configuration. Speech recognition thresholds agreed with pure-tone averages, and word recognition scores were good (84%) bilaterally. Tympanometry was normal, and acoustic reflexes were consistent with cochlear involvement, ruling out middle ear or retrocochlear pathology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical moderate to severe SNHL (250-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs 60 dB HL bilaterally; WRS 84% bilaterally (NU-6)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal bilateral tympanograms (Type A)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Thresholds and decay indicative of cochlear involvement."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Pre-fitting assessment demonstrated extremely poor unaided audibility (SII 0.02). Fitting verification via Real Ear Measures (REM) showed that the manufacturer's First-Fit significantly underamplified high frequencies. The NAL-NL1 targets were manually corrected for bilateral summation and channel summation (20 channels) to prevent loudness discomfort while ensuring audibility; the final fit matched these corrected targets.",
+        "tests": [
+          {
+            "name": "Other",
+            "category": "Calculation",
+            "result_summary": "Speech Intelligibility Index (SII) calculated as 0.02 (2% audibility)."
+          },
+          {
+            "name": "Other",
+            "category": "Assessment",
+            "result_summary": "Loudness Discomfort Levels (LDLs) measured 500-4000 Hz; patient reported 'loud, but OK'."
+          },
+          {
+            "name": "Other",
+            "category": "Questionnaire",
+            "result_summary": "COSI administered to establish goals (female/child voices, TV, noise, telephone)."
+          },
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Verification",
+            "result_summary": "Manufacturer First-Fit underamplified highs; final fit matched NAL-NL1 targets corrected for bilateral and channel summation (5-11 dB reduction)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral hearing aids with 20 channels of signal processing",
+      "Custom earmolds with select-a-vent (SAV)",
+      "Verification using Real Ear Measures (REM) with targets corrected for bilateral summation and channel summation"
+    ],
+    "counseling_actions": [
+      "Explanation of SII and impact of hearing loss on communication (missing 98% of speech cues)",
+      "Anatomy and physiology of the ear and hearing loss",
+      "Advantages of bilateral amplification (localization, speech in noise)",
+      "Realistic expectations using a bar graph (aided vs. unaided in quiet vs. noise)",
+      "Discussion of hearing aid styles, technology levels, and costs",
+      "Use of telecoil for telephone and assistive technology",
+      "Maintenance and clinic policies"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Referral for medical clearance prior to hearing aid fitting, as per clinic protocol."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Monitor hearing aid performance and patient satisfaction."
+  },
+  "expected_outcome": [
+    "Patient reported being very pleased with the performance of the hearing aids and custom earmolds.",
+    "Patient reported no problems with loudness.",
+    "Aided COSI scores: 'much better' performance for recognizing female and child talkers.",
+    "Aided COSI scores: 'much better' performance for recognizing female news reporters on television.",
+    "Aided COSI scores: 'much better' performance for speech in noisy listening situations.",
+    "Aided COSI scores: 'slightly better' performance for communication on the telephone."
+  ]
+}

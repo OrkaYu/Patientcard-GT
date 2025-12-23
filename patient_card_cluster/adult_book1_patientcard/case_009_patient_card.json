@@ -1,0 +1,159 @@
+{
+  "case_id": "case_9",
+  "title": "An Unexpected Case of Otosclerosis",
+  "demographics": {
+    "age_years": 37,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I've noticed my hearing going down gradually over the last year, especially after I had a bad virus and ear infections. I can hear people talking, but I can't always understand what they are saying, and my wife keeps telling me the TV is too loud.",
+  "problem_summary": {
+    "onset": "Gradual onset over the past year.",
+    "course": "Fluctuating (reports hearing better on some days); progressive.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Constant bilateral tinnitus (3 years), occasional feeling of being 'off-balance'.",
+    "functional_impact": "Difficulty understanding speech, need for increased TV volume.",
+    "goals_motivation": "Seeking explanation for hearing loss; initially attributed it to a virus."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-12-04",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports decreased hearing bilaterally over the past year, attributed to a virus and otitis media. Prior test showed 20 dB HL drop. Reports hearing vs. understanding difficulties.",
+        "otologic_history": "Recent bilateral ear infections reported by patient. Occasional imbalance.",
+        "noise_exposure_history": "Forklift operator in automobile factory and airport for >10 years with limited hearing protection.",
+        "medical_psych_history": "Unremarkable aside from reported virus.",
+        "prior_management": "None specified other than a prior hearing check.",
+        "patient_goals": "Diagnosis and management."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 9.1"
+          ],
+          "key_findings": "Bilateral symmetric moderate rising to mild mixed hearing loss (250-3000 Hz), sloping to moderate conductive loss at 4000 Hz, and rising to mild loss at 6-8 kHz. Notable Carhart notch (bone conduction depression) at 2000 Hz.",
+          "numeric_results": {
+            "Right AC Thresholds (250, 500, 1k, 2k, 4k Hz)": "50, 50, 45, 35, 60 dB HL",
+            "Left AC Thresholds (250, 500, 1k, 2k, 4k Hz)": "50, 50, 45, 35, 60 dB HL",
+            "Bone Conduction": "Carhart notch present at 2000 Hz (approx 35 dB HL)",
+            "Air-Bone Gap": "Significant gaps present in low frequencies and at 4000 Hz."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 9.1"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) align with pure tone averages. Word Recognition Scores (WRS) are excellent bilaterally at suprathreshold levels.",
+          "numeric_results": {
+            "SRT Right": "45 dB HL",
+            "SRT Left": "45 dB HL",
+            "WRS Right": "100% at 80 dB HL",
+            "WRS Left": "100% at 80 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 9.1"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "Right Static Admittance": "0.7 mL",
+            "Left Static Admittance": "0.5 mL",
+            "Right Peak Pressure": "-5 daPa",
+            "Left Peak Pressure": "10 daPa",
+            "Ear Canal Volume": "Right 1.8 mL, Left 1.5 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 9.1"
+          ],
+          "key_findings": "Absent acoustic reflexes at 500-4000 Hz for both ipsilateral and contralateral stimulation.",
+          "numeric_results": {
+            "Reflexes": "Absent (ABS) at all frequencies tested."
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Otology Consult",
+      "history": {
+        "present_illness": "Referral following audiological evaluation suggesting otosclerosis.",
+        "otologic_history": "Review of systems and imaging.",
+        "noise_exposure_history": "Same as V1.",
+        "medical_psych_history": "Same as V1.",
+        "prior_management": "Audiogram completed.",
+        "patient_goals": "Determine candidacy for surgery."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Consult",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Microscopic otoscopy revealed bilateral Schwartze signs (reddish hue on promontory). CT scan showed no temporal bone abnormalities but questionable oval window otosclerosis.",
+          "numeric_results": {
+            "Diagnosis": "Bilateral Otosclerosis"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, symmetric mixed hearing loss. While tympanometry is normal (Type A), acoustic reflexes are absent, and a distinct Carhart notch is visible at 2000 Hz in bone conduction thresholds. Speech understanding remains excellent when volume is sufficient. These findings, combined with the specific configuration of the air-bone gaps, are classic audiological indicators of otosclerosis.",
+  "counseling_points": [
+    "Your hearing test shows a 'mixed' hearing loss, meaning there is a problem with how sound travels through the middle ear bones, in addition to some inner ear wear.",
+    "The specific pattern we see (a dip in the bone conduction hearing at 2000 Hz and absent reflexes) strongly suggests a condition called otosclerosis, where the stirrup bone gets stuck.",
+    "Even though you have a history of noise exposure, the primary cause of your current difficulty appears to be this middle ear condition.",
+    "We are referring you to an otologist (ear specialist) to discuss medical options, which may include surgery to fix the middle ear bone or hearing aids.",
+    "Given your noise exposure history, you should continue to wear hearing protection at work to prevent further damage to the inner ear."
+  ],
+  "notes_for_actor": [
+    "You are a 37-year-old African American male.",
+    "You believe your hearing loss was caused by a 'virus' or ear infections you had recently.",
+    "You are frustrated because you can hear people talking, but the words aren't clear ('I hear but don't understand').",
+    "You have had ringing in your ears (tinnitus) for 3 years.",
+    "You feel a bit off-balance sometimes.",
+    "You are open to surgery if it will fix the problem, as you perceive the left ear to be worse."
+  ]
+}

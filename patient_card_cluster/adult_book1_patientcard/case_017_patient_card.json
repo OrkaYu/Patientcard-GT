@@ -1,0 +1,134 @@
+{
+  "case_id": "case_17",
+  "title": "Cochlear Dead Regions (CDR)",
+  "demographics": {
+    "age_years": 74,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "UK"
+  },
+  "chief_complaint": "I don't receive the benefit I hoped for from my hearing aids; there is a lack of clarity in noise and sounds are tinny and harsh at high levels.",
+  "problem_summary": {
+    "onset": "Long-standing",
+    "course": "Stable but unsatisfactory aid performance",
+    "laterality": "Bilateral asymmetrical (Right poorer than Left)",
+    "associated_symptoms": "Distortion ('tinny and harsh'), difficulty in noise",
+    "functional_impact": "Perceives less benefit than the people she helps in her volunteer work.",
+    "goals_motivation": "Highly motivated to achieve better performance; has scheduled 9 appointments in the last 2 years for reprogramming."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-07-12",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient has worn bilateral digital hearing aids for 5 years. Reports lack of clarity in noise and harsh/tinny sound quality at high input levels. She feels her aids are not programmed correctly.",
+        "otologic_history": "Long-standing bilateral asymmetrical sensorineural hearing loss.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Consistent hearing aid use. Frequent reprogramming appointments (9 in 2 years).",
+        "patient_goals": "Improve clarity and reduce harshness; match the benefit she sees others receiving."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 17.1"
+          ],
+          "key_findings": "Bilateral asymmetric SNHL. Right ear is poorer than left at 1000-2000 Hz. Right ear shows moderate loss sloping to profound. Left ear shows moderate-to-severe loss sloping to profound.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 45, 500Hz: 50, 1000Hz: 70, 2000Hz: 90, 4000Hz: 100, 8000Hz: NR (110+)",
+            "Left_AC_Thresholds": "250Hz: 55, 500Hz: 45, 1000Hz: 55, 2000Hz: 65, 4000Hz: 90, 8000Hz: NR (110+)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 17.1"
+          ],
+          "key_findings": "Very poor ability to recognize speech bilaterally, with right ear significantly poorer than left.",
+          "numeric_results": {
+            "SRT_Right": "70 dB HL",
+            "SRT_Left": "50 dB HL",
+            "WRS_Right": "33% at 80 dB HL, 60% at 110 dB HL",
+            "WRS_Left": "80% at 80 dB HL, 80% at 110 dB HL"
+          }
+        },
+        {
+          "name": "Threshold Equalizing Noise (TEN) test",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Positive for Cochlear Dead Regions (CDRs). 'Off-frequency listening' detected.",
+          "numeric_results": {
+            "Right_Ear_CDRs": "Present at 1000 Hz and 3000 Hz",
+            "Left_Ear_CDRs": "Present at 3000 Hz"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 17.1"
+          ],
+          "key_findings": "Elevated or absent reflexes consistent with SNHL.",
+          "numeric_results": {
+            "Right_Stim_Left_Probe": "100, 105, 110, 110 dB",
+            "Left_Stim_Right_Probe": "105, 105, 105, ABS"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Post-adjustment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Aided speech tests performed to assess word recognition ability after diagnosis.",
+          "numeric_results": {
+            "Sentence_Recognition": "73% at 65 dBA (monitored live voice, no visual cues)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral asymmetric sensorineural hearing loss, sloping from moderate to profound in the high frequencies. Speech recognition is disproportionately poor in the right ear (max 60%). The TEN test confirmed the presence of Cochlear Dead Regions (CDRs) at 1000 and 3000 Hz in the right ear and 3000 Hz in the left ear, explaining the distortion and lack of benefit from high-frequency amplification.",
+  "counseling_points": [
+    "Explain 'Cochlear Dead Regions': Areas of the inner ear where hair cells are non-functioning.",
+    "Clarify that amplifying sound in these 'dead' regions causes distortion ('tinny/harsh' sounds) rather than clarity.",
+    "Recommend reducing amplification in the high frequencies (above 1700 Hz in the right ear) to improve comfort and reduce noise.",
+    "Discuss the importance of communication strategies, optimal positioning, and speechreading to supplement hearing.",
+    "Suggest assistive devices like remote wireless microphones for meetings."
+  ],
+  "notes_for_actor": [
+    "You are knowledgeable about hearing aids because you volunteer with the elderly, which makes your own lack of benefit more frustrating.",
+    "You have been persistent, returning 9 times in 2 years, convinced the aids just need 'reprogramming'.",
+    "You describe sounds as 'tinny' and 'harsh' when they are loud.",
+    "You are initially skeptical that *less* volume (reducing high frequencies) will help, as you feel you already can't hear enough."
+  ]
+}

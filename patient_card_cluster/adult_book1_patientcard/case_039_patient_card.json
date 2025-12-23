@@ -1,0 +1,220 @@
+{
+  "case_id": "case_39",
+  "title": "Labyrinthine Fistula (Superior Semicircular Canal Dehiscence)",
+  "demographics": {
+    "age_years": 43,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have severe autophony, hyperacusis, and pulsatile tinnitus in my left ear. Loud sounds and straining make me dizzy, and I can actually hear my eyes move in my head.",
+  "problem_summary": {
+    "onset": "Vertigo began several years ago; symptoms worsened over the last 12 to 18 months.",
+    "course": "Progressive worsening of autophony and hypersensitivity; vertigo is episodic.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Tullio phenomenon (dizziness with loud sounds), Hennebert sign (dizziness with pressure/straining), oscillopsia (visual field movement with head movement), autophony.",
+    "functional_impact": "Vertigo triggered by lifting heavy items, bowel movements, or her own voice.",
+    "goals_motivation": "Seeking explanation for dizziness and auditory symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports episodic 'true' spinning vertigo, hyperacusis, and pulsatile tinnitus in the left ear. Symptoms triggered by loud sounds and straining.",
+        "otologic_history": "Reports hearing her eyes move.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Referred by primary care physician.",
+        "patient_goals": "Diagnosis and management."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 39.1"
+          ],
+          "key_findings": "Right ear normal. Left ear mild conductive loss at 250-500 Hz, rising to normal at 1000-8000 Hz. Significant air-bone gaps in low frequencies.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "LE_AC_Thresholds": "35 dB HL at 250 Hz, 30 dB HL at 500 Hz, 15 dB HL at 1000 Hz",
+            "LE_BC_Thresholds": "0 dB HL at 250 Hz, 5 dB HL at 500 Hz",
+            "LE_Air_Bone_Gap": "~35 dB at 250 Hz, ~25 dB at 500 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 39.1"
+          ],
+          "key_findings": "Normal speech reception thresholds and excellent word recognition bilaterally.",
+          "numeric_results": {
+            "SRT_RE": "8 dB HL",
+            "SRT_LE": "10 dB HL",
+            "WRS_RE": "100% at 50 dB HL",
+            "WRS_LE": "100% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 39.1"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally. Patient reported becoming 'slightly dizzy' during left ear testing.",
+          "numeric_results": {
+            "RE_Pressure": "10 daPa",
+            "LE_Pressure": "-5 daPa",
+            "RE_Compliance": "1.2 mL",
+            "LE_Compliance": "1.1 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 39.1"
+          ],
+          "key_findings": "Reflexes present at normal levels bilaterally (paradoxical finding given the left conductive component). Patient reported dizziness and tilted left during stimulation of the left ear.",
+          "numeric_results": {
+            "Ipsilateral_Thresholds": "85-90 dB HL (500-2000 Hz)",
+            "Contralateral_Thresholds": "85-95 dB HL (500-2000 Hz)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Neurotology Clinic",
+      "history": {
+        "present_illness": "Follow-up for vertigo triggers."
+      },
+      "tests": [
+        {
+          "name": "Office Examination (Valsalva)",
+          "timepoint_label": null,
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Nose-pinch Valsalva evoked downbeating torsional nystagmus (fast-phase clockwise). Suggests superior semicircular canal involvement.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology (Vestibular)",
+      "history": {
+        "present_illness": "Returned for VNG and cVEMP following neurotology consult."
+      },
+      "tests": [
+        {
+          "name": "Videonystagmography (VNG)",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 39.2"
+          ],
+          "key_findings": "Normal oculomotor, positional, and caloric results. No significant unilateral weakness or directional preponderance.",
+          "numeric_results": {
+            "Unilateral_Weakness": "7% (Left Ear Weakness - Non-significant)",
+            "Directional_Preponderance": "1% (Right Beating - Non-significant)",
+            "Total_Eye_Speed": "129 deg/sec"
+          }
+        },
+        {
+          "name": "cVEMP",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 39.3"
+          ],
+          "key_findings": "Responses present bilaterally. Left amplitude larger than right, but asymmetry ratio calculated as normal. Presence of cVEMP despite conductive hearing loss is the critical diagnostic indicator.",
+          "numeric_results": {
+            "Asymmetry_Ratio": "23%",
+            "Stimulus": "500 Hz tone-burst"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": null,
+      "setting": "Imaging",
+      "history": {
+        "present_illness": "Referral for CT based on audiological and neurotological findings."
+      },
+      "tests": [
+        {
+          "name": "CT Scan",
+          "timepoint_label": null,
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 39.4"
+          ],
+          "key_findings": "Revealed dehiscence (absence of bone) overlying the left superior semicircular canal.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a low-frequency conductive hearing loss in the left ear, yet paradoxically retains normal acoustic reflexes and tympanometry. Vestibular testing reveals pressure- and sound-induced vertigo (Hennebert and Tullio signs) and preserved cVEMP responses despite the conductive component. This constellation of findings—specifically the 'third window' effect—is diagnostic of Superior Semicircular Canal Dehiscence (SSCD), confirmed by CT imaging.",
+  "counseling_points": [
+    "Your hearing test shows a 'conductive' loss, but unlike common ear infections or bone problems, your middle ear is working normally (as shown by the reflexes).",
+    "The problem is a small thinning or hole in the bone covering the top balance canal (Superior Canal Dehiscence). This acts like a 'third window' in the inner ear.",
+    "This 'third window' allows sound energy to leak into the balance system, which is why loud noises make you dizzy and why you hear internal sounds (like your eyes moving) so loudly.",
+    "Treatment options range from avoiding triggers (loud sounds, straining) to surgical repair (plugging the canal) depending on how much the symptoms bother you."
+  ],
+  "notes_for_actor": [
+    "Portray high anxiety regarding internal body sounds; emphasize that you can 'hear your eyes move' (scratching sound) and your own voice sounds booming (autophony).",
+    "If the audiologist plays loud sounds or puts pressure in your ear, react with visible dizziness or a slight tilt to the left.",
+    "Mention that straining (like lifting heavy boxes) makes the room spin."
+  ]
+}

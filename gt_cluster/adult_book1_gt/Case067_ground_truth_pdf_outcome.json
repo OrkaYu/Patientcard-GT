@@ -1,0 +1,116 @@
+{
+  "case_id": "Case067",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Chronic subjective tinnitus",
+      "rationale_short": "Patient reports disabling whistling in the center of the head for over 10 years, causing severe distress and high THI score (72%)."
+    },
+    {
+      "rank": 2,
+      "label": "High-frequency sensorineural hearing loss",
+      "rationale_short": "Audiometry shows bilateral symmetrical mild to severe loss at 3000-8000 Hz, consistent with history of military noise exposure and age."
+    },
+    {
+      "rank": 3,
+      "label": "Depression and anxiety",
+      "rationale_short": "Patient admits to being depressed and agitated due to tinnitus; prescribed Zopiclone for sleep disturbance."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given the history of noise exposure and tinnitus."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and rule out conductive pathology."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities, though not completed in this case due to lack of subjective hearing difficulty."
+      },
+      {
+        "action": "Tinnitus Handicap Inventory (THI)",
+        "urgency": "routine",
+        "rationale_short": "To quantify the severity of tinnitus and its impact on quality of life."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Assessment reveals a 72-year-old male with disabling central tinnitus and associated distress/depression. Audiometry shows bilateral symmetrical high-frequency sensorineural hearing loss (3-8 kHz) with normal low-frequency hearing. Tympanometry is normal. THI score of 72% indicates severe handicap.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical mild to severe high-frequency sensorineural hearing loss at 3000-8000 Hz; hearing within normal limits 250-2000 Hz."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A bilaterally (normal middle ear pressure, compliance, and ear canal volume)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Not completed because the patient reported no difficulty hearing."
+          },
+          {
+            "name": "Tinnitus Handicap Inventory (THI)",
+            "category": "Questionnaire",
+            "result_summary": "Total score 72%, indicating severe handicap."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Patient reported some relief with bedside sound generator but tinnitus remains disabling. Fitted with bilateral digital BTE hearing aids (slim-tubes, open domes) configured with two programs: one for tinnitus relief (omni, no NR, low compression kneepoint) and one for speech clarity.",
+        "tests": [
+          {
+            "name": "Hearing Aid Fitting",
+            "category": "Management",
+            "result_summary": "Fitted with bilateral digital BTEs. Program 1 (Tinnitus): max audibility of soft sounds, NR off, omnidirectional. Program 2 (Speech): NAL-NL1, NR on, adaptive directionality."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral digital BTE hearing aids with slim-tubes and open domes",
+      "Hearing aid program 1: Tinnitus relief (maximize audibility of soft sounds, compression kneepoint ~40 dB SPL, Noise Reduction OFF, Omnidirectional mic)",
+      "Hearing aid program 2: Speech recognition (NAL-NL1 targets, Noise Reduction ON, Adaptive Directionality ON)",
+      "Bedside digital environmental sound generator or radio for sleep enrichment",
+      "Involvement of General Practitioner to monitor general and psychological well-being and medication (Zopiclone)"
+    ],
+    "counseling_actions": [
+      "Explain tinnitus mechanisms and the role of high-frequency hearing loss in 'starkness' of tinnitus",
+      "Counsel on sound enrichment to reduce contrast between tinnitus and background environment",
+      "Instruct on use of specific hearing aid programs (quiet vs. noisy situations)",
+      "Validate patient's condition and distress to build therapeutic alliance"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "General Practitioner",
+      "rationale_short": "To monitor the patient's general and psychological well-being given the severity of his depression and agitation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Return for follow-up visit",
+    "objective": "Monitor benefit from hearing aids, tinnitus severity, and psychological status."
+  },
+  "expected_outcome": [
+    "Patient reported hearing aids were very helpful, stating they 'absorb the tinnitus' and provide 95% inhibition.",
+    "Datalogging confirmed hearing aid use for the entire day, almost exclusively on the first listening program (tinnitus relief).",
+    "Tinnitus Handicap Inventory (THI) score decreased to 24%, indicating significant improvement in quality of life.",
+    "Sleep managed successfully using sound enrichment (radio or bedside generator) and medication."
+  ]
+}

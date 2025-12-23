@@ -1,0 +1,167 @@
+{
+  "case_id": "case_13",
+  "title": "Auditory Nerve Disorder: Structure versus Function",
+  "demographics": {
+    "age_years": 34,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I noticed a sudden, mild hearing loss in my right ear two weeks ago, along with a constant ringing and numbness over my right ear.",
+  "problem_summary": {
+    "onset": "Sudden onset 2 weeks prior to evaluation; prior transient episode 3 years ago.",
+    "course": "Persistent since onset 2 weeks ago.",
+    "laterality": "Right ear symptoms.",
+    "associated_symptoms": "Constant tinnitus, numbness over the right auricle (helix). Denies dizziness, ear pain, or fullness.",
+    "functional_impact": "Mild hearing loss reported.",
+    "goals_motivation": "Seeking evaluation for persistent sudden symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reported sudden mild hearing loss in the right ear 2 weeks prior, accompanied by slight, constant tinnitus and numbness over the right auricle. Symptoms have persisted.",
+        "otologic_history": "Three years prior, he experienced right tinnitus and numbness over the right helix following mild head trauma, which gradually subsided.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Diagnosed with Neurofibromatosis type 2 (NF2) following MRI in this workup.",
+        "prior_management": "Referred for audiological evaluation due to persistent symptoms.",
+        "patient_goals": "Diagnosis and management."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.1"
+          ],
+          "key_findings": "Left ear sensitivity within normal limits (all thresholds ≤ 15 dB HL). Right ear shows mild mid- and high-frequency sensorineural hearing loss.",
+          "numeric_results": {
+            "Left_Ear_Thresholds": "≤ 15 dB HL across frequency range",
+            "Right_Ear_Configuration": "Mild mid- and high-frequency SNHL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.1"
+          ],
+          "key_findings": "Significant asymmetry in Word Recognition Scores (WRS). Left ear excellent. Right ear shows significant rollover (worsening score with increased intensity), consistent with retrocochlear disorder.",
+          "numeric_results": {
+            "Left_WRS": "96% at 80 dB HL",
+            "Right_WRS_Max": "96% at 60 dB HL",
+            "Right_WRS_High_Level": "56% at 80 dB HL",
+            "Rollover_Index": "0.42 (40% decrease)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally.",
+          "numeric_results": {
+            "Tympanogram_Type": "Type A bilateral",
+            "Static_Immittance": "Normal",
+            "Ear_Canal_Volume": "Normal"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Pattern consistent with right afferent disorder. Reflexes absent when sound is presented to the right ear (crossed and uncrossed). Reflexes present/normal when sound is presented to the left ear.",
+          "numeric_results": {
+            "Right_Stimulus_Reflexes": "Absent (Ipsi and Contra)",
+            "Left_Stimulus_Reflexes": "Normal (Ipsi and Contra)"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (OAE)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Transient-evoked OAEs showed normal and symmetric emission amplitudes and reproducibility bilaterally, despite asymmetric hearing thresholds. This suggests cochlear function is intact and pathology is retrocochlear.",
+          "numeric_results": null
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right ear grossly abnormal (only Wave I recordable). Left ear also abnormal with prolonged interwave latencies, despite normal behavioral hearing.",
+          "numeric_results": {
+            "Right_ABR": "Only Wave I present at 80 dB nHL; no peaks beyond Wave I.",
+            "Left_Wave_I-V_Interval": "4.8 msec (prolonged > 3 SD from mean)"
+          }
+        },
+        {
+          "name": "MRI",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.2"
+          ],
+          "key_findings": "Bilateral vestibular schwannomas (acoustic tumors) and other intracranial tumors, confirming Neurofibromatosis type 2 (NF2).",
+          "numeric_results": {
+            "Right_Tumor_Size": "2 cm (CPA extending into IAC)",
+            "Left_Tumor_Size": "2.5 cm (CPA)",
+            "Other_Findings": "Olfactory meningioma and glomus jugulare tumor"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with mild sensorineural hearing loss in the right ear and normal hearing sensitivity in the left ear. However, diagnostic testing reveals bilateral retrocochlear pathology consistent with Neurofibromatosis type 2 (NF2). The right ear exhibits classic retrocochlear signs including significant WRS rollover, absent acoustic reflexes with right-ear stimulation, and a grossly abnormal ABR. The left ear, despite normal thresholds and speech scores, shows abnormal ABR latencies due to a large CPA tumor.",
+  "counseling_points": [
+    "Your hearing tests and MRI confirm a diagnosis of Neurofibromatosis type 2 (NF2), involving tumors on the hearing nerves of both sides.",
+    "The hearing loss and 'rollover' (difficulty understanding speech at loud volumes) in your right ear are caused by the tumor affecting the nerve's ability to transmit sound clearly.",
+    "Although your left ear currently hears well, the ABR test and MRI show a tumor is present there as well, which requires careful monitoring.",
+    "Given the size and location of the tumors, the current recommendation is to monitor the condition rather than immediate surgery, but close follow-up is essential."
+  ],
+  "notes_for_actor": [
+    "Portray a 34-year-old male who is concerned about sudden changes in the right ear.",
+    "Emphasize the numbness on the outer ear (auricle) as a specific symptom.",
+    "You had a similar feeling 3 years ago after a bump on the head, but it went away, so you might be confused why it's back now without trauma.",
+    "You do not have dizziness or vertigo."
+  ]
+}

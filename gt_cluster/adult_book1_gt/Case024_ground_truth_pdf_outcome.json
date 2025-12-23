@@ -1,0 +1,144 @@
+{
+  "case_id": "Case024",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Measurement artifact due to insert earphones",
+      "rationale_short": "Low-frequency thresholds were artificially elevated by the use of insert earphones in an ear with a patent PE tube (low impedance), confirmed by improvement with supra-aural headphones."
+    },
+    {
+      "rank": 2,
+      "label": "Chronic Otitis Media with patent PE tube",
+      "rationale_short": "Patient has a history of chronic OM and a patent PE tube in the right ear, which is functioning correctly despite the initial misleading audiometric findings."
+    },
+    {
+      "rank": 3,
+      "label": "Ossicular chain discontinuity or fixation",
+      "rationale_short": "Initially suspected due to the apparent worsening of air-bone gaps post-surgery, but ruled out when thresholds improved with supra-aural headphones."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To inspect the ear canal and determine the status of the tympanic membrane and PE tube."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and confirm the patency of the PE tube via ear canal volume."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and support middle ear status findings."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Initial assessment of hearing thresholds using standard insert earphones."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Re-evaluation using supra-aural headphones to investigate the discrepancy in low-frequency thresholds."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Pre-operative evaluation 7 months prior to the current visit. Results showed a moderate conductive hearing loss in the right ear, establishing a baseline before PE tube insertion.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear moderate conductive hearing loss at 250-500 Hz (45 dB HL), rising to mild at 1000-6000 Hz. Obtained with insert earphones."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Post-operative check 2 months after PE tube insertion. Results indicated a 'paradoxical worsening' of hearing in the low frequencies despite a functional PE tube, which confused the clinical picture.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear thresholds worsened compared to pre-op: 65 dB HL at 250 Hz and 55 dB HL at 500 Hz (20 dB and 10 dB poorer, respectively). Obtained with insert earphones."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Current follow-up visit. Initial testing with insert earphones replicated the 'worsened' results. However, re-testing with supra-aural headphones revealed significantly better low-frequency thresholds, confirming that the previous 'loss' was an artifact caused by using insert earphones in an ear with a patent PE tube.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Right PE tube patent; Left ear normal."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear flat (Type B) with abnormally large ear canal volume (2.4 mL), consistent with patent PE tube. Left ear normal."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral and contralateral reflexes absent. Left ipsilateral reflexes present."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Using insert earphones: Right ear thresholds comparable to V2 (poor low-frequency thresholds, e.g., 65 dB HL at 250 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs in agreement with PTAs (RE 25 dB HL, LE 10 dB HL). Word recognition excellent (96%) bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Using supra-aural headphones: Significant improvement in right ear low-frequency thresholds (15 dB improvement at 250 and 500 Hz) compared to inserts."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue antibiotics for Otitis Media as prescribed by otolaryngologist",
+      "Keep right ear canal dry",
+      "Monitor PE tube status and hearing sensitivity",
+      "Use supra-aural headphones for future audiometric evaluations of the right ear"
+    ],
+    "counseling_actions": [
+      "Explain that the reported 'worsening' of hearing was a measurement artifact caused by the type of earphones used, not a medical complication",
+      "Clarify that the PE tube is patent and functioning correctly",
+      "Reassure the patient that no additional surgical intervention is needed for the apparent hearing loss"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Referring Otolaryngologist",
+      "rationale_short": "To report the corrected hearing thresholds and confirm that the previous 'worsening' was a testing artifact, preventing unnecessary medical intervention."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As recommended by otolaryngologist",
+    "objective": "Monitor resolution of OM and status of the PE tube using appropriate audiometric transducers."
+  },
+  "expected_outcome": [
+    "Right ear serous OM appears to have resolved through otological intervention.",
+    "No drainage present in the right ear canal.",
+    "Patient was not unnecessarily treated as if additional middle-ear complications were present."
+  ]
+}

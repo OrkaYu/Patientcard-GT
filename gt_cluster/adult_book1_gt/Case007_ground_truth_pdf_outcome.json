@@ -1,0 +1,132 @@
+{
+  "case_id": "Case007",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acoustic Neuroma (Vestibular Schwannoma)",
+      "rationale_short": "Confirmed by MRI showing a 1.5 cm mass; consistent with unilateral SNHL, tinnitus, and elevated acoustic reflexes."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-Induced Hearing Loss",
+      "rationale_short": "History of rifle use on right shoulder is consistent with left ear hearing loss configuration, but does not explain the retrocochlear signs or unilateral tinnitus."
+    },
+    {
+      "rank": 3,
+      "label": "Meniere's Disease",
+      "rationale_short": "Initially considered due to fluctuating loss and fullness, but ruled out by normal ECoG results."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Initial assessment of hearing sensitivity given patient complaints."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities and screen for retrocochlear pathology (rollover)."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology; elevated/absent reflexes can indicate neural involvement."
+      },
+      {
+        "action": "Electrocochleography (ECoG)",
+        "urgency": "soon",
+        "rationale_short": "To investigate potential endolymphatic hydrops (Meniere's) given reports of fullness and fluctuation."
+      },
+      {
+        "action": "MRI",
+        "urgency": "soon",
+        "rationale_short": "Definitive imaging to rule out retrocochlear pathology (acoustic neuroma) given asymmetric findings."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiological evaluation revealed asymmetric sensorineural hearing loss in the left ear with elevated acoustic reflexes at high frequencies. Speech recognition was excellent bilaterally with no rollover. ECoG was performed to rule out Meniere's disease and was normal, increasing suspicion of retrocochlear pathology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Right ear normal (0-10 dB HL). Left ear mild-to-moderate SNHL at 1500-6000 Hz, recovering to normal at 8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Normal SRTs bilaterally. WRS 100% bilaterally at 80 and 95 dB HL; no rollover observed."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ear normal. Left ear reflexes elevated or absent at 4000 Hz (105 dB HL)."
+          },
+          {
+            "name": "Electrocochleography (ECoG)",
+            "category": "Electrophysiology",
+            "result_summary": "Robust waveforms with normal latencies and SP/AP ratios, ruling out Meniere's disease."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Medical follow-up with MRI confirmed the presence of a retrocochlear lesion.",
+        "tests": [
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Confirmed a 1.5 cm Acoustic Neuroma pressing against the left middle cerebellar peduncle."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Active surveillance (serial radiographic imaging and audiograms every 6 months)",
+      "Gamma knife radiation therapy",
+      "Proton beam radiation",
+      "Microsurgical resection (translabyrinthine or posterior fossa approach)"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of Acoustic Neuroma (benign, slow-growing tumor).",
+      "Discuss the three main management options: observation, radiation, or surgery.",
+      "Review risks of surgery including facial nerve paralysis, balance difficulties, and hearing loss.",
+      "Support the patient in decision-making as they consult with the surgeon."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral sensorineural hearing loss",
+      "Unilateral tinnitus",
+      "Asymmetric acoustic reflexes (elevated in left ear)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otoneurologist",
+      "rationale_short": "Immediate referral required for medical management and MRI confirmation of suspected retrocochlear pathology."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Every 6 months (if active surveillance is chosen)",
+    "objective": "Monitor tumor growth via MRI and hearing status via audiograms."
+  },
+  "expected_outcome": [
+    "MRI confirmed presence of a 1.5 cm Acoustic Neuroma pressing against the left middle cerebellar peduncle.",
+    "Patient was presented with treatment options (active surveillance, radiation, surgery) and is currently undecided on which option to pursue."
+  ]
+}

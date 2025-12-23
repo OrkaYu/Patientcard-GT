@@ -1,0 +1,193 @@
+{
+  "case_id": "case_2",
+  "title": "Use of a Stent in a Collapsing Exterior Ear Canal",
+  "demographics": {
+    "age_years": 68,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I feel like I can hear well, but people mumble. I am having progressive difficulty hearing in noisy environments.",
+  "problem_summary": {
+    "onset": "Progressive over the last several years.",
+    "course": "Hearing has decreased further recently; diagnosed with polychondritis.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Difficulty in noise; no ear pain or infections reported.",
+    "functional_impact": "Manifests in noisy and adverse listening environments; no difficulty with one-to-one communication.",
+    "goals_motivation": "Wants to understand why hearing is difficult in noise despite feeling she hears well in quiet."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-03-16",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports progressive hearing loss, particularly in noise. She feels people mumble.",
+        "otologic_history": "No history of ear pain or infections.",
+        "medical_psych_history": "Diagnosed with relapsing polychondritis, an inflammatory disease of cartilage affecting the ear, nose, and respiratory tract.",
+        "prior_management": "None reported."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Initial Test",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 2.1"
+          ],
+          "key_findings": "Using TDH-39 supra-aural earphones. Revealed mild to moderate-severe high-frequency conductive/mixed hearing loss. Significant air-bone gaps observed.",
+          "numeric_results": {
+            "Air-Bone Gap (High Freq)": "35 dB",
+            "Air-Bone Gap (250-500 Hz)": "15 to 20 dB",
+            "Bone Conduction": "Normal/Near Normal"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Initial Test",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 2.1"
+          ],
+          "key_findings": "SRTs consistent with PTA. Word recognition scores excellent bilaterally.",
+          "numeric_results": {
+            "WRS Right": "96%",
+            "WRS Left": "92%",
+            "SRT Right": "15 dB",
+            "SRT Left": "15 dB"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Initial Test",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 2.1"
+          ],
+          "key_findings": "Normal ear canal volume, static compliance, and middle ear pressure bilaterally (Type A).",
+          "numeric_results": {
+            "Right Static Admittance": "0.5 mL",
+            "Left Static Admittance": "0.5 mL",
+            "Right Pressure": "0 daPa",
+            "Left Pressure": "0 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Initial Test",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Contralateral reflexes absent at 500-4000 Hz. Ipsilateral reflexes present bilaterally (slightly elevated at 4000 Hz).",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Initial Test",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Otoacoustic Emissions (OAEs): Responses within normal range to 2000 Hz; present but slightly reduced at 4000 Hz.",
+          "numeric_results": null
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Immediate Retest",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 2.2"
+          ],
+          "key_findings": "Retest performed using ER-3A insert earphones with foam tips. Patient kept jaw open during insertion to allow deeper placement. Air-bone gaps resolved.",
+          "numeric_results": {
+            "Thresholds": "Within 5 dB of original bone conduction thresholds",
+            "Interpretation": "Hearing normal for age"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "Several days later",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned requesting retest. Despite the explanation of the 'artifact' in the previous visit, she is still experiencing significant communication difficulties in noisy locations.",
+        "otologic_history": "Polychondritis causing cartilaginous collapse.",
+        "medical_psych_history": "Same as V1.",
+        "prior_management": "Previous testing identified collapsing canals with supra-aural headphones."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Assessed with insert earphones. Hearing found to be normal except for mild high-frequency sensorineural loss at 4000 Hz and above.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 2.4"
+          ],
+          "key_findings": "Real Ear Probe Tube Microphone Measurement (REUR). Compared collapsed state vs. propped open with Lucite stent. Collapsed state showed loss of natural quarter-wavelength resonance.",
+          "numeric_results": {
+            "Input Level": "70 dB SPL",
+            "Resonance Peak": "Restored with Lucite stent (similar to normal unoccluded canal)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Initial testing with supra-aural headphones showed a false conductive hearing loss (air-bone gaps) inconsistent with normal tympanometry and OAEs. Retesting with insert earphones resolved the gaps, revealing essentially normal hearing sensitivity. However, real-ear measurements confirmed that the patient's polychondritis causes the ear canals to collapse dynamically or structurally, dampening the natural high-frequency resonance of the ear canal and causing difficulty in noise.",
+  "counseling_points": [
+    "Your initial hearing test showed a 'false' hearing loss because the headphones pushed your ear canals closed.",
+    "However, your difficulty hearing in noise is real. The cartilage disease (polychondritis) makes your ear canals soft, so they don't hold their shape well.",
+    "This softness causes you to lose the natural amplification of high-pitch sounds that the ear canal usually provides.",
+    "We recommend custom-made hollow 'stents' (Lucite earpieces) to physically prop your ear canals open.",
+    "These stents will restore the natural sound pathway and should help you hear better in noisy places.",
+    "We are also referring you to an otolaryngologist for management of the polychondritis."
+  ],
+  "notes_for_actor": [
+    "Portray a 68-year-old woman who is pleasant but confused/frustrated.",
+    "You feel like you hear fine in quiet, one-on-one situations, but noisy places are very difficult.",
+    "When the audiologist tells you your hearing is 'normal' after the first retest, be skeptical because you know you are struggling in the real world.",
+    "Mention that you have 'polychondritis' and that your ears sometimes feel different or soft."
+  ]
+}

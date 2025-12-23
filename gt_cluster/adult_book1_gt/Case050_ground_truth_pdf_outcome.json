@@ -1,0 +1,134 @@
+{
+  "case_id": "Case050",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral mixed hearing loss (Otosclerosis)",
+      "rationale_short": "History of otosclerosis and unsuccessful stapedectomy; audiometry shows mixed loss with significant air-bone gaps; absent acoustic reflexes."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities at suprathreshold levels."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess reflex pathways and confirm conductive component."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To evaluate functional performance in noise with amplification."
+      },
+      {
+        "action": "Self-report scales",
+        "urgency": "routine",
+        "rationale_short": "To quantify subjective benefit and satisfaction with hearing aids."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Baseline evaluation confirms bilateral moderately severe to severe mixed hearing loss with air-bone gaps and absent reflexes, consistent with otosclerosis history. While objective aided performance with current BTEs is good, the patient reports significant dissatisfaction with cosmetics and feedback.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral moderately severe to severe mixed hearing loss with significant air-bone gaps (500-4000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word Recognition Scores (WRS) of 100% bilaterally at 100 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type B tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes at 500 to 4000 Hz bilaterally."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "Aided (Bilateral BTEs): SRT Quiet 50.3 dB HL, SRT Noise 2.0 dB SNR; SRS Quiet 98.0%, SRS Noise 82.6%."
+          },
+          {
+            "name": "Other",
+            "category": "Questionnaire",
+            "result_summary": "APHAB Global Score 37; SADL Satisfaction 3.75."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "One-year post-activation of the Right FIHD. Objective testing indicates the FIHD (Right) combined with a BTE (Left) provides speech recognition equivalent to bilateral BTEs. Aided thresholds are improved but limited by the device noise floor. Subjective satisfaction is significantly improved.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Unaided thresholds unchanged. Aided soundfield thresholds (Right FIHD + Left M75) improved but limited to ~30 dB HL floor due to microphone noise."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "Aided (Right FIHD + Left BTE): SRT Quiet 51.8 dB HL, SRT Noise 1.7 dB SNR; SRS Quiet 98.0%, SRS Noise 84.5%."
+          },
+          {
+            "name": "Other",
+            "category": "Questionnaire",
+            "result_summary": "APHAB Global Rating 80 (>95th percentile); SADL Global Score 5.25 (>80th percentile)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical implantation of Otologics Carina Fully Implantable Hearing Device (FIHD) in the right ear",
+      "Continued use of conventional BTE hearing aid in the left ear"
+    ],
+    "counseling_actions": [
+      "Discuss risks of FIHD surgery including device failure, extrusion, and general anesthesia",
+      "Explain MRI safety protocols required for the implant",
+      "Counsel on the expected 'floor' of hearing around 30 dB HL due to microphone noise",
+      "Advise that objective performance may be similar to conventional aids, but cosmetics and comfort may improve",
+      "Discuss sleeping positions to avoid pressure on the implant"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngology",
+      "rationale_short": "Referral for surgical implantation of FIHD as per patient preference and candidacy."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 year post-activation",
+    "objective": "Assess objective performance and subjective benefit of the FIHD."
+  },
+  "expected_outcome": [
+    "Patient reports satisfaction with the FIHD on the right ear and uses it for approximately 10 hours per day.",
+    "Patient continues to use the M75 aid on the left ear for better localization and speech recognition in noise.",
+    "Stable unaided and aided performance observed over more than 4 years of use.",
+    "Long-term satisfaction with the FIHD is maintained."
+  ]
+}

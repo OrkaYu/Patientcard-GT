@@ -1,0 +1,130 @@
+{
+  "case_id": "Case035",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Unilateral utricular dysfunction",
+      "rationale_short": "Specific deficit on DSVV testing (lack of tilt change with right utricular stimulation) consistent with symptoms during high-velocity leftward turns."
+    },
+    {
+      "rank": 2,
+      "label": "Migraine or small vessel disease",
+      "rationale_short": "MRI showed nonspecific T2 signal alterations, though symptoms are highly specific to driving maneuvers."
+    },
+    {
+      "rank": 3,
+      "label": "Arnold-Chiari malformation",
+      "rationale_short": "Low-lying cerebellar tonsils noted on MRI but malformation was excluded upon review."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess baseline hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech recognition abilities."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "Assess neural integrity and rule out retrocochlear pathology."
+      },
+      {
+        "action": "Videonystagmography (VNG)",
+        "urgency": "routine",
+        "rationale_short": "Evaluate horizontal semicircular canal and central vestibular function."
+      },
+      {
+        "action": "cVEMP",
+        "urgency": "routine",
+        "rationale_short": "Assess saccular and inferior vestibular nerve function."
+      },
+      {
+        "action": "Rotational Chair (Standard)",
+        "urgency": "routine",
+        "rationale_short": "Evaluate VOR gain and phase at various frequencies."
+      },
+      {
+        "action": "Dynamic Subjective Visual Vertical (DSVV) / Centrifugation",
+        "urgency": "routine",
+        "rationale_short": "Specifically assess utricular function via eccentric rotation."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry and standard vestibular testing (VNG, cVEMP, standard Rotational Chair) were largely normal, ruling out cochlear, saccular, or horizontal canal deficits. However, specialized DSVV testing revealed a specific right utricular dysfunction, evidenced by a lack of subjective visual vertical tilt when the right utricle was isolated during eccentric rotation.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity at 250 to 8000 Hz bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word recognition scores were 100% bilaterally; SRTs agreed with PTA."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Normal absolute latencies and interpeak intervals bilaterally."
+          },
+          {
+            "name": "Videonystagmography (VNG)",
+            "category": "Vestibular",
+            "result_summary": "No spontaneous/gaze nystagmus; normal oculomotor tests; caloric irrigations within normal limits (22% right relative reduction considered normal)."
+          },
+          {
+            "name": "cVEMP",
+            "category": "Vestibular",
+            "result_summary": "Waveforms present bilaterally with thresholds at 90 dB nHL, implying normal saccular function."
+          },
+          {
+            "name": "Rotational Chair (Standard)",
+            "category": "Vestibular",
+            "result_summary": "Slightly decreased VOR gain with normal symmetry and phase; step velocity time constants normal."
+          },
+          {
+            "name": "Dynamic Subjective Visual Vertical (DSVV) / Centrifugation",
+            "category": "Vestibular",
+            "result_summary": "Centric rotation showed 3° right tilt. Eccentric rotation stimulating right utricle showed 0° change (abnormal). Eccentric rotation stimulating left utricle showed 8° tilt (normal)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Habituation driving exercises in a safe environment.",
+      "Limit highway speed to a stable threshold.",
+      "Repeated stimulating maneuvers with a driving instructor."
+    ],
+    "counseling_actions": [
+      "Explain that the right utricle is not sending correct signals during high-speed left turns, causing the brain to misinterpret 'up'.",
+      "Reassure that hearing and the majority of the balance system (canals, saccule) are functioning normally.",
+      "Discuss how habituation exercises can retrain the brain to handle the conflicting signals."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Vestibular rehabilitation / Driving instructor",
+      "rationale_short": "Referral for habituation exercises to address specific utricular dysfunction affecting driving."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor progress with habituation exercises and return to comfortable driving."
+  },
+  "expected_outcome": [
+    "Patient participated in habituation driving exercises in a safe environment and limited her highway speed to a stable threshold.",
+    "Patient reported significant improvement through repeated stimulating maneuvers with a driving instructor."
+  ]
+}

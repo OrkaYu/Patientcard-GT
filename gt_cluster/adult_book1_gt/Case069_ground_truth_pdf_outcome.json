@@ -1,0 +1,125 @@
+{
+  "case_id": "Case069",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Somatic Tinnitus",
+      "rationale_short": "Tinnitus pitch and loudness modulate with jaw/neck maneuvers and masseter palpation; otalgia is reproduced by trigger point palpation; MRI ruled out retrocochlear pathology."
+    },
+    {
+      "rank": 2,
+      "label": "Myofascial Pain Syndrome",
+      "rationale_short": "Presence of masseter muscle trigger points (MTPs), referred otalgia, and tenderness in cervical/jaw muscles."
+    },
+    {
+      "rank": 3,
+      "label": "Sensorineural Hearing Loss",
+      "rationale_short": "Mild high-frequency sensorineural hearing loss bilaterally, though not the primary source of the complaint."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and rule out asymmetric hearing loss given unilateral tinnitus."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear function."
+      },
+      {
+        "action": "Self-report scales",
+        "urgency": "routine",
+        "rationale_short": "To quantify tinnitus handicap (THI), depression (PHQ-9), anxiety (GAD-7), and pain severity."
+      },
+      {
+        "action": "Somatic/Physical Assessment",
+        "urgency": "routine",
+        "rationale_short": "To evaluate modulation of tinnitus with jaw/neck maneuvers and identify trigger points."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiological evaluation revealed mild high-frequency sensorineural hearing loss bilaterally with normal speech recognition. The key finding was somatic tinnitus, evidenced by modulation of tinnitus characteristics during jaw and neck maneuvers and reproduction of otalgia upon palpation of masseter trigger points. Self-report scales indicated severe tinnitus handicap and significant psychological distress (anxiety and depression).",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity through 2000 Hz sloping to a mild high-frequency sensorineural hearing loss bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs 15 dB HL bilaterally; Word Recognition Scores (WRS) normal (NU-6) in quiet."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal pressure, ear canal volume, and static compliance bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at expected levels; negative reflex decay at 1000 Hz."
+          },
+          {
+            "name": "Self-report scales",
+            "category": "Questionnaires",
+            "result_summary": "THI: 78/100 (Severe/Catastrophic); PHQ-9: 19 (Moderate-Severe Depression); GAD-7: 11 (Moderate Anxiety); Pain Scale: 5/10."
+          },
+          {
+            "name": "Somatic/Physical Assessment",
+            "category": "Physical Exam",
+            "result_summary": "Tinnitus modulated by jaw clenching/opening and neck rotation. Masseter palpation increased tinnitus and reproduced ear pain. Left C1 malrotation noted."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Dental orthotic (bite splint) to improve jaw mechanics and reduce masseter contraction",
+      "Physical therapy for MTP release techniques and posture retraining",
+      "Relaxation CD / Sound therapy for palliative relief and muscle relaxation",
+      "Acceptance and Commitment Therapy (ACT) workbook (e.g., 'The Mindfulness & Acceptance Workbook for Anxiety')",
+      "Self-help therapies (avoiding gum/hard foods, discontinuing jaw clenching)"
+    ],
+    "counseling_actions": [
+      "Explain the somatic nature of the tinnitus (connection between jaw/neck muscles and auditory system)",
+      "Counsel on proper tongue and teeth posture (lips together, teeth apart, tongue on palate)",
+      "Advise to avoid 'hard chewy' foods and gum",
+      "Reassure patient regarding the absence of dangerous medical pathology (normal MRI)",
+      "Discuss the role of stress/anxiety in exacerbating muscle tension and tinnitus"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Multidisciplinary team (Dentist, Physical Therapist, Psychologist)",
+      "rationale_short": "Referral to specialists within the tinnitus clinic to address identified somatic triggers (TMJ, cervical) and psychological distress."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "7 months",
+    "objective": "Re-evaluate tinnitus handicap (THI), pain levels, and functional status following multidisciplinary treatment."
+  },
+  "expected_outcome": [
+    "THI score: 12/100 (statistically significant reduction from baseline of 78/100)",
+    "Patient reported she was 'no longer bothered by the tinnitus'",
+    "Complete resolution of left ear otalgia"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "case_id": "Case070",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Audiometry reveals a moderate-to-profound sloping sensorineural hearing loss with symmetrical bone conduction thresholds."
+    },
+    {
+      "rank": 2,
+      "label": "Psychosocial and emotional reaction to hearing loss",
+      "rationale_short": "Patient exhibits significant anger, frustration, and paranoia (believing family tells secrets) resulting from communication breakdown."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities, particularly given the patient's complaints of clarity."
+      },
+      {
+        "action": "Immittance",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and acoustic reflex thresholds."
+      },
+      {
+        "action": "Self-Report Scales",
+        "urgency": "routine",
+        "rationale_short": "To assess the patient's self-perceived handicap and identify specific communication goals (HHIE, COSI)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals a bilateral moderate-to-profound sensorineural hearing loss. A critical finding is the extremely poor word recognition ability (20-24%), which has significantly declined from the previous assessment 2 years prior. Middle ear function is normal. The patient's presentation is complicated by severe psychosocial issues, including anger and mistrust of family members, necessitating a focus on rehabilitation beyond just amplification.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: moderately severe to profound SNHL (PTA 65 dB HL). Left ear: moderate to profound SNHL (PTA 66 dB HL). Sloping configuration."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: 75 dB HL (Right), 65 dB HL (Left). WRS: 20% (Right) and 24% (Left) at reduced SL due to recruitment. Very poor scores."
+          },
+          {
+            "name": "Immittance",
+            "category": "Middle Ear",
+            "result_summary": "Type A tympanograms bilaterally. Acoustic reflexes absent bilaterally."
+          },
+          {
+            "name": "Self-Report Scales",
+            "category": "Questionnaire",
+            "result_summary": "HHIE and COSI administered to assist in intervention planning."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Group audiological rehabilitation program (6 weeks)",
+      "Speechreading and communication strategy training",
+      "Listening and Communication Enhancement (LACE) program",
+      "Hearing aid evaluation (scheduled for future)",
+      "Amplified telephone",
+      "Wireless accessories (e.g., for TV, car)",
+      "Hearing Assistance Technology (HAT)"
+    ],
+    "counseling_actions": [
+      "Counsel patient and family on the emotional impact of hearing loss (anger, frustration)",
+      "Address the patient's paranoia ('secret telling') as a symptom of communication breakdown",
+      "Discuss realistic expectations given the poor word recognition scores",
+      "Encourage family participation in rehabilitation to learn facilitative strategies"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiological rehabilitation",
+      "rationale_short": "Immediate focus is on psychosocial rehabilitation and communication strategies due to the patient's resistance and anger; medical referral not indicated as urgent despite WRS drop."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "6 weeks",
+    "objective": "Complete group rehabilitation program and reassess readiness for amplification."
+  },
+  "expected_outcome": [
+    "Speechreading activity: Performance improved from 0 out of 10 to 9 out of 10 correct by the final session.",
+    "Patient attitude: Shifted from anger and resistance to confidence; patient began implementing communication strategies and interacting more freely with family.",
+    "Family dynamic: Wife reported significant improvement, stating it was the 'best thing to happen since he was diagnosed'; anger no longer ruled communication.",
+    "Plan: Patient is scheduled for a hearing aid evaluation to determine if current technology provides benefit."
+  ]
+}

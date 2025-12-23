@@ -1,0 +1,165 @@
+{
+  "case_id": "case_41",
+  "title": "Modifying Insertion Gain without Computer-Based Software",
+  "demographics": {
+    "age_years": 51,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "United States"
+  },
+  "chief_complaint": "My hearing aids sound different since I got new earmolds, and I can't hear conversational speech clearly in quiet environments.",
+  "problem_summary": {
+    "onset": "Acute change following a recent routine checkup and earmold replacement at her home clinic.",
+    "course": "Stable hearing loss, but sudden decrease in aided performance.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Lack of audibility in quiet; different sound quality.",
+    "functional_impact": "Difficulty communicating while traveling for work as a structural engineer.",
+    "goals_motivation": "Needs immediate improvement in audibility while traveling, as she cannot return to her home clinic."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (away from patient's home)",
+      "history": {
+        "present_illness": "Patient is a structural engineer traveling for work. She wears bilateral BTE digital hearing aids with custom silicone skeleton earmolds (#13 tubing, 2mm parallel vent). She recently had earmolds replaced at her home practice. Since then, sound quality is poor and audibility is insufficient. The current clinic cannot program these specific devices due to software incompatibility.",
+        "otologic_history": "Sensori-neural hearing loss; normal middle ear function.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Hearing aids purchased 18 months ago. Recent earmold replacement.",
+        "patient_goals": "Restore audibility without waiting to return to home state."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 41.1"
+          ],
+          "key_findings": "Mild to moderately severe sensorineural hearing loss bilaterally. Symmetrical configuration.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 35, 500Hz: 40, 1000Hz: 50, 2000Hz: 55, 4000Hz: 65, 8000Hz: 70 dB HL",
+            "Left_AC_Thresholds": "Similar to Right (visual estimate from Fig 41.1)",
+            "Right_BC_Thresholds": "Consistent with SNHL (no air-bone gap)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 41.1"
+          ],
+          "key_findings": "Good word recognition ability at elevated levels.",
+          "numeric_results": {
+            "SRT_Right": "40 dB",
+            "SRT_Left": "40 dB",
+            "WRS_Right": "96% at 80 dB",
+            "WRS_Left": "92% at 80 dB"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 41.1"
+          ],
+          "key_findings": "Normal middle ear function (Type A).",
+          "numeric_results": {
+            "Right_ECV": "0.8 mL",
+            "Right_Peak_Pressure": "0 daPa",
+            "Right_Static_Admittance": "0.9 mmho",
+            "Left_ECV": "0.8 mL",
+            "Left_Peak_Pressure": "-5 daPa",
+            "Left_Static_Admittance": "1.1 mmho"
+          }
+        },
+        {
+          "name": "Real Ear Measures (REM)",
+          "timepoint_label": "Pre-modification",
+          "ear": "right",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 41.1",
+            "Fig. 41.2"
+          ],
+          "key_findings": "Measured Real Ear Insertion Gain (REIG) was significantly below NAL-NL1 targets across the frequency range (under-amplified).",
+          "numeric_results": {
+            "Difference_at_1000Hz": "-10.8 dB (Measured 8.2 vs Target 19.0)",
+            "Difference_at_2000Hz": "-7.8 dB (Measured 12.1 vs Target 19.9)",
+            "Difference_at_4000Hz": "-8.1 dB (Measured 14.6 vs Target 22.7)"
+          }
+        },
+        {
+          "name": "Real Ear to Coupler Difference (RECD)",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 41.2"
+          ],
+          "key_findings": "Patient's ear canals are smaller than average (higher SPL than 2cc coupler). Measured RECD values deviate from average.",
+          "numeric_results": {
+            "RECD_1000Hz": "8.0 dB",
+            "RECD_4000Hz": "13.7 dB (Average is 10.0 dB)"
+          }
+        },
+        {
+          "name": "Real Ear Measures (REM)",
+          "timepoint_label": "Post-modification",
+          "ear": "right",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 41.2",
+            "Table 41.4"
+          ],
+          "key_findings": "After physical modifications (vent reduction, Libby horn, damper), the REIG approximated NAL-NL1 targets much better, particularly in high frequencies.",
+          "numeric_results": {
+            "Modifications_Made": "Vent reduced 2mm to 1mm; 3mm Libby horn added; 1500 Ohm damper added.",
+            "Result": "Marked increase in audibility reported by patient."
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presented with bilateral mild to moderately severe sensorineural hearing loss and under-amplified BTE hearing aids following a recent earmold change. Initial Real Ear Measures confirmed gain was 8-12 dB below NAL-NL1 targets. Due to software incompatibility, physical acoustic modifications were calculated and applied: reducing vent size to 1mm (low-frequency gain), adding a 3mm Libby horn (high-frequency gain), and inserting a 1500 Ohm damper (smoothing mid-frequency peaks). Post-modification verification showed a close match to prescriptive targets.",
+  "counseling_points": [
+    "We have manually modified your earmolds to improve the volume and clarity, since we cannot connect to your hearing aids with our computer.",
+    "The changes (smaller vent and new tubing style) have restored the high-pitch sounds you were missing.",
+    "These modifications are a temporary solution to help you hear while traveling.",
+    "Please follow up with your original audiologist when you return home for any final fine-tuning."
+  ],
+  "notes_for_actor": [
+    "Portray a professional (engineer) who is knowledgeable but frustrated that 'new' equipment made things worse.",
+    "Initially, you are skeptical that the doctor can help without the specific computer software.",
+    "After the physical modifications, express clear relief and immediate improvement in hearing clarity."
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "case_id": "Case033",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Vestibular Schwannoma",
+      "rationale_short": "Confirmed by MRI; consistent with asymmetric SNHL, poor word recognition, absent ABR, and unilateral vestibular weakness."
+    },
+    {
+      "rank": 2,
+      "label": "Hereditary Sensorineural Hearing Loss",
+      "rationale_short": "Patient has a 10-15 year history of gradual bilateral progressive hearing loss."
+    },
+    {
+      "rank": 3,
+      "label": "Endolymphatic Hydrops",
+      "rationale_short": "Considered due to symptoms of fullness, tinnitus, and vertigo, but MRI confirmed tumor."
+    },
+    {
+      "rank": 4,
+      "label": "Labyrinthitis",
+      "rationale_short": "Considered initially due to acute vertigo episode, but symptoms persisted."
+    },
+    {
+      "rank": 5,
+      "label": "Autoimmune Inner Ear Disease",
+      "rationale_short": "Considered in differential but less likely given the unilateral tumor findings."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate hearing thresholds given history of progressive loss and recent changes."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess word recognition abilities and check for retrocochlear signs (asymmetry)."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Screen for retrocochlear pathology."
+      },
+      {
+        "action": "Video-oculography (VOG)",
+        "urgency": "soon",
+        "rationale_short": "Evaluate vestibular function due to persistent imbalance."
+      },
+      {
+        "action": "Computerized dynamic posturography (CDP)",
+        "urgency": "soon",
+        "rationale_short": "Assess functional balance and sensory integration."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "Confirm retrocochlear pathology given asymmetric findings."
+      },
+      {
+        "action": "VEMP",
+        "urgency": "soon",
+        "rationale_short": "Assess otolith function (saccule)."
+      },
+      {
+        "action": "Dynamic Subjective Visual Vertical (SVV)",
+        "urgency": "soon",
+        "rationale_short": "Assess utricular function."
+      },
+      {
+        "action": "Hyperventilation Test",
+        "urgency": "soon",
+        "rationale_short": "Investigate hyperventilation-induced symptoms and determine if lesion is excitatory."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation revealed bilateral sensorineural hearing loss with a 'cookie-bite' configuration. Crucially, there was significant asymmetry with the right ear showing poorer thresholds and disproportionately poor word recognition (8%), along with absent acoustic reflexes. These findings are highly suggestive of retrocochlear pathology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: mild sloping to moderate rising to mild SNHL (PTA ~45-50 dB HL). Left ear: slight sloping to moderate rising to normal SNHL. U-shaped configuration."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Significant asymmetry: Right WRS 8%, Left WRS 100%."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Type A bilateral, normal middle ear function."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Absent in the right ear; present in the left ear."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Initial vestibular evaluation confirmed a right peripheral vestibular deficit. VOG showed significant unilateral weakness, and CDP indicated a backward center of gravity, consistent with the patient's imbalance.",
+        "tests": [
+          {
+            "name": "Video-oculography (VOG)",
+            "result_summary": "42% right reduced vestibular response (unilateral weakness)."
+          },
+          {
+            "name": "Computerized dynamic posturography (CDP)",
+            "result_summary": "Generally normal except for backward center of gravity."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Follow-up audiology monitoring showed a rapid and severe decline in right ear hearing thresholds and word recognition (dropping to 0%). ABR testing showed absent waveforms on the right, further confirming retrocochlear involvement consistent with the known vestibular schwannoma.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear declined to severe rising to moderately severe SNHL (low freqs ~80-90 dB HL). Left ear stable."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right WRS dropped to 0%. Left WRS 88%."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "result_summary": "Right ear: Absent waveforms. Left ear: Normal absolute latencies for Waves I, III, V."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Further vestibular testing revealed functional decline on CDP. SVV and VEMP testing indicated right-sided otolith dysfunction, and hyperventilation testing suggested an excitatory lesion.",
+        "tests": [
+          {
+            "name": "Dynamic Subjective Visual Vertical (SVV)",
+            "result_summary": "Deviated, consistent with right utricular dysfunction."
+          },
+          {
+            "name": "VEMP",
+            "result_summary": "Absent or reduced response on the right."
+          },
+          {
+            "name": "Hyperventilation Test",
+            "result_summary": "Positive for nystagmus, indicating retrocochlear pathology."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Neurosurgical consultation for tumor management",
+      "Surgical resection (e.g., translabyrinthine approach due to non-serviceable hearing)",
+      "Vestibular rehabilitation therapy (VRT)",
+      "Consideration of CROS or BiCROS hearing aid systems"
+    ],
+    "counseling_actions": [
+      "Discuss surgical risks including facial nerve paralysis and CSF leak",
+      "Counsel on expectations for single-sided deafness",
+      "Educate on fall prevention strategies due to vestibular weakness"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss",
+      "Disproportionately poor word recognition scores",
+      "Unilateral vestibular weakness",
+      "Rapid progression of hearing loss",
+      "Absent acoustic reflexes"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurotology/Neurosurgery",
+      "rationale_short": "Confirmed Vestibular Schwannoma with rapid functional decline requires immediate surgical evaluation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate neurosurgical referral; Post-operative follow-up as dictated by surgery.",
+    "objective": "Tumor removal/control, facial nerve preservation, and vestibular compensation."
+  },
+  "expected_outcome": [
+    "Permanent total hearing loss in the right ear",
+    "Gradual compensation of vestibular function with therapy",
+    "Control of tumor growth via surgical intervention"
+  ]
+}

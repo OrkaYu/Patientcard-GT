@@ -1,0 +1,146 @@
+{
+  "case_id": "case_55",
+  "title": "A Case for Real Ear Measures",
+  "demographics": {
+    "age_years": 68,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I notice some benefit with my hearing aids, but I believe I am not hearing as well as I should, particularly in noisy listening situations.",
+  "problem_summary": {
+    "onset": "Hearing loss since middle school; recent exacerbation in right ear 2 months ago following URI.",
+    "course": "Chronic/progressive with recent fluctuation due to middle ear fluid (resolved in right ear after Otovent use).",
+    "laterality": "Bilateral",
+    "associated_symptoms": "History of ear infections/PE tubes, recent fullness/fluid, difficulty in background noise.",
+    "functional_impact": "Disappointed with speech understanding in noisy environments despite wearing hearing aids.",
+    "goals_motivation": "Wants to know if ability to understand speech in background noise can be improved."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-03-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient initially saw otologist 2 months ago for decreased hearing in RE after URI. Diagnosed with fluid/retracted TM. Prescribed Otovent (auto-inflation). Patient reports immediate improvement in RE after using Otovent.",
+        "otologic_history": "Extensive history of childhood ear infections, multiple myringotomies and PE tubes. Right ear was better ear until recent URI.",
+        "noise_exposure_history": "Significant history: construction work for approximately 40 years.",
+        "medical_psych_history": "Family history of hearing loss (grandfather).",
+        "prior_management": "Wears bilateral RIC hearing aids (open domes) purchased 3-4 years ago from a large retail chain. Believes he received a 'deal' but travels 4 hours for service.",
+        "patient_goals": "Improve performance in noise."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-Otovent treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 55.1"
+          ],
+          "key_findings": "Right ear: Normal 250-1000 Hz, precipitous drop to moderate/mod-severe SNHL 1500-8000 Hz. Left ear: Normal 250 Hz, slight mixed loss 500-1000 Hz, precipitous drop to moderate/mod-severe SNHL 1500-8000 Hz.",
+          "numeric_results": {
+            "RE_PTA": "15 dB HL",
+            "LE_PTA": "25 dB HL",
+            "RE_Configuration": "Normal sloping to mod-severe",
+            "LE_Configuration": "Slight mixed sloping to mod-severe"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-Otovent treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 55.1"
+          ],
+          "key_findings": "SRTs consistent with PTA. Word recognition scores excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "15 dB",
+            "LE_SRT": "25 dB",
+            "RE_WRS": "92% at 65 dB HL",
+            "LE_WRS": "92% at 65 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-Otovent treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 55.1"
+          ],
+          "key_findings": "Right ear normal (Type A). Left ear negative pressure (Type C), indicating possible Eustachian tube dysfunction.",
+          "numeric_results": {
+            "RE_Peak_Pressure": "-30 daPa",
+            "RE_Compliance": "0.5 mL",
+            "LE_Peak_Pressure": "-105 daPa",
+            "LE_Compliance": "0.5 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Post-Otovent treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 55.1"
+          ],
+          "key_findings": "RE Ipsi normal 500-2k, absent 4k. LE Ipsi elevated/absent. Contralateral reflexes largely absent or elevated, consistent with hearing loss and middle ear status.",
+          "numeric_results": {
+            "RE_Ipsi_1000Hz": "95 dB HL",
+            "LE_Ipsi_1000Hz": "105 dB HL"
+          }
+        },
+        {
+          "name": "Real Ear Measures (REM)",
+          "timepoint_label": "Hearing Aid Evaluation",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 55.2"
+          ],
+          "key_findings": "Minimal insertion gain bilaterally compared to NAL-NL1 targets. Significant under-amplification in high frequencies (1000-6000 Hz). Large Real Ear Unaided Gain (REUG) noted due to large ear canals.",
+          "numeric_results": {
+            "REIG_vs_Target": "Measured gain significantly below NAL-NL1 target curve from 1kHz to 4kHz+.",
+            "REUG_Peak": "~20 dB around 2500 Hz"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral, precipitous high-frequency sensorineural hearing loss, with a slight mixed component in the low-mid frequencies of the left ear and negative middle ear pressure. Word recognition is excellent. Evaluation of the patient's current RIC hearing aids via Real Ear Measures reveals significant under-amplification compared to NAL-NL1 targets, particularly in the high frequencies required for speech understanding in noise.",
+  "counseling_points": [
+    "Your hearing aids are functioning mechanically, but they are not programmed to give you the volume you need in the high pitches.",
+    "The 'First-Fit' settings from the manufacturer are providing far less amplification than is prescribed for your hearing loss.",
+    "This lack of high-pitch volume is the primary reason you are struggling to understand speech in background noise.",
+    "We recommend reprogramming your current hearing aids using Real Ear Measures to match your prescription targets.",
+    "Because you purchased the aids elsewhere, there may be a fee for us to reprogram them, or you can return to the original retailer with our findings."
+  ],
+  "notes_for_actor": [
+    "You are price-conscious; you drove 4 hours to buy these hearing aids to save money.",
+    "You are frustrated that despite the 'deal,' you aren't hearing well in noise.",
+    "You are diligent about your health (used the Otovent as instructed) and observant (noticed the improvement).",
+    "You have a long history of ear issues (infections, tubes) and are comfortable with medical ear procedures."
+  ]
+}

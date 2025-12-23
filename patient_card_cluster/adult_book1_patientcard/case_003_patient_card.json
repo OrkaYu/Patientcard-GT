@@ -1,0 +1,147 @@
+{
+  "case_id": "case_3",
+  "title": "Auditory Neuroma",
+  "demographics": {
+    "age_years": 42,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed a gradual hearing loss in my left ear over the last two years. I also have intermittent ringing and a feeling of fullness in that ear.",
+  "problem_summary": {
+    "onset": "Gradual deterioration over the last 2 years.",
+    "course": "Progressive.",
+    "laterality": "Left ear symptoms; bilateral noise exposure history.",
+    "associated_symptoms": "Intermittent tinnitus and aural fullness in the left ear.",
+    "functional_impact": "Hearing sensitivity has deteriorated.",
+    "goals_motivation": "Seeking evaluation for hearing loss and associated symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2011-05-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "42-year-old male presenting with gradual left-sided hearing loss, intermittent tinnitus, and aural fullness.",
+        "otologic_history": "Denies otalgia, otorrhea, or dizziness.",
+        "noise_exposure_history": "History of unprotected noise exposure working as a club promoter for many years; recent exposure to machinery noise in construction.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "None reported.",
+        "patient_goals": "Diagnosis of hearing issues."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.1"
+          ],
+          "key_findings": "Right ear: Normal hearing 250-1000 Hz, slight loss 2000-8000 Hz. Left ear: Slight to moderate sensorineural hearing loss 250-4000 Hz with recovery to mild loss at 8000 Hz.",
+          "numeric_results": {
+            "RE_configuration": "Normal sloping to slight high-frequency loss",
+            "LE_configuration": "Slight to moderate SNHL (dip shape)",
+            "LE_recovery": "Recovery to mild loss at 8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.1"
+          ],
+          "key_findings": "SRTs consistent with pure-tone averages (though slightly elevated for LE). Word recognition scores are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "15 dB HL",
+            "LE_SRT": "35 dB HL",
+            "RE_WRS": "100% at 55 dB HL",
+            "LE_WRS": "100% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Type Ad tympanograms bilaterally (hypercompliant) with normal pressure and volume.",
+          "numeric_results": {
+            "Type": "Ad",
+            "Pressure": "Normal",
+            "Volume": "Normal"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.1"
+          ],
+          "key_findings": "Reflex thresholds normal 500-4000 Hz. Reflex decay was negative in the right ear but positive in the left ear at 500 and 1000 Hz.",
+          "numeric_results": {
+            "RE_Decay": "Negative",
+            "LE_Decay": "Positive at 500 and 1000 Hz"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Otoacoustic emissions (OAEs) absent at 1500 to 6000 Hz bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Diagnostic Workup",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "ABR: Normal latencies RE; delayed peak and interpeak latencies LE. MRI: 4x3x2 mm left internal auditory canal lesion.",
+          "numeric_results": {
+            "MRI_Finding": "4x3x2 mm left internal auditory canal lesion (acoustic neuroma)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric sensorineural hearing loss, worse in the left ear, accompanied by unilateral tinnitus and aural fullness. While word recognition is excellent bilaterally, retrocochlear pathology is strongly indicated by positive acoustic reflex decay in the left ear and delayed ABR latencies. MRI confirmed a small left-sided acoustic neuroma.",
+  "counseling_points": [
+    "Your hearing test shows a difference between your ears, with the left ear showing some hearing loss compared to the right.",
+    "The specific pattern of your test results, particularly the reflex test, suggests the issue may be located along the hearing nerve rather than just in the inner ear.",
+    "We need to refer you to an otologist (ear specialist) for further medical testing, which will likely include an MRI scan.",
+    "We will not proceed with hearing aids at this immediate moment until we have medical clearance from the physician.",
+    "Given your history of noise exposure, it is critical to wear hearing protection around loud machinery to prevent further damage."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is concerned about the gradual change in one ear but denies pain or dizziness.",
+    "You have a history of working in loud clubs and construction, so you might assume the hearing loss is just from noise, but the one-sided nature is the key clinical red flag."
+  ]
+}

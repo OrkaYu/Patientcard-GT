@@ -1,0 +1,245 @@
+{
+  "case_id": "case_21",
+  "title": "Long-Term Effects of Cisplatin and Cranial Radiation Therapy on Hearing",
+  "demographics": {
+    "age_years": null,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "The patient presented with perceived bilateral hearing loss which he attributed to chemotherapy. He also reported tinnitus in the left ear and difficulties communicating.",
+  "problem_summary": {
+    "onset": "Symptoms began in 2002 during treatment for nasopharyngeal cancer.",
+    "course": "Progressive deterioration over 10 years, with both sensorineural decline and fluctuating conductive components.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Tinnitus (left ear), aural fullness, chronic otitis media with effusion, ear drainage.",
+    "functional_impact": "Significant difficulty communicating, reduced benefit from hearing aids over time, difficulty recognizing speech even in quiet.",
+    "goals_motivation": "Currently considering all options to improve communication, including personal infrared hearing assistive technology."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2002-12-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is a survivor of nasopharyngeal cancer diagnosed in June 2002. Treated with concurrent cisplatin and radiation therapy (July-October 2002). Reported hearing loss, tinnitus, and communication difficulties during treatment.",
+        "otologic_history": "History of chronic serous otitis media; PE tube placed in right TM in 2002. Intermittent Eustachian tube dysfunction.",
+        "noise_exposure_history": "No significant history of noise exposure.",
+        "medical_psych_history": "Squamous cell carcinoma of the nasopharynx.",
+        "prior_management": "No baseline audiogram was performed prior to cancer treatment.",
+        "patient_goals": "Assessment of hearing loss post-treatment."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "2 months post-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.1"
+          ],
+          "key_findings": "Bilateral symmetric mild sloping to moderate SNHL through 750 Hz, sloping to moderately severe SNHL at 1000-8000 Hz. Air-bone gap present in left ear at 250-500 Hz.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "Approx 30-40 dB HL sloping to 70-80 dB HL",
+            "Left_AC_Thresholds": "Approx 30-40 dB HL sloping to 70-80 dB HL",
+            "Left_ABG": "Present at 250-500 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "2 months post-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.1"
+          ],
+          "key_findings": "SRTs reveal moderate loss. WRS shows slight difficulty in the right ear and normal ability in the left ear.",
+          "numeric_results": {
+            "SRT_Right": "50 dB HL",
+            "SRT_Left": "50 dB HL",
+            "WRS_Right": "78%",
+            "WRS_Left": "92%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "2 months post-treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.1"
+          ],
+          "key_findings": "Right ear: Flat configuration with large ear canal volume (consistent with patent PE tube). Left ear: Hypocompliant with negative pressure.",
+          "numeric_results": {
+            "Right_Volume": "3.7 mL",
+            "Left_Volume": "1.1 mL",
+            "Left_Pressure": "-130 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "2 months post-treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Absent bilaterally at 500 to 4000 Hz to contralateral and ipsilateral stimulation.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2007-06-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "5 years post-cancer diagnosis. Review of previous exams confirmed this was the first showing significant decrease in bone and air conduction thresholds at 3000 Hz and above without known middle ear involvement.",
+        "otologic_history": "Intermittent otitis media with effusion continued over the years.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Patient was extremely ill during the 3-year gap (2004-2007) and only scheduled office visits as needed.",
+        "prior_management": "Fitted with bilateral BTE amplification in 2003.",
+        "patient_goals": "Monitoring."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "5 years post-diagnosis",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.2"
+          ],
+          "key_findings": "Significant decrease in thresholds at 3000 Hz and above. High-frequency air conduction thresholds stable when mixed loss not evident.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "Sloping from ~50 dB HL to ~90 dB HL",
+            "Left_AC_Thresholds": "Sloping from ~50 dB HL to ~90 dB HL",
+            "BC_Thresholds_2k_4k": "Consistently between 60 and 70 dB HL (2002-2004 data comparison)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "5 years post-diagnosis",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.2"
+          ],
+          "key_findings": "SRTs stable compared to 2002; WRS slightly reduced in left ear compared to baseline.",
+          "numeric_results": {
+            "SRT_Right": "50 dB HL",
+            "SRT_Left": "50 dB HL",
+            "WRS_Right": "78%",
+            "WRS_Left": "82%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2012-12-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "10 years post-initial exam. Patient reports increased difficulty with communication and receiving less benefit from hearing aids.",
+        "otologic_history": "Continuous bouts with chronic serous otitis media.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Evaluated for Cochlear Implant (CI) but decided not to pursue due to health concerns and aversion to surgery.",
+        "prior_management": "Hearing aids reprogrammed to accommodate changes. Uses personal infrared HAT for TV.",
+        "patient_goals": "Considering FM technology."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "10 years post-initial",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.3"
+          ],
+          "key_findings": "Severe to profound mixed hearing loss in right ear; profound mixed hearing loss in left ear. No measurable response at 4000-8000 Hz bilaterally.",
+          "numeric_results": {
+            "Right_AC": "Severe sloping to profound/no response",
+            "Left_AC": "Profound sloping to no response",
+            "BC_250_1000": "Remained relatively stable",
+            "BC_2000_4000": "No measurable response"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "10 years post-initial",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.3"
+          ],
+          "key_findings": "Significant decrease bilaterally in WRS (slight difficulty to very poor ability). Greatest change occurred over past 2 years.",
+          "numeric_results": {
+            "SRT_Right": "88 dB HL",
+            "SRT_Left": "100 dB HL",
+            "WRS_Right": "36%",
+            "WRS_Left": "20%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "10 years post-initial",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.3"
+          ],
+          "key_findings": "Could not be completed due to inability to maintain an appropriate seal.",
+          "numeric_results": {
+            "Result": "CNT (Could Not Test)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Over a 10-year period, the patient demonstrated a progressive deterioration in hearing from a mild-to-moderate sensorineural loss to a severe-to-profound mixed loss. High-frequency thresholds declined gradually, followed by a rapid decrease in low- and mid-frequency thresholds. Speech recognition scores deteriorated significantly, shifting from good/fair performance to very poor ability, necessitating reliance on visual cues and assistive technology.",
+  "counseling_points": [
+    "Your hearing loss is a result of the combined effects of the chemotherapy (cisplatin) and radiation therapy you received.",
+    "The radiation has caused long-term issues with your Eustachian tubes, leading to fluid buildup that adds a 'conductive' blockage to your hearing loss.",
+    "Because speech clarity has decreased significantly, hearing aids alone may not provide clear speech understanding in all situations.",
+    "An FM system or other assistive listening devices can help improve the signal-to-noise ratio, especially for television or distance listening.",
+    "It is important to continue monitoring your hearing annually, as radiation effects can continue to evolve over many years."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is weary from a decade of medical treatments but proactive about communication.",
+    "You are frustrated that your hearing aids are helping less than they used to.",
+    "You are hesitant about further surgeries (like a cochlear implant) because of your traumatic medical history.",
+    "You rely heavily on lip-reading and context due to poor speech discrimination scores."
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "case_id": "case_28",
+  "title": "Acquired Auditory Neuropathy in HIV/AIDS",
+  "demographics": {
+    "age_years": 49,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I suddenly lost hearing in my right ear after a lumbar puncture procedure. I've been deaf in my left ear since childhood, so this new loss makes it impossible to hear.",
+  "problem_summary": {
+    "onset": "Sudden onset in the right ear associated with a lumbar puncture; long-standing (childhood) loss in the left ear.",
+    "course": "Patient reports it has been getting worse while in the hospital; behavioral responses fluctuate.",
+    "laterality": "Bilateral (Left long-standing, Right acute).",
+    "associated_symptoms": "Difficulty understanding speech; no tinnitus, fullness, or vertigo reported.",
+    "functional_impact": "Significant communication difficulty; patient is seeking disability income.",
+    "goals_motivation": "Assessment of hearing status, potential disability claim."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-04-15",
+      "setting": "Inpatient Audiology Service",
+      "history": {
+        "present_illness": "Patient admitted for HIV-related complications and cryptococcal meningitis. Reported sudden hearing loss in the right ear following a lumbar puncture. Currently being treated with IV medications including amphotericin B (discontinued due to hearing complaint).",
+        "otologic_history": "Left ear profound hearing loss since childhood. No history of ear infections or other otologic disease.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "HIV/AIDS, Hepatitis C, Hepatitis B, malignant hypertension, cryptococcal meningitis, pneumonia, sepsis. History of drug use (opioids, cocaine).",
+        "prior_management": "Amphotericin B discontinued due to potential ototoxicity.",
+        "patient_goals": "Determine hearing status."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal ear-canal anatomy; tympanic membranes clearly visible and normal.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Initial Attempt",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 28.1"
+          ],
+          "key_findings": "Left ear: No response at equipment limits. Right ear: Severe to profound thresholds; responses inconsistent. Patient appeared unable to recognize words.",
+          "numeric_results": {
+            "RE_SAT": "90 dB HL",
+            "RE_Bone_Conduction": "Vibrotactile at 65-70 dB HL",
+            "LE_Air_Bone": "No Response",
+            "Word_Recognition": "0% / Unable to recognize words"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-reinstruction",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 28.2"
+          ],
+          "key_findings": "After reinstruction, responses improved significantly but remained inconsistent/unreliable. Discrepancy noted between pure tone thresholds and speech awareness.",
+          "numeric_results": {
+            "RE_SAT": "25 dB HL",
+            "RE_Bone_Conduction_SAT": "30 dB HL",
+            "RE_Air_Thresholds": "~50 dB HL (approximate/unreliable)",
+            "RE_Bone_Threshold_1kHz": "35 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 28.1",
+            "Figure 28.2"
+          ],
+          "key_findings": "Normal middle ear function bilaterally.",
+          "numeric_results": {
+            "Type": "A (Bilateral)",
+            "Static_Admittance": "Normal",
+            "Middle_Ear_Pressure": "Normal",
+            "Ear_Canal_Volume": "Normal"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 28.1",
+            "Figure 28.2"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral reflexes bilaterally. Absence in the right ear despite improved thresholds suggests organic disorder (retrocochlear) rather than pure malingering.",
+          "numeric_results": {
+            "Reflexes": "Absent at all frequencies"
+          }
+        },
+        {
+          "name": "Distortion-product otoacoustic emissions (DPOAE)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 28.3"
+          ],
+          "key_findings": "Left ear: Absent (consistent with profound loss). Right ear: Robust emission amplitudes across frequency range, consistent with normal outer hair cell function.",
+          "numeric_results": {
+            "RE_Emissions": "Present/Robust",
+            "LE_Emissions": "Absent"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2012-04-17",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up for electrophysiological testing to resolve discrepancies between behavioral thresholds, speech scores, and OAEs.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "Unchanged.",
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "Unchanged.",
+        "patient_goals": "Definitive diagnosis."
+      },
+      "tests": [
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 28.4"
+          ],
+          "key_findings": "Left ear: Absent to clicks. Right ear: No synchronous neural response (Waves I-V absent). Cochlear Microphonic (CM) present and reverses with polarity, confirming outer hair cell function but lack of neural synchrony.",
+          "numeric_results": {
+            "Stimulus": "95 dB nHL clicks",
+            "RE_Result": "Cochlear Microphonic present; Neural waves absent"
+          }
+        },
+        {
+          "name": "Auditory Steady-State Response (ASSR)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Absent at all frequencies tested in both ears at equipment limits.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Late-latency responses (LLR)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Left ear: No responses. Right ear: Responses observed, indicating cortical detection of sound despite absent ABR.",
+          "numeric_results": {
+            "RE_Threshold_500Hz": "15 dB",
+            "RE_Threshold_2000Hz": "20 dB"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a long-standing profound sensorineural hearing loss in the left ear. In the right ear, results are consistent with Acquired Auditory Neuropathy Spectrum Disorder (ANSD). This is evidenced by the presence of robust DPOAEs and Cochlear Microphonics (indicating normal outer hair cell function) alongside absent ABR, absent acoustic reflexes, and poor speech recognition. Cortical responses (LLR) are present at mild levels, suggesting sound reaches the cortex despite the dys-synchrony at the brainstem level.",
+  "counseling_points": [
+    "Your testing shows a condition called Auditory Neuropathy. This means the inner ear organ is working, but the nerve connection to the brain is not firing in a synchronized way.",
+    "This explains why you can hear some sounds (like the beeps during the test) but have significant trouble understanding speech clearly.",
+    "The condition may be related to the recent infections and treatments you have undergone.",
+    "Traditional hearing aids may be of limited help because making sound louder does not always make it clearer for this condition, but we can explore trial options or assistive listening devices."
+  ],
+  "notes_for_actor": [
+    "Portray inconsistent behavior: sometimes respond to soft sounds, other times miss loud ones.",
+    "When asked to repeat words, struggle significantly or say you 'cannot understand,' even if the voice is loud.",
+    "You are lucid but physically weak (wheelchair, IV lines).",
+    "You are motivated by potential disability income, so you may seem slightly defensive if challenged, but the hearing difficulty is real (neuropathic)."
+  ]
+}

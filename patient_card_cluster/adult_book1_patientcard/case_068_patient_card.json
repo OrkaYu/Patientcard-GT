@@ -1,0 +1,143 @@
+{
+  "case_id": "case_68",
+  "title": "Headaches, Hyperacusis, and Tinnitus",
+  "demographics": {
+    "age_years": 31,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have constant ringing and buzzing in both ears, and severe daily headaches. Certain sounds like projector fans, air conditioners, and fluorescent lights trigger uncontrollable headaches and make the ringing worse.",
+  "problem_summary": {
+    "onset": "Tinnitus began approximately 6 years ago; severe headaches began 18 months ago; hyperacusis/specific triggers began 3 months ago.",
+    "course": "Symptoms have worsened, specifically regarding sensitivity to environmental sounds and 'electrical emissions' which trigger headaches.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Severe headaches, sleep disturbance (awakens ~4 times/night), difficulty concentrating, social withdrawal.",
+    "functional_impact": "Affecting work, social, and home life; unable to complete housework or play with children; moved office to avoid HVAC noise but symptoms persist in quiet.",
+    "goals_motivation": "Seeking relief from headaches and sound sensitivity; previous medical management (medication, injections) has been unsuccessful."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports constant bilateral high-pitched tinnitus. Headaches were previously controlled by medication but are now triggered by specific sounds (fans, PA systems, fluorescent lights). She believes symptoms are correlated with electrical emissions. In quiet environments, turning on electronics increases symptoms.",
+        "otologic_history": "History of recreational noise exposure (concerts, shooting) and occupational noise exposure (manufacturing). Earplugs helped in noise but headaches were severe in quiet.",
+        "noise_exposure_history": "Recreational and occupational history noted.",
+        "medical_psych_history": "Treated by neurologist (Lyrica, topiramate, hydrocodone). Treated unsuccessfully with steroid injections at a pain clinic. MRI of cervical spine, brain, brainstem, and MRA were normal.",
+        "prior_management": "Medication management for headaches; use of earplugs in occupational settings.",
+        "patient_goals": "Relief from sound-triggered headaches and tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Pure-tone thresholds were within normal limits.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech recognition thresholds (SRTs) and word recognition scores (WRSs) were normal.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Immittance audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Results were normal.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Loudness Discomfort Levels (LDLs)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 68.1"
+          ],
+          "key_findings": "LDLs are significantly reduced compared to normal hearing adults (typically 95-100 dB HL), indicating sound tolerance problems/hyperacusis.",
+          "numeric_results": {
+            "Right Ear 500 Hz": "72 dB HL",
+            "Right Ear 1000 Hz": "70 dB HL",
+            "Right Ear 2000 Hz": "74 dB HL",
+            "Right Ear 4000 Hz": "76 dB HL",
+            "Left Ear 500 Hz": "72 dB HL",
+            "Left Ear 1000 Hz": "76 dB HL",
+            "Left Ear 2000 Hz": "70 dB HL",
+            "Left Ear 4000 Hz": "72 dB HL"
+          }
+        },
+        {
+          "name": "Subjective Tinnitus Ratings",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient reports extremely high awareness and disturbance levels.",
+          "numeric_results": {
+            "Awareness (awake time)": "100%",
+            "Disturbance/Bother (awake time)": "80%"
+          }
+        },
+        {
+          "name": "Tinnitus Reaction Questionnaire (TRQ)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 68.1"
+          ],
+          "key_findings": "Total score indicates clinically significant distress (>17). No suicidal ideation reported (Question 24 score = 0).",
+          "numeric_results": {
+            "Total Score": "40",
+            "Question 24 (Suicide)": "0"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity, speech recognition, and middle ear function. However, she exhibits significant hyperacusis, evidenced by reduced Loudness Discomfort Levels (LDLs) ranging from 70–76 dB HL bilaterally. Tinnitus assessment reveals high distress (TRQ score 40) and constant awareness (100% of awake time), with symptoms heavily influenced by environmental sounds and perceived electrical emissions.",
+  "counseling_points": [
+    "Explain the neurophysiological links between tinnitus, hyperacusis, and the central nervous system (increased central gain).",
+    "Discuss the 'vicious cycle' where negative emotional reaction and attention exacerbate the symptoms.",
+    "Advise against the overuse of hearing protection (earplugs) in quiet environments, as this can increase sensitivity.",
+    "Recommend sound therapy (white or pink noise) to gradually desensitize the auditory system.",
+    "Propose a treatment plan involving sound generators (or PLDs) worn for at least 8 hours a day, starting at a low level and gradually increasing to a comfortable listening level."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is highly anxious and convinced that 'electrical emissions' (fans, lights, computers) are the direct cause of your pain.",
+    "You are exhausted from lack of sleep (waking up 4 times a night).",
+    "You have tried strong medications and injections without success, so you may be skeptical but desperate for a solution.",
+    "Emphasize that silence makes the headaches worse, but specific mechanical noises trigger them."
+  ]
+}

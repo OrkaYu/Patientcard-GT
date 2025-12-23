@@ -1,0 +1,168 @@
+{
+  "case_id": "case_58",
+  "title": "Hearing Instrument Troubleshooting Using Real Ear Measurements",
+  "demographics": {
+    "age_years": 68,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My hearing aids sound muffled, unclear, and dull. I have trouble understanding what people are saying, and the devices whistle, so I hardly use them anymore.",
+  "problem_summary": {
+    "onset": "Recent, following purchase of devices in her former community.",
+    "course": "No significant improvement since purchase; infrequent use due to lack of benefit.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Feedback (whistling), lack of clarity, difficulty in noise.",
+    "functional_impact": "Patient has stopped using the devices regularly due to minimal benefit.",
+    "goals_motivation": "Seeking a second opinion to see if the devices can be improved."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-12-12",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient was fitted with open-fit BTEs bilaterally at a different center before moving to the area. She reports 'muffled' sound quality and feedback. She feels the devices provide minimal benefit.",
+        "otologic_history": "Unremarkable otoscopy. No change in hearing sensitivity perceived over past several years.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "No change in health status since acquiring hearing instruments.",
+        "prior_management": "Fitted with open-fit BTEs. Previous audiological results provided.",
+        "patient_goals": "Improve clarity and reduce feedback."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 58.1"
+          ],
+          "key_findings": "Mild sloping to moderately severe sensorineural hearing loss bilaterally. Symmetrical configuration.",
+          "numeric_results": {
+            "Right_AC_Thresholds_Hz_dBHL": "250:20, 500:25, 1000:35, 2000:50, 4000:65, 8000:70",
+            "Left_AC_Thresholds_Hz_dBHL": "250:25, 500:30, 1000:40, 2000:55, 4000:65, 8000:75",
+            "Bone_Conduction": "Consistent with sensorineural loss (no air-bone gaps)."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 58.1"
+          ],
+          "key_findings": "SRTs consistent with pure-tone averages. WRS reveals slight difficulty in ability to recognize speech at MCL.",
+          "numeric_results": {
+            "SRT_Right": "35 dB HL",
+            "SRT_Left": "40 dB HL",
+            "WRS_Right": "80% at 65 dB HL",
+            "WRS_Left": "84% at 65 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 58.1"
+          ],
+          "key_findings": "Normal tympanic membrane performance (Type A).",
+          "numeric_results": {
+            "Right_ECV": "0.96 mL",
+            "Right_Peak_Pressure": "-50 daPa",
+            "Left_ECV": "0.83 mL",
+            "Left_Peak_Pressure": "-5 daPa"
+          }
+        },
+        {
+          "name": "Electroacoustic Analysis",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "device_off",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Devices functioning appropriately compared to manufacturer ANSI specifications. No distortion or internal noise.",
+          "numeric_results": null
+        },
+        {
+          "name": "Real Ear Measures (REM)",
+          "timepoint_label": "Pre-adjustment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 58.2"
+          ],
+          "key_findings": "Significant under-amplification relative to DSL v5.0 targets, particularly in high frequencies (>2000 Hz). Audibility limited to 250-1500 Hz for soft speech.",
+          "numeric_results": {
+            "High_Frequency_Audibility": "Insufficient above 2000 Hz for soft, average, and loud inputs."
+          }
+        },
+        {
+          "name": "Feedback Analysis",
+          "timepoint_label": "Pre-adjustment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 58.3"
+          ],
+          "key_findings": "Maximum stable gain was significantly lower than available gain due to open-vent condition, preventing adequate high-frequency amplification without feedback.",
+          "numeric_results": null
+        },
+        {
+          "name": "Real Ear Measures (REM)",
+          "timepoint_label": "Post-adjustment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 58.4"
+          ],
+          "key_findings": "After changing to closed domes and reprogramming, REARs showed improved audibility and a closer match to DSL v5.0 targets. Occlusion effect test showed no issues.",
+          "numeric_results": {
+            "Outcome": "Improved high-frequency audibility matching targets."
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild sloping to moderately severe sensorineural hearing loss bilaterally. Her existing open-fit BTEs were technically functional but poorly fitted, providing insufficient high-frequency gain due to feedback limitations imposed by the open domes. Switching to closed domes allowed for increased high-frequency gain to meet DSL v5.0 targets without feedback or occlusion issues.",
+  "counseling_points": [
+    "Your hearing aids are working correctly, but they weren't tuned to give you the high-pitch sounds you need to hear clearly.",
+    "The 'open' ear tips you were using let sound escape, which caused the whistling and prevented us from turning up the volume where you need it most.",
+    "We have switched you to 'closed' domes. This keeps the sound in your ear, stops the whistling, and allows us to make speech sound much sharper.",
+    "I have verified these new settings with a microphone in your ear to ensure you are getting the correct amount of sound for your specific hearing loss."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated and skeptical. You spent money on these devices recently and they don't work.",
+    "Describe the sound as 'muffled' or 'dull' repeatedly.",
+    "Initially, express concern that 'closing' your ear with a new dome might make your voice sound funny (occlusion), but accept the change when tested."
+  ]
+}

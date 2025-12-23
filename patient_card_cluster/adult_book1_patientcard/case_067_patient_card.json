@@ -1,0 +1,133 @@
+{
+  "case_id": "case_67",
+  "title": "Hearing Aids for Tinnitus",
+  "demographics": {
+    "age_years": 72,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a whistling in the center of my head that has been there for over 10 years. It is destroying my quality of life.",
+  "problem_summary": {
+    "onset": "More than 10 years ago.",
+    "course": "Chronic and troublesome; previous treatments (ENT, hearing aids) provided minimal benefit.",
+    "laterality": "Central ('center of his head').",
+    "associated_symptoms": "Severe distress, agitation, depression, anxiety, sleep disturbance.",
+    "functional_impact": "Rarely engages in social situations; sleep is affected; feels ability to enjoy life is negatively impacted.",
+    "goals_motivation": "Desperate for relief; previously tried hearing aids without success but willing to try again."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-06-12",
+      "setting": "Tinnitus Clinic",
+      "history": {
+        "present_illness": "Patient reports disabling tinnitus perceived as a whistling in the center of the head. He is severely distressed and admits to being depressed.",
+        "otologic_history": "Previous head injury with loss of consciousness in a traffic accident.",
+        "noise_exposure_history": "Long history of artillery noise exposure in the military for over 20 years without hearing protection.",
+        "medical_psych_history": "General physical health is good. Appears depressed and anxious. Prescribed Zopiclone (3.5 mg) for sleep.",
+        "prior_management": "Seen several ENT specialists with minimal benefit. Previously tried hearing aids with no appreciable improvement.",
+        "patient_goals": "Relief from tinnitus; improvement in sleep."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 67.1"
+          ],
+          "key_findings": "Bilateral symmetrical mild to severe high-frequency sensorineural hearing loss at 3000 to 8000 Hz. Hearing is within normal limits from 250 to 2000 Hz.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "250-2000Hz: <15 dB HL; 3000Hz: 40 dB; 4000Hz: 55 dB; 6000Hz: 65 dB; 8000Hz: 70 dB",
+            "Left_Ear_Thresholds": "250-2000Hz: <15 dB HL; 3000Hz: 45 dB; 4000Hz: 60 dB; 6000Hz: 70 dB; 8000Hz: 75 dB"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Type A bilaterally (normal middle ear pressure, compliance, and ear canal volume).",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not completed because the patient reported no difficulty hearing.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tinnitus Handicap Inventory (THI)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Indicates severe handicap.",
+          "numeric_results": {
+            "Total_Score": "72%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Tinnitus Clinic",
+      "history": {
+        "present_illness": "Patient reported some relief from a bedside digital environmental sound generator provided at the previous visit (enabled easier sleep), but still experiencing disabling tinnitus.",
+        "prior_management": "Counseling provided on tinnitus mechanisms. Sound enrichment devices issued.",
+        "patient_goals": "Further relief via amplification."
+      },
+      "tests": [
+        {
+          "name": "Hearing Aid Fitting",
+          "timepoint_label": "Treatment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Fitted with bilateral digital BTE hearing aids with slim-tubes and open domes. Two programs created.",
+          "numeric_results": {
+            "Program_1_Strategy": "Tinnitus relief: Maximize audibility of soft sounds (compression kneepoint ~40 dB SPL), Noise Reduction OFF, Omnidirectional mic.",
+            "Program_2_Strategy": "Speech recognition: NAL-NL1 targets, Noise Reduction ON, Adaptive Directionality ON."
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity through 2000 Hz, sloping to a severe high-frequency sensorineural hearing loss bilaterally. Despite the high-frequency loss, the patient reports no subjective hearing difficulty in quiet or with TV/phone. The primary audiologic issue is severe, disabling tinnitus (THI 72%) associated with the region of hearing loss.",
+  "counseling_points": [
+    "Even though you feel you hear well at home, your high-frequency hearing loss deprives your brain of environmental sound stimulation, which can make the tinnitus seem louder ('starkness' of tinnitus).",
+    "Hearing aids can provide sound enrichment to reduce the contrast between the tinnitus and the background, making the ringing less intrusive.",
+    "We have set up a specific 'quiet' program that amplifies very soft sounds (like the hum of a fridge or fan) to help mask the tinnitus, with noise reduction turned off so you can hear those soothing background noises.",
+    "A second program is available for noisy situations where you need to focus on speech clarity.",
+    "Using sound generators at night (like the sound of the sea) can help distract your brain and improve sleep."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is visibly distressed, agitated, and depressed.",
+    "Insist that your hearing is fine—you hear the TV and doorbell perfectly well. Your problem is the noise in your head, not hearing loss.",
+    "Express skepticism about hearing aids because you tried them before and they didn't help.",
+    "You are desperate for relief; the tinnitus is 'destroying your life'."
+  ]
+}

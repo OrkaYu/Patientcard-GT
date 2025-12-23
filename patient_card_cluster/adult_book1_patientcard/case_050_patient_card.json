@@ -1,0 +1,227 @@
+{
+  "case_id": "case_50",
+  "title": "Evaluation of a Fully Implantable Hearing Device",
+  "demographics": {
+    "age_years": 57,
+    "sex": "female",
+    "primary_language": "Cantonese",
+    "country_region": null
+  },
+  "chief_complaint": "I am unhappy with the appearance and inconvenience of my current behind-the-ear hearing aids. The sound quality is only fair, I get occasional feedback, and I am very interested in a fully implantable device.",
+  "problem_summary": {
+    "onset": "Diagnosed with otosclerosis at age 33.",
+    "course": "Underwent unsuccessful stapedectomy at age 33; hearing deteriorated over time. History of multiple hearing aid fittings (Widex BTE, Phonak ITC, Beltone BTE).",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Occasional feedback with current aids, cosmetic concerns.",
+    "functional_impact": "Moderately severe to severe mixed hearing loss affecting speech reception; significant cosmetic dissatisfaction.",
+    "goals_motivation": "Desires a fully implantable hearing device (FIHD) primarily for cosmetic reasons and convenience."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2008-01-25",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presents for evaluation of candidacy for a Fully Implantable Hearing Device (FIHD). Currently wears bilateral Beltone M75 BTEs fit in 2007.",
+        "otologic_history": "Otosclerosis diagnosed at age 33; unsuccessful stapedectomy. Scarring on the incus noted.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Medical examination including MRI and CT revealed no contraindications for FIHD.",
+        "prior_management": "Widex BTE (age 33), Phonak ITC (10 years later), Beltone M75 BTE (2007). Verified with REMs.",
+        "patient_goals": "Improve cosmetics and convenience; eliminate feedback."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 50.1"
+          ],
+          "key_findings": "Bilateral moderately severe to severe mixed hearing loss. Significant air-bone gaps at 500-4000 Hz. Decreased bone conduction thresholds.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 50.1"
+          ],
+          "key_findings": "Word Recognition Scores (WRS) of 100% bilaterally at 100 dB HL presentation level.",
+          "numeric_results": {
+            "WRS_Right": "100%",
+            "WRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 50.1"
+          ],
+          "key_findings": "Type B tympanograms bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Absent ipsilateral and contralateral reflexes at 500 to 4000 Hz bilaterally, supporting conductive component.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 50.1"
+          ],
+          "key_findings": "Cantonese Hearing in Noise Test (CHINT). Aided performance with bilateral M75 BTEs.",
+          "numeric_results": {
+            "Aided_SRT_Quiet": "50.3 dB HL",
+            "Aided_SRT_Noise": "2.0 dB SNR",
+            "Aided_SRS_Quiet": "98.0%",
+            "Aided_SRS_Noise": "82.6%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Self-report scales with current M75 hearing aids.",
+          "numeric_results": {
+            "APHAB_Global_Score": "37",
+            "SADL_Satisfaction": "3.75"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2009-03-27",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "1-year post-activation follow-up. Patient received Otologics Carina FIHD in the Right ear; continues to use M75 BTE in the Left ear.",
+        "otologic_history": "Transducer placed on round window membrane due to incus scarring.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "FIHD implanted 4 years prior to case report writing (data reflects 1-year post-op).",
+        "patient_goals": "Assess benefit of FIHD."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 50.4"
+          ],
+          "key_findings": "No significant change in unaided hearing thresholds compared to pre-op.",
+          "numeric_results": null
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "soundfield",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 50.5"
+          ],
+          "key_findings": "Aided thresholds (Right FIHD + Left M75) show significant improvement over unaided, but did not improve below 30 dB HL at 500-4000 Hz due to microphone noise floor.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 50.1"
+          ],
+          "key_findings": "Performance with Right FIHD + Left M75. Results comparable to pre-op bilateral BTEs (no significant difference).",
+          "numeric_results": {
+            "Aided_SRT_Quiet": "51.8 dB HL",
+            "Aided_SRT_Noise": "1.7 dB SNR",
+            "Aided_SRS_Quiet": "98.0%",
+            "Aided_SRS_Noise": "84.5%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 50.6"
+          ],
+          "key_findings": "Self-report scales show significant improvement in satisfaction and benefit compared to pre-op, despite similar objective scores.",
+          "numeric_results": {
+            "APHAB_Global_Rating": "80 (>95th percentile)",
+            "SADL_Global_Score": "5.25 (>80th percentile)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient has a stable bilateral moderately severe to severe mixed hearing loss. Objective testing reveals that performance with the Fully Implantable Hearing Device (FIHD) in the right ear combined with a conventional aid in the left is statistically equivalent to her previous bilateral conventional hearing aids (SRT and SRS scores are nearly identical). However, aided thresholds with the FIHD are limited to a floor of approximately 30 dB HL due to internal device noise. Despite similar objective performance, subjective validation measures (APHAB, SADL) show a dramatic improvement in patient satisfaction and perceived benefit.",
+  "counseling_points": [
+    "Your objective hearing tests show that the implant provides similar speech understanding to your previous hearing aids.",
+    "The 'floor' of your hearing with the implant is around 30 dB because of the microphone noise, which is expected.",
+    "Although the test numbers are similar, your self-reports indicate you are much happier with the implant's comfort and sound quality.",
+    "It is important to continue monitoring the device, as fully implantable technology carries risks like device failure or extrusion.",
+    "Please remember that for MRI scans, specific protocols must be followed regarding the implant."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is technically 'hearing' the same amount but feels much better about the device.",
+    "Emphasize the cosmetic relief and the lack of 'occlusion' or feedback compared to the old hearing aids.",
+    "You are sophisticated about your hearing loss, having worn aids for over 20 years."
+  ]
+}

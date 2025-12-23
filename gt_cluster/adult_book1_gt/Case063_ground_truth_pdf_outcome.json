@@ -1,0 +1,105 @@
+{
+  "case_id": "Case063",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Symmetrical hearing loss sloping from mild/moderate to profound, likely of genetic etiology, with significant functional deficits in noise."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess unaided word recognition ability."
+      },
+      {
+        "action": "Speech audiometry (HINT)",
+        "urgency": "routine",
+        "rationale_short": "To assess aided sentence recognition in quiet (initial standard protocol)."
+      },
+      {
+        "action": "Speech audiometry (MSTB Revised)",
+        "urgency": "routine",
+        "rationale_short": "To assess aided speech recognition using more ecologically valid stimuli (AzBio, CNC) for CI candidacy."
+      },
+      {
+        "action": "Speech-in-noise (BKB-SIN)",
+        "urgency": "routine",
+        "rationale_short": "To assess signal-to-noise ratio loss and speech understanding in noise."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrated bilateral symmetrical sensorineural hearing loss. While initial aided testing with HINT sentences in quiet yielded high scores (69-88%) that technically exceeded FDA candidacy criteria, further evaluation with the revised MSTB (AzBio, CNC, BKB-SIN) revealed significant deficits in speech understanding and severe SNR loss. These more rigorous measures confirmed the patient was a candidate for cochlear implantation.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical SNHL; Right mild sloping to profound, Left moderate sloping to profound. No measurable hearing >3 kHz (Right) or >2 kHz (Left)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "Unaided NU-6 WRS at 85 dB HL: 36% Right, 28% Left."
+          },
+          {
+            "name": "Speech audiometry (HINT)",
+            "category": "Speech",
+            "result_summary": "Aided in quiet: 69% Right, 64% Left, 88% Bilateral. Scores suggested non-candidacy due to ceiling effects."
+          },
+          {
+            "name": "Speech audiometry (MSTB Revised)",
+            "category": "Speech",
+            "result_summary": "Aided AzBio in quiet: 45% Right, 36% Left, 54% Bilateral. Aided CNC Words: 20% Right, 0% Left, 4% Bilateral. Aided CNC Phonemes: 47% Right, 21% Left, 33% Bilateral."
+          },
+          {
+            "name": "Speech-in-noise (BKB-SIN)",
+            "category": "Speech",
+            "result_summary": "Aided SNR Loss: 20 dB Right (Severe), 22 dB Left (Severe), 17 dB Bilateral (Severe)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Cochlear implantation (Right ear)",
+      "Bimodal listening (CI on Right, HA on Left)",
+      "Continued use of FM system"
+    ],
+    "counseling_actions": [
+      "Explain the discrepancy between HINT scores (ceiling effect) and MSTB results (demonstrating true difficulty)",
+      "Discuss CI candidacy based on the more rigorous MSTB testing",
+      "Recommend Right ear for implantation due to history of Left facial paralysis",
+      "Counsel on the benefits of bimodal listening for speech in noise and music appreciation"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Cochlear Implant Surgeon",
+      "rationale_short": "Patient meets CI candidacy criteria based on revised MSTB testing."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-operative",
+    "objective": "Activation of cochlear implant and assessment of speech recognition outcomes."
+  },
+  "expected_outcome": [
+    "Aided CNC Words (Post-op): Right 60%, Left 36%, Bimodal 88%.",
+    "Aided AzBio in Quiet (Post-op): Right 97%, Left 42%, Bimodal 96%.",
+    "Aided AzBio +10 SNR (Post-op): Bimodal 92%.",
+    "Aided AzBio +5 SNR (Post-op): Right 21%, Bimodal 57%.",
+    "Aided BKB-SIN (Post-op): Right 12.5 dB (Moderate), Bimodal 5.5 dB (Mild).",
+    "Patient reported significant improvement in speech recognition in noise and continues to use FM system in complex environments."
+  ]
+}

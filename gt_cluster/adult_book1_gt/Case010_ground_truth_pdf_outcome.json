@@ -1,0 +1,150 @@
+{
+  "case_id": "Case010",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Superior Semicircular Canal Dehiscence (SSCD)",
+      "rationale_short": "Confirmed by CT; supported by Tullio phenomenon, autophony, low-frequency air-bone gaps with present acoustic reflexes, and enlarged SP/AP ratios on ECoG."
+    },
+    {
+      "rank": 2,
+      "label": "Ménière's Disease",
+      "rationale_short": "Previously diagnosed due to fullness/imbalance and enlarged ECoG, but ruled out by non-fluctuating symptoms, presence of third-window signs, and CT findings."
+    },
+    {
+      "rank": 3,
+      "label": "Otosclerosis",
+      "rationale_short": "Considered due to air-bone gaps, but ruled out by presence of acoustic reflexes and hypersensitive bone conduction."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess degree and type of hearing loss given complaints of pressure and hearing difficulty."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech understanding and validate pure-tone thresholds."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and rule out common conductive pathologies."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To differentiate between ossicular fixation (absent reflexes) and third-window lesions (present reflexes)."
+      },
+      {
+        "action": "Electrocochleography (ECoG)",
+        "urgency": "routine",
+        "rationale_short": "To assess for endolymphatic hydrops or third-window indicators (enlarged SP/AP ratio)."
+      },
+      {
+        "action": "Vestibular Evaluation",
+        "urgency": "routine",
+        "rationale_short": "To evaluate vestibular function given complaints of constant imbalance and Tullio phenomenon."
+      },
+      {
+        "action": "Spiral CT Scan",
+        "urgency": "routine",
+        "rationale_short": "To visualize temporal bone anatomy and confirm dehiscence of the superior semicircular canal."
+      },
+      {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid fitting to prescriptive targets."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Comprehensive evaluation revealed bilateral mixed hearing loss with significant low-frequency air-bone gaps. Paradoxically, acoustic reflexes were preserved and tympanometry was normal, strongly suggesting a third-window lesion rather than middle ear pathology. ECoG showed enlarged SP/AP ratios bilaterally, and CT imaging confirmed bilateral Superior Semicircular Canal Dehiscence.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right mild-to-moderate mixed loss; Left slight-to-mild mixed sloping to moderate-severe loss. Significant low-frequency air-bone gaps (15-20 dB Right, 30 dB Left at 250 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs 33 dB HL (Right) and 28 dB HL (Left); WRS excellent (96% Right, 100% Left)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral reflexes present and normal bilaterally; contralateral reflexes mostly normal."
+          },
+          {
+            "name": "Electrocochleography (ECoG)",
+            "category": "Electrophysiology",
+            "result_summary": "Enlarged SP/AP amplitude ratios bilaterally (Right 0.76, Left 0.71)."
+          },
+          {
+            "name": "Vestibular Evaluation",
+            "category": "Vestibular",
+            "result_summary": "Normal VOG, calorics, and rotary chair. CDP showed decreased vestibular utilization (falls on SOT 5 & 6)."
+          },
+          {
+            "name": "Spiral CT Scan",
+            "category": "Imaging",
+            "result_summary": "Confirmed dehiscence of the superior semicircular canal bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Patient returned for hearing aid fitting on the left ear. Verification was performed to ensure audibility without exceeding loudness tolerance, given the patient's sensitivity to loud sounds.",
+        "tests": [
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Verified 15-channel digital BTE to NAL-NL1 targets at 50, 65, and 80 dB SPL inputs."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Myringotomy and tube placement (offered)",
+      "Sound-attenuating ear plugs (offered)",
+      "Middle fossa approach for superior canal plugging (offered)",
+      "Hearing aid trial (left ear)"
+    ],
+    "counseling_actions": [
+      "Explained that symptoms are caused by SSCD (bone thinning) rather than Ménière's disease",
+      "Clarified that the 'hearing gap' is due to hypersensitive bone conduction, not middle ear dysfunction",
+      "Discussed surgical versus non-surgical management options",
+      "Counseled on hearing aid use, specifically regarding volume and potential eye movement triggers with loud sounds",
+      "Recommended annual monitoring of hearing and balance"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "For annual follow-up and monitoring of bilateral SSCD status."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 year",
+    "objective": "Audiological and otological monitoring."
+  },
+  "expected_outcome": [
+    "Patient elected not to undergo medical or surgical treatment.",
+    "Patient purchased a hearing aid for the left ear but returned it approximately 2 weeks later.",
+    "Patient did not wear the hearing aid."
+  ]
+}

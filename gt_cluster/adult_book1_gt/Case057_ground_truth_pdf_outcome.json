@@ -1,0 +1,114 @@
+{
+  "case_id": "Case057",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right Profound Sensorineural Hearing Loss (Single-Sided Deafness)",
+      "rationale_short": "Patient presents with stable profound hearing loss on the right side following a head injury, with normal hearing on the left. Audiometry confirms profound SNHL on the right and normal sensitivity on the left."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To inspect the ear canals and tympanic membranes for any abnormalities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the reflex arc and check for retrocochlear pathology."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition thresholds and word recognition abilities."
+      },
+      {
+        "action": "Real Ear Measures",
+        "urgency": "routine",
+        "rationale_short": "To verify the CROS fitting by matching the output to the open ear response of the better ear."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Diagnostic testing revealed normal hearing in the left ear and a profound sensorineural hearing loss in the right ear, consistent with single-sided deafness post-trauma. Middle ear function was normal bilaterally. Due to the severity of the right-sided loss and normal left hearing, the patient was identified as a candidate for a CROS system. Fitting was verified using Real Ear Measures to ensure acoustic transparency on the better ear.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Unremarkable bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanic membrane performance bilaterally (Type A)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent with Right ear stimulation; Present/Normal with Left ear stimulation."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear: Normal hearing (0-10 dB HL). Right ear: Profound SNHL (95-110 dB HL at 250-2000 Hz; No Response at 4000-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear: SRT 15 dB HL, WRS 100% at 55 dB HL. Right ear: Could Not Test due to severity of loss."
+          },
+          {
+            "name": "Other",
+            "category": "Verification",
+            "result_summary": "Real Ear Measures (REM) for CROS fitting. Initial fit exceeded REUR by ~10 dB at 1500-6000 Hz (sounded tinny); adjusted to match REUR target."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit conventional wireless CROS system (BTE transmitter on right, receiver on left).",
+      "Use open-fit coupling (slim tube with open dome) on the better (left) ear to avoid occlusion.",
+      "Verify fitting using Real Ear Measures (REM) to match the Real Ear Unaided Response (REUR) of the better ear (acoustic transparency)."
+    ],
+    "counseling_actions": [
+      "Explain that CROS improves awareness of sounds from the 'bad' side but does not restore localization ability.",
+      "Advise that CROS does not restore binaural processing (squelch effect), so difficulty in noise may persist.",
+      "Counsel on using visual cues and strategic positioning in noisy environments.",
+      "Discuss reducing gain or deactivating the transmitter in specific noise situations where noise originates on the poorer ear side."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology Clinic",
+      "rationale_short": "Patient is already under medical care (referred by physician); audiological management of single-sided deafness is the primary goal."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "30-day trial",
+    "objective": "Evaluate benefit of CROS system, assess performance in various listening environments, and validate fitting."
+  },
+  "expected_outcome": [
+    "Patient reported benefit from CROS due to increased ability to hear sounds occurring all around her.",
+    "Listening in the car became less frustrating due to improved ability to hear passengers on the right.",
+    "Localization of sound continued to present difficulties; patient relied on visual scanning.",
+    "Occasional difficulty reported in noisy environments, particularly if non-desired signals were on the poorer ear side.",
+    "Patient found sufficient overall benefit to continue using the CROS system."
+  ]
+}

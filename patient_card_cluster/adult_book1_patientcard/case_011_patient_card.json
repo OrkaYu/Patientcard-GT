@@ -1,0 +1,269 @@
+{
+  "case_id": "case_11",
+  "title": "Gamma Knife Treatment for Acoustic Tumor",
+  "demographics": {
+    "age_years": 51,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have noticed hearing loss for several years and I hear ringing in both ears.",
+  "problem_summary": {
+    "onset": "Several years prior to initial evaluation.",
+    "course": "Progressive, particularly in the right ear.",
+    "laterality": "Bilateral initially, becoming asymmetric (Right worse than Left).",
+    "associated_symptoms": "Bilateral tinnitus; later developed slight imbalance.",
+    "functional_impact": "Difficulty communicating, requiring amplification.",
+    "goals_motivation": "Evaluation prompted by family history of hearing loss."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2001-11-18",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reported hearing loss for several years and bilateral tinnitus.",
+        "otologic_history": "Mother had hearing loss. Otherwise negative otologic history.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "None.",
+        "patient_goals": "Diagnostic evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.1"
+          ],
+          "key_findings": "Mild to moderate bilateral sensorineural hearing loss through 2000 Hz, rising to slight loss at 3000-4000 Hz. Asymmetry noted in high frequencies (Right worse at 6-8 kHz).",
+          "numeric_results": {
+            "RE_thresholds": "Moderate loss at 6000 Hz, moderately severe at 8000 Hz.",
+            "LE_thresholds": "Slight loss at 6000 Hz, mild loss at 8000 Hz."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.1"
+          ],
+          "key_findings": "Speech recognition thresholds (SRT) consistent with pure tones. Word recognition scores (WRS) within normal limits bilaterally.",
+          "numeric_results": {
+            "RE_WRS": "96% at 70 dB HL",
+            "LE_WRS": "96% at 70 dB HL",
+            "RE_SRT": "40 dB HL",
+            "LE_SRT": "37 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.1"
+          ],
+          "key_findings": "Normal tympanograms (Type A).",
+          "numeric_results": {
+            "RE_pressure": "0 daPa",
+            "LE_pressure": "0 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Ipsilateral and contralateral thresholds within normal limits. Reflex decay negative.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2005-11-05",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned 3-4 years later reporting progression of hearing loss in the right ear and slight imbalance. No vertigo.",
+        "otologic_history": "Recent sinus infection reported.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Monitoring.",
+        "patient_goals": "Re-evaluation due to subjective change."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.2"
+          ],
+          "key_findings": "Left ear stable. Right ear shows significant decrease in air conduction thresholds. Slight conductive component (15-20 dB) at 250-1000 Hz in Right Ear.",
+          "numeric_results": {
+            "RE_change": "Decrease noted at all frequencies.",
+            "LE_thresholds": "Essentially unchanged."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.2"
+          ],
+          "key_findings": "Left WRS normal. Right WRS slightly impaired at 90 dB HL and moderately impaired at 100 dB HL (rollover not significant).",
+          "numeric_results": {
+            "RE_WRS": "80% at 90 dB HL, 64% at 100 dB HL",
+            "LE_WRS": "92% at 80 dB HL",
+            "RE_SRT": "65 dB HL",
+            "LE_SRT": "38 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.2"
+          ],
+          "key_findings": "Right ear negative pressure (-140 daPa) likely causing low-frequency air-bone gaps. Left ear normal.",
+          "numeric_results": {
+            "RE_pressure": "-140 daPa",
+            "LE_pressure": "-5 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.2"
+          ],
+          "key_findings": "Right contralateral reflexes elevated at 500 and 2000 Hz. Positive acoustic reflex decay at 1000 Hz in the Right Ear.",
+          "numeric_results": {
+            "RE_decay": "Positive at 1000 Hz"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2011-03-24",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 6 years post-Gamma Knife treatment.",
+        "otologic_history": "Diagnosed with right acoustic tumor (vestibular schwannoma) after V2. Underwent Gamma Knife radiosurgery approx 5 months after V2. Serial MRIs showed tumor stability.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Gamma Knife radiation. Fit with Left BTE hearing aid initially. Later fit with BiCROS system.",
+        "patient_goals": "Monitoring post-treatment."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-treatment (6 years)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.3"
+          ],
+          "key_findings": "Right ear progressed to severe-to-profound sensorineural hearing loss. Left ear thresholds remained stable.",
+          "numeric_results": {
+            "RE_thresholds": "Severe to profound (e.g., 250Hz ~70dB, 1kHz ~85dB)",
+            "LE_thresholds": "Stable relative to baseline"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-treatment (6 years)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.3"
+          ],
+          "key_findings": "Right ear WRS very poor. Left ear WRS slightly impaired.",
+          "numeric_results": {
+            "RE_WRS": "18% at 95 dB HL",
+            "LE_WRS": "84% at 85 dB HL",
+            "RE_SRT": "88 dB HL",
+            "LE_SRT": "48 dB HL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "All right ipsilateral and contralateral reflexes absent (noted in text during interim follow-up).",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient initially presented with mild-to-moderate bilateral high-frequency sensorineural hearing loss. Over a 10-year period, the left ear remained stable, while the right ear demonstrated significant progressive loss, eventually becoming severe-to-profound following Gamma Knife treatment for a vestibular schwannoma. Word recognition in the right ear deteriorated from normal (96%) to very poor (18%), consistent with retrocochlear pathology.",
+  "counseling_points": [
+    "The MRI confirmed a small acoustic tumor on your right hearing nerve, which explains the difference in hearing between your ears.",
+    "Gamma Knife radiation has stabilized the tumor growth, but as often happens, the hearing on that side has continued to decline.",
+    "Because your right ear can no longer understand speech clearly, a standard hearing aid on that side won't help.",
+    "We recommend a BiCROS system: a microphone on your right ear will wirelessly send sound to a hearing aid in your better left ear, helping you hear people on your bad side."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is initially unconcerned about the asymmetry but becomes worried as the right ear deteriorates.",
+    "In the final visit, express frustration with hearing on the right side but satisfaction with the BiCROS solution if asked about current management.",
+    "Report imbalance only during the second visit (V2)."
+  ]
+}

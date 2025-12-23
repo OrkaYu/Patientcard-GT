@@ -1,0 +1,216 @@
+{
+  "case_id": "case_65",
+  "title": "FM Technology Improves Quality of Life",
+  "demographics": {
+    "age_years": 23,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have hearing loss, constant ringing in my right ear, and difficulty hearing in both quiet and noise. I also feel dizzy, have trouble remembering things, and find it nearly impossible to concentrate in my college classes.",
+  "problem_summary": {
+    "onset": "Began during military service (2008-2011) following multiple blast exposures (IEDs).",
+    "course": "Persistent symptoms post-discharge; currently affecting academic and social life.",
+    "laterality": "Right ear worse (hearing/tinnitus); Bilateral functional difficulty.",
+    "associated_symptoms": "Tinnitus (right), dizziness/imbalance, memory loss, concentration difficulties, sleep problems, PTSD.",
+    "functional_impact": "Distracted by whispers/reverberation in lecture halls; fatigue and frustration in noisy restaurants/bars; strain on relationship with wife.",
+    "goals_motivation": "Wants to succeed in college (first-time undergrad) and improve communication with wife and friends."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "VA Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is a Marine Corp veteran (OIF/OEF). Reports hearing/memory difficulties began during second tour. Now struggling in college lectures and social settings.",
+        "otologic_history": "History of ~5 blast injuries. Worst incident: IED to right side while on foot, causing disorientation, right ear tinnitus, and headache. Two vehicle IED blasts causing dazed feeling. No hearing protection used.",
+        "noise_exposure_history": "Combat blast exposures; no hearing protection used during deployment.",
+        "medical_psych_history": "Diagnosed with PTSD. Probable mild traumatic brain injury (mTBI).",
+        "prior_management": "None reported prior to this VA appointment.",
+        "patient_goals": "Address hearing loss, tinnitus, and dizziness."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 65.1"
+          ],
+          "key_findings": "Right ear: Normal 250-3000 Hz, mild-to-moderate SNHL 4000-8000 Hz. Left ear: Normal 250-8000 Hz with slight dip at 6000 Hz.",
+          "numeric_results": {
+            "RE_4000Hz": "45 dB HL",
+            "RE_6000Hz": "55 dB HL",
+            "RE_8000Hz": "50 dB HL",
+            "LE_6000Hz": "25 dB HL",
+            "PTA_Right": "7 dB",
+            "PTA_Left": "3 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 65.1"
+          ],
+          "key_findings": "SRTs in agreement with PTA. Word recognition scores excellent bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "7 dB",
+            "SRT_Left": "3 dB",
+            "WRS_Right": "100% (at 50 dB HL)",
+            "WRS_Left": "100% (at 45 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 65.1"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "RE_Volume": "1.0 mL",
+            "LE_Volume": "0.9 mL",
+            "RE_Pressure": "-10 daPa",
+            "LE_Pressure": "10 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 65.1"
+          ],
+          "key_findings": "Present at expected levels 500-4000 Hz. No decay at 500 or 1000 Hz.",
+          "numeric_results": {
+            "RE_500Hz_Ipsi": "85 dB",
+            "LE_500Hz_Ipsi": "80 dB"
+          }
+        },
+        {
+          "name": "Vestibular Evaluation",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Left peripheral weakness revealed by rotational chair and calorics. Diagnosed with Left Benign Paroxysmal Positional Vertigo (BPPV).",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "VA Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up for functional hearing assessment due to persistent complaints despite near-normal peripheral hearing.",
+        "otologic_history": "Previous vestibular issues (BPPV) effectively treated with canalith repositioning.",
+        "noise_exposure_history": "Unchanged.",
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "BPPV treated. Tinnitus management offered but declined (patient stated not bothersome enough).",
+        "patient_goals": "Address difficulty understanding speech in noise and classroom settings."
+      },
+      "tests": [
+        {
+          "name": "Performance Perceptual Test (PPT)",
+          "timepoint_label": "Functional Assessment",
+          "ear": "binaural",
+          "condition": "soundfield",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Actual speech recognition in noise was poorer than age-appropriate norms. Patient accurately judges his difficulty (low PPDIS).",
+          "numeric_results": {
+            "Actual_Binaural_SNR": "13.7 dB",
+            "Perceived_Binaural_SNR": "14.0 dB",
+            "PPDIS": "0.7 dB"
+          }
+        },
+        {
+          "name": "Adaptive Test of Temporal Resolution (ATTR)",
+          "timepoint_label": "Functional Assessment",
+          "ear": "binaural",
+          "condition": "soundfield",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Gap detection thresholds within normal limits.",
+          "numeric_results": {
+            "Gap_Detection_Threshold": "3.26 ms"
+          }
+        },
+        {
+          "name": "Time Compressed Sentences Test (TCST)",
+          "timepoint_label": "Functional Assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal processing of rapid speech.",
+          "numeric_results": {
+            "Accuracy_50_percent_compression": "100%",
+            "Accuracy_60_percent_compression": "100%"
+          }
+        },
+        {
+          "name": "Staggered Spondaic Word (SSW)",
+          "timepoint_label": "Functional Assessment",
+          "ear": "bilateral",
+          "condition": "dichotic",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal binaural separation and interhemispheric transfer.",
+          "numeric_results": {
+            "Accuracy": "100%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the left ear and a mild-to-moderate high-frequency sensorineural hearing loss in the right ear, consistent with blast exposure. While standard word recognition in quiet is excellent (100%), functional testing reveals a specific deficit in speech-in-noise performance (PPT) that is poorer than norms. Other central auditory processing skills (temporal resolution, rapid speech, dichotic listening) are intact. Vestibular testing identified left BPPV, which was treated.",
+  "counseling_points": [
+    "Your hearing test shows high-frequency hearing loss in your right ear, likely from the blast exposure, while your left ear is within normal limits.",
+    "Although you understand speech well in quiet rooms, our functional testing confirms you have significant difficulty hearing in background noise, which explains your struggles in lecture halls and restaurants.",
+    "We recommend a personal FM system (Phonak iSense) to help bring the lecturer's voice directly to your ears, bypassing the noise and echo in the classroom.",
+    "We also recommend computerized auditory training (Brain Fitness Program) to help strengthen your brain's ability to process sound.",
+    "It is critical to use hearing protection in noisy environments to prevent further damage to your hearing."
+  ],
+  "notes_for_actor": [
+    "Portray a young veteran who is motivated to succeed in college but frustrated by concentration issues.",
+    "You should express guilt about your wife thinking you are ignoring her when you actually just can't hear/process the speech.",
+    "You have a history of PTSD and mTBI; you may appear slightly anxious or intense but are cooperative.",
+    "Mention that the ringing in your right ear is constant but you can ignore it; your main focus is the difficulty hearing in class."
+  ]
+}

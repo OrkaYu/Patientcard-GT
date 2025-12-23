@@ -1,0 +1,111 @@
+{
+  "case_id": "Case055",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sensorineural Hearing Loss",
+      "rationale_short": "Bilateral precipitous high-frequency hearing loss consistent with history of noise exposure and presbycusis."
+    },
+    {
+      "rank": 2,
+      "label": "Eustachian Tube Dysfunction",
+      "rationale_short": "Negative middle ear pressure (-105 daPa) and slight mixed component in the left ear."
+    },
+    {
+      "rank": 3,
+      "label": "Inadequate Hearing Aid Fitting",
+      "rationale_short": "Real Ear Measures revealed significant under-amplification compared to NAL-NL1 targets, explaining the patient's difficulty in noise."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds following Otovent treatment."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status and Eustachian tube function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the auditory pathway and middle ear function."
+      },
+      {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid performance and insertion gain against prescriptive targets."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiological evaluation reveals bilateral precipitous high-frequency sensorineural hearing loss, with a slight mixed component and negative pressure in the left ear. Word recognition is excellent. Verification of the patient's current hearing aids via Real Ear Measures demonstrates minimal insertion gain compared to NAL-NL1 targets, confirming significant under-amplification in the high frequencies which correlates with the patient's complaints.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal 250-1000 Hz, precipitous drop to moderate/mod-severe SNHL 1500-8000 Hz. Left ear: Normal 250 Hz, slight mixed loss 500-1000 Hz, precipitous drop to moderate/mod-severe SNHL 1500-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs consistent with PTA (RE 15 dB, LE 25 dB). Word recognition scores excellent (92% bilaterally)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear normal (Type A). Left ear negative pressure (-105 daPa)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "RE Ipsi normal 500-2k, absent 4k. LE Ipsi elevated/absent. Contralateral reflexes largely absent or elevated."
+          },
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Verification",
+            "result_summary": "Minimal insertion gain bilaterally compared to NAL-NL1 targets. Significant under-amplification in high frequencies (1000-6000 Hz). Large REUG noted."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to original dispensing professional for hearing aid reprogramming",
+      "Hearing Assistive Technology (HAT) discussion"
+    ],
+    "counseling_actions": [
+      "Explained that current hearing aids are providing insufficient high-frequency amplification compared to prescription",
+      "Discussed the difference between manufacturer 'First-Fit' settings and verified targets",
+      "Provided copy of REM results and instructions for the retailer to reprogram the aids",
+      "Counseled on the option of obtaining new hearing aids versus reprogramming current ones"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Dispensing professional",
+      "rationale_short": "Patient requires reprogramming of hearing aids using proprietary software available at the original retailer."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Two weeks",
+    "objective": "Return to otologist for review of CT scan and middle ear status; return to retailer for hearing aid adjustment."
+  },
+  "expected_outcome": [
+    "CT scan: Normal, except for slight fluid in the right mastoid.",
+    "Medical examination: No longer had retracted tympanic membranes or fluid behind his right eardrum.",
+    "Hearing aid management: Patient reported he was working with the dispensing professional at the large retail chain to have his hearing aids reprogrammed to a more appropriate level."
+  ]
+}

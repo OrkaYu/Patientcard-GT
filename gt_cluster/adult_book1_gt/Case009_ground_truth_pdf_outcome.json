@@ -1,0 +1,130 @@
+{
+  "case_id": "Case009",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Otosclerosis",
+      "rationale_short": "Bilateral mixed hearing loss with Carhart notch at 2000 Hz, absent acoustic reflexes despite normal tympanograms, and Schwartze signs on otoscopy."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-Induced Hearing Loss",
+      "rationale_short": "History of occupational noise exposure explains some sensorineural loss but not the conductive component, Carhart notch, or absent reflexes."
+    },
+    {
+      "rank": 3,
+      "label": "Otitis Media",
+      "rationale_short": "Patient attributed loss to recent infections, but ruled out by normal Type A tympanograms."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition thresholds and word recognition scores."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and rule out otitis media."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and check for stapes fixation."
+      },
+      {
+        "action": "Microscopic otoscopy",
+        "urgency": "soon",
+        "rationale_short": "To visualize the tympanic membrane for signs of otosclerosis (Schwartze sign)."
+      },
+      {
+        "action": "CT scan",
+        "urgency": "soon",
+        "rationale_short": "To evaluate the temporal bone and confirm otosclerosis or rule out other pathologies."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiological evaluation reveals bilateral symmetric mixed hearing loss with a characteristic Carhart notch at 2000 Hz. Despite normal tympanograms, acoustic reflexes are absent, strongly suggesting otosclerosis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetric moderate rising to mild mixed hearing loss (250-3000 Hz), sloping to moderate conductive loss at 4000 Hz. Carhart notch present at 2000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs align with pure tone averages (45 dB HL). WRS are excellent (100% at 80 dB HL) bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent at 500-4000 Hz for both ipsilateral and contralateral stimulation."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Otologic consultation confirms the diagnosis of otosclerosis through microscopic visualization of Schwartze signs and CT imaging showing questionable oval window otosclerosis.",
+        "tests": [
+          {
+            "name": "Microscopic otoscopy",
+            "category": "Inspection",
+            "result_summary": "Revealed bilateral Schwartze signs (reddish hue on promontory)."
+          },
+          {
+            "name": "CT scan",
+            "category": "Imaging",
+            "result_summary": "Showed no temporal bone abnormalities but questionable oval window otosclerosis."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to otologist for medical/surgical evaluation",
+      "Stapedotomy (left ear selected by patient)",
+      "Hearing protection for noise exposure",
+      "Annual audiological examinations"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of otosclerosis and the mechanism of conductive hearing loss (stapes fixation)",
+      "Discuss management options including surgery (stapedotomy/stapedectomy) versus amplification (hearing aids)",
+      "Advise on the importance of hearing protection given the history of noise exposure",
+      "Discuss the potential for bilateral progression"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist",
+      "rationale_short": "For evaluation of mixed hearing loss and consideration of surgical intervention for otosclerosis."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month and 3 months post-surgery",
+    "objective": "Monitor post-surgical healing, assess hearing improvement, and determine management for the non-surgical ear."
+  },
+  "expected_outcome": [
+    "Left stapedotomy was performed without complications.",
+    "Patient experienced mild initial imbalance post-surgery which subsided by the 1-month follow-up.",
+    "Patient reported marked improvement in hearing in the left ear and declined surgery on the right ear.",
+    "Patient did not return for the 3-month follow-up appointment, so no post-operative audiometric data is available."
+  ]
+}

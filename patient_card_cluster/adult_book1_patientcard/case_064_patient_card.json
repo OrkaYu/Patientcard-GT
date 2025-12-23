@@ -1,0 +1,195 @@
+{
+  "case_id": "case_64",
+  "title": "Novel Use of Speech Recognition Testing for Counseling Cochlear Implant Recipients",
+  "demographics": {
+    "age_years": 76,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am frustrated when listening in background noise. It feels like I perform more poorly on speech recognition with the CI than I did with my bilateral hearing aids before the surgery.",
+  "problem_summary": {
+    "onset": "Progressive postlingual hearing loss for approximately 40 years.",
+    "course": "Implanted 6 months ago; initially good, but recent reported decline in performance.",
+    "laterality": "Bimodal (CI on left ear, Hearing Aid on right ear).",
+    "associated_symptoms": "Frustration in noise, perceived inattention (reported by wife).",
+    "functional_impact": "Difficulty in noisy environments; wife feels he misses what she says.",
+    "goals_motivation": "Highly motivated to improve hearing; attends weekly aural rehabilitation."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Pre-operative Evaluation",
+      "history": {
+        "present_illness": "Evaluation for CI candidacy due to severe sensorineural hearing loss.",
+        "otologic_history": "Progressive postlingual hearing loss (~40 years).",
+        "noise_exposure_history": "Likely related to occupational noise exposure.",
+        "medical_psych_history": "No significant changes mentioned.",
+        "prior_management": "Appropriately fit bilateral Phonak Naida S V SP BTE hearing aids.",
+        "patient_goals": "Improvement in speech recognition."
+      },
+      "tests": [
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "Table 64.1"
+          ],
+          "figure_refs": [
+            "Table 64.1"
+          ],
+          "key_findings": "Severe difficulty with speech recognition. Met FDA criteria for CI.",
+          "numeric_results": {
+            "CNC Words (Right Aided)": "28%",
+            "CNC Words (Left Aided)": "16%",
+            "CNC Words (Bilateral Aided)": "24%",
+            "AzBio Quiet (Right Aided)": "19%",
+            "AzBio Quiet (Left Aided)": "4%",
+            "AzBio Quiet (Bilateral Aided)": "36%"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "Table 64.1"
+          ],
+          "figure_refs": [
+            "Table 64.1"
+          ],
+          "key_findings": "Moderate to severe SNR loss.",
+          "numeric_results": {
+            "BKB-SIN SNR Loss (Right Aided)": "12 dB",
+            "BKB-SIN SNR Loss (Left Aided)": "15 dB",
+            "BKB-SIN SNR Loss (Bilateral Aided)": "13 dB"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (6-month post-op)",
+      "history": {
+        "present_illness": "Patient reports decreased performance in noise and frustration. Wife reports he misses conversation and seems inattentive.",
+        "otologic_history": "Implanted left ear (Cochlear Nucleus Freedom Contour Advance) 6 months ago. Retained HA in right ear.",
+        "noise_exposure_history": "Remote control inspection reveals frequent adjustments in noise.",
+        "medical_psych_history": "No changes.",
+        "prior_management": "Weekly aural rehabilitation. Uses 'Everyday', 'Noise', and 'Focus' programs.",
+        "patient_goals": "Resolve perceived decline in hearing performance."
+      },
+      "tests": [
+        {
+          "name": "Device Inspection",
+          "timepoint_label": "Post-op",
+          "ear": "left",
+          "condition": "device_on",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient had adjusted remote settings significantly. Volume was high (8/9) and Sensitivity was low (7/20). Default sensitivity is typically 12.",
+          "numeric_results": {
+            "Volume Setting": "8 (out of 9)",
+            "Sensitivity Setting": "7 (out of 20)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op (User Settings)",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "Table 64.2"
+          ],
+          "figure_refs": [
+            "Table 64.2"
+          ],
+          "key_findings": "Performance with user-modified settings (Vol 8, Sens 7) was poor. CI-only score (30%) was lower than pre-op bilateral HA score (36%).",
+          "numeric_results": {
+            "AzBio Quiet (CI only)": "30%",
+            "AzBio Quiet (Bimodal)": "42%"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Post-op (User Settings)",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "Table 64.2"
+          ],
+          "figure_refs": [
+            "Table 64.2"
+          ],
+          "key_findings": "Moderate SNR loss with user settings.",
+          "numeric_results": {
+            "BKB-SIN SNR Loss (Everyday Program)": "11 dB",
+            "BKB-SIN SNR Loss (Noise Program)": "8.5 dB",
+            "BKB-SIN SNR Loss (Focus Program)": "5.0 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op (Recommended Settings)",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "Table 64.3"
+          ],
+          "figure_refs": [
+            "Table 64.3"
+          ],
+          "key_findings": "Testing repeated with recommended settings (Volume 5, Sensitivity 12). Dramatic improvement observed.",
+          "numeric_results": {
+            "AzBio Quiet (CI only)": "72%",
+            "AzBio Quiet (Bimodal)": "88%"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Post-op (Recommended Settings)",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "Table 64.3"
+          ],
+          "figure_refs": [
+            "Table 64.3"
+          ],
+          "key_findings": "Significant improvement in SNR loss with recommended settings compared to user settings.",
+          "numeric_results": {
+            "BKB-SIN SNR Loss (Everyday Program)": "6.5 dB",
+            "BKB-SIN SNR Loss (Noise Program)": "3.5 dB",
+            "BKB-SIN SNR Loss (Focus Program)": "0 dB"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient is a bimodal user (CI left, HA right) presenting with subjective decline. Evaluation revealed the patient was using inappropriate device settings (high volume, low sensitivity), which compressed the dynamic range and reduced audibility of soft sounds. When tested with these user settings, performance was poor (30% CI-only in quiet). Restoring recommended settings (Volume 5, Sensitivity 12) resulted in clinically significant improvements in both quiet (72% CI-only) and noise (normal/near-normal SNR loss in Focus program).",
+  "counseling_points": [
+    "Your hearing device settings act like a camera lens; changing the sensitivity too much limits the range of sounds you can hear.",
+    "By lowering the sensitivity to 7, you were cutting off soft speech sounds, which is why you felt you were missing conversation.",
+    "Increasing the volume to 8 caused louder sounds to be compressed, reducing clarity.",
+    "Our testing today proves that returning to the recommended settings (Sensitivity 12, Volume 5) doubles your understanding in quiet and significantly improves your ability to hear in noise.",
+    "Please try to avoid frequent adjustments to the remote control; let the automatic features (SmartSound) manage the environment for you."
+  ],
+  "notes_for_actor": [
+    "Portray a motivated but frustrated patient.",
+    "You should be frequently fiddling with a remote control or mentioning that you adjust it constantly to try to hear better.",
+    "Express disbelief that the implant is working because you feel you heard better with your old hearing aids.",
+    "Your wife (if present or mentioned) complains that you are 'zoning out' or not paying attention, but you feel you just can't hear."
+  ]
+}

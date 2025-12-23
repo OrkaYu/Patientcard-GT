@@ -1,0 +1,191 @@
+{
+  "case_id": "case_59",
+  "title": "Real Ear Measures Were Completed, but...",
+  "demographics": {
+    "age_years": 52,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have difficulty recognizing female and child talkers, understanding female news reporters on television, hearing in noisy situations, and communicating on the telephone.",
+  "problem_summary": {
+    "onset": "Long-standing",
+    "course": "Stable (implied)",
+    "laterality": "Bilateral",
+    "associated_symptoms": "None (denies tinnitus, dizziness, vertigo)",
+    "functional_impact": "Significant communication difficulty; calculated SII indicates only 2% of average conversational speech is available unaided.",
+    "goals_motivation": "Primary interest in pursuing amplification."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presents with long-standing bilateral hearing loss and specific difficulties with higher pitch voices (women/children) and noise.",
+        "otologic_history": "Denies previous otologic surgery.",
+        "noise_exposure_history": "Denies history of exposure to noise.",
+        "medical_psych_history": "Denies dizziness or vertigo.",
+        "prior_management": "None reported.",
+        "patient_goals": "Pursuing amplification."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Bilateral symmetrical moderate to severe sensorineural hearing loss (SNHL) at 250 to 8000 Hz, gradually sloping in configuration.",
+          "numeric_results": {
+            "Frequency_Range": "250-8000 Hz",
+            "Severity": "Moderate to severe"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "SRTs in agreement with PTAs. WRS scores indicate good potential for speech understanding if audibility is restored.",
+          "numeric_results": {
+            "SRT_Right": "60 dB HL",
+            "SRT_Left": "60 dB HL",
+            "WRS_Right": "84% (NU-6)",
+            "WRS_Left": "84% (NU-6)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanograms indicating normal tympanic membrane and middle ear function.",
+          "numeric_results": {
+            "ECV_Right": "0.7 mL",
+            "ECV_Left": "0.8 mL",
+            "Static_Compliance_Right": "0.6 mL",
+            "Static_Compliance_Left": "0.8 mL",
+            "Pressure_Right": "0 daPa",
+            "Pressure_Left": "-10 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Thresholds and decay indicative of cochlear involvement.",
+          "numeric_results": {
+            "Frequencies_Tested": "500 to 4000 Hz",
+            "Decay_Tested": "500 and 1000 Hz"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up for Hearing Aid Evaluation (HAE) and Fitting (HAF) after medical clearance.",
+        "otologic_history": "Medical clearance provided by otologist.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Referral to otologist completed.",
+        "patient_goals": "Improve recognition of female/child talkers, TV, speech in noise, and telephone."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-fitting",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech Intelligibility Index (SII) calculated using 1/3 octave method.",
+          "numeric_results": {
+            "SII_Score": "0.02 (2% audibility of average conversational speech)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-fitting",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Loudness Discomfort Levels (LDLs) measured to set RESR90 targets.",
+          "numeric_results": {
+            "Frequencies": "500 to 4000 Hz",
+            "Result": "Patient indicated 'loud, but OK'"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-fitting",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Client-Oriented Scale of Improvement (COSI) administered to establish specific listening goals.",
+          "numeric_results": null
+        },
+        {
+          "name": "Real Ear Measures (REM)",
+          "timepoint_label": "Fitting",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 59.1",
+            "Figure 59.2"
+          ],
+          "key_findings": "Manufacturer First-Fit significantly underamplified high frequencies (1500 Hz+) compared to NAL-NL1 target. The prescribed REIG target required manual correction for bilateral summation and channel summation (20 channels) within the Frye 8000 software, reducing the target by 5-11 dB to prevent the aids from being 'too loud'. Final fit matched corrected NAL-NL1 targets.",
+          "numeric_results": {
+            "Target_Formula": "NAL-NL1",
+            "Stimulus": "65 dB SPL modulated DigiSpeech",
+            "Target_Correction_Magnitude": "5 to 11 dB reduction (depending on frequency)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral symmetrical moderate-to-severe sensorineural hearing loss with good word recognition abilities (84%). Unaided audibility is extremely poor (SII 0.02). Successful fitting required bilateral hearing aids with custom earmolds, verified via Real Ear Measures (REM) that were specifically corrected for bilateral summation and high-channel-count processing to ensure appropriate gain and output.",
+  "counseling_points": [
+    "Your hearing loss means you are missing about 98% of speech cues in normal conversation without hearing aids.",
+    "We are using custom earmolds rather than domes to provide better retention and allow for the necessary amplification without feedback (whistling).",
+    "Hearing aids will improve your ability to hear in noise, but performance in noise will never be as good as performance in quiet.",
+    "We have adjusted the hearing aid targets specifically for the fact that you are wearing two devices and the devices have advanced processing channels; this ensures they are not 'too loud'.",
+    "Consistent use is required to adapt to the new sounds, especially high-frequency speech sounds like women's and children's voices."
+  ],
+  "notes_for_actor": [
+    "Portray a motivated patient who is tired of missing out on conversations, especially with women and children.",
+    "You are cooperative with testing but may express surprise at how little speech you are actually hearing (2%) when shown the numbers.",
+    "You have no dizziness or medical ear history."
+  ]
+}

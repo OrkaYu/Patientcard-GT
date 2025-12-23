@@ -1,0 +1,136 @@
+{
+  "case_id": "Case040",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Vestibular Dysfunction (Type I Chiari Malformation)",
+      "rationale_short": "VNG findings of direction-changing gaze nystagmus, impaired smooth pursuit and optokinetic gain, and failure of fixation suppression localize pathology to the cerebellum. Clinical symptoms of occipital headaches triggered by Valsalva maneuvers and diplopia are classic for Chiari I."
+    },
+    {
+      "rank": 2,
+      "label": "Migraine-associated vertigo",
+      "rationale_short": "Considered due to history of headaches, but the specific Valsalva trigger and distinct central oculomotor signs on VNG strongly point to structural pathology over migraine."
+    },
+    {
+      "rank": 3,
+      "label": "Peripheral Vestibular Dysfunction",
+      "rationale_short": "Ruled out due to symmetrical caloric responses and the presence of central oculomotor signs."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Dizziness Handicap Inventory (DHI)",
+        "urgency": "routine",
+        "rationale_short": "To assess the patient's perceived handicap and functional impact of dizziness."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate hearing thresholds and rule out hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc."
+      },
+      {
+        "action": "Videonystagmography (VNG) - Oculomotor",
+        "urgency": "routine",
+        "rationale_short": "To evaluate oculomotor function and screen for central vestibular signs."
+      },
+      {
+        "action": "Videonystagmography (VNG) - Caloric",
+        "urgency": "routine",
+        "rationale_short": "To assess individual labyrinthine function and fixation suppression."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiological results were normal, ruling out peripheral hearing loss. However, vestibular evaluation revealed significant central dysfunction. Key findings included direction-changing gaze nystagmus, reduced smooth pursuit and optokinetic gain, and failure of fixation suppression during caloric testing, localizing pathology to the central nervous system (cerebellum).",
+        "tests": [
+          {
+            "name": "Dizziness Handicap Inventory (DHI)",
+            "category": "Questionnaire",
+            "result_summary": "Score of 38, indicating a moderate perceived handicap."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing thresholds (5-15 dB HL) bilaterally from 250-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs consistent with pure-tone average (10-13 dB HL); WRS excellent (96-100%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear function (Type A) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Reflexes present at normal or slightly elevated sensation levels."
+          },
+          {
+            "name": "Videonystagmography (VNG) - Oculomotor",
+            "category": "Vestibular",
+            "result_summary": "Abnormal. Bilateral direction-changing gaze nystagmus; reduced gain on smooth pursuit (0.2, 0.4 Hz) and optokinetic (20, 40 deg/s) testing."
+          },
+          {
+            "name": "Videonystagmography (VNG) - Caloric",
+            "category": "Vestibular",
+            "result_summary": "Robust and symmetrical responses (no unilateral weakness) but significant failure of fixation suppression (Fixation Index > 0.60)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral for Magnetic Resonance Imaging (MRI) to visualize brain and skull base",
+      "Chiari revision surgery (suboccipital decompression and C1-C2 laminectomy)"
+    ],
+    "counseling_actions": [
+      "Explain that hearing is normal, ruling out inner ear hearing problems",
+      "Discuss that dizziness and balance tests indicate a central (brain/cerebellum) issue rather than an inner ear problem",
+      "Clarify that the 'swimming' sensation and blurry vision result from the brain's difficulty coordinating eye and head movements",
+      "Advise that an MRI is necessary to investigate the brain structure based on test results and headache symptoms"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Direction-changing gaze nystagmus",
+      "Failure of fixation suppression",
+      "Diplopia",
+      "Occipital headaches triggered by Valsalva maneuvers",
+      "Oscillopsia"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurotologist",
+      "rationale_short": "Presence of central vestibular signs and neurological symptoms (diplopia, specific headache triggers) warrants urgent imaging (MRI) to rule out structural lesions like Chiari malformation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-surgery",
+    "objective": "Evaluate resolution of dizziness, diplopia, and blurred vision."
+  },
+  "expected_outcome": [
+    "Patient was free of balance complaints following surgery.",
+    "No recurrence of dizziness, diplopia, or blurred vision."
+  ]
+}

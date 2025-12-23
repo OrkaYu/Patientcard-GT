@@ -1,0 +1,149 @@
+{
+  "case_id": "case_4",
+  "title": "Functional Hearing Loss",
+  "demographics": {
+    "age_years": 63,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have had hearing loss and a constant tinnitus in my left ear for over 10 years. It sounds like a 'wind noise or low hum'.",
+  "problem_summary": {
+    "onset": "More than 10 years ago.",
+    "course": "Constant since onset.",
+    "laterality": "Left ear reported; Right ear asymptomatic.",
+    "associated_symptoms": "Constant tinnitus (left ear). Denies otalgia, otorrhea, or dizziness.",
+    "functional_impact": "Patient reports difficulty hearing in the left ear.",
+    "goals_motivation": "Seeking initial audiological examination after previous medical consult 10 years ago yielded no intervention."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "63-year-old male presenting for initial exam. Reports 10-year history of LE hearing loss and tinnitus.",
+        "otologic_history": "Consulted physician at onset 10 years ago; no intervention recommended. No history of ear pain or drainage.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Denies dizziness.",
+        "prior_management": "None.",
+        "patient_goals": "Evaluation of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Clear external canals bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.1"
+          ],
+          "key_findings": "Right ear: Slight hearing loss at 250 Hz and 3000-8000 Hz; normal at 500-2000 Hz. Left ear: Moderately severe mixed hearing loss (flat configuration) indicated by thresholds, but validity is questionable due to inconsistencies.",
+          "numeric_results": {
+            "RE_AC_thresholds": "Normal 500-2000 Hz, dips to ~25-30 dB at 4k/8k Hz",
+            "LE_AC_thresholds": "Flat configuration approx 60-70 dB HL",
+            "LE_BC_thresholds": "Approx 40-45 dB HL (indicating air-bone gap)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.1"
+          ],
+          "key_findings": "Right ear SRT is elevated compared to pure tone average (poor agreement). Left ear SRT agrees with the voluntary PTA but WRS is very poor.",
+          "numeric_results": {
+            "RE_SRT": "26 dB HL",
+            "LE_SRT": "56 dB HL",
+            "RE_WRS": "80% at 66 dB HL",
+            "LE_WRS": "26% at 92 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A), which contradicts the air-bone gap seen in the Left Ear pure-tone thresholds.",
+          "numeric_results": {
+            "RE_Static_Admittance": "0.5 mL",
+            "LE_Static_Admittance": "1.2 mL",
+            "RE_Peak_Pressure": "-5 daPa",
+            "LE_Peak_Pressure": "-65 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.1"
+          ],
+          "key_findings": "Normal ipsilateral reflexes present at 500-1000 Hz bilaterally. The presence of reflexes in the Left Ear is physiologically inconsistent with the degree of mixed/conductive loss presented on the audiogram.",
+          "numeric_results": {
+            "RE_Ipsi_Reflexes": "Present (95/90 dB)",
+            "LE_Ipsi_Reflexes": "Present (85/85 dB)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Pure-tone Stenger test was negative at 500 and 1000 Hz.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a voluntary audiogram suggesting unilateral moderately severe mixed hearing loss in the left ear. However, significant internal inconsistencies suggest functional (non-organic) hearing loss. Specifically, the presence of normal ipsilateral acoustic reflexes and Type A tympanograms in the left ear contradicts the voluntary display of a mixed loss with a conductive component. Additionally, the Right Ear SRT is elevated relative to the pure-tone average.",
+  "counseling_points": [
+    "I am seeing some inconsistencies in the test results today that we need to clarify.",
+    "Your muscle reflex tests show your ears are responding to sound differently than your hand-raising responses suggest.",
+    "I would like to reinstruct you on the procedure and try the test again to ensure we get the most accurate picture of your hearing.",
+    "If the results remain unclear, we may need to use objective tests that do not require you to respond actively."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is consistent in their story but inconsistent in their test behavior.",
+    "You do not need to be hostile; you can be cooperative but simply 'unable' to hear the tones until they are loud.",
+    "If the audiologist challenges you gently, you can express confusion rather than anger."
+  ]
+}

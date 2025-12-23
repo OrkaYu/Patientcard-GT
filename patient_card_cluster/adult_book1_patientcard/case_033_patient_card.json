@@ -1,0 +1,315 @@
+{
+  "case_id": "case_33",
+  "title": "Hyperventilation Induced Nystagmus",
+  "demographics": {
+    "age_years": 59,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I feel off-balance, veering to the right, and never feel straight. I feel lightheaded, 'hung over,' and like I am not in contact with my surroundings.",
+  "problem_summary": {
+    "onset": "Acute episode of severe vertigo in June 2010; gradual hearing loss over 10-15 years.",
+    "course": "Balance improved but never returned to normal; right hearing declined rapidly over 2 years.",
+    "laterality": "Bilateral hearing loss (worse right); Right vestibular schwannoma.",
+    "associated_symptoms": "Fullness and constant tinnitus in the right ear; veering to the right.",
+    "functional_impact": "Difficulty walking, used a walker initially; difficulty hearing on the telephone (right ear).",
+    "goals_motivation": "Investigate sudden hearing loss and persistent imbalance."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2011-05-01",
+      "setting": "Outside Facility (Records Reviewed)",
+      "history": {
+        "present_illness": "Patient noticed increased difficulty hearing in right ear prior to a vertiginous attack in 2010. Prednisone provided no improvement.",
+        "otologic_history": "10-15 year history of gradual bilateral progressive hearing loss.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "MRI in 2010 reported as 'unremarkable' (later re-reviewed to show small VS).",
+        "prior_management": "Fit with left BICROS hearing aid.",
+        "patient_goals": "Evaluation of hearing change."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.1"
+          ],
+          "key_findings": "Mild sloping to moderate rising to mild SNHL in right ear; slight sloping to moderate rising to normal SNHL in left ear.",
+          "numeric_results": {
+            "Right_PTA": "~45-50 dB HL (estimated from graph)",
+            "Left_PTA": "~40-45 dB HL (estimated from graph)",
+            "Configuration": "Cookie-bite / U-shaped configuration noted in both ears."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.1"
+          ],
+          "key_findings": "Significant asymmetry in word recognition scores.",
+          "numeric_results": {
+            "WRS_Right": "8%",
+            "WRS_Left": "100%",
+            "SRT_Right": "51 dB",
+            "SRT_Left": "50 dB"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.1"
+          ],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Type": "Type A bilateral",
+            "Static_Admittance_Right": "1.1 mL",
+            "Static_Admittance_Left": "1.0 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.1"
+          ],
+          "key_findings": "Absent reflexes in the right ear; present in the left ear.",
+          "numeric_results": {
+            "Right_Ipsi/Contra": "Absent",
+            "Left_Ipsi/Contra": "Present (95-105 dB HL)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2012-06-01",
+      "setting": "Vestibular Clinic",
+      "history": {
+        "present_illness": "Referred to neurotologist in May 2012. MRI re-review identified small vestibular schwannoma in right internal auditory canal.",
+        "otologic_history": "Persistent imbalance.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Second MRI confirmed tubular mass (VS) 1cm along CN VII-VIII complex.",
+        "prior_management": "Physical therapy (no benefit).",
+        "patient_goals": "Vestibular evaluation."
+      },
+      "tests": [
+        {
+          "name": "Video-oculography (VOG)",
+          "timepoint_label": "Initial Vestib",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Significant unilateral weakness.",
+          "numeric_results": {
+            "Caloric_Weakness": "42% right reduced vestibular response"
+          }
+        },
+        {
+          "name": "Computerized dynamic posturography (CDP)",
+          "timepoint_label": "Initial Vestib",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Generally normal except for center of gravity.",
+          "numeric_results": {
+            "Center_of_Gravity": "Backward"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2012-09-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up audiological examination.",
+        "otologic_history": "Steady decline in pure-tone thresholds noted over previous months.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": null,
+        "patient_goals": "Monitor hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.2"
+          ],
+          "key_findings": "Severe rising to moderately severe SNHL in right ear (significant decline from V1). Left ear stable.",
+          "numeric_results": {
+            "Right_Thresholds": "Low freqs ~80-90 dB HL, rising to ~65 dB HL",
+            "Left_Thresholds": "Stable (mild to moderate)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.2"
+          ],
+          "key_findings": "Right ear word recognition dropped to 0%.",
+          "numeric_results": {
+            "WRS_Right": "0%",
+            "WRS_Left": "88%",
+            "SRT_Right": "78 dB",
+            "SRT_Left": "47 dB"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.3"
+          ],
+          "key_findings": "Consistent with retrocochlear pathology in the right ear.",
+          "numeric_results": {
+            "Left_Ear": "Normal absolute latencies Waves I, III, V",
+            "Right_Ear": "Absent waveforms",
+            "Wave_V_Latency_Shift": "Normal on left with increased rate; not tested on right"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "2012-11-01",
+      "setting": "Vestibular Clinic",
+      "history": {
+        "present_illness": "Return for additional vestibular testing.",
+        "otologic_history": null,
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": null,
+        "patient_goals": "Further investigation of balance function."
+      },
+      "tests": [
+        {
+          "name": "Computerized dynamic posturography (CDP)",
+          "timepoint_label": "Follow-up Vestib",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Decline in performance compared to June. Poor use of vestibular input.",
+          "numeric_results": {
+            "SOT_5": "Falls",
+            "SOT_6": "Difficulty",
+            "Center_of_Gravity": "Backward"
+          }
+        },
+        {
+          "name": "VEMP",
+          "timepoint_label": "Follow-up Vestib",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "cVEMP responses within normal limits.",
+          "numeric_results": {
+            "Threshold_Left": "90 dB nHL",
+            "Threshold_Right": "95 dB nHL"
+          }
+        },
+        {
+          "name": "Dynamic Subjective Visual Vertical (SVV)",
+          "timepoint_label": "Follow-up Vestib",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Consistent with right unilateral vestibular weakness.",
+          "numeric_results": {
+            "On_Axis_Rotation": "3° tilt to right",
+            "Eccentric_Rotation_Right_Stim": "1° tilt to left",
+            "Eccentric_Rotation_Left_Stim": "5° tilt to right"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Hyperventilation Test",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hyperventilation induced nystagmus beating toward the weaker ear, suggesting an excitatory lesion (irritative focus).",
+          "numeric_results": {
+            "Nystagmus_Velocity": "4°/s increasing to 8°/s rightward-beating",
+            "Duration": "Decayed until no longer present"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral hereditary sensorineural hearing loss, significantly asymmetric with a rapid decline in the right ear due to a vestibular schwannoma. Right ear thresholds have deteriorated to severe-to-profound levels with 0% word recognition and absent ABR waveforms. Vestibular testing confirms a right unilateral weakness (42% reduced caloric response) and a specific hyperventilation-induced nystagmus beating toward the lesion side, indicating an excitatory/irritative mechanism.",
+  "counseling_points": [
+    "Your MRI and hearing tests confirm a tumor on the hearing and balance nerve on the right side (vestibular schwannoma).",
+    "The rapid drop in hearing and clarity in your right ear is due to this tumor affecting the nerve signals.",
+    "Your dizziness during stress or heavy breathing is likely caused by the tumor 'irritating' the nerve, sending extra signals to the brain (hyperventilation-induced nystagmus).",
+    "Because the tumor is causing active irritation (excitatory signals), we are recommending a treatment (gentamicin) to dampen that nerve's function and stabilize your balance."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated by a long history of 'unexplained' dizziness that was initially dismissed.",
+    "Emphasize the feeling of being 'hung over' or disconnected from surroundings.",
+    "If asked about breathing or stress, mention that you feel dizzier when you are anxious or panting (e.g., after exercise).",
+    "You have significant hearing loss in the right ear; ask the clinician to speak up or speak to your left side."
+  ]
+}

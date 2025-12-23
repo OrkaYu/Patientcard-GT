@@ -1,0 +1,123 @@
+{
+  "case_id": "Case015",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Recurrence of left CPA meningioma",
+      "rationale_short": "Strongly indicated by asymmetric SNHL, significant rollover (RI 0.71), and absent acoustic reflexes in the left ear."
+    },
+    {
+      "rank": 2,
+      "label": "Cisplatin ototoxicity",
+      "rationale_short": "Consistent with the bilateral high-frequency nature of the hearing loss and concurrent chemotherapy."
+    },
+    {
+      "rank": 3,
+      "label": "Noise-induced hearing loss",
+      "rationale_short": "Supported by the bilateral notch at 6000 Hz and history of occupational noise exposure."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Standard assessment to determine degree, configuration, and symmetry of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition and evaluate for rollover, which differentiates cochlear from retrocochlear lesions."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status and rule out conductive pathology."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To test the reflex arc; absence or elevation can indicate retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Current evaluation reveals bilateral asymmetric SNHL. While high-frequency loss is consistent with cisplatin ototoxicity, the left ear exhibits distinct retrocochlear signs (rollover, absent reflexes) suggesting tumor recurrence.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right slight SNHL (250-2k Hz) sloping to moderate/mod-severe (3k-8k Hz). Left mild SNHL (500-1500 Hz) decreasing to mod-severe (2k-3k Hz), significantly poorer than right."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right WRS 98%. Left WRS 68% decreasing to 20% at higher levels (Rollover Index 0.71)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Right ipsilateral normal. Left ipsilateral elevated at 500 Hz, absent at 1k/2k Hz. Left contralateral absent."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Normal bilateral tympanograms (Type A)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Historical examination from 3 years prior revealed a sudden left-sided sensorineural hearing loss with disproportionately poor speech recognition, leading to the initial diagnosis of a left CPA meningioma.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear normal to slight loss. Left ear moderate-severe SNHL at 1.5-6 kHz with very poor WRS (8%)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Historical examination from 1 year prior (post-Gamma Knife) showed recovery of hearing thresholds to near-normal levels, with a persistent noise notch.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Thresholds returned to normal/near-normal with a bilateral notch at 6000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Replace cisplatin with a less ototoxic chemotherapeutic agent",
+      "Continue consistent use of hearing protection"
+    ],
+    "counseling_actions": [
+      "Discuss the discrepancy between expected ototoxicity patterns and the observed retrocochlear signs in the left ear",
+      "Explain the significance of rollover and absent reflexes as indicators of potential tumor recurrence",
+      "Emphasize the critical need for an MRI to check meningioma status",
+      "Counsel on preventing further noise-induced damage"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss",
+      "Significant rollover (RI 0.71) in the left ear",
+      "Absent acoustic reflexes with mild/moderate hearing loss",
+      "Unilateral 'sizzling' tinnitus"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Referring Oncologist and Radiation Oncologist",
+      "rationale_short": "Critical need for MRI to evaluate potential recurrence or progression of the left CPA meningioma given retrocochlear findings."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate",
+    "objective": "Obtain MRI to confirm tumor status and adjust medical management accordingly."
+  },
+  "expected_outcome": [
+    "MRI scan following the audiological examination indicated progression of the left meningioma (2.7 x 2.9 x 2.4 cm) with compression of the left brachium pontis and anterior encroachment of the left IAC.",
+    "Cisplatin was replaced with a less ototoxic chemotherapeutic agent due to documentation of hearing loss.",
+    "Treatment for the meningioma was postponed due to the aggressive nature of the mesothelioma.",
+    "The patient passed away 7 months later."
+  ]
+}

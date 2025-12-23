@@ -1,0 +1,130 @@
+{
+  "case_id": "Case048",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sensorineural hearing loss",
+      "rationale_short": "Bilateral symmetrical moderate-to-severe loss consistent with history of occupational and recreational noise exposure."
+    },
+    {
+      "rank": 2,
+      "label": "Hearing aid maladaptation",
+      "rationale_short": "Dissatisfaction with current devices due to lack of verification (REM), inconsistent usage, and environmental factors."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Establish baseline hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech recognition abilities."
+      },
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Inspect ear canals and tympanic membranes."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Evaluate retrocochlear pathway."
+      },
+      {
+        "action": "Electroacoustic Analysis",
+        "urgency": "routine",
+        "rationale_short": "Verify hearing aids are functioning according to specifications."
+      },
+      {
+        "action": "Visual inspection",
+        "urgency": "routine",
+        "rationale_short": "Assess patient's ability to insert, remove, and handle hearing aids."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results from the previous facility indicate a bilateral symmetrical moderate-to-severe sensorineural hearing loss, consistent with the patient's history of noise exposure. Speech recognition scores suggest fair performance but were obtained using monitored live voice, which may not be as reliable as recorded materials.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical moderate to severe sensorineural hearing loss (AC thresholds approx. 45-85 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "WRS 82% (Right) and 76% (Left) at 30 dB SL using monitored live voice."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Current evaluation reveals no outer or middle ear pathology. The hearing aids are functioning correctly electroacoustically, and the patient demonstrates good dexterity. The dissatisfaction is likely attributed to the lack of real-ear verification during the initial fitting and the patient's inconsistent usage habits.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Unremarkable bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanic membrane mobility."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Elevated ARTs bilaterally."
+          },
+          {
+            "name": "Electroacoustic Analysis",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Hearing aids performing appropriately based on electroacoustic specs."
+          },
+          {
+            "name": "Other",
+            "category": "Functional Assessment",
+            "result_summary": "Visual inspection confirmed patient could appropriately insert and remove hearing aids; aids reported as comfortable."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Perform Real Ear Measures (REM) to verify and adjust hearing aid output to NAL-NL2 targets.",
+      "Reprogram hearing aids based on new audiometric data and REM results.",
+      "Consider evaluation for Hearing Assistive Technology (HAT) to assist with hearing soft-spoken wife.",
+      "Administer self-assessment of hearing aid benefit/satisfaction."
+    ],
+    "counseling_actions": [
+      "Educate on the importance of full-time wear for auditory acclimatization.",
+      "Discuss environmental modifications, such as reducing background noise (TV/radio) when communicating.",
+      "Explain that 'best technology' requires precise verification (REM) to be effective.",
+      "Reassure that current devices are functioning but need proper programming."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Proceed with reprogramming and verification of hearing aids."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Short-term",
+    "objective": "Complete audiological re-evaluation and real-ear verification to optimize hearing aid fitting."
+  },
+  "expected_outcome": []
+}

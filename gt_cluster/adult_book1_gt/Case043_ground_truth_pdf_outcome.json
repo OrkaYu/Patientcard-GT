@@ -1,0 +1,101 @@
+{
+  "case_id": "Case043",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Audiometric evaluation confirms bilateral symmetrical moderate to moderately severe sensorineural hearing loss."
+    },
+    {
+      "rank": 2,
+      "label": "Ménière's disease",
+      "rationale_short": "Patient has a 7-year history of Ménière's disease with vertigo (currently controlled) and fluctuating hearing loss."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities and validate pure-tone thresholds."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation revealed a bilateral symmetrical moderate to moderately severe sensorineural hearing loss with a flat configuration. Speech recognition scores were good bilaterally, and middle ear function was normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical moderate to moderately severe sensorineural hearing loss, flat configuration. Thresholds range from 45 to 60 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs (45 dB HL AD, 50 dB HL AS) consistent with pure-tone findings. WRS 88% AD and 84% AS at 30 dB SL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A tympanograms bilaterally, indicating normal tympanic membrane mobility."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "The patient was fit with bilateral hearing instruments and an amplified stethoscope solution. Initial fitting involved a Bluetooth stethoscope, but connectivity issues later required a change in management.",
+        "tests": [
+          {
+            "name": "Hearing Aid Fitting",
+            "category": "Management",
+            "result_summary": "Fit with Oticon Intiga 8 RITE hearing instruments and ConnectLine streamer. Paired with Audiologist's Choice Bluetooth Amplified Stethoscope (AC-Scope)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral RITE hearing instruments (Oticon Intiga 8)",
+      "ConnectLine streamer",
+      "Audiologist's Choice Bluetooth Amplified Stethoscope (AC-Scope) (initially)",
+      "Modified E-Scope II with oversized headphones (subsequently)",
+      "Low-frequency emphasis program for auscultation"
+    ],
+    "counseling_actions": [
+      "Counseling on the benefits of bilateral amplification for general communication beyond the work environment",
+      "Orientation to amplified stethoscope options and integration with hearing aids",
+      "Instruction on Bluetooth pairing and troubleshooting connectivity issues",
+      "Discussion of backup options such as hard-wiring the stethoscope"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient was already medically cleared by otology; routine audiological follow-up is appropriate."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor device function and communication benefit."
+  },
+  "expected_outcome": [
+    "Patient reported substantial benefit from hearing instruments and realized the extent of exhaustion caused by unaided hearing loss.",
+    "The AC-Scope initially worked wirelessly but suffered from intermittent connectivity and signal transmission issues.",
+    "Patient was subsequently fit with a modified E-Scope II with oversized headphones, which met her needs.",
+    "Eventually, the patient decided to use only the E-Scope II."
+  ]
+}

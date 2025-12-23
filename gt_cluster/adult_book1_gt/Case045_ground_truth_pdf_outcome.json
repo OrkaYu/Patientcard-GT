@@ -1,0 +1,75 @@
+{
+  "case_id": "Case045",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "High-frequency sensorineural hearing loss",
+      "rationale_short": "Audiometric thresholds demonstrate varying degrees of sensorineural loss greater than 55 dB HL above 1000 Hz."
+    },
+    {
+      "rank": 2,
+      "label": "Cochlear dead regions (ruled out as barrier)",
+      "rationale_short": "Significant improvement in WRS with high-frequency gain suggests functional neural elements despite severity of loss, arguing against dead regions preventing amplification benefit."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To establish hearing thresholds and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess baseline word recognition and compare with performance using additional high-frequency gain."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Evaluation of four patients with high-frequency sensorineural hearing loss revealed that adding 14 dB of gain above 1000 Hz significantly improved word recognition scores (25-40% improvement) compared to baseline. This indicates that despite potential cochlear dead regions or severe loss, patients can utilize high-frequency cues when made audible.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Four cases (A-D) showed high-frequency SNHL > 55 dB HL above 1000 Hz; Case D showed severe loss with PTA of 88 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech Perception",
+            "result_summary": "Significant improvement with 14 dB HF gain vs baseline. Case A: 50% to 80%; Case B: 75% to 100%; Case C: 65% to 95%; Case D: 20% to 60%."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid fitting with verification of sufficient high-frequency gain",
+      "Use of high-frequency gain-adjusted word recognition testing to predict amplification benefit"
+    ],
+    "counseling_actions": [
+      "Explain that despite high-frequency hearing loss, the auditory nerves can still process speech when it is made audible",
+      "Highlight the significant improvement in word recognition (25-40%) achieved with high-frequency amplification",
+      "Counsel that 'dead regions' do not necessarily prevent benefit from hearing aids",
+      "Set realistic expectations for improved speech clarity with appropriately fitted devices"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Proceed with hearing aid fitting and management based on demonstrated potential for benefit."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Fit amplification and verify high-frequency audibility to maximize speech understanding."
+  },
+  "expected_outcome": [
+    "Significant improvements in Word Recognition Scores (WRSs) were observed in all cases where baseline WRSs were 80% or poorer.",
+    "The results support using high-frequency gain-adjusted testing as a diagnostic tool for counseling and predicting potential benefit from amplification."
+  ]
+}

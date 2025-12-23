@@ -1,0 +1,143 @@
+{
+  "case_id": "Case013",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Neurofibromatosis type 2 (NF2)",
+      "rationale_short": "Confirmed by MRI showing bilateral vestibular schwannomas and other intracranial tumors."
+    },
+    {
+      "rank": 2,
+      "label": "Retrocochlear pathology (Vestibular Schwannoma)",
+      "rationale_short": "Indicated by asymmetric SNHL, significant WRS rollover, absent acoustic reflexes, and abnormal ABR."
+    },
+    {
+      "rank": 3,
+      "label": "Sudden Idiopathic Sensorineural Hearing Loss",
+      "rationale_short": "Initial presentation of sudden onset, but ruled out by identification of tumors."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity given complaints of sudden hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess word recognition and check for rollover indicative of retrocochlear pathology."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc; absence or decay can indicate retrocochlear pathology."
+      },
+      {
+        "action": "Otoacoustic Emissions (OAE)",
+        "urgency": "routine",
+        "rationale_short": "To distinguish between cochlear and retrocochlear sites of lesion."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To assess neural synchrony and retrocochlear function given asymmetric findings."
+      },
+      {
+        "action": "MRI",
+        "urgency": "urgent",
+        "rationale_short": "Definitive imaging to visualize potential tumors in the internal auditory canal or cerebellopontine angle."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with mild right SNHL and normal left hearing. However, a battery of diagnostic tests strongly indicates retrocochlear pathology, particularly on the right side (rollover, absent reflexes, abnormal ABR). MRI confirms the diagnosis of Neurofibromatosis type 2 with bilateral vestibular schwannomas.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Left ear normal (≤ 15 dB HL); Right ear mild mid- and high-frequency SNHL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Left WRS 96% at 80 dB HL; Right WRS 96% at 60 dB HL rolling over to 56% at 80 dB HL (Rollover Index 0.42)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent with right ear stimulation (ipsi and contra); normal with left ear stimulation."
+          },
+          {
+            "name": "Otoacoustic Emissions (OAE)",
+            "category": "Physiological",
+            "result_summary": "Normal and symmetric TEOAEs bilaterally, suggesting intact cochlear function despite hearing loss."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiological",
+            "result_summary": "Right ear: Only Wave I present. Left ear: Prolonged Wave I-V interval (4.8 ms)."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Bilateral vestibular schwannomas (Right 2 cm, Left 2.5 cm), olfactory meningioma, and glomus jugulare tumor."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Forgo surgical treatment",
+      "Monitor condition (wait and scan approach)",
+      "Regular audiological follow-up",
+      "MRI monitoring"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of Neurofibromatosis type 2 (NF2) and the presence of bilateral tumors.",
+      "Discuss the 'structure versus function' discrepancy, where tumor size does not always correlate with hearing loss severity.",
+      "Explain the cause of speech understanding difficulties (rollover) in the right ear.",
+      "Counsel on the decision to monitor rather than operate due to the number and location of tumors."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset hearing loss",
+      "Asymmetric sensorineural hearing loss",
+      "Unilateral tinnitus",
+      "Facial numbness (right auricle)",
+      "Significant WRS rollover",
+      "Absent acoustic reflexes with mild hearing loss",
+      "Abnormal ABR"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Otolaryngology/Neurology",
+      "rationale_short": "MRI is required to confirm retrocochlear pathology suggested by audiometric and electrophysiological findings."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Close follow-up (seen 5 years later in outcome)",
+    "objective": "Monitor tumor growth and progression of hearing loss."
+  },
+  "expected_outcome": [
+    "Pure-tone audiometry (5 years later): Left ear progressed to moderate mid-frequency SNHL; Right ear progressed to moderate-to-severe high-frequency SNHL.",
+    "Speech audiometry (5 years later): Left WRS decreased to 70% at 80 dB HL; Right WRS dropped to 0% at all intensities.",
+    "Immittance audiometry (5 years later): Normal Type A tympanograms bilaterally. Acoustic reflexes absent with right ear stimulation.",
+    "Acoustic reflexes (5 years later): Left ipsilateral reflex absent (suggesting left facial nerve involvement); left contralateral reflex preserved.",
+    "Functional status: Significant decline in hearing sensitivity and speech recognition bilaterally over 5 years."
+  ]
+}

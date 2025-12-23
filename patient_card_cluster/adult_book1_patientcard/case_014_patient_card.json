@@ -1,0 +1,183 @@
+{
+  "case_id": "case_14",
+  "title": "Musical Hallucinations",
+  "demographics": {
+    "age_years": 72,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I hear constant music in my right ear, like a male chorus singing songs from my childhood. It sounds like a broken record that just keeps starting over.",
+  "problem_summary": {
+    "onset": "2 to 3 days following a transient ischemic attack (TIA).",
+    "course": "Continuous and constant since onset; rarely fluctuates.",
+    "laterality": "Musical hallucinations in the right ear; tinnitus in the left ear.",
+    "associated_symptoms": "Left ear tinnitus (buzzing/ringing) occurring simultaneously with right ear music.",
+    "functional_impact": "Difficulty recognizing speech in quiet and noise; the music is a constant presence.",
+    "goals_motivation": "Identify the origin of the music and find ways to manage the condition."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-08-13",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient experienced a TIA (weakness, numbness, loss of motor control on right side) while exercising. 2-3 days later, began hearing constant music (familiar songs like 'Take Me Out to the Ball Game', 'Silent Night') in the right ear. He can change the song by thinking of another one. The music is less noticeable in background noise.",
+        "otologic_history": "Reports tinnitus in the left ear.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "History of hyperlipidemia, high blood pressure, and tachycardia (medicated). Recent TIA (suspected, no official diagnosis due to lack of physiological evidence). MRI, EKG, EEG, and MRA were unremarkable.",
+        "prior_management": "Neurological workup was normal.",
+        "patient_goals": "Diagnosis and management of the hallucinations."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 14.1"
+          ],
+          "key_findings": "Bilateral moderate reversed trough-shaped sensorineural hearing loss (better hearing at 1000-4000 Hz). Right ear has slightly better low-frequency thresholds than the left.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "250Hz: 45 dB, 500Hz: 45 dB, 1000Hz: 25 dB, 2000Hz: 25 dB, 4000Hz: 30 dB, 8000Hz: 55 dB",
+            "Left_Ear_Thresholds": "250Hz: 55 dB, 500Hz: 55 dB, 1000Hz: 30 dB, 2000Hz: 30 dB, 4000Hz: 35 dB, 8000Hz: 60 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 14.1"
+          ],
+          "key_findings": "SRTs within normal limits and consistent with PTA. Word recognition scores at 85 dB HL showed slight difficulty in the right ear and normal ability in the left.",
+          "numeric_results": {
+            "SRT_Right": "15 dB",
+            "SRT_Left": "15 dB",
+            "WRS_Right": "88% at 85 dB HL",
+            "WRS_Left": "92% at 85 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 14.1"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Right_ECV": "1.3 mL",
+            "Right_Peak_Pressure": "-35 daPa",
+            "Right_Static_Admittance": "0.3 mL",
+            "Left_ECV": "1.5 mL",
+            "Left_Peak_Pressure": "-15 daPa",
+            "Left_Static_Admittance": "0.4 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 14.1"
+          ],
+          "key_findings": "Ipsilateral and contralateral reflexes present at expected levels.",
+          "numeric_results": {
+            "Right_Ipsi_500_1k_2k": "85, 85, 95 dB HL",
+            "Left_Ipsi_500_1k_2k": "85, 85, 95 dB HL"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "QuickSIN testing at 70 dB HL indicated mild SNR loss bilaterally.",
+          "numeric_results": {
+            "SNR_Loss_Right": "3.0 dB",
+            "SNR_Loss_Left": "3.5 dB"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Residual Inhibition assessment: Speech noise at 80 dB HL for 60 seconds failed to mask musical perceptions or provide residual inhibition.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 14.2",
+            "Fig. 14.3"
+          ],
+          "key_findings": "DPOAEs present and robust 750-8000 Hz bilaterally. SOAEs (Spontaneous OAEs) were absent in the left ear but present in the right ear (1000-2000 Hz range). Patient heard music during SOAE test.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Vestibular testing (VNG, Dix-Hallpike, Bithermal calorics) yielded results within normal limits.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral, asymmetrical (Right better than Left in lows), moderate reversed trough-shaped sensorineural hearing loss. Speech recognition in quiet is good, with mild SNR loss in noise. Notably, Spontaneous OAEs are present in the right ear (where music is heard) and absent in the left, though the hallucinations are believed to be central in origin given the TIA history.",
+  "counseling_points": [
+    "Your hearing test shows a mild-to-moderate hearing loss in both ears, shaped like a 'trough' where mid-pitch hearing is better than low or high pitches.",
+    "The musical hallucinations likely stem from the brain (central origin) following your TIA, rather than the ear itself, despite the presence of spontaneous emissions in your right ear.",
+    "Because external sounds do not seem to mask the music effectively, we recommend trying hearing aids to improve your communication ability and treat the hearing loss.",
+    "Improving your hearing with amplification may help your brain process environmental sounds better, which is a primary goal."
+  ],
+  "notes_for_actor": [
+    "You are an active 72-year-old male (jogging, biking).",
+    "You are not 'crazy'—you know the music isn't really there, but it sounds very real.",
+    "Describe the music vividly: 'Take Me Out to the Ball Game' or 'Silent Night'. It sounds like a broken record.",
+    "You can change the song if you concentrate on a different one.",
+    "You are frustrated by the constant noise but generally in good physical health."
+  ]
+}

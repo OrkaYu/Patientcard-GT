@@ -1,0 +1,136 @@
+{
+  "case_id": "case_34",
+  "title": "Right Internuclear Ophthalmoplegia following a Stroke",
+  "demographics": {
+    "age_years": 58,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am frustrated with my sense of balance and my inability to move my head rapidly or process complex visual environments. I feel a spinning sensation at times where the room moves counterclockwise, and I have trouble using power tools at my construction job.",
+  "problem_summary": {
+    "onset": "Acute onset 11 months prior following a right pontine angle stroke.",
+    "course": "Initial severe symptoms (diplopia, nausea) improved, but imbalance and visual processing issues persisted.",
+    "laterality": "Bilateral findings with right-sided central pathology (INO) and left-sided caloric weakness.",
+    "associated_symptoms": "Dizziness, diplopia (resolved to minor difficulty), spinning sensation, difficulty moving eyes rapidly.",
+    "functional_impact": "Unable to adequately perform job in construction; difficulty using machinery/power tools; requires concentration for tasks.",
+    "goals_motivation": "Return to work and normal daily activities."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Dizziness and Balance Laboratory",
+      "history": {
+        "present_illness": "Admitted 11 months prior for right pontine angle stroke with symptoms of imbalance, dizziness, diplopia, nausea, and vomiting. Neuro-ophthalmology 1 month post-stroke diagnosed Right Internuclear Ophthalmoplegia (INO) and skew deviation. Diplopia improved significantly by 2 months post-stroke, but imbalance persists.",
+        "otologic_history": "Reports spinning sensation (counterclockwise). Difficulty moving eyes rapidly.",
+        "noise_exposure_history": "Construction worker (implied noise exposure, though not explicitly detailed in history).",
+        "medical_psych_history": "Hypertension, insulin-dependent diabetes, hyperlipidemia.",
+        "prior_management": "Acute care rehabilitation; Neuro-ophthalmology follow-up.",
+        "patient_goals": "Resolve persistent imbalance."
+      },
+      "tests": [
+        {
+          "name": "cVEMP",
+          "timepoint_label": "Post-stroke (11 months)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Responses were absent in both ears.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Video-oculography (Gaze)",
+          "timepoint_label": "Post-stroke (11 months)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 34.1"
+          ],
+          "key_findings": "4°/s leftward beating gaze nystagmus present for leftward gaze without fixation in the left (abducting) eye only.",
+          "numeric_results": {
+            "nystagmus_velocity": "4 deg/sec (left eye, left gaze, no fixation)"
+          }
+        },
+        {
+          "name": "Video-oculography (Saccades)",
+          "timepoint_label": "Post-stroke (11 months)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 34.2"
+          ],
+          "key_findings": "Disconjugate saccades consistent with Right INO. Lag noted in the right (adducting) eye when moving leftward.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Bithermal Caloric Irrigation",
+          "timepoint_label": "Post-stroke (11 months)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 34.3"
+          ],
+          "key_findings": "Significant left reduced vestibular response. No spontaneous nystagmus prior to irrigation.",
+          "numeric_results": {
+            "left_reduced_vestibular_response": "48%",
+            "directional_preponderance": "4% (Left beating - insignificant)",
+            "total_eye_speed": "46 deg/sec",
+            "fixation_index": "0.22"
+          }
+        },
+        {
+          "name": "Computerized Dynamic Posturography",
+          "timepoint_label": "Post-stroke (11 months)",
+          "ear": "soundfield",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal results.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Rotational Chair",
+          "timepoint_label": "Post-stroke (11 months)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal results.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation identifies central vestibular pathology consistent with the history of a right pontine stroke. Key findings include a persistent Right Internuclear Ophthalmoplegia (INO) evidenced by disconjugate saccades (lag in right eye adduction) and gaze-evoked nystagmus in the left eye. Additionally, there is a 48% left reduced vestibular response on caloric testing, which may represent a peripheral component or central pathway involvement. cVEMPs are absent bilaterally.",
+  "counseling_points": [
+    "Your persistent imbalance is caused by a coordination problem between your eyes (the INO) and a weakness in the balance system on the left side.",
+    "The 'lag' in your right eye movement causes visual distortion when you move your head quickly, which explains your difficulty with power tools and busy environments.",
+    "Continue physical activities as much as possible, but be very cautious in complex visual environments (like crowded stores).",
+    "When walking or working, try to move your head more slowly to allow your eyes to track together effectively."
+  ],
+  "notes_for_actor": [
+    "Portray a construction worker who is frustrated by the loss of physical capability.",
+    "You do not have obvious double vision (diplopia) right now, but you feel 'off' when looking around quickly.",
+    "Mention that using power tools feels unsafe because you have to concentrate too hard to see clearly."
+  ]
+}

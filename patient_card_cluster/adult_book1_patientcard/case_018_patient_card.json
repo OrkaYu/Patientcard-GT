@@ -1,0 +1,183 @@
+{
+  "case_id": "case_18",
+  "title": "ABR versus MRI in the Diagnosis of Acoustic Tumors",
+  "demographics": {
+    "age_years": 58,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed a slow hearing loss for years, but about two years ago I had a sudden attack of vertigo, and the hearing in my right ear dropped rapidly. I can no longer recognize speech in my right ear and I still feel off-balance.",
+  "problem_summary": {
+    "onset": "Progressive loss over 10-15 years; sudden exacerbation and vertigo 2 years ago.",
+    "course": "Rapid decline in right ear post-vertigo; left ear fluctuating but stable.",
+    "laterality": "Bilateral asymmetric (Right significantly worse than Left).",
+    "associated_symptoms": "Imbalance, intermittent tinnitus (right), intermittent aural fullness (left).",
+    "functional_impact": "Inability to recognize speech in the right ear; relies on BiCROS amplification.",
+    "goals_motivation": "Medical evaluation of asymmetry and imbalance; monitoring of hearing."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-10-12",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient A reports slow, progressive bilateral hearing loss over 10-15 years. 2 years ago, experienced sudden vertigo lasting several days, followed by rapid hearing decrease in the right ear. Reports right ear hearing is significantly poorer than left and cannot recognize speech on that side.",
+        "otologic_history": "Intermittent tinnitus (right). Intermittent aural fullness (left). Denies otalgia or right-sided fullness. History of vertigo 2 years ago; currently reports significant difficulty with balance.",
+        "noise_exposure_history": "Denies excessive noise exposure.",
+        "medical_psych_history": "Family history of age-related and noise-induced hearing loss (father).",
+        "prior_management": "Currently uses left bilateral contralateral routing of signal (BiCROS) amplification, which she finds helpful. Previous MRI by referring physician showed a small lesion but films were suboptimal.",
+        "patient_goals": "Evaluation of asymmetry and imbalance."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1a"
+          ],
+          "key_findings": "Left ear: Slight SNHL at 250 Hz, sloping to moderate SNHL (500-2000 Hz), rising to mild SNHL (3000-8000 Hz). Right ear: Severe SNHL (250-1000 Hz), rising to moderately severe SNHL (2000-8000 Hz).",
+          "numeric_results": {
+            "Right_AC_Thresholds_dBHL": "250Hz: ~70, 500Hz: ~75, 1000Hz: ~80, 2000Hz: ~65, 4000Hz: ~65, 8000Hz: ~65",
+            "Left_AC_Thresholds_dBHL": "250Hz: ~25, 500Hz: ~40, 1000Hz: ~45, 2000Hz: ~45, 4000Hz: ~35, 8000Hz: ~35"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1a"
+          ],
+          "key_findings": "Left ear showed mild loss in speech recognition ability with good word recognition. Right ear required Speech Awareness Threshold (SAT) due to severity; Word recognition was 0%.",
+          "numeric_results": {
+            "Left_SRT": "40 dB HL",
+            "Right_SAT": "65 dB HL",
+            "Left_WRS": "88% at 70 dB HL (30 dB SL)",
+            "Right_WRS": "0% at 95 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1a"
+          ],
+          "key_findings": "Tympanograms were within normal limits bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Static_Admittance": "0.60 mmho",
+            "Left_Static_Admittance": "0.60 mmho",
+            "Right_Ear_Canal_Volume": "1.2 cc",
+            "Left_Ear_Canal_Volume": "1.0 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1a"
+          ],
+          "key_findings": "Left ear stimulation: Present but elevated at 500/1000 Hz, absent at 2000/4000 Hz. Right ear stimulation: Absent at all frequencies (500-4000 Hz).",
+          "numeric_results": {
+            "Left_Ipsi_Reflexes": "500Hz: 105, 1000Hz: 100, 2000Hz: ABS, 4000Hz: ABS",
+            "Right_Ipsi_Reflexes": "Absent at all frequencies"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned for ABR testing to rule out retrocochlear pathology due to asymmetric hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.2a"
+          ],
+          "key_findings": "Left ear: Normal absolute latencies (Waves I, III, V) and interpeak latencies. Normal Wave V latency shift with increased rate. Right ear: All waveforms absent.",
+          "numeric_results": {
+            "Stimulus_Level_Left": "75 dB nHL",
+            "Stimulus_Level_Right": "94 dB nHL",
+            "Right_Ear_Waveforms": "Absent",
+            "Left_Ear_Waveforms": "Present/Normal"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2012-08-07",
+      "setting": "Medical Imaging / Otology",
+      "history": {
+        "present_illness": "Review of second MRI scan ordered due to suboptimal quality of original films and abnormal ABR results."
+      },
+      "tests": [
+        {
+          "name": "Magnetic Resonance Imaging (MRI)",
+          "timepoint_label": "Diagnostic",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.3a"
+          ],
+          "key_findings": "Lesion identified in the right Internal Auditory Canal (IAC). Enhancing mass filling superior and inferior compartments, not extending into cerebellopontine angle.",
+          "numeric_results": {
+            "Diagnosis": "Right solitary vestibular schwannoma"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Patient A presents with asymmetric sensorineural hearing loss, significantly worse in the right ear (severe to moderately severe) compared to the left (mild to moderate). Speech recognition is preserved in the left ear (88%) but completely absent in the right ear (0%). ABR testing revealed no response from the right ear, consistent with retrocochlear pathology. MRI confirmed a right vestibular schwannoma confined to the IAC.",
+  "counseling_points": [
+    "The MRI has confirmed a small tumor (vestibular schwannoma) on the hearing and balance nerve on the right side.",
+    "This tumor explains why your hearing dropped suddenly and why you cannot understand speech in that ear, as well as your balance issues.",
+    "Because speech recognition is very poor in the right ear, a standard hearing aid will not help on that side. You should continue using your BiCROS system, which routes sound from your bad side to your better ear.",
+    "It is crucial to protect the hearing in your left (better) ear from loud noise, as you rely on it for communication.",
+    "We will continue to monitor your hearing annually, and you will follow up with the otologist for monitoring of the tumor."
+  ],
+  "notes_for_actor": [
+    "You are a 58-year-old female who is generally coping well with the hearing loss thanks to the BiCROS aid, but you are concerned about the balance issues.",
+    "You recall a scary episode of vertigo 2 years ago, but now it is just a general feeling of imbalance.",
+    "You should emphasize that you hear 'noise' in the right ear but cannot understand words at all.",
+    "You are cooperative but anxious about the diagnosis of a 'tumor', even if it is benign."
+  ]
+}

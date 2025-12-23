@@ -1,0 +1,192 @@
+{
+  "case_id": "Case011",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Vestibular Schwannoma (Right)",
+      "rationale_short": "Asymmetric SNHL, progressive loss, positive reflex decay, and eventual MRI confirmation of CP angle lesion."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural Hearing Loss (Presbycusis/Hereditary)",
+      "rationale_short": "Underlying bilateral high-frequency loss and family history suggest a genetic or age-related component."
+    },
+    {
+      "rank": 3,
+      "label": "Eustachian Tube Dysfunction (Right)",
+      "rationale_short": "Transient negative middle ear pressure and conductive component noted at the second visit."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and configuration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition ability and check for retrocochlear signs (rollover)."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up to monitor progression of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up to monitor speech understanding."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up assessment of middle ear status."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Follow-up to check for retrocochlear signs."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Long-term monitoring post-treatment."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Long-term monitoring of functional speech perception."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Monitoring of neural integrity post-treatment."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation revealed mild-to-moderate bilateral sensorineural hearing loss with high-frequency asymmetry (Right worse at 6-8 kHz). Speech recognition was excellent bilaterally, and immittance testing was normal, though the asymmetry warranted monitoring.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Mild to moderate bilateral SNHL; Right ear worse at 6000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "WRS 96% bilaterally; SRTs consistent with pure tones."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal ipsilateral and contralateral thresholds; negative decay."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up 3-4 years later showed significant progression of hearing loss in the right ear with a slight conductive component due to negative pressure. Right word recognition declined, and retrocochlear signs (elevated reflexes, positive decay) emerged, prompting medical referral.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear significant decrease in thresholds; slight conductive component (15-20 dB) at low frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right WRS declined to 80% at 90 dB HL and 64% at 100 dB HL; Left WRS normal."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear negative pressure (-140 daPa); Left ear normal."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right contralateral reflexes elevated; positive reflex decay at 1000 Hz in Right ear."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Six years post-Gamma Knife treatment, the right ear progressed to severe-to-profound sensorineural hearing loss with very poor word recognition. The left ear remained stable. This progression is consistent with the long-term effects of radiation on the auditory nerve.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear severe-to-profound SNHL; Left ear stable."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right WRS 18% at 95 dB HL; Left WRS 84%."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "All right ipsilateral and contralateral reflexes absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otologist/Neurosurgeon",
+      "Magnetic Resonance Imaging (MRI)",
+      "Gamma Knife radiosurgery",
+      "Left BTE hearing aid fitting",
+      "Real ear measures (verification)",
+      "BiCROS hearing aid system (Phonak CROS-LINK)",
+      "Serial MRI monitoring"
+    ],
+    "counseling_actions": [
+      "Discuss treatment options for acoustic tumor: observation, surgery, or Gamma Knife radiation",
+      "Counsel on the likelihood of continued hearing loss progression following radiation therapy",
+      "Explain the benefits of BiCROS technology for unilateral severe/profound hearing loss",
+      "Review realistic expectations for amplification given the retrocochlear pathology"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss",
+      "Progressive hearing loss",
+      "Positive acoustic reflex decay",
+      "Imbalance"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist/Neurosurgeon",
+      "rationale_short": "Evaluation and management of right vestibular schwannoma confirmed by MRI."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor tumor size via MRI and assess hearing thresholds and functional communication status."
+  },
+  "expected_outcome": [
+    "Gamma Knife treatment successfully arrested acoustic tumor growth.",
+    "Patient successfully wears a wireless digital left BTE BiCROS hearing aid."
+  ]
+}

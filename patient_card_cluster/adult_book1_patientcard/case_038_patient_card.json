@@ -1,0 +1,210 @@
+{
+  "case_id": "case_38",
+  "title": "Identification of Superior Semicircular Canal Dehiscence",
+  "demographics": {
+    "age_years": 39,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I feel unsteady and lose my balance when I turn my head quickly. My vision bounces when I walk or run, so I can't keep up with things visually. I also hear a loud heartbeat and fullness in my left ear.",
+  "problem_summary": {
+    "onset": "5 years prior to initial visit.",
+    "course": "Progressive worsening over time; symptoms increased significantly over a 3-year interval.",
+    "laterality": "Bilateral vestibular symptoms; Left-sided auditory symptoms.",
+    "associated_symptoms": "Oscillopsia, aural fullness (Left), pulsatile tinnitus (heartbeat sound), Tullio phenomenon (dizziness with loud sounds reported at follow-up).",
+    "functional_impact": "Difficulty monitoring computer screens at work; eventually prevented driving and exercising.",
+    "goals_motivation": "Seeking explanation for unsteadiness and visual fixation issues after previous normal workups."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2007-10-19",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "39-year-old female presenting with unsteadiness and oscillopsia (vision 'did not keep up') for 5 years. Reports difficulty walking on uneven surfaces. Reports aural fullness in the left ear and hearing a loud heartbeat.",
+        "otologic_history": "Denied true vertigo, tinnitus (other than heartbeat), otalgia, or noise exposure.",
+        "medical_psych_history": "Current meds: duloxetine and alprazolam.",
+        "prior_management": "Previous normal audiological exam, EEG, CT, MRI, and MRA at an outside facility."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.1"
+          ],
+          "key_findings": "Normal air conduction thresholds bilaterally. Significant air-bone gaps in the Left ear (pseudo-conductive loss) and at 250 Hz in the Right ear. Left masked bone thresholds were at the audiometer limit (-10 dB HL).",
+          "numeric_results": {
+            "Left_ABG_250Hz": "35 dB",
+            "Left_ABG_500Hz": "25 dB",
+            "Left_ABG_1000Hz": "20 dB",
+            "Left_ABG_2000Hz": "15 dB",
+            "Left_Bone_Thresholds": "-10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.1"
+          ],
+          "key_findings": "SRTs consistent with air thresholds. Excellent word recognition.",
+          "numeric_results": {
+            "WRS_Right": "100%",
+            "WRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.1"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Right_Pressure": "+20 daPa",
+            "Left_Pressure": "+25 daPa",
+            "Right_Compliance": "0.6 mL",
+            "Left_Compliance": "1.3 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.1"
+          ],
+          "key_findings": "Present at normal levels ipsilaterally and contralaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Computerized Dynamic Posturography (CDP)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Composite score within normal limits. MCT and adaptation tests normal.",
+          "numeric_results": {
+            "Composite_SOT_Score": "74"
+          }
+        },
+        {
+          "name": "VNG",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "All findings normal, including oculomotor, positioning, and caloric stimulation.",
+          "numeric_results": null
+        },
+        {
+          "name": "cVEMP",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Abnormally low threshold in the Left ear compared to the Right. Significant interaural threshold difference.",
+          "numeric_results": {
+            "Right_Threshold": "75 dB nHL",
+            "Left_Threshold": "60 dB nHL",
+            "Threshold_Difference": "15 dB",
+            "Amplitude_Asymmetry": "22% (Left > Right, within normal limits)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2010-07-22",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned 3 years later. Reported increased oscillopsia preventing driving/exercise. Now experiencing Tullio phenomenon (dizziness with loud sounds) in the Left ear and increased aural fullness.",
+        "prior_management": "Original CT scans were re-analyzed by a neuroradiologist, suggesting thinning of the superior canal, but resolution was inadequate for definitive diagnosis."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.2"
+          ],
+          "key_findings": "Mild low-frequency conductive hearing loss in the Left ear. Air-bone gaps increased compared to 3 years prior.",
+          "numeric_results": {
+            "Left_ABG_250Hz": "35 dB",
+            "Left_ABG_500Hz": "40 dB",
+            "Left_ABG_1000Hz": "20 dB",
+            "Left_ABG_2000Hz": "15 dB"
+          }
+        },
+        {
+          "name": "CT Scan",
+          "timepoint_label": "Follow-up",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.3"
+          ],
+          "key_findings": "Reconstructed CT revealed a clear dehiscence (loss of bone) overlying the superior semicircular canal on the left side.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal air conduction thresholds but significant low-frequency air-bone gaps in the left ear, despite normal tympanometry and acoustic reflexes. Bone conduction thresholds are hypersensitive (better than 0 dB HL). cVEMP testing reveals a significantly lower threshold in the left ear compared to the right, consistent with a 'third window' pathology. Over a 3-year period, the air-bone gaps in the left ear widened, correlating with worsening vestibular symptoms and the emergence of Tullio phenomenon.",
+  "counseling_points": [
+    "Your hearing test shows a 'false' conductive hearing loss; the inner ear is actually hypersensitive to bone-conducted sound due to a thinning of the bone covering the superior canal.",
+    "The symptoms you are experiencing—hearing your heartbeat, dizziness with loud sounds, and vision bouncing—are caused by a condition called Superior Semicircular Canal Dehiscence (SSCD).",
+    "The 'third window' created by the missing bone allows pressure to leak from the inner ear, which explains why you feel dizzy when you hear loud noises or strain.",
+    "Surgical repair is an option to plug or resurface the canal, which can help alleviate the dizziness and internal sounds."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated by the 'invisibility' of the symptoms; you look fine, but your vision bounces when you walk.",
+    "Emphasize the internal sounds—hearing your own heartbeat is very distracting.",
+    "In the second visit, mention that loud noises now make you dizzy (Tullio phenomenon), which is a new and scary development.",
+    "You are an instructor, so you are articulate but distressed by your inability to focus on screens or drive."
+  ]
+}

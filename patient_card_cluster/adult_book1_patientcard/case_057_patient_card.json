@@ -1,0 +1,155 @@
+{
+  "case_id": "case_57",
+  "title": "Unilateral Hearing Loss and a Contralateral Routing of the Signal Fitting",
+  "demographics": {
+    "age_years": 45,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I manage okay in quiet, but I am increasingly frustrated by my inability to hear sounds on my right side. It is tiring to constantly turn my head to hear, and I have difficulty in meetings and driving when people are speaking on my right.",
+  "problem_summary": {
+    "onset": "Sudden onset following a head injury from an automobile accident.",
+    "course": "Stable profound loss on the right; normal on the left.",
+    "laterality": "Right unilateral hearing loss (UHL).",
+    "associated_symptoms": "Difficulty localizing sound, fatigue from straining to hear, occasional otalgia (ear pain) and sensitivity in the right ear canal.",
+    "functional_impact": "Significant difficulty in large groups, meetings at work, and conversation in the car (where the right ear faces the interior).",
+    "goals_motivation": "Wants to hear sounds from the right side without constantly turning her head. Not interested in surgical options or deep-fitting devices."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-01-14",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presents with right UHL post-MVA. Reports 'getting by' in quiet by positioning her left ear, but struggles in noise and groups.",
+        "otologic_history": "Head injury from auto accident. Right ear canal sensitivity/occasional otalgia.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Head injury from automobile accident.",
+        "prior_management": "Referred by local physician.",
+        "patient_goals": "Improve awareness of sounds on the right side. Patient declined BAHS (surgical/aesthetic concerns) and deep-fit CIC (canal sensitivity)."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Unremarkable bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 57.1"
+          ],
+          "key_findings": "Normal tympanic membrane performance bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Volume": "1.2 mL",
+            "Right_Peak_Pressure": "-25 daPa",
+            "Left_Volume": "1.3 mL",
+            "Left_Peak_Pressure": "-5 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 57.1"
+          ],
+          "key_findings": "Absent reflexes with Right ear stimulation; Present/Normal with Left ear stimulation.",
+          "numeric_results": {
+            "Right_Stim_Ipsi/Contra": "Absent",
+            "Left_Stim_Ipsi/Contra": "Present (90-95 dB HL)"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 57.1"
+          ],
+          "key_findings": "Left ear: Normal hearing sensitivity. Right ear: Profound sensorineural hearing loss.",
+          "numeric_results": {
+            "Left_AC_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "Right_AC_Thresholds": "95-110 dB HL at 250-2000 Hz; No Response at 4000-8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 57.1"
+          ],
+          "key_findings": "Left ear: Excellent speech recognition. Right ear: Could not test due to severity of loss.",
+          "numeric_results": {
+            "Left_SRT": "15 dB HL",
+            "Left_WRS": "100% at 55 dB HL",
+            "Right_SRT": "CNT (Could Not Test)",
+            "Right_WRS": "CNT"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Fitting",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 57.2",
+            "Fig. 57.3",
+            "Fig. 57.4"
+          ],
+          "key_findings": "Real Ear Measures (REM) for CROS fitting. Goal: Match Real Ear Unaided Response (REUR) of the better ear to ensure acoustic transparency. Initial fit was overamplified (tinny); adjusted to match REUR.",
+          "numeric_results": {
+            "Initial_Fit_Deviation": "Exceeded REUR by ~10 dB at 1500-6000 Hz",
+            "Final_Fit": "Matched REUR target"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the left ear and a profound sensorineural hearing loss in the right ear (Single-Sided Deafness). Speech recognition is excellent on the left but absent on the right. Due to the severity of the right-sided loss, the patient is a candidate for a CROS (Contralateral Routing of Signal) system to overcome the head shadow effect.",
+  "counseling_points": [
+    "The CROS system will pick up sound from your right side and transmit it to your left ear, allowing you to hear people on your 'bad' side without turning your head.",
+    "This device will improve sound awareness, but it will not restore your ability to localize where sound is coming from.",
+    "In very noisy situations, you may still need to use visual cues or position yourself strategically, as the device cannot fully replicate binaural processing (squelch effect).",
+    "We have used an open-fit dome on your good ear to keep it unoccluded, ensuring natural sound quality for sounds originating on your left."
+  ],
+  "notes_for_actor": [
+    "Portray frustration with the fatigue of constantly having to turn your head to hear.",
+    "Mention that you are sensitive about your right ear canal (pain/sensitivity) to explain why you don't want a deep-in-the-canal device.",
+    "During the initial fitting simulation, complain that the sound is 'tinny' or 'metallic' until the adjustment is made."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "case_id": "case_51",
+  "title": "Importance of Sufficient Output Saturation Sound Pressure Level at 90 dB on Hearing Aids",
+  "demographics": {
+    "age_years": 25,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "Speech sounds too soft in most situations other than very quiet ones. Recognizing speech in a noisy background requires greater effort because speech and noise seem all mingled together.",
+  "problem_summary": {
+    "onset": "1 week after fitting new hearing aids.",
+    "course": "Acute dissatisfaction following a switch from BTE to RIC devices.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Lack of loudness, muffled sound quality, poor speech recognition in noise.",
+    "functional_impact": "Difficulty functioning in new job as an engineer; inability to separate speech from noise.",
+    "goals_motivation": "Patient desires cosmetic upgrade (smaller devices) while maintaining auditory performance for his career."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is a long-time hearing aid user who recently upgraded from 10-year-old Widex Diva 9 BTEs to new Widex CLEAR 440 C4-Passion RICs for cosmetic reasons. Despite initial satisfaction, he returned after 1 week reporting muffled sound and poor performance in noise.",
+        "otologic_history": "Flat 60 dB HL sensorineural hearing loss since childhood.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Medical clearance obtained.",
+        "prior_management": "Wore skeleton nonvented earmolds with BTEs since age 3. Previous aids: Widex ES8 BTEs, then Widex Diva 9 BTEs (OSPL90 125 dB SPL).",
+        "patient_goals": "Wanted to upgrade technology for a new job as an engineer but insisted on cosmetically appealing RIC devices (C4-Passion) against the audiologist's initial recommendation for BTEs."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 51.1"
+          ],
+          "key_findings": "Flat sensorineural hearing loss.",
+          "numeric_results": {
+            "threshold_average": "60 dB HL (flat configuration)"
+          }
+        },
+        {
+          "name": "Hearing Instrument Verification",
+          "timepoint_label": "Post-op (C4-Passion)",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Simulated frequency output of the new C4-Passion matched the previous Diva 9 at input levels of 50 dB and 65 dB SPL. However, OSPL90 was significantly lower in the new device (108 dB SPL vs 125 dB SPL).",
+          "numeric_results": {
+            "Diva_9_OSPL90": "125 dB SPL",
+            "C4_Passion_OSPL90": "108 dB SPL (typically <103 dB SPL in real ear)"
+          }
+        },
+        {
+          "name": "Speech-in-noise (HINT)",
+          "timepoint_label": "Comparative Evaluation",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Comparison of previous aids (Diva 9), current problem aids (C4-Passion), and proposed alternative (C4-FS). Noise at 70 dB SPL. Lower RTS indicates better performance.",
+          "numeric_results": {
+            "Diva_9_RTS": "-2 dB SNR",
+            "C4_Passion_RTS": "+2 dB SNR",
+            "C4_FS_RTS": "-3 dB SNR",
+            "Estimated_Improvement": "30-50% sentence recognition improvement with C4-FS vs C4-Passion"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient has a flat 60 dB HL sensorineural hearing loss and was unsuccessfully fitted with low-power RIC devices (C4-Passion) which had insufficient OSPL90 (108 dB SPL) compared to his previous BTEs (125 dB SPL). This resulted in saturation/clipping of loud speech peaks, causing muffled sound and significantly degraded speech-in-noise performance (+2 dB SNR on HINT). Comparative testing demonstrated that a higher-power RIC (C4-FS) restored and slightly improved performance (-3 dB SNR).",
+  "counseling_points": [
+    "The 'muffled' sound you are experiencing is because the smaller C4-Passion hearing aids cannot handle the loud peaks of speech, effectively 'clipping' the sound.",
+    "Your previous hearing aids had a much higher maximum power output (OSPL90), which your hearing loss requires for clarity in noise.",
+    "We recommend switching to the Clear Fusion (C4-FS) model with a power receiver. It is still cosmetically discreet but provides the power necessary to match the loudness and clarity of your previous devices.",
+    "Our testing shows the Fusion model improves your ability to hear in noise by roughly 30-50% compared to the Passion model you are currently trying."
+  ],
+  "notes_for_actor": [
+    "You are an engineer, so you are analytical and understand technical explanations, but you are also very conscious of cosmetics.",
+    "You are frustrated that 'newer technology' sounds worse than your 10-year-old hearing aids.",
+    "Describe the sound in noise as 'mingled'—you can hear sound, but you can't separate the speech from the background."
+  ]
+}

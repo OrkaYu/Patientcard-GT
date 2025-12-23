@@ -1,0 +1,153 @@
+{
+  "case_id": "case_20",
+  "title": "In Utero and Early Childhood Drug Exposure: An Auditory, Speech, and Language Outcome",
+  "demographics": {
+    "age_years": 25,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have difficulty understanding speech in noise and feel like I have a delay in processing what people say—it often takes me 'a minute' to catch up. I also struggle with poor short-term memory.",
+  "problem_summary": {
+    "onset": "Congenital/Early Childhood",
+    "course": "Lifelong; academic struggles in childhood, now managed with compensatory strategies.",
+    "laterality": "Bilateral (Central)",
+    "associated_symptoms": "Fatigue, frustration when tired, reading/language difficulties, poor phonological skills.",
+    "functional_impact": "Struggles in large lecture halls or noisy environments; functions well in quiet, self-paced settings. Has achieved a doctoral degree despite deficits.",
+    "goals_motivation": "To understand the nature of her auditory processing deficits."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (APD Evaluation)",
+      "history": {
+        "present_illness": "Patient reports difficulty understanding in noise and degraded speech. She describes a processing delay and memory issues. She functions well professionally by using strict communication strategies.",
+        "otologic_history": "History of multiple ear infections as a child. Previous evaluation at another center diagnosed her with a 'rare form of auditory neuropathy'.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Mother used opiates, acid, marijuana, and cocaine throughout pregnancy. Born via C-section (maternal herpes), low APGAR, NICU stay. Parents had patient use drugs as a child. Adopted at age 8.",
+        "prior_management": "Thrived in 'ACE' curriculum (quiet, individualized, non-graded). Struggled in public schools. Sat in front row in college, avoided large lectures.",
+        "patient_goals": "Assessment of auditory processing capabilities."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone and Speech Audiometry (External Review)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing within normal limits bilaterally. Word recognition scores were excellent.",
+          "numeric_results": {
+            "WRS": "100%"
+          }
+        },
+        {
+          "name": "Physiologic Measures (External Review)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "OAEs present. Acoustic Reflex Thresholds (ARTs) elevated. Reflex decay present bilaterally. ABR reported as abnormal.",
+          "numeric_results": {
+            "ABR_threshold": "90 dB nHL required for repeatable response"
+          }
+        },
+        {
+          "name": "BKB-SIN Test",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Results indicate moderate difficulty understanding sentences in background noise.",
+          "numeric_results": {
+            "SNR_Loss": "8.5 dB"
+          }
+        },
+        {
+          "name": "SCAN-3A (APD Battery)",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 20.2",
+            "Table 20.3",
+            "Table 20.4"
+          ],
+          "key_findings": "Performance ranged from 1st to 25th percentile on core tests. Total composite in 2nd percentile. Significant Left Ear (LE) advantage noted on multiple subtests (abnormal). Time Compressed Sentences was the only test with normal performance.",
+          "numeric_results": {
+            "Composite_Score": "69 (2nd percentile)",
+            "Filtered_Word_Percentile": "9%",
+            "Auditory_Figure_Ground_Percentile": "5%",
+            "Competing_Words_Percentile": "25%",
+            "Competing_Sentences_Percentile": "1%",
+            "Time_Compressed_Sentences_Percentile": "53%"
+          }
+        },
+        {
+          "name": "Staggered Spondee Word Test (SSW)",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 20.5"
+          ],
+          "key_findings": "Results consistent with SCAN-3A. All conditions substantially poorer than cutoff. Left Ear advantage observed in competing conditions.",
+          "numeric_results": {
+            "Total_Errors": "21 (Normative data: 1.61)",
+            "Right_Ear_Competing_Errors": "8 (Norm: .07)",
+            "Left_Ear_Competing_Errors": "5 (Norm: 1.2)"
+          }
+        },
+        {
+          "name": "Dichotic Digits Test (DDT)",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 20.6"
+          ],
+          "key_findings": "Scores well below cutoff for normal performance. Unlike other tests, this showed a Right Ear Advantage (10%). Patient reported forgetting numbers and guessing.",
+          "numeric_results": {
+            "Right_Ear_Score": "65%",
+            "Left_Ear_Score": "55%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Peripheral hearing sensitivity is normal, but the patient exhibits significant central auditory processing deficits. Physiologic testing shows auditory neuropathy spectrum characteristics (present OAEs, abnormal ABR/reflexes). Behavioral APD testing reveals severe deficits in auditory figure-ground, dichotic listening, and temporal processing, with a composite score in the 2nd percentile. An atypical Left Ear advantage on multiple speech tests suggests language processing may be occurring outside the typical left temporal lobe.",
+  "counseling_points": [
+    "Your testing confirms a neurological basis for your listening difficulties, likely related to early developmental factors.",
+    "The 'Left Ear Advantage' we see on several tests suggests your brain organizes language differently than typical, which explains your struggles with complex auditory environments.",
+    "You have already developed excellent compensatory strategies (self-pacing, quiet environments, visual cues). Continue using these.",
+    "While 'auditory neuropathy' was previously diagnosed, your profile is more complex, involving how the brain pathways process sound, not just the nerve itself.",
+    "Specific auditory training may have limited benefit at this stage; your current environmental adaptations are the most effective approach."
+  ],
+  "notes_for_actor": [
+    "You are highly educated (doctoral degree) and articulate, but you get easily frustrated when tired.",
+    "Emphasize that you need a quiet environment to function.",
+    "When listening to complex instructions, pause and say, 'Wait a minute, I need to process that.'",
+    "You are successful professionally but harbor anxiety about your 'poor memory' and listening gaps."
+  ]
+}

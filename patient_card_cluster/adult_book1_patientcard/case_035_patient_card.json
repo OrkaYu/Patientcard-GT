@@ -1,0 +1,151 @@
+{
+  "case_id": "case_35",
+  "title": "Unilateral Utricular Dysfunction Presenting as Disorientation while Driving",
+  "demographics": {
+    "age_years": 43,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a very specific sensation of tilting, but only during high-velocity turns and only when veering leftward. I feel like I might roll the car or fly off the highway.",
+  "problem_summary": {
+    "onset": "10 months prior to presentation.",
+    "course": "Stable, specific to driving situations.",
+    "laterality": "Symptoms occur when veering leftward (implicating right side pathology).",
+    "associated_symptoms": "Disorientation while driving. No vertigo, nausea, vomiting, tinnitus, or hearing change.",
+    "functional_impact": "Patient had to pull over while driving; uncomfortable driving on highways requiring higher speeds.",
+    "goals_motivation": "Wants to return to comfortable driving; previous medications (diazepam, meclizine) were not beneficial."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology and Neurotology Clinic",
+      "history": {
+        "present_illness": "10-month history of tilting sensation during high-speed leftward turns. No precipitating event.",
+        "otologic_history": "No tinnitus or hearing change. Previous audiometry and VNG reported.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "MRI showed nonspecific T2 signal alterations (migraine/small vessel disease differential) and low-lying cerebellar tonsils (Chiari excluded). Labs (CBC, metabolic, thyroid, sed rate) normal. BP 132/80.",
+        "prior_management": "Tried diazepam and meclizine without benefit.",
+        "patient_goals": "Diagnosis and management of driving disorientation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal hearing sensitivity at 250 to 8000 Hz bilaterally.",
+          "numeric_results": {
+            "Range": "250-8000 Hz normal"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "SRTs agreed with PTA. Word recognition scores were excellent.",
+          "numeric_results": {
+            "WRS": "100% bilaterally"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal absolute latencies and interpeak intervals.",
+          "numeric_results": null
+        },
+        {
+          "name": "Videonystagmography (VNG)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "No spontaneous/gaze nystagmus. Normal tracking, saccades, and OKN. Dix-Hallpike negative. Caloric irrigations within normal limits despite a relative reduction.",
+          "numeric_results": {
+            "Caloric Weakness": "22% right relative reduced response (considered within normal limits)"
+          }
+        },
+        {
+          "name": "cVEMP",
+          "timepoint_label": "Specialized Eval",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Waveforms obtained and replicated, implying bilateral integrity of the saccule and sacculocollic pathways.",
+          "numeric_results": {
+            "Threshold": "90 dB nHL bilaterally",
+            "Stimulus": "500 Hz tone burst"
+          }
+        },
+        {
+          "name": "Rotational Chair (Standard)",
+          "timepoint_label": "Specialized Eval",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Slightly decreased VOR gain with normal symmetry and phase. Step velocity time constants normal.",
+          "numeric_results": null
+        },
+        {
+          "name": "Dynamic Subjective Visual Vertical (DSVV) / Centrifugation",
+          "timepoint_label": "Specialized Eval",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 35.1"
+          ],
+          "key_findings": "Abnormal processing of otolith information related to utricular input. Centric rotation showed slight tilt. Eccentric rotation stimulating the right utricle showed NO change in tilt (abnormal). Eccentric rotation stimulating the left utricle showed expected tilt (normal).",
+          "numeric_results": {
+            "Centric Rotation Tilt": "3° to the right",
+            "Right Utricle Stimulation (Eccentric)": "0° change in tilt (Abnormal)",
+            "Left Utricle Stimulation (Eccentric)": "8° tilt to the right (Normal)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity and normal speech recognition bilaterally. Standard vestibular assessment (VNG, cVEMP, standard Rotational Chair) is largely within normal limits, including saccular function. However, specialized Dynamic Subjective Visual Vertical (DSVV) testing reveals a specific right utricular dysfunction, evidenced by a lack of subjective visual vertical tilt when the right utricle is isolated during eccentric rotation.",
+  "counseling_points": [
+    "Your hearing and the majority of your balance system (the canals and the saccule) are functioning normally.",
+    "We identified a specific problem with your right utricle, which is the part of the inner ear that senses horizontal movement and tilt.",
+    "When you turn left at high speeds, centrifugal force pushes on your right ear. Because that ear isn't sending the correct signal, your brain gets confused about which way is 'up,' causing the sensation that the car is rolling.",
+    "This explains why you only feel symptoms during specific driving maneuvers and not in daily life.",
+    "Habituation exercises can help retrain your brain to handle these signals better."
+  ],
+  "notes_for_actor": [
+    "You are a pleasant 43-year-old female.",
+    "You are not currently dizzy while sitting in the exam room.",
+    "You are anxious about driving on highways because you feel like the car will flip over when you turn left.",
+    "You have tried medicines like Valium and Antivert, but they didn't help.",
+    "Your gait and general movement are normal."
+  ]
+}

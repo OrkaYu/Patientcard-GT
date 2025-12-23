@@ -1,0 +1,126 @@
+{
+  "case_id": "Case046",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral high-frequency sensorineural hearing loss with dyplacusis",
+      "rationale_short": "Symmetrical high-frequency loss consistent with presbycusis and noise exposure; 'flat' pitch perception (dyplacusis) suggests cochlear dead regions or significant inner hair cell damage."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function given the complaint of sound quality issues."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate retrocochlear pathology and neural integrity."
+      },
+      {
+        "action": "Otoacoustic emissions (OAE)",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine degree and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding and functional impact of hearing loss."
+      },
+      {
+        "action": "Pitch Perception / Piano Test",
+        "urgency": "routine",
+        "rationale_short": "To identify specific frequencies causing pitch distortion (dyplacusis) using the patient's instrument."
+      },
+      {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid fitting and perform systematic gain reduction to address distortion."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Assessment revealed bilateral symmetrical mild to profound high-frequency sensorineural hearing loss with a steep slope beyond 1000 Hz. Middle ear function was normal. The patient demonstrated dyplacusis, perceiving C# notes as 'flat', likely due to cochlear damage in the 1000–2000 Hz range affecting harmonics.",
+        "tests": [
+          {
+            "name": "Tympanometry",
+            "category": "Middle Ear",
+            "result_summary": "Normal middle ear function bilaterally (Type A implied)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Middle Ear",
+            "result_summary": "Elevated at 500 and 1000 Hz; absent at 2000 and 4000 Hz bilaterally."
+          },
+          {
+            "name": "Otoacoustic emissions (OAE)",
+            "category": "Cochlear Function",
+            "result_summary": "No measurable responses bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical mild to profound high-frequency SNHL; sharply falling beyond 500-1000 Hz, flat to 3000 Hz, falling to 6000 Hz, with recovery at 8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs (65-70 dB HL) consistent with slope; WRS excellent in quiet (96% RE, 92% LE); Unaided SII 14%."
+          },
+          {
+            "name": "Pitch Perception / Piano Test",
+            "category": "Functional",
+            "result_summary": "C# notes at 277, 554, and 1109 Hz sounded 'flat'. Higher C# (2218 Hz) and High C (4186 Hz) sounded 'thin' but not flat."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Hearing aid fitting with Real Ear Measures. Systematic notch filtering was used to isolate the frequency region causing distortion. Reducing gain in the 1000–1500 Hz range (harmonics of the problematic notes) resolved the 'flat' sound quality.",
+        "tests": [
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Initial fit matched NAL-NL2 targets. Gain reduction at 274 Hz and 554 Hz did not help. A 15 dB notch filter between 1000 Hz and 1500 Hz substantially improved piano sound quality."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral digital hearing aids with Wide Dynamic Range Compression (WDRC).",
+      "Implementation of a 15 dB notch filter (gain reduction) in the 1000–1500 Hz frequency region to address dyplacusis."
+    ],
+    "counseling_actions": [
+      "Explain that high-frequency hearing loss causes the 'thin' sound quality due to loss of harmonic audibility.",
+      "Discuss dyplacusis (pitch distortion) as a result of inner ear damage or dead regions.",
+      "Explain that the 'flat' perception of lower notes is likely due to distortion of their higher-frequency harmonics in the damaged cochlear region.",
+      "Advise that notch filtering avoids the damaged region to improve sound quality."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology Clinic",
+      "rationale_short": "Patient is managed effectively with amplification and programming adjustments; no medical referral required."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Monitor hearing aid benefit and music enjoyment."
+  },
+  "expected_outcome": [
+    "HB was able to successfully use his bilateral amplification and reported his piano sounded significantly better, albeit not perfect.",
+    "HB was able to use the hearing aids in many social situations with significant benefit."
+  ]
+}

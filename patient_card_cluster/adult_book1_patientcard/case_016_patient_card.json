@@ -1,0 +1,270 @@
+{
+  "case_id": "case_16",
+  "title": "Unilateral Hearing Loss and Disequilibrium with Functional Overlay",
+  "demographics": {
+    "age_years": 20,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I feel generally unsteady, especially when walking in grocery store aisles or seeing moving objects. I also have trouble hearing in my right ear.",
+  "problem_summary": {
+    "onset": "6 years prior following barotrauma from an air hose incident.",
+    "course": "Fluctuating symptoms with a history of multiple surgeries (ossiculoplasty, fistula repairs) and inconsistent audiological findings.",
+    "laterality": "Right ear symptoms.",
+    "associated_symptoms": "Unsteadiness, visual motion sensitivity, history of vertigo, otalgia (past), headache with nausea/photophobia.",
+    "functional_impact": "Chronic unsteadiness led to wheelchair use at one point; currently avoids grocery store aisles due to motion sensitivity.",
+    "goals_motivation": "Restore ability to move in grocery store aisles without symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Radiology Clinic",
+      "history": {
+        "present_illness": "Patient reported normal MRI at outside clinic.",
+        "otologic_history": "History of barotrauma and multiple middle ear surgeries.",
+        "noise_exposure_history": "Barotrauma from air hose 6 years ago.",
+        "medical_psych_history": "None noted at this visit.",
+        "prior_management": "Previous exploratory surgery and fistula repairs.",
+        "patient_goals": "Diagnosis of structural pathology."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "CT scan of temporal bones without contrast.",
+          "numeric_results": {
+            "Findings": "Thinning of the roof of the superior canal on the right ear but no definite areas of focal bone dehiscence. Temporal bones otherwise unremarkable."
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2012-01-07",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Presented for evaluation of UHL and disequilibrium. Reports reduced hearing in right ear.",
+        "otologic_history": "Complex history of fluctuating mixed loss. Surgeries included 'glued bones' ossiculoplasty and two perilymphatic fistula repairs.",
+        "noise_exposure_history": "Industrial arts air hose incident.",
+        "medical_psych_history": "Denies anxiety/depression.",
+        "prior_management": "Hearing aid obtained for right ear but not used.",
+        "patient_goals": "Evaluation of hearing and balance."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Initial Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.1"
+          ],
+          "key_findings": "Left ear normal. Right ear showed severe conductive hearing loss inconsistent with other findings. Air-bone gaps 65-75 dB HL. Positive Stenger results.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "80-90 dB HL flat configuration",
+            "Right_BC_Thresholds": "10-20 dB HL",
+            "Left_Thresholds": "0-10 dB HL (Normal)",
+            "Stenger": "Positive at 500, 1000, 2000, 4000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Initial Evaluation",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.1"
+          ],
+          "key_findings": "Excellent word recognition at low sensation level, inconsistent with severe loss.",
+          "numeric_results": {
+            "SRT": "80 dB HL",
+            "WRS": "85% at 90 dB HL (10 dB SL)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Initial Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.1"
+          ],
+          "key_findings": "Normal reflexes bilaterally, which contradicts the severe conductive loss presented in pure tones.",
+          "numeric_results": {
+            "Right_Contralateral_Thresholds": "90-95 dB HL",
+            "Left_Contralateral_Thresholds": "85-95 dB HL",
+            "Tympanometry": "Normal pressure and compliance bilaterally (Type A)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Initial Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Distortion-product otoacoustic emissions (DPOAEs).",
+          "numeric_results": {
+            "Right_Ear": "Present 2000-4000 Hz",
+            "Left_Ear": "Present 2000-6000 Hz",
+            "Interpretation": "Normal outer hair cell function bilaterally"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Initial Evaluation",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Auditory Brainstem Response (ABR).",
+          "numeric_results": {
+            "Wave_V": "Present at 20 dB nHL",
+            "Latencies": "Appropriate",
+            "Interpretation": "Normal hearing sensitivity 1000-4000 Hz"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up (Same Day)",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.2"
+          ],
+          "key_findings": "Obtained after counseling regarding inconsistencies. Results indicate essentially normal hearing with slight low-frequency conductive component.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "0-15 dB HL (250-8000 Hz)",
+            "Air_Bone_Gap": "10 dB at 250-1000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up (Same Day)",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.2"
+          ],
+          "key_findings": "Consistent with pure tone thresholds.",
+          "numeric_results": {
+            "SRT": "10 dB HL",
+            "WRS": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Vestibular Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Comprehensive vestibular battery (VNG, Rotary Chair, Posturography, VEMPs).",
+          "numeric_results": {
+            "VNG": "Normal (no nystagmus, normal calorics)",
+            "Rotary_Chair": "Normal",
+            "VEMPs": "Normal Left, Absent Right (likely secondary to middle ear surgeries)",
+            "Posturography": "Normal"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Multidisciplinary Consults",
+      "history": {
+        "present_illness": "Follow-up for otologic, psychiatric, and physical therapy evaluation.",
+        "otologic_history": "Review of middle ear status.",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "Evaluation for anxiety/depression.",
+        "prior_management": "N/A",
+        "patient_goals": "Management of dizziness."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Otologic Exam",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Scarring on TM, tympanosclerosis. TM slightly thickened but mobile. No spontaneous nystagmus. No active fistula.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Psychiatric Consult",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Mini International Neuropsychiatric Interview (MINI). No significant depression or anxiety. Possible vestibular migraine noted.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Physical Therapy",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Umbrella optokinetics testing induced a 'warm' feeling similar to grocery store symptoms. VOR and gait normal.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient initially presented with results suggesting severe conductive hearing loss in the right ear; however, objective measures (OAEs, ABR, Acoustic Reflexes) indicated normal auditory function. Following counseling on these inconsistencies, behavioral thresholds improved to normal levels (0-15 dB HL) with excellent speech recognition, confirming a diagnosis of pseudohypoacusis (functional hearing loss) overlaying a very mild conductive component. Vestibular testing was normal except for absent right VEMPs, likely due to prior surgeries.",
+  "counseling_points": [
+    "Your physiological tests (OAEs and ABR) show that your inner ear and hearing nerve are working normally, despite the difficulty you felt during the first hearing test.",
+    "The second hearing test confirmed that your hearing sensitivity is actually within the normal range.",
+    "Your dizziness appears to be related to visual motion sensitivity (feeling unsteady in grocery aisles) rather than an active ear problem like a fistula.",
+    "We recommend physical therapy exercises to help your brain get used to these visual motions again."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is anxious about their hearing and balance but not malingering for financial gain; the functional loss may be a conditioned response or psychological manifestation.",
+    "During the initial hearing test, be inconsistent and show difficulty, but during the 're-test' after the audiologist explains the objective results, cooperate fully and respond to soft sounds.",
+    "Describe the dizziness as being triggered by visual patterns (grocery aisles) rather than spinning vertigo."
+  ]
+}

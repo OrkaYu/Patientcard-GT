@@ -1,0 +1,109 @@
+{
+  "case_id": "Case030",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Sudden Sensorineural Hearing Loss (SSNHL)",
+      "rationale_short": "Acute onset of bilateral hearing loss; audiometry confirms mild-to-severe SNHL on the right and profound SNHL on the left, consistent with cochlear pathology."
+    },
+    {
+      "rank": 2,
+      "label": "Right 7th Cranial Nerve (Facial Nerve) Lesion",
+      "rationale_short": "Acoustic reflex pattern (present only in right contralateral condition) and history of right facial palsy following TMJ surgery indicate a right 7th nerve efferent pathway lesion."
+    },
+    {
+      "rank": 3,
+      "label": "Left 8th Cranial Nerve Lesion",
+      "rationale_short": "While cochlear pathology is primary, the profound loss on the left prevents ruling out retrocochlear involvement on that side."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To assess degree, type, and configuration of hearing loss given sudden onset."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To evaluate speech recognition abilities and check for retrocochlear signs (rollover)."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "urgent",
+        "rationale_short": "To assess middle ear function and rule out conductive components."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "urgent",
+        "rationale_short": "To evaluate the integrity of the reflex arc and assist in site-of-lesion testing."
+      },
+      {
+        "action": "Distortion-product otoacoustic emissions (DPOAEs)",
+        "urgency": "urgent",
+        "rationale_short": "To assess outer hair cell function and confirm cochlear site of lesion."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results show bilateral sudden sensorineural hearing loss, mild-to-severe on the right and profound on the left. Middle ear function is normal. The specific acoustic reflex pattern (present only in the right contralateral condition) combined with patient history suggests a right 7th cranial nerve lesion in addition to the cochlear pathology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: mild to severe sloping SNHL (250-8000 Hz: 30-80 dB HL). Left ear: profound SNHL/no response."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 30 dB HL, WRS 93% at 90 dB HL. Left ear: SRT >90 dB HL, WRS 3% at 90 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right Contralateral present (500-2000 Hz). Right Ipsi, Left Ipsi, and Left Contralateral absent. Pattern suggests right 7th nerve lesion."
+          },
+          {
+            "name": "Distortion-product otoacoustic emissions (DPOAEs)",
+            "category": "OAEs",
+            "result_summary": "Present up to 1000 Hz in the right ear; absent in the left ear."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor hearing on a weekly basis",
+      "Electroneurography (EnoG) to assess facial nerve function"
+    ],
+    "counseling_actions": [
+      "Discussed the nature of the bilateral sudden hearing loss.",
+      "Explained that the acoustic reflex pattern suggests a right facial nerve issue, likely related to past TMJ surgery.",
+      "Recommended further investigation of the facial nerve."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset bilateral sensorineural hearing loss",
+      "Vertigo"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "ENT",
+      "rationale_short": "Patient is already under ENT care for SSNHL; audiologist must report the new finding of a potential 7th nerve lesion to influence management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Weekly",
+    "objective": "Monitor hearing thresholds while patient undergoes medical treatment."
+  },
+  "expected_outcome": []
+}

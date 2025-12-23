@@ -1,0 +1,201 @@
+{
+  "case_id": "case_10",
+  "title": "A Case of Mistaken Identity",
+  "demographics": {
+    "age_years": 65,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have constant imbalance and pressure in my left ear, and I've noticed hearing loss on that side. My eyes seem to 'jump' when I hear loud sounds like the telephone ringing, and I feel a rattle or vibration in my head when I talk.",
+  "problem_summary": {
+    "onset": "20-year history of symptoms; evaluated 7 months prior at another facility.",
+    "course": "Chronic symptoms including fullness, ringing, and imbalance. Previously diagnosed with Ménière disease but symptoms did not fluctuate or occur in spells.",
+    "laterality": "Bilateral findings, though patient reports primary symptoms in the Left ear.",
+    "associated_symptoms": "Tullio phenomenon (eyes jumping with loud sound), autophony (voice rattling in head), constant imbalance.",
+    "functional_impact": "Avoidance of loud sounds; concern about hearing aids due to eye movement response.",
+    "goals_motivation": "Seeking second opinion and relief from imbalance/hearing issues."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2002-08-06",
+      "setting": "Audiology Clinic (Balance Specialist)",
+      "history": {
+        "present_illness": "Patient seen for second opinion after being diagnosed with left Ménière disease 7 months prior. Reports constant imbalance, pressure, and hearing loss in left ear. Reports Tullio phenomenon (eyes jump with loud noise) and autophony.",
+        "otologic_history": "20-year history of fullness and ringing in left ear.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Previous diagnosis of Ménière disease.",
+        "patient_goals": "Accurate diagnosis and management."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 10.1"
+          ],
+          "key_findings": "Right ear: Mild to moderate mixed loss rising to normal at 8000 Hz with significant air-bone gaps (15-20 dB) at low frequencies. Left ear: Slight to mild mixed loss sloping to moderately severe at 8000 Hz with a 30 dB air-bone gap at 250 Hz.",
+          "numeric_results": {
+            "Right_ABG_250_500_1000Hz": "15-20 dB",
+            "Left_ABG_250Hz": "30 dB",
+            "Right_Bone_Conduction": "Better than expected/normal sensitivity"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 10.1"
+          ],
+          "key_findings": "Speech recognition thresholds mildly impaired bilaterally. Word recognition scores excellent/within normal limits.",
+          "numeric_results": {
+            "SRT_Right": "33 dB HL",
+            "SRT_Left": "28 dB HL",
+            "WRS_Right": "96%",
+            "WRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 10.1"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally, suggesting normal middle ear function despite air-bone gaps.",
+          "numeric_results": {
+            "Static_Admittance_Right": "0.7 mL",
+            "Static_Admittance_Left": "0.8 mL",
+            "Peak_Pressure_Right": "-10 daPa",
+            "Peak_Pressure_Left": "-5 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 10.1"
+          ],
+          "key_findings": "Ipsilateral reflexes present and normal bilaterally (unexpected for conductive loss). Contralateral reflexes mostly normal, slightly elevated at specific frequencies.",
+          "numeric_results": {
+            "Right_Ipsi": "Present/Normal",
+            "Left_Ipsi": "Present/Normal"
+          }
+        },
+        {
+          "name": "Electrocochleography (ECoG)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 10.2",
+            "Fig. 10.3"
+          ],
+          "key_findings": "Summating potential (SP) to action potential (AP) amplitude ratios were enlarged bilaterally (>0.5), consistent with SSCD.",
+          "numeric_results": {
+            "SP_AP_Ratio_Right": "0.76",
+            "SP_AP_Ratio_Left": "0.71"
+          }
+        },
+        {
+          "name": "Vestibular Evaluation",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "VOG normal. Calorics symmetric (8% left weakness - normal). Rotary chair normal. CDP showed decreased vestibular utilization (falls on SOT 5 & 6).",
+          "numeric_results": {
+            "Caloric_Weakness": "8% (Left)",
+            "Total_Eye_Speed": "83 deg/s"
+          }
+        },
+        {
+          "name": "Spiral CT Scan",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Confirmed dehiscence of the superior semicircular canal bilaterally.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned to discuss hearing aid options after declining surgical management. Expressed concern about loud sounds causing eye movement.",
+        "otologic_history": "Diagnosed with Bilateral SSCD.",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "Medical/surgical options (plugging, resurfacing) declined.",
+        "patient_goals": "Trial hearing aid in left ear."
+      },
+      "tests": [
+        {
+          "name": "Real Ear Measures (REM)",
+          "timepoint_label": "Hearing Aid Fitting",
+          "ear": "left",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Fit with 15-channel digital BTE with slim tube and open dome. Verified to NAL-NL1 targets. Directional microphone performance verified.",
+          "numeric_results": {
+            "Target_Input_Level": "65 dB SPL",
+            "Verification_Levels": "50, 65, 80 dB SPL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral mixed hearing loss characterized by low-frequency air-bone gaps, yet paradoxically normal tympanometry and present acoustic reflexes. ECoG testing revealed significantly enlarged SP/AP ratios bilaterally. CT imaging confirmed the diagnosis of bilateral Superior Semicircular Canal Dehiscence (SSCD), explaining the 'third window' effect responsible for the hypersensitive bone conduction and vestibular symptoms.",
+  "counseling_points": [
+    "Your symptoms (imbalance, hearing your own voice loudly, eyes jumping with noise) are caused by a thinning of the bone in the inner ear canal, known as Superior Semicircular Canal Dehiscence (SSCD), not Ménière's disease.",
+    "The 'gap' on your hearing test is due to your inner ear being hypersensitive to bone-conducted sound, rather than a problem with your middle ear bones.",
+    "Hearing aids can help with the hearing loss, but we must be careful with volume to avoid triggering your dizziness or eye movements.",
+    "Surgical options exist to plug the canal, but since you have chosen to defer surgery, we will monitor your hearing and balance annually."
+  ],
+  "notes_for_actor": [
+    "Portray anxiety specifically regarding loud sounds; mention that the phone ringing makes your eyes feel like they are jumping.",
+    "Describe your voice as sounding 'rattling' or vibrating inside your head (autophony).",
+    "You are skeptical about hearing aids because you worry making things louder will trigger your dizziness/eye symptoms."
+  ]
+}

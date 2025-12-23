@@ -1,0 +1,160 @@
+{
+  "case_id": "case_48",
+  "title": "You're Wearing the Best Hearing Aids",
+  "demographics": {
+    "age_years": 70,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "Patient reports significant dissatisfaction with hearing aids purchased at another facility, stating he 'could not hear well when wearing the hearing aids.' He feels an urgency to hear his soft-spoken wife who has health issues.",
+  "problem_summary": {
+    "onset": "Hearing loss onset likely gradual due to noise exposure; dissatisfaction with amplification is recent (new hearing aids).",
+    "course": "Patient purchased aids recently but missed the trial return period due to wife's hospitalization; aids have been 'nothing but trouble'.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Difficulty hearing in noise, difficulty hearing soft voices, dissatisfaction with device performance.",
+    "functional_impact": "Struggles to communicate with ill wife; difficulty hearing in church; wife keeps TV/radio on which masks speech.",
+    "goals_motivation": "Primary goal is to understand his wife better and hear in church. Wants to know if current aids can be helped or if he needs new ones."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Previous Facility (External Records)",
+      "history": {
+        "present_illness": "Patient purchased 'advanced and sophisticated' hearing aids but found them unhelpful. Clinician refused modifications.",
+        "otologic_history": "History of excessive noise exposure (occupational and recreational).",
+        "noise_exposure_history": "US Marine Corps (helicopter maintenance); Aeronautical engineer; Hunting/target practice (rifle) with limited hearing protection.",
+        "medical_psych_history": "Good physical and mental health; no prescription medications.",
+        "prior_management": "Fitted with hearing aids recently; verification measures (REM) likely not performed.",
+        "patient_goals": "Improve hearing with current aids or consider new ones."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 48.1"
+          ],
+          "key_findings": "Bilateral symmetrical moderate to severe sensorineural hearing loss.",
+          "numeric_results": {
+            "Right Air Conduction (dB HL)": "250Hz:45, 500Hz:45, 1000Hz:55, 2000Hz:60, 4000Hz:80, 8000Hz:85",
+            "Left Air Conduction (dB HL)": "250Hz:55, 500Hz:50, 1000Hz:45, 2000Hz:65, 4000Hz:80, 8000Hz:75",
+            "Bone Conduction": "Symmetrical with air thresholds (sensorineural)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 48.1"
+          ],
+          "key_findings": "Word recognition scores indicate slight difficulty in recognizing speech. Testing used monitored live voice (MLV).",
+          "numeric_results": {
+            "Right WRS": "82% (30 dB SL)",
+            "Left WRS": "76% (30 dB SL)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (Current Evaluation)",
+      "history": {
+        "present_illness": "Re-evaluation to determine hearing status and hearing aid function.",
+        "otologic_history": "Unremarkable otoscopy.",
+        "noise_exposure_history": "See V1.",
+        "medical_psych_history": "Wife has significant health issues, causing stress.",
+        "prior_management": "Patient wears new aids only a few hours a week; satisfied only in quiet.",
+        "patient_goals": "Hear wife, hear in church."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Unremarkable bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanic membrane mobility.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Elevated ARTs bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Electroacoustic Analysis",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "device_on",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing aids determined to be performing appropriately based on electroacoustic specs.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Visual inspection confirmed patient could appropriately insert and remove hearing aids. Patient reports aids are comfortable.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral symmetrical moderate-to-severe sensorineural hearing loss consistent with noise exposure history. Despite owning 'advanced' hearing aids, functional benefit is limited due to likely poor initial programming (lack of Real Ear Measures) and inconsistent usage (only wears them a few hours a week). Speech recognition is fair but compromised in noise.",
+  "counseling_points": [
+    "Explain that 'best technology' requires precise verification (Real Ear Measures) to match your specific hearing loss prescription (NAL-NL2).",
+    "Discuss the importance of full-time wear for acclimatization; wearing aids only a few hours a week prevents the brain from adapting.",
+    "Address environmental modifications: reducing background noise (TV/radio) is essential when trying to converse with your soft-spoken wife.",
+    "Reassure that the current devices are functioning correctly electroacoustically, but likely need reprogramming to meet prescriptive targets."
+  ],
+  "notes_for_actor": [
+    "Portray a retired engineer who is logical but frustrated/stressed due to the combination of bad hearing aid experiences and a sick wife.",
+    "You are competent with the physical handling of the aids but skeptical about their value because they haven't worked for you yet.",
+    "Emphasize that you need to hear your wife *now*—there is a sense of urgency due to her health."
+  ]
+}

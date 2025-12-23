@@ -1,0 +1,122 @@
+{
+  "case_id": "Case058",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sensorineural hearing loss",
+      "rationale_short": "Bilateral mild sloping to moderately severe hearing loss with symmetrical configuration."
+    },
+    {
+      "rank": 2,
+      "label": "Inadequate hearing aid fitting",
+      "rationale_short": "Initial open-fit settings provided insufficient high-frequency gain due to feedback limitations, resulting in poor clarity and benefit."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing sensitivity to confirm degree and configuration of loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Electroacoustic Analysis",
+        "urgency": "routine",
+        "rationale_short": "Verify hearing instruments are functioning according to manufacturer specifications."
+      },
+      {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "Assess audibility of hearing aid output in the patient's ear relative to targets."
+      },
+      {
+        "action": "Feedback Analysis",
+        "urgency": "routine",
+        "rationale_short": "Determine maximum stable gain available before feedback occurs."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient has a bilateral mild sloping to moderately severe sensorineural hearing loss. Her hearing aids were functioning correctly electroacoustically but were poorly fitted; the open-dome coupling caused feedback limitations that prevented adequate high-frequency gain. Switching to closed domes and reprogramming to DSL v5.0 targets resolved the under-amplification and feedback issues without causing occlusion.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Mild sloping to moderately severe sensorineural hearing loss bilaterally; symmetrical configuration."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs consistent with pure-tone averages (R 35, L 40 dB HL); WRS showed slight difficulty (R 80%, L 84% at 65 dB HL)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanic membrane performance (Type A) bilaterally."
+          },
+          {
+            "name": "Electroacoustic Analysis",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Devices functioning appropriately compared to manufacturer ANSI specifications; no distortion or internal noise."
+          },
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Pre-adjustment: Significant under-amplification relative to DSL v5.0 targets, particularly >2000 Hz."
+          },
+          {
+            "name": "Feedback Analysis",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Maximum stable gain was significantly lower than available gain due to open-vent condition, preventing adequate high-frequency amplification."
+          },
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Post-adjustment (with closed domes): Improved high-frequency audibility matching DSL v5.0 targets; occlusion effect test showed no issues."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Change hearing aid coupling from open domes to closed domes to increase maximum stable gain.",
+      "Reprogram hearing instruments to match DSL v5.0 targets.",
+      "Verify new settings using Real Ear Measures (REM) to ensure audibility.",
+      "Perform static feedback test to confirm feedback resolution.",
+      "Conduct occlusion effect test to ensure patient comfort with closed domes."
+    ],
+    "counseling_actions": [
+      "Explain that the previous open-fit tips allowed sound to escape, causing feedback and preventing necessary high-pitch volume.",
+      "Counsel that switching to closed domes keeps sound in the ear, stops whistling, and allows for sharper speech clarity.",
+      "Confirm with the patient that the new settings do not cause their own voice to sound 'funny' (occlusion)."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient requires routine audiological follow-up to monitor hearing aid performance; no medical referral indicated."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 week",
+    "objective": "Follow-up call to assess performance, clarity, and satisfaction with the new hearing instrument settings."
+  },
+  "expected_outcome": [
+    "Patient reported hearing significantly better with noticeable improvement in clarity, sound quality, and speech recognition in various environments.",
+    "Patient reported no concerns with own voice (occlusion) and no further concerns with device performance."
+  ]
+}

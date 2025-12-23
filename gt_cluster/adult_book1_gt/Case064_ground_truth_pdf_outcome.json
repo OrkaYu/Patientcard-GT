@@ -1,0 +1,108 @@
+{
+  "case_id": "Case064",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Inappropriate device settings (User error)",
+      "rationale_short": "Device inspection revealed high volume and low sensitivity settings; restoring defaults resolved the performance decline."
+    },
+    {
+      "rank": 2,
+      "label": "Device failure",
+      "rationale_short": "Considered due to reported decline, but ruled out as the device functioned normally when settings were corrected."
+    },
+    {
+      "rank": 3,
+      "label": "Medical or cognitive change",
+      "rationale_short": "Ruled out by stable medical history and immediate restoration of performance with setting adjustments."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess word and sentence recognition in quiet for CI candidacy and post-op monitoring."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To evaluate functional hearing in noise (SNR loss) pre- and post-operatively."
+      },
+      {
+        "action": "Device Inspection",
+        "urgency": "routine",
+        "rationale_short": "To check datalogs and current user settings on the sound processor."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Pre-operative evaluation confirmed bilateral severe sensorineural hearing loss with poor speech recognition, meeting FDA criteria for cochlear implantation.",
+        "tests": [
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "CNC Words: Right 28%, Left 16%, Bilateral 24%. AzBio Quiet: Right 19%, Left 4%, Bilateral 36%."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Audiometry",
+            "result_summary": "BKB-SIN SNR Loss: Right 12 dB, Left 15 dB, Bilateral 13 dB."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Post-operative evaluation revealed the patient was using inappropriate settings (Volume 8, Sensitivity 7). Testing confirmed poor performance with user settings (CI-only 30%) but dramatic improvement with recommended settings (CI-only 72%, Bimodal 88%), confirming the device was functioning well and the issue was user error.",
+        "tests": [
+          {
+            "name": "Device Inspection",
+            "category": "Device Check",
+            "result_summary": "Volume at 8 (high), Sensitivity at 7 (low). Default sensitivity is typically 12."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "User Settings: AzBio Quiet CI only 30%, Bimodal 42%. Recommended Settings: AzBio Quiet CI only 72%, Bimodal 88%."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Audiometry",
+            "result_summary": "User Settings SNR Loss: Everyday 11 dB, Noise 8.5 dB, Focus 5.0 dB. Recommended Settings SNR Loss: Everyday 6.5 dB, Noise 3.5 dB, Focus 0 dB."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Lock sensitivity control at 12 (with patient consent)",
+      "Decrease sensitivity breakpoint to 50 dB SPL to allow ASC to activate at lower input levels",
+      "No other programming changes required"
+    ],
+    "counseling_actions": [
+      "Explain the 'camera lens' analogy: changing sensitivity too much limits the range of sounds heard",
+      "Demonstrate how low sensitivity cuts off soft sounds and high volume compresses loud sounds",
+      "Review objective test results showing dramatic improvement with recommended settings",
+      "Advise avoiding frequent remote adjustments and allowing SmartSound automatic features to manage the environment",
+      "Counsel on optimal positioning (noise behind, speaker in front)"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology follow-up",
+      "rationale_short": "Issue resolved with counseling and setting adjustments; routine monitoring is appropriate."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2 weeks",
+    "objective": "Monitor performance and ensure patient is using appropriate settings."
+  },
+  "expected_outcome": [
+    "Patient reported his marriage had been saved and he could not believe how much better he was hearing.",
+    "Patient is making judicious changes to the volume control setting as needed and selecting appropriate programs based on the listening environment."
+  ]
+}
