@@ -1,0 +1,89 @@
+{
+  "case_id": "Case004_01",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder (CAPD)",
+      "rationale_short": "Patient reports significant difficulty hearing in noise and has a history of meningitis, despite normal peripheral hearing sensitivity."
+    },
+    {
+      "rank": 2,
+      "label": "Normal Peripheral Hearing",
+      "rationale_short": "Pure-tone thresholds, speech recognition in quiet, and immittance testing are all within normal limits."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech recognition threshold and word recognition in quiet."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and check for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates normal peripheral hearing sensitivity bilaterally with excellent speech recognition in quiet. Middle ear function is normal, as indicated by Type A tympanograms and present acoustic reflexes with negative decay. These results do not explain the patient's reported difficulty hearing in noise, pointing towards a potential central auditory processing deficit.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally with thresholds between 0-20 dB HL across all frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT was 15 dB HL bilaterally, in agreement with PTA. WRS was 100% at 60 dB HL bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally (Right: 1.0 mL, 0.8 mmho; Left: 1.1 mL, 0.4 mmho)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal ipsilateral and contralateral reflexes present from 500 to 4,000 Hz. Reflex decay was negative."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Evaluation for Hearing Assistive Technology (HAT)"
+    ],
+    "counseling_actions": [
+      "Counseled on hearing evaluation results indicating normal peripheral hearing.",
+      "Discussed the discrepancy between normal test results and subjective difficulty in noise, suggesting potential central auditory processing issues."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Specialized evaluation for Central Auditory Processing Disorder (CAPD)",
+      "rationale_short": "Patient reports significant difficulty in noise and has a history of meningitis, which are not explained by the normal routine audiogram."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Following specialized evaluations",
+    "objective": "Review results of CAPD and HAT evaluations to determine further management."
+  },
+  "expected_outcome": []
+}

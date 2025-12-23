@@ -1,0 +1,131 @@
+{
+  "case_id": "case_7_3",
+  "title": "Unilateral Sudden Loss with Contralateral Progressive Mixed Loss",
+  "demographics": {
+    "age_years": 72,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My hearing aid for my left ear isn't helping as much as it used to, and I feel like my hearing in that ear has been gradually getting worse.",
+  "problem_summary": {
+    "onset": "Sudden loss in right ear >20 years ago; gradual deterioration in left ear.",
+    "course": "Right ear stable (profound); Left ear progressive.",
+    "laterality": "Bilateral asymmetric",
+    "associated_symptoms": "Denies tinnitus, dizziness, aural pressure, or fullness.",
+    "functional_impact": "Reduced benefit from current left ear amplification.",
+    "goals_motivation": "Seeking evaluation of current hearing status and amplification options."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-01-21",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a long-standing history of hearing loss. Sudden hearing loss occurred in the right ear over 20 years ago. The left ear has experienced gradual deterioration. The patient feels his current hearing aid is providing less benefit than in the past.",
+        "otologic_history": "Last exam in 2005 showed mixed loss (Left) and profound SNHL (Right). No history of otosurgery or ear pathology.",
+        "noise_exposure_history": "None significant.",
+        "medical_psych_history": "Medically cleared for new amplification.",
+        "prior_management": "Has used amplification for the left ear.",
+        "patient_goals": "Improve hearing capability; update amplification."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.3"
+          ],
+          "key_findings": "Right ear shows profound sensorineural hearing loss with no measurable response. Left ear shows moderate sloping to profound mixed hearing loss with significant air-bone gaps.",
+          "numeric_results": {
+            "RE_AC": "No response at limits",
+            "RE_BC": "No response at limits",
+            "LE_AC_500Hz": "60 dB HL",
+            "LE_BC_500Hz": "20 dB HL",
+            "LE_AC_1000Hz": "65 dB HL",
+            "LE_BC_1000Hz": "30 dB HL",
+            "LE_AC_2000Hz": "65 dB HL",
+            "LE_BC_2000Hz": "45 dB HL",
+            "LE_AC_4000Hz": "95 dB HL",
+            "LE_BC_4000Hz": "65 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.3"
+          ],
+          "key_findings": "Right ear speech thresholds were not measurable. Left ear SRT was consistent with the pure-tone average; WRS showed moderate difficulty.",
+          "numeric_results": {
+            "RE_SRT": "CNT / NR",
+            "RE_WRS": "CNT",
+            "LE_SRT": "67 dB HL",
+            "LE_WRS": "68% at 95 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.3"
+          ],
+          "key_findings": "Normal tympanograms bilaterally (Type A).",
+          "numeric_results": {
+            "RE_Peak_Pressure": "5 daPa",
+            "RE_Static_Admittance": "0.60 mmho",
+            "RE_Canal_Volume": "1.30 mL",
+            "LE_Peak_Pressure": "10 daPa",
+            "LE_Static_Admittance": "0.50 mmho",
+            "LE_Canal_Volume": "1.10 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Absent acoustic reflex thresholds from 500 to 4,000 Hz for ipsilateral and contralateral stimulation bilaterally. Reflex decay could not be measured.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with an asymmetric hearing profile: a 'dead' right ear (profound SNHL) and a progressive mixed hearing loss in the left ear. The left ear exhibits a significant conductive component (air-bone gaps) despite normal tympanograms, suggestive of otosclerosis, superimposed on sensorineural loss. Speech understanding in the better (left) ear is moderately compromised (68%).",
+  "counseling_points": [
+    "Your right ear has no measurable hearing, which we classify as a profound loss.",
+    "Your left ear has a 'mixed' hearing loss, meaning there is both a problem with the nerve and a mechanical issue conducting sound, likely otosclerosis.",
+    "Because your hearing has changed, your current hearing aid is no longer strong enough.",
+    "We recommend a new hearing solution, such as a BiCROS system, which can pick up sound from your right side and send it to your left ear.",
+    "We also recommend Hearing Assistive Technology (HAT) to help in difficult listening situations.",
+    "It is important to test your hearing annually to monitor the progression in your left ear."
+  ],
+  "notes_for_actor": [
+    "You are a 72-year-old male.",
+    "You are not in acute pain or distress, but you are frustrated that your hearing aid isn't working well anymore.",
+    "You have lived with the loss in your right ear for 20 years and are used to it, but the decline in your 'good' left ear is your main worry.",
+    "If asked about dizziness or ringing in the ears, confidently say no."
+  ]
+}

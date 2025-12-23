@@ -1,0 +1,127 @@
+{
+  "case_id": "Case009_07",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Multiple Sclerosis",
+      "rationale_short": "Confirmed by MRI showing periventricular lesions and brainstem plaques, alongside central auditory (high-rate ABR, MLR) and vestibular findings."
+    },
+    {
+      "rank": 2,
+      "label": "Vestibular Neuronitis",
+      "rationale_short": "Initial diagnosis due to vertigo and nausea, but ruled out by persistence of symptoms, facial numbness, and central test results."
+    },
+    {
+      "rank": 3,
+      "label": "Benign Paroxysmal Positional Vertigo (BPPV)",
+      "rationale_short": "Initial diagnosis, ruled out by lack of response to treatment and presence of central neurological signs."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Electronystagmography (ENG)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate vestibular function given complaints of unsteadiness and nystagmus."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To assess neural integrity of the auditory brainstem pathways."
+      },
+      {
+        "action": "Middle Latency Response (MLR)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate central auditory pathway function above the brainstem."
+      },
+      {
+        "action": "Speech audiometry (Dichotic)",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory processing capabilities."
+      },
+      {
+        "action": "Visual Evoked Responses",
+        "urgency": "routine",
+        "rationale_short": "To assess visual pathways given facial numbness and suspicion of demyelinating disease."
+      },
+      {
+        "action": "MRI",
+        "urgency": "soon",
+        "rationale_short": "To visualize potential demyelinating lesions in the brain and brainstem."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing was normal. However, central testing revealed significant abnormalities consistent with retrocochlear pathology. High-rate ABR showed neural fatigue (absent Wave V) on the right, and MLR was abnormal on the right. ENG showed spontaneous nystagmus. MRI confirmed Multiple Sclerosis with plaques in the brainstem and periventricular white matter.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Peripheral findings fell within normal limits for both ears."
+          },
+          {
+            "name": "Electronystagmography (ENG)",
+            "result_summary": "Left-beating nystagmus noted with eyes closed."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "result_summary": "Left ear normal at slow and high rates. Right ear normal latencies at slow rate (15.7/sec) but poor Wave V morphology; Wave V disappeared completely at high repetition rate (65.7/sec)."
+          },
+          {
+            "name": "Middle Latency Response (MLR)",
+            "result_summary": "Right ear stimulation resulted in a meager Pa response at all electrode sites; Left ear yielded a strong Na-Pa complex."
+          },
+          {
+            "name": "Speech audiometry (Dichotic)",
+            "result_summary": "Dichotic digit results normal for both ears; Dichotic CV scores borderline abnormal for the left ear."
+          },
+          {
+            "name": "Visual Evoked Responses",
+            "result_summary": "Definite delays of P2 latency for the right side, consistent with intrinsic lesion of anterior visual pathway."
+          },
+          {
+            "name": "MRI",
+            "result_summary": "Discrete and asymmetrical high intensity lesions in periventricular white matter; increased signals bilaterally (Left > Right); plaques evident in the brainstem."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Medical management for Multiple Sclerosis",
+      "Continued monitoring of auditory and vestibular function"
+    ],
+    "counseling_actions": [
+      "Explain that hearing sensitivity is normal but central pathways show signs of stress",
+      "Discuss correlation between unsteadiness and central nervous system findings",
+      "Review impact of Multiple Sclerosis on the auditory system and potential for fluctuation"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Right facial numbness",
+      "Reduced tongue sensation",
+      "Spontaneous nystagmus (eyes closed)",
+      "Brainstem plaques on MRI"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurology",
+      "rationale_short": "For management of confirmed Multiple Sclerosis."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor symptoms and auditory/vestibular function."
+  },
+  "expected_outcome": [
+    "Patient's symptoms resolved.",
+    "Follow-up high rate ABR continues to demonstrate abnormality for only the right ear."
+  ]
+}

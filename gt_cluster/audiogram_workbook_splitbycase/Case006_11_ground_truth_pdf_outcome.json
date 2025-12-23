@@ -1,0 +1,92 @@
+{
+  "case_id": "Case006_11",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Left Cholesteatoma",
+      "rationale_short": "History of chronic otalgia, otorrhea, and tympanic membrane perforation; audiogram shows conductive hearing loss; CT scan confirmed cholesteatoma."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and determine the type and degree of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech detection thresholds (SAT) given the patient's language barrier."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and tympanic membrane compliance."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex pathway, though limited by middle ear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a slight to moderately severe high-frequency sensorineural hearing loss in the right ear and a moderately severe to severe mixed/conductive hearing loss in the left ear. The left ear demonstrates significant air-bone gaps. Speech detection thresholds are consistent with pure-tone findings. Immittance testing reveals a hypercompliant system in the right ear, while testing was deferred in the left ear due to otorrhea. Findings are consistent with the medical diagnosis of left cholesteatoma.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Slight SNHL rising to normal (250-1000 Hz), sloping to moderate/moderately severe (6000-8000 Hz). Left ear: Moderately severe rising to mild conductive loss (250-3000 Hz), sloping to severe conductive loss (4000-8000 Hz) with significant air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SAT: Right 10 dB HL, Left 40 dB HL. Consistent with PTA. WRS could not be measured due to language barrier."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Type Ad (hypercompliant), static admittance 3.0 mL. Left ear: Not tested due to otorrhea."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Not measured due to artifact from hypercompliant TM (Right) and otorrhea (Left)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Tympanoplasty and mastoidectomy (recommended by otologist but declined by patient)",
+      "Regular follow-up appointments (wait and watch approach)",
+      "Keep left ear dry"
+    ],
+    "counseling_actions": [
+      "Discussed CT scan results confirming cholesteatoma",
+      "Counseled on the standard medical recommendation for surgery versus the risks of conservative management",
+      "Instructed to report any changes in symptoms immediately"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Otorrhea",
+      "Otalgia",
+      "Cholesteatoma",
+      "Tympanic membrane perforation"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Otologist",
+      "rationale_short": "Active cholesteatoma with otorrhea and otalgia requires medical management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Regular intervals",
+    "objective": "Monitor cholesteatoma progression and hearing status (wait and watch)."
+  },
+  "expected_outcome": []
+}

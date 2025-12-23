@@ -1,0 +1,129 @@
+{
+  "case_id": "case_4_8",
+  "title": "Subjective Left-Sided Hearing Loss, Aural Fullness, and Vertigo",
+  "demographics": {
+    "age_years": 56,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have had decreased, muffled hearing in my left ear for many years that seems to fluctuate. I also feel a constant fullness in that ear, and my dizzy spells have been happening more often lately.",
+  "problem_summary": {
+    "onset": "Hearing loss and vertigo are long-standing; aural fullness present for a few years.",
+    "course": "Hearing fluctuates; vertigo has increased in frequency over the past few months.",
+    "laterality": "Left ear symptoms.",
+    "associated_symptoms": "Aural fullness (worse with bad weather), vertigo.",
+    "functional_impact": "Perceived difficulty hearing in the left ear.",
+    "goals_motivation": "Evaluation of auditory status and vertigo."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-06-04",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports decreased, muffled, and fluctuating hearing in the left ear for many years. Constant left aural fullness exists (worse with bad weather). Long-standing history of vertigo has increased in frequency recently.",
+        "otologic_history": "History of ear infections in the past, but none for 8 years. Denies otosurgery.",
+        "noise_exposure_history": "Denied.",
+        "medical_psych_history": "Chronic pancreatitis reported. Denies familial hearing loss.",
+        "prior_management": "None specified.",
+        "patient_goals": "Diagnosis of symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.8"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally at all frequencies (250-8000 Hz). Air and bone conduction thresholds are interweaving and within normal limits.",
+          "numeric_results": {
+            "Right_PTA": "8 dB HL",
+            "Left_PTA": "7 dB HL",
+            "Range": "0-15 dB HL across all frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.8"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) are in agreement with PTA. Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "Right_SRT": "8 dB HL",
+            "Left_SRT": "5 dB HL",
+            "Right_WRS": "96% at 55 dB HL",
+            "Left_WRS": "96% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.8"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally, indicating normal middle ear function.",
+          "numeric_results": {
+            "Right_Canal_Vol": "0.90 mL",
+            "Right_Static_Admittance": "0.70 mmho",
+            "Right_Peak_Pressure": "-95 daPa",
+            "Left_Canal_Vol": "1.10 mL",
+            "Left_Static_Admittance": "0.70 mmho",
+            "Left_Peak_Pressure": "-25 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.8"
+          ],
+          "key_findings": "Acoustic reflex thresholds present and normal for ipsilateral and contralateral stimulation generally. Left ipsilateral reflexes elevated at 4000 Hz. Reflex decay negative at 500 and 1000 Hz bilaterally.",
+          "numeric_results": {
+            "Right_Ipsi_500_4k": "85, 80, 80, 75 dB HL",
+            "Left_Ipsi_500_4k": "75, 70, 70, 110 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient demonstrates bilateral normal hearing sensitivity with excellent word recognition abilities, despite subjective complaints of hearing loss and muffling in the left ear. Immittance testing reveals normal middle ear function and intact acoustic reflexes, with no evidence of retrocochlear pathology on the audiologic battery.",
+  "counseling_points": [
+    "Although you feel your hearing is muffled in the left ear, the hearing test today shows that your ability to hear soft sounds (beep test) is actually within the normal range for both ears.",
+    "Your ability to understand speech is excellent in both ears.",
+    "The pressure test shows your eardrums are moving normally.",
+    "Because of your symptoms of dizziness, fullness, and fluctuating sensation, it is very important that you follow up with the otologist (ear doctor) as scheduled to investigate the medical cause of these symptoms.",
+    "We will schedule a re-evaluation if your hearing changes further."
+  ],
+  "notes_for_actor": [
+    "You should appear concerned about your left ear despite the normal results.",
+    "Emphasize that the hearing feels 'muffled' and 'full' specifically in the left ear.",
+    "Mention that the fullness feels worse when the weather is bad.",
+    "You have a history of vertigo that is getting more frequent recently."
+  ]
+}

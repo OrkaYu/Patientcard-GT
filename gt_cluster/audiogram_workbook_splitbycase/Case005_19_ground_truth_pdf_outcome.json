@@ -1,0 +1,95 @@
+{
+  "case_id": "Case005_19",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Retrocochlear pathology",
+      "rationale_short": "Asymmetric sensorineural hearing loss, unilateral tinnitus, and disproportionately poor word recognition scores (42% in the right ear) suggest retrocochlear involvement."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural hearing loss",
+      "rationale_short": "Bilateral sloping loss with family history suggests a cochlear component, but the asymmetry and poor speech discrimination require ruling out retrocochlear causes."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with bilateral asymmetric sensorineural hearing loss, sloping from normal in the low frequencies to severe/profound in the high frequencies, with the right ear being significantly worse. Word recognition in the right ear is very poor (42%) and disproportionate to the pure-tone thresholds compared to the left ear (82%). Tympanometry is normal, but acoustic reflexes show abnormalities consistent with the asymmetry.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal at 250 Hz sloping to profound SNHL at 6-8 kHz. Left ear: Normal at 250 Hz sloping to severe SNHL at 8 kHz. Asymmetric configuration."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT agrees with PTA (RT 50 dB, LT 40 dB). WRS is 42% in the right ear (very poor) and 82% in the left ear."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral normal at 500 Hz, elevated/absent higher. Left ipsilateral normal 500-2000 Hz. Contralateral reflexes absent/elevated. Decay negative where measurable."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid programming",
+      "HAT (Hearing Assistive Technology)"
+    ],
+    "counseling_actions": [
+      "Discuss the asymmetric hearing loss and the disproportionate reduction in speech clarity in the right ear.",
+      "Explain that amplification may not improve clarity in the right ear due to the nature of the loss.",
+      "Advise on the need for medical referral to rule out retrocochlear pathology."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss",
+      "Unilateral tinnitus",
+      "Disproportionately poor word recognition score in the right ear"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "Referral for MRI to rule out retrocochlear pathology due to asymmetric loss and poor WRS."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Pending MRI results",
+    "objective": "Follow up for hearing aid programming and HAT after medical clearance."
+  },
+  "expected_outcome": []
+}

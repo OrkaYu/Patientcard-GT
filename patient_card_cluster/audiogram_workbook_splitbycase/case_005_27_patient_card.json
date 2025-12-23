@@ -1,0 +1,105 @@
+{
+  "case_id": "case_5_27",
+  "title": "Unilateral Sensorineural Hearing Loss with Progression",
+  "demographics": {
+    "age_years": 65,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed an increased need for repetition lately and I am struggling more in group settings. I am worried that my hearing has deteriorated.",
+  "problem_summary": {
+    "onset": "Diagnosed with hearing loss 6 years ago; recent subjective decline.",
+    "course": "Progressive in the right ear since original diagnosis; stable over the last 2 years.",
+    "laterality": "Unilateral (Right ear).",
+    "associated_symptoms": "Difficulty hearing in noise/groups.",
+    "functional_impact": "Reduced benefit from current amplification in challenging environments.",
+    "goals_motivation": "Monitor stability of hearing and address increased difficulty."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-03-16",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient diagnosed with unilateral SNHL in the right ear 6 years ago. Reports significant benefit from amplification historically but recent struggles.",
+        "otologic_history": "MRI completed at initial diagnosis (negative for vestibular schwannoma). Last hearing test was 2 years ago.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Continued medical follow-up since diagnosis.",
+        "prior_management": "Has used amplification in the right ear for approximately 6 years.",
+        "patient_goals": "Check for hearing deterioration."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.27"
+          ],
+          "key_findings": "Right ear shows slight sloping to moderate SNHL (250-3000 Hz), sloping to severe (4000 Hz) and profound (6000-8000 Hz). Left ear is largely within normal limits with a minor dip at 6000 Hz.",
+          "numeric_results": {
+            "RE_250Hz": "20 dB HL",
+            "RE_1000Hz": "25 dB HL",
+            "RE_2000Hz": "40 dB HL",
+            "RE_4000Hz": "75 dB HL",
+            "RE_8000Hz": "No Response",
+            "LE_Thresholds": "0-10 dB HL (250-4000 Hz), 30 dB HL (6000 Hz)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.27"
+          ],
+          "key_findings": "SRT agrees with PTA bilaterally. Word recognition is normal in the left ear but shows moderate difficulty in the right ear (74%).",
+          "numeric_results": {
+            "RE_SRT": "35 dB HL",
+            "RE_PTA": "37 dB HL",
+            "RE_WRS": "74% at 80 dB HL",
+            "LE_SRT": "5 dB HL",
+            "LE_PTA": "5 dB HL",
+            "LE_WRS": "92% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not measured.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a long-standing unilateral sensorineural hearing loss in the right ear. Thresholds in the right ear range from mild in the low frequencies to profound in the high frequencies, with word recognition scores indicating moderate difficulty (74%). The left ear remains essentially normal. Comparison to the original diagnosis 6 years ago shows significant progression in the right ear (2000-8000 Hz) and a decline in word recognition, though thresholds are relatively stable compared to the test 2 years ago.",
+  "counseling_points": [
+    "Your hearing in the right ear has changed significantly since your original diagnosis 6 years ago, which explains why you are struggling more.",
+    "However, compared to your test 2 years ago, the hearing levels are relatively stable.",
+    "Because of the asymmetry and progression over the long term, I am referring you to an otologist for medical clearance.",
+    "We should continue with amplification in the right ear, but you may benefit from Hearing Assistive Technology (HAT) for noisy group settings.",
+    "It is crucial to use hearing protection to preserve the hearing in your good (left) ear."
+  ],
+  "notes_for_actor": [
+    "You are a 65-year-old female who is compliant with hearing aid use but frustrated by recent difficulties.",
+    "You are anxious that your hearing is 'gone' or rapidly getting worse because group conversations are harder than they used to be.",
+    "You have a history of an MRI scan 6 years ago which was clear, so you aren't necessarily worried about a tumor, just the hearing loss itself."
+  ]
+}

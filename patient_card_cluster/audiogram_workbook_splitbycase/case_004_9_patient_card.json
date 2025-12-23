@@ -1,0 +1,128 @@
+{
+  "case_id": "case_4_9",
+  "title": "Baseline Monitoring for Cisplatin Treatment",
+  "demographics": {
+    "age_years": 25,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I was sent here for a hearing test before I start my chemotherapy treatment. My hearing seems good right now.",
+  "problem_summary": {
+    "onset": "N/A (Baseline evaluation)",
+    "course": "Pre-treatment baseline",
+    "laterality": "Bilateral",
+    "associated_symptoms": "None reported (denies tinnitus, dizziness, otalgia, or aural fullness).",
+    "functional_impact": "None currently reported.",
+    "goals_motivation": "Establish baseline hearing thresholds prior to ototoxic chemotherapy (cisplatin) and monitor for changes."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-06-23",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient diagnosed with ovarian cancer and scheduled for treatment with cisplatin. Unsure of the number of treatment cycles.",
+        "otologic_history": "Reports good hearing bilaterally. Denies tinnitus, dizziness, otalgia, or fullness.",
+        "noise_exposure_history": "Works in a cheese production factory around louder noises.",
+        "medical_psych_history": "Ovarian cancer diagnosis.",
+        "prior_management": "None reported.",
+        "patient_goals": "Baseline monitoring."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 4.9"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally from 250 to 8000 Hz. High-frequency audiometry (9–16 kHz) was also performed to establish a baseline for ototoxicity monitoring.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "0-10 dB HL across standard frequencies",
+            "Left_Ear_Thresholds": "0-10 dB HL across standard frequencies",
+            "Right_High_Freq_9k_16k": "15, 15, 20, 25, 40, 35 dB HL",
+            "Left_High_Freq_9k_16k": "20, 20, 20, 25, 35, 40 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 4.9"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) are in agreement with pure-tone averages. Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "7 dB HL",
+            "SRT_Left": "5 dB HL",
+            "WRS_Right": "100% at 55 dB HL",
+            "WRS_Left": "100% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 4.9"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Vol": "1.2 ml",
+            "Right_Static_Admittance": "0.3 mmho",
+            "Right_Peak_Pressure": "-5 daPa",
+            "Left_Vol": "1.1 ml",
+            "Left_Static_Admittance": "0.4 mmho",
+            "Left_Peak_Pressure": "10 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 4.9"
+          ],
+          "key_findings": "Ipsilateral and contralateral reflexes present at normal levels (500-4000 Hz). Reflex decay was negative.",
+          "numeric_results": {
+            "Reflex_Levels": "85-100 dB HL range",
+            "Decay": "Negative"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient demonstrates normal hearing sensitivity bilaterally across the standard frequency range (250–8000 Hz) with excellent speech discrimination. Extended high-frequency testing (9000–16000 Hz) was successfully recorded to serve as a sensitive baseline for ototoxicity. Middle ear function is normal.",
+  "counseling_points": [
+    "Cisplatin is a medication that can sometimes damage the inner ear, potentially causing hearing loss or tinnitus (ringing in the ears).",
+    "It is critical to have your hearing checked before each dose (or as recommended) to catch any changes early.",
+    "Noise exposure combined with this medication can increase the risk of hearing damage.",
+    "Since you work in a cheese production factory with loud noise, you must be diligent about wearing hearing protection at work."
+  ],
+  "notes_for_actor": [
+    "Portray a 25-year-old woman who is understandably preoccupied with her cancer diagnosis but currently feels her hearing is fine.",
+    "You work in a factory but may not have been strict about earplugs in the past; be receptive to the advice about noise protection.",
+    "You are cooperative and willing to return for follow-up testing."
+  ]
+}

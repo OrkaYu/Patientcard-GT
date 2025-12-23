@@ -1,0 +1,124 @@
+{
+  "case_id": "case_5_22",
+  "title": "Sudden Hearing Loss with Background of Presbycusis",
+  "demographics": {
+    "age_years": 82,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've had some hearing loss for years, but about 6 weeks ago my hearing suddenly dropped. I am having a lot of trouble hearing people around me now.",
+  "problem_summary": {
+    "onset": "Sudden decrease approximately 6 weeks prior to the evaluation.",
+    "course": "Acute worsening on top of chronic history.",
+    "laterality": "Bilateral (patient report), Asymmetric (testing).",
+    "associated_symptoms": "Denied tinnitus and dizziness.",
+    "functional_impact": "Significant increase in difficulty hearing those around him.",
+    "goals_motivation": "Previously tried hearing aids years ago with little benefit; returned them. Now seeking help due to sudden decline."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2011-12-23",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "82-year-old male reports a sudden decrease in hearing 6 weeks ago. He has a history of long-standing bilateral high-frequency hearing loss.",
+        "otologic_history": "Denied tinnitus or dizziness.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Tried hearing aids several years ago but returned them due to perceived lack of benefit.",
+        "patient_goals": "Evaluation of sudden hearing change."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.22"
+          ],
+          "key_findings": "Right ear: Normal sloping to mild SNHL (250-3000 Hz), steeply sloping to severe/profound at 4000-6000 Hz. Left ear: Normal (250-2000 Hz) sloping to slight/moderate SNHL in high frequencies. Significant asymmetry noted in high frequencies.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 10, 500Hz: 10, 1000Hz: 15, 2000Hz: 20, 3000Hz: 25, 4000Hz: 75, 6000Hz: 95, 8000Hz: 80 dB HL",
+            "Left_AC_Thresholds": "250Hz: 10, 500Hz: 10, 1000Hz: 10, 2000Hz: 15, 3000Hz: 25, 4000Hz: 40, 6000Hz: 50, 8000Hz: 35 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.22"
+          ],
+          "key_findings": "SRT scores were in agreement with PTA. Word Recognition Scores (WRS) were excellent bilaterally despite high-frequency loss.",
+          "numeric_results": {
+            "SRT_Right": "12 dB",
+            "SRT_Left": "3 dB",
+            "WRS_Right": "96% at 65 dB HL",
+            "WRS_Left": "96% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.22"
+          ],
+          "key_findings": "Right ear showed a hypercompliant (Type Ad) tympanogram. Left ear showed a normal (Type A) tympanogram.",
+          "numeric_results": {
+            "Right_Static_Admittance": "3.4 mL",
+            "Left_Static_Admittance": "0.4 mL",
+            "Right_Pressure": "0 daPa",
+            "Left_Pressure": "-5 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.22"
+          ],
+          "key_findings": "Right ipsilateral reflexes absent at 2k and 4k Hz. Left ipsilateral reflexes normal through 4k Hz. Contralateral reflexes generally normal in low/mid frequencies but absent at 4k Hz bilaterally. Reflex decay was negative.",
+          "numeric_results": {
+            "Right_Ipsi_Reflexes": "500: 95, 1k: 85, 2k: 100 (Text says absent), 4k: ABS",
+            "Left_Ipsi_Reflexes": "500: 95, 1k: 85, 2k: 90, 4k: 100"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric sensorineural hearing loss, significantly worse in the Right ear at high frequencies (steep slope at 4kHz) compared to the Left. This acute drop is superimposed on a history of presbycusis. Despite the threshold configuration, word recognition remains excellent (96%) bilaterally. Tympanometry indicates a hypercompliant system on the Right (Type Ad) and normal middle ear function on the Left.",
+  "counseling_points": [
+    "Your hearing test confirms a significant drop in high-pitch hearing in your right ear, which explains the sudden difficulty you are experiencing.",
+    "Because this change was sudden and is different between your ears, we need to refer you to an otologist (ear specialist) for medical evaluation.",
+    "The specialist may prescribe steroids to try to recover some hearing and may order an MRI to rule out any underlying causes for the asymmetry.",
+    "Even though you didn't like hearing aids years ago, modern technology can better address this specific type of high-frequency loss, and we should revisit this option after medical clearance."
+  ],
+  "notes_for_actor": [
+    "You are 82 years old and frustrated by the sudden change in your hearing.",
+    "You are skeptical of hearing aids because you tried them years ago and they didn't help, but you are struggling enough now that you are willing to listen.",
+    "You do not have dizziness or ringing in your ears (tinnitus)."
+  ]
+}

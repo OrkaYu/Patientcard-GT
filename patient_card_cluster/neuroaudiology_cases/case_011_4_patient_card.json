@@ -1,0 +1,114 @@
+{
+  "case_id": "case_11_4",
+  "title": "Neuroaudiology Case Study: Neuro-maturational Lag",
+  "demographics": {
+    "age_years": 9.5,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "The child has difficulty hearing when background noise is present and often asks to have auditory information repeated. He has trouble following directions and his teacher reports he is 'not a good listener.'",
+  "problem_summary": {
+    "onset": "Referred at 9.5 years of age; recently classified as having a Learning Disability (LD).",
+    "course": "Significant improvement observed over a 3-year period attributed to maturational change.",
+    "laterality": "Bilateral deficits initially, with specific left ear weaknesses on dichotic tasks.",
+    "associated_symptoms": "Reading below grade level, difficulty with math, distractibility to visual and acoustic stimuli, writing reversals, slow writing speed.",
+    "functional_impact": "School performance influenced by poor listening; reading below first-grade level at age 9.5 (in third grade).",
+    "goals_motivation": "Parents and teachers seeking explanation for auditory and academic difficulties."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Child referred at 9.5 years old. Classified as LD. Reading below 1st grade level in 3rd grade. Normal IQ but Verbal IQ was 17 points higher than Performance IQ. Moderate deficit in auditory memory (Auditory Sequential Memory Test).",
+        "otologic_history": "No significant history for otologic/neurologic problems.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Normal pre-, peri-, and post-natal course. Normal developmental milestones. Speech/language essentially normal. Problems with hand dominance.",
+        "prior_management": "Classified as LD.",
+        "patient_goals": "Investigate auditory processing capabilities."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Pure tone thresholds were normal bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Central Auditory Test Battery",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 11-10"
+          ],
+          "key_findings": "Severe bilateral deficits on Frequency Patterns. Moderate left ear deficits on dichotic digits and competing sentences. Mild right ear deficit and borderline normal left ear on SSW.",
+          "numeric_results": {
+            "Frequency Patterns (FP)": "~10-15% (Severe bilateral deficit)",
+            "Competing Sentences": "Left Ear approx 35%, Right Ear approx 80%",
+            "Dichotic Digits": "Left Ear approx 45%, Right Ear approx 85%",
+            "SSW": "Bilateral scores approx 60%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up approximately 3 years later (age 12).",
+        "otologic_history": null,
+        "noise_exposure_history": null,
+        "medical_psych_history": "Marked academic improvements over past 3 years. Now reading only one grade level below expectations. Follows directions better.",
+        "prior_management": "Auditory rehabilitation program was started but not continued.",
+        "patient_goals": "Re-evaluation of auditory status."
+      },
+      "tests": [
+        {
+          "name": "Central Auditory Test Battery",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 11-10"
+          ],
+          "key_findings": "Improvement to essentially normal levels on all tests except Frequency Patterns, where a mild deficit remained. Only three abnormal test results observed total.",
+          "numeric_results": {
+            "Frequency Patterns (FP)": "Improved to approx 40% and 65% (Mild deficit)",
+            "Competing Sentences": "Improved to >90% bilaterally",
+            "Dichotic Digits": "Improved to >90% bilaterally",
+            "SSW": "Improved to >85% bilaterally"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This case represents a neuro-maturational lag. Initial evaluation at age 9.5 showed normal peripheral hearing but significant central auditory deficits, particularly in temporal patterning (Frequency Patterns) and dichotic listening (Left ear deficits). Re-evaluation at age 12 showed spontaneous improvement to near-normal levels on most central tests, correlating with marked academic improvement, despite the lack of consistent auditory rehabilitation.",
+  "counseling_points": [
+    "The observed improvement in auditory skills and academic performance is likely due to neurological maturation rather than therapy, as the rehab program was not continued.",
+    "Residual difficulties with background noise and distractibility persist despite test improvements.",
+    "The pattern of initial deficits (corpus callosum dependent tasks like competing sentences) and subsequent improvement supports the theory of delayed maturation of auditory pathways."
+  ],
+  "notes_for_actor": [
+    "Parental history: Both mother and father reported similar 'auditory' problems in school.",
+    "Patient behavior: Highly distractible, asks for repetition often, slow response time.",
+    "Academic context: Discrepancy between Verbal IQ (higher) and Performance IQ."
+  ]
+}

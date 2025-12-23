@@ -1,0 +1,90 @@
+{
+  "case_id": "Case006_08",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Superior Semicircular Canal Dehiscence (SSCD)",
+      "rationale_short": "Presence of autophony, pressure-induced dizziness (Tullio phenomenon), and a low-frequency air-bone gap with normal tympanometry."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and identify any air-bone gaps."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and rule out middle ear pathology."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and check for retrocochlear signs."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with normal hearing sensitivity bilaterally, though the left ear exhibits a low-frequency air-bone gap at 250 and 500 Hz. Tympanometry is normal bilaterally, and ipsilateral acoustic reflexes are present, which helps rule out middle ear effusion or fixation as the cause of the air-bone gap. The combination of these audiometric findings with symptoms of autophony and dizziness induced by pressure changes is consistent with a third window pathology, such as Superior Semicircular Canal Dehiscence.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear thresholds within normal limits (0-10 dB HL). Left ear thresholds within normal limits (0-10 dB HL) with a conductive component/air-bone gap at 250 and 500 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal ability to receive and recognize speech bilaterally. SRTs agree with PTA. WRS is 100% in the right ear and 92% in the left ear."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral reflexes normal bilaterally. Contralateral reflexes variable (normal, elevated, or absent). Reflex decay not tested at 500 Hz due to patient discomfort."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Observation (current management)",
+      "Surgical repair (option if symptoms worsen)"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of SSCD and the 'third window' mechanism causing the air-bone gap and dizziness.",
+      "Discuss the connection between pressure changes (nose blowing/coughing) and vestibular symptoms.",
+      "Advise that surgery is an option if symptoms affect quality of life, but observation is appropriate if symptoms are manageable."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngology",
+      "rationale_short": "Referral for confirmation of diagnosis via imaging and VEMP, and to discuss potential surgical intervention."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor symptoms; consider surgery if condition worsens and affects everyday life."
+  },
+  "expected_outcome": [
+    "CT scan: Confirmed a left dehiscent superior semicircular canal.",
+    "VEMP: Confirmed a left dehiscent superior semicircular canal.",
+    "Patient elected to continue observation as symptoms were not currently affecting her everyday life."
+  ]
+}

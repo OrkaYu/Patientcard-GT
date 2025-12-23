@@ -1,0 +1,179 @@
+{
+  "case_id": "case20_Central_Vestibular_Dysfunction_A_Case_of",
+  "title": "Central Vestibular Dysfunction: A Case of Wernicke’s Encephalopathy",
+  "demographics": {
+    "age_years": 52,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I feel persistent movement in my visual field and severe unsteadiness. It feels like my eyes and head do not move together, and I am terrified of falling.",
+  "problem_summary": {
+    "onset": "Acute onset following an episode of altered mental status, confusion, and memory loss at a restaurant.",
+    "course": "Persistent dizziness and ataxia following the acute episode; daily 'near falls'.",
+    "laterality": "Bilateral/Central",
+    "associated_symptoms": "Oscillopsia, blurred vision, numbness/tingling in feet, tremors, word-finding difficulties, memory loss.",
+    "functional_impact": "High fall risk; uses a walker; wide, shuffling gait; unable to function normally due to visual instability.",
+    "goals_motivation": "Wants to know when the dizziness will go away and when she will be 'back to normal'."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology/Vestibular Clinic",
+      "history": {
+        "present_illness": "Patient referred by neurologist for VNG. Reports persistent movement in visual field (oscillopsia) and severe postural unsteadiness. Symptoms began after an acute episode of confusion/delirium. Reports unclear vision where eyes/head don't move together. Dizziness worsens with looking up, turning head, or bending forward.",
+        "otologic_history": "No reported change in hearing. Denies true rotational vertigo.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Chronic alcohol abuse, major depressive disorder, obesity. Gastric bypass surgery 3 years ago. Recent hospital stay noted ataxia, tremors, and peripheral neuropathy.",
+        "prior_management": "Admitted to ER/hospital following acute confusion event. Identified as High Fall Risk.",
+        "patient_goals": "Resolution of dizziness and return to normal function."
+      },
+      "tests": [
+        {
+          "name": "Videonystagmography (Spontaneous)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 20.1",
+            "Figure 20.2"
+          ],
+          "key_findings": "Abnormal. Down-beating nystagmus observed both with and without fixation.",
+          "numeric_results": {
+            "velocity_with_fixation": "11 deg/s down-beating",
+            "velocity_without_fixation": "16 deg/s down-beating"
+          }
+        },
+        {
+          "name": "Videonystagmography (Gaze)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Abnormal. Down-beating nystagmus recorded in all gaze conditions (right, left, up, down). Consistent with spontaneous findings.",
+          "numeric_results": {
+            "velocity_with_fixation": "8 to 10 deg/s",
+            "velocity_without_fixation": "8 to 14 deg/s"
+          }
+        },
+        {
+          "name": "Videonystagmography (Saccade)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 20.3"
+          ],
+          "key_findings": "Abnormal. Tracings extremely disorganized with reduced response velocity and prolonged latency.",
+          "numeric_results": null
+        },
+        {
+          "name": "Videonystagmography (Smooth Pursuit)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 20.2"
+          ],
+          "key_findings": "Tracings characterized by intrusions from the down-beating spontaneous nystagmus. Overall gain and symmetry measures were technically within normal limits despite intrusions.",
+          "numeric_results": null
+        },
+        {
+          "name": "Videonystagmography (Optokinetic)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 20.3"
+          ],
+          "key_findings": "Symmetrical responses with reduced gain at both target velocities.",
+          "numeric_results": {
+            "gain_20_deg_s": "Reduced (approx 0.54-0.58)",
+            "gain_40_deg_s": "Reduced (approx 0.22-0.34)"
+          }
+        },
+        {
+          "name": "Videonystagmography (Positional)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Abnormal. Down-beating nystagmus in all positions.",
+          "numeric_results": {
+            "velocity_with_fixation": "15 to 19 deg/s",
+            "velocity_without_fixation": "21 to 26 deg/s"
+          }
+        },
+        {
+          "name": "Videonystagmography (Caloric)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 20.4"
+          ],
+          "key_findings": "Normal peripheral function. Responses were robust and symmetrical with no caloric weakness or directional preponderance. Fixation suppression was normal. Spontaneous down-beating nystagmus was superimposed on tracings.",
+          "numeric_results": {
+            "RVR_UW": "2% (Normal)",
+            "DP": "9% (Normal)",
+            "Total_Eye_Speed": "127 deg/sec"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "MRI (FLAIR) revealed abnormal hyperintensities in the periventricular region and medial thalami. Blood work indicated abnormally low thiamine (Vitamin B1) levels.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "VNG evaluation reveals a central vestibular pathology characterized by robust, persistent down-beating nystagmus present with and without fixation, in all gaze positions, and during positional testing. Oculomotor testing (saccades, OPK) showed central abnormalities including reduced velocity/gain and disorganized tracings. Peripheral vestibular function is intact, as evidenced by robust and symmetrical caloric responses with normal fixation suppression. The findings, combined with MRI and blood work, are consistent with Wernicke’s Encephalopathy.",
+  "counseling_points": [
+    "Your dizziness and visual symptoms are caused by a central nervous system issue (Wernicke's Encephalopathy) related to vitamin B1 deficiency, not an inner ear problem.",
+    "The 'jumping' vision you experience is due to down-beating nystagmus, which is an involuntary eye movement.",
+    "Treatment involves thiamine replacement and physical therapy; while balance often improves, some visual instability may persist.",
+    "Safety is the primary concern; continue using your walker/cane as advised to prevent falls.",
+    "Alcohol avoidance and proper nutrition are critical for your recovery."
+  ],
+  "notes_for_actor": [
+    "Portray a wide-based, shuffling gait (feet wide apart, short strides).",
+    "Demonstrate word-finding difficulties, halting speech, and a tendency to ramble or lose focus during questions.",
+    "Emotional state should fluctuate; range from pleasant to tearful/confused.",
+    "Complaint of 'oscillopsia' is key: describe the world as jumping or moving, especially when you look up or turn your head.",
+    "You have no memory of the acute restaurant incident."
+  ]
+}

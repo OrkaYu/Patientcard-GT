@@ -1,0 +1,102 @@
+{
+  "case_id": "Case007_15",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sensorineural hearing loss (Right ear)",
+      "rationale_short": "Severe to profound loss with no measurable speech recognition, consistent with history of cochlear vasculitis."
+    },
+    {
+      "rank": 2,
+      "label": "Mixed hearing loss (Left ear)",
+      "rationale_short": "Slight to mild low-frequency loss sloping to severe; air-bone gaps present; hypercompliant tympanogram suggests middle ear pathology."
+    },
+    {
+      "rank": 3,
+      "label": "Wegener's Granulomatosis",
+      "rationale_short": "History of systemic condition with cochlear and middle ear involvement explaining the complex asymmetric profile."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, configuration, and type of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech detection and recognition abilities, particularly given the asymmetry."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status given the history of perforation and vasculitis."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Standard battery test, though not measured in this specific encounter."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a complex asymmetric hearing loss. The right ear exhibits severe sensorineural hearing loss sloping to profound, with no usable speech discrimination. The left ear shows a slight-to-mild mixed hearing loss sloping to severe sensorineural loss in the high frequencies, with excellent speech recognition. Immittance testing reveals a flat tympanogram (normal volume) on the right and hypercompliance on the left.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Severe SNHL (250-1500 Hz) sloping to profound (2000-8000 Hz); no response >4000 Hz. Left ear: Slight to mild mixed loss (250-3000 Hz) sloping to severe (6000-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SAT 88 dB HL; SRT and WRS CNT. Left ear: SRT 30 dB HL; WRS 96% at 75 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Flat (Type B) with normal ear canal volume. Left ear: Hypercompliant (Type Ad)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Not measured."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation to discuss amplification options",
+      "Consideration of CROS system or hearing aid for the left ear",
+      "Use of Hearing Assistive Technology (HAT)",
+      "Hearing protection in noisy environments"
+    ],
+    "counseling_actions": [
+      "Review test results, noting stability in the right ear and slight high-frequency deterioration in the left ear",
+      "Explain that fatigue is likely due to reliance on the left ear and constant head-turning",
+      "Advise on the importance of preserving remaining hearing in the left ear"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient to follow up as scheduled for monitoring of Wegener's granulomatosis and ear health."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annually",
+    "objective": "Monitor stability of hearing sensitivity."
+  },
+  "expected_outcome": [
+    "Patient will follow up with an otologist as scheduled.",
+    "Patient advised to return annually for testing to monitor stability of hearing sensitivity.",
+    "Patient advised to return for a hearing aid evaluation to discuss options for amplification and HAT."
+  ]
+}

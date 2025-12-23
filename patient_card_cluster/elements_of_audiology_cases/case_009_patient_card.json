@@ -1,0 +1,177 @@
+{
+  "case_id": "elements_case_09",
+  "title": "Unilateral Progressive Hearing Loss with Retrocochlear Signs",
+  "demographics": {
+    "age_years": 58,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been losing hearing in my right ear for about five years, and now I rely entirely on my left ear. I also hear a constant noise like 'bacon frying' in that ear and often feel unsteady.",
+  "problem_summary": {
+    "onset": "First noticed 5 years ago.",
+    "course": "Gradually progressive.",
+    "laterality": "Right ear.",
+    "associated_symptoms": "Constant tinnitus ('bacon frying'), unsteadiness (not true vertigo), occasional headaches.",
+    "functional_impact": "Relies entirely on left ear; difficulty in groups or noisy backgrounds.",
+    "goals_motivation": "Seeking explanation and management; previous physician attributed it to childhood infections."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a 5-year history of gradually progressive hearing loss in the right ear. She currently relies on the left ear for communication. She reports unsteadiness and occasional headaches but denies true vertigo.",
+        "otologic_history": "History of several middle-ear infections as a child.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Family physician previously attributed the hearing loss to childhood middle-ear infections.",
+        "prior_management": "None specified beyond consultation with family physician.",
+        "patient_goals": "Diagnosis and management of hearing loss and tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram"
+          ],
+          "key_findings": "Left ear thresholds are within normal limits (0-10 dB HL). Right ear shows a moderate sensorineural hearing loss, flat to slightly sloping configuration. Bone conduction scores in the right ear match air conduction scores.",
+          "numeric_results": {
+            "RE_250Hz": "~45 dB HL",
+            "RE_500Hz": "~50 dB HL",
+            "RE_1000Hz": "~50 dB HL",
+            "RE_2000Hz": "~50 dB HL",
+            "RE_4000Hz": "~60 dB HL",
+            "RE_8000Hz": "~75 dB HL",
+            "LE_Thresholds": "0-10 dB HL across all frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "SRT aligns with pure tone average in both ears. However, speech recognition scores (SRS) are critically poor in the right ear (6%) compared to the left ear (100%), indicating significant retrocochlear pathology.",
+          "numeric_results": {
+            "RE_SRT": "50 dB HL",
+            "LE_SRT": "5 dB HL",
+            "RE_SRS": "6%",
+            "LE_SRS": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanogram",
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally, indicating normal middle ear function.",
+          "numeric_results": {
+            "RE_Static_Compliance": "0.80 cc",
+            "LE_Static_Compliance": "0.83 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Reflexes are absent in the right ear (ipsilateral and contralateral) but present in the left ear.",
+          "numeric_results": {
+            "RE_Ipsilateral": "Absent",
+            "RE_Contralateral": "Absent",
+            "LE_Ipsilateral": "85 dB HL",
+            "LE_Contralateral": "80 dB HL"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Right ear shows significant abnormalities: prolonged waves after Wave I, increased Wave I-III latency, and shallow latency-intensity function. Left ear is normal.",
+          "numeric_results": null
+        },
+        {
+          "name": "TEOAE (Transient Evoked Otoacoustic Emissions)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Present in both ears. The presence of OAEs in the right ear despite moderate hearing loss suggests intact outer hair cell function, pointing towards a neural (retrocochlear) etiology.",
+          "numeric_results": {
+            "Result": "Present bilaterally"
+          }
+        },
+        {
+          "name": "Tone-decay test",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Significant tone decay observed in the right ear.",
+          "numeric_results": {
+            "RE_Decay": "30+ dB of decay in 60 seconds",
+            "LE_Decay": "5 dB of decay in 60 seconds"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a moderate sensorineural hearing loss in the right ear and normal hearing in the left ear. Despite the moderate degree of loss, speech recognition in the right ear is extremely poor (6%). Diagnostic indicators strongly suggest retrocochlear pathology on the right side: absent acoustic reflexes, abnormal ABR latencies, significant tone decay, and the preservation of TEOAEs (indicating cochlear integrity despite threshold loss).",
+  "counseling_points": [
+    "Your hearing test confirms a moderate hearing loss in your right ear, while your left ear is normal.",
+    "We found a significant mismatch between your ability to hear tones and your ability to understand speech in the right ear, which explains your difficulty in groups.",
+    "The combination of your symptoms (unsteadiness, tinnitus) and our test results (specifically the nerve tests) suggests the problem is likely located along the hearing nerve rather than in the ear itself.",
+    "I am referring you to a specialist (neuro-otologist) for further medical evaluation, which will likely include an MRI scan to visualize the auditory nerve.",
+    "It is important to follow up on this referral promptly to determine the exact cause of these symptoms."
+  ],
+  "notes_for_actor": [
+    "When describing the tinnitus, be specific about the 'bacon frying' sound.",
+    "You are not experiencing room-spinning vertigo, but rather a general sense of unsteadiness.",
+    "You may express frustration that your previous doctor dismissed your hearing loss as being related to childhood infections.",
+    "You rely heavily on your left ear; you might turn your head to favor the left side during the conversation."
+  ]
+}

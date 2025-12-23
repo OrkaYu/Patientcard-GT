@@ -1,0 +1,144 @@
+{
+  "case_id": "Case052",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right Posterior Canal Benign Paroxysmal Positional Vertigo (BPPV)",
+      "rationale_short": "Dix-Hallpike positioning to the right provoked intense vertigo and upbeating torsional nystagmus, characteristic of posterior canal BPPV."
+    },
+    {
+      "rank": 2,
+      "label": "Uncompensated Right Peripheral Vestibulopathy (Labyrinthine Concussion)",
+      "rationale_short": "Caloric testing revealed a 50% right unilateral weakness, and functional testing (DVA, posturography) showed deficits in VOR and VSR consistent with uncompensated vestibular loss following head trauma."
+    },
+    {
+      "rank": 3,
+      "label": "Bilateral Sensorineural Hearing Loss",
+      "rationale_short": "Pure-tone audiometry demonstrated bilateral symmetric mild to moderately severe sensorineural hearing loss."
+    },
+    {
+      "rank": 4,
+      "label": "Tinnitus",
+      "rationale_short": "Patient reports constant ringing, matched to 3 kHz, with a high THI score indicating severe handicap."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Comprehensive vestibular evaluation (VNG, Calorics, VEMPs)",
+        "urgency": "routine",
+        "rationale_short": "To differentiate between mechanical (BPPV) and physiological (vestibulopathy) causes of dizziness given the history of head trauma."
+      },
+      {
+        "action": "Vertebrobasilar Artery Screening Test (VAST)",
+        "urgency": "routine",
+        "rationale_short": "To screen for vertebrobasilar insufficiency prior to positioning maneuvers that involve neck extension."
+      },
+      {
+        "action": "Functional vestibular testing (Dynamic Visual Acuity, Posturography)",
+        "urgency": "routine",
+        "rationale_short": "To assess the functional impact of the vestibular deficit on gaze stability (VOR) and postural control (VSR)."
+      },
+      {
+        "action": "Pure-tone audiometry and Tinnitus Assessment",
+        "urgency": "routine",
+        "rationale_short": "To evaluate hearing status and characterize tinnitus pitch, loudness, and impact (THI)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Diagnosis of mixed vestibular pathology: Right PC-BPPV and Right Unilateral Peripheral Vestibulopathy. Positive VAST suggests contraindication for neck hyperextension.",
+        "tests": [
+          {
+            "name": "Dix-Hallpike Maneuver",
+            "category": "Vestibular",
+            "result_summary": "Positive Right: Intense vertigo with upbeating torsional nystagmus."
+          },
+          {
+            "name": "Caloric Testing",
+            "category": "Vestibular",
+            "result_summary": "50% Right Unilateral Weakness."
+          },
+          {
+            "name": "Vertebrobasilar Artery Screening Test (VAST)",
+            "category": "Screening",
+            "result_summary": "Positive (transient dizziness with hyperextension/rotation)."
+          },
+          {
+            "name": "Dynamic Visual Acuity (DVA)",
+            "category": "Functional",
+            "result_summary": "Degraded (82% static to 42% horizontal/60% vertical), indicating VOR impairment."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiology",
+            "result_summary": "Bilateral symmetric mild to moderately severe SNHL."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Confirmation of BPPV resolution following treatment.",
+        "tests": [
+          {
+            "name": "Positioning Checks (Dix-Hallpike, Side-lying)",
+            "category": "Vestibular",
+            "result_summary": "Negative for nystagmus and vertigo."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Functional compensation achieved; tinnitus impact reduced.",
+        "tests": [
+          {
+            "name": "Functional Vestibular Testing",
+            "category": "Functional",
+            "result_summary": "DVA scores improved (76% horiz / 72% vert); normal static postural stability."
+          },
+          {
+            "name": "Questionnaires (DHI/THI)",
+            "category": "Self-Report",
+            "result_summary": "DHI reduced to 4 (from 85); THI reduced to 24 (from 73)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Perform Gans Repositioning Maneuver (GRM) for Right PC-BPPV (chosen over Epley to avoid neck hyperextension due to positive VAST).",
+      "Refer for clinician-directed Vestibular Rehabilitation Therapy (VRT) with Physical Therapy (due to fall risk/severity).",
+      "Fit bilateral hearing aids to address hearing loss and provide tinnitus masking/enrichment.",
+      "Home VRT exercises (adaptation and habituation) to supplement clinic sessions."
+    ],
+    "counseling_actions": [
+      "Explain that BPPV and the general imbalance are two separate issues; BPPV is mechanical and fixable quickly, while imbalance requires retraining (VRT).",
+      "Advise that VRT may initially increase symptoms but persistence is necessary for compensation.",
+      "Discuss the link between hearing loss and tinnitus, and how amplification can reduce tinnitus perception.",
+      "Counsel on BPPV recurrence rates (5-30%) and to return immediately if spinning returns."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Positive Vertebrobasilar Artery Screening Test (VAST)",
+      "Fall on dynamic posturography (high fall risk)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Physical Therapy (for clinician-directed VRT)",
+      "rationale_short": "Due to the severity of VSR dysfunction and fall risk, a self-directed home program is insufficient; professional supervision is required."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 week post-BPPV treatment; then ongoing during VRT; final review approx 5 months post-onset.",
+    "objective": "Confirm clearance of BPPV, monitor functional compensation of VOR/VSR, and validate hearing aid benefit for tinnitus."
+  },
+  "expected_outcome": [
+    "Complete resolution of BPPV symptoms (spinning).",
+    "Functional compensation of peripheral vestibulopathy (improved balance and gaze stability).",
+    "Significant reduction in Dizziness Handicap Inventory (DHI) score.",
+    "Reduced tinnitus perception and handicap (THI) via hearing aid use."
+  ]
+}

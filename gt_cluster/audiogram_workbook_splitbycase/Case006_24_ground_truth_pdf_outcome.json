@@ -1,0 +1,82 @@
+{
+  "case_id": "Case006_24",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Lichen Planus with otologic involvement",
+      "rationale_short": "Patient has a known diagnosis of lichen planus; hearing deterioration correlates with stopping anti-inflammatory medication; physician notes excessive tympanic membrane scarring."
+    },
+    {
+      "rank": 2,
+      "label": "Conductive hearing loss post-stapedectomy",
+      "rationale_short": "History of bilateral stapedectomies for otosclerosis, though current fluctuations and scarring suggest inflammatory etiology (lichen planus) rather than prosthesis failure alone."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess the degree, configuration, and type of hearing loss given the reported deterioration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status and ear canal volume, particularly given the history of scarring and surgery."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation reveals bilateral conductive hearing loss, worse in the left ear, with a mixed component in the high frequencies for the right ear. Word recognition remains excellent bilaterally. Tympanometry is flat bilaterally, consistent with the reported excessive tympanic membrane scarring and lichen planus involvement.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderate rising to mild conductive loss (250-1000 Hz), becoming mixed (2000-4000 Hz), sloping to profound. Left ear: Moderate conductive loss (250-4000 Hz), sloping to profound. Significant air-bone gaps bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: 33 dB HL (Right), 50 dB HL (Left), in agreement with PTA. WRS: 92% bilaterally at suprathreshold levels."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Flat tympanograms bilaterally. Right ear normal canal volume (0.80 mL); Left ear small canal volume (0.20 mL)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation",
+      "Amplification",
+      "Hearing Assistive Technology (HAT)"
+    ],
+    "counseling_actions": [
+      "Discuss amplification options",
+      "Monitor stability of auditory sensitivity",
+      "Continue medical follow-up with otologist"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient is already under care of an otologist; follow-up is scheduled to manage lichen planus and monitor ear health."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As scheduled",
+    "objective": "Monitor stability of auditory sensitivity and proceed with hearing aid evaluation."
+  },
+  "expected_outcome": []
+}

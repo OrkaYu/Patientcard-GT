@@ -1,0 +1,124 @@
+{
+  "case_id": "Case014",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Presbycusis",
+      "rationale_short": "Bilateral symmetrical sensorineural hearing loss with gradual onset over 15 years in an older adult, consistent with cochlear aging."
+    },
+    {
+      "rank": 2,
+      "label": "Bell's palsy (Right VII nerve pathology)",
+      "rationale_short": "Sudden onset right facial drooping following a cold, with acoustic reflex patterns showing absence when the probe is in the right ear (efferent pathway deficit)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing thresholds given complaint of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech discrimination ability, particularly in noise."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Evaluate the reflex arc to localize pathology, specifically checking facial nerve function."
+      },
+      {
+        "action": "ABR",
+        "urgency": "routine",
+        "rationale_short": "Rule out retrocochlear VIII nerve pathology."
+      },
+      {
+        "action": "TEOAE",
+        "urgency": "routine",
+        "rationale_short": "Assess cochlear outer hair cell function."
+      },
+      {
+        "action": "Tone decay test",
+        "urgency": "routine",
+        "rationale_short": "Screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results show a bilateral mild sloping to moderately-severe sensorineural hearing loss consistent with presbycusis. Tympanometry is normal. Acoustic reflexes are absent whenever the probe is placed in the right ear (Right Ipsi, Left Contra), indicating a right facial nerve (efferent) pathology consistent with Bell's palsy. ABR, OAE, and Tone Decay results are consistent with cochlear hearing loss and rule out VIII nerve retrocochlear lesions.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical SNHL, mild in low frequencies sloping to moderately-severe in highs (250-500Hz ~10-15 dB, 4000Hz ~55 dB)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 15 dB HL bilaterally; SRS 88% (Right) and 84% (Left)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A bilaterally (Static compliance 0.50 cc R, 0.54 cc L)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent when probe is in the Right ear (Right Ipsi, Left Contra); Present when probe is in the Left ear (Left Ipsi 95 dB, Right Contra 90 dB)."
+          },
+          {
+            "name": "ABR",
+            "category": "Electrophysiology",
+            "result_summary": "All waves prolonged; interpeak latencies normal; latency-intensity function steep (cochlear pattern)."
+          },
+          {
+            "name": "TEOAE",
+            "category": "OAE",
+            "result_summary": "Present bilaterally."
+          },
+          {
+            "name": "Tone decay test",
+            "category": "Special Tests",
+            "result_summary": "Minimal decay (10 dB Right, 15 dB Left in 60 seconds), consistent with cochlear pathology."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Discuss hearing aids without overstressing their value given patient's lack of interest",
+      "Monitor hearing annually"
+    ],
+    "counseling_actions": [
+      "Explain that hearing loss is likely due to aging (presbycusis)",
+      "Explain that facial paralysis is likely Bell's palsy and unrelated to the hearing loss",
+      "Reassure patient regarding the facial palsy, noting the trend toward improvement",
+      "Advise seeing an otolaryngologist for the facial palsy"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset facial paralysis"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otolaryngologist",
+      "rationale_short": "To evaluate the right facial nerve paralysis (Bell's palsy), although likely improving."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "One year, or sooner if changes are noticed",
+    "objective": "Monitor hearing thresholds and status of facial palsy."
+  },
+  "expected_outcome": []
+}

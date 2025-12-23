@@ -1,0 +1,103 @@
+{
+  "case_id": "Case012_06",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Traumatic Sensorineural Hearing Loss (Cochlear Concussion)",
+      "rationale_short": "History of blunt trauma to the left ear followed by sudden hearing loss, consistent with cochlear damage given the sensorineural nature and normal middle ear function."
+    },
+    {
+      "rank": 2,
+      "label": "Functional Hearing Loss (Pseudohypacusis)",
+      "rationale_short": "Considered due to pending litigation and financial incentive, but ruled out by the negative Stenger test results."
+    },
+    {
+      "rank": 3,
+      "label": "Ossicular Chain Discontinuity",
+      "rationale_short": "Possible after head trauma, but unlikely given the Type A tympanograms and lack of conductive component."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Comprehensive Audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To establish hearing thresholds and type of loss following trauma."
+      },
+      {
+        "action": "Tympanometry and Wideband Acoustic Immittance",
+        "urgency": "urgent",
+        "rationale_short": "To assess middle ear status and rule out conductive pathology like ossicular discontinuity."
+      },
+      {
+        "action": "Stenger Test",
+        "urgency": "urgent",
+        "rationale_short": "To verify the organic nature of the unilateral hearing loss given the legal context."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results indicate a moderate sensorineural hearing loss in the left ear and normal hearing in the right ear. Middle ear function is normal bilaterally. The negative Stenger test confirms the left-sided loss is organic.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Right ear normal (PTA 3 dB HL); Left ear moderate SNHL (PTA 55 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Right WRS 100%; Left WRS 94% (masked), indicating good clarity."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Physiological",
+            "result_summary": "Bilateral Type A, normal pressure and admittance."
+          },
+          {
+            "name": "Stenger Test",
+            "category": "Behavioral",
+            "result_summary": "Negative, supporting organic hearing loss."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otolaryngologist for medical clearance",
+      "Amplification (Hearing Aid) for the left ear",
+      "Hearing protection devices (custom earplugs) for noise exposure",
+      "Otolaryngology (ENT) Referral"
+    ],
+    "counseling_actions": [
+      "Explain the nature of the traumatic hearing loss and its permanence",
+      "Discuss the validity of the test results (negative Stenger) in the context of the legal case",
+      "Counsel on the importance of protecting the 'good' right ear from loud music exposure",
+      "Discuss realistic expectations for amplification given the unilateral loss"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset hearing loss",
+      "Unilateral hearing loss",
+      "History of head trauma",
+      "Potential for malingering (legal case)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otolaryngologist",
+      "rationale_short": "To rule out other trauma-related complications (e.g., perilymph fistula, though less likely without dizziness) and provide medical clearance."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual or sooner if hearing changes",
+    "objective": "Monitor hearing thresholds for stability and assess hearing aid benefit."
+  },
+  "expected_outcome": [
+    "Successful fitting of amplification for the left ear",
+    "Improved communication in daily life",
+    "Preservation of residual hearing through protection strategies"
+  ]
+}

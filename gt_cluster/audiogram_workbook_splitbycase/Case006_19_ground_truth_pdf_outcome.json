@@ -1,0 +1,102 @@
+{
+  "case_id": "Case006_19",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Chronic Otitis Media (Left Ear)",
+      "rationale_short": "History of multiple infections, surgeries, and current active otorrhea."
+    },
+    {
+      "rank": 2,
+      "label": "Conductive Hearing Loss (Left Ear)",
+      "rationale_short": "Significant air-bone gaps and hypocompliant tympanogram consistent with middle ear pathology."
+    },
+    {
+      "rank": 3,
+      "label": "Sensorineural Hearing Loss (Right Ear)",
+      "rationale_short": "Slight to mild SNHL with a notch at 6 kHz, likely noise or idiopathic origin."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and tympanic membrane compliance."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and check for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with asymmetric hearing. The right ear shows slight to mild sensorineural hearing loss with a 6 kHz notch but excellent speech recognition. The left ear exhibits mild sloping to moderately severe conductive hearing loss with significant air-bone gaps, consistent with the history of chronic otitis media and surgeries. Tympanometry confirms middle ear pathology on the left (hypocompliant) and normal function on the right.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Slight/mild SNHL (PTA 22 dB) with 6 kHz notch. Left ear: Mild sloping to moderately severe conductive loss (PTA 43 dB) with air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 22 dB, WRS 96% at 60 dB HL. Left ear: SRT 45 dB, WRS 96% at 80 dB HL. Excellent discrimination bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Normal (Type A). Left ear: Hypocompliant (Type As), static admittance 0.2 mmho."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral present (500-4000 Hz). Right contralateral, Left ipsilateral, and Left contralateral absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Discontinue use of current hearing aid in the left ear to allow infection to clear",
+      "Medical management of otorrhea",
+      "Evaluation for Bone Anchored Hearing Aid (BAHA)"
+    ],
+    "counseling_actions": [
+      "Discussed that the current hearing aid mold may be trapping moisture and contributing to persistent infection",
+      "Counseled on the benefits of a BAHA, which bypasses the ear canal and avoids aggravating the infection"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Active otorrhea (Left ear)"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "ENT specialist",
+      "rationale_short": "To manage active drainage/infection and evaluate for surgical options (BAHA)."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Following ENT consultation",
+    "objective": "Monitor resolution of otorrhea and decision regarding BAHA surgery."
+  },
+  "expected_outcome": [
+    "The otorrhea was treated by the ENT specialist.",
+    "It was determined that the hearing aid contributed to the persistence of the infection.",
+    "The patient is considering surgery for a Bone Anchored Hearing Aid (BAHA)."
+  ]
+}

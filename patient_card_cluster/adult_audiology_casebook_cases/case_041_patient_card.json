@@ -1,0 +1,139 @@
+{
+  "case_id": "case41_Fitting_Hearing_Aids_to_a_Patient_with_M",
+  "title": "Fitting Hearing Aids to a Patient with Mild Hearing Loss",
+  "demographics": {
+    "age_years": 67,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I've noticed greater difficulty with my hearing recently, especially in background noise. I find myself asking people to repeat themselves more often, and I think it might be time to consider hearing aids.",
+  "problem_summary": {
+    "onset": "Gradual; patient returned for an annual evaluation after noticing changes.",
+    "course": "Progressive; slight decrease in thresholds (15 dB) noted in the right ear at 4000 and 6000 Hz compared to previous evaluation.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Bilateral tinnitus (more noticeable in the right ear); occasional dizziness/vertigo (attributed to medication).",
+    "functional_impact": "Significant difficulty understanding speech in noise; asking people to repeat often.",
+    "goals_motivation": "Patient is interested in how hearing aids may assist her; motivated to consider amplification."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-10-13",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned for annual evaluation. Previously noted difficulty in noise but did not feel ready for intervention. Now reports increased difficulty and is ready to consider options.",
+        "otologic_history": "Denies otalgia or aural fullness. Occasional dizziness/vertigo likely medication-related.",
+        "noise_exposure_history": "Denied.",
+        "medical_psych_history": "Dizziness discussed with primary care physician.",
+        "prior_management": "Annual monitoring; previous discussion of hearing aids.",
+        "patient_goals": "To improve hearing, specifically in noise."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 41.1"
+          ],
+          "key_findings": "Right ear: Slight SNHL 250-3000 Hz, sloping to mild at 4000 Hz, slight at 6000 Hz, mild at 8000 Hz. Left ear: Normal to slight SNHL 250-2000 Hz, sloping to mild 3000-4000 Hz, moderate at 6000 Hz, mild at 8000 Hz.",
+          "numeric_results": {
+            "RE_PTA": "25 dB HL",
+            "LE_PTA": "25 dB HL",
+            "RE_Thresholds": "20-25 dB low/mid freqs, dip to 35 dB at 4k, 35 dB at 8k",
+            "LE_Thresholds": "15-20 dB low freqs, dip to 35 dB at 4k, 50 dB at 6k"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 41.1"
+          ],
+          "key_findings": "Speech recognition thresholds (SRT) show slight loss consistent with pure tones. Word recognition scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "25 dB HL",
+            "LE_SRT": "25 dB HL",
+            "RE_WRS": "96% at 65 dB HL",
+            "LE_WRS": "100% at 65 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 41.1"
+          ],
+          "key_findings": "Normal ear canal volume, static compliance, and middle ear pressure bilaterally (Type A).",
+          "numeric_results": {
+            "RE_Volume": "1.2 mL",
+            "LE_Volume": "1.3 mL",
+            "RE_Compliance": "0.5 mL",
+            "LE_Compliance": "0.6 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present and normal for ipsilateral and contralateral stimulation at 500 to 4,000 Hz. Decay negative.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "soundfield",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 41.2"
+          ],
+          "key_findings": "QuickSIN testing reveals a severe signal-to-noise ratio (SNR) loss unaided.",
+          "numeric_results": {
+            "Unaided_SNR_Loss_Avg": "18.17 dB",
+            "List_1_Score": "17.5 dB SNR Loss",
+            "List_2_Score": "17.5 dB SNR Loss",
+            "List_6_Score": "19.5 dB SNR Loss"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, generally mild, sloping sensorineural hearing loss. While word recognition in quiet is excellent (96-100%), she demonstrates a severe deficit in signal-to-noise ratio (SNR) loss (~18 dB) on the QuickSIN test, which correlates with her chief complaint of difficulty hearing in noise. Middle ear function is normal.",
+  "counseling_points": [
+    "Your hearing test shows a mild permanent hearing loss in both ears, which has changed slightly since your last visit.",
+    "While you understand speech very well in quiet environments, the testing confirms you have significant difficulty separating speech from background noise.",
+    "Hearing aids can provide benefit, but given the severity of the difficulty in noise, we may also need to discuss additional accessories (like remote microphones) for noisy situations.",
+    "Tinnitus is often associated with hearing loss; amplification often helps reduce the perception of tinnitus."
+  ],
+  "notes_for_actor": [
+    "You are motivated to try hearing aids now, unlike your last visit.",
+    "You are specifically frustrated by background noise situations.",
+    "You have ringing in your ears (tinnitus), worse on the right side."
+  ]
+}

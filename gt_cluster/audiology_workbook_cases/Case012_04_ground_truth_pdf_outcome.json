@@ -1,0 +1,121 @@
+{
+  "case_id": "Case012_04",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Noise-Induced Hearing Loss (High Frequency)",
+      "rationale_short": "History of significant noise exposure (firearms, ATVs) and tinnitus matched to 6700 Hz suggest cochlear damage, likely affecting high frequencies above the standard speech range."
+    },
+    {
+      "rank": 2,
+      "label": "Tinnitus",
+      "rationale_short": "Patient reports bothersome bilateral ringing, which is a primary symptom of the noise-induced damage."
+    },
+    {
+      "rank": 3,
+      "label": "Normal Hearing Sensitivity (Speech Frequencies)",
+      "rationale_short": "Pure Tone Averages (5-7 dB) and Speech Reception Thresholds (5 dB) indicate normal sensitivity in the standard speech range."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To inspect the ear canal and tympanic membrane."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear pressure and compliance."
+      },
+      {
+        "action": "Acoustic Reflex Thresholds",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc."
+      },
+      {
+        "action": "Pure Tone Audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds."
+      },
+      {
+        "action": "Speech Audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and recognition."
+      },
+      {
+        "action": "Tinnitus Pitch Matching",
+        "urgency": "routine",
+        "rationale_short": "To characterize the frequency of the patient's tinnitus."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient exhibits normal middle ear function and normal hearing sensitivity in the speech frequencies. However, the presence of high-frequency tinnitus (6700 Hz) and the patient's report of difficulty in noise are consistent with noise-induced cochlear damage that may be affecting frequencies above 4000 Hz or causing subclinical functional deficits.",
+        "tests": [
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally with peak pressure near 0 daPa."
+          },
+          {
+            "name": "Acoustic Reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at normal levels (85-90 dB HL) at 1 kHz."
+          },
+          {
+            "name": "Pure Tone Audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal Pure Tone Averages (Right: 7 dB, Left: 5 dB)."
+          },
+          {
+            "name": "Speech Audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs align with PTAs (5 dB). Word Recognition Scores are excellent (94% Right, 91% Left) at 85 dB HL."
+          },
+          {
+            "name": "Tinnitus Assessment",
+            "category": "Other",
+            "result_summary": "Tinnitus matched to 6700 Hz."
+          },
+          {
+            "name": "Wideband Acoustic Immittance",
+            "category": "Immittance",
+            "result_summary": "Normal reflectance pattern."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing conservation education and use of Hearing Protection Devices (HPDs).",
+      "Tinnitus management strategies.",
+      "Annual audiologic monitoring."
+    ],
+    "counseling_actions": [
+      "Explain that while hearing in quiet is normal, the tinnitus and difficulty in noise are signs of noise-induced damage.",
+      "Emphasize the importance of wearing hearing protection during recreational activities like ATV riding to prevent further deterioration.",
+      "Discuss that hearing aids are not currently indicated as speech understanding in quiet is excellent.",
+      "Advise on monitoring hearing annually."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "N/A",
+      "rationale_short": "No medical red flags requiring referral; management is audiologic and preventative."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor for progression of high-frequency hearing loss."
+  },
+  "expected_outcome": [
+    "Stabilization of hearing thresholds if proper protection is used.",
+    "Management of tinnitus annoyance through education and habituation."
+  ]
+}

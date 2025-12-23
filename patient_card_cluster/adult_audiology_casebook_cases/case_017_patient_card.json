@@ -1,0 +1,133 @@
+{
+  "case_id": "case17_The_Origins_of_Physiologic_Modulation_of",
+  "title": "Physiologic Modulation of a Low-Noise Microphone in a Human Ear Canal",
+  "demographics": {
+    "age_years": 23,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA (St. Louis)"
+  },
+  "chief_complaint": "I volunteered for a research study and do not have any hearing problems or symptoms.",
+  "problem_summary": {
+    "onset": "Incidental finding during research data collection.",
+    "course": "Consistent anomaly observed over days, weeks, and months of testing.",
+    "laterality": "Bilateral (Right > Left in amplitude).",
+    "associated_symptoms": "None reported; patient is asymptomatic and cannot hear the sounds.",
+    "functional_impact": "None on the patient; however, the signals disrupt low-noise DPOAE measurements.",
+    "goals_motivation": "Research participation."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Research Laboratory / Otolaryngology Department",
+      "history": {
+        "present_illness": "The participant volunteered for a research study. She is asymptomatic. During DPOAE measurements, 'spikes' or modulations of the noise floor were observed that disrupted the test, despite normal DPOAE amplitudes.",
+        "otologic_history": "Denied tinnitus, otalgia, aural fullness, dizziness, or vertigo. No history of otitis media, head/neck surgery, trauma, or skull fracture.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "No current medications. No history of chemotherapy or radiation therapy.",
+        "prior_management": "Passed a hearing screening at 20 dB HL from 250 to 8,000 Hz.",
+        "patient_goals": "Research participation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing sensitivity is within normal limits bilaterally.",
+          "numeric_results": {
+            "Screening": "Passed at 20 dB HL (250-8,000 Hz)",
+            "PTA_Right": "8.3 dB HL",
+            "PTA_Left": "10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech reception thresholds consistent with pure-tone averages.",
+          "numeric_results": {
+            "SRT_Right": "10 dB HL",
+            "SRT_Left": "10 dB HL"
+          }
+        },
+        {
+          "name": "Otologic Examination",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanic membranes and aerated middle ears. Using a Toynbee stethoscope, the otologist heard a faint 'click' from both ear canals (Right > Left). The patient could not hear these clicks.",
+          "numeric_results": null
+        },
+        {
+          "name": "DPOAE and Noise Floor Analysis",
+          "timepoint_label": "Experimental",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 17.1",
+            "Figure 17.2"
+          ],
+          "key_findings": "DPOAE amplitudes within normal limits. However, transient broadband 'spikes' (modulations) were observed in the noise floor. These spikes were not caused by external stimuli. Spikes were present in both ears (Right > Left).",
+          "numeric_results": {
+            "Spike_Intensity_Mean": "42.35 +/- 5.58 dB SPL",
+            "Spike_Intensity_Max": "~50 dB SPL",
+            "Interspike_Interval": "35 to 75 seconds"
+          }
+        },
+        {
+          "name": "Physiologic Modulation Troubleshooting",
+          "timepoint_label": "Experimental",
+          "ear": "right",
+          "condition": "various manipulations",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 17.1"
+          ],
+          "key_findings": "Extensive testing ruled out Patulous Eustachian Tube (breathing checks), Saccade-induced movement (eye gaze checks), Intracranial pressure changes (posture checks), and Jaw musculature (mouth open/closed). Neck pressure altered spike amplitude. Exercise (jumping jacks) increased spike frequency.",
+          "numeric_results": {
+            "Effect_of_Breathing": "None",
+            "Effect_of_Eye_Gaze": "None",
+            "Effect_of_Posture": "None",
+            "Effect_of_Neck_Pressure": "Altered amplitude",
+            "Effect_of_Exercise": "Increased frequency"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity and normal DPOAE amplitudes bilaterally. However, a unique, asymptomatic physiologic phenomenon was observed: transient, broadband noise floor modulations ('spikes') in the ear canal, approximately 42-50 dB SPL. These sounds are audible to an otologist via stethoscope (objective) but inaudible to the patient. The source appears modulated by heart rate and neck pressure but is unrelated to respiration, eye movement, or middle ear myoclonus.",
+  "counseling_points": [
+    "Your hearing test results are completely normal.",
+    "During the research measurements, we detected a very faint sound coming from your ear canal.",
+    "This sound is audible to us with a stethoscope, but because you cannot hear it yourself, it is not considered a problem that requires treatment.",
+    "We have ruled out common causes like muscle spasms or breathing-related ear issues.",
+    "This appears to be a harmless, unique physiologic signal."
+  ],
+  "notes_for_actor": [
+    "You are a healthy, asymptomatic volunteer.",
+    "You do not hear any clicking, ringing, or whooshing sounds.",
+    "You are cooperative with the various strange requests (jumping jacks, holding breath, changing posture) during the testing."
+  ]
+}

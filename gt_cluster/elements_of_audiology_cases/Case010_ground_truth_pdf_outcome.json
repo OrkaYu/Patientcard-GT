@@ -1,0 +1,121 @@
+{
+  "case_id": "Case010",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Presbycusis",
+      "rationale_short": "Bilateral symmetrical sloping sensorineural hearing loss in an 82-year-old with gradual progression. Poor speech recognition (phonemic regression) and recruitment are consistent with cochlear aging. Retrocochlear pathology ruled out by normal immittance, ABR, and tone decay."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities, checking for phonemic regression."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and rule out conductive pathology."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc and check for recruitment or retrocochlear signs."
+      },
+      {
+        "action": "ABR",
+        "urgency": "routine",
+        "rationale_short": "To rule out retrocochlear pathology given the asymmetry in speech scores or general protocol."
+      },
+      {
+        "action": "TEOAE",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function."
+      },
+      {
+        "action": "Tone-decay test",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology (auditory fatigue)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results show a bilateral, symmetrical, sloping sensorineural hearing loss consistent with presbycusis. Speech recognition scores are disproportionately poor relative to pure-tone thresholds, indicating phonemic regression. Immittance, ABR, and tone-decay results are normal or negative for retrocochlear pathology, confirming a cochlear site of lesion.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical sloping sensorineural hearing loss. Right thresholds slope from ~15 dB HL at 250 Hz to ~80 dB HL at 8000 Hz. Left thresholds slope from ~10 dB HL at 250 Hz to ~65 dB HL at 8000 Hz. No air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 50 dB HL, Left 45 dB HL. SRS: Right 62%, Left 58%. Scores are poor to fair, suggesting phonemic regression."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally. Static compliance: Right 0.92 cc, Left 0.65 cc."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present. 1000 Hz Ipsi: 95 dB HL AU. 2000 Hz Contra: Right 90 dB HL, Left 100 dB HL."
+          },
+          {
+            "name": "ABR",
+            "category": "Electrophysiology",
+            "result_summary": "All waves normal at high sensation levels; interpeak latencies normal; latency-intensity function steep (consistent with recruitment)."
+          },
+          {
+            "name": "TEOAE",
+            "category": "OAE",
+            "result_summary": "Absent bilaterally."
+          },
+          {
+            "name": "Tone-decay test",
+            "category": "Special Tests",
+            "result_summary": "Right: 10 dB decay in 60 seconds. Left: 15 dB decay in 60 seconds. Negative for retrocochlear pathology."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Trial period with amplification (hearing aids)",
+      "Auditory rehabilitation program emphasizing coping strategies",
+      "Assistive listening devices (e.g., personal FM system, telephone amplifier)",
+      "Earmold fabrication (if patient agrees)",
+      "Periodic reevaluations"
+    ],
+    "counseling_actions": [
+      "Speak directly to the patient during counseling, even if family is present",
+      "Advise family that hearing aids should be purchased on a trial basis given past negative experiences",
+      "Explain that success requires auditory rehabilitation and coping strategies, not just the device",
+      "Reassure the patient that hearing loss is unlikely to progress significantly (without making unethical guarantees)",
+      "Explain need for medical concurrence if required by state law"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient requires audiologic rehabilitation and hearing aid trial for presbycusis. Medical clearance may be sought if required by law."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Periodic reevaluations",
+    "objective": "Monitor hearing thresholds and assess benefit from amplification and rehabilitation strategies."
+  },
+  "expected_outcome": []
+}

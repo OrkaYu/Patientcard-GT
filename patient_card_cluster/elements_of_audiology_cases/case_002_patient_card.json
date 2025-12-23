@@ -1,0 +1,176 @@
+{
+  "case_id": "elements_case_02",
+  "title": "Unilateral Sudden Hearing Loss with Vertigo",
+  "demographics": {
+    "age_years": 39,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I feel like I have no hearing in my right ear anymore. It started with a fullness and roaring sound, followed by severe dizziness and vomiting.",
+  "problem_summary": {
+    "onset": "Sudden onset several months prior to the evaluation.",
+    "course": "Began with aural fullness and slight phone difficulty, progressed to humming/roaring tinnitus, then severe vertigo and vomiting. Vertigo has resolved, but hearing loss persists.",
+    "laterality": "Right ear",
+    "associated_symptoms": "Aural fullness, humming/roaring tinnitus, vertigo, vomiting.",
+    "functional_impact": "Difficulty in group situations and when people speak softly on his right side.",
+    "goals_motivation": "Seeking diagnosis and management for the hearing loss."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a history of sudden hearing loss in the right ear accompanied by vertigo several months ago. Symptoms began with right ear fullness and difficulty on the telephone. The next day, he experienced humming/roaring tinnitus followed by severe whirling vertigo and vomiting. He currently feels he has 'no hearing' in the right ear, though the spinning sensation has ceased.",
+        "otologic_history": "No prior difficulty with hearing or balance before this incident.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "None reported.",
+        "patient_goals": "Diagnosis and management."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram (Page 2)"
+          ],
+          "key_findings": "Left ear thresholds are within normal limits (0-10 dB HL). Right ear shows a moderate-to-severe sensorineural hearing loss, flat to gently sloping configuration. No significant air-bone gaps.",
+          "numeric_results": {
+            "RE_250Hz": "40 dB HL",
+            "RE_500Hz": "55 dB HL",
+            "RE_1000Hz": "60 dB HL",
+            "RE_2000Hz": "60 dB HL",
+            "RE_4000Hz": "65 dB HL",
+            "RE_8000Hz": "70 dB HL",
+            "LE_Thresholds": "0-10 dB HL across all frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Left ear speech recognition is excellent. Right ear speech recognition is extremely poor (34%) and significantly worse than expected for the degree of pure-tone loss.",
+          "numeric_results": {
+            "RE_SRT": "70 dB HL",
+            "LE_SRT": "5 dB HL",
+            "RE_SRS": "34%",
+            "LE_SRS": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanogram (Page 2)",
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "RE_Static_Compliance": "0.9 cc",
+            "LE_Static_Compliance": "0.65 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Reflexes present bilaterally. Right ear reflexes are present at normal HL levels despite hearing loss, indicating a low sensation level (recruitment).",
+          "numeric_results": {
+            "RE_Ipsilateral": "100 dB HL",
+            "RE_Contralateral": "100 dB HL",
+            "LE_Ipsilateral": "90 dB HL",
+            "LE_Contralateral": "90 dB HL"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Left ear normal. Right ear shows prolonged waves but normal interpeak latencies; steep latency-intensity function for wave V (suggestive of cochlear recruitment).",
+          "numeric_results": null
+        },
+        {
+          "name": "TEOAE",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Absent in the right ear, present in the left ear.",
+          "numeric_results": {
+            "RE_TEOAE": "Absent",
+            "LE_TEOAE": "Present"
+          }
+        },
+        {
+          "name": "Tone decay test",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Minimal decay observed, not indicative of retrocochlear pathology.",
+          "numeric_results": {
+            "RE_Decay": "15 dB in 60 seconds",
+            "LE_Decay": "5 dB in 60 seconds"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a moderate-to-severe sensorineural hearing loss in the right ear and normal hearing in the left ear. Speech recognition in the right ear is disproportionately poor (34%). Special testing (ABR, Acoustic Reflexes) indicates recruitment, consistent with a cochlear site of lesion rather than retrocochlear. The clinical presentation of episodic vertigo, roaring tinnitus, and aural fullness combined with the audiometric profile is strongly suggestive of unilateral Ménière's disease.",
+  "counseling_points": [
+    "Explain the results showing a sensorineural hearing loss in the right ear that is likely located in the inner ear (cochlea).",
+    "Discuss how the history of roaring sounds, fullness, and dizziness aligns with the test results (Ménière's disease profile).",
+    "Recommend a referral to an otologist for medical management and potential electronystagmography (ENG) to assess the balance system.",
+    "Advise on the importance of monitoring hearing for any fluctuation or progression."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is anxious about the sudden loss of hearing and the frightening experience of severe vertigo.",
+    "Emphasize the difficulty hearing in noise or when people are on your right side.",
+    "You are currently not dizzy, but you remember the spinning episode vividly."
+  ]
+}

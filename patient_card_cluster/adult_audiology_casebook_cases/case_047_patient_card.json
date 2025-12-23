@@ -1,0 +1,149 @@
+{
+  "case_id": "case47_Young_Adult_with_Misophonia",
+  "title": "Young Adult with Misophonia",
+  "demographics": {
+    "age_years": 19,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "United Kingdom"
+  },
+  "chief_complaint": "I have an intense disgust and rage reaction to specific sounds, especially 'wet or slapping sounds' like eating and slurping. It makes me want to scream or hurt myself.",
+  "problem_summary": {
+    "onset": "Sensitivity noted at age 14, though likely evident before.",
+    "course": "Deteriorated over 5 years; worsening coincided with first major depressive bipolar episode.",
+    "laterality": "Bilateral (symptoms relate to central processing/reaction).",
+    "associated_symptoms": "Rage, disgust, anxiety, screaming, self-harm, aggression.",
+    "functional_impact": "Patient is essentially a recluse; friendships dissolved; social isolation; electricity and devices turned off at home to reduce noise.",
+    "goals_motivation": "Previous use of earplugs was not beneficial; seeking relief from sound intolerance."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports over 100 problematic sounds. Reactions are disproportionate and include rage and self-harm. Patient feels trapped/out of control when exposed.",
+        "otologic_history": "No history of significant noise exposure, ear surgeries, or trauma.",
+        "medical_psych_history": "Diagnoses of bipolar disorder, social anxiety, panic disorder, agoraphobia, OCD, and ADHD. Under assessment for autism.",
+        "prior_management": "Used earplugs (not beneficial), blocked sound with strident music. Psychiatric care did not address sound aversion.",
+        "patient_goals": "Management of sound intolerance."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "No abnormalities detected.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 47.1"
+          ],
+          "key_findings": "Hearing within normal limits bilaterally. Air conduction thresholds are normal, so bone conduction was not measured.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "Left_Ear_Thresholds": "0-15 dB HL across 250-8000 Hz"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Within normal limits bilaterally.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (Early appointment)",
+      "history": {
+        "present_illness": "Follow-up 2 weeks after fitting. Appointment scheduled early to avoid waiting room anxiety/panic.",
+        "prior_management": "Fitted with GN ReSound I-Fit 71 TS (sound generators) and Sound Oasis bedside generator at V1.",
+        "patient_goals": "Review device usage."
+      },
+      "tests": [
+        {
+          "name": "Device Follow-up",
+          "timepoint_label": "2-week Follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 47.2"
+          ],
+          "key_findings": "Patient had not used bedside generator yet. Wore ear-level sound generators several times, primarily while alone. Found them beneficial for masking triggers. Able to sit with pets for the first time in years. Mood improved.",
+          "numeric_results": {
+            "Device_Output": "40 dB SPL",
+            "Volume_Range": "+6/-12 dB",
+            "Program_1": "Low cut min / High cut 2000 Hz",
+            "Program_2": "Low cut min / High cut 6000 Hz",
+            "Program_3": "Low cut 2000 Hz / High cut 6000 Hz",
+            "Program_4": "Low cut 1000 Hz / High cut 2000 Hz"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Second follow-up 6 weeks later.",
+        "medical_psych_history": "Recently prescribed mood-stabilizing drugs.",
+        "prior_management": "Continuing use of sound generators."
+      },
+      "tests": [
+        {
+          "name": "Subjective Report",
+          "timepoint_label": "6-week Follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Beneficial effect from mood stabilizers combined with sound therapy. Able to expose self to previously intolerable sounds (e.g., eating with a friend). Improved behavior with less self-harm and aggression.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal pure-tone hearing sensitivity and normal middle ear function bilaterally. The primary diagnosis is misophonia, characterized by severe emotional and behavioral reactions to specific trigger sounds. Treatment involves the use of ear-level sound generators (no amplification) to provide masking and a sense of control, alongside environmental sound enrichment.",
+  "counseling_points": [
+    "Misophonia involves connections between the auditory system and the brain's emotional centers; your reaction is real, not imagined.",
+    "Using sound generators can help 'mask' or soften the trigger sounds, giving you more control over your environment.",
+    "You can adjust the volume and choose the sound program that feels most comfortable for your current mood.",
+    "The goal is not to block all sound, but to introduce neutral sound to reduce the prominence of triggers.",
+    "Gradual acclimatization is key; try using the devices in different environments as you feel ready."
+  ],
+  "notes_for_actor": [
+    "Portray high anxiety and vigilance regarding sounds.",
+    "You have a history of panic attacks and self-harm in medical settings; you may appear tense or on edge.",
+    "Express relief when given a tool (sound generator) that gives you control, rather than just earplugs which didn't work.",
+    "Your reaction to trigger sounds is not just annoyance; it is visceral rage and disgust."
+  ]
+}

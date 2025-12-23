@@ -1,0 +1,115 @@
+{
+  "case_id": "case_6_1",
+  "title": "Subcortical and Insular Lesions: Right Internal Capsule CVA",
+  "demographics": {
+    "age_years": 71,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have had hearing loss for a long time, but since my stroke a few days ago, my hearing difficulty has noticeably increased.",
+  "problem_summary": {
+    "onset": "Acute onset of increased hearing difficulty coinciding with a stroke (CVA) occurring 2-5 days prior to evaluation.",
+    "course": "Sudden change following neurological event.",
+    "laterality": "Bilateral peripheral loss; Central deficits are bilateral but worse in the Left ear.",
+    "associated_symptoms": "Severe right-sided headache, left hemiparesis, dysarthria, left facial droop.",
+    "functional_impact": "Patient reports increased difficulty hearing/processing beyond his pre-existing long-standing hearing loss.",
+    "goals_motivation": "Evaluation to determine functional status of auditory system post-stroke."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "In-patient Audiology Evaluation (Hospital)",
+      "history": {
+        "present_illness": "Patient admitted following a severe right-sided headache lasting 2 days, followed by waking with left hemiparesis, dysarthria, and facial droop. Diagnosed with Right Cerebrovascular Accident (CVA).",
+        "otologic_history": "Long-standing hearing loss prior to the stroke.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Right CVA (stroke). CT scans initially normal, but 5 days later showed large area of edema in the anterior and middle aspect of the right internal capsule and surrounding region.",
+        "prior_management": "None specified for hearing, medical management for stroke.",
+        "patient_goals": "Assess increased hearing difficulty."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-4"
+          ],
+          "key_findings": "Mild to moderately severe, bilaterally symmetrical sensorineural hearing loss. Sloping configuration.",
+          "numeric_results": {
+            "250 Hz": "~30 dB HL",
+            "500 Hz": "~35-40 dB HL",
+            "1000 Hz": "~45 dB HL",
+            "2000 Hz": "~50 dB HL",
+            "4000 Hz": "~65 dB HL",
+            "8000 Hz": "~70 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-4"
+          ],
+          "key_findings": "Excellent speech recognition ability bilaterally despite the peripheral hearing loss.",
+          "numeric_results": {
+            "Word Recognition Score (RE)": "96%",
+            "Word Recognition Score (LE)": "92%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-5"
+          ],
+          "key_findings": "Central Auditory Processing Evaluation. Left ear deficits noted on all tests. Right ear deficits noted on some tests. Marked ear difference (Left worse) on Dichotic Rhyme, LPFS, Dichotic Digits, and Competing Sentences.",
+          "numeric_results": {
+            "Dichotic Rhyme (RE)": "~55%",
+            "Dichotic Rhyme (LE)": "~15%",
+            "Low Pass Filtered Speech (RE)": "~45%",
+            "Low Pass Filtered Speech (LE)": "~35%",
+            "Dichotic Digits (RE)": "~90%",
+            "Dichotic Digits (LE)": "~35%",
+            "Compressed Speech (RE)": "~65%",
+            "Compressed Speech (LE)": "~20%",
+            "Duration Patterns": "~10% (Bilateral severe deficit)",
+            "Frequency Patterns": "~40-45% (Bilateral deficit)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a pre-existing symmetrical mild-to-moderately severe sensorineural hearing loss with excellent word recognition in quiet. However, following a Right Internal Capsule CVA, central auditory testing reveals significant deficits. There is a 'left ear deficit' pattern (contralateral to the lesion) on dichotic tasks and degraded speech tasks, alongside bilateral deficits in temporal patterning. The central findings suggest the stroke compromised auditory fibers coursing through the internal capsule or auditory regions of the insula.",
+  "counseling_points": [
+    "Explain that the stroke has affected the brain's ability to process sound, particularly information coming from the left ear.",
+    "Discuss that while hearing aids may help the pre-existing volume loss, they may not fully resolve the clarity issues caused by the central processing deficit.",
+    "Strongly recommend Assistive Listening Devices (ALDs) (e.g., FM systems or remote mics) as they may provide more benefit than hearing aids alone by improving the signal-to-noise ratio.",
+    "Counsel on communication strategies, as the patient may struggle significantly in background noise or with rapid speech."
+  ],
+  "notes_for_actor": [
+    "You have physical symptoms of a recent stroke: weakness on your left side (hemiparesis) and a droop on the left side of your face.",
+    "Your speech is slightly slurred (dysarthria).",
+    "You are frustrated because you feel your hearing has gotten worse suddenly, even though you've had some hearing loss for years.",
+    "You can hear people talking (volume), but if they speak fast or if there is noise, you get very confused, especially if the sound is on your left side."
+  ]
+}

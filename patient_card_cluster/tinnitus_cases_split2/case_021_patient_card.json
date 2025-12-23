@@ -1,0 +1,118 @@
+{
+  "case_id": "Case21_Ellie_Psychological_Management_of_Tinnitus_in",
+  "title": "Case 21 Ellie Psychological Management of Tinnitus in",
+  "demographics": {
+    "age_years": 10,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I worry that the ringing in my ears means I might have a serious illness like a stroke. I need my parents to check my temperature to make sure I am okay.",
+  "problem_summary": {
+    "onset": "December 2017",
+    "course": "Infrequent; stress-triggered; most bothersome at night when trying to sleep.",
+    "laterality": "Bilateral (implied by 'ear ringing' and bilateral test results)",
+    "associated_symptoms": "Headaches, dizziness, obsessive fears about illness (OCD), anxiety in enclosed spaces.",
+    "functional_impact": "Sleep disturbance requiring white noise; significant distress and reassurance-seeking behaviors; avoidance of triggers.",
+    "goals_motivation": "To understand the medical meaning of the ringing and reduce fear."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Evaluation in September 2018. Tinnitus began in Dec 2017. Described as infrequent, triggered by stress. Most bothersome at night. Patient denies simultaneous tinnitus and headaches.",
+        "otologic_history": "Denied history of ear infections, ear pain, or aural fullness.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Referred for Obsessive-Compulsive Disorder (OCD) and health-related anxiety. Fears include Lyme disease, meningitis, and stroke. Triggers include dirt, hospitals, and physical symptoms.",
+        "prior_management": "Family uses a white noise machine to facilitate sleep. Patient seeks reassurance from parents (e.g., checking temperature).",
+        "patient_goals": "Evaluation of ear ringing."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Reliable responses to pure-tone air-conducted stimuli were obtained in the normal range for both ears.",
+          "numeric_results": {
+            "Result": "Normal range"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech recognition thresholds obtained.",
+          "numeric_results": {
+            "SRT_Right": "5 dB HL",
+            "SRT_Left": "5 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Type": "Type A"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Could not be assessed due to patient anxiety regarding the test (fear of being confined in the testing room).",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Distortion-product otoacoustic emissions (DPOAEs) were present, consistent with normal outer hair cell function.",
+          "numeric_results": {
+            "DPOAEs": "Present"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally, evidenced by pure-tone thresholds within the normal range and SRTs of 5 dB HL. Middle ear function is normal (Type A tympanograms) and outer hair cell function is intact (DPOAEs present). The tinnitus is not associated with peripheral auditory pathology.",
+  "counseling_points": [
+    "Your hearing test is completely normal, and your ears are healthy.",
+    "The ringing you hear is not a sign of a dangerous illness like a stroke.",
+    "Checking your body or asking your parents for reassurance might make you feel better for a moment, but it actually keeps the fear going.",
+    "We recommend working with a therapist on 'exposure' exercises to help you get used to the sound so it doesn't scare you anymore."
+  ],
+  "notes_for_actor": [
+    "Portray a 10-year-old with visible anxiety, specifically health-related.",
+    "Express fear about the testing booth (claustrophobia/fear of being trapped).",
+    "Ask the clinician 'What does the ringing mean? Is it something bad?'",
+    "If parents are portrayed, they should appear eager to reassure you, which you immediately seek out."
+  ]
+}

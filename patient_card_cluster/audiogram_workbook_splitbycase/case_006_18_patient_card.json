@@ -1,0 +1,109 @@
+{
+  "case_id": "case_6_18",
+  "title": "Bilateral Chronic Otitis Media and Cholesteatoma History",
+  "demographics": {
+    "age_years": 22,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have some difficulty hearing, but I've adjusted to it since I've had it for so long. My main concern is maintaining the hearing I have left, especially since I go to places with high noise levels.",
+  "problem_summary": {
+    "onset": "Lifelong history.",
+    "course": "Chronic, with multiple surgeries over the years.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "History of ear infections, cholesteatoma, tympanic membrane perforation.",
+    "functional_impact": "Right ear hearing is poorer than the left. Previous hearing aid use in the right ear (3 years ago) was unsuccessful.",
+    "goals_motivation": "Primary goal is hearing conservation/protection."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-04-09",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports lifelong ear infections and problems. He feels he has adjusted to the loss but perceives the right ear as worse than the left.",
+        "otologic_history": "Multiple otosurgeries bilaterally. Right ear: Revision canal wall down mastoidectomy with ossicular chain reconstruction (total ossicular replacement) ~1 year ago; tympanostomy tube placed in reconstructed middle ear. Left ear: Long-standing large tympanic membrane perforation.",
+        "noise_exposure_history": "Reports going to places with high noise levels.",
+        "medical_psych_history": "Cholesteatoma history.",
+        "prior_management": "Attempted amplification in the right ear 3 years ago; did not perceive benefit and the aid no longer fits the reconstructed ear.",
+        "patient_goals": "Monitor stability of hearing and discuss hearing protection."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op (1 year)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.18"
+          ],
+          "key_findings": "Right Ear: Moderately severe to mild conductive loss (250-4000 Hz), sloping to moderate/moderately severe at high frequencies. Left Ear: Mild conductive loss rising to slight mixed loss (500-2000 Hz), sloping to mild conductive loss at high frequencies. Significant air-bone gaps present bilaterally. Bone conduction thresholds are generally within normal limits.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "Range approx 40-60 dB HL",
+            "LE_AC_Thresholds": "Range approx 25-40 dB HL",
+            "BC_Thresholds": "0-10 dB HL bilaterally (normal cochlear function)",
+            "Masking_Note": "Unable to mask for left bone conduction thresholds at 1,000 and 2,000 Hz due to over masking."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op (1 year)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.18"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA. Word recognition scores (WRS) are excellent bilaterally at suprathreshold levels.",
+          "numeric_results": {
+            "RE_SRT": "55 dB HL",
+            "RE_PTA": "55 dB HL",
+            "RE_WRS": "92% at 90 dB HL",
+            "LE_SRT": "25 dB HL",
+            "LE_PTA": "30 dB HL",
+            "LE_WRS": "94% at 70 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-op (1 year)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.18"
+          ],
+          "key_findings": "Immittance testing was not completed/measured.",
+          "numeric_results": {
+            "Reason_RE": "Surgical history and presence of PE tube",
+            "Reason_LE": "Large tympanic membrane perforation"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral conductive pathology, significantly asymmetrical with the right ear being worse. The right ear exhibits a moderately severe conductive hearing loss, while the left ear shows a mild conductive/mixed loss. Despite the degree of conductive loss, cochlear function (bone conduction) remains largely normal, and word recognition ability is excellent in both ears when speech is loud enough.",
+  "counseling_points": [
+    "Since your main concern is protecting the hearing you have, we need to discuss custom hearing protection for when you are in noisy environments.",
+    "Your hearing test shows that your inner ear nerve function is actually quite good, but the mechanical parts (eardrum/bones) are preventing sound from getting through efficiently.",
+    "Because of your history of surgeries and the perforation in the left ear, we cannot perform the pressure test (tympanometry) today.",
+    "We recommend annual hearing tests to monitor for any changes.",
+    "Continue following up with your otologist as scheduled."
+  ],
+  "notes_for_actor": [
+    "You are young (22) and have dealt with ear issues your whole life, so you are somewhat resigned to having 'bad ears'.",
+    "You are not currently interested in hearing aids because the last one didn't work well and didn't fit your surgically altered ear.",
+    "You are specifically worried about loud noise making your hearing worse."
+  ]
+}

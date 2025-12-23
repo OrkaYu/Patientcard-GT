@@ -1,0 +1,104 @@
+{
+  "case_id": "case_6_28",
+  "title": "Unilateral Conductive Hearing Loss Post-Mastoidectomy",
+  "demographics": {
+    "age_years": 26,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am here for a follow-up to monitor my hearing sensitivity. I have a long history of ear issues on my left side.",
+  "problem_summary": {
+    "onset": "Childhood (surgeries began at age 2).",
+    "course": "Long-standing and stable.",
+    "laterality": "Unilateral (Left ear).",
+    "associated_symptoms": "Denies tinnitus or dizziness.",
+    "functional_impact": "Patient currently wears a hearing aid in the left ear.",
+    "goals_motivation": "Monitor hearing sensitivity and ensure stability."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-05-20",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presents for routine monitoring of long-standing unilateral conductive hearing loss.",
+        "otologic_history": "History of cholesteatoma with multiple surgeries on the left ear starting at age 2. Last surgery was a mastoidectomy with ossicular chain reconstruction in 2004 (approx. 11 years ago).",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Wears a hearing aid in the left ear.",
+        "patient_goals": "Monitor hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.28"
+          ],
+          "key_findings": "Right ear shows normal hearing sensitivity (0-10 dB HL). Left ear shows a slight sloping to mild conductive hearing loss (250-6000 Hz), sloping to moderate at 8000 Hz. Bone conduction is normal in the left ear, indicating a conductive pathology.",
+          "numeric_results": {
+            "Right_PTA": "2 dB",
+            "Left_PTA": "25 dB",
+            "Left_Air_Bone_Gap": "Present across frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.28"
+          ],
+          "key_findings": "SRT is consistent with PTA bilaterally. Word recognition scores are excellent (100%) in both ears at suprathreshold levels.",
+          "numeric_results": {
+            "Right_SRT": "5 dB",
+            "Right_WRS": "100% at 55 dB HL",
+            "Left_SRT": "25 dB",
+            "Left_WRS": "100% at 65 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.28"
+          ],
+          "key_findings": "Immittance testing was not measured at this appointment.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity in the right ear and a slight-to-mild sloping to moderate conductive hearing loss in the left ear. Word recognition is excellent bilaterally. The conductive nature of the left-sided loss is consistent with the history of mastoidectomy and ossicular chain reconstruction.",
+  "counseling_points": [
+    "Your hearing test today confirms that your inner ear (nerve) hearing remains normal on both sides.",
+    "The hearing loss in your left ear is 'conductive,' meaning sound is not getting through the middle ear system efficiently due to your prior surgeries, which is expected.",
+    "Since your word recognition scores are excellent, you are a great candidate to continue using your hearing aid.",
+    "Please continue to use hearing protection in noisy environments to protect your inner ear hearing.",
+    "We will see you back annually to monitor your hearing sensitivity."
+  ],
+  "notes_for_actor": [
+    "You are a 26-year-old female accustomed to your hearing loss.",
+    "You have had this condition since age 2, so you are knowledgeable about your history (surgeries, mastoidectomy).",
+    "You are compliant with hearing aid use and have no new complaints (no dizziness, no tinnitus).",
+    "Your demeanor is calm and routine; this is a standard check-up for you."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "case_id": "Case27_Superhero_Treatment_for_Sound_Sensitivity",
+  "title": "Superhero Treatment for Sound Sensitivity",
+  "demographics": {
+    "age_years": 14,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have extreme distress, anger, and frustration when I hear specific trigger sounds like chewing, breathing, and hiccups. It affects my concentration, sleep, and ability to eat dinner with my family.",
+  "problem_summary": {
+    "onset": "Months prior to the initial visit in July 2017.",
+    "course": "Persistent and impacting daily life.",
+    "laterality": "Bilateral (central/functional processing).",
+    "associated_symptoms": "Physical reflexes (inhaling, tensing shoulders, squeezing hands), anxiety, depression, visual triggers (seeing someone eat).",
+    "functional_impact": "Disrupted family dynamics, inability to eat at the dinner table without noise-cancelling protection, social/recreational withdrawal.",
+    "goals_motivation": "Currently using noise-cancelling headphones but seeking help due to severity."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2017-07-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports sound sensitivity to chewing, breathing, and hiccups. Exposure triggers extreme emotional distress (rage, disgust). She currently wears noise-cancelling hearing protection at the dinner table, a strategy suggested by her psychologist.",
+        "otologic_history": "No history of ear disease, drainage, sudden hearing loss, dizziness, or ear pain.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Diagnosed with anxiety and depression linked to the effects of triggering sounds.",
+        "prior_management": "Use of noise-cancelling headphones; working with a clinical psychologist.",
+        "patient_goals": "Management of sound sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Clear ear canals with intact tympanic membranes.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 27.1"
+          ],
+          "key_findings": "Hearing sensitivity is within normal limits bilaterally. Thresholds are generally 0-10 dB HL across frequencies 250-8000 Hz.",
+          "numeric_results": {
+            "Right Ear Thresholds": "0-10 dB HL range",
+            "Left Ear Thresholds": "0-10 dB HL range"
+          }
+        },
+        {
+          "name": "Sound Tolerance (UCL)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 27.1"
+          ],
+          "key_findings": "Uncomfortable loudness levels (UCL) indicate mild-to-moderate hyperacusis.",
+          "numeric_results": {
+            "UCL Range": "70 to 90 dB HL"
+          }
+        },
+        {
+          "name": "Questionnaires",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Scores indicate severe misophonia. Patient reports visual triggers and severe emotional distress (hate, anger, rage).",
+          "numeric_results": {
+            "A-MISO-S Score": "17 (Severe)",
+            "MAQ Score": "48 (Severe)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally but reduced sound tolerance (UCLs 70-90 dB HL) consistent with mild-to-moderate hyperacusis. Questionnaire results (A-MISO-S: 17, MAQ: 48) confirm severe misophonia with associated visual triggers and intense emotional reactions.",
+  "counseling_points": [
+    "Overuse of hearing protection can actually heighten your sensitivity to sound; we recommend reducing its use.",
+    "Instead of blocking sound, we recommend using earphones to play pink noise (a neutral sound) to provide gentle stimulation to the auditory system.",
+    "Enrich the sound environment at the dinner table with music or nature sounds to reduce the contrast of trigger sounds.",
+    "Your reaction is a conditioned reflex involving connections between the hearing and emotional centers of the brain; therapy aims to weaken these connections."
+  ],
+  "notes_for_actor": [
+    "Portray a teenager who is articulate but clearly distressed and frustrated by specific sounds.",
+    "When describing triggers (chewing, breathing), express intense emotions like anger or rage, not just annoyance.",
+    "Demonstrate the physical reflex described: inhaling sharply, tensing shoulders, and squeezing hands when imagining or discussing triggers.",
+    "Emphasize that you feel like you might lose control or hurt someone, even though you never actually act on it."
+  ]
+}

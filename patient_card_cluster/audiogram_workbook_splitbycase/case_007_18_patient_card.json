@@ -1,0 +1,104 @@
+{
+  "case_id": "case_7_18",
+  "title": "Mixed Hearing Loss with History of Chronic Otitis Media",
+  "demographics": {
+    "age_years": 76,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed a significant deterioration in the hearing in my left ear over the past few years. It is harder to understand speech in noise, and I often have to turn my head or place people on my right side to hear them well.",
+  "problem_summary": {
+    "onset": "Long-standing history with recent subjective deterioration.",
+    "course": "Chronic; patient reports recent worsening, though testing shows minimal changes from prior exam 3 years ago.",
+    "laterality": "Left ear worse (mixed loss); Right ear better.",
+    "associated_symptoms": "Difficulty in noise; need for positional listening (turning right ear). No tinnitus or dizziness.",
+    "functional_impact": "Relies on the right ear for communication; difficulty in noisy environments.",
+    "goals_motivation": "To assess the reported decline in hearing."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-02-17",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports significant deterioration in left ear hearing over the past few years and increased difficulty in noise. He has not had a hearing test in 3 years.",
+        "otologic_history": "History of chronic otitis media and eustachian tube dysfunction in the left ear. Four otosurgeries in the left ear, including ossiculoplasty and PE tube replacement.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "None significant reported.",
+        "prior_management": "Four previous surgeries on the left ear.",
+        "patient_goals": "Evaluation of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.18"
+          ],
+          "key_findings": "Right ear: Slight sensorineural hearing loss (250-3000 Hz) sloping to mild (4000-8000 Hz). Left ear: Mixed hearing loss; moderately severe in lows, rising to mild in mids, sloping to moderate-to-severe in highs. Significant air-bone gaps present in the left ear.",
+          "numeric_results": {
+            "Right_PTA": "~22 dB HL",
+            "Left_PTA": "~47 dB HL",
+            "Right_AC_Thresholds": "20-25 dB HL (lows) to 35 dB HL (highs)",
+            "Left_AC_Thresholds": "Rising configuration: ~65 dB HL (250 Hz) to ~45 dB HL (1-2 kHz) sloping to ~65 dB HL (8 kHz)",
+            "Left_BC_Thresholds": "Stable ~15-35 dB HL through 2000 Hz, indicating mixed nature"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.18"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA. Word recognition scores (WRS) are excellent bilaterally, indicating normal ability to recognize speech at suprathreshold levels.",
+          "numeric_results": {
+            "Right_SRT": "20 dB HL",
+            "Right_WRS": "92% at 65 dB HL",
+            "Left_SRT": "47 dB HL",
+            "Left_WRS": "92% at 85 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Immittance testing was not measured.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric hearing. The right ear exhibits a slight-to-mild sensorineural hearing loss with excellent speech discrimination. The left ear exhibits a mixed hearing loss (moderately severe rising to mild, then sloping) consistent with the history of chronic middle ear disease and surgeries. Despite the patient's subjective report of worsening, thresholds show minimal change compared to the previous evaluation. Speech understanding remains excellent in both ears when sufficiently amplified.",
+  "counseling_points": [
+    "Although you feel your hearing has dropped significantly, the test results show only minimal changes compared to your last test 3 years ago.",
+    "Your left ear has a 'mixed' hearing loss, meaning there is a combination of nerve loss and a mechanical issue (related to your history of surgeries/middle ear issues).",
+    "You have excellent ability to understand speech when it is loud enough, which is a good prognostic sign for amplification.",
+    "We recommend following up with your otologist as scheduled.",
+    "We should schedule a hearing aid evaluation to discuss options (such as CROS or standard amplification) and Hearing Assistive Technology (HAT) to help with the difficulty in background noise.",
+    "Continue to use hearing protection in noisy environments to preserve your remaining hearing."
+  ],
+  "notes_for_actor": [
+    "Portray a 76-year-old male who habitually turns his head to offer his right ear to the speaker.",
+    "You are convinced your hearing has gotten much worse recently, even though the doctor will tell you the graph looks stable.",
+    "You do not have dizziness or tinnitus.",
+    "You are cooperative but frustrated by the difficulty hearing in noise."
+  ]
+}

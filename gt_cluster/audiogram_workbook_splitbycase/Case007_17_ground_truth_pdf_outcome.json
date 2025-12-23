@@ -1,0 +1,102 @@
+{
+  "case_id": "Case007_17",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Facial nerve hemangioma",
+      "rationale_short": "Confirmed by exploratory surgery; presented with mixed hearing loss, facial twitching, and absent reflexes."
+    },
+    {
+      "rank": 2,
+      "label": "Facial nerve schwannoma",
+      "rationale_short": "Initial imaging differential diagnosis consistent with facial nerve symptoms and audiologic findings."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine type, degree, and configuration of hearing loss given subjective changes."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding and agreement with pure-tone thresholds."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status and eardrum mobility."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc, particularly given facial twitching symptoms."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a left mixed hearing loss and normal hearing on the right. Despite the conductive component (air-bone gaps) on the left, tympanometry is normal (Type A) bilaterally. Acoustic reflexes are absent when the probe is in the left ear (ipsilateral left and contralateral right) but present when the probe is in the right ear (ipsilateral right and contralateral left). This 'vertical' pattern of reflex abnormalities, combined with facial twitching, suggests pathology affecting the efferent pathway (facial nerve) or middle ear mechanics on the left side, rather than a cochlear or afferent issue.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal thresholds sloping to slight SNHL at 4 kHz. Left ear slight to mild mixed loss (250-2000 Hz) sloping to moderate/moderately-severe mixed loss in high frequencies; air-bone gaps present."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent word recognition scores bilaterally (96%). SRTs agree with PTAs."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right Ipsi present. Left Ipsi absent. Right Contra (Probe Left) absent/elevated. Left Contra (Probe Right) present at 1-2 kHz. Pattern suggests left efferent (facial nerve) pathology."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Annual hearing test",
+      "Hearing aid evaluation for the left ear (pending medical clearance)",
+      "Use of Hearing Assistive Technology (HAT)",
+      "Use of hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Explain the mixed nature of the hearing loss and the discrepancy between normal tympanograms and absent reflexes.",
+      "Discuss the correlation between the audiologic findings and the reported facial twitching.",
+      "Advise on the necessity of medical referral for imaging to investigate the facial nerve."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral mixed hearing loss",
+      "Facial twitching (facial nerve symptoms)",
+      "Absent acoustic reflexes with normal tympanometry",
+      "Unilateral tinnitus"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Otologist",
+      "rationale_short": "Signs of facial nerve pathology (twitching, absent reflexes) and unilateral mixed loss require MRI/CT to rule out retrocochlear mass."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing thresholds and functional status post-intervention."
+  },
+  "expected_outcome": [
+    "MRI and CT scans: Revealed either a left facial nerve schwannoma or a hemangioma.",
+    "Exploratory surgery: Confirmed a left hemangioma, which was mostly removed.",
+    "Post-surgical status: Hearing decreased slightly after surgery, and facial twitching slightly improved."
+  ]
+}

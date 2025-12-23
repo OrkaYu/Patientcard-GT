@@ -1,0 +1,91 @@
+{
+  "case_id": "Case005_26",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Profound Sensorineural Hearing Loss",
+      "rationale_short": "Audiometry demonstrates no measurable response to pure tones or speech bilaterally. History notes long-standing loss with recent progression in the left ear. Normal tympanometry rules out conductive pathology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess current hearing thresholds given the patient's report of recent decline."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech detection and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and rule out conductive components."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc and confirm consistency with profound SNHL."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals bilateral profound sensorineural hearing loss with no measurable responses to pure tones or speech stimuli. Tympanometry indicates normal middle ear function bilaterally. Acoustic reflexes are absent. Comparison with previous testing confirms a significant deterioration in the left ear to 'no response' levels, rendering the current hearing aid ineffective.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral profound SNHL with no measurable response (NR) at 250-8000 Hz. Left ear thresholds decreased to NR from 250-4000 Hz compared to previous testing."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SAT and WRS could not be obtained (NR/CNT) bilaterally due to the severity of the hearing loss."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally (Right Vol 1.2 ml, Left Vol 1.3 ml)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes at 500-4000 Hz bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Cochlear Implant (CI) evaluation",
+      "CT scan of temporal bones",
+      "Consultation with cardiologist regarding surgical anesthesia risk"
+    ],
+    "counseling_actions": [
+      "Explain that the recent decline in the left ear renders the current hearing aid ineffective",
+      "Discuss Cochlear Implant candidacy as the next viable option given improved cardiac status",
+      "Advise on the plan to schedule CI evaluation and imaging"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist / Cochlear Implant Center",
+      "rationale_short": "Patient has profound hearing loss with no benefit from amplification and is now a potential candidate for cochlear implantation due to improved cardiac status."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As scheduled",
+    "objective": "Complete CI evaluation, CT scan, and cardiology consultation for surgical clearance."
+  },
+  "expected_outcome": [
+    "Confirmation that pure-tone air conduction thresholds in the left ear decreased to no response from 250 to 4,000 Hz compared to the last test.",
+    "Patient scheduled for a CI evaluation and a CT scan.",
+    "Otologist planned to consult with the cardiologist regarding surgical clearance."
+  ]
+}

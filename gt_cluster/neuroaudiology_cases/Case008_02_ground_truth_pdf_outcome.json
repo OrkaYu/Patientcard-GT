@@ -1,0 +1,149 @@
+{
+  "case_id": "Case008_02",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Interhemispheric transfer deficit (Split-brain syndrome)",
+      "rationale_short": "Post-commissurotomy status with classic auditory profile: normal peripheral hearing but severe left-ear deficits on dichotic tasks and inability to verbally label patterns despite ability to hum them."
+    },
+    {
+      "rank": 2,
+      "label": "Diffuse cortical dysfunction",
+      "rationale_short": "Pre-existing condition evidenced by seizure disorder and pre-operative deficits in intensity pattern perception."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline evaluation of peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline evaluation of speech recognition."
+      },
+      {
+        "action": "Central Auditory Processing Battery",
+        "urgency": "routine",
+        "rationale_short": "Baseline assessment of central auditory function prior to commissurotomy."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Post-operative check of peripheral hearing status."
+      },
+      {
+        "action": "Central Auditory Processing Battery",
+        "urgency": "routine",
+        "rationale_short": "Post-operative assessment to evaluate the effects of corpus callosum sectioning."
+      },
+      {
+        "action": "Central Auditory Processing Battery",
+        "urgency": "routine",
+        "rationale_short": "Long-term follow-up to monitor stability or plasticity of central deficits."
+      },
+      {
+        "action": "Frequency Patterns (Hummed vs Verbal)",
+        "urgency": "routine",
+        "rationale_short": "To differentiate between right hemisphere perception and interhemispheric transfer for labeling."
+      },
+      {
+        "action": "Interaural Intensity Difference Task (Dichotic Digits)",
+        "urgency": "routine",
+        "rationale_short": "To determine the intensity difference required to overcome suppression of the left ear pathway."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Pre-operative evaluation demonstrated normal peripheral hearing and speech recognition. Central auditory testing was largely normal, ruling out significant pre-existing deficits on the specific tests used, although intensity pattern perception was below normal, consistent with diffuse cortical dysfunction.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Speech recognition scores were normal bilaterally."
+          },
+          {
+            "name": "Central Auditory Processing Battery",
+            "category": "Central Auditory Processing",
+            "result_summary": "Essentially normal findings for Speech in Noise (+5 dB SNR), Dichotic Digits, SSW, and Frequency Patterns. Intensity Pattern perception was bilaterally below the norm."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Evaluation 1.5 weeks post-commissurotomy revealed the classic split-brain auditory profile. While peripheral hearing remained normal, there were marked deficits in the left ear on dichotic tasks and bilateral deficits in verbally reporting frequency patterns, attributed to the sectioning of the corpus callosum blocking interhemispheric transfer.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Remained normal."
+          },
+          {
+            "name": "Central Auditory Processing Battery",
+            "category": "Central Auditory Processing",
+            "result_summary": "Slight drop in LE Speech in Noise. Marked decrease in LE performance on dichotic speech tests (SSW ~50%, Dichotic Digits ~20%). Considerable bilateral decrease in Frequency Patterns scores (verbal report ~15%)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "One-year follow-up confirmed the permanence of the disconnection deficits. Performance was essentially similar to the immediate post-op assessment, with slight improvement in LE SSW likely due to cross-cueing. A dissociation between hummed (normal) and verbal (poor) pattern responses confirmed intact right hemisphere perception with blocked transfer to the left hemisphere.",
+        "tests": [
+          {
+            "name": "Central Auditory Processing Battery",
+            "category": "Central Auditory Processing",
+            "result_summary": "Scores on Speech in Noise and Patterns (verbal) essentially same as 1.5 weeks post-op. Dichotic tests showed slight LE improvement (specifically SSW) compared to immediate post-op."
+          },
+          {
+            "name": "Frequency Patterns (Hummed vs Verbal)",
+            "category": "Central Auditory Processing",
+            "result_summary": "Patient could correctly hum the patterns (essentially normal bilaterally, ~80-90%) but reported them incorrectly verbally (poor)."
+          },
+          {
+            "name": "Interaural Intensity Difference Task (Dichotic Digits)",
+            "category": "Central Auditory Processing",
+            "result_summary": "Consistent left ear responses required a 30 dB interaural intensity difference (Left Ear 50 dB HL, Right Ear 20 dB HL)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor central auditory function annually.",
+      "Use of compensatory strategies for complex listening environments."
+    ],
+    "counseling_actions": [
+      "Explain that difficulty hearing in the left ear during dichotic tasks is a permanent result of the surgery disconnecting the hemispheres.",
+      "Clarify that the patient retains the ability to perceive tonal patterns (music/prosody) as evidenced by humming, despite inability to name them.",
+      "Advise that in complex auditory environments, the patient will rely heavily on the right ear.",
+      "Discuss that slight improvements (e.g., on SSW) are likely due to strategy changes (cross-cueing) rather than neural regeneration."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient is already under specialist care; routine monitoring of auditory function is appropriate."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 year",
+    "objective": "Monitor stability of auditory deficits and functional status."
+  },
+  "expected_outcome": [
+    "The patient's condition improved markedly and the number of seizures decreased; he was able to return to school and graduate.",
+    "Central Auditory Processing Battery (1 Year Post-op): Performance essentially similar to the first postoperative assessment, with persistent severe left-ear deficits on dichotic tests. Slight improvement noted on the left ear SSW test, likely due to cross-cueing.",
+    "Frequency Patterns (Hummed vs Verbal): Patient could correctly hum patterns (essentially normal) but could not verbally report them, confirming right hemisphere integrity but blocked transfer to the left hemisphere.",
+    "Interaural Intensity Difference Task: Consistent verbal reporting of left-ear digits required a 30 dB interaural intensity difference (Left Ear louder than Right Ear)."
+  ]
+}

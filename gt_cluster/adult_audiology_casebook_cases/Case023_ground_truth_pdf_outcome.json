@@ -1,0 +1,149 @@
+{
+  "case_id": "Case023",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Horizontal Canal Benign Paroxysmal Positional Vertigo (BPPV)",
+      "rationale_short": "Indicated by geotropic direction-changing positional nystagmus, strongest in the head-left position, and horizontal left-beating nystagmus during left Dix-Hallpike."
+    },
+    {
+      "rank": 2,
+      "label": "Vestibular Migraine",
+      "rationale_short": "Supported by history of photophobia, headaches, anxiety, and concurrent symptoms; diagnosis of exclusion alongside BPPV."
+    },
+    {
+      "rank": 3,
+      "label": "Vestibular Neuritis",
+      "rationale_short": "Ruled out due to lack of significant caloric weakness and presence of hearing preservation."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate hearing sensitivity given reports of otalgia, fullness, and tinnitus."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding and agreement with pure-tone thresholds."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate retrocochlear pathology, though not completed in this case."
+      },
+      {
+        "action": "Videonystagmography (VNG) - Oculomotor",
+        "urgency": "routine",
+        "rationale_short": "To assess central vestibular function."
+      },
+      {
+        "action": "Videonystagmography (VNG) - Caloric Testing",
+        "urgency": "routine",
+        "rationale_short": "To evaluate for unilateral vestibular weakness."
+      },
+      {
+        "action": "Dix-Hallpike",
+        "urgency": "routine",
+        "rationale_short": "To test for BPPV, specifically posterior canal involvement."
+      },
+      {
+        "action": "Positional Testing",
+        "urgency": "routine",
+        "rationale_short": "To evaluate for non-posterior canal BPPV or other positional nystagmus."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial audiological examination revealed normal hearing sensitivity and middle ear function, ruling out hearing loss as a contributor to the patient's symptoms despite reports of fullness and tinnitus.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally (0-15 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT in good agreement with PTA; WRS 100% bilaterally at 45 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal ear canal volume, middle ear pressure, and static compliance."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Not completed."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Vestibular evaluation indicated Horizontal Canal BPPV (left ear canalithiasis) based on geotropic direction-changing nystagmus strongest in the head-left position. Caloric testing was equivocal/normal, ruling out vestibular neuritis.",
+        "tests": [
+          {
+            "name": "Videonystagmography (VNG) - Oculomotor",
+            "category": "Vestibular",
+            "result_summary": "Normal ocular motility."
+          },
+          {
+            "name": "Videonystagmography (VNG) - Caloric Testing",
+            "category": "Vestibular",
+            "result_summary": "21% left unilateral weakness (text describes as equivocal/insignificant); figure caption notes 27%."
+          },
+          {
+            "name": "Dix-Hallpike",
+            "category": "Vestibular",
+            "result_summary": "Right ear down unremarkable. Left ear down positive for horizontal left-beating nystagmus (no torsion)."
+          },
+          {
+            "name": "Positional Testing",
+            "category": "Vestibular",
+            "result_summary": "Geotropic direction-changing nystagmus in all positions; strongest in head-left (60 deg/s horizontal component)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Lempert Roll (BBQ Roll) maneuver for left horizontal canal BPPV",
+      "Sleep in semi-upright position for two nights post-maneuver",
+      "Migraine diet and food diary",
+      "Prescription of amitriptyline for migraine management"
+    ],
+    "counseling_actions": [
+      "Explain that hearing is normal.",
+      "Counsel on Horizontal Canal BPPV mechanism (loose crystals).",
+      "Explain the Lempert Roll maneuver.",
+      "Discuss Vestibular Migraine and lifestyle/dietary triggers."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurotologist",
+      "rationale_short": "Patient managed by neurotologist for migraine medication and BPPV maneuvers."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2 weeks",
+    "objective": "Assess resolution of headaches and positional vertigo; repeat maneuver if necessary."
+  },
+  "expected_outcome": [
+    "At 2-week follow-up: Headaches improved 90%, but some positional vertigo persisted; Lempert Roll was repeated.",
+    "At 1-month follow-up: Dix-Hallpike was negative in both directions with no further positional nystagmus.",
+    "Resolution of headaches reported as a result of taking amitriptyline."
+  ]
+}

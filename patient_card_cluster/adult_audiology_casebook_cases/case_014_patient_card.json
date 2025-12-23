@@ -1,0 +1,226 @@
+{
+  "case_id": "case14_Auditory_Dyssynchrony_A_Struggle_to_Unde",
+  "title": "Auditory Dyssynchrony: A Struggle to Understand Speech in Noise",
+  "demographics": {
+    "age_years": 25,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have difficulty hearing even moderately loud sounds, and understanding speech in the presence of noise is a struggle for me. It is difficult to listen to professors or interact socially.",
+  "problem_summary": {
+    "onset": "Gradual; patient unsure of exact start.",
+    "course": "Progressive worsening.",
+    "laterality": "Bilateral, asymmetric.",
+    "associated_symptoms": "Intermittent tinnitus (not bothersome); extreme difficulty in noise.",
+    "functional_impact": "Significant difficulty in university lectures and social interactions.",
+    "goals_motivation": "Highly motivated college student seeking to improve communication."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-08-08",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports difficulty hearing moderately loud sounds and significant struggle in noise.",
+        "otologic_history": "No history of vertigo, ototoxicity, or noise exposure.",
+        "medical_psych_history": "No significant medical history.",
+        "prior_management": "None reported prior to this visit."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 14.1"
+          ],
+          "key_findings": "Bilateral asymmetric sensorineural hearing loss. Left ear: mild to moderate-severe. Right ear: mild to severe. Right ear is poorer by approx 15 dB at 500-8000 Hz.",
+          "numeric_results": {
+            "Right_PTA": "60 dB HL",
+            "Left_PTA": "45 dB HL",
+            "Right_Configuration": "Sloping SNHL (~30 dB at 250Hz to ~90 dB at 8kHz)",
+            "Left_Configuration": "Sloping SNHL (~30 dB at 250Hz to ~80 dB at 8kHz)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 14.1"
+          ],
+          "key_findings": "SRTs align with pure tone averages. WRS scores indicate only slight difficulty in quiet, which is disproportionately good compared to complaints in noise.",
+          "numeric_results": {
+            "Right_SRT": "60 dB HL",
+            "Left_SRT": "45 dB HL",
+            "Right_WRS": "80% (NU-6)",
+            "Left_WRS": "82% (NU-6)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 14.1"
+          ],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Right_Type": "A",
+            "Left_Type": "A",
+            "Static_Admittance": "Right 1.0, Left 1.1 mL",
+            "Peak_Pressure": "Right 75, Left 75 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 14.1"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral reflexes at all tested frequencies (500-4000 Hz).",
+          "numeric_results": {
+            "Reflexes": "Absent (ABS)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 1 week after hearing aid fitting (Widex Clear Fusion 440s). Patient is frustrated and reports no benefit in noise.",
+        "prior_management": "Fitted with bilateral RIC hearing aids with open domes."
+      },
+      "tests": [
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Post-fitting check",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "QuickSIN administered at MCL. Results indicate severe SNR loss, explaining why hearing aids alone are insufficient.",
+          "numeric_results": {
+            "Presentation_Level_Left": "95 dB HL (MCL)",
+            "Presentation_Level_Right": "100 dB HL (MCL)",
+            "SNR_Loss_Left": "15.5 dB",
+            "SNR_Loss_Right": "15.5 dB",
+            "Interpretation": "Severe SNR Loss"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Additional site-of-lesion testing prompted by discrepancy between audiogram/WRS and severe difficulty in noise/absent reflexes."
+      },
+      "tests": [
+        {
+          "name": "Otoacoustic Emissions (TEOAE)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 14.1"
+          ],
+          "key_findings": "TEOAEs are present and robust bilaterally despite the moderate-to-severe SNHL on the audiogram. Contralateral suppression of OAEs was absent.",
+          "numeric_results": {
+            "Right_SNR_1kHz": "6.7 dB",
+            "Right_SNR_4kHz": "17.2 dB",
+            "Left_SNR_1kHz": "18.4 dB",
+            "Left_SNR_4kHz": "25.7 dB"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Click-evoked ABR at 100 dB nHL showed poor morphology with absent waves I, III, and V. Cochlear Microphonics (CM) were present and inverted on polarity reversal.",
+          "numeric_results": {
+            "Neural_Waves": "Absent",
+            "Cochlear_Microphonics": "Present"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Treatment adjustment following diagnosis of Auditory Dyssynchrony. FM system trial initiated.",
+        "prior_management": "Hearing aids reprogrammed (directional mics, noise reduction). FM system (Widex SCOLA) added."
+      },
+      "tests": [
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "FM System Verification",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "QuickSIN re-administered with FM system. Significant improvement observed.",
+          "numeric_results": {
+            "Average_SNR_Loss": "5.5 dB",
+            "Improvement": "10 dB compared to HAs alone",
+            "Interpretation": "Mild SNR Loss"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral asymmetric sensorineural hearing loss on pure-tone audiometry but disproportionately poor speech-in-noise performance (Severe SNR loss) and absent acoustic reflexes. Diagnostic testing revealed the hallmark signs of Auditory Neuropathy/Dyssynchrony (AN/AD): present Otoacoustic Emissions (OAEs) and Cochlear Microphonics (CMs) indicating preserved outer hair cell function, combined with absent ABR neural waveforms. Standard hearing aids provided insufficient benefit in noise, necessitating the addition of an FM system.",
+  "counseling_points": [
+    "Your hearing test results show a specific condition called Auditory Dyssynchrony (or Neuropathy). This means your inner ear detects sound well, but the signal becomes disorganized as it travels along the hearing nerve to the brain.",
+    "This explains why you can hear sounds (volume) but struggle to understand clarity, especially in background noise.",
+    "Standard hearing aids make sounds louder, which helps in quiet, but they cannot fully correct the timing/clarity issue in noise.",
+    "To help you in classrooms and social settings, we are adding an FM system. This device picks up the speaker's voice and sends it directly to your hearing aids, bypassing the background noise.",
+    "We will also work on communication strategies, like positioning yourself close to the speaker and reducing background distractions whenever possible."
+  ],
+  "notes_for_actor": [
+    "Portray a motivated but highly frustrated college student.",
+    "Initially, you should express confusion: 'I can hear that you are talking, but I can't understand the words if there is any noise.'",
+    "After the first hearing aid fitting, return very disappointed, emphasizing that the devices are not helping in the cafeteria or lecture hall.",
+    "Show relief when the FM system is introduced and you finally experience clarity in noise."
+  ]
+}

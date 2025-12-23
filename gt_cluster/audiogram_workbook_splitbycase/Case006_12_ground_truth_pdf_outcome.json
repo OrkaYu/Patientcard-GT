@@ -1,0 +1,89 @@
+{
+  "case_id": "Case006_12",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Chronic serous otitis media / Eustachian tube dysfunction",
+      "rationale_short": "History of ETD and PE tubes; unilateral mild conductive hearing loss; Type B tympanogram with normal ear canal volume indicating fluid."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and type of loss given reported deterioration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and differentiate between fluid, perforation, or ossicular issues."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Standard battery test, though not measured in this instance."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Right ear findings were within normal limits. Left ear evaluation revealed a mild conductive hearing loss with a notch at 3000 Hz. Tympanometry showed a flat (Type B) trace with normal volume in the left ear, consistent with middle ear effusion/ETD. Speech recognition was excellent bilaterally.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal (0-10 dB HL). Left ear mild conductive loss (flat ~35-40 dB HL) with a notch to 50 dB HL at 3000 Hz; air-bone gaps approx 30-40 dB."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT right 8 dB HL, left 35 dB HL. WRS 100% bilaterally at suprathreshold levels."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear Type A (normal). Left ear Type B (flat) with normal ear canal volume (1.1 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Not measured."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Custom earplugs for dirt bike racing",
+      "Return for hearing test after medical management"
+    ],
+    "counseling_actions": [
+      "Discussed hearing protection with emphasis on custom earplugs for use when riding dirt bike",
+      "Discussed results indicating conductive loss and need for medical follow-up"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "For medical management of left ear conductive hearing loss and suspected chronic serous otitis media."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After medical management and as needed",
+    "objective": "To re-evaluate hearing thresholds following medical intervention."
+  },
+  "expected_outcome": [
+    "Patient followed up with an otologist as scheduled.",
+    "Audiological recommendations were to return for a hearing test after medical management and as needed.",
+    "Hearing protection was discussed, with an emphasis on custom earplugs for use when riding his dirt bike."
+  ]
+}

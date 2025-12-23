@@ -1,0 +1,110 @@
+{
+  "case_id": "Case011",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Normal hearing (Nonorganic hearing loss / Malingering)",
+      "rationale_short": "Significant discrepancy between SRT and pure-tone averages; normal acoustic reflexes, ABR, and TEOAEs confirm normal physiological function despite elevated behavioral thresholds."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline assessment of hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition; critical for cross-check with pure tones."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Objective measure of auditory pathway function; presence at normal levels contradicts severe hearing loss."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "Objective estimation of hearing sensitivity to rule out retrocochlear pathology and confirm organic thresholds."
+      },
+      {
+        "action": "TEOAE",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function; presence indicates normal cochlear mechanics."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with behavioral pure-tone thresholds suggesting moderate-to-severe hearing loss, but Speech Reception Thresholds are significantly better (30-35 dB HL), indicating poor reliability. Objective measures—including normal acoustic reflexes, normal ABR Wave V thresholds (15-20 dB nHL), and present TEOAEs—confirm normal physiological hearing sensitivity bilaterally, supporting a diagnosis of nonorganic hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Flat configuration approx 50-60 dB HL bilaterally (moderate-to-severe), inconsistent with other measures."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "SRT Right 30 dB HL, Left 35 dB HL; SRS Right 86%, Left 80%. SRTs are significantly better than pure-tone averages."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A bilaterally (0.70 cc Right, 0.73 cc Left)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at normal levels (80-85 dB HL) bilaterally, inconsistent with the degree of behavioral hearing loss."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "All waves normal; Wave V thresholds 15 dB nHL (Right) and 20 dB nHL (Left), indicating normal sensitivity."
+          },
+          {
+            "name": "TEOAE",
+            "category": "Otoacoustic Emissions",
+            "result_summary": "Present bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Perform pure-tone delayed auditory feedback tests",
+      "Perform ascending-descending threshold exploration",
+      "Readminister audiogram and SRT tests",
+      "Arrange for rescheduling to complete testing",
+      "Record all findings carefully in a report",
+      "Provide a report to the patient stating that inconsistencies preclude a definitive diagnosis (omitting mention of nonorganic tests)"
+    ],
+    "counseling_actions": [
+      "Counsel the patient regarding inconsistencies in results",
+      "Accept responsibility for potential instructional misunderstanding to allow the patient a face-saving way to improve responses",
+      "Do not confront the patient or use accusatory language"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Referring physician",
+      "rationale_short": "Report findings indicating inconsistencies that preclude a definitive behavioral diagnosis, while noting objective evidence of normal function."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Reschedule soon",
+    "objective": "Attempt to obtain valid behavioral thresholds using additional strategies."
+  },
+  "expected_outcome": []
+}

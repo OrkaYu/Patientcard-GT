@@ -1,0 +1,138 @@
+{
+  "case_id": "Case25_LM_Lisa_Coping_Skills_Development_for",
+  "title": "LM (“Lisa”): Coping Skills Development for Misophonia",
+  "demographics": {
+    "age_years": 16,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I feel like I am cursed and a terrible disappointment to my parents. When people chew, sniffle, or tap, I get so angry I feel like a monster and have to get away.",
+  "problem_summary": {
+    "onset": "Approximately age 13 to 14 years old.",
+    "course": "Sudden onset during a family dinner; symptoms persisted and led to refusal to eat with family. Previous psychiatric evaluation and CBT for OCD were unsuccessful and increased patient distress.",
+    "laterality": "Bilateral (triggers are environmental)",
+    "associated_symptoms": "Immediate anger/rage, crying, urge to flee, anticipatory anxiety, visual triggers (seeing chewing).",
+    "functional_impact": "Social isolation, refusal to eat with family, locking self in room, school avoidance after failed therapy attempts.",
+    "goals_motivation": "Initially resistant due to failed prior therapies, but agreed to 10 sessions of coping skills training."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient experienced a sudden breakdown at dinner around age 13/14 and has since refused to eat with family. Triggers include chewing, sniffling, and tapping.",
+        "otologic_history": "Unremarkable health history.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Diagnosed by psychiatrist with possible OCD and 'perfectionistic personality.' Prescribed CBT, which failed after 3 sessions. Patient self-identified 'misophonia' via internet research.",
+        "prior_management": "Psychiatrist prescribed CBT/medication (refused). Psychologist attempted CBT (failed).",
+        "patient_goals": "Assessment for misophonia."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing within normal limits bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Word recognition in quiet was excellent.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Indicated normal middle ear function.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Otoacoustic emissions (OAEs)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present from 0.750 to 10 kHz bilaterally, suggesting normal outer hair cell function.",
+          "numeric_results": {
+            "Range": "0.750 to 10 kHz"
+          }
+        },
+        {
+          "name": "Loudness Discomfort Levels",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Tolerance of signals in excess of 90 dB HL contraindicates presence of loudness hyperacusis.",
+          "numeric_results": {
+            "Tolerance": "> 90 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (Coping Skills Training)",
+      "history": {
+        "present_illness": "Initial session of 10-week coping skills program.",
+        "patient_goals": "Manage reactions to triggers, reduce isolation.",
+        "prior_management": "Fitted with ear-level sound generators (white noise) in V1."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Intervention",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Assessment of psychological impact: Patient felt 'cursed' and feared triggers were spreading. Identified specific triggers (father, teacher).",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity, normal middle ear function, and robust otoacoustic emissions. Loudness discomfort levels exceed 90 dB HL, ruling out loudness hyperacusis. The profile is consistent with misophonia, characterized by specific sound intolerances triggering autonomic nervous system arousal (fight/flight) without peripheral hearing loss.",
+  "counseling_points": [
+    "Misophonia is not a psychiatric or personality disorder; it is an auditory and neurologically based disorder where sounds are misinterpreted as toxic.",
+    "Your reaction is a 'fight/flight' response that happens automatically within milliseconds, outside of your conscious control.",
+    "Use the ear-level sound generators to produce white noise that interferes with the trigger sounds.",
+    "Engage in proprioceptive activities (like lifting hand weights or using a hand gripper) to help lower your nervous system arousal.",
+    "Try to separate the sound from the person; it is the acoustic signal that is the trigger, not the person (e.g., your father) themselves.",
+    "If you feel overwhelmed, it is okay to take a 'break' and retreat to your room until you feel physiologically calm."
+  ],
+  "notes_for_actor": [
+    "Portray a high-achieving, intelligent teenager who is deeply distressed and feels guilty about her anger toward family members.",
+    "Show resistance or skepticism initially regarding mental health professionals due to past negative experiences with CBT/OCD misdiagnosis.",
+    "Express relief when the biological/neurological basis of the condition is explained (validating that you aren't 'crazy')."
+  ]
+}

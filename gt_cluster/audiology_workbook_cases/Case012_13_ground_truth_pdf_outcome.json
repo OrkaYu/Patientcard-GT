@@ -1,0 +1,103 @@
+{
+  "case_id": "Case012_13",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Idiopathic Sudden Sensorineural Hearing Loss (SSNHL)",
+      "rationale_short": "Sudden onset of unilateral sensorineural hearing loss within 72 hours, associated with tinnitus and aural fullness, without dizziness."
+    },
+    {
+      "rank": 2,
+      "label": "Retrocochlear Pathology (e.g., Vestibular Schwannoma)",
+      "rationale_short": "Unilateral SNHL and disproportionately poor word recognition scores (32%) warrant ruling out retrocochlear lesions."
+    },
+    {
+      "rank": 3,
+      "label": "Meniere's Disease",
+      "rationale_short": "Presence of aural fullness, tinnitus, and hearing loss, though the absence of vertigo and the flat configuration (vs rising) make this less likely at initial presentation."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Comprehensive Audiologic Evaluation",
+        "urgency": "urgent",
+        "rationale_short": "To confirm degree, type, and configuration of hearing loss and assess speech understanding."
+      },
+      {
+        "action": "Otolaryngology (ENT) Consultation",
+        "urgency": "urgent",
+        "rationale_short": "SSNHL is a medical emergency requiring prompt evaluation for potential steroid treatment."
+      },
+      {
+        "action": "MRI of Internal Auditory Canals with Contrast",
+        "urgency": "routine",
+        "rationale_short": "Gold standard to rule out retrocochlear pathology (e.g., acoustic neuroma) given unilateral loss and poor speech discrimination."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results indicate a moderate to moderately-severe flat sensorineural hearing loss in the right ear with disproportionately poor speech recognition. The left ear is within normal limits. Middle ear function is normal bilaterally. Findings are consistent with sudden sensorineural hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderate to moderately-severe flat SNHL (PTA 57 dB HL). Left ear: Normal hearing (PTA 5 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 60 dB HL, WRS 32% at 95 dB HL (poor). Left ear: SRT 5 dB HL, WRS 100% at 40 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A (normal) bilaterally."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Waveforms present for the Right ear at 90, 80, and 65 dB nHL; analysis of interpeak latencies required to screen for retrocochlear signs."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Immediate referral to ENT for medical management (e.g., systemic or intratympanic corticosteroids).",
+      "MRI of the internal auditory canals to rule out retrocochlear pathology.",
+      "Serial audiograms to monitor for hearing recovery or deterioration.",
+      "Hearing conservation strategies for the unaffected ear."
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of sudden sensorineural hearing loss and the time-sensitive nature of treatment.",
+      "Discuss the implications of unilateral hearing loss, including difficulty with localization and speech in noise.",
+      "Advise on the importance of the MRI to rule out structural causes on the auditory nerve.",
+      "Set realistic expectations regarding prognosis (rule of thirds: recovery, no change, or progression)."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset hearing loss",
+      "Unilateral sensorineural hearing loss",
+      "Disproportionately poor word recognition scores",
+      "Aural fullness and tinnitus"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngologist (ENT)",
+      "rationale_short": "Sudden SNHL requires treatment initiation ideally within 72 hours to maximize chances of recovery."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2-4 weeks post-treatment initiation",
+    "objective": "Monitor hearing thresholds to assess efficacy of steroid treatment and review MRI findings."
+  },
+  "expected_outcome": [
+    "Hearing may recover partially, fully, or not at all following treatment.",
+    "MRI will confirm or rule out retrocochlear pathology.",
+    "Patient may require amplification (CROS aid or osseointegrated device) if hearing does not recover."
+  ]
+}

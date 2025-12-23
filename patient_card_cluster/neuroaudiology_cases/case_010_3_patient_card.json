@@ -1,0 +1,169 @@
+{
+  "case_id": "case_10_3",
+  "title": "Central Deafness: Bilateral Temporal Lobe Lesions",
+  "demographics": {
+    "age_years": 56,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "Boston, USA"
+  },
+  "chief_complaint": "The patient complains that he cannot hear at all. He reports severely annoying tinnitus localized 'in his head'. He is frustrated by his inability to verbally communicate.",
+  "problem_summary": {
+    "onset": "Sudden onset following a cerebrovascular accident (CVA). Initial symptoms included word-finding problems, followed by stupor and left hemiparesis.",
+    "course": "Patient has been followed for over 8 years. Left-sided paresis resolved within 6 months. Auditory deficits have remained largely status quo, with only transient/inconsistent responses to environmental sounds.",
+    "laterality": "Bilateral subjective deafness; patient subjectively reports left ear is worse than right.",
+    "associated_symptoms": "Fluent but empty language (aphasia), poor auditory comprehension and repetition, neologistic responses, tinnitus.",
+    "functional_impact": "Functionally deaf. Main means of communication is writing. Attentive to visual/tactile stimuli but ignores acoustic stimuli.",
+    "goals_motivation": "Patient becomes frustrated with communication barriers."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Boston Veterans Administration Hospital / Audiology Center",
+      "history": {
+        "present_illness": "56-year-old male suffered sequential or simultaneous bilateral strokes. Initial CT showed left tempo-parietal lesion; subsequent CT showed large right hemispheric stroke involving temporal, parietal, and frontal lobes.",
+        "otologic_history": "History of tinnitus prior to stroke. No active infection.",
+        "noise_exposure_history": "Worked for 35 years in a shipyard as a rigger and pipefitter; exposed to high levels of noise.",
+        "medical_psych_history": "Smoker, alcohol use, history of phlebitis. Family history of stroke from pulmonary emboli.",
+        "prior_management": "Hospitalized for stroke. Informal observations suggested inconsistent responses to environmental sounds.",
+        "patient_goals": "Assessment of total hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Longitudinal (0-8 years post-stroke)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Extreme variability in thresholds over 8 years. Estimates ranged from mild-moderate flat loss, to severe high-frequency sloping loss, to essentially no response. Reliability consistently rated as poor.",
+          "numeric_results": {
+            "Reliability": "Poor",
+            "Estimated_Configuration": "Variable (Mild-Moderate to Profound)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "5 months post-stroke",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech detection levels (SDT) established, but recognition scores could not be obtained as patient could not understand words.",
+          "numeric_results": {
+            "SDT_Right": "10-15 dB HL",
+            "SDT_Left": "30 dB HL",
+            "WRS": "Could not be established"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Post-insult",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Contralateral acoustic reflexes were normal bilaterally.",
+          "numeric_results": {
+            "Reflexes_500_to_4000Hz": "Normal"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Neuroaudiological Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-20"
+          ],
+          "key_findings": "Responses present but slightly low amplitude. Wave V tracked down to elevated thresholds, consistent with peripheral noise-induced loss history. I-V interwave intervals normal.",
+          "numeric_results": {
+            "Threshold_Right": "~40-50 dB nHL",
+            "Threshold_Left": "50 dB nHL",
+            "I-V_Interval": "Normal range"
+          }
+        },
+        {
+          "name": "Middle Latency Response (MLR)",
+          "timepoint_label": "Neuroaudiological Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-21"
+          ],
+          "key_findings": "Recorded at C3 and C4. No repeatable responses observed for either ear. A wave at 15 msec was interpreted as postauricular muscle artifact.",
+          "numeric_results": {
+            "Response": "Absent"
+          }
+        },
+        {
+          "name": "Late Auditory Evoked Potentials",
+          "timepoint_label": "Neuroaudiological Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-22"
+          ],
+          "key_findings": "Using 500 Hz tone pip. Failed to demonstrate repeatable responses.",
+          "numeric_results": {
+            "Response": "Absent"
+          }
+        },
+        {
+          "name": "Radiologic Evaluation (CT)",
+          "timepoint_label": "Post-stroke",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-16",
+            "Figure 10-17",
+            "Figure 10-18",
+            "Figure 10-19"
+          ],
+          "key_findings": "Right Hemisphere: Extensive involvement of posterior frontal lobe, operculum, insula, middle/superior temporal gyri (including Heschl's), and angular gyrus. Left Hemisphere: Patchy low density in temporal lobe, supramarginal gyrus, and parietal lobe. Authors interpret Left Heschl's gyrus as intact.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This is a case of Central Deafness (Cortical Deafness) resulting from bilateral cerebrovascular lesions. The patient demonstrates a classic dissociation between peripheral and central auditory function. Peripheral mechanisms are largely intact (preserved acoustic reflexes, present ABR wave V, though thresholds suggest some underlying noise-induced loss). However, central processing is profoundly disrupted, evidenced by the absence of MLR and Late Potentials (N1/P2) and the inability to recognize speech or consistently respond to tones behaviorally. Notably, the authors suggest the Left Heschl's gyrus may be anatomically intact, raising questions about the necessity of bilateral primary cortex destruction for central deafness.",
+  "counseling_points": [
+    "Explain the diagnosis of 'Central Deafness': the ears are working (sending signals), but the brain cannot process the sound into meaning.",
+    "Discuss that the inconsistency in hearing tests is a symptom of the brain injury, not malingering.",
+    "Highlight that unlike some other cases, recovery has been minimal, likely due to age, extent of lesions, and reduced plasticity.",
+    "Recommend reliance on non-auditory communication strategies (writing, signing, visual cues).",
+    "Note that the tinnitus is likely central in origin."
+  ],
+  "notes_for_actor": [
+    "You are a 56-year-old male, former shipyard worker.",
+    "You cannot understand speech at all. You rely on writing to communicate.",
+    "You are frustrated and may seem depressed.",
+    "You have a loud, monotonous voice.",
+    "You have severe tinnitus 'in your head'.",
+    "You might occasionally turn your head to a sound, but you don't understand it.",
+    "You believe your left ear is worse than your right."
+  ]
+}

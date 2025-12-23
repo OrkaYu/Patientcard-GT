@@ -1,0 +1,101 @@
+{
+  "case_id": "case_6_27",
+  "title": "Bilateral Conductive Hearing Loss with History of Otosurgery",
+  "demographics": {
+    "age_years": 23,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I need to check my hearing again. I have a history of ear surgeries, and the hearing aid I got for my right ear two years ago doesn't fit anymore after my reconstruction surgery.",
+  "problem_summary": {
+    "onset": "Long-standing history.",
+    "course": "Stable; thresholds did not change from the test completed 1 year earlier.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Tympanic membrane perforation (left ear), history of cholesteatoma and ossicular chain reconstruction (right ear).",
+    "functional_impact": "Reduced hearing sensitivity bilaterally; previous hearing aid for the right ear was not used consistently and no longer fits.",
+    "goals_motivation": "Monitor hearing sensitivity and address the fit issue with the right hearing aid."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-04-09",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returns for follow-up monitoring of long-standing bilateral conductive hearing loss.",
+        "otologic_history": "Significant history of ear pathology and otosurgery. Left ear: Tympanic membrane perforation. Right ear: History of cholesteatoma and ossicular chain reconstruction.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Last hearing test June 2014. Fitted with amplification for the right ear ~2 years ago but never consistently used it; device no longer fits due to aural reconstruction.",
+        "patient_goals": "Monitor hearing and discuss amplification options."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.27"
+          ],
+          "key_findings": "Right ear: Flat moderate to moderately severe conductive hearing loss (250-8000 Hz) with a rise to mild at 4000 Hz. Left ear: Flat slight to mild predominantly conductive hearing loss, except for sensorineural loss at 500 Hz.",
+          "numeric_results": {
+            "Right_PTA": "60 dB HL",
+            "Left_PTA": "30 dB HL",
+            "Right_Configuration": "Flat moderate/mod-severe conductive",
+            "Left_Configuration": "Flat slight/mild conductive"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.27"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA bilaterally. Word recognition scores (WRS) reveal normal ability to recognize speech at suprathreshold levels.",
+          "numeric_results": {
+            "Right_SRT": "57 dB HL",
+            "Right_WRS": "92%",
+            "Left_SRT": "25 dB HL",
+            "Left_WRS": "94%"
+          }
+        },
+        {
+          "name": "Tympanometry / Immittance",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not measured due to the surgical history.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a stable bilateral conductive hearing loss, significantly worse in the right ear (moderate to moderately severe) compared to the left (slight to mild). The conductive nature is consistent with the history of ossicular reconstruction (Right) and TM perforation (Left). Speech understanding remains excellent in both ears when speech is made loud enough to overcome the conductive component.",
+  "counseling_points": [
+    "Your hearing test results are stable and have not changed since your last test a year ago.",
+    "Because of the structural changes in your ears (the perforation on the left and reconstruction on the right), the hearing loss is 'conductive,' meaning the inner ear nerve is working well, but sound isn't getting to it efficiently.",
+    "Since your old hearing aid for the right ear no longer fits, we should schedule a hearing aid evaluation to look at new options that will fit your ear's current shape.",
+    "It is important to continue following up with your physician regarding the health of your ears.",
+    "Remember to use hearing protection when exposed to loud noise to protect your inner ear hearing."
+  ],
+  "notes_for_actor": [
+    "You are a young adult (23) who has dealt with ear issues for a long time.",
+    "You are not surprised by the hearing loss but are frustrated that your expensive hearing aid doesn't fit anymore.",
+    "You might be hesitant about hearing aids because you didn't use the last one much, but you acknowledge you need to hear better."
+  ]
+}

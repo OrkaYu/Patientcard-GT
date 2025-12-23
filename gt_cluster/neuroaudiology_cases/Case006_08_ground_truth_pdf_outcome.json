@@ -1,0 +1,95 @@
+{
+  "case_id": "Case006_08",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder (secondary to CVA)",
+      "rationale_short": "Normal peripheral hearing sensitivity but significant deficits in dichotic digits, duration patterns, and P300 latency/amplitude, consistent with the confirmed left hemisphere ischemic infarct."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Radiologic Findings (CT)",
+        "urgency": "routine",
+        "rationale_short": "Review of reports to confirm lesion site and extent."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition in quiet."
+      },
+      {
+        "action": "Central Auditory Processing Evaluation",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory function given complaints of difficulty in noise."
+      },
+      {
+        "action": "Late Latency Response (P300)",
+        "urgency": "routine",
+        "rationale_short": "Electrophysiologic assessment of central auditory processing."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates normal peripheral hearing sensitivity and excellent speech recognition in quiet. However, central auditory testing reveals significant bilateral deficits, particularly in dichotic listening (worse in the left ear) and temporal patterning. Electrophysiologic testing (P300) corroborates central involvement with delayed latencies and reduced amplitudes, showing a contralateral ear effect consistent with the left hemisphere lesion.",
+        "tests": [
+          {
+            "name": "Radiologic Findings (CT)",
+            "category": "Imaging",
+            "result_summary": "Report indicated a large ischemic infarct involving the left basal ganglia and extending towards the left fronto-parietal region."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally; thresholds 10 dB HL or better across all frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent speech recognition scores (100%) bilaterally."
+          },
+          {
+            "name": "Central Auditory Processing Evaluation",
+            "category": "Behavioral Central Testing",
+            "result_summary": "Dichotic digits abnormal bilaterally (Left < Right); Duration patterns abnormal bilaterally (~30-40%); Competing sentences within normal range."
+          },
+          {
+            "name": "Late Latency Response (P300)",
+            "category": "Electrophysiology",
+            "result_summary": "N1 and P2 normal. P300 delayed and reduced for right ear stimulation (contralateral to lesion); left ear P300 amplitude reduced and latency not within normal range."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Communication strategies for noisy environments",
+      "Continued audiological monitoring of function"
+    ],
+    "counseling_actions": [
+      "Explain that difficulty hearing in noise is related to the brain injury (central processing), not the ears",
+      "Discuss the potential for neural plasticity and improvement given the patient's young age"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient is stable post-stroke; routine monitoring of auditory function is recommended."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor for potential improvement in central auditory function due to neural plasticity."
+  },
+  "expected_outcome": []
+}

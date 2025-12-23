@@ -1,0 +1,194 @@
+{
+  "case_id": "case_54",
+  "title": "Jack: Noise-Induced Hearing Loss: A Work-Related Investigation",
+  "demographics": {
+    "age_years": 58,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "Colorado, USA"
+  },
+  "chief_complaint": "I have been having trouble communicating for the past several years, especially in noisy places like meetings or on the phone. I noticed my hearing getting worse gradually. At work, I had to make a choice, my ears or my eyes, and I chose my eyes.",
+  "problem_summary": {
+    "onset": "Gradual onset over approximately 32 years of employment.",
+    "course": "Progressive decline, documented by sporadic workplace monitoring since 1971.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Bilateral mild tinnitus described as 'annoying in quiet'.",
+    "functional_impact": "Difficulty understanding speech in noise, meetings, and on the telephone. Family complains about hearing ability at home and socially.",
+    "goals_motivation": "Seeking workers' compensation determination and assistance with communication."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2003-03-01",
+      "setting": "Occupational Audiology Clinic",
+      "history": {
+        "present_illness": "58-year-old male evaluated for workers' compensation claim. Reports gradual bilateral hearing loss and mild tinnitus. Denies fluctuation, drainage, or vertigo.",
+        "otologic_history": "Negative for ear pain, drainage, fullness, or surgeries. History of childhood mumps and measles.",
+        "noise_exposure_history": "USAF (1967-69) jet engine exposure. Manufacturing/Construction (1971-2003) involving jackhammers, grinders, and welding. Intermittent HPD use; often prioritized face shields over earmuffs due to incompatibility. Recreational exposure to firearms (hunting) and power tools.",
+        "medical_psych_history": "Smoker (30 years). Negative for diabetes, kidney disease, or head injury.",
+        "prior_management": "Sporadic workplace screenings (1971, 1979, 1984) showed progressive loss but no intervention was taken. Never wore hearing aids."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Diagnostic Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 54-1",
+            "Figure 54-2"
+          ],
+          "key_findings": "Bilateral normal hearing in the low frequencies sloping to severe high-frequency sensorineural hearing loss. A 'noise notch' configuration is evident, though eroding into a slope due to age/progression. Significant threshold shift (STS) confirmed compared to 1971 baseline.",
+          "numeric_results": {
+            "Left_Ear_Thresholds_Hz_dBHL": "500:20, 1000:30, 2000:55, 3000:80, 4000:75, 6000:70, 8000:50",
+            "Right_Ear_Thresholds_Hz_dBHL": "500:15, 1000:45, 2000:60, 3000:70, 4000:65, 6000:65, 8000:45",
+            "Left_STS_Status": "Third STS-A confirmed",
+            "Right_STS_Status": "Third STS-A confirmed"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Diagnostic Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech reception thresholds consistent with pure tone averages. Word recognition scores are good bilaterally at elevated presentation levels.",
+          "numeric_results": {
+            "Left_SRT": "20 dB HL",
+            "Right_SRT": "30 dB HL",
+            "Left_WRS": "80% at 50 dB HL",
+            "Right_WRS": "80% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Diagnostic Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Tympanogram_Type": "Type A",
+            "Static_Admittance": "Normal"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Diagnostic Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present at expected sensation levels for 500-2000 Hz; absent at 4000 Hz consistent with hearing loss.",
+          "numeric_results": {
+            "4000Hz_Reflex": "Absent"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAE)",
+          "timepoint_label": "Diagnostic Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Consistent with cochlear pathology in high frequencies.",
+          "numeric_results": {
+            "1000Hz": "Marginally present (4 dB SNR)",
+            "2000_to_6000Hz": "Absent"
+          }
+        },
+        {
+          "name": "Hearing Protection Fit Check",
+          "timepoint_label": "Diagnostic Evaluation",
+          "ear": "bilateral",
+          "condition": "aided (HPD)",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Sound field thresholds measured with and without foam earplugs (NRR 33). Visual inspection showed good insertion. Attenuation was adequate.",
+          "numeric_results": {
+            "Attenuation_250_500Hz": "15 dB",
+            "Attenuation_1000Hz": "25 dB",
+            "Attenuation_2000_3000Hz": "30 dB",
+            "Attenuation_4000_8000Hz": "40 dB"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2003-04-01",
+      "setting": "ENT Clinic",
+      "history": {
+        "present_illness": "Referral for medical evaluation of progressive SNHL and determination of work-relatedness.",
+        "medical_psych_history": "History of surgeries (hand, shoulder, stomach). Smoker's pharyngitis noted."
+      },
+      "tests": [
+        {
+          "name": "Physical Exam and Labs",
+          "timepoint_label": "Medical Workup",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal otoscopy. Labs (CBC, sedrate, TSH, T4, FTA-ABS) normal, ruling out systemic causes. Diagnosis: Bilateral SNHL secondary to noise exposure (95% attributed to workplace).",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2003-07-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Hearing aid fitting following workers' compensation settlement.",
+        "patient_goals": "Improve communication with granddaughter and in meetings."
+      },
+      "tests": [
+        {
+          "name": "Hearing Aid Fitting",
+          "timepoint_label": "Treatment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Binaural programmable hearing aids dispensed. Patient reported excellent subjective benefit and full-time use, though he removes them to use earplugs at work.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, symmetric, sensorineural hearing loss that is normal in the low frequencies and slopes precipitously to a severe degree in the high frequencies. The configuration shows a characteristic 'noise notch' pattern that has widened over time, consistent with long-term noise exposure. Speech recognition is good in quiet but likely significantly degraded in noise due to the loss of high-frequency cues. There is no evidence of retrocochlear pathology or functional hearing loss.",
+  "counseling_points": [
+    "Your hearing loss is permanent and directly related to the loud noise exposure over your career.",
+    "It is critical that you continue to wear hearing protection at work and when shooting firearms to prevent further damage.",
+    "Hearing aids will help you hear high-pitched sounds like speech consonants, making it easier to understand conversations, especially with your granddaughter.",
+    "While hearing aids improve audibility, they do not restore normal hearing; you may still face challenges in very noisy environments.",
+    "We will schedule annual hearing tests to monitor for any further changes."
+  ],
+  "notes_for_actor": [
+    "You are a hardworking, blue-collar maintenance man. You are not looking for a 'free ride' but you want the company to acknowledge the safety gaps.",
+    "When discussing the lack of earplugs, express frustration but resignation: you had to wear a face shield for safety, and the earmuffs didn't fit with it, so you chose to protect your eyes.",
+    "You are cooperative with testing and honest about your hunting history.",
+    "You are motivated to hear your family better, specifically your granddaughter."
+  ]
+}

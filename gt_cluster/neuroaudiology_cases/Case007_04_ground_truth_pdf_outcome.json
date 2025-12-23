@@ -1,0 +1,102 @@
+{
+  "case_id": "Case007_04",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder",
+      "rationale_short": "Marked left ear deficits on dichotic tests and filtered speech, and bilateral deficits on frequency patterns, consistent with a right hemisphere lesion (frontal lobe abscess) affecting central auditory pathways."
+    },
+    {
+      "rank": 2,
+      "label": "Mild Sensorineural Hearing Loss",
+      "rationale_short": "Bilateral mild hearing loss (20-35 dB HL) with excellent word recognition, stable across visits, which does not account for the patient's significant processing complaints."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "soon",
+        "rationale_short": "To evaluate peripheral hearing sensitivity given the complaint of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "soon",
+        "rationale_short": "To assess word recognition abilities and check for retrocochlear signs."
+      },
+      {
+        "action": "Central Auditory Processing Battery",
+        "urgency": "soon",
+        "rationale_short": "To evaluate central auditory function given the known brain lesion and complaints disproportionate to peripheral findings."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral testing revealed mild bilateral hearing loss with excellent speech recognition, which did not explain the patient's difficulty. Central testing showed severe left ear deficits on dichotic tasks and filtered speech, and bilateral deficits on frequency patterns, consistent with a right hemisphere lesion compressing auditory areas.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral",
+            "result_summary": "Mild hearing loss bilaterally; thresholds 20-35 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Peripheral",
+            "result_summary": "Excellent word recognition scores (RE 100%, LE 96%)."
+          },
+          {
+            "name": "Central Auditory Processing Battery",
+            "category": "Central",
+            "result_summary": "Marked LE deficits on SSW (~20%), Dichotic Digits (0%), NU#20 (0%), and LPFS (~40%). Bilateral deficit on Frequency Patterns (0%)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up testing after abscess resolution showed stable peripheral hearing. Central auditory tests demonstrated marked improvement, with practically all scores returning to normal limits, confirming the reversible nature of the central deficit due to the abscess.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral",
+            "result_summary": "Essentially unchanged from initial evaluation (mild hearing loss)."
+          },
+          {
+            "name": "Central Auditory Processing Battery",
+            "category": "Central",
+            "result_summary": "Marked improvement; SSW, Dichotic Digits, NU#20, LPFS, and Frequency Patterns all within normal ranges (>70-90%) bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor auditory function during medical treatment"
+    ],
+    "counseling_actions": [
+      "Explain that the hearing difficulty is due to brain processing (central) rather than the ear itself",
+      "Discuss the correlation between the abscess and the auditory deficits",
+      "Explain that the mild peripheral hearing loss is stable and not the cause of the processing difficulties"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Right frontal lobe abscess",
+      "Central auditory deficits"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurosurgery",
+      "rationale_short": "To report audiological findings that confirm central involvement and to monitor recovery alongside medical treatment."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3 months",
+    "objective": "Re-evaluation of auditory function after resolution of the abscess."
+  },
+  "expected_outcome": [
+    "Central Auditory Processing Battery: Practically all test scores improved to within normal ranges bilaterally.",
+    "Patient did well and resumed her regular activities."
+  ]
+}

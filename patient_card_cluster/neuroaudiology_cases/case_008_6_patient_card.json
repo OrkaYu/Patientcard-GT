@@ -1,0 +1,128 @@
+{
+  "case_id": "case_8_6",
+  "title": "Left Temporal-Parietal Astrocytoma with Corpus Callosum Compromise",
+  "demographics": {
+    "age_years": null,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have some subtle difficulties with hearing, though I generally do well in everyday situations. My main medical issues are seizures and problems with my left hand.",
+  "problem_summary": {
+    "onset": "Patient suffered initial seizure at age 11; diagnosis made 2.5 years later.",
+    "course": "Stable condition; lesion considered inoperable and followed for many years.",
+    "laterality": "Left brain lesion (temporal-parietal) affecting auditory cortex and corpus callosum.",
+    "associated_symptoms": "Seizures (absence, dysarthria, major motor), retro-orbital/parietal headaches, paresthesias of left hand/foot, 'alien hand' syndrome.",
+    "functional_impact": "Subtle subjective auditory difficulties; electively does not drive due to syndrome.",
+    "goals_motivation": "Monitoring of stable condition."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic / Research",
+      "history": {
+        "present_illness": "Patient diagnosed with left temporal-parietal astrocytoma via stereotaxic biopsy 2.5 years after initial seizure symptoms at age 11. Lesion involves cortex and a large subcortical region infringing on the left lateral ventricle.",
+        "otologic_history": "None reported other than central findings.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "History of three types of seizures: absence, dysarthria/lip smacking with postictal aphasia, and major motor seizures. EEGs showed diffuse slow wave activity, left > right.",
+        "prior_management": "Lesion deemed inoperable; followed longitudinally.",
+        "patient_goals": "Assessment of auditory function related to neurological status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-17"
+          ],
+          "key_findings": "Normal thresholds bilaterally from 250-4000 Hz, with mild high-frequency depression at 8000 Hz.",
+          "numeric_results": {
+            "RE_250_4k": "0-15 dB HL",
+            "LE_250_4k": "0-15 dB HL",
+            "RE_8k": "~35 dB HL",
+            "LE_8k": "~40 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-17"
+          ],
+          "key_findings": "Excellent word recognition scores bilaterally.",
+          "numeric_results": {
+            "RE_WRS": "90%",
+            "LE_WRS": "90%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-18"
+          ],
+          "key_findings": "Central behavioral battery. Low Pass Filtered Speech (LPFS) was abnormal only in the Right Ear (contralateral to lesion). All dichotic tests (SSW, Competing Sentences, Dichotic Digits) and Frequency Patterns showed bilateral deficits.",
+          "numeric_results": {
+            "LPFS_RE": "~60% (Abnormal)",
+            "LPFS_LE": "~85-90% (Normal)",
+            "C-SSW_RE": "~60% (Abnormal)",
+            "C-SSW_LE": "~35-40% (Abnormal)",
+            "Comp_Sent_RE": "~55%",
+            "Comp_Sent_LE": "~35%",
+            "Dichotic_Digits_RE": "~70%",
+            "Dichotic_Digits_LE": "~45%",
+            "Freq_Patterns_RE": "~10%",
+            "Freq_Patterns_LE": "~5%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-19"
+          ],
+          "key_findings": "Auditory Evoked Potentials (P300). Waveforms were noisy. P300 showed bilaterally extended peaks for both recording sites (C3, C4) and ears.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This patient presents with a left temporal-parietal astrocytoma. Peripheral hearing is essentially normal. Central testing reveals a distinct pattern: 1) Right ear deficits on Low Pass Filtered Speech (contralateral ear effect due to left auditory cortex involvement). 2) Bilateral deficits on dichotic tasks. The Right ear dichotic deficit is attributed to the left hemisphere lesion (contralateral effect), while the Left ear dichotic deficit is attributed to corpus callosum compromise (preventing transfer of the signal from the intact right hemisphere to the left hemisphere for verbal report). 3) Bilateral deficits on Frequency Patterns, requiring interhemispheric transfer.",
+  "counseling_points": [
+    "Explain that difficulty hearing in noise or with competing speech is expected due to how the brain processes sound, despite normal hearing on the standard beep test.",
+    "Discuss the 'alien hand syndrome' as consistent with the neurological findings.",
+    "Highlight that the stability of the auditory findings correlates with the stability of the lesion.",
+    "Recommend communication strategies to reduce background noise and competing messages."
+  ],
+  "notes_for_actor": [
+    "Patient is male (onset age 11, now adult).",
+    "Patient has 'alien hand syndrome' (involuntary movement of the hand), which may be a subtle physical trait to enact.",
+    "Patient does not drive.",
+    "Patient is generally functioning well despite the inoperable brain lesion."
+  ]
+}

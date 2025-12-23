@@ -1,0 +1,128 @@
+{
+  "case_id": "case_4_1",
+  "title": "Difficulty Hearing in Noise with History of Meningitis",
+  "demographics": {
+    "age_years": 27,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been having trouble hearing in noise for many years, especially in social settings and restaurants. It is particularly difficult at work in the emergency room when people are speaking through face masks.",
+  "problem_summary": {
+    "onset": "Noticed difficulty starting around age 16, following a bout of meningitis.",
+    "course": "Stable but persistent for many years.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "History of meningitis. Denies dizziness, tinnitus, pain, pressure, or fullness.",
+    "functional_impact": "Difficulty performing tasks as a resident physician in the ER due to background noise and masks; needs higher TV volume; social withdrawal in noisy places.",
+    "goals_motivation": "Wants to understand why she struggles despite others telling her she might have hearing loss, and needs to function better at work."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-06-08",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports difficulty hearing in noise (ER, restaurants) and with masks. Others have commented on her hearing. Needs TV volume up.",
+        "otologic_history": "Denied pain, pressure, fullness, dizziness, or tinnitus.",
+        "noise_exposure_history": "Denied loud noise exposure.",
+        "medical_psych_history": "Meningitis at age 16.",
+        "prior_management": "None specified, though others have suggested she has hearing loss.",
+        "patient_goals": "Evaluation of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 4.1"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. Air and bone conduction thresholds are within normal limits (0-20 dB HL) across all frequencies.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "10-20 dB HL range (250-8000 Hz)",
+            "Left_AC_Thresholds": "10-20 dB HL range (250-8000 Hz)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 4.1"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) are in agreement with pure tone averages. Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "Right_SRT": "15 dB",
+            "Right_WRS": "100% at 60 dB HL",
+            "Left_SRT": "15 dB",
+            "Left_WRS": "100% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 4.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A tympanograms).",
+          "numeric_results": {
+            "Right_Vol": "1.0 mL",
+            "Right_Ytm": "0.8 mmho",
+            "Right_TPP": "10 daPa",
+            "Left_Vol": "1.1 mL",
+            "Left_Ytm": "0.4 mmho",
+            "Left_TPP": "-25 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 4.1"
+          ],
+          "key_findings": "Normal ipsilateral and contralateral acoustic reflexes present from 500 to 4,000 Hz. Reflex decay was negative.",
+          "numeric_results": {
+            "Reflex_Thresholds": "Range 80-100 dB HL across frequencies and conditions."
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity bilaterally, excellent speech recognition in quiet, and normal middle ear function. However, subjective complaints of difficulty hearing in noise and a history of meningitis suggest a deficit not captured by the standard audiogram.",
+  "counseling_points": [
+    "Your standard hearing test results today indicate that your ability to hear soft sounds (sensitivity) is completely normal in both ears.",
+    "However, your difficulty hearing in background noise, especially given your history of meningitis, is a very real concern.",
+    "This pattern often suggests a Central Auditory Processing Disorder (CAPD), where the brain has trouble separating speech from background noise, even though the ears are detecting the sound correctly.",
+    "We recommend further specialized testing to evaluate for CAPD.",
+    "We also recommend an evaluation for Hearing Assistive Technology (HAT) to help you specifically in the emergency room environment."
+  ],
+  "notes_for_actor": [
+    "You are a 27-year-old resident physician. You are intelligent and high-functioning but frustrated.",
+    "You struggle significantly in the ER, especially when colleagues wear masks. This makes you worry about your performance at work.",
+    "You had meningitis at age 16; you believe this is when the problem started.",
+    "You do not have tinnitus or dizziness.",
+    "If the audiologist tells you your hearing is 'normal', express confusion because your daily experience is that you struggle to hear."
+  ]
+}

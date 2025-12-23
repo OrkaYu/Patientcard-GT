@@ -1,0 +1,189 @@
+{
+  "case_id": "case30_A_Case_of_Definite_Meniere_s_Disease_Uni",
+  "title": "A Case of “Definite” Meniere’s Disease: Unilaterally Abnormal Caloric Test with Bilaterally Normal Video Head Impulse Testing Test",
+  "demographics": {
+    "age_years": 28,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been suffering from long-standing dizziness and headaches. I get episodes of spinning vertigo that last 8 to 10 hours, and during these spells, I have ringing, fullness, and my hearing fluctuates in my left ear.",
+  "problem_summary": {
+    "onset": "Long-standing history.",
+    "course": "Episodic and fluctuating; vertigo spells last 8-10 hours.",
+    "laterality": "Left ear symptoms (hearing loss, tinnitus, fullness); headaches.",
+    "associated_symptoms": "Tinnitus, aural fullness, headaches with visual aura, photophobia, and phonophobia.",
+    "functional_impact": "Disequilibrium and severe vertigo episodes.",
+    "goals_motivation": "Diagnosis and management of disequilibrium and headaches."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-04-23",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports vertigo episodes lasting 8-10 hours accompanied by left-sided cochlear symptoms (tinnitus, fullness, fluctuating hearing loss). Also reports migraines with visual aura, photophobia, and phonophobia.",
+        "otologic_history": "Previous MRI was normal. Prior audiogram showed normal hearing in the right ear and moderate-to-severe fluctuating SNHL in the left ear.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "History of headaches (migrainous features).",
+        "prior_management": "MRI completed (normal). Consultation with otology.",
+        "patient_goals": "Evaluation of disequilibrium."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 30.1"
+          ],
+          "key_findings": "Right ear hearing is within normal limits. Left ear shows a moderate to severe, slightly rising fluctuating sensorineural hearing loss (SNHL) from 250-4000 Hz, falling at 6000-8000 Hz.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "< 15 dB HL across all frequencies",
+            "Left_AC_Thresholds": "Approx 50-65 dB HL in lows, rising to 30-35 dB HL at 2k-3k Hz, dropping to 70 dB HL at 8k Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 30.1"
+          ],
+          "key_findings": "Normal speech recognition threshold (SRT) and word recognition scores (WRS) in the right ear. Moderate SRT loss and very poor WRS in the left ear.",
+          "numeric_results": {
+            "Right_SRT": "5 dB HL",
+            "Right_WRS": "100%",
+            "Left_SRT": "65 dB HL",
+            "Left_WRS": "8%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 30.1"
+          ],
+          "key_findings": "Normal ear canal volume, static compliance, and middle ear pressure bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Volume": "0.70 mL",
+            "Left_Volume": "1.20 mL",
+            "Right_Static_Admittance": "0.50 mL",
+            "Left_Static_Admittance": "0.50 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Full threshold search could not be completed due to seal issues. Ipsilateral screening at 1,000 Hz was absent bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Videonystagmography (VNG) / Caloric Testing",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 30.2"
+          ],
+          "key_findings": "Ocular motility and static/dynamic positioning were normal. Bithermal calorics revealed a clinically significant unilateral weakness on the left side.",
+          "numeric_results": {
+            "Unilateral_Weakness": "42% (Left)",
+            "Directional_Preponderance": "15%"
+          }
+        },
+        {
+          "name": "Rotary Chair (SHA)",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 30.3"
+          ],
+          "key_findings": "Normal phase, gain, and symmetry at most frequencies (0.02-0.32 Hz). Isolated phase lead observed at 0.01 Hz. Consistent with a compensated unilateral peripheral vestibular impairment.",
+          "numeric_results": {
+            "Phase_Lead": "Present at 0.01 Hz"
+          }
+        },
+        {
+          "name": "VEMP (cVEMP and oVEMP)",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 30.4",
+            "Figure 30.5"
+          ],
+          "key_findings": "Normal symmetrical responses for both cVEMP and oVEMP bilaterally, indicating normal function of the saccules, utricles, and vestibular nerves.",
+          "numeric_results": {
+            "Left_cVEMP_Amp": "508.63 μV",
+            "Right_cVEMP_Amp": "468.34 μV",
+            "Left_oVEMP_Amp": "3.14 μV",
+            "Right_oVEMP_Amp": "3.60 μV"
+          }
+        },
+        {
+          "name": "Video Head Impulse Test (vHIT)",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 30.6"
+          ],
+          "key_findings": "Normal VOR gains for left and right lateral canals. No overt or covert saccades were noted.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a left moderate-to-severe fluctuating sensorineural hearing loss and very poor word recognition (8%), consistent with cochlear pathology. Vestibular testing reveals a dissociation between low-frequency and high-frequency vestibular function: caloric testing (low frequency) shows a significant 42% left unilateral weakness, while vHIT (high frequency) is normal. This pattern, along with the phase lead on rotary chair and normal VEMPs, is consistent with 'definite' Meniere's disease affecting the low-frequency spectrum of the peripheral vestibular system.",
+  "counseling_points": [
+    "Your hearing test confirms a hearing loss in the left ear that matches your report of fluctuation, and the clarity of speech in that ear is significantly reduced.",
+    "The balance testing shows a weakness in the left inner ear's balance system, specifically in the lower frequency range (detected by the water test), while the higher frequency range (head impulse test) remains normal.",
+    "This pattern of results—hearing loss combined with specific balance test findings—is consistent with Meniere's disease.",
+    "The rotary chair test indicates that your brain has 'compensated' or adjusted well to this weakness in a static state, which explains why you may feel okay between attacks."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated by the unpredictability of the vertigo attacks.",
+    "Emphasize the severity of the 'bad days' (8-10 hours of vertigo is debilitating).",
+    "Mention the migraine symptoms (light/sound sensitivity) clearly as they are a key part of the history."
+  ]
+}

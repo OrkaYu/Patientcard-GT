@@ -1,0 +1,118 @@
+{
+  "case_id": "Case050",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Hyperacusis",
+      "rationale_short": "Primary complaint of severe sensitivity to loud sounds; significantly reduced Loudness Discomfort Levels (LDLs)."
+    },
+    {
+      "rank": 2,
+      "label": "Tinnitus",
+      "rationale_short": "Continuous bilateral ringing, worse on the left, matched to broadband speech noise."
+    },
+    {
+      "rank": 3,
+      "label": "Noise-Induced Hearing Loss / Acoustic Trauma",
+      "rationale_short": "History of motor vehicle accident with airbag deployment impacting the left side."
+    },
+    {
+      "rank": 4,
+      "label": "Mixed Hearing Loss (Left Ear)",
+      "rationale_short": "Flat moderate-to-moderately severe loss with air-bone gaps; patent PE tube present."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given reports of hearing loss and trauma."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech recognition abilities in each ear."
+      },
+      {
+        "action": "Immittance",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and PE tube patency."
+      },
+      {
+        "action": "Tinnitus/Hyperacusis Battery",
+        "urgency": "routine",
+        "rationale_short": "To characterize tinnitus (pitch/loudness) and measure tolerance levels (LDLs) for hyperacusis."
+      },
+      {
+        "action": "Real Ear Measures (REM) & Fitting",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid output and customize sound therapy spectrum."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry revealed asymmetric hearing loss consistent with acoustic trauma: right precipitous high-frequency SNHL and left flat mixed loss with a patent PE tube. The patient exhibited severe hyperacusis with reduced LDLs and bilateral tinnitus. Tinnitus pitch matching identified broadband noise as the most similar sound, and residual inhibition was positive. Hearing aids were fitted and verified with REM, including a custom 'box fan' program for sound therapy.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right: Normal 250-1000 Hz, precipitous drop to moderately severe SNHL 1.5-8 kHz. Left: Flat moderate to moderately severe mixed loss (50-60 dB HL) with significant air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right WRS 84% (slight difficulty); Left WRS 68% (moderate difficulty). SRTs agreed with PTAs."
+          },
+          {
+            "name": "Immittance",
+            "category": "Middle Ear",
+            "result_summary": "Right: Normal volume, negative pressure (Type C). Left: Large physical volume (3.3 mL) indicating patent PE tube, unmeasurable admittance."
+          },
+          {
+            "name": "Tinnitus/Hyperacusis Battery",
+            "category": "Specialized",
+            "result_summary": "Pitch match ~1000 Hz (broadband speech noise best); MML 30 dB HL (R) / 64 dB HL (L); Residual inhibition positive (80% reduction); LDLs reduced (70-95 dB HL)."
+          },
+          {
+            "name": "Real Ear Measures (REM) & Fitting",
+            "category": "Verification",
+            "result_summary": "Verified Phonak Audeo Q70 RICs to DSL 5.0a targets. Program 3 customized to mimic 'Box Fan' spectrum (broadband energy 500-1000 Hz)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral Phonak Audeo Q70 RIC hearing aids (Right open dome, Left closed power dome).",
+      "Real Ear Measures (REM) verification to DSL 5.0a targets.",
+      "Sound therapy programming: Program 1 (amplification only), Program 2 (default noise), Program 3 (custom 'Box Fan' noise).",
+      "Gradual desensitization protocol."
+    ],
+    "counseling_actions": [
+      "Explain that constant earplug use can increase central auditory sensitivity and worsen hyperacusis.",
+      "Advise to gradually reduce reliance on foam earplugs.",
+      "Discuss the goal of sound therapy: to desensitize the auditory system so therapy sound is no longer needed.",
+      "Counsel on the use of the custom 'box fan' program for relief."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology follow-up",
+      "rationale_short": "Ongoing management of tinnitus and hyperacusis with amplification and sound therapy."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Two follow-up visits shortly after fitting; long-term follow-up at 1 year.",
+    "objective": "Monitor benefit of sound therapy, fine-tune the 'box fan' noise spectrum, and track reduction in earplug use."
+  },
+  "expected_outcome": [
+    "Patient reported Program 3 (hearing aid plus low-frequency emphasis 'box fan' noise) was the most beneficial for tinnitus/hyperacusis relief.",
+    "Reported reduced use of foam earplugs approximately 1 year after fitting.",
+    "Decreased reliance on tinnitus sound therapy over time; prefers hearing instrument-only sound (Program 1) after 1 year."
+  ]
+}

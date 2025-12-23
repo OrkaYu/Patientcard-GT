@@ -1,0 +1,111 @@
+{
+  "case_id": "case_7_8",
+  "title": "Bilateral Mixed Hearing Loss with History of SSNHL and Chronic Otitis Media",
+  "demographics": {
+    "age_years": 67,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've noticed my hearing has decreased in my left ear since my last test about a year ago. I also have constant ringing in both ears.",
+  "problem_summary": {
+    "onset": "Decreased hearing in left ear noted over the last year; Right ear hearing loss was sudden (SSNHL) in the past.",
+    "course": "Right ear loss did not improve with prior intratympanic steroid injections. Left ear has recently worsened.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Constant bilateral tinnitus; history of chronic otitis media and Eustachian tube dysfunction.",
+    "functional_impact": "Decreased ability to receive speech, particularly in the right ear.",
+    "goals_motivation": "Monitoring hearing status and managing chronic middle ear issues."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-03-31",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports decreased hearing in the left ear since last test ~1 year ago. Reports constant bilateral tinnitus.",
+        "otologic_history": "History of Sudden Sensorineural Hearing Loss (SSNHL) in the Right Ear (failed steroid treatment). History of chronic otitis media and Eustachian tube dysfunction bilaterally. History of bilateral PE tubes; tube still present in the Left Ear.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Intratympanic dexamethasone injections for Right Ear SSNHL (unsuccessful). PE tubes bilaterally.",
+        "patient_goals": "Evaluation of current hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.8"
+          ],
+          "key_findings": "Right Ear: Mild mixed loss (250-500 Hz) sloping to severe mixed loss at 8000 Hz. Left Ear: Mild-to-moderate mixed loss (250-2000 Hz), rising to mild mixed (3000-4000 Hz), sloping to moderate-to-severe (6000-8000 Hz). Significant air-bone gaps present bilaterally.",
+          "numeric_results": {
+            "RE_PTA": "60 dB HL",
+            "LE_PTA": "50 dB HL",
+            "RE_AC_Thresholds": "Range ~35 dB to 90 dB",
+            "LE_AC_Thresholds": "Range ~35 dB to 65 dB",
+            "Masking_Note": "Could not mask bone conduction thresholds at 1, 2, 3, and 4 kHz due to magnitude of hearing loss in non-test ear."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.8"
+          ],
+          "key_findings": "SRT scores in agreement with PTA bilaterally. Right ear shows moderate difficulty in speech recognition (62%). Left ear shows normal ability to recognize speech (96%) at suprathreshold levels.",
+          "numeric_results": {
+            "RE_SRT": "60 dB",
+            "LE_SRT": "47 dB",
+            "RE_WRS": "62% @ 90 dB HL",
+            "LE_WRS": "96% @ 80 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.8"
+          ],
+          "key_findings": "Abnormally large ear canal volumes bilaterally, consistent with perforation or patent PE tubes. Right ear shows excessive negative pressure despite large volume. Left ear is flat (Type B).",
+          "numeric_results": {
+            "RE_Vol": "5.6 mL",
+            "RE_Pressure": "-270 daPa",
+            "LE_Vol": "3.3 mL",
+            "LE_Pressure": "NP (Type B)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral mixed hearing loss. The right ear exhibits a moderate-to-severe mixed loss with reduced speech discrimination (62%), likely sequelae of prior SSNHL and chronic middle ear disease. The left ear shows a mild-to-moderate mixed loss with excellent speech discrimination (96%). Tympanometry reveals large ear canal volumes bilaterally, consistent with the history of PE tubes and tympanic membrane perforations.",
+  "counseling_points": [
+    "Explain the 'mixed' nature of the hearing loss: a combination of permanent nerve damage (sensorineural) and mechanical issues (conductive/middle ear).",
+    "Discuss the status of the PE tubes/eardrums: The large volumes confirm the tube in the left ear is open or there is a perforation, and the right ear also shows signs of perforation/patency.",
+    "Emphasize water precautions: Keep ears dry to prevent infection due to open pathway to the middle ear.",
+    "Recommend a hearing aid evaluation, noting that the left ear is a good candidate due to high speech clarity scores.",
+    "Advise on hearing protection in noisy environments to preserve remaining hearing."
+  ],
+  "notes_for_actor": [
+    "You are a 67-year-old female.",
+    "You have a long history of ear infections and tubes.",
+    "You are likely frustrated that your 'good ear' (the left one) is now getting worse.",
+    "You have constant ringing (tinnitus) in both ears which may be annoying or distracting."
+  ]
+}

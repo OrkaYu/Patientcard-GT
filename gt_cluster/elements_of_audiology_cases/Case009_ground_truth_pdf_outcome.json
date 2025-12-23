@@ -1,0 +1,114 @@
+{
+  "case_id": "Case009",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acoustic neuroma (right side)",
+      "rationale_short": "Unilateral progressive SNHL, extremely poor speech recognition (6%), absent reflexes, abnormal ABR, significant tone decay, and present TEOAEs indicate a retrocochlear lesion."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To establish hearing thresholds and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities; critical for identifying retrocochlear pathology."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc; absence can indicate retrocochlear pathology."
+      },
+      {
+        "action": "Tone-decay test",
+        "urgency": "routine",
+        "rationale_short": "To screen for auditory fatigue characteristic of neural lesions."
+      },
+      {
+        "action": "TEOAE (Transient Evoked Otoacoustic Emissions)",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function; presence with SNHL suggests neural etiology."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate neural synchrony and latency; highly sensitive to retrocochlear lesions."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a moderate right sensorineural hearing loss and normal left hearing. Findings are strongly indicative of a right retrocochlear lesion (e.g., acoustic neuroma), evidenced by critically poor speech recognition (6%), absent acoustic reflexes, significant tone decay, abnormal ABR latencies, and preserved TEOAEs.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Moderate sensorineural hearing loss (flat/sloping). Left ear: Normal thresholds (0-10 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right ear: SRT 50 dB HL, SRS 6% (extremely poor). Left ear: SRT 5 dB HL, SRS 100%."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Normal Type A tympanograms bilaterally (Static compliance: RE 0.80 cc, LE 0.83 cc)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Right ear: Absent ipsilateral and contralateral. Left ear: Present (Ipsi 85 dB HL, Contra 80 dB HL)."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "result_summary": "Right ear: All waves prolonged after Wave I, increased Wave I-III latency. Left ear: Normal."
+          },
+          {
+            "name": "TEOAE (Transient Evoked Otoacoustic Emissions)",
+            "result_summary": "Present bilaterally, indicating intact outer hair cell function despite hearing loss in the right ear."
+          },
+          {
+            "name": "Tone-decay test",
+            "result_summary": "Right ear: 30+ dB of decay in 60 seconds. Left ear: 5 dB of decay in 60 seconds."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Request results of diagnostic tests (ENG, radiologic studies) from the specialist"
+    ],
+    "counseling_actions": [
+      "Discuss impressions of a possible neural lesion (VIIIth nerve) with the patient",
+      "Advise that history and auditory findings are consistent with a possible retrocochlear lesion",
+      "Ensure the patient understands the importance of following through with the referral promptly"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral progressive sensorineural hearing loss",
+      "Asymmetric speech recognition scores (6% vs 100%)",
+      "Unilateral tinnitus",
+      "Unsteadiness/dizziness",
+      "Retrocochlear signs (absent reflexes, tone decay, abnormal ABR)"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neuro-otologist or Otologist",
+      "rationale_short": "To confirm or deny the presence of a space-occupying lesion (acoustic neuroma) via MRI or other studies."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Promptly",
+    "objective": "Ensure referral is completed and obtain medical diagnosis and treatment plan."
+  },
+  "expected_outcome": []
+}

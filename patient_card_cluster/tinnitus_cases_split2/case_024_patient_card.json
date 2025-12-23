@@ -1,0 +1,214 @@
+{
+  "case_id": "Case24_Poor_Outcome_in_Misophonia_Intervention_despite",
+  "title": "Poor Outcome in Misophonia Intervention despite Evidence-Based Intervention Strategies",
+  "demographics": {
+    "age_years": 14,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am hypersensitive to loud noises and everyday sounds like chewing, breathing, and pen clicking. These sounds make me feel frustrated, upset, angry, and very anxious.",
+  "problem_summary": {
+    "onset": "History of sensory concerns; initially sought occupational therapy.",
+    "course": "Symptoms occur multiple times daily at home and school.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Tactile defensiveness, debilitating anxiety, sensory overload, feeling overwhelmed in crowded environments (malls, hallways).",
+    "functional_impact": "Significant emotional reaction (rage/anxiety) to specific triggers; avoidance of school cafeteria.",
+    "goals_motivation": "Family seeks strategies to decrease auditory sensitivity."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports hypersensitivity to environmental sounds (church music, chewing, breathing, clicking pens, feet shuffling). Reactions include anger and anxiety.",
+        "otologic_history": "Passed newborn hearing screen. No history of childhood hearing loss.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Born premature (30 weeks, <3 lbs), NICU stay 1.5 months. Diagnosed with Sensory Processing Disorder (SPD) and Generalized Anxiety Disorder (GAD). Maternal grandmother has similar auditory behaviors.",
+        "prior_management": "Occupational therapy (Sensory Profile 2 Child Assessment administered).",
+        "patient_goals": "Determine if hyperacusis is present and manage sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Nonoccluding cerumen, intact tympanic membranes.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal middle ear system compliance and pressure.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Ipsilateral present 500-4000 Hz AU. Left contralateral present. Right contralateral absent at all frequencies.",
+          "numeric_results": {
+            "Right_Contra_Reflexes": "Absent at 100 dB HL"
+          }
+        },
+        {
+          "name": "DPOAE",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present 2,000 to 6,000 Hz bilaterally, indicating normal outer hair cell function.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal hearing sensitivity from 250 to 8,000 Hz.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Ultra-high frequency audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Thresholds within or better than accepted values.",
+          "numeric_results": {
+            "Range_9-20kHz": "-20 dB SPL to 10 dB SPL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Excellent word recognition in quiet and noise.",
+          "numeric_results": {
+            "SRT": "5 dB HL",
+            "WRS_Quiet": "100% (40 dB SL)",
+            "WRS_Noise": "96% (+5 dB SNR)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (Specialized Testing)",
+      "history": {
+        "present_illness": "Return for central auditory system assessment (CANS) and loudness tolerance testing.",
+        "otologic_history": "See V1.",
+        "noise_exposure_history": "See V1.",
+        "medical_psych_history": "See V1.",
+        "prior_management": "See V1.",
+        "patient_goals": "Identify physiological sources of symptoms."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Loudness Discomfort Levels (UCLs). Dynamic range is clinically acceptable; eliminates likelihood of loudness hyperacusis.",
+          "numeric_results": {
+            "UCL_Range_500-4000Hz": "≥ 90 dB HL"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Cortical Auditory Evoked Potentials (CAEP). Absent responses indicate auditory cortex is not efficiently detecting/responding to speech in quiet or noise.",
+          "numeric_results": {
+            "P1/N1_Response": "Absent",
+            "P2/N2_Response": "Absent"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "TEOAE Suppression (Medial Olivo-Cochlear System assessment). Reduced suppression in the left ear compared to the right.",
+          "numeric_results": {
+            "Suppression_Asymmetry": "7.21 dB difference"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Misophonia Assessment Questionnaire (MAQ).",
+          "numeric_results": {
+            "Total_Score": "25",
+            "Severity_Rating": "Moderate"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient demonstrates normal peripheral hearing sensitivity, including ultra-high frequencies, and excellent speech recognition in quiet and noise. Loudness discomfort levels are normal, ruling out loudness hyperacusis. However, central assessment reveals absent cortical responses (CAEP) and asymmetric TEOAE suppression, suggesting central auditory nervous system inefficiencies. The profile is consistent with Misophonia (Annoyance Hyperacusis).",
+  "counseling_points": [
+    "Your hearing sensitivity is completely normal, meaning the ears themselves are healthy and detecting sound correctly.",
+    "The testing shows that your brain processes sound differently, specifically in how it filters background noise and reacts to speech signals.",
+    "Your condition is best described as Misophonia, which is a strong emotional reaction to specific trigger sounds, rather than loudness hyperacusis (pain from volume).",
+    "We recommend a combination of sound therapy (using pleasant broadband sound to mask triggers) and psychology consultation for Cognitive Behavioral Therapy (CBT)."
+  ],
+  "notes_for_actor": [
+    "Portray a teenager who is articulate but clearly distressed by specific sounds.",
+    "You are not hard of hearing; you hear everything too well.",
+    "Express frustration that people think you are just being 'difficult' when you react to chewing or breathing.",
+    "Show anxiety when discussing school environments like the cafeteria."
+  ]
+}

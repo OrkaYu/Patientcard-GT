@@ -1,0 +1,245 @@
+{
+  "case_id": "case_4_5",
+  "title": "Sudden, Fluctuating Hearing Loss Secondary to Acoustic Neuroma",
+  "demographics": {
+    "age_years": 34,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I lost hearing in my left ear suddenly a few days ago. I also hear a high-pitched ringing and feel pressure or fullness in that ear.",
+  "problem_summary": {
+    "onset": "Sudden onset of hearing loss a few days prior to the initial visit.",
+    "course": "Fluctuating symptoms over a 3-month pre-operative period; hearing initially lost completely after surgery but showed 'late' partial recovery months later.",
+    "laterality": "Left",
+    "associated_symptoms": "High-pitched tinnitus, aural pressure/fullness, 'feeling foggy' (no true vertigo).",
+    "functional_impact": "Functions well in everyday situations despite the unilateral issue.",
+    "goals_motivation": "Diagnosis of the fluctuating symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "1986-07-03",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presented with sudden mild left-sided hearing loss, tinnitus, and fullness. Over the next 3 months (July to September), symptoms and hearing fluctuated.",
+        "otologic_history": "Initial working diagnosis was possible perilymphatic fistula due to fluctuation. Retrocochlear lesion considered because hearing never fully normalized.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "No neurological symptoms reported.",
+        "prior_management": "Monitored over 3 months.",
+        "patient_goals": "Diagnosis."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op (Serial)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-14"
+          ],
+          "key_findings": "Right ear normal. Left ear showed fluctuating mild sensorineural hearing loss, primarily in low and mid frequencies. Thresholds varied across dates (7/3/86, 9/11/86, 9/30/86).",
+          "numeric_results": {
+            "Right Ear": "Normal limits",
+            "Left Ear (7/3/86)": "Mild low-freq loss (~30 dB HL at 250-500 Hz)",
+            "Left Ear (9/11/86)": "Worsened low-freq loss (~40-45 dB HL)",
+            "Left Ear (9/30/86)": "Slight improvement (~35 dB HL)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-14"
+          ],
+          "key_findings": "Excellent speech recognition scores maintained throughout the fluctuation period. No rollover.",
+          "numeric_results": {
+            "WRS Right": "100%",
+            "WRS Left": "100% (consistently on 7/3, 9/11, and 9/30)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present bilaterally at normal levels (500-2000 Hz). Contralateral reflexes present 500-4000 Hz. Unusual finding: Left contralateral reflexes were obtained at lower levels than the right.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-15"
+          ],
+          "key_findings": "Right ear normal. Left ear showed poorer waveform morphology. Absolute latencies borderline normal, but interwave intervals and ILD were abnormal. Significant rate shift observed.",
+          "numeric_results": {
+            "Left I-V interval": "4.68 msec (extended)",
+            "Left I-III interval": "2.88 msec (extended)",
+            "ILD (Wave V)": "0.88 msec (abnormal)",
+            "Rate Shift (15 vs 85 clicks/sec)": "1.04 msec shift (Abnormal, >1.0 msec criteria)"
+          }
+        },
+        {
+          "name": "CT Scan",
+          "timepoint_label": "Pre-op",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-16"
+          ],
+          "key_findings": "High resolution contrast CT indicated a mass in the internal auditory meatus (IAM) extending into the cerebellopontine angle (CPA).",
+          "numeric_results": {
+            "Mass size": "1.3 cm"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Hospital / Post-op",
+      "history": {
+        "present_illness": "Patient underwent surgery to remove 1.4 cm acoustic schwannoma.",
+        "otologic_history": "Surgery without complications.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Tumor removal.",
+        "patient_goals": "Recovery."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Immediate Post-op",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "No measurable hearing in the left ear to pure tone or speech stimuli.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "1987-12-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "1-year follow-up. Patient reported gradual improvement in hearing several months after surgery (late recovery).",
+        "otologic_history": "Status post acoustic neuroma removal.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": null,
+        "patient_goals": "Monitor hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "1-Year Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-17"
+          ],
+          "key_findings": "Right ear normal. Left ear shows return of some hearing function (unusual late recovery). Sloping loss: mild/moderate in lows dropping to profound in highs.",
+          "numeric_results": {
+            "LE 250 Hz": "~30 dB HL",
+            "LE 500 Hz": "~35 dB HL",
+            "LE 1000 Hz": "~50 dB HL",
+            "LE 2000 Hz": "~65 dB HL",
+            "LE 4000-8000 Hz": ">90 dB HL (No Response/Profound)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "1-Year Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-17"
+          ],
+          "key_findings": "Right ear excellent. Left ear poor.",
+          "numeric_results": {
+            "WRS Right": "100%",
+            "WRS Left": "24%"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "1-Year Post-op",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-18"
+          ],
+          "key_findings": "Only a readable Wave V of poor morphology was present. Latencies similar to pre-op once intensity was sufficient (90 dB nHL).",
+          "numeric_results": {
+            "Wave V Latency": "7.34 msec (at 90 dB nHL)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This case presents an unusual manifestation of an acoustic neuroma (vestibular schwannoma). The patient, a 34-year-old female, presented with sudden, fluctuating low-frequency SNHL and normal acoustic reflexes—symptoms typically associated with cochlear hydrops or fistula rather than retrocochlear pathology. However, ABR testing revealed retrocochlear signs (abnormal ILD, extended interwave intervals, and a significant rate shift). Following surgical removal of a 1.4 cm tumor, the patient experienced total hearing loss in the ear, followed by a rare 'late recovery' of some low-to-mid frequency hearing and poor speech recognition several months post-op.",
+  "counseling_points": [
+    "Explain that while the initial symptoms mimicked other inner ear conditions (like fluid fluctuation), the ABR and CT scan confirmed a tumor on the hearing nerve.",
+    "Discuss the rarity of the 'late recovery' of hearing observed; typically, hearing lost immediately after this surgery does not return.",
+    "Counsel on realistic expectations for the left ear: while sound awareness has returned, speech clarity (24%) is very poor, and the ear will likely not be useful for communication in noise.",
+    "Emphasize the importance of protecting the normal right ear."
+  ],
+  "notes_for_actor": [
+    "In the first visit, you are anxious but not dizzy. You feel 'foggy' and frustrated that your hearing keeps changing—some days it's better, some days worse.",
+    "You describe the tinnitus as high-pitched and the ear feeling 'full' or 'pressure-filled'.",
+    "At the follow-up, you are surprised and pleased that you can hear *something* in the left ear again, even if it isn't clear speech, as you were told it was gone forever immediately after surgery."
+  ]
+}

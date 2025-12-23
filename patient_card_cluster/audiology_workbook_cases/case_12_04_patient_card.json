@@ -1,0 +1,140 @@
+{
+  "case_id": "case_12_4",
+  "title": "Retiring Police Officer with Tinnitus",
+  "demographics": {
+    "age_years": 55,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I can hear pretty well, but I have difficulty in noisy situations and the ringing in both my ears is quite bothersome.",
+  "problem_summary": {
+    "onset": "Unspecified; likely gradual given occupational history.",
+    "course": "Chronic.",
+    "laterality": "Bilateral.",
+    "associated_symptoms": "Bilateral tinnitus; difficulty hearing in noise.",
+    "functional_impact": "Difficulty communicating in noisy environments.",
+    "goals_motivation": "Audiologic testing required for retirement physical exam."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "55-year-old police officer retiring from the force. Reports hearing is generally good but struggles in background noise. Reports bothersome bilateral tinnitus.",
+        "otologic_history": "Denies vertigo or aural fullness.",
+        "noise_exposure_history": "Frequent firearm use at firing range (wore protection). Dispatch radio worn on right shoulder during patrol (rarely wore protection). Frequent use of recreational vehicles (ATVs).",
+        "medical_psych_history": "Retiring police officer.",
+        "prior_management": "None reported.",
+        "patient_goals": "Complete physical exam for retirement."
+      },
+      "tests": [
+        {
+          "name": "Tympanometry",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanometry Graph"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally. Peak pressure is centered near 0 daPa.",
+          "numeric_results": {
+            "Right Peak Admittance": "~1.5 mmhos",
+            "Left Peak Admittance": "~1.0 mmhos",
+            "Peak Pressure": "~0 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "ART Table"
+          ],
+          "key_findings": "Acoustic reflex thresholds are present at normal levels at 1 kHz.",
+          "numeric_results": {
+            "Right Ipsi (1 kHz)": "85 dB HL",
+            "Right Contra (Stim L/Probe R)": "90 dB HL",
+            "Left Ipsi (1 kHz)": "85 dB HL",
+            "Left Contra (Stim R/Probe L)": "90 dB HL"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Data Table"
+          ],
+          "key_findings": "Pure tone averages indicate normal hearing sensitivity in the speech frequencies. (Note: Discrete thresholds are not provided in the source, only PTA).",
+          "numeric_results": {
+            "Right PTA": "7 dB",
+            "Left PTA": "5 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Data Table"
+          ],
+          "key_findings": "Excellent word recognition scores bilaterally using phoneme scoring, though tested at high presentation levels (85 dB HL). SRTs align with PTAs.",
+          "numeric_results": {
+            "Right SRT": "5 dB",
+            "Right WRS": "94% @ 85 dB HL (with masking in left)",
+            "Left SRT": "5 dB",
+            "Left WRS": "91% @ 85 dB HL (with masking in right)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Data Table",
+            "WAI Graph"
+          ],
+          "key_findings": "Tinnitus matched to high frequency. Wideband reflectance shows normal pattern (low reflectance in mid-frequencies).",
+          "numeric_results": {
+            "Tinnitus Match": "6700 Hz"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient demonstrates normal middle ear function (Type A tympanograms, normal reflexes, normal reflectance). Hearing sensitivity in the speech range is within normal limits bilaterally (PTA 5-7 dB), and speech recognition is excellent (91-94%) when tested at suprathreshold levels. The presence of tinnitus matched to 6700 Hz and the history of noise exposure suggest potential high-frequency cochlear damage not fully captured by the PTA values provided.",
+  "counseling_points": [
+    "Your hearing test shows that you hear speech sounds normally in quiet environments.",
+    "The difficulty you experience in background noise is likely related to your history of noise exposure (firearms, radio, ATVs).",
+    "The ringing in your ears (tinnitus) is also a sign of how noise has affected your auditory system.",
+    "It is crucial to wear hearing protection during all recreational noise exposure, such as riding ATVs, to prevent further damage.",
+    "Since your hearing is good in quiet, hearing aids are not currently indicated, but we should monitor your hearing annually."
+  ],
+  "notes_for_actor": [
+    "Portray a 55-year-old police officer who is retiring.",
+    "You are practical and used to loud environments, but the ringing in your ears is a genuine annoyance.",
+    "You admit to skipping ear protection for the radio because it was necessary for the job, but you were careful at the firing range.",
+    "You don't feel 'hard of hearing' in quiet one-on-one talks, but noisy rooms are frustrating."
+  ]
+}

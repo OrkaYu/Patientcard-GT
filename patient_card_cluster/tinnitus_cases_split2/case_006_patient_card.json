@@ -1,0 +1,153 @@
+{
+  "case_id": "Case06_Tinnitus_Following_Concussion",
+  "title": "Tinnitus Following Concussion",
+  "demographics": {
+    "age_years": 40,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a ringing in my left ear that started suddenly after my car accident. It's very disturbing during the day, and I'm also dealing with sensitivity to sounds.",
+  "problem_summary": {
+    "onset": "Sudden onset 7 months prior following a motor-vehicle accident (rear-ended, whiplash, occipital lobe impact).",
+    "course": "Persistent symptoms since the accident.",
+    "laterality": "Left ear tinnitus; bilateral sound sensitivity.",
+    "associated_symptoms": "Vision loss, imbalance, sound sensitivity, sleep disturbance, central tremor, anxiety.",
+    "functional_impact": "Severe handicap (THI 68) and functional index (TFI 76). High anxiety related to symptoms.",
+    "goals_motivation": "Highly motivated to find the precise pitch of tinnitus; seeking diagnosis and treatment options."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Concussion Team Referral)",
+      "history": {
+        "present_illness": "Patient seen 7 months post-MVA. Post Concussion Symptom Scale score of 77. Reports tinnitus specifically in the left ear. Most disturbance during the day. Sleep disturbance attributed to anxiety rather than tinnitus directly.",
+        "otologic_history": "No previous history of otologic disorders or surgery.",
+        "noise_exposure_history": "No significant noise exposure reported.",
+        "medical_psych_history": "Beck Depression Screening score of 7 (normal). High anxiety observed during testing.",
+        "prior_management": "Seen by neurology; medication list did not include known sources of tinnitus.",
+        "patient_goals": "Adamant about knowing the precise tinnitus pitch; requested booth door ajar during testing."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6.1"
+          ],
+          "key_findings": "Asymmetric sensorineural hearing loss. Right ear is normal through 6000 Hz with mild-to-moderate loss at 8000 Hz+. Left ear shows mild-to-moderate SNHL beginning at 3000 Hz.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "Normal <20 dB HL up to 6 kHz; dip to ~30-40 dB HL at high frequencies.",
+            "Left_Ear_Thresholds": "Normal <20 dB HL up to 2 kHz; drops to ~35 dB HL at 3-4 kHz, ~50 dB HL at 6 kHz, ~60 dB HL at 8 kHz."
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6.2"
+          ],
+          "key_findings": "Jerger Type A tympanograms bilaterally, indicating normal middle ear function.",
+          "numeric_results": {
+            "Right_TPP": "-4 daPa",
+            "Left_TPP": "-11 daPa",
+            "Right_ECV": "1.47 ml",
+            "Left_ECV": "1.81 ml"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 6.2"
+          ],
+          "key_findings": "Not conducted/Aborted. Uncomfortable loudness (UCL) levels were reached at 80-90 dB HL. Testing at 80 dB was attempted but aborted due to reported discomfort.",
+          "numeric_results": null
+        },
+        {
+          "name": "Distortion Product Otoacoustic Emissions (DPOAE)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6.3"
+          ],
+          "key_findings": "Present at 6-dB SNR. Normal amplitudes for 8/13 frequencies in the Right ear vs 4/13 frequencies in the Left ear, consistent with the asymmetric hearing loss.",
+          "numeric_results": null
+        },
+        {
+          "name": "Tinnitus Assessment",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6.4"
+          ],
+          "key_findings": "Pitch matched to high frequency (~9 kHz). High Minimum Masking Level (MML) in the left ear. Positive residual inhibition (3 seconds). Patient became upset during testing, worried about 'performance'.",
+          "numeric_results": {
+            "Pitch_Match": "9000 Hz",
+            "Loudness_Match": "12 dB SL",
+            "MML_Left": "58 dB SL",
+            "MML_Binaural": "46 dB SL",
+            "Residual_Inhibition": "3 seconds (after 1 min white noise)",
+            "THI_Score": "68 (Severe)",
+            "TFI_Score": "76 (Severe)"
+          }
+        },
+        {
+          "name": "Self-Directed Tinnitus Match (Levo)",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient performed self-match to feel more confident. Took 15 minutes and 4 trials.",
+          "numeric_results": {
+            "Localized_Frequency": "8,558 Hz"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric high-frequency sensorineural hearing loss (Left worse than Right) and normal middle ear function. There is significant sound tolerance checking (hyperacusis) preventing suprathreshold reflex testing. Tinnitus is high-pitched (~9 kHz) with severe functional impact and high anxiety levels.",
+  "counseling_points": [
+    "Your hearing test shows some high-frequency hearing loss, which is likely contributing to the tinnitus.",
+    "The testing we did today is an approximation to help us guide treatment; it is okay if you didn't find the 'perfect' pitch match immediately.",
+    "The anxiety you are feeling is understandable given the accident, and treating the hearing loss and tinnitus can help reduce that burden.",
+    "Because of the hearing loss and tinnitus, amplification (hearing aids) combined with sound therapy is a strong option to consider."
+  ],
+  "notes_for_actor": [
+    "Portray high anxiety and emotional fragility. You are very worried about 'failing' the test.",
+    "Be adamant about finding the *exact* pitch of your tinnitus. Ask the audiologist repeatedly if they are sure about the results.",
+    "Express discomfort with loud sounds (hyperacusis) if the audiologist suggests loud testing.",
+    "Request the booth door be left ajar due to anxiety/claustrophobia."
+  ]
+}

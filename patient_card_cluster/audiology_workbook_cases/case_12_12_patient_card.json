@@ -1,0 +1,104 @@
+{
+  "case_id": "case_12_12",
+  "title": "Case Study 12: Reilly Rinne",
+  "demographics": {
+    "age_years": 4,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "Mother reports noticing occasional drainage from the right ear and recently noticed that his attention/hearing seemed to fluctuate.",
+  "problem_summary": {
+    "onset": "2 months post-operative",
+    "course": "Fluctuating recently",
+    "laterality": "Bilateral history, current concerns Right ear",
+    "associated_symptoms": "Right ear drainage, fluctuating attention",
+    "functional_impact": "Attention/hearing fluctuations noted by mother",
+    "goals_motivation": "Follow-up check on PE tubes status"
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is seen for follow-up 2 months after bilateral PE tube insertion. Pre-operative status showed bilateral moderate conductive loss which improved to near normal post-operatively. Recently, mother noticed right ear drainage and fluctuating hearing.",
+        "otologic_history": "Bilateral PE tube insertion 2 months ago.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Speech and language seem age appropriate.",
+        "prior_management": "Bilateral PE tubes.",
+        "patient_goals": "Evaluate tube function and hearing status."
+      },
+      "tests": [
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Tymps Table"
+          ],
+          "key_findings": "Right ear shows normal equivalent volume (0.7) with no measurable peak (NP), suggesting a blocked tube or fluid with intact eardrum. Left ear shows large equivalent volume (3.9) with no peak, consistent with a patent PE tube.",
+          "numeric_results": {
+            "Right Vea": "0.7 mmhos",
+            "Right Ytm": "NP",
+            "Right TPP": "NP",
+            "Left Vea": "3.9 mmhos",
+            "Left Ytm": "NP",
+            "Left TPP": "NP"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Right ear demonstrates a mild-to-moderate hearing loss (PTA 35 dB HL). Left ear thresholds are within normal limits (PTA 10 dB HL).",
+          "numeric_results": {
+            "Right PTA": "35 dB HL",
+            "Left PTA": "10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "SRTs align with PTAs. Word recognition is excellent (100%) bilaterally, though the right ear required higher presentation levels. Testing performed with familiar spondees and PBK-word list.",
+          "numeric_results": {
+            "Right SRT": "30 dB HL",
+            "Right WRS": "100% @ 85 dB HL (masked)",
+            "Left SRT": "10 dB HL",
+            "Left WRS": "100% @ 45 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Evaluation reveals asymmetric hearing sensitivity. The left ear presents with normal hearing and tympanometric findings consistent with a patent (open) PE tube. The right ear shows a mild-to-moderate hearing loss with tympanometric findings (normal volume, flat trace) consistent with a blocked PE tube and likely recurrence of middle ear effusion/infection, correlating with the reported drainage.",
+  "counseling_points": [
+    "The tube in the left ear is open and working well; hearing on that side is normal.",
+    "The tube in the right ear appears to be blocked (not working), which explains the drainage and the return of some hearing loss.",
+    "The hearing loss in the right ear is temporary and related to the fluid/infection.",
+    "We will refer you back to the ENT physician to manage the drainage and check the right tube."
+  ],
+  "notes_for_actor": [
+    "Mother should appear concerned about the drainage but relieved that the left ear is still hearing well.",
+    "Patient (Reilly) is 4 years old; if portrayed, may be playful but potentially fussy if the right ear is uncomfortable."
+  ]
+}

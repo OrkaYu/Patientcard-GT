@@ -1,0 +1,113 @@
+{
+  "case_id": "Case048",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acoustic Shock Disorder / Tonic Tensor Tympani Syndrome (TTTS)",
+      "rationale_short": "History of acoustic incident (yelling in headset) followed immediately by tinnitus, hyperacusis, otalgia, and spasms; TMJ ruled out."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural Hearing Loss",
+      "rationale_short": "Audiometry reveals mild bilateral symmetrical sensorineural hearing loss."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given reports of hearing difficulty and tinnitus."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities and tolerance levels."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and rule out conductive pathology."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDLs)",
+        "urgency": "routine",
+        "rationale_short": "To quantify sound tolerance given complaints of hyperacusis."
+      },
+      {
+        "action": "Tinnitus Assessment",
+        "urgency": "routine",
+        "rationale_short": "To characterize tinnitus pitch, loudness, and impact (TFI)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates mild bilateral symmetrical sensorineural hearing loss with normal middle ear function. The primary audiologic findings are significant hyperacusis, evidenced by reduced Loudness Discomfort Levels (70-80 dB HL), and bothersome tinnitus matched to 4000 Hz. Speech recognition is excellent but testing required reduced presentation levels due to sound sensitivity.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Mild bilateral symmetrical SNHL, flat configuration (approx 25-35 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "WRS 90% (Right) and 86% (Left) at MCL (65 dB HL); standard levels were too uncomfortable."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal ear canal volume, static admittance, and middle ear pressure (Type A) bilaterally."
+          },
+          {
+            "name": "Loudness Discomfort Levels (LDLs)",
+            "category": "Sound Tolerance",
+            "result_summary": "Reduced sound tolerance; LDLs 70-80 dB HL for pure tones and noise."
+          },
+          {
+            "name": "Tinnitus Assessment",
+            "category": "Tinnitus",
+            "result_summary": "Pitch match 4000 Hz; Loudness match 56 dB HL (R) / 60 dB HL (L); TFI score 60; MML not obtained due to discomfort."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral RIC hearing aids (Widex Clear Fusion 440s) with open domes",
+      "Real Ear Measures (REM) to verify gain targets (initially set below target for acclimatization)",
+      "Real Ear Saturation Response (RESR90) to ensure output does not exceed LDLs",
+      "Sound therapy using Widex Zen tinnitus program (Zen Aqua)",
+      "Tinnitus Activities Treatment (TAT) using pictorial examples and analogies",
+      "Sound enrichment and desensitization exercises (listening to bothersome sounds at soft levels)",
+      "Work accommodations (separate room, noise-cancelling headphones, cushioned door, rubber caps on chairs)"
+    ],
+    "counseling_actions": [
+      "Informational counseling on the auditory system, tinnitus, and hyperacusis mechanisms",
+      "Explanation of the relationship between auditory, emotional, and fear centers",
+      "Advice against overprotection (earplugs) to avoid increasing central gain",
+      "Reassurance that loud sounds are annoying but unlikely to damage hearing",
+      "Instruction on gradual desensitization and sound enrichment"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Ongoing management of tinnitus and hyperacusis via hearing aids, sound therapy, and counseling."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Monthly visits for 6 months",
+    "objective": "Monitor progress, increase hearing aid acclimatization levels, review sound diary, and adjust therapy."
+  },
+  "expected_outcome": [
+    "Tinnitus Loudness Match: Measured at 46 dB HL (right) and 50 dB HL (left), a reduction of 10 dB in each ear.",
+    "Tinnitus Functional Index (TFI): Score reduced to 30 (a reduction of 30 points), indicating meaningful clinical improvement.",
+    "Loudness Discomfort Levels (LDLs): Increased by 6 to 10 dB across frequencies (Table 48.2), indicating improved sound tolerance.",
+    "Subjective report: Significant improvement in annoyance from tinnitus and hyperacusis; able to tolerate moderately loud sounds and returned to work with accommodations."
+  ]
+}

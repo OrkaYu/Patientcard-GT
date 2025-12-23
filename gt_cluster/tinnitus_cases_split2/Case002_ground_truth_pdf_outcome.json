@@ -1,0 +1,140 @@
+{
+  "case_id": "Case002",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Tinnitus",
+      "rationale_short": "Subjective severity 10/10, THI 80, TFI 82%; exacerbated by migraines and Chiari history."
+    },
+    {
+      "rank": 2,
+      "label": "Hyperacusis",
+      "rationale_short": "Subjective sound intolerance 9/10; LDLs reduced to 80-95 dB HL."
+    },
+    {
+      "rank": 3,
+      "label": "High-frequency Sensorineural Hearing Loss",
+      "rationale_short": "Mild loss at 6-8 kHz in the left ear; normal hearing in the right ear."
+    },
+    {
+      "rank": 4,
+      "label": "Seizure Disorder / Epilepsy",
+      "rationale_short": "History of epilepsy; partial seizure occurred during residual inhibition testing."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess baseline hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess word recognition ability."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Self-report scales",
+        "urgency": "routine",
+        "rationale_short": "To quantify the functional and emotional impact of tinnitus (THI, TFI)."
+      },
+      {
+        "action": "High-frequency audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess thresholds up to 20 kHz, relevant for tinnitus."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDL/UCL)",
+        "urgency": "routine",
+        "rationale_short": "To quantify sound tolerance levels for hyperacusis."
+      },
+      {
+        "action": "Tinnitus Evaluation",
+        "urgency": "routine",
+        "rationale_short": "To characterize tinnitus pitch, loudness, and maskability."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial audiological evaluation at an otolaryngology practice revealed normal hearing in the right ear and a mild high-frequency sensorineural hearing loss in the left ear. Middle ear function was normal bilaterally, and speech recognition was excellent.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Normal hearing right (10-15 dB HL). Normal left through 4000 Hz, sloping to mild loss (30-40 dB HL) at 6000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Excellent word recognition (100%) bilaterally; SRT 15 dB AU."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Type A tympanograms bilaterally, indicating normal middle ear function."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Comprehensive tinnitus and hyperacusis evaluation at the university clinic. Results confirmed catastrophic tinnitus impact and reduced sound tolerance. Testing was complicated by a partial seizure during the tinnitus evaluation.",
+        "tests": [
+          {
+            "name": "Self-report scales",
+            "result_summary": "THI score 80 (catastrophic); TFI score 82%. Indicates substantially reduced quality of life."
+          },
+          {
+            "name": "High-frequency audiometry",
+            "result_summary": "Thresholds obtained up to 20,000 Hz."
+          },
+          {
+            "name": "Loudness Discomfort Levels (LDL/UCL)",
+            "result_summary": "Reduced loudness tolerance (80–95 dB HL) from 500 to 4,000 Hz bilaterally."
+          },
+          {
+            "name": "Tinnitus Evaluation",
+            "result_summary": "Included pitch/loudness match and minimal masking. During residual inhibition, patient experienced a partial seizure."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Sound therapy using a 'sleep band' headband (soft, loose-fitting) to avoid in-ear devices.",
+      "Desensitization exercises for hyperacusis.",
+      "Systematic program of sound therapy and counseling (Tinnitus Retraining Therapy protocol)."
+    ],
+    "counseling_actions": [
+      "Explained test results and the relationship between sound sensitivity and tinnitus.",
+      "Discussed the use of sound therapy to foster desensitization.",
+      "Encouraged discussion with neurologist regarding potential auditory triggers for seizures.",
+      "Recommended communicating outcomes with pain management and neurology providers."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Partial seizure occurred during audiological testing"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurologist and Pain Management Specialist",
+      "rationale_short": "To address seizure activity potentially triggered by sound and coordinate care for migraines and complex medical history."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "A few weeks",
+    "objective": "Review progress with medical specialists (neurology/pain management) and continue desensitization protocol."
+  },
+  "expected_outcome": [
+    "Patient met with neurologist and pain management doctors a few weeks after the visit.",
+    "Neurologist was more concerned with seizures than tinnitus management.",
+    "Pain management doctor encouraged continuation of the desensitization exercises provided by the clinic.",
+    "Pain management doctor recommended pool and physical therapies to improve quality of life.",
+    "Patient received Botox injections for migraines."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "case_id": "Case011_06",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder (CAPD)",
+      "rationale_short": "Normal peripheral hearing with significant bilateral deficits in temporal ordering, dichotic listening, compressed speech, and speech-in-noise tasks."
+    },
+    {
+      "rank": 2,
+      "label": "Learning Disability (Alexia/Agraphia)",
+      "rationale_short": "Inability to read or write cursive and slow reading rate, likely linked to the same cortical dysfunction in association areas as the auditory deficits."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline assessment of peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech recognition abilities in quiet."
+      },
+      {
+        "action": "Central Auditory Processing Battery",
+        "urgency": "routine",
+        "rationale_short": "Evaluate central auditory function given complaints of difficulty in noise and following lectures."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "Assess speech recognition in ipsilateral white noise due to specific complaints of difficulty in noise."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing sensitivity is normal, but speech recognition is unexpectedly reduced in quiet and severely depressed in noise. The central battery reveals bilateral deficits across all tests, with moderate-to-severe impairment in temporal ordering and compressed speech, consistent with a severe central auditory deficit likely involving cortical association regions.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal thresholds bilaterally (0-10 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Reduced word recognition scores in quiet (68-72% bilaterally)."
+          },
+          {
+            "name": "Central Auditory Processing Battery",
+            "category": "Central Auditory Processing",
+            "result_summary": "Bilateral deficits on all tests: moderate-to-severe on frequency/duration patterns (~40-60%), mild on SSW (~70-80%), severe on compressed speech (~0-5%) and dichotic rhyme (~20-30%). Dichotic digits showed borderline/mild deficits."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Speech Perception",
+            "result_summary": "Severely depressed scores in ipsilateral white noise at +10 dB SNR (RE 16%, LE 8%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Use of note-takers in class",
+      "Preferential seating to maximize visual cues and minimize noise",
+      "Reduced courseload",
+      "Academic accommodations (e.g., untimed tests, small class sizes)"
+    ],
+    "counseling_actions": [
+      "Explain that difficulties in noise and on the phone are due to a central deficit, not peripheral hearing loss",
+      "Discuss the neurological link between the auditory processing deficits and reading/writing difficulties (alexia/agraphia)",
+      "Encourage self-advocacy with administrative personnel to obtain necessary accommodations"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Academic/Disability Support Services",
+      "rationale_short": "To secure academic accommodations such as untimed testing for medical school entrance exams."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor academic progress and the effectiveness of accommodations."
+  },
+  "expected_outcome": [
+    "The patient successfully completed her baccalaureate degree.",
+    "The patient was on several waiting lists for admission to medical school at the time of last contact."
+  ]
+}

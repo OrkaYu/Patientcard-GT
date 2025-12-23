@@ -1,0 +1,87 @@
+{
+  "case_id": "Case004_07",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Hyperacusis and Tinnitus",
+      "rationale_short": "Normal hearing sensitivity with significantly reduced Loudness Discomfort Levels (50–60 dB HL) and tinnitus onset following an acoustic shock event."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing thresholds following acoustic shock."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function (attempted)."
+      },
+      {
+        "action": "Loudness Discomfort Levels",
+        "urgency": "routine",
+        "rationale_short": "Quantify sound sensitivity and dynamic range."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presented with normal pure-tone thresholds and excellent speech recognition bilaterally. Immittance testing could not be performed due to the patient's extreme sensitivity to pressure and sound. Loudness Discomfort Levels were significantly reduced (50–60 dB HL), confirming hyperacusis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal limits (0–10 dB HL) from 250 to 8000 Hz bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs (RT 7 dB, LT 5 dB) consistent with PTA; WRS 100% at 40 dB HL bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not performed due to patient sensitivity to pressure and sound."
+          },
+          {
+            "name": "Loudness Discomfort Levels",
+            "category": "Other",
+            "result_summary": "Approximately 50–60 dB HL, indicating hyperacusis."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit with BTE sound generators for sound therapy",
+      "Cognitive Behavioral Therapy (CBT)",
+      "Hearing protection in hazardous noise only",
+      "Retest hearing as needed"
+    ],
+    "counseling_actions": [
+      "Advise against overprotection (avoid constant use of earplugs/muffs in non-hazardous situations)",
+      "Explain hyperacusis and the goal of desensitization"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Cognitive Behavioral Therapist",
+      "rationale_short": "To address fear of sound (phonophobia) and anxiety related to tinnitus."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor hearing thresholds and tolerance to sound."
+  },
+  "expected_outcome": []
+}

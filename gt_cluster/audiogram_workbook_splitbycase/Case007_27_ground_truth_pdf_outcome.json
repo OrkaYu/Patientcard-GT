@@ -1,0 +1,88 @@
+{
+  "case_id": "case_7_27",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral severe-to-profound mixed hearing loss",
+      "rationale_short": "Audiometry reveals severe-to-profound thresholds with air-bone gaps, though a masking dilemma prevented specific bone conduction verification."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess the degree, configuration, and type of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition scores."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and ear canal volume."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex pathway."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates a bilateral severe-to-profound mixed hearing loss. The right ear shows a flat configuration, while the left ear slopes to profound. A masking dilemma occurred due to the severity of the loss, preventing isolation of bone conduction thresholds. Speech recognition is significantly better in the right ear (62%) compared to the left (20%). Tympanometry was normal bilaterally, although the right ear canal volume was notably large (3.4 mL). Acoustic reflexes were absent.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Flat severe and profound mixed loss (250-8000 Hz). Left ear: Severe mixed sloping to profound. No response at 6-8 kHz bilaterally. Masking dilemma (CNM)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 92 dB HL, WRS 62% (moderate difficulty). Left SRT 105 dB HL, WRS 20% (very poor)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) bilaterally. Right ear canal volume large (3.4 mL); Left volume 1.8 mL."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent for ipsilateral and contralateral stimulation at all frequencies."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue use of amplification for the right ear",
+      "Consider amplification for the left ear",
+      "Consider alternative amplification options such as a BAHA",
+      "Evaluation for Hearing Assistive Technology (HAT)"
+    ],
+    "counseling_actions": [
+      "Explain the mixed nature and severity of the hearing loss",
+      "Discuss the masking dilemma and its impact on testing",
+      "Review the asymmetry in speech recognition abilities between ears"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient is scheduled to follow up with the otologist, appropriate for mixed hearing loss and large ear canal volume findings."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Return for hearing testing as needed."
+  },
+  "expected_outcome": []
+}

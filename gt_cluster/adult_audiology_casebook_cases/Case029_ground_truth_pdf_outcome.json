@@ -1,0 +1,170 @@
+{
+  "case_id": "Case029",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Chronic Otitis Media",
+      "rationale_short": "History of recurrent infections, large right TM perforation, and left mass-dominated middle ear system."
+    },
+    {
+      "rank": 2,
+      "label": "Benign Paroxysmal Positional Vertigo",
+      "rationale_short": "Recurrent episodic vertigo triggered by position changes; history of successful treatment with Epley maneuvers."
+    },
+    {
+      "rank": 3,
+      "label": "Sensorineural Hearing Loss",
+      "rationale_short": "Bilateral sloping hearing loss; bone conduction thresholds indicate sensorineural component in left and underlying mixed loss in right."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Visual inspection of the ear canal and tympanic membrane."
+      },
+      {
+        "action": "Tympanometry (226 Hz)",
+        "urgency": "routine",
+        "rationale_short": "Assessment of middle ear status and ear canal volume."
+      },
+      {
+        "action": "Tympanometry (678 Hz)",
+        "urgency": "routine",
+        "rationale_short": "Differentiation of middle ear pathology due to negative pressure observed in the left ear."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of hearing thresholds and configuration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of speech reception and recognition abilities."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Evaluation of retrocochlear and middle ear function."
+      },
+      {
+        "action": "HHIE-S",
+        "urgency": "routine",
+        "rationale_short": "Screening for subjective hearing handicap."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Post-operative evaluation of hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Post-operative evaluation of speech recognition."
+      },
+      {
+        "action": "Tympanometry (226 Hz)",
+        "urgency": "routine",
+        "rationale_short": "Post-operative assessment of tympanic membrane healing and mobility."
+      },
+      {
+        "action": "HHIE-S",
+        "urgency": "routine",
+        "rationale_short": "Follow-up assessment of subjective benefit."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Baseline evaluation revealed a large right tympanic membrane perforation causing mixed hearing loss, and a left sensorineural hearing loss with negative middle ear pressure. A 678-Hz tympanogram on the left indicated a mass-dominated system consistent with chronic otitis media. The patient reported severe subjective handicap.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "result_summary": "Right: Large central perforation without drainage. Left: Intact and normal."
+          },
+          {
+            "name": "Tympanometry (226 Hz)",
+            "result_summary": "Right: Type B with large volume (4.5 mL). Left: Normal volume/compliance but negative pressure (-155 daPa)."
+          },
+          {
+            "name": "Tympanometry (678 Hz)",
+            "result_summary": "Left: Mass-dominated system consistent with chronic otitis media."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right: Mixed hearing loss with 15-30 dB air-bone gaps. Left: Moderate-severe SNHL."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRTs consistent with PTAs. WRS: Right 60%, Left 80%."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Right: Not measurable. Left: Absent ipsi/contra."
+          },
+          {
+            "name": "HHIE-S",
+            "result_summary": "Score 28/40, indicating severe perceived handicap."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Post-operative assessment following right tympanoplasty showed closure of the perforation and resolution of air-bone gaps, resulting in symmetric sensorineural hearing loss. Hearing aids were fitted and verified to targets.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right air-bone gaps resolved. Symmetric slight sloping to severe SNHL."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "WRS improved to 72% in both ears."
+          },
+          {
+            "name": "Tympanometry (226 Hz)",
+            "result_summary": "Right: Hypocompliant (0.2 mL) with normal volume (perf closed). Left: Normal."
+          },
+          {
+            "name": "Hearing Aid Verification (Real-Ear)",
+            "result_summary": "Output matched NAL-NL2 targets within 5 dB across frequencies."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Right tympanoplasty",
+      "Bilateral hearing aid fitting",
+      "Epley maneuver (as needed for BPPV)",
+      "Hearing Aid Verification (Real-Ear)"
+    ],
+    "counseling_actions": [
+      "Surgical risks and benefits discussion",
+      "Hearing aid orientation and care",
+      "Fall prevention strategies regarding vertigo"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Chronic tympanic membrane perforation",
+      "Recurrent vertigo"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otology/ENT",
+      "rationale_short": "Surgical management of perforation and medical clearance for amplification."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing thresholds and hearing aid benefit."
+  },
+  "expected_outcome": [
+    "Closure of tympanic membrane perforation",
+    "Improved communication abilities with amplification",
+    "Resolution of air-bone gaps"
+  ]
+}

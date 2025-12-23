@@ -1,0 +1,131 @@
+{
+  "case_id": "case_6_22",
+  "title": "Unilateral Conductive Hearing Loss with Tinnitus and Dizziness",
+  "demographics": {
+    "age_years": 68,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've noticed a decrease in hearing in my right ear that started years ago, but now I feel like I can't hear anything from that side.",
+  "problem_summary": {
+    "onset": "Many years ago",
+    "course": "Progressive",
+    "laterality": "Right ear",
+    "associated_symptoms": "Tinnitus (right ear), recent dizziness",
+    "functional_impact": "Patient feels she cannot hear from the right side.",
+    "goals_motivation": "Undecided regarding intervention (surgery vs. amplification)."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-06-20",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports progressive hearing loss in the right ear over many years. She also reports tinnitus in the right ear and recent onset of dizziness.",
+        "otologic_history": "Denies otalgia and aural fullness.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Diagnosed with otosclerosis (per intervention notes).",
+        "prior_management": null,
+        "patient_goals": "Evaluation of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.22"
+          ],
+          "key_findings": "Right ear shows severe rising to moderately severe conductive hearing loss (significant air-bone gap) in the low-to-mid frequencies, sloping at 8000 Hz. Left ear shows essentially normal hearing sensitivity with a slight sensorineural dip at 500-1000 Hz.",
+          "numeric_results": {
+            "RE_AC_250Hz": "~75 dB HL",
+            "RE_AC_1000Hz": "~45 dB HL",
+            "RE_BC_Avg": "0-15 dB HL (Normal)",
+            "LE_AC_Avg": "Within normal limits (0-25 dB HL)",
+            "RE_PTA": "55 dB HL (per table)",
+            "LE_PTA": "20 dB HL (per table)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.22"
+          ],
+          "key_findings": "SRT scores agree with PTA. Word recognition is excellent in the left ear and good (slight difficulty) in the right ear when presented at suprathreshold levels.",
+          "numeric_results": {
+            "RE_SRT": "45 dB HL",
+            "RE_WRS": "84% at 90 dB HL",
+            "LE_SRT": "20 dB HL",
+            "LE_WRS": "96% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.22"
+          ],
+          "key_findings": "Normal tympanograms bilaterally (Type A), indicating normal eardrum mobility despite the conductive loss.",
+          "numeric_results": {
+            "RE_Static_Admittance": "1.0 mL",
+            "RE_Pressure": "0.5 daPa",
+            "LE_Static_Admittance": "1.3 mL",
+            "LE_Pressure": "0.4 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.22"
+          ],
+          "key_findings": "Right ear: Absent reflexes for both ipsilateral and contralateral stimulation. Left ear: Normal ipsilateral reflexes; absent contralateral stimulation (due to right ear probe effect).",
+          "numeric_results": {
+            "RE_Ipsi_500-4k": "Absent",
+            "LE_Ipsi_500-4k": "Present (90-100 dB HL)",
+            "Reflex_Decay": "Could not be measured"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a significant unilateral conductive hearing loss in the right ear, characterized by a large air-bone gap and absent acoustic reflexes, yet normal tympanograms (Type A). The left ear has essentially normal hearing. This pattern—conductive loss with intact tympanic membrane mobility—is highly consistent with otosclerosis.",
+  "counseling_points": [
+    "Your hearing test shows a 'conductive' hearing loss in your right ear. This means the inner ear nerve is working well, but sound is not being conducted efficiently through the middle ear bones.",
+    "Even though your eardrum moves normally (as shown by the pressure test), the bones behind it appear stiff, which prevents sound from getting through.",
+    "This condition is consistent with Otosclerosis, a fixation of the stapes bone.",
+    "Because the inner nerve is healthy, you have two main options: a surgical procedure to replace the stiff bone (stapedectomy) or using a hearing aid to amplify sound through the blockage.",
+    "We should also monitor the dizziness you mentioned with the ENT physician."
+  ],
+  "notes_for_actor": [
+    "You are a 68-year-old female.",
+    "You are frustrated that your right ear feels 'dead' and has been getting worse for years.",
+    "You hear a ringing sound (tinnitus) in the bad ear.",
+    "You are currently undecided about whether you want surgery or a hearing aid; you are weighing your options."
+  ]
+}

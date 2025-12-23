@@ -1,0 +1,124 @@
+{
+  "case_id": "case_5_1",
+  "title": "Long-standing Severe to Profound Sensorineural Hearing Loss",
+  "demographics": {
+    "age_years": 55,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My hearing has continued to decline, and I am struggling to hear in most situations. I can't use the phone anymore because I can hear the voice but can't understand the words.",
+  "problem_summary": {
+    "onset": "Began decreasing bilaterally over 20 years ago.",
+    "course": "Progressive decline; currently on second pair of hearing aids (started amplification 12 years ago).",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Inability to understand speech without visual cues (lip reading).",
+    "functional_impact": "Cannot use telephone for understanding; struggles in most daily situations despite amplification.",
+    "goals_motivation": "Seeking help due to continued decline and lack of benefit from current hearing aids."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-12-05",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports bilateral hearing decrease starting >20 years ago. He has used amplification for 12 years and is on his second pair of aids. He reports continued decline and significant struggle in most environments.",
+        "otologic_history": "Long-standing sensorineural loss.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Has used hearing aids for 12 years (currently on 2nd pair).",
+        "patient_goals": "To improve speech understanding, particularly on the phone and in conversation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.1"
+          ],
+          "key_findings": "Severe sensorineural hearing loss at 250-2000 Hz, sloping to profound at 3000-8000 Hz bilaterally. Symmetrical configuration.",
+          "numeric_results": {
+            "Right PTA": "83 dB HL",
+            "Left PTA": "80 dB HL",
+            "Configuration": "Severe sloping to profound"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.1"
+          ],
+          "key_findings": "SRTs are in agreement with PTAs. Word recognition scores are poor to very poor bilaterally.",
+          "numeric_results": {
+            "Right SRT": "75 dB HL",
+            "Left SRT": "75 dB HL",
+            "Right WRS": "54%",
+            "Left WRS": "48%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.1"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "Right Volume": "1.3 mL",
+            "Right Peak Pressure": "-10 daPa",
+            "Left Volume": "1.1 mL",
+            "Left Peak Pressure": "0 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.1"
+          ],
+          "key_findings": "Absent acoustic reflexes with ipsilateral and contralateral stimulation from 500 to 4,000 Hz. Reflex decay not measured due to absent thresholds.",
+          "numeric_results": {
+            "Reflexes": "Absent (ABS) at all frequencies"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a symmetrical, severe sensorineural hearing loss from 250-2000 Hz, sloping to profound hearing loss in the high frequencies (3000-8000 Hz). Word recognition is poor (54% AD, 48% AS), indicating significant distortion and loss of clarity that volume alone cannot correct. Middle ear function is normal.",
+  "counseling_points": [
+    "Your hearing loss has progressed to a severe-to-profound level, which explains why you are struggling even with hearing aids.",
+    "Your ability to understand words (clarity) is quite low (around 50%), meaning even when speech is loud enough, it may not be clear.",
+    "Because of your poor speech understanding scores, traditional hearing aids may no longer provide enough benefit.",
+    "We are referring you to an ENT specialist to evaluate you for a Cochlear Implant, which may provide better access to speech than hearing aids."
+  ],
+  "notes_for_actor": [
+    "You rely heavily on lip-reading. If the audiologist looks down or covers their mouth, you should indicate you cannot understand them.",
+    "You are frustrated. You have tried hearing aids for 12 years, but they just aren't working well anymore.",
+    "Emphasize the isolation of not being able to use the phone."
+  ]
+}

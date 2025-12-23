@@ -1,0 +1,105 @@
+{
+  "case_id": "Case008_01",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Nonorganic hearing loss (Left)",
+      "rationale_short": "Positive Stenger test and absence of shadow curve (crossover) despite reported total deafness."
+    },
+    {
+      "rank": 2,
+      "label": "Eustachian tube dysfunction / Middle ear pathology (Left)",
+      "rationale_short": "Excessive negative middle ear pressure (-195 daPa) and history of pain and drainage."
+    },
+    {
+      "rank": 3,
+      "label": "Sensorineural hearing loss (Right)",
+      "rationale_short": "Audiogram shows flat mild sensorineural hearing loss."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and recognition abilities."
+      },
+      {
+        "action": "Stenger Test",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the validity of the reported unilateral hearing loss."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function given the history of infection."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the auditory pathway."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with mild sensorineural hearing loss in the right ear and reports total deafness in the left ear. However, objective findings—specifically the lack of a shadow curve during unmasked testing and a positive Stenger test—indicate the left-sided loss is nonorganic. Tympanometry reveals excessive negative pressure in the left ear, consistent with the reported history of infection and drainage.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Flat mild SNHL (250-8000 Hz). Left ear: No response, but no crossover (shadow curve) noted without masking."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 25 dB HL, WRS 92%. Left ear: No response."
+          },
+          {
+            "name": "Stenger Test",
+            "category": "Special Test",
+            "result_summary": "Positive at 1,000 and 2,000 Hz."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Normal. Left ear: Excessive negative pressure (-195 daPa)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral normal 500-2k Hz, absent 4k Hz. Left ipsilateral and contralateral absent at all frequencies."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to ENT specialist",
+      "Auditory Brainstem Response (ABR) testing (latency intensity function)"
+    ],
+    "counseling_actions": [
+      "Counsel regarding the lack of consistent results",
+      "Discuss possible ear infection and need for medical evaluation"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "To manage left ear pain, drainage, and possible infection, and to investigate true thresholds."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As recommended by ENT",
+    "objective": "Obtain physiological thresholds via ABR and manage middle ear pathology."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,124 @@
+{
+  "case_id": "case_7_5",
+  "title": "Bilateral Mixed Hearing Loss with Hyperacusis and Tinnitus",
+  "demographics": {
+    "age_years": 62,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've had hearing loss for 25 years that's getting worse, along with ringing and a 'motor noise' in my ears. Sudden loud sounds like a cup hitting a table or a soda opening are painful to me, so I often wear an earplug in my left ear instead of my hearing aid.",
+  "problem_summary": {
+    "onset": "Progressive over the last 25 years; hyperacusis worsened over the last 2 years.",
+    "course": "Progressive decline; acute worsening of sensitivity after acoustic trauma (shotgun blast) 2 years ago.",
+    "laterality": "Bilateral; Right ear is poorer than the Left.",
+    "associated_symptoms": "Intermittent bilateral tinnitus (ringing), 'motor noise' and hum in left ear, intermittent otalgia/pressure, severe hyperacusis/recruitment, history of dizziness.",
+    "functional_impact": "Patient avoids using hearing aids or turns them off due to loudness sensitivity; wears earplugs in the better ear.",
+    "goals_motivation": "Seeking help for hearing loss but struggles with tolerance of amplification."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-04-03",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports bilateral progressive mixed hearing loss. Significant hyperacusis (pain to loud sounds) developed/worsened 2 years ago after a shotgun was fired near his ears without protection. He currently manages by wearing an earplug in the left ear and turning off the right hearing aid.",
+        "otologic_history": "History of ear infections over past 7 years with multiple sets of PE tubes. Severe dizziness 10 years ago, now occasional. Diagnosed with left external otitis during intervention phase.",
+        "noise_exposure_history": "Occupational exposure as a carpenter for over 30 years. Acoustic trauma from shotgun blast 2 years ago.",
+        "medical_psych_history": "Family history of hearing loss (father).",
+        "prior_management": "Has worn binaural BTE hearing aids for about 15 years.",
+        "patient_goals": "Improve hearing without pain from loud sounds."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.5"
+          ],
+          "key_findings": "Bilateral mixed hearing loss. Right ear: Moderately severe to severe sloping to profound, then recovering slightly at 8kHz. Left ear: Moderate to moderately severe sloping to profound. Significant air-bone gaps present bilaterally.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250-3000Hz: 60-80 dB HL range; 4000Hz: ~100 dB HL",
+            "Left_AC_Thresholds": "250-1000Hz: 50-60 dB HL range; 4000Hz: ~95 dB HL",
+            "Bone_Conduction": "Indicates mixed loss; BC thresholds generally 40-60 dB HL range."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.5"
+          ],
+          "key_findings": "SRT scores agree with PTA. Word recognition is good in the right ear and fair/good in the left ear at suprathreshold levels.",
+          "numeric_results": {
+            "Right_SRT": "78 dB HL",
+            "Left_SRT": "72 dB HL",
+            "Right_WRS": "95% (at 95 dB HL)",
+            "Left_WRS": "80% (at 105 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.5"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally despite the mixed hearing loss (suggestive of otosclerosis or ossicular stiffness not affecting compliance peak).",
+          "numeric_results": {
+            "Right_Static_Admittance": "0.4 mmho",
+            "Left_Static_Admittance": "0.6 mmho",
+            "Right_Pressure": "25 daPa",
+            "Left_Pressure": "15 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.5"
+          ],
+          "key_findings": "Ipsilateral and contralateral acoustic reflexes were absent from 500 to 4,000 Hz in both ears.",
+          "numeric_results": {
+            "Reflexes": "Absent (ABS) at all tested frequencies."
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, asymmetric mixed hearing loss, worse in the right ear, characterized by significant air-bone gaps but normal tympanograms and absent acoustic reflexes. This pattern, confirmed by CT, is consistent with cochlear otosclerosis superimposed on noise-induced hearing loss. The patient exhibits significant hyperacusis and recruitment, complicating amplification use.",
+  "counseling_points": [
+    "Explain the 'mixed' nature of the hearing loss: a combination of damage to the nerve (from noise/aging) and the middle/inner ear bone hardening (otosclerosis).",
+    "Discuss Hyperacusis: Over-protecting your ears (using earplugs) can actually make the sensitivity worse over time. We need to slowly reintroduce sound.",
+    "Hearing Aid Strategy: We will use hearing aids with specific 'transient noise reduction' to soften sudden loud sounds (like dishes clanking) to make them comfortable.",
+    "Medical Referral: Review the otologist's findings regarding otosclerosis and the treatment for the current outer ear infection."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is visibly anxious about loud noises. You might flinch if a door slams or a pen drops.",
+    "Emphasize that you have been wearing hearing aids for years but recently stopped because 'the world got too loud and painful.'",
+    "Mention the shotgun incident as the specific moment you feel the sensitivity got much worse."
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "case_id": "case_8_5",
+  "title": "Right Hemisphere Stroke with Alien Hand Syndrome and Callosal Involvement",
+  "demographics": {
+    "age_years": 52,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I don't have any specific complaints about my hearing or communication. My main problem is that I cannot control my left hand; it grabs the steering wheel while I'm driving or tries to snatch money back when I'm paying a clerk.",
+  "problem_summary": {
+    "onset": "Sudden onset 2 years prior to audiological evaluation.",
+    "course": "Stable. Initial symptoms (weakness, slurred speech) improved, but 'alien hand' syndrome persists.",
+    "laterality": "Right hemisphere lesion affecting left side motor control and sensory perception.",
+    "associated_symptoms": "Alien hand syndrome (anarchic hand sign), left visual difficulty, history of left arm weakness and tingling.",
+    "functional_impact": "Patient electively does not drive due to the syndrome; experiences difficulty with bimanual tasks like paying for items.",
+    "goals_motivation": "Research participation and monitoring of neurologic status."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Neuroaudiology Clinic (Research/Clinical)",
+      "history": {
+        "present_illness": "Patient suffered a right hemisphere stroke 2 years ago. Initial symptoms included left arm weakness, difficulty walking, slurred speech, right occipital headaches, and flashing lights. Currently presents with 'alien hand syndrome' where the left hand performs involuntary motor movements.",
+        "otologic_history": "No specific otologic complaints reported.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Right hemisphere stroke involving right occipital and parietal regions. MRI shows thinning of the corpus callosum and abnormal signals in the right cuneus, lingual, and cingulate gyri.",
+        "prior_management": "Neurologic follow-up; strength training (regained strength on left side).",
+        "patient_goals": "Assessment of central auditory system involvement."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "2 years post-stroke",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-12"
+          ],
+          "key_findings": "Bilaterally symmetrical, mild high-frequency sensorineural hearing loss.",
+          "numeric_results": {
+            "250-1000 Hz": "~10-15 dB HL",
+            "2000 Hz": "~20 dB HL",
+            "4000 Hz": "~35-40 dB HL",
+            "8000 Hz": "~50 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "2 years post-stroke",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-12"
+          ],
+          "key_findings": "Speech recognition scores were essentially normal bilaterally.",
+          "numeric_results": {
+            "WRS Right Ear": "92%",
+            "WRS Left Ear": "88%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "2 years post-stroke",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-13"
+          ],
+          "key_findings": "Central behavioral tests (Dichotic Rhyme, Dichotic CVs, Dichotic Digits) showed left ear deficits. Duration patterns test yielded a bilateral deficit. Monaural digits in competition were normal.",
+          "numeric_results": {
+            "Dichotic Rhyme (RE)": "~90% (Normal)",
+            "Dichotic Rhyme (LE)": "~35% (Abnormal)",
+            "Dichotic CVs (RE)": "~80% (Normal)",
+            "Dichotic CVs (LE)": "~40% (Abnormal)",
+            "Dichotic Digits (RE)": "~100%",
+            "Dichotic Digits (LE)": "~85% (Mildly abnormal)",
+            "Monaural Digits Competition (RE)": "90%",
+            "Monaural Digits Competition (LE)": "80%",
+            "Duration Patterns": "~40% (Bilateral Deficit)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "2 years post-stroke",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-14"
+          ],
+          "key_findings": "Electrophysiology: ABR was normal. MLR showed reduced amplitudes of the Na-Pa complex for the C4 recording (over the damaged right hemisphere) compared to C3.",
+          "numeric_results": {
+            "ABR": "Normal",
+            "MLR": "Asymmetry (C4 amplitude < C3 amplitude)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This patient presents with a right hemisphere stroke and corpus callosum thinning, resulting in 'alien hand syndrome.' While peripheral hearing is largely preserved (mild high-frequency loss) and speech recognition in quiet is normal, central testing reveals significant deficits. Specifically, there are marked left-ear deficits on dichotic tasks (Rhyme, CVs, Digits), consistent with the compromise of the right hemisphere and transcallosal pathways preventing left-ear information from reaching the left hemisphere for processing. The bilateral deficit on duration patterns suggests a failure of interhemispheric interaction required for pattern perception. MLR results corroborate right hemisphere/subcortical involvement.",
+  "counseling_points": [
+    "Explain that while the 'ears' hear fine (peripheral hearing), the pathways connecting the right and left sides of the brain are thinned/damaged.",
+    "Discuss how this disconnection explains why the left ear performs poorly in challenging listening environments (dichotic tasks), similar to how the left hand acts independently.",
+    "Reassure that speech understanding in quiet remains good.",
+    "Highlight that difficulty with 'patterns' (duration patterns) is expected due to the brain's need to share information between hemispheres to label sounds."
+  ],
+  "notes_for_actor": [
+    "You are a woman in your early 50s.",
+    "You do not feel like you have a hearing problem. If asked, say you hear fine.",
+    "Your main struggle is your left hand. You should occasionally look at your left hand with suspicion or frustration.",
+    "Mention that you had to stop driving because your left hand would grab the wheel unexpectedly.",
+    "You are cooperative and intelligent, but perplexed by your motor symptoms."
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "case_id": "case44_Cochlear_Implantation_in_Chronic_Suppura",
+  "title": "Cochlear Implantation in Chronic Suppurative Otitis Media with Cholesteatoma",
+  "demographics": {
+    "age_years": 39,
+    "sex": "female",
+    "primary_language": "Cantonese",
+    "country_region": "Hong Kong"
+  },
+  "chief_complaint": "I have had ear problems since childhood, but my hearing has gotten much worse recently. I can no longer communicate in daily situations, even with my hearing aids.",
+  "problem_summary": {
+    "onset": "Childhood onset of CSOM; progressive hearing deterioration.",
+    "course": "Gradual deterioration from bilateral moderate mixed loss to bilateral profound sensorineural loss.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Chronic Suppurative Otitis Media (CSOM), Cleft Lip and Palate (CLP), history of left ear tuberculosis with facial palsy, tympanic membrane perforations.",
+    "functional_impact": "Heavy reliance on lipreading; fatigue and frustration in communication; unable to use hearing aids effectively by age 36.",
+    "goals_motivation": "To improve communication ability for work and daily life."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2007-09-17",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is 30 years old. Hearing has gradually deteriorated. She has a 50% central perforation on the left tympanic membrane.",
+        "otologic_history": "Repaired cleft lip and palate. History of left ear tuberculosis and cortical mastoidectomy at age 6. Right ear myringotomy with grommet insertion recently completed.",
+        "prior_management": "Fitted with bilateral high gain/output hearing aids (Phonak SuperFront PP-C-L 4+).",
+        "medical_psych_history": "Left facial palsy (childhood)."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline (Age 30)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 44.1"
+          ],
+          "key_findings": "Bilateral severe-to-profound mixed hearing loss. Air-bone gaps present in lower frequencies indicating conductive component overlaying sensorineural loss.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 55, 500Hz: 60, 1000Hz: 70, 2000Hz: 80, 4000Hz: 90 dB HL",
+            "Left_AC_Thresholds": "250Hz: 60, 500Hz: 70, 1000Hz: 80, 2000Hz: 90, 4000Hz: 100 dB HL",
+            "Bone_Conduction": "Elevated but better than air thresholds (e.g., Right BC ~20-35 dB HL at 500-1000Hz), confirming mixed nature."
+          }
+        },
+        {
+          "name": "Speech Audiometry (Cantonese)",
+          "timepoint_label": "Baseline (Age 30)",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 44.1"
+          ],
+          "key_findings": "Poor speech recognition in auditory-only mode despite high-power hearing aids. Excellent performance when visual cues (lipreading) are added.",
+          "numeric_results": {
+            "Everyday_Sentence_Auditory_Only": "21%",
+            "Everyday_Sentence_Auditory_Visual": "100%",
+            "Open_Set_Sentence_Syllable_Auditory_Only": "18%",
+            "Open_Set_Sentence_Syllable_Auditory_Visual": "85%",
+            "Open_Set_Sentence_Keyword_Auditory_Only": "16%",
+            "Open_Set_Sentence_Keyword_Auditory_Visual": "88%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline (Age 30)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not completed due to persistent conductive pathologies (grommet in right ear, perforation in left ear).",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2013-02-05",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is now 36 years old. Hearing has deteriorated significantly to profound levels. Bilateral myringoplasty was performed recently to obliterate the CSOM process.",
+        "functional_impact": "Patient is no longer able to communicate in daily situations. Unable to repeat sentences with hearing aids.",
+        "prior_management": "Bilateral myringoplasty performed. Hearing aids no longer provide benefit."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-CI Evaluation (Age 36)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 44.2"
+          ],
+          "key_findings": "Deterioration to bilateral profound sensorineural hearing loss. No usable hearing in either ear.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 90, 500Hz: 100, 1000Hz: 110 dB HL; No Response at 2000Hz+",
+            "Left_AC_Thresholds": "250Hz: 90, 500Hz: 105, 1000Hz: 110 dB HL; No Response at 2000Hz+"
+          }
+        },
+        {
+          "name": "Speech Audiometry",
+          "timepoint_label": "Pre-CI Evaluation (Age 36)",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient was not able to repeat any sentences with hearing aids at maximum setting in auditory-only mode. Testing in combined mode not performed due to patient fatigue.",
+          "numeric_results": {
+            "Sentence_Recognition_Auditory_Only": "0% (implied by 'not able to repeat any sentences')"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a history of chronic suppurative otitis media and cleft lip/palate. Over six years (age 30 to 36), hearing progressed from a severe-to-profound mixed loss to a profound sensorineural hearing loss with no usable residual hearing. Speech perception scores with high-power hearing aids dropped to 0% auditory-only, indicating that conventional amplification is no longer beneficial.",
+  "counseling_points": [
+    "Your hearing has decreased to a level where hearing aids are no longer providing enough benefit for speech understanding.",
+    "Cochlear implantation is the recommended option to restore access to sound and improve communication.",
+    "Because of your history of chronic ear infections (CSOM), there are specific risks with the surgery, including a higher risk of infection spreading or meningitis.",
+    "We must ensure your ear is dry and free of active infection before proceeding with implantation.",
+    "Post-surgery, you will need close monitoring to check for any signs of infection or electrode issues."
+  ],
+  "notes_for_actor": [
+    "You have dealt with ear infections and surgeries since you were a child.",
+    "You are very reliant on lipreading. If the audiologist covers their mouth, you cannot understand them.",
+    "By the second visit (age 36), you are frustrated and tired because your hearing aids stopped working for you.",
+    "You are motivated to communicate better for your work and daily life."
+  ]
+}

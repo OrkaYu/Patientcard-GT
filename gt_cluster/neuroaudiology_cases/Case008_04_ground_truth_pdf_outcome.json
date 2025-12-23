@@ -1,0 +1,113 @@
+{
+  "case_id": "Case008_04",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Intractable Epilepsy with Bilateral Cortical Involvement",
+      "rationale_short": "History of mixed seizure disorder since infancy; pre-operative bilateral central auditory deficits attributed to diffuse epileptic activity."
+    },
+    {
+      "rank": 2,
+      "label": "Corpus Callosum Disconnection (Split-Brain Syndrome)",
+      "rationale_short": "Surgical sectioning of the corpus callosum resulted in classic disconnection deficits (left ear dichotic deficit, bilateral pattern deficit)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Establish baseline peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess basic speech recognition abilities."
+      },
+      {
+        "action": "Central Auditory Processing Evaluation",
+        "urgency": "routine",
+        "rationale_short": "Evaluate interhemispheric transfer and central auditory function pre- and post-commissurotomy."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Pre-operative evaluation revealed normal peripheral hearing but symmetrical bilateral deficits on central auditory tests. This pattern implicated bilateral cortical involvement, likely secondary to the patient's long-standing diffuse epileptic activity.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral",
+            "result_summary": "Normal thresholds (250-4000 Hz) bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Peripheral",
+            "result_summary": "Speech recognition scores were 90% or better bilaterally."
+          },
+          {
+            "name": "Central Auditory Processing Evaluation",
+            "category": "Central",
+            "result_summary": "Symmetrical bilateral deficits observed on Dichotic Digits, SSW (~45%), and Frequency Patterns (~65%)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Two weeks following posterior commissurotomy, a marked change in central auditory function was observed. A classic split-brain pattern emerged: the left ear showed profound deficits in dichotic tasks due to disconnection from the language-dominant hemisphere, while the right ear improved to normal levels due to release from central competition. Frequency pattern recognition degraded bilaterally.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral",
+            "result_summary": "Remained normal bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Peripheral",
+            "result_summary": "Remained 90% or better bilaterally."
+          },
+          {
+            "name": "Central Auditory Processing Evaluation",
+            "category": "Central",
+            "result_summary": "Marked change: Right ear SSW improved to ~90% (release from competition); Left ear SSW worsened to ~0-5%; Frequency Patterns worsened bilaterally to <10%."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Two weeks following anterior commissurotomy (5 months after the first surgery), central auditory test results were essentially unchanged from the post-posterior commissurotomy findings. This confirmed that the auditory fibers of the corpus callosum are located in the posterior half.",
+        "tests": [
+          {
+            "name": "Central Auditory Processing Evaluation",
+            "category": "Central",
+            "result_summary": "Results essentially unchanged from the post-posterior commissurotomy findings (Right ear ~90%, Left ear ~0-5% on dichotic tasks; FP <10%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Audiological monitoring of central function pre- and post-surgery"
+    ],
+    "counseling_actions": [
+      "Explain that peripheral hearing sensitivity remains normal.",
+      "Counsel on significant difficulty in noisy environments or when different people are speaking to each ear simultaneously.",
+      "Explain that the left ear will struggle to process speech in competing noise due to the disconnection between the right hemisphere and the language center.",
+      "Discuss the improvement in the right ear as a result of release from central auditory competition."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Routine monitoring of central auditory status following neurosurgery."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2 weeks after each surgical stage",
+    "objective": "Monitor the effects of partial and complete commissurotomy on central auditory processing."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,204 @@
+{
+  "case_id": "Case10_Postconcussive_Tinnitus_and_Hyperacusis",
+  "title": "Postconcussive Tinnitus and Hyperacusis",
+  "demographics": {
+    "age_years": 39,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am having trouble hearing my students in the classroom; I can't separate their voices from the background noise. I am also very sensitive to routine sounds, and by the end of the workday, my ringing is much worse.",
+  "problem_summary": {
+    "onset": "Sudden onset following a motor vehicle accident and moderate concussion.",
+    "course": "Symptoms appeared immediately after the accident; tinnitus worsens throughout the workday and requires recovery time at home.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Multitoned tinnitus, hyperacusis, dull headaches, insomnia, trouble concentrating, light sensitivity, and 'exploding' loud sounds when falling asleep.",
+    "functional_impact": "Difficulty interacting with her 30 students and her own children; retreats to bedroom after work; reduced ability to tolerate classroom noise.",
+    "goals_motivation": "Wants to interact meaningfully with her children and manage classroom noise."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient was rear-ended in a car accident, lost consciousness, and sustained a moderate concussion. Developed bilateral tinnitus, hearing difficulty in noise, and sound sensitivity immediately after.",
+        "otologic_history": "No internal hemorrhaging found on CT scan post-accident.",
+        "noise_exposure_history": "Works as an elementary school teacher with 30 students; reports classroom is quite loud.",
+        "medical_psych_history": "Experiencing fear, insomnia, and trouble concentrating post-concussion. Reports hearing abrupt loud sounds when falling asleep (suggestive of Exploding Head Syndrome).",
+        "prior_management": "Retreats to teachers' lounge or bedroom to regroup/recover from noise exposure.",
+        "patient_goals": "Manage tinnitus and sound sensitivity to improve interactions at work and home."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10.1"
+          ],
+          "key_findings": "Hearing within normal limits from 250 to 4,000 Hz. Mild-to-moderate sensorineural hearing loss observed from 6 to 12.5 kHz bilaterally.",
+          "numeric_results": {
+            "Right_250-4k_Hz": "< 20 dB HL",
+            "Left_250-4k_Hz": "< 20 dB HL",
+            "Right_6k_Hz": "~35 dB HL",
+            "Right_8k_Hz": "~40 dB HL",
+            "Left_6k_Hz": "~40 dB HL",
+            "Left_8k_Hz": "~45 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10.1"
+          ],
+          "key_findings": "Speech recognition thresholds (SRT) in agreement with PTA. Word recognition scores (WRS) were excellent (100%) in both ears at 40 dB SL.",
+          "numeric_results": {
+            "SRT_Right": "10 dB HL",
+            "SRT_Left": "10 dB HL",
+            "WRS_Right": "100% (at 50 dB HL)",
+            "WRS_Left": "100% (at 50 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10.1"
+          ],
+          "key_findings": "Normal ear canal volume, static admittance, and middle ear pressure (Type A).",
+          "numeric_results": {
+            "Right_TPP": "21 daPa",
+            "Left_TPP": "8 daPa",
+            "Right_SC": "0.8 ml",
+            "Left_SC": "0.8 ml"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Could not be tested due to patient's report of sound sensitivity.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tinnitus Pitch Match",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Multitonal tinnitus. Primary sound described as 'crickets in summertime' matched to 6 kHz FRESH noise (central). Secondary sound matched to 1 kHz pure tone (louder in right). Background steady white noise.",
+          "numeric_results": {
+            "Primary_Match": "6 kHz FRESH noise",
+            "Secondary_Match": "1 kHz Pure Tone"
+          }
+        },
+        {
+          "name": "Tinnitus Loudness Match",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Matches obtained at low sensation levels.",
+          "numeric_results": {
+            "FRESH_Noise_Left": "37 dB HL (7 dB SL)",
+            "FRESH_Noise_Right": "35 dB HL (5 dB SL)",
+            "Secondary_Tone_Bilateral": "20 dB HL (10 dB SL re: 1k threshold)"
+          }
+        },
+        {
+          "name": "Minimum Masking Level",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Broadband noise presented binaurally.",
+          "numeric_results": {
+            "MML": "21 dB SL (ref: broadband threshold of -5 dB HL)"
+          }
+        },
+        {
+          "name": "Loudness Discomfort Levels",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 10.1"
+          ],
+          "key_findings": "Reduced dynamic range. LDLs consistently between 75-80 dB HL across frequencies, significantly lower than the typical >= 100 dB HL.",
+          "numeric_results": {
+            "Right_500Hz": "77 dB HL",
+            "Right_4000Hz": "78 dB HL",
+            "Left_500Hz": "77 dB HL",
+            "Left_4000Hz": "78 dB HL"
+          }
+        },
+        {
+          "name": "Residual Inhibition",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Partial suppression experienced after 1-2 minutes of white noise at 10 dB SL.",
+          "numeric_results": {
+            "Pre_Test_Loudness": "8/10",
+            "Post_Test_Loudness": "5/10"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity from 250 to 4000 Hz, sloping to a mild-to-moderate sensorineural hearing loss in the high frequencies (6-12.5 kHz). Despite excellent speech recognition in quiet, she exhibits significant sound tolerance issues with Loudness Discomfort Levels (LDLs) reduced to 75–80 dB HL. She reports complex, multitonal tinnitus which can be partially suppressed with noise, and functional difficulty hearing in background noise.",
+  "counseling_points": [
+    "Explain the connection between the concussion, the auditory system, and the autonomic nervous system (fight or flight response).",
+    "Discuss Tinnitus Retraining Therapy (TRT) principles: the goal is habituation, neutralizing the emotional reaction to the sound.",
+    "Advise against using earplugs in daily environments (like the classroom) as this prevents desensitization; only use them in genuinely dangerous noise levels (concerts).",
+    "Recommend open-fit hearing aids with low-gain amplification and fractal tones (Zen) to manage tinnitus and improve signal-to-noise ratio.",
+    "Reassure that while there is no cure, the condition can be managed to improve quality of life."
+  ],
+  "notes_for_actor": [
+    "Portray a high level of fatigue and anxiety related to noise exposure.",
+    "When describing the 'exploding' sounds at night, express fear and confusion.",
+    "Emphasize that the tinnitus is not just one sound—it is a mix of crickets, tones, and white noise that changes.",
+    "Show visible relief when discussing the quiet of your bedroom, but distress when talking about the classroom chaos."
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "case_id": "case_7_6",
+  "title": "Bilateral Mixed Hearing Loss / Otosclerosis",
+  "demographics": {
+    "age_years": 79,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I've noticed a significant increase in difficulty hearing soft speech in my work environment, even when I'm wearing my hearing aids.",
+  "problem_summary": {
+    "onset": "Long-standing history.",
+    "course": "Progressive; significant worsening noticed since last exam 3 years ago.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "None reported (denies tinnitus or dizziness).",
+    "functional_impact": "Difficulty hearing soft speech at work despite amplification.",
+    "goals_motivation": "Wants to address the increased difficulty hearing."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-01-27",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a long-standing history of bilateral hearing loss and currently uses amplification. He noticed a recent decline in hearing ability, specifically for soft speech at work. Last evaluation 3 years prior showed mixed loss with smaller air-bone gaps (10-15 dB).",
+        "otologic_history": "No reported history of ear pathology, otosurgery, or noise exposure. Denies tinnitus or dizziness.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Family history of hearing loss (2 of 5 siblings).",
+        "prior_management": "Current hearing aid user.",
+        "patient_goals": "Improve hearing for soft speech in work environment."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.6"
+          ],
+          "key_findings": "Right ear: Moderately severe hearing loss (250-3000 Hz) sloping to severe (4000-8000 Hz). Mixed component at 250-1000 Hz with air-bone gaps of 25-30 dB HL. Left ear: Moderate gradually sloping to moderately severe (250-2000 Hz) then severe (3000-8000 Hz). Mixed component at 250-1000 Hz and 4000 Hz with air-bone gaps of 20-30 dB HL.",
+          "numeric_results": {
+            "Right PTA": "65 dB HL",
+            "Left PTA": "62 dB HL",
+            "Right Air-Bone Gaps": "25-30 dB (250-1000 Hz)",
+            "Left Air-Bone Gaps": "20-30 dB (250-1000 Hz)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.6"
+          ],
+          "key_findings": "SRT scores were in agreement with PTA. Word recognition scores (WRS) revealed slight difficulty in the ability to recognize speech at suprathreshold levels.",
+          "numeric_results": {
+            "Right SRT": "65 dB HL",
+            "Left SRT": "55 dB HL",
+            "Right WRS": "84% at 85 dB HL",
+            "Left WRS": "80% at 85 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.6"
+          ],
+          "key_findings": "Right ear: Hypocompliant (Type As). Left ear: Normal (Type A).",
+          "numeric_results": {
+            "Right Static Admittance": "0.20 mL",
+            "Left Static Admittance": "0.30 mL",
+            "Right Peak Pressure": "2 daPa",
+            "Left Peak Pressure": "35 daPa",
+            "Ear Canal Volume": "1.00 mL (AU)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.6"
+          ],
+          "key_findings": "Absent acoustic reflex thresholds from 500 to 4,000 Hz for ipsilateral and contralateral stimulation bilaterally. Decay could not be measured.",
+          "numeric_results": {
+            "Reflexes": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral, asymmetric mixed hearing loss, ranging from moderate to severe. There is a significant conductive component in the low frequencies (air-bone gaps of 20–30 dB) superimposed on a sensorineural loss. Speech recognition remains good at elevated levels. Immittance testing shows reduced compliance in the right ear and absent reflexes bilaterally, consistent with middle ear pathology such as otosclerosis.",
+  "counseling_points": [
+    "Your hearing test shows a 'mixed' hearing loss, meaning there is both nerve-related loss and a mechanical issue in the middle ear preventing sound from getting through efficiently.",
+    "The mechanical issue (conductive component) has progressed since your last visit 3 years ago, which explains why you are struggling more with soft speech.",
+    "Based on these results, I am referring you to an ENT specialist to evaluate for otosclerosis, a condition where the middle ear bones become stiff.",
+    "There are surgical options to correct the mechanical part of the hearing loss, or we can continue to manage this with hearing aids.",
+    "We should evaluate you for Hearing Assistive Technology (HAT) to help in your specific work environment."
+  ],
+  "notes_for_actor": [
+    "You are an older gentleman (approx 80) still active in a work environment.",
+    "You are not complaining of pain or dizziness, just frustration that your hearing aids aren't working as well as they used to.",
+    "You are hesitant about surgery; if offered, you should express a preference to stick with hearing aids for now."
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "case_id": "case_7_7",
+  "title": "Case 7-7: Dementia of the Alzheimer's Type",
+  "demographics": {
+    "age_years": 65,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed considerable problems hearing in general, especially when there is background noise, for about a year. I also feel like I've been stuttering for the past two years and sometimes I hear voices.",
+  "problem_summary": {
+    "onset": "Hearing difficulties noticed approximately 1 year prior; stuttering began 2 years prior.",
+    "course": "Progressive; recently diagnosed with Alzheimer's disease.",
+    "laterality": "Bilateral difficulties reported.",
+    "associated_symptoms": "Minor auditory hallucinations (hearing voices), stuttering, mild memory issues (though not evident in interview).",
+    "functional_impact": "Considerable difficulty in background noise; however, performs well on everyday living tasks.",
+    "goals_motivation": "Determine if hearing problems are central (linked to dementia) or peripheral."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is a physician in his mid-60s recently diagnosed with Alzheimer's. He traveled a long distance for evaluation. Reports hearing loss in noise and stuttering. Wife corroborates he does well on daily tasks.",
+        "otologic_history": "No previous hearing problems reported.",
+        "noise_exposure_history": "No positive history for noise exposure.",
+        "medical_psych_history": "Diagnosed with Alzheimer's disease (mild stage).",
+        "prior_management": "None reported.",
+        "patient_goals": "Differentiation of central vs. peripheral pathology."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-33"
+          ],
+          "key_findings": "Mild, bilateral high-frequency sensorineural hearing loss.",
+          "numeric_results": {
+            "RE_Thresholds_250_to_8k": "10, 10, 20, 20, 25, 25 dB HL",
+            "LE_Thresholds_250_to_8k": "15, 20, 20, 30, 30, 50 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-33"
+          ],
+          "key_findings": "Speech recognition in quiet was essentially normal bilaterally.",
+          "numeric_results": {
+            "RE_WRS": "96%",
+            "LE_WRS": "88%"
+          }
+        },
+        {
+          "name": "Central Auditory Processing Tests",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-34"
+          ],
+          "key_findings": "Behavioral central tests showed major deficits. Severe left ear deficits were noted on all dichotic speech tests. A mild right ear deficit was noted on the SSW (though graph suggests lower scores). Bilateral deficits noted on compressed speech and frequency patterns.",
+          "numeric_results": {
+            "SSW_Right": "~48% (Visual estimate)",
+            "SSW_Left": "~28% (Visual estimate)",
+            "Competing_Sentences_Right": "~92%",
+            "Competing_Sentences_Left": "~0%",
+            "Dichotic_Digits_Right": "~90%",
+            "Dichotic_Digits_Left": "~50%",
+            "Compressed_Speech_Right": "~70%",
+            "Compressed_Speech_Left": "~65%"
+          }
+        },
+        {
+          "name": "Electrophysiology (MLR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Test completed but fraught with artifact; difficult to interpret results. P300 was not completed due to time constraints.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient exhibits a mild peripheral high-frequency sensorineural hearing loss that does not fully explain his significant difficulties in noise. Central testing reveals severe left-ear deficits on dichotic tasks (consistent with right hemisphere or interhemispheric involvement often seen in Alzheimer's) and bilateral deficits in temporal processing (compressed speech/frequency patterns). The pattern suggests significant central auditory involvement superimposed on mild peripheral loss.",
+  "counseling_points": [
+    "Discussed the likelihood of central auditory involvement contributing to hearing difficulties beyond the mild peripheral loss.",
+    "Explained that the 'left ear deficit' on central tests does not mean the ear itself is worse, but relates to how the brain processes sound.",
+    "Discussed amplification options: Hearing aids vs. Assistive Listening Devices (ALDs).",
+    "Recommended exploring ALDs over traditional hearing aids, as patients with dementia may struggle with the manipulation and maintenance of hearing aids, while ALDs can provide better signal-to-noise improvement for specific communication needs.",
+    "Discussed fundamental communication strategies with the patient and his wife."
+  ],
+  "notes_for_actor": [
+    "Portray a physician in his mid-60s who is articulate but has recently started stuttering.",
+    "You are mildly forgetful but generally function well; the dementia is in early stages.",
+    "You are frustrated because you can hear sounds but cannot understand them in noise.",
+    "You mention 'hearing voices' occasionally but describe them as minor hallucinations.",
+    "You are intellectually curious about whether your problem is 'brain' or 'ear'."
+  ]
+}

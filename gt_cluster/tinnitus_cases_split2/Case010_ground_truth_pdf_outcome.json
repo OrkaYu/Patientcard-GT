@@ -1,0 +1,161 @@
+{
+  "case_id": "Case010",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Postconcussive Tinnitus and Hyperacusis",
+      "rationale_short": "Onset of bilateral multitoned tinnitus and sound sensitivity immediately followed a motor vehicle accident and moderate concussion."
+    },
+    {
+      "rank": 2,
+      "label": "Exploding Head Syndrome",
+      "rationale_short": "Patient reports hearing abrupt loud sounds (bangs/explosions) when falling asleep, followed by fear and confusion."
+    },
+    {
+      "rank": 3,
+      "label": "High-Frequency Sensorineural Hearing Loss",
+      "rationale_short": "Audiometry reveals mild-to-moderate hearing loss from 6 to 12.5 kHz bilaterally."
+    },
+    {
+      "rank": 4,
+      "label": "Central Auditory Processing Deficits",
+      "rationale_short": "Difficulty hearing in noise despite normal speech recognition in quiet; a known sequela of concussions."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity across standard and high frequencies."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc, though often deferred in hyperacusis."
+      },
+      {
+        "action": "Tinnitus Pitch Match",
+        "urgency": "routine",
+        "rationale_short": "To identify the frequency characteristics of the patient's tinnitus."
+      },
+      {
+        "action": "Tinnitus Loudness Match",
+        "urgency": "routine",
+        "rationale_short": "To estimate the perceived loudness of the tinnitus."
+      },
+      {
+        "action": "Minimum Masking Level",
+        "urgency": "routine",
+        "rationale_short": "To determine the level of noise required to cover the tinnitus."
+      },
+      {
+        "action": "Loudness Discomfort Levels",
+        "urgency": "routine",
+        "rationale_short": "To quantify sound tolerance and dynamic range."
+      },
+      {
+        "action": "Residual Inhibition",
+        "urgency": "routine",
+        "rationale_short": "To check for temporary suppression of tinnitus after noise exposure."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation revealed normal hearing in the standard range with high-frequency sensorineural hearing loss. Significant hyperacusis was evidenced by reduced Loudness Discomfort Levels (75-80 dB HL). Tinnitus assessment showed a multitonal percept (high-frequency noise and 1 kHz tone) with partial residual inhibition. Middle ear function was normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal limits 250-4000 Hz; mild-to-moderate SNHL from 6 to 12.5 kHz bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs 10 dB HL bilaterally; WRS 100% at 40 dB SL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A bilaterally (normal volume, admittance, and pressure)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Could not be tested due to patient's report of sound sensitivity."
+          },
+          {
+            "name": "Tinnitus Pitch Match",
+            "category": "Tinnitus Assessment",
+            "result_summary": "Primary: 6 kHz FRESH noise (central). Secondary: 1 kHz pure tone (louder in right)."
+          },
+          {
+            "name": "Tinnitus Loudness Match",
+            "category": "Tinnitus Assessment",
+            "result_summary": "FRESH noise matched at 5-7 dB SL; 1 kHz tone matched at 10 dB SL."
+          },
+          {
+            "name": "Minimum Masking Level",
+            "category": "Tinnitus Assessment",
+            "result_summary": "21 dB SL (ref: broadband threshold of -5 dB HL)."
+          },
+          {
+            "name": "Loudness Discomfort Levels",
+            "category": "Hyperacusis Assessment",
+            "result_summary": "Reduced dynamic range; LDLs 75-80 dB HL across frequencies."
+          },
+          {
+            "name": "Residual Inhibition",
+            "category": "Tinnitus Assessment",
+            "result_summary": "Partial suppression (loudness reduced from 8/10 to 5/10) after 1-2 minutes of white noise."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Binaural Widex Evoke 440 Fusion 2 receiver-in-the-canal (RIC) hearing aids coupled to open domes.",
+      "Low-gain amplification (5 dB) provided across all frequencies.",
+      "Implementation of Zen fractal tones programs (with and without amplification/noise) for tinnitus management.",
+      "White noise program for desensitization of hyperacusis.",
+      "Sound therapy focused on habituation and desensitization."
+    ],
+    "counseling_actions": [
+      "Explain the connection between concussion, the auditory system, and the autonomic nervous system.",
+      "Discuss Tinnitus Retraining Therapy (TRT) principles, focusing on habituation and neutralizing emotional reaction.",
+      "Advise against using earplugs in daily environments to avoid preventing desensitization.",
+      "Counsel on the nature of Exploding Head Syndrome to reduce fear."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient has been medically cleared; proceed with audiological management of tinnitus and hyperacusis."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "5 times over the next 5 months",
+    "objective": "Monitor tinnitus distress (THI), hyperacusis impact (HQ), and LDLs; adjust hearing aid settings."
+  },
+  "expected_outcome": [
+    "Tinnitus Handicap Inventory (THI) score reduced from 48 (moderate) at baseline to 16 at the 3-month follow-up.",
+    "Hyperacusis Questionnaire score reduced from 72 (severe) at baseline to 36 at the 3-month follow-up.",
+    "Loudness Discomfort Levels (LDLs) improved by 3 to 5 dB across all frequencies (range 78-83 dB HL) at the 5-month follow-up.",
+    "Pure-tone thresholds remained unchanged on repeat audiogram.",
+    "Patient reported an overall decrease in sound sensitivity and improvement in tinnitus distress, though still required some decompression time."
+  ]
+}

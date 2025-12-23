@@ -1,0 +1,82 @@
+{
+  "case_id": "Case006_17",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Eustachian Tube Dysfunction",
+      "rationale_short": "Bilateral aural fullness, history of seasonal allergies, and excessive negative middle ear pressure."
+    },
+    {
+      "rank": 2,
+      "label": "Otitis Media with Effusion",
+      "rationale_short": "Conductive hearing loss and otologist notation of fluid behind tympanic membranes."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity given reports of hearing loss and fullness."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status given conductive component and sensation of fullness."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation reveals a bilateral low-frequency conductive hearing loss, mild in the right ear and slight in the left, rising to normal in the high frequencies. Speech recognition ability is excellent bilaterally. Tympanometry indicates excessive negative middle ear pressure in both ears, consistent with Eustachian tube dysfunction and middle ear fluid secondary to seasonal allergies.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: mild rising to slight conductive hearing loss (250-1000 Hz), normal 2000-8000 Hz. Left ear: slight conductive hearing loss (250-500 Hz), normal 1000-8000 Hz. Normal bone conduction bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 25 dB HL, Left 18 dB HL. WRS: Right 100%, Left 96%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Bilateral excessive negative pressure (Right -180 daPa, Left -140 daPa). Static admittance 0.3 mmho bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Use of Otovent device",
+      "Medical management of allergies",
+      "Hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Explanation of conductive hearing loss and relationship to allergies/Eustachian tube dysfunction",
+      "Instruction on use of Otovent",
+      "Recommendation for annual hearing check"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngology",
+      "rationale_short": "For medical management of middle ear fluid and allergies, followed by audiological retest."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post medical management and in 1 year",
+    "objective": "Retest hearing to confirm resolution of conductive component."
+  },
+  "expected_outcome": []
+}

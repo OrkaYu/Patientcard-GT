@@ -1,0 +1,129 @@
+{
+  "case_id": "case_7_17",
+  "title": "Mixed Hearing Loss with Facial Nerve Symptoms",
+  "demographics": {
+    "age_years": 49,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I hear a static sound in my left ear, and my hearing has gotten worse on that side. I also have some twitching in my face and lip on the left.",
+  "problem_summary": {
+    "onset": "2 years ago (tinnitus), 6 months later (hearing loss).",
+    "course": "Progressive hearing loss; static tinnitus has been constant.",
+    "laterality": "Left ear primarily; patient reported noticing loss in right ear but testing shows normal hearing there.",
+    "associated_symptoms": "Static tinnitus (left), facial twitching (left lip, nose, eye). Yawning temporarily improves hearing for a few seconds.",
+    "functional_impact": "Difficulty hearing in the left ear.",
+    "goals_motivation": "Evaluation of hearing loss and facial symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-01-27",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient noted static sound in left ear 2 years ago without initial hearing loss. Six months later, hearing decreased. Yawning improves hearing briefly. Occasional twitching of left face/lip/nose/eye.",
+        "otologic_history": "No other reported otologic symptoms.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Facial twitching noted.",
+        "prior_management": "None reported.",
+        "patient_goals": "Diagnosis and management."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.17"
+          ],
+          "key_findings": "Right ear: Normal thresholds sloping to slight SNHL at 4kHz. Left ear: Slight to mild mixed hearing loss (250-2000 Hz) sloping to moderate/moderately-severe mixed loss in high frequencies. Significant air-bone gaps present in low frequencies despite normal tympanometry.",
+          "numeric_results": {
+            "Right PTA": "7 dB HL",
+            "Left PTA": "25 dB HL",
+            "Left AC Thresholds": "250Hz: 25, 500Hz: 30, 1kHz: 30, 2kHz: 30, 4kHz: 60 dB HL",
+            "Left BC Thresholds": "250-2000Hz: 0 dB HL (indicating air-bone gap)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.17"
+          ],
+          "key_findings": "Excellent word recognition scores bilaterally. SRTs in agreement with pure-tone averages.",
+          "numeric_results": {
+            "Right SRT": "7 dB HL",
+            "Right WRS": "96% (at 55 dB HL)",
+            "Left SRT": "25 dB HL",
+            "Left WRS": "96% (at 80 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.17"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally, indicating normal eardrum mobility and middle ear pressure.",
+          "numeric_results": {
+            "Right Volume": "1.7 mL",
+            "Right Peak Pressure": "15 daPa",
+            "Left Volume": "1.8 mL",
+            "Left Peak Pressure": "10 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.17"
+          ],
+          "key_findings": "Right Ipsi present. Left Ipsi absent. Contralateral reflexes measured in the left ear (Stim R/Meas L) were absent or elevated. Contralateral reflexes measured in the right ear (Stim L/Meas R) were present. Pattern suggests left efferent (facial nerve) pathway pathology.",
+          "numeric_results": {
+            "Right Ipsi (Stim R/Meas R)": "Present (85-95 dB)",
+            "Left Ipsi (Stim L/Meas L)": "Absent",
+            "Right Contra (Stim R/Meas L)": "Absent at 500/2k/4k, Elevated (105) at 1k",
+            "Left Contra (Stim L/Meas R)": "Present (90-95 dB) except 4k"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a left mixed hearing loss characterized by low-frequency air-bone gaps and high-frequency sensorineural involvement. Speech understanding remains excellent. Despite the conductive component (air-bone gap), tympanometry is normal (Type A). Acoustic reflexes are absent when measured in the left ear (probe left), consistent with the reported facial twitching and suggesting pathology affecting the left facial nerve (VII) or middle ear mechanics not detected by tympanometry.",
+  "counseling_points": [
+    "Your hearing test shows a mixed hearing loss in the left ear, meaning there is a combination of nerve loss and a problem with how sound is conducted through the ear.",
+    "Interestingly, your eardrum movement test is normal, but your acoustic reflexes (a muscle reaction in the ear) are absent on the left side.",
+    "Given the combination of your hearing loss pattern, the reflex results, and the facial twitching you reported, we need to investigate the nerve that controls facial movement and hearing.",
+    "I am referring you for an MRI to look closely at the structures of the inner ear and the facial nerve."
+  ],
+  "notes_for_actor": [
+    "You are a 49-year-old male.",
+    "You are concerned about the twitching in your face (lip, nose, eye) on the left side.",
+    "Mention that yawning makes your hearing better for just a few seconds.",
+    "You might think you have hearing loss in the right ear too, but be relieved when told it is normal."
+  ]
+}

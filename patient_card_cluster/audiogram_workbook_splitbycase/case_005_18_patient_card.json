@@ -1,0 +1,128 @@
+{
+  "case_id": "case_5_18",
+  "title": "Cystic Fibrosis with History of Ototoxic Medication",
+  "demographics": {
+    "age_years": 39,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I don't have any major difficulties communicating, but the hearing in my left ear has been poor for as long as I can remember.",
+  "problem_summary": {
+    "onset": "Childhood/Long-standing",
+    "course": "Stable (patient has no memory of normal hearing in the left ear)",
+    "laterality": "Left",
+    "associated_symptoms": "None (denies tinnitus or dizziness)",
+    "functional_impact": "None reported",
+    "goals_motivation": "Monitoring status post-transplant and ototoxic exposure."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-03-25",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports long-standing poor hearing in the left ear with no memory of normal hearing on that side. No significant communication difficulties reported.",
+        "otologic_history": "No reported familial hearing loss, ear pathology, or noise exposure. Denies tinnitus or dizziness.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Diagnosed with cystic fibrosis at age 5. Lung transplant (1998) and kidney transplant (2005). History of supraventricular tachycardia (medicated).",
+        "prior_management": "Received intravenous tobramycin and nebulized gentamicin intermittently for approximately 10 years.",
+        "patient_goals": "Assessment and monitoring."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5.18"
+          ],
+          "key_findings": "Right ear shows normal hearing sensitivity (0-10 dB HL). Left ear shows a mild-to-moderate low-frequency sensorineural hearing loss rising to normal at 2000 Hz and above.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "LE_AC_Thresholds": "250Hz: 35, 500Hz: 40, 1000Hz: 35, 2000Hz: 15, 4000Hz: 10, 8000Hz: 10 dB HL",
+            "LE_BC_Thresholds": "Consistent with air conduction (sensorineural)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5.18"
+          ],
+          "key_findings": "SRT aligns with pure tone findings. Word recognition is excellent in the right ear and good in the left ear.",
+          "numeric_results": {
+            "RE_SRT": "3 dB",
+            "RE_WRS": "92% (at 55 dB HL)",
+            "LE_SRT": "37 dB",
+            "LE_WRS": "88% (at 65 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5.18"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "RE_Vol": "1.40 mL",
+            "RE_Static_Admittance": "0.60 mmho",
+            "RE_Peak_Pressure": "10 daPa",
+            "LE_Vol": "1.30 mL",
+            "LE_Static_Admittance": "0.60 mmho",
+            "LE_Peak_Pressure": "20 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5.18"
+          ],
+          "key_findings": "Normal acoustic reflex thresholds for ipsilateral and contralateral stimulation. Decay was negative.",
+          "numeric_results": {
+            "Reflex_Thresholds": "Present between 85-100 dB HL at 500-4000 Hz",
+            "Decay": "Negative at 500 and 1000 Hz"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity in the right ear and a mild-to-moderate low-frequency sensorineural hearing loss in the left ear, which recovers to normal in the high frequencies. Speech recognition is excellent bilaterally, though slightly reduced in the left ear consistent with the low-frequency loss. Middle ear function is normal bilaterally. The asymmetry appears long-standing and unrelated to the history of ototoxic medication, which typically affects high frequencies bilaterally.",
+  "counseling_points": [
+    "Your hearing test confirms normal hearing in your right ear and the low-pitch hearing loss in your left ear that you reported.",
+    "Because you have one normal ear, you are doing well with communication, but it is very important to protect your hearing in noisy environments.",
+    "Given your history of medication use and the hearing loss in the left ear, we recommend annual hearing tests to monitor for any changes.",
+    "If you notice increased difficulty communicating in the future, we can discuss assistive listening devices or amplification."
+  ],
+  "notes_for_actor": [
+    "You are a 39-year-old male with a complex medical history (Cystic Fibrosis, two transplants).",
+    "You are not anxious about your hearing; the left ear issue is old news to you ('as long as I can remember').",
+    "You do not feel you have communication problems.",
+    "You are cooperative and there for monitoring recommended by your doctors."
+  ]
+}

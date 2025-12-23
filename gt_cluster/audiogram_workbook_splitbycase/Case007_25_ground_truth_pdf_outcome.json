@@ -1,0 +1,102 @@
+{
+  "case_id": "Case007_25",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Tympanosclerosis (Right Ear)",
+      "rationale_short": "ENT evaluation determined this was the cause of the conductive component in the right ear."
+    },
+    {
+      "rank": 2,
+      "label": "Mixed Hearing Loss (Right Ear)",
+      "rationale_short": "Audiogram shows moderate to severe loss with significant air-bone gap; normal tympanogram suggests ossicular stiffness or fixation."
+    },
+    {
+      "rank": 3,
+      "label": "Sensorineural Hearing Loss (Left Ear)",
+      "rationale_short": "Slight to moderately severe SNHL consistent with presbycusis given age."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To establish hearing thresholds and determine the degree and type of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and tympanic membrane mobility."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and check for retrocochlear or middle ear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with asymmetric hearing loss. The right ear shows a moderate sloping to severe mixed hearing loss with a significant air-bone gap, while the left ear shows a slight sloping to moderately severe sensorineural hearing loss. Speech recognition is good in the right ear and excellent in the left. Tympanometry is normal bilaterally (Type A), but acoustic reflexes are largely absent or elevated, consistent with the conductive component in the right ear and degree of loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderate sloping to severe mixed loss (250-8000 Hz) with air-bone gap. Left ear: Slight sloping to mild SNHL (250-2000 Hz) dropping to moderately severe (3000-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 60 dB HL, WRS 80% (slight difficulty). Left ear: SRT 33 dB HL, WRS 96% (normal)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanograms bilaterally (Type A)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral/contralateral absent. Left ipsilateral elevated/absent at 4k Hz; Left contralateral absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation",
+      "Bilateral amplification"
+    ],
+    "counseling_actions": [
+      "Discuss the asymmetric and mixed nature of the hearing loss",
+      "Explain the need for medical evaluation due to the conductive component and asymmetry"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric hearing loss",
+      "Conductive component (Air-Bone Gap)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "Referral required for evaluation of mixed hearing loss and asymmetry to rule out active pathology."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Following medical clearance",
+    "objective": "Proceed with hearing aid evaluation and fitting."
+  },
+  "expected_outcome": [
+    "ENT evaluation determined tympanosclerosis was the cause of the conductive component of the hearing loss in the right ear.",
+    "No medical or surgical intervention was recommended.",
+    "The patient was referred to audiology for a hearing aid evaluation, where she purchased and was fit with bilateral amplification."
+  ]
+}

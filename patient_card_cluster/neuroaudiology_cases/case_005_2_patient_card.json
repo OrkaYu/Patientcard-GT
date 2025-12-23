@@ -1,0 +1,247 @@
+{
+  "case_id": "case_5_2",
+  "title": "Trigeminal Schwannoma with Brainstem Compression",
+  "demographics": {
+    "age_years": 32,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been having bad headaches and pain on the top of my head. Recently, I've noticed numbness on the right side of my face, ringing in both ears, and loud sounds have become intolerable.",
+  "problem_summary": {
+    "onset": "Approximately 1 year prior to consultation.",
+    "course": "Progressive. Started with vertex pain/headaches, followed by transient right facial pain, then facial numbness (5 months later), and finally bilateral tinnitus and sound intolerance.",
+    "laterality": "Bilateral auditory symptoms (tinnitus); Right-sided facial symptoms.",
+    "associated_symptoms": "Vertex pain, bitemporal headaches, right facial numbness (eye, upper lip, nose), hyperacusis (intolerance to loud sounds).",
+    "functional_impact": "Intolerance to loud sounds and persistent pain/numbness.",
+    "goals_motivation": "Diagnosis and relief of neurological and auditory symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Preoperative)",
+      "history": {
+        "present_illness": "Patient presented with a 1-year history of headaches and a 5-month history of right facial numbness. Symptoms worsened to include bilateral tinnitus and hyperacusis.",
+        "otologic_history": "No specific prior otologic history mentioned.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Diagnosed sinus condition with occasional facial pain.",
+        "prior_management": "Referral to audiology after worsening of symptoms.",
+        "patient_goals": "Evaluation of auditory symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-5"
+          ],
+          "key_findings": "Thresholds essentially normal bilaterally.",
+          "numeric_results": {
+            "thresholds": "0-15 dB HL across 250-8000 Hz (visual estimate from Figure 5-5)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-5"
+          ],
+          "key_findings": "Excellent recognition at 30 dB SL, but the right ear showed 'rollover' at high intensities.",
+          "numeric_results": {
+            "RE_score": "100%",
+            "LE_score": "92%"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 5-1"
+          ],
+          "key_findings": "Contralateral reflexes elevated or absent for the right ear; borderline abnormal for the left ear.",
+          "numeric_results": {
+            "Stim_Right_500Hz": "112 dB HL",
+            "Stim_Right_1k_2k_4k": "NR (No Response)",
+            "Stim_Left_500Hz": "100 dB HL",
+            "Stim_Left_1k_2k": "90 dB HL",
+            "Stim_Left_4k": "110 dB HL"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-6",
+            "Figure 5-7"
+          ],
+          "key_findings": "Right ear: Large Wave I and small, difficult to observe IV-V complex. Wave I-III latency slightly extended. Left ear: Normal. Abnormal ILD for Wave V.",
+          "numeric_results": {
+            "RE_Wave_I_amp": "0.8 µvolts",
+            "RE_Wave_IV-V_amp": "0.17 µvolts",
+            "RE_I-III_latency": "2.44 msec",
+            "Wave_V_ILD": "0.6 msec"
+          }
+        },
+        {
+          "name": "CT Scan",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-8"
+          ],
+          "key_findings": "Mass lesion at lateral aspect of pons extending into CPA. Tumor measured approx 4 cm, arising from Trigeminal (Vth) nerve.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (4 months Post-op)",
+      "history": {
+        "present_illness": "Follow-up after surgical removal of Trigeminal Schwannoma.",
+        "otologic_history": "Tumor removed; Vth, VIIth, VIIIth nerves displaced but preserved.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Recovered well.",
+        "prior_management": "Surgery.",
+        "patient_goals": "Re-evaluation. Tinnitus persists, but intolerance to loud sounds has resolved."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Essentially unchanged bilaterally (normal).",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Excellent scores with no 'roll-over' for either ear.",
+          "numeric_results": null
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 5-1"
+          ],
+          "key_findings": "Reflexes now present in the right ear. Left ear reflexes obtained at lower levels than pre-op.",
+          "numeric_results": {
+            "Stim_Right_500Hz": "90 dB HL",
+            "Stim_Right_1000Hz": "85 dB HL",
+            "Stim_Right_2000Hz": "85 dB HL",
+            "Stim_Right_4000Hz": "105 dB HL"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Post-op",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-6"
+          ],
+          "key_findings": "Little change in latencies, but Wave I decreased in amplitude and Wave V increased markedly in amplitude compared to pre-op.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Research Follow-up (5 years Post-op)",
+      "history": {
+        "present_illness": "Long-term follow-up.",
+        "otologic_history": "Previous tumor removal.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Completely recovered aside from tinnitus.",
+        "prior_management": null,
+        "patient_goals": "Research subject participation."
+      },
+      "tests": [
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Follow-up",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-6"
+          ],
+          "key_findings": "Wave V latency decreased by 0.6 msec compared to 4-month post-op check (suggesting plasticity/neural recovery).",
+          "numeric_results": {
+            "Latency_Change": "-0.6 msec improvement"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 32-year-old female presented with normal hearing sensitivity but retrocochlear signs (rollover, absent reflexes, abnormal ABR morphology) in the right ear. Imaging revealed a large Trigeminal (Vth nerve) Schwannoma compressing the brainstem/CPA. Post-surgical removal resulted in the resolution of hyperacusis and 'rollover', return of acoustic reflexes, and normalization of ABR amplitude ratios (Wave V amplitude increased). Long-term follow-up showed significant latency improvement, suggesting neural plasticity and recovery of the auditory pathway after decompression.",
+  "counseling_points": [
+    "Explain that the hearing loss symptoms (rollover, processing issues) were caused by the tumor compressing the auditory nerve and brainstem, even though the tumor grew from the facial sensation nerve (Trigeminal).",
+    "Discuss the 'rollover' phenomenon: hearing was good at low volumes, but clarity got worse as sound got louder due to neural compression.",
+    "Highlight the positive surgical outcome: preservation of hearing sensitivity and recovery of neural function (reflexes returned, ABR improved).",
+    "Address persistent tinnitus: While the tumor is gone, the ringing may persist due to prior nerve stress or central changes, but hyperacusis (sound sensitivity) has resolved."
+  ],
+  "notes_for_actor": [
+    "In the pre-op phase, you are in pain (headaches) and anxious about the numbness in your face.",
+    "You are particularly bothered by loud sounds (hyperacusis)—flinch if the audiologist speaks too loudly or plays loud tones.",
+    "Post-op, you are relieved the pain and sound sensitivity are gone, but you still hear the ringing (tinnitus).",
+    "You are cooperative and interested in the 'research' aspect of your recovery 5 years later."
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "case_id": "Case032",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Endolymphatic Sac Tumor (ELST)",
+      "rationale_short": "Imaging revealed a large enhancing mass on the posterior surface of the petrous temporal bone extending into the CPA and middle ear; confirmed by histopathology."
+    },
+    {
+      "rank": 2,
+      "label": "Glomus Tympanicum",
+      "rationale_short": "Initial working diagnosis based on the otoscopic visualization of a bright red mass behind the left tympanic membrane."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Initial inspection of ear canals and tympanic membranes."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Comprehensive evaluation of hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Evaluation of retrocochlear and middle ear pathways."
+      },
+      {
+        "action": "Videonystagmography (VNG)",
+        "urgency": "soon",
+        "rationale_short": "Evaluation of vestibular function given reports of vertigo."
+      },
+      {
+        "action": "Diagnostic Imaging (MRI/CT)",
+        "urgency": "urgent",
+        "rationale_short": "Visualization of temporal bone and intracranial structures to identify pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Otoscopy revealed a red mass behind the left TM. Audiometry showed normal hearing on the right and profound sensorineural hearing loss on the left. Tympanometry was normal bilaterally, but acoustic reflexes were absent in all conditions involving the left ear (stimulus or probe), consistent with retrocochlear and middle ear pathology.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Clear canals bilaterally; bright red mass visualized behind the left tympanic membrane."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal (0-10 dB HL). Left ear profound SNHL with no measurable response at limits (110-120 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear SRT 12 dB HL, WRS 100%. Left ear SRT and WRS could not be tested due to severity of loss."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral present. Right contralateral, Left ipsilateral, and Left contralateral absent."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "VNG testing indicated a complete (100%) left unilateral weakness on standard caloric testing. However, ice-water irrigation evoked nystagmus in the left ear, confirming residual high-frequency vestibular function. Imaging confirmed a large tumor eroding the temporal bone and encasing ossicles.",
+        "tests": [
+          {
+            "name": "Videonystagmography (VNG)",
+            "category": "Vestibular",
+            "result_summary": "100% left unilateral weakness on standard calorics. Ice water irrigation in left ear evoked nystagmus (10 deg/sec), indicating residual high-frequency function."
+          },
+          {
+            "name": "Diagnostic Imaging (MRI/CT)",
+            "category": "Imaging",
+            "result_summary": "MRI showed 2.4 x 2.7 cm enhancing mass on posterior petrous temporal bone. CT showed extension into CPA, IAC, and tympanic cavity, encasing ossicles."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical removal of tumor (transotic approach)",
+      "Vestibular therapy (post-surgical)",
+      "Osseointegrated hearing device (rehabilitation option)",
+      "Contralateral Routing Of the Signal (CROS) hearing system (rehabilitation option)"
+    ],
+    "counseling_actions": [
+      "Discuss profound left hearing loss and significant vestibular weakness.",
+      "Explain that surgery will eliminate residual vestibular function, causing acute post-op dizziness.",
+      "Counsel on the need for vestibular therapy to facilitate central compensation.",
+      "Discuss that hearing cannot be preserved in the left ear due to the transotic surgical approach.",
+      "Review rehabilitation options for single-sided deafness (CROS or osseointegrated device)."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral profound sensorineural hearing loss",
+      "Bright red mass behind tympanic membrane",
+      "Incapacitating vertigo with vomiting"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurotology",
+      "rationale_short": "Presence of a destructive temporal bone tumor (ELST) requiring surgical intervention."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-surgical",
+    "objective": "Monitor recovery, manage vestibular compensation, and address hearing rehabilitation."
+  },
+  "expected_outcome": [
+    "Surgical intervention was successful in removing more than 90% of the ELST.",
+    "Intraoperative monitoring indicated preservation of function of the left facial nerve.",
+    "Patient reported postsurgical dizziness and postural unsteadiness, currently addressed through vestibular therapy."
+  ]
+}

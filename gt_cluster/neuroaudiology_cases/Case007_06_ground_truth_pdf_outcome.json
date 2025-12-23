@@ -1,0 +1,117 @@
+{
+  "case_id": "Case007_06",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Deficit (secondary to seizure disorder)",
+      "rationale_short": "Pre-operative testing showed severe deficits in dichotic listening and absent late potentials despite normal peripheral hearing. Post-lobectomy improvement confirms the deficits were due to interference from seizure activity."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities in quiet."
+      },
+      {
+        "action": "Dichotic digits test",
+        "urgency": "routine",
+        "rationale_short": "To evaluate central auditory processing and interhemispheric transfer."
+      },
+      {
+        "action": "Late potentials and P300s",
+        "urgency": "routine",
+        "rationale_short": "To assess cortical auditory evoked responses and cognitive processing."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Pre-operative evaluation demonstrated normal peripheral hearing but severe central auditory deficits. While pure tone thresholds and speech recognition were normal, the patient showed severely depressed dichotic digits scores bilaterally and a complete absence of repeatable late auditory evoked potentials (N1, P2, P300). These findings are consistent with cortical interference caused by the seizure disorder.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Bilaterally normal thresholds."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Normal speech recognition scores."
+          },
+          {
+            "name": "Dichotic digits test",
+            "category": "Central",
+            "result_summary": "Severely depressed performance: Left Ear 15%, Right Ear 25%."
+          },
+          {
+            "name": "Late potentials and P300s",
+            "category": "Electrophysiology",
+            "result_summary": "No repeatable responses were discernible for any presentation."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "One week following left temporal lobectomy, peripheral hearing remained normal, but central auditory processing improved dramatically. Dichotic digits scores returned to near normal. Late potentials became identifiable, particularly with left ear stimulation. Right ear stimulation (contralateral to the resection) yielded poorer morphology and questionable P300 responses, suggesting a contralateral ear effect.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Remained bilaterally normal."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Remained normal."
+          },
+          {
+            "name": "Dichotic digits test",
+            "category": "Central",
+            "result_summary": "Improved dramatically to almost normal: Left Ear 85%, Right Ear 88%."
+          },
+          {
+            "name": "Late potentials and P300s",
+            "category": "Electrophysiology",
+            "result_summary": "Left Ear Stim: Repeatable N1/P2, large but delayed P300. Right Ear Stim: Definite P2, possible shallow N1, noisy/questionable P300."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor recovery of communication ability and central auditory function."
+    ],
+    "counseling_actions": [
+      "Explain that pre-operative difficulty with verbal directions was likely due to 'interference' from seizure activity.",
+      "Highlight the significant post-operative improvement in processing speech (dichotic digits).",
+      "Discuss that while behavioral scores improved, some electrophysiological responses (especially right ear stimulation) remain abnormal due to the surgical removal of tissue.",
+      "Monitor for any changes in communication ability as the brain heals."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Patient is post-operative and showing improvement; continue routine monitoring of seizure status and auditory recovery."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor for changes in communication ability and central auditory nervous system function."
+  },
+  "expected_outcome": [
+    "Dramatic postsurgical improvements in auditory function as measured by dichotic digits and late auditory evoked potentials.",
+    "Frequency and severity of seizures markedly reduced.",
+    "Patient is able to perform at her job in a better manner.",
+    "In most everyday situations the patient experiences no significant communication difficulties."
+  ]
+}

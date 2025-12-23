@@ -1,0 +1,95 @@
+{
+  "case_id": "Case007_19",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acute Otitis Media",
+      "rationale_short": "Sudden onset bilateral mixed hearing loss, aural fullness, history of bad allergies, and Type B tympanograms consistent with middle ear fluid/infection."
+    },
+    {
+      "rank": 2,
+      "label": "Otitis Media with Effusion",
+      "rationale_short": "Presence of middle ear fluid indicated by air-bone gaps and flat tympanograms, likely secondary to allergic rhinitis."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and tympanic membrane mobility."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the acoustic reflex arc and middle ear status."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates bilateral mixed hearing loss, worse in the left ear, with significant air-bone gaps. Immittance testing reveals flat tympanograms (Type B) bilaterally with normal ear canal volumes and absent acoustic reflexes, strongly suggesting middle ear pathology such as effusion. Despite the hearing loss, word recognition scores are excellent, indicating intact cochlear function for speech understanding.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral mixed hearing loss. Right ear: mild sloping to moderate (250-2000 Hz) then to severe. Left ear: mild sloping to moderate (250-2000 Hz) then to profound. Significant air-bone gaps bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT (Right 42 dB, Left 48 dB) consistent with PTA. WRS excellent (100%) bilaterally at suprathreshold levels (Right 75 dB HL, Left 80 dB HL)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Flat (Type B) tympanograms bilaterally with normal ear canal volumes (Right 1.5 mL, Left 1.2 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes at 500, 1000, 2000, and 4000 Hz bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Prescription of steroid nasal spray",
+      "Prescription of allergy medication",
+      "Medical management of acute otitis media"
+    ],
+    "counseling_actions": [
+      "Explain the mixed nature of the hearing loss due to fluid in the middle ear",
+      "Discuss the relationship between allergies and middle ear fluid",
+      "Reassure the patient regarding excellent word recognition ability",
+      "Advise on the importance of medication compliance and follow-up"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset bilateral hearing loss"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "ENT specialist",
+      "rationale_short": "Immediate medical management required for sudden hearing loss diagnosed as acute otitis media."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month",
+    "objective": "To monitor resolution of middle ear pathology and hearing status following medical treatment."
+  },
+  "expected_outcome": []
+}

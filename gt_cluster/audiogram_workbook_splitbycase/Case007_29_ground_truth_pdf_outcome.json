@@ -1,0 +1,90 @@
+{
+  "case_id": "Case007_29",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Active Chronic Otitis Media (Right Ear)",
+      "rationale_short": "Presence of white otorrhea, otalgia, and mixed hearing loss in the context of prior tympanomastoidectomy."
+    },
+    {
+      "rank": 2,
+      "label": "Mixed Hearing Loss (Bilateral)",
+      "rationale_short": "Bilateral air-bone gaps and history of chronic ear disease and surgeries (tympanomastoidectomy/tympanoplasty)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess degree, type, and configuration of hearing loss given reported progression."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function, though measurement may be limited by surgical history."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation reveals asymmetric bilateral mixed hearing loss, worse in the right ear, consistent with the history of chronic ear disease and surgeries. Speech recognition is good bilaterally. Immittance testing was not possible due to altered ear canal anatomy from previous surgeries.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderate to moderately severe mixed loss (250-500 Hz), rising to moderate (1-2 kHz), sloping to severe mixed loss (3-8 kHz). Left ear: Moderate rising to slight mixed loss (250-1000 Hz), sloping to mild SNHL (2-3 kHz), then moderately severe mixed loss (4-8 kHz). Air-bone gaps present bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 52 dB HL, Left 28 dB HL (consistent with PTA). WRS: Right 84% at 80 dB HL, Left 84% at 65 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Could not be measured due to previous otosurgery."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Medical treatment for right ear infection (medication provided)",
+      "Consideration of further surgery",
+      "Annual hearing test",
+      "Hearing aid evaluation (pending medical clearance)",
+      "Hearing Assistive Technology (HAT)",
+      "Hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Advise on importance of medication compliance for ear infection",
+      "Discuss need for medical clearance before pursuing hearing aids",
+      "Counsel on hearing protection due to dizziness and history of ear disease"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "White otorrhea (right ear)",
+      "Daily dizziness",
+      "Otalgia",
+      "Progressive hearing loss"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Otologist",
+      "rationale_short": "Active infection with drainage, dizziness, and history of chronic ear disease requires immediate medical management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month",
+    "objective": "Medical follow-up to check infection status and consider further surgery."
+  },
+  "expected_outcome": []
+}

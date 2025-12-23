@@ -1,0 +1,198 @@
+{
+  "case_id": "case_5_11",
+  "title": "Progressive Sensorineural Hearing Loss Secondary to Arnold-Chiari Malformation",
+  "demographics": {
+    "age_years": 6,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "Parents requested an evaluation due to questionable hearing loss and a mild language delay.",
+  "problem_summary": {
+    "onset": "Questionable hearing loss noted at age 4; confirmed progressive loss at age 6.",
+    "course": "Progressive, particularly in high frequencies over a 15-month monitoring period.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Mild language delay; no other neurological symptoms (no nystagmus, dizziness, or hydrocephalus).",
+    "functional_impact": "Required binaural hearing aids and an auditory trainer for school.",
+    "goals_motivation": "Identify cause of progressive loss and manage communication needs."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Child was initially evaluated at age 4 at an outside clinic with borderline normal results and fair reliability. Two years later (age 6), he presented to our center with hearing loss greater than previously documented.",
+        "otologic_history": "General health good. No hydrocephalus.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Mild language delay.",
+        "prior_management": "None prior to this evaluation.",
+        "patient_goals": "Diagnosis and management."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline (Age 6)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-36"
+          ],
+          "key_findings": "Sensorineural hearing loss, slightly greater in the left ear initially. High-frequency sloping configuration.",
+          "numeric_results": {
+            "Low_Frequency_Thresholds": "~20-30 dB HL (250-1000 Hz)",
+            "High_Frequency_Thresholds": "~40-50 dB HL (2000-4000 Hz)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline (Age 6)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-36"
+          ],
+          "key_findings": "Excellent speech recognition ability.",
+          "numeric_results": {
+            "WRS_RE": "92%",
+            "WRS_LE": "88%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline (Age 6)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanograms bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline (Age 6)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Contralateral reflexes present at normal to slightly elevated levels.",
+          "numeric_results": {
+            "LE_500_to_4000Hz": "95, 85, 85, 95 dB HL",
+            "RE_500_to_4000Hz": "95, 85, 85, 105 dB HL"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline (Age 6)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-37"
+          ],
+          "key_findings": "Abnormal bilaterally. Slightly extended I-II and III-V interwave intervals contributing to substantially extended I-V intervals. No significant effect of high repetition rate.",
+          "numeric_results": {
+            "RE_Latencies": "Wave I: 2.34ms, Wave III: 4.72ms, Wave V: 7.12ms",
+            "LE_Latencies": "Wave I: 2.22ms, Wave III: 4.78ms, Wave V: 7.10ms",
+            "RE_Intervals": "I-V: ~4.78ms",
+            "LE_Intervals": "I-V: ~4.88ms"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Monitoring over 15 months revealed progressive hearing loss primarily in the high frequencies.",
+        "otologic_history": "CT scans of temporal bone were normal. MRI with gadolinium showed herniation of cerebellar tonsils through foramen magnum.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Diagnosed with Arnold-Chiari Malformation (ACM).",
+        "prior_management": "Fitted with binaural hearing aids; auditory trainer recommended for school.",
+        "patient_goals": "Pre-surgical evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op (15 months post-baseline)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-36"
+          ],
+          "key_findings": "Progressive high-frequency sensorineural loss bilaterally.",
+          "numeric_results": {
+            "Low_Frequency_Thresholds": "~30-40 dB HL (250-500 Hz)",
+            "High_Frequency_Thresholds": "Dropping to ~60-80 dB HL (2000-8000 Hz)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op (15 months post-baseline)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-36"
+          ],
+          "key_findings": "Speech recognition remained excellent despite progression in pure tone thresholds.",
+          "numeric_results": {
+            "WRS_RE": "96%",
+            "WRS_LE": "92%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Diagnostic Imaging",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-35",
+            "Figure 5-38"
+          ],
+          "key_findings": "MRI confirmed Arnold-Chiari Malformation (ACM). Cerebellar tonsils herniated through foramen magnum; fourth ventricle positioned low. Mass lesion in right rostral medulla noted.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presented with bilateral, progressive, high-frequency sensorineural hearing loss. Despite excellent speech recognition scores and normal tympanometry, the ABR was abnormal bilaterally with extended interwave intervals (I-V). This neural sign prompted imaging (MRI), which identified an Arnold-Chiari Malformation (ACM) with herniation of the cerebellar tonsils. The ABR abnormality is attributed to stretching of the VIIIth nerve and brainstem compression.",
+  "counseling_points": [
+    "The hearing loss is sensorineural and has shown progression over 15 months.",
+    "ABR results suggest neural involvement (stretching of the nerve) consistent with the MRI findings of Arnold-Chiari Malformation.",
+    "Neurosurgical consultation is required (decompressive craniotomy indicated).",
+    "Binaural hearing aids are necessary for hearing loss management.",
+    "An auditory trainer (FM system) and preferential seating are recommended for academic support."
+  ],
+  "notes_for_actor": [
+    "Patient is a young child (approx 6-7 years old), so interactions are likely with the parents.",
+    "Parents may be concerned about the 'progressive' nature of the loss.",
+    "Emphasize that while the hearing loss is significant, speech understanding remains excellent.",
+    "The key diagnostic pivot point was the ABR; without it, the neural cause might have been missed as CT scans were normal."
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "case_id": "case_10_2",
+  "title": "Central Deafness Secondary to Herpes Encephalitis",
+  "demographics": {
+    "age_years": 13,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I can read and write, but I cannot understand what people are saying to me. I don't recognize my family's voices.",
+  "problem_summary": {
+    "onset": "Acute onset at age 13 following severe illness diagnosed as herpes encephalitis.",
+    "course": "Initial total lack of auditory responsiveness. Over months/years, sound detection sensitivity improved significantly, but speech understanding remained profoundly impaired (pure word deafness profile).",
+    "laterality": "Bilateral central involvement.",
+    "associated_symptoms": "Headaches, numbness, seizures, behavioral changes (impulsivity), left eye ptosis, alternating exotropia, loss of speech intonation.",
+    "functional_impact": "Cannot understand spoken speech; relies on speechreading, gestures, and writing. Doing well in math and reading at school.",
+    "goals_motivation": "Motivation fluctuates with depression; goal is to use environmental cues and plasticity to regain auditory processing."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1_Acute_Hospitalization",
+      "date": null,
+      "setting": "Inpatient Hospital",
+      "history": {
+        "present_illness": "Admitted with fever (40°C), vomiting, right-sided facial twitching, and nonsensical talk. Diagnosed with herpes encephalitis.",
+        "otologic_history": "No prior history mentioned.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Previously a very good student. Developed increased intracranial pressure during illness.",
+        "prior_management": "Treated with Acyclovir, Dilantin, Tylenol.",
+        "patient_goals": "Survival and stabilization."
+      },
+      "tests": [
+        {
+          "name": "Behavioral Observation",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient was auditorily unresponsive. No behavioral response to pure tone stimuli.",
+          "numeric_results": null
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Reported as normal absolute and interwave intervals (waveforms not available to current clinic).",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2_Second_Hospital",
+      "date": null,
+      "setting": "Hospital Clinic",
+      "history": {
+        "present_illness": "Several months post-illness. Patient difficult to test due to behavior/upset.",
+        "otologic_history": "N/A",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "Behaviors included spitting, throwing objects, impulsivity.",
+        "prior_management": "N/A",
+        "patient_goals": "Assessment of residual hearing."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Profound hearing loss range for mid-frequencies. Low frequencies at high intensities yielded vibration responses only.",
+          "numeric_results": null
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Contralateral reflexes present at normal levels (500-4000 Hz). Ipsilateral reflexes present normal (500-2000 Hz), absent at 4000 Hz.",
+          "numeric_results": {
+            "Ipsilateral 4000 Hz": "Absent at 90 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3_Neuroaudiology_Center",
+      "date": null,
+      "setting": "Specialty Clinic",
+      "history": {
+        "present_illness": "Patient referred for comprehensive neuroaudiologic evaluation approx 2 months after V2.",
+        "otologic_history": "N/A",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "MRI shows extensive damage to right mid/posterior temporal lobe (Heschl's gyrus) and damage to left posterior temporal lobe.",
+        "prior_management": "Rehabilitation initiated.",
+        "patient_goals": "Improve communication."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Longitudinal (2 years)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-12"
+          ],
+          "key_findings": "Significant recovery of sensitivity. Right ear improved to WNL/mild loss. Left ear improved to mild/moderate loss. High frequency deficits persist, worse in Left ear.",
+          "numeric_results": {
+            "Right Ear 250-3000 Hz": "Within Normal Limits",
+            "Left Ear 250-1000 Hz": "20-30 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Cannot understand speech (0% recognition implied), except for recognizing her name. Speech Detection Thresholds (SDT) are consistent with pure tones.",
+          "numeric_results": {
+            "SDT Right Ear": "5 to 15 dB HL",
+            "SDT Left Ear": "15 to 25 dB HL"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-13"
+          ],
+          "key_findings": "Normal absolute and interwave intervals bilaterally. Replicable responses down to low levels.",
+          "numeric_results": {
+            "Threshold": "25 dB nHL bilaterally"
+          }
+        },
+        {
+          "name": "Middle Latency Response (MLR)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-14"
+          ],
+          "key_findings": "Unable to obtain any repeatable responses for either ear or electrode site. Tracings are noisy due to anxiety.",
+          "numeric_results": null
+        },
+        {
+          "name": "Late Auditory Evoked Potentials",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-15"
+          ],
+          "key_findings": "No consistent responses for any electrode site or ear.",
+          "numeric_results": null
+        },
+        {
+          "name": "Otoacoustic Emissions (OAE)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Essentially normal bilaterally. Indicates intact outer hair cells despite high-frequency pure tone deficits.",
+          "numeric_results": null
+        },
+        {
+          "name": "Psychoacoustics (Difference Limens)",
+          "timepoint_label": "Follow-up",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Extremely poor intensity and frequency discrimination.",
+          "numeric_results": {
+            "Intensity DL (1kHz @ 70dB)": "Could not reach 50% performance for 5 dB increments",
+            "Frequency DL (1kHz)": "> 200 Hz"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This is a case of Central Deafness (or cortical deafness/auditory agnosia) resulting from herpes encephalitis with bilateral temporal lobe damage (Right > Left). Peripheral hearing mechanisms are intact, evidenced by normal OAEs, normal ABRs, and acoustic reflexes. However, cortical processing is absent (absent MLR/LLR) or severely impaired. While pure-tone detection sensitivity recovered significantly over 2 years, the patient exhibits 'pure word deafness' characteristics: she can detect sound (SDT 5-25 dB HL) but cannot discriminate speech or complex acoustic features (frequency DL > 200 Hz).",
+  "counseling_points": [
+    "Explain that the 'ears' (cochlea) are working perfectly, but the brain's 'processing center' for sound was damaged by the infection.",
+    "Highlight that while sound detection has returned, the ability to distinguish *what* the sound is (speech vs. noise, pitch changes) is impaired.",
+    "Emphasize the importance of visual cues (speechreading, signing) and environmental context.",
+    "Discuss neuroplasticity: the brain is young and may reorganize, but active rehabilitation is required.",
+    "Manage expectations: hearing sensitivity may fluctuate with general health/fatigue."
+  ],
+  "notes_for_actor": [
+    "You are not 'deaf' in the traditional sense. You hear the beeps clearly now, but speech sounds like garbled noise or a foreign language you don't know.",
+    "You are intelligent, literate, and can read/write perfectly. You are frustrated that you can't understand spoken words.",
+    "You may be anxious or jumpy during testing because sounds are confusing.",
+    "Your speech has lost its 'music' (intonation/prosody)—speak in a flatter, more monotonic way.",
+    "You rely heavily on watching the audiologist's face/lips to understand instructions."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "case_id": "Case006_22",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otosclerosis",
+      "rationale_short": "Unilateral conductive hearing loss with normal tympanograms (Type A) and absent acoustic reflexes, accompanied by tinnitus and dizziness; confirmed by ENT diagnosis."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition scores."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess tympanic membrane mobility and middle ear pressure."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and check for retrocochlear or middle ear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a severe rising to moderately severe conductive hearing loss in the right ear and essentially normal hearing in the left ear. Tympanometry is normal bilaterally (Type A), but acoustic reflexes are absent in the right ear and absent contralaterally in the left. This pattern of conductive loss with intact eardrum mobility is highly consistent with otosclerosis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Severe rising to moderately severe conductive hearing loss at 250-2000 Hz, rising to moderate at 3000-6000 Hz, sloping to moderately severe at 8000 Hz. Left ear: Normal sensitivity at 250 Hz, slight SNHL at 500-1000 Hz, rising to normal at 2000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right ear 45 dB HL, Left ear 20 dB HL (agreement with PTA). WRS: Right ear 84% (slight difficulty), Left ear 96% (normal)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanograms (Type A) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ear: Absent ipsilateral and contralateral (500-4000 Hz). Left ear: Normal ipsilateral (500-4000 Hz), absent contralateral."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical intervention (stapedectomy)",
+      "Amplification (hearing aid)"
+    ],
+    "counseling_actions": [
+      "Advise regarding surgical intervention versus amplification options",
+      "Patient to schedule appointment upon decision"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral hearing loss",
+      "Conductive hearing loss",
+      "Tinnitus",
+      "Recent onset dizziness"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "Referral for medical evaluation of unilateral conductive hearing loss, tinnitus, and dizziness, and to discuss management options for otosclerosis."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Patient discretion",
+    "objective": "To proceed with amplification or surgery once the patient decides."
+  },
+  "expected_outcome": []
+}

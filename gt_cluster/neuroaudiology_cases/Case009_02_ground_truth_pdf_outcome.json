@@ -1,0 +1,100 @@
+{
+  "case_id": "Case009_02",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Multiple Sclerosis",
+      "rationale_short": "MRI confirmed a large plaque on the left lateral pons; ABR showed central signs (abnormal I-V interval) consistent with brainstem involvement."
+    },
+    {
+      "rank": 2,
+      "label": "Retrocochlear pathology",
+      "rationale_short": "Indicated by ABR findings (delayed Wave V, abnormal I-V interval) disproportionate to the peripheral hearing loss."
+    },
+    {
+      "rank": 3,
+      "label": "Cochlear pathology",
+      "rationale_short": "Initially considered due to sudden hearing loss, but ruled out as the sole cause by ABR interwave delays and MRI findings."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To assess the degree and configuration of the reported sudden hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To evaluate speech recognition abilities in the affected ear."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To differentiate between cochlear and retrocochlear etiology given the asymmetry and sudden onset."
+      },
+      {
+        "action": "MRI",
+        "urgency": "urgent",
+        "rationale_short": "To visualize potential retrocochlear lesions or central pathology suggested by ABR abnormalities."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presented with left moderate-to-severe sensorineural hearing loss. ABR testing revealed central abnormalities (prolonged I-V interval) despite the peripheral loss. Subsequent MRI confirmed a large plaque on the left lateral pons, consistent with Multiple Sclerosis affecting the dorsal cochlear nucleus.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear thresholds normal (0-10 dB HL). Left ear moderate to severe SNHL (approx 40 dB HL at 250 Hz sloping to 60-70 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear recognition excellent (100%). Left ear recognition 84%."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear normal. Left ear poorly defined morphology; Wave I present but delayed; Wave V discernible but delayed; I-V interwave interval abnormal/prolonged, indicating central involvement."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Large plaque located at the lateral pons on the left side, likely compromising the left dorsal cochlear nucleus."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Neurology for management of Multiple Sclerosis"
+    ],
+    "counseling_actions": [
+      "Explain that the hearing loss and 'hissing' sounds are related to the brainstem lesion affecting the hearing nerve pathway",
+      "Discuss that ABR results indicated a problem further up the pathway which MRI confirmed",
+      "Coordinate care with neurology as the hearing loss is a symptom of the broader neurological condition"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden hearing loss",
+      "Unilateral/Asymmetric sensorineural hearing loss",
+      "Abnormal ABR (prolonged I-V interval)",
+      "Vertigo and nausea"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurology",
+      "rationale_short": "Diagnosis of Multiple Sclerosis confirmed by MRI; patient requires management of systemic neurological condition."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As directed by Neurology",
+    "objective": "Monitor progression of neurological symptoms and hearing status."
+  },
+  "expected_outcome": []
+}

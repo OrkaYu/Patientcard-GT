@@ -1,0 +1,109 @@
+{
+  "case_id": "Case021",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Tinnitus (secondary to anxiety/stress)",
+      "rationale_short": "Patient reports infrequent, stress-triggered tinnitus. Audiologic evaluation reveals normal hearing sensitivity and normal outer hair cell function, ruling out peripheral auditory pathology."
+    },
+    {
+      "rank": 2,
+      "label": "Obsessive-Compulsive Disorder (OCD) / Health Anxiety",
+      "rationale_short": "Tinnitus distress is maintained by intrusive fears of illness (e.g., stroke), reassurance-seeking behaviors, and intolerance of uncertainty, consistent with the patient's diagnosis of OCD."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate hearing sensitivity and rule out hearing loss as a cause of tinnitus."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition thresholds and confirm pure-tone results."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear function (though not completed due to anxiety)."
+      },
+      {
+        "action": "Distortion-product otoacoustic emissions",
+        "urgency": "routine",
+        "rationale_short": "To evaluate outer hair cell function."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation revealed normal hearing sensitivity bilaterally with no evidence of middle ear or outer hair cell dysfunction. Tinnitus is not associated with peripheral auditory pathology. Acoustic reflexes could not be performed due to patient anxiety (claustrophobia).",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Reliable responses in the normal range for both ears."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Speech recognition threshold (SRT) of 5 dB HL bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal, type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Could not be assessed due to patient anxiety regarding confinement in the testing room."
+          },
+          {
+            "name": "Distortion-product otoacoustic emissions",
+            "category": "OAEs",
+            "result_summary": "Present for both ears, consistent with normal outer hair cell function."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Cognitive-behavioral therapy (CBT) involving exposure-based interventions.",
+      "Interoceptive exposure therapy (e.g., hyperventilating, spinning, listening to ear-ringing sounds) to facilitate habituation.",
+      "Reduction of safety behaviors (e.g., reassurance seeking, white noise usage).",
+      "Parental training to reduce accommodation of reassurance-seeking behaviors."
+    ],
+    "counseling_actions": [
+      "Educate family on the cycle of anxiety, avoidance, and accommodation.",
+      "Explain that tinnitus is not a sign of dangerous illness (e.g., stroke) and is not a threat.",
+      "Instruct patient to attend to tinnitus rather than distract from it to facilitate tolerance.",
+      "Counsel that ear ringing may return and should be understood and tolerated rather than feared."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Mental Health / Psychology",
+      "rationale_short": "Referral for CBT and exposure-based interventions to address OCD-driven tinnitus distress and health anxiety."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Over 8 outpatient therapy sessions",
+    "objective": "To reduce distress, eliminate avoidance behaviors, and habituate to physical sensations including tinnitus."
+  },
+  "expected_outcome": [
+    "Patient became progressively less distressed by interoceptive exposure exercises (simulating dizziness and tinnitus).",
+    "On the eighth outpatient therapy session, the patient denied experiencing tinnitus and associated worries.",
+    "Father reported the patient has not complained or exhibited worry about tinnitus and is using the white noise machine less.",
+    "Patient reported learning that she 'got used to' anxiety, physical feelings, and tinnitus, and that sensations went away on their own."
+  ]
+}

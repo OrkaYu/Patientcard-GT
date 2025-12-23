@@ -1,0 +1,127 @@
+{
+  "case_id": "case_5_23",
+  "title": "Progressive Bilateral Sensorineural Hearing Loss (Autoimmune Etiology)",
+  "demographics": {
+    "age_years": 77,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I've noticed my hearing has gotten worse over the last several years. I wear hearing aids now, but they aren't helping enough in meetings or at church.",
+  "problem_summary": {
+    "onset": "Several years ago.",
+    "course": "Progressive; significant decline (15-35 dB) noted over the last 12 years compared to previous test.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Intermittent bilateral tinnitus (not bothersome); some imbalance (attributed to heart condition).",
+    "functional_impact": "Reduced benefit from current CIC hearing aids in complex listening environments like meetings and church.",
+    "goals_motivation": "Desires better hearing benefit in social and religious settings."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-12-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports bilateral hearing loss progressing over several years. Currently wears CIC hearing aids from another clinic but finds benefit insufficient.",
+        "otologic_history": "No other otologic symptoms reported. Family history of hearing loss (sister).",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Recent heart stent placement. Reports imbalance attributed to heart condition. Subsequent medical workup revealed positive Western Blot for inner ear antigen antibodies (Autoimmune Inner Ear Disease).",
+        "prior_management": "Currently uses CIC hearing aids.",
+        "patient_goals": "Improve hearing in meetings and church."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.23"
+          ],
+          "key_findings": "Bilateral sloping sensorineural hearing loss. Right ear: slight loss 250-1000 Hz, sloping to moderate/moderately-severe 1.5-6k Hz, profound at 8k Hz. Left ear: slight/mild loss 250-1000 Hz, sloping to severe at 8k Hz.",
+          "numeric_results": {
+            "RE_PTA": "35 dB HL",
+            "LE_PTA": "35 dB HL",
+            "RE_Configuration": "250Hz: ~20dB, 1kHz: ~30dB, 4kHz: ~70dB, 8kHz: >90dB",
+            "LE_Configuration": "250Hz: ~25dB, 1kHz: ~35dB, 4kHz: ~70dB, 8kHz: ~85dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.23"
+          ],
+          "key_findings": "SRT scores agree with PTA. Word recognition scores (WRS) indicate moderate difficulty with speech clarity.",
+          "numeric_results": {
+            "RE_SRT": "33 dB HL",
+            "LE_SRT": "35 dB HL",
+            "RE_WRS": "70% at 75 dB HL",
+            "LE_WRS": "60% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.23"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "RE_Static_Admittance": "0.4 mmho",
+            "RE_Pressure": "-20 daPa",
+            "RE_Volume": "1.7 mL",
+            "LE_Static_Admittance": "0.8 mmho",
+            "LE_Pressure": "-20 daPa",
+            "LE_Volume": "1.6 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.23"
+          ],
+          "key_findings": "Ipsilateral and contralateral reflexes generally within normal limits 500-2000 Hz, elevated or absent at 4000 Hz. Reflex decay negative at 500 and 1000 Hz.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, symmetric, sloping sensorineural hearing loss that has progressed significantly (15-35 dB drop) since the previous evaluation. Speech understanding is fair (60-70%), indicating moderate difficulty with clarity even when speech is loud enough. Middle ear function is normal. The progression was later identified as Autoimmune Inner Ear Disease via Western Blot.",
+  "counseling_points": [
+    "Your hearing has changed significantly since your last test, particularly in the high pitches which provide speech clarity.",
+    "The medical tests ordered by the otologist (Western Blot) came back positive, indicating an autoimmune cause for this recent drop in hearing.",
+    "Because your word recognition scores are around 60-70%, hearing aids will make sounds louder, but you may still struggle with clarity in noisy places like church.",
+    "Your current CIC (tiny) hearing aids may no longer be strong enough or have the necessary features to handle your current hearing levels.",
+    "You are medically cleared for new amplification that can better address your current hearing profile."
+  ],
+  "notes_for_actor": [
+    "You are a 77-year-old male.",
+    "You are frustrated that your current hearing aids aren't working as well as they used to.",
+    "You attribute your imbalance to your heart condition (recent stent), not your ears.",
+    "You are cooperative but concerned about why your hearing is getting worse."
+  ]
+}

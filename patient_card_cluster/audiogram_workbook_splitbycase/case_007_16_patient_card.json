@@ -1,0 +1,130 @@
+{
+  "case_id": "case_7_16",
+  "title": "Mixed Hearing Loss with Acute Tympanic Membrane Perforation",
+  "demographics": {
+    "age_years": 58,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I had a sudden decrease in hearing in my right ear last week after a severe infection. I am still feeling pain and pressure in that ear.",
+  "problem_summary": {
+    "onset": "Sudden worsening of hearing in the right ear last week following a severe ear infection.",
+    "course": "Chronic history of ear problems since childhood with repeated infections and bilateral hearing loss. Acute exacerbation occurred last week resulting in spontaneous tympanic membrane rupture.",
+    "laterality": "Bilateral hearing loss, currently worse in the right ear.",
+    "associated_symptoms": "Aural pain, aural pressure, and likely drainage (due to rupture) in the right ear.",
+    "functional_impact": "Patient wears hearing aids bilaterally but is experiencing significant difficulty with the right ear due to the recent event.",
+    "goals_motivation": "Resolve the infection and pain; assess damage to the ear."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-04-15",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient presented with a sudden decrease in hearing in the right ear following a severe infection last week. The infection resulted in a spontaneous tympanic membrane rupture.",
+        "otologic_history": "History of ear problems since childhood, repeated infections, and hearing loss in both ears.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Patient utilizes hearing aids bilaterally.",
+        "patient_goals": "Evaluation of acute changes in the right ear."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.16"
+          ],
+          "key_findings": "Right ear shows a profound mixed hearing loss rising to moderately severe in the low-to-mid frequencies, then sloping to severe in high frequencies. Left ear shows a flat mild sloping to moderate sensorineural hearing loss.",
+          "numeric_results": {
+            "RE_AC_250Hz": "100 dB HL",
+            "RE_AC_1000Hz": "65 dB HL",
+            "RE_BC_1000Hz": "45 dB HL",
+            "LE_AC_1000Hz": "45 dB HL",
+            "LE_BC_1000Hz": "45 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.16"
+          ],
+          "key_findings": "Right ear SRT is consistent with the profound loss, with very poor word recognition (10%). Left ear SRT agrees with PTA, with moderate difficulty in word recognition (70%).",
+          "numeric_results": {
+            "RE_SRT": "102 dB HL",
+            "RE_WRS": "10% at 105 dB HL",
+            "LE_SRT": "45 dB HL",
+            "LE_WRS": "70% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.16"
+          ],
+          "key_findings": "Right ear revealed a flat tympanogram (Type B) with a large ear canal volume, consistent with a perforation. Left ear revealed a normal tympanogram (Type A).",
+          "numeric_results": {
+            "RE_ECV": "7.1 mL",
+            "LE_ECV": "1.2 mL",
+            "LE_Static_Admittance": "0.5 mmho",
+            "LE_Peak_Pressure": "-50 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.16"
+          ],
+          "key_findings": "Right ear reflexes (ipsilateral and contralateral) were absent. Left ear ipsilateral reflexes were present; left contralateral reflexes were absent.",
+          "numeric_results": {
+            "RE_Ipsi_500-4000Hz": "Absent",
+            "LE_Ipsi_500-4000Hz": "Present (85-100 dB HL)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric hearing loss. The left ear exhibits a stable mild-to-moderate sensorineural hearing loss with fair word recognition. The right ear demonstrates a profound mixed hearing loss with very poor word recognition, significantly exacerbated by an acute middle ear pathology. Tympanometry confirms a tympanic membrane perforation in the right ear (large ear canal volume).",
+  "counseling_points": [
+    "You have a perforation (hole) in your right eardrum, likely caused by the severe infection you experienced.",
+    "The large volume reading in the test confirms the hole in the eardrum.",
+    "We are referring you to an ENT specialist immediately for management of the infection and the perforation.",
+    "Please use the prescribed antibiotic ear drops exactly as directed to clear the infection.",
+    "Do not wear your hearing aid in the right ear until the doctor confirms the infection is gone and the ear is dry.",
+    "Keep the right ear dry; use water precautions when showering.",
+    "We will need to re-evaluate your hearing in about a month to see if the eardrum heals on its own or if surgery is needed."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is accustomed to hearing loss but is distressed by the new acute pain and sudden drop in hearing on the right side.",
+    "You should mention that you have had 'bad ears' your whole life.",
+    "Express concern about whether the hole in your eardrum will heal."
+  ]
+}

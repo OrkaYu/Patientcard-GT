@@ -1,0 +1,93 @@
+{
+  "case_id": "Case007_07",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central auditory dysfunction secondary to Alzheimer's disease",
+      "rationale_short": "Severe left-ear deficits on dichotic tests and bilateral deficits on temporal processing tasks are consistent with cortical/interhemispheric involvement often seen in dementia."
+    },
+    {
+      "rank": 2,
+      "label": "Peripheral sensorineural hearing loss",
+      "rationale_short": "Mild high-frequency loss is present but does not fully explain the patient's significant difficulty in noise."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities in quiet."
+      },
+      {
+        "action": "Central Auditory Processing Tests",
+        "urgency": "routine",
+        "rationale_short": "To evaluate central auditory function given complaints of hearing in noise and stuttering."
+      },
+      {
+        "action": "Electrophysiology (MLR)",
+        "urgency": "routine",
+        "rationale_short": "To assess integrity of central auditory pathways."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates a mild peripheral high-frequency hearing loss that is insufficient to explain his difficulties. Central testing reveals significant deficits, particularly a severe left-ear deficit on dichotic tasks and bilateral deficits on temporal processing tests, consistent with central auditory involvement secondary to Alzheimer's disease.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Mild, bilateral high-frequency sensorineural hearing loss. RE thresholds: 10-25 dB HL; LE thresholds: 15-50 dB HL (250-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Speech recognition in quiet was essentially normal bilaterally (RE 96%, LE 88%)."
+          },
+          {
+            "name": "Central Auditory Processing Tests",
+            "category": "Central",
+            "result_summary": "Major deficits noted. Severe left ear deficits on dichotic tests (Competing Sentences ~0%, Dichotic Digits ~50%, SSW ~28%). Bilateral deficits on compressed speech and frequency patterns."
+          },
+          {
+            "name": "Electrophysiology (MLR)",
+            "category": "Electrophysiology",
+            "result_summary": "Test completed but fraught with artifact; difficult to interpret."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Explore amplification options",
+      "Trial of Assistive Listening Devices (ALDs) (preferred over hearing aids due to dementia considerations)",
+      "Consider hearing aids if appropriate support is available"
+    ],
+    "counseling_actions": [
+      "Discuss central auditory involvement as the primary contributor to difficulties in noise",
+      "Explain that 'left ear deficit' relates to brain processing rather than the ear itself",
+      "Counsel on communication strategies with patient and wife",
+      "Discuss pros and cons of ALDs versus traditional hearing aids regarding manipulation and maintenance"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "local audiologist or hearing healthcare provider",
+      "rationale_short": "Patient lives a long distance from the center; referral to a local provider is necessary for amplification/ALD trial and management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "None at this facility",
+    "objective": "Patient returned home; recommended local follow-up for amplification options."
+  },
+  "expected_outcome": []
+}

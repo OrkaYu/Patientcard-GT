@@ -1,0 +1,128 @@
+{
+  "case_id": "case_5_12",
+  "title": "Unilateral Acoustic Trauma with Tinnitus and Hyperacusis",
+  "demographics": {
+    "age_years": 59,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I heard a loud 'pop' in my left ear after shooting a pistol five months ago, and immediately lost hearing. Since then, I have constant high-pitched ringing, a feeling of fullness, and sensitivity to loud sounds in that ear.",
+  "problem_summary": {
+    "onset": "Sudden onset 5 months prior to the evaluation.",
+    "course": "Stable; no improvement after a course of oral steroids taken 2 months post-incident.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Aural fullness, tinnitus (high-pitched, constant, distracting), and hyperacusis.",
+    "functional_impact": "Difficulty understanding speech in groups and various communication situations; tinnitus is extremely distracting.",
+    "goals_motivation": "Seeking evaluation and management for hearing loss and bothersome symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-05-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient experienced sudden hearing deterioration, aural fullness, tinnitus, and hyperacusis in the left ear immediately after shooting a pistol. She describes hearing a 'pop' during the event. She sought treatment 2 months later and completed a course of oral steroids with no improvement.",
+        "otologic_history": "No reported history of ear pathology or otosurgery.",
+        "noise_exposure_history": "Specific incident of acoustic trauma (pistol shot). No other significant noise exposure reported.",
+        "medical_psych_history": "No significant health history reported.",
+        "prior_management": "Oral steroids (delayed treatment 2 months post-injury).",
+        "patient_goals": "Evaluation of hearing and symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.12"
+          ],
+          "key_findings": "Right ear shows normal sensitivity through 4000 Hz with a slight slope to mild loss at 6-8 kHz. Left ear shows a mild sensorineural loss in low frequencies (250-1500 Hz), recovering slightly at 2000 Hz, then sloping to a moderate loss at 3000-4000 Hz, and recovering to mild loss at 6000-8000 Hz.",
+          "numeric_results": {
+            "RE_PTA": "Normal limits (approx 10 dB)",
+            "LE_250_1500Hz": "30-40 dB HL",
+            "LE_2000Hz": "20 dB HL",
+            "LE_3000_4000Hz": "45-50 dB HL",
+            "LE_6000_8000Hz": "25-35 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.12"
+          ],
+          "key_findings": "Right ear has excellent speech recognition. Left ear shows reduced word recognition ability consistent with cochlear damage.",
+          "numeric_results": {
+            "RE_SRT": "10 dB HL",
+            "RE_WRS": "100% at 60 dB HL",
+            "LE_SRT": "33 dB HL",
+            "LE_WRS": "72% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.12"
+          ],
+          "key_findings": "Right ear normal (Type A). Left ear hypercompliant (Type Ad).",
+          "numeric_results": {
+            "RE_Static_Admittance": "1.50 mmho",
+            "LE_Static_Admittance": "2.20 mmho (Hypercompliant)",
+            "RE_Pressure": "0 daPa",
+            "LE_Pressure": "-20 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.12"
+          ],
+          "key_findings": "Normal acoustic reflex thresholds at 500 through 4000 Hz with ipsilateral and contralateral stimulation, despite the hypercompliant tympanogram in the left ear.",
+          "numeric_results": {
+            "Reflex_Levels": "Generally 85-100 dB HL range"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a unilateral, irregular sensorineural hearing loss in the left ear, characterized by mild low-frequency loss and a moderate notch at 3-4 kHz, consistent with acoustic trauma. Word recognition in the left ear is reduced (72%), indicating moderate difficulty. The left tympanic membrane is hypercompliant (Type Ad) but acoustic reflexes remain intact.",
+  "counseling_points": [
+    "Explain that the 'pop' and subsequent hearing loss were likely caused by the high-intensity impulse noise from the pistol, damaging the inner ear structures.",
+    "Discuss that while the steroid treatment was appropriate, the delay in administration may have limited its effectiveness, and the current hearing levels are likely permanent.",
+    "Recommend a hearing aid evaluation for the left ear to improve communication in groups and help mask the tinnitus.",
+    "Advise on the use of Hearing Assistive Technology (HAT) if hearing aids alone are insufficient in noise.",
+    "Counsel on tinnitus management strategies and hyperacusis desensitization.",
+    "Emphasize the critical importance of wearing hearing protection (earplugs/muffs) during any future exposure to loud noise to preserve remaining hearing."
+  ],
+  "notes_for_actor": [
+    "Portray the tinnitus as very distressing; it is a constant high-pitched ring that makes it hard to concentrate.",
+    "Mention that loud sounds (hyperacusis) are physically uncomfortable in the left ear.",
+    "You are frustrated that the medication didn't help and that the symptoms have persisted for 5 months."
+  ]
+}

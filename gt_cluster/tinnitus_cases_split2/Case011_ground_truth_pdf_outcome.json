@@ -1,0 +1,139 @@
+{
+  "case_id": "Case011",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Tonic Tensor Tympanic Syndrome (TTTS)",
+      "rationale_short": "Patient reports 'fluttering' sensation, aural pressure, and sound sensitivity following acoustic shock; previous ENT diagnosis confirmed."
+    },
+    {
+      "rank": 2,
+      "label": "Subjective Tinnitus",
+      "rationale_short": "Primary complaint of bilateral ringing, worse in the right ear, with catastrophic reaction on TRQ."
+    },
+    {
+      "rank": 3,
+      "label": "Hyperacusis",
+      "rationale_short": "Patient reports sound sensitivity in the right ear."
+    },
+    {
+      "rank": 4,
+      "label": "Anxiety and Depression",
+      "rationale_short": "Significant comorbidities exacerbating symptoms; patient stopped attending school due to distress."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To inspect ear canals for obstruction or pathology."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear function and middle ear muscle reflexes."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and recognition."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To evaluate functional hearing in noise (QuickSIN)."
+      },
+      {
+        "action": "Tinnitus Evaluation",
+        "urgency": "routine",
+        "rationale_short": "To characterize tinnitus pitch, loudness, and maskability."
+      },
+      {
+        "action": "Self-Report Scales",
+        "urgency": "routine",
+        "rationale_short": "To quantify the impact of tinnitus on quality of life (TRQ)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation revealed normal hearing sensitivity bilaterally with excellent word recognition and normal speech-in-noise ability. Middle ear function was normal, including type A tympanograms and normal acoustic reflexes. Tinnitus evaluation indicated a pitch match of 6000 Hz and a catastrophic reaction (TRQ score 88), with symptoms consistent with Tonic Tensor Tympanic Syndrome exacerbated by significant anxiety.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "result_summary": "Clear ear canals bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Normal hearing sensitivity (250-8000 Hz) bilaterally; PTA 13 dB HL (right) and 12 dB HL (left)."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Normal thresholds in both ipsilateral and contralateral conditions."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRTs consistent with PTA (10 dB HL right, 15 dB HL left); WRS excellent (92% right, 96% left) at 55 dB HL."
+          },
+          {
+            "name": "Speech-in-noise",
+            "result_summary": "QuickSIN at 60 dBA showed 2 dB SNR loss (normal)."
+          },
+          {
+            "name": "Tinnitus Evaluation",
+            "result_summary": "Pitch match 6000 Hz; Loudness match 22 dB SL; Minimum masking level 23 dB SL; Partial residual inhibition."
+          },
+          {
+            "name": "Self-Report Scales",
+            "result_summary": "Tinnitus Reaction Questionnaire (TRQ) score 88/104, indicating Grade 5 (Catastrophic) reaction."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Sound therapy using a smartphone app or sound generator",
+      "Recommendation for ultra-high-frequency audiometry for additional information"
+    ],
+    "counseling_actions": [
+      "Extensive counseling on the mechanisms of tinnitus, common causes, and treatments",
+      "Explanation of Tonic Tensor Tympanic Syndrome (TTTS) to reduce anxiety regarding the diagnosis",
+      "Discussion of the link between anxiety/depression and tinnitus/TTTS",
+      "Reassurance regarding normal hearing test results and lack of anatomical abnormalities",
+      "Discussion of least invasive treatment options as requested by the patient"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Mental health professional (psychologist/therapist)",
+      "rationale_short": "Patient exhibits catastrophic tinnitus reaction and significant anxiety/depression affecting daily life (school dropout)."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Patient to return with any new symptoms or concerns; follow-up with mental health professional encouraged."
+  },
+  "expected_outcome": [
+    "Patient reported a decrease in anxiety about his condition following extensive counseling and explanation of the diagnosis.",
+    "Patient expressed the desire to follow-up with a mental health professional and reported he would utilize a sound generator at home.",
+    "Patient reported he felt he would be able to return to school with some relief."
+  ]
+}

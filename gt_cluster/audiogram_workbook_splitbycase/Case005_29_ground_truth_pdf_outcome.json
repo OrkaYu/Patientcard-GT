@@ -1,0 +1,97 @@
+{
+  "case_id": "Case005_29",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Noise-Induced Hearing Loss",
+      "rationale_short": "History of noise exposure (concert and work), characteristic sensorineural notch at 3000-4000 Hz, and recovery at high frequencies."
+    },
+    {
+      "rank": 2,
+      "label": "Tinnitus",
+      "rationale_short": "Patient reports constant bilateral tinnitus following noise exposure."
+    },
+    {
+      "rank": 3,
+      "label": "Hyperacusis (resolved)",
+      "rationale_short": "History of increased sensitivity to loud sounds immediately post-exposure, which has since improved."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and identify configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear pathway and confirm cochlear site of lesion."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation reveals normal hearing sensitivity in the low-to-mid frequencies bilaterally, sloping to a mild sensorineural notch at 3000-4000 Hz, and recovering to normal limits in the high frequencies. This configuration is consistent with noise-induced hearing loss. Speech recognition is excellent. Middle ear function is normal, though acoustic reflexes at 4000 Hz are elevated or absent, consistent with the cochlear damage at that frequency.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiogram",
+            "result_summary": "Right ear: Normal 250-2000 Hz, mild SNHL notch at 3000 Hz (30 dB HL), recovery to normal at 4000-8000 Hz. Left ear: Normal 250-2000 Hz, slight SNHL notch at 3000-4000 Hz (20-25 dB HL), recovery to normal at 6000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "SRT: Right 2 dB HL, Left 5 dB HL. WRS: 100% at 50 dB HL bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral and contralateral reflexes normal 500-2000 Hz. Right elevated at 4000 Hz (105 dB HL). Left absent at 4000 Hz. Decay negative at 500 and 1000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue using hearing protection when around loud sounds."
+    ],
+    "counseling_actions": [
+      "Educate patient that hearing loss is due to history of noise exposure.",
+      "Encourage continued use of hearing protection to prevent further damage."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Evaluation confirmed noise-induced etiology; routine management and prevention indicated."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing thresholds for any progression of noise-induced hearing loss."
+  },
+  "expected_outcome": [
+    "Hearing loss confirmed as due to history of noise exposure.",
+    "Patient encouraged to continue using hearing protection when around loud sounds."
+  ]
+}

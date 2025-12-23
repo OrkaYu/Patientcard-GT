@@ -1,0 +1,127 @@
+{
+  "case_id": "case_4_4",
+  "title": "Baseline Evaluation for Music Education Student",
+  "demographics": {
+    "age_years": 18,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am studying music education and want to get my hearing evaluated to establish a baseline. I don't have any specific problems right now.",
+  "problem_summary": {
+    "onset": "N/A (Preventative/Baseline visit)",
+    "course": "Stable",
+    "laterality": "Bilateral",
+    "associated_symptoms": "None; denies hearing loss, tinnitus, and dizziness.",
+    "functional_impact": "None reported.",
+    "goals_motivation": "Hearing conservation and baseline establishment due to music exposure."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-03-11",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient is an 18-year-old music education student. He has played piano and sung for most of his life.",
+        "otologic_history": "Denies history of ear infections or surgeries.",
+        "noise_exposure_history": "Music student. Began using non-custom musician earplugs a few months ago when practicing.",
+        "medical_psych_history": "Unremarkable based on available text.",
+        "prior_management": "None.",
+        "patient_goals": "Establish baseline hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.4"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. Thresholds are within normal limits (0-15 dB HL) across all frequencies.",
+          "numeric_results": {
+            "Right PTA": "3 dB HL",
+            "Left PTA": "5 dB HL",
+            "Configuration": "Flat/Normal"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.4"
+          ],
+          "key_findings": "SRT is in agreement with PTA. Word recognition scores are excellent (100%) bilaterally.",
+          "numeric_results": {
+            "Right SRT": "5 dB HL",
+            "Left SRT": "5 dB HL",
+            "Right WRS": "100% at 50 dB HL",
+            "Left WRS": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.4"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally, indicating normal middle ear function.",
+          "numeric_results": {
+            "Right Ear Volume": "1.2 mL",
+            "Right Static Admittance": "0.5 mmho",
+            "Right Peak Pressure": "5 daPa",
+            "Left Ear Volume": "0.9 mL",
+            "Left Static Admittance": "0.6 mmho",
+            "Left Peak Pressure": "5 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.4"
+          ],
+          "key_findings": "Acoustic reflexes present and normal for ipsilateral and contralateral stimulation from 500 to 4,000 Hz. Reflex decay was negative at 500 and 1,000 Hz.",
+          "numeric_results": {
+            "Reflex Thresholds": "Range 85-100 dB HL across conditions",
+            "Decay": "Negative"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally. Speech audiometry confirms excellent word recognition ability consistent with pure-tone thresholds. Middle ear function is normal as evidenced by Type A tympanograms and robust acoustic reflexes. There are no signs of retrocochlear pathology.",
+  "counseling_points": [
+    "Your hearing test results are completely normal today, which gives us a great baseline for the future.",
+    "It is excellent that you are already using hearing protection during practice. Please continue to use your non-custom earplugs.",
+    "Since you are pursuing a career in music, you might benefit from custom musician earplugs in the future. These are molded to your ears and provide a flatter sound quality, making music sound more natural while still protecting you.",
+    "We recommend you continue to monitor your hearing annually given your regular exposure to music."
+  ],
+  "notes_for_actor": [
+    "You are a healthy, proactive 18-year-old student.",
+    "You are not worried about your hearing; you are just being responsible because of your major.",
+    "You are open to advice about hearing protection."
+  ]
+}

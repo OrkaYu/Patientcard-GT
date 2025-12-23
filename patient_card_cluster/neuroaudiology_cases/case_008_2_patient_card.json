@@ -1,0 +1,207 @@
+{
+  "case_id": "case_8_2",
+  "title": "Complete Commissurotomy in a Young Adult with Intractable Seizures",
+  "demographics": {
+    "age_years": 19,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA (implied by context of multiple center study)"
+  },
+  "chief_complaint": "I have been suffering from uncontrolled seizures since I was 9 years old. Despite trying many medications, I still have grand mal seizures and drop attacks frequently.",
+  "problem_summary": {
+    "onset": "Seizure disorder onset at age 9 with no known precipitating event.",
+    "course": "Intractable to medication. Underwent complete commissurotomy (split-brain surgery) at age 19. Post-operatively, seizures decreased markedly.",
+    "laterality": "Bilateral (diffuse cortical dysfunction pre-op; split-brain physiology post-op).",
+    "associated_symptoms": "Grand mal seizures, brief jerks with drop attacks, absence episodes. Post-operative temporary mutism (2 days) followed by slow recovery of verbal expression.",
+    "functional_impact": "Condition prevented normal daily life; surgery allowed return to school and graduation.",
+    "goals_motivation": "Control of intractable seizures."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Pre-operative)",
+      "history": {
+        "present_illness": "Patient evaluated as part of a multiple center study on split-brain patients prior to commissurotomy.",
+        "otologic_history": "No history of hearing difficulty.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Seizure disorder (grand mal, drop attacks, absence). Neuropsych testing showed borderline normal I.Q. and diffuse cortical dysfunction. EEG showed bilateral synchronous spikes and slow wave complexes.",
+        "prior_management": "Various medications (unsuccessful).",
+        "patient_goals": "Baseline evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal hearing sensitivity bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech recognition scores were normal bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Central Auditory Processing Battery",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-3"
+          ],
+          "key_findings": "Essentially normal findings for Speech in Noise (+5 dB SNR), Dichotic Digits (DD), Staggered Spondaic Words (SSW), and Frequency Patterns (FP). Intensity Pattern perception was bilaterally below the norm.",
+          "numeric_results": {
+            "SSW Right": "~95%",
+            "SSW Left": "~90%",
+            "Dichotic Digits Right": "~98%",
+            "Dichotic Digits Left": "~90%",
+            "Frequency Patterns": "~85-90%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (1.5 weeks Post-operative)",
+      "history": {
+        "present_illness": "Evaluation 1.5 weeks after complete sectioning of the corpus callosum.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "None.",
+        "medical_psych_history": "Recovering from surgery. Had essentially no speech for first 2 days; verbal expression improving slowly.",
+        "prior_management": "Commissurotomy.",
+        "patient_goals": "Post-surgical assessment."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Remained normal.",
+          "numeric_results": null
+        },
+        {
+          "name": "Central Auditory Processing Battery",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-3"
+          ],
+          "key_findings": "Slight drop in LE Speech in Noise. Marked decrease in LE performance on dichotic speech tests (SSW, DD). Considerable bilateral decrease in scores on pattern perception tests (FP) when verbal report required.",
+          "numeric_results": {
+            "SSW Left": "~50%",
+            "Dichotic Digits Left": "~20%",
+            "Frequency Patterns (Verbal)": "~15%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic (1 Year Post-operative)",
+      "history": {
+        "present_illness": "Long-term follow-up.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "None.",
+        "medical_psych_history": "Seizures decreased; returned to school.",
+        "prior_management": "N/A",
+        "patient_goals": "Monitoring."
+      },
+      "tests": [
+        {
+          "name": "Central Auditory Processing Battery",
+          "timepoint_label": "1 Year Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-3"
+          ],
+          "key_findings": "Scores on Speech in Noise and Patterns (verbal) essentially same as 1.5 weeks post-op. Dichotic tests showed slight LE improvement (specifically SSW) compared to immediate post-op.",
+          "numeric_results": {
+            "SSW Left": "~25% (Note: Text says slight improvement, graph shows drop or variability, text emphasizes SSW improvement)",
+            "Dichotic Digits Left": "~25%"
+          }
+        },
+        {
+          "name": "Frequency Patterns (Hummed vs Verbal)",
+          "timepoint_label": "1 Year Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-3"
+          ],
+          "key_findings": "Patient could correctly hum the patterns (essentially normal bilaterally) but reported them incorrectly verbally. Demonstrates right hemisphere perception with blocked transfer to left hemisphere for labeling.",
+          "numeric_results": {
+            "Hummed Response": "~80-90% (Normal Range)",
+            "Verbal Response": "Poor (consistent with previous post-op)"
+          }
+        },
+        {
+          "name": "Interaural Intensity Difference Task (Dichotic Digits)",
+          "timepoint_label": "1 Year Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right ear intensity systematically decreased until patient could repeat left ear digits. Consistent left ear responses required a 30 dB interaural intensity difference.",
+          "numeric_results": {
+            "Left Ear Presentation": "50 dB HL",
+            "Right Ear Presentation": "20 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 19-year-old male with intractable seizures underwent a complete commissurotomy. Pre-operative central auditory testing was largely normal. Post-operatively, he demonstrated the classic 'split-brain' auditory profile: normal peripheral hearing, but severe left-ear deficits on dichotic listening tasks (Dichotic Digits, SSW) due to the suppression of ipsilateral pathways and the sectioning of the corpus callosum blocking contralateral transfer from the right hemisphere to the left language dominant hemisphere. He also showed a dissociation between verbal and hummed responses on frequency patterns; he could hum the patterns (right hemisphere function) but could not verbally label them (requires transfer to left hemisphere).",
+  "counseling_points": [
+    "The difficulty hearing in the left ear during challenging listening situations (dichotic tasks) is a permanent result of the surgery disconnecting the two brain hemispheres.",
+    "The patient retains the ability to perceive tonal patterns (music/prosody) as evidenced by the ability to hum them, even if he cannot name them.",
+    "Improvements in the left ear on the SSW test over time may be due to 'cross-cueing' or better temporal alignment strategies, rather than neural regeneration.",
+    "In complex auditory environments, the patient will rely heavily on the right ear."
+  ],
+  "notes_for_actor": [
+    "You are a young adult male, generally quiet and subdued post-surgery.",
+    "You have no trouble hearing simple tones or words in quiet.",
+    "If asked to repeat words heard in your left ear while hearing different words in your right, you will miss the left ones almost entirely.",
+    "If asked to describe a pattern of high/low tones, you will get it wrong or be confused. However, if asked to HUM the pattern back, you can do it perfectly.",
+    "You are relieved that the seizures have decreased and you could finish school."
+  ]
+}

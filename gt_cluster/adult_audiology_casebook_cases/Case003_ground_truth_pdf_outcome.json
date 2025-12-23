@@ -1,0 +1,149 @@
+{
+  "case_id": "Case003",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sickle Cell Disease (SCD) related hearing loss",
+      "rationale_short": "Confirmed SCD diagnosis (HbS 28%); fluctuating, asymmetrical SNHL and pain crisis are consistent with vaso-occlusive complications affecting the inner ear."
+    },
+    {
+      "rank": 2,
+      "label": "Cochlear pathology",
+      "rationale_short": "Supported by SNHL, recruitment (reflexes at reduced sensation levels), and absent/abnormal DPOAEs; rollover index of 0.27 is consistent with cochlear site."
+    },
+    {
+      "rank": 3,
+      "label": "Retrocochlear pathology",
+      "rationale_short": "Initially considered due to asymmetry and rollover, but ruled out by normal ABR latencies and negative MRI."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration given complaints of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities, checking for rollover."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and rule out conductive components."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To differentiate between cochlear and retrocochlear pathology."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To rule out retrocochlear pathology given asymmetrical hearing loss."
+      },
+      {
+        "action": "Distortion Product Otoacoustic Emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function and cross-check with behavioral thresholds."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Baseline evaluation revealed a mild-to-moderately severe SNHL in the right ear and normal hearing in the left. Rollover was observed in the right ear, but the index (0.27) and acoustic reflexes (reduced sensation levels) favored cochlear pathology. ABR and DPOAEs were performed to rule out retrocochlear involvement due to asymmetry.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear mild-to-moderately severe SNHL (PTA 40 dB HL); Left ear normal (PTA 7 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs agreed with PTA. Right WRS showed rollover (64% at 80 dB HL vs 88% at 70 dB HL, RI 0.27). Left WRS 100%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal volume and admittance bilaterally. Right ear negative pressure (-100 daPa); Left ear normal pressure."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ear reflexes present at reduced sensation levels (consistent with cochlear loss). Left ear normal. No decay."
+          },
+          {
+            "name": "Other",
+            "category": "Electrophysiology",
+            "result_summary": "ABR: Normal absolute and interwave latencies; Wave V repeatable. DPOAEs: Absent through 2000 Hz in right ear; present/normal in left ear >2000 Hz."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Patient presented in a Sickle Cell pain crisis with fever. Hearing had worsened significantly in the right ear (high frequencies) and slightly in the left ear (mid-frequencies). SCD diagnosis was confirmed between visits.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear thresholds significantly worsened at 2000-8000 Hz (e.g., ~90 dB at 4 kHz). Left ear showed new slight mid-frequency SNHL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear mild to moderately severe loss in speech reception; WRS 88% at 80 dB HL. Left ear normal ability (96% at 80 dB HL)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal ear canal volume, middle ear pressure, and static compliance bilaterally."
+          },
+          {
+            "name": "Other",
+            "category": "Electrophysiology",
+            "result_summary": "DPOAEs: Absent at high frequencies in left ear and mid-frequencies in right ear. ABR could not be completed due to patient discomfort."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation and fitting for the right ear",
+      "Frequency Modulation (FM) system for classroom use",
+      "Preferential seating",
+      "Real-time closed captioning services",
+      "Medical clearance for hearing aid use (including MRI)",
+      "Regular audiometric monitoring and hearing aid reprogramming due to fluctuating hearing"
+    ],
+    "counseling_actions": [
+      "Discuss the correlation between Sickle Cell Disease and hearing loss (reduced blood flow/vaso-occlusion)",
+      "Advise immediate medical attention for current pain crisis and fever",
+      "Discuss hearing aid options and accommodations for university classes"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden/fluctuating hearing loss",
+      "Asymmetrical hearing loss",
+      "Pain crisis with fever (101.2 F) requiring immediate medical attention"
+    ],
+    "escalation": {
+      "urgency": "discontinue and refer now",
+      "destination": "SCD specialist / Emergency medical care",
+      "rationale_short": "Patient presented with fever and severe joint pain indicating an acute vaso-occlusive crisis requiring immediate management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month",
+    "objective": "Audiologic reevaluation and possible hearing aid consultation once the medical crisis is managed."
+  },
+  "expected_outcome": [
+    "MRI (magnetic resonance imaging): Negative.",
+    "Hearing aid fitting: Received a hearing aid for the right ear after obtaining medical clearance.",
+    "Long-term management: Patient was seen frequently for hearing aid reprogramming due to the fluctuant nature of his hearing sensitivity, particularly in the right ear."
+  ]
+}

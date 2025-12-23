@@ -1,0 +1,95 @@
+{
+  "case_id": "Case005_28",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Benign Paroxysmal Positional Vertigo (BPPV)",
+      "rationale_short": "History of dizziness triggered specifically by position changes (turning in bed, looking up) with normal hearing."
+    },
+    {
+      "rank": 2,
+      "label": "High-frequency Sensorineural Hearing Loss",
+      "rationale_short": "Audiogram reveals a mild high-frequency loss/notch, likely incidental to the chief complaint of dizziness."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and rule out asymmetric loss associated with retrocochlear pathology."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech understanding and confirm agreement with pure-tone thresholds."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function given reports of pain and itchiness."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates essentially normal hearing sensitivity in the main speech frequencies bilaterally, with a mild high-frequency sensorineural slope and a slight notch at 3000 Hz in the right ear. Speech recognition is excellent. Middle ear function is normal as evidenced by Type A tympanograms and normal acoustic reflexes. The findings do not indicate retrocochlear pathology. The history is strongly suggestive of BPPV.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal 250-4000 Hz, 3000 Hz notch (25 dB HL), sloping to mild loss at 6000-8000 Hz. Left ear: Normal 250-4000 Hz, sloping to mild loss at 6000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 10 dB HL bilaterally. WRS 96% (Right) and 100% (Left) at 50 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal thresholds at 500-4000 Hz ipsilateral and contralateral; negative decay."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to ENT specialist for evaluation of dizziness (Dix-Hallpike maneuver)"
+    ],
+    "counseling_actions": [
+      "Explain that hearing is essentially normal in the speech range.",
+      "Inform the patient that the dizziness symptoms are characteristic of Benign Paroxysmal Positional Vertigo (BPPV).",
+      "Explain that BPPV is caused by crystals in the inner ear moving into the wrong canal and is not related to hearing loss.",
+      "Advise that the ENT specialist can perform a maneuver (Epley) to likely resolve the dizziness.",
+      "Mention that the ENT can also examine the ear canal for the reported itchiness."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist",
+      "rationale_short": "For confirmation of BPPV via Dix-Hallpike and treatment via Epley maneuver."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As recommended by ENT",
+    "objective": "Resolution of dizziness."
+  },
+  "expected_outcome": [
+    "Dix-Hallpike maneuver: Confirmed diagnosis of BPPV.",
+    "Epley procedure: Performed and resolved the patient's dizziness."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "case_id": "case_7_24",
+  "title": "Asymmetric Mixed Hearing Loss with History of Modified Radical Mastoidectomy",
+  "demographics": {
+    "age_years": 76,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I am here for my regular hearing monitoring. I wear a hearing aid in my right ear, but I haven't been able to wear one in my left ear due to discomfort.",
+  "problem_summary": {
+    "onset": "Long-standing history.",
+    "course": "Gradual progression bilaterally; stable thresholds compared to previous test 2 years ago.",
+    "laterality": "Asymmetric (Left worse than Right).",
+    "associated_symptoms": "Physical and auditory discomfort with previous left hearing aid trial.",
+    "functional_impact": "Relies on right ear amplification; left ear has poor speech recognition.",
+    "goals_motivation": "Monitor hearing sensitivity and maintain communication ability."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-04-08",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presents for regular monitoring; last test was two years ago. Hearing loss has progressed gradually.",
+        "otologic_history": "Multiple otosurgeries on the left ear. First surgery ~50 years ago; modified radical mastoidectomy ~30 years ago. Follows up every 6 months with otology for mastoid cavity bowl cleaning.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Currently uses amplification in the right ear. Tried amplification in the left ear ~10 years ago but the trial was unsuccessful due to physical and auditory discomfort.",
+        "patient_goals": "Monitor hearing stability."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.24"
+          ],
+          "key_findings": "Right ear: Slight sloping to mild mixed loss (250-1000 Hz) sloping to moderate-to-severe sensorineural loss (2000-8000 Hz). Left ear: Moderate sloping to severe mixed loss (250-2000 Hz) sloping to profound (3000-8000 Hz) with no measurable response at 4-8kHz. Masking dilemma noted for right bone conduction.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250Hz: 25, 1000Hz: 35, 4000Hz: 75, 8000Hz: 80 dB HL",
+            "LE_AC_Thresholds": "250Hz: 55, 1000Hz: 70, 2000Hz: 80, 4000Hz: NR dB HL",
+            "Masking_Note": "CNM (Could Not Mask) for right bone conduction thresholds due to over masking."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.24"
+          ],
+          "key_findings": "Right ear SRT agrees with PTA; WRS is normal (100%). Left ear SRT agrees with PTA; WRS is poor (50%). Patient unable to tolerate presentation levels >95 dB HL in left ear.",
+          "numeric_results": {
+            "RE_SRT": "37 dB HL",
+            "RE_WRS": "100% at 75 dB HL",
+            "LE_SRT": "72 dB HL",
+            "LE_WRS": "50% at 95 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.24"
+          ],
+          "key_findings": "Immittance testing was not measured due to surgical history.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient exhibits an asymmetric hearing loss. The right ear shows a mixed low-frequency loss sloping to a severe sensorineural high-frequency loss with excellent speech recognition. The left ear, status post-mastoidectomy, presents with a moderate-to-severe mixed loss sloping to profound, with poor word recognition ability. Results are stable compared to prior testing.",
+  "counseling_points": [
+    "Your hearing has changed slightly over time but is stable compared to your last test two years ago.",
+    "Continue using the hearing aid in your right ear as it provides significant benefit.",
+    "Given the severity of loss and poor clarity in the left ear, plus your history of discomfort, fitting that ear is challenging.",
+    "However, we can reconsider a trial of amplification for the left ear if you are willing, or discuss Hearing Assistive Technology (HAT) to help in specific situations.",
+    "Please continue your 6-month follow-ups with the otologist to keep the mastoid cavity clean."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is accustomed to their hearing loss and diligent about medical follow-up.",
+    "You rely heavily on your right ear.",
+    "If asked about the left ear hearing aid, express hesitation due to past physical pain or loud sound discomfort."
+  ]
+}

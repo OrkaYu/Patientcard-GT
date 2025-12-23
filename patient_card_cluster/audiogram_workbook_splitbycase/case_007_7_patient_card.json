@@ -1,0 +1,131 @@
+{
+  "case_id": "case_7_7",
+  "title": "Mixed Hearing Loss Post-Head and Neck Radiation",
+  "demographics": {
+    "age_years": 74,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I'm having trouble hearing in most situations, especially when there is background noise. My hearing has gotten worse in both ears since my cancer treatment, but the right one is definitely worse.",
+  "problem_summary": {
+    "onset": "Following surgery and radiation therapy for right-sided head and neck cancer.",
+    "course": "Bilateral decline since treatment.",
+    "laterality": "Bilateral; Right ear poorer than Left.",
+    "associated_symptoms": "Intermittent drainage from the right ear; reported perforated tympanic membrane; difficulty hearing in noise.",
+    "functional_impact": "Trouble hearing in most situations.",
+    "goals_motivation": "Interested in hearing aids to improve hearing."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-09-20",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient had right-sided neck cancer treated with surgery and radiation. Reports hearing decline post-treatment.",
+        "otologic_history": "Right ear: Reported perforated tympanic membrane (attributed to infections and radiation effects) and intermittent drainage. No otalgia.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "History of head and neck cancer.",
+        "prior_management": "None specified.",
+        "patient_goals": "Improve hearing through hearing aids."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.7"
+          ],
+          "key_findings": "Right Ear: Moderately severe sloping to severe mixed hearing loss (250-4000 Hz), sloping to profound with no response at 8000 Hz. Significant air-bone gaps present. Left Ear: Slight sloping to moderate sensorineural hearing loss (250-2000 Hz), sloping to severe at high frequencies.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 60, 500Hz: 65, 1000Hz: 70, 2000Hz: 75, 4000Hz: 90 dB HL",
+            "Right_BC_Thresholds": "250Hz: 40, 500Hz: 45, 1000Hz: 50, 2000Hz: 55, 4000Hz: 65 dB HL",
+            "Left_AC_Thresholds": "250Hz: 25, 500Hz: 25, 1000Hz: 30, 2000Hz: 40, 4000Hz: 70, 8000Hz: 75 dB HL",
+            "Left_BC_Thresholds": "Consistent with AC (Sensorineural)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.7"
+          ],
+          "key_findings": "SRT scores agree with PTA bilaterally. Word recognition is fair (moderate difficulty) in the right ear and good (slight difficulty) in the left ear.",
+          "numeric_results": {
+            "Right_SRT": "75 dB",
+            "Right_PTA": "70 dB",
+            "Right_WRS": "66% at 100 dB",
+            "Left_SRT": "40 dB",
+            "Left_PTA": "35 dB",
+            "Left_WRS": "84% at 75 dB"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.7"
+          ],
+          "key_findings": "Right ear shows a flat tympanogram with very large ear canal volume, consistent with a tympanic membrane perforation. Left ear shows normal tympanogram (Type A).",
+          "numeric_results": {
+            "Right_Canal_Volume": "7.1 mL",
+            "Right_Static_Admittance": "NP (No Peak)",
+            "Left_Canal_Volume": "1.3 mL",
+            "Left_Static_Admittance": "0.5 mmho",
+            "Left_Pressure": "-20 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.7"
+          ],
+          "key_findings": "Right ear: Absent ipsilateral and contralateral reflexes. Left ear: Ipsilateral reflexes present at 500 and 1000 Hz, absent at higher frequencies and absent contralaterally.",
+          "numeric_results": {
+            "Right_Ipsi": "ABS at all freqs",
+            "Left_Ipsi": "500Hz: 90, 1000Hz: 100, 2000Hz: ABS, 4000Hz: ABS"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric hearing loss. The right ear exhibits a moderately severe to profound mixed hearing loss with a large air-bone gap and tympanometric evidence of a perforated eardrum (large canal volume). The left ear exhibits a slight sloping to severe sensorineural hearing loss. Speech understanding is significantly reduced in the right ear but remains good in the left ear.",
+  "counseling_points": [
+    "Your hearing test confirms a mixed hearing loss in your right ear and nerve-type hearing loss in your left ear.",
+    "The test results for your right ear (specifically the large volume measure) confirm the presence of a hole (perforation) in your eardrum.",
+    "Because of the drainage and the eardrum perforation, you require medical clearance from an ENT physician before we can fit you with hearing aids.",
+    "It is important to keep your right ear dry to prevent further infection.",
+    "Once the ear is medically treated and cleared, hearing aids are recommended and should provide significant benefit."
+  ],
+  "notes_for_actor": [
+    "Portray a 74-year-old male who is matter-of-fact about his cancer history.",
+    "You are aware of the hole in your eardrum and the drainage, but your main priority is fixing your hearing.",
+    "You struggle significantly in background noise.",
+    "You are cooperative and motivated for rehabilitation."
+  ]
+}

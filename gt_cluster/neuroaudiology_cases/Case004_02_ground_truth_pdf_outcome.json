@@ -1,0 +1,108 @@
+{
+  "case_id": "Case004_02",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acoustic Neuroma (Vestibular Schwannoma)",
+      "rationale_short": "Confirmed by CT scan showing a 4-5 cm mass in the left CPA and pathology report indicating schwannoma."
+    },
+    {
+      "rank": 2,
+      "label": "Cerebellopontine Angle (CPA) Tumor",
+      "rationale_short": "Large mass lesion identified on CT, causing brainstem compression signs (contralateral ABR abnormalities, limb numbness)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech recognition and check for retrocochlear signs."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc; absence with normal hearing suggests retrocochlear pathology."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate neural synchrony and brainstem function given the asymmetric symptoms."
+      },
+      {
+        "action": "CT Scan",
+        "urgency": "urgent",
+        "rationale_short": "To visualize the cerebellopontine angle and confirm the presence of a mass."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presented with normal pure tone thresholds bilaterally but significant retrocochlear signs on the left, including reduced speech recognition (80%) and absent acoustic reflexes. ABR results were grossly abnormal on the left and showed signs of brainstem compression on the right (absent/diminished Wave V). A CT scan confirmed a large (4-5 cm) left acoustic schwannoma.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Essentially normal pure tone thresholds bilaterally (0-20 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear speech recognition dropped to 80%; Right ear 92%. No rollover observed."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Contralateral reflexes absent with left ear stimulation; normal with right ear stimulation."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Left ear: Wave I clear (1.44 ms), subsequent waves abnormal/indistinguishable. Right ear: Wave V absent or markedly diminished, suggesting brainstem compression."
+          },
+          {
+            "name": "CT Scan",
+            "category": "Imaging",
+            "result_summary": "Large mass lesion (4-5 cm) in the left CPA; pathology confirmed schwannoma."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical removal of the tumor"
+    ],
+    "counseling_actions": [
+      "Explain that normal pure tone thresholds do not rule out auditory nerve tumors.",
+      "Discuss the correlation between neurologic symptoms (facial tingling, limb numbness) and the large mass compressing the brainstem.",
+      "Review ABR findings, explaining how the tumor affects the non-involved ear via brainstem compression.",
+      "Discuss the plasticity of younger brains in accommodating neural compromise, which can mask symptom severity."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Facial tingling (CN V involvement)",
+      "Limb numbness (signs of brainstem compression)",
+      "Large CPA mass (4-5 cm)"
+    ],
+    "escalation": {
+      "urgency": "discontinue and refer now",
+      "destination": "Neurosurgery or Neuro-otology",
+      "rationale_short": "Confirmed large acoustic schwannoma with signs of brainstem compression."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-surgical",
+    "objective": "Monitor hearing status and recovery."
+  },
+  "expected_outcome": [
+    "Post-surgical hearing status: No hearing remained in the left ear.",
+    "Post-surgical hearing status: Right ear thresholds remained stable."
+  ]
+}

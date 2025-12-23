@@ -1,0 +1,271 @@
+{
+  "case_id": "case13_Hidden_Hearing_Loss",
+  "title": "Hidden Hearing Loss in a Young Musician",
+  "demographics": {
+    "age_years": 25,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am having a hard time understanding speech, especially in noisy listening environments.",
+  "problem_summary": {
+    "onset": "Recent notice of symptoms; history of noise exposure since age 15.",
+    "course": "Persistent difficulty in noise and reduced tolerance for loud sounds.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Intermittent 'buzzing' tinnitus in both ears; intolerance to very loud sounds (hyperacusis-like symptoms).",
+    "functional_impact": "Difficulty in classes and social settings; no longer enjoys attending musical concerts.",
+    "goals_motivation": "Wants to understand why she struggles despite 'normal' hearing and improve communication in noise."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2017-02-28",
+      "setting": "University Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports difficulty understanding speech in noise. She recently noticed she cannot tolerate very loud sounds and no longer enjoys concerts.",
+        "otologic_history": "Intermittent buzzing tinnitus bilaterally. No dizziness. No history of ear infections mentioned.",
+        "noise_exposure_history": "Lifelong passion for music. Played in a band as an adolescent. Purchased a personal listening device (PLD) at age 15 and listened for several hours daily at high volumes (roommates considered it 'considerably loud'). Did not wear hearing protection during band practice or concerts.",
+        "medical_psych_history": "Psychology major with minor in music. MRI and CT scans ordered by neuro-otologist were normal.",
+        "prior_management": "Referral to neuro-otologist due to ABR findings; cleared with no structural abnormalities.",
+        "patient_goals": "Diagnosis and management of hearing difficulties."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.1"
+          ],
+          "key_findings": "Hearing sensitivity within normal limits bilaterally (250-8000 Hz).",
+          "numeric_results": {
+            "PTA_Left": "5 dB HL",
+            "PTA_Right": "10 dB HL",
+            "Frequency_Range": "250-8000 Hz within normal limits"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.1"
+          ],
+          "key_findings": "Excellent word recognition in quiet. LDLs suggest high tolerance in quiet, contradicting patient report of loudness intolerance.",
+          "numeric_results": {
+            "SAT": "5 dB HL (AU)",
+            "SRT_Left": "15 dB HL",
+            "SRT_Right": "20 dB HL",
+            "WRS_Left": "98% at 40 dB SL",
+            "WRS_Right": "90% at 40 dB SL",
+            "MCL": "55 dB HL (AU)",
+            "LDL_Left": "105 dB HL",
+            "LDL_Right": "100 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.1"
+          ],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Type": "A (bilateral)",
+            "Static_Compliance": "0.33 (R) / 0.5 (L) mL",
+            "Pressure": "10 (R) / 0 (L) daPa",
+            "Volume": "1.0 (R) / 0.9 (L) mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.1"
+          ],
+          "key_findings": "Abnormal. Ipsilateral reflexes present only at 500/1000 Hz at high levels; absent at high frequencies. Contralateral reflexes absent at all frequencies.",
+          "numeric_results": {
+            "Ipsilateral_500_1k": "100 dB HL",
+            "Ipsilateral_2k_4k": "Absent",
+            "Contralateral_500_to_4k": "Absent"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAEs)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present bilaterally, indicating intact outer hair cell function.",
+          "numeric_results": null
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Wave morphology fair. Wave I amplitudes reduced even at 90 dB nHL. Wave V present but slightly elevated thresholds.",
+          "numeric_results": {
+            "Wave_V_Threshold_Left": "40 dB nHL",
+            "Wave_V_Threshold_Right": "50 dB nHL",
+            "Wave_I": "Reduced amplitude"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (Specialized Testing)",
+      "history": {
+        "present_illness": "Follow-up testing to rule out (C)APD and investigate Hidden Hearing Loss given the discrepancy between normal audiogram and complaints in noise.",
+        "otologic_history": "Previous neuro-otology workup (MRI/CT) was normal.",
+        "noise_exposure_history": "Unchanged.",
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "Cleared by neuro-otologist.",
+        "patient_goals": "Identify source of hearing difficulty."
+      },
+      "tests": [
+        {
+          "name": "SCAN-3:A (APD Screening)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Gap detection and Competing Words were normal. Auditory Figure-Ground (0 dB SNR) was outside the normal range.",
+          "numeric_results": {
+            "Gap_Detection": "Normal",
+            "Competing_Words_Free_Recall": "Normal",
+            "Auditory_Figure_Ground_0dB": "Abnormal / Outside normal range"
+          }
+        },
+        {
+          "name": "Speech-in-noise (QuickSIN)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Significant SNR loss observed. Performance is consistent with moderate-to-severe difficulty in noise.",
+          "numeric_results": {
+            "SNR_Loss_Left": "15.5 dB",
+            "SNR_Loss_Right": "14.5 dB",
+            "Interpretation": "Severe (Left) and Moderate (Right) SNR Loss"
+          }
+        },
+        {
+          "name": "Masking Level Difference (MLD)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal binaural interaction/release from masking.",
+          "numeric_results": {
+            "Release_500Hz": "9 dB",
+            "Release_1000Hz": "8 dB"
+          }
+        },
+        {
+          "name": "Random Gap Detection Test (RGDT)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Temporal processing within normal limits.",
+          "numeric_results": {
+            "Threshold": "5 ms"
+          }
+        },
+        {
+          "name": "Extended High-Frequency Audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Moderate hearing loss detected in extended high frequencies, not seen on standard audiogram.",
+          "numeric_results": {
+            "Left_12kHz": "40 dB HL",
+            "Left_16kHz": "50 dB HL",
+            "Right_12kHz": "40 dB HL",
+            "Right_16kHz": "55 dB HL"
+          }
+        },
+        {
+          "name": "Electrocochleography (ECochG)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.2",
+            "Figure 13.3"
+          ],
+          "key_findings": "Abnormally large SP/AP amplitude ratios bilaterally, similar to Meniere's or cochlear synaptopathy.",
+          "numeric_results": {
+            "SP_AP_Ratio_Left": "0.48",
+            "SP_AP_Ratio_Right": "0.53"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a 'normal' standard audiogram (250-8000 Hz) and intact OAEs, but significant deficits in speech-in-noise processing (QuickSIN) and auditory figure-ground skills. Extended high-frequency audiometry reveals moderate hearing loss at 12-16 kHz. Electrophysiological testing shows reduced ABR Wave I amplitudes and elevated ECochG SP/AP ratios, consistent with cochlear synaptopathy (Hidden Hearing Loss) likely secondary to noise exposure.",
+  "counseling_points": [
+    "Your standard hearing test is normal, but specialized tests show damage to the nerve connections (synapses) and high-frequency hearing, likely from music exposure.",
+    "This condition, often called 'Hidden Hearing Loss,' explains why you struggle in noise despite normal detection of quiet sounds.",
+    "It is critical to protect your remaining hearing: wear earplugs at concerts and lower the volume on your personal listening devices.",
+    "Use strategies to help in noise, such as sitting near the speaker, using an FM system in class, and advocating for yourself.",
+    "Auditory training exercises can help strengthen your brain's ability to process speech in difficult environments."
+  ],
+  "notes_for_actor": [
+    "You are a young, academic high-achiever who loves music but is frustrated/confused because previous checks might have said your hearing is 'fine'.",
+    "You find noisy places (restaurants, classrooms) exhausting and difficult, which contradicts the 'normal' test results.",
+    "You have noticed a 'buzzing' in your ears and loud sounds now feel uncomfortable or painful (hyperacusis)."
+  ]
+}

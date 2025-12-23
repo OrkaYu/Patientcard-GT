@@ -1,0 +1,171 @@
+{
+  "case_id": "elements_case_04",
+  "title": "Unilateral Nonorganic Hearing Loss Claim",
+  "demographics": {
+    "age_years": 23,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am totally deaf in my left ear and cannot hear people speak at all when they are on that side.",
+  "problem_summary": {
+    "onset": "Gradual",
+    "course": "Allegedly associated with noise exposure",
+    "laterality": "Left",
+    "associated_symptoms": "None reported (no tinnitus, vertigo, or ear infections)",
+    "functional_impact": "Claims inability to hear speech from the left side.",
+    "goals_motivation": "Patient requests a letter confirming deafness for his attorney."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient was referred by his attorney for routine hearing tests. He claims gradual hearing loss in the left ear due to noise exposure as a construction worker. He asserts he is 'totally deaf' in that ear.",
+        "otologic_history": "No history of ear infections, vertigo, or tinnitus.",
+        "noise_exposure_history": "Works as a construction worker.",
+        "medical_psych_history": "No reported family members with hearing loss.",
+        "prior_management": "None reported.",
+        "patient_goals": "Requests a letter 'to whom it may concern' stating he is totally deaf in the left ear."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Right ear thresholds are within normal limits (0-10 dB HL). Left ear responses are plotted at profound levels (90-110 dB HL) or no response. Crucially, there is a complete lack of a shadow curve; if the left ear were truly deaf, interaural attenuation should result in responses around 55 dB HL due to crossover to the normal right ear.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "0-10 dB HL across frequencies",
+            "Left_Ear_Thresholds": "Responses plotted >90 dB HL (inconsistent with physics of crossover)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Right ear shows excellent sensitivity and recognition. Left ear yielded no response (NR), which is inconsistent with the lack of crossover response.",
+          "numeric_results": {
+            "Right_SRT": "5 dB HL",
+            "Right_SRS": "100%",
+            "Left_SRT": "NR",
+            "Left_SRS": "NR"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanogram"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Right_Static_Compliance": "0.62 cc",
+            "Left_Static_Compliance": "0.66 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Acoustic reflexes are present at normal levels in both ears (ipsilateral and contralateral). The presence of reflexes in the left ear at 95 dB HL proves that a total hearing loss is impossible.",
+          "numeric_results": {
+            "Right_Ipsilateral": "95 dB HL",
+            "Right_Contralateral": "100 dB HL",
+            "Left_Ipsilateral": "95 dB HL",
+            "Left_Contralateral": "95 dB HL"
+          }
+        },
+        {
+          "name": "ABR",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "All waves normal; interpeak latencies normal; latency-intensity function normal bilaterally. This objective measure indicates normal auditory pathway function in the 'deaf' ear.",
+          "numeric_results": null
+        },
+        {
+          "name": "TEOAE",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Transient Evoked Otoacoustic Emissions are present bilaterally, indicating normal outer hair cell function.",
+          "numeric_results": {
+            "Result": "Present bilaterally"
+          }
+        },
+        {
+          "name": "Stenger Test",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Reasons for Decision Text"
+          ],
+          "key_findings": "Positive Stenger. The patient stopped responding when a tone was presented to the left ear at 35 dB, which interfered with the perception of the tone in the right ear.",
+          "numeric_results": {
+            "MCIL_Left": "35 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a functional (nonorganic) hearing loss. While subjective behavioral thresholds suggest profound deafness in the left ear, multiple objective measures contradict this. ABR and TEOAE results are normal bilaterally, and acoustic reflexes are present at normal levels in the left ear. Furthermore, the pure-tone audiogram lacks the expected shadow curve for a unilateral loss, and the Stenger test is positive with a minimum contralateral interference level of 35 dB. The findings are consistent with normal hearing bilaterally and malingering.",
+  "counseling_points": [
+    "Explain that the test results show inconsistencies between the behavioral responses and the automatic responses of the ear.",
+    "Inform the patient that objective tests (like the ABR and reflexes) indicate the hearing nerve and ear structures are functioning normally.",
+    "State clearly that you believe hearing in the left ear is normal or near normal based on these physiological responses.",
+    "Do not use the word 'malingering' or accuse the patient of lying; focus on the discrepancy in results.",
+    "Suggest a re-evaluation to obtain consistent behavioral results."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is motivated by a potential lawsuit/financial claim.",
+    "Be adamant about being 'totally deaf' in the left ear.",
+    "During pure tone testing, do not respond to any sounds in the left ear, even very loud ones.",
+    "If the audiologist confronts you, act defensive or confused, but stick to the claim that you cannot hear.",
+    "Show no difficulty communicating unless the speaker is strictly on your left side."
+  ]
+}

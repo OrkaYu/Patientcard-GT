@@ -1,0 +1,158 @@
+{
+  "case_id": "Case002",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "West Nile Virus (WNV) Encephalitis",
+      "rationale_short": "Confirmed by otolaryngologist; patient had encephalitis, fever, weakness, and sudden hearing loss consistent with WNV sequelae."
+    },
+    {
+      "rank": 2,
+      "label": "Idiopathic Sudden Sensorineural Hearing Loss",
+      "rationale_short": "Sudden onset SNHL is often idiopathic, but specific viral cause (WNV) was identified in this case."
+    },
+    {
+      "rank": 3,
+      "label": "Autoimmune Inner Ear Disease",
+      "rationale_short": "Considered due to bilateral nature of sudden loss, but less likely given the acute viral presentation."
+    },
+    {
+      "rank": 4,
+      "label": "Vascular Lesion",
+      "rationale_short": "Potential cause for sudden loss, but clinical history points to viral etiology."
+    },
+    {
+      "rank": 5,
+      "label": "Acoustic Neuroma / Vestibular Schwannoma",
+      "rationale_short": "Considered due to asymmetry, but bilateral sudden onset and recovery pattern favor viral/inflammatory cause."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To assess the degree, type, and configuration of the reported sudden hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities, checking for retrocochlear signs."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and rule out conductive pathology."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and screen for retrocochlear pathology."
+      },
+      {
+        "action": "Dix-Hallpike test",
+        "urgency": "soon",
+        "rationale_short": "To assess for Benign Paroxysmal Positional Vertigo (BPPV) given reports of vertigo."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation 2.5 weeks post-onset revealed asymmetric sensorineural hearing loss, worse in the left ear. Word recognition was disproportionately poor in the left ear, and acoustic reflexes were absent bilaterally, consistent with neural involvement from encephalitis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: slight sloping to severe SNHL (20-80 dB HL). Left ear: moderately severe to severe flat SNHL (60-80 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right SRT 25 dB HL, WRS 80%. Left SRT 65 dB HL, WRS 32% (very poor)."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Type A (normal) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Absent bilaterally ipsilateral and contralateral."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up at 2 months showed significant spontaneous recovery in the right ear to near-normal sensitivity in low frequencies. The left ear remained severe with very poor speech recognition (16%). Reflexes partially recovered.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Improved to normal (250-1000 Hz) sloping to moderate/mild. Left ear: Slight sloping to severe SNHL (severe in highs)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right SRT 20 dB HL, WRS 86%. Left SAT 35 dB HL, WRS 16%."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Ipsilateral present at 500/1000 Hz, absent at 2000/4000 Hz. Contralateral elevated or absent."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Follow-up at 9 months showed stable hearing thresholds. The patient reported vertigo, and Dix-Hallpike confirmed right BPPV. Left ear diplacusis and distortion persisted.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear stable (normal to moderate). Left ear stable (severe SNHL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right WRS 100%. Left WRS 22%."
+          },
+          {
+            "name": "Dix-Hallpike test",
+            "result_summary": "Positive for right benign paroxysmal positional vertigo (BPPV)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Epley maneuver for BPPV treatment",
+      "Hearing aid trial (Left ear, Right ear, or Bilateral)",
+      "BiCROS hearing aid trial",
+      "Cochlear Implant evaluation (Left ear) with bimodal fitting",
+      "Hearing Assistive Technology (HAT) such as FM system or remote microphone",
+      "Monitoring of hearing status"
+    ],
+    "counseling_actions": [
+      "Explain the link between West Nile Virus encephalitis and sensorineural hearing loss",
+      "Discuss the prognosis of spontaneous recovery (observed in right ear) versus permanent damage (left ear)",
+      "Explain diplacusis ('tin can' distortion) as a result of inner ear damage",
+      "Counsel on BPPV and the Epley maneuver",
+      "Discuss advantages and disadvantages of amplification options including CIs and BiCROS"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset bilateral sensorineural hearing loss",
+      "Asymmetric hearing loss",
+      "Associated neurological symptoms (aphasia, weakness, vision changes)",
+      "Vertigo"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otolaryngology",
+      "rationale_short": "Medical management of sudden hearing loss and West Nile Virus sequelae; patient was already under ENT care."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor hearing stability and reconsider amplification if the patient decides to proceed."
+  },
+  "expected_outcome": [
+    "Amplification options were discussed, including left/right/bilateral hearing aids, right BICROS, and a cochlear implant in the left ear.",
+    "The patient was most interested in a cochlear implant, but insurance coverage was a barrier.",
+    "The patient decided to wait to determine how well he can compensate for his hearing loss before pursuing amplification."
+  ]
+}

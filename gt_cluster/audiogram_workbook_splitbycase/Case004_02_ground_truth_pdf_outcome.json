@@ -1,0 +1,88 @@
+{
+  "case_id": "case_4_2",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Misophonia",
+      "rationale_short": "Patient reports instant anger triggered by specific sounds (chewing, sniffing) despite normal hearing sensitivity and middle ear function."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and rule out peripheral hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and neural integrity."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The audiological evaluation revealed normal hearing sensitivity bilaterally with excellent speech recognition. Immittance testing indicated normal middle ear function with Type A tympanograms and normal acoustic reflexes. These findings rule out peripheral pathology, supporting a diagnosis of misophonia based on the reported symptoms.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal thresholds (0-10 dB HL) from 250 to 8,000 Hz bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 7 dB (right) and 3 dB (left); WRS 100% at 50 dB HL bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A tympanograms bilaterally (Right: 1.0 mL, 0.7 mmho, -10 daPa; Left: 1.1 mL, 0.9 mmho, 0 daPa)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal thresholds (80-90 dB HL) ipsilateral and contralateral; negative decay."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Sound therapy with BTE sound generators",
+      "Cognitive behavioral therapy (CBT)",
+      "Hearing protection in noise",
+      "Retesting hearing as needed"
+    ],
+    "counseling_actions": [
+      "Explain that hearing is physically normal and the condition is Misophonia",
+      "Counsel on the brain's emotional reaction to specific sound patterns",
+      "Advise against constant hearing protection to avoid increasing sensitivity"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist",
+      "rationale_short": "To rule out any medical complications."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor hearing status"
+  },
+  "expected_outcome": []
+}

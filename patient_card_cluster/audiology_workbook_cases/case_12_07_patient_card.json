@@ -1,0 +1,139 @@
+{
+  "case_id": "case_12_7",
+  "title": "Case Study 7: Lenny Labyrinth",
+  "demographics": {
+    "age_years": 45,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am having difficulty understanding speech, especially when using the telephone on my left ear. I also have a high-pitched ringing in that ear and have felt unsteady since my fall.",
+  "problem_summary": {
+    "onset": "Acute change in speech understanding and balance following a fall; tinnitus was pre-existing.",
+    "course": "Stable since the accident.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Difficulty understanding speech on the phone, high-pitched tinnitus, slight unsteadiness.",
+    "functional_impact": "Communication difficulty on the telephone.",
+    "goals_motivation": "Wants to understand the cause of symptoms following head trauma."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient fell off a scaffold and hit the left side of his head. Since then, he reports difficulty understanding speech (especially on the phone in the left ear) and slight unsteadiness. He is unsure of the cause of the fall.",
+        "otologic_history": "High-pitched tinnitus in the left ear was present prior to the accident.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "History of recent head trauma (fall from scaffold).",
+        "prior_management": "None reported.",
+        "patient_goals": "Evaluation of hearing and balance symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph",
+            "PTA/SRT Table"
+          ],
+          "key_findings": "Right ear shows normal hearing sensitivity (0-5 dB HL). Left ear shows normal sensitivity from 250-2000 Hz, sloping to a mild sensorineural hearing loss at 4000-8000 Hz (40-45 dB HL).",
+          "numeric_results": {
+            "PTA_Right": "7 dB HL",
+            "PTA_Left": "10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table"
+          ],
+          "key_findings": "SRTs align with PTAs. Word recognition is excellent in the Right ear. The Left ear shows significant rollover (performance decreases as intensity increases), suggestive of retrocochlear pathology.",
+          "numeric_results": {
+            "SRT_Right": "5 dB HL",
+            "SRT_Left": "10 dB HL",
+            "WRS_Right_65dB": "100%",
+            "WRS_Right_85dB": "88%",
+            "WRS_Left_65dB": "100%",
+            "WRS_Left_85dB": "60%",
+            "Rollover_Ratio_Right": "0.12",
+            "Rollover_Ratio_Left": "0.40"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tymps Table"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Vea_Right": "1.2",
+            "Vea_Left": "1.1",
+            "TPP_Right": "0",
+            "TPP_Left": "0"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAE)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "DP-gram"
+          ],
+          "key_findings": "DPOAEs are present and robust bilaterally from 1-8 kHz, indicating intact outer hair cell function despite the subjective complaints and mild threshold shift in the left high frequencies.",
+          "numeric_results": null
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "ABR Waveforms"
+          ],
+          "key_findings": "Waveforms obtained at 80 dB nHL. Right ear shows clear morphology with identifiable Waves I, III, and V. Left ear waveforms appear degraded/poorly formed compared to the right, despite relatively preserved hearing sensitivity.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with essentially normal hearing sensitivity bilaterally, with only a mild high-frequency dip in the left ear. However, there are significant signs of retrocochlear (neural) dysfunction on the left side, including significant WRS rollover (ratio 0.40) and degraded ABR waveforms, despite intact cochlear function (normal OAEs). This pattern, combined with the history of head trauma and unsteadiness, warrants immediate medical investigation.",
+  "counseling_points": [
+    "Your hearing test shows that the 'volume' of your hearing is mostly normal, which explains why you hear sounds but struggle with clarity.",
+    "We found a mismatch between the health of your inner ear (which looks good) and how your nerve processes speech, particularly in your left ear.",
+    "Specifically, making speech louder actually made it harder for you to understand in the left ear, which is a sign of a problem along the hearing nerve pathway.",
+    "Given your recent fall and these test results, it is critical that you see an ENT or Neurologist for further evaluation, likely including imaging (MRI)."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is confused because they can 'hear' sounds (like the ringing) but can't 'understand' words clearly on the phone.",
+    "Emphasize the timeline: the ringing was there before, but the speech clarity issues and dizziness started after the fall.",
+    "You are slightly anxious about the unsteadiness and the cause of the fall."
+  ]
+}

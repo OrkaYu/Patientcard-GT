@@ -1,0 +1,101 @@
+{
+  "case_id": "Case004_06",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Neurofibromatosis (NF2)",
+      "rationale_short": "Confirmed by MRI findings of bilateral Cerebellopontine Angle (CPA) lesions."
+    },
+    {
+      "rank": 2,
+      "label": "Right Acoustic Tumor (Vestibular Schwannoma)",
+      "rationale_short": "MRI shows probable acoustic tumor on the right with extension into the Internal Auditory Meatus (IAM), consistent with progressive high-frequency SNHL and ABR findings."
+    },
+    {
+      "rank": 3,
+      "label": "Left Meningioma",
+      "rationale_short": "MRI shows probable meningioma on the left; ABR suggests brainstem compression rather than direct nerve involvement."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity given complaints of hearing loss and tinnitus."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech recognition abilities."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To assess neural integrity given asymmetric symptoms and tinnitus."
+      },
+      {
+        "action": "MRI",
+        "urgency": "urgent",
+        "rationale_short": "To visualize retrocochlear structures due to abnormal ABR and asymmetric auditory findings."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation revealed normal hearing in the left ear but progressive high-frequency sensorineural hearing loss in the right ear. Speech recognition was excellent bilaterally. ABR was abnormal bilaterally, showing retrocochlear signs on the right (consistent with IAM involvement) and signs of brainstem compression on the left. MRI confirmed bilateral CPA masses, leading to a diagnosis of Neurofibromatosis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Left ear: Normal hearing sensitivity (0-10 dB HL). Right ear: Moderate to severe high-frequency sensorineural hearing loss, sloping to ~65 dB HL at 8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Excellent speech recognition scores bilaterally (RE 96%, LE 100%)."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Abnormal bilaterally. Right ear: Extended I-V interval (5.64 ms) and missing Wave III. Left ear: Extended Wave V latency, normal I-III, but abnormal III-V (2.77 ms) and I-V (4.87 ms) intervals."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Bilateral CPA mass lesions. Right side: Probable acoustic tumor extending into the Internal Auditory Meatus. Left side: Probable meningioma."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical consultation (Neurosurgery/Otology)"
+    ],
+    "counseling_actions": [
+      "Discuss MRI findings indicating bilateral CPA masses",
+      "Explain the diagnosis of Neurofibromatosis",
+      "Correlate right-sided hearing loss with tumor extension into the Internal Auditory Meatus",
+      "Explain left-sided ABR abnormalities as likely due to brainstem compression by the meningioma"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral progressive hearing loss",
+      "Pulsatile tinnitus (left ear)",
+      "Bilateral CPA masses on MRI",
+      "Abnormal ABR bilaterally"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurosurgery/Otology",
+      "rationale_short": "Presence of bilateral CPA tumors (Neurofibromatosis) requiring surgical evaluation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate",
+    "objective": "Surgical management of bilateral tumors."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Case029",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Tinnitus associated with COVID-19",
+      "rationale_short": "Onset of left-sided unilateral tinnitus occurred immediately following a positive COVID-19 diagnosis and anosmia."
+    },
+    {
+      "rank": 2,
+      "label": "High-frequency sensorineural hearing loss",
+      "rationale_short": "Audiometry revealed bilateral mild SNHL at 4 kHz and above, extending to mild-to-moderate loss in ultra-high frequencies (9-16 kHz)."
+    },
+    {
+      "rank": 3,
+      "label": "Anxiety and Depression",
+      "rationale_short": "Patient exhibited significant anxiety regarding long-term COVID effects, which likely exacerbates tinnitus perception."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Self-Report Scales",
+        "urgency": "routine",
+        "rationale_short": "To assess the severity and functional impact of tinnitus (THI, TFI)."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds, including ultra-high frequencies (9-16 kHz)."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition thresholds and word recognition scores."
+      },
+      {
+        "action": "Loudness Tolerance",
+        "urgency": "routine",
+        "rationale_short": "To evaluate for hyperacusis or reduced loudness discomfort levels."
+      },
+      {
+        "action": "Tinnitus Evaluation",
+        "urgency": "routine",
+        "rationale_short": "To characterize tinnitus pitch, loudness, masking levels, and residual inhibition."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presented with left-sided tinnitus starting immediately after a COVID-19 diagnosis. Testing revealed bilateral mild sensorineural hearing loss at 4000 Hz and above, with mild-to-moderate loss in the ultra-high frequencies (9-16 kHz). Speech recognition was excellent, and loudness tolerance was normal. Tinnitus evaluation showed partial residual inhibition. Self-report scores (THI 72, TFI 84) indicated severely bothersome tinnitus exacerbated by significant anxiety.",
+        "tests": [
+          {
+            "name": "Self-Report Scales",
+            "result_summary": "THI score of 72 and TFI score of 84, indicating severely bothersome tinnitus."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Bilateral Type A tympanograms."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Bilateral mild SNHL at 4000 Hz and above; mild-to-moderate loss from 9 kHz through 16 kHz."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRTs at 25 dB HL bilaterally; WRS 96% at 55 dB HL bilaterally."
+          },
+          {
+            "name": "Loudness Tolerance",
+            "result_summary": "LDLs > 90 dB HL for speech and pure tones (normal)."
+          },
+          {
+            "name": "Tinnitus Evaluation",
+            "result_summary": "Pitch and loudness matched; MML obtained; partial residual inhibition for 35 seconds."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Binaural amplification (recommended but declined due to budget)",
+      "Smartphone-based sound therapy app",
+      "Relaxation techniques (Mindfulness Based Tinnitus Stress Reduction)"
+    ],
+    "counseling_actions": [
+      "Counseling on using sound therapy at a mixing point volume",
+      "Instruction to use sound therapy when tinnitus is most bothersome",
+      "Counseling regarding referral to a mental health professional for anxiety"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Mental Health Professional",
+      "rationale_short": "Referral recommended to address significant anxiety and depression symptoms related to the COVID-19 diagnosis and tinnitus."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "6 months",
+    "objective": "Return if symptoms persist; monitor hearing and tinnitus status."
+  },
+  "expected_outcome": [
+    "Patient declined binaural amplification due to budget constraints.",
+    "Patient instructed to use a smartphone app for sound therapy set to a mixing point.",
+    "Patient encouraged to practice relaxation techniques such as Mindfulness Based Tinnitus Stress Reduction (MBTSR).",
+    "Referral to a mental health professional was recommended to address anxiety and depression."
+  ]
+}

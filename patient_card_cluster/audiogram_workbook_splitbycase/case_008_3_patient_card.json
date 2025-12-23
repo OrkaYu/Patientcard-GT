@@ -1,0 +1,122 @@
+{
+  "case_id": "case_8_3",
+  "title": "Post-Radiation Hearing Loss with Functional Overlay",
+  "demographics": {
+    "age_years": 50,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have had hearing loss and ringing in my right ear since my radiation treatment in 2009. I am also very sensitive to loud, high-pitched sounds in that ear.",
+  "problem_summary": {
+    "onset": "2009, following radiation therapy to the neck.",
+    "course": "Patient reports symptoms are greater than onset.",
+    "laterality": "Bilateral hearing loss found, though patient emphasizes Right ear symptoms.",
+    "associated_symptoms": "Tinnitus (Right ear), Hyperacusis (sensitivity to loud, high-pitched sounds in Right ear).",
+    "functional_impact": "Sensitivity to sounds and reduced hearing acuity.",
+    "goals_motivation": "Evaluation of hearing status and management of symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-07-11",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports hearing loss and tinnitus in the right ear since radiation to the neck in 2009 for carcinoma of the right tonsil. Reports sensitivity to loud, high-pitched sounds in the right ear starting after therapy.",
+        "otologic_history": "History of right tonsil carcinoma treated with radiation.",
+        "noise_exposure_history": "No reported noise exposure.",
+        "medical_psych_history": "Carcinoma of right tonsil (2009).",
+        "prior_management": "None specified.",
+        "patient_goals": "Assessment of hearing and tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.3"
+          ],
+          "key_findings": "Right ear: Mild SNHL (250-3000 Hz) sloping to severe at 8000 Hz. Left ear: Slight sloping to mild SNHL with a moderate notch at 3000 Hz. Initial testing showed poor reliability with PTA 20 dB poorer than SRT; reinstruction was required to obtain valid organic thresholds.",
+          "numeric_results": {
+            "RE_PTA": "33 dB HL",
+            "LE_PTA": "27 dB HL",
+            "RE_Configuration": "Mild sloping to severe SNHL",
+            "LE_Configuration": "Slight/Mild SNHL with 3k Hz notch"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.3"
+          ],
+          "key_findings": "SRT scores align with valid pure-tone averages (after reinstruction). Word recognition scores are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "30 dB HL",
+            "LE_SRT": "20 dB HL",
+            "RE_WRS": "92%",
+            "LE_WRS": "96%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.3"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "RE_Peak_Pressure": "5 daPa",
+            "LE_Peak_Pressure": "15 daPa",
+            "RE_Static_Admittance": "0.6 mL",
+            "LE_Static_Admittance": "0.8 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present and normal for ipsilateral and contralateral stimulation at 500, 1000, and 2000 Hz. Absent at 4000 Hz. No reflex decay observed.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild-to-severe sensorineural hearing loss in the right ear and a slight-to-moderate sensorineural hearing loss in the left ear (with a notch at 3000 Hz). Word recognition ability is excellent in both ears. Initial testing revealed a nonorganic component (functional overlay) where pure-tone thresholds were exaggerated by approximately 20 dB compared to speech thresholds, but valid thresholds were obtained after reinstruction.",
+  "counseling_points": [
+    "Your hearing test shows some permanent hearing loss in both ears, which is likely related to your history of radiation therapy.",
+    "The initial difficulty in the test was resolved, and we now have a reliable baseline for your hearing.",
+    "We recommend an evaluation with an otologist (ear specialist) given your medical history.",
+    "For your tinnitus (ringing) and sensitivity to loud sounds, there are management options we can explore.",
+    "You should use hearing protection when exposed to loud noise to prevent further damage.",
+    "We should schedule an evaluation to discuss hearing aids or assistive devices to help with communication."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is cooperative but perhaps inconsistent in their responses initially.",
+    "If the clinician does not give clear instructions, give responses that suggest your hearing is worse than it actually is (functional overlay).",
+    "Complain specifically about the right ear and high-pitched sounds being uncomfortable."
+  ]
+}

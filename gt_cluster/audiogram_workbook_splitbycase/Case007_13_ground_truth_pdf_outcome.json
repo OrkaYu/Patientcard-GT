@@ -1,0 +1,90 @@
+{
+  "case_id": "Case007_13",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otosclerosis",
+      "rationale_short": "Unilateral progressive mixed hearing loss with significant air-bone gaps, normal tympanograms, and absent acoustic reflexes is the classic presentation of otosclerosis."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate tympanic membrane mobility and middle ear pressure."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc and aid in differential diagnosis of conductive pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear demonstrates a moderate to moderately severe mixed hearing loss in the low frequencies, improving to a mild mixed loss in the high frequencies, with significant air-bone gaps. The left ear shows normal hearing sloping to a moderate sensorineural loss in the high frequencies. Speech audiometry shows excellent word recognition bilaterally. Tympanometry is normal (Type A) bilaterally, but acoustic reflexes are absent in the right ear and for left contralateral stimulation, consistent with a middle ear pathology like otosclerosis affecting the right ear.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: moderate to moderately severe mixed loss (250-1500 Hz) rising to mild mixed loss (2000-8000 Hz); PTA 52 dB HL. Left ear: normal to slight SNHL sloping to moderate; PTA 18 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 50 dB HL, Left 20 dB HL. WRS: Right 94% at 75 dB HL, Left 100% at 60 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral and contralateral absent. Left ipsilateral present (normal). Left contralateral absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical intervention (stapedectomy)",
+      "Amplification (hearing aids)"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of otosclerosis and the mechanical nature of the hearing loss.",
+      "Discuss the options of surgery versus amplification.",
+      "Respect the patient's decision to decline intervention as she feels her communication needs are currently met."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist",
+      "rationale_short": "Referral required to confirm the diagnosis of otosclerosis and discuss surgical management options for the mixed hearing loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual monitoring",
+    "objective": "Monitor hearing thresholds and re-evaluate the need for intervention if functional difficulties arise."
+  },
+  "expected_outcome": [
+    "Patient was diagnosed with otosclerosis by an ENT specialist.",
+    "Patient declined both surgery and amplification.",
+    "Patient reports she continues to do well with her communication needs."
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "case_id": "Case027",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Misophonia",
+      "rationale_short": "Specific triggers (chewing, breathing, hiccups) eliciting extreme emotional distress (rage, disgust), visual triggers, and severe scores on misophonia questionnaires."
+    },
+    {
+      "rank": 2,
+      "label": "Hyperacusis",
+      "rationale_short": "Reduced uncomfortable loudness levels (UCLs 70-90 dB HL) indicating mild-to-moderate loudness hyperacusis."
+    },
+    {
+      "rank": 3,
+      "label": "Anxiety and Depression",
+      "rationale_short": "Diagnosed by a clinical psychologist and linked to the effects of the triggering sounds."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To assess the ear canals and tympanic membranes for any visible pathology."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate hearing sensitivity and rule out hearing loss."
+      },
+      {
+        "action": "Sound Tolerance (UCL)",
+        "urgency": "routine",
+        "rationale_short": "To measure uncomfortable loudness levels and assess for hyperacusis."
+      },
+      {
+        "action": "Questionnaires",
+        "urgency": "routine",
+        "rationale_short": "To quantify the severity of misophonia and assess emotional and coping responses."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with normal hearing sensitivity but reduced sound tolerance consistent with mild-to-moderate hyperacusis. Questionnaire results confirm severe misophonia with intense emotional reactions and visual triggers.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "result_summary": "Clear ear canals with intact tympanic membranes bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Hearing sensitivity within normal limits bilaterally (thresholds 0-10 dB HL)."
+          },
+          {
+            "name": "Sound Tolerance (UCL)",
+            "result_summary": "Thresholds obtained from 70 to 90 dB HL, indicating mild-to-moderate hyperacusis."
+          },
+          {
+            "name": "Questionnaires",
+            "result_summary": "A-MISO-S score 17 (Severe); MAQ score 48 (Severe); reports of visual triggers and severe emotional distress (hate, anger, rage)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Reduction of hearing protection use to avoid silence.",
+      "Sound therapy using nonoccluding devices playing pink noise.",
+      "Enrichment of sound environment (music, nature sounds) at the dinner table.",
+      "Jastreboff protocol for treatment of sound sensitivity (desensitization).",
+      "Progressive muscle relaxation exercises.",
+      "Desensitization using positive stimuli (Marvel movies) paired with trigger sounds.",
+      "Filming a documentary about misophonia."
+    ],
+    "counseling_actions": [
+      "Explained that overuse of hearing protection can heighten sound sensitivity.",
+      "Described the reaction as a conditioned reflex involving auditory and limbic/autonomic connections.",
+      "Counseled family to keep lines of communication open regarding self-harm.",
+      "Advised transition from hearing protection to an enriched sound environment."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Ongoing management of misophonia and hyperacusis with sound therapy and desensitization protocols."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Follow-up after 16 months (November 2018) and subsequently in February 2019.",
+    "objective": "Monitor treatment progress, re-evaluate UCLs and questionnaire scores, and adjust desensitization protocols."
+  },
+  "expected_outcome": [
+    "Follow-up audiometric testing (Fig. 27.2) demonstrated improvement in uncomfortable loudness levels (UCL) following intervention.",
+    "A-MISO-S score reduced to 10 (Moderate) from 17 (Severe).",
+    "MAQ score reduced to 25 from 48 (Severe).",
+    "Misophonia Coping Response revealed visual triggers were no longer an issue.",
+    "Misophonia Emotional Response Questionnaire yielded less emotional distress than previously reported.",
+    "Patient is able to sit at the dinner table for at least part of the meal without distress.",
+    "Patient returned to school part-time with intent to transition to full-time."
+  ]
+}

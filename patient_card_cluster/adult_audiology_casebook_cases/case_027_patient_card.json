@@ -1,0 +1,153 @@
+{
+  "case_id": "case27_The_Role_of_an_Inciting_Event_Causing_Ve",
+  "title": "The Role of an Inciting Event Causing Vertigo",
+  "demographics": {
+    "age_years": 48,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I hear my own voice abnormally loud in my head (autophony). This started after a scuba diving trip 5 months ago.",
+  "problem_summary": {
+    "onset": "Abrupt onset 5 months ago during a scuba dive.",
+    "course": "Initial vertigo and otalgia resolved; autophony persists.",
+    "laterality": "Right-sided hearing loss and otalgia initially; autophony is the primary current symptom.",
+    "associated_symptoms": "History of URI and difficulty auto-insufflating (Valsalva) during the dive. Vertigo triggered by loud sounds (during testing).",
+    "functional_impact": "Disturbing sensation of hearing own voice loudly.",
+    "goals_motivation": "Investigate persistent autophony."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-05-25",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient experienced right-sided hearing loss, otalgia, and vertigo while scuba diving 5 months ago. She was recovering from a URI and had trouble equalizing pressure. Post-dive, she noticed autophony. Otalgia and vertigo resolved, but autophony remains.",
+        "otologic_history": "No evidence of middle ear fluid or nasopharyngeal mass on physical exam.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Recovering from URI at time of incident.",
+        "prior_management": "Referred to otolaryngology; physical exam was normal.",
+        "patient_goals": "Determine cause of symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 27.1"
+          ],
+          "key_findings": "Right ear shows a slight conductive hearing loss at 250 Hz (air-bone gap) with normal hearing 500-8000 Hz. Left ear shows slight sensorineural hearing loss.",
+          "numeric_results": {
+            "Right AC Thresholds": "25 dB HL at 250 Hz, 10 dB at 500 Hz, 5 dB at 1000-2000 Hz",
+            "Right BC Thresholds": "5 dB HL at 250 Hz (approx 20 dB Air-Bone Gap)",
+            "Left AC Thresholds": "20-25 dB HL across frequencies",
+            "Left BC Thresholds": "Matches AC (no gap)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 27.1"
+          ],
+          "key_findings": "Normal ability to recognize speech in both ears. SRT aligns with PTA.",
+          "numeric_results": {
+            "SRT Right": "15 dB HL",
+            "SRT Left": "20 dB HL",
+            "WRS Right": "100% at 60 dB HL",
+            "WRS Left": "100% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 27.1"
+          ],
+          "key_findings": "Normal ear canal volume, middle ear pressure, and static admittance (Type A).",
+          "numeric_results": {
+            "Right Pressure": "25 daPa",
+            "Left Pressure": "25 daPa",
+            "Right Compliance": "1.0 ml",
+            "Left Compliance": "0.8 ml"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Reflexes present at normal sensation levels. CRITICAL FINDING: Patient reported vertigo during ART testing at 500 and 1000 Hz (Tullio's phenomenon).",
+          "numeric_results": {
+            "Stimulus Levels": "80-105 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Radiology / Follow-up",
+      "history": {
+        "present_illness": "Follow-up to investigate suspected third-window pathology based on V1 findings (air-bone gap with normal tymps + Tullio's phenomenon).",
+        "otologic_history": "Suspected Superior Semicircular Canal Dehiscence (SSCD).",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "CT scan ordered.",
+        "patient_goals": "Confirm diagnosis."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Diagnostic Imaging",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 27.2"
+          ],
+          "key_findings": "Noncontrast temporal bone CT scan reveals bilateral Superior Semicircular Canal Dehiscence (SSCD). No evidence of Enlarged Vestibular Aqueduct (EVA) or other masses.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation reveals a slight low-frequency conductive hearing loss in the right ear (specifically a 250 Hz air-bone gap) despite normal tympanometry. The left ear shows slight sensorineural hearing loss. Speech recognition is excellent bilaterally. A critical finding is the report of vertigo induced by loud sounds during acoustic reflex testing (Tullio's phenomenon). Combined with the history of barotrauma, these findings are highly consistent with third-window pathology, specifically Superior Semicircular Canal Dehiscence (SSCD), which was subsequently confirmed by CT imaging.",
+  "counseling_points": [
+    "Your hearing test shows a specific pattern: a 'gap' between your hearing nerve function and how sound travels through the ear at low pitches, even though your middle ear system (eardrum) is moving normally.",
+    "You experienced dizziness when we played loud sounds during the test. This is called Tullio's phenomenon and suggests a 'third window' or opening in the inner ear bone.",
+    "The CT scan confirmed a thinning or opening in the bone of the superior semicircular canal (SSCD). This explains why you hear your voice so loudly (autophony)—sound is escaping through this extra opening.",
+    "The scuba diving incident, combined with the pressure from your cold, likely caused this thin bone to open.",
+    "We will discuss management options with the otologist, which may include avoiding triggers (like pressure changes or loud noises) or surgical repair if symptoms are debilitating."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is annoyed by the sound of their own voice (autophony).",
+    "When the audiologist performs the Acoustic Reflex test (loud beeps), you should complain of sudden, brief dizziness or spinning.",
+    "Emphasize that the symptoms started exactly during the dive when you were struggling to clear your ears."
+  ]
+}

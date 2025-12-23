@@ -1,0 +1,105 @@
+{
+  "case_id": "Case007_08",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Dysfunction (Right Hemisphere Lesion)",
+      "rationale_short": "Behavioral tests reveal a severe left ear deficit on dichotic digits and bilateral deficits on duration patterns, consistent with the radiologically confirmed right hemisphere lesion affecting Heschl's gyrus and the parietal lobe."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Dichotic Digits Test",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory function and interhemispheric transfer."
+      },
+      {
+        "action": "Duration Patterns Test",
+        "urgency": "routine",
+        "rationale_short": "To assess temporal processing and central auditory integration."
+      },
+      {
+        "action": "Dichotic Rhyme Test",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory function."
+      },
+      {
+        "action": "Radiologic Evaluation (SPECT and MRI)",
+        "urgency": "routine",
+        "rationale_short": "To identify structural brain lesions associated with the seizure disorder."
+      },
+      {
+        "action": "EEG",
+        "urgency": "routine",
+        "rationale_short": "Intra-operative monitoring to assess seizure activity and hemispheric function."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Pre-operative evaluation demonstrated normal peripheral hearing but significant central auditory deficits. Behavioral testing revealed a severe left ear deficit on dichotic digits, consistent with the right hemisphere lesion (Heschl's gyrus/parietal) identified on MRI/SPECT, and severe bilateral deficits on duration patterns. EEG monitoring confirmed bilateral abnormalities with greater activity in the right hemisphere.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal thresholds bilaterally from 250 to 8000 Hz."
+          },
+          {
+            "name": "Dichotic Digits Test",
+            "category": "Central Auditory Test",
+            "result_summary": "Severe left ear deficit (~20%) and mild right ear deficit (~65%)."
+          },
+          {
+            "name": "Duration Patterns Test",
+            "category": "Central Auditory Test",
+            "result_summary": "Severe bilateral deficit (~10-15%)."
+          },
+          {
+            "name": "Dichotic Rhyme Test",
+            "category": "Central Auditory Test",
+            "result_summary": "Borderline normal for the left ear and normal for the right ear."
+          },
+          {
+            "name": "Radiologic Evaluation (SPECT and MRI)",
+            "category": "Imaging",
+            "result_summary": "SPECT showed asymmetrical accumulation in right basal ganglia and parietal region. MRI indicated a lesion in the area of Heschl's gyrus and inferior parietal region (right hemisphere)."
+          },
+          {
+            "name": "EEG",
+            "category": "Electrophysiology",
+            "result_summary": "Frequent scattered bursts of polyspike and slow wave discharge bilaterally, with greater activity recorded from the right hemisphere."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Commissurotomy (scheduled)",
+      "Medication management (Dilantin)"
+    ],
+    "counseling_actions": []
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Intractable seizure disorder",
+      "Right hemisphere lesion (Heschl's gyrus and inferior parietal region)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurosurgery",
+      "rationale_short": "Patient is scheduled for commissurotomy for intractable seizures."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-operative",
+    "objective": "Reassessment of auditory function following commissurotomy (results presented in the next chapter)."
+  },
+  "expected_outcome": []
+}

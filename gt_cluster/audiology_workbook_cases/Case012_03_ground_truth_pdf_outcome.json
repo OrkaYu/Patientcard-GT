@@ -1,0 +1,100 @@
+{
+  "case_id": "Case012_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Presbycusis (Age-related hearing loss)",
+      "rationale_short": "Patient is 76 years old with gradual, progressive, bilateral sloping sensorineural hearing loss and no history of noise exposure."
+    },
+    {
+      "rank": 2,
+      "label": "Retrocochlear Pathology (e.g., Vestibular Schwannoma)",
+      "rationale_short": "Asymmetric sensorineural hearing loss (Left worse than Right) and disproportionately poor word recognition in the Right ear warrant exclusion of retrocochlear causes."
+    },
+    {
+      "rank": 3,
+      "label": "Cochlear Synaptopathy / Hidden Hearing Loss",
+      "rationale_short": "Difficulty in noise and poor speech clarity despite moderate thresholds, though usually associated with noise history which is denied here."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To rule out outer ear pathology or cerumen impaction."
+      },
+      {
+        "action": "Comprehensive Audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine degree, type, and configuration of hearing loss."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Bilateral asymmetric sloping sensorineural hearing loss (Left worse than Right) with normal middle ear function. Speech recognition is reduced bilaterally, with the Right ear showing poorer scores (64%) than the Left (74%) despite better thresholds.",
+        "tests": [
+          {
+            "name": "Tympanometry",
+            "category": "Middle Ear Function",
+            "result_summary": "Normal (Type A) bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral sloping sensorineural hearing loss; Asymmetric (Left thresholds poorer than Right)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech Perception",
+            "result_summary": "Reduced Word Recognition Scores (Phoneme scoring): Right 64%, Left 74% at 85 dB HL."
+          },
+          {
+            "name": "Wideband Reflectance",
+            "category": "Middle Ear Function",
+            "result_summary": "Normal reflectance patterns bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Medical clearance from ENT due to asymmetry",
+      "Bilateral hearing aids",
+      "Assistive listening devices (e.g., for TV or phone)",
+      "Tinnitus management strategies",
+      "Referral to ENT / Otology",
+      "Hearing Aid Evaluation"
+    ],
+    "counseling_actions": [
+      "Explain the permanent nature of the sensorineural hearing loss.",
+      "Discuss the asymmetry in hearing thresholds and the need for medical referral to rule out other causes.",
+      "Counsel on realistic expectations for hearing aids given the reduced speech clarity (WRS), especially in the right ear.",
+      "Discuss the link between hearing loss and tinnitus, and how amplification often provides relief.",
+      "Recommend communication strategies for noisy environments."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss (Left worse)",
+      "Disproportionately poor speech recognition in the better hearing ear (Right)",
+      "Subjective difficulty with phone use on the Right ear"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT / Otologist",
+      "rationale_short": "Asymmetric hearing loss is a red flag for retrocochlear pathology and requires medical clearance (likely MRI) before proceeding with long-term amplification management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Following ENT consultation",
+    "objective": "Proceed with hearing aid fitting and verification once medical clearance is obtained."
+  },
+  "expected_outcome": [
+    "Medical evaluation likely to be negative for retrocochlear pathology (statistically most probable), but must be confirmed.",
+    "Patient proceeds to hearing aid fitting.",
+    "Improved audibility and communication, though clarity issues may persist in noise due to cochlear distortion/reduced WRS."
+  ]
+}

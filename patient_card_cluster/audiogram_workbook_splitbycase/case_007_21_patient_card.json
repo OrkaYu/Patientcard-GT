@@ -1,0 +1,131 @@
+{
+  "case_id": "case_7_21",
+  "title": "Progressive Mixed Hearing Loss",
+  "demographics": {
+    "age_years": 64,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am noticing increased difficulty understanding speech in most communication settings, even though I wear hearing aids in both ears.",
+  "problem_summary": {
+    "onset": "Gradual",
+    "course": "Progressive; last test was 3 years ago and hearing has worsened.",
+    "laterality": "Bilateral; Right ear is poorer than the Left.",
+    "associated_symptoms": "Difficulty understanding speech.",
+    "functional_impact": "Reduced communication ability despite bilateral amplification.",
+    "goals_motivation": "Monitoring hearing status and addressing increased difficulty."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-03-05",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presents for follow-up to monitor a known gradually progressive mixed hearing loss. The last evaluation was 3 years prior. She reports the right ear has progressed and is worse than the left.",
+        "otologic_history": "No history of otosurgery.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "No familial history of hearing loss reported.",
+        "prior_management": "Currently uses bilateral amplification (hearing aids).",
+        "patient_goals": "Monitor stability of hearing sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.21"
+          ],
+          "key_findings": "Right ear: Moderately severe mixed loss (250-3000 Hz), severe at 2000 Hz, sloping to severe (4000-8000 Hz). Left ear: Mild sloping to moderately severe mixed loss (250-3000 Hz), sloping to severe/profound (4000-8000 Hz). Significant air-bone gaps present bilaterally. Masking dilemma noted at 250 Hz BC.",
+          "numeric_results": {
+            "RE_AC_Slope": "60-70 dB HL (lows) to 80-90 dB HL (highs)",
+            "LE_AC_Slope": "30-40 dB HL (lows) to 80-90 dB HL (highs)",
+            "RE_PTA": "70 dB HL",
+            "LE_PTA": "52 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.21"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA. Word recognition scores (WRS) indicate only slight difficulty in the ability to recognize speech at suprathreshold levels.",
+          "numeric_results": {
+            "RE_SRT": "65 dB HL",
+            "LE_SRT": "55 dB HL",
+            "RE_WRS": "88% at 95 dB HL",
+            "LE_WRS": "80% at 90 dB HL",
+            "Word_List": "NU-6"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.21"
+          ],
+          "key_findings": "Right ear tympanogram is considered normal (Type A). Left ear tympanogram is hypercompliant (Type Ad).",
+          "numeric_results": {
+            "RE_Static_Admittance": "1.50 mmho",
+            "RE_Pressure": "-25 daPa",
+            "RE_Volume": "1.00 mL",
+            "LE_Static_Admittance": "2.00 mmho",
+            "LE_Pressure": "-15 daPa",
+            "LE_Volume": "1.40 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.21"
+          ],
+          "key_findings": "Right ear reflexes could not be measured due to inability to maintain a proper seal. Left ear ipsilateral reflexes were normal; contralateral reflexes were absent (or CNT per table). Reflex decay not measured.",
+          "numeric_results": {
+            "RE_Ipsi": "CNT (Seal issue)",
+            "LE_Ipsi": "Present (95-100 dB HL)",
+            "Reflex_Decay": "CNT"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient exhibits a progressive, bilateral mixed hearing loss. The right ear has deteriorated since the last evaluation 3 years ago and presents with a moderately severe to severe configuration, while the left ear shows a mild to profound configuration. Despite the degree of loss, word recognition ability remains good bilaterally at elevated levels. Immittance testing reveals hypercompliance in the left ear and technical difficulties obtaining a seal in the right ear.",
+  "counseling_points": [
+    "Your hearing has changed since your last visit 3 years ago; the right ear now shows more hearing loss than the left.",
+    "There is a 'mixed' nature to your hearing loss (involving both the nerve and the middle ear system), which warrants a medical evaluation.",
+    "I am recommending a consultation with an otologist (ear specialist) to investigate the cause of the progression and the mixed component.",
+    "We should continue with your current hearing aids, but they will need adjustment to match your new hearing levels.",
+    "We will also discuss Hearing Assistive Technology (HAT) to help with the specific speech understanding difficulties you are facing."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is accustomed to wearing hearing aids but is frustrated that they aren't working as well as they used to.",
+    "You are compliant with care but haven't been tested in 3 years.",
+    "You are open to medical referral but primarily want to hear better in social situations."
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "case_id": "case_12_3",
+  "title": "Vanessa Vestibule - Bilateral Sensorineural Hearing Loss",
+  "demographics": {
+    "age_years": 76,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've noticed some difficulty hearing conversations, especially in noisy places. My husband says I turn the TV up too loud, and I'm having trouble hearing on the phone, particularly with my right ear.",
+  "problem_summary": {
+    "onset": "Gradual",
+    "course": "Progressive; noticed increased difficulty over time",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Bilateral tinnitus (ringing); denies dizziness",
+    "functional_impact": "Difficulty with TV volume, telephone use, and conversations in noise.",
+    "goals_motivation": "Husband convinced her to come in; she acknowledges the difficulty."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presents with gradual onset hearing difficulty. Reports trouble with TV volume and telephone use (noting specific difficulty with the right ear). Struggles in noisy environments.",
+        "otologic_history": "Reports bilateral tinnitus. Denies dizziness.",
+        "noise_exposure_history": "Denied.",
+        "medical_psych_history": "Family history of hearing loss denied.",
+        "prior_management": "None reported.",
+        "patient_goals": "Assessment of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table: Tymps R/L"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right Vea": "1.2 mmhos",
+            "Right Ytm": "1.0 mmhos",
+            "Right TPP": "-50 daPa",
+            "Right TW": "90 daPa",
+            "Left Vea": "1.1 mmhos",
+            "Left Ytm": "1.2 mmhos",
+            "Left TPP": "0 daPa",
+            "Left TW": "90 daPa"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Bilateral sloping sensorineural hearing loss. Asymmetric configuration with the Left ear showing poorer thresholds than the Right ear across the frequency range. No significant air-bone gaps.",
+          "numeric_results": {
+            "Right_AC_250Hz": "~10 dB HL",
+            "Right_AC_1000Hz": "~25 dB HL",
+            "Right_AC_4000Hz": "~45 dB HL",
+            "Right_AC_8000Hz": "~55 dB HL",
+            "Left_AC_250Hz": "~20 dB HL",
+            "Left_AC_1000Hz": "~40 dB HL",
+            "Left_AC_4000Hz": "~60 dB HL",
+            "Left_AC_8000Hz": "~75 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table: PTA SRT WRS"
+          ],
+          "key_findings": "Word recognition scores (phoneme scoring) obtained at suprathreshold levels (85 dB HL). Scores suggest fair to poor clarity despite amplification.",
+          "numeric_results": {
+            "Right WRS": "64% @ 85 dB HL (Phoneme scoring, masked)",
+            "Left WRS": "74% @ 85 dB HL (Phoneme scoring, masked)"
+          }
+        },
+        {
+          "name": "Wideband Reflectance",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Reflectance Graph"
+          ],
+          "key_findings": "Reflectance plotted against frequency (0.25 to 8 kHz). Curves for right and left ears are generally overlapping and follow a typical pattern, dipping in the mid-frequencies.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation reveals a bilateral, asymmetric sloping sensorineural hearing loss, with the left ear presenting with greater degrees of loss than the right. Middle ear function is normal bilaterally as evidenced by tympanometry. Speech recognition abilities are reduced bilaterally, with phoneme scores of 64% (Right) and 74% (Left) at high presentation levels, suggesting potential challenges with clarity even with amplification.",
+  "counseling_points": [
+    "Your hearing test shows permanent hearing loss in both ears, though the left ear is slightly worse than the right.",
+    "This type of hearing loss explains why you hear people talking but have trouble understanding the words clearly, especially in background noise.",
+    "The ringing in your ears (tinnitus) is commonly associated with this type of hearing loss; often, treating the hearing loss helps reduce the perception of the ringing.",
+    "We recommend a trial with hearing aids to improve your access to speech sounds and help with the TV and phone.",
+    "Because there is a difference between your ears (asymmetry), we may recommend a medical consultation to rule out any other causes, although your history is otherwise benign."
+  ],
+  "notes_for_actor": [
+    "Portray a 76-year-old who was reluctant to come in but admits to the difficulties now that you are here.",
+    "You specifically struggle with the phone on your right ear (which is interesting because your right ear is actually the 'better' one, though still impaired).",
+    "You have ringing in both ears."
+  ]
+}

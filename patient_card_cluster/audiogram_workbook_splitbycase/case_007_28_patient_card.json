@@ -1,0 +1,132 @@
+{
+  "case_id": "case_7_28",
+  "title": "Right Ear Fullness and Mixed Hearing Loss",
+  "demographics": {
+    "age_years": 68,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I feel congested with a sense of fullness in my right ear. My hearing in that ear has decreased recently, though it has always been worse than my left.",
+  "problem_summary": {
+    "onset": "Recent decrease in the past few weeks.",
+    "course": "Acute worsening of hearing and fullness coinciding with seasonal allergies; background of chronic poorer hearing in the right ear.",
+    "laterality": "Bilateral tinnitus; Right ear hearing loss and fullness.",
+    "associated_symptoms": "Congestion, fullness (right ear), bilateral tinnitus.",
+    "functional_impact": "Decreased hearing ability, particularly in the right ear.",
+    "goals_motivation": "Resolution of congestion and hearing improvement."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-04-03",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports recent hearing decrease and fullness in the right ear coinciding with worsening seasonal allergies.",
+        "otologic_history": "Right ear has historically been poorer than the left. Bilateral tinnitus.",
+        "noise_exposure_history": "History of noise exposure from racing cars throughout his life.",
+        "medical_psych_history": "Seasonal allergies.",
+        "prior_management": "None specified for current episode.",
+        "patient_goals": "Evaluation of recent hearing change."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.28"
+          ],
+          "key_findings": "Right ear shows slight to mild mixed hearing loss (250-2000 Hz) sloping to severe sensorineural loss in high frequencies. Left ear shows normal hearing sloping to a mild sensorineural notch at 4000 Hz.",
+          "numeric_results": {
+            "Right_AC": "25-50 dB HL (250-2kHz), sloping to 80-90 dB HL (4-8kHz)",
+            "Right_BC": "Better than AC in lows (Air-Bone Gap present)",
+            "Left_AC": "10-20 dB HL (250-3kHz), 45 dB HL notch at 4kHz",
+            "PTA_Right": "40 dB",
+            "PTA_Left": "15 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.28 (Table)"
+          ],
+          "key_findings": "SRT scores agree with PTA. Word recognition is excellent in the left ear and good but slightly reduced in the right ear.",
+          "numeric_results": {
+            "SRT_Right": "32 dB",
+            "WRS_Right": "86% at 70 dB HL",
+            "SRT_Left": "8 dB",
+            "WRS_Left": "96% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.28 (Table)"
+          ],
+          "key_findings": "Right ear shows excessive negative pressure and hypocompliance (Type C/As). Left ear is normal (Type A).",
+          "numeric_results": {
+            "Right_Pressure": "-150 daPa",
+            "Right_Compliance": "0.1 mL",
+            "Right_Volume": "1.5 mL",
+            "Left_Pressure": "-30 daPa",
+            "Left_Compliance": "0.7 mL",
+            "Left_Volume": "1.3 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.28 (Table)"
+          ],
+          "key_findings": "Right ipsilateral and contralateral reflexes absent (consistent with conductive pathology). Left ipsilateral present 500-2k Hz. Left contralateral (probe right) absent.",
+          "numeric_results": {
+            "Right_Ipsi": "Absent",
+            "Right_Contra": "Absent",
+            "Left_Ipsi": "Present (90-95 dB) at 500-2k, Absent at 4k",
+            "Left_Contra": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with an asymmetric hearing configuration. The left ear exhibits normal hearing with a noise-notch pattern at 4000 Hz, consistent with noise exposure history. The right ear demonstrates a mixed hearing loss: a conductive component in the low-to-mid frequencies (supported by negative middle ear pressure and absent reflexes) overlaid on a sloping sensorineural loss. The conductive component correlates with the reported congestion and allergies.",
+  "counseling_points": [
+    "Your hearing test shows a 'mixed' loss in the right ear. This means there is likely some permanent hearing loss (nerve-related) combined with a temporary issue related to your middle ear.",
+    "The pressure test confirms your right eardrum is stiff and retracted, likely due to Eustachian tube dysfunction caused by your allergies.",
+    "The 'notch' in your hearing at 4000 Hz in the left ear is consistent with your history of racing cars and noise exposure.",
+    "We are referring you to an ENT specialist to manage the allergy/sinus issues and the asymmetry in your hearing. Treating the allergies may improve the 'fullness' and recover some hearing in the right ear.",
+    "It is important to continue protecting your hearing around loud noises to prevent further permanent damage."
+  ],
+  "notes_for_actor": [
+    "Portray the patient as bothered by the sensation of fullness/plugging in the right ear more than the hearing loss itself.",
+    "Mention the racing car history casually as a fact of life.",
+    "Emphasize the connection between the recent seasonal allergy flare-up and the ear symptoms."
+  ]
+}

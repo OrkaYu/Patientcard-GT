@@ -1,0 +1,91 @@
+{
+  "case_id": "Case006_05",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Left hemisphere infarct",
+      "rationale_short": "History of stroke with aphasia; CT confirms extensive left-sided lesion; central tests show right ear deficit and left-sided electrode effect."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-induced hearing loss",
+      "rationale_short": "Bilateral high-frequency sensorineural hearing loss consistent with history of military noise exposure."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Radiology (CT)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the extent of the brain lesion given the history of stroke."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Auditory Evoked Potentials (Late/P300)",
+        "urgency": "routine",
+        "rationale_short": "To investigate the effects of the lesion on auditory potentials."
+      },
+      {
+        "action": "Dichotic Digits",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory processing and dichotic listening abilities."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals a mixed picture of peripheral and central deficits. Peripheral testing shows bilateral high-frequency sensorineural hearing loss. Central testing demonstrates profound deficits consistent with the extensive left hemisphere infarction seen on CT, characterized by a severe right-ear deficit on dichotic digits and a clear electrode effect on P300 testing (poorer responses over the left hemisphere).",
+        "tests": [
+          {
+            "name": "Radiology (CT)",
+            "category": "Imaging",
+            "result_summary": "Recent CT showed extensive involvement of the left insula, posterior-inferior frontal lobe, temporal lobe, internal capsule, and lateral ventricle."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral high-frequency sensorineural hearing loss commencing at 2000 Hz. Low frequencies (250-1000 Hz) are normal. Left ear shows a steeper slope at 4000 Hz (90 dB HL)."
+          },
+          {
+            "name": "Auditory Evoked Potentials (Late/P300)",
+            "category": "Electrophysiology",
+            "result_summary": "Demonstrated an 'electrode effect' where the C3 (left) electrode provided poorer results (reduced amplitude/delayed latency) than C4 (right). Also showed a 'laterality effect' with better responses for Left Ear stimulation."
+          },
+          {
+            "name": "Dichotic Digits",
+            "category": "Central Auditory Processing",
+            "result_summary": "Marked right ear deficit (8%) with left ear scores slightly below normal (80%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Communication strategies favoring the left ear"
+    ],
+    "counseling_actions": [
+      "Explain that hearing difficulties are a combination of peripheral loss and central processing deficits from the stroke",
+      "Discuss that hearing aids may help audibility but may not fully resolve clarity issues due to central deficits",
+      "Recommend favoring the left ear for communication as it is the better processing ear",
+      "Highlight that good low-frequency hearing allowed for valid P300 testing"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Research evaluation of a chronic, stable condition."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor hearing status and communication strategies."
+  },
+  "expected_outcome": []
+}

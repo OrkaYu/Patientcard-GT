@@ -1,0 +1,117 @@
+{
+  "case_id": "Case005_12",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Brainstem lesion (likely contusion)",
+      "rationale_short": "History of CNS trauma with crossed signs (left auditory, right somatic), absent left reflexes, abnormal left ABR (later waves), and central deficits with normal cortical function (Frequency Patterns)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech recognition in quiet."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess retrocochlear pathway integrity."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "Evaluate neural synchrony and brainstem integrity."
+      },
+      {
+        "action": "Masking Level Difference (MLD)",
+        "urgency": "routine",
+        "rationale_short": "Assess lower brainstem binaural interaction."
+      },
+      {
+        "action": "Central Auditory Battery",
+        "urgency": "routine",
+        "rationale_short": "Evaluate central auditory processing abilities."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with normal peripheral hearing sensitivity but significant retrocochlear signs localized to the left brainstem. Key findings include absent left contralateral reflexes, abnormal left ABR (reduced/absent waves IV-V), and severe deficits on left-ear central tasks (dichotic and monaural low-redundancy). Normal Frequency Patterns suggest cortical sparing, while normal MLD suggests some lower brainstem pathway preservation. The pattern of 'crossed' signs (left auditory, right somatic) is consistent with a left brainstem lesion.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilaterally normal thresholds with no asymmetry."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent recognition in quiet (Right 100%, Left 84-88%)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Physiological",
+            "result_summary": "Absent left ear stimulation; present right ear at normal levels (500-4000 Hz)."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear normal. Left ear normal waves I-III, but reduced/absent IV-V complex; no response at 60 dB nHL."
+          },
+          {
+            "name": "Masking Level Difference (MLD)",
+            "category": "Central",
+            "result_summary": "Normal (10 dB) for 500 Hz pulsed tones."
+          },
+          {
+            "name": "Central Auditory Battery",
+            "category": "Central",
+            "result_summary": "Marked left ear deficits: Competing Sentences (Left 0%, Right 100%), Dichotic Digits (Left ~60%, Right ~80%), SSW (Left ~45%, Right ~90%), LPFS (Left ~10%, Right ~80%). Frequency Patterns normal (100% bilateral). Dichotic Rhymes (obtained at follow-up) showed Left 0%, Right ~75-80%."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Preferential seating (right ear towards speaker)",
+      "Reduction of background noise",
+      "Use of visual cues",
+      "Coping strategies for listening in noise"
+    ],
+    "counseling_actions": [
+      "Validate patient's complaints by explaining the discrepancy between normal volume detection and impaired processing",
+      "Explain the role of the brainstem in filtering background noise",
+      "Discuss prognosis of slow but potential improvement",
+      "Reassure regarding tinnitus subsidence"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Neurological signs (right facial paresis, right-handed numbness, ptosis)",
+      "Retrocochlear indicators (absent reflexes, abnormal ABR)"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Patient is already under neurology care for the diagnosed brainstem contusion; audiology provides monitoring and rehabilitation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Several years",
+    "objective": "Monitor recovery of central auditory function and tinnitus status."
+  },
+  "expected_outcome": [
+    "Tinnitus subsided over time.",
+    "Hearing generally improved somewhat, though difficulty in noise persisted.",
+    "Neuroaudiological test results improved slightly over several years.",
+    "Patient developed coping strategies that were of moderate help."
+  ]
+}

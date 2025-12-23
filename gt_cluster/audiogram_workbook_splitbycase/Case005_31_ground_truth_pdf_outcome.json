@@ -1,0 +1,89 @@
+{
+  "case_id": "Case005_31",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Longstanding diagnosis since age 3 with stable audiometric configuration showing normal sloping to profound sensorineural loss."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess current hearing thresholds for hearing aid upgrade."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate retrocochlear pathology and neural integrity."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry reveals a bilateral, symmetrical, normal sloping to profound sensorineural hearing loss. SRTs (25 dB HL) align with the best thresholds due to the precipitous slope. Word recognition is fair in the right ear and good in the left ear. Tympanometry is normal bilaterally. Acoustic reflexes are absent, consistent with the degree of hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral normal hearing (15-20 dB HL) at 250-500 Hz sloping precipitously to profound loss (90-95 dB HL) at 4000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 25 dB HL AU. WRS 68% (Right) and 82% (Left) at 85 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes from 500 to 4000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral receiver-in-the-canal (RIC) hearing aids with canal molds",
+      "Direct-to-cell phone connectivity features"
+    ],
+    "counseling_actions": [
+      "Counseling on hearing loss configuration",
+      "Information regarding updated hearing aid technology"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Proceed with hearing aid selection and fitting as requested by the patient."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Fit new hearing aids and verify benefit."
+  },
+  "expected_outcome": [
+    "Patient purchased bilateral receiver-in-the-canal hearing aids with canal molds.",
+    "Patient reported receiving significantly improved hearing compared with her older hearing aids.",
+    "Patient reported being satisfied with her ability to connect directly to her cell phone."
+  ]
+}

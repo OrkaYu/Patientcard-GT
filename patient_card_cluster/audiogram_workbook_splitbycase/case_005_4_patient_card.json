@@ -1,0 +1,129 @@
+{
+  "case_id": "case_5_4",
+  "title": "Professor with Difficulty Hearing Students and Increased Tinnitus",
+  "demographics": {
+    "age_years": 55,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I'm having trouble hearing my students in class; they sound like they are mumbling and I have to ask them to repeat themselves. I also have a ringing in my ears that has gotten louder in the last couple of months.",
+  "problem_summary": {
+    "onset": "Hearing difficulty noticed a few years prior; tinnitus intensity increased 2 months ago.",
+    "course": "Gradual onset of hearing loss; recent exacerbation of tinnitus.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Bilateral tinnitus (increased intensity).",
+    "functional_impact": "Difficulty hearing students in a classroom setting and difficulty hearing speech in noise.",
+    "goals_motivation": "Improve communication in the classroom."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-08-05",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient is a professor noticing difficulty hearing students in class for a few years. Reports students sound like they are mumbling. Also reports difficulty hearing speech in noise.",
+        "otologic_history": "Long-standing history of bilateral tinnitus which increased in intensity in the last 2 months. Denies dizziness, otalgia, or aural pressure.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "None reported.",
+        "patient_goals": "To understand students better."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.4"
+          ],
+          "key_findings": "Right ear shows mild sensorineural hearing loss (flat configuration). Left ear shows mild sloping to moderate sensorineural hearing loss. There is asymmetry between the ears.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250-4000 Hz: ~35 dB HL, 8000 Hz: ~40 dB HL",
+            "Left_AC_Thresholds": "250-500 Hz: ~35 dB HL, sloping to 50 dB HL at 2000-4000 Hz",
+            "Bone_Conduction": "Matches air conduction thresholds (Sensorineural)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.4"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) agree with pure tone averages. Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "35 dB HL",
+            "SRT_Left": "35 dB HL",
+            "WRS_Right": "100% at 70 dB HL",
+            "WRS_Left": "96% at 70 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.4"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "Right_Vol": "1.4 mL",
+            "Right_Static_Admittance": "0.3 mL",
+            "Right_Pressure": "5 daPa",
+            "Left_Vol": "1.7 mL",
+            "Left_Static_Admittance": "0.5 mL",
+            "Left_Pressure": "0 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.4"
+          ],
+          "key_findings": "Acoustic reflex thresholds were normal with ipsilateral and contralateral stimulation. Acoustic reflex decay was negative.",
+          "numeric_results": {
+            "Right_Ipsi_Reflexes": "500Hz: 85, 1k: 85, 2k: 90, 4k: 85 dB",
+            "Left_Ipsi_Reflexes": "500Hz: 85, 1k: 95, 2k: 90, 4k: 90 dB",
+            "Reflex_Decay": "Negative at 500 and 1000 Hz bilaterally"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild sensorineural hearing loss in the right ear and a mild sloping to moderate sensorineural hearing loss in the left ear. Word recognition scores are excellent in quiet. Immittance testing is consistent with normal middle ear function and intact retrocochlear pathways (normal reflexes, negative decay). The hearing loss is slightly asymmetrical.",
+  "counseling_points": [
+    "Your hearing test shows permanent hearing loss in both ears due to nerve damage (sensorineural).",
+    "The loss is slightly worse in your left ear than your right ear.",
+    "Because of the difference between ears (asymmetry) and the recent increase in your tinnitus, I am referring you to an ENT specialist for medical clearance to rule out any other causes.",
+    "Your ability to understand speech in quiet is excellent, but the hearing loss explains why students sound like they are mumbling.",
+    "Hearing aids would likely be beneficial to help you hear your students clearly in the classroom."
+  ],
+  "notes_for_actor": [
+    "You are an educated professional (professor) who is frustrated by the 'mumbling' of students.",
+    "You are concerned about the recent increase in the ringing in your ears.",
+    "You are articulate and observant about your communication difficulties."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "case_id": "case_6_17",
+  "title": "Bilateral Conductive Hearing Loss Secondary to Allergies",
+  "demographics": {
+    "age_years": 31,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "US"
+  },
+  "chief_complaint": "I've had hearing loss in both ears for the last two weeks, and they feel full, like there is fluid in them. I also hear ringing in both ears that started at the same time.",
+  "problem_summary": {
+    "onset": "2 weeks ago",
+    "course": "Acute",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Aural fullness, tinnitus, seasonal allergy symptoms.",
+    "functional_impact": "Subjective hearing loss and discomfort due to pressure.",
+    "goals_motivation": "Resolution of symptoms and hearing improvement."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-06-02",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports bilateral hearing loss, sensation of fullness/fluid, and tinnitus for the past 2 weeks.",
+        "otologic_history": "No other reported otologic symptoms or history.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "History of seasonal allergies; currently symptomatic.",
+        "prior_management": "None reported prior to this visit.",
+        "patient_goals": "Diagnosis and management of current symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.17"
+          ],
+          "key_findings": "Right ear shows mild rising to slight conductive hearing loss (250-1000 Hz) rising to normal (2000-8000 Hz). Left ear shows slight conductive hearing loss (250-500 Hz) rising to normal (1000-8000 Hz). Bone conduction is normal bilaterally.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250Hz: ~35dB, 500Hz: ~30dB, 1000Hz: ~20dB",
+            "LE_AC_Thresholds": "250Hz: ~25dB, 500Hz: ~20dB",
+            "High_Freq_Thresholds": "0-10 dB HL bilaterally"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.17"
+          ],
+          "key_findings": "SRT revealed slight loss/normal sensitivity consistent with PTA. Word recognition scores were excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "25 dB HL",
+            "LE_SRT": "18 dB HL",
+            "RE_WRS": "100% at 60 dB HL",
+            "LE_WRS": "96% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.17"
+          ],
+          "key_findings": "Excessive negative pressure observed bilaterally (Type C tympanograms).",
+          "numeric_results": {
+            "RE_Peak_Pressure": "-180 daPa",
+            "LE_Peak_Pressure": "-140 daPa",
+            "Static_Admittance": "0.3 mmho bilaterally",
+            "Canal_Volume": "RE: 1.0 mL, LE: 1.2 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.17"
+          ],
+          "key_findings": "Not tested at this appointment.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral low-frequency conductive hearing loss, mild in degree on the right and slight on the left, rising to normal hearing sensitivity in the higher frequencies. Speech recognition ability is excellent bilaterally. Tympanometry reveals significant negative middle ear pressure in both ears, consistent with Eustachian tube dysfunction likely secondary to active seasonal allergies.",
+  "counseling_points": [
+    "Your hearing test shows a 'conductive' loss, which means sound is being blocked from getting to the inner ear, rather than nerve damage.",
+    "The pressure test (tympanometry) confirms negative pressure in your middle ears, likely due to your seasonal allergies affecting your Eustachian tubes.",
+    "The otologist has noted fluid behind your eardrums.",
+    "We are providing you with an Otovent device to help equalize the pressure in your ears.",
+    "Please follow up for a hearing retest after medical management is complete, and we recommend an annual hearing check.",
+    "Continue to use hearing protection when exposed to loud noise."
+  ],
+  "notes_for_actor": [
+    "You may speak with a slightly nasal quality due to current allergy symptoms.",
+    "You might occasionally rub your ears or nose during the consultation.",
+    "You are concerned about the sudden onset of hearing loss and the ringing sound, but you are aware of your allergies."
+  ]
+}

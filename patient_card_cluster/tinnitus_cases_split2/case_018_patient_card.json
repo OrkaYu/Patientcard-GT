@@ -1,0 +1,201 @@
+{
+  "case_id": "Case18_Tinnitus_and_Misophonia_in_an_Adolescent",
+  "title": "Tinnitus and Misophonia in an Adolescent with Hashimoto Thyroiditis",
+  "demographics": {
+    "age_years": 18,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have ringing in my ears that started when I was 8, and it gets painfully loud in quiet places. I also have extreme sensitivity to specific sounds like chewing, heavy breathing, or yawning, especially when my parents make them.",
+  "problem_summary": {
+    "onset": "Tinnitus began at age 8; misophonia symptoms are chronic.",
+    "course": "Tinnitus becomes painfully loud in quiet environments. Misophonia triggers cause intense emotional reactions.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Crying when discussing sensitivity, isolation at home, irritation, potential anxiety/depression.",
+    "functional_impact": "Significant negative impact on quality of life (7/10) and family dynamic. Patient isolates herself to avoid triggers.",
+    "goals_motivation": "Seeking evaluation and management of tinnitus and sound sensitivity."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Referring Otolaryngologist's Office (3 weeks prior to V2)",
+      "history": {
+        "present_illness": "Patient referred for evaluation of tinnitus and sound sensitivity.",
+        "otologic_history": "Reported tinnitus onset at age 8.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "History of thyroid mass removal; diagnosed with Hashimoto thyroiditis (autoimmune). Symptoms include fatigue, weight gain, depression.",
+        "prior_management": "None specified.",
+        "patient_goals": "Evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1"
+          ],
+          "key_findings": "Normal hearing sensitivity for both ears from 250 to 8,000 Hz.",
+          "numeric_results": {
+            "Thresholds": "0-10 dB HL across 250-8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1"
+          ],
+          "key_findings": "Excellent speech recognition abilities consistent with normal hearing.",
+          "numeric_results": {
+            "SRT_Right": "15 dB HL",
+            "SRT_Left": "15 dB HL",
+            "WRS_Right": "100% at 50 dB HL",
+            "WRS_Left": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1"
+          ],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Type": "Type A bilateral"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1"
+          ],
+          "key_findings": "Asymmetrical reflex findings.",
+          "numeric_results": {
+            "Right_Ipsilateral": "Present",
+            "Left_Ipsilateral": "Absent"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAEs)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "12-frequency DPOAEs were present in both ears, consistent with normal outer hair cell function.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "University Tinnitus Clinic",
+      "history": {
+        "present_illness": "Follow-up for comprehensive tinnitus and misophonia evaluation.",
+        "otologic_history": "Review of V1 results.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Hashimoto thyroiditis noted as relevant autoimmune factor. Patient reports inability to concentrate and focus attention due to tinnitus.",
+        "prior_management": "None.",
+        "patient_goals": "Management of symptoms."
+      },
+      "tests": [
+        {
+          "name": "High-frequency audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1"
+          ],
+          "key_findings": "Normal hearing sensitivity extended through ultra-high frequencies.",
+          "numeric_results": {
+            "Range": "9,000 to 20,000 Hz",
+            "Thresholds": "Better than 15 dB HL"
+          }
+        },
+        {
+          "name": "Loudness Discomfort Levels (LDLs)",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Evidence of slightly reduced sound tolerance at 2000 and 4000 Hz.",
+          "numeric_results": {
+            "Tone_LDLs": "85-100 dB HL (500-4000 Hz)",
+            "Speech_LDL": "100 dB HL"
+          }
+        },
+        {
+          "name": "Self-Report Scales",
+          "timepoint_label": "Evaluation",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Scores indicate moderate bother from tinnitus. A-MISO was not available.",
+          "numeric_results": {
+            "Subjective_Severity": "9/10",
+            "Subjective_Annoyance": "9/10",
+            "Subjective_QoL_Impact": "7/10",
+            "THI_Score": "54/100",
+            "TFI_Score": "60/100"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally, extending through the ultra-high frequencies (up to 20,000 Hz). Despite normal thresholds and Type A tympanograms, ipsilateral acoustic reflexes were absent in the left ear. The patient demonstrates slightly reduced loudness discomfort levels (85-100 dB HL) at 2 and 4 kHz, consistent with decreased sound tolerance. Self-report measures (THI 54, TFI 60) indicate a moderate impact on quality of life due to tinnitus and misophonia.",
+  "counseling_points": [
+    "Your hearing sensitivity is completely normal, even in the very high pitches.",
+    "The sensitivity you are experiencing is likely related to 'misophonia' (strong emotional reaction to specific sounds) and some hyperacusis (general sound sensitivity), rather than hearing loss.",
+    "We recommend Tinnitus Retraining Therapy (TRT) principles, using sound therapy to help your brain habituate to the tinnitus.",
+    "Since hearing aids are not needed for hearing loss, we can use smartphone apps to generate therapeutic sounds (like broadband noise) to help manage the tinnitus and reduce the contrast of triggering sounds.",
+    "It is important to address the emotional connections to these sounds; we recommend a multidisciplinary approach including psychology to help manage the anxiety and reaction to triggers.",
+    "Your autoimmune condition (Hashimoto's) and stress levels can influence your symptoms, so managing your overall health is important."
+  ],
+  "notes_for_actor": [
+    "Portray an 18-year-old who is visibly distressed and emotional when discussing sound triggers.",
+    "You should cry or become tearful when describing how chewing or breathing sounds make you feel.",
+    "You are withdrawn and isolate yourself at home to avoid your parents' noises.",
+    "You are aware of your tinnitus 70-80% of the time and annoyed by it 100% of that time."
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "case_id": "Case14_Acoustic_Shock",
+  "title": "Acoustic Shock",
+  "demographics": {
+    "age_years": 37,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "UK/Commonwealth (implied by 'General Practitioner' and 'District General Hospital')"
+  },
+  "chief_complaint": "I experienced sudden, severe pain and a sensation that my head was about to explode after a patient screamed into my headset. Since then, I have been extremely sensitive to sound and feel like my hearing is muffled.",
+  "problem_summary": {
+    "onset": "Sudden onset following an acoustic incident at work (scream through intercom headset).",
+    "course": "Initial pain and muffled sensation; hearing thresholds remained normal, but sound sensitivity and anxiety (specifically regarding telephones) persisted and worsened over the following month.",
+    "laterality": "Right ear (exposed ear), though symptoms affect general well-being.",
+    "associated_symptoms": "Physical ear pain, aural fullness, hyperacusis, phonophobia (fear of telephones), sleep disturbance (delayed onset/early waking), anxiety/panic attacks.",
+    "functional_impact": "Severe difficulty performing workplace duties due to fear of telephones; feels disbelieved by family and employer.",
+    "goals_motivation": "Seeking validation and proof of her condition after being told initial exams were normal."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Accident and Emergency Department",
+      "history": {
+        "present_illness": "Patient presented 2 days after an incident where a person screamed into her intercom headset (right ear). Reported sudden pain, 'head exploding' sensation, muffled hearing, and blockage. No sustained tinnitus or vertigo.",
+        "otologic_history": "None reported prior to incident.",
+        "noise_exposure_history": "Acute acoustic trauma via intercom headset.",
+        "medical_psych_history": "Initial examination was normal.",
+        "prior_management": "None.",
+        "patient_goals": "Assessment of acute injury."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline (2 days post-injury)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 14.1"
+          ],
+          "key_findings": "Normal hearing thresholds across the frequency range 250 Hz to 8 kHz.",
+          "numeric_results": {
+            "Thresholds": "0-10 dB HL across all frequencies (visual estimate from Fig 14.1)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 14.2"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Right Ear Volume": "1.09 ml",
+            "Right Compliance": "0.81 ml",
+            "Right Pressure": "-21 dapa",
+            "Left Ear Volume": "0.88 ml",
+            "Left Compliance": "0.59 ml",
+            "Left Pressure": "-46 dapa"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Tinnitus Clinic",
+      "history": {
+        "present_illness": "Referral 1 month post-exposure. Sleep issues had largely resolved, but anxiety regarding telephones persisted. Reported sudden noise from children causes pain; traffic noise is unpleasant. Able to tolerate jazz exercise class.",
+        "otologic_history": "Ongoing symptoms from acoustic shock.",
+        "noise_exposure_history": "See V1.",
+        "medical_psych_history": "History of hypothyroidism (controlled). Sleep disturbance immediately post-injury. Anxiety/panic attacks related to telephone use.",
+        "prior_management": "Reassurance from A&E (V1) that symptoms would settle.",
+        "patient_goals": "Desperate for 'proof' of condition as she feels disbelieved by employer and family."
+      },
+      "tests": [
+        {
+          "name": "Loudness Discomfort Levels (LDLs)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 14.3"
+          ],
+          "key_findings": "Abnormal LDLs confirmed, worse on the affected (right) side. Testing started at threshold due to anxiety.",
+          "numeric_results": {
+            "Right Ear Mean LDL": "73.75 dB HL (Range 70-80 dB)",
+            "Left Ear Mean LDL": "86.25 dB HL (Range 80-95 dB)",
+            "Normative Reference": "Normal LDLs typically ≥ 95 dB HL"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 14.3"
+          ],
+          "key_findings": "Hearing thresholds remain within normal limits (0-10 dB HL), consistent with V1.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal pure-tone thresholds and normal middle ear function (Type A tympanograms). However, Loudness Discomfort Level (LDL) testing reveals significantly reduced sound tolerance (hyperacusis), which is more severe in the right ear (the ear exposed to the acoustic shock). The findings support a diagnosis of acoustic shock with associated phonophobia.",
+  "counseling_points": [
+    "Validate the patient's experience: Acoustic Shock is a real condition, even if standard hearing tests look 'normal'.",
+    "Explain that the pain and sensitivity are due to a temporary change in how the auditory system processes loudness, not necessarily permanent physical damage.",
+    "Recommend using environmental sound enrichment (e.g., nature sounds) to help desensitize the auditory system.",
+    "Advise against silence or over-protection (earplugs), as this can increase sensitivity.",
+    "Discuss relaxation training to manage the anxiety response associated with the sound exposure.",
+    "Advise using environmental sound rather than ear-level sound generators initially."
+  ],
+  "notes_for_actor": [
+    "You are anxious and defensive because people (family, work) think you are making it up since your first hearing test was normal.",
+    "You have a specific phobia of telephones now—the idea of putting a receiver to your ear causes panic.",
+    "Describe the pain as a physical sensation in the ear, not just that sounds are 'too loud'.",
+    "You are relieved when the audiologist finally finds a test (LDLs) that shows something is actually wrong."
+  ]
+}

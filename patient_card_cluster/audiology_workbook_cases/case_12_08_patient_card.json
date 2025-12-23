@@ -1,0 +1,124 @@
+{
+  "case_id": "case_12_8",
+  "title": "Case Study 8: Traumatic Tympanic Membrane Perforation",
+  "demographics": {
+    "age_years": 21,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My hearing has been 'a bit off' in my right ear since an accident with a cotton swab four days ago.",
+  "problem_summary": {
+    "onset": "Acute onset 4 days ago.",
+    "course": "Incident caused immediate severe pain which has since subsided. Hearing difficulty persists.",
+    "laterality": "Right ear.",
+    "associated_symptoms": "Denied dizziness or tinnitus.",
+    "functional_impact": "Subjective feeling that hearing is 'off'.",
+    "goals_motivation": "Evaluation of ear status following trauma."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient was cleaning ears with a cotton swab 4 days ago when her boyfriend bumped into her. This caused the swab to injure the right ear, resulting in great pain. The pain has subsided, but she notices a change in hearing.",
+        "otologic_history": "Traumatic incident with cotton swab.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "None reported.",
+        "prior_management": "None reported.",
+        "patient_goals": "Determine cause of hearing change and status of the ear."
+      },
+      "tests": [
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Tymp Table"
+          ],
+          "key_findings": "Right ear tympanogram is flat (Type B) with an abnormally large ear canal volume (Vea), consistent with a tympanic membrane perforation. Left ear tympanogram is normal (Type A).",
+          "numeric_results": {
+            "Right Vea": "3.7 mmho (High Volume)",
+            "Right Ytm": "NP (No Peak)",
+            "Right TPP": "NP",
+            "Left Vea": "0.8 mmho",
+            "Left Ytm": "1.0 mmho",
+            "Left TPP": "0 daPa"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram"
+          ],
+          "key_findings": "Left ear thresholds are within normal limits (0-5 dB HL). Right ear shows a mild low-frequency conductive hearing loss with an air-bone gap. Bone conduction thresholds are normal bilaterally.",
+          "numeric_results": {
+            "Right Air Conduction (250-500 Hz)": "~20 dB HL",
+            "Right Air Conduction (1000-8000 Hz)": "~10-15 dB HL",
+            "Left Air Conduction": "0-5 dB HL across all frequencies",
+            "Bone Conduction": "0-5 dB HL (Normal)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Table"
+          ],
+          "key_findings": "Excellent word recognition scores in both ears.",
+          "numeric_results": {
+            "Right WRS": "100% @ 40 dB HL",
+            "Left WRS": "100% @ 35 dB HL"
+          }
+        },
+        {
+          "name": "Wideband Acoustic Immittance",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Reflectance Graph"
+          ],
+          "key_findings": "Reflectance graph provided showing differences between Right (solid) and Left (dashed) ears, consistent with middle ear pathology in the Right ear.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation reveals a mild conductive hearing loss in the right ear. Tympanometry findings (Type B with large ear canal volume) strongly indicate a tympanic membrane perforation in the right ear, consistent with the reported trauma. The left ear presents with normal hearing sensitivity and normal middle ear function.",
+  "counseling_points": [
+    "The tests confirm you have a perforation (hole) in your right eardrum caused by the cotton swab.",
+    "The 'flat' pressure test with the high volume reading is the key sign of this perforation.",
+    "This hole is the cause of the slight hearing loss you are noticing.",
+    "It is very important to keep the ear dry. Use a cotton ball with Vaseline or an earplug when showering to prevent water from entering the middle ear.",
+    "Avoid blowing your nose forcefully.",
+    "We will monitor the ear, as many traumatic perforations heal spontaneously over time."
+  ],
+  "notes_for_actor": [
+    "You are a young adult (21 years old).",
+    "You feel a bit embarrassed that this happened while cleaning your ears.",
+    "You are relieved the pain is gone but anxious about whether the 'hole' will close up on its own.",
+    "Ask if you need surgery or if it will heal by itself."
+  ]
+}

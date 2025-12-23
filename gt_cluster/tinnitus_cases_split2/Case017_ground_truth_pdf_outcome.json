@@ -1,0 +1,92 @@
+{
+  "case_id": "Case017",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sudden Sensorineural Hearing Loss (SSNHL)",
+      "rationale_short": "Acute onset of unilateral hearing loss upon waking, confirmed as sensorineural by audiometry and Weber test."
+    },
+    {
+      "rank": 2,
+      "label": "Diplacusis",
+      "rationale_short": "Patient reports pitch distortion (upward shift) and 'crackling' quality in the affected ear, confirmed by informal pitch matching."
+    },
+    {
+      "rank": 3,
+      "label": "Tinnitus",
+      "rationale_short": "Patient reports bilateral white noise tinnitus, lateralized to the right, accompanying the hearing loss."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To quantify hearing thresholds and confirm the nature (sensorineural vs conductive) and degree of the sudden loss."
+      },
+      {
+        "action": "Weber Test",
+        "urgency": "urgent",
+        "rationale_short": "To quickly differentiate between sensorineural and conductive loss; lateralization to the better ear supports SNHL."
+      },
+      {
+        "action": "Informal Pitch Matching (Diplacusis check)",
+        "urgency": "routine",
+        "rationale_short": "To investigate the patient's complaint of pitch distortion and music sounding 'out of tune'."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results confirm a sudden, severe sensorineural hearing loss in the right ear, sloping in the high frequencies. The Weber test corroborates a sensorineural site of lesion by lateralizing to the better (left) ear. Informal testing confirms diplacusis with an upward pitch shift in the affected ear.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear normal. Right ear severe SNHL sloping from 1 to 8 kHz (reaching 75-80 dB HL at 4-8 kHz); low frequencies (250-500 Hz) mild-to-moderate (20-25 dB HL)."
+          },
+          {
+            "name": "Weber Test",
+            "category": "Tuning Fork",
+            "result_summary": "Lateralized to the left (better ear) at 1000 and 2000 Hz."
+          },
+          {
+            "name": "Informal Pitch Matching (Diplacusis check)",
+            "category": "Pitch Matching",
+            "result_summary": "Music shifted upward in pitch by a full step when listening with the affected (right) ear compared to the good ear."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Prednisone (prescribed by ENT)",
+      "Monitoring of auditory symptoms and recovery"
+    ],
+    "counseling_actions": [
+      "Advise that SSNHL is a medical urgency requiring immediate adherence to the steroid regimen",
+      "Explain that 'crackling' and pitch distortion (diplacusis) are common symptoms of cochlear hair cell dysfunction",
+      "Recommend avoiding loud music or noise exposure during the recovery period",
+      "Instruct to monitor for any changes in balance or dizziness"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden unilateral hearing loss"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "ENT",
+      "rationale_short": "Sudden Sensorineural Hearing Loss requires immediate medical evaluation and treatment (steroids) to maximize recovery potential."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "48 hours",
+    "objective": "Monitor response to steroid treatment and resolution of diplacusis."
+  },
+  "expected_outcome": [
+    "Pure-tone audiometry (Recovery): Right ear thresholds improved significantly, ranging from 15-20 dB HL in low frequencies to 30-45 dB HL in high frequencies (2-8 kHz), though sensitivity remained slightly outside the normal range compared to baseline.",
+    "Subjective Report: Within 48 hours of starting prednisone, sound clarity in the affected ear returned to pre-event quality and the diplacusis sensation faded."
+  ]
+}

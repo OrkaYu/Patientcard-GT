@@ -1,0 +1,102 @@
+{
+  "case_id": "case_7_9",
+  "title": "Bilateral Otosclerosis Post-Stapedectomy with Dizziness",
+  "demographics": {
+    "age_years": 57,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have constant buzzing and ringing in my right ear, and I feel off-balance when I move my head. My hearing improved after my surgeries years ago, so I'm mostly concerned about the dizziness.",
+  "problem_summary": {
+    "onset": "History of bilateral otosclerosis with surgeries completed approximately 4 years ago.",
+    "course": "Hearing reported as significantly improved and stable since revision surgery; recent onset of dizziness.",
+    "laterality": "Bilateral hearing history; Right-sided tinnitus.",
+    "associated_symptoms": "Constant tinnitus in the right ear (steady buzzing/ringing); dizziness described as being off-balance with head movement.",
+    "functional_impact": "No significant communication difficulties reported at this time.",
+    "goals_motivation": "Primary goal is to address dizziness; monitoring hearing stability."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-08-25",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports history of bilateral otosclerosis. Stapedectomy and revision were completed for each ear. Last surgery was on the left ear ~4 years ago.",
+        "otologic_history": "Bilateral stapedectomies and revisions. Father had hearing loss but no surgery.",
+        "noise_exposure_history": "No significant history of noise exposure.",
+        "medical_psych_history": "Report of dizziness/off-balance sensation with head movement.",
+        "prior_management": "Last hearing test 4 years ago (results unavailable).",
+        "patient_goals": "Investigate dizziness and monitor hearing."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op (Long term)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.9"
+          ],
+          "key_findings": "Right ear: Slight sloping to mild mixed loss (250-1000 Hz), sloping to moderate-to-severe (2000-4000 Hz). Left ear: Slight SNHL (250-500 Hz), rising to normal (1000-2000 Hz), sloping to moderate mixed loss (4000-8000 Hz).",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 25, 500Hz: 30, 1000Hz: 40, 2000Hz: 60, 4000Hz: 75, 8000Hz: 65 dB HL",
+            "Right_BC_Thresholds": "250Hz: 15, 500Hz: 20, 1000Hz: 30, 2000Hz: 45, 4000Hz: 60 dB HL",
+            "Left_AC_Thresholds": "250Hz: 20, 500Hz: 20, 1000Hz: 10, 2000Hz: 15, 4000Hz: 45, 8000Hz: 50 dB HL",
+            "Left_BC_Thresholds": "250Hz: 20, 500Hz: 20, 1000Hz: 10, 2000Hz: 15, 4000Hz: 30 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op (Long term)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.9"
+          ],
+          "key_findings": "SRT scores agree with PTA. Word recognition scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "Right_SRT": "37 dB HL",
+            "Right_WRS": "96% at 70 dB HL",
+            "Left_SRT": "10 dB HL",
+            "Left_WRS": "90% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Immittance testing was not measured due to a history of otosurgery.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a complex mixed hearing loss profile following bilateral stapedectomies. The Right ear shows a mild-to-severe mixed loss, while the Left ear retains largely normal hearing sensitivity in the low-to-mid frequencies, dropping to a mixed loss in the high frequencies. Despite the thresholds, speech recognition ability remains excellent in both ears.",
+  "counseling_points": [
+    "Your hearing test shows that the surgery on your left ear has maintained good hearing in the main speech pitches, which explains why you aren't having trouble communicating.",
+    "The dizziness you are experiencing appears to be Benign Paroxysmal Positional Vertigo (BPPV) affecting the left side.",
+    "We recommend following up with the ENT specialist to manage the BPPV.",
+    "Since you are doing well communicating, hearing aids are not urgent, but we should monitor your hearing annually.",
+    "If you become interested in amplification for the right ear or if hearing changes, please return to the clinic."
+  ],
+  "notes_for_actor": [
+    "You are not currently struggling to hear conversations in quiet environments because your left ear is functioning well.",
+    "Your main focus is the dizziness—describe it as feeling 'off balance' specifically when you move your head.",
+    "Mention the constant buzzing/ringing in your right ear, but note that it doesn't stop you from functioning.",
+    "You have had multiple ear surgeries in the past, so you are familiar with ear doctors."
+  ]
+}

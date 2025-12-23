@@ -1,0 +1,109 @@
+{
+  "case_id": "Case008_07",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder (Corpus Callosum Syndrome)",
+      "rationale_short": "Left ear extinction on dichotic tasks and bilateral deficits on duration patterns despite normal peripheral hearing, consistent with the MRI-confirmed lesion of the posterior corpus callosum."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry (Monaural)",
+        "urgency": "routine",
+        "rationale_short": "Assess monaural speech recognition ability."
+      },
+      {
+        "action": "Dichotic Rhyme Test",
+        "urgency": "routine",
+        "rationale_short": "Evaluate interhemispheric transfer and dichotic listening performance."
+      },
+      {
+        "action": "Dichotic CVs",
+        "urgency": "routine",
+        "rationale_short": "Evaluate interhemispheric transfer with linguistically loaded stimuli."
+      },
+      {
+        "action": "Dichotic Digits",
+        "urgency": "routine",
+        "rationale_short": "Evaluate interhemispheric transfer with digit stimuli."
+      },
+      {
+        "action": "Duration Patterns",
+        "urgency": "routine",
+        "rationale_short": "Assess temporal processing and interhemispheric transfer."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing and monaural speech recognition were normal. Central testing revealed a classic 'left ear extinction' pattern on dichotic tasks (Rhyme and CVs), consistent with a lesion of the posterior corpus callosum preventing transfer of right-hemisphere input to the language-dominant left hemisphere. Duration patterns were abnormal bilaterally, indicating a deficit in temporal sequencing/transfer. Dichotic digits showed less suppression than other stimuli, possibly due to different transfer pathways or cross-cueing.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal limits bilaterally (500-4000 Hz)."
+          },
+          {
+            "name": "Speech audiometry (Monaural)",
+            "category": "Speech Audiometry",
+            "result_summary": "100% recognition for single CVs bilaterally."
+          },
+          {
+            "name": "Dichotic Rhyme Test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Significant left ear suppression (~10%); Right ear score above normal range (~90%)."
+          },
+          {
+            "name": "Dichotic CVs",
+            "category": "Central Auditory Processing",
+            "result_summary": "Complete left ear suppression (0%); Right ear normal (100%)."
+          },
+          {
+            "name": "Dichotic Digits",
+            "category": "Central Auditory Processing",
+            "result_summary": "Left ear depressed (~80%) but better than CVs/Rhyme; Right ear normal (~95%)."
+          },
+          {
+            "name": "Duration Patterns",
+            "category": "Central Auditory Processing",
+            "result_summary": "Abnormal bilaterally (Left ~45%, Right ~40%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor cognitive status"
+    ],
+    "counseling_actions": [
+      "Explain the 'Left Ear Extinction' phenomenon where the left ear input is blocked by competition in the right ear due to the brain lesion.",
+      "Discuss difficulties with temporal patterning and sequencing, which are relevant to his work as a sound engineer.",
+      "Recommend compensatory strategies such as directing important conversations to the right ear.",
+      "Advise avoiding high-interference environments when critical listening is required."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Routine follow-up for cognitive sequelae of the aneurysm; no acute otologic emergency."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor long-term cognitive and auditory processing recovery."
+  },
+  "expected_outcome": [
+    "Patient reported doing well overall.",
+    "Continued experience of mild cognitive problems."
+  ]
+}

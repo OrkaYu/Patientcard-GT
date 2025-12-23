@@ -1,0 +1,148 @@
+{
+  "case_id": "case_5_12",
+  "title": "CNS Trauma with Brainstem Involvement",
+  "demographics": {
+    "age_years": 30,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I started having trouble hearing on my left side about two weeks after my car accident. I also hear ringing in that ear, and I can't understand anything when there is background noise.",
+  "problem_summary": {
+    "onset": "Symptoms appeared approximately 2 weeks following a severe motor vehicle accident (MVA).",
+    "course": "Gradual improvement over several years; tinnitus subsided, but hearing in noise remained a significant issue.",
+    "laterality": "Left ear auditory symptoms; Right side somatic symptoms (crossed brainstem signs).",
+    "associated_symptoms": "Left ear tinnitus; Right central facial paresis; Right-handed numbness; Mild right ptosis; Initial confusion and decreased attention post-accident.",
+    "functional_impact": "Significant difficulty hearing in background noise despite normal pure-tone thresholds.",
+    "goals_motivation": "Patient was frustrated that previous providers told her she had no auditory problems; seeks validation and explanation for her difficulties."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Medical Center)",
+      "history": {
+        "present_illness": "Patient was in a motor vehicle accident at age 30, incurring fractured ribs, leg fractures, and a chipped C6 vertebra. She was unconscious immediately after, then confused. Neurologic exam showed left pupil > right, mild right ptosis, and right-handed numbness. CT/Skull X-rays were initially normal. 2 weeks later, she developed left-sided hearing difficulty and tinnitus.",
+        "otologic_history": "No prior history mentioned before accident.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Right central facial paresis noted later. Neurologist suspects left brainstem contusion.",
+        "prior_management": "Patient had been told early on that she had minimal or no auditory problems, which she disagreed with.",
+        "patient_goals": "Diagnosis of hearing difficulty in noise."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Bilaterally normal thresholds with no asymmetry.",
+          "numeric_results": {
+            "Thresholds": "Within normal limits (bilateral)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Excellent recognition in quiet, though left ear showed slight variability across sessions (84-88%).",
+          "numeric_results": {
+            "WRS Right": "100%",
+            "WRS Left": "84% (early session), 88% or better (current session)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Asymmetric reflex results indicating retrocochlear pathology.",
+          "numeric_results": {
+            "Right Ear Stim": "Present at normal levels (500-4000 Hz)",
+            "Left Ear Stim": "Absent contralateral reflexes"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-39"
+          ],
+          "key_findings": "Right ear normal. Left ear showed normal waves I, II, III, but reduced amplitude IV-V complex (Wave V possibly absent). No response at 60 dB nHL for the left ear, indicating abnormal intensity function.",
+          "numeric_results": {
+            "Left Ear 60 dB nHL": "No response",
+            "Wave Morphology": "Left ear IV-V complex reduced/absent"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "Masking Level Difference (MLD)",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal results, suggesting some brainstem pathways (low pons/SOC) might be spared or redundant.",
+          "numeric_results": {
+            "500 Hz Pulsed Tone": "10 dB (Normal)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Evaluation & Follow-up",
+          "ear": "bilateral",
+          "condition": "Central Auditory Battery",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-40"
+          ],
+          "key_findings": "Marked left ear deficit on all central tests except Frequency Patterns. Note: Dichotic Rhymes were obtained >2 years later but show similar deficit.",
+          "numeric_results": {
+            "Competing Sentences": "Left: 0%, Right: 100%",
+            "Dichotic Digits": "Left: ~60%, Right: ~80%",
+            "SSW": "Left: ~45%, Right: ~90%",
+            "LPFS": "Left: ~10%, Right: ~80%",
+            "Frequency Patterns": "Left: 100%, Right: 100%",
+            "Dichotic Rhymes": "Left: 0%, Right: ~75-80% (obtained at follow-up)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 30-year-old female presents with a classic 'crossed' brainstem syndrome following CNS trauma. While peripheral hearing sensitivity is normal bilaterally, she exhibits significant central auditory processing deficits specific to the left ear. Key findings include absent left contralateral reflexes, abnormal left ABR (missing/reduced later waves, intensity effects), and severe deficits in left-ear performance on dichotic and monaural low-redundancy speech tasks. The preservation of Frequency Patterns suggests the cortex is intact, localizing the lesion to the brainstem (likely left side, affecting the crossed pathways from the left ear and uncrossed somatic pathways from the right side of the body).",
+  "counseling_points": [
+    "Validate the patient's complaints: Explain that while her 'hearing ability' (volume) is normal, the pathway connecting the ear to the brain was bruised during the accident, making it hard to process complex sounds.",
+    "Explain the 'hearing in noise' difficulty: The brainstem helps filter background noise; damage here makes noisy environments overwhelming.",
+    "Discuss prognosis: Improvement has been slow but positive over several years.",
+    "Strategies: Use visual cues, preferential seating (right ear towards speaker), and reduce background noise where possible.",
+    "Reassurance: The tinnitus has subsided and coping strategies are helping."
+  ],
+  "notes_for_actor": [
+    "You are frustrated that previous doctors told you your hearing was 'perfect' because you know you are struggling.",
+    "You have trouble specifically when there is background noise; in a quiet room, you hear fine.",
+    "You have some physical symptoms on your RIGHT side (numbness, eyelid droop), but your hearing trouble is on your LEFT side.",
+    "You are relieved to finally have a test show that something is actually wrong."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "case_id": "Case015",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Obscure auditory dysfunction",
+      "rationale_short": "Patient reports significant difficulty comprehending speech in noise despite completely normal peripheral hearing sensitivity and normal retrocochlear function."
+    },
+    {
+      "rank": 2,
+      "label": "Normal hearing",
+      "rationale_short": "All audiometric tests (pure tone, speech, tympanometry, reflexes, ABR, OAEs) are within normal limits, ruling out peripheral pathology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity across the frequency range."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition threshold and clarity in quiet."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and retrocochlear pathways."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate retrocochlear function and rule out neural pathology."
+      },
+      {
+        "action": "Otoacoustic Emissions (TEAOE)",
+        "urgency": "routine",
+        "rationale_short": "To confirm normal cochlear outer hair cell function."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates completely normal peripheral hearing sensitivity, excellent speech recognition in quiet, and normal middle ear and retrocochlear function. There is no evidence of peripheral pathology to explain the reported difficulty in noise, consistent with obscure auditory dysfunction.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Normal hearing sensitivity bilaterally; thresholds 0-10 dB HL across 250-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "SRT 0 dB HL (Right), 5 dB HL (Left); SRS 96% (Right), 100% (Left)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Physiological",
+            "result_summary": "Normal Type A tympanograms bilaterally; static compliance 0.35 cc (Right), 1.15 cc (Left)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Physiological",
+            "result_summary": "Present at normal levels (90-95 dB HL ipsilateral and contralateral)."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiological",
+            "result_summary": "All waves normal; interpeak latencies and latency-intensity functions normal."
+          },
+          {
+            "name": "Otoacoustic Emissions (TEAOE)",
+            "category": "Physiological",
+            "result_summary": "Present bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Employment of select assistive listening devices",
+      "Possible alterations in environmental/listening settings"
+    ],
+    "counseling_actions": [
+      "Discuss normal test findings and explain that the ears are detecting sound perfectly",
+      "Validate the reality of the difficulties in social contexts despite normal results",
+      "Explain possible underlying causes such as anxiety or mild auditory processing problems (Obscure Auditory Dysfunction)",
+      "Provide counseling on communication strategies"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Specialist for further evaluation (e.g., Auditory Processing Disorder)",
+      "rationale_short": "Referral is offered if the patient desires to investigate potential etiologies like APD, as peripheral pathology has been ruled out."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "One year",
+    "objective": "Re-evaluation, or sooner if additional symptoms develop."
+  },
+  "expected_outcome": []
+}

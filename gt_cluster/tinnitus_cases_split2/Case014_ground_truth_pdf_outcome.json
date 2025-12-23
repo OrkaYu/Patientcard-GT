@@ -1,0 +1,103 @@
+{
+  "case_id": "Case014",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acoustic Shock",
+      "rationale_short": "History of sudden acoustic incident via headset, symptoms of pain and hyperacusis, and reduced LDLs despite normal pure-tone thresholds."
+    },
+    {
+      "rank": 2,
+      "label": "Phonophobia",
+      "rationale_short": "Specific anxiety and fear reaction regarding telephones following the acoustic incident."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To assess for acute acoustic trauma and hearing loss following the incident."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "urgent",
+        "rationale_short": "To assess middle ear function and rule out physical trauma to the tympanic membrane or ossicles."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up assessment to monitor thresholds and ensure no delayed hearing loss."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDLs)",
+        "urgency": "routine",
+        "rationale_short": "To objectively assess sound tolerance levels given complaints of hyperacusis and pain."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial assessment 2 days post-injury showed no evidence of permanent threshold shift or middle ear pathology. The patient was reassured that symptoms would likely settle.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing thresholds (0-10 dB HL) across 250 Hz to 8 kHz."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up 1 month later confirmed persistent normal hearing thresholds but revealed significantly reduced sound tolerance (hyperacusis), particularly in the exposed right ear, supporting the diagnosis of acoustic shock.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Thresholds remained within normal limits (0-10 dB HL)."
+          },
+          {
+            "name": "Loudness Discomfort Levels (LDLs)",
+            "category": "Audiometry",
+            "result_summary": "Abnormal LDLs. Right ear mean 73.75 dB HL (range 70-80 dB); Left ear mean 86.25 dB HL (range 80-95 dB)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Sound therapy using environmental sound enrichment (e.g., nature sounds)",
+      "Relaxation training",
+      "Referral to clinical psychologist (via Occupational Health)"
+    ],
+    "counseling_actions": [
+      "Validate the patient's experience as a real condition (Acoustic Shock)",
+      "Explain that pain and sensitivity are due to temporary auditory processing changes, not permanent damage",
+      "Advise against silence or over-protection (earplugs) to prevent increasing sensitivity",
+      "Advise using environmental sound rather than ear-level sound generators initially"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Clinical Psychologist",
+      "rationale_short": "To address anxiety, phonophobia, and psychological distress related to the workplace incident."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor symptom resolution and return to daily activities."
+  },
+  "expected_outcome": [
+    "Most symptoms settled over time.",
+    "The patient continued to find the workplace problematic.",
+    "The patient eventually left her employment to set up a photography business."
+  ]
+}

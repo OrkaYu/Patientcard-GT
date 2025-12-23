@@ -1,0 +1,125 @@
+{
+  "case_id": "case_7_22",
+  "title": "Post-Chemoradiation Mixed Hearing Loss",
+  "demographics": {
+    "age_years": 64,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My hearing has decreased in both ears, but the right side is definitely worse than the left. This decline started soon after I had radiation and chemotherapy.",
+  "problem_summary": {
+    "onset": "Sudden decline noted soon after receiving radiation and chemotherapy.",
+    "course": "Stable since treatment concluded (implied).",
+    "laterality": "Bilateral; Right ear poorer than Left.",
+    "associated_symptoms": "Denies tinnitus, pain, or aural pressure.",
+    "functional_impact": "Patient reports decreased hearing capability.",
+    "goals_motivation": "Seeking evaluation of hearing status following cancer treatment."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-04-30",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports bilateral hearing loss onset following cancer treatment. Hearing was good prior to treatment.",
+        "otologic_history": "Denies pain or pressure.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "History of cancer treated with three doses of cisplatin (chemotherapy) and radiation to the nasal passageways.",
+        "prior_management": "None reported.",
+        "patient_goals": "Evaluation of hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.22"
+          ],
+          "key_findings": "Right ear shows moderate rising to mild mixed loss (250-500 Hz) sloping to profound sensorineural loss in high frequencies. Left ear shows mild sloping to moderately severe mixed loss (250-3000 Hz) sloping to profound. Air-bone gaps present in low frequencies bilaterally.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 55, 500Hz: 50, 1000Hz: 65, 2000Hz: 80, 4000Hz: NR, 8000Hz: NR dB HL",
+            "Left_AC_Thresholds": "250Hz: 35, 500Hz: 40, 1000Hz: 45, 2000Hz: 50, 4000Hz: 85, 8000Hz: 95 dB HL",
+            "Right_BC_Thresholds": "250Hz: 15, 500Hz: 20, 1000Hz: 60, 2000Hz: 75 dB HL",
+            "Left_BC_Thresholds": "250Hz: 10, 500Hz: 15, 1000Hz: 45, 2000Hz: 50 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.22"
+          ],
+          "key_findings": "Right ear SRT (45 dB) does not agree with PTA (60 dB), likely due to sloping loss. Left ear SRT (45 dB) agrees with PTA (48 dB). WRS shows moderate difficulty on the right and slight difficulty on the left.",
+          "numeric_results": {
+            "Right_SRT": "45 dB HL",
+            "Right_WRS": "62% at 85 dB HL",
+            "Left_SRT": "45 dB HL",
+            "Left_WRS": "82% at 80 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.22"
+          ],
+          "key_findings": "Excessive negative pressure bilaterally, consistent with Eustachian tube dysfunction.",
+          "numeric_results": {
+            "Right_Pressure": "-105 daPa",
+            "Right_Volume": "1.7 mL",
+            "Left_Pressure": "-130 daPa",
+            "Left_Volume": "1.9 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.22"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral reflexes at all frequencies (500-4000 Hz). Decay could not be measured.",
+          "numeric_results": {
+            "Reflexes": "Absent (ABS) at 500, 1k, 2k, 4k Hz bilaterally"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral mixed hearing loss, worse in the right ear. The low-frequency conductive component is attributed to Eustachian tube dysfunction (indicated by negative tympanometric pressure) likely secondary to radiation. The high-frequency sensorineural component is consistent with ototoxicity from cisplatin chemotherapy. Speech recognition is reasonably preserved in the left ear but moderately degraded in the right.",
+  "counseling_points": [
+    "Your hearing loss has two causes: the medication (cisplatin) has affected the inner ear nerves (high pitches), and the radiation has likely caused some blockage in the tubes behind your eardrums (low pitches).",
+    "We are referring you to an ENT specialist first to address the pressure issue in your middle ear.",
+    "Once the ENT has managed the middle ear condition, hearing aids will likely be very beneficial for you.",
+    "Even though you don't feel pain, the negative pressure we measured explains why some sounds feel 'blocked' or muffled."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is matter-of-fact about their cancer treatment history.",
+    "You do not have active ear pain or tinnitus, just a notice that hearing has dropped since treatment.",
+    "You are cooperative but concerned about whether the hearing loss is permanent."
+  ]
+}

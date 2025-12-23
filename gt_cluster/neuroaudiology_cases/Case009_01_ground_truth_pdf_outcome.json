@@ -1,0 +1,91 @@
+{
+  "case_id": "Case009_01",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Multiple Sclerosis",
+      "rationale_short": "Patient has a confirmed diagnosis of MS; ABR findings of delayed waves III and V in the right ear correlate with MRI findings of a plaque in the right low pons."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess peripheral hearing sensitivity given vague auditory complaints."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech recognition ability in quiet."
+      },
+      {
+        "action": "Dichotic digits test",
+        "urgency": "routine",
+        "rationale_short": "Assess integrity of higher auditory areas and interhemispheric transfer."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "Evaluate brainstem function due to neurological history and symptoms."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates normal peripheral hearing sensitivity and excellent speech recognition. However, ABR testing reveals retrocochlear pathology in the right ear, characterized by delayed neural conduction times (Waves III and V) and extended interwave intervals, which correlates with the MRI finding of a demyelinating plaque in the right pons.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Normal thresholds (0-10 dB HL) bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Excellent speech recognition (100%) bilaterally."
+          },
+          {
+            "name": "Dichotic digits test",
+            "category": "Central Auditory",
+            "result_summary": "Normal performance for both ears."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Left Ear: Normal latencies. Right Ear: Normal Wave I, but significantly delayed Wave III (5.0 ms) and Wave V (7.0 ms). Extended I-III (3.2 ms) and I-V (5.28 ms) intervals. Abnormal Interaural Latency Difference (1 ms)."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Large plaque located at the right posterio-lateral surface of the brainstem (low pons), likely compromising the right dorsal cochlear nucleus."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor auditory processing status"
+    ],
+    "counseling_actions": [
+      "Explain that normal peripheral hearing tests account for good sensitivity in quiet",
+      "Discuss ABR results indicating a slowdown of the nerve signal in the brainstem on the right side",
+      "Correlate auditory findings with the known MS diagnosis and MRI plaque location",
+      "Advise monitoring for changes in speech understanding in noise"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Auditory findings confirm central involvement consistent with known MS diagnosis; continued management by neurology is appropriate."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor for any changes in auditory processing or speech understanding in noise."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,101 @@
+{
+  "case_id": "Case007_30",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Mixed hearing loss (Left ear)",
+      "rationale_short": "Consistent with history of chronic otitis media, cholesteatoma, mastoidectomy, and ossiculoplasty, evidenced by air-bone gaps."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural hearing loss (Right ear)",
+      "rationale_short": "Mild high-frequency sensorineural hearing loss observed at 3000-8000 Hz."
+    },
+    {
+      "rank": 3,
+      "label": "Eustachian tube dysfunction (Right ear)",
+      "rationale_short": "Indicated by negative middle ear pressure and hypercompliant tympanic membrane."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Monitor hearing sensitivity in context of long-standing history and surgeries."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear status, particularly the mastoid cavity on the left and pressure on the right."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Standard battery test, though not measured at this appointment."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates stable, asymmetric hearing. The right ear has normal sensitivity sloping to a mild high-frequency sensorineural loss with negative middle ear pressure. The left ear shows a mixed hearing loss ranging from mild to moderately severe, consistent with the history of mastoidectomy and ossiculoplasty. Speech recognition is excellent bilaterally. Tympanometry reveals a large ear canal volume in the left ear, consistent with the surgical history.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal (250-2000 Hz) sloping to mild SNHL (3000-8000 Hz). Left ear: Moderately severe rising to mild mixed loss (250-2000 Hz), sloping to moderately severe mixed loss (3000-4000 Hz). Significant air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 13 dB, Left 43 dB. WRS: Right 92%, Left 96%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Hypercompliant with excessive negative pressure (-160 daPa). Left ear: Flat with large ear canal volume (2.7 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Threshold and decay testing were not measured."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Discuss amplification options (hearing aids) for the left ear",
+      "Discuss Hearing Assistive Technology (HAT)",
+      "Return for hearing test after medical management and as needed"
+    ],
+    "counseling_actions": [
+      "Review test results confirming stable hearing with no significant changes",
+      "Explain that the flat tympanogram and large canal volume in the left ear are expected due to mastoid surgery",
+      "Advise continued follow-up with otologist as scheduled"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient is already under care; continue scheduled follow-up for medical management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As scheduled with otologist; Audiology follow-up after medical management or as needed",
+    "objective": "Monitor hearing stability and manage amplification needs."
+  },
+  "expected_outcome": [
+    "Hearing remained stable with no significant changes in thresholds or WRS.",
+    "Patient will follow up with an otologist as scheduled.",
+    "Plan established to discuss amplification for the left ear and use of HAT technology."
+  ]
+}

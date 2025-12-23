@@ -1,0 +1,102 @@
+{
+  "case_id": "case_6_9",
+  "title": "Chronic Otitis Media Sequelae with Soft Tissue Stenosis",
+  "demographics": {
+    "age_years": 47,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have a long history of ear infections and surgeries on my left ear. I have trouble with wax buildup and hearing loss on that side, but I've used hearing aids successfully in the past.",
+  "problem_summary": {
+    "onset": "Childhood and young adulthood.",
+    "course": "Chronic history, stable since last surgery >20 years ago.",
+    "laterality": "Left ear.",
+    "associated_symptoms": "Cerumen impaction, soft tissue stenosis of the ear canal.",
+    "functional_impact": "Hearing loss in the left ear requiring amplification.",
+    "goals_motivation": "Monitoring hearing sensitivity and ear health; interested in new hearing aid technology."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-12-04",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient reports a history of chronic ear infections and multiple surgeries for the left ear as a child and young adult. The last surgery was over 20 years ago. He currently sees an otologist semiannually for cerumen removal due to impaction and left ear canal soft tissue stenosis.",
+        "otologic_history": "Multiple left ear surgeries. Soft tissue stenosis (left).",
+        "noise_exposure_history": "No significant noise exposure reported.",
+        "medical_psych_history": "No other significant health history reported.",
+        "prior_management": "Has used amplification successfully for many years.",
+        "patient_goals": "Monitor hearing and evaluate for new technology."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.9"
+          ],
+          "key_findings": "Right ear shows normal hearing sensitivity (0-10 dB HL). Left ear shows a mild conductive hearing loss in the low frequencies (250-2000 Hz) sloping to a moderate-to-severe mixed hearing loss in the high frequencies (3000-8000 Hz). Significant air-bone gaps are present in the left ear.",
+          "numeric_results": {
+            "RE_PTA": "5 dB HL",
+            "LE_PTA": "37 dB HL",
+            "RE_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "LE_Air_Thresholds": "Flat ~35-40 dB HL (250-2000 Hz), sloping to 60-70 dB HL (4000-8000 Hz)",
+            "LE_Bone_Thresholds": "0-5 dB HL (250-2000 Hz), sloping to 20 dB HL at 4000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.9"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) are in agreement with Pure Tone Averages (PTA) bilaterally. Word Recognition Scores (WRS) are excellent/normal for both ears.",
+          "numeric_results": {
+            "RE_SRT": "10 dB HL",
+            "RE_WRS": "96% / 100%",
+            "LE_SRT": "30 dB HL",
+            "LE_WRS": "100% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Immittance testing was not measured due to previous otosurgery.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a mild conductive sloping to moderate-to-severe mixed hearing loss in the left ear. Word recognition is excellent in the left ear despite the mixed nature of the loss. The left ear exhibits significant air-bone gaps consistent with the history of chronic ear disease and surgery.",
+  "counseling_points": [
+    "Your right ear has normal hearing, but your left ear has a mixed hearing loss (a combination of permanent nerve loss and conductive loss likely related to your ear history).",
+    "Because your word understanding scores are excellent (100%) in the left ear, you remain a very good candidate for hearing aids.",
+    "We should schedule a hearing aid evaluation to look at newer technology, as you mentioned interest in updating your devices.",
+    "Please continue your semiannual visits with the otologist to manage the wax buildup and monitor the ear canal stenosis."
+  ],
+  "notes_for_actor": [
+    "You are comfortable with your hearing loss history as it has been present for decades.",
+    "You are proactive about your ear health (seeing the ENT regularly for cleaning).",
+    "You are not complaining of pain, dizziness, or tinnitus.",
+    "You are an experienced hearing aid user looking for an update."
+  ]
+}

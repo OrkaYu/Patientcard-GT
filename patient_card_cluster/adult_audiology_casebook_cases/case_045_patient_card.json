@@ -1,0 +1,167 @@
+{
+  "case_id": "case45_Hearing_Assistive_Technology_A_Viable_Al",
+  "title": "Hearing Assistive Technology: A Viable Alternative to Hearing Aids",
+  "demographics": {
+    "age_years": 88,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "Oregon, USA"
+  },
+  "chief_complaint": "I have lost three pairs of hearing aids in the past two years and I am not sure how it happens. My daughter says my TV is too loud and I recently had trouble with the bank because I misunderstood a voicemail.",
+  "problem_summary": {
+    "onset": "Gradual",
+    "course": "Progressive",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Difficulty understanding speech on the telephone and television; vague reporting of listening difficulties.",
+    "functional_impact": "Frustration with losing devices; social activities limited to family visits and church; reliance on daughter for IADLs.",
+    "goals_motivation": "Desires to improve hearing for TV, telephone, and conversations at home, but has a history of losing devices."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-02-08",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient attended alone. Reported losing 3 pairs of HAs (2 BTE, 1 RIC) in 2 years. Unsure how loss occurred. Lives alone, 'quiet' lifestyle.",
+        "otologic_history": "No specific history of ear surgery or infection mentioned.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Cognitive status concerns noted (vague reporting, repeats herself, strays from topic). Limited vision and manual dexterity identified.",
+        "prior_management": "Previous use of BTE and RIC hearing aids, all lost.",
+        "patient_goals": "Improve hearing without losing the devices."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 45.1"
+          ],
+          "key_findings": "Bilateral symmetrical gradually sloping mild to severe sensorineural hearing loss.",
+          "numeric_results": {
+            "Right_250Hz": "30 dB HL",
+            "Right_500Hz": "35 dB HL",
+            "Right_1000Hz": "40 dB HL",
+            "Right_2000Hz": "50 dB HL",
+            "Right_4000Hz": "70 dB HL",
+            "Right_8000Hz": "90 dB HL",
+            "Left_250Hz": "30 dB HL",
+            "Left_500Hz": "35 dB HL",
+            "Left_1000Hz": "40 dB HL",
+            "Left_2000Hz": "50 dB HL",
+            "Left_4000Hz": "75 dB HL",
+            "Left_8000Hz": "90 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 45.1"
+          ],
+          "key_findings": "SRT consistent with pure tone average. Word recognition scores excellent (96%) bilaterally, suggesting normal ability to recognize speech at elevated levels.",
+          "numeric_results": {
+            "SRT_Right": "38 dB HL",
+            "SRT_Left": "38 dB HL",
+            "WRS_Right": "96% at 80 dB HL",
+            "WRS_Left": "96% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 45.1"
+          ],
+          "key_findings": "Normal ear canal volume, middle ear pressure, and static admittance bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Vol": "1.4 mL",
+            "Left_Vol": "1.3 mL",
+            "Right_Pressure": "10 daPa",
+            "Left_Pressure": "25 daPa"
+          }
+        },
+        {
+          "name": "Self-report scales",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 45.2",
+            "Fig. 45.3"
+          ],
+          "key_findings": "HHIE score indicates mild perceived handicap. COSI identified specific needs.",
+          "numeric_results": {
+            "HHIE_Total_Score": "22",
+            "HHIE_Emotional_Score": "8",
+            "HHIE_Social_Score": "14",
+            "COSI_Priority_1": "Conversations at home - living room with family members",
+            "COSI_Priority_2": "Telephone - conversations with family, unfamiliar voices, voicemails",
+            "COSI_Priority_3": "Television - volume too loud for others"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2016-02-22",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up for hearing aid fitting. Patient accompanied by daughter.",
+        "otologic_history": "N/A",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "Daughter observed to be uninterested and unengaged.",
+        "prior_management": "Decision made to proceed with hearing aid trial despite history of loss.",
+        "patient_goals": "Fit new devices with retention security."
+      },
+      "tests": [
+        {
+          "name": "Hearing Aid Fitting",
+          "timepoint_label": "Treatment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Fitted with mid-level full-shell ITE hearing aids. 2.5mm vent. Volume control/program button deactivated. Telecoil set to auto. Grommet and tether clip attached to prevent loss. Verified with REM.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral symmetrical gradually sloping mild to severe sensorineural hearing loss with excellent word recognition abilities (96% AU). Despite good speech discrimination potential, the patient has a significant history of losing hearing aids (3 pairs in 2 years). Self-assessment (HHIE) reveals a mild perceived handicap, and COSI identifies TV, telephone, and home conversations as priority needs. Management focused on custom ITE devices with physical retention systems (tethers) to address the loss issue.",
+  "counseling_points": [
+    "We have chosen custom in-the-ear hearing aids to make them easier for you to handle and see.",
+    "I have attached a special clip and tether to these aids; please clip this to your clothing every time you wear them to prevent losing them.",
+    "The volume controls are turned off for now so you don't have to worry about adjusting them.",
+    "We will practice inserting and removing the aids today, and I encourage your daughter to watch so she can help if needed."
+  ],
+  "notes_for_actor": [
+    "Portray an 88-year-old woman who is pleasant but vague in her reporting.",
+    "Occasionally repeat yourself or stray from the topic of conversation.",
+    "You are frustrated about losing your hearing aids but cannot explain how or when it happens.",
+    "Your daughter (if present) should act uninterested and unengaged, checking her phone or looking away."
+  ]
+}

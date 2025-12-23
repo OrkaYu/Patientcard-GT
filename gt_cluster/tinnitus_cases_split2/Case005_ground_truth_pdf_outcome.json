@@ -1,0 +1,152 @@
+{
+  "case_id": "Case005",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otosclerosis (post-stapedectomy)",
+      "rationale_short": "History of stapedectomy on the right ear with persistent mixed hearing loss and opaque eardrum."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural Hearing Loss",
+      "rationale_short": "Left ear shows mild-to-moderate high-frequency sensorineural hearing loss."
+    },
+    {
+      "rank": 3,
+      "label": "Tinnitus",
+      "rationale_short": "Primary complaint of bothersome ringing, matched to 4000 Hz, with moderate handicap (THI 56)."
+    },
+    {
+      "rank": 4,
+      "label": "Hyperacusis",
+      "rationale_short": "Reduced loudness tolerance (LDLs 80-90 dB HL) and reported sensitivity to loud sounds."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To assess ear canal and tympanic membrane status, especially given surgical history."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and compliance."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear pathway, though limited by hyperacusis."
+      },
+      {
+        "action": "Loudness Contour Test",
+        "urgency": "routine",
+        "rationale_short": "To measure loudness discomfort levels (LDLs) due to reported sound sensitivity."
+      },
+      {
+        "action": "Tinnitus Assessment",
+        "urgency": "routine",
+        "rationale_short": "To characterize tinnitus pitch, loudness, maskability, and residual inhibition."
+      },
+      {
+        "action": "Self-Report Scales",
+        "urgency": "routine",
+        "rationale_short": "To quantify tinnitus handicap (THI) and functional impact (TFI)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with asymmetric hearing loss: mild-to-moderate high-frequency SNHL in the left ear and mild-to-severe mixed loss in the right ear, consistent with his history of stapedectomy. Word recognition is excellent bilaterally. Key findings include reduced loudness tolerance (LDLs 80-90 dB HL) indicating hyperacusis, and bothersome tinnitus matched to 4000 Hz. Tinnitus assessment shows positive residual inhibition and a Minimum Masking Level of 26 dB SL.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Left ear clear/normal; Right ear opaque eardrum consistent with surgical history."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left: Normal through 2000 Hz, sloping to mild-to-moderate SNHL at 3000 Hz+. Right: Asymmetric mild-to-severe mixed hearing loss with low-frequency gap."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs consistent with PTA. WRS 100% at 40 dB SL bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Left: Normal (Type A). Right: Reduced compliance (Type As), consistent with stapedectomy."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Pure tone ARTs not assessed due to discomfort. Broadband noise ARTs present left, absent right."
+          },
+          {
+            "name": "Loudness Contour Test",
+            "category": "Special Testing",
+            "result_summary": "Reduced tolerance for pure tones; LDLs 80-90 dB HL."
+          },
+          {
+            "name": "Tinnitus Assessment",
+            "category": "Special Testing",
+            "result_summary": "Pitch match 4000 Hz; Loudness match 13 dB SL; MML 26 dB SL (44 dB HL); Residual Inhibition 32 seconds."
+          },
+          {
+            "name": "Self-Report Scales",
+            "category": "Questionnaire",
+            "result_summary": "THI 56 (moderate handicap); TFI 51; COAT minimal concern with hearing loss."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral amplification (RIC devices) combined with sound therapy (TRT).",
+      "App-based masker for overnight use to avoid waking into complete quiet.",
+      "Progressive Muscle Relaxation (PMR) exercises.",
+      "Diaphragmatic breathing (DB) exercises."
+    ],
+    "counseling_actions": [
+      "Explain the connection between residual hearing loss and tinnitus.",
+      "Validate sound sensitivity (hyperacusis) based on Loudness Contour results.",
+      "Instruct on biofeedback exercises (PMR/DB) to manage reaction to tinnitus.",
+      "Discuss sound therapy strategy (mixing point below 50 dB SPL)."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Proceed with in-house management of tinnitus and hearing loss; patient has already received ENT clearance."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month and 3 months",
+    "objective": "Monitor progress with amplification, sound therapy, and sleep improvement."
+  },
+  "expected_outcome": [
+    "1-month follow-up THI score: 42",
+    "1-month follow-up TFI score: 36",
+    "COSI questionnaire: Patient pleased with reduction in duration and loudness of tinnitus.",
+    "Subjective report: Hearing better in small groups and better tolerating collective sound levels.",
+    "3-month follow-up THI score: 28",
+    "3-month follow-up TFI score: 30",
+    "Subjective report: Tinnitus at a manageable level; successfully practicing PMR to assist with sleep."
+  ]
+}

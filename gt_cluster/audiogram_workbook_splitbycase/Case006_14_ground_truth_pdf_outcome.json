@@ -1,0 +1,88 @@
+{
+  "case_id": "Case006_14",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Unilateral Conductive Hearing Loss (Left)",
+      "rationale_short": "Patient presents with persistent conductive hearing loss in the left ear following bilateral tympanoplasties, with normal bone conduction indicating intact inner ear function."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Assess the physical status of the ear canals and tympanic membranes given the history of surgery."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech reception thresholds and word recognition abilities to assess functional hearing."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Standard assessment for middle ear function, though deferred in this specific case due to previous otosurgery."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient exhibits normal hearing in the right ear with a slight high-frequency conductive component, and a moderate rising to mild conductive hearing loss in the left ear. Bone conduction is normal bilaterally. Speech recognition is excellent. Otoscopy reveals intact tympanic membranes with left-sided retraction. Immittance testing was not performed due to the surgical history.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Both tympanic membranes intact; left tympanic membrane slightly retracted."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal thresholds (250-3000 Hz) sloping to slight conductive loss (4000-8000 Hz). Left ear: Moderate rising to mild conductive loss (250-2000 Hz), sloping to moderate at 3000 Hz, rising/sloping in highs. Significant air-bone gaps in the left ear."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 12 dB HL, WRS 96%. Left SRT 35 dB HL, WRS 92%. Results consistent with pure-tone thresholds."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not performed due to previous otosurgery."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Review of previous audiograms and otosurgery records",
+      "Retest hearing after medical management",
+      "Hearing aid evaluation for the left ear",
+      "Hearing Assistive Technology (HAT)",
+      "Hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Discuss the conductive nature of the hearing loss and the healthy status of the inner ear",
+      "Explain potential rehabilitation options including hearing aids if medical management is not pursued or successful"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "For review of surgical records and determination of medical intervention for the retracted tympanic membrane and persistent conductive loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After medical management",
+    "objective": "Retest hearing to determine the need for amplification or other interventions."
+  },
+  "expected_outcome": []
+}

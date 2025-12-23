@@ -1,0 +1,147 @@
+{
+  "case_id": "case_9_7",
+  "title": "Multiple Sclerosis: Vestibular and Central Auditory Findings",
+  "demographics": {
+    "age_years": 37,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "Northeast United States"
+  },
+  "chief_complaint": "I have these terrible headaches on the right side and nausea, especially when I turn my head. I feel constantly unsteady, like a 'spaciness' or being off-balance, and my neck hurts on the right side.",
+  "problem_summary": {
+    "onset": "2 months prior to referral at the medical center.",
+    "course": "Initial symptoms of vertigo and nausea were treated as BPPV/viral labyrinthitis with Antivert. Symptoms persisted. Later developed right facial numbness and reduced tongue sensation.",
+    "laterality": "Right-sided symptoms (headache, neck pain, facial numbness) with bilateral but asymmetric central findings.",
+    "associated_symptoms": "Nausea, headaches, neck pain, unsteadiness, right facial numbness, reduced sensation on right side of tongue.",
+    "functional_impact": "Persistent feeling of unsteadiness aggravated by head-turning; headaches occurring approximately twice weekly.",
+    "goals_motivation": "Seeking explanation for persistent symptoms after initial treatment failed."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Medical Center",
+      "history": {
+        "present_illness": "Patient presented 2 months post-onset of right-sided headaches and nausea. Previous community evaluation (CT and audio) was normal; treated for BPPV without success. Current complaints include 'spaciness' and off-balance feeling aggravated by head turning.",
+        "otologic_history": "Prior diagnosis of benign paroxysmal vertigo secondary to viral labyrinthitis.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Familial history of Multiple Sclerosis (mother diagnosed at age 21), diabetes, and Parkinson's disease. Patient later developed right facial numbness.",
+        "prior_management": "Treated with Antivert (ineffective). Later treated with Tavist and Ciprofloxin (symptoms improved in 4 days, but headaches persisted).",
+        "patient_goals": "Diagnosis and management of unsteadiness and neurological symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Peripheral findings fell within normal limits for both ears.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Electronystagmography (ENG)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Left-beating nystagmus noted with eyes closed.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-16"
+          ],
+          "key_findings": "Left ear: Normal at slow and high repetition rates. Right ear: Normal latencies at slow rate (15.7/sec) but poor Wave V morphology. At high repetition rate (65.7/sec), Wave V disappeared completely.",
+          "numeric_results": {
+            "Stimulus Level": "80 dB nHL",
+            "Left Ear Rate Effect": "Normal morphology maintained at 65.7 clicks/sec",
+            "Right Ear Rate Effect": "Wave V absent at 65.7 clicks/sec"
+          }
+        },
+        {
+          "name": "Middle Latency Response (MLR)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-17"
+          ],
+          "key_findings": "Right ear stimulation resulted in a meager Pa response at all electrode sites. Left ear stimulation yielded a strong Na-Pa complex.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry (Dichotic)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Dichotic digit results were normal for both ears. Dichotic CV scores were borderline abnormal for the left ear.",
+          "numeric_results": {}
+        },
+        {
+          "name": "MRI",
+          "timepoint_label": "Follow-up",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-18"
+          ],
+          "key_findings": "Discrete and asymmetrical high intensity lesions in periventricular white matter. Increased signals bilaterally (Left > Right). Plaques evident in the brainstem.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Visual Evoked Responses",
+          "timepoint_label": "Later Follow-up",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Definite delays of P2 latency for the right side, consistent with intrinsic lesion of anterior visual pathway.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity but significant central auditory nervous system findings consistent with Multiple Sclerosis. While standard ABR latencies were normal, high-repetition rate ABR revealed a complete disappearance of Wave V in the right ear, indicating neural transmission fatigue/inefficiency. MLR was abnormal with right ear stimulation. These auditory findings correlate with the right-sided facial numbness and MRI findings of brainstem plaques and periventricular lesions.",
+  "counseling_points": [
+    "Explain that hearing sensitivity (ability to hear beeps) is normal, but the pathways carrying sound to the brain are showing signs of stress, specifically on the right side.",
+    "Discuss the correlation between the 'spaciness'/balance issues and the central nervous system findings.",
+    "Review the impact of Multiple Sclerosis on the auditory system, noting that symptoms can fluctuate.",
+    "Highlight the importance of the high-rate ABR test in detecting the problem, as standard tests appeared normal.",
+    "Recommend continued monitoring of auditory and vestibular function."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated by previous 'normal' test results despite feeling persistently unwell.",
+    "Emphasize the sensation of 'spaciness' rather than spinning vertigo.",
+    "Mention the family history of MS with anxiety/concern, as your mother was diagnosed young.",
+    "When describing the headaches, localize them to the right side and mention the neck pain."
+  ]
+}

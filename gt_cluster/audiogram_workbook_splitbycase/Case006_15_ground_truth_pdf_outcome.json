@@ -1,0 +1,87 @@
+{
+  "case_id": "Case006_15",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Conductive/Mixed Hearing Loss (Left Ear)",
+      "rationale_short": "History of left stapedectomy 10 years ago with prosthesis extrusion; audiogram reveals conductive/mixed loss with significant air-bone gaps."
+    },
+    {
+      "rank": 2,
+      "label": "Tinnitus (Left Ear)",
+      "rationale_short": "Patient reports constant low-level ringing in the left ear starting immediately after surgery."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and air-bone gaps given the history of stapedectomy."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status (though not measured at this appointment)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear demonstrates normal hearing sensitivity. The left ear exhibits a moderate rising to mild conductive hearing loss in the low frequencies, transitioning to a mixed loss in the mid-to-high frequencies, with significant air-bone gaps. Speech audiometry is consistent with pure-tone findings, showing excellent word recognition bilaterally. Results are consistent with the history of unsuccessful stapedectomy and prosthesis extrusion.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal hearing (0-10 dB HL). Left ear: Moderate rising to mild conductive loss (250-500 Hz), slight mixed loss (750-2000 Hz), sloping to mild-to-moderately severe (3000-6000 Hz). Significant air-bone gaps present."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 3 dB, WRS 96%. Left ear: SRT 27 dB, WRS 92%. Consistent with pure-tone averages."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not measured at this appointment."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue using amplification in the left ear.",
+      "Use hearing protection as needed.",
+      "Annual audiological testing."
+    ],
+    "counseling_actions": [
+      "Discuss the stability of hearing sensitivity over the past 10 years.",
+      "Explain the conductive and mixed nature of the hearing loss related to the surgical history.",
+      "Counsel on the importance of hearing protection to preserve remaining hearing."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient followed up with an otologist as scheduled."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annually",
+    "objective": "Monitor stability of hearing sensitivity."
+  },
+  "expected_outcome": [
+    "Patient followed up with an otologist as scheduled.",
+    "Recommendations were to return annually for testing to monitor stability of hearing sensitivity.",
+    "Advised to continue using amplification.",
+    "Advised to use hearing protection as needed."
+  ]
+}

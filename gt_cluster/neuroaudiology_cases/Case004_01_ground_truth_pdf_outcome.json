@@ -1,0 +1,104 @@
+{
+  "case_id": "Case004_01",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acoustic tumor (Vestibular Schwannoma)",
+      "rationale_short": "Unilateral progressive hearing loss, tinnitus, imbalance, disproportionately poor speech recognition, absent ABR, and CT confirmation of a mass in the IAM/CPA."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities and check for retrocochlear signs (rollover or disproportionately poor scores)."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc for signs of retrocochlear pathology."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To assess neural integrity and screen for retrocochlear pathology given the asymmetric loss."
+      },
+      {
+        "action": "CT Scan",
+        "urgency": "soon",
+        "rationale_short": "To visualize the internal auditory meatus and cerebellopontine angle for structural lesions."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a classic retrocochlear profile on the right side. Audiometry reveals a moderate-to-severe SNHL in the right ear with disproportionately poor speech recognition (0% / CNT). Acoustic reflexes are elevated or absent with right ear stimulation, and ABR shows no repeatable waves on the right despite high intensity stimulation. Imaging confirmed a mass filling the right IAM and extending into the CPA.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: moderate to severe SNHL (approx. 45-75 dB HL). Left ear: mild to severe SNHL commencing at 2000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: CNT (0% recognition); could not recognize monosyllabic words. Left ear: 88% recognition."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Left ear stimulation: normal. Right ear stimulation: elevated at 500 and 1000 Hz, absent at 2000 Hz."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear: no repeatable tracings at high intensities (80-90 dB nHL). Left ear: normal absolute latencies for waves III and V."
+          },
+          {
+            "name": "CT Scan",
+            "category": "Imaging",
+            "result_summary": "Mass filling the Internal Auditory Meatus (IAM) and extending approximately 1.5 cm into the Cerebellopontine Angle (CPA)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical removal of the tumor"
+    ],
+    "counseling_actions": [
+      "Explain the discrepancy between pure tone thresholds and speech recognition (retrocochlear pathology)",
+      "Discuss ABR and acoustic reflex results indicating neural involvement",
+      "Review radiological findings confirming the presence of an acoustic tumor",
+      "Discuss referral to Otolaryngology/Neurosurgery for management"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral progressive hearing loss",
+      "Unilateral tinnitus",
+      "Momentary imbalance",
+      "Disproportionately poor speech recognition"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Otolaryngology/Neurosurgery",
+      "rationale_short": "Confirmed acoustic tumor requiring surgical intervention."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-surgery",
+    "objective": "Monitor recovery and assess post-operative hearing status."
+  },
+  "expected_outcome": [
+    "At surgery, the tumor was found to fill most of the IAM and extended approximately 1.5 cm into the CPA.",
+    "The tumor was removed successfully."
+  ]
+}

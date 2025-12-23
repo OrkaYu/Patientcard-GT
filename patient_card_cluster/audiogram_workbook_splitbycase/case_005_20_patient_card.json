@@ -1,0 +1,127 @@
+{
+  "case_id": "case_5_20",
+  "title": "Progressive Bilateral Sensorineural Hearing Loss with History of Trauma",
+  "demographics": {
+    "age_years": 61,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've had hearing loss for several years and it seems to be getting worse. My hearing aids are over 10 years old. I do okay talking one-on-one in quiet places, so I try to conduct my business meetings in quiet areas.",
+  "problem_summary": {
+    "onset": "Long-standing, several years duration.",
+    "course": "Progressive.",
+    "laterality": "Bilateral, asymmetric (Right worse than Left).",
+    "associated_symptoms": "History of trauma to the right ear (water skiing fall).",
+    "functional_impact": "Able to converse one-on-one in quiet; restricts business activities to quiet environments to compensate.",
+    "goals_motivation": "Seeking evaluation; currently wears BTE aids >10 years old."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-07-25",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports long-standing, progressive bilateral hearing loss.",
+        "otologic_history": "Attributed to family history and trauma to the right ear (fall while water skiing). No other otologic symptoms reported.",
+        "noise_exposure_history": "Not significantly noted, other than trauma event.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Wears bilateral BTE hearing aids (>10 years old).",
+        "patient_goals": "Conducts business in quiet areas; looking to assess current status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.20"
+          ],
+          "key_findings": "Right ear shows severe sloping to profound sensorineural hearing loss (SNHL). Left ear shows moderate sloping to severe (250-1500 Hz) then profound (2000-8000 Hz) SNHL. No measurable responses at 6-8 kHz bilaterally. Right ear BC thresholds at 250-1000 Hz noted as vibrotactile.",
+          "numeric_results": {
+            "Right_PTA": "105 dB HL",
+            "Left_PTA": "82 dB HL",
+            "Right_Configuration": "Severe sloping to profound",
+            "Left_Configuration": "Moderate sloping to profound"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.20"
+          ],
+          "key_findings": "Right ear speech discrimination could not be tested (CNT) due to severity; only a Speech Awareness Threshold (SAT) was obtained. Left ear showed very poor word recognition ability.",
+          "numeric_results": {
+            "Right_SAT": "95 dB HL",
+            "Right_WRS": "CNT",
+            "Left_SRT": "70 dB HL",
+            "Left_WRS": "16% at 105 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.20"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Right_Vol": "2.0 mL",
+            "Right_Peak_Pressure": "5 daPa",
+            "Left_Vol": "1.1 mL",
+            "Left_Peak_Pressure": "10 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.20"
+          ],
+          "key_findings": "Right ipsilateral and contralateral reflexes absent/artifact. Left ipsilateral present at 500 Hz only; absent 1000-4000 Hz. Left contralateral absent.",
+          "numeric_results": {
+            "Left_Ipsi_500Hz": "100 dB HL (Present)",
+            "Others": "Absent or Artifact"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a progressive, bilateral, asymmetric sensorineural hearing loss, significantly worse in the right ear (severe-to-profound) compared to the left (moderate-to-profound). Speech understanding is critically compromised; the right ear has no measurable word recognition (only awareness), and the left ear has very poor recognition (16%). Middle ear function is normal, but the severity of the loss precludes most acoustic reflex responses.",
+  "counseling_points": [
+    "Your hearing loss is severe to profound, particularly in the right ear where speech clarity is extremely limited.",
+    "Because your word recognition score in the better ear is very low (16%), traditional hearing aids may provide volume but might not provide enough clarity for speech understanding.",
+    "We should discuss a Cochlear Implant evaluation as a potential option given the severity of the loss and poor speech scores.",
+    "If proceeding with hearing aids, assistive devices like a captioned telephone and using visual cues are essential for communication.",
+    "Since you own a business, continue utilizing quiet environments for meetings, as background noise will make communication nearly impossible."
+  ],
+  "notes_for_actor": [
+    "You are a business owner who is used to being in control. You have adapted to your hearing loss by strictly controlling your environment (only meeting in quiet places).",
+    "You are likely frustrated that your 10-year-old hearing aids aren't working, but you might be hesitant about surgery (Cochlear Implant) initially.",
+    "You rely heavily on the 'better' ear (left), but even that one is struggling significantly now."
+  ]
+}

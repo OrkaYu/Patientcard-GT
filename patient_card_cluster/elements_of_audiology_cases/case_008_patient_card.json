@@ -1,0 +1,153 @@
+{
+  "case_id": "elements_case_08",
+  "title": "19-Year-Old Student with Longstanding Sensorineural Hearing Loss",
+  "demographics": {
+    "age_years": 19,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have difficulty hearing and understanding speech, which seems harder for me than hearing environmental sounds. I've had this problem as long as I can remember.",
+  "problem_summary": {
+    "onset": "Congenital or early childhood (as long as she can remember).",
+    "course": "Stable; patient does not believe it is getting worse.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Loud speech production, monotonous vocal tone, distortion of sibilant sounds.",
+    "functional_impact": "Academic difficulty increased upon entering college despite good grades in high school.",
+    "goals_motivation": "Seeking help due to increased difficulty with schoolwork in college."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "19-year-old college student reports longstanding hearing loss. Finds speech understanding difficult. Feels school is becoming harder due to hearing.",
+        "otologic_history": "No history of ear infections. Never wore hearing aids.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "No known family members with hearing loss.",
+        "prior_management": "None.",
+        "patient_goals": "Diagnosis and management of hearing difficulty affecting college performance."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Audiogram Graph",
+            "Diagnosis Section"
+          ],
+          "key_findings": "Bilateral, symmetrical, sloping sensorineural hearing loss. Thresholds range from mild in the low frequencies to moderately-severe in the highs.",
+          "numeric_results": {
+            "Right_250Hz": "30 dB HL",
+            "Right_500Hz": "40 dB HL",
+            "Right_1000Hz": "50 dB HL",
+            "Right_2000Hz": "55 dB HL",
+            "Right_4000Hz": "60 dB HL",
+            "Right_8000Hz": "70 dB HL",
+            "Left_250Hz": "30 dB HL",
+            "Left_500Hz": "40 dB HL",
+            "Left_1000Hz": "45 dB HL",
+            "Left_2000Hz": "55 dB HL",
+            "Left_4000Hz": "65 dB HL",
+            "Left_8000Hz": "65 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "SRTs agree with pure-tone averages. Word recognition scores are good but slightly reduced, consistent with cochlear loss.",
+          "numeric_results": {
+            "SRT_Right": "45 dB HL",
+            "SRT_Left": "40 dB HL",
+            "SRS_Right": "86%",
+            "SRS_Left": "82%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanogram Graph",
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Static_Compliance_Right": "0.80 cc",
+            "Static_Compliance_Left": "0.78 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Present but at low sensation levels (recruitment).",
+          "numeric_results": {
+            "ART_Ipsi_Right": "90 dB HL",
+            "ART_Ipsi_Left": "95 dB HL",
+            "ART_Contra_Right": "90 dB HL",
+            "ART_Contra_Left": "90 dB HL"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "ABR: All waves prolonged, normal interpeak latencies, steep latency-intensity function. TEOAE: Absent. Tone Decay: Minimal/Negative.",
+          "numeric_results": {
+            "TEOAE": "Absent bilaterally",
+            "Tone_Decay_4kHz_Right": "10 dB in 60s",
+            "Tone_Decay_4kHz_Left": "15 dB in 60s"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, symmetrical, sloping mild-to-moderately-severe sensorineural hearing loss. Speech recognition is good (82-86%) but slightly reduced. Ancillary testing (low sensation level reflexes, steep ABR latency-intensity function, absent OAEs) is consistent with a cochlear site of lesion.",
+  "counseling_points": [
+    "Your hearing test shows a permanent hearing loss in both ears that affects your ability to hear high-pitched sounds and speech clarity.",
+    "The results suggest the problem is in the inner ear (cochlea), likely something you have had for a long time.",
+    "I recommend a hearing aid evaluation to help you hear speech more clearly in your college classes.",
+    "We should also arrange a medical consultation to ensure there are no other medical issues and to discuss genetic counseling if you are interested."
+  ],
+  "notes_for_actor": [
+    "Speak rather loudly.",
+    "Use a monotonous vocal tone.",
+    "Introduce some distortion when producing sibilant sounds (like 's' or 'sh').",
+    "Portray a student who is academically capable but frustrated by the increased listening effort in college."
+  ]
+}

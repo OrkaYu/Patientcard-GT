@@ -1,0 +1,156 @@
+{
+  "case_id": "Case018",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Noise-Induced Hearing Loss (NIHL)",
+      "rationale_short": "History of noise exposure (Zumba instructor, headphones), 6 kHz notch in left ear, and reduced DPOAE amplitudes in high frequencies."
+    },
+    {
+      "rank": 2,
+      "label": "Retrocochlear pathology",
+      "rationale_short": "Asymmetric hearing loss (left ear notch) warrants exclusion of retrocochlear etiology, though ABR was subsequently normal."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and identify any threshold shifts or notches."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess word recognition abilities in quiet."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc and check for retrocochlear signs."
+      },
+      {
+        "action": "Otoacoustic emissions (DPOAEs and TOAEs)",
+        "urgency": "routine",
+        "rationale_short": "To detect subtle outer hair cell dysfunction not yet visible on the audiogram."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To assess cochlear nerve integrity and rule out retrocochlear pathology given the asymmetry."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up to monitor for threshold changes."
+      },
+      {
+        "action": "Otoacoustic emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "Follow-up to monitor outer hair cell function."
+      },
+      {
+        "action": "Questionnaire (KAB)",
+        "urgency": "routine",
+        "rationale_short": "To assess Knowledge, Attitudes, and Behavior regarding hearing conservation."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with normal hearing sensitivity bilaterally except for a distinct 30 dB notch at 6000 Hz in the left ear, consistent with noise exposure. DPOAEs reveal reduced amplitudes in the high frequencies, particularly in the left ear, suggesting early outer hair cell dysfunction. ABR results were normal, ruling out retrocochlear pathology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal thresholds (≤ 15 dB HL) bilaterally except for a 30 dB HL notch at 6000 Hz in the left ear."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word Recognition Scores (WRS) were 100% at 40 dB HL in both ears."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A tympanograms bilaterally with normal ear canal volume and pressure."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral reflexes within normal limits for 500-4000 Hz bilaterally."
+          },
+          {
+            "name": "Otoacoustic emissions (DPOAEs and TOAEs)",
+            "category": "Electrophysiology",
+            "result_summary": "TOAEs normal. DPOAEs showed reduced amplitude/absence between 4750-6500 Hz in the left ear and some high-frequency reduction in the right ear."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Normal absolute and interpeak latencies for Waves I, III, and V, ruling out retrocochlear pathology."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up assessment showed stable hearing thresholds and persistent DPOAE deficits. The KAB questionnaire indicated that while the patient has a positive attitude toward hearing, she has negative self-efficacy regarding the use of hearing protection.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "No change in hearing thresholds compared to the previous visit."
+          },
+          {
+            "name": "Otoacoustic emissions (DPOAEs)",
+            "category": "Electrophysiology",
+            "result_summary": "Similar pattern of low response amplitude across selected frequencies observed in both ears."
+          },
+          {
+            "name": "Questionnaire (KAB)",
+            "category": "Self-Report",
+            "result_summary": "Knowledge score 56.3% (average), Attitude positive, Self-efficacy -12.5 (negative)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Use of high-fidelity 'musician's earplugs' to reduce volume without muffling sound",
+      "Periodic measurement of noise levels in the fitness room",
+      "Optimization of loudspeaker location and distance from instructor",
+      "Regular hearing monitoring (audiometry and DPOAEs)"
+    ],
+    "counseling_actions": [
+      "Explain the 6 kHz notch as an early sign of permanent noise damage",
+      "Discuss tinnitus ('buzzing') as a warning sign of auditory overexposure",
+      "Address barriers to hearing protection use (e.g., comfort, appearance)",
+      "Educate on the risk of noise-induced hearing loss from fitness classes"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss (left ear notch)"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology Clinic",
+      "rationale_short": "ABR ruled out retrocochlear pathology; routine monitoring of noise-induced hearing loss is indicated."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "6 months (Second Visit performed)",
+    "objective": "Monitor hearing thresholds, DPOAE status, and assess attitudes toward hearing protection."
+  },
+  "expected_outcome": [
+    "Pure-tone audiometry: No change in hearing thresholds for the audiometric frequencies in both ears between visits.",
+    "DPOAEs: Repeated testing showed a similar pattern with low response amplitude across selected frequencies in both ears.",
+    "KAB Questionnaire: Scores indicated average knowledge (56.3%) and positive attitude, but negative self-efficacy (-12.5), suggesting the patient is unlikely to make lifestyle changes to protect hearing."
+  ]
+}

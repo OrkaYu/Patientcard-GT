@@ -1,0 +1,153 @@
+{
+  "case_id": "case_8_7",
+  "title": "Traumatic Aneurysm of the Pericallosal Artery in a Sound Engineer",
+  "demographics": {
+    "age_years": 23,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I was in a car accident and had head trauma. While I've recovered well physically, I'm noticing some mild problems with concentration and processing two things at once, which concerns me given my work in a recording studio.",
+  "problem_summary": {
+    "onset": "Sudden onset following a motor vehicle accident.",
+    "course": "Acute trauma followed by surgical clipping of aneurysm; good physical recovery but persistent central auditory and cognitive deficits.",
+    "laterality": "Bilateral deficits in temporal processing; Left ear deficits in dichotic listening.",
+    "associated_symptoms": "Mild cognitive problems (simultaneous processing, categorical reasoning, attention/concentration), somatic extinction in the left hand.",
+    "functional_impact": "Potential difficulty with complex auditory tasks required for sound engineering, specifically involving interhemispheric transfer and temporal ordering.",
+    "goals_motivation": "Return to high-level functioning as a sound engineer."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic / Research Center",
+      "history": {
+        "present_illness": "Patient was involved in a motor vehicle accident resulting in head trauma and a traumatic aneurysm of the pericallosal artery with bleeding into the corpus callosum and right ventricular area. The aneurysm was surgically clipped.",
+        "otologic_history": "None stated prior to accident.",
+        "noise_exposure_history": "Occupational exposure as a sound engineer.",
+        "medical_psych_history": "Neuropsychological testing post-hospital release showed mild cognitive problems affecting simultaneous processing, categorical reasoning, and attention. Somatic extinction for naming objects in the left hand.",
+        "prior_management": "Surgical clipping of aneurysm.",
+        "patient_goals": "Assessment of auditory function post-trauma."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "1 month post-accident",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing sensitivity is within normal limits for frequencies 500-4000 Hz.",
+          "numeric_results": {
+            "Range (500-4000 Hz)": "Within normal limits bilaterally"
+          }
+        },
+        {
+          "name": "Speech audiometry (Monaural)",
+          "timepoint_label": "1 month post-accident",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-21"
+          ],
+          "key_findings": "Excellent recognition of single CVs when presented monaurally.",
+          "numeric_results": {
+            "Single CVs": "100% bilaterally"
+          }
+        },
+        {
+          "name": "Dichotic Rhyme Test",
+          "timepoint_label": "1 month post-accident",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-21"
+          ],
+          "key_findings": "Significant left ear suppression (left ear extinction effect). Right ear score was above the normal range.",
+          "numeric_results": {
+            "Left Ear": "~12%",
+            "Right Ear": "~90%"
+          }
+        },
+        {
+          "name": "Dichotic CVs",
+          "timepoint_label": "1 month post-accident",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-21"
+          ],
+          "key_findings": "Complete left ear suppression. Right ear performance was normal.",
+          "numeric_results": {
+            "Left Ear": "0%",
+            "Right Ear": "100%"
+          }
+        },
+        {
+          "name": "Dichotic Digits",
+          "timepoint_label": "1 month post-accident",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-21"
+          ],
+          "key_findings": "Left ear score depressed but significantly better than CVs or Rhyme test. Right ear normal. The reduced suppression for digits may be due to posterior transfer pathways or cross-cueing.",
+          "numeric_results": {
+            "Left Ear": "~80%",
+            "Right Ear": "~95%"
+          }
+        },
+        {
+          "name": "Duration Patterns",
+          "timepoint_label": "1 month post-accident",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-21"
+          ],
+          "key_findings": "Abnormal performance bilaterally, indicating deficits in temporal processing/interhemispheric transfer.",
+          "numeric_results": {
+            "Left Ear": "~45%",
+            "Right Ear": "~40%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity and excellent monaural speech recognition. However, central auditory processing evaluation reveals significant deficits consistent with corpus callosum involvement (posterior trunk). There is a classic 'left ear extinction' pattern on dichotic tasks (Rhyme and CVs), where the left ear signal is suppressed during dichotic competition, likely due to the inability of the right hemisphere signal to cross the damaged corpus callosum to the language-dominant left hemisphere. Duration patterns are abnormal bilaterally, reflecting a breakdown in interhemispheric transfer required for temporal sequencing. Interestingly, Dichotic Digits showed less suppression than other linguistic stimuli.",
+  "counseling_points": [
+    "Explain that the 'hearing' organ (cochlea) is working perfectly, but the pathways connecting the two sides of the brain (corpus callosum) were damaged.",
+    "Discuss the 'Left Ear Extinction' phenomenon: in quiet, the left ear works fine, but when there is competing noise or speech in the right ear, the left ear's input gets blocked.",
+    "Highlight the difficulty with temporal patterning (Duration Patterns), which is crucial for a sound engineer (rhythm, timing, sequencing).",
+    "Recommend compensatory strategies: direct important conversation to the right ear, avoid high-interference environments when critical listening is required.",
+    "Discuss that while medical recovery was good, these specific auditory processing issues are expected sequelae of the specific brain lesion location."
+  ],
+  "notes_for_actor": [
+    "You are a 23-year-old sound engineer. You are articulate and intelligent but frustrated by subtle difficulties in your work.",
+    "You hear simple tones and words clearly in quiet environments.",
+    "Your main struggle is in complex listening environments or when trying to process timing/rhythm, which used to be second nature to you.",
+    "You may mention that your left hand sometimes feels disconnected when trying to name objects you are holding (somatic extinction), though your vision is fine."
+  ]
+}

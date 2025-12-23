@@ -1,0 +1,94 @@
+{
+  "case_id": "Case005_20",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Sensorineural Hearing Loss",
+      "rationale_short": "Audiometry reveals severe-to-profound loss in the right ear and moderate-to-profound loss in the left ear, consistent with history of trauma and family history."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, configuration, and type of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech detection and recognition abilities, particularly given the reported difficulty."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and check for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with progressive, bilateral, asymmetric sensorineural hearing loss, significantly worse in the right ear (severe-to-profound) compared to the left (moderate-to-profound). Speech understanding is critically compromised, with no measurable word recognition in the right ear and very poor recognition (16%) in the left. Middle ear function is normal, but acoustic reflexes are largely absent due to the severity of the hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Severe sloping to profound SNHL (PTA 105 dB HL). Left ear: Moderate sloping to profound SNHL (PTA 82 dB HL). No measurable responses at 6-8 kHz bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SAT 95 dB HL, WRS CNT. Left ear: SRT 70 dB HL, WRS 16% (very poor)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral/contralateral absent/artifact. Left ipsilateral present at 500 Hz (100 dB HL), absent 1000-4000 Hz. Left contralateral absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Cochlear implant evaluation",
+      "New hearing aids with remote control",
+      "Telecoil for telephone use",
+      "Captioned telephone"
+    ],
+    "counseling_actions": [
+      "Discuss cochlear implant evaluation due to severity of loss and poor speech scores",
+      "Counsel on limitations of traditional hearing aids given very poor word recognition (16%)",
+      "Advise on using visual cues and quiet environments for communication"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Cochlear Implant Center",
+      "rationale_short": "Recommended for cochlear implant evaluation due to severe-to-profound loss and poor speech recognition, though patient initially declined."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Monitor performance with new hearing aids and reconsider cochlear implant if patient becomes interested."
+  },
+  "expected_outcome": [
+    "Patient declined cochlear implant evaluation at the time of consultation.",
+    "Obtained new hearing aids with a remote control.",
+    "Patient reported doing well with the new hearing aids and hearing more soft sounds.",
+    "Used a telecoil to communicate on the telephone.",
+    "Obtained a captioned telephone."
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "case_id": "case_6_26",
+  "title": "Case 26: Unilateral Conductive Hearing Loss (Otosclerosis)",
+  "demographics": {
+    "age_years": 33,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I've noticed a slight decrease in my hearing over the last few years. I also have some intermittent ringing and a feeling of fullness in my left ear.",
+  "problem_summary": {
+    "onset": "Gradual onset over the last few years.",
+    "course": "Progressive.",
+    "laterality": "Left ear.",
+    "associated_symptoms": "Intermittent tinnitus and a slight sensation of aural fullness in the left ear.",
+    "functional_impact": "Slight decrease in hearing perception.",
+    "goals_motivation": "Evaluation of hearing status and symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-08-07",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a slight decrease in hearing in the left ear over the last few years, accompanied by intermittent tinnitus and a sensation of fullness.",
+        "otologic_history": "No other otologic symptoms reported.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Family history of hearing loss; mother acquired hearing loss in her early forties.",
+        "prior_management": "None reported prior to this evaluation.",
+        "patient_goals": "Diagnosis and management options."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.26"
+          ],
+          "key_findings": "Right ear thresholds are within normal limits (0-10 dB HL). Left ear shows a mild rising to slight conductive hearing loss in the low frequencies (250-1000 Hz), recovering to normal sensitivity in the high frequencies (2000-8000 Hz). Significant air-bone gaps present at 250, 500, and 1000 Hz in the left ear.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "LE_AC_Thresholds": "250Hz: 35, 500Hz: 35, 1000Hz: 25, 2000Hz: 15, 4000Hz: 10 dB HL",
+            "LE_BC_Thresholds": "250Hz: 0, 500Hz: 5, 1000Hz: 5, 2000Hz: 10, 4000Hz: 0 dB HL",
+            "LE_Air_Bone_Gap": "~30-35 dB at 250-500 Hz, closing at 2000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.26 (Table)"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) are consistent with pure-tone averages. Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "12 dB HL",
+            "RE_WRS": "100% at 50 dB HL",
+            "LE_SRT": "23 dB HL",
+            "LE_WRS": "96% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.26 (Table)"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally, indicating normal middle ear pressure and mobility, although left ear admittance is slightly lower than right.",
+          "numeric_results": {
+            "RE_Peak_Pressure": "10 daPa",
+            "RE_Static_Admittance": "0.6 mL",
+            "RE_Canal_Volume": "1.2 mL",
+            "LE_Peak_Pressure": "0 daPa",
+            "LE_Static_Admittance": "0.5 mL",
+            "LE_Canal_Volume": "1.5 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.26 (Table)"
+          ],
+          "key_findings": "Right ipsilateral reflexes are present. Left ipsilateral and reflexes measured in the left ear (Right Contra) are absent. Left contralateral reflexes (Stim Left/Meas Right) are present but elevated/borderline. This pattern is consistent with a conductive pathology in the left ear (probe effect).",
+          "numeric_results": {
+            "Right_Ipsi": "85, 90, 85, 95 dB HL",
+            "Left_Ipsi": "Absent (ABS)",
+            "Right_Contra_StimRT_MeasLT": "Absent (ABS)",
+            "Left_Contra_StimLT_MeasRT": "100, 100, 100, 105 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a mild, low-frequency conductive hearing loss in the left ear. Speech understanding is excellent in both ears. Tympanometry is normal (Type A), but acoustic reflexes are absent when the probe is in the left ear, consistent with increased stiffness of the ossicular chain (otosclerosis).",
+  "counseling_points": [
+    "Your hearing test shows a mild conductive hearing loss in your left ear, meaning sound is not being conducted efficiently to the inner ear.",
+    "The pattern of your hearing loss, combined with your family history and the specific reflex test results, strongly suggests otosclerosis (a hardening of the ear bones).",
+    "A CT scan has confirmed otosclerosis in your left ear.",
+    "We will monitor your hearing annually to check for progression.",
+    "Surgical intervention (stapedectomy) is an option to improve hearing, though your current loss is mild.",
+    "It is important to use hearing protection in noisy environments to preserve your remaining hearing."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is not severely struggling but has noticed a definite change in one ear.",
+    "Mention your mother's hearing loss casually when asked about family history—this is a key diagnostic clue.",
+    "Emphasize the 'fullness' sensation in the left ear."
+  ]
+}

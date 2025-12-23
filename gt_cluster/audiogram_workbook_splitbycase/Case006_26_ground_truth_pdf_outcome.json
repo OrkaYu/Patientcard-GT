@@ -1,0 +1,93 @@
+{
+  "case_id": "Case006_26",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otosclerosis (Left Ear)",
+      "rationale_short": "Unilateral low-frequency conductive hearing loss, normal tympanogram (Type A), absent acoustic reflexes with probe in the left ear, family history of hearing loss, and CT confirmation."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and determine type/degree of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear pressure and mobility."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and aid in differential diagnosis of conductive pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with normal hearing in the right ear and a mild rising to slight conductive hearing loss in the left ear, characterized by air-bone gaps in the low frequencies. Speech recognition is excellent bilaterally. Tympanometry is normal (Type A) in both ears. Acoustic reflexes are absent whenever the probe is in the left ear (left ipsilateral and right contralateral), consistent with ossicular stiffness typical of otosclerosis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiogram",
+            "result_summary": "Right ear normal (0-10 dB HL). Left ear mild rising to slight conductive hearing loss (250-1000 Hz) with air-bone gaps of ~30-35 dB, recovering to normal sensitivity above 2000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "Right ear SRT 12 dB HL, WRS 100%. Left ear SRT 23 dB HL, WRS 96%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral present. Left ipsilateral absent. Right contralateral (measured left) absent. Left contralateral (measured right) present but elevated (100-105 dB HL)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Annual hearing tests to monitor progression",
+      "Hearing protection in noisy environments",
+      "Consideration of surgical intervention (stapedectomy) in the future"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of otosclerosis and its conductive nature",
+      "Discuss management options including monitoring versus surgery",
+      "Counsel on the importance of hearing protection to preserve cochlear function"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral conductive hearing loss"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Referral for medical evaluation of unilateral conductive hearing loss and confirmation of otosclerosis via imaging."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor for progression of conductive hearing loss or cochlear involvement."
+  },
+  "expected_outcome": [
+    "CT scan revealed otosclerosis in the left ear.",
+    "Progression of otosclerosis will be monitored annually.",
+    "Surgery may be an option in the future."
+  ]
+}

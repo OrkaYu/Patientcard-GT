@@ -1,0 +1,130 @@
+{
+  "case_id": "Case004_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Neurofibromatosis Type 2 (NF2)",
+      "rationale_short": "Presence of multiple tumors (CPA and parietal lobe) in a young patient without family history; confirmed by subsequent development of contralateral tumor."
+    },
+    {
+      "rank": 2,
+      "label": "Vestibular Schwannoma (Acoustic Neuroma)",
+      "rationale_short": "Large 4-5 cm mass in the right CPA causing retrocochlear audiometric signs (poor speech recognition, absent reflexes, abnormal ABR)."
+    },
+    {
+      "rank": 3,
+      "label": "Meningioma",
+      "rationale_short": "The second tumor found in the superior parietal lobe was thought to be a meningioma."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration given the complaint of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech understanding and check for retrocochlear signs like disproportionately poor scores."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To test the reflex arc; absence or decay can indicate retrocochlear pathology."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To assess neural integrity and screen for retrocochlear lesions."
+      },
+      {
+        "action": "MRI",
+        "urgency": "urgent",
+        "rationale_short": "To visualize the CPA and brain structures due to retrocochlear indicators."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with right-sided sensorineural hearing loss with a distinct notch at 2000 Hz. Speech recognition is disproportionately poor (14%), strongly suggesting retrocochlear pathology. This is supported by absent acoustic reflexes on the right and an abnormal ABR (poor Wave V on the right, extended Wave V on the left suggesting brainstem compression). MRI confirms a large right CPA mass and a second parietal lobe mass, leading to a diagnosis of Neurofibromatosis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear normal. Right ear sensorineural loss with a sharp dip to ~80 dB HL at 2000 Hz, rising to normal at 6000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear 100%. Right ear 14% at 50 dB SL, which is disproportionately poor relative to the pure tone thresholds."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal for left ear stimulation. Absent for right ear stimulation (ipsilateral and contralateral) at 500-4000 Hz."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear: Readable Wave I, poorly defined/questionable Wave V at ~7.4 msec. Left ear: Normal I-IV, Wave V extended (6.12 msec). Wave I amplitude larger than IV-V complex bilaterally."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "4-5 cm mass in the right CPA compressing the brainstem; second mass in the superior parietal lobe."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical removal of the CPA and parietal lobe tumors",
+      "Genetic counseling for Neurofibromatosis",
+      "Monitoring of the contralateral ear"
+    ],
+    "counseling_actions": [
+      "Explain the discrepancy between pure tone thresholds and poor speech recognition as a sign of nerve involvement",
+      "Discuss MRI findings showing the CPA mass and secondary brain mass",
+      "Discuss the diagnosis of Neurofibromatosis and the need for genetic counseling despite lack of family history",
+      "Prepare the patient for the likelihood of total hearing loss in the right ear following surgery"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral sensorineural hearing loss",
+      "Disproportionately poor speech recognition",
+      "Unilateral tinnitus",
+      "Vertigo",
+      "Absent acoustic reflexes",
+      "Abnormal ABR",
+      "Mass on MRI"
+    ],
+    "escalation": {
+      "urgency": "discontinue and refer now",
+      "destination": "Neuro-otology/Neurosurgery",
+      "rationale_short": "Large CPA tumor compressing the brainstem and a second intracranial tumor requiring immediate surgical intervention."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Long-term",
+    "objective": "Monitor for recurrence, management of NF2, and surveillance of the remaining hearing ear."
+  },
+  "expected_outcome": [
+    "Patient underwent surgery for removal of the CPA and parietal lobe tumors.",
+    "Subsequently developed an acoustic tumor on the other side as well as other CNS tumors.",
+    "Currently being followed."
+  ]
+}

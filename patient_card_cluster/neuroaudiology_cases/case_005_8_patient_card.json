@@ -1,0 +1,171 @@
+{
+  "case_id": "case_5_8",
+  "title": "Brainstem Compression via Tortuous Vertebral Artery",
+  "demographics": {
+    "age_years": 61,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've had headaches and dizziness for 30 years, but about a year and a half ago I started getting spinning vertigo, ringing in my left ear, and a feeling of fullness.",
+  "problem_summary": {
+    "onset": "Chronic symptoms began 30 years ago; acute exacerbation with vertigo 1.5 years prior to evaluation.",
+    "course": "Chronic symptoms waxed and waned; recent vertigo episodes occurred weekly for several weeks before subsiding.",
+    "laterality": "Left ear specific symptoms (tinnitus, fullness); bilateral hearing loss.",
+    "associated_symptoms": "Frontal and temporo-parietal headaches, imbalance, whirling vertigo, left ear fullness, tinnitus.",
+    "functional_impact": "Headaches increased in intensity; instability continued.",
+    "goals_motivation": "Seeking explanation after numerous failed medical interventions and a diagnosis of Meniere's disease."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic / Neuroaudiology",
+      "history": {
+        "present_illness": "Patient reports a 30-year history of headaches and imbalance. 1.5 years ago, developed whirling vertigo, left ear fullness, and tinnitus. Episodes were weekly. Previously diagnosed with Meniere's disease.",
+        "otologic_history": "Recent diagnosis of Meniere's disease due to episodic vertigo and fullness.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Numerous medical interventions over 30 years with little relief.",
+        "prior_management": "Medical consultation sought for many years.",
+        "patient_goals": "Diagnosis and management of symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-27"
+          ],
+          "key_findings": "Mild to moderate high-frequency sensorineural hearing loss, bilaterally symmetrical.",
+          "numeric_results": {
+            "250_Hz": "~10 dB HL (RE/LE)",
+            "500_Hz": "~10 dB HL (RE/LE)",
+            "1000_Hz": "~20 dB HL (RE/LE)",
+            "2000_Hz": "~35 dB HL (RE/LE)",
+            "4000_Hz": "~55 dB HL (RE/LE)",
+            "8000_Hz": "~55 dB HL (RE/LE)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-27"
+          ],
+          "key_findings": "Excellent speech recognition bilaterally, though slightly poorer on the left.",
+          "numeric_results": {
+            "WRS_Right": "92%",
+            "WRS_Left": "80%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Contralateral reflexes present but elevated for left ear stimulation compared to right. Absent at 4000 Hz for left stimulation.",
+          "numeric_results": {
+            "Left_Ear_Stim_500Hz": "95 dB HL",
+            "Left_Ear_Stim_1000Hz": "100 dB HL",
+            "Left_Ear_Stim_2000Hz": "90 dB HL",
+            "Left_Ear_Stim_4000Hz": "Absent",
+            "Right_Ear_Stim_500Hz": "80 dB HL",
+            "Right_Ear_Stim_1000Hz": "80 dB HL",
+            "Right_Ear_Stim_2000Hz": "85 dB HL",
+            "Right_Ear_Stim_4000Hz": "95 dB HL"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-28"
+          ],
+          "key_findings": "Auditory Brainstem Response (ABR). Right ear normal. Left ear abnormal: only Wave V present with extended latency. Abnormal Interaural Latency Difference (ILD). Wave V lost at high repetition rate (80 dB nHL) in left ear.",
+          "numeric_results": {
+            "ILD": "0.4 msec (abnormal for left)",
+            "Left_Ear_Morphology": "Only Wave V present",
+            "Right_Ear_Morphology": "Normal absolute and interwave latencies"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Dichotic Digit Test. Performance revealed much poorer performance for the left ear.",
+          "numeric_results": {
+            "Right_Ear_Score": "85%",
+            "Left_Ear_Score": "42%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-29"
+          ],
+          "key_findings": "Radiologic Findings (Arteriogram and MRI). Large, tortuous vertebral vessel on the left side. MRI indicated the artery displaced the brainstem to the right.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with symmetrical mild-to-moderate high-frequency sensorineural hearing loss. However, retrocochlear testing reveals significant left-sided abnormalities. Acoustic reflexes are elevated/absent with left ear stimulation. ABR is grossly abnormal on the left (poor morphology, missing early waves, rate sensitivity) with an abnormal ILD. Dichotic listening is significantly degraded in the left ear. These findings, combined with the arteriogram showing a large tortuous vertebral artery displacing the brainstem, suggest left brainstem involvement (vascular loop compression) affecting the auditory pathway.",
+  "counseling_points": [
+    "Explain that while the hearing loss looks even on the graph, the 'stress tests' (ABR, reflexes, dichotic digits) show the left nerve/brainstem pathway is struggling.",
+    "Discuss the correlation between the dizziness/headaches and the vascular finding (vertebral artery loop) seen on imaging.",
+    "Clarify that the symptoms previously diagnosed as Meniere's are likely related to the vascular compression of the brainstem/nerve.",
+    "Refer to neurology/neurosurgery for management of the vascular compression."
+  ],
+  "notes_for_actor": [
+    "You have been dealing with these vague symptoms for 30 years and are likely frustrated by the lack of answers.",
+    "The recent vertigo was very scary and intense compared to your chronic dizziness.",
+    "You might be skeptical of new tests since previous medical interventions didn't help.",
+    "Emphasize the headaches—they are frontal and on the side of your head."
+  ]
+}

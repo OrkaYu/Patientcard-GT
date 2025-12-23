@@ -1,0 +1,125 @@
+{
+  "case_id": "case_6_19",
+  "title": "Chronic Otitis Media and Otorrhea with Conductive Hearing Loss",
+  "demographics": {
+    "age_years": 18,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have had multiple surgeries and infections in my left ear over the last few years. I have a hearing aid for that ear, but I can't wear it much because of the drainage. My right ear hears well.",
+  "problem_summary": {
+    "onset": "Chronic (last few years).",
+    "course": "Recurrent/Persistent.",
+    "laterality": "Left ear primarily; Right ear reported as normal.",
+    "associated_symptoms": "Otorrhea (drainage), inability to tolerate hearing aid mold.",
+    "functional_impact": "Cannot use current amplification due to active infection/drainage.",
+    "goals_motivation": "Resolve drainage and improve hearing in the left ear."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-05-20",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports multiple surgeries and infections in the left ear. Currently experiencing otorrhea.",
+        "otologic_history": "History of chronic otitis media and otosurgeries in the left ear.",
+        "noise_exposure_history": "Not explicitly stated, though right ear shows a notch at 6 kHz.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Uses a hearing aid in the left ear but usage is limited by otorrhea.",
+        "patient_goals": "Management of infection and hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.19"
+          ],
+          "key_findings": "Right ear: Slight/mild SNHL in lows, normal mids, slight high-frequency loss with a mild notch at 6 kHz. Left ear: Mild sloping to moderately severe conductive hearing loss with significant air-bone gaps.",
+          "numeric_results": {
+            "RE_PTA": "22 dB HL",
+            "LE_PTA": "43 dB HL",
+            "RE_6kHz_Notch": "~30 dB HL",
+            "LE_Air_Bone_Gap": "Significant (Bone thresholds ~0-10 dB, Air thresholds 30-60 dB)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.19"
+          ],
+          "key_findings": "SRT scores agree with PTA. Word recognition scores are excellent bilaterally, indicating normal cochlear function for speech discrimination despite the conductive loss in the left ear.",
+          "numeric_results": {
+            "RE_SRT": "22 dB",
+            "RE_WRS": "96% at 60 dB HL",
+            "LE_SRT": "45 dB",
+            "LE_WRS": "96% at 80 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.19"
+          ],
+          "key_findings": "Right ear normal (Type A). Left ear hypocompliant (Type As/B) consistent with middle ear pathology/scarring.",
+          "numeric_results": {
+            "RE_Static_Admittance": "1.2 mmho",
+            "RE_Pressure": "10 daPa",
+            "RE_Volume": "1.3 mL",
+            "LE_Static_Admittance": "0.2 mmho",
+            "LE_Pressure": "-20 daPa",
+            "LE_Volume": "1.4 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.19"
+          ],
+          "key_findings": "Right ipsilateral present/normal. All other conditions (Right Contra, Left Ipsi, Left Contra) absent, likely due to the conductive pathology in the left ear (probe effect and stimulus effect).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric hearing. The right ear exhibits a slight-to-mild sensorineural hearing loss with a specific notch at 6,000 Hz, but retains excellent speech understanding. The left ear demonstrates a mild sloping to moderately severe conductive hearing loss, consistent with the history of chronic otitis media and surgeries. Word recognition in the left ear remains excellent when sufficiently amplified, confirming the loss is primarily conductive (mechanical) rather than sensorineural.",
+  "counseling_points": [
+    "We are referring you to an ENT specialist immediately to manage the active drainage (otorrhea) in your left ear.",
+    "Your current hearing aid may be trapping moisture and bacteria, contributing to the persistent infection. It is advisable to stop wearing it until the infection clears.",
+    "Given your history of chronic drainage and conductive loss, a traditional hearing aid might not be the best long-term solution.",
+    "We should discuss a Bone Anchored Hearing Aid (BAHA). This device bypasses the ear canal entirely, sending sound through the bone, which would allow you to hear without blocking the ear canal and aggravating the infection."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated by the cycle of infection and inability to use their hearing aid.",
+    "You believe your right ear is perfect, even though testing shows slight hearing loss.",
+    "You are open to surgical options (BAHA) if it means stopping the infections and being able to hear on the left side again."
+  ]
+}

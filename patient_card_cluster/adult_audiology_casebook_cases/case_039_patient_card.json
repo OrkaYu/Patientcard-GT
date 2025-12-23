@@ -1,0 +1,171 @@
+{
+  "case_id": "case39_Hearing_Aid_Prescriptive_Methods_in_an_A",
+  "title": "Hearing Aid Prescriptive Methods in an Adult Patient",
+  "demographics": {
+    "age_years": 55,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am having difficulty understanding speech, especially in background noise and on the telephone. I feel like my hearing is getting progressively poorer.",
+  "problem_summary": {
+    "onset": "Long-term hearing aid user; recent progression noted.",
+    "course": "Progressive; significant decrease in sensitivity over the last 3 years.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Difficulty in noise, telephone difficulties.",
+    "functional_impact": "Significant communication deficits in noise and on the phone; current hearing aids feel insufficient.",
+    "goals_motivation": "Self-referred for reprogramming to improve speech understanding."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-07-21",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient self-referred for reprogramming due to perceived decline in hearing.",
+        "otologic_history": "Long-term hearing aid user. No abnormalities on recent MRI or otologic exam.",
+        "prior_management": "Hearing aids (current user).",
+        "medical_psych_history": "Referred to otologist due to asymmetric progression; MRI was normal."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 39.1"
+          ],
+          "key_findings": "Bilateral symmetrical mild to profound sensorineural hearing loss (250-8000 Hz). No measurable hearing at 6-8 kHz. Significant decrease at 2k Hz (Right) and 6-8k Hz (Both) compared to 3 years prior.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 45, 500Hz: 50, 1kHz: 55, 2kHz: 70, 4kHz: 85, 8kHz: NR",
+            "Left_AC_Thresholds": "250Hz: 40, 500Hz: 40, 1kHz: 45, 2kHz: 70, 4kHz: 85, 8kHz: NR"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 39.1"
+          ],
+          "key_findings": "SRTs agree with PTAs. Word Recognition Scores (WRS) are very poor at two input levels, suggesting significant retrocochlear or distortion issues (though MRI was normal).",
+          "numeric_results": {
+            "Right_SRT": "52 dB HL",
+            "Left_SRT": "55 dB HL",
+            "Right_WRS": "30% at 80 dB HL, 28% at 90 dB HL",
+            "Left_WRS": "36% at 80 dB HL, 24% at 95 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 39.1"
+          ],
+          "key_findings": "Normal middle ear pressure, volume, and admittance (Type A).",
+          "numeric_results": {
+            "Right_Volume": "1.2 mL",
+            "Left_Volume": "1.3 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present at 500-2000 Hz at reduced Sensation Levels (SL), suggesting cochlear site of lesion. Absent at 4000 Hz. Decay negative.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "QuickSIN administered. Results suggest maximum improvement in SNR is required (directional mics + HAT).",
+          "numeric_results": {
+            "SNR_Loss": "20 dB"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up for hearing aid reprogramming after medical clearance.",
+        "patient_goals": "Improve loudness and speech understanding."
+      },
+      "tests": [
+        {
+          "name": "Electroacoustic Analysis",
+          "timepoint_label": "Pre-fitting",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing aids met ANSI S3.22-2009 specifications. No repair needed.",
+          "numeric_results": null
+        },
+        {
+          "name": "Real-Ear Measures (REM)",
+          "timepoint_label": "Fitting",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 39.2",
+            "Fig. 39.3",
+            "Fig. 39.4",
+            "Fig. 39.5"
+          ],
+          "key_findings": "Compared NAL-NL2 vs DSL v5.0 (adult) vs DSL v5.0 (child). Patient found NAL-NL2 'too quiet'. Patient preferred DSL v5.0 child targets due to greater output/loudness.",
+          "numeric_results": {
+            "Patient_Preference": "DSL v5.0 child target"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral symmetrical mild-to-profound sensorineural hearing loss, which has progressed significantly over the last three years. Speech recognition is very poor bilaterally (24-36%), and QuickSIN testing reveals a severe SNR loss of 20 dB. Although the patient is an experienced hearing aid user, standard adult prescriptive targets (NAL-NL2) were perceived as too quiet; the patient achieved better subjective sound quality and loudness with DSL v5.0 child targets.",
+  "counseling_points": [
+    "Due to your poor word recognition scores, a cochlear implant evaluation is strongly recommended.",
+    "Hearing aids alone may not be sufficient in noise; a remote microphone or FM system would provide significant benefit.",
+    "We have reprogrammed your hearing aids to 'child targets' (DSL v5.0) to provide the extra volume and support you prefer.",
+    "Using smartphone apps to stream audio directly to your hearing aids can help with telephone difficulties."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated that hearing aids aren't helping enough in noise.",
+    "When the audiologist tries the first setting (NAL-NL2), complain that it is 'too soft' or 'weak'.",
+    "Show immediate preference/relief when the settings are switched to the louder profile (DSL child targets)."
+  ]
+}

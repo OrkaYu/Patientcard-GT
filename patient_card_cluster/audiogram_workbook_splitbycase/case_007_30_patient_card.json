@@ -1,0 +1,122 @@
+{
+  "case_id": "case_7_30",
+  "title": "Mixed Hearing Loss with History of Cholesteatoma and Mastoidectomy",
+  "demographics": {
+    "age_years": 45,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am here to monitor my hearing sensitivity. I haven't noticed any significant changes in my hearing over the past few years, but I have constant ringing in both ears.",
+  "problem_summary": {
+    "onset": "Long-standing history of hearing loss in the left ear.",
+    "course": "Stable; no significant changes reported over the past few years.",
+    "laterality": "Bilateral symptoms (tinnitus) with asymmetric hearing loss (worse in left).",
+    "associated_symptoms": "Constant bilateral tinnitus.",
+    "functional_impact": "Patient reports no recent significant changes in functional hearing.",
+    "goals_motivation": "Monitoring hearing sensitivity and managing the condition."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-02-24",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned for monitoring. Reports stable hearing but constant bilateral tinnitus.",
+        "otologic_history": "History of chronic otitis media, cholesteatoma, and multiple surgeries in the left ear including mastoidectomy and ossiculoplasty.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Last hearing test was completed 1 year ago.",
+        "patient_goals": "Monitor hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.30"
+          ],
+          "key_findings": "Right ear: Normal hearing (250-2000 Hz) sloping to mild sensorineural hearing loss (3000-8000 Hz). Left ear: Moderately severe rising to mild mixed hearing loss (250-2000 Hz), sloping to moderate/moderately severe mixed loss (3000-4000 Hz), rising to moderate at 6-8 kHz. Significant air-bone gaps present in the left ear.",
+          "numeric_results": {
+            "RE_PTA": "13 dB HL",
+            "LE_PTA": "43 dB HL",
+            "RE_250-2000Hz": "0-15 dB HL",
+            "RE_3000-8000Hz": "25-30 dB HL",
+            "LE_Air_Bone_Gap": "Significant (Bone thresholds 0-15 dB HL vs Air thresholds 30-70 dB HL)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.30"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA. WRS indicates normal ability to recognize speech bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "13 dB",
+            "LE_SRT": "43 dB",
+            "RE_WRS": "92%",
+            "LE_WRS": "96%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.30"
+          ],
+          "key_findings": "Right ear: Hypercompliant tympanic membrane with excessive negative pressure. Left ear: Flat tympanogram with large ear canal volume (consistent with mastoidectomy history).",
+          "numeric_results": {
+            "RE_Static_Admittance": "2.0 mmho",
+            "RE_Peak_Pressure": "-160 daPa",
+            "LE_Ear_Canal_Volume": "2.7 mL",
+            "LE_Type": "Flat"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Threshold and decay testing were not measured.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric hearing. The right ear exhibits normal sensitivity sloping to a mild high-frequency sensorineural loss with negative middle ear pressure. The left ear demonstrates a complex mixed hearing loss (ranging from mild to moderately severe) with excellent speech recognition, consistent with the history of ossiculoplasty and mastoidectomy (evidenced by large canal volume).",
+  "counseling_points": [
+    "Your hearing has remained stable with no significant changes compared to your previous test.",
+    "The 'flat' reading on the left ear pressure test is expected given your history of mastoid surgery and the larger volume of your ear canal.",
+    "We recommend you continue your scheduled follow-up with your otologist for medical management.",
+    "We should discuss amplification options (hearing aids) for your left ear, as well as Hearing Assistive Technology (HAT), to help balance your hearing.",
+    "Return for a hearing test after your medical management is complete or as needed."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is accustomed to their hearing loss and medical history; you are not distressed but are diligent about monitoring.",
+    "You have constant ringing (tinnitus) in both ears, but you report it calmly as a chronic symptom.",
+    "You have had many surgeries on your left ear, so you are knowledgeable about your 'bad ear'."
+  ]
+}

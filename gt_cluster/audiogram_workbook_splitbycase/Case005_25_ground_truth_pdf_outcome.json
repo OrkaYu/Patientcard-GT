@@ -1,0 +1,95 @@
+{
+  "case_id": "Case005_25",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Retrocochlear pathology",
+      "rationale_short": "Asymmetric sensorineural hearing loss, significantly poorer word recognition in the left ear, unilateral tinnitus, dizziness, and elevated/absent acoustic reflexes."
+    },
+    {
+      "rank": 2,
+      "label": "Asymmetric sensorineural hearing loss",
+      "rationale_short": "Audiometric configuration shows bilateral loss with significant asymmetry (left worse than right) and complex configuration."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration given reports of progressive loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding and check for retrocochlear signs (rollover or asymmetry)."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry reveals asymmetric sensorineural hearing loss, with the left ear showing a greater degree of loss and a complex 'trough' configuration compared to the right. Word recognition is significantly poorer in the left ear (66%) compared to the right (84%), consistent with retrocochlear pathology. Tympanometry is normal bilaterally, but acoustic reflexes are generally elevated or absent. The constellation of asymmetry, poor speech scores, unilateral tinnitus, and dizziness necessitates medical referral.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Slight SNHL (250-2000 Hz) sloping to severe (3000-4000 Hz). Left ear: Moderately severe rising to mild (mid-frequencies) then sloping to severe. Significant asymmetry present."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT agrees with PTA. WRS shows significant asymmetry: Right 84%, Left 66%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanograms (Type A) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Thresholds generally elevated or absent, particularly at high frequencies. Contralateral decay could not be measured."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation (pending medical clearance)"
+    ],
+    "counseling_actions": [
+      "Discuss the asymmetry in hearing and word recognition scores.",
+      "Explain the need for ENT referral and MRI to rule out retrocochlear pathology.",
+      "Counsel on the association between unilateral symptoms (tinnitus, dizziness) and the test findings."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss",
+      "Asymmetric word recognition scores",
+      "Unilateral tinnitus",
+      "Dizziness"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "Referral for MRI to rule out retrocochlear pathology due to unexplained asymmetry, poor WRS in the left ear, and associated vestibular symptoms."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After medical clearance",
+    "objective": "Hearing aid evaluation"
+  },
+  "expected_outcome": []
+}

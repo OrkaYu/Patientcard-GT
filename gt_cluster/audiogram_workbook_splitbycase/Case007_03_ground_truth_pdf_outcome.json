@@ -1,0 +1,99 @@
+{
+  "case_id": "case_7_3",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otosclerosis (Left Ear)",
+      "rationale_short": "Progressive mixed hearing loss with air-bone gaps, normal tympanograms, and absent acoustic reflexes."
+    },
+    {
+      "rank": 2,
+      "label": "Profound Sensorineural Hearing Loss (Right Ear)",
+      "rationale_short": "History of sudden hearing loss >20 years ago resulting in a 'dead' ear."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function given the conductive component."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc; absence supports conductive pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals a profound sensorineural hearing loss in the right ear and a moderate sloping to profound mixed hearing loss in the left ear. Despite the conductive component (air-bone gaps) in the left ear, tympanograms are normal (Type A), but acoustic reflexes are absent bilaterally. This pattern is consistent with otosclerosis in the left ear. Speech recognition is moderately compromised in the left ear.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Profound SNHL with no measurable response. Left ear: Moderate sloping to profound mixed hearing loss (500-2000 Hz moderate, sloping to severe/profound) with significant air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: CNT/NR. Left ear: SRT 67 dB HL, WRS 68% at 95 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent thresholds from 500 to 4,000 Hz for ipsilateral and contralateral stimulation bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Evaluation for new hearing aid technology",
+      "BiCROS system (Left)",
+      "Hearing Assistive Technology (HAT)",
+      "Annual hearing test"
+    ],
+    "counseling_actions": [
+      "Discuss the mixed nature of the hearing loss and likely otosclerosis",
+      "Explain that surgical intervention was not recommended by the otologist",
+      "Counsel on the benefits of BiCROS amplification for the asymmetric loss",
+      "Discuss realistic expectations for speech understanding"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient has been medically cleared for amplification; proceed with hearing aid evaluation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor progression of hearing loss."
+  },
+  "expected_outcome": [
+    "Otologic consultation concluded possible otosclerosis for the left ear.",
+    "Surgical intervention was not recommended.",
+    "Patient was medically cleared for new amplification.",
+    "Audiological recommendations included annual hearing tests and evaluation for new hearing aid technology options, including left BiCROS and HAT."
+  ]
+}

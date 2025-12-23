@@ -1,0 +1,82 @@
+{
+  "case_id": "Case011_04",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Neuro-maturational lag",
+      "rationale_short": "Initial central auditory deficits spontaneously improved to near-normal levels over 3 years, correlating with academic gains, despite lack of consistent rehabilitation."
+    },
+    {
+      "rank": 2,
+      "label": "Central Auditory Processing Disorder (CAPD)",
+      "rationale_short": "Initial testing showed significant deficits in temporal patterning and dichotic listening, though the subsequent improvement suggests a maturational delay rather than a static disorder."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Central Auditory Test Battery",
+        "urgency": "routine",
+        "rationale_short": "To evaluate central auditory processing abilities given the history of listening difficulties and learning disability."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing was normal. Central auditory evaluation revealed significant deficits, particularly in temporal patterning (severe bilateral deficits) and dichotic listening (moderate left ear deficits), consistent with a central auditory processing disorder affecting interhemispheric transfer and temporal processing.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Normal pure tone thresholds bilaterally."
+          },
+          {
+            "name": "Central Auditory Test Battery",
+            "result_summary": "Severe bilateral deficits on Frequency Patterns (~10-15%). Moderate left ear deficits on Dichotic Digits (~45%) and Competing Sentences (~35%). Mild right ear deficit and borderline normal left ear on SSW (~60%)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Re-evaluation after 3 years showed spontaneous improvement to essentially normal levels on most central tests, with only a mild residual deficit in frequency patterns. This profile is consistent with neuro-maturational lag.",
+        "tests": [
+          {
+            "name": "Central Auditory Test Battery",
+            "result_summary": "Improvement to essentially normal levels on Competing Sentences (>90%), Dichotic Digits (>90%), and SSW (>85%). Frequency Patterns improved but showed a residual mild deficit (LE ~40%, RE ~65%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Auditory rehabilitation program (initiated but not continued)"
+    ],
+    "counseling_actions": [
+      "Explain the concept of neuro-maturational lag as the likely cause of initial deficits and subsequent improvement",
+      "Discuss residual difficulties with background noise and distractibility"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Educational support",
+      "rationale_short": "Patient has shown significant improvement; routine monitoring of residual academic and listening issues is appropriate."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor for any changes in academic performance or listening difficulties."
+  },
+  "expected_outcome": [
+    "Central Auditory Test Battery (Follow-up): Improvement to essentially normal levels on all tests except Frequency Patterns, where a mild deficit remained.",
+    "Marked academic improvements over the past 3 years, reading only one grade level below expectations.",
+    "Improved ability to follow auditory directions.",
+    "Persistent difficulties with background noise and distractibility."
+  ]
+}

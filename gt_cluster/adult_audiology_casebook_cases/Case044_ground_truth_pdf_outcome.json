@@ -1,0 +1,121 @@
+{
+  "case_id": "Case044",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Chronic Suppurative Otitis Media (CSOM)",
+      "rationale_short": "History of childhood onset, tympanic membrane perforations, and persistent conductive pathologies."
+    },
+    {
+      "rank": 2,
+      "label": "Bilateral Profound Sensorineural Hearing Loss",
+      "rationale_short": "Progressed from mixed loss; likely due to toxin passage through round window from chronic inflammation."
+    },
+    {
+      "rank": 3,
+      "label": "Cleft Lip and Palate (CLP)",
+      "rationale_short": "Underlying anatomical factor contributing to eustachian tube dysfunction and CSOM."
+    },
+    {
+      "rank": 4,
+      "label": "Middle Ear Tuberculosis",
+      "rationale_short": "Historical diagnosis contributing to initial ear pathology and facial palsy."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To monitor progression of hearing loss thresholds."
+      },
+      {
+        "action": "Speech Audiometry (Cantonese)",
+        "urgency": "routine",
+        "rationale_short": "To assess functional communication ability and hearing aid benefit."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status, though often not completed due to perforations."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "At age 30, the patient presented with bilateral severe-to-profound mixed hearing loss. Despite high-power hearing aids, auditory-only speech perception was poor, though visual cues (lipreading) significantly improved understanding. Tympanometry could not be performed due to active pathology (grommet/perforation).",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral severe-to-profound mixed hearing loss with air-bone gaps. Right AC thresholds 55-90 dB HL; Left AC thresholds 60-100 dB HL."
+          },
+          {
+            "name": "Speech Audiometry (Cantonese)",
+            "category": "Speech Perception",
+            "result_summary": "Poor auditory-only recognition (Everyday Sentence: 21%, Open-Set: 16-18%). Excellent auditory-visual recognition (85-100%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not completed due to persistent conductive pathologies (grommet in right ear, perforation in left ear)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "At age 36, hearing had deteriorated to bilateral profound sensorineural hearing loss with no usable residual hearing. Hearing aids no longer provided benefit, and the patient could not repeat sentences in auditory-only mode.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral profound sensorineural hearing loss. Thresholds 90-110 dB HL in low frequencies; no response above 1000-2000 Hz."
+          },
+          {
+            "name": "Speech Audiometry",
+            "category": "Speech Perception",
+            "result_summary": "0% auditory-only sentence recognition (patient unable to repeat any sentences with hearing aids)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral myringoplasty to obliterate CSOM and clear middle ear infection",
+      "Cochlear implantation (Right ear)",
+      "Second cochlear implant (Left ear) planned for future",
+      "Sign language (as alternative option)"
+    ],
+    "counseling_actions": [
+      "Discuss risks of cochlear implantation in CSOM ears, including meningitis and electrode extrusion",
+      "Explain the necessity of a dry, infection-free ear prior to implantation",
+      "Counsel on realistic expectations and the initial reliance on lipreading",
+      "Emphasize importance of long-term post-operative monitoring for infection or electrode migration"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Chronic Suppurative Otitis Media (CSOM)",
+      "Tympanic membrane perforation",
+      "Risk of meningitis"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT",
+      "rationale_short": "Surgical management (myringoplasty) required to clear infection before cochlear implantation can be safely performed."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-implantation monitoring",
+    "objective": "Monitor impedance, mapping levels, and check for nonauditory stimulation or infection signs."
+  },
+  "expected_outcome": [
+    "Aided sound-field thresholds with CI: Thresholds obtained within the speech banana (approx. 25-40 dB HL) across 500-4000 Hz.",
+    "Speech perception at 3 years post-op (Everyday Sentence, syllable scoring): 100% auditory only.",
+    "Speech perception at 3 years post-op (Open-Set Sentence, syllable scoring): 98% auditory only.",
+    "Speech perception at 3 years post-op (Open-Set Sentence, keyword scoring): 97% auditory only.",
+    "Patient relies on hearing for daily communication and lipreading skills have deteriorated due to disuse.",
+    "Second implant is being planned for the left ear."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "case_id": "case_12_8",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Traumatic Tympanic Membrane Perforation (Right Ear)",
+      "rationale_short": "History of direct trauma with a cotton swab, immediate pain, and Type B tympanogram with abnormally large ear canal volume (3.7 mmho)."
+    },
+    {
+      "rank": 2,
+      "label": "Ossicular Chain Discontinuity",
+      "rationale_short": "Trauma can dislocate ossicles causing conductive loss; however, the high ear canal volume specifically confirms a perforation."
+    },
+    {
+      "rank": 3,
+      "label": "Hemotympanum",
+      "rationale_short": "Trauma can cause blood in the middle ear, but this typically presents with normal ear canal volume, unlike the high volume seen here."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To visually confirm the size and location of the perforation and check for infection or debris."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status; high volume confirms perforation."
+      },
+      {
+        "action": "Pure Tone Audiometry",
+        "urgency": "routine",
+        "rationale_short": "To quantify the degree of hearing loss resulting from the trauma."
+      },
+      {
+        "action": "Speech Audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess functional hearing ability and word recognition."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Findings are consistent with a traumatic tympanic membrane perforation in the right ear, evidenced by a mild conductive hearing loss and a flat tympanogram with large ear canal volume.",
+        "tests": [
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Type B with high equivalent ear canal volume (3.7 mmho), indicating perforation. Left ear: Normal Type A."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Mild low-frequency conductive hearing loss with air-bone gaps. Left ear: Normal hearing sensitivity."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent word recognition scores (100%) bilaterally."
+          },
+          {
+            "name": "Wideband Acoustic Immittance",
+            "category": "Immittance",
+            "result_summary": "Reflectance asymmetry consistent with right middle ear pathology."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otolaryngology (ENT) for otoscopic evaluation and management plan.",
+      "Dry ear precautions (water avoidance).",
+      "Observation for spontaneous healing.",
+      "Annual hearing evaluation or sooner if symptoms change."
+    ],
+    "counseling_actions": [
+      "Explain that the 'flat' pressure test with high volume confirms a hole in the eardrum caused by the cotton swab.",
+      "Advise strictly keeping the ear dry (use Vaseline-coated cotton ball or earplug when showering) to prevent infection.",
+      "Instruct to avoid forceful nose blowing to prevent forcing air/mucus into the middle ear.",
+      "Reassure that many traumatic perforations heal spontaneously, but monitoring is required."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "History of ear trauma",
+      "Conductive hearing loss",
+      "Tympanic membrane perforation (High Vea)"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngology (ENT)",
+      "rationale_short": "To inspect the perforation, ensure no foreign body remains, and monitor for healing or need for surgical repair (tympanoplasty)."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "4-6 weeks",
+    "objective": "To monitor for spontaneous closure of the tympanic membrane perforation and resolution of the conductive hearing loss."
+  },
+  "expected_outcome": [
+    "Spontaneous healing of the tympanic membrane perforation is likely.",
+    "Resolution of conductive hearing loss upon closure of the perforation.",
+    "If the perforation does not heal, surgical intervention (tympanoplasty) may be required."
+  ]
+}

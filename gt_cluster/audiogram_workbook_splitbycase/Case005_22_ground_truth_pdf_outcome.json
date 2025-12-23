@@ -1,0 +1,107 @@
+{
+  "case_id": "Case005_22",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sudden Sensorineural Hearing Loss",
+      "rationale_short": "Acute onset of hearing decrease 6 weeks ago with significant asymmetry in high frequencies."
+    },
+    {
+      "rank": 2,
+      "label": "Presbycusis",
+      "rationale_short": "History of long-standing bilateral high-frequency hearing loss consistent with age."
+    },
+    {
+      "rank": 3,
+      "label": "Vestibular Schwannoma",
+      "rationale_short": "Asymmetric sensorineural hearing loss and sudden onset warrant ruling out retrocochlear pathology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds and configuration of loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition ability."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status and tympanic membrane compliance."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals asymmetric sensorineural hearing loss, significantly worse in the right ear at high frequencies (steep slope at 4-6 kHz), superimposed on a background of presbycusis. This is consistent with the patient's report of sudden hearing loss. Word recognition remains excellent bilaterally. Tympanometry indicates a hypercompliant right tympanic membrane (Type Ad) but reflexes are present at low frequencies, suggesting the loss is sensorineural rather than conductive. The asymmetry and sudden onset are red flags requiring medical referral.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal sloping to mild SNHL (250-3000 Hz), steeply sloping to severe/profound (4000-6000 Hz). Left ear: Normal sloping to moderate SNHL. Significant high-frequency asymmetry."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 12 dB, Left 3 dB. WRS: 96% bilaterally (Right at 65 dB HL, Left at 60 dB HL)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Hypercompliant (Type Ad, 3.4 mL). Left ear: Normal (Type A, 0.4 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral absent at 2k and 4k Hz. Left ipsilateral normal. Contralateral absent at 4k Hz bilaterally. Decay negative."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to otologist for medical evaluation",
+      "Oral steroids (prescribed by otologist)",
+      "MRI to rule out acoustic neuroma",
+      "Hearing aid evaluation",
+      "Fitting of bilateral hearing aids"
+    ],
+    "counseling_actions": [
+      "Explain the sudden and asymmetric nature of the hearing loss requiring medical attention",
+      "Discuss the potential for steroid treatment to attempt hearing restoration",
+      "Counsel on the need for MRI to rule out retrocochlear pathology",
+      "Discuss benefits of modern hearing aids for high-frequency loss despite previous negative experience"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset hearing loss",
+      "Asymmetric sensorineural hearing loss"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Otologist",
+      "rationale_short": "Sudden asymmetric SNHL requires immediate medical evaluation and MRI to rule out retrocochlear pathology."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate referral",
+    "objective": "Medical management of sudden hearing loss and exclusion of retrocochlear pathology, followed by rehabilitation."
+  },
+  "expected_outcome": [
+    "MRI: Negative for acoustic neuroma.",
+    "Hearing status: Oral steroids (5 days) did not restore hearing.",
+    "Rehabilitation: Patient purchased bilateral hearing aids and perceived them to be beneficial."
+  ]
+}

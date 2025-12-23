@@ -1,0 +1,88 @@
+{
+  "case_id": "Case005",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Traumatic Tympanic Membrane Perforation (Left)",
+      "rationale_short": "History of foreign body (beetle) trauma, otoscopic confirmation of perforation, conductive hearing loss component, and inability to obtain tympanometric seal."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess the degree, configuration, and type of hearing loss resulting from the trauma."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities to determine functional impact."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status and confirm the presence of perforation via seal integrity."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation confirms a traumatic left tympanic membrane perforation. Audiometry reveals a mixed hearing loss in the left ear with significant air-bone gaps, while the right ear is essentially normal. Tympanometry in the left ear could not be completed due to the inability to maintain a seal, consistent with the perforation.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal to slight sensorineural hearing loss. Left ear: Mild sloping to moderately severe mixed hearing loss (250-2000 Hz), rising to slight/mild mixed loss (3000-8000 Hz); air-bone gaps present."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 15 dB HL (normal), Left 40 dB HL (mild loss). WRS: 100% bilaterally at suprathreshold levels."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Normal (Type A). Left ear: Could not maintain a seal due to perforation."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to otolaryngology for surgical repair (tympanoplasty)",
+      "Tinnitus management class"
+    ],
+    "counseling_actions": [
+      "Explain the mixed nature of the hearing loss (conductive component from perforation vs. sensorineural component)",
+      "Discuss the impact of perforation on hearing clarity versus volume",
+      "Review surgical repair options (tympanoplasty) given the failure of the paper patch",
+      "Counsel on tinnitus management options"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Traumatic tympanic membrane perforation",
+      "Extreme otalgia",
+      "Imbalance"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otolaryngology",
+      "rationale_short": "Surgical repair (tympanoplasty) is indicated for the persistent traumatic perforation after failed paper patch myringoplasty."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3 weeks and 3 months post-operatively",
+    "objective": "Monitor tympanic membrane healing and assess post-surgical hearing thresholds."
+  },
+  "expected_outcome": [
+    "At 3 weeks post-surgery, the tympanic membrane was healing well; the patient reported hearing was muffled but improved, with mild persistent imbalance.",
+    "At 3 months post-surgery, the patient reported further improvement in hearing despite persistent tinnitus.",
+    "Post-operative Pure-tone audiometry (3 months): Right ear thresholds remained stable; Left ear thresholds improved by 20 dB HL at 500 and 1,000 Hz and by 25 dB HL at 250 and 2,000 Hz, resulting in normal hearing sloping to a slight to mild mixed loss.",
+    "Post-operative Speech audiometry (3 months): SRTs revealed normal ability in the right ear (15 dB HL) and a mild loss in the left ear (30 dB HL); WRS remained normal bilaterally (Right 96%, Left 92%).",
+    "Tympanometry was not performed at the 3-month follow-up due to recent otosurgery.",
+    "The patient declined hearing aids or assistive technology but may attend a tinnitus management class."
+  ]
+}

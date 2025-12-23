@@ -1,0 +1,99 @@
+{
+  "case_id": "Case007",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Maximum Conductive Hearing Loss (Left)",
+      "rationale_short": "Direct result of surgical blind sac closure of the external auditory canal; confirmed by large air-bone gaps and normal bone conduction."
+    },
+    {
+      "rank": 2,
+      "label": "Recurrent Cholesteatoma",
+      "rationale_short": "Patient presents with new mastoid pain and headaches on the side of previous surgeries, raising concern for recurrence or complications."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function in the patent right ear."
+      },
+      {
+        "action": "Distortion Product Otoacoustic Emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "To assess cochlear outer hair cell function."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Evaluation reveals normal hearing in the right ear and a severe rising to moderately severe conductive hearing loss in the left ear (maximum conductive loss). Bone conduction thresholds are normal bilaterally, indicating intact cochlear function. Speech recognition is excellent bilaterally when sufficiently loud. Tympanometry and DPOAEs are normal in the right ear and could not be performed in the left due to the surgical closure.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear thresholds 5-15 dB HL. Left ear AC 55-70 dB HL (rising), BC 0-15 dB HL, ABG 45-65 dB."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 5 dB HL, WRS 100% at 45 dB HL. Left SRT 65 dB HL, WRS 100% at 85 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear Type A (Volume 0.88 mL, Admittance 0.32 mL, Pressure -70 daPa). Left ear CNT due to canal closure."
+          },
+          {
+            "name": "Distortion Product Otoacoustic Emissions (DPOAEs)",
+            "category": "OAEs",
+            "result_summary": "Right ear present and robust at 1,600-8,000 Hz. Left ear CNT."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Evaluation for Bone-Anchored Hearing Aid (BAHA)",
+      "Consideration of CROS hearing aid as a nonsurgical option"
+    ],
+    "counseling_actions": [
+      "Explain the conductive nature of the hearing loss and confirmed normal nerve function",
+      "Discuss the effects of single-sided deafness (localization, speech in noise)",
+      "Reinforce the importance of medical follow-up for reported pain and headaches"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Pain in left mastoid region",
+      "Intermittent headaches",
+      "History of recurrent cholesteatoma"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurotology",
+      "rationale_short": "To rule out recurrent cholesteatoma or intracranial complications given the history and current symptoms of pain and headaches."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As recommended by neurotology",
+    "objective": "Medical management of potential recurrence followed by auditory rehabilitation."
+  },
+  "expected_outcome": [
+    "Referral to neurotologist for evaluation of mastoid pain and complex medical history.",
+    "Identification as a candidate for a Bone-Anchored Hearing Aid (BAHA) to provide stimulation to both cochleas.",
+    "Identification of a right CROS hearing aid as a nonsurgical alternative."
+  ]
+}

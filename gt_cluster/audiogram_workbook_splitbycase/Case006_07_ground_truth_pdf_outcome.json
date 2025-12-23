@@ -1,0 +1,86 @@
+{
+  "case_id": "Case006_07",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Conductive Hearing Loss (Treacher Collins Syndrome)",
+      "rationale_short": "Bilateral conductive hearing loss with normal bone conduction and hypocompliant tympanograms, consistent with the patient's history of Treacher Collins syndrome."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing thresholds and configuration given history of hearing aid use and Treacher Collins syndrome."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear status and tympanic membrane compliance."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Evaluate the integrity of the acoustic reflex arc."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals a bilateral rising conductive hearing loss with normal bone conduction, consistent with Treacher Collins syndrome. Speech recognition scores are excellent, reflecting normal cochlear function. Middle ear analysis shows hypocompliant systems and absent acoustic reflexes.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderately severe rising to slight conductive loss at 3000 Hz, sloping to mild. Left ear: Severe rising to mild conductive loss at 4000 Hz, sloping to moderate. Normal bone conduction bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 53 dB HL, Left 55 dB HL. WRS: 96% at 85 dB HL bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Hypocompliant tympanograms bilaterally (0.2 mL) with normal pressure."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes at 500-4000 Hz bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit with bilateral BTE hearing aids with conventional earmolds."
+    ],
+    "counseling_actions": [
+      "Explain the conductive nature of the hearing loss and the normal inner ear function.",
+      "Advise on the necessity of medical clearance from an ENT specialist before dispensing new hearing aids."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist",
+      "rationale_short": "To obtain medical clearance for hearing aids due to the presence of conductive hearing loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After medical clearance",
+    "objective": "Hearing aid fitting"
+  },
+  "expected_outcome": [
+    "The patient was fit with bilateral BTE hearing aids with conventional earmolds."
+  ]
+}

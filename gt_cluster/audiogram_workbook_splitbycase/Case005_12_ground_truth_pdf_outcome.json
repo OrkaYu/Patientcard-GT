@@ -1,0 +1,93 @@
+{
+  "case_id": "Case005_12",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acoustic Trauma",
+      "rationale_short": "History of sudden hearing loss, tinnitus, and hyperacusis immediately following a pistol shot, with audiometric findings of a notch at 3000-4000 Hz."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration of loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception threshold and word recognition ability."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status and tympanic membrane compliance."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the reflex arc."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear shows normal hearing sensitivity with a slight high-frequency slope. The left ear exhibits a mild low-frequency sensorineural hearing loss with a moderate notch at 3000-4000 Hz, consistent with acoustic trauma. Speech recognition is excellent in the right ear but reduced (72%) in the left. Tympanometry reveals a hypercompliant system (Type Ad) in the left ear, though acoustic reflexes remain normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal (250-4000 Hz), slight/mild loss at 6-8 kHz. Left ear: Mild SNHL (250-1500 Hz), slight at 2000 Hz, moderate notch at 3000-4000 Hz, slight/mild at 6000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 10 dB HL, WRS 100%. Left ear: SRT 33 dB HL, WRS 72% (moderate difficulty)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Normal (Type A). Left ear: Hypercompliant (Type Ad, 2.20 mmho)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal thresholds at 500 through 4000 Hz ipsilaterally and contralaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation for the left ear",
+      "Evaluation for Hearing Assistive Technology (HAT)",
+      "Evaluation for management of tinnitus and hyperacusis",
+      "Use of hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Counsel on the importance of hearing protection to prevent further damage",
+      "Review medical clearance and lack of further medical intervention options"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral sensorineural hearing loss",
+      "Sudden onset hearing loss"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist",
+      "rationale_short": "Consultation for unilateral sudden hearing loss and medical clearance for amplification."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Hearing testing"
+  },
+  "expected_outcome": [
+    "Medical clearance for amplification was provided by the otologist.",
+    "No further medical intervention was recommended."
+  ]
+}

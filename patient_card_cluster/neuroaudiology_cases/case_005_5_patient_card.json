@@ -1,0 +1,165 @@
+{
+  "case_id": "case_5_5",
+  "title": "Brainstem Involvement: Hypothalamic/Thalamic Tumor",
+  "demographics": {
+    "age_years": 69,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been having trouble localizing sounds and difficulty hearing conversations when they are quiet. I also feel a fullness in my left ear that has recently gotten worse.",
+  "problem_summary": {
+    "onset": "Approximately 2-3 years prior to evaluation.",
+    "course": "Progressive neurological and auditory symptoms.",
+    "laterality": "Bilateral hearing difficulty; Left ear fullness; Bilateral motor symptoms (Right-sided instability, Left-sided weakness).",
+    "associated_symptoms": "Intermittent dizziness (2 years), occipital headaches (3 years), right-sided motor instability, progressive left arm/leg weakness, left hand paresis, confusion, and memory loss.",
+    "functional_impact": "Difficulty walking, trouble localizing sound, difficulty hearing low-intensity speech.",
+    "goals_motivation": "Evaluation of auditory and neurological symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient reports a multi-year history of neurological symptoms including right-sided motor instability, dizziness, and headaches. More recently, she developed progressive left-sided weakness, confusion, and memory loss. Auditory symptoms include localization deficits and left aural fullness.",
+        "otologic_history": "Fullness sensation in the left ear for several years, recently increased in severity.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Working diagnosis of Multiple Sclerosis (MS) was considered for several years but not confirmed.",
+        "prior_management": "None reported for hearing; medical monitoring for suspected MS.",
+        "patient_goals": "Diagnosis of underlying cause of symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-18"
+          ],
+          "key_findings": "Moderate to severe bilaterally symmetrical sensorineural hearing loss. The loss slopes from mild in the low frequencies to severe in the high frequencies.",
+          "numeric_results": {
+            "RE_250Hz": "25 dB HL",
+            "RE_1000Hz": "35 dB HL",
+            "RE_2000Hz": "50 dB HL",
+            "RE_4000Hz": "50 dB HL",
+            "RE_8000Hz": "70 dB HL",
+            "LE_250Hz": "25 dB HL",
+            "LE_1000Hz": "35 dB HL",
+            "LE_2000Hz": "55 dB HL",
+            "LE_4000Hz": "55 dB HL",
+            "LE_8000Hz": "75 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-18"
+          ],
+          "key_findings": "Excellent speech recognition scores bilaterally, despite the sensorineural hearing loss.",
+          "numeric_results": {
+            "RE_WRS": "92%",
+            "LE_WRS": "96%"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present at normal levels (reduced sensation levels at mid and high frequencies) bilaterally for frequencies 500 through 4000 Hz.",
+          "numeric_results": null
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-19"
+          ],
+          "key_findings": "Right ear: Essentially normal findings (Waves I, II, III present). Left ear: Normal waves I and II; Wave III delayed; Absence of IV-V complex.",
+          "numeric_results": {
+            "RE_Wave_I_Latency": "1.7 ms",
+            "RE_Wave_III_Latency": "3.7 ms",
+            "RE_Wave_V_Latency": "5.9 ms",
+            "LE_Wave_I_Latency": "1.6 ms",
+            "LE_Wave_III_Latency": "4.6 ms",
+            "LE_Wave_V": "Absent"
+          }
+        },
+        {
+          "name": "Auditory Middle Latency Response (MLR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-20"
+          ],
+          "key_findings": "Generally noisy and poor responses. T3 electrode (left temporal) showed no repeatable response. T4 electrode (right temporal) showed response to right ear stimulation but nonreplicable response to left ear stimulation.",
+          "numeric_results": null
+        },
+        {
+          "name": "Behavioral Central Auditory Tests",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-21"
+          ],
+          "key_findings": "Left ear deficit on dichotic digits, competing sentences, and compressed speech tests. Bilaterally suppressed filtered speech scores.",
+          "numeric_results": {
+            "Competing_Sentences_RE": "~100%",
+            "Competing_Sentences_LE": "~35% (Abnormal)",
+            "Dichotic_Digits_RE": "~95%",
+            "Dichotic_Digits_LE": "~75% (Abnormal)",
+            "Compressed_Speech_RE": "~80%",
+            "Compressed_Speech_LE": "~45% (Abnormal)",
+            "Low_Pass_Filtered_Speech": "~20% (Bilaterally Abnormal)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a moderate-to-severe bilateral symmetrical sensorineural hearing loss with excellent speech recognition, likely presbycusic in origin. However, retrocochlear testing reveals significant central pathology. ABR is abnormal on the left (absent IV-V), and MLR is absent over the left temporal area. Behavioral central testing confirms a left-sided deficit (dichotic digits, competing sentences) and bilateral temporal processing issues (filtered speech). These findings are consistent with a lesion affecting the upper brainstem/thalamic pathways, specifically compromising the left medial geniculate body (MGB) and inferior colliculus (IC) areas.",
+  "counseling_points": [
+    "Explain that the hearing sensitivity loss (audiogram) is likely age-related and not the primary cause of the localization and processing difficulties.",
+    "Discuss the abnormal findings on the brainstem and cortical responses (ABR/MLR) indicating a disruption in the neural pathways, particularly on the left side.",
+    "Urgent referral to neurology/neurosurgery for imaging (CT/MRI) due to suspected retrocochlear lesion (confirmed later as Glioblastoma Multiforme).",
+    "Counsel on communication strategies for central auditory processing deficits (visual cues, reducing background noise)."
+  ],
+  "notes_for_actor": [
+    "You are a 69-year-old woman who is confused and worried. You have been told you might have MS for years, but you aren't sure.",
+    "You have physical symptoms: you feel wobbly on your feet, and your left arm and leg feel weak.",
+    "Your hearing complaint is specific: you can hear sound, but you can't tell where it's coming from (localization), and you struggle to understand quiet conversations.",
+    "You feel a 'fullness' or pressure in your left ear."
+  ]
+}

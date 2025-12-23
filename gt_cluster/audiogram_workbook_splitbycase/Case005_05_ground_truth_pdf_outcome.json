@@ -1,0 +1,76 @@
+{
+  "case_id": "Case005_05",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Ménière’s disease (Right ear)",
+      "rationale_short": "History of progressive hearing loss in the right ear with a severe to profound sensorineural configuration and reverse slope, consistent with Ménière’s disease."
+    },
+    {
+      "rank": 2,
+      "label": "Presbycusis and Noise-Induced Hearing Loss (Left ear)",
+      "rationale_short": "History of gradual hearing decrease and noise exposure; audiogram shows moderate sloping to severe sensorineural hearing loss."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess degree, type, and configuration of hearing loss given the patient's report of bilateral deficits."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech detection and recognition abilities, crucial for determining candidacy for BiCROS or cochlear implant."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Pure-tone testing revealed a severe to profound sensorineural hearing loss in the right ear (250-1000 Hz) rising to severe, and a moderate sloping to severe sensorineural hearing loss in the left ear. Speech audiometry showed poor agreement with PTA in the right ear (SAT 70 dB HL vs PTA 92 dB HL) with no measurable word recognition, while the left ear had good agreement and fair word recognition (80%). Results are consistent with Ménière’s disease on the right and presbycusis/noise exposure on the left.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Severe to profound SNHL (PTA 92 dB HL). Left ear: Moderate sloping to severe SNHL (PTA 63 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SAT 70 dB HL, WRS CNT. Left ear: SRT 65 dB HL, WRS 80% at 95 dB HL."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Discussion of Cochlear Implant option",
+      "Discussion of BiCROS hearing aid option",
+      "Hearing aid trial with BiCROS technology",
+      "Fitting of BiCROS hearing aid"
+    ],
+    "counseling_actions": [
+      "Discussed the option of a cochlear implant versus a hearing aid trial",
+      "Explained that the right ear has limited ability to understand speech"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology and Otolaryngology",
+      "rationale_short": "Patient requires ongoing management with BiCROS hearing aid and monitoring of Ménière’s disease."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Monitor hearing thresholds and functional benefit from the BiCROS hearing aid."
+  },
+  "expected_outcome": [
+    "Patient was fit with new BiCROS hearing aid technology.",
+    "Patient perceived significant benefit with the BiCROS.",
+    "Patient decided not to pursue a cochlear implant at that time."
+  ]
+}

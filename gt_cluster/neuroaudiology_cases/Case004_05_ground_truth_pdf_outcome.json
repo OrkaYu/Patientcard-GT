@@ -1,0 +1,159 @@
+{
+  "case_id": "Case004_05",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acoustic Neuroma (Vestibular Schwannoma)",
+      "rationale_short": "Confirmed by ABR abnormalities (rate shift, ILD) and CT scan showing a 1.3 cm mass."
+    },
+    {
+      "rank": 2,
+      "label": "Perilymphatic Fistula",
+      "rationale_short": "Initial suspicion due to sudden onset and fluctuating nature of the hearing loss."
+    },
+    {
+      "rank": 3,
+      "label": "Cochlear Hydrops (Meniere's Disease)",
+      "rationale_short": "Suggested by low-frequency fluctuating SNHL, aural fullness, and normal acoustic reflexes."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "urgent",
+        "rationale_short": "Assess sudden hearing loss and monitor fluctuation over time."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Screen for retrocochlear pathology."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "Investigate retrocochlear pathway due to persistent symptoms and fluctuation."
+      },
+      {
+        "action": "CT Scan",
+        "urgency": "soon",
+        "rationale_short": "Visualize internal auditory meatus and CPA following abnormal ABR results."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Serial evaluations over 3 months revealed a fluctuating mild low-to-mid frequency sensorineural hearing loss in the left ear. Despite normal acoustic reflexes and excellent speech scores (findings often seen in cochlear pathology), ABR testing indicated retrocochlear signs including an abnormal ILD and significant rate shift. A CT scan confirmed a 1.3 cm acoustic neuroma.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal. Left ear showed fluctuating mild SNHL (low/mid frequencies); thresholds varied (e.g., 250-500 Hz ~30-45 dB HL) over 3 months."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent scores (100%) bilaterally with no rollover."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present bilaterally at normal levels; left contralateral reflexes obtained at lower levels than right."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Left ear showed poor morphology, extended I-V (4.68 ms) and I-III intervals, abnormal ILD (0.88 ms), and significant rate shift (1.04 ms)."
+          },
+          {
+            "name": "CT Scan",
+            "category": "Imaging",
+            "result_summary": "1.3 cm mass in the left internal auditory meatus extending into the cerebellopontine angle."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Immediate postoperative assessment following tumor removal indicated a total loss of hearing in the operated ear.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "No measurable hearing in the left ear to pure tone or speech stimuli."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "At the 1-year follow-up, the patient demonstrated an unusual 'late recovery' of hearing. While pure-tone thresholds improved to mild-moderate levels in the low frequencies, speech recognition remained very poor.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear showed return of function: ~30-35 dB HL at 250-500 Hz, sloping to profound loss >2000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear WRS was poor at 24%."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Left ear showed only a readable Wave V of poor morphology with latency of 7.34 ms at 90 dB nHL."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical removal of acoustic schwannoma",
+      "Annual audiological monitoring"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of acoustic neuroma and how it mimics other conditions like fistula.",
+      "Discuss the rarity of late hearing recovery after surgery.",
+      "Counsel on realistic expectations: left ear has sound awareness but poor speech clarity (24%) and limited utility in noise.",
+      "Emphasize protection of the normal right ear."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden sensorineural hearing loss",
+      "Asymmetric hearing loss",
+      "Unilateral tinnitus",
+      "Abnormal ABR findings (ILD, rate shift)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otolaryngology",
+      "rationale_short": "Referral for surgical management of the confirmed acoustic neuroma."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Long-term (followed for 2.5 years)",
+    "objective": "Monitor stability of hearing recovery and check for recurrence."
+  },
+  "expected_outcome": [
+    "Pure-tone audiometry (1-Year Post-op): Left ear thresholds recovered to ~30-35 dB HL in low frequencies, sloping to no response in highs.",
+    "Speech audiometry (1-Year Post-op): Left ear word recognition score was poor at 24%.",
+    "Auditory Brainstem Response (1-Year Post-op): Readable Wave V of poor morphology present at 90 dB nHL.",
+    "Subjective: Patient reported gradual improvement in hearing several months after surgery, though speech clarity remains poor."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "case_id": "Case007_24",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Mixed hearing loss",
+      "rationale_short": "Audiometry reveals mixed hearing loss bilaterally (low-frequency air-bone gaps); left ear status post-modified radical mastoidectomy."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To monitor hearing sensitivity in a patient with long-standing asymmetric loss and history of mastoid surgery."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Standard test for middle ear function, though often contraindicated or not performed in cases with mastoid bowls."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Testing reveals an asymmetric hearing loss. The right ear shows a slight to mild mixed loss in low frequencies sloping to a moderate-to-severe sensorineural loss in high frequencies, with excellent word recognition. The left ear shows a moderate-to-severe mixed loss sloping to profound, with poor word recognition. Results are stable compared to prior testing.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Slight sloping to mild mixed loss (250-1000 Hz) to moderate-to-severe SNHL (2000-8000 Hz). Left ear: Moderate sloping to severe mixed loss (250-2000 Hz) to profound (3000-8000 Hz). RE thresholds: 250Hz 25, 1000Hz 35, 4000Hz 75 dB HL. LE thresholds: 250Hz 55, 1000Hz 70, 2000Hz 80 dB HL. Masking dilemma noted for right bone conduction."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 37 dB HL, WRS 100% at 75 dB HL. Left ear: SRT 72 dB HL, WRS 50% at 95 dB HL. Patient unable to tolerate levels >95 dB HL in left ear."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not measured due to surgical history."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue use of amplification in the right ear",
+      "Reconsider a trial of amplification in the left ear",
+      "Use Hearing Assistive Technology (HAT)",
+      "Return for hearing testing annually"
+    ],
+    "counseling_actions": [
+      "Discussed stability of hearing sensitivity compared to previous tests",
+      "Discussed challenges of fitting the left ear due to severity of loss and history of discomfort",
+      "Advised to continue 6-month follow-ups with otologist for mastoid cavity cleaning"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient is already followed every six months for cleaning of the mastoid cavity bowl."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annually",
+    "objective": "Monitor stability of hearing sensitivity."
+  },
+  "expected_outcome": [
+    "Hearing loss had progressed gradually bilaterally.",
+    "Patient will follow up with the otologist as scheduled.",
+    "Audiological recommendations were to return for hearing testing annually, continue right ear amplification, reconsider left ear amplification, and use HAT."
+  ]
+}

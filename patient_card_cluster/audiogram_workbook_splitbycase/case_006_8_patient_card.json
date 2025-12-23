@@ -1,0 +1,125 @@
+{
+  "case_id": "case_6_8",
+  "title": "Left Superior Semicircular Canal Dehiscence (SSCD)",
+  "demographics": {
+    "age_years": 44,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I hear my own voice, chewing, and heartbeat loudly in my left ear. I also feel dizzy and disoriented whenever I blow my nose or cough.",
+  "problem_summary": {
+    "onset": "2 years ago",
+    "course": "Symptoms have become greater over the last 2 years.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Autophony, static-like tinnitus, swooshing sound, intermittent pressure, otalgia, dizziness induced by pressure (nose blowing/coughing).",
+    "functional_impact": "Disorientation and dizziness with specific physical actions; auditory symptoms are bothersome but currently not affecting everyday life significantly.",
+    "goals_motivation": "Evaluation of worsening symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-09-23",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient reports left autophony and tinnitus described as 'static'. She experiences intermittent pressure and ear pain. Notably, she hears internal sounds (voice, chewing, heartbeat/swooshing) loudly. She reports disorientation and dizziness triggered by blowing her nose or coughing.",
+        "otologic_history": "No other reported otologic symptoms or history.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "None reported.",
+        "patient_goals": "Diagnosis and management options."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.8"
+          ],
+          "key_findings": "Right ear thresholds are within normal limits (0-10 dB HL). Left ear thresholds are within normal limits (0-10 dB HL) but exhibit a low-frequency conductive component (air-bone gap) at 250 and 500 Hz due to supranormal bone conduction thresholds (negative dB).",
+          "numeric_results": {
+            "RE_AC_Thresholds": "0-10 dB HL (250-8000 Hz)",
+            "LE_AC_Thresholds": "5-10 dB HL (250-8000 Hz)",
+            "LE_BC_Thresholds": "-10 to -5 dB HL at 250-500 Hz",
+            "LE_Air_Bone_Gap": "Present at 250 and 500 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.8"
+          ],
+          "key_findings": "Normal ability to receive and recognize speech bilaterally. SRTs are in agreement with PTA.",
+          "numeric_results": {
+            "RE_SRT": "3 dB",
+            "RE_WRS": "100% at 55 dB HL",
+            "LE_SRT": "7 dB",
+            "LE_WRS": "92% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.8"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "RE_Vol": "1.3 mL",
+            "RE_Pressure": "25 daPa",
+            "LE_Vol": "1.1 mL",
+            "LE_Pressure": "25 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.8"
+          ],
+          "key_findings": "Ipsilateral reflexes normal bilaterally. Contralateral reflexes showed some elevation or absence at specific frequencies. Reflex decay could not be tested at 500 Hz due to patient discomfort (hyperacusis/autophony sensitivity).",
+          "numeric_results": {
+            "Reflex_Decay": "Not tested at 500 Hz due to patient discomfort."
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally; however, the left ear exhibits a characteristic low-frequency air-bone gap driven by supranormal (negative) bone conduction thresholds, consistent with a 'third window' pathology. Speech recognition and tympanometry are normal. The presence of autophony and dizziness induced by pressure changes (Tullio phenomenon), combined with the audiometric configuration, strongly suggests Superior Semicircular Canal Dehiscence (SSCD).",
+  "counseling_points": [
+    "Explain that the 'gap' on the hearing test is not due to a blockage (like an ear infection) but rather sound traveling too efficiently through the bone due to a thinning of the canal wall.",
+    "Discuss the connection between the dizziness and nose blowing/coughing (pressure changes transferring to the balance system).",
+    "Review the option for CT imaging and VEMP testing to confirm the diagnosis.",
+    "Advise that if symptoms are manageable, observation is reasonable, but surgery is an option if quality of life deteriorates."
+  ],
+  "notes_for_actor": [
+    "Portray the autophony vividly: describe your own voice as booming or echoing inside your head.",
+    "Emphasize the 'static' sound and the swooshing of your heartbeat.",
+    "When asked about the dizziness, be specific that it happens with pressure (blowing nose), not just random spinning."
+  ]
+}

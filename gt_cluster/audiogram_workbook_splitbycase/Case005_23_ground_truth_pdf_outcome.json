@@ -1,0 +1,98 @@
+{
+  "case_id": "Case005_23",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Autoimmune Inner Ear Disease",
+      "rationale_short": "Significant progressive bilateral sensorineural hearing loss and positive Western Blot for inner ear antigen antibodies."
+    },
+    {
+      "rank": 2,
+      "label": "Presbycusis",
+      "rationale_short": "Age and configuration are consistent, but the rate of progression (15-35 dB drop) prompted medical investigation for other causes."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, configuration, and type of hearing loss given the reported progression."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals a bilateral, symmetric, sloping sensorineural hearing loss that has progressed significantly (15-35 dB) since the previous test. Speech recognition is fair, indicating moderate difficulty. Middle ear function is normal. Reflex patterns are consistent with cochlear hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral sloping SNHL. Right: slight (250-1000 Hz) sloping to profound (8000 Hz). Left: slight/mild (250-1000 Hz) sloping to severe (8000 Hz). PTA ~35 dB HL bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: 33 dB HL (Right), 35 dB HL (Left). WRS: 70% (Right) and 60% (Left) at 75 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral and contralateral thresholds within normal limits 500-2000 Hz, elevated or absent at 4000 Hz. Decay negative."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit new hearing aids to address current hearing levels",
+      "Monitor hearing thresholds for further progression"
+    ],
+    "counseling_actions": [
+      "Discuss the significant progression of hearing loss compared to the previous evaluation",
+      "Explain the autoimmune etiology confirmed by the Western Blot test",
+      "Counsel on realistic expectations for amplification given word recognition scores (60-70%)",
+      "Advise that current CIC hearing aids are insufficient for the current degree of loss"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Significant progressive hearing loss (15-35 dB drop)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist",
+      "rationale_short": "To rule out autoimmune inner ear disease or other medical causes for the significant progression of hearing loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "4 months",
+    "objective": "Determine how quickly his hearing loss is progressing."
+  },
+  "expected_outcome": [
+    "Hearing decreased 15 to 35 dB HL at most frequencies compared to the last hearing test.",
+    "Positive Western Blot for inner ear antigen antibodies confirmed autoimmune inner ear disease.",
+    "Patient was medically cleared for new hearing aids."
+  ]
+}

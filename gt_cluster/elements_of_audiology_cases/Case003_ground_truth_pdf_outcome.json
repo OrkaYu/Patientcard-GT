@@ -1,0 +1,114 @@
+{
+  "case_id": "Case003",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral serous effusion",
+      "rationale_short": "Supported by mild flat hearing loss, Type B tympanograms, low static compliance, absent reflexes, and absent TEOAEs. Lack of fever or pain suggests effusion rather than active infection."
+    },
+    {
+      "rank": 2,
+      "label": "Conductive hearing loss",
+      "rationale_short": "ABR shows prolonged absolute latencies with normal interpeak latencies, confirming conductive pathology consistent with middle ear fluid."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds and configuration of loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To cross-check pure-tone thresholds (SRT) and assess recognition (SRS)."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and tympanic membrane mobility."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and support differential diagnosis."
+      },
+      {
+        "action": "ABR",
+        "urgency": "routine",
+        "rationale_short": "To differentiate between conductive and sensorineural pathology given limited behavioral data."
+      },
+      {
+        "action": "TEOAE",
+        "urgency": "routine",
+        "rationale_short": "To assess cochlear outer hair cell function."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results indicate a mild, flat bilateral conductive hearing loss. Pure-tone averages and SRTs are consistent (20-25 dB HL). Middle ear pathology is confirmed by Type B tympanograms with low static compliance, absent acoustic reflexes, and absent TEOAEs. ABR latency patterns (prolonged waves, normal interpeaks) further confirm the conductive nature, likely due to bilateral serous effusion.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Mild, flat hearing loss bilaterally. Right thresholds ~20 dB HL; Left thresholds ~25-30 dB HL (500-4000 Hz). Bone conduction not obtained."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "SRT Right 20 dB HL, Left 25 dB HL. SRS not obtained."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type B (flat) bilaterally with low static compliance (Right 0.25 cc, Left 0.20 cc)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes bilaterally."
+          },
+          {
+            "name": "ABR",
+            "category": "Electrophysiology",
+            "result_summary": "All waves prolonged; interpeak latencies normal; latency-intensity function normal. Consistent with conductive pathology."
+          },
+          {
+            "name": "TEOAE",
+            "category": "OAE",
+            "result_summary": "Absent bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Request a report of the physician's findings.",
+      "Make an appointment for further audiometric study, especially bone conduction.",
+      "Complete audiometric examination after all medical and/or surgical treatment is completed.",
+      "Consider referral to a speech-language pathologist if language delay persists after hearing normalizes.",
+      "Suggest the father consider a hearing evaluation for his own hearing issues."
+    ],
+    "counseling_actions": [
+      "Explain that findings suggest fluid in the middle ear (serous effusion) causing mild hearing loss.",
+      "Clarify that the hearing loss explains the child's inattention and 'huh' behavior.",
+      "Stress the importance of a complete audiometric exam after medical treatment to ensure hearing returns to normal."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist",
+      "rationale_short": "Refer for medical evaluation and treatment of bilateral serous effusion."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After all medical and/or surgical treatment has been completed",
+    "objective": "Complete audiometric examination, including bone conduction, to confirm hearing has returned to normal."
+  },
+  "expected_outcome": []
+}

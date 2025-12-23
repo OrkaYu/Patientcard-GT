@@ -1,0 +1,111 @@
+{
+  "case_id": "case_8_2",
+  "title": "Nonorganic Hearing Loss with Underlying Chronic Otitis Media",
+  "demographics": {
+    "age_years": 57,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA (Iraq veteran)"
+  },
+  "chief_complaint": "I have constant ringing in both ears, but it's louder in the left. I also have pain and a feeling of fullness in my left ear that has been bothering me for years.",
+  "problem_summary": {
+    "onset": "11 years prior (2003-2004) while deployed in Iraq.",
+    "course": "Chronic and constant.",
+    "laterality": "Bilateral tinnitus (worse left); Left ear pain and fullness.",
+    "associated_symptoms": "Constant bilateral tinnitus (loud steady ringing), otalgia (left), aural fullness (left), stress.",
+    "functional_impact": "Tinnitus causes great stress and perceived hearing difficulty.",
+    "goals_motivation": "Seeking relief from tinnitus and ear pain; monitoring hearing."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-07-11",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports 11-year history of chronic left ear infections starting during 14-month deployment in Iraq. Reports continued pain and fullness in the left ear.",
+        "otologic_history": "Chronic left ear infections. No history of otosurgery.",
+        "noise_exposure_history": "Excessive noise exposure from frequent cannon fire outside medical tent in Iraq (2003-2004).",
+        "medical_psych_history": "Reports stress related to tinnitus. Denies dizziness.",
+        "prior_management": "None specified.",
+        "patient_goals": "Evaluation of hearing and tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline (Initial)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8.2 (a)",
+            "8.2.2 Interpretation 1"
+          ],
+          "key_findings": "Initial testing showed significant functional overlay (nonorganic hearing loss). Pure-tone averages (PTA) were significantly worse than Speech Reception Thresholds (SRT), indicating exaggerated hearing loss.",
+          "numeric_results": {
+            "Right PTA-SRT Difference": "22 dB HL",
+            "Left PTA-SRT Difference": "23 dB HL",
+            "Initial Right SRT": "52 dB HL",
+            "Initial Left SRT": "63 dB HL"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-reinstruction",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8.2 (b)",
+            "8.2.3 Interpretation 2"
+          ],
+          "key_findings": "After significant reinstruction, valid thresholds were obtained. Right ear shows mild SNHL sloping to moderately-severe. Left ear shows moderate SNHL sloping to severe. SRTs are now in agreement with PTAs.",
+          "numeric_results": {
+            "Right SRT": "40 dB HL",
+            "Left SRT": "43 dB HL",
+            "Right WRS": "100%",
+            "Left WRS": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-reinstruction",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8.2 (b)",
+            "8.2.3 Interpretation 2"
+          ],
+          "key_findings": "Right ear is normal (Type A). Left ear is flat (Type B) with large canal volume, consistent with tympanic membrane perforation.",
+          "numeric_results": {
+            "Right Canal Volume": "1.30 cm3",
+            "Left Canal Volume": "2.30 cm3 (Large)",
+            "Left Peak Pressure": "NP (No Peak)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient initially presented with nonorganic hearing loss, evidenced by significant PTA-SRT discrepancies. Following reinstruction, valid testing revealed a mild-to-moderately severe sensorineural hearing loss in the right ear and a moderate-to-severe sensorineural hearing loss in the left ear. Immittance testing identified a likely tympanic membrane perforation in the left ear (large canal volume). Word recognition scores are excellent bilaterally once valid thresholds were established.",
+  "counseling_points": [
+    "Explain that the second round of testing provided a much clearer picture of your true hearing levels, which are better than the initial test suggested.",
+    "Discuss the results showing a likely hole (perforation) in the left eardrum, which explains the 'flat' reading on the pressure test and likely contributes to the history of infections.",
+    "Recommend a follow-up with an otologist (ENT) to manage the left ear perforation and chronic infections.",
+    "Discuss hearing protection strategies given the history of noise exposure and current sensorineural hearing loss.",
+    "Review the tinnitus as a symptom of the hearing loss and noise exposure; stress reduction techniques may help manage the perception of the ringing."
+  ],
+  "notes_for_actor": [
+    "During the initial phase of the exam, display hesitation or inconsistency in button pressing to simulate the functional overlay.",
+    "Express visible stress regarding the tinnitus.",
+    "After the audiologist provides 'reinstruction' (firm but kind clarification of instructions), become cooperative and consistent to allow for the valid 'Post-reinstruction' results."
+  ]
+}

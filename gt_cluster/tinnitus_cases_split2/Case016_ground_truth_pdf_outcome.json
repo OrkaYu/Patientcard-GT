@@ -1,0 +1,163 @@
+{
+  "case_id": "Case016",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Hyperacusis",
+      "rationale_short": "Primary complaint of pain with loud sounds (sirens, dishes); confirmed by significantly reduced Loudness Discomfort Levels (55-65 dB HL) and high THS sound tolerance subscore."
+    },
+    {
+      "rank": 2,
+      "label": "Tinnitus",
+      "rationale_short": "Constant bilateral tinnitus present for 6-8 months; TFI score indicates a significant problem, though secondary to sound tolerance issues per THS."
+    },
+    {
+      "rank": 3,
+      "label": "Sensorineural Hearing Loss",
+      "rationale_short": "Mild high-frequency sensorineural hearing loss at 8000 Hz bilaterally, consistent with history of military noise exposure."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given complaints of hearing difficulty and noise exposure history."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition ability in quiet."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear pathology and neural integrity."
+      },
+      {
+        "action": "Tinnitus and Hearing Survey (THS)",
+        "urgency": "routine",
+        "rationale_short": "To differentiate the burden of tinnitus, hearing loss, and sound tolerance."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDLs)",
+        "urgency": "routine",
+        "rationale_short": "To quantify sound tolerance levels across frequencies for hyperacusis evaluation."
+      },
+      {
+        "action": "Tinnitus Functional Index (TFI)",
+        "urgency": "routine",
+        "rationale_short": "To measure the functional impact and severity of tinnitus."
+      },
+      {
+        "action": "Subjective Scales",
+        "urgency": "routine",
+        "rationale_short": "To rate severity, effect on life, and distress related to sound tolerance."
+      },
+      {
+        "action": "Real-Ear Measures (Probe Microphone)",
+        "urgency": "routine",
+        "rationale_short": "To verify sound generator output and ensure volume is appropriate relative to the noise floor."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation revealed normal low-to-mid frequency hearing sloping to a mild high-frequency sensorineural hearing loss. Middle ear function was normal. The THS identified sound tolerance as the primary issue relative to the maximum subscale score, prompting a referral for specialty hyperacusis evaluation.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal thresholds 250-3000 Hz, sloping to mild SNHL at 8000 Hz (~35-40 dB HL) bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word recognition scores were 100% AU in quiet."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanic membrane compliance and pressure bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral reflexes present at normal levels bilaterally."
+          },
+          {
+            "name": "Tinnitus and Hearing Survey (THS)",
+            "category": "Questionnaire",
+            "result_summary": "Tinnitus 5/16, Hearing 12/16, Sound Tolerance 3/4; indicates sound tolerance is a significant issue."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Specialty evaluation confirmed clinically significant hyperacusis with reduced LDLs converging with thresholds in the high frequencies. Subjective scales and TFI indicated significant distress. Sound therapy devices were fitted and verified using probe microphone measures.",
+        "tests": [
+          {
+            "name": "Loudness Discomfort Levels (LDLs)",
+            "category": "Sound Tolerance",
+            "result_summary": "Significantly reduced (55-65 dB HL) across 500-8000 Hz bilaterally."
+          },
+          {
+            "name": "Tinnitus Functional Index (TFI)",
+            "category": "Questionnaire",
+            "result_summary": "Score of 33.6, indicating a significant problem with tinnitus."
+          },
+          {
+            "name": "Subjective Scales",
+            "category": "Questionnaire",
+            "result_summary": "Sound tolerance severity 7/10, effect on life 3/10, distress 3/10."
+          },
+          {
+            "name": "Real-Ear Measures (Probe Microphone)",
+            "category": "Verification",
+            "result_summary": "Verified sound generator output; volume set to 44 dB SPL (comfortable but soft), later adjusted to 49 dB SPL."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Ear-level sound therapy using open-fit, receiver-in-the-canal hearing aids with masking circuitry.",
+      "Sound generators programmed with broadband noise (500-4000 Hz).",
+      "Volume set to 'comfortable but soft' (verified 5-7 dB above noise floor).",
+      "Daily use of sound generators for a minimum of 8 hours.",
+      "Subsequent activation of hearing aid microphones to address hearing loss after hyperacusis management."
+    ],
+    "counseling_actions": [
+      "Explained hyperacusis and the goal of desensitizing the auditory system.",
+      "Advised against overprotection (e.g., avoiding earplugs in normal environments like grocery stores).",
+      "Counseled on setting volume to be audible but not annoying.",
+      "Discussed appropriate use of hearing protection only for hazardous noise."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Ongoing management of hyperacusis and tinnitus via sound therapy and eventual amplification."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3 weeks, then 5 months, then 3 months later",
+    "objective": "Monitor LDLs and subjective progress; adjust sound generator settings; eventually introduce amplification for hearing loss."
+  },
+  "expected_outcome": [
+    "Loudness Discomfort Levels (LDLs) at 3 weeks: Shifted to 65-85 dB HL.",
+    "Loudness Discomfort Levels (LDLs) at 5 months: Shifted further to 85-105 dB HL.",
+    "Subjective Sound Tolerance Severity (5 months): Decreased to 3/10.",
+    "THS Sound Tolerance Subscore (5 months): Decreased to 1.",
+    "THS Scores (3 months after hearing aid activation): Tinnitus 5/16, Hearing 0/16, Sound Tolerance 0.5/4.",
+    "Patient reported situational use of amplification and continued use of sound therapy."
+  ]
+}

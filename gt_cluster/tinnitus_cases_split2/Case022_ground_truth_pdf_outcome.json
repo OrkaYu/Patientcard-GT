@@ -1,0 +1,190 @@
+{
+  "case_id": "Case022",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Psychogenic Tinnitus and Dizziness",
+      "rationale_short": "Patient presents with a 'chaos narrative', severe anxiety, and symptoms exacerbated by a recent traumatic event; dizziness is vague and testing is inconclusive due to anxiety."
+    },
+    {
+      "rank": 2,
+      "label": "High-Frequency Sensorineural Hearing Loss",
+      "rationale_short": "Audiometry confirms mild-to-moderate high-frequency sensorineural hearing loss bilaterally."
+    },
+    {
+      "rank": 3,
+      "label": "Hyperacusis",
+      "rationale_short": "Initial severe reduction in loudness discomfort levels (LDLs) which normalized following desensitization exercises."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear pathway, though could not be completed due to patient anxiety."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine degree and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and recognition abilities."
+      },
+      {
+        "action": "High-frequency audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate hearing sensitivity in extended high frequencies (9-20 kHz)."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDL)",
+        "urgency": "routine",
+        "rationale_short": "To quantify sound tolerance and evaluate for hyperacusis."
+      },
+      {
+        "action": "Tinnitus Evaluation",
+        "urgency": "routine",
+        "rationale_short": "To assess tinnitus characteristics, though limited by patient intolerance."
+      },
+      {
+        "action": "Dizziness Handicap Inventory (DHI)",
+        "urgency": "routine",
+        "rationale_short": "To quantify the functional and emotional impact of dizziness."
+      },
+      {
+        "action": "vHIT",
+        "urgency": "routine",
+        "rationale_short": "To assess vestibular function, though aborted due to nausea."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation identified mild-to-moderate high-frequency sensorineural hearing loss. Testing was complicated by significant patient anxiety and aural discomfort, preventing completion of right ear tympanometry and all acoustic reflexes.",
+        "tests": [
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Left ear Type A; Right ear CNT due to discomfort."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Could not be obtained due to patient concern regarding sound levels."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Mild-to-moderate high-frequency SNHL bilaterally; low frequencies normal to mild."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 30 dB HL AU; WRS 88% (Right) and 80% (Left) at 55 dB HL."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Tinnitus evaluation revealed severe sound intolerance (hyperacusis) and extended high-frequency hearing loss. The patient was visibly shaken due to a recent traumatic event, which exacerbated her symptoms and prevented completion of tinnitus questionnaires.",
+        "tests": [
+          {
+            "name": "High-frequency audiometry",
+            "category": "Audiometry",
+            "result_summary": "Moderate to moderately-severe hearing loss bilaterally from 9,000 to 20,000 Hz."
+          },
+          {
+            "name": "Loudness Discomfort Levels (LDL)",
+            "category": "Loudness Tolerance",
+            "result_summary": "Severely reduced tolerance; 65-75 dB HL for tones, 70 dB HL for speech."
+          },
+          {
+            "name": "Tinnitus Evaluation",
+            "category": "Tinnitus",
+            "result_summary": "Could not be completed due to intolerance of procedures; questionnaires declined."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Vestibular assessment was largely inconclusive as the patient became nauseous and anxious, aborting the vHIT. Self-report indicated severe handicap from dizziness.",
+        "tests": [
+          {
+            "name": "Dizziness Handicap Inventory (DHI)",
+            "category": "Questionnaire",
+            "result_summary": "Score of 54, indicating severe handicap."
+          },
+          {
+            "name": "vHIT",
+            "category": "Vestibular",
+            "result_summary": "Aborted because patient became quickly nauseous."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Pre-fitting evaluation showed normalization of loudness tolerance levels following desensitization exercises, allowing for successful hearing aid fitting.",
+        "tests": [
+          {
+            "name": "Loudness Discomfort Levels (LDL)",
+            "category": "Loudness Tolerance",
+            "result_summary": "Normalized to 90-110 dB HL (tones) and 100-105 dB HL (speech)."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Confirmed mild sloping to moderate high-frequency SNHL."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Desensitization exercises (listening to pleasant music)",
+      "Binaural amplification (Receiver-in-the-Canal hearing aids)",
+      "Smartphone app for hearing aid control",
+      "Referral to Disability Resource Services (DRS) for workplace accommodations",
+      "Referral to Primary Care Physician for global health concerns",
+      "Neurologic consult (recommended)",
+      "Pharmacist review of medications and supplements"
+    ],
+    "counseling_actions": [
+      "Discuss the 'chaos narrative' and help patient focus on concrete management steps",
+      "Explain the relationship between anxiety/stress and exacerbation of tinnitus/dizziness",
+      "Clarify correct method for desensitization (start soft, not loud)",
+      "Recommend multidisciplinary approach including psychology/psychiatry",
+      "Instruction on hearing aid features and smartphone app"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Diplopia",
+      "Numbness and tingling in extremities",
+      "Falls",
+      "Inability to complete vestibular testing due to severe symptoms"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurology and Psychiatry/Psychology",
+      "rationale_short": "To rule out neurologic causes for diplopia/dizziness and address severe anxiety and psychogenic factors complicating the presentation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "6 weeks",
+    "objective": "Return for vestibular assessment and hearing aid fitting after desensitization period."
+  },
+  "expected_outcome": [
+    "Loudness Discomfort Levels (LDL): Repeated measures normalized to 90-110 dB HL (tones) and 100-105 dB HL (speech) following desensitization.",
+    "Patient successfully fitted with binaural receiver-in-the-canal (RIC) hearing aids.",
+    "Reported hearing aid issues resolved following re-instruction on smartphone app usage."
+  ]
+}

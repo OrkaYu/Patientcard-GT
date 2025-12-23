@@ -1,0 +1,101 @@
+{
+  "case_id": "Case17_Diplacusis_or_the_A_ected_Audiologist",
+  "title": "Diplacusis or the Affected Audiologist",
+  "demographics": {
+    "age_years": 57,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I woke up this morning with a sudden hearing loss in my right ear. The ear feels full, I hear a constant white noise, and sounds have a 'cellophane' crackling quality.",
+  "problem_summary": {
+    "onset": "Sudden onset upon waking on March 15, 2016.",
+    "course": "Acute; symptoms present immediately upon waking.",
+    "laterality": "Right ear",
+    "associated_symptoms": "Aural fullness, bilateral white noise tinnitus (lateralized right), 'crackling' distortion, and diplacusis (pitch shift).",
+    "functional_impact": "Music sounds distorted (pitch shift); environmental sounds and speech have a crackling sensation.",
+    "goals_motivation": "Immediate assessment and management of sudden hearing loss."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-03-15",
+      "setting": "Audiology Clinic / Home",
+      "history": {
+        "present_illness": "Patient woke up with obvious unilateral change in threshold, fullness, and tinnitus in the right ear. He performed a self-test audiogram early that morning.",
+        "otologic_history": "History of intermittent tinnitus for 40+ years following noise exposure. Reports 'sudden brief unilateral tapering tinnitus' (SBUTT) occasionally.",
+        "noise_exposure_history": "Decades of recreational exposure to recorded and amplified music. No substantial occupational or military noise exposure.",
+        "medical_psych_history": "No vestibular symptoms reported.",
+        "prior_management": "None prior to this morning. Saw ENT later same day and was prescribed prednisone.",
+        "patient_goals": "Understand the hearing loss and pitch distortion."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Onset (Morning of 3/15/16)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 17.1"
+          ],
+          "key_findings": "Left ear thresholds are within normal limits. Right ear shows a severe sensorineural hearing loss sloping from 1 to 8 kHz. Low frequencies (250-500 Hz) are mild-to-moderate.",
+          "numeric_results": {
+            "AD_250Hz": "20 dB HL",
+            "AD_500Hz": "25 dB HL",
+            "AD_1000Hz": "30 dB HL",
+            "AD_1500Hz": "35 dB HL",
+            "AD_2000Hz": "45 dB HL",
+            "AD_3000Hz": "55 dB HL",
+            "AD_4000Hz": "75 dB HL",
+            "AD_6000Hz": "80 dB HL",
+            "AD_8000Hz": "80 dB HL",
+            "AS_Thresholds": "All tested frequencies ≤ 25 dB HL"
+          }
+        },
+        {
+          "name": "Weber Test",
+          "timepoint_label": "Onset",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Lateralized to the left (better ear) at 1000 and 2000 Hz, consistent with sensorineural loss in the right ear.",
+          "numeric_results": null
+        },
+        {
+          "name": "Informal Pitch Matching (Diplacusis check)",
+          "timepoint_label": "Evening of 3/15/16",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "When listening to music, plugging the good ear caused the music to shift upward in pitch by a full step. Plugging the affected ear resulted in natural pitch perception.",
+          "numeric_results": {
+            "Pitch_Shift": "Full step upward in affected (right) ear"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a sudden, unilateral, sloping sensorineural hearing loss in the right ear, ranging from mild in the low frequencies to severe in the high frequencies. The left ear is normal. Findings are corroborated by the Weber test lateralizing to the better ear. The patient exhibits significant diplacusis (upward pitch shift) and distortion ('crackling') in the affected ear.",
+  "counseling_points": [
+    "Sudden Sensorineural Hearing Loss (SSNHL) is a medical urgency; adherence to the prednisone regimen prescribed by the ENT is critical.",
+    "The 'crackling' and pitch distortion (diplacusis) you are experiencing are common with cochlear damage; the hair cells are not coding frequency correctly.",
+    "Avoid loud music or noise exposure during this recovery period to protect the ear.",
+    "Monitor for any changes in balance or dizziness."
+  ],
+  "notes_for_actor": [
+    "You are an audiologist yourself, so you can use professional terminology (e.g., 'thresholds,' 'lateralized,' 'sensorineural').",
+    "Despite your professional knowledge, you are anxious about the distortion and the potential permanence of the loss.",
+    "Describe the 'cellophane' sound vividly—it makes speech and environmental sounds unpleasant.",
+    "Emphasize the pitch difference when listening to music; it sounds 'wrong' or 'out of tune' in your bad ear."
+  ]
+}

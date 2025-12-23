@@ -1,0 +1,123 @@
+{
+  "case_id": "Case047",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Misophonia",
+      "rationale_short": "Disproportionate aversive reactions (rage, disgust) to specific trigger sounds; normal hearing sensitivity."
+    },
+    {
+      "rank": 2,
+      "label": "Hyperacusis",
+      "rationale_short": "Considered due to sound intolerance, but symptoms are specific to triggers rather than general loudness."
+    },
+    {
+      "rank": 3,
+      "label": "Phonophobia",
+      "rationale_short": "Patient exhibits rage/disgust rather than fear; specific triggers rather than general fear of sound."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To rule out outer or middle ear pathology."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and rule out hearing loss."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Device Follow-up",
+        "urgency": "routine",
+        "rationale_short": "To review usage and benefit of sound generators 2 weeks post-fitting."
+      },
+      {
+        "action": "Subjective Report",
+        "urgency": "routine",
+        "rationale_short": "To monitor progress, mood, and social functioning 6 weeks later."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Baseline assessment revealed normal hearing and middle ear function. The history of specific trigger sounds causing rage and disgust, combined with normal audiometry, supports a diagnosis of misophonia.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "result_summary": "No abnormalities detected."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Hearing within normal limits bilaterally (0-15 dB HL across 250-8000 Hz)."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Within normal limits bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Two-week follow-up indicated early benefit from ear-level sound generators, which provided masking and a sense of control. The patient had not yet used the bedside generator.",
+        "tests": [
+          {
+            "name": "Device Follow-up",
+            "result_summary": "Wore ear-level sound generators several times; found them beneficial for masking triggers. Settings: 40 dB SPL output, various low/high cut filters. Mood improved."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Six-week follow-up showed continued improvement in sound tolerance and behavior, aided by concurrent mood-stabilizing medication.",
+        "tests": [
+          {
+            "name": "Subjective Report",
+            "result_summary": "Beneficial effect from mood stabilizers and sound therapy. Able to expose self to previously intolerable sounds (e.g., eating with a friend). Reduced self-harm."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit bilateral GN ReSound I-Fit 71 TS sound generators (open fit, no amplification).",
+      "Program devices with broadband sound at a comfortable level (40 dB SPL) with volume control.",
+      "Provide Sound Oasis bedside sound generator for sleep.",
+      "Encourage use of devices to mask triggers and provide a sense of control.",
+      "Schedule appointments at quiet times (e.g., early morning) to minimize anxiety."
+    ],
+    "counseling_actions": [
+      "Explain misophonia involves connections between the auditory system and emotional centers.",
+      "Validate that the reaction is real and not imagined.",
+      "Advise using sound to mask or soften triggers rather than blocking all sound.",
+      "Discuss gradual acclimatization to difficult environments.",
+      "Empower patient to control volume and programs based on mood."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Ongoing management of misophonia with sound therapy and counseling; patient is already under psychiatric care."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2 weeks, 6 weeks, and 1 year",
+    "objective": "Monitor device usage, symptom severity, and social functioning."
+  },
+  "expected_outcome": [
+    "Patient reported significant progress with symptoms at 1 year, despite ongoing tolerance issues.",
+    "Able to participate in activities previously impossible, such as going to the supermarket, dentist, optician, and GP.",
+    "Used sound generators to manage situations and gain a sense of control.",
+    "Reported satisfaction with devices and no preferred program."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "case_id": "Case006",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Tinnitus secondary to concussion",
+      "rationale_short": "Sudden onset of tinnitus following a motor-vehicle accident with whiplash and head injury."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural hearing loss (Traumatic)",
+      "rationale_short": "Asymmetric high-frequency hearing loss (left worse than right) consistent with the side of impact and trauma history."
+    },
+    {
+      "rank": 3,
+      "label": "Hyperacusis",
+      "rationale_short": "Significant sound sensitivity preventing suprathreshold reflex testing; reported discomfort with loud sounds."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline assessment of hearing thresholds given reported tinnitus and trauma."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assessment of retrocochlear pathology, though often limited by hyperacusis."
+      },
+      {
+        "action": "Distortion Product Otoacoustic Emissions (DPOAE)",
+        "urgency": "routine",
+        "rationale_short": "Cross-check of cochlear outer hair cell function, particularly for asymmetric loss."
+      },
+      {
+        "action": "Tinnitus Assessment",
+        "urgency": "routine",
+        "rationale_short": "Psychoacoustic characterization of tinnitus (pitch, loudness, masking levels)."
+      },
+      {
+        "action": "Self-Directed Tinnitus Match (Levo)",
+        "urgency": "routine",
+        "rationale_short": "Patient-driven pitch matching to address patient anxiety and desire for precision."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results revealed asymmetric high-frequency sensorineural hearing loss (Left worse than Right) with normal middle ear function. Acoustic reflexes were aborted due to significant sound sensitivity (hyperacusis). Tinnitus was matched to a high frequency (~9 kHz) with severe functional impact (THI 68, TFI 76) and high anxiety. DPOAEs were reduced in the left ear, consistent with the hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal through 6 kHz with mild-to-moderate loss at 8 kHz+; Left ear mild-to-moderate SNHL above 3 kHz."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Jerger Type A bilaterally, indicating normal middle ear function."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Aborted due to uncomfortable loudness (UCL) reached at 80-90 dB HL; not conducted."
+          },
+          {
+            "name": "Distortion Product Otoacoustic Emissions (DPOAE)",
+            "category": "OAE",
+            "result_summary": "Present at 6-dB SNR; normal amplitudes for 8/13 frequencies in Right ear vs 4/13 in Left ear."
+          },
+          {
+            "name": "Tinnitus Assessment",
+            "category": "Tinnitus",
+            "result_summary": "Pitch match ~9000 Hz; Loudness match 12 dB SL; MML 58 dB SL (Left); Residual Inhibition 3 seconds."
+          },
+          {
+            "name": "Self-Directed Tinnitus Match (Levo)",
+            "category": "Tinnitus",
+            "result_summary": "Patient localized tinnitus to 8,558 Hz; process took 15 minutes and provided reassurance."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Tinnitus Retraining Therapy (TRT)",
+      "Mild amplification (hearing aid) for the left ear",
+      "Sound enrichment (masker-app, classical music, streamed masking sounds)",
+      "Progressive Muscle Relaxation (PMR) techniques",
+      "Sleep hygiene adjustments (transition from Desyrel to Melatonin)",
+      "Filtered earplugs (ETY plugs) for sporting events"
+    ],
+    "counseling_actions": [
+      "Counseling on the nature of tinnitus and the purpose of testing (approximation vs. exact performance)",
+      "Explanation of the benefits of amplification for tinnitus treatment and auditory enrichment",
+      "Reassurance regarding test results to alleviate performance anxiety",
+      "Instruction on progressive muscle relaxation (PMR) for anxiety and sleep"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss",
+      "Sudden-onset tinnitus post-trauma"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Psychology",
+      "rationale_short": "Referral for cognitive behavioral therapy (CBT) to address severe anxiety and sleep disturbance, while neurology managed the head injury and ruled out retrocochlear pathology."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month, 3 months, and 6 months",
+    "objective": "Monitor tinnitus handicap scores (THI/TFI), adjust TRT/sound therapy, and assess habituation."
+  },
+  "expected_outcome": [
+    "1-month follow-up: THI score 62 and TFI score 78.",
+    "3-month follow-up: THI score 48 and TFI score 50.",
+    "6-month follow-up: Concussion symptom checklist 33, THI 36, and TFI 48.",
+    "Patient reported symptoms improved dramatically and she was managing tinnitus well with TRT device/streamed masking sounds.",
+    "Sleep improved; patient transitioned to Melatonin and discontinued Desyrel."
+  ]
+}

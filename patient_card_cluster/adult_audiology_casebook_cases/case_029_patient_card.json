@@ -1,0 +1,268 @@
+{
+  "case_id": "case29_Adult_Patient_with_Chronic_Otitis_Media",
+  "title": "Adult Patient with Chronic Otitis Media and Recurrent BPPV",
+  "demographics": {
+    "age_years": 66,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "The patient reports difficulty hearing, states he has 'no right eardrum,' and experiences occasional dizziness.",
+  "problem_summary": {
+    "onset": "Long-standing history of chronic otitis media; dizziness is recurrent.",
+    "course": "Chronic ear infections aggravated by URIs 4-5 times/year; dizziness previously treated but recurred.",
+    "laterality": "Bilateral hearing loss (asymmetric configuration initially); Right ear chronic pathology.",
+    "associated_symptoms": "Malodorous otorrhea (history), constant bilateral tinnitus, positional vertigo.",
+    "functional_impact": "Severe perceived handicap initially (HHIE-S 28/40); expressive aphasia secondary to stroke.",
+    "goals_motivation": "Manage hearing loss and dizziness."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-02-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Referred by PCP for hearing difficulties and dizziness. Reports 'no right eardrum'.",
+        "otologic_history": "History of chronic otitis media with malodorous otorrhea, aggravated by URIs. Previous BPPV diagnosed and treated with Epley maneuvers.",
+        "noise_exposure_history": "5 years employment at a welding factory.",
+        "medical_psych_history": "Stroke (resulting in expressive aphasia), hypertension, Hepatitis C. MRI/MRA ruled out retrocochlear pathology.",
+        "prior_management": "Previous canalith repositioning maneuvers for BPPV.",
+        "patient_goals": "Evaluation of hearing and dizziness."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right: Large central perforation in TM without obvious drainage. Left: Intact and normal appearance.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tympanometry (226 Hz)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 29.1"
+          ],
+          "key_findings": "Right: Flat (Type B) with large ear canal volume consistent with perforation. Left: Normal volume and compliance but significant negative pressure.",
+          "numeric_results": {
+            "Right_ECV": "4.5 mL",
+            "Left_Pressure": "-155 daPa",
+            "Left_Compliance": "1.3 mL"
+          }
+        },
+        {
+          "name": "Tympanometry (678 Hz)",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Performed due to negative pressure. Revealed abnormally mass-dominated middle ear system, consistent with chronic otitis media.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 29.1"
+          ],
+          "key_findings": "Left: Slight to gradually sloping moderate-severe SNHL. Right: Slight steeply sloping to severe mixed hearing loss with air-bone gaps of 15-30 dB.",
+          "numeric_results": {
+            "Right_PTA": "65 dB HL",
+            "Left_PTA": "43 dB HL",
+            "Right_AC_Thresholds": "Slope from ~35 dB (250Hz) to ~80 dB (4000Hz)",
+            "Left_AC_Thresholds": "Slope from ~25 dB (250Hz) to ~75 dB (4000Hz)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 29.1"
+          ],
+          "key_findings": "SRTs in good agreement with PTAs. WRS (Maryland CNC) showed moderate difficulty in the right ear and slight difficulty in the left.",
+          "numeric_results": {
+            "Right_SRT": "65 dB HL",
+            "Left_SRT": "40 dB HL",
+            "Right_WRS": "60%",
+            "Left_WRS": "80%"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 29.1"
+          ],
+          "key_findings": "Right: Not measurable due to perforation. Left: Absent to ipsilateral and contralateral stimulation.",
+          "numeric_results": {}
+        },
+        {
+          "name": "HHIE-S",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Indicated severe perceived handicap.",
+          "numeric_results": {
+            "Score": "28/40"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2013-06-06",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Post-operative evaluation following right tympanoplasty. Patient also reports recurrence of episodic vertigo (daily, 10-20 seconds, triggered by turning to right side).",
+        "prior_management": "Right tympanoplasty performed using cartilage palisades. Strict dry ear precautions followed.",
+        "patient_goals": "Hearing aid fitting and check of surgical outcome."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 29.2"
+          ],
+          "key_findings": "Right air-bone gaps effectively resolved. Configurations are now essentially symmetric SNHL (slight sloping to severe/moderate-severe).",
+          "numeric_results": {
+            "Right_PTA": "50 dB HL",
+            "Left_PTA": "45 dB HL",
+            "Right_AC_Thresholds": "~30 dB (250Hz) to ~70 dB (4000Hz)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 29.2"
+          ],
+          "key_findings": "SRTs agree with PTAs. WRS improved in the right ear.",
+          "numeric_results": {
+            "Right_SRT": "50 dB HL",
+            "Left_SRT": "45 dB HL",
+            "Right_WRS": "72%",
+            "Left_WRS": "72%"
+          }
+        },
+        {
+          "name": "Tympanometry (226 Hz)",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 29.2"
+          ],
+          "key_findings": "Right: Hypocompliant movement, normal volume (perforation closed). Left: Normal.",
+          "numeric_results": {
+            "Right_Compliance": "0.2 mL",
+            "Right_ECV": "1.7 mL",
+            "Left_Compliance": "1.0 mL"
+          }
+        },
+        {
+          "name": "Hearing Aid Verification (Real-Ear)",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Bilateral wireless BTEs with acrylic earmolds and large vents. Excellent matches to NAL-NL2 targets at 55, 65, and 75 dB SPL.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "4-week hearing aid follow-up.",
+        "prior_management": "Patient saw Physical Therapy for vertigo; confirmed BPPV and treated with Epley maneuvers.",
+        "patient_goals": "Follow-up on devices."
+      },
+      "tests": [
+        {
+          "name": "HHIE-S",
+          "timepoint_label": "Follow-up",
+          "ear": null,
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Indicated no subjective hearing handicap. Patient reported high satisfaction.",
+          "numeric_results": {
+            "Score": "8/40"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient initially presented with a mixed hearing loss in the right ear due to a large tympanic membrane perforation and chronic otitis media, alongside a sensorineural loss in the left ear. Following successful tympanoplasty, the conductive component in the right ear resolved, resulting in symmetric, slight sloping to severe sensorineural hearing loss bilaterally. Speech recognition ability is fair to good bilaterally. The patient has been successfully fitted with bilateral BTE hearing aids.",
+  "counseling_points": [
+    "Continue to follow dry ear precautions as advised by your surgeon to protect the repaired eardrum.",
+    "Your hearing aids are vented to allow air flow, which is important for your ear health given your history of infections.",
+    "If dizziness returns, perform the Epley maneuvers as instructed by your physical therapist, as BPPV can be recurrent.",
+    "Monitor for any signs of drainage or odor from the ears and report to your ENT immediately."
+  ],
+  "notes_for_actor": [
+    "You have expressive aphasia from a previous stroke; speak somewhat haltingly or struggle to find the right words occasionally.",
+    "You are a former welder and accustomed to noise, but the tinnitus is constant.",
+    "You are very satisfied with the hearing aids but concerned about the dizziness returning."
+  ]
+}

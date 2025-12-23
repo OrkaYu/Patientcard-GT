@@ -1,0 +1,89 @@
+{
+  "case_id": "Case028",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Hidden Hearing Loss / Cochlear Synaptopathy",
+      "rationale_short": "Patient presents with normal pure-tone thresholds but significant functional deficits (tinnitus, sound intolerance, speech-in-noise difficulty), suggesting synaptic damage not detected by standard audiograms."
+    },
+    {
+      "rank": 2,
+      "label": "Tinnitus",
+      "rationale_short": "Likely resulting from central compensatory adjustments (increased gain) in response to undetected peripheral neural deficits."
+    },
+    {
+      "rank": 3,
+      "label": "Sound Intolerance / Hyperacusis",
+      "rationale_short": "Manifests as decreased tolerance for routine sounds and reduced dynamic range, often co-occurring with tinnitus and hidden hearing loss."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity thresholds across the standard frequency range."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To evaluate functional communication ability in noise, which may be impaired despite normal thresholds."
+      },
+      {
+        "action": "Loudness Tolerance Testing",
+        "urgency": "routine",
+        "rationale_short": "To assess the upper end of the dynamic range and identify decreased tolerance for sounds."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates normal hearing sensitivity on the standard audiogram but reports significant distress, tinnitus, and sound intolerance. This discrepancy is consistent with 'hidden hearing loss' or cochlear synaptopathy, where peripheral deficits trigger central gain compensation.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Thresholds are within normal limits across the standard frequency range (250–8,000 Hz)."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Speech Audiometry",
+            "result_summary": "May demonstrate impaired words-in-noise recognition or struggle in real-world environments despite normal audiogram."
+          },
+          {
+            "name": "Loudness Tolerance Testing",
+            "category": "Other",
+            "result_summary": "May identify decreased tolerance for routine sounds (reduced dynamic range)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Sound therapy using smartphone apps (nature sounds, white noise)",
+      "Hearing aids with tinnitus sound generation (TSG)",
+      "Low-gain amplification to provide enriched sound environment",
+      "Bedside speaker or sleep headband for sleep disturbance"
+    ],
+    "counseling_actions": [
+      "Explain that a normal audiogram does not rule out auditory system deficits (e.g., 'broken piano keys' analogy for hidden hearing loss)",
+      "Advise against using hearing protection for everyday sounds to avoid increasing central sensitivity",
+      "Counsel that desensitization is a slow process ('marathon, not a sprint') requiring consistent sound enrichment",
+      "Discuss central gain compensation mechanisms"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient requires audiologic rehabilitation for tinnitus and sound intolerance; no acute medical pathology indicated."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor desensitization progress, adjust sound therapy strategies, and support symptom management."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,89 @@
+{
+  "case_id": "Case004_08",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Normal hearing sensitivity",
+      "rationale_short": "Pure-tone thresholds, speech recognition scores, and immittance testing are within normal limits bilaterally."
+    },
+    {
+      "rank": 2,
+      "label": "Meniere's disease (suspected)",
+      "rationale_short": "History of fluctuating unilateral hearing loss, aural fullness, and vertigo is consistent with endolymphatic hydrops, despite the normal inter-attack audiogram."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing sensitivity given complaints of decreased, muffled hearing."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech understanding capabilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess retrocochlear pathway integrity."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates bilateral normal hearing sensitivity and excellent word recognition abilities. Immittance testing indicates normal middle ear function and intact acoustic reflexes, with no audiological evidence of retrocochlear pathology at this time.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally (250-8000 Hz); PTA Right 8 dB HL, Left 7 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT Right 8 dB HL, Left 5 dB HL; WRS 96% at 55 dB HL bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present and normal generally; Left ipsilateral elevated at 4000 Hz; Reflex decay negative."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Return for a hearing test as needed"
+    ],
+    "counseling_actions": [
+      "Explain that hearing sensitivity and speech understanding are currently within normal limits despite subjective sensation of muffling.",
+      "Discuss the importance of medical follow-up for vertigo and aural fullness."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Scheduled follow-up to investigate the medical cause of vertigo, aural fullness, and fluctuating subjective hearing loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor for changes in hearing status."
+  },
+  "expected_outcome": []
+}

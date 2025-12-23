@@ -1,0 +1,153 @@
+{
+  "case_id": "case_5_9",
+  "title": "Brainstem Involvement: Right Vertebral Artery Aneurysm",
+  "demographics": {
+    "age_years": 48,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "The patient reports a 9-month history of decreasing sensation on the right side of his face and progressive hearing difficulty in the right ear. He also describes periodic dizziness, clumsiness, and severe headaches, though he tends to minimize the severity of these symptoms.",
+  "problem_summary": {
+    "onset": "9 months prior to evaluation.",
+    "course": "Progressive worsening of facial sensation and hearing; dizziness and ataxia appeared 2 months prior to visit.",
+    "laterality": "Right",
+    "associated_symptoms": "Right-sided facial numbness, ataxia/clumsiness, severe occipital headaches, double vision on lateral gaze.",
+    "functional_impact": "Severe; wife reports symptoms are quite severe despite patient's minimization.",
+    "goals_motivation": "Referred for evaluation of possible right CPA tumor."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic / Medical Center",
+      "history": {
+        "present_illness": "48-year-old male referred for possible right CPA tumor. 9-month history of progressive right facial sensation loss and hearing difficulty. 2 months ago, developed periodic dizziness (ataxic), clumsiness, occipital headaches, and diplopia on lateral gaze.",
+        "otologic_history": "Progressive hearing difficulty on the right.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Minimizes symptoms.",
+        "prior_management": "Referred for evaluation.",
+        "patient_goals": "Diagnosis and management of symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-30"
+          ],
+          "key_findings": "Left ear thresholds are within normal limits. Right ear shows a severe low-frequency hearing loss rising to normal limits in the high frequencies. Thresholds were extremely difficult to obtain; ascending method yielded poor/varied results, while descending trials were sensitive. Reported thresholds are the mean.",
+          "numeric_results": {
+            "LE_AC_Thresholds_dBHL": "250Hz: 10, 500Hz: 5, 1000Hz: 5, 2000Hz: 0, 4000Hz: 10, 8000Hz: 20",
+            "RE_AC_Thresholds_dBHL": "250Hz: 80, 500Hz: 50, 1000Hz: 30, 2000Hz: 20, 4000Hz: 10, 8000Hz: 20"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-30"
+          ],
+          "key_findings": "Speech recognition scores for the right ear were extremely poor.",
+          "numeric_results": {
+            "RE_Word_Recognition": "8% at +20 dB, 4% at +30 dB"
+          }
+        },
+        {
+          "name": "Bekesy Audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Sweep frequency Bekesy done due to standard testing difficulty. Pulsed tones similar to continuous at 200-300 Hz and 4500-8000 Hz. In mid-frequencies, continuous tone thresholds were 60-65 dB poorer than pulsed tones (significant abnormal adaptation). Wide excursions noted.",
+          "numeric_results": null
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Tympanograms were normal bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Contralateral reflexes absent for the right ear (stimulus) at 500-4000 Hz. Left ear (stimulus) present at 500, 1000, 2000 Hz (elevated at 500/1000) and absent at 4000 Hz.",
+          "numeric_results": null
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-31"
+          ],
+          "key_findings": "Abnormal bilaterally. Left ear: Normal waves I, II, III; IV-V complex distorted/nondiscernable. Right ear: Normal waves I and II; no apparent waves after wave II.",
+          "numeric_results": {
+            "LE_Latencies": "Wave I: 1.7 msec, Wave II: 2.8 msec, Wave III: 3.8 msec",
+            "RE_Latencies": "Wave I: 1.8 msec, Wave II: 3.0 msec"
+          }
+        },
+        {
+          "name": "Radiology (CT/Arteriogram)",
+          "timepoint_label": "Baseline",
+          "ear": "n/a",
+          "condition": "n/a",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-29",
+            "Figure 5-32"
+          ],
+          "key_findings": "CT revealed large (5-6 cm) extra-axial vascular lesion. Arteriogram confirmed large aneurysm arising from the right vertebral artery, displacing the pons, basilar artery, and fourth ventricle markedly to the left.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a large right vertebral artery aneurysm compressing the brainstem. Audiologically, this manifests as a low-frequency sensorineural hearing loss on the right with extremely poor speech recognition (disproportionate to pure tones) and significant tone decay (Bekesy continuous vs pulsed discrepancy). ABR results indicate brainstem involvement, with absent waves after wave II on the right and distorted late waves on the left. The inability to track ascending pure tone thresholds suggests a disruption of attentional mechanisms required for signal recognition.",
+  "counseling_points": [
+    "Explain the correlation between the hearing loss/dizziness and the identified vascular lesion.",
+    "Discuss the 'retrocochlear' nature of the hearing loss, explaining why speech clarity is so poor despite some preserved hearing sensitivity in high frequencies.",
+    "Review the difficulty in testing (ascending vs descending) as a physiological manifestation of the central lesion.",
+    "Defer management to neurosurgery/neurology for the aneurysm."
+  ],
+  "notes_for_actor": [
+    "You should minimize your symptoms when speaking to the clinician, acting as if they aren't a big deal, even though your history indicates severe issues (ataxia, double vision).",
+    "You have trouble hearing low-pitched sounds in your right ear.",
+    "During the hearing test, you found it much easier to hear the beeps when they started loud and got softer, rather than starting soft and getting louder."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "case_id": "case_7_6",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Otosclerosis",
+      "rationale_short": "Progressive mixed hearing loss with low-frequency air-bone gaps, familial history, absent acoustic reflexes, and hypocompliant tympanogram (right ear), confirmed by ENT diagnosis."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate thresholds given reported decline in hearing ability."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and compliance."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and check for middle ear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with bilateral asymmetric mixed hearing loss, ranging from moderate to severe, with significant low-frequency air-bone gaps (20–30 dB). Speech recognition scores are consistent with the degree of hearing loss. Immittance testing reveals reduced compliance in the right ear and absent acoustic reflexes bilaterally, findings consistent with middle ear pathology such as otosclerosis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderately severe to severe mixed loss (PTA 65 dB HL) with 25-30 dB air-bone gaps at 250-1000 Hz. Left ear: Moderate to severe mixed loss (PTA 62 dB HL) with 20-30 dB air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs (Right 65 dB HL, Left 55 dB HL) agree with PTA. WRS shows slight difficulty (Right 84%, Left 80% at 85 dB HL)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Hypocompliant (Type As, 0.20 mL). Left ear: Normal (Type A, 0.30 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent thresholds from 500 to 4,000 Hz for ipsilateral and contralateral stimulation bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue use of amplification",
+      "Evaluation for new technology and style of hearing aids",
+      "Complete an evaluation for Hearing Assistive Technology (HAT)",
+      "Annual hearing testing to monitor progression"
+    ],
+    "counseling_actions": [
+      "Discussed surgical options for otosclerosis",
+      "Counseled on the progression of the conductive hearing loss component"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist",
+      "rationale_short": "Referral due to progression of the conductive hearing loss component."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annually",
+    "objective": "Monitor progression of hearing loss and hearing aid benefit."
+  },
+  "expected_outcome": [
+    "Patient was diagnosed with bilateral otosclerosis by the ENT specialist.",
+    "Patient was not interested in surgery and elected to continue with amplification.",
+    "Plan established to evaluate for new hearing aids and Hearing Assistive Technology (HAT)."
+  ]
+}

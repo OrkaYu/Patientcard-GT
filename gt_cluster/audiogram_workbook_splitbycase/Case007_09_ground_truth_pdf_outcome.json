@@ -1,0 +1,86 @@
+{
+  "case_id": "Case007_09",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Benign Paroxysmal Positional Vertigo (BPPV)",
+      "rationale_short": "Patient reported dizziness described as being off-balance with head movement; ENT evaluation confirmed symptoms consistent with left BPPV."
+    },
+    {
+      "rank": 2,
+      "label": "Bilateral Otosclerosis (Post-Stapedectomy)",
+      "rationale_short": "History of bilateral stapedectomy and revision surgeries; audiogram reveals mixed hearing loss profile."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given history of otosclerosis and surgeries."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Standard assessment of middle ear function, though often contraindicated or deferred in post-stapedectomy cases."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation revealed a complex mixed hearing loss profile consistent with the patient's history of bilateral stapedectomies. The right ear showed mild-to-severe mixed loss, while the left ear retained largely normal sensitivity in the low-to-mid frequencies before sloping to a mixed loss. Speech recognition was excellent bilaterally. Immittance testing was not performed due to the surgical history.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Slight sloping to mild mixed loss (250-1000 Hz), sloping to moderate-to-severe (2000-4000 Hz). Left ear: Slight SNHL (250-500 Hz), rising to normal (1000-2000 Hz), sloping to moderate mixed loss (4000-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT: 37 dB HL, WRS: 96% at 70 dB HL. Left SRT: 10 dB HL, WRS: 90% at 60 dB HL. Excellent word recognition bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not measured due to a history of otosurgery."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to ENT for evaluation of dizziness",
+      "Annual hearing monitoring",
+      "Follow-up for amplification if interest develops"
+    ],
+    "counseling_actions": [
+      "Discussed hearing results showing stable post-surgical status",
+      "Explained that dizziness symptoms are consistent with BPPV",
+      "Advised on monitoring hearing stability annually"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist",
+      "rationale_short": "For evaluation and management of dizziness symptoms (BPPV)."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing stability."
+  },
+  "expected_outcome": [
+    "ENT evaluation revealed symptoms consistent with left BPPV.",
+    "Patient continued follow-up with an ENT specialist as recommended.",
+    "Annual testing to monitor hearing stability was recommended."
+  ]
+}

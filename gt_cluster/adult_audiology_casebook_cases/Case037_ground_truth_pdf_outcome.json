@@ -1,0 +1,137 @@
+{
+  "case_id": "Case037",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral high-frequency sensorineural hearing loss",
+      "rationale_short": "History of noise exposure and aging; audiogram shows normal low frequencies sloping to severe high-frequency loss."
+    },
+    {
+      "rank": 2,
+      "label": "Cochlear dead regions",
+      "rationale_short": "TEN test indicated dead regions at 8,000 and 10,000 Hz bilaterally."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds and configuration, including high frequencies."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear pathology and confirm SNHL."
+      },
+      {
+        "action": "TEN Test",
+        "urgency": "routine",
+        "rationale_short": "To identify presence of cochlear dead regions in high frequencies."
+      },
+      {
+        "action": "Real-Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify performance of current open-fit hearing aids against targets."
+      },
+      {
+        "action": "Speech-in-noise (HIST)",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding in noise with current devices."
+      },
+      {
+        "action": "Soundfield Thresholds",
+        "urgency": "routine",
+        "rationale_short": "To measure functional gain with current hearing aids."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient has bilateral symmetrical high-frequency SNHL with cochlear dead regions at 8 and 10 kHz. Current open-fit hearing aids provide insufficient high-frequency audibility and poor speech-in-noise performance, likely due to feedback limitations and open domes preventing adequate gain in the severe loss range.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing 125-500 Hz, sloping to moderate SNHL at 750-1000 Hz, and severe SNHL at 1500-8000 Hz. Thresholds at 10 kHz were approx 95-100 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs agree with PTA. WRS: 82% Right, 70% Left at 85 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A (normal) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral reflexes at 2000 and 4000 Hz; consistent with hearing loss degree."
+          },
+          {
+            "name": "TEN Test",
+            "category": "Special Test",
+            "result_summary": "Positive for cochlear dead regions at 8,000 and 10,000 Hz in both ears."
+          },
+          {
+            "name": "Real-Ear Measures (REM)",
+            "category": "Verification",
+            "result_summary": "Current open-fit aids undershoot targets and are mostly inaudible between 1500-8000 Hz."
+          },
+          {
+            "name": "Speech-in-noise (HIST)",
+            "category": "Functional",
+            "result_summary": "RTS of +3.0 dB with current aids, significantly poorer than normal (-4.9 dB)."
+          },
+          {
+            "name": "Soundfield Thresholds",
+            "category": "Functional",
+            "result_summary": "Little to no significant benefit in high frequencies with current open-fit aids."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit with Earlens light-driven hearing aids bilaterally.",
+      "Two-month fitting optimization period.",
+      "Acclimatization to high-frequency amplification."
+    ],
+    "counseling_actions": [
+      "Explain that current open-fit aids cannot provide sufficient high-frequency gain without feedback.",
+      "Discuss the presence of dead regions and that amplification may still be beneficial.",
+      "Counsel on the Earlens device mechanism (light-driven tympanic lens).",
+      "Counsel on potential mild perceptual effects like autophony or damping with the lens."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology and Otolaryngology",
+      "rationale_short": "Proceed with study protocol involving Earlens fitting (requires ENT for lens placement) to address high-frequency loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2 months",
+    "objective": "Optimize fitting, allow acclimatization, and re-evaluate performance with Earlens."
+  },
+  "expected_outcome": [
+    "Aided sound-field thresholds (Earlens): Improvements of 25 to 40 dB HL noted between 2,000 and 10,000 Hz for the right ear and 20 to 35 dB HL between 1,000 and 10,000 Hz for the left ear compared to open-fit devices.",
+    "Speech-in-noise (HIST): RTS improved to -2.8 dB with Earlens, representing a 5.8 dB improvement over open-fit aids.",
+    "Subjective report: Patient indicated speech and music sounded clearer and more natural with Earlens and elected to keep the devices."
+  ]
+}

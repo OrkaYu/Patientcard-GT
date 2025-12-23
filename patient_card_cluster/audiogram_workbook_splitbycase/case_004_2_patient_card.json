@@ -1,0 +1,128 @@
+{
+  "case_id": "case_4_2",
+  "title": "Normal Hearing with Misophonia Symptoms",
+  "demographics": {
+    "age_years": 20,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I get an instant feeling of anger when I hear specific sounds like people chewing, sniffing, coughing, or clicking a pen.",
+  "problem_summary": {
+    "onset": "Symptoms started around age 8.",
+    "course": "Chronic; patient cannot recall a specific inciting event.",
+    "laterality": "Bilateral (reaction to environmental sounds).",
+    "associated_symptoms": "Instant anger upon hearing triggers; immediate relaxation when away from triggers.",
+    "functional_impact": "Avoids situations where trigger sounds occur or leaves the situation; parents are the worst triggers.",
+    "goals_motivation": "Seeking explanation and management for sound sensitivity."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-07-29",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports intense anger triggered by specific sounds (chewing, sniffing, coughing, pen clicking). Symptoms began at age 8. No specific trauma noted.",
+        "otologic_history": "No other otologic symptoms or history reported.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "None reported in history, though later referred for counseling.",
+        "prior_management": "Avoidance of trigger situations.",
+        "patient_goals": "Diagnosis and management."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.2"
+          ],
+          "key_findings": "Pure-tone thresholds were within normal limits from 250 to 8,000 Hz bilaterally.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "0-10 dB HL range",
+            "Left_AC_Thresholds": "0-10 dB HL range"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.2"
+          ],
+          "key_findings": "SRT revealed normal ability to receive speech, in agreement with PTA. WRS revealed excellent ability to recognize speech.",
+          "numeric_results": {
+            "SRT_Right": "7 dB",
+            "SRT_Left": "3 dB",
+            "WRS_Right": "100% at 50 dB HL",
+            "WRS_Left": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.2"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "Right_Canal_Volume": "1.0 mL",
+            "Right_Static_Admittance": "0.7 mmho",
+            "Right_Peak_Pressure": "-10 daPa",
+            "Left_Canal_Volume": "1.1 mL",
+            "Left_Static_Admittance": "0.9 mmho",
+            "Left_Peak_Pressure": "0 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.2"
+          ],
+          "key_findings": "Acoustic reflex thresholds were normal with ipsilateral and contralateral stimulation from 500 to 4,000 Hz. Reflex decay was negative at 500 and 1,000 Hz.",
+          "numeric_results": {
+            "Reflex_Thresholds_Range": "80-90 dB HL across frequencies"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally, excellent speech recognition, and normal middle ear function. Despite normal peripheral auditory function, the patient exhibits classic symptoms of misophonia, characterized by strong emotional reactions (anger) to specific trigger sounds.",
+  "counseling_points": [
+    "Your hearing test indicates that your ears are physically healthy and your hearing sensitivity is completely normal.",
+    "The reactions you are describing—intense anger at specific sounds like chewing or sniffing—are consistent with a condition called Misophonia.",
+    "This is not a problem with your ears, but rather how your brain processes and reacts emotionally to these specific patterns of sound.",
+    "We recommend a consultation with an ENT to rule out any medical issues, followed by sound therapy (using sound generators) and counseling (such as CBT) to help manage your reactions.",
+    "While it might be tempting to wear earplugs, we generally recommend avoiding constant hearing protection as it can make the brain even more sensitive to these sounds over time."
+  ],
+  "notes_for_actor": [
+    "You are a 20-year-old female.",
+    "You have normal hearing but suffer from intense, irrational anger when you hear 'trigger' sounds like chewing, sniffing, or pen clicking.",
+    "You feel guilty because your parents are the worst triggers for you.",
+    "You are anxious about social situations where you can't escape these sounds.",
+    "You are not in physical pain, but the emotional reaction is instant and overwhelming."
+  ]
+}

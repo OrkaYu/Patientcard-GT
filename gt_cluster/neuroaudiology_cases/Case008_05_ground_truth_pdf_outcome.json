@@ -1,0 +1,120 @@
+{
+  "case_id": "Case008_05",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder",
+      "rationale_short": "Significant left-ear deficits on dichotic tasks and bilateral deficits on pattern perception tests, consistent with right hemisphere stroke and corpus callosum involvement."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural Hearing Loss",
+      "rationale_short": "Mild high-frequency hearing loss seen on audiometry, likely peripheral and incidental to the central pathology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech recognition ability in quiet."
+      },
+      {
+        "action": "Central behavioral tests",
+        "urgency": "routine",
+        "rationale_short": "Evaluate central auditory processing, specifically interhemispheric transfer and pattern perception (Dichotic Rhyme, CVs, Digits, Duration Patterns)."
+      },
+      {
+        "action": "Electrophysiology",
+        "urgency": "routine",
+        "rationale_short": "Assess neural integrity (ABR) and cortical/subcortical responses (MLR) for asymmetry."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing is largely preserved with only mild high-frequency loss. Central testing reveals a pattern consistent with right hemisphere and callosal damage: significant left-ear deficits on dichotic tasks (Rhyme, CVs) due to disconnection from the left hemisphere, and bilateral deficits on duration patterns due to impaired interhemispheric interaction. MLR shows reduced amplitude over the damaged right hemisphere.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilaterally symmetrical, mild high-frequency sensorineural hearing loss; 250-1000 Hz ~10-15 dB HL, 8000 Hz ~50 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal bilaterally; WRS Right 92%, Left 88%."
+          },
+          {
+            "name": "Dichotic Rhyme Test",
+            "category": "Central Auditory",
+            "result_summary": "Right ear ~90% (normal), Left ear ~35% (abnormal)."
+          },
+          {
+            "name": "Dichotic CVs",
+            "category": "Central Auditory",
+            "result_summary": "Right ear ~80% (normal), Left ear ~40% (abnormal)."
+          },
+          {
+            "name": "Dichotic Digits",
+            "category": "Central Auditory",
+            "result_summary": "Right ear ~100%, Left ear ~85% (mildly abnormal)."
+          },
+          {
+            "name": "Duration Patterns",
+            "category": "Central Auditory",
+            "result_summary": "Bilateral deficit (~40%)."
+          },
+          {
+            "name": "Monaural Digits in Competition",
+            "category": "Central Auditory",
+            "result_summary": "Essentially normal; Right 90%, Left 80%."
+          },
+          {
+            "name": "ABR",
+            "category": "Electrophysiology",
+            "result_summary": "Normal."
+          },
+          {
+            "name": "MLR",
+            "category": "Electrophysiology",
+            "result_summary": "Reduced amplitudes of the Na-Pa complex for the C4 recording (right hemisphere) compared to C3."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Neurologic follow-up"
+    ],
+    "counseling_actions": [
+      "Explain that peripheral hearing is normal but the pathways connecting the brain hemispheres are damaged.",
+      "Discuss how this disconnection explains left-ear difficulties in challenging listening environments (dichotic tasks).",
+      "Highlight that difficulty with pattern perception is expected due to the need for interhemispheric transfer.",
+      "Reassure that speech understanding in quiet remains good."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Continued monitoring of stable right hemisphere stroke sequelae."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor stability of auditory and neurologic symptoms."
+  },
+  "expected_outcome": [
+    "Patient's condition is stable.",
+    "Persisting alien hand syndrome and subtle subjective auditory difficulties.",
+    "Electively does not drive but otherwise does well in everyday situations."
+  ]
+}

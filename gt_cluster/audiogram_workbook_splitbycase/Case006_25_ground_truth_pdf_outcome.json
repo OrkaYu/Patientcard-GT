@@ -1,0 +1,89 @@
+{
+  "case_id": "Case006_25",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Ossicular discontinuity",
+      "rationale_short": "History of head trauma and temporal bone fracture, conductive hearing loss with significant air-bone gaps, hypercompliant (Type Ad) tympanogram, and absent acoustic reflexes."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess tympanic membrane compliance and middle ear status."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the acoustic reflex arc."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear exhibits a conductive hearing loss characterized by a slight sensorineural loss at 250 Hz, mild conductive loss in the mid-frequencies, and moderate-to-moderately severe loss in the high frequencies, with significant air-bone gaps. The left ear is within normal limits. Tympanometry reveals a hypercompliant (Type Ad) system in the right ear and a normal (Type A) system in the left. Acoustic reflexes are absent for right ear stimulation and left ear contralateral stimulation, consistent with ossicular discontinuity.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: slight SNHL at 250 Hz, normal at 500 Hz, mild conductive loss 750-4000 Hz, moderate-to-moderately severe 6000-8000 Hz. Left ear: normal hearing."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear SRT 32 dB HL, WRS 96%. Left ear SRT 3 dB HL, WRS 100%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear Type Ad (1.9 mL). Left ear Type A (0.5 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent for right ear ipsilateral and contralateral stimulation. Left ear ipsilateral present, contralateral absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Return for a hearing test after medical management",
+      "Use hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Discuss audiometric findings consistent with ossicular discontinuity",
+      "Explain the relationship between the head trauma/skull fracture and the hearing loss",
+      "Advise on the use of hearing protection to preserve remaining hearing"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden hearing loss",
+      "Head trauma with skull fracture"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient is to follow up with the otologist as scheduled for management of the temporal bone fracture and ossicular discontinuity."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After medical management",
+    "objective": "Re-evaluation of hearing thresholds."
+  },
+  "expected_outcome": []
+}

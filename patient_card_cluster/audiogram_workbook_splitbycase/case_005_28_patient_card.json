@@ -1,0 +1,126 @@
+{
+  "case_id": "case_5_28",
+  "title": "Positional Dizziness with Normal Hearing",
+  "demographics": {
+    "age_years": 54,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I've been getting dizzy for the last few months, especially when I turn over in bed or look up. My hearing seems fine, though my ears sometimes itch or hurt a little.",
+  "problem_summary": {
+    "onset": "Several months ago.",
+    "course": "Episodic, triggered by specific movements.",
+    "laterality": "Bilateral (pain/itchiness); Dizziness is systemic.",
+    "associated_symptoms": "Dizziness upon changing head position (turning in bed, looking up), occasional bilateral ear pain, itchiness.",
+    "functional_impact": "Difficulty with daily movements like sleeping/turning in bed.",
+    "goals_motivation": "Identify the cause of the dizziness and resolve the discomfort."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-04-22",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "54-year-old male reports difficulty with dizziness for the last few months. Dizziness is provoked by turning over in bed or looking up.",
+        "otologic_history": "Reports normal hearing bilaterally. Reports occasional pain and itchiness bilaterally.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "None reported.",
+        "prior_management": "None reported.",
+        "patient_goals": "Diagnosis of dizziness."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.28",
+            "5.28.2 Interpretation"
+          ],
+          "key_findings": "Right ear: Normal hearing 250-4000 Hz with a slight sensorineural notch at 3000 Hz, sloping to mild loss at 6000-8000 Hz. Left ear: Normal hearing 250-4000 Hz, sloping to mild loss at 6000-8000 Hz.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "10-15 dB HL (250-2k Hz), 25 dB HL (3k Hz), 15 dB HL (4k Hz), 25 dB HL (8k Hz)",
+            "Left_AC_Thresholds": "10-15 dB HL (250-4k Hz), 25 dB HL (8k Hz)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.28"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) are normal and in agreement with the Pure Tone Average (PTA). Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "10 dB HL",
+            "SRT_Left": "10 dB HL",
+            "WRS_Right": "96% at 50 dB HL",
+            "WRS_Left": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.28"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "Right_Volume": "1.2 mL",
+            "Right_Static_Admittance": "0.7 mL",
+            "Right_Peak_Pressure": "5 daPa",
+            "Left_Volume": "1.2 mL",
+            "Left_Static_Admittance": "0.8 mL",
+            "Left_Peak_Pressure": "5 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "5.28.2 Interpretation"
+          ],
+          "key_findings": "Normal acoustic reflex thresholds at 500 to 4,000 Hz with ipsilateral and contralateral stimulation. Negative acoustic reflex decay at 500 and 1,000 Hz.",
+          "numeric_results": {
+            "Reflex_Thresholds": "Normal (levels not explicitly listed in text, but noted as normal)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient demonstrates essentially normal hearing sensitivity through the standard speech frequencies (250-4000 Hz) bilaterally, with a mild high-frequency sensorineural slope in the 6000-8000 Hz range and a slight notch at 3000 Hz in the right ear. Speech understanding is excellent, and middle ear function is normal. The audiologic findings do not indicate a retrocochlear pathology or middle ear disease.",
+  "counseling_points": [
+    "Your hearing test today is essentially normal. You have excellent ability to understand speech.",
+    "The dizziness you are describing—specifically that it happens when you turn over in bed or look up—is very characteristic of a condition called BPPV (Benign Paroxysmal Positional Vertigo).",
+    "This type of dizziness is caused by tiny crystals in the inner ear moving into the wrong canal. It is not related to hearing loss.",
+    "I am referring you to an ENT specialist who can perform a simple maneuver (the Epley maneuver) to likely resolve the dizziness.",
+    "Regarding the itchiness and pain, the middle ear test was normal, but the ENT can examine your ear canal skin more closely."
+  ],
+  "notes_for_actor": [
+    "When describing your dizziness, be very specific that it is triggered by position changes: 'turning over in bed' and 'looking up' (e.g., to a high shelf).",
+    "You do not have constant vertigo; it is episodic based on movement.",
+    "You believe your hearing is fine, but the itchiness is annoying."
+  ]
+}

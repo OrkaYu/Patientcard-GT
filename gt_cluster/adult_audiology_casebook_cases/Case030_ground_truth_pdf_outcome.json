@@ -1,0 +1,139 @@
+{
+  "case_id": "Case030",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Definite Meniere's Disease",
+      "rationale_short": "Episodic vertigo (>20 mins), fluctuating low-frequency SNHL, tinnitus, and aural fullness. Vestibular testing shows low-frequency deficit (caloric weakness) with preserved high-frequency function (normal vHIT)."
+    },
+    {
+      "rank": 2,
+      "label": "Migrainous Vertigo",
+      "rationale_short": "History of headaches with visual aura, photophobia, and phonophobia accompanying vertiginous episodes."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition ability, particularly looking for retrocochlear signs or poor discrimination."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology."
+      },
+      {
+        "action": "Videonystagmography (VNG) / Caloric Testing",
+        "urgency": "routine",
+        "rationale_short": "To assess low-frequency peripheral vestibular function and lateralize impairment."
+      },
+      {
+        "action": "Rotary Chair (SHA)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate vestibular compensation and VOR function across mid-to-low frequencies."
+      },
+      {
+        "action": "VEMP (cVEMP and oVEMP)",
+        "urgency": "routine",
+        "rationale_short": "To assess otolith organ (saccule and utricle) and vestibular nerve function."
+      },
+      {
+        "action": "Video Head Impulse Test (vHIT)",
+        "urgency": "routine",
+        "rationale_short": "To assess high-frequency VOR function for all six semicircular canals."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry reveals a left moderate-to-severe fluctuating SNHL with very poor word recognition, consistent with cochlear pathology. Vestibular testing demonstrates a dissociation between low-frequency and high-frequency function: a significant left unilateral weakness on caloric testing (low frequency) but normal vHIT (high frequency). Rotary chair shows a phase lead consistent with a compensated unilateral peripheral impairment. VEMPs are normal. This pattern supports a diagnosis of 'definite' Meniere's disease.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal. Left ear moderate-to-severe fluctuating SNHL (rising 250-4000 Hz, falling 6000-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear WRS 100%. Left ear WRS 8% (very poor)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Could not complete full threshold search; screening at 1000 Hz was absent bilaterally."
+          },
+          {
+            "name": "Videonystagmography (VNG) / Caloric Testing",
+            "category": "Vestibular",
+            "result_summary": "Normal oculomotor and positioning tests. Caloric testing showed 42% left unilateral weakness."
+          },
+          {
+            "name": "Rotary Chair (SHA)",
+            "category": "Vestibular",
+            "result_summary": "Normal gain and symmetry. Isolated phase lead at 0.01 Hz, consistent with compensated unilateral peripheral impairment."
+          },
+          {
+            "name": "VEMP (cVEMP and oVEMP)",
+            "category": "Vestibular",
+            "result_summary": "Normal symmetrical responses bilaterally."
+          },
+          {
+            "name": "Video Head Impulse Test (vHIT)",
+            "category": "Vestibular",
+            "result_summary": "Normal VOR gains for lateral canals; no overt or covert saccades."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Low-sodium diet",
+      "Low-caffeine diet",
+      "Diuretic therapy (Maxzide)",
+      "Referral to Neurology for headache management"
+    ],
+    "counseling_actions": [
+      "Explained the diagnosis of 'definite' Meniere's disease based on hearing and vestibular test results.",
+      "Discussed the dissociation between caloric (abnormal) and vHIT (normal) results as characteristic of the frequency-specific nature of the impairment.",
+      "Explained that the rotary chair results indicate the brain has compensated for the static vestibular deficit.",
+      "Counseled on dietary modifications (low sodium, low caffeine) to manage symptoms."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "For management of headaches and evaluation of migrainous vertigo component."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "6 months",
+    "objective": "Re-evaluation with an accompanying audiogram to monitor hearing and symptoms."
+  },
+  "expected_outcome": [
+    "At 2-month follow-up, patient reported continued 'drop' attacks (sudden spontaneous falls).",
+    "Neurologist diagnosed migrainous vertigo in addition to Meniere's disease.",
+    "Patient was prescribed a diuretic (Maxzide) and encouraged to continue low-sodium/low-caffeine diet.",
+    "No amplification was recommended as the patient was not interested until vertigo resolved."
+  ]
+}

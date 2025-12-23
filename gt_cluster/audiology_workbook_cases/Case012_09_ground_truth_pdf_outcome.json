@@ -1,0 +1,112 @@
+{
+  "case_id": "Case012_09",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Ototoxicity",
+      "rationale_short": "The patient has a history of recent treatment for a severe infection with an unknown medication (likely an aminoglycoside), followed by sudden tinnitus and high-frequency hearing loss. The pattern of extended high-frequency loss with preservation of lower frequencies is classic for early ototoxicity."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-Induced Hearing Loss",
+      "rationale_short": "High-frequency hearing loss and tinnitus are consistent with noise exposure, but the sudden onset linked specifically to the medical treatment makes ototoxicity more probable."
+    },
+    {
+      "rank": 3,
+      "label": "Sudden Sensorineural Hearing Loss (Idiopathic)",
+      "rationale_short": "Sudden onset of hearing issues fits, but SSNHL is typically unilateral and not bilateral. The clear temporal link to medication use points away from an idiopathic cause."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To ensure ear canals are clear and tympanic membranes are normal."
+      },
+      {
+        "action": "Standard Pure-Tone Audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess basic hearing sensitivity."
+      },
+      {
+        "action": "Extended High-Frequency Audiometry",
+        "urgency": "routine",
+        "rationale_short": "Crucial for detecting ototoxicity, which often affects frequencies >8 kHz first."
+      },
+      {
+        "action": "Otoacoustic Emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function, which is the primary site of lesion in ototoxicity."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To rule out middle ear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals normal hearing sensitivity in the standard frequency range (250-8000 Hz) but significant sensorineural hearing loss in the extended high frequencies (10-16 kHz). DPOAEs are absent in the higher frequencies, corroborating cochlear damage. This profile is highly consistent with ototoxicity.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Normal thresholds (0-5 dB HL) for 250-8000 Hz. Extended high-frequency testing shows elevated thresholds at 10 kHz and no response at 12-16 kHz bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Excellent Word Recognition Scores (Right: 97%, Left: 94%). SRTs align with PTA."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Physiological",
+            "result_summary": "Type A tympanograms bilaterally, indicating normal middle ear function."
+          },
+          {
+            "name": "Otoacoustic Emissions (DPOAEs)",
+            "category": "Physiological",
+            "result_summary": "Present and robust 0.5-4 kHz; amplitudes drop sharply and are absent/reduced above 4-6 kHz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Identify the specific medication used (consult with prescribing physician) to confirm ototoxicity.",
+      "Implement tinnitus management strategies (sound enrichment, masking).",
+      "Advise on hearing conservation (hearing protection in noise).",
+      "Monitor hearing thresholds serially to check for stability."
+    ],
+    "counseling_actions": [
+      "Explain that the tinnitus and difficulty in noise are caused by damage to the very high-pitch hearing cells, even though standard hearing tests look normal.",
+      "Discuss the connection between the recent antibiotic treatment and the hearing changes.",
+      "Counsel that the high-frequency loss is likely permanent.",
+      "Provide education on protecting residual hearing from noise exposure."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset bilateral tinnitus",
+      "History of recent severe infection and medication use",
+      "Loss of extended high-frequency hearing"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Prescribing Physician / Primary Care",
+      "rationale_short": "To document the adverse reaction to the medication and prevent future administration of the same class of drugs (e.g., aminoglycosides) if possible."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3-6 months",
+    "objective": "Monitor hearing thresholds for stability and assess tinnitus impact."
+  },
+  "expected_outcome": [
+    "Extended high-frequency hearing loss is likely permanent.",
+    "Tinnitus may persist but habituation is expected with management.",
+    "Standard frequency hearing should remain stable barring further noise or chemical insults."
+  ]
+}

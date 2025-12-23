@@ -1,0 +1,99 @@
+{
+  "case_id": "Case006_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Deep parietal lobe lesion (tumor, infarct, or demyelinating process)",
+      "rationale_short": "Confirmed by CT scan; central auditory deficits (left ear extinction on dichotic tasks, absent P300) are consistent with subcortical white matter involvement affecting the transcallosal pathway."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess word recognition ability in quiet."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the auditory brainstem pathways."
+      },
+      {
+        "action": "Central Auditory Processing Battery",
+        "urgency": "routine",
+        "rationale_short": "To evaluate central auditory function and interhemispheric transfer given the parietal lobe lesion."
+      },
+      {
+        "action": "Late Potentials (N1, P2) and P300",
+        "urgency": "routine",
+        "rationale_short": "To assess cortical and cognitive auditory processing and neural communication."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing and brainstem function were normal. However, central testing revealed significant deficits consistent with a deep left parietal lobe lesion affecting the subcortical white matter. A pronounced 'left ear effect' was observed on dichotic tasks (Rhyme, CVs), indicating compromise of the transcallosal pathway required to transfer left-ear input to the left hemisphere for verbal output. Electrophysiologically, the P300 was absent or reduced, suggesting compromised neural communication.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral Hearing",
+            "result_summary": "Normal hearing sensitivity bilaterally (10-15 dB HL across 250-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech Perception",
+            "result_summary": "Excellent word recognition scores bilaterally (92%)."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Normal bilaterally."
+          },
+          {
+            "name": "Central Auditory Processing Battery",
+            "category": "Central Auditory Processing",
+            "result_summary": "Pronounced left ear deficit on Dichotic Rhyme (~10%) and Dichotic CVs (~15%). Mild left ear deficit on SSW (~80%) and Competing Sentences (~80%). Normal performance on Dichotic Digits."
+          },
+          {
+            "name": "Late Potentials (N1, P2) and P300",
+            "category": "Electrophysiology",
+            "result_summary": "N1 and P2 waves normal. P300 absent (LE at C3, RE at C4) or markedly reduced (LE at C4, RE at C3)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Medical management of the parietal lobe lesion (tumor, infarct, or demyelinating process)"
+    ],
+    "counseling_actions": [
+      "Explain that peripheral hearing is normal but brain pathways connecting hearing centers are affected by the lesion.",
+      "Discuss the 'left ear effect' on dichotic tasks due to the lesion blocking the transcallosal pathway.",
+      "Highlight potential difficulties with rapid, competing speech signals despite good hearing for simple words.",
+      "Correlate auditory findings with the location of the lesion on the CT scan."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Progressive right-sided numbness and gait disturbance",
+      "Deep parietal lobe lesion on CT scan"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurology",
+      "rationale_short": "To determine the precise nature of the identified lesion and manage neurological symptoms."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As determined by medical team",
+    "objective": "Monitor neurological status and lesion progression."
+  },
+  "expected_outcome": []
+}

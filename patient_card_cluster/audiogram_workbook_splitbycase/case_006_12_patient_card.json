@@ -1,0 +1,125 @@
+{
+  "case_id": "case_6_12",
+  "title": "Unilateral Conductive Hearing Loss with History of ETD",
+  "demographics": {
+    "age_years": 19,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "My hearing in my left ear has gotten worse over the past 3 months. I've had ear issues for a long time, but it seemed better after my last tube until recently.",
+  "problem_summary": {
+    "onset": "Long-standing history of ear issues; recent deterioration in the last 3 months.",
+    "course": "Fluctuating/Chronic with recent acute decline.",
+    "laterality": "Left ear",
+    "associated_symptoms": "History of Eustachian tube dysfunction, chronic serous otitis media.",
+    "functional_impact": "Reduced hearing sensitivity in the left ear.",
+    "goals_motivation": "Evaluate current hearing status and address concerns about noise exposure from dirt bike racing."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-02-17",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a long-standing history of left-sided Eustachian tube dysfunction (ETD) and chronic serous otitis media. He has had multiple pressure equalization (PE) tubes in the left ear. Hearing improved after the last tube but deteriorated 3 months ago.",
+        "otologic_history": "Multiple PE tubes in the left ear. Last hearing test 3 years ago showed mild conductive loss. No history of familial hearing loss or other significant otosurgery.",
+        "noise_exposure_history": "Patient is a competitive dirt bike racer and is concerned about high noise levels during racing.",
+        "medical_psych_history": "Unremarkable aside from otologic history.",
+        "prior_management": "Previous PE tubes; last audiogram 3 years prior.",
+        "patient_goals": "Assess hearing deterioration and discuss noise protection."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.12"
+          ],
+          "key_findings": "Right ear shows normal hearing sensitivity. Left ear shows a flat, mild conductive hearing loss with a moderate notch at 3000 Hz. Significant air-bone gaps present in the left ear.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "0-10 dB HL (250-8000 Hz)",
+            "LE_AC_Thresholds": "~35-40 dB HL flat configuration with notch to 50 dB HL at 3000 Hz",
+            "LE_BC_Thresholds": "0-10 dB HL (Normal)",
+            "LE_Air_Bone_Gap": "Approx 30-40 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.12"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) agree with pure-tone averages. Word Recognition Scores (WRS) are excellent bilaterally when presented at suprathreshold levels.",
+          "numeric_results": {
+            "RE_SRT": "8 dB HL",
+            "RE_WRS": "100% at 55 dB HL",
+            "LE_SRT": "35 dB HL",
+            "LE_WRS": "100% at 80 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.12"
+          ],
+          "key_findings": "Right ear tympanogram is normal (Type A). Left ear tympanogram is flat (Type B) with normal ear canal volume, suggesting fluid behind the eardrum rather than a perforation or patent tube.",
+          "numeric_results": {
+            "RE_Peak_Pressure": "0 daPa",
+            "RE_Static_Admittance": "0.9 mL",
+            "RE_Volume": "1.1 mL",
+            "LE_Peak_Pressure": "NP (No Peak)",
+            "LE_Static_Admittance": "NP (Flat)",
+            "LE_Volume": "1.1 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.12"
+          ],
+          "key_findings": "Testing not completed/measured (likely due to conductive pathology in the left ear).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity in the right ear and a mild conductive hearing loss in the left ear. The left ear exhibits a flat configuration with a notch at 3000 Hz. Tympanometry indicates normal middle ear function on the right and middle ear pathology (consistent with effusion/ETD) on the left, evidenced by a flat tympanogram with normal ear canal volume.",
+  "counseling_points": [
+    "Your hearing test confirms a conductive hearing loss in the left ear, meaning sound is not being conducted efficiently to the inner ear, likely due to fluid or middle ear issues.",
+    "The 'flat' reading on the pressure test (tympanogram) for your left ear, combined with normal volume, suggests the eardrum is intact but there may be fluid behind it or the tube is blocked/extruded.",
+    "We recommend following up with your otologist for medical management of the left ear.",
+    "Regarding your dirt bike racing: It is crucial to protect your hearing from engine noise. We recommend custom earplugs that fit under your helmet to prevent noise-induced damage on top of your current issues."
+  ],
+  "notes_for_actor": [
+    "Portray a young adult (approx 19-20 years old) who is active in motorsports.",
+    "You are not in pain, but you are frustrated that the hearing in your left ear has dropped again after a period of improvement.",
+    "Show specific interest in the hearing protection advice regarding dirt biking."
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "case_id": "Case046",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Sensorineural Hearing Loss",
+      "rationale_short": "Audiometry reveals symmetrical mild to severe sloping SNHL; tympanometry is normal (Type A) and otoscopy is unremarkable."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify that current hearing aids meet prescriptive targets."
+      },
+      {
+        "action": "Amsterdam Checklist for Hearing and Work",
+        "urgency": "routine",
+        "rationale_short": "To evaluate job demands, control, support, and the impact of hearing loss on work-related stress."
+      },
+      {
+        "action": "COSI (Client Oriented Scale of Improvement)",
+        "urgency": "routine",
+        "rationale_short": "To identify specific priority listening situations for intervention."
+      },
+      {
+        "action": "Ottawa Personal Decision Guide",
+        "urgency": "routine",
+        "rationale_short": "To facilitate shared decision-making regarding assistive listening device options."
+      },
+      {
+        "action": "Ida Line Tool",
+        "urgency": "routine",
+        "rationale_short": "To assess importance of improving hearing and self-efficacy in using proposed solutions."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The assessment confirmed a bilateral mild-to-severe sensorineural hearing loss with normal middle ear function. Although hearing aids were verified to meet targets, the patient reported significant difficulty and stress in work meetings. The Amsterdam Checklist highlighted high job demands and stress. The COSI identified meetings as the primary goal. Decision aids (Ottawa Guide, Ida Line) were used to select a tabletop microphone as the preferred intervention over other options.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical mild to severe SNHL, gradually sloping (e.g., 2k Hz thresholds: RE 50 dB, LE 55 dB)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs agreed with PTAs (RE 50 dB, LE 45 dB); WRS showed slight difficulty (RE 80%, LE 76% at elevated levels)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear function bilaterally (Type A)."
+          },
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Verification",
+            "result_summary": "Current hearing aids meet DSL v5.0 adult targets for soft, average, and loud inputs."
+          },
+          {
+            "name": "Amsterdam Checklist for Hearing and Work",
+            "category": "Questionnaire",
+            "result_summary": "High job demand, low job control, high support; 10 sick days taken due to work stress; 'much' noise reported at workplace."
+          },
+          {
+            "name": "COSI (Client Oriented Scale of Improvement)",
+            "category": "Questionnaire",
+            "result_summary": "Priority situations: 1. Monthly department meetings (20 people), 2. Committee meetings (5 people)."
+          },
+          {
+            "name": "Ottawa Personal Decision Guide",
+            "category": "Decision Aid",
+            "result_summary": "Compared HAs alone, HAs + Table Mic, and HAs + Pass-around Mic. Patient selected Option 2 (Table Mic)."
+          },
+          {
+            "name": "Ida Line Tool",
+            "category": "Decision Aid",
+            "result_summary": "Importance 10/10. Ability to use: HAs alone (10), Table Mic (7), Pass-around Mic (4)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Trial of Assistive Listening Device (ALD): Tabletop conference microphone wirelessly connected to hearing aids.",
+      "Implementation of the selected ALD option over a 3-month period.",
+      "Monitor impact on minute taking and following conversation in meetings."
+    ],
+    "counseling_actions": [
+      "Discussed the limitations of hearing aids in noise, distance, and reverberation.",
+      "Validated the link between hearing loss, listening effort, and reported work-related stress/fatigue.",
+      "Used decision aids to weigh benefits and risks of ALD options (table mic vs. pass-around mic).",
+      "Counseled on the use of the table microphone to bridge distance in meetings."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Follow-up required to assess the outcome of the ALD trial."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3 months",
+    "objective": "Assess outcomes of the table microphone trial using COSI and IOI-AI."
+  },
+  "expected_outcome": [
+    "COSI (Aided): Patient rated the degree of change as 'better' and final ability to hear as 'most of the time' for the identified meeting situations.",
+    "IOI-AI: Patient reported using the device in meetings 100% of the time.",
+    "IOI-AI: Patient reported the device helped 'quite a lot' and was 'quite a lot worth it'.",
+    "IOI-AI: Residual difficulty in meetings was rated as 'slight' and quality of life was 'quite a lot better'."
+  ]
+}

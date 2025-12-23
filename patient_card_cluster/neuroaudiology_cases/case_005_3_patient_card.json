@@ -1,0 +1,145 @@
+{
+  "case_id": "case_5_3",
+  "title": "Right Cerebellar Medulloblastoma with Hydrocephalus",
+  "demographics": {
+    "age_years": null,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been having frequent headaches on the right side with nausea and vomiting. I also feel off-balance and keep falling to the right.",
+  "problem_summary": {
+    "onset": "Several months prior to admission.",
+    "course": "Progressive symptoms leading to hospital admission.",
+    "laterality": "Right-sided (tumor location).",
+    "associated_symptoms": "Right-sided headaches, nausea, vomiting, imbalance, tendency to fall to the right.",
+    "functional_impact": "Balance issues and illness related to hydrocephalus.",
+    "goals_motivation": "Referred as a research subject from Neurology-Neurosurgery."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Research Protocol)",
+      "history": {
+        "present_illness": "The patient is a woman in her mid-20s referred from Neurology-Neurosurgery. She was diagnosed with a right-sided (extra-axial) cerebellar tumor (medulloblastoma) and hydrocephalus. Symptoms included headaches, nausea, vomiting, and imbalance for several months.",
+        "otologic_history": "None reported other than current neurological symptoms.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Diagnosed with medulloblastoma and hydrocephalus.",
+        "prior_management": "Admission to hospital for tumor management.",
+        "patient_goals": "Assessment as part of a research protocol."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-9"
+          ],
+          "key_findings": "Computed tomography (CT) scans showed a large mass lesion in the right posterior fossa (cerebellum) with fourth ventricle compression and associated hydrocephalus.",
+          "numeric_results": null
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-10"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. Thresholds are essentially flat across the frequency range.",
+          "numeric_results": {
+            "Thresholds": "0-10 dB HL range for 250-8000 Hz bilaterally"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-10"
+          ],
+          "key_findings": "Word recognition scores were excellent bilaterally.",
+          "numeric_results": {
+            "WRS Right Ear": "96%",
+            "WRS Left Ear": "92%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-11"
+          ],
+          "key_findings": "Auditory Brainstem Response (ABR). Results showed a subtle abnormality on the right side. All other indices were normal.",
+          "numeric_results": {
+            "Right Ear I-III Interval": "2.48 msec"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Frequency Pattern Test. Performance was poor bilaterally.",
+          "numeric_results": {
+            "Right Ear Score": "23%",
+            "Left Ear Score": "13%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Masking Level Difference (MLD) at 500 Hz.",
+          "numeric_results": {
+            "Result": "6 dB (Normal range)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This patient presented with a large right cerebellar medulloblastoma and hydrocephalus. Despite the large mass, peripheral hearing (pure tones and speech recognition) remained normal. The ABR showed only a subtle extension of the I-III interval on the right side (2.48 msec), likely because the cerebellar lesion was distant from the brainstem and exerted effects secondarily. However, central auditory processing was affected, as evidenced by poor performance on the frequency pattern test bilaterally. This central deficit is attributed to the hydrocephalus influencing cerebral auditory structures and cognitive activity rather than direct brainstem involvement.",
+  "counseling_points": [
+    "Explain that basic hearing sensitivity is normal.",
+    "Discuss how the tumor location (cerebellum) primarily affects balance and coordination rather than direct hearing pathways in the brainstem.",
+    "Explain that the difficulty with complex sound patterns (frequency pattern test) is likely related to the pressure in the brain (hydrocephalus) affecting wider processing areas.",
+    "Note that ABR results were largely preserved because the tumor is 'extra-axial' and distant from the core auditory tracts."
+  ],
+  "notes_for_actor": [
+    "Patient is a woman in her mid-20s.",
+    "Symptoms are primarily neurological: headache, nausea, dizziness/imbalance.",
+    "You do not report hearing loss, but you do report significant issues with balance and falling to the right.",
+    "You are participating as a research subject, so you may be cooperative but fatigued from your condition."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "case_id": "case_12_13",
+  "title": "Sudden Unilateral Sensorineural Hearing Loss",
+  "demographics": {
+    "age_years": 45,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I woke up two days ago and realized I couldn't hear out of my right ear. I also have ringing and a feeling of fullness in that ear.",
+  "problem_summary": {
+    "onset": "Sudden onset upon waking in the morning, 2 days prior to the visit.",
+    "course": "Acute and constant.",
+    "laterality": "Right ear.",
+    "associated_symptoms": "Tinnitus (ringing) and aural fullness in the right ear. Denies dizziness.",
+    "functional_impact": "Inability to hear in the right ear.",
+    "goals_motivation": "Referred by urgent care for ENT consult and audiologic evaluation."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presented to urgent care 2 days ago after waking up with right-sided hearing loss, tinnitus, and fullness. He drove himself to the appointment. He is now referred for specialty evaluation.",
+        "otologic_history": "No specific prior history mentioned.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Seen by urgent care physician 2 days ago.",
+        "patient_goals": "Diagnosis and management of the sudden hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Audiogram Graph",
+            "Table"
+          ],
+          "key_findings": "Right ear shows a moderate to moderately-severe sensorineural hearing loss with a flat configuration (thresholds approx. 50-60 dB HL). Bone conduction matches air conduction. Left ear thresholds are within normal limits (0-10 dB HL).",
+          "numeric_results": {
+            "Right PTA": "57 dB HL",
+            "Left PTA": "5 dB HL",
+            "Right BC": "Tactile response noted at 250 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Table"
+          ],
+          "key_findings": "Word recognition is excellent in the left ear but significantly reduced (poor) in the right ear, even at high presentation levels.",
+          "numeric_results": {
+            "Right SRT": "60 dB HL",
+            "Right WRS": "32% @ 95 dB HL (masked)",
+            "Left SRT": "5 dB HL",
+            "Left WRS": "100% @ 40 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Table"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Right Vea": "1.0",
+            "Right Ytm": "0.9",
+            "Right TPP": "-10 daPa",
+            "Right TW": "85 daPa",
+            "Left Vea": "1.1",
+            "Left Ytm": "1.2",
+            "Left TPP": "-10 daPa",
+            "Left TW": "85 daPa"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "ABR Waveforms"
+          ],
+          "key_findings": "Waveforms are present for the Right ear at 90, 80, and 65 dB nHL. (Note: Specific wave labeling and IPL calculation are student tasks in the source material).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation reveals a sudden, unilateral, moderate-to-moderately severe sensorineural hearing loss in the right ear. Speech understanding in the right ear is disproportionately poor (32%) relative to the degree of pure-tone loss. The left ear presents with normal hearing sensitivity and excellent speech recognition. Tympanometry is normal bilaterally, ruling out middle ear pathology.",
+  "counseling_points": [
+    "The results confirm a significant hearing loss in your right ear that comes from the inner ear or nerve (sensorineural).",
+    "Because this happened suddenly, it is treated as a medical urgency.",
+    "Your ability to understand speech in the right ear is quite poor, even when sounds are made loud.",
+    "It is important to proceed with the ENT consultation immediately to discuss treatment options, such as steroid therapy."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is anxious about the sudden loss of hearing.",
+    "Emphasize that there was no dizziness, only the hearing loss, ringing, and fullness.",
+    "You noticed the problem immediately upon waking up."
+  ]
+}

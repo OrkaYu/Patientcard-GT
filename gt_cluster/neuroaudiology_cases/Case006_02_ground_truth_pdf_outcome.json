@@ -1,0 +1,89 @@
+{
+  "case_id": "Case006_02",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder (secondary to right internal capsule infarction)",
+      "rationale_short": "Normal peripheral hearing sensitivity but deficits on central tests (SSW, Dichotic Digits, Frequency Patterns) consistent with the confirmed right basal ganglia/internal capsule lesion."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Radiology (CT Scan)",
+        "urgency": "urgent",
+        "rationale_short": "To evaluate the cause of acute vertigo, twitching, and slurred speech (performed prior to audiology)."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity as part of the research evaluation."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess word recognition ability in quiet."
+      },
+      {
+        "action": "Central Auditory Tests",
+        "urgency": "routine",
+        "rationale_short": "To evaluate central auditory processing function given the known brain lesion."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates normal peripheral hearing sensitivity and excellent speech recognition in quiet. However, central auditory testing reveals deficits consistent with the right internal capsule lesion. Specifically, there is a 'contralateral effect' with left ear deficits on dichotic tasks (SSW, Dichotic Digits) and bilateral abnormalities on Frequency Patterns.",
+        "tests": [
+          {
+            "name": "Radiology (CT Scan)",
+            "category": "Imaging",
+            "result_summary": "Small discrete lesion at the right internal capsule, possibly involving the globus pallidus, consistent with infarction."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally. Thresholds 0-15 dB HL from 250-4000 Hz, with a slight dip to 15-20 dB HL at 8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent word recognition scores (RE 88%, LE 100%)."
+          },
+          {
+            "name": "Central Auditory Tests",
+            "category": "Central Auditory Processing",
+            "result_summary": "Staggered Spondaic Words (SSW) abnormal for the left ear (~80%). Dichotic Digits showed bilateral deficits with the left ear more pronounced (LE ~70%, RE ~85%). Frequency Patterns were bilaterally abnormal (RE ~40%, LE ~65%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor for any changes in auditory processing over time."
+    ],
+    "counseling_actions": [
+      "Inform the patient that while hearing sensitivity is normal, the brain's ability to process complex signals is affected by the stroke.",
+      "Explain the concept of contralateral deficits (right brain lesion affecting left ear processing).",
+      "Advise that subtle difficulties may occur in challenging listening environments like background noise or rapid speech."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "The patient is already under neurological care; audiological findings are for monitoring and research purposes."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor recovery and any subjective changes in auditory processing."
+  },
+  "expected_outcome": [
+    "The patient is essentially doing well.",
+    "She retains right temporal pain and occasional right arm aches and leg cramping.",
+    "She has not experienced a recurrence of dizziness."
+  ]
+}

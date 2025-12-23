@@ -1,0 +1,116 @@
+{
+  "case_id": "case_9_2",
+  "title": "Sudden Hearing Loss as an Initial Symptom of Multiple Sclerosis",
+  "demographics": {
+    "age_years": 42,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I experienced a sudden loss of hearing, a feeling of fullness, and a hissing sound in my left ear. I also had a single episode of severe dizziness and nausea.",
+  "problem_summary": {
+    "onset": "Sudden",
+    "course": "Acute onset of auditory symptoms followed by a diagnosis of MS; 11 months later, systemic neurological symptoms worsened (weakness, numbness, gait disturbances).",
+    "laterality": "Left ear",
+    "associated_symptoms": "Aural fullness, tinnitus ('hissing'), vertigo, nausea. Later: uncontrolled crying spells, decreased appetite, extremity weakness, facial numbness, gait and visual disturbances.",
+    "functional_impact": "Significant hearing difficulty in the left ear; later progression to significant systemic neurological impairment.",
+    "goals_motivation": "Diagnosis of the sudden hearing loss."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic / Hospital",
+      "history": {
+        "present_illness": "The patient presented with complaints of sudden hearing loss, fullness, and tinnitus in the left ear, accompanied by a single episode of vertigo with nausea.",
+        "otologic_history": "Initially, a cochlear etiology was strongly considered.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Subsequent to the audiological workup, the patient was diagnosed with Multiple Sclerosis (MS). 11 months post-diagnosis, she was hospitalized with worsening neurological symptoms including crying spells, weakness in all extremities, and numbness.",
+        "prior_management": "Diagnostic audiological workup followed by radiologic consultation.",
+        "patient_goals": "Identify the cause of sudden hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-4"
+          ],
+          "key_findings": "Right ear thresholds are essentially normal. Left ear shows a moderate to severe sensorineural hearing loss.",
+          "numeric_results": {
+            "RE_thresholds": "0-10 dB HL (250-8000 Hz)",
+            "LE_thresholds": "Sloping loss: approx 40 dB HL at 250 Hz dropping to 60-70 dB HL in high frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-4"
+          ],
+          "key_findings": "Excellent recognition in the right ear; reduced but relatively good recognition in the left ear given the degree of loss.",
+          "numeric_results": {
+            "RE_WRS": "100%",
+            "LE_WRS": "84%"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-4"
+          ],
+          "key_findings": "Right ear normal. Left ear showed poorly defined morphology with delayed Wave I and Wave V. The I-V interwave interval was abnormal, suggesting central involvement.",
+          "numeric_results": {
+            "RE_morphology": "Good, Waves I-V present at normal latencies",
+            "LE_morphology": "Poorly defined at 80 and 90 dB nHL",
+            "LE_Wave_I": "Present but delayed latency",
+            "LE_Wave_V": "Discernible but delayed",
+            "LE_Interval_I-V": "Abnormal/Prolonged"
+          }
+        },
+        {
+          "name": "MRI",
+          "timepoint_label": "Post-Audio Consult",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Large plaque located at the lateral pons on the left side of the brainstem. Likely compromised the left dorsal cochlear nucleus.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a left moderate-to-severe sensorineural hearing loss. While the delayed Wave I on ABR might suggest a cochlear component, the disproportionate delay of Wave V and the abnormal I-V interwave interval indicate retrocochlear/central pathology. MRI confirmed a large MS plaque on the left lateral pons affecting the dorsal cochlear nucleus. This case illustrates that sudden hearing loss can be a rare initial symptom of Multiple Sclerosis.",
+  "counseling_points": [
+    "Explain that the hearing loss and 'hissing' sounds are related to the lesion found on the brainstem (pons) affecting the hearing nerve pathway.",
+    "Discuss that while sudden hearing loss is often cochlear, the specific timing tests (ABR) indicated a problem further up the pathway, which the MRI confirmed.",
+    "Coordinate care with neurology for the management of Multiple Sclerosis, as the hearing loss is a symptom of the broader neurological condition."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is initially confused by the sudden hearing loss and vertigo, thinking it might be an ear infection.",
+    "In the follow-up context (11 months later), demonstrate significant distress due to the progression of symptoms (crying spells, weakness, numbness).",
+    "The 'hissing' tinnitus is a specific descriptor to use."
+  ]
+}

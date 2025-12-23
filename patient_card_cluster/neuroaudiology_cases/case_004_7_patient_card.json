@@ -1,0 +1,171 @@
+{
+  "case_id": "case_4_7",
+  "title": "Auditory Nerve Involvement: Charcot-Marie-Tooth Syndrome",
+  "demographics": {
+    "age_years": 54,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA (Nashville, TN implied)"
+  },
+  "chief_complaint": "I can hear people talking, but I can't understand what they are saying. It is especially hard in noise and on the telephone. I am afraid I am going to lose my job because of this.",
+  "problem_summary": {
+    "onset": "Gradual, could not pin down exact date.",
+    "course": "Worsened over the past few years; progressive.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Difficulty hearing in noise and on the telephone; later diagnosed with wasting of intrinsic hand and foot muscles (neuropathy).",
+    "functional_impact": "Significant difficulty at work as an executive secretary; in danger of losing employment.",
+    "goals_motivation": "Desperate to maintain employment and communication ability."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "54-year-old female presenting with bilateral difficulty understanding speech, despite feeling that 'hearing sensitivity' was not the primary problem. Symptoms disproportionate to pure-tone thresholds.",
+        "otologic_history": "No other otologic symptoms reported initially.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Later diagnosed with Charcot-Marie-Tooth (CMT) syndrome (mixed motor and sensory polyneuropathy). Family history of CMT.",
+        "prior_management": "Seen by two audiologists in the past 2 years. One reported hearing was 'good' with no recommendations. The second recommended a hearing aid, which the patient could not tolerate.",
+        "patient_goals": "Find a solution to maintain job performance."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-22"
+          ],
+          "key_findings": "Mild pure tone hearing loss bilaterally. Text states hearing is better in the left ear, though thresholds are generally 20-50 dB HL range.",
+          "numeric_results": {
+            "RE_Thresholds": "Slope from ~45 dB HL (250Hz) to ~25 dB HL (1-8kHz)",
+            "LE_Thresholds": "Slope from ~45 dB HL (250Hz) to ~25 dB HL (1-8kHz), slightly better than right at 1kHz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-22"
+          ],
+          "key_findings": "Excellent recognition at lower levels but significant 'rollover' (decrease in scores as volume increases) bilaterally at moderately high intensities.",
+          "numeric_results": {
+            "RE_PB_Max": "92%",
+            "RE_PB_High_Intensity": "44% (+50 dB SL)",
+            "LE_PB_Max": "92%",
+            "LE_PB_High_Intensity": "48% (+50 dB SL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanometry bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Contralateral reflexes present at some frequencies but absent at high frequencies (4k Hz Right, 2k/4k Hz Left). Excessive acoustic reflex decay (90-100%) present bilaterally at all frequencies where reflex was present.",
+          "numeric_results": {
+            "Reflex_Decay": "90-100% (Positive)"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-23"
+          ],
+          "key_findings": "Essentially demonstrated no repeatable response for either ear, despite relatively mild pure-tone loss.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-24"
+          ],
+          "key_findings": "Central behavioral tests (digits, competing sentences, staggered spondaic words, frequency patterns, filtered speech) were all abnormal. Greater deficit in the left ear. Poorest performance on filtered speech. Binaural MLD was abnormal.",
+          "numeric_results": {
+            "MLD": "5 dB (Abnormal)",
+            "Filtered_Speech": "Very poor (approx 20-30% based on graph)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Neurology/Radiology Referral",
+      "history": {
+        "present_illness": "Workup for retrocochlear pathology."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Radiologic findings (CT/MRI implied) were unremarkable. Neurologic workup revealed moderate to severe peripheral neuropathy with wasting of intrinsic hand and foot muscles. EMG confirmed mixed motor and sensory polyneuropathy.",
+          "numeric_results": {
+            "Diagnosis": "Charcot-Marie-Tooth (CMT) syndrome"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 54-year-old female presents with a mild sensorineural hearing loss but disproportionate difficulty understanding speech, particularly in noise. Key findings include significant bilateral speech recognition rollover, excessive acoustic reflex decay, and absent ABRs despite preserved pure-tone thresholds. These findings are consistent with neural dys-synchrony or auditory nerve involvement. Medical workup confirmed Charcot-Marie-Tooth (CMT) syndrome, a peripheral neuropathy that can affect the auditory nerve. The case highlights the importance of functional measures (speech in noise, reflexes, ABR) when pure-tone thresholds do not explain the patient's complaints.",
+  "counseling_points": [
+    "Explain that the hearing difficulty is due to the nerve's inability to send clear, synchronized signals to the brain, rather than just a loss of volume.",
+    "Discuss why standard hearing aids were previously unsuccessful (amplifying sound that is already distorted by the nerve can increase confusion/rollover).",
+    "Recommend assistive listening devices (FM systems) to improve signal-to-noise ratio directly.",
+    "Discuss environmental modifications and communication strategies.",
+    "Counsel on the nature of CMT and its effect on the auditory system."
+  ],
+  "notes_for_actor": [
+    "You are frustrated. You have been told your hearing is 'good' by one doctor, but you know you are struggling.",
+    "You tried a hearing aid before, but it just made things louder and fuzzier, not clearer. You hated it.",
+    "You are very worried about your job. You are an executive secretary, and the phone is your enemy.",
+    "You feel validated that someone finally found a reason for your problem (the nerve issue/CMT), even if it isn't easily 'cured'."
+  ]
+}

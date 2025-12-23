@@ -1,0 +1,131 @@
+{
+  "case_id": "Case012_15",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Non-organic hearing loss (Pseudohypacusis)",
+      "rationale_short": "Strong evidence from inconsistencies: SRT (50 dB) is significantly better than PTA (67 dB), WRS is good at levels below admitted thresholds, OAEs and reflexes are normal despite claimed severe loss, and Stenger test is positive."
+    },
+    {
+      "rank": 2,
+      "label": "Acoustic Trauma (Noise-Induced Hearing Loss)",
+      "rationale_short": "History of explosion supports potential trauma, and tinnitus is present; however, objective tests rule this out as the cause of the primary hearing loss complaint."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Check for physical damage to the ear canal or tympanic membrane following the explosion."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function to rule out conductive pathology."
+      },
+      {
+        "action": "Acoustic Reflexes",
+        "urgency": "routine",
+        "rationale_short": "Objective test of the auditory pathway; presence at normal levels contradicts severe cochlear loss."
+      },
+      {
+        "action": "Otoacoustic Emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "Objective assessment of outer hair cell function; crucial for distinguishing organic from non-organic loss."
+      },
+      {
+        "action": "Pure Tone Audiometry",
+        "urgency": "routine",
+        "rationale_short": "Establish behavioral thresholds for comparison with objective measures."
+      },
+      {
+        "action": "Speech Audiometry",
+        "urgency": "routine",
+        "rationale_short": "Check for internal consistency (SRT vs PTA) and performance intensity."
+      },
+      {
+        "action": "Stenger Test",
+        "urgency": "routine",
+        "rationale_short": "Specific test to identify unilateral non-organic hearing loss."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient exhibits classic signs of non-organic hearing loss in the left ear. While behavioral thresholds suggest a moderate-to-severe loss, objective measures (OAEs, reflexes) indicate normal peripheral auditory function. The positive Stenger test and speech-tone discrepancies confirm the diagnosis.",
+        "tests": [
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic Reflexes",
+            "category": "Immittance",
+            "result_summary": "Present bilaterally at normal levels (85-90 dB HL), which is inconsistent with the voluntary thresholds of 60-70 dB HL."
+          },
+          {
+            "name": "Pure Tone Audiometry",
+            "category": "Behavioral",
+            "result_summary": "Right ear normal. Left ear shows flat moderate-to-severe loss (PTA 67 dB HL) with inconsistent bone conduction."
+          },
+          {
+            "name": "Speech Audiometry",
+            "category": "Behavioral",
+            "result_summary": "Left SRT (50 dB) is significantly better than PTA (67 dB). Left WRS is 82% at 60 dB HL, a level below the admitted pure-tone threshold. Patient used half-spondees."
+          },
+          {
+            "name": "Otoacoustic Emissions (DPOAE)",
+            "category": "Electrophysiological",
+            "result_summary": "Present and robust bilaterally, indicating normal outer hair cell function."
+          },
+          {
+            "name": "Stenger Test",
+            "category": "Special",
+            "result_summary": "Positive, indicating the patient perceived sound in the 'deaf' ear."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Counseling focused on the integrity of the auditory system.",
+      "Reassurance regarding the absence of permanent damage.",
+      "Documentation of findings for the employer.",
+      "Tinnitus management strategies."
+    ],
+    "counseling_actions": [
+      "Explain that objective tests (OAEs, reflexes) show the inner ear 'hardware' is intact and working normally.",
+      "Attribute the perceived difficulty to the stress of the incident or tinnitus rather than accusing the patient of lying.",
+      "Discuss the inconsistencies gently, such as the ability to hear speech softer than tones.",
+      "Advise that hearing should return to normal as the stress of the event subsides."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "SRT significantly better than PTA (17 dB difference).",
+      "WRS excellent at presentation levels below voluntary thresholds.",
+      "Normal OAEs despite significant behavioral hearing loss.",
+      "Normal acoustic reflexes despite significant behavioral hearing loss.",
+      "Positive Stenger test.",
+      "Half-spondee responses.",
+      "Exaggerated straining behaviors."
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Occupational Health / Referring Employer",
+      "rationale_short": "No urgent medical intervention is needed for the ear itself as function is normal. Management involves reporting accurate status to the employer."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2-4 weeks",
+    "objective": "Re-evaluation to document recovery of thresholds and monitor tinnitus."
+  },
+  "expected_outcome": [
+    "Patient accepts the finding of normal hearing.",
+    "Resolution of non-organic behaviors.",
+    "Return to work with appropriate documentation."
+  ]
+}

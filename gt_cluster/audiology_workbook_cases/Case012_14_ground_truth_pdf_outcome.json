@@ -1,0 +1,99 @@
+{
+  "case_id": "Case012_14",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Auditory Neuropathy Spectrum Disorder (ANSD)",
+      "rationale_short": "Classic profile of present/robust OAEs (normal outer hair cell function) combined with absent/abnormal ABR (neural dys-synchrony) and history of prematurity."
+    },
+    {
+      "rank": 2,
+      "label": "Central Auditory Processing Disorder (CAPD)",
+      "rationale_short": "Shares behavioral symptoms like difficulty in noise, but physiological discrepancy (OAE vs ABR) confirms ANSD."
+    },
+    {
+      "rank": 3,
+      "label": "Sensory/Cochlear Hearing Loss",
+      "rationale_short": "Ruled out by the presence of robust DPOAEs, which indicate intact cochlear mechanics."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Speech-Language Pathology Evaluation",
+        "urgency": "routine",
+        "rationale_short": "To assess functional communication skills and determine the impact of auditory dys-synchrony on language development."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation identifies Auditory Neuropathy Spectrum Disorder (ANSD). There is a mismatch between normal cochlear function (OAEs) and abnormal neural transmission (ABR). Behavioral thresholds indicate mild sensitivity loss, but speech detection is better than pure tone averages.",
+        "tests": [
+          {
+            "name": "Tympanometry",
+            "category": "Middle Ear",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Mild hearing loss configuration (20-30 dB HL) with air-bone gaps absent."
+          },
+          {
+            "name": "DPOAE",
+            "category": "Cochlear Function",
+            "result_summary": "Robust emissions present 1-8 kHz, indicating normal outer hair cell function."
+          },
+          {
+            "name": "ABR",
+            "category": "Electrophysiology",
+            "result_summary": "Abnormal/Dys-synchronous at 80 dB nHL; cochlear microphonic present but neural waves absent."
+          },
+          {
+            "name": "Speech Audiometry",
+            "category": "Behavioral",
+            "result_summary": "SDT (15 dB HL) is better than PTA (25-27 dB HL); WRS not tested."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Trial of personal FM/DM system to improve signal-to-noise ratio in educational and social settings.",
+      "Consider trial of low-gain hearing aids if behavioral thresholds remain stable and functional benefit is observed.",
+      "Referral for auditory-verbal therapy or speech-language therapy focusing on listening skills.",
+      "Regular monitoring of behavioral hearing thresholds.",
+      "Otolaryngology Referral (MRI)",
+      "Genetic Counseling"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of ANSD: the 'microphone' (ear) works, but the 'wire' (nerve) to the brain has a connection problem.",
+      "Discuss that sound is likely audible but distorted, making speech understanding difficult, especially in noise.",
+      "Emphasize the importance of visual cues and reducing background noise for communication.",
+      "Review the variable nature of ANSD and the need for a multidisciplinary approach."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "History of prematurity and NICU stay",
+      "Speech-language delay",
+      "Inconsistent response to sound (hears some things, ignores others)"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngologist and Speech-Language Pathologist",
+      "rationale_short": "Medical clearance/imaging and functional communication intervention are required for ANSD management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3 months",
+    "objective": "Monitor behavioral thresholds for fluctuation and assess progress with any trial amplification or FM systems."
+  },
+  "expected_outcome": [
+    "Confirmation of ANSD diagnosis via medical imaging or genetics if applicable.",
+    "Improved communication access through FM systems or hearing aids.",
+    "Ongoing speech-language support to address developmental delays."
+  ]
+}

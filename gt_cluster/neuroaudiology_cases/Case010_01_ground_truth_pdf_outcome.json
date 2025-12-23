@@ -1,0 +1,161 @@
+{
+  "case_id": "Case010_01",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Complete Cortical Deafness evolving to Central Deafness / Word Deafness",
+      "rationale_short": "Bilateral temporal lobe lesions (Heschl's gyrus) with normal peripheral function (ABR/Reflexes) but absent cortical potentials (MLR/LLR) and profound speech deficits despite recovered pure tone thresholds."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To assess hearing sensitivity following sudden onset of total deafness."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess integrity of the lower brainstem and peripheral auditory system."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate cochlear and brainstem integrity given the lack of behavioral response."
+      },
+      {
+        "action": "Middle Latency Response (MLR)",
+        "urgency": "soon",
+        "rationale_short": "To assess cortical and subcortical auditory pathway function."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To monitor recovery of speech detection and recognition abilities."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To evaluate functional hearing difficulties in background noise."
+      },
+      {
+        "action": "Late auditory evoked potentials",
+        "urgency": "routine",
+        "rationale_short": "To monitor cortical processing recovery over the long term."
+      },
+      {
+        "action": "Radiology (Brain Print/MRI)",
+        "urgency": "routine",
+        "rationale_short": "To quantify the extent and location of bilateral brain lesions."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Acute assessment revealed total deafness with no behavioral response to sounds. However, objective testing demonstrated intact peripheral and brainstem auditory pathways (normal ABR and reflexes), while cortical potentials (MLR) were absent, consistent with cortical deafness.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Essentially no response or responses in the profound loss range (>90 dB HL)."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Normal middle ear function."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Present and normal bilaterally."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "result_summary": "Normal morphology and latencies bilaterally; responses observed down to 30 dB nHL."
+          },
+          {
+            "name": "Middle Latency Response (MLR)",
+            "result_summary": "Na, Pa, Nb, and Pb responses were absent; myogenic artifact observed."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "During the spontaneous recovery period, pure tone thresholds improved dramatically to near-normal levels, but speech understanding remained absent, indicating a transition to word deafness.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Thresholds improved considerably, varying from normal levels to mild hearing loss (0-40 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Speech Detection Thresholds (SDT) 22-30 dB HL consistent with tones; Spondee thresholds could not be established (no word understanding)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Long-term follow-up showed significant recovery of speech recognition in the right ear (100% sentences) but persistent deficits in the left ear and in noise. Late cortical potentials remained absent despite behavioral improvement.",
+        "tests": [
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRT established (RE 22 dB, LE 40 dB). WRS (14 mo): RE 16%, LE 10%, Binaural 36%. Sentence Recognition (2 yrs): RE 100%, LE 30-60%."
+          },
+          {
+            "name": "Speech-in-noise",
+            "result_summary": "Understanding drops to near zero with significant background noise."
+          },
+          {
+            "name": "Other",
+            "category": "Electrophysiology",
+            "result_summary": "Late auditory evoked potentials (N1, P2, P300) remained absent for either ear or binaurally."
+          },
+          {
+            "name": "Other",
+            "category": "Radiology",
+            "result_summary": "MRI/Brain Print: Extensive Right Hemisphere damage (Temporal 64%, Heschl's 100%); Left Hemisphere damage focal (Temporal 7%, Heschl's 100%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Auditory training exercises (DLM tapes, vowel identification, sound identification, listening to music)",
+      "Speechreading training",
+      "Trial of assistive listening device (FM system)",
+      "Use of communication strategies (asking people to speak slowly/distinctly)",
+      "Control of listening environment (quiet, low-reverberant rooms)"
+    ],
+    "counseling_actions": [
+      "Explain the nature of central deafness: ears are functioning but the brain cannot process the sound",
+      "Discuss the dissociation between detection (hearing) and understanding",
+      "Emphasize the permanent difficulty with background noise",
+      "Highlight the 'better ear' phenomenon (right ear superior to left)",
+      "Encourage continued exposure to familiar sounds and music to maximize neural plasticity"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology and Speech-Language Pathology",
+      "rationale_short": "Long-term rehabilitation and monitoring of central auditory deficits."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Longitudinal monitoring over 8 years",
+    "objective": "Monitor recovery of speech perception, efficacy of auditory training, and neural plasticity."
+  },
+  "expected_outcome": [
+    "Pure tone thresholds recovered to near-normal levels (0-40 dB HL) within 2 months.",
+    "Word recognition (NU-6) at 14 months post-CVA: Right ear 16%, Left ear 10%, Binaural 36%.",
+    "Sentence recognition at 2 years post-CVA: Right ear improved to 100%, Left ear fluctuated between 30-60%.",
+    "Late auditory evoked potentials (N1, P2, P300) remained absent throughout the 8-year study despite behavioral improvements.",
+    "Localization skills improved to be grossly accurate in everyday situations.",
+    "Conversational speech understanding remains near zero in the presence of background noise."
+  ]
+}

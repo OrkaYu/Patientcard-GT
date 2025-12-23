@@ -1,0 +1,108 @@
+{
+  "case_id": "case_7_11",
+  "title": "Sudden Mixed Hearing Loss Following Barotrauma and URI",
+  "demographics": {
+    "age_years": 49,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I was on a flight last week and felt pain and pressure in my left ear. I heard a loud pop, and ever since then, my hearing has been down and I hear a roaring sound.",
+  "problem_summary": {
+    "onset": "Sudden onset during an airplane flight one week prior.",
+    "course": "Constant decreased hearing and tinnitus since the incident.",
+    "laterality": "Left ear (acute symptoms); Right ear (chronic history with PE tube).",
+    "associated_symptoms": "Otalgia (ear pain), aural fullness/pressure, tinnitus (ringing/roaring), and occasional 'whoozy' feeling.",
+    "functional_impact": "Difficulty hearing in the left ear.",
+    "goals_motivation": "Resolution of hearing loss and pressure."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-05-23",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports sudden hearing decrease in the left ear (LE) following a flight last week. Experienced otalgia and pressure, heard a loud 'pop', followed by hearing loss and tinnitus. Had an upper respiratory infection (URI) prior to the flight.",
+        "otologic_history": "Right ear (RE) has had a pressure equalization (PE) tube for 1-2 months.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Recent upper respiratory infection.",
+        "prior_management": "PE tube placement in Right Ear.",
+        "patient_goals": "Diagnosis and treatment of sudden left ear hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.11"
+          ],
+          "key_findings": "Right Ear: Normal thresholds 250-2000 Hz, sloping to moderate high-frequency loss. Left Ear: Slight-to-moderate mixed loss in lows (250-1000 Hz), rising to mild SNHL at 2000 Hz, sloping to moderate/severe mixed loss in highs. Significant air-bone gaps present in LE.",
+          "numeric_results": {
+            "RE_PTA": "Normal range (low/mid) to 50-60 dB HL (highs)",
+            "LE_250Hz": "~40 dB HL (Air), ~10 dB HL (Bone)",
+            "LE_4000Hz": "~50 dB HL (Air), ~20 dB HL (Bone)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.11"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) agree with pure-tone averages. Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "17 dB",
+            "RE_WRS": "96%",
+            "LE_SRT": "40 dB",
+            "LE_WRS": "96%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.11"
+          ],
+          "key_findings": "Right Ear: Large ear canal volume with excessive negative pressure (Type C/Patent Tube mix). Left Ear: Flat tympanogram (Type B) consistent with fluid.",
+          "numeric_results": {
+            "RE_ECV": "3.3 mL",
+            "RE_Pressure": "-325 daPa",
+            "LE_ECV": "1.6 mL",
+            "LE_Type": "Type B (Flat)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mixed hearing loss in the left ear, characterized by air-bone gaps in the low and high frequencies and a flat tympanogram, consistent with middle ear pathology. The right ear demonstrates high-frequency sensorineural hearing loss with a large ear canal volume consistent with a patent pressure equalization tube, though negative pressure was noted.",
+  "counseling_points": [
+    "The test results indicate fluid behind your left eardrum, likely caused by the combination of your recent cold and the pressure changes during your flight ('airplane ear').",
+    "This fluid is preventing sound from traveling through your ear efficiently, which causes the hearing loss and the 'underwater' sensation.",
+    "The doctor has prescribed an antibiotic (Augmentin) to treat the infection.",
+    "We recommend 'autoinsufflation' exercises—gently popping your ears—to help open the Eustachian tube and drain the fluid.",
+    "If the fluid does not clear with medication and exercises, a small tube (PE tube) might need to be placed in your left ear, similar to the one you have in your right ear."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is uncomfortable due to the pressure and 'clogged' feeling in the left ear.",
+    "Mention feeling a bit 'whoozy' or off-balance occasionally.",
+    "Emphasize the specific event of the 'loud pop' on the airplane as the start of the severe symptoms."
+  ]
+}

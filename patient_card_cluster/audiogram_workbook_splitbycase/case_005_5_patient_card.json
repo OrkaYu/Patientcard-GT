@@ -1,0 +1,109 @@
+{
+  "case_id": "case_5_5",
+  "title": "Bilateral Asymmetric Sensorineural Hearing Loss (Ménière’s Disease & Presbycusis)",
+  "demographics": {
+    "age_years": 75,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My hearing is much worse in my right ear compared to my left. I've been told I have Ménière’s disease on that side. I'm here to see if I'm a candidate for a cochlear implant or if new hearing aid technology, like a BiCROS, would help me.",
+  "problem_summary": {
+    "onset": "Progressive (Right ear), Gradual (Left ear)",
+    "course": "Right ear hearing loss progressed due to Ménière’s disease; Left ear decreased gradually over time.",
+    "laterality": "Bilateral, Asymmetric (Right > Left)",
+    "associated_symptoms": "History of noise exposure. No current active otologic symptoms reported.",
+    "functional_impact": "Significant difficulty due to asymmetry and severity of loss in the right ear.",
+    "goals_motivation": "Interested in Cochlear Implant or BiCROS technology."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-08-14",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports bilateral hearing loss, worse in the right. Right ear loss is attributed to Ménière’s disease; Left ear to presbycusis and noise exposure.",
+        "otologic_history": "Previous MRI was normal. Previous audiogram approx 1 year ago.",
+        "noise_exposure_history": "Positive history of noise exposure reported.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Considering new technology (BiCROS) or surgical intervention (CI).",
+        "patient_goals": "Evaluate for CI vs BiCROS."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.5"
+          ],
+          "key_findings": "Right ear: Severe to profound SNHL (250-1000 Hz) rising to severe (2000-8000 Hz). Left ear: Moderate sloping to severe SNHL (250-6000 Hz), rising to moderately severe at 8000 Hz.",
+          "numeric_results": {
+            "RE_AC_250Hz": "90 dB HL",
+            "RE_AC_500Hz": "95 dB HL",
+            "RE_AC_1000Hz": "90 dB HL",
+            "RE_AC_2000Hz": "80 dB HL",
+            "RE_AC_4000Hz": "75 dB HL",
+            "RE_PTA": "92 dB HL",
+            "LE_AC_250Hz": "45 dB HL",
+            "LE_AC_500Hz": "50 dB HL",
+            "LE_AC_1000Hz": "60 dB HL",
+            "LE_AC_2000Hz": "65 dB HL",
+            "LE_AC_4000Hz": "80 dB HL",
+            "LE_PTA": "63 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.5"
+          ],
+          "key_findings": "Right ear: SAT obtained due to severity; poor agreement with PTA likely due to rising configuration. WRS could not be measured (CNT). Left ear: SRT in agreement with PTA; WRS shows slight difficulty.",
+          "numeric_results": {
+            "RE_SAT": "70 dB HL",
+            "RE_WRS": "CNT (Could Not Test)",
+            "LE_SRT": "65 dB HL",
+            "LE_WRS": "80% at 95 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not performed at this visit as there were no significant changes from previous assessments.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, asymmetric sensorineural hearing loss. The right ear exhibits a 'reverse slope' severe-to-profound loss consistent with Ménière’s disease, with no usable word recognition ability. The left ear shows a moderate sloping to severe loss with preserved speech discrimination (80%).",
+  "counseling_points": [
+    "Your right ear has very limited ability to understand speech, even if we make sounds louder, which is why standard hearing aids might not help on that side.",
+    "We have two main options to discuss: A BiCROS hearing aid system or a Cochlear Implant evaluation.",
+    "A BiCROS system would place a microphone on your right ear to send sound wirelessly to a hearing aid in your left ear. This helps you hear sounds from your 'bad' side.",
+    "A Cochlear Implant is a surgical option that could potentially restore some hearing to the right ear directly, rather than just routing sound to the left."
+  ],
+  "notes_for_actor": [
+    "You are a 75-year-old male.",
+    "You are knowledgeable about your diagnosis (Ménière’s disease).",
+    "You are proactive and specifically asking about 'BiCROS' or 'Cochlear Implants'.",
+    "You do not have active vertigo or fullness today, just the hearing loss."
+  ]
+}

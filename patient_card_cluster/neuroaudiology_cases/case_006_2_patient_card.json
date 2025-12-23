@@ -1,0 +1,123 @@
+{
+  "case_id": "case_6_2",
+  "title": "Subcortical and Insular Lesions: Right Internal Capsule Infarction",
+  "demographics": {
+    "age_years": 43,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I don't have any difficulty hearing. I am here because the doctors want to evaluate me as part of a research study regarding my recent stroke.",
+  "problem_summary": {
+    "onset": "Acute onset of vertigo, twitching, and slurred speech.",
+    "course": "Most symptoms (vertigo, twitching, slurring) cleared in 12 hours; facial asymmetry cleared in 3 days. Currently 'essentially doing well' but with residual somatic pain.",
+    "laterality": "Right-sided brain lesion; Right-sided motor symptoms (ipsilateral); Left-sided (contralateral) and bilateral auditory processing deficits.",
+    "associated_symptoms": "Vertigo when rising from stooping, twitching of right arm and leg, slurred speech, right facial droop. Residual right temporal pain, right arm aches, and right leg cramping.",
+    "functional_impact": "Patient reports no subjective auditory difficulty.",
+    "goals_motivation": "Participating as a research case; monitoring recovery."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology/Neurology Research Center",
+      "history": {
+        "present_illness": "The patient experienced vertigo, right-sided twitching, slurred speech, and right facial droop. She was referred for neurological consultation where a diagnosis of right basal ganglia (internal capsule) infarction was made.",
+        "otologic_history": "No complaints of auditory difficulty.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Right basal ganglia (internal capsule) infarction involving the globus pallidus.",
+        "prior_management": "Seen by local physician, referred for neuro consult.",
+        "patient_goals": "Evaluation."
+      },
+      "tests": [
+        {
+          "name": "Radiology (CT Scan)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-6",
+            "Figure 6-7"
+          ],
+          "key_findings": "Small discrete lesion at the right internal capsule, possibly involving the globus pallidus. Follow-up CTs consistent with infarction.",
+          "numeric_results": null
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-8"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. Thresholds generally between 0-10 dB HL from 250-4000 Hz, with a slight dip to 15-20 dB HL at 8000 Hz.",
+          "numeric_results": {
+            "RE_Thresholds": "0-15 dB HL",
+            "LE_Thresholds": "0-20 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-8"
+          ],
+          "key_findings": "Word recognition scores are excellent, though slightly asymmetric.",
+          "numeric_results": {
+            "RE_WRS": "88%",
+            "LE_WRS": "100%"
+          }
+        },
+        {
+          "name": "Central Auditory Tests",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-9"
+          ],
+          "key_findings": "Staggered Spondaic Words (SSW) showed abnormal function for the left ear. Dichotic Digits (DD) showed bilateral deficits with the left ear more pronounced. Frequency Patterns (FP) were bilaterally abnormal.",
+          "numeric_results": {
+            "SSW_RE": "~95% (Normal)",
+            "SSW_LE": "~80% (Abnormal)",
+            "DD_RE": "~85%",
+            "DD_LE": "~70%",
+            "FP_RE": "~40%",
+            "FP_LE": "~65%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 43-year-old female with a right internal capsule infarction presents with normal peripheral hearing sensitivity and excellent speech recognition in quiet. However, central auditory processing evaluation reveals deficits consistent with the site of lesion. Specifically, she demonstrates a 'contralateral effect' with left ear deficits on Staggered Spondaic Words and Dichotic Digits (contralateral to the right hemisphere lesion). Frequency Pattern testing revealed bilateral abnormalities. These findings indicate central auditory involvement despite the lack of subjective hearing complaints.",
+  "counseling_points": [
+    "Inform the patient that while her 'hearing' (sensitivity to sound) is normal, the brain's ability to process complex signals has been slightly affected by the stroke.",
+    "Explain the concept of contralateral deficits (right side of brain affects left ear processing).",
+    "Although she has no current complaints, advise that she might experience subtle difficulties in challenging listening environments (background noise, rapid speech).",
+    "Monitor for any changes in auditory processing over time as recovery continues."
+  ],
+  "notes_for_actor": [
+    "You are not hard of hearing in the traditional sense. You hear beeps and quiet sounds perfectly.",
+    "You are puzzled by the testing because you feel your hearing is fine.",
+    "You have some residual pain in your right arm and temple, and occasional leg cramps.",
+    "You had a scary episode of vertigo and slurred speech recently, but you are feeling much better now."
+  ]
+}

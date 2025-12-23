@@ -1,0 +1,119 @@
+{
+  "case_id": "case_12_2",
+  "title": "Case Study 2: Sergio Saccule",
+  "demographics": {
+    "age_years": 29,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been having difficulty hearing out of my right ear.",
+  "problem_summary": {
+    "onset": "Gradual",
+    "course": "Worsened during the past month",
+    "laterality": "Right ear",
+    "associated_symptoms": "None reported in text",
+    "functional_impact": "Hearing difficulty",
+    "goals_motivation": "Sought testing due to complaints"
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports hearing difficulty in the right ear of gradual onset, which has worsened over the past month.",
+        "otologic_history": "Family history of hearing loss reported.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": null,
+        "patient_goals": "Evaluation of hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Left ear shows normal hearing sensitivity. Right ear shows a moderate conductive hearing loss with a significant air-bone gap across the frequency range.",
+          "numeric_results": {
+            "Right AC Thresholds (dB HL)": "250Hz: 50, 500Hz: 50, 1000Hz: 45, 2000Hz: 45, 4000Hz: 35, 8000Hz: 30",
+            "Right BC Thresholds (dB HL)": "250Hz: 10, 500Hz: 10, 1000Hz: 15, 2000Hz: 15, 4000Hz: 20",
+            "Left AC Thresholds (dB HL)": "0-10 dB HL across 250-8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table: PTA SRT WRS"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) align with pure tone averages. Word Recognition Scores (WRS) are excellent bilaterally, with the right ear tested at a suprathreshold level.",
+          "numeric_results": {
+            "Right SRT": "45 dB HL",
+            "Right WRS": "97% @ 85 dB HL (with masking in left)",
+            "Left SRT": "10 dB HL",
+            "Left WRS": "100% @ 45 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Admittance Graph"
+          ],
+          "key_findings": "Left ear shows normal admittance (Type A). Right ear shows reduced peak admittance (shallow/stiff, Type As) centered near 0 daPa.",
+          "numeric_results": {
+            "Right Peak Admittance": "~0.3 mmhos",
+            "Left Peak Admittance": "~0.7 mmhos"
+          }
+        },
+        {
+          "name": "Wideband Acoustic Immittance (Reflectance)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Reflectance Graph"
+          ],
+          "key_findings": "Right ear shows abnormally high power reflectance (near 100%) in the low-to-mid frequencies compared to the left ear, consistent with increased stiffness of the middle ear system.",
+          "numeric_results": {
+            "Right Reflectance": ">90% below 1.0 kHz",
+            "Left Reflectance": "Normal pattern (dropping to ~40% in mid-frequencies)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a unilateral, moderate conductive hearing loss in the right ear and normal hearing in the left ear. Word recognition is excellent in the right ear when speech is loud enough to overcome the conductive component. Tympanometry and wideband reflectance findings in the right ear are consistent with increased stiffness of the middle ear system (e.g., otosclerosis), which aligns with the reported family history.",
+  "counseling_points": [
+    "Your hearing test shows a 'conductive' hearing loss in your right ear, meaning sound is not being conducted efficiently through the middle ear bones.",
+    "The nerve of hearing itself looks healthy, which is why your understanding of speech is excellent when sound is made loud enough.",
+    "The stiffness seen in the middle ear test, combined with your age and family history, suggests a condition often treated medically or surgically.",
+    "I recommend a consultation with an Ear, Nose, and Throat (ENT) physician to discuss options, which may include surgery or hearing aids."
+  ],
+  "notes_for_actor": [
+    "Portray a young adult who has noticed a gradual decline in hearing on one side.",
+    "Mention that hearing loss runs in your family when asked about history.",
+    "You are concerned because it seems to have gotten noticeably worse in the last month."
+  ]
+}

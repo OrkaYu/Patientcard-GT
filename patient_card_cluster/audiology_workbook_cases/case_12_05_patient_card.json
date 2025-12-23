@@ -1,0 +1,119 @@
+{
+  "case_id": "case_12_5",
+  "title": "Pediatric Mixed Hearing Loss Post-URI",
+  "demographics": {
+    "age_years": 8,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My hearing has gotten worse recently and my hearing aids aren't helping as much. My ears feel plugged.",
+  "problem_summary": {
+    "onset": "Congenital (SNHL) with acute worsening recently.",
+    "course": "Stable chronic loss with sudden decline following a cold.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Recent bad cold, sensation of plugged ears.",
+    "functional_impact": "Hearing aids are currently ineffective; mother is concerned.",
+    "goals_motivation": "Restore hearing to baseline; improve hearing aid benefit."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient brought in by mother due to increased concerns. Patient reports hearing has worsened recently and ears feel 'plugged' following a bad cold.",
+        "otologic_history": "Bilateral, mild to moderate, sloping sensorineural hearing loss since birth.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Recent bad cold.",
+        "prior_management": "Has been doing quite well with binaural hearing aids; good student.",
+        "patient_goals": "Determine cause of recent change and improve hearing."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Bilateral mixed hearing loss. Bone conduction thresholds reveal the underlying mild-to-moderate sloping SNHL (approx 30-55 dB HL). Air conduction thresholds are moderately-severe to severe (approx 60-75 dB HL), indicating a significant conductive component (Air-Bone Gap ~30-35 dB).",
+          "numeric_results": {
+            "Right AC Thresholds (dB HL)": "250:60, 500:60, 1000:65, 2000:70, 4000:70, 8000:70",
+            "Left AC Thresholds (dB HL)": "250:65, 500:65, 1000:70, 2000:70, 4000:70, 8000:75",
+            "Right BC Thresholds (dB HL)": "250:30, 500:30, 1000:35, 2000:45, 4000:55",
+            "Left BC Thresholds (dB HL)": "250:30, 500:30, 1000:40, 2000:50, 4000:55"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table: PTA SRT WRS"
+          ],
+          "key_findings": "Word recognition scores obtained at high presentation levels (100 dB HL) due to mixed loss.",
+          "numeric_results": {
+            "Right WRS": "82% @ 100 dB HL (could not mask)",
+            "Left WRS": "76% @ 100 dB HL (could not mask)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table: Tymps R L",
+            "Admittance Graph"
+          ],
+          "key_findings": "Bilateral Type B (flat) tympanograms with no measurable peak pressure or compliance, consistent with middle ear effusion.",
+          "numeric_results": {
+            "Right Vea": "1.0",
+            "Left Vea": "1.2",
+            "Right Ytm": "NP (No Peak)",
+            "Left Ytm": "NP (No Peak)",
+            "Right TPP": "NP",
+            "Left TPP": "NP"
+          }
+        },
+        {
+          "name": "Wideband Acoustic Immittance (Reflectance)",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Reflectance Graph"
+          ],
+          "key_findings": "High reflectance (near 100%) across low to mid frequencies for both ears, consistent with a stiff, mass-dominated system (fluid).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation reveals a bilateral mixed hearing loss. The underlying sensorineural component remains consistent with the history of mild-to-moderate loss, but there is now a significant superimposed conductive component (air-bone gap ~30-35 dB). Tympanometry is flat (Type B) bilaterally and reflectance is high, strongly suggesting bilateral otitis media with effusion (middle ear fluid) following the recent cold.",
+  "counseling_points": [
+    "Your hearing test shows that while your permanent 'nerve' hearing is stable, you have a temporary blockage causing the recent drop in hearing.",
+    "The flat lines on the pressure test confirm there is likely fluid behind your eardrums, which fits with your recent cold and the 'plugged' feeling.",
+    "This fluid acts like an earplug, which is why your hearing aids aren't helping as much as usual right now.",
+    "We recommend seeing a physician or ENT to manage the fluid. Once the fluid clears, we expect your hearing to return to its previous levels."
+  ],
+  "notes_for_actor": [
+    "Portray a child who is generally cooperative but frustrated that he can't hear well even with his devices.",
+    "The mother should be concerned that the hearing loss has progressed permanently, needing reassurance that this is likely a temporary medical issue on top of the permanent loss."
+  ]
+}

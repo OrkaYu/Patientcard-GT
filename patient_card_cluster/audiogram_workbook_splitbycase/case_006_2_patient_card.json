@@ -1,0 +1,124 @@
+{
+  "case_id": "case_6_2",
+  "title": "Right Conductive Hearing Loss with History of Cholesteatoma",
+  "demographics": {
+    "age_years": 24,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I've noticed greater difficulty hearing recently and I am interested in amplification options. I don't have any trouble hearing out of my left ear.",
+  "problem_summary": {
+    "onset": "Childhood history of otitis media; recent notice of increased difficulty.",
+    "course": "Recurrent otitis media, followed by cholesteatoma and surgery (tympanoplasty).",
+    "laterality": "Right ear",
+    "associated_symptoms": "History of cholesteatoma and tympanoplasty.",
+    "functional_impact": "Greater difficulty hearing in daily life.",
+    "goals_motivation": "Interested in amplification options."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-01-07",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient reports noticing greater difficulty hearing recently. He denies hearing loss in the left ear.",
+        "otologic_history": "Recurrent otitis media in the right ear since childhood. Developed a cholesteatoma in the right ear canal which was surgically removed. Underwent a tympanoplasty to repair the right tympanic membrane.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "None reported.",
+        "prior_management": "Surgical removal of cholesteatoma and tympanoplasty in the right ear.",
+        "patient_goals": "To explore amplification options."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6.2"
+          ],
+          "key_findings": "Right ear shows moderately severe conductive hearing loss in low frequencies, improving to mild-moderate in mid-frequencies, and sloping to moderately severe in high frequencies. Left ear thresholds are within normal limits.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250Hz: 55, 500Hz: 60, 1000Hz: 55, 2000Hz: 35, 4000Hz: 45, 8000Hz: 65 dB HL",
+            "RE_BC_Thresholds": "0-10 dB HL (Normal)",
+            "LE_AC_Thresholds": "10-15 dB HL (Normal)",
+            "LE_BC_Thresholds": "Matches AC"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6.2"
+          ],
+          "key_findings": "Right ear SRT indicates moderate loss, consistent with PTA. Word recognition is excellent (100%) when amplified. Left ear speech results are normal.",
+          "numeric_results": {
+            "RE_SRT": "57 dB HL",
+            "RE_WRS": "100% at 85 dB HL",
+            "LE_SRT": "13 dB HL",
+            "LE_WRS": "100% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6.2"
+          ],
+          "key_findings": "Right ear not tested due to previous surgery. Left ear shows a hypercompliant (Type Ad) tympanogram.",
+          "numeric_results": {
+            "RE_Immittance": "Not tested",
+            "LE_Canal_Volume": "1.1 mL",
+            "LE_Static_Admittance": "3.3 mL (Hypercompliant)",
+            "LE_Peak_Pressure": "-35 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 6.2"
+          ],
+          "key_findings": "Could not be measured in the left ear due to artifact from the hypercompliant tympanic membrane.",
+          "numeric_results": {
+            "Reflexes": "CNT (Could Not Test)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a unilateral, moderately severe conductive hearing loss in the right ear and normal hearing in the left ear. The right ear demonstrates a significant air-bone gap but excellent word recognition ability at suprathreshold levels, indicating an intact cochlea but a disruption in the sound conduction mechanism (consistent with history of surgery/cholesteatoma). The left ear is normal audiometrically but exhibits a hypercompliant tympanic membrane.",
+  "counseling_points": [
+    "Your right ear has a 'conductive' hearing loss, meaning the inner ear nerve is working well (as shown by your bone conduction scores), but sound isn't getting through the middle ear system efficiently.",
+    "Because your nerve function is good, your ability to understand speech is excellent (100%) when we make the sound loud enough.",
+    "Your left ear has normal hearing, though the eardrum is very flexible (hypercompliant), likely just a physiological variance.",
+    "Since the hearing loss is conductive and the nerve is healthy, you are a good candidate for amplification, such as a traditional hearing aid or a bone-anchored hearing solution."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is accustomed to having ear issues on the right side since childhood.",
+    "You are not in pain, but you are frustrated by the recent increase in hearing difficulty.",
+    "You rely heavily on your left ear."
+  ]
+}

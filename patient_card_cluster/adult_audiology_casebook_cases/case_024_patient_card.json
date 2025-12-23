@@ -1,0 +1,207 @@
+{
+  "case_id": "case24_A_Case_of_Central_and_Peripheral_Vestibu",
+  "title": "Central and Peripheral Vestibular Impairment",
+  "demographics": {
+    "age_years": 64,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have dizziness that happens when I change my head position, like looking up or bending over. I've also been unsteady on my feet for a long time, but my walking has gotten much worse over the last 6 years.",
+  "problem_summary": {
+    "onset": "Gait disturbance present for 25 years, worsened significantly 6 years ago. Severe 2-day vertigo episode occurred 6 years ago.",
+    "course": "Progressive unsteadiness; episodic positional vertigo is intermittent.",
+    "laterality": "Bilateral hearing loss; Left vestibular weakness.",
+    "associated_symptoms": "Nausea, light-headedness, true vertigo with position changes, scanning speech, anxiety, depression.",
+    "functional_impact": "Significant gait disturbance and disequilibrium.",
+    "goals_motivation": "Seeking second opinion regarding diagnosis and management."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-02-23",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports intermittent episodic positional vertigo and persistent gait unsteadiness. Describes two dizziness types: 1) Nausea/vertigo with position change, 2) Worsening disequilibrium walking/standing.",
+        "otologic_history": "History of 'Meniere's Disease' diagnosed 28 years ago (likely misdiagnosis). Severe vertigo event 6 years ago lasting 2 days. Reports bilateral hearing loss progressing slowly over 10 years.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Depression, Restless Leg Syndrome. Moderate alcohol intake (12 drinks/weekend) for 25 years.",
+        "prior_management": "Low salt diet, diuretic, pramipexole.",
+        "patient_goals": "Second opinion."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 24.1"
+          ],
+          "key_findings": "Mild sensorineural hearing loss (SNHL) at 250-2000 Hz rising to normal at 3000-6000 Hz bilaterally. Left ear shows mild SNHL at 8000 Hz.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250-2000 Hz: ~30-35 dB HL range; 4000-8000 Hz: <20 dB HL",
+            "Left_AC_Thresholds": "250-2000 Hz: ~30-40 dB HL range; 3000-6000 Hz: <20 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 24.1"
+          ],
+          "key_findings": "Normal ability to receive and recognize speech.",
+          "numeric_results": {
+            "SRT_Right": "20 dB HL",
+            "SRT_Left": "20 dB HL",
+            "WRS_Right": "90%",
+            "WRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 24.1"
+          ],
+          "key_findings": "Normal middle-ear pressure and compliance.",
+          "numeric_results": {
+            "Type": "A (bilateral)",
+            "ECV_Right": "0.92 mL",
+            "ECV_Left": "1.15 mL",
+            "Peak_Pressure_Right": "16 daPa",
+            "Peak_Pressure_Left": "-39 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Ipsilateral reflexes obtained at normal sensation levels bilaterally.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Vestibular & Medical Specialty Evaluation",
+      "history": {
+        "present_illness": "Follow-up vestibular testing and specialty consults ordered after initial audio.",
+        "otologic_history": "Otologist noted symptoms not consistent with Meniere's. Migrainous dizziness considered but criteria not met.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Positive for anxiety and depression on HADS.",
+        "prior_management": null,
+        "patient_goals": null
+      },
+      "tests": [
+        {
+          "name": "Videonystagmography (VNG)",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 24.2",
+            "Fig. 24.3"
+          ],
+          "key_findings": "Persistent Downbeat Nystagmus (DBN) in center gaze, increasing with lateral/downward gaze. Horizontal rebound nystagmus. Abnormal smooth pursuit (saccadic intrusion, reduced gain). Reduced optokinetic gain.",
+          "numeric_results": {
+            "Caloric_Total_Response": "35 degrees/s",
+            "Unilateral_Weakness": "49% Left (Abnormal >25%)",
+            "Directional_Preponderance": "49% Right (Abnormal >35%)"
+          }
+        },
+        {
+          "name": "Rotary Chair",
+          "timepoint_label": "Evaluation",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Abnormal phase leads at low frequencies. Abnormal VOR suppression. Normal gain and symmetry.",
+          "numeric_results": {
+            "Phase_Leads": "Abnormal at 0.01 and 0.02 Hz",
+            "VOR_Suppression": "Abnormal at 0.04 and 0.08 Hz"
+          }
+        },
+        {
+          "name": "cVEMP",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal N1-P1 latency and amplitude values bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Neuro-ophthalmology Exam",
+          "timepoint_label": "Consult",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Confirmed DBN with vision and vision denied. Positive Daroff sign. Subtle scanning speech (ataxic dysarthria).",
+          "numeric_results": null
+        },
+        {
+          "name": "MRI Brain",
+          "timepoint_label": "Imaging",
+          "ear": null,
+          "condition": "with and without contrast",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Mild diffuse cerebellar and cerebral atrophy.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild, low-frequency sensorineural hearing loss bilaterally with excellent speech recognition. Vestibular evaluation reveals a 'double hit' pathology: a peripheral left vestibular hypofunction (likely from a prior neuritis) and central vestibular impairment characterized by downbeat nystagmus, abnormal pursuit, and failure of VOR suppression. The central findings correlate with MRI-confirmed cerebellar atrophy, likely associated with long-term alcohol use, which is inhibiting compensation for the peripheral loss.",
+  "counseling_points": [
+    "Your hearing test shows a mild hearing loss in the low pitches, but your ability to understand speech remains excellent.",
+    "Your dizziness has two causes: a weakness in your left inner ear (likely from the severe episode 6 years ago) and a processing issue in the balance center of your brain (cerebellum).",
+    "The 'processing' part of your brain is having trouble compensating for the inner ear weakness, which is why you still feel unsteady.",
+    "The MRI shows some shrinkage in the cerebellum, which is often related to long-term alcohol use. Reducing or stopping alcohol is critical to prevent further damage.",
+    "Because of your unsteadiness, fall prevention and safety in the home are very important priorities."
+  ],
+  "notes_for_actor": [
+    "Portray a subtle speech abnormality: 'scanning speech' where you pause slightly between syllables or words.",
+    "You should appear unsteady when standing or walking, but you can sit comfortably.",
+    "Be honest about the alcohol use (12 drinks a weekend) but perhaps view it as 'normal' or 'moderate' until counseled otherwise.",
+    "You are frustrated that your balance has been getting worse despite seeing other doctors previously."
+  ]
+}

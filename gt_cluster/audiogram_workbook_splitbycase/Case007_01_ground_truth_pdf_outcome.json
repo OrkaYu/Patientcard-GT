@@ -1,0 +1,92 @@
+{
+  "case_id": "Case007_01",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Mixed Hearing Loss",
+      "rationale_short": "Audiometric results show significant air-bone gaps bilaterally with underlying sensorineural loss."
+    },
+    {
+      "rank": 2,
+      "label": "Chronic Middle Ear Pathology",
+      "rationale_short": "History of cyst removal/surgery (left), recurrent fluid/tubes (right), and large ear canal volumes consistent with patent tubes or perforation."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine type, degree, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status and ear canal volume, given history of tubes and surgery."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc in the presence of mixed hearing loss."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results indicate bilateral mixed hearing loss. The right ear shows moderate mixed loss rising to normal at 2000 Hz then sloping to severe, while the left ear shows severe mixed loss with a profound notch. Speech recognition is excellent bilaterally. Tympanometry reveals flat traces with large ear canal volumes, consistent with patent PE tubes or surgical cavities. Acoustic reflexes are absent.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderate mixed loss, rising to normal at 2000 Hz, sloping to severe (4k Hz: 65 dB HL). Left ear: Severe mixed loss with profound notch at 3-4 kHz. Significant air-bone gaps bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 32 dB, Left 80 dB. WRS: Excellent bilaterally (Right 96%, Left 92%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Flat (Type B) tympanograms with large ear canal volumes (Right 5.7 mL, Left 7.1 mL), consistent with patent tubes or perforation."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes from 500 to 4000 Hz bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue use of hearing aid for the left ear",
+      "Hearing aid evaluation for the right ear (pending medical clearance)"
+    ],
+    "counseling_actions": [
+      "Encourage continued use of the hearing aid for the left ear",
+      "Advise follow-up for right ear hearing aid evaluation once medically cleared"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Pain and pressure in the right ear (active infection)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "Treatment of right ear infection, check status of PE tube, and follow-up on left ear."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Pending medical clearance",
+    "objective": "Hearing aid evaluation for the right ear"
+  },
+  "expected_outcome": []
+}

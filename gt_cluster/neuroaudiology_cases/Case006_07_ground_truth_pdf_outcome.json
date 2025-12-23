@@ -1,0 +1,101 @@
+{
+  "case_id": "Case006_07",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder (secondary to right insular/internal capsule hemorrhage)",
+      "rationale_short": "Normal peripheral hearing sensitivity with specific deficits on the Dichotic Rhyme Test (left ear) and an electrode effect on MLR (right hemisphere), consistent with the confirmed right insular/internal capsule lesion."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Radiology (CT Scan)",
+        "urgency": "urgent",
+        "rationale_short": "To identify the cause of sudden collapse, hemiplegia, and sensory deficits."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity given complaints of hearing loss and difficulty in noise."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech recognition abilities in quiet."
+      },
+      {
+        "action": "Central Auditory Processing Evaluation (Behavioral)",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory function given normal peripheral hearing and complaints of amusia and difficulty in noise."
+      },
+      {
+        "action": "Middle Latency Response (MLR)",
+        "urgency": "routine",
+        "rationale_short": "To objectively evaluate the integrity of the central auditory pathways and check for laterality effects."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing sensitivity and speech recognition in quiet were normal, ruling out peripheral pathology. Central testing revealed a specific deficit in the left ear on the Dichotic Rhyme Test (contralateral to the right-sided lesion) and a significant electrode effect over the right hemisphere (T4) on MLR. These findings confirm central auditory dysfunction associated with the right insular and internal capsule lesion.",
+        "tests": [
+          {
+            "name": "Radiology (CT Scan)",
+            "category": "Imaging",
+            "result_summary": "Vascular lesion involving the right insula, lenticular process, and internal and external capsules."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Speech recognition scores were normal bilaterally."
+          },
+          {
+            "name": "Central Auditory Processing Evaluation (Behavioral)",
+            "category": "Central Auditory Test",
+            "result_summary": "Normal performance on dichotic digits, frequency patterns, and duration patterns. Marked deficit for the left ear and above-normal performance for the right ear on the Dichotic Rhyme Test (consistent on retest)."
+          },
+          {
+            "name": "Middle Latency Response (MLR)",
+            "category": "Electrophysiology",
+            "result_summary": "Considerable asymmetry with reduced responses for the T4 electrode site (right hemisphere) for both right and left ear stimulations, indicating an electrode effect."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Music therapy training",
+      "Metacognitive strategies for dealing with background noise"
+    ],
+    "counseling_actions": [
+      "Explain that the hearing difficulty is central (brain-based) and related to the right insular lesion, not peripheral.",
+      "Validate complaints of hearing loss, difficulty in noise, and amusia as physiological consequences of the stroke.",
+      "Discuss the MLR electrode effect as confirmation of the deep brain lesion affecting auditory pathways."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology/Rehabilitation",
+      "rationale_short": "Patient is already under care for stroke rehabilitation; audiological management is for sequelae."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor functional status and efficacy of coping strategies."
+  },
+  "expected_outcome": [
+    "Patient continues to have problems hearing in noise.",
+    "Various coping strategies have helped, but only marginally.",
+    "Patient carries out most everyday activities successfully.",
+    "Subsequent audiological testing showed results similar to the initial evaluation."
+  ]
+}

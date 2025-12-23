@@ -1,0 +1,125 @@
+{
+  "case_id": "Case051",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral moderate precipitously sloping to profound sensorineural hearing loss",
+      "rationale_short": "Audiometric thresholds show a steep decline, with hearing essentially unaidable above 1500 Hz, consistent with cochlear dead regions."
+    },
+    {
+      "rank": 2,
+      "label": "Cochlear dead regions",
+      "rationale_short": "The lack of benefit from amplification in high frequencies and the precipitous slope suggest regions where inner hair cells are non-functioning."
+    },
+    {
+      "rank": 3,
+      "label": "Psychosocial impairment secondary to hearing loss",
+      "rationale_short": "High scores on the Hearing Handicap Inventory (HHI) and reported social withdrawal indicate significant participation restrictions."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Complete audiologic evaluation (Air, Bone, Speech)",
+        "urgency": "routine",
+        "rationale_short": "To establish baseline thresholds and assess speech understanding capabilities."
+      },
+      {
+        "action": "Hearing Handicap Inventory (HHI) administration",
+        "urgency": "soon",
+        "rationale_short": "To quantify the patient's self-perceived handicap and psychosocial needs, given her dissatisfaction and 'difficult' behavior."
+      },
+      {
+        "action": "Cochlear Implant (CI) Candidacy Evaluation",
+        "urgency": "soon",
+        "rationale_short": "Indicated due to the severity of high-frequency loss, poor aided Articulation Index, and limited benefit from conventional hearing aids."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Baseline evaluation reveals severe high-frequency deficits that are likely unaidable with conventional amplification.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Bilateral moderate precipitously sloping to profound SNHL; thresholds >100 dB HL above 2000 Hz."
+          },
+          {
+            "name": "Articulation Index (AI) Calculation",
+            "result_summary": "Aided AI is only 0.23 (23%), predicting poor speech understanding even with amplification."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Repeated requests for 'tweaking' indicate unmet auditory needs that cannot be resolved by gain adjustments alone.",
+        "tests": [
+          {
+            "name": "Hearing Aid Check/Fitting",
+            "result_summary": "Subjective dissatisfaction and inconsistent requests for gain changes; casing damage noted due to hair products."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Group rehabilitation provided significant but temporary psychosocial relief.",
+        "tests": [
+          {
+            "name": "Hearing Handicap Inventory (HHI)",
+            "result_summary": "Pre-group score of 86 (severe handicap) improved to 58 immediately post-intervention."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Regression of handicap score confirms that counseling/AR alone is insufficient without better auditory access (CI).",
+        "tests": [
+          {
+            "name": "Hearing Handicap Inventory (HHI)",
+            "result_summary": "Score regressed to 82 six months post-group."
+          },
+          {
+            "name": "Cochlear Implant Candidacy Review",
+            "result_summary": "Patient meets criteria for evaluation due to profound high-frequency loss and lack of HA benefit."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Refer for Cochlear Implant (CI) evaluation and subsequent implantation (bimodal fitting).",
+      "Discontinue repeated fine-tuning ('tweaking') of hearing aids for high frequencies where cochlear dead regions exist.",
+      "Enroll in auditory training program post-implantation.",
+      "Continue family-centered counseling to address social withdrawal and stigma."
+    ],
+    "counseling_actions": [
+      "Explain that the 'tweaking' of hearing aids is ineffective because the ear cannot process sound in the high frequencies (dead regions).",
+      "Discuss the benefits of cochlear implants for high-frequency clarity compared to hearing aids.",
+      "Address the patient's feelings of stigma and embarrassment, validating her frustration as a result of unmet hearing needs rather than being 'difficult'.",
+      "Advise on protecting hearing aid plastics from chemical damage caused by specific hair products."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Precipitously sloping hearing loss (unaidable high frequencies)",
+      "Significant self-perceived handicap (HHI > 80) despite amplification",
+      "Patient labeled as 'difficult' or 'demanding' (often a sign of unmet clinical needs)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Cochlear Implant Center",
+      "rationale_short": "Conventional amplification is insufficient for the patient's profound high-frequency loss; she is a strong candidate for CI."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate referral for CI evaluation; follow-up for mapping and rehab post-surgery.",
+    "objective": "Verify benefit from bimodal fitting (CI + HA) and monitor reduction in psychosocial handicap."
+  },
+  "expected_outcome": [
+    "Improved speech understanding, particularly in high frequencies, through electrical stimulation (CI).",
+    "Reduction in Hearing Handicap Inventory (HHI) scores (e.g., from >80 to ~60 or lower).",
+    "Resolution of 'difficult' patient behaviors as communicative needs are finally met.",
+    "Successful use of bimodal hearing (CI on one ear, HA on the other)."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "case_id": "case_4_7",
+  "title": "Hyperacusis and Tinnitus with Normal Hearing Sensitivity",
+  "demographics": {
+    "age_years": 42,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "Ever since I started my car and the radio blasted at full volume, I've had ringing in my ears and everything is just too loud. I have to wear earplugs or earmuffs just to leave the house or drive.",
+  "problem_summary": {
+    "onset": "Sudden onset following an acoustic shock event (car radio at full volume).",
+    "course": "Persistent since the inciting event.",
+    "laterality": "Bilateral.",
+    "associated_symptoms": "Tinnitus, aural pressure, significant sound sensitivity (hyperacusis), anxiety regarding sound exposure.",
+    "functional_impact": "Patient avoids public spaces (restaurants) and driving without hearing protection. High-frequency sounds are particularly bothersome.",
+    "goals_motivation": "Reduce sensitivity and return to normal daily activities."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-10-14",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports onset of tinnitus and hyperacusis after exposure to a loud car radio. Everyday sounds (driving, eating in restaurants) are now perceived as too loud.",
+        "otologic_history": "Reports a sensation of aural pressure bilaterally. No other reported otologic history.",
+        "noise_exposure_history": "Inciting event: Car radio on full volume.",
+        "medical_psych_history": "No medical complications found by ENT.",
+        "prior_management": "Patient self-manages by wearing earplugs or earmuffs when leaving the house.",
+        "patient_goals": "Improve tolerance to sound."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 4.7"
+          ],
+          "key_findings": "Thresholds are within normal limits (0-10 dB HL) from 250 to 8000 Hz bilaterally.",
+          "numeric_results": {
+            "Right PTA": "7 dB HL",
+            "Left PTA": "5 dB HL",
+            "Range": "0-10 dB HL across all frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 4.7"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) are consistent with pure-tone averages. Word Recognition Scores (WRS) are excellent at comfortable listening levels (40 dB HL).",
+          "numeric_results": {
+            "Right SRT": "10 dB HL",
+            "Left SRT": "5 dB HL",
+            "Right WRS": "100% at 40 dB HL",
+            "Left WRS": "100% at 40 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 4.7"
+          ],
+          "key_findings": "Not performed. The patient could not tolerate the pressure or sound required for immittance testing due to extreme sensitivity.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Loudness Discomfort Levels (LDLs) were assessed to quantify hyperacusis.",
+          "numeric_results": {
+            "LDLs": "Approximately 50–60 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal pure-tone hearing sensitivity and excellent speech recognition abilities bilaterally. However, the patient exhibits significant hyperacusis, evidenced by Loudness Discomfort Levels (LDLs) of 50–60 dB HL and an inability to tolerate immittance testing. The profile is consistent with hyperacusis and tinnitus triggered by an acoustic shock.",
+  "counseling_points": [
+    "Explain that while hearing sensitivity is normal, the central auditory system's 'volume control' is turned up too high (hyperacusis).",
+    "Advise against the constant use of earplugs/earmuffs in non-hazardous situations (overprotection), as this makes the brain more sensitive to sound over time.",
+    "Discuss the use of BTE sound generators to provide low-level sound therapy, helping to desensitize the auditory system.",
+    "Recommend Cognitive Behavioral Therapy (CBT) to address the fear of sound (phonophobia) and anxiety related to the tinnitus.",
+    "Clarify that hearing protection should only be used in genuinely hazardous noise environments."
+  ],
+  "notes_for_actor": [
+    "Portray high anxiety regarding the testing environment; flinch or wince at sounds that would normally be comfortable.",
+    "Mention wearing earplugs constantly, even in the car or walking into the clinic.",
+    "Emphasize that the 'radio incident' was the turning point where everything changed.",
+    "Express fear that normal sounds are damaging your ears."
+  ]
+}

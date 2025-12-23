@@ -1,0 +1,128 @@
+{
+  "case_id": "case_5_8",
+  "title": "Bilateral Progressive Sensorineural Hearing Loss (Cookie-Bite Configuration)",
+  "demographics": {
+    "age_years": 61,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am having difficulty hearing the students I teach in the classroom. I also struggle to hear my husband and soft voices.",
+  "problem_summary": {
+    "onset": "Several years ago",
+    "course": "Progressive",
+    "laterality": "Bilateral",
+    "associated_symptoms": "None reported (no other otologic symptoms)",
+    "functional_impact": "Difficulty performing job duties (teaching) and communicating at home.",
+    "goals_motivation": "Wants to hear better in the classroom."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-06-20",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports bilateral, progressive hearing loss over several years.",
+        "otologic_history": "No other otologic symptoms reported.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Family history of hearing loss (mother and grandmother).",
+        "prior_management": "None reported.",
+        "patient_goals": "Improve hearing for teaching and daily communication."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.8"
+          ],
+          "key_findings": "Bilateral symmetrical sensorineural hearing loss with a 'cookie-bite' configuration. Thresholds are within normal limits at 250 Hz, slope to a slight-to-mild loss in the mid-frequencies (500-1500 Hz), and rise back to within normal limits in the high frequencies (2000-8000 Hz).",
+          "numeric_results": {
+            "Right PTA": "25 dB HL",
+            "Left PTA": "32 dB HL",
+            "Right 500-1500Hz range": "~30-35 dB HL",
+            "Left 500-1500Hz range": "~30-40 dB HL",
+            "High Frequencies (2k-8k)": "Within Normal Limits (<20 dB HL)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.8"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA, indicating a mild loss in the ability to receive speech. Word recognition scores (WRS) are excellent bilaterally at suprathreshold levels.",
+          "numeric_results": {
+            "Right SRT": "30 dB HL",
+            "Left SRT": "30 dB HL",
+            "Right WRS": "96% at 65 dB HL",
+            "Left WRS": "100% at 65 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.8"
+          ],
+          "key_findings": "Right ear shows normal middle ear function (Type A). Left ear shows reduced compliance (Type As/hypocompliant).",
+          "numeric_results": {
+            "Right Static Admittance": "0.4 mL",
+            "Left Static Admittance": "0.2 mL",
+            "Right Peak Pressure": "-20 daPa",
+            "Left Peak Pressure": "-20 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.8"
+          ],
+          "key_findings": "Right ear reflexes (ipsi/contra) are within normal limits. Left ear reflexes are abnormal (elevated or absent) likely due to the middle ear stiffness (hypocompliance). Reflex decay was negative where measurable.",
+          "numeric_results": {
+            "Right Ipsi/Contra": "Present/Normal (500-4000 Hz)",
+            "Left Ipsi": "Normal at 2k, elevated 1k, absent 500/4k",
+            "Left Contra": "Elevated 500-1k, absent 2k-4k"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, symmetric, low-to-mid frequency sensorineural hearing loss (often called a 'cookie-bite' configuration), rising to normal hearing in the high frequencies. Speech recognition is excellent. The configuration and strong family history suggest a genetic etiology. The left ear shows slight middle ear stiffness (Type As tympanogram), affecting acoustic reflex thresholds, but the primary deficit is sensorineural.",
+  "counseling_points": [
+    "Your hearing loss has a unique 'cookie-bite' shape, meaning you hear very low and very high pitch sounds well, but miss the middle pitches where a lot of speech volume is.",
+    "Given your family history (mother and grandmother), this pattern is likely genetic.",
+    "Because your high-pitch hearing is good, you retain clarity, but voices may sound hollow or lacking volume.",
+    "Hearing aids are recommended to boost the mid-range volumes specifically. Receiver-in-the-canal (RIC) style aids would work well to keep your ear canal open for the natural high-pitch hearing you still have."
+  ],
+  "notes_for_actor": [
+    "You are a teacher who is frustrated by missing student questions.",
+    "You are generally healthy and have no dizziness or ear pain.",
+    "You are aware your mother and grandmother had hearing loss, so you might not be surprised by the diagnosis."
+  ]
+}

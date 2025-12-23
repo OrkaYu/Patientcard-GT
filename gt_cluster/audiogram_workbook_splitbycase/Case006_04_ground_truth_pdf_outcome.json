@@ -1,0 +1,89 @@
+{
+  "case_id": "Case006_04",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Ossicular Discontinuity",
+      "rationale_short": "History of head trauma, unilateral conductive hearing loss, hypercompliant (Type Ad) tympanogram, and absent acoustic reflexes are consistent with ossicular chain disruption."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate tympanic membrane mobility and middle ear status."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and support differential diagnosis of conductive pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals normal hearing in the right ear and a conductive hearing loss in the left ear, ranging from slight to moderately severe. Immittance testing demonstrates a hypercompliant tympanogram (Type Ad) on the left side with absent acoustic reflexes, findings which are strongly indicative of ossicular discontinuity secondary to the reported trauma.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal hearing (0-10 dB HL). Left ear: Conductive hearing loss, slight at low frequencies sloping to moderately severe at 8000 Hz, with significant air-bone gaps. Bone conduction normal bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT (RT 5 dB, LT 25 dB) consistent with PTA. WRS excellent bilaterally (96%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Normal Type A (0.5 mL). Left ear: Hypercompliant Type Ad (2.9 mL), suggesting ossicular discontinuity."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral present; Right contralateral elevated. Left ipsilateral and contralateral absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical intervention (ossicular chain reconstruction) to attempt hearing restoration",
+      "Amplification (hearing aid) for the left ear if surgery is not pursued or unsuccessful"
+    ],
+    "counseling_actions": [
+      "Explained the conductive nature of the hearing loss and the likelihood of ossicular discontinuity due to trauma",
+      "Discussed the pros and cons of surgical repair versus hearing aid amplification",
+      "Advised patient to consider options and follow up with decision"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral conductive hearing loss",
+      "History of recent head trauma"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT",
+      "rationale_short": "Referral for medical evaluation of ossicular discontinuity and discussion of surgical options."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Patient to schedule follow-up upon decision",
+    "objective": "To proceed with either surgical referral or hearing aid fitting based on patient preference."
+  },
+  "expected_outcome": []
+}

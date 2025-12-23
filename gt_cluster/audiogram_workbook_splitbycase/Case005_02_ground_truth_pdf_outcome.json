@@ -1,0 +1,93 @@
+{
+  "case_id": "Case005_02",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Noise-induced hearing loss / Acoustic trauma",
+      "rationale_short": "History of airbag deployment 4-6 months prior followed by bilateral hearing loss and tinnitus; audiometric configuration (sloping high-frequency SNHL) is consistent with acoustic trauma."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess the degree and configuration of hearing loss reported after the accident."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities, particularly given the patient's reported difficulties."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status and tympanic membrane compliance following the pressure wave from the airbag."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the reflex arc and check for retrocochlear pathology or ossicular issues."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals a bilateral, symmetrical, sloping sensorineural hearing loss, ranging from normal/mild in the low frequencies to moderate-severe in the high frequencies. Word recognition scores are disproportionately poor (36% Right, 42% Left) compared to the pure-tone thresholds, representing a significant decline from pre-accident levels. Tympanometry indicates a hypercompliant system on the right (Type Ad) and normal mobility on the left (Type A), but acoustic reflexes are largely preserved (except at 4000 Hz), suggesting the ossicular chain is intact despite the hypercompliance.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal to slight SNHL (250-1000 Hz) sloping to moderate-severe (1500-8000 Hz). Left ear: Normal (250-500 Hz) sloping to mild-to-moderately severe SNHL (750-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: 30 dB HL (Right), 40 dB HL (Left). WRS: Very poor, 36% (Right) and 42% (Left)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Type Ad (hypercompliant). Left ear: Type A (normal)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right: Normal 500-2000 Hz, absent at 4000 Hz. Left: Normal ipsi/contra 500-4000 Hz (except contra absent at 4000 Hz). Decay negative."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Cochlear implant evaluation",
+      "Hearing aids",
+      "Hearing Assistive Technology (HAT) for TV, phone, and computer",
+      "Hearing protection in noise",
+      "Annual hearing test"
+    ],
+    "counseling_actions": [
+      "Discuss the significant discrepancy between pure-tone thresholds and poor speech recognition scores.",
+      "Counsel on the limitations of hearing aids for clarity given the poor word recognition.",
+      "Advise on the importance of hearing protection to prevent further noise-induced damage."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Cochlear Implant Center",
+      "rationale_short": "Referral for cochlear implant evaluation due to very poor word recognition scores (36-42%), although the patient initially opted for hearing aids."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing thresholds and re-evaluate the potential need for cochlear implantation if hearing aid benefit is insufficient."
+  },
+  "expected_outcome": [
+    "A significant decrease was noted in pure-tone thresholds and WRS (approx 50% drop Left, 70% drop Right) compared to pre-accident records.",
+    "Patient was referred for a cochlear implant evaluation but preferred the cosmetics of hearing aids.",
+    "Patient was fit with hearing aids and HAT for the TV, phone, and computer."
+  ]
+}

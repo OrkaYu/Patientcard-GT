@@ -1,0 +1,151 @@
+{
+  "case_id": "Case008_08",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sturge-Weber Syndrome",
+      "rationale_short": "History of left facial hemangioma, intractable seizures, and imaging showing left hemisphere atrophy and calcification."
+    },
+    {
+      "rank": 2,
+      "label": "Right Hemisphere Language Dominance (Plasticity)",
+      "rationale_short": "Paradoxical left ear superiority on dichotic tests despite left hemisphere damage indicates language function lateralized to the intact right hemisphere."
+    },
+    {
+      "rank": 3,
+      "label": "Central Auditory Dysfunction",
+      "rationale_short": "Normal peripheral hearing with profound deficits on dichotic tasks (right ear extinction) due to compromised central pathways and hemispherectomy effects."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Behavioral Audiometry",
+        "urgency": "routine",
+        "rationale_short": "Initial attempt to assess hearing sensitivity pre-operatively."
+      },
+      {
+        "action": "CT Scan",
+        "urgency": "routine",
+        "rationale_short": "To visualize structural brain abnormalities associated with Sturge-Weber syndrome."
+      },
+      {
+        "action": "MRI",
+        "urgency": "routine",
+        "rationale_short": "To assess soft tissue involvement, ventricular size, and extent of atrophy."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity after anterior sectioning."
+      },
+      {
+        "action": "Dichotic Digits (Single pairs)",
+        "urgency": "routine",
+        "rationale_short": "To assess interhemispheric transfer and hemispheric dominance for speech."
+      },
+      {
+        "action": "Dichotic Rhyme",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory processing and linguistic lateralization."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Pre-operative assessment was limited by the patient's medical condition. Behavioral testing was not possible due to frequent and severe seizures. Imaging confirmed the diagnosis of Sturge-Weber syndrome with extensive left hemisphere pathology.",
+        "tests": [
+          {
+            "name": "Behavioral Audiometry",
+            "category": "Audiometry",
+            "result_summary": "Untestable due to frequency and severity of seizures."
+          },
+          {
+            "name": "CT Scan",
+            "category": "Imaging",
+            "result_summary": "Thickened skull with extensive calcification in left frontal area; hemiatrophy of left cerebrum; enlarged left lateral and third ventricles."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Grossly enlarged left ventricle and atrophy of the left hemisphere; increased ventricular area in cerebrum and fourth ventricle."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Following anterior sectioning of the corpus callosum, the patient was testable. Results revealed normal peripheral hearing but a paradoxical left ear advantage on dichotic tests, with the right ear performing at or below chance. This suggests language dominance has shifted to the right hemisphere (plasticity) due to early left-sided damage.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal peripheral test results found for both ears."
+          },
+          {
+            "name": "Dichotic Digits (Single pairs)",
+            "category": "Central Auditory Processing",
+            "result_summary": "Significant left ear superiority (~40%); Right ear performance at or below chance (~0-5%)."
+          },
+          {
+            "name": "Dichotic Rhyme",
+            "category": "Central Auditory Processing",
+            "result_summary": "Left ear score within normal limits (~70%); Right ear performance at or below chance (~15%)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "After posterior sectioning (total commissurotomy), seizures were well controlled. Auditory testing showed a persistence of the left ear advantage, with slight improvement in the left ear and continued extinction/poor performance in the right ear. This confirms the lack of callosal transfer and reliance on the right hemisphere for language.",
+        "tests": [
+          {
+            "name": "Dichotic Digits (Single pairs)",
+            "category": "Central Auditory Processing",
+            "result_summary": "Left ear performance improved somewhat (~45%); Right ear remained poor (~0%)."
+          },
+          {
+            "name": "Dichotic Rhyme",
+            "category": "Central Auditory Processing",
+            "result_summary": "Left ear performance improved somewhat (~75%); Right ear performance dropped to 0%."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Anterior commissurotomy (completed)",
+      "Posterior commissurotomy (completed)",
+      "Anticonvulsant medication",
+      "Monitoring of academic and behavioral progress"
+    ],
+    "counseling_actions": [
+      "Explain that normal hearing sensitivity exists despite central processing difficulties.",
+      "Discuss the 'Left Ear Advantage' as evidence of brain plasticity moving language function to the right hemisphere.",
+      "Clarify that right ear difficulties on complex tasks are due to the left brain injury, not an ear problem.",
+      "Highlight the success of seizure control and behavioral improvements."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Intractable seizures",
+      "Right hemiparesis",
+      "Physical injuries from falls"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Patient is already under surgical/medical management; routine follow-up for seizure control and development is indicated."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor seizure status, cognitive development, and auditory processing abilities."
+  },
+  "expected_outcome": [
+    "Seizures are well-controlled with medication following the two-stage commissurotomy.",
+    "Marked improvement in behavior and intellectual functioning; improved in all subjects in school.",
+    "Able to play tennis and other sports.",
+    "Right visual field neglect noted when tested 4 months after total callosal sectioning.",
+    "Tactile naming deficit: could verbally describe an object in the left hand but not in the right hand."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "case_id": "case_12_7",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Retrocochlear pathology (Left VIII nerve injury)",
+      "rationale_short": "History of head trauma, significant WRS rollover (0.40), degraded ABR waveforms, and preserved OAEs indicate neural dysfunction with intact cochlea."
+    },
+    {
+      "rank": 2,
+      "label": "Acquired Auditory Neuropathy Spectrum Disorder (ANSD)",
+      "rationale_short": "The dissociation between normal outer hair cell function (OAEs) and abnormal neural function (ABR, speech rollover) fits the ANSD profile, likely secondary to trauma."
+    },
+    {
+      "rank": 3,
+      "label": "Vestibular Schwannoma",
+      "rationale_short": "Pre-existing tinnitus and retrocochlear signs raise this possibility, though the acute onset of speech issues suggests a traumatic etiology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "MRI of Internal Auditory Canal/CPA",
+        "urgency": "routine",
+        "rationale_short": "To visualize the VIII nerve and rule out structural lesions, tumors, or traumatic injury."
+      },
+      {
+        "action": "Vestibular Evaluation (VNG)",
+        "urgency": "routine",
+        "rationale_short": "To assess the vestibular system given the patient's report of unsteadiness."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results indicate left-sided retrocochlear dysfunction characterized by a mismatch between intact cochlear function and impaired neural transmission.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal; Left ear normal sloping to mild high-frequency SNHL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "Significant rollover in the Left ear (ratio 0.40) suggesting neural pathology; Right ear normal."
+          },
+          {
+            "name": "Otoacoustic Emissions (DPOAE)",
+            "category": "Physiological",
+            "result_summary": "Robust and present bilaterally, indicating intact outer hair cell function."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear normal morphology; Left ear degraded/poorly formed waveforms."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A (normal) bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Medical referral for imaging (MRI)",
+      "Communication strategies (use right ear for phone)",
+      "Monitor hearing and balance status",
+      "Consider FM system or remote microphone if hearing aids are contraindicated due to distortion",
+      "Referral to Otolaryngology/Neurology"
+    ],
+    "counseling_actions": [
+      "Explain the discrepancy between 'hearing volume' (cochlear) and 'clarity' (neural)",
+      "Discuss the implications of the rollover finding (louder speech becomes less clear)",
+      "Emphasize the importance of medical follow-up to rule out serious pathology given the trauma history"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric auditory symptoms",
+      "Significant WRS rollover",
+      "Abnormal ABR with normal OAEs",
+      "History of head trauma",
+      "Unsteadiness"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "ENT or Neurologist",
+      "rationale_short": "Signs of neural damage (retrocochlear pathology) following head trauma require immediate medical investigation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate referral; Audiology follow-up after medical evaluation.",
+    "objective": "Determine etiology of neural dysfunction and manage based on medical findings."
+  },
+  "expected_outcome": [
+    "Confirmation of neural injury or pathology via MRI.",
+    "Potential diagnosis of traumatic VIII nerve damage.",
+    "Management of balance symptoms."
+  ]
+}

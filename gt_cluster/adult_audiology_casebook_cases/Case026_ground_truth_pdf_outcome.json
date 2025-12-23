@@ -1,0 +1,137 @@
+{
+  "case_id": "Case026",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Caudal (posterior) cerebellar syndrome",
+      "rationale_short": "Supported by central oculomotor findings (failure of visual fixation suppression, direction-changing/rebound nystagmus, impaired pursuit, absent OKN) with normal peripheral vestibular function and relative sparing of extremity ataxia."
+    },
+    {
+      "rank": 2,
+      "label": "Rostral (anterior) cerebellar syndrome",
+      "rationale_short": "Initial diagnosis based on history, but less likely given the specific oculomotor deficits and lack of significant limb ataxia observed during vestibular assessment."
+    },
+    {
+      "rank": 3,
+      "label": "Peripheral vestibular dysfunction",
+      "rationale_short": "Ruled out by normal caloric responses, normal rotary chair SHA/gain, and normal VOR gain."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing status as part of the comprehensive evaluation."
+      },
+      {
+        "action": "Computerized Dynamic Posturography (CDP)",
+        "urgency": "routine",
+        "rationale_short": "To assess functional balance and sensory integration."
+      },
+      {
+        "action": "Rotary Chair Testing",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the vestibulo-ocular reflex and visual-vestibular interaction."
+      },
+      {
+        "action": "Videonystagmography (VNG) - Oculomotor",
+        "urgency": "routine",
+        "rationale_short": "To assess central vestibular and oculomotor function."
+      },
+      {
+        "action": "Videonystagmography (VNG) - Caloric",
+        "urgency": "routine",
+        "rationale_short": "To assess individual labyrinthine function."
+      },
+      {
+        "action": "VEMPs",
+        "urgency": "routine",
+        "rationale_short": "To assess otolith function."
+      },
+      {
+        "action": "Comprehensive Vestibular Assessment (Repeat)",
+        "urgency": "routine",
+        "rationale_short": "Follow-up after 1 year to rule out progressive disorder."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry was normal. Vestibular testing revealed normal peripheral function (calorics, rotary chair VOR/SHA) but significant central signs including failure of visual fixation suppression, direction-changing and rebound gaze-evoked nystagmus, impaired pursuit, and absent OKN. Functional balance (CDP) showed falls in vestibular-dependent conditions. Findings are consistent with a caudal cerebellar syndrome.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing bilaterally."
+          },
+          {
+            "name": "Computerized Dynamic Posturography (CDP)",
+            "category": "Vestibular",
+            "result_summary": "Motor Control normal with rightward weight symmetry. SOT abnormal with falls in conditions 5 and 6."
+          },
+          {
+            "name": "Rotary Chair Testing",
+            "category": "Vestibular",
+            "result_summary": "Normal SHA and VOR gain. Abnormal Visual Fixation Suppression (high failure gains 0.36-0.40). Low normal step velocity."
+          },
+          {
+            "name": "Videonystagmography (VNG) - Oculomotor",
+            "category": "Vestibular",
+            "result_summary": "Spontaneous up-beating nystagmus; direction-changing and rebounding gaze-evoked nystagmus; saccade undershoots; cogwheeling pursuit; absent horizontal OKN."
+          },
+          {
+            "name": "Videonystagmography (VNG) - Caloric",
+            "category": "Vestibular",
+            "result_summary": "Normal labyrinthine function (UW 6%, DP 6%); failure of visual fixation suppression (78% left cool, 67% right warm)."
+          },
+          {
+            "name": "VEMPs",
+            "category": "Vestibular",
+            "result_summary": "Cervical and ocular VEMPs without repeatable waveforms."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up testing 1 year later showed results equivalent to the initial exam, ruling out a progressive disorder. Saccadic inaccuracies improved slightly but remained asymmetric; other central signs (fixation suppression failure, poor OKN) remained unchanged.",
+        "tests": [
+          {
+            "name": "Comprehensive Vestibular Assessment (Repeat)",
+            "category": "Vestibular",
+            "result_summary": "Results equivalent to initial exam. Saccadic inaccuracies improved to marginally normal but remained asymmetric. Abnormal fixation suppression and poor OKN unchanged."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to physical therapy for balance rehabilitation assessment and treatment.",
+      "Referral to recreational therapy program for education, counseling, and strength/conditioning.",
+      "Return to clinic in 1 year to rule out progressive component."
+    ],
+    "counseling_actions": [
+      "Explain that the inner ear balance sensors are working normally.",
+      "Clarify that the difficulty lies in the brain's central processing (cerebellum) of balance signals.",
+      "Advise caution when turning or changing positions quickly to prevent falls.",
+      "Discuss that physical therapy can help develop strategies to manage symptoms."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Physical Therapy",
+      "rationale_short": "For balance rehabilitation to address functional deficits caused by central vestibular dysfunction."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 year",
+    "objective": "To monitor stability of the condition and rule out any progressive component."
+  },
+  "expected_outcome": [
+    "Initial consultation for balance rehabilitation was recommended, but not completed.",
+    "Patient returned to the clinic in a year and the results ruled out any progressive component of the initial findings."
+  ]
+}

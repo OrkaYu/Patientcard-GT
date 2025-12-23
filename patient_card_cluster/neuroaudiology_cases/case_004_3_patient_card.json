@@ -1,0 +1,153 @@
+{
+  "case_id": "case_4_3",
+  "title": "Auditory Nerve Involvement: Large CPA Tumor and Neurofibromatosis",
+  "demographics": {
+    "age_years": 29,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been noticing hearing loss and ringing in my right ear for about 9 months. I also feel fullness in that ear sometimes, and I've noticed I can't hear well on the phone when I hold it to my right side.",
+  "problem_summary": {
+    "onset": "Hearing loss and tinnitus began approximately 9 months ago; vertigo began 4 years ago.",
+    "course": "Intermittent vertigo for 4 years; hearing symptoms present for 9 months; pulsatile tinnitus for a 3-week period recently.",
+    "laterality": "Right",
+    "associated_symptoms": "Tinnitus (sometimes pulsatile), aural fullness, difficulty hearing on the telephone, intermittent vertigo with head turns, occasional bilateral earaches.",
+    "functional_impact": "Difficulty using the telephone with the right ear.",
+    "goals_motivation": "Seeking diagnosis for unilateral auditory symptoms and vertigo."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient is a 29-year-old nurse. She reports right-sided hearing loss and tinnitus of 9 months' duration. She experienced pulsatile tinnitus for 3 weeks within that period and notes intermittent aural fullness. A few weeks prior to the visit, she noticed she could not hear well on the phone with the right ear.",
+        "otologic_history": "Occasional earaches bilaterally.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "4-year history of intermittent vertigo, often brought on by turning her head quickly. No family history of neurofibromatosis reported initially.",
+        "prior_management": "None reported.",
+        "patient_goals": "Evaluation of right-sided symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-8"
+          ],
+          "key_findings": "Left ear thresholds are normal. Right ear shows an unusual sensorineural configuration with a sharp dip to severe loss at 2000 Hz, rising to normal sensitivity at 6000 Hz.",
+          "numeric_results": {
+            "LE_PTA": "0-10 dB HL (flat)",
+            "RE_250Hz": "~10 dB HL",
+            "RE_500Hz": "~20 dB HL",
+            "RE_1000Hz": "~10 dB HL",
+            "RE_2000Hz": "~80 dB HL (severe dip)",
+            "RE_4000Hz": "~55 dB HL",
+            "RE_6000Hz": "Normal sensitivity",
+            "RE_8000Hz": "~30 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-8"
+          ],
+          "key_findings": "Excellent recognition in the left ear. Very poor recognition in the right ear, disproportionate to the pure tone average (retrocochlear sign).",
+          "numeric_results": {
+            "LE_WRS": "100%",
+            "RE_WRS": "14% (at 50 dB SL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanograms bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal for left ear stimulation (ipsi and contra). Absent for right ear stimulation (ipsi and contra) at 500-4000 Hz.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-9"
+          ],
+          "key_findings": "Right ear: Readable Wave I at normal latency, but poorly defined/questionable Wave V at ~7.4 msec. Left ear: Normal Waves I-IV, Wave V slightly extended. Wave I amplitude is larger than IV-V complex bilaterally.",
+          "numeric_results": {
+            "RE_Wave_I_Lat": "1.46 - 1.66 msec",
+            "RE_Wave_V_Lat": "~7.4 msec (90 dB nHL)",
+            "LE_Wave_V_Lat": "6.12 msec",
+            "LE_I-V_Interval": "4.46 msec (borderline abnormal)"
+          }
+        },
+        {
+          "name": "MRI",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-10"
+          ],
+          "key_findings": "Large mass in the right Cerebellopontine Angle (CPA) compressing the brainstem and extending into the cerebellum. A second mass was found in the superior parietal lobe.",
+          "numeric_results": {
+            "CPA_Mass_Size": "4 to 5 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 29-year-old patient presented with right-sided sensorineural hearing loss, tinnitus, and vertigo. Audiometric testing revealed a 'cookie-bite' like notch at 2000 Hz in the right ear with disproportionately poor speech recognition (14%). Acoustic reflexes were absent with right ear stimulation. ABR indicated retrocochlear pathology on the right (delayed/poor Wave V) and possible contralateral brainstem compression effects on the left (extended Wave V). MRI confirmed a large 4-5 cm right CPA mass and a second parietal lobe tumor, leading to a diagnosis of neurofibromatosis (likely NF2).",
+  "counseling_points": [
+    "Explain the discrepancy between the pure tone thresholds (hearing some tones) and the inability to understand speech (14% score), indicating nerve involvement.",
+    "Discuss the MRI findings showing the mass in the auditory nerve area (CPA) and the secondary mass in the brain.",
+    "Refer immediately to neuro-otology/neurosurgery for management of the tumors.",
+    "Discuss the diagnosis of neurofibromatosis and the need for genetic counseling and monitoring of the other ear (as NF often affects both sides eventually).",
+    "Prepare the patient for the likelihood of total hearing loss in the right ear following surgical removal of the large tumor."
+  ],
+  "notes_for_actor": [
+    "You are a young professional (nurse). You might be surprised that such a large tumor was found because your symptoms, while annoying, didn't feel 'severe' enough to explain a 5cm brain tumor.",
+    "You have been dizzy for 4 years when turning your head, but you may have dismissed it or learned to live with it.",
+    "The hearing loss on the phone is a recent and specific frustration.",
+    "You have no known family history of this condition, so the diagnosis of Neurofibromatosis is unexpected."
+  ]
+}

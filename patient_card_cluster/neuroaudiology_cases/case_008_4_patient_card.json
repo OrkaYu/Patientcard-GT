@@ -1,0 +1,190 @@
+{
+  "case_id": "case_8_4",
+  "title": "Involvement of the Auditory Areas of the Corpus Callosum: Staged Commissurotomy",
+  "demographics": {
+    "age_years": 22,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "Patient presents for audiological monitoring surrounding staged surgical treatment (commissurotomy) for intractable epilepsy.",
+  "problem_summary": {
+    "onset": "Epilepsy onset at 7 months of age.",
+    "course": "Chronic mixed seizure disorder (generalized tonic-clonic, akinetic, absence, complex partial) throughout childhood. Staged surgery planned: posterior section first, then anterior section 5 months later.",
+    "laterality": "Bilateral seizure activity; Right-handed patient.",
+    "associated_symptoms": "Jaundice at birth; Verbal and Performance IQ scores of 84; EEG showed bilaterally diffuse, synchronous, semirhythmic slow wave activity.",
+    "functional_impact": "Pre-operative central auditory processing deficits noted.",
+    "goals_motivation": "Monitor central auditory function pre- and post-surgery to understand the effects of callosal sectioning."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient with long-standing mixed seizure disorder refractory to medical management.",
+        "otologic_history": "None specified.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Jaundice at birth. IQ 84. EEG abnormalities (diffuse, synchronous slow wave).",
+        "prior_management": "Scheduled for corpus callosum sectioning.",
+        "patient_goals": "Baseline assessment."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal thresholds (250-4000 Hz) bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech recognition scores were 90% or better bilaterally.",
+          "numeric_results": {
+            "WRS_Right": "≥90%",
+            "WRS_Left": "≥90%"
+          }
+        },
+        {
+          "name": "Central Auditory Processing Evaluation",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-6"
+          ],
+          "key_findings": "Symmetrical bilateral deficits observed on Dichotic Digits, SSW, and Frequency Patterns. This implicates bilateral cortical involvement, likely secondary to epileptic activity.",
+          "numeric_results": {
+            "SSW_Right": "~45%",
+            "SSW_Left": "~45%",
+            "Frequency_Pattern_Right": "~65%",
+            "Frequency_Pattern_Left": "~65%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "2 weeks post-operative: Posterior commissurotomy (posterior one-half of corpus callosum sectioned).",
+        "otologic_history": "N/A",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "Recovering from first stage of surgery.",
+        "prior_management": "Posterior commissurotomy.",
+        "patient_goals": "Post-surgical evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op (Posterior Section)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Remained normal bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op (Posterior Section)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Remained 90% or better bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Central Auditory Processing Evaluation",
+          "timepoint_label": "Post-op (Posterior Section)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-6"
+          ],
+          "key_findings": "Marked change in pattern. Left ear scores markedly decreased for dichotic procedures (SSW, DD). Right ear scores increased to normal levels (release from central auditory competition). Frequency pattern scores decreased bilaterally.",
+          "numeric_results": {
+            "SSW_Right": "~90% (Improved)",
+            "SSW_Left": "~0-5% (Worsened)",
+            "Frequency_Pattern_Right": "<10% (Worsened)",
+            "Frequency_Pattern_Left": "<10% (Worsened)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "2 weeks post-operative: Anterior commissurotomy (remaining anterior segment sectioned). Occurred 5 months after first surgery.",
+        "otologic_history": "N/A",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "Complete commissurotomy now finalized.",
+        "prior_management": "Anterior commissurotomy.",
+        "patient_goals": "Final post-surgical evaluation."
+      },
+      "tests": [
+        {
+          "name": "Central Auditory Processing Evaluation",
+          "timepoint_label": "Post-op (Anterior Section)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-6"
+          ],
+          "key_findings": "Results essentially unchanged from the post-posterior commissurotomy findings. This confirms the auditory region of the corpus callosum is located in the posterior half.",
+          "numeric_results": {
+            "SSW_Right": "~90%",
+            "SSW_Left": "~0-5%",
+            "Frequency_Pattern_Right": "<10%",
+            "Frequency_Pattern_Left": "<10%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient initially presented with bilateral central auditory deficits likely due to diffuse epileptic activity. Following posterior commissurotomy, a classic 'split-brain' auditory pattern emerged: the left ear showed a profound deficit in dichotic listening (due to the inability of left-ear signals to cross from the right hemisphere to the left language dominant hemisphere), while the right ear showed significant improvement (attributed to 'release from central auditory competition'). Frequency pattern recognition degraded bilaterally, indicating the necessity of interhemispheric transfer for this task. The subsequent anterior commissurotomy produced no further changes, confirming that auditory transfer occurs primarily through the posterior portion of the corpus callosum.",
+  "counseling_points": [
+    "Peripheral hearing sensitivity remains normal.",
+    "Difficulty will be significant in noisy environments or when different people are speaking to each ear simultaneously.",
+    "The left ear will struggle to process speech if there is competing noise, due to the disconnection between the right hemisphere (which receives left ear input) and the left hemisphere (language center).",
+    "The improvement in the right ear suggests that the brain is now processing right-ear information more efficiently without interference from the left ear/right hemisphere pathways."
+  ],
+  "notes_for_actor": [
+    "Patient is a young adult (22) with a history of lifelong epilepsy.",
+    "Cognitive function is slightly below average (IQ 84).",
+    "The patient is right-handed.",
+    "The patient does not report hearing loss (pure tones are normal), but likely struggles with complex listening tasks."
+  ]
+}

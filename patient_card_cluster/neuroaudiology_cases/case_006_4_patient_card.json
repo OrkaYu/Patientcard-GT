@@ -1,0 +1,133 @@
+{
+  "case_id": "case_6_4",
+  "title": "Lateral Hydrocephalus and Subcortical Lesions",
+  "demographics": {
+    "age_years": null,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been suffering from severe headaches, nausea, and dizziness for the past two months. I've also been fainting and my legs feel so weak that I sometimes fall down.",
+  "problem_summary": {
+    "onset": "2 months prior to evaluation",
+    "course": "Progressive symptoms",
+    "laterality": "Bilateral central findings; Left ear peripheral mild loss",
+    "associated_symptoms": "Severe headaches, nausea, dizziness, syncopal episodes, leg weakness/falling, heat intolerance, weight loss.",
+    "functional_impact": "Significant; patient is falling and experiencing progressive neurological decline.",
+    "goals_motivation": "Evaluation as a research case to understand neuro-auditory implications of diagnosis."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Research / Clinical Evaluation",
+      "history": {
+        "present_illness": "Patient in her mid-30s developed severe headaches and nausea 2 months ago, unrelieved by OTC medication. Symptoms progressed to include dizziness, fainting, and leg weakness causing falls. She also reported heat intolerance and weight loss.",
+        "otologic_history": "No specific prior otologic history mentioned.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "CT scans revealed absence of the third ventricle and enlarged lateral ventricles (lateral hydrocephalus), possibly secondary to aqueductal stenosis. Fourth ventricle was normal.",
+        "prior_management": "None listed prior to this evaluation.",
+        "patient_goals": "Diagnosis and management of neurological symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-17"
+          ],
+          "key_findings": "Right ear thresholds are within normal limits. Left ear shows a mild, low-frequency sensorineural hearing loss rising to normal limits above 1000 Hz.",
+          "numeric_results": {
+            "RE_Thresholds": "0-15 dB HL (250-8000 Hz)",
+            "LE_Thresholds": "250Hz: 35 dB, 500Hz: 30 dB, 1000Hz: 20 dB, 2000-8000Hz: 0-10 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-17"
+          ],
+          "key_findings": "Speech recognition scores were excellent/normal bilaterally.",
+          "numeric_results": {
+            "WRS_RE": "96%",
+            "WRS_LE": "96%"
+          }
+        },
+        {
+          "name": "Central Auditory Processing Battery",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-18"
+          ],
+          "key_findings": "Behavioral central tests indicated bilateral deficits. Specifically, deficits were noted on Dichotic Digits (DD) and Frequency Patterns (FP). Compressed speech showed a slight left ear deficit.",
+          "numeric_results": {
+            "Frequency_Patterns": "Both ears < 60% (Abnormal)",
+            "Dichotic_Digits": "Bilateral deficits (approx 70-75%)",
+            "Compressed_Speech": "LE approx 70% (slight deficit), RE approx 85%"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "ABR testing yielded normal results bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Late Latency Response (P300)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-19"
+          ],
+          "key_findings": "N1 and P2 components were normal for each ear. However, the P300 component was essentially absent bilaterally.",
+          "numeric_results": {
+            "N1_P2": "Present/Normal",
+            "P300": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This case presents a mid-30s female with lateral hydrocephalus (enlarged lateral ventricles). Peripheral hearing is largely normal except for a mild low-frequency SNHL in the left ear. However, central auditory testing reveals significant findings: bilateral deficits in dichotic listening and temporal patterning (Frequency Patterns), and a complete absence of the P300 potential despite normal ABR and N1/P2 responses. These findings suggest that the expanded lateral ventricles may have displaced subcortical structures (like the caudate) or exerted pressure on the internal capsule, disrupting the neural networks required for P300 generation and complex auditory processing, without affecting the brainstem pathways.",
+  "counseling_points": [
+    "Explain that the hearing sensitivity is mostly normal, but the brain is having difficulty processing complex signals (dichotic, patterns) due to the neurological condition.",
+    "Discuss how the 'absent P300' correlates with the cognitive/attention integration issues caused by the hydrocephalus.",
+    "Reassure that the basic pathway from the ear to the brainstem (ABR) is intact.",
+    "Monitor symptoms; medical management (shunting) of the hydrocephalus is the primary treatment."
+  ],
+  "notes_for_actor": [
+    "Patient is likely experiencing significant distress due to the physical symptoms (fainting, falling) rather than hearing loss.",
+    "The hearing loss is subjective 'non-issue' compared to the neurological symptoms.",
+    "History Note: The patient eventually received bilateral shunts, and at 1-year follow-up was asymptomatic and back at work."
+  ]
+}

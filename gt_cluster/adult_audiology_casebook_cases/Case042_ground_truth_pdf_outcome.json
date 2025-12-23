@@ -1,0 +1,81 @@
+{
+  "case_id": "Case042",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Mixed hearing loss (Right ear)",
+      "rationale_short": "History of middle ear surgeries (1993, 1997) and ossicular chain replacement; audiometry shows significant air-bone gap."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural hearing loss (Left ear)",
+      "rationale_short": "Sloping high-frequency loss with no air-bone gap, consistent with presbycusis or prior noise exposure."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate current hearing thresholds and verify stability compared to the previous 2016 evaluation."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities to determine potential benefit from amplification."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents for a hearing aid consultation. Audiometric testing confirms stable hearing compared to the 2016 evaluation. The right ear exhibits a severe-to-profound mixed hearing loss, while the left ear shows a high-frequency sensorineural hearing loss. Word recognition scores are excellent bilaterally, supporting the continued use of amplification.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Severe mixed loss at 250 Hz, rising to moderately severe at 3000 Hz, falling to profound mixed at 8000 Hz (PTA 70 dB HL). Left ear: Normal at 250 Hz sloping to severe SNHL at 8000 Hz (PTA 35 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right SRT: 70 dB HL, WRS: 92% at 85 dB HL. Left SRT: 35 dB HL, WRS: 92% at 85 dB HL. Excellent recognition bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit bilateral premium RIC hearing aids",
+      "Wireless remote microphone, TV streamer, and phone clip",
+      "Custom earmolds (SAV left, pressure vent right)",
+      "Real Ear Measures (REM) verification to NAL-NL1 targets",
+      "Aided Loudness Discomfort Levels (LDLs)",
+      "Dry and Store device provided"
+    ],
+    "counseling_actions": [
+      "Counsel on 'Bundled' vs 'Unbundled/Buying Group' financial models",
+      "Explain the 'Hybrid' model (bundled for warranty period, then unbundled)",
+      "Counsel on use and care of hearing aids, earmolds, and accessories",
+      "Instruction on pairing hearing aids with smartphone and manufacturer App",
+      "Discuss importance of verification (REM) and validation measures"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Proceed with hearing aid selection and fitting as planned; no medical referral required as condition is stable."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "4 to 6 weeks post-fitting",
+    "objective": "Hearing Aid Assessment (HAA) for fine-tuning, aided QuickSIN, COSI, and maintenance check."
+  },
+  "expected_outcome": [
+    "Patient elected to purchase hearing aids using the bundled model.",
+    "Aided QuickSIN: Significant improvement in aided performance (i.e., –3.5 dB Signal-to-Noise Ratio Hearing Loss [SNRHL]).",
+    "Aided LDLs: Judged as 'soft' at 50 dB SPL, 'comfortably loud' at 65 dB SPL, and 'loud, but OK' at 80 dB SPL.",
+    "Aided COSI: Patient reported hearing aids addressed desire for performance in noise ('much better' and 'most of the time').",
+    "Patient expressed satisfaction with the care and value of services provided."
+  ]
+}

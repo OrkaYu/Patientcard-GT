@@ -1,0 +1,147 @@
+{
+  "case_id": "case_12_14",
+  "title": "Pediatric Evaluation: Carrie Cochlea",
+  "demographics": {
+    "age_years": 4,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "United States (recent immigrant)"
+  },
+  "chief_complaint": "Mother is concerned because my speech and language development seem delayed, and I behave as if I have trouble hearing or understanding.",
+  "problem_summary": {
+    "onset": "Congenital or early childhood (history of prematurity/NICU).",
+    "course": "Stable; developmental delays noted by mother.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Speech-language delay, difficulty understanding.",
+    "functional_impact": "Communication delays and behavioral indications of hearing difficulty.",
+    "goals_motivation": "Determine hearing status and cause of speech delays."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "4-year-old female recently immigrated to the US. Mother reports speech/language delay and behaviors consistent with hearing trouble.",
+        "otologic_history": "Mother vaguely recalls hearing testing in the NICU which she thinks was normal.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Born very premature with low birth weight; spent a long time in the NICU. Specific developmental history is sketchy.",
+        "prior_management": "None reported.",
+        "patient_goals": "Evaluation of hearing sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tymps Table"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A tympanograms).",
+          "numeric_results": {
+            "Right Vea": "0.6 cm3",
+            "Right Ytm": "0.7 mmho",
+            "Right TPP": "-30 daPa",
+            "Right TW": "90 daPa",
+            "Left Vea": "0.6 cm3",
+            "Left Ytm": "0.6 mmho",
+            "Left TPP": "0 daPa",
+            "Left TW": "90 daPa"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram"
+          ],
+          "key_findings": "Mild hearing loss configuration. Air conduction thresholds generally between 20-30 dB HL in low-to-mid frequencies, improving slightly in high frequencies. Bone conduction thresholds match air conduction at tested frequencies (500, 1000 Hz).",
+          "numeric_results": {
+            "Right AC Thresholds (250-8000 Hz)": "25, 25, 25, 20, 15, 10 dB HL",
+            "Left AC Thresholds (250-8000 Hz)": "25, 25, 25, 25, 20, 15 dB HL",
+            "Right BC Thresholds": "25 dB HL at 500 and 1000 Hz",
+            "Left BC Thresholds": "25 dB HL at 500 and 1000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table"
+          ],
+          "key_findings": "Speech Detection Thresholds (SDT) are 15 dB HL bilaterally, which is better than the pure tone averages (PTA). Word Recognition Scores (WRS) could not be tested.",
+          "numeric_results": {
+            "Right PTA": "25 dB HL",
+            "Right SDT": "15 dB HL",
+            "Right WRS": "Could not test",
+            "Left PTA": "27 dB HL",
+            "Left SDT": "15 dB HL",
+            "Left WRS": "Could not test"
+          }
+        },
+        {
+          "name": "DPOAE",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "DP-gram"
+          ],
+          "key_findings": "Robust distortion product otoacoustic emissions present bilaterally from 1000 to 8000 Hz, with amplitudes well above the noise floor.",
+          "numeric_results": {
+            "Range": "1-8 kHz",
+            "Result": "Present/Normal"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "ABR Waveforms"
+          ],
+          "key_findings": "ABR tested at 80 dB nHL using 39/s rate. Waveforms show poor morphology without clear neural waves (I, III, V). The activity present resembles cochlear microphonic or dys-synchronous activity rather than a synchronous neural response.",
+          "numeric_results": {
+            "Stimulus Level": "80 dB nHL",
+            "Interpretation": "Abnormal/Absent neural synchrony"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation reveals a discrepancy between peripheral and neural auditory function. The patient demonstrates mild behavioral threshold elevations (PTA ~25-27 dB HL) with better speech detection thresholds (15 dB HL). Objective testing shows normal middle ear function and robust outer hair cell function (normal DPOAEs), but the ABR at high intensity (80 dB nHL) is abnormal/dys-synchronous. This constellation of findings (Present OAEs + Abnormal ABR) is consistent with Auditory Neuropathy Spectrum Disorder (ANSD).",
+  "counseling_points": [
+    "Your daughter's hearing test shows a specific condition called Auditory Neuropathy Spectrum Disorder (ANSD).",
+    "This means her inner ear (cochlea) is receiving sound normally, as shown by the OAE test, but the signal is not being sent synchronously along the hearing nerve to the brain.",
+    "Because of this, sound may be audible but distorted, making speech understanding difficult, especially in background noise.",
+    "We will need to work closely with speech-language pathology and consider a trial with hearing technology (like an FM system or hearing aids) to support her communication development."
+  ],
+  "notes_for_actor": [
+    "The child is 4 years old and may not be able to perform word recognition tasks.",
+    "The mother is concerned about development but vague on medical history due to the chaotic nature of the NICU stay and immigration.",
+    "Emphasize the confusion: 'She hears some things, but ignores others.'"
+  ]
+}

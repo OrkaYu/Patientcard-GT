@@ -1,0 +1,71 @@
+{
+  "case_id": "Case006_06",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right-sided Otosclerosis",
+      "rationale_short": "History of previously diagnosed otosclerosis, conductive hearing loss with Carhart's notch at 2000 Hz, and excellent speech recognition."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and determine the type and degree of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates asymmetric hearing with normal sensitivity in the left ear and a moderate conductive hearing loss in the right ear. The right ear exhibits a characteristic Carhart's notch at 2000 Hz. Speech recognition is excellent bilaterally. Findings are consistent with the reported history of right-sided otosclerosis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderate rising to mild conductive loss (250-1500 Hz), Carhart's notch at 2000 Hz, sloping to mild conductive loss. PTA 35 dB HL. Left ear: Normal hearing (0-10 dB HL), PTA 12 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 35 dB HL, WRS 96% at 75 dB HL. Left ear: SRT 12 dB HL, WRS 92% at 60 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not measured at this appointment."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to otologist for surgical intervention (stapedectomy)",
+      "Hearing aids (amplification) pending medical clearance",
+      "Annual hearing monitoring"
+    ],
+    "counseling_actions": [
+      "Discuss surgical options versus amplification",
+      "Explain the nature of conductive hearing loss and potential for improvement"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "For evaluation of surgical intervention (stapedectomy) for otosclerosis."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing sensitivity."
+  },
+  "expected_outcome": []
+}

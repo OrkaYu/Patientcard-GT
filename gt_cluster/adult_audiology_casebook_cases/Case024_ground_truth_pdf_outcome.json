@@ -1,0 +1,167 @@
+{
+  "case_id": "Case024",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Uncompensated Left Peripheral Vestibular Hypofunction with Central Cerebellar Impairment",
+      "rationale_short": "VNG showed left caloric weakness (peripheral) and DBN/abnormal pursuit (central). MRI confirmed cerebellar atrophy."
+    },
+    {
+      "rank": 2,
+      "label": "Meniere's Disease",
+      "rationale_short": "History of diagnosis, but ruled out due to lack of fluctuating hearing loss and inconsistent symptoms."
+    },
+    {
+      "rank": 3,
+      "label": "Vestibular Migraine",
+      "rationale_short": "Considered due to symptoms but patient did not meet diagnostic criteria."
+    },
+    {
+      "rank": 4,
+      "label": "Benign Paroxysmal Positional Vertigo (BPPV)",
+      "rationale_short": "Positional symptoms present, but nystagmus was persistent DBN rather than typical BPPV nystagmus."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing sensitivity given history of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech understanding."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess retrocochlear pathway."
+      },
+      {
+        "action": "Videonystagmography (VNG)",
+        "urgency": "soon",
+        "rationale_short": "Evaluate vestibular function due to dizziness and gait disturbance."
+      },
+      {
+        "action": "Rotary Chair",
+        "urgency": "soon",
+        "rationale_short": "Evaluate central vestibular function and VOR suppression."
+      },
+      {
+        "action": "cVEMP",
+        "urgency": "soon",
+        "rationale_short": "Assess otolith function."
+      },
+      {
+        "action": "Neuro-ophthalmology Exam",
+        "urgency": "soon",
+        "rationale_short": "Investigate central signs (DBN) and ataxia."
+      },
+      {
+        "action": "MRI Brain",
+        "urgency": "soon",
+        "rationale_short": "Visualize brain structure to rule out space-occupying lesions or degeneration."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry revealed mild low-frequency sensorineural hearing loss bilaterally with excellent speech recognition. Immittance testing was normal, ruling out middle ear pathology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Mild SNHL at 250-2000 Hz rising to normal at 3000-6000 Hz bilaterally; Left ear mild SNHL at 8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 20 dB HL bilaterally; WRS 90% (Right) and 100% (Left)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at normal sensation levels bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Vestibular and medical evaluation revealed a 'double hit' pathology: a peripheral left vestibular hypofunction and central vestibular impairment (DBN, abnormal pursuit, VOR suppression failure). MRI confirmed cerebellar atrophy, likely alcohol-related.",
+        "tests": [
+          {
+            "name": "Videonystagmography (VNG)",
+            "category": "Vestibular",
+            "result_summary": "Persistent DBN in center gaze increasing with lateral/downward gaze; abnormal smooth pursuit; 49% left unilateral weakness; 49% right directional preponderance."
+          },
+          {
+            "name": "Rotary Chair",
+            "category": "Vestibular",
+            "result_summary": "Abnormal phase leads at 0.01 and 0.02 Hz; abnormal VOR suppression at 0.04 and 0.08 Hz."
+          },
+          {
+            "name": "cVEMP",
+            "category": "Vestibular",
+            "result_summary": "Normal N1-P1 latency and amplitude values bilaterally."
+          },
+          {
+            "name": "Neuro-ophthalmology Exam",
+            "category": "Consult",
+            "result_summary": "Confirmed DBN, positive Daroff sign, and subtle scanning speech (ataxic dysarthria)."
+          },
+          {
+            "name": "MRI Brain",
+            "category": "Imaging",
+            "result_summary": "Mild diffuse cerebellar and cerebral atrophy."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Prescription of baclofen for oscillopsia",
+      "Vestibular and balance therapy (VRT)",
+      "Occupational Therapy (OT) home visit"
+    ],
+    "counseling_actions": [
+      "Explain 'double hit' pathology involving both inner ear weakness and cerebellar processing issues",
+      "Counsel on the impact of alcohol use on cerebellar function and compensation",
+      "Discuss fall prevention and home safety"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Persistent Downbeat Nystagmus (DBN)",
+      "Abnormal smooth pursuit and VOR suppression",
+      "Scanning speech (ataxic dysarthria)",
+      "Cerebellar atrophy on MRI"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neuro-ophthalmology",
+      "rationale_short": "Central vestibular signs (DBN, ataxia) require specialist evaluation to confirm diagnosis and manage central pathology."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor response to medication and therapy, and ensure home safety."
+  },
+  "expected_outcome": [
+    "Patient reported a reduction in the symptoms of oscillopsia with lateral gaze following baclofen prescription.",
+    "Patient reported a decrease in symptoms following vestibular and balance therapy.",
+    "Safety issues (risk of falls) were addressed and an appointment was made for OT to visit the home."
+  ]
+}

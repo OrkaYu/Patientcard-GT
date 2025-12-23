@@ -1,0 +1,146 @@
+{
+  "case_id": "Case010",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Auditory Processing Disorder (APD)",
+      "rationale_short": "Normal peripheral hearing but significant deficits in auditory hypersensitivity, auditory integration (dichotic listening), and organization/sequencing."
+    },
+    {
+      "rank": 2,
+      "label": "Auditory Hypersensitivity",
+      "rationale_short": "Tolerance thresholds reduced to 65-70 dB HL, causing negative emotional and behavioral reactions to loud sounds."
+    },
+    {
+      "rank": 3,
+      "label": "Anxiety Disorder",
+      "rationale_short": "History of anxiety contributes to emotional reactions, but audiologic testing confirms underlying physiological processing deficits."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity and rule out hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition thresholds and word recognition in quiet."
+      },
+      {
+        "action": "Immittance audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and acoustic reflexes."
+      },
+      {
+        "action": "Auditory Hypersensitivity Assessment",
+        "urgency": "routine",
+        "rationale_short": "To quantify tolerance levels for warbled tones and narrowband noise given complaints of sound intolerance."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding in the presence of background noise (W-22 in noise, SCAN-3A AFG)."
+      },
+      {
+        "action": "Auditory Temporal Processing",
+        "urgency": "routine",
+        "rationale_short": "To assess temporal ordering and resolution (Pitch Pattern Sequence, Time Compressed Sentences)."
+      },
+      {
+        "action": "Auditory Phonological Processing",
+        "urgency": "routine",
+        "rationale_short": "To assess phonemic decoding and processing (Phonemic Synthesis, Filtered Words)."
+      },
+      {
+        "action": "Dichotic Listening (Integration)",
+        "urgency": "routine",
+        "rationale_short": "To assess binaural integration and separation abilities (Competing Words, SSW)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing sensitivity is within normal limits. However, the central auditory processing evaluation reveals significant deficits in auditory hypersensitivity (tolerance reduced to 65-70 dB HL) and auditory integration (dichotic listening deficits and sequencing errors). Temporal and phonological processing abilities are intact.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral Hearing",
+            "result_summary": "Normal hearing thresholds at 250 to 8,000 Hz bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech Perception",
+            "result_summary": "Word Recognition Scores (WRS) 100% in both ears in quiet."
+          },
+          {
+            "name": "Immittance audiometry",
+            "category": "Middle Ear",
+            "result_summary": "Normal ear canal volume, pressure, and compliance; reflexes normal 500-4000 Hz."
+          },
+          {
+            "name": "Auditory Hypersensitivity Assessment",
+            "category": "APD Battery",
+            "result_summary": "Significant hypersensitivity; tolerance thresholds 65-70 dB HL (normal >90 dB HL) with negative behavioral reactions."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "APD Battery",
+            "result_summary": "Normal performance. W-22 in noise: 88% Right, 92% Left. SCAN-3A Auditory Figure-Ground: Scaled score 9 (normal)."
+          },
+          {
+            "name": "Auditory Temporal Processing",
+            "category": "APD Battery",
+            "result_summary": "Normal. SCAN-3A Time Compressed Sentences scaled score 8. Pitch Pattern Sequence: 100% Right, 85% Left."
+          },
+          {
+            "name": "Auditory Phonological Processing",
+            "category": "APD Battery",
+            "result_summary": "Normal. Phonemic Synthesis: 25/25 correct. SCAN-3A Filtered Words: Scaled score 8."
+          },
+          {
+            "name": "Dichotic Listening (Integration)",
+            "category": "APD Battery",
+            "result_summary": "Abnormal. SCAN-3A Competing Words: Free Recall (5th %ile) and Directed Recall (1st %ile) abnormal. SSW: Abnormal errors and reversals; Ear Effect abnormal."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Sound therapy (e.g., The Listening Program / TLP) to improve processing and reduce hypersensitivity",
+      "Auditory training programs for integration (e.g., CAPDOTS)",
+      "Computer-based training for linguistic integration (e.g., Fast ForWord)",
+      "Use of graphic organizers for written assignments and work tasks",
+      "Recording class lectures (e.g., Tegrity) to review missed information",
+      "Accommodations: Note taker, extended time for exams/assignments",
+      "Tutoring (one-on-one)",
+      "Written outlines or notes from supervisors at work"
+    ],
+    "counseling_actions": [
+      "Explain that hearing sensitivity is normal but the brain struggles to process and integrate sound (APD)",
+      "Discuss auditory hypersensitivity and the need to desensitize rather than over-use earplugs",
+      "Advise on self-advocacy for accommodations in educational and vocational settings"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient agreed to return for a re-evaluation of auditory processing abilities after completing therapy."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "During winter break (approx. 2 months after testing)",
+    "objective": "Re-evaluation of auditory processing abilities to assess progress following therapy."
+  },
+  "expected_outcome": [
+    "Patient followed through and is presently completing The Listening Program (TLP) therapy and Fast ForWord training.",
+    "Patient is applying to college with special needs accommodations and hopes to secure tutoring and recording services.",
+    "Patient agreed to return for a re-evaluation of auditory processing abilities during winter break."
+  ]
+}

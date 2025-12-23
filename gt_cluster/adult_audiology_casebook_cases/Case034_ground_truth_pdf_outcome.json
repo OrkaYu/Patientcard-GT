@@ -1,0 +1,174 @@
+{
+  "case_id": "Case034",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Amblyaudia",
+      "rationale_short": "Extreme asymmetry on Competing Sentences test (Right ear 0-5%, Left ear 90-95%) despite symmetrical hearing thresholds, indicating a deficit in binaural integration with left-ear dominance."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural Hearing Loss",
+      "rationale_short": "Bilateral symmetrical mild to moderately severe SNHL explains thresholds and poor performance on low-pass filtered speech, but does not account for the specific binaural interference complaint."
+    },
+    {
+      "rank": 3,
+      "label": "Cognitive Decline",
+      "rationale_short": "Considered as a potential contributor to difficulties in noise; memory screening was sufficient for testing, but a referral was made for further cognitive assessment."
+    },
+    {
+      "rank": 4,
+      "label": "Retrocochlear Pathology",
+      "rationale_short": "Considered due to absent acoustic reflexes, but deemed unlikely given the symmetrical thresholds, lack of rollover, and specific CAP findings."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Re-assessment of hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess word recognition and check for rollover."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Screen for retrocochlear pathology."
+      },
+      {
+        "action": "Memory Screening",
+        "urgency": "routine",
+        "rationale_short": "Ensure sufficient memory for CAP testing validity."
+      },
+      {
+        "action": "Competing Sentences (CS)",
+        "urgency": "routine",
+        "rationale_short": "Assess binaural integration and dichotic listening."
+      },
+      {
+        "action": "Two-Pair Dichotic Digits (TPDD)",
+        "urgency": "routine",
+        "rationale_short": "Assess dichotic listening with lower linguistic load."
+      },
+      {
+        "action": "Low-Pass Filtered Speech (LPFS)",
+        "urgency": "routine",
+        "rationale_short": "Assess auditory closure/monaural low redundancy."
+      },
+      {
+        "action": "Frequency Patterns (FP)",
+        "urgency": "routine",
+        "rationale_short": "Assess temporal patterning."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Re-assessment 1 year post-fitting revealed stable bilateral symmetrical mild to moderately severe sensorineural hearing loss. Word recognition was excellent in quiet with no rollover, reducing the likelihood of retrocochlear pathology despite absent acoustic reflexes. Hearing aids were verified to be functioning correctly and meeting prescriptive targets.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical mild to moderately severe SNHL, gradually falling configuration (PTA ~33 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent word recognition (100% at 80 dB HL) bilaterally; no rollover observed."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A bilaterally (normal middle ear function)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes at maximum stimulus levels (100 dB HL)."
+          },
+          {
+            "name": "Hearing Aid Verification",
+            "category": "Electrophysiology/Device",
+            "result_summary": "Hearing aids met manufacturer specs and NAL-NL2 REIG targets; remote mic functioning correctly."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Central Auditory Processing (CAP) assessment revealed Amblyaudia, characterized by a severe deficit in binaural integration with marked left-ear dominance on the Competing Sentences test. Other tests showed smaller asymmetries or deficits consistent with SNHL. Memory screening confirmed cognitive ability to complete the battery.",
+        "tests": [
+          {
+            "name": "Memory Screening",
+            "category": "Screening",
+            "result_summary": "Sufficient short-term and working memory to complete CAP testing."
+          },
+          {
+            "name": "Competing Sentences (CS)",
+            "category": "CAP",
+            "result_summary": "Extreme asymmetry: Right ear 0-5% (poor), Left ear 90-95% (excellent), indicating Amblyaudia."
+          },
+          {
+            "name": "Two-Pair Dichotic Digits (TPDD)",
+            "category": "CAP",
+            "result_summary": "High scores bilaterally (R 82.5%, L 100%) with smaller asymmetry than CS."
+          },
+          {
+            "name": "Low-Pass Filtered Speech (LPFS)",
+            "category": "CAP",
+            "result_summary": "Poor performance bilaterally (R 48%, L 44%), consistent with SNHL."
+          },
+          {
+            "name": "Frequency Patterns (FP)",
+            "category": "CAP",
+            "result_summary": "Good performance bilaterally (R 80%, L 86%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Auditory Rehabilitation for Interaural Asymmetry (ARIA) training (4 sessions over 3 weeks)",
+      "Continued use of bilateral hearing aids",
+      "Communication strategies",
+      "Remote microphone technology (re-recommended)",
+      "Referral to psychologist for cognitive assessment",
+      "Hearing Aid Verification"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of Amblyaudia (brain preference for the left ear) as the cause of 'jumbled' speech in noise",
+      "Discuss why removing the right hearing aid sometimes helps (reducing binaural interference)",
+      "Counsel on the benefits of remote microphone technology despite cosmetic concerns",
+      "Review the outcomes of ARIA training and the need for ongoing monitoring"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Psychologist",
+      "rationale_short": "To investigate cognitive status as a potential contributor to the limited benefit from hearing aids."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month after ARIA training",
+    "objective": "Re-assess CAP skills and functional benefit with hearing aids."
+  },
+  "expected_outcome": [
+    "Post-ARIA Competing Sentences (CS): Significant improvement in the nondominant right ear to 30% at 0 dB SNR, 70% at +5 dB SNR, and 90% at +10 dB SNR.",
+    "Post-ARIA Two-Pair Dichotic Digits (TPDD): Scores remained high with no significant change (Right 95%, Left 98%).",
+    "Post-ARIA Low-Pass Filtered Speech (LPFS): No significant change (Right 36%, Left 56%).",
+    "Post-ARIA Frequency Patterns (FP): No significant change (Right 86%, Left 80%).",
+    "Patient reported mildly improved benefit when wearing both hearing aids in noisy environments and less stress/exhaustion.",
+    "Patient reported fewer occasions of removing one hearing aid in noise but continued to withdraw from some social gatherings."
+  ]
+}

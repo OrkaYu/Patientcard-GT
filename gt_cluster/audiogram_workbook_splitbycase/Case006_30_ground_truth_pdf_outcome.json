@@ -1,0 +1,78 @@
+{
+  "case_id": "Case006_30",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Chronic Otitis Media with Effusion / Eustachian Tube Dysfunction",
+      "rationale_short": "History of bilateral disease and multiple surgeries; findings include right negative middle ear pressure (extruded tube) and left flat tympanogram with conductive hearing loss components."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity given reported decrease in hearing and aural pressure."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and status of pressure equalization tubes."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear shows mild conductive hearing loss with excessive negative middle ear pressure, consistent with the reported extrusion of the PE tube and Eustachian tube dysfunction. The left ear exhibits a mixed profile with mild conductive components in the low frequencies and sensorineural sloping in the high frequencies, accompanied by a flat tympanogram with normal ear canal volume. Speech recognition is excellent bilaterally.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right: Mild conductive loss (250-1000 Hz) rising to normal, then sloping to slight/mild loss at highs. Left: Mild rising to slight conductive loss (lows), normal mids, sloping to mild SNHL (highs). Air-bone gaps present."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT: 23 dB HL, WRS: 96%. Left SRT: 15 dB HL, WRS: 96%. Results in agreement with PTA."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right: Type C (-200 daPa, 0.60 mL). Left: Type B (flat, normal volume 1.80 mL)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Return for hearing test after medical management",
+      "Annual hearing monitoring",
+      "Discuss amplification and use of HAT (Hearing Assistive Technology)",
+      "Use hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Discuss results showing conductive loss and middle ear dysfunction",
+      "Counsel on the need for medical follow-up regarding ear pressure and tube status",
+      "Counsel on hearing protection strategies"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist",
+      "rationale_short": "For medical management of chronic otitis media, Eustachian tube dysfunction, and extruded PE tube."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After medical management and annually",
+    "objective": "To monitor hearing sensitivity and discuss amplification options."
+  },
+  "expected_outcome": []
+}

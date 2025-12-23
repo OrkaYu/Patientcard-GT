@@ -1,0 +1,154 @@
+{
+  "case_id": "elements_case_12",
+  "title": "7-Year-Old Female with Unexplained Screening Failures",
+  "demographics": {
+    "age_years": 7,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I hear fine, but I failed the hearing test at school twice.",
+  "problem_summary": {
+    "onset": "Identified during recent public school hearing screenings.",
+    "course": "Failed screening on two occasions.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "None reported; child denies hearing difficulty.",
+    "functional_impact": "None reported by patient.",
+    "goals_motivation": "Parents are seeking an explanation for the apparent high-frequency hearing loss after an otologist found no physical abnormalities."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient failed public school hearing screenings twice. Parents consulted an otologist who found no explanation for the apparent high-frequency loss and referred the child for further study.",
+        "otologic_history": "Otologic exam by previous physician was unremarkable.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Referral from otologist.",
+        "patient_goals": "Determine if hearing loss is real and identify the cause."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Bilateral high-frequency air-conduction hearing loss appearing at 2000 Hz and sloping to moderate severity at 4000-8000 Hz. Bone conduction thresholds are normal (0 dB HL) across all tested frequencies, indicating a significant air-bone gap in the high frequencies.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 5, 500Hz: 5, 1000Hz: 10, 2000Hz: 15, 4000Hz: 40, 8000Hz: 55 dB HL",
+            "Left_AC_Thresholds": "250Hz: 5, 500Hz: 5, 1000Hz: 10, 2000Hz: 15, 4000Hz: 45, 8000Hz: 55 dB HL",
+            "Bone_Conduction": "0 dB HL at 500, 1000, 2000, and 4000 Hz bilaterally"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) are in good agreement with low-frequency pure tone averages. Word recognition scores (SRS) are excellent bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "15 dB HL",
+            "SRT_Left": "20 dB HL",
+            "SRS_Right": "100%",
+            "SRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanogram",
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Static_compliance_Right": "0.62 cc",
+            "Static_compliance_Left": "0.59 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Acoustic reflexes are present at normal levels.",
+          "numeric_results": {
+            "ART_1000Hz_Ipsi_Right": "90 dB HL",
+            "ART_1000Hz_Ipsi_Left": "90 dB HL",
+            "ART_4000Hz_Contra_Right": "85 dB HL",
+            "ART_4000Hz_Contra_Left": "95 dB HL"
+          }
+        },
+        {
+          "name": "ABR",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "All waves normal; interpeak latencies normal; latency-intensity function normal.",
+          "numeric_results": null
+        },
+        {
+          "name": "TEOAE",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Transient Evoked Otoacoustic Emissions are present bilaterally.",
+          "numeric_results": {
+            "Result": "Present"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with an apparent bilateral high-frequency conductive hearing loss when tested with standard headphones, characterized by significant air-bone gaps at 4000 Hz despite normal bone conduction. However, all objective measures—including tympanometry, acoustic reflexes, ABR, and TEOAEs—are completely normal. The discrepancy between the air-conduction thresholds and the normal physiological measures (especially OAEs and reflexes) suggests the hearing loss is artifactual, likely caused by collapsing ear canals under the pressure of supra-aural headphones.",
+  "counseling_points": [
+    "Your daughter has normal hearing in both ears.",
+    "The 'hearing loss' seen on the school screenings and the initial graph was caused by the headphones pushing her soft ear canals closed (collapsing canals), blocking the sound.",
+    "We confirmed her hearing is normal using tests that don't put pressure on the ear (like the echo test/OAEs) and by looking at her bone conduction responses.",
+    "She does not need medical treatment or hearing aids. We will provide a letter for her school and doctor explaining these findings."
+  ],
+  "notes_for_actor": [
+    "Portray a healthy 7-year-old who is unconcerned and insists she hears fine.",
+    "If playing the parent, express confusion about why the school keeps failing her and why the previous doctor couldn't find anything wrong.",
+    "The key to this case is the physical property of the ear cartilage; the 'hearing loss' is created by the equipment itself."
+  ]
+}

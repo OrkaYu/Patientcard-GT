@@ -1,0 +1,84 @@
+{
+  "case_id": "Case007_02",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Dysfunction",
+      "rationale_short": "Confirmed by the 'electrode effect' on electrophysiologic tests (MLR, Late Potentials) and behavioral performance on Dichotic Digits."
+    },
+    {
+      "rank": 2,
+      "label": "Aphasia",
+      "rationale_short": "Patient presented with inability to repeat words or describe items, necessitating the use of non-linguistic or number-based stimuli."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Dichotic Digits",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory function using number stimuli, as the patient retained the ability to repeat numbers despite aphasia."
+      },
+      {
+        "action": "Middle Latency Response (MLR)",
+        "urgency": "routine",
+        "rationale_short": "To objectively assess the central auditory pathway and check for electrode effects consistent with the brain lesion."
+      },
+      {
+        "action": "Late Potentials",
+        "urgency": "routine",
+        "rationale_short": "To objectively assess cortical auditory processing and check for electrode effects."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient, initially considered untestable due to aphasia, successfully completed the Dichotic Digits test by repeating numbers. Both behavioral and electrophysiologic testing (MLR, Late Potentials) confirmed central auditory dysfunction, specifically demonstrating an 'electrode effect' where the electrode closest to the lesion showed the greatest abnormality.",
+        "tests": [
+          {
+            "name": "Dichotic Digits",
+            "category": "Behavioral Central Test",
+            "result_summary": "Patient was able to repeat numbers with ease, allowing for successful assessment of central function."
+          },
+          {
+            "name": "Middle Latency Response (MLR)",
+            "category": "Electrophysiology",
+            "result_summary": "Demonstrated the 'electrode effect', where the electrode closest to the lesion showed the greatest effect."
+          },
+          {
+            "name": "Late Potentials",
+            "category": "Electrophysiology",
+            "result_summary": "Demonstrated the 'electrode effect', where the electrode closest to the lesion showed the greatest effect."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Incorporation of test results into the patient's rehabilitation plan",
+      "Utilization of alternative stimuli (numbers) for future assessments"
+    ],
+    "counseling_actions": [
+      "Explain that while word repetition is impaired, auditory processing of numbers remains intact",
+      "Discuss how electrophysiologic results confirm the physiological impact of the lesion"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Rehabilitation Services",
+      "rationale_short": "To apply auditory findings to the patient's ongoing rehabilitation for aphasia and central dysfunction."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor rehabilitation progress and central auditory status."
+  },
+  "expected_outcome": [
+    "Discovery that the patient could repeat numbers allowed for the successful administration of the dichotic digits test.",
+    "Electrophysiologic testing (MLR and Late Potentials) demonstrated the 'electrode effect' consistent with the lesion location.",
+    "The findings from these tests significantly aided the patient's rehabilitation."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "case_id": "case_7_26",
+  "title": "Bilateral Otosclerosis Progression with Dizziness",
+  "demographics": {
+    "age_years": 78,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My hearing has recently decreased in both ears and sounds are distorted even when I turn up my hearing aids. I am also experiencing dizziness when I stand up or turn my head quickly in bed.",
+  "problem_summary": {
+    "onset": "Recent decrease in hearing; dizziness is a new concern.",
+    "course": "Hearing has steadily decreased; otosclerosis has progressed.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Sound distortion, dizziness (orthostatic and positional), constant bilateral tinnitus, intermittent sensation of pressure/fluid.",
+    "functional_impact": "Patient has to increase hearing aid volume significantly; concerned about ability to drive due to dizziness.",
+    "goals_motivation": "Wants to hear better and resolve dizziness/driving concerns."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-06-04",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports recent bilateral hearing decrease and distortion. Notes dizziness upon standing and when turning head quickly in bed. Intermittent pressure/fluid sensation reported.",
+        "otologic_history": "Previous otosurgery for otosclerosis bilaterally.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Reports dizziness consistent with orthostatic hypotension (standing up) and BPPV (turning in bed).",
+        "prior_management": "Currently uses hearing aids but has to increase volume significantly.",
+        "patient_goals": "Improve hearing clarity and address dizziness."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op (Long term)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.26"
+          ],
+          "key_findings": "Right ear: Severe mixed loss (250-1500 Hz), rising to moderately severe SNHL at 2000 Hz, sloping to severe/profound mixed at high frequencies. Left ear: Profound mixed loss (250-500 Hz), rising to severe (1000-2000 Hz), sloping to profound. Masking dilemmas noted due to magnitude of loss and air-bone gaps.",
+          "numeric_results": {
+            "RE_AC_250Hz": "~85 dB HL",
+            "RE_AC_2000Hz": "~65 dB HL",
+            "LE_AC_250Hz": "~95 dB HL",
+            "LE_AC_2000Hz": "~80 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op (Long term)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.26"
+          ],
+          "key_findings": "SRT revealed severe loss bilaterally, in agreement with PTA. WRS revealed very poor ability to recognize speech bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "80 dB HL",
+            "RE_WRS": "40% at 105 dB HL",
+            "LE_SRT": "87 dB HL",
+            "LE_WRS": "30% at 105 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Immittance testing was not measured due to previous otosurgery.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with severe-to-profound mixed hearing loss bilaterally, indicating progression of otosclerosis despite prior surgery. Speech recognition scores are very poor (30-40%), suggesting limited benefit from traditional amplification. The patient also exhibits symptoms consistent with Benign Paroxysmal Positional Vertigo (BPPV).",
+  "counseling_points": [
+    "Explain that the otosclerosis has progressed, resulting in mixed hearing loss that is now difficult to manage with standard hearing aids.",
+    "Discuss Cochlear Implant (CI) candidacy as a strong option given the poor speech discrimination and severity of loss.",
+    "Counsel on BPPV (positional dizziness) and recommend/perform the Epley maneuver.",
+    "Advise on safety precautions regarding driving and fall prevention due to dizziness.",
+    "Recommend continued use of hearing protection in noise and annual monitoring."
+  ],
+  "notes_for_actor": [
+    "Portray an elderly male (approx 78 years old).",
+    "You are frustrated that your hearing aids aren't working well anymore; voices sound distorted.",
+    "Describe two distinct types of dizziness: one when you stand up too fast, and a 'spinning' sensation when you roll over in bed.",
+    "Mention that the tinnitus (ringing) is constant but you mostly notice it at night when the hearing aids are out."
+  ]
+}

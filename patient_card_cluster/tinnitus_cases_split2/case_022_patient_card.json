@@ -1,0 +1,264 @@
+{
+  "case_id": "Case22_Psychogenic_Tinnitus_and_Dizziness",
+  "title": "Psychogenic Tinnitus and Dizziness",
+  "demographics": {
+    "age_years": 42,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am having difficulty understanding conversations with my family and at work. I recently 'got into trouble' at work because my voice was too loud on the phone, but I can't tell how loud I am being. I also have constant ringing in my ears, dizziness, and my body feels like it is being squeezed.",
+  "problem_summary": {
+    "onset": "Long-standing tinnitus; recent exacerbation of dizziness and sound sensitivity.",
+    "course": "Worsening symptoms, particularly following a recent traumatic event involving her daughter.",
+    "laterality": "Bilateral hearing loss and tinnitus; hearing loss reported worse in left ear.",
+    "associated_symptoms": "Nausea, dizziness, sound sensitivity (hyperacusis), foot pain, cold feet, sensation of body being squeezed, word retrieval issues, memory issues, diplopia.",
+    "functional_impact": "Difficulty at work (crisis intervention specialist), trouble with conversations, inability to tolerate loud sounds.",
+    "goals_motivation": "Seeking help for hearing difficulties and tinnitus, though presentation is complicated by severe anxiety."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient self-referred for hearing evaluation. Reports difficulty maintaining appropriate vocal volume and understanding speech in noise. Reports severe, constant tinnitus causing nausea/dizziness.",
+        "otologic_history": "Bilateral aural discomfort.",
+        "noise_exposure_history": "Reports sound sensitivity to static and loud noises.",
+        "medical_psych_history": "Reports foot pain, cold feet, and body sensation of being 'squeezed'.",
+        "prior_management": "None reported prior to this visit.",
+        "patient_goals": "Address hearing and communication difficulties."
+      },
+      "tests": [
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 22.1"
+          ],
+          "key_findings": "Left ear Type A. Right ear could not be tested (CNT) due to aural discomfort.",
+          "numeric_results": {
+            "Left Ear Pressure": "-15 daPa",
+            "Left Ear Static Admittance": "0.78 mL",
+            "Right Ear": "CNT (Could Not Test)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Could not be obtained due to patient concern regarding anticipated sound levels.",
+          "numeric_results": null
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 22.1"
+          ],
+          "key_findings": "Mild-to-moderate high-frequency sensorineural hearing loss bilaterally. Low frequencies (250-1000 Hz) are within normal limits to mild loss.",
+          "numeric_results": {
+            "Right Ear Thresholds (250-1000 Hz)": "~20-25 dB HL",
+            "Right Ear Thresholds (4000-8000 Hz)": "~40-50 dB HL",
+            "Left Ear Thresholds (250-1000 Hz)": "~25-30 dB HL",
+            "Left Ear Thresholds (4000-8000 Hz)": "~40-50 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 22.1"
+          ],
+          "key_findings": "SRTs in good agreement with PTAs. Good word recognition scores in quiet.",
+          "numeric_results": {
+            "SRT Right": "30 dB HL",
+            "SRT Left": "30 dB HL",
+            "WRS Right": "88% at 55 dB HL",
+            "WRS Left": "80% at 55 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "1 week after V1",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned visibly shaken and distracted. Revealed a traumatic event days prior where her daughter attempted to stab her. Reports hearing loss played a role in safety risk.",
+        "otologic_history": "Severe sensitivity to loud sounds; tinnitus exacerbated by stress/anxiety.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Seeing a behavioral therapist. Taking OTC anxiety meds.",
+        "prior_management": "Chiropractor, essential oils, jawline massaging.",
+        "patient_goals": "Tinnitus evaluation."
+      },
+      "tests": [
+        {
+          "name": "High-frequency audiometry",
+          "timepoint_label": "Tinnitus Eval",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Moderate to moderately-severe hearing loss bilaterally from 9,000 to 20,000 Hz.",
+          "numeric_results": null
+        },
+        {
+          "name": "Loudness Discomfort Levels (LDL)",
+          "timepoint_label": "Tinnitus Eval",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 22.2"
+          ],
+          "key_findings": "Severely reduced loudness tolerance levels for both speech and pure tones.",
+          "numeric_results": {
+            "Tone LDLs": "65-75 dB HL across frequencies",
+            "Speech LDL (UCL)": "70 dB HL"
+          }
+        },
+        {
+          "name": "Tinnitus Evaluation",
+          "timepoint_label": "Tinnitus Eval",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Could not be completed as patient could not tolerate testing procedures. Declined questionnaires.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "6 weeks after V2",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Increasing difficulty with balance. Symptomatic turning head and getting out of bed. Needs support to walk. Diplopia reported 1 week prior.",
+        "otologic_history": "Dizziness, bilateral otalgia, tinnitus, intermittent vertigo.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Numerous falls, headaches, anxiety/depression, numbness/tingling in leg/foot. Taking Nature-throid, B12, Vit D, Fish Oil, Magnesium, Zinc, Biotin.",
+        "prior_management": "Discontinued chiropractor due to cost.",
+        "patient_goals": "Vestibular assessment."
+      },
+      "tests": [
+        {
+          "name": "Dizziness Handicap Inventory (DHI)",
+          "timepoint_label": "Vestibular Eval",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Indicates severe handicap.",
+          "numeric_results": {
+            "Score": "54"
+          }
+        },
+        {
+          "name": "vHIT",
+          "timepoint_label": "Vestibular Eval",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Revealed responses but had to be aborted because patient became quickly nauseous.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "Same day as V3",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presented for hearing aid fitting.",
+        "otologic_history": "Patient had been doing desensitization exercises but misunderstood instructions, playing music 'very loudly' for weeks.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Desensitization exercises.",
+        "patient_goals": "Hearing aid fitting."
+      },
+      "tests": [
+        {
+          "name": "Loudness Discomfort Levels (LDL)",
+          "timepoint_label": "Pre-Fitting",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 22.3"
+          ],
+          "key_findings": "Repeated measures found to be within normal limits, significantly improved from V2.",
+          "numeric_results": {
+            "Tone LDLs": "90 to 110 dB HL",
+            "Speech LDL": "100-105 dB HL"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-Fitting",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Confirmed mild sloping to moderate high-frequency SNHL.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild-to-moderate high-frequency sensorineural hearing loss bilaterally. Initial evaluation was complicated by significant anxiety, resulting in incomplete immittance and reflex testing. A subsequent tinnitus evaluation revealed severely reduced loudness discomfort levels (65-75 dB HL), indicative of hyperacusis, though these normalized (90-110 dB HL) by the time of the hearing aid fitting following desensitization efforts. Vestibular assessment was largely inconclusive due to patient nausea and anxiety.",
+  "counseling_points": [
+    "Explain that anxiety and stress can significantly exacerbate tinnitus, dizziness, and sound sensitivity.",
+    "Discuss the 'chaos narrative' and help the patient focus on concrete steps for management.",
+    "Clarify the correct method for desensitization exercises (start soft, not loud) to avoid further discomfort.",
+    "Recommend a multidisciplinary approach, including psychology/psychiatry and neurology, to address the complex interplay of trauma, anxiety, and physical symptoms."
+  ],
+  "notes_for_actor": [
+    "Portray a 'chaos narrative': speak in disjointed, poorly organized phrases.",
+    "Exhibit high levels of anxiety, distraction, and vagueness when answering direct questions.",
+    "During the second visit (Tinnitus Eval), appear visibly shaken and reveal the trauma regarding your daughter.",
+    "Complain of a wide range of symptoms (foot pain, cold feet, squeezing sensation) that seem unrelated to hearing.",
+    "Become easily nauseous or dizzy during testing procedures."
+  ]
+}

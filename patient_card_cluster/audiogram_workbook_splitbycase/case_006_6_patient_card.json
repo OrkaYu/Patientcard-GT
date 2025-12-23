@@ -1,0 +1,109 @@
+{
+  "case_id": "case_6_6",
+  "title": "Right-sided Otosclerosis with Conductive Hearing Loss",
+  "demographics": {
+    "age_years": 35,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've noticed increased difficulty understanding speech in noise recently. I find myself favoring my left ear more than I used to.",
+  "problem_summary": {
+    "onset": "Previously diagnosed, but worsening noted recently (no test in >2 years).",
+    "course": "Progressive",
+    "laterality": "Right-sided",
+    "associated_symptoms": "Difficulty hearing in noise.",
+    "functional_impact": "Reliance on the better-hearing left ear.",
+    "goals_motivation": "Re-evaluation of hearing status."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-09-02",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reported previously diagnosed right-sided otosclerosis. He has not had a hearing test in over 2 years. Reports subjective decline in hearing and increased difficulty in noise.",
+        "otologic_history": "No history of otosurgery.",
+        "noise_exposure_history": "No reported history of noise exposure.",
+        "medical_psych_history": "No significant health history reported.",
+        "prior_management": "Previously diagnosed but currently unmanaged; no prior audiogram available for comparison.",
+        "patient_goals": "Assessment of current hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.6"
+          ],
+          "key_findings": "Right ear shows moderate rising to mild conductive hearing loss from 250-1500 Hz, a slight sensorineural notch at 2000 Hz (Carhart's notch), sloping to mild conductive loss at 3000-6000 Hz. Significant air-bone gaps present. Left ear thresholds are within normal limits (0-10 dB HL).",
+          "numeric_results": {
+            "Right_AC_250Hz": "45 dB HL",
+            "Right_AC_500Hz": "45 dB HL",
+            "Right_AC_1000Hz": "30 dB HL",
+            "Right_AC_2000Hz": "25 dB HL",
+            "Right_BC_500Hz": "5 dB HL",
+            "Right_BC_2000Hz": "20 dB HL",
+            "Left_AC_Thresholds": "0-10 dB HL across all frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.6"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA for both ears. Word recognition scores (WRS) indicate normal ability to recognize speech bilaterally when presented at suprathreshold levels.",
+          "numeric_results": {
+            "Right_SRT": "35 dB HL",
+            "Right_PTA": "35 dB HL",
+            "Right_WRS": "96% at 75 dB HL",
+            "Left_SRT": "10 dB HL",
+            "Left_PTA": "12 dB HL",
+            "Left_WRS": "92% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.6"
+          ],
+          "key_findings": "Immittance testing was not measured at this appointment.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric hearing. The left ear is within normal limits. The right ear exhibits a moderate conductive hearing loss with a characteristic Carhart's notch at 2000 Hz, consistent with the patient's history of otosclerosis. Speech understanding remains excellent in the right ear when sound is made loud enough to overcome the conductive component.",
+  "counseling_points": [
+    "Your hearing test confirms the conductive hearing loss in your right ear is still present and consistent with otosclerosis.",
+    "The 'gap' between your nerve hearing (bone conduction) and your total hearing (air conduction) indicates that the inner ear is healthy, but sound is not being conducted efficiently through the middle ear bones.",
+    "Because your nerve function is good, you have excellent potential for improvement either through surgery or hearing aids.",
+    "We are referring you to an otologist to discuss surgical options (stapedectomy).",
+    "If surgery is not chosen or indicated, hearing aids are a very effective option for this type of hearing loss."
+  ],
+  "notes_for_actor": [
+    "You are aware you have this condition but haven't checked it in years.",
+    "You are not in pain, but you are frustrated by the difficulty hearing in noise.",
+    "You rely heavily on your 'good' left ear."
+  ]
+}

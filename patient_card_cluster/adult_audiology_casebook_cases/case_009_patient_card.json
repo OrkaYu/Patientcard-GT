@@ -1,0 +1,209 @@
+{
+  "case_id": "case09_Audiologic_Management_of_a_Patient_with",
+  "title": "Audiologic Management of a Patient with Psychogenic Hearing Loss",
+  "demographics": {
+    "age_years": 31,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "My supervisor is concerned about my difficulty communicating with customers in person and over the phone. I am afraid my job is in jeopardy because coworkers say I can't follow instructions.",
+  "problem_summary": {
+    "onset": "Approximately 2 months ago (based on coworker complaints).",
+    "course": "Worsening; initial evaluation showed mild-moderate loss, re-evaluation 2 months later showed significant decrease in sensitivity.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Anxiety, history of high blood pressure. Denies tinnitus, vertigo, or head trauma.",
+    "functional_impact": "Work performance issues; difficulty following instructions; asking people to repeat portions of conversations.",
+    "goals_motivation": "Referral by GP due to fear of job loss; obtained medical clearance for hearing aids."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2002-01-03",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient referred by GP due to work difficulties. Reports asking for repetitions. Medical history positive for childhood middle ear pathology.",
+        "otologic_history": "No recent illness, trauma, or tinnitus.",
+        "medical_psych_history": "Taking prescription medication for anxiety and high blood pressure.",
+        "prior_management": "None prior to this referral.",
+        "patient_goals": "Evaluation of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9.1"
+          ],
+          "key_findings": "Mild to moderate SNHL in the right ear; slight to mild SNHL in the left ear. Asymmetric configuration.",
+          "numeric_results": {
+            "Right_PTA": "40 dB HL",
+            "Left_PTA": "20 dB HL",
+            "Right_Thresholds": "~40-50 dB HL flat",
+            "Left_Thresholds": "~20-30 dB HL flat"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9.1"
+          ],
+          "key_findings": "SRTs commensurate with PTA. WRS indicated slight difficulty at 80 dB HL.",
+          "numeric_results": {
+            "Right_SRT": "40 dB HL",
+            "Left_SRT": "20 dB HL",
+            "Right_WRS": "80% at 80 dB HL",
+            "Left_WRS": "80% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9.1"
+          ],
+          "key_findings": "Normal middle ear pressure and static admittance bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Pressure": "-20 daPa",
+            "Left_Pressure": "-5 daPa",
+            "Right_Admittance": "1.2 mmho",
+            "Left_Admittance": "1.0 mmho"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present ipsilateral and contralateral reflexes. Obtained at reduced sensation levels (suspicious for non-organic or cochlear recruitment). No decay observed."
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2002-03-10",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned 2 months later for hearing aid fitting. Medical clearance obtained. Negative physical exam and imaging by otologist.",
+        "otologic_history": "No changes reported.",
+        "prior_management": "Selected for BTE hearing aids; earmold impressions previously taken.",
+        "patient_goals": "Hearing aid fitting (initially), then further investigation due to threshold shift."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-fitting Re-eval",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9.2"
+          ],
+          "key_findings": "Significant decrease in hearing sensitivity compared to V1. Now mild to moderate SNHL bilaterally. Left ear dropped significantly.",
+          "numeric_results": {
+            "Right_PTA": "50 dB HL",
+            "Left_PTA": "45 dB HL",
+            "Right_Thresholds": "~50-55 dB HL",
+            "Left_Thresholds": "~45-50 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-fitting Re-eval",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9.2"
+          ],
+          "key_findings": "SRTs shifted by 10 dB or greater. WRS showed moderate difficulty in Right ear, slight in Left.",
+          "numeric_results": {
+            "Right_SRT": "50 dB HL",
+            "Left_SRT": "45 dB HL",
+            "Right_WRS": "60% at 80 dB HL",
+            "Left_WRS": "88% at 80 dB HL"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Objective Testing",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9.3"
+          ],
+          "key_findings": "Normal absolute and interwave latencies. Wave V repeatable down to low levels, indicating normal neural integrity and sensitivity better than behavioral thresholds.",
+          "numeric_results": {
+            "Stimulus": "Click at 80 dB nHL",
+            "Left_Wave_V_Threshold": "25 dB HL",
+            "Right_Wave_V_Threshold": "15 dB HL"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAE)",
+          "timepoint_label": "Objective Testing",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9.4"
+          ],
+          "key_findings": "Present and repeatable normal amplitudes at most frequencies (1000-6000 Hz), inconsistent with the moderate hearing loss indicated by behavioral audiometry.",
+          "numeric_results": {
+            "Range": "1000 - 6000 Hz",
+            "Exceptions": "Absent at 1.5 kHz (Left) and 2.5 kHz (Bilateral)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient initially presented with asymmetric mild-to-moderate sensorineural hearing loss which appeared to worsen significantly upon re-evaluation two months later. However, objective electrophysiological measures (ABR and DPOAE) obtained during the second visit revealed normal cochlear and retrocochlear function, with ABR thresholds (15-25 dB HL) significantly better than the voluntary behavioral thresholds (45-50 dB HL). These findings are consistent with pseudohypacusis (non-organic hearing loss).",
+  "counseling_points": [
+    "We have completed a detailed set of tests today, including some that measure your hearing nerve's automatic response to sound.",
+    "The results from the automatic tests (ABR and OAEs) show that your inner ear and hearing nerve are actually working within the normal range.",
+    "There is a discrepancy between the results where you pushed the button and the results from the automatic tests.",
+    "Based on these objective findings, your hearing sensitivity is better than what was observed during the behavioral hearing test."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is anxious about job security.",
+    "During behavioral testing (tone pressing), be consistent within the session, but your thresholds should be elevated (mild-moderate loss) despite having normal hearing.",
+    "Do not act like a 'malingerer' with obvious exaggeration; your responses should be reliable but simply at the wrong level.",
+    "If asked about the discrepancy, express confusion or lack of realization that the responses were inconsistent."
+  ]
+}

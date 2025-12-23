@@ -1,0 +1,110 @@
+{
+  "case_id": "case_9_5",
+  "title": "Multiple Sclerosis: Central Involvement Beyond the Brainstem",
+  "demographics": {
+    "age_years": null,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am having difficulty hearing in noise and understanding what people are saying, especially if their speech is not clear. I also have tinnitus and occasional fullness in both ears.",
+  "problem_summary": {
+    "onset": "Seizure activity began 9 years prior; hearing deterioration began 1.5 years prior.",
+    "course": "Progressive deterioration in hearing; long-standing seizure history.",
+    "laterality": "Bilateral subjective complaints; Left ear deficit on central testing.",
+    "associated_symptoms": "Tinnitus, aural fullness, slurred speech, nystagmus, lower extremity weakness, fatigue, dysphagia, left hemisparesis.",
+    "functional_impact": "Difficulty understanding speech is particularly problematic as she consults with other MS patients with motor speech deficits.",
+    "goals_motivation": "Desires improved communication ability, particularly in noise."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Woman in her 30s with a 9-year history of seizure activity (grand mal and 'spells'). 1.5-year progressive deterioration in hearing. Subjective complaints include difficulty in noise and speech understanding disproportionate to pure tone thresholds.",
+        "otologic_history": "Reports tinnitus and occasional fullness in both ears. Tentatively diagnosed with endolymphatic hydrops previously.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Diagnosed with Multiple Sclerosis (MS). History of serious auto accident and deep brain implant (left thalamic ventricularis) for pain control. Progressive dysphagia, breathing difficulties, left hemisparesis. CT scan showed cerebral atrophy.",
+        "prior_management": "Use of splints and canes for ambulation.",
+        "patient_goals": "Improve hearing in noise."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Flat normal to borderline normal audiogram.",
+          "numeric_results": null
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-12"
+          ],
+          "key_findings": "Normal bilaterally. Waveforms I, III, and V are present and latencies appear within normal limits at both 15 and 65 clicks/s repetition rates.",
+          "numeric_results": {
+            "Wave V Latency (approx from visual)": "~6.7-6.8 ms"
+          }
+        },
+        {
+          "name": "P300 Response",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Responses were normal.",
+          "numeric_results": null
+        },
+        {
+          "name": "Dichotic Listening Tests",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-13"
+          ],
+          "key_findings": "Central behavioral tests revealed significant left ear deficits on both the Dichotic Rhyme test and Dichotic Digits test. Right ear performance was normal for both.",
+          "numeric_results": {
+            "Dichotic Digits Right Ear": "~92%",
+            "Dichotic Digits Left Ear": "~10%",
+            "Dichotic Rhyme Right Ear": "~48%",
+            "Dichotic Rhyme Left Ear": "~32%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity and normal brainstem function (ABR), but significant central auditory processing deficits characterized by a left ear deficit on dichotic listening tasks. This pattern suggests involvement of auditory areas above the brainstem, likely affecting the white matter in the area of the trigone and compromising interhemispheric transfer, consistent with her diagnosis of Multiple Sclerosis.",
+  "counseling_points": [
+    "Explain that hearing difficulties are central (processing) rather than peripheral (sensitivity), which explains why standard hearing tests look normal despite subjective struggles.",
+    "Discuss the impact of MS on the white matter tracts connecting the brain hemispheres (corpus callosum/trigone area), leading to the specific left-ear deficits on dichotic tests.",
+    "Recommend assistive listening devices to improve signal-to-noise ratio.",
+    "Specific recommendation: Use of a 'Pocket Talker' for difficult listening situations."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated that previous hearing tests might have been 'normal' while you clearly struggle to understand speech.",
+    "You have physical symptoms of MS: slight slurring of speech, slight nystagmus, and left-sided weakness (hemisparesis).",
+    "You use splints or canes to walk.",
+    "You are knowledgeable about MS as you consult with other patients."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "case_id": "Case011_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Neuromaturational Lag",
+      "rationale_short": "Significant improvement in central auditory processing skills over a 3-year period without specific intervention, consistent with delayed maturation of the auditory nervous system."
+    },
+    {
+      "rank": 2,
+      "label": "Central Auditory Processing Disorder (Corpus Callosum Dysfunction)",
+      "rationale_short": "Initial pattern of left ear deficits on dichotic tasks and bilateral deficits on frequency patterns is characteristic of poor corpus callosum function, which has a long maturational course."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity and rule out hearing loss as a cause of academic difficulties."
+      },
+      {
+        "action": "Central Auditory Test Battery",
+        "urgency": "routine",
+        "rationale_short": "To evaluate central auditory processing abilities given the complaints of difficulty hearing in noise and following directions despite normal intelligence."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing was normal. Central auditory testing revealed seven abnormal results, characterized by left ear deficits on dichotic tasks (SSW, Dichotic Digits, Competing Sentences) and a complete inability to perform Frequency Patterns. This pattern suggests dysfunction of the corpus callosum.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral Hearing",
+            "result_summary": "Normal pure tone thresholds bilaterally."
+          },
+          {
+            "name": "Central Auditory Test Battery",
+            "category": "Central Auditory Processing",
+            "result_summary": "Abnormal. Left ear deficits on SSW (~50%), Dichotic Digits (~60%), and Competing Sentences (~35%). Mild right ear deficit on Filtered Speech (~50%). Frequency Patterns could not be performed (0%)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Re-evaluation after nearly 3 years showed considerable improvement, supporting a diagnosis of neuromaturational lag. Most tests normalized, with residual deficits restricted to tasks heavily dependent on corpus callosum function (Frequency Patterns and left ear Dichotic Digits).",
+        "tests": [
+          {
+            "name": "Central Auditory Test Battery",
+            "category": "Central Auditory Processing",
+            "result_summary": "Marked improvement. Competing Sentences improved by 63% (now ~95%). SSW and Filtered Speech normalized. Residual deficits noted in Frequency Patterns bilaterally (~32-35%) and Dichotic Digits in the left ear (~80%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor progress with re-evaluation to track maturation"
+    ],
+    "counseling_actions": [
+      "Explain the concept of neuromaturational lag, indicating the auditory nervous system is developing slower than peers but catching up",
+      "Discuss the role of the corpus callosum in specific test results (dichotic listening and frequency patterns)",
+      "Highlight the correlation between auditory improvements and observed academic and behavioral maturity gains",
+      "Advise that while significant improvement has occurred, complex processing tasks like frequency patterns are still developing"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "The condition is developmental/maturational; routine monitoring of auditory processing skills is appropriate."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Re-evaluation in approximately 3 years",
+    "objective": "To assess neuromaturational gains and status of central auditory processing deficits."
+  },
+  "expected_outcome": [
+    "Considerable audiologic gains observed upon re-evaluation at age 11, consistent with neuromaturational lag.",
+    "Competing Sentences test scores improved by 63%.",
+    "At age 11, only three abnormal results remained: Frequency Patterns (bilaterally) and Dichotic Digits (left ear).",
+    "Patient demonstrated concurrent gains in academic skills and behavioral maturity."
+  ]
+}

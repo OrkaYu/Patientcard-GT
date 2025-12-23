@@ -1,0 +1,126 @@
+{
+  "case_id": "Case008",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Sensorineural Hearing Loss (Cochlear)",
+      "rationale_short": "Indicated by absent air-bone gaps, normal tympanometry, diminished speech scores, low sensation level acoustic reflexes (recruitment), absent OAEs, and steep ABR latency-intensity function."
+    },
+    {
+      "rank": 2,
+      "label": "Unknown Etiology (Possibly Congenital)",
+      "rationale_short": "Patient reports hearing difficulty as long as she can remember. Lack of known family history does not rule out recessive hereditary causes or early acquired disease."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine type and degree of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate reflex pathways and check for recruitment or retrocochlear signs."
+      },
+      {
+        "action": "ABR",
+        "urgency": "routine",
+        "rationale_short": "To differentiate cochlear from retrocochlear site of lesion."
+      },
+      {
+        "action": "TEOAE",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function."
+      },
+      {
+        "action": "Tone decay test at 4000 Hz",
+        "urgency": "routine",
+        "rationale_short": "To screen for auditory fatigue characteristic of retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results indicate a bilateral, symmetrical, sloping mild-to-moderately-severe sensorineural hearing loss. Ancillary testing (low sensation level reflexes, steep ABR latency-intensity function, absent OAEs, negative tone decay) supports a cochlear site of lesion.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical sloping SNHL. Thresholds range from 30 dB HL at 250 Hz to 60-70 dB HL at high frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT Right 45 dB HL, Left 40 dB HL. SRS Right 86%, Left 82%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A. Static compliance Right 0.80 cc, Left 0.78 cc."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at 90-95 dB HL bilaterally (low sensation levels), consistent with recruitment."
+          },
+          {
+            "name": "ABR",
+            "category": "Electrophysiology",
+            "result_summary": "All waves prolonged; normal interpeak latencies; steep latency-intensity function."
+          },
+          {
+            "name": "TEOAE",
+            "category": "OAE",
+            "result_summary": "Absent bilaterally."
+          },
+          {
+            "name": "Tone decay test at 4000 Hz",
+            "category": "Special Tests",
+            "result_summary": "Right: 10 dB decay in 60s; Left: 15 dB decay in 60s (Minimal/Negative)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation",
+      "Hearing aid fitting and adjustment period",
+      "Auditory rehabilitation and hearing aid orientation",
+      "Medical consultation (for clearance, etiology, and blood studies)",
+      "Genetic counseling",
+      "Annual hearing reevaluations"
+    ],
+    "counseling_actions": [
+      "Discuss the nature of the hearing loss (sensorineural, likely cochlear)",
+      "Provide a positive yet realistic appraisal of potential for hearing aid use",
+      "Discuss the possibility of medical consultation regarding irreversibility and etiology",
+      "Inquire about interest in genetic counseling"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Physician / Medical Consultation",
+      "rationale_short": "For medical clearance prior to hearing aids, investigation of etiology (blood studies), and potential genetic counseling referral."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Reevaluation of hearing thresholds if not proceeding with rehabilitation immediately."
+  },
+  "expected_outcome": []
+}

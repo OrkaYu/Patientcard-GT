@@ -1,0 +1,112 @@
+{
+  "case_id": "case_5_6",
+  "title": "Bilateral Sensorineural Hearing Loss with Strong Family History",
+  "demographics": {
+    "age_years": 45,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have had hearing loss in both ears for about 10 years, but I've noticed it's getting harder to understand soft speech at home and at work.",
+  "problem_summary": {
+    "onset": "Approximately 10 years ago.",
+    "course": "Gradual; patient denies rapid progression.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "None reported (denies tinnitus and dizziness).",
+    "functional_impact": "Increased difficulty understanding soft speech in daily environments.",
+    "goals_motivation": "Seeking first hearing examination due to functional difficulties."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2008-12-30",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a 10-year history of bilateral hearing loss. This is her first hearing examination.",
+        "otologic_history": "No reported history of ear pathology or ear surgery. Denies tinnitus or dizziness.",
+        "noise_exposure_history": "No reported noise exposure.",
+        "medical_psych_history": "Significant family history of hearing loss: mother, maternal aunt, one sibling, and a son all have varying degrees of hearing loss.",
+        "prior_management": "None; no prior hearing examination.",
+        "patient_goals": "Evaluation of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.6"
+          ],
+          "key_findings": "Bilateral sensorineural hearing loss. Right ear shows normal sensitivity 250-1000 Hz, sloping to moderate at 3000-6000 Hz, rising to mild at 8000 Hz. Left ear shows normal sensitivity 250-1000 Hz, sloping to mild/moderate in the high frequencies.",
+          "numeric_results": {
+            "RE_PTA": "18 dB HL",
+            "LE_PTA": "18 dB HL",
+            "RE_250_1000Hz": "~10-15 dB HL",
+            "RE_4000Hz": "50 dB HL",
+            "LE_4000Hz": "45 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.6"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) are in agreement with Pure Tone Averages (PTA). Word Recognition Scores (WRS) are excellent bilaterally at suprathreshold levels.",
+          "numeric_results": {
+            "RE_SRT": "20 dB HL",
+            "LE_SRT": "15 dB HL",
+            "RE_WRS": "96% at 60 dB HL",
+            "LE_WRS": "100% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.6"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally, indicating normal middle ear function.",
+          "numeric_results": {
+            "RE_Static_Admittance": "1.00 mL",
+            "RE_Pressure": "-10 daPa",
+            "LE_Static_Admittance": "1.40 mL",
+            "LE_Pressure": "-35 daPa",
+            "Ear_Canal_Volume_RE": "1.00 mL",
+            "Ear_Canal_Volume_LE": "1.10 mL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, sloping sensorineural hearing loss. Low-frequency hearing is preserved (normal), while high frequencies slope to a mild-to-moderate degree. Speech discrimination is excellent bilaterally. The configuration and history are consistent with a hereditary etiology given the strong family history and lack of noise exposure or other pathology.",
+  "counseling_points": [
+    "Your hearing test shows you hear low pitches (like vowels) well, but have difficulty with high pitches (like consonants s, f, th). This explains why you struggle with soft speech.",
+    "The type of hearing loss is sensorineural (permanent nerve loss). Given your strong family history and lack of noise exposure, this is likely genetic.",
+    "Your ability to understand speech remains excellent when the volume is loud enough.",
+    "You are a good candidate for amplification (hearing aids) to help with the high-frequency sounds you are missing.",
+    "We recommend annual testing to monitor your hearing, as well as using hearing protection in noisy environments to preserve your remaining hearing."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is not distressed but is noticing functional issues at work/home.",
+    "Emphasize the family history—mention that your mother, aunt, sibling, and son all have hearing loss.",
+    "You do not have ringing in your ears (tinnitus) or dizziness."
+  ]
+}

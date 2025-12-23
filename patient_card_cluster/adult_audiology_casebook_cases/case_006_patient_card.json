@@ -1,0 +1,267 @@
+{
+  "case_id": "case06_Middle_Ear_E_ffects_from_Playing_a_Brass",
+  "title": "Middle Ear Effects from Playing a Brass Musical Instrument",
+  "demographics": {
+    "age_years": 58,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have had progressive, fluctuating hearing loss in my right ear for about 18 years. I feel fullness in that ear, but it gets better temporarily when I pop my ears or move my jaw.",
+  "problem_summary": {
+    "onset": "Approximately 18 years prior to initial visit.",
+    "course": "Progressive and fluctuating.",
+    "laterality": "Right ear symptoms; Left ear asymptomatic.",
+    "associated_symptoms": "Aural fullness in the right ear. Denies tinnitus, dizziness, or autophony.",
+    "functional_impact": "Difficulty hearing himself play the trumpet; relies on auto-insufflation (Valsalva) to improve hearing sensitivity while playing.",
+    "goals_motivation": "Understanding the cause of the fluctuating hearing loss and fullness."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2007-11-14",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "58-year-old professional trumpet player with 18-year history of fluctuating right ear hearing loss and fullness. Symptoms relieved by Valsalva.",
+        "otologic_history": "Denies history of otologic surgery or infections. Denies autophony.",
+        "noise_exposure_history": "Occupational exposure as a musician; denied other excessive noise exposure.",
+        "medical_psych_history": "Denies weight change.",
+        "prior_management": "None reported.",
+        "patient_goals": "Evaluation of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Initial Visit",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.1"
+          ],
+          "key_findings": "Left ear: Normal limits 250-2000 Hz, sloping to mild-to-moderate SNHL 3-8 kHz. Right ear: Moderate loss rising to normal at 3000 Hz, then falling to mild conductive loss 4-8 kHz. Significant air-bone gaps 250-2000 Hz.",
+          "numeric_results": {
+            "RE_PTA": "38 dB HL",
+            "LE_PTA": "12 dB HL",
+            "RE_Air_Bone_Gap_500Hz": "~35 dB",
+            "RE_Air_Bone_Gap_1000Hz": "~30 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Initial Visit",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.1"
+          ],
+          "key_findings": "SRTs in agreement with PTA. Word recognition excellent in both ears.",
+          "numeric_results": {
+            "RE_SRT": "38 dB",
+            "LE_SRT": "12 dB",
+            "RE_WRS": "100% at 80 dB",
+            "LE_WRS": "100% at 80 dB"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Initial Visit",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.1"
+          ],
+          "key_findings": "Normal ear canal volume. Right ear static admittance is excessively high (double the left ear).",
+          "numeric_results": {
+            "RE_Static_Admittance": "1.4 mL",
+            "LE_Static_Admittance": "0.6 mL",
+            "RE_Peak_Pressure": "-95 daPa",
+            "LE_Peak_Pressure": "-25 daPa",
+            "RE_Type": "Ad (deep)",
+            "LE_Type": "A"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Initial Visit",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.1"
+          ],
+          "key_findings": "Ipsilateral reflex present at 1000 Hz in the left ear, absent in the right ear.",
+          "numeric_results": {
+            "RE_Ipsi_1000Hz": "Absent",
+            "LE_Ipsi_1000Hz": "Present"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2010-08-04",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 3 years later.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "Continued musician.",
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "Monitoring.",
+        "patient_goals": "Re-evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "3-Year Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.2"
+          ],
+          "key_findings": "Thresholds similar to initial visit. RE continues to show significant air-bone gaps.",
+          "numeric_results": {
+            "RE_PTA": "43 dB HL",
+            "LE_PTA": "10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "3-Year Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.2"
+          ],
+          "key_findings": "RE WRS decreased to slight difficulty compared to initial visit. LE remains normal.",
+          "numeric_results": {
+            "RE_SRT": "43 dB",
+            "LE_SRT": "10 dB",
+            "RE_WRS": "88% at 60 dB, 98% at 75 dB",
+            "LE_WRS": "94% at 55 dB"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "3-Year Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.2"
+          ],
+          "key_findings": "RE static admittance remains excessively high.",
+          "numeric_results": {
+            "RE_Static_Admittance": "1.6 mL",
+            "LE_Static_Admittance": "0.8 mL",
+            "RE_Peak_Pressure": "-5 daPa",
+            "LE_Peak_Pressure": "10 daPa"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2017-02-13",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 10 years after initial visit.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "Continued musician.",
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "Monitoring.",
+        "patient_goals": "Re-evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "10-Year Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.3"
+          ],
+          "key_findings": "LE essentially unchanged. RE low-frequency thresholds showed an additional 5- to 10-dB decrease.",
+          "numeric_results": {
+            "RE_PTA": "43 dB HL",
+            "LE_PTA": "10 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "10-Year Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.3"
+          ],
+          "key_findings": "RE admittance remains higher than left, though lower than previous visits in this specific snapshot.",
+          "numeric_results": {
+            "RE_Static_Admittance": "0.91 mL",
+            "LE_Static_Admittance": "0.68 mL",
+            "RE_Peak_Pressure": "-123 daPa",
+            "LE_Peak_Pressure": "-105 daPa"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "10-Year Follow-up",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Video otoscopy performed while patient performed Valsalva maneuver. Positive middle ear pressure resulted in significant distension of the tympanic membrane into the ear canal.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mixed hearing loss in the right ear, characterized by low-frequency conductive loss and significant air-bone gaps, alongside a high-frequency sensorineural notch in the left ear consistent with noise exposure. Immittance testing consistently reveals hypercompliant (high admittance) tympanometry in the right ear. Video otoscopy confirms severe atelectasis and distension of the right tympanic membrane during Valsalva maneuvers. The findings suggest the right ear conductive loss is a result of mechanical changes to the eardrum from years of high-pressure instrument playing.",
+  "counseling_points": [
+    "Your right eardrum has become very 'stretchy' (flaccid) over time, likely due to the high pressures created while playing the trumpet.",
+    "This floppiness in the eardrum prevents sound from conducting efficiently, causing the hearing loss and fullness you feel.",
+    "The hearing loss in the high pitches of your left ear is likely permanent damage from noise exposure over your career.",
+    "When you 'pop' your ears (Valsalva), you are temporarily inflating the eardrum, which changes how you hear for a short time.",
+    "We should monitor your hearing regularly to check for any further changes."
+  ],
+  "notes_for_actor": [
+    "You are a professional trumpet player concerned about your career.",
+    "You have a habit of 'popping' your ears (Valsalva maneuver) frequently to hear better.",
+    "You do not hear your own voice echoing (no autophony), but you do feel fullness in the right ear.",
+    "You are knowledgeable about your instrument but unaware that the playing technique itself caused the ear issue."
+  ]
+}

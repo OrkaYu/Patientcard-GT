@@ -1,0 +1,116 @@
+{
+  "case_id": "Case007_05",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otosclerosis",
+      "rationale_short": "Bilateral mixed hearing loss with significant air-bone gaps, normal tympanograms, and absent acoustic reflexes; confirmed by CT scan."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-induced hearing loss",
+      "rationale_short": "History of occupational noise exposure (carpenter) and acoustic trauma (shotgun blast); high-frequency involvement."
+    },
+    {
+      "rank": 3,
+      "label": "External otitis (Left)",
+      "rationale_short": "Diagnosed by otologist; consistent with patient report of otalgia."
+    },
+    {
+      "rank": 4,
+      "label": "Hyperacusis",
+      "rationale_short": "Patient reports pain to loud sounds and impulse noises; sensitivity increased after acoustic trauma."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status given the mixed hearing loss."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the stapedial reflex arc and check for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry reveals a bilateral, asymmetric mixed hearing loss (Right worse than Left) with significant air-bone gaps. Despite the conductive component, tympanograms are normal (Type A), but acoustic reflexes are absent bilaterally. This constellation of findings (mixed loss, normal tympanograms, absent reflexes) is clinically characteristic of otosclerosis, likely superimposed on noise-induced hearing loss given the history. Speech recognition is good in the right ear and fair in the left.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right: Moderately severe to severe mixed loss (250-3000 Hz), sloping to profound (4000 Hz), rising to severe (6000-8000 Hz). Left: Moderate to moderately severe mixed loss (250-1000 Hz), sloping to severe/profound (2000-4000 Hz), rising to severe (6000-8000 Hz). Significant air-bone gaps bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 78 dB HL, Left 72 dB HL. WRS: Right 95% (at 95 dB HL), Left 80% (at 105 dB HL)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral and contralateral reflexes absent from 500 to 4000 Hz in both ears."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to otologist",
+      "Ciprodex ear drops (for left external otitis)",
+      "CT scan (ordered by otologist)",
+      "Hyperacusis evaluation",
+      "Hearing aid evaluation",
+      "HAT evaluation",
+      "Use of hearing protection in noise",
+      "Fit with new hearing aids with impulse sound suppression algorithm"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of otosclerosis and noise-induced hearing loss",
+      "Counsel on hyperacusis and the importance of not over-protecting ears in quiet environments",
+      "Discuss the benefits of impulse noise suppression in hearing aids"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Otalgia",
+      "Air-bone gaps",
+      "Active ear infection (external otitis)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist",
+      "rationale_short": "For medical management of external otitis and evaluation/confirmation of otosclerosis."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Monitor hearing aid benefit and hyperacusis management."
+  },
+  "expected_outcome": [
+    "Otologist diagnosed left external otitis and prescribed Ciprodex ear drops.",
+    "CT scan confirmed otosclerosis bilaterally.",
+    "Patient was fit with new hearing aids with an algorithm that suppressed impulse sounds.",
+    "Patient did well with the hearing aids."
+  ]
+}

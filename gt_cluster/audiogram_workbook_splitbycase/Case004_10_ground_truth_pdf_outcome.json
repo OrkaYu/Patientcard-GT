@@ -1,0 +1,95 @@
+{
+  "case_id": "Case004_10",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Normal Hearing Sensitivity",
+      "rationale_short": "Pure-tone thresholds are within normal limits (0-10 dB HL) bilaterally with no air-bone gaps."
+    },
+    {
+      "rank": 2,
+      "label": "Normal Middle Ear Function",
+      "rationale_short": "Tympanometry is Type A bilaterally and acoustic reflexes are present, ruling out middle ear pathology like fluid or negative pressure."
+    },
+    {
+      "rank": 3,
+      "label": "Subjective Aural Fullness (Non-Audiologic)",
+      "rationale_short": "Patient reports plugged sensation, but audiologic evaluation reveals no peripheral deficit to explain the symptom."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity given the complaint of a plugged ear."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear mobility and pressure, specifically checking for fluid."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and check for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals normal bilateral hearing sensitivity and normal middle ear function. There is no evidence of fluid, negative pressure, or retrocochlear pathology. The subjective sensation of fullness is not correlated with any peripheral audiologic deficit.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally (0-10 dB HL) at 250 through 8,000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs (Right 7 dB, Left 8 dB) agree with PTA. WRS is 100% bilaterally at 55 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally. Right: 0.90 mL volume, 0.70 mL admittance, -35 daPa pressure. Left: 0.80 mL volume, 0.40 mL admittance, -35 daPa pressure."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Reflexes present and normal for ipsilateral and contralateral stimulation (500-4,000 Hz). Reflex decay negative at 500 and 1,000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Return for a hearing test as needed"
+    ],
+    "counseling_actions": [
+      "Explain that hearing sensitivity is within normal limits.",
+      "Review tympanometry results confirming normal eardrum movement and absence of fluid.",
+      "Discuss that the sensation of fullness is not related to a detectable peripheral hearing or middle ear problem."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient is recommended to follow up with the otologist as scheduled to investigate non-audiologic causes of fullness."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor hearing status if symptoms persist or change."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,130 @@
+{
+  "case_id": "case_12_17",
+  "title": "Infant with Bilateral Conductive Hearing Loss and Normal Tympanometry",
+  "demographics": {
+    "age_years": 0.17,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "Nancy was referred for diagnostic testing after failing her newborn DPOAE screening and a 1-month follow-up AABR screening. Her mother reports that she seems to respond to sounds and voices at home.",
+  "problem_summary": {
+    "onset": "Congenital (identified via newborn screening).",
+    "course": "Stable.",
+    "laterality": "Bilateral.",
+    "associated_symptoms": "Failed hearing screenings.",
+    "functional_impact": "Potential impact on early auditory development if untreated.",
+    "goals_motivation": "Determine hearing status and rule out permanent hearing loss."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is 2 months old. Failed newborn DPOAE screening and 1-month follow-up AABR.",
+        "otologic_history": "No specific history provided other than screening failures.",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "Referral from screening program.",
+        "patient_goals": "Diagnostic evaluation."
+      },
+      "tests": [
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "V1",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Table: Tymps R L",
+            "Graph: Admittance"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally, indicating normal middle ear pressure and mobility.",
+          "numeric_results": {
+            "Right Vea": "0.5 mmhos",
+            "Right Ytm": "0.8 mmhos",
+            "Right TPP": "-20 daPa",
+            "Right TW": "98 daPa",
+            "Left Vea": "0.6 mmhos",
+            "Left Ytm": "1.0 mmhos",
+            "Left TPP": "-40 daPa",
+            "Left TW": "99 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "V1",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table: ART @ 1 kHz"
+          ],
+          "key_findings": "Absent acoustic reflexes bilaterally at 1000 Hz for both ipsilateral and contralateral stimulation.",
+          "numeric_results": {
+            "Ipsi R": "NR",
+            "Stim L/Probe R": "NR",
+            "Ipsi L": "NR",
+            "Stim R/Probe L": "NR"
+          }
+        },
+        {
+          "name": "Wideband Acoustic Immittance (WAI)",
+          "timepoint_label": "V1",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Graph: Reflectance (%)"
+          ],
+          "key_findings": "Reflectance plotted from 0.2 to 4.0 kHz. Curves for Right and Left ears show typical morphology with lower reflectance in mid-frequencies.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "V1",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Waveform plots: Right Ear / Left Ear"
+          ],
+          "key_findings": "Bone conduction thresholds are within normal limits bilaterally (Wave V present at 10-20 dB nHL). Air conduction thresholds are elevated bilaterally, indicating a conductive hearing loss. Significant air-bone gaps are present.",
+          "numeric_results": {
+            "Right BC Thresholds": "10-20 dB nHL (all freqs)",
+            "Left BC Thresholds": "10-20 dB nHL (all freqs)",
+            "Right AC Wave V": "Present at 50 dB nHL (lowest level shown)",
+            "Left AC Threshold 4000 Hz": "30 dB nHL",
+            "Left AC Threshold 2000 Hz": "40 dB nHL",
+            "Left AC Threshold 1000 Hz": "50 dB nHL",
+            "Left AC Threshold 500 Hz": "50 dB nHL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation reveals a bilateral conductive hearing loss. Bone conduction ABR thresholds are normal (10–20 dB nHL) bilaterally, confirming normal cochlear function. However, air conduction ABR thresholds are elevated (approx. 30–50 dB nHL), creating significant air-bone gaps. Despite the conductive nature of the loss, tympanometry is normal (Type A) bilaterally. Acoustic reflexes are absent. This clinical picture (Conductive Loss + Normal Tymps + Absent Reflexes) is highly suggestive of a congenital ossicular chain anomaly, such as ossicular fixation.",
+  "counseling_points": [
+    "Nancy has a 'conductive' hearing loss in both ears. This means the inner ear nerve is working normally, but sound is not being conducted efficiently through the middle ear bones.",
+    "Although her eardrum movement test (tympanogram) was normal, the hearing test shows a blockage. This specific pattern often suggests a problem with the tiny bones (ossicles) in the ear, such as them being fixed in place.",
+    "This explains why she failed the newborn screenings.",
+    "We need to refer you to an Ear, Nose, and Throat (ENT) specialist (otologist) for a medical evaluation and to discuss potential imaging or management options.",
+    "Even though she responds to some sounds, the hearing loss is significant enough to affect speech development, so we will also discuss hearing technology (like bone conduction hearing aids) and early intervention services."
+  ],
+  "notes_for_actor": [
+    "Portray a mother who is attentive and has noticed the baby responding to voice, which might make the diagnosis of hearing loss confusing at first.",
+    "You may ask, 'If her eardrums are moving normally, why can't she hear?'",
+    "Show relief that the 'nerve' is okay, but concern about what is wrong with the ear bones."
+  ]
+}

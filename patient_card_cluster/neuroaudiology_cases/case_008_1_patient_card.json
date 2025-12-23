@@ -1,0 +1,240 @@
+{
+  "case_id": "case_8_1",
+  "title": "Involvement of the Auditory Areas of the Corpus Callosum: Split-Brain Case",
+  "demographics": {
+    "age_years": 23,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "The patient returned to the hospital for a corpus commissurotomy in an attempt to control her intractable seizure disorder.",
+  "problem_summary": {
+    "onset": "Long history of seizure activity.",
+    "course": "Intractable seizures uncontrolled by medication; initial anterior commissurotomy was unsuccessful, leading to a posterior section (complete commissurotomy).",
+    "laterality": "Bilateral central deficits; Right temporal lobe cortical lesion.",
+    "associated_symptoms": "Seizures.",
+    "functional_impact": "Severe deficits in auditory pattern recognition and dichotic processing.",
+    "goals_motivation": "Control of seizure activity."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1_PreOp",
+      "date": null,
+      "setting": "Audiology Clinic (Pre-operative)",
+      "history": {
+        "present_illness": "Pre-operative assessment referenced from previous case history (Case 7-8). Patient had a cortical lesion affecting the right temporal lobe.",
+        "otologic_history": "Normal peripheral hearing.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Right temporal lobe lesion; seizure disorder.",
+        "prior_management": null,
+        "patient_goals": "Baseline assessment."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal pure tone sensitivity for both ears.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Dichotic Digits",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-2"
+          ],
+          "key_findings": "Severe left ear deficit and mild right ear deficit.",
+          "numeric_results": {
+            "Right_Ear_Score": "~65%",
+            "Left_Ear_Score": "~20%"
+          }
+        },
+        {
+          "name": "Dichotic Rhyme",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-2"
+          ],
+          "key_findings": "Borderline normal score for the left ear.",
+          "numeric_results": {
+            "Right_Ear_Score": "~75%",
+            "Left_Ear_Score": "~65%"
+          }
+        },
+        {
+          "name": "Duration Patterns Test",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-2"
+          ],
+          "key_findings": "Severe bilateral deficits.",
+          "numeric_results": {
+            "Score": "<10% (bilateral)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2_PostOp",
+      "date": null,
+      "setting": "Audiology Clinic (Post-operative)",
+      "history": {
+        "present_illness": "Evaluation following complete corpus commissurotomy (anterior and posterior sections).",
+        "otologic_history": "Normal peripheral hearing maintained.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Post-surgical status.",
+        "prior_management": "Surgery completed.",
+        "patient_goals": "Post-surgical evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal pure tone sensitivity for both ears.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech recognition found to be excellent bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Dichotic Digits",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-2"
+          ],
+          "key_findings": "Left ear performance remained essentially unchanged (severe deficit). Right ear showed significant improvement (30%), falling well within the normal range.",
+          "numeric_results": {
+            "Right_Ear_Score": "~95-100%",
+            "Left_Ear_Score": "~20%"
+          }
+        },
+        {
+          "name": "Dichotic Rhyme",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-2"
+          ],
+          "key_findings": "Right ear showed a 10% increase in performance; Left ear showed a 16% decrease.",
+          "numeric_results": {
+            "Right_Ear_Score": "~85%",
+            "Left_Ear_Score": "~50%"
+          }
+        },
+        {
+          "name": "Competing Sentences",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-2"
+          ],
+          "key_findings": "Right ear performance improved to normal range; Left ear remained suppressed/poor.",
+          "numeric_results": {
+            "Right_Ear_Score": "~100%",
+            "Left_Ear_Score": "~30%"
+          }
+        },
+        {
+          "name": "Duration Patterns Test",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-2"
+          ],
+          "key_findings": "Severe bilateral deficits (similar to pre-op).",
+          "numeric_results": {
+            "Score": "<10% (bilateral)"
+          }
+        },
+        {
+          "name": "Frequency Patterns Test",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-2"
+          ],
+          "key_findings": "Severe bilateral deficits noted.",
+          "numeric_results": {
+            "Score": "<10% (bilateral)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing but significant central auditory processing deficits following corpus commissurotomy. Pattern perception (Frequency and Duration) is severely bilaterally impaired, attributed to the disconnection of the right hemisphere (pattern recognition) from the left hemisphere (verbal labeling), compounded by pre-existing right temporal lobe damage. Dichotic testing reveals a 'release from central competition' phenomenon: the right ear scores improved significantly post-surgery (likely due to removal of neural competition), while the left ear scores remained poor or declined due to the blockage of callosal pathways required to transfer left-ear signals to the language-dominant left hemisphere.",
+  "counseling_points": [
+    "Explain that difficulty labeling sound patterns (humming vs naming) is expected due to the separation of the brain hemispheres.",
+    "Discuss the 'release from central competition' which has improved hearing performance in the right ear in complex listening environments.",
+    "Highlight that the left ear will continue to struggle in dichotic (competing noise) situations due to the surgical disconnection.",
+    "Reassure that standard speech recognition in quiet remains excellent."
+  ],
+  "notes_for_actor": [
+    "Patient has a history of severe seizures and has undergone major brain surgery.",
+    "Peripheral hearing is normal, so you do not need to simulate hearing loss in quiet one-on-one conversation.",
+    "You may have trouble verbally describing patterns (high-low-high) even if you can hum them.",
+    "You may notice your right ear hears much better than your left in noisy/competitive environments."
+  ]
+}

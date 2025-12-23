@@ -1,0 +1,110 @@
+{
+  "case_id": "Case005_01",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Left Posterior Fossa Meningioma",
+      "rationale_short": "Confirmed by CT scan showing a 4-cm mass lesion pressing against the tentorium and causing obstructive hydrocephalus."
+    },
+    {
+      "rank": 2,
+      "label": "Retrocochlear Pathology",
+      "rationale_short": "Suggested by left-sided tinnitus, unsteadiness, abnormal ABR (delayed wave V, extended I-III), and dichotic deficits despite symmetrical audiogram."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given complaints of hearing loss and tinnitus."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate neural integrity and screen for retrocochlear pathology given asymmetrical symptoms."
+      },
+      {
+        "action": "Dichotic Digits Test",
+        "urgency": "soon",
+        "rationale_short": "To assess central auditory processing."
+      },
+      {
+        "action": "Computed Tomography (CT) Scan",
+        "urgency": "urgent",
+        "rationale_short": "To visualize intracranial structures and identify the cause of neurological symptoms and retrocochlear signs."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presented with symmetrical high-frequency sensorineural hearing loss and excellent speech recognition, which contradicted subjective left-sided complaints. However, retrocochlear testing (ABR and Dichotic Digits) revealed significant left-sided abnormalities. A subsequent CT scan confirmed a large left posterior fossa meningioma causing obstructive hydrocephalus.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Mild to moderate bilaterally symmetrical high-frequency sensorineural hearing loss; thresholds normal in low frequencies sloping to 50-60 dB HL in high frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent speech recognition bilaterally (Right: 92%, Left: 100%)."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear normal. Left ear showed abnormal absolute latency for wave V, extended I-III interwave interval (2.5 msec), and abnormal ILD (0.4 msec)."
+          },
+          {
+            "name": "Dichotic Digits Test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Poorer performance in the left ear (83%) compared to the right ear (95%)."
+          },
+          {
+            "name": "Computed Tomography (CT) Scan",
+            "category": "Imaging",
+            "result_summary": "4-cm mass lesion (meningioma) in the left posterior fossa pressing against the tentorium, obliterating the fourth ventricle, and causing obstructive hydrocephalus."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical removal of the tumor"
+    ],
+    "counseling_actions": [
+      "Explain that while standard hearing tests are symmetrical, processing tests confirm the reported left-sided difficulty.",
+      "Discuss the correlation between the mass, hydrocephalus, and symptoms like unsteadiness and headaches.",
+      "Advise on the necessity of neurosurgical intervention."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral tinnitus",
+      "Subjective left-sided hearing loss with symmetrical audiogram",
+      "Unsteadiness and drifting",
+      "Headaches triggered by upward gaze or coughing (intracranial pressure signs)",
+      "Retrocochlear signs on ABR",
+      "Obstructive hydrocephalus on CT"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurosurgery",
+      "rationale_short": "Large posterior fossa mass causing obstructive hydrocephalus requires immediate surgical management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-surgical",
+    "objective": "Monitor recovery and auditory status following tumor removal."
+  },
+  "expected_outcome": [
+    "The tumor was removed without complication and the patient recovered well.",
+    "After surgery, the patient's left ear tinnitus changed to a clicking type sound."
+  ]
+}

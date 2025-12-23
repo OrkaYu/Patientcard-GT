@@ -1,0 +1,168 @@
+{
+  "case_id": "case40_Quick_Fit_versus_Programming_Hearing_Aid",
+  "title": "Quick Fit versus Programming Hearing Aid Fittings: Acoustic and Perceptual Differences",
+  "demographics": {
+    "age_years": 56,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed a gradual decline in my ability to communicate over the past few years, especially in background noise and when using the telephone.",
+  "problem_summary": {
+    "onset": "Gradual decline over the past few years.",
+    "course": "Progressive.",
+    "laterality": "Bilateral.",
+    "associated_symptoms": "Difficulty in competing background noise; difficulty on the telephone.",
+    "functional_impact": "Impacts work as a social worker and daily communication.",
+    "goals_motivation": "Seeking assessment of hearing sensitivity and improvement in communication."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-12-14",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports gradual hearing decline. Previous testing 30 years ago was normal.",
+        "otologic_history": "Unremarkable other than noise exposure.",
+        "noise_exposure_history": "Military service, regular firearm use, occasional power tools, daily use of earbuds for music.",
+        "medical_psych_history": "Unremarkable.",
+        "prior_management": "None.",
+        "patient_goals": "Assess hearing; improve communication in noise and on phone."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 40.1",
+            "Table 40.1"
+          ],
+          "key_findings": "Bilateral symmetrical mild to moderate-severe gradually sloping sensorineural hearing loss.",
+          "numeric_results": {
+            "Right_AC_Thresholds_Hz_dBHL": "250:15, 500:20, 1000:35, 2000:45, 3000:60, 4000:55, 6000:40, 8000:60",
+            "Left_AC_Thresholds_Hz_dBHL": "250:15, 500:20, 1000:35, 2000:45, 3000:60, 4000:55, 6000:40",
+            "Unaided_Audibility_Index_Ao6": "0.44 (44%)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 40.1"
+          ],
+          "key_findings": "SRTs indicate mild loss consistent with PTA. Word recognition scores indicate normal ability to recognize speech at suprathreshold levels.",
+          "numeric_results": {
+            "Right_SRT": "33 dB HL",
+            "Left_SRT": "32 dB HL",
+            "Right_WRS": "92% at 70 dB HL",
+            "Left_WRS": "96% at 70 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 40.1"
+          ],
+          "key_findings": "Normal ear canal volume, static admittance, and middle ear pressure (Type A).",
+          "numeric_results": {
+            "Right_ECV": "1.3 mL",
+            "Right_Peak_Y": "0.5 mmho",
+            "Right_Peak_Pressure": "-5 daPa",
+            "Left_ECV": "1.1 mL",
+            "Left_Peak_Y": "0.6 mmho",
+            "Left_Peak_Pressure": "0 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Generally within normal limits; slightly elevated at 2000 and 4000 Hz for left ipsilateral and 4000 Hz for left contralateral stimulation.",
+          "numeric_results": null
+        },
+        {
+          "name": "Hearing Aid Fitting (Quick-Fit)",
+          "timepoint_label": "Fitting",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 40.2",
+            "Table 40.1"
+          ],
+          "key_findings": "Fitted with smartphone-enabled RICs with open domes and remote mic. Programmed to NAL-NL2 using manufacturer 'Quick-Fit' without Real-Ear Measurement (REM) verification at the time of fitting. Subsequent analysis showed Quick-Fit significantly under-amplified the target.",
+          "numeric_results": {
+            "Quick_Fit_Aided_Audibility_Ao6": "0.60 (60%)",
+            "Improvement_over_unaided": "0.16 (16%)",
+            "Target_Mismatch": "Deviated from NAL-NL2 target by >10 dB at multiple frequencies"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "1 week post-fitting",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned for follow-up.",
+        "patient_goals": "Patient wished to terminate the trial period.",
+        "prior_management": "Hearing aids fitted at V1 using Quick-Fit protocol."
+      },
+      "tests": [
+        {
+          "name": "Patient Report/Outcome",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient reported devices did not improve ability to understand speech.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral symmetrical mild to moderate-severe sloping sensorineural hearing loss with excellent word recognition scores in quiet. Although fitted with appropriate technology (RICs with remote mic), the devices were programmed using a 'Quick-Fit' approach without real-ear verification. This resulted in under-amplification (only 60% audibility achieved vs. 84% potential with verified fitting), leading to a lack of perceived benefit and subsequent return of the devices.",
+  "counseling_points": [
+    "Your hearing test shows a mild to moderate-severe hearing loss in both ears, which explains your difficulty in background noise.",
+    "We are recommending receiver-in-the-canal hearing aids with a remote microphone to help with distance and noise.",
+    "We will use a smartphone app to stream phone calls directly to your hearing aids to address your phone difficulties.",
+    "It is critical to verify the hearing aid settings on your ear to ensure you are getting the correct amount of sound for speech clarity."
+  ],
+  "notes_for_actor": [
+    "You are a 56-year-old social worker who is motivated but skeptical.",
+    "You have a history of noise exposure (military, guns, tools, music).",
+    "At the first visit, you are agreeable to the plan.",
+    "At the follow-up visit (V2), you are disappointed and firm: the hearing aids did not help you understand speech better, and you want to return them.",
+    "You represent a patient who received a 'Quick-Fit' rather than a verified fitting, leading to a poor outcome."
+  ]
+}

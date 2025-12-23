@@ -1,0 +1,301 @@
+{
+  "case_id": "Case12_Tinnitus_Secondary_to_Barotrauma",
+  "title": "Tinnitus Secondary to Barotrauma",
+  "demographics": {
+    "age_years": 56,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I felt pressure in my right ear and a constant ringing in my left ear while the plane was taking off. It was painful during the flight and got worse when we landed.",
+  "problem_summary": {
+    "onset": "Sudden onset during an airplane flight in 2018.",
+    "course": "Symptoms began during ascent and worsened during descent. Tinnitus laterality shifted following medical intervention (PE tube).",
+    "laterality": "Bilateral involvement; initially Left Ear tinnitus, shifting to Right Ear, then central/bilateral.",
+    "associated_symptoms": "Significant pain, pressure, discomfort.",
+    "functional_impact": "Tinnitus severity rated 7/10; distress regarding shifting perception of tinnitus.",
+    "goals_motivation": "Relief from tinnitus severity."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2018-01-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reported onset of pressure in the right ear and constant ringing tinnitus in the left ear during initial ascent on an airplane flight. Significant pain and discomfort persisted for the duration of the flight and increased during descent.",
+        "otologic_history": "Denied history of otologic infection, otorrhea, vertigo, or previous hearing aid use.",
+        "noise_exposure_history": "Denied.",
+        "medical_psych_history": "None reported.",
+        "prior_management": "None.",
+        "patient_goals": "Evaluation of hearing and tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Clear ear canals bilaterally. Tympanic membranes appeared normal.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.1"
+          ],
+          "key_findings": "Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Right Ear Pressure": "-2 daPa",
+            "Left Ear Pressure": "-2 daPa",
+            "Right Ear ECV": "1.3 cc",
+            "Left Ear ECV": "1.4 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.1"
+          ],
+          "key_findings": "Ipsilateral acoustic reflexes were absent bilaterally.",
+          "numeric_results": {
+            "500 Hz": "Abs",
+            "1000 Hz": "Abs",
+            "2000 Hz": "Abs",
+            "4000 Hz": "Abs"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.1"
+          ],
+          "key_findings": "Normal sloping to mild sensorineural hearing loss, bilaterally. Negative Stenger at 3,000 Hz.",
+          "numeric_results": {
+            "Right Ear 250-1000 Hz": "~10-15 dB HL",
+            "Left Ear 250-1000 Hz": "~10-15 dB HL",
+            "Right Ear 4000 Hz": "~35 dB HL",
+            "Left Ear 4000 Hz": "~30 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.1"
+          ],
+          "key_findings": "Speech recognition thresholds within normal limits. Word recognition excellent.",
+          "numeric_results": {
+            "SRT Right": "15 dB HL",
+            "SRT Left": "15 dB HL",
+            "WRS Right": "100% at 60 dB HL",
+            "WRS Left": "100% at 60 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2018-02-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 1 month later. A tube was placed in the right ear by ENT. Patient feels tinnitus changed and is now louder in the right ear. Reports increased hearing loss in right ear with pain.",
+        "otologic_history": "Recent PE tube placement Right Ear.",
+        "prior_management": "Antibiotic drops post-tube insertion.",
+        "patient_goals": "Monitor changes in hearing and tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right ear: tube and debris visible. Left ear: unremarkable.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.2"
+          ],
+          "key_findings": "Right ear: Flat tympanogram with large ear canal volume (consistent with patent PE tube). Left ear: Normal limits (Type A).",
+          "numeric_results": {
+            "Right Ear ECV": "8.9 cc",
+            "Left Ear ECV": "1.1 cc",
+            "Right Ear Type": "B"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.2"
+          ],
+          "key_findings": "Right ear: Mixed hearing loss with 20 dB decrease in thresholds from prior exam; air-bone gap at 250 Hz. Left ear: Stable sensorineural hearing loss. Negative Stenger at 250 Hz.",
+          "numeric_results": {
+            "Right Ear 250 Hz AC": "~35 dB HL",
+            "Right Ear 250 Hz BC": "~10 dB HL",
+            "Left Ear 250 Hz AC": "~15 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 12.2"
+          ],
+          "key_findings": "Word recognition scores excellent.",
+          "numeric_results": {
+            "SRT Right": "20 dB HL (text) / 15 dB HL (table)",
+            "SRT Left": "20 dB HL (text) / 15 dB HL (table)",
+            "WRS Right": "100% at 60 dB HL",
+            "WRS Left": "100% at 60 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2018-08-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Seen 6 months later. Reports low-frequency narrowband tinnitus noise in right ear and cicadas/crickets in back of head. Severity 7/10.",
+        "otologic_history": "Patent PE tube Right Ear.",
+        "prior_management": "Discussed CBT, biofeedback, medication.",
+        "patient_goals": "Requested any relief available."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Follow-up",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Nonoccluding cerumen.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Large volume flat tympanogram consistent with patent PE tube.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Tinnitus Evaluation. Pitch match established with narrowband noise quality. Residual inhibition present but brief (split second).",
+          "numeric_results": {
+            "Pitch Match": "500 Hz",
+            "Loudness Match": "45 dB HL",
+            "Minimum Masking Level": "60 dB HL (white noise)",
+            "Residual Inhibition Test": "70 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "2019-01-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient fitted with right ear receiver-in-canal hearing aid/masker (declined binaural). 2-week follow-up: Patient not doing well.",
+        "prior_management": "Right ear device enabled.",
+        "patient_goals": "Adjust settings."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient reported right ear tinnitus was more 'mellow' (locust sound less intrusive), but she was now able to hear tinnitus in her left ear.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild sensorineural hearing loss bilaterally, which developed into a mixed loss in the right ear following PE tube placement for barotrauma. Tinnitus perception has been labile, shifting from the left ear initially to the right ear post-tube, and then becoming perceptible in the left ear again when the right ear was masked. This suggests central auditory pathway involvement where masking one side 'unmasks' the perception on the contralateral side.",
+  "counseling_points": [
+    "Explain that tinnitus often involves the central auditory system, not just the ears.",
+    "Discuss the phenomenon of 'unmasking,' where treating only one ear allows the brain to focus on the tinnitus in the untreated ear.",
+    "Recommend binaural sound enrichment (treating both ears) to prevent the tinnitus from shifting perception to the 'good' side."
+  ],
+  "notes_for_actor": [
+    "Initially, you are in pain and focused on the ringing in your LEFT ear.",
+    "After the tube is put in your RIGHT ear, complain that the ringing moved to the RIGHT and is louder there.",
+    "When they give you a device for just the RIGHT ear, come back frustrated that now you hear the ringing in the LEFT ear again.",
+    "Show resistance to wearing two devices initially, but eventually express frustration that fixing one side just makes the other side noticeable."
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "case_id": "case_6_8",
+  "title": "Subcortical and Insular Lesions: Left Hemisphere CVA in a Young Adult",
+  "demographics": {
+    "age_years": 18,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have considerable difficulty communicating in background noise.",
+  "problem_summary": {
+    "onset": "Acute onset 4 months prior following a stroke.",
+    "course": "Stable, currently being monitored for potential improvement given young age.",
+    "laterality": "Left hemisphere lesion; auditory deficits noted bilaterally on central tests.",
+    "associated_symptoms": "Right hemiplegia, mild right central facial paresis, mild aphasia and apraxia, deficits in reading comprehension and oral expression.",
+    "functional_impact": "Difficulty communicating in noise; difficult to distinguish between attention and auditory deficits.",
+    "goals_motivation": "College student motivated to understand communication difficulties."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Research/Clinical Setting",
+      "history": {
+        "present_illness": "Patient suffered a left hemisphere CVA 4 months prior, preceded by ill feeling, nausea, tiredness, and dizziness. Currently presents with right-sided motor deficits and communication difficulties in noise.",
+        "otologic_history": "None reported.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Right-handed. History of occasional drug use, migraine headaches, and asthma. Successfully treated for Lyme disease in the past.",
+        "prior_management": "Speech and language evaluations identified mild aphasia and apraxia.",
+        "patient_goals": "To determine if communication difficulties are auditory or attentional."
+      },
+      "tests": [
+        {
+          "name": "Radiologic Findings (CT)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-36"
+          ],
+          "key_findings": "Large ischemic infarct involving the left basal ganglia and extending towards the left fronto-parietal region.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "4 months post-stroke",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-37"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. Thresholds are 10 dB HL or better across all frequencies.",
+          "numeric_results": {
+            "RE_Thresholds": "0-10 dB HL",
+            "LE_Thresholds": "0-10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "4 months post-stroke",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-37"
+          ],
+          "key_findings": "Excellent speech recognition scores bilaterally.",
+          "numeric_results": {
+            "RE_WRS": "100%",
+            "LE_WRS": "100%"
+          }
+        },
+        {
+          "name": "Central Auditory Processing Evaluation",
+          "timepoint_label": "4 months post-stroke",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-38"
+          ],
+          "key_findings": "Dichotic digits test showed a greater left ear deficit than right, but both were abnormal (below normal range). Duration patterns test was bilaterally abnormal. Competing sentences appeared within normal range.",
+          "numeric_results": {
+            "Dichotic_Digits_RE": "~75% (Abnormal)",
+            "Dichotic_Digits_LE": "~45% (Abnormal)",
+            "Duration_Patterns": "~30-40% bilaterally (Abnormal)"
+          }
+        },
+        {
+          "name": "Late Latency Response (P300)",
+          "timepoint_label": "4 months post-stroke",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-39"
+          ],
+          "key_findings": "N1 and P2 responses appeared normal. P300 was delayed and reduced for right ear stimulation (contralateral to lesion). Left ear P300 was not as delayed as the right but not within normal latency range; amplitude was reduced for both ears.",
+          "numeric_results": {
+            "P300_Morphology": "Reduced amplitude bilaterally",
+            "P300_Latency": "Delayed (Right > Left)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 18-year-old patient presents with normal peripheral hearing sensitivity and excellent speech recognition in quiet following a left hemisphere CVA. However, central auditory processing testing reveals significant deficits. Behavioral testing shows bilateral abnormalities in dichotic digits (left ear worse) and duration patterns. Electrophysiologic testing (P300) corroborates these findings, showing delayed latencies and reduced amplitudes, particularly for right ear stimulation (contralateral to the left-sided lesion). The results indicate central auditory nervous system involvement consistent with the left basal ganglia/fronto-parietal infarct.",
+  "counseling_points": [
+    "Explain that difficulty hearing in noise is related to the brain injury (central processing), not the ears themselves.",
+    "Discuss the potential for neural plasticity and improvement given the patient's young age (18 years).",
+    "Recommend continued audiological monitoring of function.",
+    "Implement communication strategies for noisy environments (visual cues, positioning, reducing background noise)."
+  ],
+  "notes_for_actor": [
+    "You are an 18-year-old college student.",
+    "You have right-sided weakness (hemiplegia) and mild facial droop.",
+    "You have mild aphasia/apraxia, so you may occasionally struggle to find the right word or articulate clearly.",
+    "You are frustrated because you can hear sounds fine, but you can't understand people when it's noisy.",
+    "You are intelligent and motivated to understand your condition."
+  ]
+}

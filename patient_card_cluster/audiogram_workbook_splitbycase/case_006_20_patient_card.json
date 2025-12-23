@@ -1,0 +1,121 @@
+{
+  "case_id": "case_6_20",
+  "title": "Right Ear Barotrauma and Tympanic Membrane Perforation",
+  "demographics": {
+    "age_years": 41,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I heard a popping sound and felt pain in my right ear while the plane was descending last week. Since then, my hearing has been muffled on that side and I have some ringing.",
+  "problem_summary": {
+    "onset": "Sudden onset one week ago during an airplane flight descent.",
+    "course": "Stable since the incident.",
+    "laterality": "Right ear.",
+    "associated_symptoms": "Otalgia (at onset), intermittent tinnitus, muffled hearing.",
+    "functional_impact": "Perception of muffled hearing in the right ear.",
+    "goals_motivation": "Evaluation of hearing status following the flight incident."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-11-04",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient flew last week; during descent, experienced a popping sound and otalgia in the right ear. Reports muffled hearing and intermittent tinnitus in the right ear since. No symptoms in the left ear.",
+        "otologic_history": "No other reported otologic symptoms or history.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Family history of parents acquiring hearing loss later in life.",
+        "prior_management": "None reported prior to this visit.",
+        "patient_goals": "Diagnosis of current symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.20"
+          ],
+          "key_findings": "Right ear shows mild conductive hearing loss rising to normal sensitivity, with air-bone gaps present from 250-2000 Hz. Left ear thresholds are within normal limits (0-10 dB HL).",
+          "numeric_results": {
+            "RE_PTA": "28 dB HL",
+            "LE_PTA": "5 dB HL",
+            "RE_Configuration": "Mild rising to slight conductive loss (250-2000 Hz), normal >3000 Hz",
+            "LE_Configuration": "Normal limits (0-10 dB)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.20"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) are in agreement with Pure Tone Averages (PTA). Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "28 dB HL",
+            "LE_SRT": "5 dB HL",
+            "RE_WRS": "96% at 60 dB HL",
+            "LE_WRS": "100% at 45 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.20"
+          ],
+          "key_findings": "Right ear tympanogram is flat (Type B) with a large ear canal volume, consistent with a perforation. Left ear tympanogram is normal (Type A).",
+          "numeric_results": {
+            "RE_Canal_Volume": "4.2 mL",
+            "RE_Type": "B (Flat)",
+            "LE_Canal_Volume": "1.2 mL",
+            "LE_Type": "A"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not measured at this appointment.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild, low-frequency conductive hearing loss in the right ear and normal hearing sensitivity in the left ear. Speech recognition ability is excellent in both ears. Tympanometry reveals a flat tracing with an abnormally large ear canal volume in the right ear, consistent with a tympanic membrane perforation likely secondary to barotrauma.",
+  "counseling_points": [
+    "The 'popping' sound and pain you felt on the plane likely caused a small hole (perforation) in your right eardrum.",
+    "The hearing test confirms a 'conductive' hearing loss, meaning sound isn't getting through the eardrum efficiently, but the inner ear nerve is healthy.",
+    "The large volume reading on the pressure test confirms the perforation is currently open.",
+    "It is very important to keep the ear dry (water precautions) to prevent infection while it heals.",
+    "We will monitor this closely; many small perforations heal on their own, but surgical repair is an option if it persists."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is generally healthy but annoyed by the muffled hearing and ringing since the flight.",
+    "You are not in acute severe pain now, but recall the pain on the plane vividly.",
+    "You have no history of ear infections as a child, making this event novel and slightly concerning."
+  ]
+}

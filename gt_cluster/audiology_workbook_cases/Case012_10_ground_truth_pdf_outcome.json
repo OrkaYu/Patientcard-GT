@@ -1,0 +1,109 @@
+{
+  "case_id": "case_12_10",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Meniere's Disease (Left Ear)",
+      "rationale_short": "Classic tetrad of symptoms present in the left ear: episodic vertigo, sensorineural hearing loss, tinnitus ('buzzy'), and aural fullness."
+    },
+    {
+      "rank": 2,
+      "label": "Chronic Otitis Media with Tympanic Membrane Perforation (Right Ear)",
+      "rationale_short": "Confirmed by ENT observation, Type B tympanogram with large ear canal volume (3.9 cm3), and conductive hearing loss."
+    },
+    {
+      "rank": 3,
+      "label": "Vestibular Schwannoma (Left Ear)",
+      "rationale_short": "Asymmetric sensorineural hearing loss and unilateral tinnitus/fullness require exclusion of retrocochlear pathology via imaging."
+    },
+    {
+      "rank": 4,
+      "label": "Autoimmune Inner Ear Disease",
+      "rationale_short": "Can present with SNHL and vestibular symptoms, though usually bilateral and progressive; less likely than Meniere's given the episodic nature."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "MRI of Internal Auditory Canals with contrast",
+        "urgency": "routine",
+        "rationale_short": "To rule out retrocochlear pathology (e.g., vestibular schwannoma) given the asymmetric SNHL and unilateral symptoms."
+      },
+      {
+        "action": "Electrocochleography (ECochG)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate for the presence of endolymphatic hydrops, which supports a diagnosis of Meniere's disease."
+      },
+      {
+        "action": "Videonystagmography (VNG)",
+        "urgency": "routine",
+        "rationale_short": "To assess vestibular function and determine the extent of peripheral vestibular deficit."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results indicate two distinct pathologies: a right-sided tympanic membrane perforation causing conductive loss, and a left-sided cochlear pathology (likely Meniere's disease) causing SNHL and vestibular symptoms.",
+        "tests": [
+          {
+            "name": "Pure-tone Audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right: Mild low-frequency conductive loss with air-bone gap. Left: Mild-to-moderate flat SNHL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right: Type B with large volume (3.9 mmhos), consistent with perforation. Left: Type A (normal)."
+          },
+          {
+            "name": "Speech Audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right: Excellent WRS (100%). Left: Reduced WRS (84%)."
+          },
+          {
+            "name": "Wideband Reflectance",
+            "category": "Immittance",
+            "result_summary": "Right: Low reflectance (consistent with perforation). Left: Normal."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otolaryngologist (ENT) for medical management of Meniere's disease (e.g., diuretics, steroids) and evaluation of the right TM perforation.",
+      "Dietary modifications (low sodium, reduced caffeine/alcohol) to manage hydrops/vertigo.",
+      "Water precautions for the right ear (keep dry) to prevent infection.",
+      "Annual hearing monitoring or sooner if symptoms fluctuate.",
+      "Consideration for amplification (hearing aids) if hearing loss stabilizes and is bothersome, or surgical repair of right TM."
+    ],
+    "counseling_actions": [
+      "Explain the dual diagnosis: a hole in the eardrum on the right and a likely inner ear fluid imbalance (Meniere's) on the left.",
+      "Counsel on the importance of keeping the right ear dry.",
+      "Discuss the nature of Meniere's disease, including the episodic nature of vertigo and potential for hearing fluctuation.",
+      "Safety counseling regarding vertigo attacks (e.g., driving, ladders)."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss",
+      "Unilateral tinnitus",
+      "Unilateral aural fullness",
+      "Episodic vertigo"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngologist / Neuro-otologist",
+      "rationale_short": "Medical management of suspected Meniere's disease and surgical evaluation for TM perforation; MRI referral needed."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3-6 months",
+    "objective": "Monitor hearing thresholds for fluctuation (common in Meniere's) and assess status of the right ear perforation."
+  },
+  "expected_outcome": [
+    "Confirmation of Meniere's disease diagnosis via response to treatment or further testing.",
+    "Stabilization of vertigo symptoms with medical management.",
+    "Maintenance of dry right ear or surgical repair of perforation."
+  ]
+}

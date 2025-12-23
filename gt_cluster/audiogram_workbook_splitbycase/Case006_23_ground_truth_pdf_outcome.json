@@ -1,0 +1,95 @@
+{
+  "case_id": "Case006_23",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otitis Media with Effusion (Left Ear)",
+      "rationale_short": "Unilateral conductive hearing loss, hypocompliant tympanogram with negative pressure, and autophony following radiation therapy."
+    },
+    {
+      "rank": 2,
+      "label": "Eustachian Tube Dysfunction",
+      "rationale_short": "Likely mechanism for the development of effusion given the history of radiation to the tonsil."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing sensitivity and type of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function and eardrum mobility."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Evaluate retrocochlear function and confirm middle ear status."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with asymmetrical hearing. The right ear shows normal hearing sloping to high-frequency sensorineural loss. The left ear exhibits a low-frequency conductive loss and high-frequency mixed loss. Tympanometry reveals reduced compliance and negative pressure in the left ear, consistent with otitis media with effusion likely secondary to radiation therapy.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal (250-2000 Hz) sloping to slight-to-moderate SNHL (3000-8000 Hz). Left ear: Slight sloping to mild conductive loss (250-1000 Hz), rising to slight at 2000 Hz, sloping to mixed/moderately severe at 3000-4000 Hz. PTA: RE 7 dB HL, LE 40 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 7 dB HL, WRS 92%. Left ear: SRT 35 dB HL, WRS 88%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Normal (Type A). Left ear: Hypocompliant (Type As, 0.2 mL) with negative pressure (-75 daPa)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ear ipsilateral present 500-2000 Hz, absent at 4000 Hz. Left ear ipsilateral and contralateral absent. Right ear contralateral elevated or absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Otovent (autoinflation device)",
+      "Pressure equalization (PE) tube (if Otovent fails)",
+      "Hearing test after medical management",
+      "Annual hearing monitoring",
+      "Hearing Assistive Technology (HAT)",
+      "Hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Discuss the relationship between radiation therapy, Eustachian tube dysfunction, and middle ear fluid",
+      "Explain the mechanism of autophony",
+      "Instruct on the use of the Otovent device"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "For medical management of otitis media with effusion (Otovent or PE tube) and surveillance post-radiation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After medical management",
+    "objective": "Monitor hearing sensitivity and middle ear status to determine if conductive component resolves."
+  },
+  "expected_outcome": []
+}

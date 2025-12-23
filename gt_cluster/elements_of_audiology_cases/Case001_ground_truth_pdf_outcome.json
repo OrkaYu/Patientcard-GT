@@ -1,0 +1,116 @@
+{
+  "case_id": "Case001",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral otosclerosis",
+      "rationale_short": "Bilateral conductive hearing loss with Carhart notch, absent acoustic reflexes despite normal tympanograms, blue sclera, and positive family history."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities and verify agreement with pure-tone thresholds."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status and tympanic membrane mobility."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the stapedial reflex arc and check for middle ear pathology."
+      },
+      {
+        "action": "ABR",
+        "urgency": "routine",
+        "rationale_short": "To evaluate neural integrity and differentiate conductive from retrocochlear pathology."
+      },
+      {
+        "action": "TEOAE",
+        "urgency": "routine",
+        "rationale_short": "To assess cochlear outer hair cell function."
+      },
+      {
+        "action": "Tone decay test",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates a bilateral conductive hearing loss with a low-frequency stiffness tilt and a Carhart notch at 2000 Hz. Speech recognition is excellent. Tympanograms are Type A with normal static compliance, yet acoustic reflexes are absent. ABR shows prolonged absolute latencies with normal interpeak latencies, consistent with conductive pathology. TEOAEs are absent. The findings are strongly consistent with otosclerosis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral conductive hearing loss with low-frequency stiffness tilt and Carhart notch at 2000 Hz. Significant air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "SRT Right 25 dB HL, Left 35 dB HL; SRS Right 98%, Left 100%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A tympanograms with normal static compliance (Right 0.7 cc, Left 0.65 cc)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes."
+          },
+          {
+            "name": "ABR",
+            "category": "Electrophysiology",
+            "result_summary": "All waves prolonged absolute latencies; interpeak latencies normal; latency-intensity function normal."
+          },
+          {
+            "name": "TEOAE",
+            "category": "OAE",
+            "result_summary": "Absent bilaterally."
+          },
+          {
+            "name": "Tone decay test",
+            "category": "Special Tests",
+            "result_summary": "Negative (0 dB decay Right, 5 dB decay Left in 60 seconds)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to otologist for consideration of stapedectomy",
+      "Hearing aids (amplification) if surgery is not pursued"
+    ],
+    "counseling_actions": [
+      "Explain the conductive nature of the hearing loss and the role of middle ear stiffness",
+      "Discuss the hereditary nature of otosclerosis and relevance of family history",
+      "Discuss the options of surgical intervention versus amplification"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "To confirm the diagnosis of otosclerosis and discuss surgical options (stapedectomy)."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As determined by otologist",
+    "objective": "To proceed with surgical intervention or hearing aid fitting based on patient preference and medical advice."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,149 @@
+{
+  "case_id": "Case020",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Wernicke's Encephalopathy",
+      "rationale_short": "Triad of ataxia, eye movement disorder (down-beating nystagmus), and mental confusion; history of alcohol abuse and bariatric surgery; low thiamine; MRI hyperintensities."
+    },
+    {
+      "rank": 2,
+      "label": "Central Vestibular Dysfunction",
+      "rationale_short": "Evidenced by down-beating nystagmus (spontaneous, gaze, positional), saccade/OPK abnormalities, and failure of fixation suppression (though suppression was normal here, other central signs dominate)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Videonystagmography (Spontaneous)",
+        "urgency": "routine",
+        "rationale_short": "To assess for nystagmus without visual fixation."
+      },
+      {
+        "action": "Videonystagmography (Gaze)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate nystagmus in different gaze positions."
+      },
+      {
+        "action": "Videonystagmography (Saccade)",
+        "urgency": "routine",
+        "rationale_short": "To assess oculomotor function."
+      },
+      {
+        "action": "Videonystagmography (Smooth Pursuit)",
+        "urgency": "routine",
+        "rationale_short": "To assess tracking ability and central pathways."
+      },
+      {
+        "action": "Videonystagmography (Optokinetic)",
+        "urgency": "routine",
+        "rationale_short": "To assess central vestibular pathways."
+      },
+      {
+        "action": "Videonystagmography (Positional)",
+        "urgency": "routine",
+        "rationale_short": "To determine if nystagmus is provoked by head position."
+      },
+      {
+        "action": "Videonystagmography (Caloric)",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral vestibular function."
+      },
+      {
+        "action": "Other (MRI and Blood Work)",
+        "urgency": "urgent",
+        "rationale_short": "To investigate central etiology and thiamine levels."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "VNG results indicate a central vestibular pathology consistent with Wernicke's Encephalopathy. Key findings include robust down-beating nystagmus in spontaneous, gaze, and positional testing, along with abnormalities in saccade and optokinetic tests. Peripheral vestibular function remains intact as evidenced by normal caloric responses. MRI and blood work confirm central lesions and thiamine deficiency.",
+        "tests": [
+          {
+            "name": "Videonystagmography (Spontaneous)",
+            "category": "VNG",
+            "result_summary": "Abnormal. Down-beating nystagmus of 11 deg/s with fixation, enhancing to 16 deg/s without fixation."
+          },
+          {
+            "name": "Videonystagmography (Gaze)",
+            "category": "VNG",
+            "result_summary": "Abnormal. Down-beating nystagmus (8-14 deg/s) recorded in all gaze conditions (right, left, up, down)."
+          },
+          {
+            "name": "Videonystagmography (Saccade)",
+            "category": "VNG",
+            "result_summary": "Abnormal. Extremely disorganized tracings with reduced velocity and prolonged latency."
+          },
+          {
+            "name": "Videonystagmography (Smooth Pursuit)",
+            "category": "VNG",
+            "result_summary": "Tracings characterized by intrusions from spontaneous down-beating nystagmus; gain and symmetry technically within normal limits."
+          },
+          {
+            "name": "Videonystagmography (Optokinetic)",
+            "category": "VNG",
+            "result_summary": "Abnormal. Symmetrical responses with reduced gain at both 20 and 40 deg/s target velocities."
+          },
+          {
+            "name": "Videonystagmography (Positional)",
+            "category": "VNG",
+            "result_summary": "Abnormal. Down-beating nystagmus (15-26 deg/s) present in all positions."
+          },
+          {
+            "name": "Videonystagmography (Caloric)",
+            "category": "VNG",
+            "result_summary": "Normal peripheral function. Robust, symmetrical responses with no weakness or directional preponderance. Normal fixation suppression."
+          },
+          {
+            "name": "Other",
+            "category": "Medical Imaging/Labs",
+            "result_summary": "MRI (FLAIR) showed abnormal hyperintensities in periventricular region and medial thalami. Blood work indicated abnormally low thiamine (Vitamin B1)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Intravenous thiamine administration (acute phase)",
+      "Oral thiamine regimen (ongoing)",
+      "Physical therapy for vestibular therapy and fall prevention",
+      "Psychotherapy for substance abuse",
+      "Gabapentin (initiated by neurology to reduce nystagmus severity)",
+      "Consideration of base-down prism glasses",
+      "Use of assistive devices (quad cane)"
+    ],
+    "counseling_actions": [
+      "Educate patient on Wernicke's Encephalopathy and its relation to thiamine deficiency and alcohol use",
+      "Explain that 'jumping' vision (oscillopsia) is due to down-beating nystagmus",
+      "Advise on fall prevention and safety (use of walker/cane)",
+      "Counsel on importance of alcohol avoidance and proper nutrition",
+      "Discuss prognosis: improvement expected but residual deficits (nystagmus, memory) may persist"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Down-beating nystagmus (central sign)",
+      "Ataxia",
+      "Mental confusion/memory loss",
+      "Abnormal MRI findings (central lesions)"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Patient is already under Neurology care; report VNG findings confirming central pathology to guide ongoing management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor resolution of symptoms with thiamine treatment, manage fall risk, and address substance abuse."
+  },
+  "expected_outcome": [
+    "Symptoms improved with treatment, but significant residual deficits remain.",
+    "Ataxia is less severe than at onset; patient transitioned from walker to quad cane but remains at high fall risk.",
+    "Initial confusion receded, but ongoing short-term memory issues persist.",
+    "Persistent down-beating nystagmus remains and continues to interfere with vision and stability.",
+    "Medical record notes suggest continued heavy drinking, making long-term prognosis unclear."
+  ]
+}

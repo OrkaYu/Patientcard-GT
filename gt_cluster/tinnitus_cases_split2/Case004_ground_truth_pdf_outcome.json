@@ -1,0 +1,127 @@
+{
+  "case_id": "Case004",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Spontaneous Cerebrospinal Fluid (CSF) Leak",
+      "rationale_short": "Confirmed by imaging (fluid in mastoid, thin tegmen tympani) and consistent with symptoms of pulsatile tinnitus, rhinorrhea, and Type C tympanogram."
+    },
+    {
+      "rank": 2,
+      "label": "Vascular Disorder / AVM",
+      "rationale_short": "A potential cause of pulsatile tinnitus, but ruled out by imaging (no vascular malformation or sigmoid sinus diverticulum found)."
+    },
+    {
+      "rank": 3,
+      "label": "Vestibular Schwannoma",
+      "rationale_short": "Considered due to asymmetric SNHL and word recognition scores, but ruled out by MRI (no mass in IAC or CPA)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given reported difficulty hearing and tinnitus."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition abilities and check for retrocochlear signs (asymmetry)."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function, especially given the sensation of fluid and pulsatile tinnitus."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex pathway, though a seal could not be maintained."
+      },
+      {
+        "action": "Other (Imaging)",
+        "urgency": "soon",
+        "rationale_short": "MRI and CT ordered by neurotology to rule out vascular pathology or mass and investigate the source of pulsatile tinnitus."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation revealed bilateral asymmetric sensorineural hearing loss and word recognition scores, both significantly poorer in the right (non-tinnitus) ear. Tympanometry showed significant negative pressure (Type C) in the left ear, correlating with the patient's report of pulsatile tinnitus and rhinorrhea. Acoustic reflexes could not be measured due to seal issues.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral asymmetric SNHL. Right ear: sloping from ~30 dB HL to >90 dB HL. Left ear: sloping from ~20 dB HL to 60-70 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Asymmetric WRS. Right: 46% at 75 dB HL. Left: 72% at 68 dB HL. SRT: Right 46 dB, Left 38 dB."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Left ear: Type C (-205 daPa). Right ear: Type A (-60 daPa)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Could not be obtained; clinician could not sustain an airtight seal in either ear."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Diagnostic imaging confirmed a spontaneous CSF leak into the left mastoid with a thin tegmen tympani. No mass or vascular malformation was found, ruling out tumor or AVM.",
+        "tests": [
+          {
+            "name": "Other",
+            "category": "Imaging",
+            "result_summary": "MRI showed fluid in left mastoid with CSF hyperintensity. CT showed mastoid opacification and very thin tegmen tympani. No mass or sigmoid sinus diverticulum."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing instruments with active tinnitus sound generator",
+      "Television assistive listening device (ALD)",
+      "Bedside sound generator",
+      "Pneumovax vaccination (every 5 years)",
+      "Otologic follow-up if changes or new symptoms occur"
+    ],
+    "counseling_actions": [
+      "Progressive Tinnitus Management (PTM) workshops",
+      "Cognitive behavior therapy (CBT) skills",
+      "Therapeutic sound strategies",
+      "Explanation of surgical risks (hearing loss in better ear) versus benefits"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Pulsatile tinnitus",
+      "Rhinorrhea concurrent with tinnitus",
+      "Asymmetric sensorineural hearing loss",
+      "Asymmetric word recognition scores"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurotologist",
+      "rationale_short": "Referral required for medical management of pulsatile tinnitus and suspected CSF leak, and to determine surgical candidacy."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor for changes in symptoms or hearing; patient advised to seek follow-up if new symptoms occur."
+  },
+  "expected_outcome": [
+    "Patient reported continued left pulsatile tinnitus with the predictable pattern of 2-3 days on followed by 2-3 days off.",
+    "Patient remained an inconsistent hearing instrument user, although he reported he 'could barely hear' his tinnitus when wearing them.",
+    "Patient used the bedside sound conditioner infrequently.",
+    "Patient reported taking Clonazepam for sleep disturbance related to tinnitus.",
+    "Surgical intervention was denied by the neurotologist and additional ENT physicians due to the high risk of complications to the better-hearing ear."
+  ]
+}

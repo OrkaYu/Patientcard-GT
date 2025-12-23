@@ -1,0 +1,166 @@
+{
+  "case_id": "Case011_02",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right Hemisphere Pathology",
+      "rationale_short": "Marked left ear deficits on dichotic tasks and bilateral frequency pattern deficits that did not improve with humming."
+    },
+    {
+      "rank": 2,
+      "label": "Corpus Callosum Dysfunction",
+      "rationale_short": "Considered due to pattern deficits, but ruled out because humming response did not improve scores."
+    },
+    {
+      "rank": 3,
+      "label": "Functional CAPD",
+      "rationale_short": "Initial working diagnosis before medical imaging revealed structural atrophy."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Central Auditory Test Battery",
+        "urgency": "routine",
+        "rationale_short": "To evaluate central auditory processing abilities given academic struggles."
+      },
+      {
+        "action": "EEG",
+        "urgency": "soon",
+        "rationale_short": "Investigated in adulthood due to onset of seizures."
+      },
+      {
+        "action": "MRI Head",
+        "urgency": "soon",
+        "rationale_short": "Investigated in adulthood to identify structural causes for seizures and auditory deficits."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1_Age9",
+        "collective_interpretation": "Peripheral hearing was normal. Central testing revealed a classic right hemisphere pattern: marked left ear deficits on dichotic tasks and bilateral deficits on frequency patterns with no improvement during humming conditions.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral",
+            "result_summary": "Thresholds within the normal range bilaterally."
+          },
+          {
+            "name": "Competing Sentences",
+            "category": "Central",
+            "result_summary": "Marked left ear deficit (LE ~0%, RE ~95%)."
+          },
+          {
+            "name": "Dichotic Digits",
+            "category": "Central",
+            "result_summary": "Left ear deficit (LE ~45%, RE ~85%)."
+          },
+          {
+            "name": "SSW",
+            "category": "Central",
+            "result_summary": "Left ear deficit (LE ~50%, RE ~80%)."
+          },
+          {
+            "name": "Frequency Patterns",
+            "category": "Central",
+            "result_summary": "Abnormal bilaterally (~0-5%) with no improvement during humming condition."
+          },
+          {
+            "name": "Low Pass Filtered Speech",
+            "category": "Central",
+            "result_summary": "Essentially normal bilaterally (60-80%)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2_Age15",
+        "collective_interpretation": "Follow-up testing showed some maturational improvement, but the specific pattern of left ear dichotic deficits and poor frequency pattern perception persisted.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral",
+            "result_summary": "Thresholds remained within the normal range bilaterally."
+          },
+          {
+            "name": "Competing Sentences",
+            "category": "Central",
+            "result_summary": "Persistent left ear deficit (LE ~20%, RE ~98%)."
+          },
+          {
+            "name": "Dichotic Digits",
+            "category": "Central",
+            "result_summary": "Persistent left ear deficit (LE ~50%, RE ~90%)."
+          },
+          {
+            "name": "SSW",
+            "category": "Central",
+            "result_summary": "Persistent left ear deficit (LE ~60%, RE ~90%)."
+          },
+          {
+            "name": "Frequency Patterns",
+            "category": "Central",
+            "result_summary": "Remained poor bilaterally (~15-25%)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3_Medical_Workup",
+        "collective_interpretation": "Medical workup in adulthood following seizure onset confirmed right hemisphere pathology consistent with earlier audiological findings.",
+        "tests": [
+          {
+            "name": "EEG",
+            "category": "Neurology",
+            "result_summary": "Abnormal spiking over right temporal and parietal lobes."
+          },
+          {
+            "name": "MRI Head",
+            "category": "Imaging",
+            "result_summary": "Atrophy of the right hemisphere, predominantly involving the right temporal and parietal lobes."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Preferential seating to bias acoustic input to the right ear",
+      "Improvement of educational acoustics in the classroom",
+      "Auditory discrimination training",
+      "Interhemispheric processing tasks",
+      "Curriculum modification"
+    ],
+    "counseling_actions": [
+      "Teaching strategies to signal awareness for important information",
+      "Counseling regarding the nature of the central auditory deficit"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Marked left ear deficit on dichotic tasks",
+      "Bilateral deficits in Frequency Pattern perception with no humming improvement",
+      "Onset of partial seizures (adulthood)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurology",
+      "rationale_short": "Marked central auditory deficits strongly implicated neurological pathology; medical evaluation was warranted."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor functional progress and medical status."
+  },
+  "expected_outcome": [
+    "Patient graduated from high school with a modified curriculum.",
+    "Patient works primarily as a laborer.",
+    "Developed mild partial seizures involving twitching of the left arm in adulthood.",
+    "MRI confirmed atrophy of the right hemisphere, predominantly involving the right temporal and parietal lobes.",
+    "EEG showed abnormal spiking over right temporal and parietal lobes.",
+    "Central auditory tests at age 15 showed persistent left ear deficits on dichotic tasks and poor frequency patterns despite some maturation."
+  ]
+}

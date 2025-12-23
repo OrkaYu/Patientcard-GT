@@ -1,0 +1,127 @@
+{
+  "case_id": "case_6_7",
+  "title": "Treacher Collins Syndrome with Bilateral Conductive Hearing Loss",
+  "demographics": {
+    "age_years": 23,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I need to start the process of getting new hearing aids because my current ones are about 5 years old.",
+  "problem_summary": {
+    "onset": "Childhood",
+    "course": "Stable; consistent use of amplification since childhood.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Tinnitus in both ears (not bothersome); denies dizziness, otalgia, or pressure.",
+    "functional_impact": "Patient relies on hearing aids for daily communication.",
+    "goals_motivation": "Replace aging devices (5 years old)."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2010-02-26",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient has Treacher Collins syndrome. Reports hearing loss is greater in lower frequencies and equal bilaterally.",
+        "otologic_history": "No history of otalgia, pressure, or dizziness.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Treacher Collins syndrome.",
+        "prior_management": "Has worn hearing aids consistently since childhood; current set is 5 years old.",
+        "patient_goals": "Purchase new hearing aids."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.7"
+          ],
+          "key_findings": "Bilateral conductive hearing loss with a rising configuration. Bone conduction thresholds are within normal limits (0-10 dB HL), indicating a significant air-bone gap consistent with conductive pathology.",
+          "numeric_results": {
+            "Right_AC": "Moderately severe (approx 55 dB HL) at 250 Hz rising to slight/mild (approx 20-25 dB HL) at 2000-3000 Hz.",
+            "Left_AC": "Severe (approx 60-65 dB HL) at 250 Hz rising to mild (approx 25-30 dB HL) at 2000-4000 Hz.",
+            "Bone_Conduction": "Normal bilaterally (0-10 dB HL)."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.7"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) are in agreement with Pure Tone Averages (PTA). Word Recognition Scores (WRS) are excellent bilaterally at suprathreshold levels.",
+          "numeric_results": {
+            "Right_SRT": "53 dB HL",
+            "Left_SRT": "55 dB HL",
+            "Right_WRS": "96% at 85 dB HL",
+            "Left_WRS": "96% at 85 dB HL",
+            "PTA": "Right 53 dB, Left 60 dB"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.7"
+          ],
+          "key_findings": "Hypocompliant tympanograms bilaterally (shallow peaks) with normal middle ear pressure.",
+          "numeric_results": {
+            "Right_Static_Admittance": "0.2 mL",
+            "Left_Static_Admittance": "0.2 mL",
+            "Right_Peak_Pressure": "-10 daPa",
+            "Left_Peak_Pressure": "-5 daPa",
+            "Canal_Volume": "Right 0.5 mL, Left 0.6 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.7"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral acoustic reflexes at all frequencies tested (500-4000 Hz). Reflex decay could not be tested.",
+          "numeric_results": {
+            "Reflexes": "Absent (ABS) at 500, 1k, 2k, 4k Hz bilaterally."
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, rising conductive hearing loss, ranging from severe/moderately-severe in the low frequencies to mild/slight in the high frequencies. Bone conduction thresholds are normal, confirming the conductive nature of the loss associated with Treacher Collins syndrome. Word recognition is excellent bilaterally. Middle ear analysis reveals hypocompliant systems with absent acoustic reflexes.",
+  "counseling_points": [
+    "Your hearing test confirms a conductive hearing loss in both ears, which is expected given your history of Treacher Collins syndrome.",
+    "The 'inner ear' or nerve portion of your hearing is completely normal, which is why your ability to understand words is excellent when the volume is loud enough.",
+    "Because your hearing loss is worse in the low pitches and better in the high pitches, we will program your new hearing aids to provide more volume for deep sounds while keeping high-pitched sounds comfortable.",
+    "We will need a medical clearance from an ENT before dispensing the new hearing aids, which is standard procedure."
+  ],
+  "notes_for_actor": [
+    "You are a seasoned hearing aid user (since childhood) and are comfortable with the process.",
+    "You are not anxious about the hearing loss itself; this is a practical visit to upgrade old equipment.",
+    "If asked about the tinnitus (ringing), mention it casually—it's there, but you are used to it and it doesn't bother you.",
+    "You are knowledgeable about your condition (Treacher Collins) and expect the audiologist to be familiar with it."
+  ]
+}

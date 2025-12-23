@@ -1,0 +1,103 @@
+{
+  "case_id": "case_6_3",
+  "title": "Unilateral Conductive Hearing Loss Post-Tympanomastoidectomy",
+  "demographics": {
+    "age_years": 71,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I have a history of hearing loss in my left ear due to multiple infections and surgeries. I haven't had a hearing test in over 10 years.",
+  "problem_summary": {
+    "onset": "History of multiple ear infections and otosurgeries; tympanomastoidectomy in 2000.",
+    "course": "Stable but untested for >10 years.",
+    "laterality": "Left unilateral",
+    "associated_symptoms": "Denied tinnitus or dizziness.",
+    "functional_impact": "Moderate difficulty receiving speech in the left ear.",
+    "goals_motivation": "Monitoring stability and evaluation for amplification."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-02-14",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports left unilateral hearing loss.",
+        "otologic_history": "Multiple ear infections and otosurgeries in the left ear. Left tympanomastoidectomy completed in 2000.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Last hearing test was >10 years ago.",
+        "patient_goals": "Evaluation for left ear amplification and HAT."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.3"
+          ],
+          "key_findings": "Right ear shows normal hearing sensitivity (0-10 dB HL). Left ear shows a moderate to profound conductive hearing loss with normal bone conduction thresholds (0-10 dB HL), indicating a significant air-bone gap.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "Left_AC_Thresholds": "250Hz: 55 dB, 500Hz: 60 dB, 1000Hz: 45 dB, 2000Hz: 40 dB, 4000Hz: 50 dB, 6000Hz: 90 dB",
+            "Left_BC_Thresholds": "0-10 dB HL (Normal)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.3"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA for both ears. Word recognition is excellent in both ears when presented at suprathreshold levels.",
+          "numeric_results": {
+            "Right_SRT": "8 dB HL",
+            "Right_WRS": "100% at 50 dB HL",
+            "Left_SRT": "52 dB HL",
+            "Left_WRS": "96% at 85 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.3"
+          ],
+          "key_findings": "Immittance testing was not measured due to the surgical history (tympanomastoidectomy).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity in the right ear and a moderate-to-profound conductive hearing loss in the left ear. Speech understanding remains excellent in the left ear (96%) when sound is made sufficiently loud to overcome the conductive component. The conductive loss is consistent with the history of chronic otitis media and tympanomastoidectomy.",
+  "counseling_points": [
+    "Your right ear has normal hearing, but your left ear has a 'conductive' hearing loss, meaning the inner ear nerve is working well, but sound isn't getting through the middle ear structures efficiently due to your past surgeries.",
+    "Because your word recognition score is excellent (96%) in the left ear, you are a good candidate for a hearing aid, which can make sounds loud enough to overcome that blockage.",
+    "We need to obtain medical clearance from an ENT physician before fitting a hearing aid, given your surgical history.",
+    "We will schedule an annual hearing test to monitor for any changes."
+  ],
+  "notes_for_actor": [
+    "You are a female patient, approx 71 years old.",
+    "You are aware your left ear is your 'bad ear' due to many past surgeries.",
+    "You are not dizzy and do not have ringing in your ears.",
+    "You haven't bothered with a hearing test in a decade but are now open to checking if a device would help."
+  ]
+}

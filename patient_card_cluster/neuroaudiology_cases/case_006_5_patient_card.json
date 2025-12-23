@@ -1,0 +1,123 @@
+{
+  "case_id": "case_6_5",
+  "title": "Left Hemisphere Infarct Involving Caudate, Insula, and Temporal Lobe",
+  "demographics": {
+    "age_years": 57,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "The patient presents with persistent speech and language problems, specifically expressive and receptive aphasia with apraxia, following a stroke two years prior.",
+  "problem_summary": {
+    "onset": "Sudden onset of right arm and leg weakness followed by speech/language issues.",
+    "course": "Physical weakness cleared in a few days; speech/language problems persisted for >2 years, waxing and waning in severity.",
+    "laterality": "Left hemisphere lesion affecting right-sided function and auditory processing.",
+    "associated_symptoms": "Right arm and leg weakness (transient), expressive and receptive aphasia, apraxia.",
+    "functional_impact": "Significant communication difficulties due to aphasia and central auditory processing deficits.",
+    "goals_motivation": "Research participation to investigate the effects of the lesion on auditory potentials and dichotic listening."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Research / Audiology Clinic",
+      "history": {
+        "present_illness": "Patient suffered a stroke 2 years prior with initial diagnosis of left caudate infarct. Recent imaging shows more extensive involvement including the insula, posterior-inferior frontal lobe, temporal lobe, internal capsule, and lateral ventricle.",
+        "otologic_history": "Known hearing loss and associated hearing difficulties.",
+        "noise_exposure_history": "History of noise exposure during military service.",
+        "medical_psych_history": "Stroke (infarct).",
+        "prior_management": "None specified for hearing; stroke management included admission.",
+        "patient_goals": "Evaluation of central auditory function."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-23"
+          ],
+          "key_findings": "Bilateral, high-frequency sensorineural hearing loss commencing at 2000 Hz. Low frequencies (250-1000 Hz) are normal and symmetrical.",
+          "numeric_results": {
+            "RE_250-1000Hz": "~10-15 dB HL",
+            "RE_2000Hz": "45 dB HL",
+            "RE_4000Hz": "65 dB HL",
+            "RE_8000Hz": "70 dB HL",
+            "LE_250-1000Hz": "~10-15 dB HL",
+            "LE_2000Hz": "40 dB HL",
+            "LE_4000Hz": "90 dB HL",
+            "LE_8000Hz": ">95 dB HL"
+          }
+        },
+        {
+          "name": "Dichotic Digits",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Marked right ear deficit consistent with a large left hemisphere lesion. The asymmetry is too great to be explained by the peripheral hearing loss difference alone.",
+          "numeric_results": {
+            "Right_Ear_Score": "8%",
+            "Left_Ear_Score": "80%"
+          }
+        },
+        {
+          "name": "Auditory Evoked Potentials (Late/P300)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-24",
+            "Figure 6-25"
+          ],
+          "key_findings": "Demonstrated an 'electrode effect': the electrode over the involved hemisphere (C3/Left) provided poorer results (reduced amplitude/delayed latency) than the normal hemisphere (C4/Right). Also showed a 'laterality effect' where Left Ear stimulation elicited larger/earlier responses than Right Ear stimulation.",
+          "numeric_results": {
+            "Stimuli": "500 Hz (frequent), 1000 Hz (rare)"
+          }
+        },
+        {
+          "name": "Radiology (CT)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-20",
+            "Figure 6-21",
+            "Figure 6-22"
+          ],
+          "key_findings": "Recent CT showed extensive involvement of the left insula, posterior-inferior frontal lobe, temporal lobe, internal capsule, and lateral ventricle (more extensive than the initial diagnosis of small left caudate infarct).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 57-year-old male presents with a mixed picture of peripheral and central auditory deficits. Peripherally, he exhibits a bilateral high-frequency sensorineural hearing loss, likely attributable to military noise exposure, with a steeper slope in the left ear at 4kHz. Centrally, he demonstrates profound deficits consistent with his extensive left hemisphere infarction. This is evidenced by a severe right-ear deficit (8%) on Dichotic Digits and a clear 'electrode effect' on P300 testing, where responses at the C3 (left) electrode were markedly degraded compared to C4. The central findings align with the radiologic evidence of damage to the left insula, temporal lobe, and internal capsule.",
+  "counseling_points": [
+    "Explain that the difficulty hearing in noise and understanding speech is a combination of the high-frequency hearing loss (peripheral) and the brain's inability to process information from the right ear (central/stroke-related).",
+    "Discuss that while hearing aids may help audibility for the high-frequency loss, they may not fully resolve clarity issues due to the central processing disorder (aphasia/auditory processing deficits).",
+    "Recommend communication strategies that favor the left ear (the 'better' ear for processing) and visual cues.",
+    "Highlight that the 'good' low-frequency hearing allowed for valid P300 testing, confirming the brain-based nature of the asymmetry."
+  ],
+  "notes_for_actor": [
+    "You have a history of military service and noise exposure.",
+    "You had a stroke 2 years ago that affected your speech (aphasia); you may struggle to find words or understand complex sentences.",
+    "You have trouble hearing, but it is much worse when listening to things on your right side or in complex environments.",
+    "You are cooperative with testing but may get fatigued or frustrated due to speech difficulties."
+  ]
+}

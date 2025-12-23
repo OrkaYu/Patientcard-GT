@@ -1,0 +1,121 @@
+{
+  "case_id": "Case017",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Physiologic modulation of ear canal noise floor",
+      "rationale_short": "Unique, asymptomatic physiologic phenomenon characterized by transient broadband spikes in the noise floor, audible to an otologist but not the patient."
+    },
+    {
+      "rank": 2,
+      "label": "Patulous Eustachian Tube Dysfunction",
+      "rationale_short": "Ruled out; spikes did not coincide with nasal breathing or forced breathing manipulations."
+    },
+    {
+      "rank": 3,
+      "label": "Saccade-Induced Tympanic Membrane Movements",
+      "rationale_short": "Ruled out; eye gaze shifts and closed eyes did not alter spike frequency or amplitude."
+    },
+    {
+      "rank": 4,
+      "label": "Middle Ear Myoclonus",
+      "rationale_short": "Ruled out; frequency of spikes was lower than typical tremors, and no tympanic membrane movements were observed."
+    },
+    {
+      "rank": 5,
+      "label": "Paraganglioma",
+      "rationale_short": "Ruled out; normal otoscopy and spikes were not coincident with the patient's pulse."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline assessment of hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of speech reception thresholds."
+      },
+      {
+        "action": "Otologic Examination",
+        "urgency": "routine",
+        "rationale_short": "Physical exam of the ear and objective listening with Toynbee tube."
+      },
+      {
+        "action": "DPOAE and Noise Floor Analysis",
+        "urgency": "routine",
+        "rationale_short": "Evaluation of cochlear function and analysis of noise floor anomalies."
+      },
+      {
+        "action": "Physiologic Modulation Troubleshooting",
+        "urgency": "routine",
+        "rationale_short": "Experimental manipulations to identify the source of noise floor spikes."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The participant has normal hearing sensitivity and normal DPOAE amplitudes. However, a unique, asymptomatic physiologic phenomenon was observed consisting of transient broadband noise floor 'spikes' (42-50 dB SPL). These were audible to the otologist via stethoscope but not the patient. Extensive troubleshooting ruled out common causes like patulous eustachian tube or myoclonus; the source appears modulated by neck pressure and heart rate (exercise) but remains poorly understood.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally. PTA Right 8.3 dB HL, Left 10 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 10 dB HL bilaterally, consistent with pure-tone averages."
+          },
+          {
+            "name": "Otologic Examination",
+            "category": "Physical Exam",
+            "result_summary": "Normal tympanic membranes. Faint 'click' heard by otologist via Toynbee tube (Right > Left); inaudible to patient."
+          },
+          {
+            "name": "DPOAE and Noise Floor Analysis",
+            "category": "OAEs",
+            "result_summary": "Normal DPOAE amplitudes. Transient broadband spikes in noise floor (mean 42.35 +/- 5.58 dB SPL, max ~50 dB SPL) with interspike interval 35-75 seconds."
+          },
+          {
+            "name": "Physiologic Modulation Troubleshooting",
+            "category": "Experimental",
+            "result_summary": "Ruled out PETD, eye movements, posture changes, and jaw muscle contraction. Neck pressure altered spike amplitude; exercise increased spike frequency."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor for development of audiologic symptoms",
+      "No active medical or surgical treatment required"
+    ],
+    "counseling_actions": [
+      "Inform patient that hearing sensitivity is normal",
+      "Explain that the faint sound detected is audible to the otologist but not to her, and is considered harmless",
+      "Discuss that common causes like muscle spasms or breathing issues have been ruled out",
+      "Advise that the finding is a unique physiologic signal that does not currently require treatment"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiological monitoring",
+      "rationale_short": "The participant is asymptomatic and the finding appears benign, though unexplained."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Long-term monitoring",
+    "objective": "Monitor for any future development of audiologic symptoms related to the anomaly."
+  },
+  "expected_outcome": [
+    "Consistency of the spiking phenomenon was observed over days, weeks, and months of testing.",
+    "The participant remained asymptomatic regarding the anomaly.",
+    "Hypothesis generated that middle ear filtering influences the measures of the spikes, acting as a bandpass filter."
+  ]
+}

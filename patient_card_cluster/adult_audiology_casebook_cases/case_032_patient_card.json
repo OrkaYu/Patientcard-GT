@@ -1,0 +1,195 @@
+{
+  "case_id": "case32_Endolymphatic_Sac_Tumor_Audiometric_and",
+  "title": "Endolymphatic Sac Tumor: Audiometric and Vestibular Considerations",
+  "demographics": {
+    "age_years": 25,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have lost all hearing in my left ear, and for the last 7 months I've been having spinning attacks that make me vomit and sweat excessively.",
+  "problem_summary": {
+    "onset": "Hearing loss began at age 17 and dropped suddenly 3 years ago. Vertigo began 7 months ago.",
+    "course": "Progressive hearing loss to profound levels; episodic vertigo (5 episodes in last 2 months).",
+    "laterality": "Left",
+    "associated_symptoms": "Diaphoresis, intense nausea, vomiting, residual dizziness/unsteadiness for days after attacks.",
+    "functional_impact": "Unable to hear or localize sound on the left side; vertigo limits activity.",
+    "goals_motivation": "Investigate etiology of symptoms and manage vertigo."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2018-03-25",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports left ear hearing loss progressing since age 17, with a sudden drop 3 years ago. Now reports inability to hear anything on the left. Vertigo episodes last 1-2 hours.",
+        "otologic_history": "No precipitating event identified for vertigo.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Referral from neurotologist.",
+        "prior_management": null,
+        "patient_goals": "Diagnosis and management."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Clear canals bilaterally. Bright red mass visualized behind the left tympanic membrane.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 32.1"
+          ],
+          "key_findings": "Right ear: Normal hearing sensitivity (250-8000 Hz). Left ear: Profound sensorineural hearing loss with no measurable response at limits of the audiometer.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "0-10 dB HL range",
+            "Left_AC_Thresholds": "No Response at 110-120 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 32.1"
+          ],
+          "key_findings": "Right ear excellent recognition. Left ear could not be measured due to severity of loss.",
+          "numeric_results": {
+            "Right_SRT": "12 dB HL",
+            "Right_WRS": "100% at 50 dB HL",
+            "Left_SRT": "NR (No Response)",
+            "Left_WRS": "CNT (Could Not Test)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 32.1"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Right_Volume": "1.8 mL",
+            "Right_Admittance": "0.5 mmho",
+            "Right_Pressure": "10 daPa",
+            "Left_Volume": "1.7 mL",
+            "Left_Admittance": "0.3 mmho",
+            "Left_Pressure": "-40 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 32.1"
+          ],
+          "key_findings": "Right ipsilateral present. All other conditions (Right Contra, Left Ipsi, Left Contra) absent. Right contra absence attributed to left middle ear pathology affecting the probe ear.",
+          "numeric_results": {
+            "Right_Ipsi_500Hz": "95 dB HL",
+            "Right_Ipsi_1000Hz": "90 dB HL",
+            "Right_Ipsi_2000Hz": "95 dB HL",
+            "Right_Ipsi_4000Hz": "100 dB HL",
+            "Right_Contra": "NR",
+            "Left_Ipsi": "NR",
+            "Left_Contra": "NR"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (1 week post-V1)",
+      "history": {
+        "present_illness": "Return for vestibular evaluation.",
+        "otologic_history": "Previous audiogram showed left profound SNHL.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": null,
+        "patient_goals": null
+      },
+      "tests": [
+        {
+          "name": "Videonystagmography (VNG)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 32.2"
+          ],
+          "key_findings": "Oculomotor and positional tests normal. Caloric testing showed 100% left unilateral weakness (no response to air). Ice water irrigation in left ear evoked nystagmus, indicating residual high-frequency function.",
+          "numeric_results": {
+            "Right_Cool_Response": "21 deg/sec",
+            "Right_Warm_Response": "35 deg/sec",
+            "Left_Cool_Response": "No measurable response",
+            "Left_Ice_Water_Response": "10 deg/sec (Right-beating)",
+            "Unilateral_Weakness": "100% Left"
+          }
+        },
+        {
+          "name": "Diagnostic Imaging (MRI/CT)",
+          "timepoint_label": "Post-referral",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 32.3"
+          ],
+          "key_findings": "MRI: Large (2.4 x 2.7 cm) enhancing mass on posterior surface of left petrous temporal bone. CT: Tumor extends into CPA, IAC, and tympanic cavity, encasing ossicles.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a profound sensorineural hearing loss in the left ear. Immittance testing reveals normal tympanograms but absent acoustic reflexes when the probe or stimulus involves the left ear, consistent with retrocochlear and middle ear pathology. Vestibular testing indicates a complete left unilateral weakness on standard calorics, though ice-water testing confirms residual high-frequency vestibular function on the left side.",
+  "counseling_points": [
+    "The testing confirms a profound hearing loss in your left ear and a significant weakness in your left balance system.",
+    "Imaging reveals a tumor (Endolymphatic Sac Tumor) affecting the hearing and balance nerve, as well as the middle ear bones.",
+    "Because the ice-water test showed you still have some balance function on the left, surgical removal of the tumor will eliminate that remaining function.",
+    "This means you will likely experience significant dizziness immediately after surgery, but we will plan for vestibular therapy to help your brain compensate.",
+    "The surgery involves a 'transotic' approach, which means hearing cannot be preserved in the left ear, but your right ear hearing is excellent."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is anxious about the vertigo attacks, as they are severe and involve vomiting.",
+    "You have been deaf in the left ear for a few years, so you are accustomed to the hearing loss, but the dizziness is the new, disturbing symptom.",
+    "When discussing the 'red mass' behind your eardrum, you may express surprise as you cannot feel it."
+  ]
+}

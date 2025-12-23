@@ -1,0 +1,149 @@
+{
+  "case_id": "case50_Maximizing_Tinnitus_Hyperacusis_Sound_Th",
+  "title": "Maximizing Tinnitus/Hyperacusis Sound Therapy with Real Ear Measures",
+  "demographics": {
+    "age_years": 70,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have severe sensitivity to loud sounds and a constant ringing in my ears, which is worse on the left side. My current hearing aid gives very little relief, and I have to wear foam earplugs almost all the time because sudden noises are so distressing.",
+  "problem_summary": {
+    "onset": "Following a recent motor vehicle accident where the airbag deployed on the left side.",
+    "course": "Continuous tinnitus and severe hyperacusis since the accident.",
+    "laterality": "Bilateral, but more prominent and bothersome in the left ear.",
+    "associated_symptoms": "Distress to sudden noise, pressure sensation (PE tube inserted), reliance on foam earplugs.",
+    "functional_impact": "Patient uses foam earplugs even in quiet environments; reports significant relief from a box fan in her bedroom.",
+    "goals_motivation": "Seeking relief from tinnitus and hyperacusis; current hearing aid is not helping."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-01-30",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient involved in MVA with airbag impact to left head. PE tube inserted left side for pressure relief. Currently wears a left RIC aid with open dome and high-frequency noise program, but reports no benefit.",
+        "otologic_history": "Left PE tube patent. Right Eustachian tube dysfunction indicated by negative pressure.",
+        "noise_exposure_history": "Acoustic trauma from airbag deployment.",
+        "medical_psych_history": "Reported distress to loud sounds.",
+        "prior_management": "Recently purchased Left RIC hearing aid (unverified). Uses foam earplugs constantly.",
+        "patient_goals": "Relief from tinnitus/hyperacusis; notes that a box fan provides significant relief."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 50.1"
+          ],
+          "key_findings": "Right ear: Normal hearing 250-1000 Hz, precipitous drop to moderately severe SNHL 1.5-8 kHz. Left ear: Moderate to moderately severe mixed hearing loss (flat configuration) with significant air-bone gaps 250-1000 Hz.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "Normal through 1kHz, dropping to ~75 dB HL at 8kHz",
+            "Left_AC_Thresholds": "Flat configuration approx 50-60 dB HL",
+            "Left_Air_Bone_Gap": "Significant at 250, 500, 1000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 50.1"
+          ],
+          "key_findings": "SRTs in agreement with PTAs. WRS shows slight difficulty in right ear and moderate difficulty in left ear.",
+          "numeric_results": {
+            "RT_SRT": "20 dB HL",
+            "RT_WRS": "84% (at 50 dB HL)",
+            "LT_SRT": "55 dB HL",
+            "LT_WRS": "68% (at 80 dB HL)"
+          }
+        },
+        {
+          "name": "Immittance",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 50.1"
+          ],
+          "key_findings": "Right: Normal volume, negative pressure (Type C). Left: Large physical volume (3.3 ml) indicating patent PE tube, unmeasurable admittance.",
+          "numeric_results": {
+            "RT_Volume": "0.82 mL",
+            "LT_Volume": "3.3 mL",
+            "RT_Pressure": "-106 daPa"
+          }
+        },
+        {
+          "name": "Tinnitus/Hyperacusis Battery",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 50.1"
+          ],
+          "key_findings": "Pitch match ~1000 Hz (broadband speech noise best match). Residual inhibition positive (80% reduction). LDLs measured to set hearing aid limits.",
+          "numeric_results": {
+            "Pitch_Match": "~1000 Hz",
+            "Speech_Noise_Threshold_RT": "17 dB HL",
+            "Speech_Noise_Threshold_LT": "50 dB HL",
+            "MML_RT": "30 dB HL",
+            "MML_LT": "64 dB HL",
+            "LDL_RT_Range": "70-80 dB HL",
+            "LDL_LT_Range": "85-95 dB HL"
+          }
+        },
+        {
+          "name": "Real Ear Measures (REM) & Fitting",
+          "timepoint_label": "Treatment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 50.2",
+            "Fig. 50.3",
+            "Fig. 50.6"
+          ],
+          "key_findings": "Fitted with Phonak Audeo Q70 RICs (Right open dome, Left closed power dome). Verified to DSL 5.0a targets. Program 3 created to mimic 'Box Fan' spectrum (broadband energy 500-1000 Hz).",
+          "numeric_results": {
+            "Targets": "DSL 5.0a",
+            "Box_Fan_Program_Peak": "Broadband noise with energy in 500-1000 Hz region"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric hearing loss: precipitous high-frequency sensorineural loss in the right ear and flat moderate-to-moderately severe mixed loss in the left ear (with patent PE tube). She exhibits severe hyperacusis with reduced Loudness Discomfort Levels (LDLs) and bilateral tinnitus. Tinnitus pitch matching identified broadband speech noise as the most similar sound, and residual inhibition testing showed positive temporary relief.",
+  "counseling_points": [
+    "Hyperacusis is an abnormal sensitivity to everyday sounds; using earplugs constantly can actually make the central nervous system increase its sensitivity, making the problem worse.",
+    "We are fitting you with hearing aids not just for hearing, but to provide sound therapy. We have verified the output to ensure loud sounds do not exceed your comfort levels (LDLs).",
+    "Since you reported relief from a box fan, we have programmed a specific setting (Program 3) that mimics the frequency spectrum of a box fan to help manage your tinnitus and hyperacusis.",
+    "The goal is to gradually desensitize your hearing system so you no longer need the therapy sound or earplugs."
+  ],
+  "notes_for_actor": [
+    "Portray significant distress when exposed to sudden or loud noises.",
+    "Emphasize that you wear foam earplugs almost everywhere because you are afraid of noise.",
+    "Mention clearly that the sound of a box fan in your bedroom is the only thing that gives you relief."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "case_id": "case42_Patient_Decision_to_Purchase_Hearing_Aid",
+  "title": "Patient Decision to Purchase Hearing Aids: Bundling or Unbundling",
+  "demographics": {
+    "age_years": 62,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I need to replace my current hearing aids and I noticed my new health insurance offers a buying group option. I want to investigate if using this buying group would be a better financial decision than the standard clinic pricing.",
+  "problem_summary": {
+    "onset": "Long-standing history.",
+    "course": "Stable; no change in hearing since previous evaluation in 2016.",
+    "laterality": "Bilateral asymmetric",
+    "associated_symptoms": "History of drainage and external otitis in the right ear; denies dizziness, otalgia, tinnitus, or aural fullness at current visit.",
+    "functional_impact": "Patient is a long-term user of amplification (12 years) and relies on hearing aids for his role as a Business Manager.",
+    "goals_motivation": "To obtain premium hearing aids with wireless accessories while evaluating the cost-benefit of bundled vs. unbundled/buying group payment models."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2017-09-28",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presents to discuss hearing aid replacement options. He discovered a buying group benefit through his employer's open enrollment.",
+        "otologic_history": "Right ear: Mixed hearing loss with history of middle ear surgeries in 1993 and 1997 to replace part of the ossicular chain. History of drainage and external otitis. Left ear: Sensorineural hearing loss.",
+        "prior_management": "Long-term user of several pairs of bilateral hearing aids over the past 12 years. Previously advised against further surgery for the right ear.",
+        "patient_goals": "Interested in premium hearing aids with a wireless remote multi-microphone."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 42.1"
+          ],
+          "key_findings": "Right ear: Severe mixed hearing loss at 250 Hz rising to moderately severe mixed at 3000 Hz, falling to profound mixed at 8000 Hz. Left ear: Normal hearing at 250 Hz falling to slight-to-severe SNHL at 8000 Hz.",
+          "numeric_results": {
+            "Right PTA": "70 dB HL",
+            "Left PTA": "35 dB HL",
+            "Right Air Conduction": "~70-80 dB low freqs, ~55 dB mid freqs, >100 dB high freqs",
+            "Right Bone Conduction": "~35-40 dB (air-bone gap present)",
+            "Left Air Conduction": "~10-15 dB low freqs, sloping to ~80 dB high freqs"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 42.1"
+          ],
+          "key_findings": "Word recognition is excellent bilaterally at suprathreshold levels. SRT aligns with pure tone averages.",
+          "numeric_results": {
+            "Right SRT": "70 dB HL",
+            "Left SRT": "35 dB HL",
+            "Right WRS": "92% at 85 dB HL",
+            "Left WRS": "92% at 85 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 42.1"
+          ],
+          "key_findings": "Not performed at this visit as there was no change in hearing since the last evaluation (10-7-16).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a complex asymmetric profile: a severe-to-profound mixed hearing loss in the right ear (post-surgical) and a sloping high-frequency sensorineural hearing loss in the left ear. Despite the degree of loss, word recognition scores remain excellent (92%) in both ears at elevated presentation levels. The patient is an experienced hearing aid user seeking to upgrade technology.",
+  "counseling_points": [
+    "Review the audiometric findings: Stable mixed loss in the right ear and high-frequency sensorineural loss in the left ear.",
+    "Explain the 'Bundled' model ($6,477): Includes the devices, professional fees, fitting, verification (REM), and unlimited service/batteries for 3 years.",
+    "Explain the 'Buying Group/Unbundled' model ($4,000 + fees): Lower upfront cost for devices, but professional services (fitting, REM, follow-ups) are billed separately.",
+    "Highlight that Real Ear Measures (REM) and validation are critical best practices that are charged separately in the unbundled model ($230 fitting + $115 outcome measures).",
+    "Discuss the 'Hybrid' option: Using the bundled model for the warranty period, then converting to pay-per-visit after the warranty expires.",
+    "Clarify that while the buying group device cost is lower, the total cost may be similar or higher depending on the number of visits required for care and maintenance."
+  ],
+  "notes_for_actor": [
+    "You are a sophisticated, professional patient (Business Manager at a medical school).",
+    "You are financially savvy and have done some homework about the 'buying group' insurance benefit.",
+    "You are not looking for the 'cheapest' option necessarily, but the best 'value'. You want to understand exactly what you are paying for.",
+    "You are an experienced hearing aid user (12 years), so you don't need basic explanations about how hearing aids work, but rather specific details about the financial models and technology upgrades."
+  ]
+}

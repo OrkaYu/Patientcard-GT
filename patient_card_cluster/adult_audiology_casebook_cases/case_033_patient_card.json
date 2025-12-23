@@ -1,0 +1,159 @@
+{
+  "case_id": "case33_Transcranial_Contralateral_Routing_of_Si",
+  "title": "Transcranial Contralateral Routing of Signal for Single-Sided Deafness",
+  "demographics": {
+    "age_years": 40,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am exhausted from trying to understand speech, especially in noisy places, and I can't tell where sounds are coming from. I tried a CROS aid before, but it sounded tinny and I hated wearing two devices.",
+  "problem_summary": {
+    "onset": "3 years prior, following acoustic neuroma removal.",
+    "course": "Stable since surgery.",
+    "laterality": "Left profound hearing loss; Right normal hearing.",
+    "associated_symptoms": "Fatigue, difficulty localizing sound, difficulty in noise. Denies tinnitus.",
+    "functional_impact": "Significant fatigue and communication difficulty in complex environments.",
+    "goals_motivation": "Interested in amplification but dissatisfied with previous standard CROS trial; specifically interested in transcranial CROS options."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-01-11",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient had an acoustic neuroma removed from the left ear 3 years ago, resulting in single-sided deafness.",
+        "otologic_history": "Left acoustic neuroma removal. No other history reported.",
+        "noise_exposure_history": "Denied.",
+        "medical_psych_history": "Unremarkable aside from AN surgery.",
+        "prior_management": "Previous trial with standard CROS system was unsuccessful; patient reported poor sound quality ('tinny') and disliked wearing devices on both ears.",
+        "patient_goals": "Evaluation for transcranial CROS candidacy."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.1"
+          ],
+          "key_findings": "Normal hearing sensitivity in the right ear. Profound sensorineural hearing loss (anacusis) in the left ear.",
+          "numeric_results": {
+            "Right_PTA": "Normal (thresholds 0-15 dB HL)",
+            "Left_PTA": "Profound/No Response",
+            "Left_SAT": "95 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.1"
+          ],
+          "key_findings": "Excellent word recognition in the right ear. Testing not completed for left ear due to severity of loss.",
+          "numeric_results": {
+            "Right_SRT": "15 dB HL",
+            "Right_WRS": "100% at 50 dB HL",
+            "Left_SAT": "95 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally.",
+          "numeric_results": {
+            "Right_Type": "A",
+            "Left_Type": "A"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.1"
+          ],
+          "key_findings": "Right ipsilateral and contralateral reflexes present at normal levels. Left ipsilateral and contralateral reflexes absent.",
+          "numeric_results": {
+            "Right_Reflex_Decay": "Normal at 500 and 1000 Hz"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2016-01-22",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up to determine candidacy for transcranial CROS fitting.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "Unchanged.",
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "Proceeding with investigation of transcranial fitting.",
+        "patient_goals": "Verify if sound can cross from the poor ear to the good ear via bone conduction."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-fitting Assessment",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 33.2"
+          ],
+          "key_findings": "Unaided transcranial thresholds measured by presenting pure tones to the left (deaf) ear until heard by the right cochlea. Results indicate crossover is achievable at output levels feasible for a high-power hearing aid.",
+          "numeric_results": {
+            "Crossover_Threshold_250Hz": "~55 dB HL",
+            "Crossover_Threshold_500Hz": "~55 dB HL",
+            "Crossover_Threshold_1000Hz": "~50 dB HL",
+            "Crossover_Threshold_2000Hz": "~40 dB HL",
+            "Crossover_Threshold_4000Hz": "~65 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with single-sided deafness (left profound SNHL) and normal hearing in the right ear. Standard CROS was previously rejected. Investigation of transcranial crossover thresholds indicates that high-intensity sound presented to the left ear can successfully cross over to stimulate the right cochlea via bone conduction (transcranial thresholds approx 40-65 dB HL). This profile suggests she is a candidate for a high-power transcranial CROS fitting on the left ear.",
+  "counseling_points": [
+    "A transcranial CROS works by picking up sound on your deaf side and amplifying it so loudly that it travels through the skull bone to your good ear.",
+    "Because we need very high volume to vibrate the skull, the hearing aid must fit very tightly. We will need to take a deep ear impression, which might feel full or tight.",
+    "Feedback (whistling) is a common challenge with this fitting due to the high power; a tight fit is crucial to prevent this.",
+    "This device will not restore true stereo hearing or perfect localization, but it should help you be aware of sounds on your left side.",
+    "In very noisy situations where noise is on your bad side, the device might amplify that noise. We can set a program or mute function to help manage this."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is knowledgeable about their condition and frustrated by previous 'standard' solutions.",
+    "You have already tried a standard CROS (two devices) and hated it—emphasize that you found the sound 'tinny' and it was annoying to wear something on your good ear.",
+    "You are specifically asking for the 'transcranial' option (one powerful aid in the bad ear).",
+    "Show fatigue when describing how hard it is to listen in noise."
+  ]
+}

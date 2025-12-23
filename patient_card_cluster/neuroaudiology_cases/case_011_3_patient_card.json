@@ -1,0 +1,121 @@
+{
+  "case_id": "case_11_3",
+  "title": "Central Auditory Processing Disorders in Children and Adults with Learning Disabilities",
+  "demographics": {
+    "age_years": 8,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "My daughter is having trouble in school; she has difficulty hearing in noise and considerable problems following auditory directions.",
+  "problem_summary": {
+    "onset": "Since starting school.",
+    "course": "Chronic academic problems; repeated second grade. Showed significant improvement upon re-evaluation 3 years later.",
+    "laterality": "Bilateral deficits with specific left-ear weaknesses on dichotic tasks.",
+    "associated_symptoms": "Problems attending, auditory memory issues, visual skill deficits, academic underperformance (reading/math), immaturity.",
+    "functional_impact": "Functioning one grade level below expectations; classified as Learning Disabled (LD).",
+    "goals_motivation": "Determine the cause of auditory difficulties despite normal hearing sensitivity and intelligence."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "8-year-old female with academic problems since starting school. Classified as LD. Functioning one grade level below expectation. Repeated 2nd grade. Educational reports indicate problems in attending, auditory memory, and visual skills. Performance IQ is 15 points higher than Verbal IQ.",
+        "otologic_history": "Long history of otitis media, which had cleared several months prior to evaluation.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Normal developmental history except delayed physical growth (small for age). Positive family history of seizure disorder. No family history of learning problems.",
+        "prior_management": "Received special help throughout schooling.",
+        "patient_goals": "Identify source of listening difficulties."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline (Age 8)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal pure tone thresholds bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Central Auditory Test Battery",
+          "timepoint_label": "Baseline (Age 8)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 11-9"
+          ],
+          "key_findings": "Seven abnormal results noted. Left ear deficits on Staggered Spondaic Words (SSW), Dichotic Digits, and Competing Sentences. Mild right ear deficit on Filtered Speech. Frequency patterns could not be performed.",
+          "numeric_results": {
+            "Frequency Patterns": "0% (Unable to perform)",
+            "Competing Sentences (Left Ear)": "~30-35%",
+            "Competing Sentences (Right Ear)": "~75%",
+            "Dichotic Digits (Left Ear)": "~60%",
+            "SSW (Left Ear)": "~50%",
+            "Low Pass Filtered Speech (Right Ear)": "~50%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Re-evaluation 2 years and 11 months later (Age 11). Child showed gains in academic skills during this period and was considered relatively more mature.",
+        "otologic_history": "Stable.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Maturation noted.",
+        "prior_management": null,
+        "patient_goals": "Monitor progress."
+      },
+      "tests": [
+        {
+          "name": "Central Auditory Test Battery",
+          "timepoint_label": "Follow-up (Age 11)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 11-9"
+          ],
+          "key_findings": "Considerable improvement. Only three abnormal results observed: Frequency patterns (bilaterally) and Dichotic Digits (left ear). Competing sentences improved significantly (63% gain).",
+          "numeric_results": {
+            "Frequency Patterns (Left Ear)": "~32%",
+            "Frequency Patterns (Right Ear)": "~35%",
+            "Competing Sentences (Left Ear)": "~95%",
+            "Dichotic Digits (Left Ear)": "~80%",
+            "SSW (Left Ear)": "~90%",
+            "Low Pass Filtered Speech (Right Ear)": "~80%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Initial evaluation at age 8 revealed normal peripheral hearing but significant central auditory processing deficits, particularly in the left ear on dichotic tasks and an inability to perform frequency patterning. This pattern (left ear dichotic deficit + bilateral frequency pattern deficit) is linked to poor corpus callosum function. Re-evaluation at age 11 showed marked improvement, attributed to neuromaturational lag. While most tests normalized, residual deficits remained in frequency patterns and left-ear dichotic digits, consistent with the long maturational course of the corpus callosum.",
+  "counseling_points": [
+    "Explain the concept of 'neuromaturational lag': the child's auditory nervous system was developing slower than peers but is catching up.",
+    "Discuss the role of the corpus callosum (connecting left and right brain) in the specific test results (dichotic listening and frequency patterns).",
+    "Highlight the correlation between the auditory improvements and the observed academic and behavioral maturity gains.",
+    "Advise that while significant improvement has occurred, some complex processing tasks (frequency patterns) are still developing."
+  ],
+  "notes_for_actor": [
+    "Patient is a young girl (8 at first visit, 11 at second).",
+    "Mother is a teacher, likely articulate and very concerned about academic performance.",
+    "Child was described as 'small for her age' and 'immature' at the first visit.",
+    "At the second visit, the child should appear more confident and mature.",
+    "Family has a history of seizure disorder, though the child does not."
+  ]
+}

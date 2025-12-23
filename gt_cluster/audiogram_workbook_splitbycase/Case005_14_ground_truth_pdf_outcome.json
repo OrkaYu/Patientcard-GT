@@ -1,0 +1,104 @@
+{
+  "case_id": "Case005_14",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Cochlear Schwannoma",
+      "rationale_short": "Asymmetric sensorineural hearing loss, disproportionately poor speech recognition (32%), and MRI confirmation of a left-sided basal turn cochlear schwannoma."
+    },
+    {
+      "rank": 2,
+      "label": "Sudden Sensorineural Hearing Loss",
+      "rationale_short": "History of sudden onset hearing loss 10 months prior, though MRI findings confirmed a retrocochlear etiology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration given the complaint of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition abilities and screen for retrocochlear pathology."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status, especially given the prior diagnosis of fluid."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology."
+      },
+      {
+        "action": "MRI",
+        "urgency": "soon",
+        "rationale_short": "To definitively evaluate the internal auditory canal and cerebellopontine angle for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a left moderately severe low-frequency sensorineural hearing loss rising to normal in the mid-frequencies. Word recognition in the left ear is extremely poor (32%) and disproportionate to the pure-tone thresholds, strongly suggesting retrocochlear pathology. Tympanometry shows bilateral negative pressure. MRI confirmed a small left-sided cochlear schwannoma.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal at 250 Hz, mild SNHL dip 500-1000 Hz, normal 2000-6000 Hz, mild loss at 8000 Hz. Left ear: Moderately severe SNHL 250-1000 Hz, rising to normal 2000-6000 Hz, mild loss at 8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear WRS 100%. Left ear WRS 32%, significantly worse than predicted by thresholds."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Excessive negative pressure bilaterally (Type C)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral present 500-2000 Hz Left. Contralateral elevated or absent. Decay negative at 1000 Hz."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Small, left-sided basal turn cochlear schwannoma with internal auditory canal fundus involvement."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Wait and watch (observation)",
+      "Annual hearing tests",
+      "Hearing aid evaluation",
+      "HAT (Hearing Assistive Technology)",
+      "Hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Discuss MRI findings and the diagnosis of cochlear schwannoma",
+      "Review management options and the decision to wait and watch the tumor",
+      "Counsel on hearing protection to preserve remaining hearing"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT",
+      "rationale_short": "Referral for medical management and monitoring of the confirmed cochlear schwannoma."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor tumor status and hearing sensitivity."
+  },
+  "expected_outcome": []
+}

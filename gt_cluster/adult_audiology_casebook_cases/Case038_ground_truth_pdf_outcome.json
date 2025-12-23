@@ -1,0 +1,133 @@
+{
+  "case_id": "Case038",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Long-standing, progressive history; audiometry confirms bilateral sloping moderate-to-severe SNHL; consistent with presbycusis."
+    },
+    {
+      "rank": 2,
+      "label": "Tinnitus",
+      "rationale_short": "Patient reports bothersome buzzing (7/10); likely associated with hearing loss and medications."
+    },
+    {
+      "rank": 3,
+      "label": "Dizziness/Imbalance",
+      "rationale_short": "Intermittent off-balance sensation; likely multifactorial due to polypharmacy, COPD, and hypothyroidism; non-vertiginous."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Re-evaluate hearing thresholds given reported difficulties and 2-year interval since last test."
+      },
+      {
+        "action": "QuickSIN",
+        "urgency": "routine",
+        "rationale_short": "Assess speech-in-noise ability to quantify functional deficit and aid in counseling."
+      },
+      {
+        "action": "Tinnitus Assessment",
+        "urgency": "routine",
+        "rationale_short": "Quantify awareness and bothersomeness of tinnitus."
+      },
+      {
+        "action": "Real Ear Measurements (REM)",
+        "urgency": "routine",
+        "rationale_short": "Verify hearing aid fitting to ensure targets are met and dynamic range is addressed."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Re-evaluation confirms bilateral sloping moderate-to-severe SNHL, slightly progressed from 2 years ago. Dynamic range is reduced (LDLs 85-90 dB HL). Speech-in-noise performance is severely compromised but improves significantly with visual cues. Tinnitus is a significant concern.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral sloping moderate-to-severe SNHL. Right thresholds 35-80 dB HL; Left thresholds 40-85 dB HL. LDLs 85-90 dB HL."
+          },
+          {
+            "name": "QuickSIN",
+            "category": "Speech Audiometry",
+            "result_summary": "Severe SNR loss. 19.5 dB SNR loss at 65 dB HL (auditory only); improves to 5.5 dB SNR loss with visual cues."
+          },
+          {
+            "name": "Tinnitus Assessment",
+            "category": "Self-Report",
+            "result_summary": "Awareness and bothersomeness both rated 7/10."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Hearing aid fitting verification. Initial slim-tube BTE fitting provided insufficient gain. Switch to RIC devices with power domes achieved target gain.",
+        "tests": [
+          {
+            "name": "Real Ear Measurements (REM)",
+            "category": "Verification",
+            "result_summary": "Slim-tube BTE failed targets. RIC with power domes met NAL-NL1 targets for 50, 65, and 80 dB SPL inputs."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Follow-up revealed dexterity issues with RICs. Patient switched to extended-wear devices. Subjective verification used as REM was not possible with deep insertion.",
+        "tests": [
+          {
+            "name": "Extended-Wear Hearing Aid Fitting",
+            "category": "Fitting",
+            "result_summary": "Switched to extended-wear devices. Patient reported 'echoic' voice; resolved by reducing low-frequency gain."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Management of device retention issue caused by chronic coughing. Larger device size and lubrication resolved the problem.",
+        "tests": [
+          {
+            "name": "Refitting",
+            "category": "Fitting",
+            "result_summary": "Inserted larger size device with lubrication to prevent slippage during coughing. Fit remained secure."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Trial of BTE hearing aids (initially Slim-tube, then RIC).",
+      "Fit Extended-Wear Hearing Aids (deep insertion) to address dexterity and consistency issues.",
+      "Use of lubrication for device insertion to prevent dislodging during coughing fits.",
+      "Program adjustments (reduced low-frequency gain) to manage occlusion effect.",
+      "Family training on device inspection and use of magnetic volume wand."
+    ],
+    "counseling_actions": [
+      "Counseling on hearing aids as 'medicine for the brain' requiring consistent use.",
+      "Education on the importance of visual cues for understanding speech.",
+      "Discussion of how medications and comorbidities (COPD, thyroid) contribute to dizziness and tinnitus.",
+      "Explanation that consistent auditory stimulation can help reduce tinnitus perception.",
+      "Use of smartphone photos to demonstrate ear canal status and device positioning to family."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient requires routine ongoing care for replacement of extended-wear devices every 7-8 weeks."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Every 7 to 8 weeks",
+    "objective": "Programmed replacement of the extended-wear hearing aids before battery depletion."
+  },
+  "expected_outcome": [
+    "Patient reports tinnitus is controlled and dizziness has subsided.",
+    "Improved communication and overall quality of life reported by patient and family.",
+    "Family reports patient is more optimistic, confident, and demonstrates improved cognitive abilities."
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "case_id": "Case021",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Vestibular Schwannoma",
+      "rationale_short": "Confirmed by MRI showing a 2.1 cm tumor in the right internal auditory canal, consistent with ABR retrocochlear signs."
+    },
+    {
+      "rank": 2,
+      "label": "Sudden Sensorineural Hearing Loss (SSNHL)",
+      "rationale_short": "Patient presented with acute onset unilateral hearing loss; while often idiopathic or viral, in this case it was secondary to the tumor."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To assess the degree and configuration of the reported sudden hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To evaluate speech reception and word recognition abilities, checking for disproportionately poor scores indicative of retrocochlear pathology."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and rule out conductive components."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology by evaluating the acoustic reflex arc."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate neural synchrony and detect potential retrocochlear dysfunction given the asymmetric presentation."
+      },
+      {
+        "action": "MRI",
+        "urgency": "soon",
+        "rationale_short": "To visualize the auditory nerve and cerebellopontine angle for definitive diagnosis of space-occupying lesions."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation revealed a sudden, moderately severe to severe sensorineural hearing loss in the right ear. Word recognition in the right ear was disproportionately poor (48%) compared to pure-tone thresholds. Acoustic reflexes showed a retrocochlear pattern (absent contralateral/elevated ipsilateral on the right). Left ear was normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear normal. Right ear normal at 250 Hz sloping to moderately severe to severe SNHL (750-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear WRS 96%. Right ear WRS 48% (very poor) with SRT 65 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Left ear normal. Right ear ipsilateral elevated; Right ear contralateral absent."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Following steroid treatment, the patient demonstrated significant recovery of hearing thresholds and speech recognition in the right ear, returning to essentially normal levels. However, ABR testing revealed delayed latencies on the right side consistent with retrocochlear pathology. Subsequent MRI confirmed a medium-sized Vestibular Schwannoma.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral hearing within normal limits, except for a slight SNHL notch at 4000 Hz (25 dB HL) in the right ear."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent word recognition bilaterally (RE 96%, LE 100%)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present and within normal limits bilaterally; reflex decay negative."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear showed delayed absolute latencies (III, V) and prolonged interpeak latencies (I-III, I-V), consistent with retrocochlear dysfunction."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Medium-sized (2.1 cm) solitary right Vestibular Schwannoma in the internal auditory canal."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical resection (retrosigmoid approach)",
+      "Intraoperative ABR monitoring",
+      "Physical therapy (for vestibular rehabilitation)",
+      "Contralateral Routing of Signal (CROS) amplification",
+      "Bone-anchored hearing device (Baha)"
+    ],
+    "counseling_actions": [
+      "Explained that hearing recovery after steroids does not rule out a tumor.",
+      "Discussed the MRI findings of a medium-sized Vestibular Schwannoma.",
+      "Counseled on management options including surgery to remove the tumor while attempting hearing preservation.",
+      "Discussed potential outcomes including hearing loss and balance issues post-surgery."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden sensorineural hearing loss",
+      "Unilateral tinnitus",
+      "Asymmetric hearing loss",
+      "Disproportionately poor word recognition (initial visit)",
+      "Retrocochlear signs on ABR"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Otologist",
+      "rationale_short": "Sudden unilateral hearing loss requires immediate medical evaluation; subsequent retrocochlear findings require management of the confirmed Vestibular Schwannoma."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-surgical",
+    "objective": "Monitor healing, manage single-sided deafness, and address vestibular rehabilitation needs."
+  },
+  "expected_outcome": [
+    "Intraoperative ABR monitoring: Waveforms diminished upon opening the craniotomy and were lost soon after tumor resection began.",
+    "Post-surgical hearing status: Patient lost all hearing in the right ear (single-sided deafness).",
+    "Balance status: Significant balance issues occurred following surgery but improved with physical therapy.",
+    "Rehabilitation: Patient did not pursue amplification immediately but CROS or Baha devices were recommended."
+  ]
+}

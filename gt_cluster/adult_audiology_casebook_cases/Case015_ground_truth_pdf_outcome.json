@@ -1,0 +1,135 @@
+{
+  "case_id": "Case015",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Auditory Processing Disorder (APD)",
+      "rationale_short": "SSW score 18 SDs below normal and PS score 16 SDs below normal; BMQ indicates Decoding and Tolerance-Fading Memory deficits."
+    },
+    {
+      "rank": 2,
+      "label": "Mitochondrial Myopathy (MM) affecting CANS",
+      "rationale_short": "Known diagnosis of MM; metabolic deficits in 'power cells' of the brain impairing central auditory function."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition thresholds and word recognition in quiet."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Buffalo Model Questionnaire (BMQ)",
+        "urgency": "routine",
+        "rationale_short": "To screen for auditory processing deficits and categorize them (DEC, TFM, INT, ORG)."
+      },
+      {
+        "action": "Staggered Spondaic Word (SSW)",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory function and dichotic listening."
+      },
+      {
+        "action": "Phonemic Synthesis (PS)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate phonemic processing skills."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding in the presence of background noise."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing sensitivity and middle ear function were normal. However, central auditory processing evaluation revealed severe deficits. The patient scored 18 SDs below normal on the SSW and 16 SDs below normal on Phonemic Synthesis. The BMQ indicated deficits in Decoding (DEC), Tolerance-Fading Memory (TFM), and Integration (INT). The pattern of results is consistent with APD secondary to Mitochondrial Myopathy.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally; thresholds 10-25 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal SRT (20 dB AU) and excellent WRS (100% at 65 dB HL AU)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear function (Type A)."
+          },
+          {
+            "name": "Buffalo Model Questionnaire (BMQ)",
+            "category": "Questionnaire",
+            "result_summary": "Severe results (18 affirmative responses vs norm of 3); deficits in Decoding, Tolerance-Fading Memory, and Integration."
+          },
+          {
+            "name": "Staggered Spondaic Word (SSW)",
+            "category": "Central Auditory Test",
+            "result_summary": "18 Standard Deviations (SDs) below normal."
+          },
+          {
+            "name": "Phonemic Synthesis (PS)",
+            "category": "Central Auditory Test",
+            "result_summary": "16 Standard Deviations (SDs) below normal."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Central Auditory Test",
+            "result_summary": "Mildly affected; Right 76%, Left 80% (Norms ~81-82%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Auditory Processing Therapy (14 sessions, weekly)",
+      "Phonemic Training Program (PTP) for Decoding deficits",
+      "Phonemic Synthesis (PS) training",
+      "Words-In-Noise Training (WINT)",
+      "Short-Term Auditory Memory Training (STAM)",
+      "Dichotic Offset Training (DOT) for Integration deficits",
+      "Lifelong maintenance therapy due to degenerative nature of MM"
+    ],
+    "counseling_actions": [
+      "Explain that peripheral hearing is normal but the brain's processing is affected by mitochondrial dysfunction ('power cells' lacking energy).",
+      "Discuss the specific APD patterns identified (Decoding, Memory, Integration).",
+      "Advise that therapy can help improve or maintain function despite the degenerative diagnosis.",
+      "Counsel on the need for consistent therapy to prevent regression."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology for Auditory Processing Therapy",
+      "rationale_short": "Patient requires specialized APD therapy to manage central deficits; already under care of MM specialist."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Weekly therapy sessions with re-evaluation after each 14-week block",
+    "objective": "Improve auditory processing skills and maintain function against degenerative progression."
+  },
+  "expected_outcome": [
+    "Staggered Spondaic Word (SSW): Score improved to 5 SDs below normal within 4 years of therapy (initially 18 SDs below).",
+    "Phonemic Synthesis (PS): Score improved to essentially within normal limits.",
+    "Pure-tone audiometry: Averages remained essentially unchanged from 2005 to 2015.",
+    "SSW Total Errors: Decreased from 37 in 2005 to approximately 14 in 2017.",
+    "Speech-in-noise: Performance remained essentially unchanged over 7 years (approx 75-80%) despite degenerative condition.",
+    "Patient reported ability to take part in social life even in background noise.",
+    "Physician reported improvement in vital signs and other functions after starting AP therapy."
+  ]
+}

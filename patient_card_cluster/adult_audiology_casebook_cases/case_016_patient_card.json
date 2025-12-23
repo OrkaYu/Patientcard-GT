@@ -1,0 +1,247 @@
+{
+  "case_id": "case16_Asymmetric_Hearing_Loss_Evaluation_Diagn",
+  "title": "Asymmetric Sensorineural Hearing Loss with Tinnitus and Aural Fullness",
+  "demographics": {
+    "age_years": 66,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed a gradual hearing loss over the past 2 years, and my right ear seems better than my left. I also have constant ringing and a feeling of fullness in my left ear, and I'm having more trouble hearing in background noise and asking for repetitions.",
+  "problem_summary": {
+    "onset": "Gradual deterioration over the past 2 years.",
+    "course": "Slowly progressive.",
+    "laterality": "Bilateral but asymmetric (Left ear worse).",
+    "associated_symptoms": "Constant tinnitus (left), slight aural fullness (left), difficulty in background noise.",
+    "functional_impact": "Asking for repetitions more often; difficulty hearing in noise.",
+    "goals_motivation": "Wants to improve hearing for TV, restaurants, and grandchildren."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2017-09-27",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports gradual hearing loss, worse in the left ear, with constant left-sided tinnitus and aural fullness.",
+        "otologic_history": "Denied otalgia or dizziness.",
+        "noise_exposure_history": "Long history of unprotected noise exposure from factory work and using rifles held on the right shoulder.",
+        "medical_psych_history": "None reported.",
+        "prior_management": "Initial evaluation.",
+        "patient_goals": "Assessment of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Clear external ear canals bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.1"
+          ],
+          "key_findings": "Right ear: Normal 250-500 Hz, sloping to mild SNHL at 1-2k Hz, to moderately severe at 4-8k Hz. Left ear: Normal 250-500 Hz, sloping to mild SNHL at 1k Hz, to severe SNHL at 4-8k Hz. Asymmetric configuration (Left worse).",
+          "numeric_results": {
+            "RE_250Hz": "10 dB HL",
+            "RE_500Hz": "15 dB HL",
+            "RE_1000Hz": "25 dB HL",
+            "RE_2000Hz": "35 dB HL",
+            "RE_4000Hz": "60 dB HL",
+            "RE_8000Hz": "65 dB HL",
+            "LE_250Hz": "15 dB HL",
+            "LE_500Hz": "15 dB HL",
+            "LE_1000Hz": "30 dB HL",
+            "LE_2000Hz": "50 dB HL",
+            "LE_4000Hz": "80 dB HL",
+            "LE_8000Hz": "90 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.1"
+          ],
+          "key_findings": "SRT aligns with pure tone average. Word recognition is excellent in the right ear and good (slight difficulty) in the left ear.",
+          "numeric_results": {
+            "RE_SRT": "25 dB HL",
+            "LE_SRT": "30 dB HL",
+            "RE_WRS": "92%",
+            "LE_WRS": "80%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.1"
+          ],
+          "key_findings": "Normal middle ear pressure, ear canal volume, and static admittance bilaterally (Type A).",
+          "numeric_results": {
+            "RE_Vol": "2.2 mL",
+            "RE_Compliance": "0.8 mL",
+            "RE_Pressure": "-7 daPa",
+            "LE_Vol": "2.0 mL",
+            "LE_Compliance": "0.7 mL",
+            "LE_Pressure": "-5 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.1"
+          ],
+          "key_findings": "Ipsilateral: Normal 500-2k Hz Right; Normal 500 Hz, Elevated 1k-2k Hz Left. Absent 4k Hz bilaterally. Contralateral: Absent at most frequencies except 500 Hz (probe left) and 500-1k Hz (probe right). Reflex decay normal in Right, CNT in Left.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned following medical clearance.",
+        "otologic_history": "Evaluated by Otology. MRI and ABR performed. ABR showed normal latencies. MRI showed normal internal auditory canals. Cleared for amplification.",
+        "noise_exposure_history": "Asymmetry attributed to noise exposure (rifle shooter).",
+        "medical_psych_history": "Cleared of retrocochlear pathology.",
+        "prior_management": "Medical workup completed.",
+        "patient_goals": "Proceed with hearing aid evaluation."
+      },
+      "tests": [
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Pre-fitting",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "QuickSIN performed binaurally in sound field. Results indicate a moderate SNR loss, suggesting hearing aids alone may not provide sufficient benefit in noise.",
+          "numeric_results": {
+            "SNR_Loss": "14 dB"
+          }
+        },
+        {
+          "name": "Loudness Discomfort Levels (LDLs)",
+          "timepoint_label": "Pre-fitting",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "LDLs found to be within the normal range at all frequencies tested (500, 1000, 2000, 4000 Hz).",
+          "numeric_results": {}
+        },
+        {
+          "name": "Self-report scale",
+          "timepoint_label": "Pre-fitting",
+          "ear": null,
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.2"
+          ],
+          "key_findings": "COSI completed. Patient identified three specific needs.",
+          "numeric_results": {
+            "Goal_1": "Hearing my wife better in noisy restaurants",
+            "Goal_2": "Hearing my grandchildren better than I currently do",
+            "Goal_3": "Hearing and understanding my TV, and the volume be lower"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Hearing Aid Fitting (HAF).",
+        "prior_management": "Selected bilateral ReSound LiNX 3D 9 62 RIC hearing aids and ReSound Multi Mic.",
+        "patient_goals": "Fit and verify devices."
+      },
+      "tests": [
+        {
+          "name": "Real-Ear Measures (REM)",
+          "timepoint_label": "Fitting",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Performed on FONIX 8000. Verified to NAL-NL2 targets (implied by 'prescriptive real-ear insertion gain'). Inputs 50, 65, 80 dB SPL provided appropriate gain and smooth response. RESR90 did not exceed LDLs.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Aided Loudness Judgments",
+          "timepoint_label": "Fitting",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient rated speech signals appropriately.",
+          "numeric_results": {
+            "50_dB_SPL": "Soft",
+            "65_dB_SPL": "Comfortable",
+            "80_dB_SPL": "Loud, but okay"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, asymmetric sensorineural hearing loss, sloping from normal in the low frequencies to moderately-severe (Right) and severe (Left) in the high frequencies. The asymmetry, along with left-sided tinnitus and aural fullness, necessitated a medical referral, which ruled out retrocochlear pathology via MRI and ABR. Unaided speech-in-noise testing revealed a moderate SNR loss (14 dB), indicating significant difficulty in background noise that likely requires assistive technology beyond hearing aids alone.",
+  "counseling_points": [
+    "Your hearing loss is uneven between ears, and you have symptoms on the left side (ringing, fullness) that required us to rule out medical issues. The MRI and ABR results were normal, which is great news.",
+    "The pattern of your hearing loss is consistent with your history of noise exposure and shooting rifles right-handed.",
+    "You have a 'moderate' difficulty hearing in noise (SNR Loss of 14 dB). Hearing aids will help, but they might not be enough in very noisy places like restaurants.",
+    "We are recommending a remote microphone (Multi Mic) to help you hear your wife in restaurants. This streams her voice directly to your hearing aids.",
+    "It is critical to protect your hearing from any future noise exposure."
+  ],
+  "notes_for_actor": [
+    "Portray a 66-year-old male who has worked in factories and used firearms.",
+    "You are cooperative but frustrated by your difficulty hearing in noise.",
+    "You have specific goals: hearing the TV, your wife in restaurants, and your grandchildren.",
+    "You are relieved that the MRI/medical workup was clear but still need help with the hearing loss."
+  ]
+}

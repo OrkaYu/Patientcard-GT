@@ -1,0 +1,113 @@
+{
+  "case_id": "case_6_24",
+  "title": "Lichen Planus with Bilateral Conductive Hearing Loss",
+  "demographics": {
+    "age_years": 59,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My hearing was fine after my stapedectomies years ago, but it started getting worse about two years ago. It dropped quickly recently after I stopped my anti-inflammatory injections, and restarting them hasn't helped.",
+  "problem_summary": {
+    "onset": "Deterioration began approximately 2 years ago; recent acute worsening.",
+    "course": "Fluctuating responsiveness to anti-inflammatory medication; currently stable but deteriorated.",
+    "laterality": "Bilateral; Right ear is better than Left.",
+    "associated_symptoms": "Diagnosed with lichen planus 8 years ago (affecting ears for 2 years).",
+    "functional_impact": "Decreased hearing sensitivity.",
+    "goals_motivation": "Monitor stability and discuss amplification options."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-03-12",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient diagnosed with lichen planus 8 years ago; ear involvement began 2 years ago. Hearing deteriorated recently after stopping injected anti-inflammatory medication for 1 month. Resuming medication for 1 month showed no improvement.",
+        "otologic_history": "History of otosclerosis. Stapedectomy Left ear (1993) and Right ear (2004). Hearing was normal post-surgeries until 2 years ago.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Lichen planus.",
+        "prior_management": "Injected anti-inflammatory medication; previous hearing tests (unavailable).",
+        "patient_goals": "Evaluation of current status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.24"
+          ],
+          "key_findings": "Right ear: Moderate rising to mild conductive loss (250-1000 Hz), becoming mixed at 2000-4000 Hz, sloping to profound. Left ear: Moderate conductive loss (250-4000 Hz) with a rise at 3000 Hz, sloping to profound. Significant air-bone gaps present bilaterally.",
+          "numeric_results": {
+            "RE_PTA": "33 dB HL",
+            "LE_PTA": "50 dB HL",
+            "RE_250Hz": "~45 dB HL (AC), ~10 dB HL (BC)",
+            "LE_250Hz": "~55 dB HL (AC), ~15 dB HL (BC)",
+            "RE_4000Hz": "~55 dB HL (AC), ~45 dB HL (BC)",
+            "LE_8000Hz": "No Response"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.24"
+          ],
+          "key_findings": "SRT scores agree with PTA. Word recognition scores are excellent bilaterally at suprathreshold levels.",
+          "numeric_results": {
+            "RE_SRT": "33 dB",
+            "LE_SRT": "50 dB",
+            "RE_WRS": "92% at 75 dB HL",
+            "LE_WRS": "92% at 85 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.24"
+          ],
+          "key_findings": "Flat tympanograms bilaterally. Right ear has normal canal volume; Left ear has very small canal volume.",
+          "numeric_results": {
+            "RE_Canal_Volume": "0.80 mL",
+            "LE_Canal_Volume": "0.20 mL",
+            "RE_Static_Admittance": "NP (No Peak)",
+            "LE_Static_Admittance": "NP (No Peak)",
+            "RE_Pressure": "NP",
+            "LE_Pressure": "NP"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral conductive hearing loss, with a mixed component in the high frequencies for the right ear. The hearing loss is moderate in the low-to-mid frequencies, sloping to severe/profound in the highs. Word recognition remains excellent despite the degree of loss. Tympanometry is flat bilaterally, consistent with the reported excessive tympanic membrane scarring and lichen planus involvement.",
+  "counseling_points": [
+    "Your hearing test shows a conductive hearing loss, meaning sound is not being conducted efficiently through the middle ear, likely due to the scarring from lichen planus.",
+    "Despite the hearing loss, your ability to understand speech remains excellent when the volume is loud enough.",
+    "We will schedule a hearing aid evaluation to discuss amplification options that can help overcome this volume loss.",
+    "It is important to continue following up with your otologist to manage the lichen planus and monitor the health of your ear canals."
+  ],
+  "notes_for_actor": [
+    "You are a 59-year-old female.",
+    "You have a complex history with your ears: successful stapedectomies years ago, but now lichen planus is causing new problems.",
+    "You are likely frustrated or concerned because the anti-inflammatory shots that worked before are no longer helping after you took a break from them.",
+    "You hear better out of your right ear than your left."
+  ]
+}

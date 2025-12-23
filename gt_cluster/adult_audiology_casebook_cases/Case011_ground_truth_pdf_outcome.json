@@ -1,0 +1,139 @@
+{
+  "case_id": "Case011",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Auditory Processing Disorder (APD)",
+      "rationale_short": "Normal peripheral hearing sensitivity (except mild loss at 8k) with significant deficits in speech-in-noise, auditory figure-ground, and dichotic listening tasks."
+    },
+    {
+      "rank": 2,
+      "label": "Peripheral Sensorineural Hearing Loss",
+      "rationale_short": "Ruled out as primary cause; audiogram is normal 250-4000 Hz with only mild loss at 8000 Hz, which does not explain the degree of difficulty in noise."
+    },
+    {
+      "rank": 3,
+      "label": "Retrocochlear Pathology",
+      "rationale_short": "Ruled out by previous normal ABR and MRI."
+    },
+    {
+      "rank": 4,
+      "label": "Cognitive or Language Disorder",
+      "rationale_short": "Ruled out by previous normal SLP evaluation including language and cognitive-linguistic tests."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess peripheral hearing sensitivity to rule out significant hearing loss."
+      },
+      {
+        "action": "Speech audiometry (Quiet)",
+        "urgency": "routine",
+        "rationale_short": "Assess word recognition ability in ideal listening conditions."
+      },
+      {
+        "action": "Speech-in-noise (W-22)",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech understanding in the presence of background noise."
+      },
+      {
+        "action": "SCAN-3A (Auditory Processing Battery)",
+        "urgency": "routine",
+        "rationale_short": "Comprehensive battery to assess central auditory processing skills including figure-ground and filtered words."
+      },
+      {
+        "action": "Staggered Spondaic Word (SSW) Test",
+        "urgency": "routine",
+        "rationale_short": "Assess dichotic listening and auditory integration abilities."
+      },
+      {
+        "action": "Pitch Pattern Sequence Test",
+        "urgency": "routine",
+        "rationale_short": "Evaluate auditory temporal processing."
+      },
+      {
+        "action": "Phonemic Synthesis Test",
+        "urgency": "routine",
+        "rationale_short": "Assess phonological processing abilities."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing is essentially normal, but comprehensive APD testing reveals significant deficits in auditory integration (dichotic listening) and speech understanding in noise (figure-ground). Temporal processing and phonological synthesis are intact.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal limits 250-4000 Hz; mild sensorineural hearing loss at 8000 Hz."
+          },
+          {
+            "name": "Speech audiometry (Quiet)",
+            "category": "Speech Audiometry",
+            "result_summary": "Excellent word recognition (100% AU)."
+          },
+          {
+            "name": "Speech-in-noise (W-22)",
+            "category": "Speech Audiometry",
+            "result_summary": "Significant deficit in noise; WRS dropped to 80% (Right) and 76% (Left) with +5 dB SNR. Quiet/Noise difference of 20-24% is abnormal."
+          },
+          {
+            "name": "SCAN-3A (Auditory Processing Battery)",
+            "category": "APD Battery",
+            "result_summary": "Abnormal Auditory Figure-Ground (0 and +8 dB), Filtered Words, and Competing Words. Normal Competing Sentences and Time Compressed Sentences."
+          },
+          {
+            "name": "Staggered Spondaic Word (SSW) Test",
+            "category": "APD Battery",
+            "result_summary": "Significant integration deficits (Left Competing errors: 8) and abnormal Ear Effect (Low/High difference of 5)."
+          },
+          {
+            "name": "Pitch Pattern Sequence Test",
+            "category": "APD Battery",
+            "result_summary": "Normal auditory temporal processing (100% AU)."
+          },
+          {
+            "name": "Phonemic Synthesis Test",
+            "category": "APD Battery",
+            "result_summary": "Normal phonological processing (25/25 correct)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Auditory training program (e.g., Dichotic Onset Training [DOT], CAPDOTS)",
+      "Speech-in-noise (SIN) training with Speech-Language Pathologist",
+      "Discontinue hearing aid use as they are not beneficial for this APD profile"
+    ],
+    "counseling_actions": [
+      "Explain that normal peripheral hearing combined with processing deficits causes difficulty in noise",
+      "Clarify why hearing aids amplified noise without improving clarity",
+      "Discuss that APD can be present in adults and is treatable with training",
+      "Advise on strategies to improve listening environment where possible"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Speech-Language Pathologist",
+      "rationale_short": "Referral for specific auditory training (DOT program and SIN training) to address confirmed APD deficits."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 year",
+    "objective": "Repeat auditory processing assessment to evaluate effectiveness of training."
+  },
+  "expected_outcome": [
+    "Repeated auditory processing testing revealed normal findings on all measures.",
+    "WRS in noise (+5 dB SNR) showed quiet/noise difference of 8% (Right) and 12% (Left), within normal limits.",
+    "SSW test revealed normal findings for all conditions, with only 2 errors for the LC condition and no significant Ear Effect.",
+    "SCAN-3A results were normal for all measures with scaled scores of 9 (37th percentile) or better.",
+    "Patient reported being better able to participate in social situations."
+  ]
+}

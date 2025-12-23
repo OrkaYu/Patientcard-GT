@@ -1,0 +1,154 @@
+{
+  "case_id": "Case005_02",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Trigeminal Schwannoma",
+      "rationale_short": "Confirmed by imaging and pathology; symptoms included facial numbness (Vth nerve) and auditory signs due to brainstem compression."
+    },
+    {
+      "rank": 2,
+      "label": "Vestibular Schwannoma",
+      "rationale_short": "Common CPA tumor causing retrocochlear signs, though facial numbness typically appears later than in this case."
+    },
+    {
+      "rank": 3,
+      "label": "Meningioma",
+      "rationale_short": "Another common CPA/posterior fossa tumor that can cause mass effect symptoms."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity in the presence of tinnitus and hyperacusis."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech recognition and check for rollover, a sign of retrocochlear pathology."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc; absence or decay can indicate retrocochlear involvement."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "Neurodiagnostic evaluation to assess auditory nerve and brainstem integrity."
+      },
+      {
+        "action": "CT Scan",
+        "urgency": "urgent",
+        "rationale_short": "Imaging to visualize the suspected retrocochlear mass lesion."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry revealed normal hearing sensitivity bilaterally, but retrocochlear signs were prominent: significant rollover in the right ear, elevated or absent acoustic reflexes on the right, and abnormal ABR morphology (large Wave I, small Wave V) with an abnormal ILD. A CT scan confirmed a large mass arising from the Trigeminal nerve compressing the brainstem.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Thresholds essentially normal bilaterally (0-15 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent recognition at 30 dB SL, but the right ear showed 'rollover' at high intensities."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Contralateral reflexes elevated or absent for the right ear; borderline abnormal for the left ear."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear: Large Wave I (0.8 µV), small Wave IV-V (0.17 µV), extended I-III latency. Left ear: Normal. Abnormal ILD for Wave V (0.6 msec)."
+          },
+          {
+            "name": "CT Scan",
+            "category": "Imaging",
+            "result_summary": "Mass lesion (approx 4 cm) at lateral aspect of pons extending into CPA, arising from Trigeminal (Vth) nerve."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Four months post-surgery, hearing sensitivity remained normal. Retrocochlear signs resolved: rollover was absent, acoustic reflexes returned in the right ear, and ABR Wave V amplitude increased markedly, normalizing the I/V ratio. Tinnitus persisted, but hyperacusis had resolved.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Essentially unchanged bilaterally (normal)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent scores with no 'roll-over' for either ear."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Reflexes now present in the right ear; left ear reflexes obtained at lower levels than pre-op."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear Wave I decreased in amplitude and Wave V increased markedly compared to pre-op; latencies showed little change."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "At the 5-year research follow-up, ABR testing demonstrated significant neural recovery, with Wave V latency decreasing by 0.6 msec compared to the 4-month post-op check, suggesting brain plasticity.",
+        "tests": [
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear Wave V latency decreased by 0.6 msec compared to 4-month post-op check."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical removal of the tumor",
+      "Post-operative audiological monitoring",
+      "Long-term follow-up to assess neural recovery"
+    ],
+    "counseling_actions": [
+      "Explain that auditory symptoms (rollover, processing issues) were caused by tumor compression of the auditory nerve and brainstem.",
+      "Discuss the 'rollover' phenomenon where clarity worsens at higher volumes due to neural compression.",
+      "Highlight the positive surgical outcome: preservation of hearing sensitivity and recovery of neural function (reflexes returned, ABR improved).",
+      "Address persistent tinnitus, noting that while the tumor is removed, ringing may persist due to prior nerve stress or central changes."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Right facial numbness (Vth nerve involvement)",
+      "Vertex pain and bitemporal headaches",
+      "Asymmetric auditory findings (rollover, absent reflexes, ABR abnormalities)",
+      "Hyperacusis/intolerance to loud sounds"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurosurgery",
+      "rationale_short": "Large mass lesion compressing the brainstem and cranial nerves requires surgical intervention."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "5 years",
+    "objective": "Research follow-up to monitor long-term neural recovery and plasticity."
+  },
+  "expected_outcome": [
+    "Pure tone data were unchanged (normal thresholds).",
+    "ABR Wave V latency decreased 0.6 msec compared to 4-month post-op check, suggesting brain plasticity.",
+    "Patient still had bilateral tinnitus, but otherwise had completely recovered."
+  ]
+}

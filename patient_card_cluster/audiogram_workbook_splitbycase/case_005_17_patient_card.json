@@ -1,0 +1,158 @@
+{
+  "case_id": "case_5_17",
+  "title": "Right-Sided Sensorineural Hearing Loss with Vertigo",
+  "demographics": {
+    "age_years": 28,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I've had hearing loss in my right ear for a long time, possibly since birth, but recently I've started having episodes of dizziness and nausea.",
+  "problem_summary": {
+    "onset": "Uncertain onset of hearing loss (possibly congenital); recent onset of vertigo episodes.",
+    "course": "Patient reported the hearing loss had 'decreased' (improved) over the past 6 months. Vertigo episodes last minutes to hours.",
+    "laterality": "Right",
+    "associated_symptoms": "Constant non-bothersome tinnitus (right ear), vertigo, nausea.",
+    "functional_impact": "Episodes of vertigo are managed with meclizine; hearing loss is long-standing.",
+    "goals_motivation": "Diagnosis and management of vertigo."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-05-05",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports right-sided hearing loss, possibly since birth. Recently developed episodes of vertigo and nausea lasting minutes to hours. Meclizine helps. No sensation of fullness or changes in hearing/tinnitus during episodes.",
+        "otologic_history": "No other reported otologic symptoms.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Takes meclizine for vertigo.",
+        "patient_goals": "Evaluation of vertigo and hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 5.17"
+          ],
+          "key_findings": "Right ear shows moderate sensorineural hearing loss in the low frequencies (250-1000 Hz) rising to a mild loss in the high frequencies. Left ear thresholds are within normal limits. Bone conduction matches air conduction.",
+          "numeric_results": {
+            "RE_250Hz": "50 dB HL",
+            "RE_500Hz": "50 dB HL",
+            "RE_1000Hz": "40 dB HL",
+            "RE_2000Hz": "35 dB HL",
+            "RE_4000Hz": "30 dB HL",
+            "RE_8000Hz": "25 dB HL",
+            "LE_Thresholds": "0-10 dB HL across all frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 5.17"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA. Word recognition is excellent in both ears.",
+          "numeric_results": {
+            "RE_SRT": "42 dB",
+            "RE_WRS": "90% at 75 dB HL",
+            "LE_SRT": "5 dB",
+            "LE_WRS": "100% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 5.17"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "RE_Vol": "1.6 mL",
+            "RE_Peak_Pressure": "15 daPa",
+            "LE_Vol": "1.2 mL",
+            "LE_Peak_Pressure": "10 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.17"
+          ],
+          "key_findings": "Ipsilateral and contralateral thresholds within normal limits (500-4000 Hz). Reflex decay negative at 500 and 1000 Hz.",
+          "numeric_results": {
+            "Reflex_Decay": "Negative"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Medical Workup",
+      "history": {
+        "present_illness": "Follow-up for differential diagnosis between Labyrinthitis and Ménière’s disease.",
+        "otologic_history": "Patient continued to have episodes of vertigo.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Placed on high dose oral steroids and intratympanic dexamethasone injection.",
+        "patient_goals": "Diagnosis."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Workup",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "MRI and CT scans were normal. Electrocochleography (EcochG) was positive for right-sided cochlear hydrops.",
+          "numeric_results": {
+            "EcochG": "Positive for right-sided cochlear hydrops"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a unilateral, rising (reverse slope) moderate-to-mild sensorineural hearing loss in the right ear and normal hearing in the left ear. Speech recognition remains excellent in the affected ear despite the loss. Immittance testing rules out middle ear pathology and retrocochlear pathology is less likely given normal reflexes and decay, though further medical workup (EcochG) confirmed cochlear hydrops.",
+  "counseling_points": [
+    "Your hearing test confirms hearing loss in the right ear, specifically affecting the lower pitches.",
+    "The combination of low-frequency hearing loss and vertigo episodes is consistent with the medical diagnosis of Ménière’s disease (cochlear hydrops).",
+    "We observed excellent ability to understand speech in your right ear when the volume is loud enough.",
+    "Management will focus on controlling the vertigo episodes through the medication and dietary changes (low salt, diuretic) prescribed by your physician."
+  ],
+  "notes_for_actor": [
+    "You are a 28-year-old male.",
+    "You are unsure exactly when the hearing loss started (maybe birth?), but the dizziness is definitely new.",
+    "The dizziness comes in attacks that last minutes to hours.",
+    "You are not currently feeling dizzy during the test."
+  ]
+}

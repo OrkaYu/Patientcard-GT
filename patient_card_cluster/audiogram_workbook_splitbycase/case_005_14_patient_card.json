@@ -1,0 +1,144 @@
+{
+  "case_id": "case_5_14",
+  "title": "Sudden Left-Sided Hearing Loss with Poor Speech Recognition",
+  "demographics": {
+    "age_years": 34,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "US"
+  },
+  "chief_complaint": "I've had difficulty hearing in my left ear for about 10 months. It happened suddenly after a flight, and I have intermittent ringing in that ear.",
+  "problem_summary": {
+    "onset": "Sudden onset 10 months prior to evaluation.",
+    "course": "Stable; initial decrease was sudden but has not progressed since.",
+    "laterality": "Left ear primarily.",
+    "associated_symptoms": "Intermittent tinnitus in the left ear; history of bilateral pulsatile tinnitus (subsided).",
+    "functional_impact": "Difficulty hearing in the left ear.",
+    "goals_motivation": "Seeking evaluation after primary care physician diagnosis of fluid did not resolve the issue."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-03-20",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports sudden hearing loss in the left ear 10 months ago. She flew on an airplane prior to symptom onset. She initially experienced bilateral pulsatile tinnitus which subsided, replaced by intermittent left-sided tinnitus.",
+        "otologic_history": "Saw PCP who diagnosed fluid in ears. No other reported otologic symptoms.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Car accident several years ago where head hit windshield; no long-term injuries reported.",
+        "prior_management": "PCP evaluation (diagnosis of fluid).",
+        "patient_goals": "Determine cause of hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.14"
+          ],
+          "key_findings": "Right ear: Normal at 250 Hz, mild SNHL dip 500-1000 Hz, recovering to normal/slight loss in highs. Left ear: Moderately severe SNHL in low frequencies (rising configuration) improving to normal in mid-highs, then sloping to mild loss at 8 kHz.",
+          "numeric_results": {
+            "RE_PTA": "25 dB HL",
+            "LE_PTA": "50 dB HL",
+            "RE_250Hz": "5-10 dB HL",
+            "RE_500Hz": "25 dB HL",
+            "LE_250Hz": "60 dB HL",
+            "LE_500Hz": "60 dB HL",
+            "LE_1000Hz": "55 dB HL",
+            "LE_2000Hz": "35 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.14"
+          ],
+          "key_findings": "Right ear speech recognition is excellent. Left ear speech recognition is very poor (32%) and disproportionate to the pure-tone thresholds, suggesting retrocochlear pathology.",
+          "numeric_results": {
+            "RE_SRT": "27 dB HL",
+            "RE_WRS": "100% at 60 dB HL",
+            "LE_SRT": "60 dB HL",
+            "LE_WRS": "32% at 80 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.14"
+          ],
+          "key_findings": "Excessive negative pressure bilaterally (Type C).",
+          "numeric_results": {
+            "RE_Pressure": "-120 daPa",
+            "LE_Pressure": "-115 daPa",
+            "RE_Compliance": "1.0 mL",
+            "LE_Compliance": "1.1 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.14"
+          ],
+          "key_findings": "Ipsilateral reflexes present 500-2k Hz left ear. Contralateral reflexes elevated or absent. Reflex decay negative at 1000 Hz.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "MRI performed due to asymmetric findings.",
+          "numeric_results": {
+            "MRI_Result": "Small, left-sided basal turn cochlear schwannoma with internal auditory canal fundus involvement."
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a low-frequency moderately severe sensorineural hearing loss in the left ear with a rising configuration, contrasting with a mild low-frequency dip in the right ear. Crucially, word recognition in the left ear is extremely poor (32%) and significantly worse than predicted by the audiogram, which is a strong indicator of retrocochlear pathology. Tympanometry shows negative pressure bilaterally. MRI confirmed a left-sided cochlear schwannoma.",
+  "counseling_points": [
+    "Explain that the hearing test confirms hearing loss in the left ear, specifically in the low pitches.",
+    "Discuss the significant difficulty understanding speech in the left ear, noting that clarity is affected more than just volume.",
+    "Review the MRI findings which identified a small tumor (schwannoma) on the hearing nerve.",
+    "Discuss the 'wait and watch' management plan decided upon with the medical team.",
+    "Recommend annual hearing tests to monitor for any changes in hearing sensitivity.",
+    "Advise on the use of hearing protection in noisy environments to preserve remaining hearing."
+  ],
+  "notes_for_actor": [
+    "You are a 34-year-old female.",
+    "You are concerned because your doctor said it was just fluid, but it hasn't gone away.",
+    "You noticed the hearing loss after a flight, so you might wonder if the airplane pressure caused it.",
+    "The ringing in your left ear comes and goes."
+  ]
+}

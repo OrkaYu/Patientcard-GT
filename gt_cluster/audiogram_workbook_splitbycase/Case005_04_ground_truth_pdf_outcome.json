@@ -1,0 +1,99 @@
+{
+  "case_id": "Case005_04",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Asymmetrical Sensorineural Hearing Loss",
+      "rationale_short": "Audiometry reveals bilateral SNHL, mild in the right and mild sloping to moderate in the left, with asymmetry noted."
+    },
+    {
+      "rank": 2,
+      "label": "Tinnitus",
+      "rationale_short": "Patient reports long-standing bilateral tinnitus with recent increase in intensity."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given complaint of difficulty hearing students."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology given asymmetry and tinnitus."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates a mild sensorineural hearing loss in the right ear and a mild sloping to moderate sensorineural hearing loss in the left ear. The loss is asymmetrical. Speech recognition scores are excellent bilaterally. Middle ear function is normal, and acoustic reflexes are intact with negative decay, suggesting cochlear rather than retrocochlear pathology despite the asymmetry.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Mild SNHL (flat, 250-8000 Hz). Left ear: Mild sloping to moderate SNHL. Asymmetry present."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 35 dB HL AU, consistent with PTA. WRS excellent: 100% Right, 96% Left."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal thresholds ipsilateral and contralateral. Reflex decay negative at 500 and 1000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation",
+      "Amplification"
+    ],
+    "counseling_actions": [
+      "Explain the asymmetrical nature of the hearing loss.",
+      "Discuss the recent increase in tinnitus intensity.",
+      "Advise on the necessity of an ENT referral for medical clearance.",
+      "Counsel on the potential benefits of hearing aids for classroom communication."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetrical sensorineural hearing loss",
+      "Increased intensity of bilateral tinnitus"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "Referral required due to asymmetrical SNHL and change in tinnitus status to rule out medical concerns."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After medical clearance",
+    "objective": "Return to audiology for hearing aid evaluation and fitting."
+  },
+  "expected_outcome": [
+    "The physician did not determine any medical concerns regarding the hearing loss and tinnitus.",
+    "The patient returned to audiology for a hearing aid evaluation.",
+    "The patient obtained amplification."
+  ]
+}

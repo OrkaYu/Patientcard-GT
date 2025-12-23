@@ -1,0 +1,133 @@
+{
+  "case_id": "case_5_3",
+  "title": "Alport's Syndrome with Rapid Hearing Decline",
+  "demographics": {
+    "age_years": 40,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have noticed a rapid decline in my hearing over the past 2 years. I constantly need people to repeat themselves at home and at work, and I am having a lot of trouble understanding speech in noisy situations.",
+  "problem_summary": {
+    "onset": "Childhood diagnosis (grade school) with stable hearing until college; rapid decline in the last 2 years.",
+    "course": "Progressive, with recent acceleration.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Difficulty in noise; denies tinnitus, dizziness, or aural fullness.",
+    "functional_impact": "Requires repetition in quiet settings; significant difficulty in noise.",
+    "goals_motivation": "Seeking evaluation; currently uses HAT for TV and theater but has never used hearing aids."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-08-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a history of hearing loss diagnosed in grade school associated with Alport's syndrome. Hearing was stable until college but has declined rapidly in the last 2 years.",
+        "otologic_history": "No history of ear pathology, surgery, or noise exposure. Denies tinnitus or vertigo.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Diagnosed with Alport's syndrome. Kidney transplant ~20 years ago which failed within 5 years. Currently on kidney dialysis. Family history: Mother has Alport's syndrome and significant hearing loss.",
+        "prior_management": "No prior hearing tests available for comparison. No hearing aid use. Uses Assistive Listening Devices (HAT) for television and theater.",
+        "patient_goals": "Evaluation of current hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.3"
+          ],
+          "key_findings": "Bilateral mild sensorineural hearing loss at 250 Hz, sloping to moderate/moderately-severe in the mid-to-high frequencies (2000-6000 Hz), with some recovery at 8000 Hz. Symmetrical configuration.",
+          "numeric_results": {
+            "Right_PTA": "48 dB HL",
+            "Left_PTA": "53 dB HL",
+            "Right_250Hz": "~30 dB HL",
+            "Right_4000Hz": "~65 dB HL",
+            "Left_250Hz": "~30 dB HL",
+            "Left_6000Hz": "~65 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.3"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA. Word recognition scores (WRS) indicate good to excellent ability to recognize speech at suprathreshold levels (85 dB HL).",
+          "numeric_results": {
+            "Right_SRT": "55 dB HL",
+            "Right_WRS": "84% @ 85 dB HL",
+            "Left_SRT": "60 dB HL",
+            "Left_WRS": "90% @ 85 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.3"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally, indicating normal middle ear function.",
+          "numeric_results": {
+            "Right_Volume": "2.5 mL",
+            "Right_Static_Admittance": "1.4 mmho",
+            "Right_Peak_Pressure": "-15 daPa",
+            "Left_Volume": "1.6 mL",
+            "Left_Static_Admittance": "1.1 mmho",
+            "Left_Peak_Pressure": "-15 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.3"
+          ],
+          "key_findings": "Reflexes are generally present at lower frequencies (500-1000 Hz) and absent at higher frequencies (2000-4000 Hz), consistent with the degree of cochlear hearing loss. Reflex decay was negative where measurable.",
+          "numeric_results": {
+            "Right_Ipsi_500_1k": "100 dB HL",
+            "Right_Ipsi_2k_4k": "Absent",
+            "Left_Ipsi_500_4k": "95-100 dB HL (Image shows presence, text notes normal)",
+            "Contralateral_Reflexes": "Generally absent or elevated in higher frequencies"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, symmetrical, mild sloping to moderately-severe sensorineural hearing loss. Speech discrimination remains good bilaterally at elevated levels. The findings are consistent with cochlear pathology secondary to Alport's syndrome. Middle ear function is normal.",
+  "counseling_points": [
+    "Explain the relationship between Alport's syndrome (kidney function) and hearing loss.",
+    "Discuss the progressive nature of the hearing loss and the importance of annual monitoring.",
+    "Recommend amplification (hearing aids) to address difficulty in quiet and noise.",
+    "Discuss continued use of Hearing Assistive Technology (HAT) for specific situations like TV.",
+    "Advise on hearing protection in noisy environments to preserve remaining hearing."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is accustomed to medical procedures due to kidney history but is new to hearing intervention.",
+    "You are not in acute distress, but you are frustrated by the recent rapid decline in your ability to communicate at work.",
+    "You have never worn hearing aids before."
+  ]
+}

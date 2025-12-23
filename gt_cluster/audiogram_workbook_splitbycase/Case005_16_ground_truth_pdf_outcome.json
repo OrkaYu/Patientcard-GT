@@ -1,0 +1,76 @@
+{
+  "case_id": "Case005_16",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Symmetric high-frequency SNHL with history of noise exposure and recent ototoxic chemotherapy/radiation; 10 dB threshold shift noted compared to prior tests."
+    },
+    {
+      "rank": 2,
+      "label": "Tinnitus",
+      "rationale_short": "Patient reports 'out of control' tinnitus exacerbated by recent medical treatments."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given reported difficulty and history of ototoxic treatment."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate functional communication ability and validate pure-tone thresholds."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with bilateral, symmetric, high-frequency sensorineural hearing loss, sloping from normal limits in the low frequencies to moderately severe in the high frequencies. Comparison with prior annual evaluations shows a slight progression (10 dB shift) at 8000 Hz in the right ear and 4000 Hz in the left ear, temporally associated with recent chemotherapy and radiation. Speech audiometry is consistent with pure-tone findings, showing good word recognition scores. Tinnitus is reported as significantly bothersome.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral normal hearing (250-500 Hz) sloping to moderately severe SNHL (6-8 kHz). Threshold shifts of 10 dB at 8 kHz (Right) and 4 kHz (Left) compared to prior tests."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: 23 dB HL (Right), 22 dB HL (Left). WRS: 86% (Right), 88% (Left)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not measured."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aids",
+      "Tinnitus Retraining Therapy (TRT)"
+    ],
+    "counseling_actions": [
+      "Advised on hearing aid technology to improve audibility and provide tinnitus relief",
+      "Advised on Tinnitus Retraining Therapy (TRT) to manage tinnitus perception",
+      "Discussed the association between recent treatments and hearing/tinnitus changes"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist",
+      "rationale_short": "To evaluate the recent increase in tinnitus severity and history of cancer treatment."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing thresholds and tinnitus status."
+  },
+  "expected_outcome": []
+}

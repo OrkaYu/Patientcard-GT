@@ -1,0 +1,166 @@
+{
+  "case_id": "Case008_01",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder (secondary to corpus commissurotomy and right temporal lobe lesion)",
+      "rationale_short": "Post-commissurotomy findings show classic split-brain deficits: bilateral inability to verbally label auditory patterns (interhemispheric transfer blocked) and severe left-ear dichotic deficits (pathway to left hemisphere blocked). Right ear improvement suggests release from central competition."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline assessment of peripheral hearing sensitivity."
+      },
+      {
+        "action": "Dichotic Digits",
+        "urgency": "routine",
+        "rationale_short": "Assessment of binaural integration and interhemispheric transfer."
+      },
+      {
+        "action": "Dichotic Rhyme",
+        "urgency": "routine",
+        "rationale_short": "Assessment of dichotic speech processing."
+      },
+      {
+        "action": "Duration Patterns Test",
+        "urgency": "routine",
+        "rationale_short": "Assessment of temporal patterning and interhemispheric transfer (verbal labeling)."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Post-operative re-evaluation of peripheral hearing."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of speech recognition in quiet."
+      },
+      {
+        "action": "Dichotic Digits",
+        "urgency": "routine",
+        "rationale_short": "Post-operative evaluation of central auditory function."
+      },
+      {
+        "action": "Dichotic Rhyme",
+        "urgency": "routine",
+        "rationale_short": "Post-operative evaluation of central auditory function."
+      },
+      {
+        "action": "Competing Sentences",
+        "urgency": "routine",
+        "rationale_short": "Additional central test for dichotic processing."
+      },
+      {
+        "action": "Duration Patterns Test",
+        "urgency": "routine",
+        "rationale_short": "Post-operative evaluation of temporal patterning."
+      },
+      {
+        "action": "Frequency Patterns Test",
+        "urgency": "routine",
+        "rationale_short": "Additional assessment of frequency pattern recognition and labeling."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1_PreOp",
+        "collective_interpretation": "Pre-operative testing (referenced from Case 7-8) revealed normal peripheral hearing but significant central deficits consistent with a right temporal lobe lesion. There were severe bilateral deficits on duration patterns, a severe left ear deficit on dichotic digits, and a borderline normal score for the left ear on dichotic rhyme.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral Hearing",
+            "result_summary": "Normal pure tone sensitivity for both ears."
+          },
+          {
+            "name": "Dichotic Digits",
+            "category": "Central Auditory Processing",
+            "result_summary": "Severe left ear deficit (~20%) and mild right ear deficit (~65%)."
+          },
+          {
+            "name": "Dichotic Rhyme",
+            "category": "Central Auditory Processing",
+            "result_summary": "Borderline normal score for the left ear (~65%); Right ear ~75%."
+          },
+          {
+            "name": "Duration Patterns Test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Severe bilateral deficits (<10%)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2_PostOp",
+        "collective_interpretation": "Post-operative evaluation following complete corpus commissurotomy showed preserved normal peripheral hearing and excellent speech recognition. Central testing revealed a 'release from central competition' with significant improvement in right ear dichotic scores, while left ear scores remained poor or declined due to the blocked interhemispheric pathway. Bilateral deficits in pattern perception persisted, confirming the necessity of the corpus callosum for verbal labeling of patterns.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral Hearing",
+            "result_summary": "Normal pure tone sensitivity for both ears."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech Perception",
+            "result_summary": "Excellent speech recognition bilaterally."
+          },
+          {
+            "name": "Dichotic Digits",
+            "category": "Central Auditory Processing",
+            "result_summary": "Right ear improved significantly (30% increase) to normal range (~95-100%); Left ear remained severe (~20%)."
+          },
+          {
+            "name": "Dichotic Rhyme",
+            "category": "Central Auditory Processing",
+            "result_summary": "Right ear showed 10% increase (~85%); Left ear showed 16% decrease (~50%)."
+          },
+          {
+            "name": "Competing Sentences",
+            "category": "Central Auditory Processing",
+            "result_summary": "Right ear performance normal (~100%); Left ear suppressed/poor (~30%)."
+          },
+          {
+            "name": "Duration Patterns Test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Severe bilateral deficits (<10%), similar to pre-op."
+          },
+          {
+            "name": "Frequency Patterns Test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Severe bilateral deficits (<10%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [],
+    "counseling_actions": [
+      "Explain that the inability to verbally label sound patterns (e.g., high-low-high) is expected due to the surgical separation of the hemispheres, even if the patient can hum them.",
+      "Discuss the 'release from central competition' phenomenon, noting that the right ear now hears much better in complex/dichotic environments due to removal of neural competition.",
+      "Highlight that the left ear will continue to struggle in dichotic or competing noise situations because the pathway to the language center is blocked.",
+      "Reassure the patient that standard speech recognition in quiet remains excellent."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient is post-surgical and stable; findings are consistent with the known neurological intervention."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor functional auditory status if concerns arise."
+  },
+  "expected_outcome": [
+    "Dichotic Digits: Right ear performance improved significantly (30% increase) to fall well within the normal range.",
+    "Dichotic Rhyme: Right ear showed a 10% increase in performance, while the left ear showed a 16% decrease.",
+    "Duration Patterns Test: Severe bilateral deficits persisted, unchanged from pre-operative status.",
+    "Frequency Patterns Test: Severe bilateral deficits noted (consistent with callosal section preventing verbal labeling).",
+    "Demonstration of 'release from central competition,' where right ear performance improves due to removal of competition from ipsilateral pathways or left-hemisphere interference."
+  ]
+}

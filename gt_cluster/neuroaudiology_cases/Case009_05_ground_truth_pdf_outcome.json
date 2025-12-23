@@ -1,0 +1,94 @@
+{
+  "case_id": "Case009_05",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder (secondary to Multiple Sclerosis)",
+      "rationale_short": "Normal peripheral hearing and brainstem function (ABR) combined with significant left ear deficits on dichotic listening tasks suggest involvement of auditory areas above the brainstem (corpus callosum/trigone)."
+    },
+    {
+      "rank": 2,
+      "label": "Multiple Sclerosis",
+      "rationale_short": "Patient has a confirmed diagnosis; the auditory profile is consistent with demyelination affecting white matter tracts and interhemispheric transfer."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity given subjective complaints."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the auditory brainstem pathways."
+      },
+      {
+        "action": "P300 Response",
+        "urgency": "routine",
+        "rationale_short": "To assess late-latency auditory potentials and cortical processing."
+      },
+      {
+        "action": "Dichotic Listening Tests",
+        "urgency": "routine",
+        "rationale_short": "To evaluate central auditory processing and interhemispheric transfer."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing sensitivity and brainstem function (ABR) were normal, ruling out peripheral or brainstem pathology as the primary cause. However, central behavioral testing revealed significant left ear deficits on dichotic tasks, while the right ear was normal. This pattern indicates a central auditory deficit likely involving the white matter tracts (corpus callosum/trigone) above the brainstem, consistent with the patient's Multiple Sclerosis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Flat normal to borderline normal audiogram."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Normal bilaterally. Waveforms I, III, and V present with normal latencies (Wave V ~6.7-6.8 ms) at both 15 and 65 clicks/s."
+          },
+          {
+            "name": "P300 Response",
+            "category": "Electrophysiology",
+            "result_summary": "Responses were normal."
+          },
+          {
+            "name": "Dichotic Listening Tests",
+            "category": "Central Auditory Processing",
+            "result_summary": "Right ear performance normal (Dichotic Digits ~92%, Dichotic Rhyme ~48%). Significant left ear deficits (Dichotic Digits ~10%, Dichotic Rhyme ~32%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Use of a Pocket Talker (assistive listening device) for difficult listening situations."
+    ],
+    "counseling_actions": [
+      "Explain that hearing difficulties are central (processing) rather than peripheral, which explains the discrepancy between subjective complaints and normal pure-tone thresholds.",
+      "Discuss the impact of MS on the white matter tracts connecting the brain hemispheres, leading to the specific left-ear deficits on dichotic tests.",
+      "Recommend assistive listening devices to improve signal-to-noise ratio."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Condition is chronic and known (MS); management is supportive via assistive devices and counseling."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Monitor communication difficulties and benefit from assistive devices."
+  },
+  "expected_outcome": [
+    "Patient's vertigo subsided over time and is no longer problematic.",
+    "Patient continues to experience difficulty hearing in noise.",
+    "Patient reported a positive experience with the Pocket Talker and suggested recommending it to other MS patients."
+  ]
+}

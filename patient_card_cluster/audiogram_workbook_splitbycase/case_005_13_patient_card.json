@@ -1,0 +1,129 @@
+{
+  "case_id": "case_5_13",
+  "title": "Sudden Unilateral Sensorineural Hearing Loss",
+  "demographics": {
+    "age_years": 34,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I woke up one morning about two years ago and couldn't hear much out of my left ear. I also have ringing in that ear, and it's making it very hard to hear my students in the classroom.",
+  "problem_summary": {
+    "onset": "Sudden onset upon waking approximately 2 years ago.",
+    "course": "Stable; no improvement with oral or intratympanic steroid treatment.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Tinnitus in the left ear. No vestibular/balance symptoms reported.",
+    "functional_impact": "Difficulty hearing in the classroom (patient is a teacher) and in social situations.",
+    "goals_motivation": "Seeking improved hearing capabilities for work and social environments."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-05-04",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports waking up with decreased hearing in the left ear 2 years ago. Prior to this event, hearing was normal.",
+        "otologic_history": "No history of concerns prior to the sudden loss.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Treated by an otologist with oral steroids and a series of steroid injections with no perceived improvement.",
+        "prior_management": "Medical management failed.",
+        "patient_goals": "Improve communication ability in noise and classroom settings."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.13"
+          ],
+          "key_findings": "Right ear: Normal hearing thresholds (0-10 dB HL). Left ear: Mild-to-moderate SNHL at 250-500 Hz, sloping to severe/profound loss at 750-8000 Hz. No measurable response at 2000-8000 Hz.",
+          "numeric_results": {
+            "Right PTA": "0 dB HL",
+            "Left PTA": "78 dB HL (2-frequency average used: 500, 1000 Hz)",
+            "Left Thresholds": "250Hz: 40dB, 500Hz: 55dB, 1000Hz: 90dB, 2000Hz+: NR"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.13"
+          ],
+          "key_findings": "Right ear speech reception and recognition are excellent. Left ear shows a Speech Awareness Threshold (SAT) only, with no ability to recognize words (CNT).",
+          "numeric_results": {
+            "Right SRT": "0 dB HL",
+            "Right WRS": "100% at 50 dB HL",
+            "Left SAT": "40 dB HL",
+            "Left WRS": "CNT (Could Not Test)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.13"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "Right Static Admittance": "0.7 mL",
+            "Left Static Admittance": "0.9 mL",
+            "Right Peak Pressure": "10 daPa",
+            "Left Peak Pressure": "-30 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.13"
+          ],
+          "key_findings": "Right ipsilateral reflexes present. All other conditions (Left Ipsi, and both Contralateral conditions) are absent.",
+          "numeric_results": {
+            "Right Ipsi (500-4k)": "Present (80-90 dB HL)",
+            "Left Ipsi": "Absent",
+            "Right Contra (Stim R/Meas L)": "Absent",
+            "Left Contra (Stim L/Meas R)": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a profound, steeply sloping sensorineural hearing loss in the left ear (Single-Sided Deafness). Word recognition is excellent in the right ear but unmeasurable in the left. Middle ear function is normal bilaterally.",
+  "counseling_points": [
+    "A conventional hearing aid will not be effective for your left ear because the hearing loss is too severe to provide clarity.",
+    "We have two main options to help you hear sounds from your left side: a CROS system or an osseointegrated implant (bone-anchored device).",
+    "A CROS system uses a microphone on your bad ear to send sound wirelessly to a hearing aid on your good ear.",
+    "An osseointegrated implant vibrates the bone to send sound from the bad side directly to your good inner ear.",
+    "Since you are a teacher, being able to hear students on your left side is crucial. We can demonstrate the CROS system today to see if it helps."
+  ],
+  "notes_for_actor": [
+    "You are a teacher who relies heavily on hearing for classroom management.",
+    "You have lived with this 'dead ear' for 2 years and are frustrated that previous medical treatments didn't work.",
+    "You report tinnitus (ringing) in the bad ear.",
+    "You are motivated to find a solution but skeptical because the doctors couldn't fix it previously."
+  ]
+}

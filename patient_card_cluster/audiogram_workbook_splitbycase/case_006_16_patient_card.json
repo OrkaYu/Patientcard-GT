@@ -1,0 +1,132 @@
+{
+  "case_id": "case_6_16",
+  "title": "Traumatic Tympanic Membrane Perforation",
+  "demographics": {
+    "age_years": 28,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I fell out of a deer stand a few weeks ago and a branch punctured my left eardrum. Since then, I've had pain, ringing, and trouble hearing in that ear.",
+  "problem_summary": {
+    "onset": "Acute onset a few weeks prior following a traumatic fall.",
+    "course": "Stable symptoms since the incident.",
+    "laterality": "Left ear.",
+    "associated_symptoms": "Tinnitus, otalgia (ear pain), and trauma to the bridge of the nose.",
+    "functional_impact": "Difficulty hearing from the left side.",
+    "goals_motivation": "Evaluation of hearing status following trauma."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-02-02",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient fell 20 feet from a deer stand a few weeks ago, landing on his left side. A branch punctured his left tympanic membrane and the bridge of his nose.",
+        "otologic_history": "Reports otalgia and tinnitus in the left ear since the fall. Right ear is normal.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Trauma to nose bridge during the same fall.",
+        "prior_management": "None specified prior to this evaluation.",
+        "patient_goals": "Assess hearing loss and ear status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.16"
+          ],
+          "key_findings": "Right ear shows normal hearing sensitivity. Left ear shows a flat mild-to-moderate conductive hearing loss with a significant air-bone gap.",
+          "numeric_results": {
+            "Right_PTA": "10 dB HL",
+            "Left_PTA": "32 dB HL",
+            "Left_Air_Conduction": "Flat configuration approx 30-40 dB HL across 250-8000 Hz",
+            "Left_Bone_Conduction": "Normal (0-10 dB HL)",
+            "Left_Air_Bone_Gap": "Approx 30-35 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.16"
+          ],
+          "key_findings": "Excellent word recognition scores bilaterally. SRTs are in agreement with PTAs.",
+          "numeric_results": {
+            "Right_SRT": "10 dB HL",
+            "Right_WRS": "96% at 55 dB HL",
+            "Left_SRT": "35 dB HL",
+            "Left_WRS": "100% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.16"
+          ],
+          "key_findings": "Right ear is normal (Type A). Left ear is flat (Type B) with an abnormally large ear canal volume, consistent with tympanic membrane perforation.",
+          "numeric_results": {
+            "Right_Canal_Volume": "1.5 mL",
+            "Right_Static_Admittance": "0.7 mmho",
+            "Right_Pressure": "-5 daPa",
+            "Left_Canal_Volume": "7.1 mL",
+            "Left_Static_Admittance": "NP (No Peak)",
+            "Left_Pressure": "NP (No Peak)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.16"
+          ],
+          "key_findings": "Right ipsilateral reflexes present. All other conditions (Left Ipsi, Right Contra, Left Contra) are absent due to the conductive pathology in the left ear.",
+          "numeric_results": {
+            "Right_Ipsi_Thresholds": "90-95 dB HL",
+            "Left_Ipsi_Thresholds": "Absent",
+            "Right_Contra_Thresholds": "Absent",
+            "Left_Contra_Thresholds": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a mild-to-moderate flat conductive hearing loss in the left ear. Word recognition is excellent bilaterally. Immittance testing confirms a large tympanic membrane perforation in the left ear (Type B tympanogram with large volume), consistent with the reported trauma.",
+  "counseling_points": [
+    "Your hearing test confirms a conductive hearing loss in your left ear, meaning sound is being blocked from reaching the inner ear.",
+    "The 'flat' line on the pressure test (tympanogram) combined with a large volume measurement confirms there is a hole (perforation) in your eardrum.",
+    "The good news is that your inner ear nerve function is completely normal, as shown by your bone conduction scores and 100% word recognition.",
+    "You should keep the ear dry and avoid water entry to prevent infection.",
+    "We will refer you to an ENT specialist to discuss surgical repair (tympanoplasty) of the perforation."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is generally healthy but concerned about the recent accident.",
+    "You may mention pain or discomfort in the left ear.",
+    "You are aware of the cause (the branch puncture) but want to know if the hearing loss is permanent."
+  ]
+}

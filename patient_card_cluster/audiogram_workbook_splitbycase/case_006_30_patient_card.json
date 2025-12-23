@@ -1,0 +1,112 @@
+{
+  "case_id": "case_6_30",
+  "title": "Bilateral Chronic Otitis Media and Eustachian Tube Dysfunction",
+  "demographics": {
+    "age_years": 36,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I've noticed my hearing has gotten worse in my right ear recently, and I feel a lot of pressure in that ear.",
+  "problem_summary": {
+    "onset": "Long-standing history.",
+    "course": "Chronic/Fluctuating. Patient has a history of multiple surgeries (tympanoplasties) and PE tubes placed 1 year ago.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Aural pressure (right ear), decreased hearing (right ear).",
+    "functional_impact": "Mild difficulty hearing, primarily driven by conductive components and pressure sensation.",
+    "goals_motivation": "Returned for testing due to symptomatic changes in the right ear."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-05-29",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned for testing due to decreased hearing and aural pressure in the right ear. The right pressure equalization (PE) tube, placed 1 year ago, has extruded.",
+        "otologic_history": "Long-standing bilateral conductive hearing loss, chronic otitis media with effusion, and Eustachian tube dysfunction. Multiple past tympanoplasties.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Bilateral PE tubes placed 1 year ago; Right tube extruded, Left tube presumably in place.",
+        "patient_goals": "Assessment of hearing status following extrusion of right PE tube."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op (1 year post-tubes)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 6.30"
+          ],
+          "key_findings": "Right ear shows mild conductive loss at low frequencies rising to normal, then sloping to slight/mild loss at highs. Left ear shows mild rising to slight conductive loss at lows, normal mid-frequencies, sloping to mild sensorineural loss at highs.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 35, 500Hz: 30, 1000Hz: 25, 2000Hz: 15, 4000Hz: 15, 8000Hz: 35 dB HL",
+            "Left_AC_Thresholds": "250Hz: 25, 500Hz: 20, 1000Hz: 15, 2000Hz: 10, 4000Hz: 35, 8000Hz: 40 dB HL",
+            "Right_BC_Thresholds": "Stable around 0-10 dB HL through 4000Hz (Air-Bone Gaps present)",
+            "Left_BC_Thresholds": "Follows AC closely in highs (Sensorineural pattern), small gaps in lows"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op (1 year post-tubes)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 6.30 (Table)"
+          ],
+          "key_findings": "Excellent word recognition bilaterally. SRTs are in agreement with PTAs.",
+          "numeric_results": {
+            "Right_SRT": "20 dB HL",
+            "Right_WRS": "96% at 60 dB HL",
+            "Right_PTA": "23 dB HL",
+            "Left_SRT": "15 dB HL",
+            "Left_WRS": "96% at 60 dB HL",
+            "Left_PTA": "15 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-op (1 year post-tubes)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 6.30 (Table)"
+          ],
+          "key_findings": "Right ear shows excessive negative pressure (Type C), consistent with ETD/extruded tube. Left ear shows a flat tympanogram with normal volume (Type B).",
+          "numeric_results": {
+            "Right_Canal_Volume": "1.10 mL",
+            "Right_Static_Admittance": "0.60 mL",
+            "Right_Peak_Pressure": "-200 daPa",
+            "Left_Canal_Volume": "1.80 mL",
+            "Left_Static_Admittance": "NP (No Peak)",
+            "Left_Peak_Pressure": "NP (No Peak)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild conductive hearing loss in the right ear characterized by significant negative middle ear pressure, consistent with the reported extrusion of the PE tube and Eustachian tube dysfunction. The left ear demonstrates a mixed profile with mild low-frequency conductive components and high-frequency sensorineural sloping, alongside a flat tympanogram. Speech recognition remains excellent bilaterally.",
+  "counseling_points": [
+    "Your hearing test confirms the pressure you are feeling in your right ear; the tube has come out and negative pressure has built up again.",
+    "While you have some hearing loss, your ability to understand speech is still excellent.",
+    "We need to refer you back to your ENT specialist to manage the ear pressure and discuss the next steps for the right ear.",
+    "Continue to monitor your hearing annually, and use hearing protection when in noisy environments to preserve your remaining hearing."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is familiar with ear surgeries and procedures, as you have had 'multiple' tympanoplasties.",
+    "You are not in acute pain, but the 'fullness' or 'pressure' in the right ear is annoying and noticeable.",
+    "You are knowledgeable about tubes and likely suspected the right one had fallen out."
+  ]
+}

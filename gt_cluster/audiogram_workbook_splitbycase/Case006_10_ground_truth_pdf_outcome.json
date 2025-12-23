@@ -1,0 +1,86 @@
+{
+  "case_id": "Case006_10",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otitis Media with Effusion",
+      "rationale_short": "Unilateral conductive hearing loss, Type B tympanogram, absent reflexes, and history of allergies with otalgia and fullness."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and determine the type and degree of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To validate pure-tone thresholds and assess speech understanding."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and tympanic membrane mobility."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the acoustic reflex arc and confirm conductive pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a unilateral right-sided hearing loss. Audiometry reveals a mild-to-moderate conductive hearing loss in the right ear, with a slight sensorineural component at 2000 Hz, while the left ear is normal. Immittance testing shows a flat (Type B) tympanogram in the right ear and absent acoustic reflexes, consistent with middle ear pathology (otitis media) likely secondary to allergies.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Slight sloping to mild conductive loss (250-1000 Hz), slight sensorineural loss at 2000 Hz, sloping to moderate conductive loss (3000-8000 Hz). Left ear: Normal hearing (250-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 35 dB HL, Left 7 dB HL (consistent with PTA). WRS: Normal bilaterally (100%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Type B (flat). Left ear: Type A (normal)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral and contralateral absent. Left ipsilateral normal; Left contralateral absent. Reflex decay could not be measured."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Prescription of nasal spray",
+      "Medical management of otitis media"
+    ],
+    "counseling_actions": [
+      "Explain the conductive nature of the hearing loss due to fluid behind the eardrum",
+      "Discuss the connection between recent allergies and the ear symptoms",
+      "Advise on the expected resolution of symptoms with medical treatment"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngologist",
+      "rationale_short": "For medical management of conductive hearing loss and otitis media."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month",
+    "objective": "To ensure hearing has returned to normal after treatment."
+  },
+  "expected_outcome": []
+}

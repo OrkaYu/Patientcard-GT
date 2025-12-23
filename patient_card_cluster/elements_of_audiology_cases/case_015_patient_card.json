@@ -1,0 +1,159 @@
+{
+  "case_id": "elements_case_15",
+  "title": "Difficulty Hearing in Noise with Normal Peripheral Function",
+  "demographics": {
+    "age_years": 28,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am having disturbing difficulties comprehending conversations when there is background noise, like at parties or sporting events. My friends have started questioning my hearing abilities.",
+  "problem_summary": {
+    "onset": "Not explicitly dated, but friends have recently begun to question her hearing.",
+    "course": "Persistent in specific environments (social gatherings, high noise levels).",
+    "laterality": "Bilateral (implied by general difficulty).",
+    "associated_symptoms": "None reported (no tinnitus, vertigo, or ear infections).",
+    "functional_impact": "Trouble engaging in social interactions at parties, family gatherings, and sporting events.",
+    "goals_motivation": "To understand why she is struggling despite having no difficulty in quiet environments."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports difficulty comprehending speech in noise (parties, family gatherings). In quiet environments, she reports no difficulties. Friends have noticed the issue.",
+        "otologic_history": "No history of ear infections, vertigo, or tinnitus.",
+        "noise_exposure_history": "No reported current or past employment or recreational noise exposure.",
+        "medical_psych_history": "None reported.",
+        "prior_management": "None reported.",
+        "patient_goals": "Diagnosis and substantiation of the problem."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. Thresholds are flat and consistent across the frequency range.",
+          "numeric_results": {
+            "Right Ear Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "Left Ear Thresholds": "0-10 dB HL across 250-8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Excellent speech recognition ability in quiet consistent with pure tone thresholds.",
+          "numeric_results": {
+            "SRT Right": "0 dB HL",
+            "SRT Left": "5 dB HL",
+            "SRS Right": "96%",
+            "SRS Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table",
+            "Tympanogram Graph"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A tympanograms).",
+          "numeric_results": {
+            "Static compliance Right": "0.35 cc",
+            "Static compliance Left": "1.15 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Reflexes present at normal levels.",
+          "numeric_results": {
+            "ART (ipsilateral) Right": "90 dB HL",
+            "ART (ipsilateral) Left": "95 dB HL",
+            "ART (contralateral) Right": "90 dB HL",
+            "ART (contralateral) Left": "90 dB HL"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Normal retrocochlear function.",
+          "numeric_results": {
+            "Waveform morphology": "All waves normal",
+            "Interpeak latencies": "Normal",
+            "Latency-intensity function": "Normal"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (TEAOE)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Present bilaterally, consistent with normal cochlear function.",
+          "numeric_results": {
+            "Result": "Present"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with completely normal peripheral hearing sensitivity bilaterally, excellent speech recognition in quiet, normal middle ear function, and normal retrocochlear function (ABR). There is no evidence of peripheral pathology to explain the subjective difficulty hearing in noise. The clinical picture is consistent with Obscure Auditory Dysfunction.",
+  "counseling_points": [
+    "Explain that your hearing test results are completely normal, meaning the ears themselves are detecting sound perfectly.",
+    "Validate that your difficulty in noise is real, even though the standard hearing test doesn't show a loss.",
+    "Discuss that this condition is sometimes called 'Obscure Auditory Dysfunction'—the ears work, but the brain struggles to separate speech from background noise.",
+    "Suggest communication strategies: face the speaker, ensure good lighting, and try to position yourself away from noise sources (like speakers or kitchen areas) at parties.",
+    "Mention that anxiety or stress can sometimes make these listening situations harder.",
+    "Offer a referral for further evaluation (e.g., Auditory Processing Disorder) if you wish to investigate further."
+  ],
+  "notes_for_actor": [
+    "You are not hard of hearing in the traditional sense; you hear everything, but in noise, it becomes a jumble.",
+    "You are frustrated because people tell you your hearing is fine, but you know you are struggling socially.",
+    "You are socially active (28 years old) but are starting to dread parties because of this issue."
+  ]
+}

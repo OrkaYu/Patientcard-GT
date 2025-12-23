@@ -1,0 +1,178 @@
+{
+  "case_id": "Case05_Otosclerosis_with_Tinnitus",
+  "title": "Case05 Otosclerosis with Tinnitus",
+  "demographics": {
+    "age_years": 81,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have had bothersome ringing in my ears for two years, mostly on the right side. I also have trouble with loud sounds and hearing in background noise.",
+  "problem_summary": {
+    "onset": "2 years ago.",
+    "course": "Persistent; continued after stapedectomy surgery one year ago.",
+    "laterality": "Bilateral hearing loss; tinnitus worse in the right ear.",
+    "associated_symptoms": "Sound sensitivity (hyperacusis), difficulty in background noise.",
+    "functional_impact": "Moderate tinnitus impairment (THI 56); difficulty ignoring tinnitus to return to activity/sleep.",
+    "goals_motivation": "Seeking relief from tinnitus after previous hearing aids failed to help."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Tinnitus Specialist)",
+      "history": {
+        "present_illness": "Patient reports recurrent bothersome tinnitus for 2 years. Previously purchased RIC devices ($4,000) from a dispenser but saw no improvement in tinnitus or hearing after 6 months. Later diagnosed with otosclerosis by an ENT.",
+        "otologic_history": "Diagnosed with otosclerosis. Underwent stapedectomy with prosthetic implant on the right ear 1 year ago. Resulted in partial recovery of low-frequency hearing but persistent tinnitus.",
+        "noise_exposure_history": "Denied significant noise exposure.",
+        "medical_psych_history": "Hypertension and hypothyroidism (pharmacologically managed). Good general health.",
+        "prior_management": "Previous trial of private-labeled RIC hearing aids (failed). Stapedectomy (Right).",
+        "patient_goals": "Tinnitus relief and management of sound sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Left ear: Clear, patent canal, normal eardrum. Right ear: Opaque eardrum consistent with surgical history.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5.1"
+          ],
+          "key_findings": "Left ear: Normal hearing through 2000 Hz, sloping to mild-to-moderate SNHL at 3000 Hz and above. Right ear: Asymmetric mild-to-severe mixed hearing loss (low-frequency gap visible).",
+          "numeric_results": {
+            "Left_2000Hz": "Within normal limits",
+            "Right_Low_Freq_Gap": "Present (Air thresholds ~30-50 dB HL)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5.1"
+          ],
+          "key_findings": "SRTs consistent with PTA. Excellent word recognition scores in both ears when tested at 40 dB SL.",
+          "numeric_results": {
+            "WRS_Right": "100% at 40 dB SL",
+            "WRS_Left": "100% at 40 dB SL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5.2"
+          ],
+          "key_findings": "Left ear normal mobility. Right ear reduced compliance consistent with stapedectomy history.",
+          "numeric_results": {
+            "Left_Type": "Jerger Type A",
+            "Right_Type": "Jerger Type As"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Pure tone ARTs not assessed due to loudness discomfort. Broadband noise ARTs present for probe-left, absent for probe-right.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Loudness Contour Test",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Reduced tolerance for pure tones in both ears.",
+          "numeric_results": {
+            "LDLs": "80 to 90 dB HL"
+          }
+        },
+        {
+          "name": "Tinnitus Assessment",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5.3"
+          ],
+          "key_findings": "Tinnitus matched to high-frequency pure tone. Positive residual inhibition (32 seconds).",
+          "numeric_results": {
+            "Pitch_Match": "4000 Hz (Left ear ref)",
+            "Loudness_Match": "13 dB SL",
+            "MML_White_Noise": "26 dB SL (44 dB HL)",
+            "Residual_Inhibition": "32 seconds"
+          }
+        },
+        {
+          "name": "Self-Report Scales",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "THI indicates moderate handicap. TFI indicates candidacy for Levo system. COAT indicates minimal concern with hearing loss itself.",
+          "numeric_results": {
+            "THI_Score": "56",
+            "TFI_Score": "51",
+            "Subjective_Hearing": "7/10"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric hearing loss: mild-to-moderate high-frequency SNHL in the left ear and mild-to-severe mixed loss in the right ear (consistent with stapedectomy). Word recognition is excellent bilaterally. Key findings include reduced loudness tolerance (LDLs 80-90 dB HL) and bothersome tinnitus matched to 4000 Hz. Tinnitus assessment shows positive residual inhibition and a Minimum Masking Level of 26 dB SL.",
+  "counseling_points": [
+    "Explain that while the surgery improved low-frequency hearing, the remaining hearing loss and tinnitus are connected.",
+    "Discuss the 'Loudness Contour' results, validating your sensitivity to loud sounds (hyperacusis).",
+    "Recommend a new trial of amplification combined with sound therapy, specifically designed for tinnitus management (unlike the previous devices).",
+    "Introduce biofeedback exercises (progressive muscle relaxation) to help manage the reaction to tinnitus.",
+    "Discuss the option of the Levo System for overnight sound therapy given the TFI score of 51."
+  ],
+  "notes_for_actor": [
+    "You are 81 but in good health.",
+    "You are skeptical about hearing aids because you spent $4,000 previously and they didn't help your tinnitus.",
+    "You are sensitive to loud sounds; wince or express discomfort if sounds are too loud during testing.",
+    "You hear the ringing mostly in your right ear."
+  ]
+}

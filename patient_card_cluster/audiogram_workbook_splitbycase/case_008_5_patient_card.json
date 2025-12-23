@@ -1,0 +1,127 @@
+{
+  "case_id": "case_8_5",
+  "title": "Nonorganic Hearing Loss in a Pediatric Patient",
+  "demographics": {
+    "age_years": 14,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I had a sudden change in my hearing in my right ear about 2 months ago. I have to ask my family to repeat themselves a lot, and I switched my phone to my left ear because it sounds clearer.",
+  "problem_summary": {
+    "onset": "Sudden onset approximately 2 months prior to the visit.",
+    "course": "Stable since onset; patient reports continued difficulty.",
+    "laterality": "Right ear reported; Left ear reported as better.",
+    "associated_symptoms": "Intermittent pain in the left ear; history of migraine headaches. Denies tinnitus, dizziness, or aural fullness.",
+    "functional_impact": "Requires frequent repetition with family; altered telephone use habits.",
+    "goals_motivation": "Diagnostic evaluation following a failed school hearing screening."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-04-16",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient failed a school hearing screening. Reports sudden right-sided hearing loss 2 months ago. A previous test was done at another center last month (results unavailable).",
+        "otologic_history": "No significant history of ear pathology. Intermittent left ear pain reported.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Significant history of migraine headaches. Normal developmental milestones.",
+        "prior_management": "Hearing test at another center 1 month ago.",
+        "patient_goals": "Determine hearing status after failed screening."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.5"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally (0-10 dB HL). Initial responses in the right ear were inconsistent and elevated (mild to moderate levels), but thresholds normalized immediately after reinstruction and use of an ascending presentation method.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "Left_Ear_Thresholds": "0-5 dB HL across 250-8000 Hz",
+            "Reliability": "Fair (initially inconsistent)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.5"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) were in agreement with pure-tone averages. Word Recognition Scores (WRS) were excellent bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "5 dB HL",
+            "SRT_Left": "0 dB HL",
+            "WRS_Right": "92% at 60 dB HL",
+            "WRS_Left": "92% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.5"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "Right_Static_Admittance": "0.90 mL",
+            "Right_Peak_Pressure": "-25 daPa",
+            "Left_Static_Admittance": "1.40 mL",
+            "Left_Peak_Pressure": "-25 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.5"
+          ],
+          "key_findings": "Reflexes present and normal for ipsilateral and contralateral stimulation at 500, 1000, 2000, and 4000 Hz. Reflex decay was negative.",
+          "numeric_results": {
+            "Right_Ipsi_500Hz": "90 dB HL",
+            "Left_Ipsi_500Hz": "95 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation reveals normal hearing sensitivity bilaterally with excellent speech recognition abilities. Middle ear function is normal. Although the patient initially presented with inconsistent responses suggestive of a mild-to-moderate right-sided loss, reinstruction resulted in reliable thresholds within normal limits, indicating a nonorganic component to the initial presentation.",
+  "counseling_points": [
+    "Your hearing test results today indicate that you have normal hearing in both ears.",
+    "The tests show that your ears are healthy and the nerves are picking up very soft sounds perfectly.",
+    "We noticed some inconsistency at the beginning of the test, but once we clarified the instructions, your responses showed your hearing is actually quite good.",
+    "We recommend a follow-up test in 6 months to monitor your hearing, given your concerns.",
+    "We will refer you to an otologist to double-check the intermittent pain you mentioned in your left ear."
+  ],
+  "notes_for_actor": [
+    "Portray a teenager who is cooperative but initially vague or hesitant during the hearing test.",
+    "During the initial beep test for the right ear, do not press the button for soft sounds; wait until the sounds are moderately loud before responding.",
+    "If the audiologist stops and firmly but kindly explains that you need to push the button even for the tiniest beep, change your behavior and start responding normally to soft sounds.",
+    "Maintain that you feel like you can't hear well on the right side, even if the doctor tells you the test is normal."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "case_id": "Case011_01",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder (CAPD)",
+      "rationale_short": "Severe deficits on central tests and speech-in-noise (16% RE, 8% LE) with reduced speech recognition, associated with learning disabilities and a subarachnoid cyst affecting cortical association areas."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities, which were found to be reduced due to central deficits."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To evaluate auditory performance in background noise, a reported difficulty for the patient."
+      },
+      {
+        "action": "Central auditory tests",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory nervous system function given the history of learning disabilities and neurological findings."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient, an adolescent female with learning disabilities and a subarachnoid cyst, demonstrated severe central auditory processing deficits. Testing revealed significantly depressed speech-in-noise scores and reduced speech recognition, attributed to cortical dysfunction in the occipital, parietal, and temporal association regions. Peripheral pathology was ruled out.",
+        "tests": [
+          {
+            "name": "Speech-in-noise",
+            "category": "Speech Audiometry",
+            "result_summary": "Scores were depressed bilaterally (16% RE, 8% LE)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech Audiometry",
+            "result_summary": "Reduced speech recognition scores caused by a severe central deficit."
+          },
+          {
+            "name": "Central auditory tests",
+            "category": "Central Auditory Processing",
+            "result_summary": "Deficits consistent with dysfunction in the common association region where occipital, parietal, and temporal fibers converge."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Utilize note-takers for classes",
+      "Secure preferential seating to maximize speechreading and minimize background noise",
+      "Academic accommodations (e.g., untimed tests, small class sizes)",
+      "Reduced courseload for university studies",
+      "Strategies for coping with everyday activities"
+    ],
+    "counseling_actions": [
+      "Encourage patient to seek administrative support for accommodations",
+      "Discuss the link between morphological brain changes and auditory/academic difficulties"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Academic/Disability Support Services",
+      "rationale_short": "To assist in obtaining special academic accommodations for university studies."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor academic progress and effectiveness of accommodations."
+  },
+  "expected_outcome": [
+    "Patient successfully completed her baccalaureate degree.",
+    "Patient was on several waiting lists for admission to medical schools at the time of last contact."
+  ]
+}

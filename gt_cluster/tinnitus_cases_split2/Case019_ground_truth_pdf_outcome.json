@@ -1,0 +1,136 @@
+{
+  "case_id": "Case019",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Severe Hyperacusis",
+      "rationale_short": "Primary complaint of severe sound intolerance; collapsed LDLs (20-30 dB HL for tones); catastrophic impact on life."
+    },
+    {
+      "rank": 2,
+      "label": "Tinnitus",
+      "rationale_short": "Bilateral, reactive tinnitus with abrupt onset; TFI 83 and THI 84 indicate catastrophic handicap."
+    },
+    {
+      "rank": 3,
+      "label": "High-Frequency Sensorineural Hearing Loss",
+      "rationale_short": "Mild-to-moderate loss at 8000 Hz; moderate-to-severe ultra-high-frequency loss (9-14 kHz)."
+    },
+    {
+      "rank": 4,
+      "label": "Anxiety Disorder / Phonophobia",
+      "rationale_short": "Symptoms consistent with DSM-5 criteria for anxiety; fear of sounds (phonophobia); significant weight loss due to fear of eating sounds."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Initial evaluation of hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of word recognition ability."
+      },
+      {
+        "action": "Self-report scales",
+        "urgency": "routine",
+        "rationale_short": "To quantify the functional impact of tinnitus and hyperacusis (TFI, THI)."
+      },
+      {
+        "action": "Ultra-high-frequency audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity above 8000 Hz, often relevant in tinnitus/hyperacusis."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDL)",
+        "urgency": "routine",
+        "rationale_short": "To quantify sound tolerance levels and confirm hyperacusis."
+      },
+      {
+        "action": "Tinnitus Evaluation",
+        "urgency": "routine",
+        "rationale_short": "To characterize tinnitus pitch, loudness, maskability, and residual inhibition."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial ENT evaluation revealed normal hearing sensitivity through the mid-frequencies with a high-frequency sensorineural hearing loss at 8000 Hz. Word recognition was excellent.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal thresholds 250-6000 Hz (Left) and 250-4000 Hz (Right); mild-to-moderate SNHL at 8000 Hz (40-50 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent word recognition (100% at 40 dB HL) bilaterally; SRT 0 dB HL."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Comprehensive evaluation confirmed severe hyperacusis with collapsed loudness discomfort levels and catastrophic tinnitus distress. Ultra-high-frequency testing showed significant loss extended beyond 8 kHz.",
+        "tests": [
+          {
+            "name": "Self-report scales",
+            "category": "Questionnaire",
+            "result_summary": "TFI: 83 (Very big problem); THI: 84 (Catastrophic handicap)."
+          },
+          {
+            "name": "Ultra-high-frequency audiometry",
+            "category": "Audiometry",
+            "result_summary": "Moderate-to-severe loss 9-14 kHz; no response >14 kHz."
+          },
+          {
+            "name": "Loudness Discomfort Levels (LDL)",
+            "category": "Sound Tolerance",
+            "result_summary": "Significantly reduced: 45-55 dB HL for speech, 20-30 dB HL for pure tones (500-4000 Hz)."
+          },
+          {
+            "name": "Tinnitus Evaluation",
+            "category": "Tinnitus Assessment",
+            "result_summary": "Pitch/loudness match completed; residual inhibition stopped at 24s due to discomfort."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Desensitization exercises (Jastreboff protocol)",
+      "Sound therapy using a phone app to replace ear protection",
+      "Combined approach of desensitization and sound therapy due to severity",
+      "Mindfulness Tinnitus Stress Reduction Course (online)"
+    ],
+    "counseling_actions": [
+      "Explained difference between hyperacusis and hearing loss",
+      "Explained the tinnitus/hyperacusis cycle and neurophysiological model",
+      "Advised to reduce use of ear protection in quiet to minimize avoidance",
+      "Discussed role of anxiety and stress in exacerbating symptoms",
+      "Addressed patient's misunderstanding regarding lymphatic system involvement"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Primary Care Physician and Mental Health Professional",
+      "rationale_short": "Referral needed for significant weight loss, sleep disturbance, anxiety, and new somatic symptoms (numbing/tingling)."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing email communication over several weeks",
+    "objective": "Monitor response to sound therapy and desensitization; address worsening psychological and somatic symptoms."
+  },
+  "expected_outcome": [
+    "Patient reported initial relief from utilizing sound therapy in place of ear protection.",
+    "Patient reported persistent sleeping difficulties despite initial management.",
+    "One week later, symptoms (hyperacusis, reactive tinnitus, anxiety) worsened exponentially with new explicit fear of sounds (phonophobia).",
+    "Patient reported new numbing and tingling sensations in face accompanying offensive sounds."
+  ]
+}

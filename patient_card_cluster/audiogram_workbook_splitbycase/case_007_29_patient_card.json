@@ -1,0 +1,100 @@
+{
+  "case_id": "case_7_29",
+  "title": "Progressive Mixed Hearing Loss with Chronic Ear Disease",
+  "demographics": {
+    "age_years": 33,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My hearing has been getting worse over the last 4 months, especially in my right ear, and the ringing sounds like insects which keeps me awake. I also have dizziness every day and white fluid draining from my right ear.",
+  "problem_summary": {
+    "onset": "Progression of symptoms over the past 4 months.",
+    "course": "Progressive hearing loss and increased tinnitus.",
+    "laterality": "Bilateral, worse in the right ear.",
+    "associated_symptoms": "Tinnitus (insect sounds), bilateral intermittent otalgia, daily dizziness (lasting seconds), white otorrhea (right ear).",
+    "functional_impact": "Tinnitus is affecting sleep; hearing loss is progressing.",
+    "goals_motivation": "Seeking evaluation for worsening symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-03-07",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports progression of hearing loss and increased tinnitus (described as insect sounds) in the right ear over the past 4 months. She experiences bilateral intermittent otalgia and daily dizziness lasting a few seconds, with and without head movement. White otorrhea has been present in the right ear for the last few months.",
+        "otologic_history": "History of chronic ear disease. Previous right tympanomastoidectomy and ossicular chain reconstruction. Previous left tympanoplasty.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Previous surgeries as noted.",
+        "patient_goals": "Evaluation of current status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.29"
+          ],
+          "key_findings": "Right ear: Moderate to moderately severe mixed loss (250-500 Hz), rising to moderate (1-2 kHz), sloping to severe mixed loss (3-8 kHz). Left ear: Moderate rising to slight mixed loss (250-1000 Hz), sloping to mild SNHL (2-3 kHz), then moderately severe mixed loss (4-8 kHz).",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 60, 500Hz: 55, 1kHz: 45, 2kHz: 45, 4kHz: 70, 8kHz: 80 dB HL",
+            "Left_AC_Thresholds": "250Hz: 45, 500Hz: 40, 1kHz: 25, 2kHz: 30, 4kHz: 60, 8kHz: 65 dB HL",
+            "Right_BC_Thresholds": "500Hz: ~15, 1kHz: ~15, 2kHz: ~20, 4kHz: ~45 dB HL",
+            "Left_BC_Thresholds": "500Hz: ~15, 1kHz: ~15, 2kHz: ~20, 4kHz: ~40 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.29"
+          ],
+          "key_findings": "SRT results were in agreement with PTA. Word recognition scores (WRS) indicated only slight difficulty in the ability to recognize speech at suprathreshold levels.",
+          "numeric_results": {
+            "Right_SRT": "52 dB HL",
+            "Right_WRS": "84% at 80 dB HL",
+            "Left_SRT": "28 dB HL",
+            "Left_WRS": "84% at 65 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Immittance testing could not be measured due to previous otosurgery.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric, bilateral mixed hearing loss, worse in the right ear. The configuration is complex, generally showing better thresholds in the mid-frequencies and sloping in the high frequencies. Speech recognition remains good bilaterally when speech is loud enough. The presence of air-bone gaps indicates a conductive component overlaying sensorineural loss, consistent with her history of chronic ear disease and surgeries.",
+  "counseling_points": [
+    "You have an active infection in your right ear that requires immediate medical treatment; please take the prescribed medication and follow up in 1 month.",
+    "Your hearing test shows a 'mixed' hearing loss in both ears, meaning there is both a nerve component and a mechanical component (related to your middle ear history).",
+    "Once the infection is cleared and medical clearance is obtained, we can evaluate you for hearing aids to help with communication and potentially mask the tinnitus.",
+    "Because of your dizziness and ear history, hearing protection in loud noise is very important to preserve your remaining hearing."
+  ],
+  "notes_for_actor": [
+    "Portray fatigue due to sleep disturbance from the tinnitus ('insect sounds').",
+    "Mention the dizziness casually but note it happens every day.",
+    "You are aware of your chronic ear issues but are concerned about the recent white drainage and worsening hearing."
+  ]
+}

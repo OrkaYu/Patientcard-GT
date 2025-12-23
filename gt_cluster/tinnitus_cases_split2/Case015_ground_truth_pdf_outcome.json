@@ -1,0 +1,138 @@
+{
+  "case_id": "Case015",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Pulsatile tinnitus secondary to temporal bone dehiscence",
+      "rationale_short": "Imaging confirmed dehiscence between the Eustachian tube and internal carotid artery; symptoms were mechanically triggered by hearing aid contact and resolved with device modification."
+    },
+    {
+      "rank": 2,
+      "label": "Vascular abnormalities (e.g., AVM, glomus tumor)",
+      "rationale_short": "Serious vascular causes of pulsatile tinnitus were considered but ruled out by cardiology evaluation and imaging."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Routine baseline examination."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Routine baseline examination."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Routine baseline examination to assess hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Routine baseline examination to assess speech recognition."
+      },
+      {
+        "action": "Other",
+        "urgency": "routine",
+        "rationale_short": "Troubleshooting with cotton ball to determine if mechanical pressure resolves the pulsatile tinnitus."
+      },
+      {
+        "action": "Imaging (CT Scan)",
+        "urgency": "soon",
+        "rationale_short": "To visualize temporal bone anatomy and rule out vascular pathology causing pulsatile tinnitus."
+      },
+      {
+        "action": "Other",
+        "urgency": "routine",
+        "rationale_short": "Device modification (Redwing) to reduce canal contact and eliminate symptom transmission."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Routine evaluation revealed symmetric moderate-to-profound sensorineural hearing loss with poor-to-fair word recognition, stable since 2013.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "result_summary": "Clear canals bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Symmetric, moderate-to-profound sensorineural hearing loss."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRT 65 dB HL AU; WRS 48% (Right) and 64% (Left) at 95 dB HL."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Initial fit of new ITE devices. Patient reported immediate pulsatile tinnitus in the left ear. Fine-tuning adjustments (gain reduction) were unsuccessful.",
+        "tests": []
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Troubleshooting visit. Mechanical manipulation (wedging a cotton ball) eliminated the pulsatile tinnitus, suggesting a physical fit issue rather than gain settings.",
+        "tests": [
+          {
+            "name": "Other",
+            "result_summary": "Physical pressure on the device near the triangular fossa (cotton ball) eliminated the pulsatile tinnitus."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Imaging revealed a temporal bone dehiscence. Based on this, the hearing aid was modified to reduce canal contact, which successfully resolved the pulsatile tinnitus.",
+        "tests": [
+          {
+            "name": "Imaging (CT Scan)",
+            "result_summary": "Dehiscence of the temporal bone portion separating the Eustachian tube from the internal carotid artery."
+          },
+          {
+            "name": "Other",
+            "result_summary": "Redwing modification (tapering the device end) reduced canal contact and relieved the pulsatile tinnitus."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otolaryngology and Cardiology",
+      "Sound therapy (attempted but failed)",
+      "Hearing aid modification (Redwing modification/tapering of canal portion)"
+    ],
+    "counseling_actions": [
+      "Explain that the pulsatile tinnitus is caused by the hearing aid physically transmitting the heartbeat due to a thinning of the bone near the carotid artery",
+      "Reassure the patient that the condition is benign following medical clearance",
+      "Discuss the rationale for the device modification to reduce contact with the sensitive area"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral pulsatile tinnitus"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otolaryngologist and Cardiologist",
+      "rationale_short": "To rule out serious vascular conditions (e.g., aneurysms, tumors) associated with pulsatile tinnitus."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 and 2 weeks following the modification",
+    "objective": "To ensure the pulsatile tinnitus has not returned and the device fit remains comfortable."
+  },
+  "expected_outcome": [
+    "Left temporal bone dehiscence was identified as the root cause of the pulsatile tinnitus when wearing the hearing device.",
+    "After physical manipulation of the custom hearing instrument (Redwing modification), the patient reported satisfaction and relief from his pulsatile tinnitus.",
+    "The patient reported no further issues with left pulsatile tinnitus at 1- and 2-week follow-up checks."
+  ]
+}

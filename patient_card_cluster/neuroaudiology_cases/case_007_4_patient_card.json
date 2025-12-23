@@ -1,0 +1,157 @@
+{
+  "case_id": "case_7_4",
+  "title": "Right Frontal Lobe Abscess and Central Auditory Deficits",
+  "demographics": {
+    "age_years": 59,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am experiencing hearing loss in my left ear.",
+  "problem_summary": {
+    "onset": "Acute onset following the development of a right frontal lobe abscess after craniotomy.",
+    "course": "Symptoms appeared rapidly with the abscess and resolved completely after 3 months of antibiotic treatment.",
+    "laterality": "Patient reported left ear difficulties; testing showed left-sided and bilateral central deficits.",
+    "associated_symptoms": "History of spontaneous subarachnoid hemorrhage and aneurysm repair.",
+    "functional_impact": "Significant difficulty processing speech in the left ear despite preserved recognition in quiet.",
+    "goals_motivation": "Monitoring auditory function during medical treatment of the brain abscess."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Inpatient/Acute)",
+      "history": {
+        "present_illness": "The patient is a 59-year-old professional woman initially hospitalized for a spontaneous subarachnoid hemorrhage secondary to an anterior communicating artery aneurysm. Following surgical clipping (right frontal craniotomy), she developed a large right frontal lobe abscess.",
+        "otologic_history": "Patient specifically complained of left ear hearing loss.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Right frontal craniotomy; occlusion of right proximal anterior cerebral artery; current right frontal lobe abscess treated with antibiotics.",
+        "prior_management": "Neurosurgery requested testing at the start of antibiotic treatment and upon resolution.",
+        "patient_goals": "Evaluate hearing loss complaints."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-treatment (Abscess active)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-23"
+          ],
+          "key_findings": "Mild hearing loss bilaterally. Thresholds generally range between 20-35 dB HL.",
+          "numeric_results": {
+            "RE_thresholds": "250-8kHz: ~20-35 dB HL",
+            "LE_thresholds": "250-8kHz: ~20-35 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-treatment (Abscess active)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-23"
+          ],
+          "key_findings": "Excellent word recognition scores bilaterally, inconsistent with the patient's complaint of significant left ear difficulty.",
+          "numeric_results": {
+            "WRS_RE": "100%",
+            "WRS_LE": "96%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-treatment (Abscess active)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-24"
+          ],
+          "key_findings": "Central Auditory Processing Battery. Marked left ear deficits on dichotic tests and filtered speech. Bilateral deficit on frequency patterns.",
+          "numeric_results": {
+            "SSW_LE": "~20%",
+            "SSW_RE": "~95%",
+            "Dichotic_Digits_LE": "0%",
+            "Dichotic_Digits_RE": "~95%",
+            "NU#20_LE": "0%",
+            "NU#20_RE": "~85%",
+            "LPFS_LE": "~40%",
+            "LPFS_RE": "~65%",
+            "Freq_Patterns_LE": "0%",
+            "Freq_Patterns_RE": "0%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 3 months later. The brain abscess has completely resolved following antibiotic treatment.",
+        "otologic_history": "Re-evaluation of auditory function.",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "Abscess resolved.",
+        "prior_management": "Previous central auditory deficits noted.",
+        "patient_goals": "Confirm recovery of auditory function."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-treatment (Resolved)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Essentially unchanged from initial evaluation (mild hearing loss).",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Post-treatment (Resolved)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-24"
+          ],
+          "key_findings": "Central Auditory Processing Battery. Marked improvement. Practically all test scores improved to within normal ranges bilaterally.",
+          "numeric_results": {
+            "SSW_LE_RE": ">90% (Normal)",
+            "Dichotic_Digits_LE_RE": ">90% (Normal)",
+            "NU#20_LE_RE": ">80% (Normal)",
+            "LPFS_LE_RE": ">70% (Normal)",
+            "Freq_Patterns_LE_RE": ">70% (Normal)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 59-year-old female presented with a large right frontal lobe abscess and complaints of left ear hearing loss. Peripheral testing showed only mild symmetric hearing loss with excellent speech recognition. However, central auditory testing revealed severe left ear deficits on dichotic tasks (SSW, Dichotic Digits, NU#20) and low-pass filtered speech, as well as bilateral deficits in temporal ordering (Frequency Patterns). These findings are consistent with a right hemisphere lesion affecting central auditory pathways, likely via compression of the parietal lobe or callosal pathways. Following resolution of the abscess 3 months later, central auditory function returned to normal limits.",
+  "counseling_points": [
+    "Explain that the 'hearing loss' experienced in the left ear was not due to the ear itself, but how the brain processed sound from that side due to the pressure from the abscess.",
+    "Highlight the correlation between the medical treatment of the abscess and the restoration of auditory processing capabilities.",
+    "Discuss that the mild peripheral hearing loss remains but is stable and does not account for the processing difficulties experienced during the acute phase."
+  ],
+  "notes_for_actor": [
+    "Patient is a professional woman, likely articulate.",
+    "In the first visit, express confusion about why you can't hear well in your left ear despite the doctors focusing on your right brain.",
+    "The complaint is specific to the left ear, which is contralateral to the brain lesion."
+  ]
+}

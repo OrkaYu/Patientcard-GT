@@ -1,0 +1,154 @@
+{
+  "case_id": "Case01_InternetBased_Tinnitus_Intervention",
+  "title": "Internet-Based Tinnitus Intervention",
+  "demographics": {
+    "age_years": 45,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have distressing tinnitus in both ears that sounds like ringing, buzzing, pulsating, clicking, and even music or voices. It makes me grumpy and irritable, and I have trouble sleeping and concentrating.",
+  "problem_summary": {
+    "onset": "2 years prior to initial contact.",
+    "course": "Constant; attributed to long periods of noise exposure without protection.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Hyperacusis (loud noises are annoying/aggravating), mild hearing difficulty (phone/TV), insomnia, mild anxiety and depression.",
+    "functional_impact": "Unable to do things previously enjoyed; trouble concentrating; irritability affecting mood.",
+    "goals_motivation": "Struggling to hear but refuses hearing aids ('hates anything in his ears'). 100% committed to trying new strategies via internet intervention."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Tinnitus Clinic / Remote Screening",
+      "history": {
+        "present_illness": "Patient reports constant bilateral tinnitus for 2 years. Describes complex sounds (ringing, buzzing, pulsating, clicking, music, voices, humming).",
+        "otologic_history": "Mild hearing loss reported (no hearing aids used). Strong hyperacusis present.",
+        "noise_exposure_history": "Long periods of exposure to noise without adequate hearing protection.",
+        "medical_psych_history": "Mild levels of anxiety and depression identified. Subthreshold insomnia.",
+        "prior_management": "Initial therapy session provided explanations and sleep hygiene, but patient could not attend regular clinic visits due to working abroad.",
+        "patient_goals": "To cope with tinnitus more effectively, understand it better, make it less annoying, relax more easily, and reduce tension."
+      },
+      "tests": [
+        {
+          "name": "Self-report scales (Baseline)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 1.2"
+          ],
+          "key_findings": "Scores indicate moderate tinnitus impact, strong hyperacusis, and mild anxiety/depression.",
+          "numeric_results": {
+            "Tinnitus Functional Index (TFI)": "44/100",
+            "Tinnitus Handicap Inventory (THI)": "48/100",
+            "Hearing Handicap Inventory (HHIA)": "14/40",
+            "Hyperacusis Questionnaire (HQ)": "28/40",
+            "Generalized Anxiety Disorder (GAD-7)": "8/21",
+            "Patient Health Questionnaire (PHQ-9)": "5/28",
+            "Insomnia Severity Index (ISI)": "10/28",
+            "Satisfaction with Life (SWLS)": "32",
+            "Cognitive Failures Questionnaire (CFQ)": "29"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Remote (Internet-based)",
+      "history": {
+        "present_illness": "Patient completed 8 weeks of Internet-based CBT. He was very engaged, logged in regularly, and completed relevant modules.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "Unchanged.",
+        "medical_psych_history": "Anxiety and depression scores improved.",
+        "prior_management": "Completed modules on understanding tinnitus, relaxation, reinterpreting tinnitus, positive imagery, and sleep guidelines.",
+        "patient_goals": "Felt he had enough strategies to cope and did not require further help."
+      },
+      "tests": [
+        {
+          "name": "Self-report scales (Post-intervention)",
+          "timepoint_label": "Post-op",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table 1.2",
+            "Figure 1.1"
+          ],
+          "key_findings": "Significant reduction in tinnitus severity, hyperacusis, and associated psychological distress. THI screening scores showed a gradual decline over the 8 weeks.",
+          "numeric_results": {
+            "Tinnitus Functional Index (TFI)": "9",
+            "Tinnitus Handicap Inventory (THI)": "18",
+            "Hearing Handicap Inventory (HHIA)": "6",
+            "Hyperacusis Questionnaire (HQ)": "14",
+            "Generalized Anxiety Disorder (GAD-7)": "5",
+            "Patient Health Questionnaire (PHQ-9)": "1",
+            "Insomnia Severity Index (ISI)": "0",
+            "Satisfaction with Life (SWLS)": "32",
+            "Cognitive Failures Questionnaire (CFQ)": "21"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Remote Follow-up",
+      "history": {
+        "present_illness": "1-year follow-up. Patient continued to use CBT tools (relaxation, shifting focus) during daily life.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "Unchanged.",
+        "medical_psych_history": "Stable/Improved.",
+        "prior_management": "No further intervention required.",
+        "patient_goals": "Maintained improvements."
+      },
+      "tests": [
+        {
+          "name": "Self-report scales (1-year Follow-up)",
+          "timepoint_label": "Follow-up",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table 1.2"
+          ],
+          "key_findings": "Improvements were maintained or further improved one year later without further intervention.",
+          "numeric_results": {
+            "Tinnitus Functional Index (TFI)": "2",
+            "Tinnitus Handicap Inventory (THI)": "6",
+            "Hearing Handicap Inventory (HHIA)": "6",
+            "Hyperacusis Questionnaire (HQ)": "11",
+            "Generalized Anxiety Disorder (GAD-7)": "5",
+            "Patient Health Questionnaire (PHQ-9)": "0",
+            "Insomnia Severity Index (ISI)": "0",
+            "Satisfaction with Life (SWLS)": "33",
+            "Cognitive Failures Questionnaire (CFQ)": "19"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presented with constant bilateral tinnitus, strong hyperacusis, and mild hearing loss (though he refused amplification). Baseline assessment revealed moderate tinnitus handicap and mild anxiety/depression. Following an 8-week Internet-based CBT intervention, he demonstrated significant improvements across all domains, including tinnitus severity, hyperacusis, and insomnia. These gains were maintained or further improved at the 1-year follow-up.",
+  "counseling_points": [
+    "Tinnitus is often linked to noise exposure; protecting your residual hearing is vital.",
+    "While you dislike hearing aids, treating the hearing loss often reduces the contrast of the tinnitus.",
+    "Cognitive Behavioral Therapy (CBT) does not 'cure' the sound but helps rewire how your brain reacts to it, reducing distress.",
+    "Sleep hygiene and relaxation techniques are critical tools for managing tinnitus spikes.",
+    "Since you travel frequently, an internet-based program allows you to access modules and support on your own schedule."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is initially grumpy and irritable due to lack of sleep and constant noise.",
+    "You are resistant to hearing aids ('I hate things in my ears') but very open to trying other therapies.",
+    "You travel for work and cannot attend weekly in-person appointments.",
+    "Show high motivation ('100% committed') once the internet-based plan is offered."
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "case_id": "case_7_6",
+  "title": "Auditory Cortex Involvement: Left Temporal Lobectomy",
+  "demographics": {
+    "age_years": 20,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "The patient reports difficulty following verbal directions despite having no history of audiologic or otologic problems.",
+  "problem_summary": {
+    "onset": "Seizure disorder began at age 3; auditory processing difficulties noted in adulthood.",
+    "course": "Frequent and recurrent seizures (2-3 per day) despite medication. Underwent left temporal lobectomy.",
+    "laterality": "Bilateral auditory processing deficits pre-operatively; Left hemisphere seizure focus.",
+    "associated_symptoms": "Generalized seizure disorder, clonic activity of the right arm, 'drop' attacks.",
+    "functional_impact": "Unable to maintain employment as a medical assistant/dental technician due to seizure frequency.",
+    "goals_motivation": "Control of seizures to allow for employment and improved quality of life."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Pre-operative)",
+      "history": {
+        "present_illness": "Patient has a long-standing history of generalized seizure disorder originating from the left anterior temporal lobe. She reports difficulty following verbal directions.",
+        "otologic_history": "Negative for audiologic or otologic problems.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Generalized seizure disorder since age 3. EEG showed focal slowing in left anterior temporal lobe spreading to other regions. Intelligence testing placed her in the low average range.",
+        "prior_management": "Various medications prescribed to lessen severity but failed to adequately control seizures.",
+        "patient_goals": "Surgical candidacy evaluation for left temporal lobectomy."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Pure tone thresholds were bilaterally normal.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech recognition scores were normal.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Dichotic digits test performance was severely depressed in both ears.",
+          "numeric_results": {
+            "Left Ear Score": "15%",
+            "Right Ear Score": "25%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-29",
+            "Figure 7-30"
+          ],
+          "key_findings": "Late potentials and P300s (C3 and C4 recording sites). No repeatable responses were discernible for any of the various presentations.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (1 week Post-operative)",
+      "history": {
+        "present_illness": "Follow-up 1 week after left frontotemporal craniotomy/lobectomy.",
+        "otologic_history": "Resection extended from temporal pole 3 cm in superior temporal gyrus, 4.5 cm in medial temporal gyrus, and 5 cm in inferior temporal gyrus.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Patient maintained on medication.",
+        "prior_management": "Left temporal lobectomy completed.",
+        "patient_goals": "Monitor recovery."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Pure tone thresholds remained bilaterally normal.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech recognition scores remained normal.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Dichotic digits test performance improved dramatically to almost normal bilaterally.",
+          "numeric_results": {
+            "Left Ear Score": "85%",
+            "Right Ear Score": "88%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Post-op",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-29"
+          ],
+          "key_findings": "Late potentials (Left Ear Stim): Small but repeatable N1 and P2 responses identified at C3 and C4. Large but delayed P300 response noted.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Post-op",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-30"
+          ],
+          "key_findings": "Late potentials (Right Ear Stim): Not as clearly defined. Definite P2 and possible shallow N1 (80-160 msec). Noisy, broad peaked P300 (questionable presence).",
+          "numeric_results": {
+            "P2 Latency": "170-180 msec"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This case involves a 20-year-old female with a severe seizure disorder originating in the left anterior temporal lobe. Pre-operative testing revealed normal peripheral hearing but severe central deficits, manifested as bilaterally depressed dichotic digits scores (15% LE, 25% RE) and absent late auditory evoked potentials. Following a left temporal lobectomy, the patient showed dramatic improvement in auditory processing. Post-operative dichotic digits scores returned to near normal (85% LE, 88% RE), and late potentials (N1, P2, P300) became identifiable, particularly with left ear stimulation. The right ear stimulation (contralateral to the lesion) yielded poorer morphologic responses, suggesting a contralateral ear effect or reduced volume conduction.",
+  "counseling_points": [
+    "Explain that the pre-operative difficulty with verbal directions was likely due to the 'interference' caused by the seizure activity in the auditory areas of the brain.",
+    "Highlight the significant improvement in processing speech (dichotic digits) following the surgery.",
+    "Discuss that while behavioral scores improved, some electrophysiological responses (especially from the right ear) remain abnormal, reflecting the surgical removal of temporal lobe tissue.",
+    "Monitor for any changes in communication ability as the brain continues to heal."
+  ],
+  "notes_for_actor": [
+    "Patient is a young adult (20) who has dealt with seizures her whole life.",
+    "She is likely relieved post-surgery as seizures have decreased and she can return to work.",
+    "She is cooperative but may have had difficulty with complex tasks (like counting rare stimuli for P300) prior to surgery."
+  ]
+}

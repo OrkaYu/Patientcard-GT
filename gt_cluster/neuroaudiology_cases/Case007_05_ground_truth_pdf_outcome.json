@@ -1,0 +1,159 @@
+{
+  "case_id": "Case007_05",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder",
+      "rationale_short": "Consistent with left temporal lobe pathology; characterized by deficits in dichotic listening (contralateral ear effect) and temporal patterning despite normal peripheral hearing."
+    },
+    {
+      "rank": 2,
+      "label": "Left Temporal Astrocytoma (Resected)",
+      "rationale_short": "Medical history of partial resection at age 10; MRI confirms involvement of mesial left temporal lobe and encephalomalacia."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Basic evaluation of peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of speech recognition abilities in quiet."
+      },
+      {
+        "action": "Dichotic Rhyme Test",
+        "urgency": "routine",
+        "rationale_short": "Central auditory test sensitive to interhemispheric and temporal lobe function."
+      },
+      {
+        "action": "Dichotic Digits",
+        "urgency": "routine",
+        "rationale_short": "Binaural integration task sensitive to cortical auditory dysfunction."
+      },
+      {
+        "action": "Duration Patterns Test",
+        "urgency": "routine",
+        "rationale_short": "Test of temporal processing and interhemispheric transfer."
+      },
+      {
+        "action": "Competing Sentences",
+        "urgency": "routine",
+        "rationale_short": "Dichotic speech task to assess central auditory pathway integrity."
+      },
+      {
+        "action": "Late auditory evoked potentials",
+        "urgency": "routine",
+        "rationale_short": "Electrophysiological assessment of cortical auditory responses (N1/P2)."
+      },
+      {
+        "action": "P300",
+        "urgency": "routine",
+        "rationale_short": "Cognitive auditory evoked potential to assess attention and discrimination."
+      },
+      {
+        "action": "MRI",
+        "urgency": "soon",
+        "rationale_short": "Imaging to visualize structural brain lesions and extent of temporal lobe involvement."
+      },
+      {
+        "action": "EEG",
+        "urgency": "soon",
+        "rationale_short": "Evaluation of seizure activity and localization of epileptogenic foci."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates normal peripheral hearing sensitivity and excellent speech recognition in quiet. However, the central auditory test battery reveals significant deficits consistent with left temporal lobe dysfunction. Key findings include a mild right ear (contralateral) deficit on the Dichotic Rhyme Test, bilateral deficits on Dichotic Digits (worse in the right ear), and severe bilateral deficits on the Duration Patterns Test. Late evoked potentials (N1/P2) show morphology reductions, particularly for left ear stimulation (though comments suggest a contralateral effect). The P300 could not be elicited due to the patient's inability to perform the cognitive task.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally with thresholds of 0-10 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent speech recognition scores (100%) bilaterally."
+          },
+          {
+            "name": "Dichotic Rhyme Test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Mild right ear deficit."
+          },
+          {
+            "name": "Dichotic Digits",
+            "category": "Central Auditory Processing",
+            "result_summary": "Mild bilateral deficit; right ear (~70%) performance poorer than left ear (~80%)."
+          },
+          {
+            "name": "Duration Patterns Test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Severe bilateral deficit (~15%)."
+          },
+          {
+            "name": "Competing Sentences",
+            "category": "Central Auditory Processing",
+            "result_summary": "Bilateral deficits below normal range; left ear ~30%, right ear ~50%."
+          },
+          {
+            "name": "Late auditory evoked potentials",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear stimulation showed well-defined N1/P2; Left ear stimulation showed smaller, less defined responses (Findings section text). N1 latencies abnormal; P2 latencies normal/borderline."
+          },
+          {
+            "name": "P300",
+            "category": "Electrophysiology",
+            "result_summary": "Not derivable; patient unable to keep accurate count of rare stimuli due to cognitive/attention deficits."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Abnormal gray and white matter in left inferior temporal lobe; encephalomalacia with thin cortical ribbon in mesial left temporal lobe."
+          },
+          {
+            "name": "EEG",
+            "category": "Electrophysiology",
+            "result_summary": "Abnormal; focal slowing and paroxysmal instability arising from the left anterior and mid temporal regions."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Anterior commissurotomy (surgical intervention for seizure control)",
+      "Consideration of alternative medications and further surgery post-procedure"
+    ],
+    "counseling_actions": [
+      "Explain that hearing sensitivity is normal but central processing of complex sounds is compromised.",
+      "Discuss the impact of the temporal lobe lesion on auditory processing and attention.",
+      "Clarify that the inability to perform the P300 task reflects cognitive/attention deficits related to the condition."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Drop attacks (sudden falls)",
+      "Intractable seizure disorder",
+      "History of subdural hematoma from falls"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurosurgery",
+      "rationale_short": "Patient is being evaluated prior to scheduled anterior commissurotomy for intractable seizures."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-surgical",
+    "objective": "Monitor seizure frequency/severity and auditory/cognitive function following anterior commissurotomy."
+  },
+  "expected_outcome": [
+    "Following anterior commissurotomy, the frequency and severity of seizures decreased.",
+    "Patient continues to experience 'drop attacks' post-surgery.",
+    "Alternative medications and further surgery are being considered."
+  ]
+}

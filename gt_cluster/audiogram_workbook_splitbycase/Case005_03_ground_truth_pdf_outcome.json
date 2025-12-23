@@ -1,0 +1,89 @@
+{
+  "case_id": "Case005_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Alport's syndrome",
+      "rationale_short": "Patient has a history of Alport's syndrome, kidney transplant, and dialysis, along with a family history (mother) and progressive sensorineural hearing loss characteristic of the condition."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "soon",
+        "rationale_short": "To assess the degree, configuration, and symmetry of hearing loss given the reported rapid decline."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "soon",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition ability."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry reveals a bilateral, symmetrical, mild sloping to moderately-severe sensorineural hearing loss. Speech reception thresholds agree with pure-tone averages, and word recognition is good at suprathreshold levels. Immittance testing shows normal middle ear function with acoustic reflexes consistent with cochlear pathology (present at lower frequencies, absent/elevated at higher frequencies).",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral mild SNHL at 250 Hz, sloping to moderate/moderately-severe at 500-6000 Hz, rising to moderate at 8000 Hz. Right PTA 48 dB HL, Left PTA 53 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT Right 48 dB HL, Left 53 dB HL. WRS Right 84% at 85 dB HL, Left 90% at 85 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right: Ipsi present 500-1000 Hz, absent 2000-4000 Hz; Contra absent. Left: Ipsi present 500-4000 Hz; Contra present 500-1000 Hz, absent 2000-4000 Hz. Decay negative where measurable."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Evaluation for amplification (hearing aids)",
+      "Evaluation for Hearing Assistive Technology (HAT) options",
+      "Hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Explain the relationship between Alport's syndrome and hearing loss",
+      "Discuss the progressive nature of the hearing loss",
+      "Advise on the importance of annual monitoring"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Rapid decline in hearing"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "For medical clearance for amplification and evaluation of the reported rapid decline in hearing."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor progression of hearing loss."
+  },
+  "expected_outcome": []
+}

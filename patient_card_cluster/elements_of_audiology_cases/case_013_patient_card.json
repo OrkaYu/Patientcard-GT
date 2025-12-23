@@ -1,0 +1,170 @@
+{
+  "case_id": "elements_case_13",
+  "title": "16-Year-Old with Post-Meningitic Hearing Loss",
+  "demographics": {
+    "age_years": 16,
+    "sex": "male",
+    "primary_language": "Manual communication (Sign Language)",
+    "country_region": null
+  },
+  "chief_complaint": "Hearing aids and FM systems have never worked for me. A recent doctor said I have a mixed hearing loss and suggested surgery or powerful hearing aids might help.",
+  "problem_summary": {
+    "onset": "Early childhood",
+    "course": "Stable profound loss, recently misdiagnosed as mixed",
+    "laterality": "Bilateral",
+    "associated_symptoms": "History of bacterial meningitis",
+    "functional_impact": "Uses manual communication; limited speech production; amplification consistently unsuccessful.",
+    "goals_motivation": "Clarify diagnosis and management options following conflicting medical advice."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Initial Evaluation)",
+      "history": {
+        "present_illness": "Patient has hearing loss since early childhood due to bacterial meningitis. Educated in schools for the deaf using a manual approach. Has some speech.",
+        "otologic_history": "Recent evaluation by an otolaryngologist diagnosed 'severe mixed hearing loss' and recommended exploratory middle-ear surgery or power aids.",
+        "prior_management": "Amplification (hearing aids/FM) consistently unsuccessful.",
+        "medical_psych_history": "Severe bacterial meningitis in childhood."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline (Standard Transducers)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Audiogram shows apparent severe-to-profound mixed hearing loss. Air conduction thresholds are 90-110 dB HL in low-to-mid frequencies. Bone conduction thresholds are 50-70 dB HL, creating a significant air-bone gap.",
+          "numeric_results": {
+            "Right_AC_250Hz": "90 dB HL",
+            "Right_AC_500Hz": "100 dB HL",
+            "Right_AC_1000Hz": "110 dB HL",
+            "Right_BC_500Hz": "~60 dB HL",
+            "Left_AC_250Hz": "90 dB HL",
+            "Left_AC_500Hz": "100 dB HL",
+            "Left_AC_1000Hz": "110 dB HL",
+            "Left_BC_500Hz": "~60 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "No response to speech stimuli.",
+          "numeric_results": {
+            "SRT_Right": "NR (No Response)",
+            "SRT_Left": "NR (No Response)",
+            "WRS_Right": "Could not test",
+            "WRS_Left": "Could not test"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table",
+            "Tympanogram Graph"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Static_Compliance_Right": "0.60 cc",
+            "Static_Compliance_Left": "0.57 cc",
+            "Pressure": "Normal (~0 daPa)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral reflexes at 1000 Hz.",
+          "numeric_results": {
+            "ART_1000Hz_Ipsi": "Absent AU",
+            "ART_1000Hz_Contra": "Absent AU"
+          }
+        },
+        {
+          "name": "ABR and OAE",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Objective measures show no response, consistent with severe cochlear pathology.",
+          "numeric_results": {
+            "ABR": "NR (No Response)",
+            "TEOAE": "Absent"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (Verification/Retest)",
+      "history": {
+        "present_illness": "Audiologist suspects vibrotactile responses due to high intensity levels and lack of benefit from amplification."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Retest (Insert Receivers)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Case Management Text"
+          ],
+          "key_findings": "Retesting with insert receivers resulted in no responses at the maximum limits of the audiometer. Moving the bone-conduction oscillator to the mastoid resulted in disappearance of BC responses. This confirms the original 'responses' were vibrotactile.",
+          "numeric_results": {
+            "Result": "No Response at audiometer limits",
+            "Diagnosis": "Profound Sensorineural Hearing Loss"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral profound sensorineural hearing loss resulting from childhood meningitis. Initial testing using standard headphones and forehead bone conduction elicited vibrotactile (tactile) responses, mimicking a mixed hearing loss with an air-bone gap. Retesting with insert receivers and mastoid bone conduction placement eliminated these artifacts, revealing no measurable hearing and confirming that the middle ear system is not the cause of the loss.",
+  "counseling_points": [
+    "The 'hearing' responses seen on the previous test were actually vibrations you felt on your skin, not sounds you heard.",
+    "Because the loss is in the inner ear (nerve) and not the middle ear, surgery will not improve your hearing.",
+    "Standard hearing aids have not worked because the hearing loss is profound; there is very little residual hearing to amplify.",
+    "We can discuss other options like cochlear implants or vibrotactile devices, keeping in mind your preferred use of manual communication."
+  ],
+  "notes_for_actor": [
+    "You communicate primarily via sign language but have some speech.",
+    "You are confused because one doctor said surgery might fix your hearing, but hearing aids never worked for you.",
+    "You may be skeptical of new tests since you've had so many before."
+  ]
+}

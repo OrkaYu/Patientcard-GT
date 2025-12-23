@@ -1,0 +1,140 @@
+{
+  "case_id": "Case020",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sudden Sensorineural Hearing Loss",
+      "rationale_short": "Sudden onset of unilateral high-frequency hearing loss and tinnitus, potentially unnoticed until tinnitus onset."
+    },
+    {
+      "rank": 2,
+      "label": "Central Auditory Nervous System Lesion",
+      "rationale_short": "Absent left contralateral acoustic reflex with present ipsilateral reflexes suggests intra-axial brainstem pathology, possibly related to history of hyponatremia."
+    },
+    {
+      "rank": 3,
+      "label": "Vestibular Schwannoma",
+      "rationale_short": "Unilateral hearing loss and tinnitus are classic red flags, though the specific reflex pattern points more towards a brainstem lesion."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition and check for retrocochlear signs like rollover."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the reflex arc and screen for retrocochlear/brainstem pathology."
+      },
+      {
+        "action": "Ultra-high frequency audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the extent of high-frequency hearing loss beyond 8 kHz."
+      },
+      {
+        "action": "Tinnitus Evaluation",
+        "urgency": "routine",
+        "rationale_short": "To characterize tinnitus pitch, loudness, and maskability."
+      },
+      {
+        "action": "Self-report questionnaires",
+        "urgency": "routine",
+        "rationale_short": "To quantify the functional and emotional impact of tinnitus (THI, TFI)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation revealed a right unilateral high-frequency sensorineural hearing loss steeply sloping at 6-8 kHz, with normal hearing in the left ear. Word recognition was excellent bilaterally. Acoustic reflexes demonstrated a specific abnormality: absent left contralateral reflexes with preserved ipsilateral reflexes, raising suspicion for a central/brainstem pathology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal through 4 kHz, sloping to 50-55 dB HL at 6-8 kHz. Left ear: Normal limits. PTA Right 8 dB, Left 5 dB."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent word recognition (100%) bilaterally; no rollover."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A (normal) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent left contralateral reflexes; right contralateral and bilateral ipsilateral reflexes present."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up focused on tinnitus characterization. Ultra-high frequency testing showed the right ear loss extended to 16 kHz before recovering. Tinnitus was matched to a low frequency (1000 Hz) despite the high-frequency loss. Questionnaires indicated mild distress.",
+        "tests": [
+          {
+            "name": "Ultra-high frequency audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear loss continues through 16 kHz, recovering at 18-20 kHz. Left ear normal 10-20 kHz."
+          },
+          {
+            "name": "Tinnitus Evaluation",
+            "category": "Tinnitus Assessment",
+            "result_summary": "Pitch match 1000 Hz; Loudness match 10 dB SL; Minimum Masking Level 10 dB SL; No residual inhibition."
+          },
+          {
+            "name": "Self-report questionnaires",
+            "category": "Questionnaire",
+            "result_summary": "THI score 26; TFI score 20 (mild bother)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Sound therapy using smartphone apps",
+      "Psychiatric counseling for anxiety"
+    ],
+    "counseling_actions": [
+      "Advise on 'mixing point' strategy for sound therapy (level just below complete masking)",
+      "Discuss the link between anxiety and tinnitus perception",
+      "Explain the importance of ABR or MRI to rule out retrocochlear pathology given asymmetric findings",
+      "Reassure regarding the non-emergency nature of tinnitus while emphasizing diagnostic follow-up"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden unilateral hearing loss",
+      "Unilateral tinnitus",
+      "Abnormal acoustic reflexes (absent left contralateral)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otolaryngology or Neurology",
+      "rationale_short": "Referral for ABR or MRI is strongly recommended to rule out retrocochlear or brainstem pathology (e.g., acoustic neuroma, central lesion) due to asymmetric loss and reflex abnormalities."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor symptoms and re-evaluate need for intervention."
+  },
+  "expected_outcome": [
+    "Patient reported no change in tinnitus or hearing symptoms 6 months later.",
+    "Patient declined further testing or treatment after self-education alleviated anxiety."
+  ]
+}

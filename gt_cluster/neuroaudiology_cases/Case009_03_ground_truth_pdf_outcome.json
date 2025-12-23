@@ -1,0 +1,97 @@
+{
+  "case_id": "Case009_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sudden Sensorineural Hearing Loss secondary to Multiple Sclerosis",
+      "rationale_short": "Sudden onset of right-sided hearing loss in a patient with a known history of MS, coinciding with other neurological symptoms (diplopia, ataxia)."
+    },
+    {
+      "rank": 2,
+      "label": "Retrocochlear Pathology (Brainstem Lesion)",
+      "rationale_short": "ABR abnormalities (delayed/absent waves) and MRI findings of plaques in the pons confirm retrocochlear involvement affecting the cochlear nucleus or nerve."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To assess the degree and configuration of the reported sudden hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To evaluate speech recognition abilities, which may be disproportionately poor in retrocochlear pathology."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "urgent",
+        "rationale_short": "To assess the integrity of the auditory neural pathway given the history of MS and sudden loss."
+      },
+      {
+        "action": "MRI",
+        "urgency": "urgent",
+        "rationale_short": "To visualize potential demyelinating plaques in the brainstem or exclude other retrocochlear lesions."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation confirms a sudden, profound high-frequency sensorineural hearing loss in the right ear with absent speech recognition, contrasting with the stable mild loss in the left ear. ABR testing reveals bilateral retrocochlear signs (delayed/absent waves) that correlate strongly with MRI findings of demyelinating plaques in the low pons and medulla. The findings suggest the sudden loss is due to MS plaque activity affecting the right cochlear nucleus or proximal auditory nerve.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear: Mild low-frequency SNHL rising to normal. Right ear: Normal low-to-mid frequency thresholds with a precipitous drop to profound SNHL starting at 3000 Hz; no response at 4000 Hz via bone conduction."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear: Excellent recognition (96%). Right ear: Could not be assessed (CNT) due to inability to recognize stimuli."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Abnormal bilaterally. Left ear: Normal Waves I & II, poor definition of later waves, extended I-III interval, no obvious Wave V. Right ear: Only delayed Wave I evident at 80 and 90 dB nHL; no Wave II."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Plaques observed in low pons, medulla, and periventricular regions. Lesions on both sides of low pons, with greater involvement on the right extending anterior-posteriorly."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Recommend continued management with neurology for the MS exacerbation",
+      "Monitor hearing status"
+    ],
+    "counseling_actions": [
+      "Discuss the correlation between the sudden hearing loss and the MS flare-up (plaques in the brainstem)",
+      "Explain that the hearing loss in the right ear is sensorineural and currently affects speech understanding significantly",
+      "Review ABR results indicating disruption in the neural pathways, consistent with the MRI findings",
+      "Advise that recovery of the sudden loss may depend on the resolution of the acute MS plaque activity"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset hearing loss",
+      "Neurological symptoms (diplopia, ataxia, numbness)",
+      "Retrocochlear signs on ABR",
+      "Asymmetric sensorineural hearing loss"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurology",
+      "rationale_short": "The patient is experiencing an acute MS exacerbation with sudden hearing loss and brainstem involvement requiring medical management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As determined by Neurology",
+    "objective": "Monitor for potential recovery of hearing thresholds as the MS exacerbation is treated."
+  },
+  "expected_outcome": []
+}

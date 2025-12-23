@@ -1,0 +1,101 @@
+{
+  "case_id": "case_7_12",
+  "title": "Bilateral Otosclerosis with History of Stapedectomies",
+  "demographics": {
+    "age_years": 42,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a history of otosclerosis and have had surgery on both ears. My left ear surgery years ago didn't go well, but the right one helped. I currently only wear a hearing aid on my left side.",
+  "problem_summary": {
+    "onset": "Long-standing; Left stapedectomy >10 years ago, Right stapedectomy ~5 years ago.",
+    "course": "Stable; no significant changes reported in the last 3 years.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "History of dizziness and hyperacusis post-left surgery (now resolved). Denies tinnitus.",
+    "functional_impact": "Uses amplification on the left ear only; previously used amplification on the right prior to successful surgery.",
+    "goals_motivation": "Monitoring hearing status and evaluating amplification needs."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-06-11",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient has bilateral otosclerosis. Left stapedectomy (>10 years ago) resulted in difficult recovery (dizziness, hyperacusis) and no hearing improvement. Right stapedectomy (~5 years ago) resulted in significant improvement.",
+        "otologic_history": "ENT notes indicate a prolapsed left tympanic membrane touching the prosthesis.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Used HA in right ear for many years pre-surgery. Currently uses HA in left ear only.",
+        "patient_goals": "Annual testing and monitoring."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.12"
+          ],
+          "key_findings": "Bilateral mixed hearing loss. Right ear shows moderate mixed loss in lows, rising to mild in highs (4-6k), then sloping. Left ear shows moderately severe mixed loss. Masking dilemma noted for bone conduction.",
+          "numeric_results": {
+            "Right PTA": "55 dB HL",
+            "Left PTA": "63 dB HL",
+            "Right AC Configuration": "Moderate mixed (250-3k), rising to mild (4-6k), sloping to severe (8k)",
+            "Left AC Configuration": "Moderately severe mixed (250-2k), rising to moderate (3-4k), sloping to severe/profound",
+            "Masking Note": "CNM - Could Not Mask; unable to mask BC thresholds in right due to over masking"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.12"
+          ],
+          "key_findings": "Word recognition scores are excellent bilaterally, suggesting good potential for amplification despite the mixed loss.",
+          "numeric_results": {
+            "Right SRT": "55 dB HL",
+            "Left SRT": "60 dB HL",
+            "Right WRS": "100% at 85 dB HL",
+            "Left WRS": "92% at 90 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not measured due to history of otosurgery.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral mixed hearing loss, asymmetric in configuration. The right ear (successful stapedectomy) exhibits moderate mixed loss improving to mild in the high frequencies, while the left ear (failed stapedectomy/prolapsed TM) shows a flatter moderately severe mixed loss. Word recognition is excellent bilaterally (100% AD, 92% AS).",
+  "counseling_points": [
+    "Discuss the benefits of bilateral amplification; while you currently aid only the left ear, the right ear also has hearing loss that could benefit from support.",
+    "Continue medical follow-up with your otologist, especially regarding the status of the left ear (prolapsed eardrum).",
+    "Use hearing protection in noisy environments to preserve remaining hearing.",
+    "Consider Hearing Assistive Technology (HAT) if hearing aids alone are insufficient in specific situations."
+  ],
+  "notes_for_actor": [
+    "You are comfortable with your history and knowledgeable about your surgeries.",
+    "You perceive your right ear as 'good' because the surgery improved it significantly compared to before, even though the test shows it still has hearing loss.",
+    "You are not currently experiencing dizziness or hyperacusis."
+  ]
+}

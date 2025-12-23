@@ -1,0 +1,88 @@
+{
+  "case_id": "Case006_06",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Dysfunction (Right Hemisphere Lesion)",
+      "rationale_short": "Normal peripheral hearing with severe deficits on central tests (dichotic, temporal patterning) and abnormal MLR, consistent with the known right insula lesion."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline assessment of peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of speech recognition ability in quiet."
+      },
+      {
+        "action": "Central Behavioral Tests",
+        "urgency": "routine",
+        "rationale_short": "Evaluation of central auditory processing abilities given the neurological history."
+      },
+      {
+        "action": "Middle Latency Response (MLR)",
+        "urgency": "routine",
+        "rationale_short": "Electrophysiological assessment of the central auditory pathway."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing sensitivity and speech recognition in quiet were normal. However, central auditory evaluation revealed severe deficits consistent with a right hemisphere lesion affecting the insula. There was a marked 'left ear effect' on dichotic and monaural low-redundancy speech tasks, and bilateral deficits on temporal patterning tasks. The MLR was abnormal/unusual with reduced Pa waves.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral",
+            "result_summary": "Normal thresholds bilaterally (0-15 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Peripheral",
+            "result_summary": "Word recognition scores were normal bilaterally (RE 88%, LE 92%)."
+          },
+          {
+            "name": "Central Behavioral Tests",
+            "category": "Central",
+            "result_summary": "Abnormal. Marked left ear deficits on Dichotic Rhyme (~10%), Competing Sentences (0%), Dichotic Digits (~50%), Compressed Speech (~55%), and Low Pass Filtered Speech. Bilateral deficits on Frequency Patterns (~10%)."
+          },
+          {
+            "name": "Middle Latency Response (MLR)",
+            "category": "Electrophysiology",
+            "result_summary": "Difficult to interpret/unusual. Pa wave reduced or non-replicable in most conditions; Left Ear T4 tracing showed the best Pa. Na waves present with normal latencies."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Neurologic monitoring (ongoing)"
+    ],
+    "counseling_actions": [
+      "Explain that peripheral hearing is normal but the brain struggles to process complex signals, especially from the left side.",
+      "Discuss the correlation between the left ear deficits and the right-sided brain lesion.",
+      "Highlight that auditory performance may be compromised in challenging listening environments despite lack of subjective complaints."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Right hemisphere lesion (possible glioma)",
+      "Seizures"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Patient is already under neurologic monitoring for the known lesion and seizures."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "None",
+    "objective": "Patient moved away before definite diagnosis or follow-up could be established."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,90 @@
+{
+  "case_id": "Case005_24",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Presbycusis",
+      "rationale_short": "95-year-old patient with a 25-year history of progressive, bilateral, symmetrical sensorineural hearing loss."
+    },
+    {
+      "rank": 2,
+      "label": "Familial Sensorineural Hearing Loss",
+      "rationale_short": "Significant family history of hearing loss reported in maternal grandmother, sister, and two children."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration given the long history of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition ability, especially given complaints of poor clarity."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology, although often difficult in elderly patients."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation revealed a bilateral, symmetrical, moderately severe sensorineural hearing loss sloping to severe/profound in the high frequencies. Speech recognition was disproportionately poor (34-40%), indicating significant distortion. Middle ear function was normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral moderately severe SNHL at 250-2000 Hz (approx 50-65 dB HL), sloping to severe (4k Hz) and profound (8k Hz). No air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT Right 60 dB HL, Left 62 dB HL. WRS very poor: Right 40% at 90 dB HL, Left 34% at 90 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally (Right: 0.90 mmho, 45 daPa; Left: 1.20 mmho, -50 daPa)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Threshold and decay testing could not be measured due to excessive artifact."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Consider different Hearing Assistive Technology (HAT) such as captioning for television and telephone",
+      "Fit new amplification (hearing aids)",
+      "Annual hearing testing"
+    ],
+    "counseling_actions": [
+      "Discuss and encourage communication strategies"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient requires ongoing audiological management including new amplification, HAT, and annual monitoring."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing sensitivity"
+  },
+  "expected_outcome": []
+}

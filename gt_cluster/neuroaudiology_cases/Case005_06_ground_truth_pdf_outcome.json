@@ -1,0 +1,90 @@
+{
+  "case_id": "Case005_06",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Left Inferior Colliculus Lesion (Midbrain)",
+      "rationale_short": "Confirmed by CT scan showing a lesion in the left posterior midbrain limited to the inferior colliculus; consistent with contralateral deficits on dichotic digits."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline evaluation of peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of speech recognition in quiet."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To determine if the ABR is sensitive to a lesion at the level of the inferior colliculus."
+      },
+      {
+        "action": "Dichotic Digits",
+        "urgency": "routine",
+        "rationale_short": "Behavioral central auditory test to assess processing, given the midbrain lesion."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrated normal peripheral hearing and normal ABR results, indicating that the auditory pathway up to the lateral lemniscus/inferior colliculus level is intact and that the lesion did not disrupt ABR generation. However, central auditory testing (dichotic digits) revealed a bilateral deficit, worse in the right ear (contralateral to the left midbrain lesion), consistent with dysfunction at the level of the inferior colliculus.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Normal hearing sensitivity bilaterally (thresholds 0-10 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Normal speech recognition scores bilaterally."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Normal waves I through V for both ears; wave V latency ~5.5-5.8 ms. The lesion did not affect wave generation."
+          },
+          {
+            "name": "Dichotic Digits",
+            "category": "Central Auditory Processing",
+            "result_summary": "Bilateral abnormality, with the right ear (72%) showing a greater deficit than the left (85%)."
+          },
+          {
+            "name": "CT Scan",
+            "category": "Imaging",
+            "result_summary": "Lesion in the left posterior midbrain, essentially limited to the inferior colliculus (likely a lipoma)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [],
+    "counseling_actions": [
+      "Explain that standard hearing tests and the ABR are normal, indicating the pathway up to the lower brainstem is working well.",
+      "Clarify that the lesion is located higher in the auditory pathway (midbrain).",
+      "Discuss the results of the dichotic digits test, noting the difficulty in the right ear is expected due to the left-sided brain lesion affecting processing of competing information."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Left Inferior Colliculus lesion (midbrain)"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurologist",
+      "rationale_short": "Patient is already under the care of a neurologist for seizures; this was a research evaluation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Return to neurologist for ongoing management of seizure disorder."
+  },
+  "expected_outcome": []
+}

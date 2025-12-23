@@ -1,0 +1,123 @@
+{
+  "case_id": "Case005_08",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Left brainstem compression (vascular loop)",
+      "rationale_short": "Symmetrical hearing loss but significant left-sided retrocochlear findings (abnormal ABR, elevated reflexes, poor dichotic digits) and imaging showing a large tortuous vertebral artery displacing the brainstem."
+    },
+    {
+      "rank": 2,
+      "label": "Meniere's disease",
+      "rationale_short": "Previous diagnosis due to episodic vertigo and fullness, but likely a manifestation of the vascular compression (hydropic-like attacks) rather than idiopathic endolymphatic hydrops."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology given the asymmetry in symptoms."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate neural integrity of the auditory pathway."
+      },
+      {
+        "action": "Dichotic Digit Test",
+        "urgency": "soon",
+        "rationale_short": "To assess central auditory processing."
+      },
+      {
+        "action": "Radiologic evaluation (MRI and Arteriogram)",
+        "urgency": "soon",
+        "rationale_short": "To visualize structural pathology in the brainstem/CPA region."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Despite symmetrical mild-to-moderate high-frequency sensorineural hearing loss, the patient exhibits significant left-sided retrocochlear signs. Acoustic reflexes are elevated or absent with left ear stimulation, and the ABR is grossly abnormal on the left (poor morphology, rate sensitivity, abnormal ILD). Dichotic listening is also significantly degraded in the left ear. Imaging confirms a large tortuous vertebral artery on the left displacing the brainstem.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Mild to moderate high-frequency sensorineural hearing loss, bilaterally symmetrical (thresholds ~10-55 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent speech recognition bilaterally (Right 92%, Left 80%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Contralateral reflexes present but elevated for left ear stimulation (90-100 dB HL) and absent at 4000 Hz; right ear stimulation yielded lower thresholds (80-95 dB HL)."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear normal. Left ear abnormal: only Wave V present with extended latency; abnormal ILD (0.4 msec). Wave V lost at high repetition rate (80 dB nHL) in the left ear."
+          },
+          {
+            "name": "Dichotic Digit Test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Performance significantly poorer for the left ear (42%) compared to the right ear (85%)."
+          },
+          {
+            "name": "Radiologic evaluation (MRI and Arteriogram)",
+            "category": "Imaging",
+            "result_summary": "Arteriogram showed a large, tortuous vertebral vessel on the left; MRI indicated the artery displaced the brainstem to the right."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Medical management of vascular compression"
+    ],
+    "counseling_actions": [
+      "Explain that while hearing loss appears symmetrical, stress tests (ABR, reflexes, dichotic digits) reveal left brainstem pathway dysfunction.",
+      "Discuss the correlation between the vascular loop seen on imaging and the patient's chronic dizziness and headaches.",
+      "Clarify that symptoms previously attributed to Meniere's disease are likely caused by the vascular compression."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetrical retrocochlear findings (ABR, reflexes, dichotic digits)",
+      "Brainstem displacement on imaging"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurology or Neurosurgery",
+      "rationale_short": "To address the vascular compression of the brainstem identified on imaging."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As recommended by neurology/neurosurgery",
+    "objective": "Management of vascular compression and monitoring of symptoms."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,223 @@
+{
+  "case_id": "case18_Occupational_Noise_Induced_Hearing_Loss",
+  "title": "Occupational Noise-Induced Hearing Loss in a Zumba Instructor",
+  "demographics": {
+    "age_years": 27,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed intermittent buzzing in both ears after listening to music with headphones for long periods, but it usually goes away after a few minutes.",
+  "problem_summary": {
+    "onset": "Referral in August 2016; symptoms noted intermittently prior to this.",
+    "course": "Stable hearing thresholds between June and December 2016.",
+    "laterality": "Bilateral noise exposure; Left ear shows specific audiometric notch.",
+    "associated_symptoms": "Intermittent bilateral tinnitus ('buzzing') after noise exposure.",
+    "functional_impact": "None reported; patient communicates well in groups and noisy environments.",
+    "goals_motivation": "Referred by a friend; initially low self-efficacy regarding hearing protection despite positive attitude."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-06-20",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports intermittent buzzing after headphone use. Works as a Zumba instructor (2 years, 6 classes/week).",
+        "otologic_history": "Negative history of otologic diseases. Excellent general health.",
+        "noise_exposure_history": "Zumba instructor for 2 years; classes up to 100 participants; music levels can reach >90 dBA. Also uses headphones for long periods.",
+        "medical_psych_history": "Unremarkable.",
+        "prior_management": "None.",
+        "patient_goals": "Assessment driven by friend's referral."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally with a specific notch in the left ear at 6000 Hz.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "All frequencies ≤ 15 dB HL",
+            "Left_Ear_Thresholds": "All frequencies ≤ 15 dB HL except 6000 Hz",
+            "Left_Ear_6kHz_Notch": "30 dB HL",
+            "SRT_Right": "12 dB HL",
+            "SRT_Left": "5 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1"
+          ],
+          "key_findings": "Excellent word recognition scores in both ears.",
+          "numeric_results": {
+            "WRS_Right": "100% at 40 dB HL",
+            "WRS_Left": "100% at 40 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1"
+          ],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Type": "Type A bilaterally",
+            "Right_ECV": "0.89 mL",
+            "Left_ECV": "0.80 mL",
+            "Right_Peak_Pressure": "0 daPa",
+            "Left_Peak_Pressure": "0 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.1"
+          ],
+          "key_findings": "Ipsilateral reflexes within normal limits for 500, 1000, 2000, and 4000 Hz.",
+          "numeric_results": {
+            "Right_Ipsi_Reflexes": "85, 80, 80, 80 dB HL",
+            "Left_Ipsi_Reflexes": "85, 80, 80, 85 dB HL"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.2",
+            "Figure 18.3"
+          ],
+          "key_findings": "DPOAEs: Right ear normal except 3.5k and 6.25k Hz. Left ear reduced amplitude/absent between 4750-6500 Hz. TOAEs: Normal in both ears.",
+          "numeric_results": {
+            "TOAE_Amplitude": "> 20 dB SPL (Normal)",
+            "DPOAE_Left_Deficit_Range": "4750 to 6500 Hz (< 0 dB SPL)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.4"
+          ],
+          "key_findings": "Auditory Brainstem Response (ABR) showed normal absolute and interpeak latencies for Waves I, III, and V.",
+          "numeric_results": {
+            "Stimulus": "70 dB nHL click",
+            "Rate": "45.1/s"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2016-12-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up visit to monitor hearing status.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "Continued work as Zumba instructor.",
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "Monitoring.",
+        "patient_goals": "Re-evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "No change in hearing thresholds compared to previous visit.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 18.2"
+          ],
+          "key_findings": "DPOAEs repeated; similar pattern of low response amplitude across selected frequencies observed in both ears.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "soundfield",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Knowledge, Attitudes, and Behavior (KAB) questionnaire administered.",
+          "numeric_results": {
+            "Knowledge_Score": "56.3% (Average)",
+            "Self_Efficacy_Score": "-12.5 (Negative)",
+            "Attitude": "Positive (believes hearing is important)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally, with the exception of a distinct noise-induced notch at 6,000 Hz (30 dB HL) in the left ear. Speech recognition is excellent (100%) in quiet. While pure-tone thresholds are largely normal, DPOAE testing reveals reduced amplitudes in the high frequencies (4-8 kHz range), particularly in the left ear, suggesting early outer hair cell dysfunction consistent with noise exposure before it is fully evident on the audiogram.",
+  "counseling_points": [
+    "Your hearing test shows normal hearing in the right ear, but a small 'notch' in the left ear at a high pitch, which is a classic sign of early noise damage.",
+    "The 'buzzing' (tinnitus) you experience after headphone use is a warning sign from your ears that they are being overexposed.",
+    "Even though you hear well now, the specialized tests (OAEs) show some strain on the hair cells in your inner ear.",
+    "As a Zumba instructor, you are at high risk. We recommend high-fidelity 'musician's earplugs' which lower the volume without muffling the music or your voice.",
+    "It is crucial to wear hearing protection during every class to prevent this notch from deepening or spreading to other pitches."
+  ],
+  "notes_for_actor": [
+    "You are a fit, healthy 27-year-old Zumba instructor.",
+    "You are generally positive and cooperative but initially don't feel you have a 'problem' because you hear fine in daily life.",
+    "You might be skeptical that you need earplugs because you need to hear the music beat and your students clearly.",
+    "You admit to using headphones for long periods and feeling a 'buzz' afterwards, but you've dismissed it as temporary until now."
+  ]
+}

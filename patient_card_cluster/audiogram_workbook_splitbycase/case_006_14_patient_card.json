@@ -1,0 +1,114 @@
+{
+  "case_id": "case_6_14",
+  "title": "Unilateral Conductive Hearing Loss Post-Tympanoplasty",
+  "demographics": {
+    "age_years": 41,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've noticed hearing loss in my left ear; sounds seem to lack bass on that side. I also have a constant ringing in that ear, but it doesn't really bother me.",
+  "problem_summary": {
+    "onset": "Childhood history of recurrent otitis media; hearing loss noted bilaterally at time of perforations; surgery performed 1 year ago.",
+    "course": "Right ear improved after surgery 1 year ago; Left ear did not improve.",
+    "laterality": "Left ear worse than right.",
+    "associated_symptoms": "Constant non-bothersome tinnitus (left); reduced bass perception (left).",
+    "functional_impact": "Can hear with the left ear but quality is reduced (lack of bass).",
+    "goals_motivation": "Seeking evaluation of persistent loss in left ear."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-11-24",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports hearing loss in the left ear with reduced bass perception. Constant, non-bothersome tinnitus in the left ear.",
+        "otologic_history": "Recurrent otitis media as a child. Bilateral tympanic membrane perforations. Bilateral tympanoplasties performed 1 year prior.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Bilateral tympanoplasties 1 year ago. Right ear hearing improved, left ear did not.",
+        "patient_goals": "Evaluation of left ear hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op (1 year)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.14"
+          ],
+          "key_findings": "Right ear: Normal thresholds 250-3000 Hz, sloping to slight conductive loss 4000-8000 Hz. Left ear: Moderate rising to mild conductive loss low-mids, sloping to moderate conductive at 3000 Hz, then rising/sloping in highs. Significant air-bone gaps present in the left ear.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "0-15 dB HL (250-3k Hz), 20 dB HL (6k-8k Hz)",
+            "Left_AC_Thresholds": "35-40 dB HL (250-2k Hz), 35-40 dB HL (4k-8k Hz)",
+            "Left_BC_Thresholds": "0-10 dB HL (Normal)",
+            "Left_Air_Bone_Gap": "Approx 30-40 dB across frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op (1 year)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.14"
+          ],
+          "key_findings": "SRT scores align with PTA. Word recognition is excellent in the right ear and good in the left ear when amplified.",
+          "numeric_results": {
+            "Right_SRT": "12 dB HL",
+            "Right_WRS": "96% at 55 dB HL",
+            "Left_SRT": "35 dB HL",
+            "Left_WRS": "92% at 80 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-op (1 year)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not performed due to previous otosurgery.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Post-op (1 year)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Both tympanic membranes intact. Left tympanic membrane slightly retracted.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity in the right ear and a mild-to-moderate conductive hearing loss in the left ear. Bone conduction thresholds are normal bilaterally, indicating healthy inner ear function. Speech recognition scores are excellent bilaterally at suprathreshold levels. The conductive component in the left ear persists despite previous tympanoplasty.",
+  "counseling_points": [
+    "Your hearing test shows that the inner ear (nerve) is working perfectly on both sides.",
+    "The hearing loss in your left ear is 'conductive,' meaning sound is being blocked from reaching the nerve efficiently, likely due to the status of the eardrum or middle ear space after your previous surgery.",
+    "Because the nerve is healthy, you have excellent potential to understand speech if we can make sounds loud enough.",
+    "We need to review your surgical records and have the otologist examine the left ear again, as the eardrum appears slightly retracted.",
+    "Depending on the medical recommendation, options may include revision surgery or a hearing aid for the left ear."
+  ],
+  "notes_for_actor": [
+    "Portray a 41-year-old male.",
+    "You are not distressed by the tinnitus; mention it casually.",
+    "Be specific about the quality of sound in the left ear: describe it as 'missing bass' or 'tinny'.",
+    "You have a history of ear infections as a child and surgery a year ago, so you are somewhat familiar with ear procedures."
+  ]
+}

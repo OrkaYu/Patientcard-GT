@@ -1,0 +1,76 @@
+{
+  "case_id": "Case006_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Conductive Hearing Loss (Left)",
+      "rationale_short": "History of chronic otitis media and tympanomastoidectomy; audiogram reveals significant air-bone gap with normal bone conduction."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing sensitivity given history of unilateral hearing loss and surgery."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech reception thresholds and word recognition abilities to determine functional impact."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with normal hearing in the right ear and a moderate to profound conductive hearing loss in the left ear, consistent with the history of tympanomastoidectomy. Speech recognition is excellent in the left ear when presented at suprathreshold levels, indicating good potential for amplification.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal hearing (0-10 dB HL). Left ear: Moderate to profound conductive loss (AC 40-90 dB HL) with normal bone conduction (0-10 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 8 dB HL, WRS 100%. Left ear: SRT 52 dB HL, WRS 96% at 85 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not measured due to surgical history."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Otologic follow-up",
+      "Evaluation for left ear amplification",
+      "Evaluation for Hearing Assistive Technology (HAT)",
+      "Annual hearing testing"
+    ],
+    "counseling_actions": [
+      "Explained conductive nature of hearing loss related to surgical history",
+      "Discussed candidacy for amplification given excellent word recognition scores",
+      "Advised on requirement for medical clearance prior to hearing aid fitting"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT",
+      "rationale_short": "Medical clearance required for amplification due to conductive loss and surgical history."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor stability of hearing loss."
+  },
+  "expected_outcome": [
+    "Otologic follow-up was scheduled.",
+    "Recommendations included annual testing and evaluation for left ear amplification and HAT pending medical clearance."
+  ]
+}

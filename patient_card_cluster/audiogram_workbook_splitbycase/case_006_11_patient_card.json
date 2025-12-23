@@ -1,0 +1,117 @@
+{
+  "case_id": "case_6_11",
+  "title": "Left Cholesteatoma with Otorrhea and Otalgia",
+  "demographics": {
+    "age_years": 77,
+    "sex": "male",
+    "primary_language": "Non-English (Interpreter used)",
+    "country_region": null
+  },
+  "chief_complaint": "I have had pain in my left ear for years, but it has gotten much worse recently. My hearing in that ear has also dropped over the last 3 months, and I have drainage and itching.",
+  "problem_summary": {
+    "onset": "Chronic (several years) with acute exacerbation over the past 3 months.",
+    "course": "Progressive worsening of pain and hearing loss.",
+    "laterality": "Left ear symptoms; Right ear used for telephone.",
+    "associated_symptoms": "Otalgia, otorrhea, itching, hearing loss.",
+    "functional_impact": "Relies on right ear for communication; unable to use left ear for telephone.",
+    "goals_motivation": "Seeking relief from pain and drainage; concerned about surgery."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-12-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports left ear otalgia for several years, recently increasing in intensity. Noticed decreased hearing in the left ear over the past 3 months. Reports otorrhea and itching.",
+        "otologic_history": "Diagnosed with left ear infection 2 weeks prior; symptoms did not subside with medication. Known perforation in the left tympanic membrane.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Recent medical treatment for ear infection (failed).",
+        "patient_goals": "Diagnosis and management of ear symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.11"
+          ],
+          "key_findings": "Right ear shows slight sensorineural hearing loss rising to normal (250-1000 Hz), sloping to moderate/moderately-severe in high frequencies. Left ear shows moderately severe rising to mild conductive loss (250-3000 Hz) sloping to severe conductive loss in highs. Significant air-bone gaps present in the left ear.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250-1k Hz: ~15-20 dB HL; 4k Hz: ~35 dB HL; 8k Hz: ~60 dB HL",
+            "LE_AC_Thresholds": "250 Hz: 60 dB HL; 2k Hz: 35 dB HL; 8k Hz: 80 dB HL",
+            "LE_BC_Thresholds": "250-1k Hz: 10-15 dB HL; 4k Hz: 30 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.11"
+          ],
+          "key_findings": "Speech Awareness Threshold (SAT) used due to language barrier. SAT results agreed with PTA. Word Recognition Score (WRS) could not be measured.",
+          "numeric_results": {
+            "RE_SAT": "10 dB HL",
+            "LE_SAT": "40 dB HL",
+            "WRS": "CNT (Could Not Test)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.11"
+          ],
+          "key_findings": "Right ear tympanogram was hypercompliant (Type Ad). Left ear not tested due to otorrhea.",
+          "numeric_results": {
+            "RE_Static_Admittance": "3.0 mL",
+            "RE_Peak_Pressure": "30 daPa",
+            "RE_Volume": "1.9 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not measured due to artifact from hypercompliant TM (Right) and otorrhea (Left).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a slight to moderately-severe high-frequency sensorineural hearing loss in the right ear and a significant conductive hearing loss in the left ear. The left ear demonstrates a large air-bone gap consistent with middle ear pathology. Speech testing was limited to detection thresholds (SAT) due to a language barrier, but results were consistent with pure-tone thresholds. Immittance testing revealed a hypercompliant system on the right and was deferred on the left due to active drainage.",
+  "counseling_points": [
+    "A CT scan has confirmed a cholesteatoma (a skin cyst) in your left ear, which explains the drainage, pain, and hearing loss.",
+    "The standard medical recommendation is surgery (tympanoplasty and mastoidectomy) to remove the growth and make the ear safe.",
+    "Since you have decided against surgery for now, it is critical to attend regular follow-up appointments to 'wait and watch' the condition.",
+    "You must keep the left ear dry and report any changes in symptoms immediately."
+  ],
+  "notes_for_actor": [
+    "You require an interpreter; do not speak English fluently.",
+    "You are hesitant/anxious about the idea of surgery and prefer a conservative approach despite the diagnosis.",
+    "You rely heavily on your right ear for communication, especially on the phone."
+  ]
+}

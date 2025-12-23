@@ -1,0 +1,88 @@
+{
+  "case_id": "Case004_09",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Normal hearing sensitivity",
+      "rationale_short": "Pure-tone thresholds are within normal limits (0-10 dB HL) across standard frequencies bilaterally, with excellent speech recognition scores and normal middle ear function."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To establish baseline hearing thresholds across standard and extended high frequencies prior to ototoxic chemotherapy."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition thresholds and word recognition abilities as part of the baseline evaluation."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and rule out conductive pathology."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the acoustic reflex arc and check for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates normal hearing sensitivity bilaterally across the standard frequency range (250–8000 Hz) with excellent speech discrimination. Extended high-frequency baselines (9–16 kHz) were successfully recorded for ototoxicity monitoring. Middle ear function is normal with present acoustic reflexes.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal thresholds (0-10 dB HL) from 250-8000 Hz bilaterally. High-frequency thresholds (9-16 kHz) recorded: Right ear 15-40 dB HL; Left ear 20-40 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT Right 7 dB HL, Left 5 dB HL. WRS 100% at 55 dB HL bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A tympanograms bilaterally (Right: 0.3 mmho, -5 daPa; Left: 0.4 mmho, 10 daPa)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral and contralateral reflexes present at normal levels (500-4000 Hz). Reflex decay negative."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing protection use at work",
+      "Serial hearing monitoring (prior to next cisplatin dose)"
+    ],
+    "counseling_actions": [
+      "Counseled on normal baseline hearing results.",
+      "Provided information regarding cisplatin ototoxicity (potential hearing loss and tinnitus).",
+      "Advised to have hearing checked prior to the next dose of cisplatin to monitor for changes.",
+      "Educated on the synergistic risk of noise exposure and ototoxic medication.",
+      "Recommended diligent use of hearing protection at her job in the cheese production facility."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Audiology",
+      "rationale_short": "Patient requires serial monitoring prior to her next chemotherapy dose to detect any ototoxic changes."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Prior to next dose of cisplatin",
+    "objective": "Monitor hearing thresholds for signs of ototoxicity."
+  },
+  "expected_outcome": []
+}

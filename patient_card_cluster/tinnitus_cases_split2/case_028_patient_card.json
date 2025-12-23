@@ -1,0 +1,87 @@
+{
+  "case_id": "Case28_Normal_Hearing",
+  "title": "Normal Hearing (Clinical Profile: Hidden Hearing Loss & Sound Intolerance)",
+  "demographics": {
+    "age_years": null,
+    "sex": null,
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "Patient reports sound-provoked distress, bothersome tinnitus, and/or sound intolerance despite being told their hearing is normal.",
+  "problem_summary": {
+    "onset": "Often associated with noise exposure or aging, though specific onset varies.",
+    "course": "Persistent; often exacerbated by 'natural compensatory adjustments' in the auditory pathway.",
+    "laterality": "Not specified (typically bilateral in this clinical profile).",
+    "associated_symptoms": "Tinnitus, hyperacusis (decreased loudness tolerance), difficulty communicating in noise.",
+    "functional_impact": "Reduced quality of life; ability to function is influenced; potential for 'sudden and profound rage' at everyday sounds (e.g., family member eating).",
+    "goals_motivation": "Seeking explanation for symptoms despite 'normal' test results; seeking relief from tinnitus/intolerance."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient presents with complaints of communication difficulties, tinnitus, or sound intolerance. They have likely been told by other providers that their hearing is 'normal' based on standard testing.",
+        "otologic_history": "Potential 'hidden hearing loss' (synaptopathy) not detected by standard audiogram.",
+        "noise_exposure_history": "Likely history of noise exposure contributing to cochlear synaptopathy.",
+        "medical_psych_history": "May experience anxiety or distress related to sound environment.",
+        "prior_management": "May have been using hearing protection to cope with offending sounds (which can be counterproductive).",
+        "patient_goals": "To understand why they struggle despite normal results and to manage sound sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Thresholds are within normal limits across the standard frequency range (250–8,000 Hz).",
+          "numeric_results": {
+            "Range": "250–8,000 Hz within normal limits"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patients may demonstrate impaired words-in-noise recognition despite normal audiograms, though some may score well but still struggle in real-world environments.",
+          "numeric_results": null
+        },
+        {
+          "name": "Loudness Tolerance Testing",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "May identify decreased tolerance for routine sounds (reduced dynamic range). Results can vary considerably from trial to trial.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This clinical profile represents a patient with 'Hidden Hearing Loss' or auditory processing deficits not captured by the standard audiogram. While pure-tone thresholds (250–8,000 Hz) are normal, the patient exhibits signs of central gain compensation, resulting in tinnitus and decreased loudness tolerance. The standard audiogram fails to reflect the patient's functional deficits in noise or their hypersensitivity to sound.",
+  "counseling_points": [
+    "Your audiogram is normal, but that does not mean your hearing system is functioning perfectly; 'hidden' deficits can cause the symptoms you are experiencing.",
+    "Avoid using hearing protection for everyday sounds, as this can increase the brain's sensitivity and make the problem worse (central gain).",
+    "Sound therapy (using apps, nature sounds, or white noise) can help desensitize your auditory system and manage tinnitus.",
+    "Desensitization is a marathon, not a sprint; consistent, low-level sound enrichment is key to recovery.",
+    "Hearing aids with tinnitus sound generation or low-gain amplification can be used to provide an enriched sound environment."
+  ],
+  "notes_for_actor": [
+    "This is a theoretical profile rather than a specific case study.",
+    "Portray a patient who is frustrated because previous doctors told you 'your hearing is fine,' yet you suffer from ringing in the ears and cannot tolerate the sound of dishes clanking or people chewing.",
+    "Express confusion about how you can have 'normal hearing' but still struggle to understand speech in noisy restaurants."
+  ]
+}

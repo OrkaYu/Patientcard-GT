@@ -1,0 +1,114 @@
+{
+  "case_id": "Case008",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sensorineural Hearing Loss (Presbycusis)",
+      "rationale_short": "Bilateral, slightly asymmetric high-frequency SNHL consistent with age-related hearing loss."
+    },
+    {
+      "rank": 2,
+      "label": "Mild Cognitive Impairment (MCI)",
+      "rationale_short": "Diagnosed by geriatrician and neuropsychologist (amnestic MCI); impacts auditory processing and rehabilitation strategy."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing thresholds given patient age and reported communication difficulties."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Evaluate retrocochlear pathway integrity."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "Assess signal-to-noise ratio loss using BKB-SIN, which is less taxing on memory for patients with cognitive impairment."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Testing revealed bilateral, slightly asymmetric high-frequency sensorineural hearing loss, sloping to moderate/moderately-severe levels. Speech recognition in quiet was excellent, and speech-in-noise performance (BKB-SIN) was within normal limits. Middle ear function was normal. Acoustic reflexes were largely present, though contralateral right stimulation was absent; however, retrocochlear pathology was not suspected due to a recent negative neurology workup.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal thresholds through 1000 Hz, sloping to moderate (Right) and moderately-severe (Left) high-frequency SNHL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 25 dB HL bilaterally; WRS 100% at 60 dB HL bilaterally; LDLs > 110 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral present bilaterally; Contralateral present left stim, absent right stim."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "BKB-SIN score 2.5 dB SNR loss (within normal limits)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Trial period with bilateral premium rechargeable Receiver-In-The-Canal (RIC) hearing aids",
+      "Initial fitting with open domes, later switched to custom earmolds due to retention issues",
+      "Group rehabilitation classes (AR classes) for new hearing aid users",
+      "Use of visual cues (red dot on charger) to assist with device management",
+      "Referral to specialized social worker program for caregiver support",
+      "Referral to 'Learning the Ropes for Living with MCI' cognitive intervention program"
+    ],
+    "counseling_actions": [
+      "Educate on the link between hearing loss, cognitive decline, and listening effort",
+      "Involve wife in all appointments to reduce caregiver burden and assist with device management",
+      "Discuss realistic expectations regarding progressive cognitive decline",
+      "Counsel on behavioral communication strategies and environmental modifications",
+      "Keep technology simple to minimize cognitive demand"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Absent contralateral acoustic reflex (right)",
+      "Asymmetric sensorineural hearing loss"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Red flag findings (asymmetry, absent reflex) were noted but referral to ENT was not made as the patient had recently undergone a full neurology workup which ruled out retrocochlear pathology."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Hearing aid check at 2 weeks, with subsequent visits at 3 weeks, 1 month, and 3 months.",
+    "objective": "Monitor device use, address retention/handling difficulties, and support the patient and wife in adaptation."
+  },
+  "expected_outcome": [
+    "COSI: Patient reported hearing 'better' or 'much better' in 3 out of 4 target situations and rated ability to hear as 'almost always'.",
+    "Device Management: Initial difficulties with retention (domes) and insertion/charging (first custom molds) required multiple modifications and retraining.",
+    "Final Status: After 3 months and a switch to a different style of custom earmolds, patient reported significant benefit and successful use with wife's assistance."
+  ]
+}

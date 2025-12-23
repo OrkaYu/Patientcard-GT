@@ -1,0 +1,170 @@
+{
+  "case_id": "elements_case_07",
+  "title": "51-year-old male with speech-in-noise difficulties",
+  "demographics": {
+    "age_years": 51,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have vague difficulty understanding speech, especially in noisy or otherwise untoward listening circumstances.",
+  "problem_summary": {
+    "onset": "Not specified",
+    "course": "Not specified",
+    "laterality": "Bilateral (implied by general difficulty)",
+    "associated_symptoms": "None reported (no balance issues, tinnitus, or ear disease).",
+    "functional_impact": "Difficulty understanding speech in noise; understanding improves if paying very close attention.",
+    "goals_motivation": "Seeking explanation for difficulties after a previous medical examination offered no answer."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports vague difficulty understanding speech, particularly in noise. He feels understanding improves with close attention. He has previously seen a medical examiner who offered no explanation.",
+        "otologic_history": "No history of ear disease or skull trauma.",
+        "noise_exposure_history": "No history of noise exposure.",
+        "medical_psych_history": "No balance difficulties reported.",
+        "prior_management": "Previous medical examination was inconclusive.",
+        "patient_goals": "Diagnosis and explanation of symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. Thresholds are consistently between 0 and 10 dB HL across all frequencies (250-8000 Hz).",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "Left_Ear_Thresholds": "0-10 dB HL across 250-8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) align with pure tone averages. Speech Recognition Scores (SRS) are excellent bilaterally.",
+          "numeric_results": {
+            "Right_SRT": "0 dB HL",
+            "Right_SRS": "98%",
+            "Left_SRT": "5 dB HL",
+            "Left_SRS": "100%"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Ipsilateral reflexes are present at normal levels. Contralateral reflexes are notably absent bilaterally.",
+          "numeric_results": {
+            "Right_Ipsilateral": "85 dB HL",
+            "Right_Contralateral": "Absent",
+            "Left_Ipsilateral": "90 dB HL",
+            "Left_Contralateral": "Absent"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table",
+            "Tympanogram Graph"
+          ],
+          "key_findings": "Normal Type A tympanograms with normal static compliance.",
+          "numeric_results": {
+            "Right_Static_Compliance": "0.72 cc",
+            "Left_Static_Compliance": "0.80 cc"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "All waves normal; interpeak latencies normal; latency-intensity function normal.",
+          "numeric_results": null
+        },
+        {
+          "name": "TEOAE",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Transient Evoked Otoacoustic Emissions are present bilaterally.",
+          "numeric_results": {
+            "Result": "Present"
+          }
+        },
+        {
+          "name": "Tone decay test",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "No significant tone decay observed at 4000 Hz.",
+          "numeric_results": {
+            "Right_Decay": "0 dB in 60 seconds",
+            "Left_Decay": "5 dB in 60 seconds"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal bilateral hearing sensitivity, excellent speech recognition in quiet, normal tympanometry, normal ABR, and present OAEs. However, there is a specific finding of absent contralateral acoustic reflexes bilaterally, despite normal ipsilateral reflexes. This pattern, combined with complaints of difficulty in noise, suggests a possible central auditory processing disorder or retrocochlear pathology affecting the crossover pathways.",
+  "counseling_points": [
+    "Your standard hearing test results are excellent, showing you can hear very soft sounds and understand speech clearly in quiet environments.",
+    "However, we found a specific irregularity in your acoustic reflex test (the muscle reaction to loud sounds). While the reflex works when sound and measurement are on the same side, it is absent when crossing from one ear to the other.",
+    "This finding, combined with your difficulty hearing in noise, suggests the problem may be located in the pathways connecting your ears within the brainstem, rather than in the ears themselves.",
+    "We recommend further specialized testing for central auditory processing disorders to better understand how your brain handles complex sound environments.",
+    "A referral to a neurologist is also recommended to rule out any medical issues affecting these auditory pathways."
+  ],
+  "notes_for_actor": [
+    "You are frustrated because previous doctors told you nothing was wrong, but you genuinely struggle in noisy places.",
+    "You should emphasize that if you concentrate very hard, you can understand better, but it is fatiguing.",
+    "You do not have 'hearing loss' in the traditional sense of volume; things are loud enough, just not clear in crowds."
+  ]
+}

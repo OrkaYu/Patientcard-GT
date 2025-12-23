@@ -1,0 +1,108 @@
+{
+  "case_id": "Case007_14",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Chronic Tympanic Membrane Perforation (Left Ear)",
+      "rationale_short": "History of chronic ear infections, failed tympanoplasty, and Type B tympanogram with large ear canal volume (4.3 mL)."
+    },
+    {
+      "rank": 2,
+      "label": "Mixed Hearing Loss (Left Ear)",
+      "rationale_short": "Audiogram shows air-bone gaps with moderate to severe/profound thresholds; consistent with perforation and potential ossicular or cochlear involvement."
+    },
+    {
+      "rank": 3,
+      "label": "Sensorineural Hearing Loss (Right Ear)",
+      "rationale_short": "Sloping thresholds with no air-bone gaps and Type A tympanogram."
+    },
+    {
+      "rank": 4,
+      "label": "Active Otorrhea (Left Ear)",
+      "rationale_short": "Observed drainage in the left ear requiring suctioning."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy/Medical Exam",
+        "urgency": "routine",
+        "rationale_short": "Visual inspection of the ear canal and tympanic membrane to assess for perforation or infection."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear function and confirm tympanic membrane perforation status."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a slight to mild-moderately severe sensorineural hearing loss in the right ear and a moderate mixed sloping to severe-profound hearing loss in the left ear. Speech recognition is excellent bilaterally. Tympanometry indicates normal middle ear function in the right ear and a patent tympanic membrane perforation in the left ear (large volume Type B). Active otorrhea was noted in the left ear.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Slight SNHL (250-1000 Hz) sloping to mild-to-moderately severe (2000-8000 Hz). Left ear: Moderate mixed loss (250-3000 Hz) sloping to severe-to-profound (4000-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 35 dB HL, WRS 96% at 75 dB HL. Left SRT 55 dB HL, WRS 92% at 90 dB HL. Results in agreement with PTA."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Type A (ECV 1.9 mL). Left ear: Type B flat with large ear canal volume (4.3 mL), consistent with perforation."
+          },
+          {
+            "name": "Otoscopy/Medical Exam",
+            "category": "Physical Exam",
+            "result_summary": "Otorrhea present in the left ear; suctioned by otologist."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Antibiotic ear drops",
+      "Dry ear precautions (keep water out of left ear)",
+      "Repeat tympanoplasty (conditional on left ear being infection-free for 3 months)",
+      "Annual hearing test",
+      "Hearing aid evaluation (pending medical clearance)",
+      "Hearing Assistive Technology (HAT)",
+      "Hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Instruction to keep water out of the left ear to prevent further infection"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Otorrhea (active drainage)",
+      "Tympanic membrane perforation",
+      "Mixed hearing loss"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Otologist",
+      "rationale_short": "Active otorrhea and chronic perforation require immediate medical management (suctioning, antibiotics) and surgical consideration."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3 months",
+    "objective": "Re-evaluate infection status for potential tympanoplasty; annual monitoring of hearing."
+  },
+  "expected_outcome": []
+}

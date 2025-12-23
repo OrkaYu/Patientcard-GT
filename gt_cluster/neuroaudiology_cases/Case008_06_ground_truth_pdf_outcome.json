@@ -1,0 +1,130 @@
+{
+  "case_id": "Case008_06",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Left temporal-parietal astrocytoma with corpus callosum compromise",
+      "rationale_short": "MRI confirms lesion site; central testing shows right ear deficits (contralateral cortex) and bilateral dichotic deficits (corpus callosum involvement)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess word recognition ability."
+      },
+      {
+        "action": "Low Pass Filtered Speech",
+        "urgency": "routine",
+        "rationale_short": "Assess monaural low-redundancy processing (sensitive to cortical lesions)."
+      },
+      {
+        "action": "Staggered Spondaic Words",
+        "urgency": "routine",
+        "rationale_short": "Assess dichotic processing and interhemispheric transfer."
+      },
+      {
+        "action": "Competing Sentences",
+        "urgency": "routine",
+        "rationale_short": "Assess dichotic processing."
+      },
+      {
+        "action": "Dichotic Digits",
+        "urgency": "routine",
+        "rationale_short": "Assess dichotic processing."
+      },
+      {
+        "action": "Frequency Patterns",
+        "urgency": "routine",
+        "rationale_short": "Assess temporal patterning and interhemispheric transfer."
+      },
+      {
+        "action": "Auditory Evoked Potentials (P300)",
+        "urgency": "routine",
+        "rationale_short": "Evaluate late latency responses and cognitive auditory processing."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing is essentially normal. Central behavioral testing reveals a distinct pattern consistent with the left temporal-parietal lesion and corpus callosum compromise: Right ear deficits on Low Pass Filtered Speech (contralateral ear effect due to left auditory cortex involvement) and bilateral deficits on dichotic tasks and Frequency Patterns (attributed to both the lesion and compromised interhemispheric transfer). P300 waveforms were noisy but showed bilaterally extended peaks.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Peripheral",
+            "result_summary": "Normal thresholds bilaterally (0-15 dB HL) from 250-4000 Hz, with mild high-frequency depression at 8000 Hz (~35-40 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Peripheral",
+            "result_summary": "Excellent word recognition scores (90%) bilaterally."
+          },
+          {
+            "name": "Low Pass Filtered Speech",
+            "category": "Central",
+            "result_summary": "Abnormal in the Right Ear (~60%); Normal in the Left Ear (~85-90%)."
+          },
+          {
+            "name": "Staggered Spondaic Words",
+            "category": "Central",
+            "result_summary": "Abnormal bilaterally (Right Ear ~60%, Left Ear ~35-40%)."
+          },
+          {
+            "name": "Competing Sentences",
+            "category": "Central",
+            "result_summary": "Abnormal bilaterally (Right Ear ~55%, Left Ear ~35%)."
+          },
+          {
+            "name": "Dichotic Digits",
+            "category": "Central",
+            "result_summary": "Abnormal bilaterally (Right Ear ~70%, Left Ear ~45%)."
+          },
+          {
+            "name": "Frequency Patterns",
+            "category": "Central",
+            "result_summary": "Abnormal bilaterally (Right Ear ~10%, Left Ear ~5%)."
+          },
+          {
+            "name": "Auditory Evoked Potentials (P300)",
+            "category": "Electrophysiology",
+            "result_summary": "Waveforms were noisy; P300 showed bilaterally extended peaks for both recording sites (C3, C4) and ears."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor auditory function and neurological status longitudinally"
+    ],
+    "counseling_actions": [
+      "Explain that difficulty hearing in noise or with competing speech is expected due to central processing deficits despite normal peripheral hearing",
+      "Discuss 'alien hand syndrome' as consistent with the neurological findings",
+      "Highlight that the stability of the auditory findings correlates with the stability of the lesion",
+      "Recommend communication strategies to reduce background noise and competing messages"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Continued monitoring of known stable inoperable astrocytoma."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Long-term monitoring",
+    "objective": "Assess stability of auditory function in relation to the neurological condition."
+  },
+  "expected_outcome": [
+    "Patient's condition remains stable with no dramatic changes in lesion size or auditory findings over time.",
+    "Patient retains 'alien hand syndrome' and subtle subjective auditory difficulties.",
+    "Patient functions well in everyday situations but electively does not drive."
+  ]
+}

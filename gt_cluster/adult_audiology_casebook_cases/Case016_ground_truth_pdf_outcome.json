@@ -1,0 +1,177 @@
+{
+  "case_id": "Case016",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Noise-Induced Hearing Loss (Asymmetric)",
+      "rationale_short": "History of factory work and right-handed rifle shooting explains the high-frequency loss and asymmetry (left ear more exposed)."
+    },
+    {
+      "rank": 2,
+      "label": "Retrocochlear Pathology (e.g., Vestibular Schwannoma)",
+      "rationale_short": "Suspected due to asymmetric SNHL, unilateral tinnitus, and aural fullness, but ruled out by normal MRI and ABR."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To inspect external ear canals."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear pathway integrity given asymmetry."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "QuickSIN to evaluate signal-to-noise ratio loss and need for assistive technology."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDLs)",
+        "urgency": "routine",
+        "rationale_short": "To determine upper limits of comfort for hearing aid programming."
+      },
+      {
+        "action": "Self-report scale",
+        "urgency": "routine",
+        "rationale_short": "COSI to identify specific patient needs and goals."
+      },
+      {
+        "action": "Real-Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid gain matches prescriptive targets."
+      },
+      {
+        "action": "Aided Loudness Judgments",
+        "urgency": "routine",
+        "rationale_short": "To validate that amplified sounds are perceived at appropriate loudness levels."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation revealed bilateral asymmetric sensorineural hearing loss, worse in the left ear, with high-frequency sloping configuration. Middle ear function was normal. Acoustic reflexes were elevated or absent, consistent with the degree of loss or potential retrocochlear pathology. The asymmetry and unilateral symptoms (tinnitus, fullness) constitute red flags requiring medical referral.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Clear external ear canals bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right: Normal sloping to moderately severe SNHL. Left: Normal sloping to severe SNHL. Asymmetric configuration."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT aligned with PTA. WRS excellent in Right (92%) and good in Left (80%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral normal to absent; Contralateral mostly absent. Consistent with cochlear loss or retrocochlear pathology."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Patient returned after medical clearance (normal MRI and ABR). Pre-fitting evaluation showed a moderate SNR loss on QuickSIN, suggesting hearing aids alone may be insufficient in noise. LDLs were normal, and COSI goals were established focusing on TV, restaurants, and grandchildren.",
+        "tests": [
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "QuickSIN SNR Loss 14 dB (moderate loss)."
+          },
+          {
+            "name": "Loudness Discomfort Levels (LDLs)",
+            "category": "Audiometry",
+            "result_summary": "Normal range at all frequencies tested."
+          },
+          {
+            "name": "Self-report scale",
+            "category": "Questionnaire",
+            "result_summary": "COSI goals: Hearing wife in restaurants, hearing grandchildren, hearing TV."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Hearing aid fitting performed with bilateral RIC devices. Real-ear measures verified gain to NAL-NL2 targets. Aided loudness judgments confirmed appropriate perception of soft, comfortable, and loud sounds.",
+        "tests": [
+          {
+            "name": "Real-Ear Measures (REM)",
+            "category": "Verification",
+            "result_summary": "Verified to NAL-NL2 targets; inputs 50, 65, 80 dB SPL provided appropriate gain."
+          },
+          {
+            "name": "Aided Loudness Judgments",
+            "category": "Verification",
+            "result_summary": "Patient rated speech signals appropriately (Soft, Comfortable, Loud but okay)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otology for medical evaluation of asymmetry",
+      "Bilateral hearing aids (ReSound LiNX 3D 9 62 RIC)",
+      "Wireless remote microphone (ReSound Multi Mic)",
+      "Hearing protection for noise exposure"
+    ],
+    "counseling_actions": [
+      "Explanation of asymmetric hearing loss and need for medical clearance",
+      "Counseling on realistic expectations in noise based on QuickSIN results",
+      "Instruction on hearing aid use, care, and maintenance",
+      "Demonstration of Multi Mic and iPhone app streaming features",
+      "Communication strategies for noisy environments",
+      "Importance of hearing protection"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric hearing loss",
+      "Unilateral (left-sided) tinnitus",
+      "Unilateral (left-sided) aural fullness"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist",
+      "rationale_short": "Mandated referral to rule out retrocochlear pathology (e.g., vestibular schwannoma) given asymmetric symptoms."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2 weeks post-fitting, then 6 months",
+    "objective": "Assess benefit, fine-tune settings, and perform electroacoustic analysis."
+  },
+  "expected_outcome": [
+    "Aided QuickSIN: SNR Loss of 6 dB (mild loss), significantly improved from 14 dB unaided.",
+    "Aided COSI: Patient reported hearing 'better' or 'much better' in listening environments compared to unaided.",
+    "Subjective report: Patient reported hearing significantly better and found the Multi Mic to be a significant help.",
+    "2cc coupler measurement: Electroacoustic analysis performed at user settings to serve as a baseline."
+  ]
+}

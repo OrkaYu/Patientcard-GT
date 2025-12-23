@@ -1,0 +1,106 @@
+{
+  "case_id": "Case006_04",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Lateral Hydrocephalus",
+      "rationale_short": "CT scans revealed enlarged lateral ventricles and absence of the third ventricle, likely secondary to aqueductal stenosis, consistent with symptoms of headache, nausea, and dizziness."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity given the patient's complaints."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech recognition abilities."
+      },
+      {
+        "action": "Central Auditory Processing Battery",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory function, investigating potential neuro-auditory involvement."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the auditory brainstem pathways."
+      },
+      {
+        "action": "Late Latency Response (P300)",
+        "urgency": "routine",
+        "rationale_short": "To assess cortical auditory processing and cognitive integration."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing was largely normal, with only a mild low-frequency sensorineural loss in the left ear. However, central auditory testing revealed significant bilateral deficits in dichotic listening and temporal patterning, and a complete absence of the P300 potential despite normal ABR and N1/P2 responses. These findings suggest subcortical dysfunction likely due to the lateral hydrocephalus affecting structures such as the caudate or internal capsule.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear thresholds within normal limits (0-15 dB HL). Left ear showed mild low-frequency sensorineural hearing loss (35 dB at 250 Hz) rising to normal limits above 1000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word recognition scores were excellent (96%) bilaterally."
+          },
+          {
+            "name": "Central Auditory Processing Battery",
+            "category": "Central Auditory Processing",
+            "result_summary": "Bilateral deficits on Dichotic Digits (~70-75%) and Frequency Patterns (<60%). Compressed speech showed a slight left ear deficit (~70%) compared to the right (~85%)."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Normal results bilaterally."
+          },
+          {
+            "name": "Late Latency Response (P300)",
+            "category": "Electrophysiology",
+            "result_summary": "N1 and P2 components were normal. The P300 component was essentially absent bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor neuroauditory status over time"
+    ],
+    "counseling_actions": [
+      "Explain that peripheral hearing sensitivity is mostly normal.",
+      "Discuss how the neurological condition is affecting the brain's ability to process complex signals (dichotic, patterns).",
+      "Explain the correlation between the absent P300 and cognitive/attention integration issues.",
+      "Reassure that the basic auditory pathway to the brainstem (ABR) is intact."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Severe headaches and nausea",
+      "Dizziness and syncopal episodes (fainting)",
+      "Leg weakness and falls",
+      "Progressive neurological decline"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurosurgery",
+      "rationale_short": "Patient requires medical management (shunting) for lateral hydrocephalus given severe and progressive neurological symptoms."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 year",
+    "objective": "Monitor symptom resolution and return to function following medical intervention."
+  },
+  "expected_outcome": [
+    "Patient did well after bilateral shunts were placed in the lateral ventricles.",
+    "At 1 year follow-up, she was without symptoms and back at her job.",
+    "Subjectively, she had no hearing difficulties.",
+    "Follow-up audiologic testing could not be completed due to logistical reasons."
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "case_id": "case_6_3",
+  "title": "Subcortical and Insular Lesions: Deep Parietal Lobe Lesion",
+  "demographics": {
+    "age_years": 42,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I started feeling numbness in my right hand about a week ago, and it has spread up my arm and down the right side of my body. I also feel a little unsteady when I walk and have some loss of feeling on the right side of my face.",
+  "problem_summary": {
+    "onset": "Symptoms began 1 week prior to initial medical evaluation.",
+    "course": "Progressive over the course of a week.",
+    "laterality": "Right-sided somatic symptoms; Left-sided brain lesion.",
+    "associated_symptoms": "Right-handed numbness progressing to arm/shoulder/body, subtle gait problem, decreased sensation on right side of face.",
+    "functional_impact": "Subtle gait disturbance and sensory issues.",
+    "goals_motivation": "Diagnostic evaluation to gain insight into the precise nature of the disorder following lesion identification."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Diagnostic/Research)",
+      "history": {
+        "present_illness": "The patient experienced an onset of right-handed numbness progressing to the right side of the body and face over one week. A subtle gait problem was noted.",
+        "otologic_history": "None reported.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Initial CT scan was normal. A repeat scan 1 month later revealed a deep parietal lobe lesion adjacent to the left lateral ventricle. Diagnostic possibilities included tumor, infarct, or demyelinating process.",
+        "prior_management": "Patient was evaluated after lesion identification was established.",
+        "patient_goals": "Diagnostic insight."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-12"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally.",
+          "numeric_results": {
+            "RE_thresholds": "10-15 dB HL across 250-8000 Hz",
+            "LE_thresholds": "10-15 dB HL across 250-8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-12"
+          ],
+          "key_findings": "Excellent word recognition scores bilaterally.",
+          "numeric_results": {
+            "RE_score": "92%",
+            "LE_score": "92%"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Central Auditory Processing Battery",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-13"
+          ],
+          "key_findings": "Pronounced left ear deficit on Dichotic Rhyme and Dichotic CVs. Mild left ear deficit on Staggered Spondaic Words (SSW) and Competing Sentences. Performance on Dichotic Digits was normal (patient did well).",
+          "numeric_results": {
+            "Dichotic_Rhyme_LE": "~10% (Severe Deficit)",
+            "Dichotic_Rhyme_RE": "~95%",
+            "Dichotic_CV_LE": "~15% (Severe Deficit)",
+            "Dichotic_CV_RE": "~80%",
+            "Competing_Sentences_LE": "~80% (Mild Deficit)",
+            "Competing_Sentences_RE": "100%",
+            "SSW_LE": "~80% (Mild Deficit)",
+            "SSW_RE": "~95%"
+          }
+        },
+        {
+          "name": "Late Potentials (N1, P2) and P300",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-14"
+          ],
+          "key_findings": "N1 and P2 waves were normal on all tracings. P300 was absent or markedly reduced in specific configurations.",
+          "numeric_results": {
+            "P300_LE_at_C3": "Absent",
+            "P300_RE_at_C4": "Absent",
+            "P300_LE_at_C4": "Markedly reduced amplitude",
+            "P300_RE_at_C3": "Markedly reduced amplitude"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity and speech recognition in quiet. However, central auditory testing reveals significant deficits consistent with a deep left parietal lobe lesion affecting the subcortical white matter. Specifically, there is a 'left ear effect' on dichotic tasks. This occurs because the left ear input, which travels to the right hemisphere, must cross the corpus callosum and traverse the subcortical white matter to reach the left hemisphere language centers for verbal output. This pathway is compromised by the lesion. Interestingly, well-aligned stimuli (CVs, Rhyme) revealed the deficit more clearly than coarsely aligned stimuli (SSW, Competing Sentences), while natural but aligned speech (Digits) remained intact. Electrophysiologically, the P300 is absent or reduced, suggesting compromised neural communication required for this cognitive potential.",
+  "counseling_points": [
+    "Explain that while the 'ears' are working perfectly (normal hearing test), the pathways connecting the hearing centers in the brain are affected by the lesion.",
+    "Discuss why the left ear seems to struggle in challenging listening environments (dichotic tasks): signals from the left ear have to travel a longer path through the brain to reach the language center, and the lesion is blocking that specific road.",
+    "Highlight that the patient may struggle more with specific types of rapid, competing speech signals, even though they can hear simple words and digits well.",
+    "Note that these auditory findings align with the location of the lesion seen on the CT scan."
+  ],
+  "notes_for_actor": [
+    "You are a 42-year-old woman concerned about the progressive numbness on your right side.",
+    "You do not have 'hearing loss' in the traditional sense; you hear beeps and volume fine.",
+    "You might not have noticed specific hearing problems in daily life yet, as the deficits are subtle and specific to complex processing (dichotic listening), unlike the obvious physical numbness.",
+    "Your primary concern is the medical diagnosis (tumor/infarct), and the hearing test is just another investigation to understand the extent of the problem."
+  ]
+}

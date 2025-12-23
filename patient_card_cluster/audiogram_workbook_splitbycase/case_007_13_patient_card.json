@@ -1,0 +1,134 @@
+{
+  "case_id": "case_7_13",
+  "title": "Unilateral Progressive Mixed Hearing Loss (Otosclerosis)",
+  "demographics": {
+    "age_years": 70,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed some hearing loss in my right ear that has slowly gotten worse over the years, but I believe I still hear well from my left ear.",
+  "problem_summary": {
+    "onset": "Slowly progressed over years.",
+    "course": "Progressive.",
+    "laterality": "Right ear reported; Left ear perceived as normal.",
+    "associated_symptoms": "Tinnitus in the right ear.",
+    "functional_impact": "Patient reports not being bothered by her hearing loss at this time.",
+    "goals_motivation": "Patient is currently hesitant about intervention."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-12-20",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "70-year-old female reports slowly progressive hearing loss in the right ear with tinnitus. She perceives normal hearing in the left ear.",
+        "otologic_history": "Denies aural pain or pressure.",
+        "noise_exposure_history": "Denies loud noise exposure.",
+        "medical_psych_history": "Denies family history of hearing loss.",
+        "prior_management": "None reported.",
+        "patient_goals": "Assessment of hearing status; currently claims not to be bothered by the loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.13"
+          ],
+          "key_findings": "Right ear shows moderate to moderately severe mixed hearing loss in low frequencies, rising to mild mixed loss in high frequencies. Significant air-bone gaps present. Left ear shows normal to slight sensorineural hearing loss sloping to moderate in high frequencies.",
+          "numeric_results": {
+            "RE_AC_250-1500Hz": "50-60 dB HL range",
+            "RE_AC_2000-8000Hz": "30-40 dB HL range",
+            "RE_BC": "10-20 dB HL (stable)",
+            "LE_AC_250-4000Hz": "10-20 dB HL",
+            "LE_AC_6000-8000Hz": "40-50 dB HL",
+            "PTA_Right": "52 dB HL",
+            "PTA_Left": "18 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.13"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA bilaterally. Word recognition scores are excellent in both ears.",
+          "numeric_results": {
+            "SRT_Right": "50 dB HL",
+            "SRT_Left": "20 dB HL",
+            "WRS_Right": "94% at 75 dB HL",
+            "WRS_Left": "100% at 60 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.13"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally, despite the conductive component in the right ear.",
+          "numeric_results": {
+            "RE_Static_Admittance": "1.0 mL",
+            "RE_Peak_Pressure": "-40 daPa",
+            "RE_Volume": "1.1 mL",
+            "LE_Static_Admittance": "1.3 mL",
+            "LE_Peak_Pressure": "-5 daPa",
+            "LE_Volume": "1.3 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.13"
+          ],
+          "key_findings": "Right ipsilateral and contralateral reflexes absent (consistent with conductive pathology). Left ipsilateral reflexes present/normal. Left contralateral reflexes absent (due to probe effect in right ear).",
+          "numeric_results": {
+            "Right_Ipsi": "Absent",
+            "Left_Ipsi": "Present (85-100 dB HL)",
+            "Right_Contra_Stim": "Absent",
+            "Left_Contra_Stim": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric hearing. The right ear exhibits a moderate mixed hearing loss with a significant air-bone gap, while the left ear is essentially normal sloping to a high-frequency sensorineural loss. Speech understanding is excellent bilaterally when sufficiently loud. The pattern of absent reflexes in the right ear with normal tympanograms is consistent with a middle ear pathology such as otosclerosis.",
+  "counseling_points": [
+    "You have a 'mixed' hearing loss in your right ear, meaning there is a mechanical blockage preventing sound from reaching the inner ear efficiently, in addition to some natural wear-and-tear.",
+    "The specific pattern of your test results (hearing loss with normal eardrum movement but absent reflexes) strongly suggests a condition called Otosclerosis, where a tiny bone in the ear becomes stiff.",
+    "We are referring you to an ENT specialist to confirm this diagnosis.",
+    "Treatment options include surgery (to fix the stiff bone) or a hearing aid. Both would likely be very effective for you.",
+    "Since you feel you are coping well right now, it is okay to monitor the hearing, but medical clearance is still recommended."
+  ],
+  "notes_for_actor": [
+    "You are calm and unbothered by your hearing loss.",
+    "You believe your 'good ear' (left) compensates enough for your daily life.",
+    "When presented with options like surgery or hearing aids, you should politely decline, stating that you feel you do well enough with your communication needs right now."
+  ]
+}

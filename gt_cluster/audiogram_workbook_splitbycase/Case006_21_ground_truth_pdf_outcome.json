@@ -1,0 +1,77 @@
+{
+  "case_id": "Case006_21",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral conductive hearing loss",
+      "rationale_short": "History of chronic otitis media, cholesteatoma, and multiple surgeries (canal wall down tympanomastoidectomies); audiogram confirms conductive nature with air-bone gaps."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess the degree, type, and configuration of hearing loss given the history of deterioration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition ability."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status, though often not performed in canal wall down mastoidectomies."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry reveals a moderate to moderately severe conductive hearing loss in the right ear and a mild predominantly conductive hearing loss in the left ear. Speech recognition is excellent bilaterally. Testing was complicated by a masking dilemma due to significant bilateral air-bone gaps. Immittance testing was not performed due to the surgical history.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderate to moderately severe conductive loss (PTA 48 dB HL). Left ear: Mild predominantly conductive loss (PTA 35 dB HL). Bilateral air-bone gaps present; masking dilemma noted."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 48 dB HL, Left 32 dB HL (consistent with PTA). WRS: 100% bilaterally at suprathreshold levels."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not measured due to surgical history (canal wall down tympanomastoidectomies)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation",
+      "Use of Hearing Assistive Technology (HAT)",
+      "Use of hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Continue scheduled follow-ups with the otologist",
+      "Return for a hearing test after medical management",
+      "Monitor stability of hearing annually"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient is already under scheduled care for chronic ear disease; continued follow-up is required for medical management and clearance for amplification."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After medical management and annually",
+    "objective": "To monitor hearing stability and proceed with hearing aid evaluation."
+  },
+  "expected_outcome": []
+}

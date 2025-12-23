@@ -1,0 +1,124 @@
+{
+  "case_id": "case_6_29",
+  "title": "Traumatic Right Tympanic Membrane Perforation",
+  "demographics": {
+    "age_years": 42,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I was mowing the lawn and a branch punctured my right eardrum. Since then, I have had pain, hearing loss, and ringing in that ear.",
+  "problem_summary": {
+    "onset": "Sudden onset following a traumatic incident while mowing the lawn.",
+    "course": "Acute and stable since the incident.",
+    "laterality": "Right ear.",
+    "associated_symptoms": "Otalgia (ear pain), tinnitus, and hearing loss.",
+    "functional_impact": "Reduced hearing sensitivity in the right ear.",
+    "goals_motivation": "Resolution of pain and restoration of hearing."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-05-21",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient reported that a branch punctured his right tympanic membrane while he was mowing the lawn. He reports otalgia, hearing loss, and tinnitus in the right ear since the incident.",
+        "otologic_history": "History of bilateral ear infections as a child.",
+        "noise_exposure_history": "Not explicitly detailed, though injury occurred during lawn mowing (noise source).",
+        "medical_psych_history": "Unremarkable regarding other systems.",
+        "prior_management": "None reported prior to this visit.",
+        "patient_goals": "Diagnosis and management of the traumatic injury."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.29"
+          ],
+          "key_findings": "Right ear shows a mild to moderately severe conductive hearing loss with a significant air-bone gap. Left ear thresholds are within normal limits.",
+          "numeric_results": {
+            "RE_PTA": "40 dB HL",
+            "LE_PTA": "7 dB HL",
+            "RE_AC_Thresholds": "Ranging from ~30 dB HL to ~65 dB HL",
+            "RE_BC_Thresholds": "0-10 dB HL (Normal)",
+            "LE_AC_Thresholds": "0-10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.29"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) are in agreement with pure-tone averages. Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "45 dB HL",
+            "LE_SRT": "5 dB HL",
+            "RE_WRS": "96% at 80 dB HL",
+            "LE_WRS": "96% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.29"
+          ],
+          "key_findings": "Right ear shows a flat tympanogram with large ear canal volume, consistent with tympanic membrane perforation. Left ear is normal.",
+          "numeric_results": {
+            "RE_Type": "Type B (flat)",
+            "RE_Canal_Volume": "4.8 mL",
+            "LE_Type": "Type A",
+            "LE_Canal_Volume": "1.3 mL"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Post-referral",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "CT scan ordered by otologist revealed ossicular discontinuity.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a unilateral, mild-to-moderately severe conductive hearing loss in the right ear. Tympanometry indicates a patent tympanic membrane perforation (Type B with large volume) on the right side. The left ear presents with normal hearing sensitivity and normal middle ear function. Speech recognition ability remains excellent in the affected ear when presented at suprathreshold levels.",
+  "counseling_points": [
+    "Your hearing test confirms a conductive hearing loss in your right ear, which means sound is not being conducted efficiently to the inner ear.",
+    "The pressure test (tympanometry) confirms a hole (perforation) in your eardrum, consistent with the branch injury.",
+    "Further imaging (CT scan) has shown that the small bones behind the eardrum have been disconnected due to the trauma.",
+    "The recommended treatment is surgery (tympanoplasty and ossicular chain reconstruction) to repair the eardrum and reconnect the hearing bones.",
+    "It is important to keep the right ear dry until it is repaired to prevent infection.",
+    "We will retest your hearing after the surgery to monitor improvement."
+  ],
+  "notes_for_actor": [
+    "You are a 42-year-old male.",
+    "You are likely in some physical discomfort (otalgia) from the recent injury.",
+    "You should express concern about the sudden loss of hearing and the ringing (tinnitus) in your right ear.",
+    "The injury happened during a mundane task (mowing the lawn), so you might feel frustrated by the freak accident nature of it."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "case_id": "case07_Maximum_Conductive_Hearing_Loss_Secondar",
+  "title": "Maximum Conductive Hearing Loss Secondary to Surgical Closure of the External Auditory Canal",
+  "demographics": {
+    "age_years": 48,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "Colombia"
+  },
+  "chief_complaint": "I am having significant difficulty hearing and bothersome ringing in my left ear. I also have pain behind my left ear, a feeling of fullness, and intermittent headaches.",
+  "problem_summary": {
+    "onset": "Pain and headaches began 3 months prior to the appointment; hearing loss is chronic following past surgeries.",
+    "course": "Stable hearing loss; recent onset of pain and headaches.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Tinnitus (left), aural fullness (left), mastoid pain (left), headaches.",
+    "functional_impact": "Significant subjective hearing handicap.",
+    "goals_motivation": "Seeking evaluation for pain and hearing issues after referral from otolaryngology."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2017-02-20",
+      "setting": "Audiology Clinic (University Hospital)",
+      "history": {
+        "present_illness": "Patient reports pain in the left mastoid region and headaches starting 3 months ago. Also reports significant hearing handicap and tinnitus in the left ear.",
+        "otologic_history": "History of recurrent cholesteatoma in the left ear. Underwent two surgeries in Colombia. The left external auditory canal was surgically closed during the second procedure (blind sac closure).",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Fibromyalgia, meningoencephalocele, and a transient ischemic attack (TIA) 3 years ago.",
+        "prior_management": "Referred to neurotologist due to complex history, then to audiology.",
+        "patient_goals": "Comprehensive audiologic evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7.1"
+          ],
+          "key_findings": "Right ear: Normal hearing thresholds. Left ear: Severe rising to moderately severe conductive hearing loss with significant air-bone gaps (45-65 dB). Bone conduction is normal bilaterally.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "5-15 dB HL across frequencies",
+            "Left_AC_Thresholds": "Range approx 55-70 dB HL (rising configuration)",
+            "Left_ABG": "45 to 65 dB",
+            "Bone_Conduction": "Within normal limits bilaterally (0-15 dB HL)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7.1"
+          ],
+          "key_findings": "Normal speech reception and recognition in the right ear. Elevated SRT in the left ear consistent with conductive loss, but excellent word recognition (100%) when presented at sufficient volume.",
+          "numeric_results": {
+            "SRT_Right": "5 dB HL",
+            "SRT_Left": "65 dB HL",
+            "WRS_Right": "100% (at 45 dB HL)",
+            "WRS_Left": "100% (at 85 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7.1"
+          ],
+          "key_findings": "Normal middle ear function in the right ear. Left ear could not be tested due to canal closure.",
+          "numeric_results": {
+            "Right_Type": "Type A",
+            "Right_Volume": "0.88 mL",
+            "Right_Static_Admittance": "0.32 mL",
+            "Right_Peak_Pressure": "-70 daPa",
+            "Left_Ear": "CNT (Could Not Test)"
+          }
+        },
+        {
+          "name": "Distortion Product Otoacoustic Emissions (DPOAEs)",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present and robust at 1,600 to 8,000 Hz in the right ear. Could not be performed in the left ear.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a maximum conductive hearing loss in the left ear. The left ear demonstrates a severe rising to moderately severe air-conduction loss, but bone conduction thresholds remain within normal limits, indicating intact cochlear function. Speech recognition scores are excellent (100%) bilaterally when the signal is loud enough to overcome the conductive component.",
+  "counseling_points": [
+    "Your hearing test confirms that your inner ear (nerve) function is normal on both sides.",
+    "The hearing loss in your left ear is 'conductive,' meaning sound cannot travel through the ear canal to the inner ear because the canal was surgically closed.",
+    "Because the nerve is healthy, you have excellent potential to understand speech if sound can bypass the closed canal (e.g., via bone conduction).",
+    "We cannot perform standard pressure tests or look inside the left ear due to the surgical closure.",
+    "Your report of pain and headaches requires medical attention from the neurotologist."
+  ],
+  "notes_for_actor": [
+    "Portray a patient with a complex medical history who is concerned about new pain in an ear that has been 'stable' since surgery years ago.",
+    "You are aware your left ear canal is closed and do not expect standard ear probes to be used on that side.",
+    "You have difficulty localizing sound and hearing in background noise due to the single-sided deafness effect caused by the conductive block."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "case_id": "Case008_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sensorineural hearing loss",
+      "rationale_short": "Bilateral hearing loss (mild-to-severe right, slight-to-moderate left) consistent with history of radiation therapy to the neck."
+    },
+    {
+      "rank": 2,
+      "label": "Functional overlay",
+      "rationale_short": "Initial testing showed PTA thresholds 20 dB poorer than SRT; valid organic thresholds were obtained only after reinstruction."
+    },
+    {
+      "rank": 3,
+      "label": "Tinnitus and Hyperacusis",
+      "rationale_short": "Patient reports ringing and sensitivity to loud, high-pitched sounds in the right ear starting after radiation therapy."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds and configuration of loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and recognition and cross-check pure-tone thresholds for reliability."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc and check for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Testing revealed bilateral sensorineural hearing loss, mild-to-severe in the right ear and slight-to-moderate in the left, likely related to prior radiation. Initial results showed functional overlay (PTA-SRT discrepancy) which resolved after reinstruction. Word recognition was excellent. Middle ear function was normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Mild SNHL (250-3000 Hz) sloping to severe at 8000 Hz (PTA 33 dB HL). Left ear: Slight sloping to mild SNHL with 3000 Hz notch (PTA 27 dB HL). Initial functional overlay (20 dB discrepancy) resolved with reinstruction."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT (RE 30 dB HL, LE 20 dB HL) in agreement with valid PTA. WRS excellent (RE 92%, LE 96%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present and normal ipsilaterally and contralaterally at 500-2000 Hz; absent at 4000 Hz. Reflex decay negative at 500 and 1000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Annual hearing testing to monitor sensitivity",
+      "Use hearing protection when exposed to noise",
+      "Evaluation for management options for tinnitus and hyperacusis",
+      "Evaluation for use of amplification and HAT (Hearing Assistive Technology)"
+    ],
+    "counseling_actions": [
+      "Reinstruction regarding test procedures to resolve functional overlay"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Referral to otologist recommended given medical history of radiation and hearing loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annually",
+    "objective": "Monitor hearing sensitivity"
+  },
+  "expected_outcome": []
+}

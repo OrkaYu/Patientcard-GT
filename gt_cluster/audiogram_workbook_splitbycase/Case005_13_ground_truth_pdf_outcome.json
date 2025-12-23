@@ -1,0 +1,95 @@
+{
+  "case_id": "Case005_13",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sudden Sensorineural Hearing Loss (SSNHL)",
+      "rationale_short": "History of sudden onset unilateral hearing loss 2 years ago, unresponsive to prior steroid treatment."
+    },
+    {
+      "rank": 2,
+      "label": "Single-Sided Deafness (SSD)",
+      "rationale_short": "Audiometric configuration showing normal hearing in the right ear and profound sensorineural hearing loss in the left ear."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess the degree and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the reflex arc and check for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with normal hearing in the right ear and a profound, steeply sloping sensorineural hearing loss in the left ear (Single-Sided Deafness). Word recognition is excellent in the right ear but unmeasurable in the left. Middle ear function is normal bilaterally, with acoustic reflexes present only in the right ipsilateral condition, consistent with the severity of the left ear hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal (0-10 dB HL). Left ear mild-to-moderate SNHL at 250-500 Hz, sloping to profound loss; PTA 78 dB HL (2-frequency average); no response at 2000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 0 dB HL, WRS 100% at 50 dB HL. Left SAT 40 dB HL, WRS CNT (Could Not Test)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral reflexes present (80-90 dB HL). Left ipsilateral and both contralateral conditions absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Demonstration of CROS system",
+      "Demonstration of osseointegrated implant (processor on headband)",
+      "Fit with CROS hearing aid"
+    ],
+    "counseling_actions": [
+      "Explained that a conventional hearing aid would not be effective for the left ear due to the severity of the loss",
+      "Discussed options for single-sided deafness including CROS systems and osseointegrated implants",
+      "Counseled on the benefits of devices for hearing from the left side"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient is stable (onset 2 years ago) and proceeding with CROS fitting."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Monitor performance and satisfaction with the CROS system."
+  },
+  "expected_outcome": [
+    "Patient determined she would pursue right CROS technology.",
+    "Patient has been satisfied with the results."
+  ]
+}

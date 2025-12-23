@@ -1,0 +1,152 @@
+{
+  "case_id": "Case007",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Meniere's Disease",
+      "rationale_short": "History of episodic vertigo, fluctuating hearing loss progressing to flat SNHL, and confirmed by ENT with eCochG."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-Induced Hearing Loss",
+      "rationale_short": "History of significant factory and motorcycle noise exposure likely contributing to high-frequency thresholds and tinnitus pitch."
+    },
+    {
+      "rank": 3,
+      "label": "Severe Tinnitus Disorder",
+      "rationale_short": "Tinnitus causing severe distress (THI 76, TFI 88) and suicidal ideation, requiring psychiatric intervention."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given report of sudden hearing loss and tinnitus."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech understanding and check for retrocochlear signs (asymmetry)."
+      },
+      {
+        "action": "Immittance",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and acoustic reflexes."
+      },
+      {
+        "action": "Tinnitus Assessment",
+        "urgency": "routine",
+        "rationale_short": "To characterize tinnitus pitch, loudness, and maskability."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up to monitor progression of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up to assess changes in speech recognition."
+      },
+      {
+        "action": "Immittance",
+        "urgency": "routine",
+        "rationale_short": "Repeat testing to confirm absent reflexes."
+      },
+      {
+        "action": "Tinnitus Assessment",
+        "urgency": "routine",
+        "rationale_short": "Re-evaluation due to increased severity and distress."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation revealed mild-to-moderate SNHL with asymmetry (worse in right ear) and absent acoustic reflexes bilaterally. Tinnitus was tonal, high-pitched, and maskable. The patient reported vertigo and sudden hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Sloping mild to moderate SNHL. Left ear: Within normal limits to mild loss."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right SRT 30 dB HL, WRS 100% (or 70% at 50 dB). Left SRT 15 dB HL, WRS 92%."
+          },
+          {
+            "name": "Tinnitus Assessment",
+            "result_summary": "Pitch match 6.5 kHz; Loudness match 12 dB SL; Residual inhibition 8 s; THI 32 (Mild)."
+          },
+          {
+            "name": "Immittance",
+            "result_summary": "Type A tympanometry bilateral; Acoustic reflexes absent bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Patient returned one year later with diagnosis of Meniere's Disease. Vestibular symptoms resolved, but tinnitus distress became severe with suicidal ideation. Hearing in the right ear progressed to a flat moderately severe SNHL, while the left ear showed a low-frequency rising configuration.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Flat moderately severe SNHL (65-70 dB HL). Left ear: Moderate low-frequency loss rising to normal."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right SRT 65 dB HL, WRS 52% at 95 dB HL. Left SRT 25 dB HL, WRS 90% at 55 dB HL."
+          },
+          {
+            "name": "Tinnitus Assessment",
+            "result_summary": "Pitch match 9 kHz; Loudness match 14 dB SL; Residual inhibition 12 s; THI 76 (Severe); TFI 88 (Severe)."
+          },
+          {
+            "name": "Immittance",
+            "result_summary": "Type A tympanometry bilateral; Acoustic reflexes absent bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Immediate escort to emergency room for psychiatric monitoring",
+      "Custom silicone canal-style earplugs for noise protection",
+      "Sound enrichment program",
+      "Progressive Muscle Relaxation (PMR) instruction",
+      "Fit with unilateral Receiver-in-Canal (RIC) hearing aid in the right ear",
+      "Sound therapy with high-pass filtered noise (automatic) and manual masker options (pink noise, ocean waves)",
+      "Wireless connectivity for volume/program adjustments"
+    ],
+    "counseling_actions": [
+      "Counseling on the relationship between Meniere's Disease, hearing loss, and tinnitus",
+      "Counseling on the importance of hearing protection during motorcycle riding and work",
+      "Explanation of sound therapy benefits and residual inhibition results",
+      "Coordination with mental health providers regarding suicide risk and depression"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Suicidal ideation with a specific plan",
+      "Sudden hearing loss",
+      "Unilateral tinnitus and asymmetric hearing loss",
+      "Vertigo with emesis"
+    ],
+    "escalation": {
+      "urgency": "discontinue and refer now",
+      "destination": "Emergency Room",
+      "rationale_short": "Patient expressed suicidal ideation with a plan during the interview, requiring immediate psychiatric safety monitoring."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month, 3 months, then phone calls at 6 months and 1 year",
+    "objective": "Monitor tinnitus distress, adjust amplification and sound therapy settings, and ensure psychiatric stability."
+  },
+  "expected_outcome": [
+    "1-month follow-up THI score: 22 (mild)",
+    "1-month follow-up TFI score: 18 (mild)",
+    "Patient reported substantial benefit with the device at 1 month.",
+    "At 3 months, patient reported little to no tinnitus perception with the device in place.",
+    "At 1 year, hearing was stable and tinnitus was not present at the time of the appointment.",
+    "At second annual follow-up, no evidence of tinnitus disturbance was found on inventories."
+  ]
+}

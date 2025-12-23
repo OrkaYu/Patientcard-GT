@@ -1,0 +1,163 @@
+{
+  "case_id": "case_12_15",
+  "title": "Unilateral Non-Organic Hearing Loss Post-Explosion",
+  "demographics": {
+    "age_years": 32,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "Patient reports he 'couldn't hear anything out of his left ear' and describes 'unbearable ringing in his ears' following a workplace explosion.",
+  "problem_summary": {
+    "onset": "Sudden onset following an explosion to the left of his factory workstation.",
+    "course": "Continuous since the incident.",
+    "laterality": "Left ear reported; Right ear normal.",
+    "associated_symptoms": "Tinnitus ('unbearable ringing'), straining to hear.",
+    "functional_impact": "Patient observed straining to hear questions and asking for repetitions.",
+    "goals_motivation": "Referral by employer for evaluation."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Referred by employer following an explosion at his factory workstation. Reports total loss of hearing in left ear and severe tinnitus.",
+        "otologic_history": "Denies history of exposure to other incidents of noise exposure.",
+        "noise_exposure_history": "Acute acoustic trauma (explosion).",
+        "medical_psych_history": "None reported.",
+        "prior_management": null,
+        "patient_goals": "Evaluation of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table: Tymp R L",
+            "Graph: Admittance"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Right Vea": "1.0",
+            "Right Ytm": "1.4",
+            "Right TPP": "-80 daPa",
+            "Left Vea": "1.1",
+            "Left Ytm": "1.3",
+            "Left TPP": "-30 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table: ART @1 kHz"
+          ],
+          "key_findings": "Acoustic reflexes are present and within normal limits bilaterally at 1 kHz, which contradicts the degree of hearing loss suggested by the behavioral audiogram for the left ear.",
+          "numeric_results": {
+            "Ipsi R": "85 dB HL",
+            "Stim L/Probe R": "90 dB HL",
+            "Ipsi L": "90 dB HL",
+            "Stim R/Probe L": "85 dB HL"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram"
+          ],
+          "key_findings": "Right ear shows normal hearing thresholds (0-10 dB HL). Left ear behavioral thresholds suggest a moderate-to-severe hearing loss (flat configuration approx 60-70 dB HL), but reliability is poor due to inconsistent bone conduction responses and discrepancy with other tests.",
+          "numeric_results": {
+            "Right PTA": "5 dB HL",
+            "Left PTA": "67 dB HL",
+            "Left BC": "Inconsistent responses"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table: PTA SRT WRS"
+          ],
+          "key_findings": "Right ear results are consistent with pure tones. Left ear shows a significant discrepancy between SRT (50 dB) and PTA (67 dB). Left WRS is 82% at 60 dB HL, which is physically impossible if the true threshold were 67 dB HL (as the presentation level would be below threshold).",
+          "numeric_results": {
+            "Right SRT": "5 dB",
+            "Right WRS": "94% @ 40 dB HL",
+            "Left SRT": "50 dB",
+            "Left WRS": "82% @ 60 dB HL"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAE)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Graph: DP-gram"
+          ],
+          "key_findings": "DPOAEs are present and robust bilaterally (amplitudes well above noise floor) from 1-8 kHz. This indicates normal outer hair cell function in the left ear, contradicting the behavioral audiogram.",
+          "numeric_results": {
+            "Result": "Present bilaterally"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Table: Other Data/Comments"
+          ],
+          "key_findings": "Stenger test was positive, indicating non-organic hearing loss. Patient exhibited unusual straining behavior and responded with half-spondees.",
+          "numeric_results": {
+            "Stenger": "Positive"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a functional (non-organic) hearing loss in the left ear. While behavioral thresholds suggest a moderate-to-severe loss, objective measures (DPOAEs and acoustic reflexes) indicate normal peripheral auditory function. Significant inconsistencies exist, including an SRT better than the PTA, excellent word recognition at levels below the admitted pure-tone thresholds, and a positive Stenger test.",
+  "counseling_points": [
+    "Explain that objective tests (OAEs and reflexes) show the 'hardware' of the inner ear is intact and functioning normally.",
+    "Discuss the discrepancies found during testing (e.g., ability to hear speech at levels softer than the tone thresholds).",
+    "Reassure the patient that there is no evidence of permanent damage to the hearing organ from the explosion.",
+    "Acknowledge the tinnitus and stress from the incident without validating the hearing loss as organic."
+  ],
+  "notes_for_actor": [
+    "Display exaggerated effort to hear, such as leaning in or straining.",
+    "When testing the left ear, provide inconsistent responses.",
+    "During speech testing, give 'half-spondee' responses (e.g., if the word is 'hotdog', say only 'hot').",
+    "Complain frequently about the ringing in the left ear."
+  ]
+}

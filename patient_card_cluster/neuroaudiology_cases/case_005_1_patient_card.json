@@ -1,0 +1,132 @@
+{
+  "case_id": "case_5_1",
+  "title": "Brainstem Involvement: Left Posterior Fossa Meningioma",
+  "demographics": {
+    "age_years": 66,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a sharp, band-like pain in my forehead when I look up or cough. My tinnitus in the left ear has been getting worse for years, and recently my hearing on that side seems worse too. I also feel unsteady and find myself drifting to the side when I walk.",
+  "problem_summary": {
+    "onset": "12-year history of tinnitus; recent increase in hearing loss.",
+    "course": "Gradually worsening tinnitus; progressive unsteadiness.",
+    "laterality": "Left-sided auditory symptoms; drifting to one side.",
+    "associated_symptoms": "Band-like sharp forehead pain (triggered by upward gaze, coughing, breath-holding), memory problems, unsteadiness.",
+    "functional_impact": "Drifting while walking; memory concerns.",
+    "goals_motivation": "Diagnosis of neurological and auditory symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "66-year-old female presenting with a 12-year history of left-sided tinnitus that has gradually worsened. She reports a recent subjective increase in left-sided hearing loss. She experiences progressive unsteadiness and drifts to one side. She also reports sharp forehead pain associated with upward gaze, coughing, or Valsalva maneuver.",
+        "otologic_history": "Left-sided tinnitus (12 years), recent left hearing loss, unsteadiness.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Subjective memory problems reported. No other major cognitive issues.",
+        "prior_management": "None reported prior to this evaluation.",
+        "patient_goals": "Identify cause of symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-2"
+          ],
+          "key_findings": "Mild to moderate bilaterally symmetrical high-frequency sensorineural hearing loss. Thresholds are normal in low frequencies, sloping to moderate loss in high frequencies.",
+          "numeric_results": {
+            "Low Frequency (250-1000 Hz)": "~10-20 dB HL",
+            "High Frequency (4000-8000 Hz)": "~50-60 dB HL",
+            "Symmetry": "Symmetrical"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-2"
+          ],
+          "key_findings": "Excellent speech recognition bilaterally, despite the subjective complaint of left-sided hearing loss.",
+          "numeric_results": {
+            "Right Ear WRS": "92%",
+            "Left Ear WRS": "100%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-3"
+          ],
+          "key_findings": "Auditory Brainstem Response (ABR). Normal morphology for the right ear. Left ear showed abnormal absolute latency for wave V and extended I-III interwave interval. Abnormal Interaural Latency Difference (ILD).",
+          "numeric_results": {
+            "Left Ear I-III interval": "2.5 msec (extended)",
+            "ILD": "0.4 msec (abnormal)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Dichotic Digits Test. Results indicated a poorer performance in the left ear compared to the right ear.",
+          "numeric_results": {
+            "Right Ear": "95%",
+            "Left Ear": "83%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-4"
+          ],
+          "key_findings": "Computed Tomography (CT) Scan. Showed a 4-cm mass lesion (meningioma) in the left posterior fossa pressing against the tentorium, obliterating the fourth ventricle, and causing obstructive hydrocephalus.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with symmetrical high-frequency sensorineural hearing loss and excellent speech recognition scores, which initially contradicts her subjective complaint of left-sided hearing difficulty. However, retrocochlear testing reveals significant abnormalities on the left side. The ABR demonstrates a delayed Wave V and extended I-III interval in the left ear, and dichotic listening tasks show a left-ear deficit. These findings are consistent with the radiological confirmation of a large left posterior fossa meningioma affecting the brainstem and causing hydrocephalus.",
+  "counseling_points": [
+    "Discuss that while the standard hearing test shows equal hearing, the 'processing' tests (ABR and Dichotic Digits) confirm the difficulty reported in the left ear.",
+    "Explain that the unsteadiness and specific headache triggers are likely related to the pressure the mass is placing on the brainstem and fluid pathways.",
+    "Immediate referral to neurosurgery is required given the size of the mass and obstructive hydrocephalus."
+  ],
+  "notes_for_actor": [
+    "You should exhibit unsteadiness when moving, perhaps drifting slightly to one side.",
+    "Emphasize the specific triggers for your headache: looking up, coughing, or holding your breath.",
+    "While you can hear quiet sounds reasonably well (symmetrical audiogram), you feel something is 'wrong' or 'unclear' on the left side specifically, alongside the tinnitus."
+  ]
+}

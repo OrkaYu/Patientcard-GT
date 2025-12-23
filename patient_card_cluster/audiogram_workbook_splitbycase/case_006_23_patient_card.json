@@ -1,0 +1,128 @@
+{
+  "case_id": "case_6_23",
+  "title": "Left Ear Conductive Hearing Loss Post-Radiation",
+  "demographics": {
+    "age_years": 75,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I've noticed decreased hearing in my left ear for the past 10 weeks. I hear a constant humming sound, and my own voice echoes in that ear.",
+  "problem_summary": {
+    "onset": "10 weeks ago, following 6 weeks of radiation therapy for cancer of the left tonsil.",
+    "course": "Constant since onset.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Constant humming tinnitus (LE), autophony (voice echoes in LE), some imbalance.",
+    "functional_impact": "Difficulty hearing in the left ear; annoyance from tinnitus and voice echoing.",
+    "goals_motivation": "Evaluation of hearing status post-radiation."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-02-19",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports decreased hearing in the left ear starting after radiation therapy for left tonsil cancer. She experiences constant humming tinnitus and her voice echoes in the left ear. She also notes some imbalance.",
+        "otologic_history": "No history of hearing loss or symptoms in the right ear. No other reported otologic history.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Cancer of the left tonsil (treated with radiation).",
+        "prior_management": "None specified for this episode.",
+        "patient_goals": "Determine cause of hearing loss and symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-radiation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.23"
+          ],
+          "key_findings": "Right ear: Normal hearing sensitivity (250-2000 Hz) sloping to slight-to-moderate sensorineural hearing loss (3000-8000 Hz). Left ear: Slight sloping to mild conductive hearing loss in low frequencies (250-1000 Hz), rising to slight at 2000 Hz, then sloping to mixed/moderately severe loss in high frequencies.",
+          "numeric_results": {
+            "RE_PTA": "7 dB HL",
+            "LE_PTA": "40 dB HL",
+            "RE_250-2k": "<20 dB HL",
+            "RE_4k": "40 dB HL",
+            "RE_8k": "50 dB HL",
+            "LE_Air_Bone_Gap": "Present at 250, 500, 1000 Hz (~20-30 dB gap)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-radiation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.23"
+          ],
+          "key_findings": "Right ear: Normal ability to receive and recognize speech. Left ear: Mild loss in ability to receive speech (consistent with PTA); slight difficulty recognizing speech but good clarity at suprathreshold levels.",
+          "numeric_results": {
+            "RE_SRT": "7 dB HL",
+            "RE_WRS": "92% at 55 dB HL",
+            "LE_SRT": "35 dB HL",
+            "LE_WRS": "88% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-radiation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.23"
+          ],
+          "key_findings": "Right ear: Normal tympanogram (Type A). Left ear: Hypocompliant tympanogram (Type As) with negative pressure.",
+          "numeric_results": {
+            "RE_Static_Admittance": "0.8 mL",
+            "RE_Peak_Pressure": "20 daPa",
+            "LE_Static_Admittance": "0.2 mL",
+            "LE_Peak_Pressure": "-75 daPa",
+            "LE_Canal_Volume": "1.7 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Post-radiation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.23"
+          ],
+          "key_findings": "Right ear ipsilateral reflexes present 500-2000 Hz, absent at 4000 Hz. Left ear ipsilateral and contralateral reflexes absent at all frequencies. Right ear contralateral reflexes elevated or absent.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetrical hearing. The right ear exhibits normal hearing through 2000 Hz, sloping to a high-frequency sensorineural hearing loss. The left ear exhibits a conductive hearing loss in the low frequencies and a mixed loss in the high frequencies. Tympanometry indicates reduced eardrum mobility (stiffness) and negative pressure in the left ear, consistent with middle ear pathology (otitis media with effusion) likely secondary to radiation therapy.",
+  "counseling_points": [
+    "The hearing loss in your left ear is partly caused by fluid or stiffness behind the eardrum, likely a side effect of the radiation therapy affecting the Eustachian tube.",
+    "The 'echo' you hear when you speak (autophony) is a common symptom when there is a blockage or fluid in the middle ear space.",
+    "We recommend following the otologist's plan to use the 'Otovent' device to try to clear the pressure.",
+    "We will monitor your hearing annually, as radiation can sometimes cause changes over time.",
+    "If the fluid resolves but hearing difficulty persists, hearing aids can be considered."
+  ],
+  "notes_for_actor": [
+    "You are a 75-year-old female who has recently undergone cancer treatment.",
+    "You are not in acute pain, but the 'echoing' of your voice is very annoying and distracting.",
+    "You may express concern about whether the cancer has returned or if this is permanent damage.",
+    "When speaking, you might occasionally pause or tilt your head, as the echoing voice can be disorienting."
+  ]
+}

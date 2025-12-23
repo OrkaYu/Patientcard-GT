@@ -1,0 +1,162 @@
+{
+  "case_id": "case_5_10",
+  "title": "Brainstem Involvement: Ganglioglioma",
+  "demographics": {
+    "age_years": 18,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been suffering from headaches for years, but recently I've started having dizzy spells, nausea, and trouble swallowing. My right ear feels muffled and my voice seems softer.",
+  "problem_summary": {
+    "onset": "Headaches began 6 years prior; dizziness began 5 months prior; hearing change and coordination issues began 2-3 months prior.",
+    "course": "Progressive. Headaches were long-standing; dizziness increased in frequency recently. Coordination deteriorated rapidly in the last few months.",
+    "laterality": "Right-sided headaches; Right ear subjective hearing change; Right-beating nystagmus.",
+    "associated_symptoms": "Episodic nausea, swallowing difficulties (solid foods), poor coordination (risk of falling), soft voice, nystagmus.",
+    "functional_impact": "Cannot walk down stairs without risk of falling; difficulty swallowing solid foods.",
+    "goals_motivation": "Diagnosis and management of worsening neurological and vestibular symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Medical/Neurology Clinic",
+      "history": {
+        "present_illness": "18yo female with 6-year history of headaches (originally diagnosed as migraines), now with episodic nausea, dizziness, and ataxia. Dizziness precipitated by reading occasionally. Voice has become softer.",
+        "otologic_history": "Subjective 'muffled' hearing in the right ear for the previous 2 months.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Headaches treated with Cafergot and Advil. No visual complaints.",
+        "prior_management": "Originally diagnosed with migraines.",
+        "patient_goals": "Determine cause of dizziness and coordination loss."
+      },
+      "tests": [
+        {
+          "name": "Physical/Neurological Exam",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Lateral and rotary nystagmus toward the right on neutral and right gaze. Minimal dysmetria on finger-to-nose testing on the right. Unremarkable otherwise.",
+          "numeric_results": {}
+        },
+        {
+          "name": "MRI",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 5-35"
+          ],
+          "key_findings": "Abnormal mass in the brainstem principally involving the right side of the medulla with distortion of the left inferior portion of the fourth ventricle. Mass appeared cystic.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up for vestibular and auditory evaluation.",
+        "otologic_history": "Significant family history: Father died early of a 'brainstem tumor' and had lung tumors.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": null,
+        "patient_goals": null
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-33"
+          ],
+          "key_findings": "Hearing sensitivity within normal limits for both ears. No significant asymmetry in thresholds despite subjective 'muffled' feeling in the right ear.",
+          "numeric_results": {
+            "RE_Thresholds": "10-15 dB HL across 250-8000 Hz",
+            "LE_Thresholds": "10-15 dB HL across 250-8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-33"
+          ],
+          "key_findings": "Word recognition scores excellent bilaterally.",
+          "numeric_results": {
+            "WRS_RE": "92%",
+            "WRS_LE": "92%"
+          }
+        },
+        {
+          "name": "Electronystagmography (ENG)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Significant spontaneous right-beating nystagmus in all positions. Visual fixation suppressed but did not obliterate nystagmus. Down-beating nystagmus present. Smooth pursuit abnormal with superimposed right-beating nystagmus. Patient refused caloric/positional testing due to vertigo.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-34"
+          ],
+          "key_findings": "Waveform morphology good. Absolute latencies normal bilaterally at 85 dB nHL. Interwave intervals borderline normal. Findings considered 'mildly sensitive' or 'borderline' given the size of the lesion.",
+          "numeric_results": {
+            "Stimulus_Rate": "15.7 clicks/sec",
+            "I-III_Interval": "2.36 ms (RE?), 2.32 ms (LE?) - Text says borderline normal bilaterally",
+            "I-V_Interval_RE": "4.32 ms",
+            "ILD_V": "0.32 ms",
+            "RE_Wave_V_Latency": "6.9 ms (from Figure 5-34)",
+            "LE_Wave_V_Latency": "6.58 ms (from Figure 5-34)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity and speech recognition bilaterally, despite subjective complaints of muffled hearing in the right ear. ENG testing revealed significant central vestibular signs, including spontaneous right-beating and down-beating nystagmus and abnormal smooth pursuit. ABR results were borderline normal, with preserved absolute latencies and only borderline interwave intervals, which is somewhat unexpected given the large brainstem mass confirmed by MRI. The lesion is located in the rostral medulla, which may explain the preservation of primary auditory structures and the subtle ABR findings.",
+  "counseling_points": [
+    "Explain that the 'muffled' hearing sensation is likely due to the neurological involvement rather than damage to the ear itself, as the hearing test is normal.",
+    "Discuss the correlation between the dizziness/balance issues and the findings on the ENG (nystagmus).",
+    "Review the MRI findings (ganglioglioma) and the need for immediate medical management (biopsy/radiation) as directed by the neurologist.",
+    "Note the significance of family history (father's brainstem tumor) regarding the diagnosis."
+  ],
+  "notes_for_actor": [
+    "You are an 18-year-old female.",
+    "You are unsteady on your feet and fearful of falling, especially on stairs.",
+    "You feel dizzy often, and reading sometimes triggers it.",
+    "You are concerned about your voice being soft and your swallowing difficulties.",
+    "You mention your father died young of a brain tumor.",
+    "You feel your right ear is muffled, even though the doctor says the hearing test is normal."
+  ]
+}

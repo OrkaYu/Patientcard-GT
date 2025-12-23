@@ -1,0 +1,96 @@
+{
+  "case_id": "Case006_13",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Chronic Otitis Media with Tympanic Membrane Perforation",
+      "rationale_short": "History of childhood perforation and failed surgery, intermittent otorrhea, and Type B tympanogram with large ear canal volume."
+    },
+    {
+      "rank": 2,
+      "label": "Conductive Hearing Loss",
+      "rationale_short": "Significant air-bone gap in the left ear consistent with tympanic membrane perforation and potential ossicular chain involvement."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess degree and type of hearing loss given history of perforation."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear status and confirm perforation (canal volume)."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Evaluate integrity of the reflex arc."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with normal hearing in the right ear and a moderately severe to moderate conductive hearing loss in the left ear. Tympanometry in the left ear reveals a flat trace with a large ear canal volume, confirming the presence of a patent tympanic membrane perforation. Acoustic reflexes are absent bilaterally.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal (0-10 dB HL). Left ear moderately severe to moderate conductive loss (250-500 Hz ~55 dB HL, improving to 35-40 dB HL at higher frequencies) with normal bone conduction."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear SRT 13 dB HL, WRS 100%. Left ear SRT 40 dB HL, WRS 100%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear Type A (normal). Left ear Type B (flat) with large ear canal volume (7.1 mL), consistent with perforation."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent for both ipsilateral and contralateral stimulation in both ears at all frequencies (500-4000 Hz)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to ENT specialist for consultation",
+      "Imaging studies to determine viability of surgical repair",
+      "Revision tympanoplasty with possible ossicular chain reconstruction",
+      "Hearing aid trial (if surgery is declined or unsuccessful)"
+    ],
+    "counseling_actions": [
+      "Discuss surgical options versus amplification",
+      "Advise on water precautions to keep the left ear dry"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Tympanic membrane perforation",
+      "Intermittent otorrhea",
+      "Otalgia"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "Evaluation of chronic tympanic membrane perforation with active symptoms (otorrhea, otalgia) for potential surgical repair."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Following ENT consultation and potential surgery",
+    "objective": "Monitor healing of the tympanic membrane and assess post-operative hearing status."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,123 @@
+{
+  "case_id": "Case09_Functional_Audiogenic_Seizure",
+  "title": "Functional Audiogenic Seizure",
+  "demographics": {
+    "age_years": 50,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "United Kingdom"
+  },
+  "chief_complaint": "Patient reports 4 years of frequent, daily sound-induced seizures lasting several minutes, during which she feels 'I am not myself.'",
+  "problem_summary": {
+    "onset": "4 years prior to referral.",
+    "course": "Frequent, at least daily seizures.",
+    "laterality": "Bilateral/Systemic response to sound.",
+    "associated_symptoms": "Strong upper body and neck muscle spasm, facial grimacing, eye closure, dissociation. Non-auditory history includes chronic fatigue syndrome, restless leg syndrome, OSA, and depression.",
+    "functional_impact": "Housebound; retired on health grounds; uses wheelchair and noise-cancelling headphones constantly; social/shopping trips cause debilitating seizures.",
+    "goals_motivation": "Distressed by condition, seeking relief from seizures."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Specialist Tinnitus and Hyperacusis outpatient clinic (UK)",
+      "history": {
+        "present_illness": "Patient attended with husband, utilizing a wheelchair and wearing noise-cancelling headphones. Reports daily sound-induced seizures triggered by unexpected/intrusive sounds (not necessarily loud ones).",
+        "otologic_history": "No specific otologic history mentioned other than sound sensitivity.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Diagnosed with chronic fatigue syndrome, restless leg syndrome, obstructive sleep apnea, and depression. Taking sertraline, nortriptyline, and betahistine.",
+        "prior_management": "Consulted specialists previously with poor outcomes. Retired from work as preschool teaching assistant.",
+        "patient_goals": "Concerned that nortriptyline might be exacerbating seizures."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Otoscopy was normal. Pure-tone audiometry was deferred due to lack of medical coverage for potential seizures. A seizure was triggered in the clinic by a colleague whistling outside the room.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (Subsequent attendance)",
+      "history": {
+        "present_illness": "Return for formal audiometric testing.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "Unchanged.",
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "Unchanged.",
+        "patient_goals": "Complete hearing assessment."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "All thresholds were found to be within normal limits. No hearing loss detected.",
+          "numeric_results": {
+            "Thresholds": "Within normal limits (all frequencies)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic (Post-Diagnosis Management)",
+      "history": {
+        "present_illness": "Patient returned following diagnosis of Functional Neurological Disorder (FND) and nonepileptic seizures by multidisciplinary team.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "Unchanged.",
+        "medical_psych_history": "Diagnosis of FND confirmed. Nortriptyline and betahistine discontinued.",
+        "prior_management": "Self-directed and informal program of gradual reduction of hearing protection and increased sound exposure discussed.",
+        "patient_goals": "Management of sound tolerance."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient reported immediate reduction in seizure occurrence (only 2 in a 3-month period, triggered by significant noise). Patient attributed improvement to stopping medication; FND team attributed it to removing exacerbating factors.",
+          "numeric_results": {
+            "Seizure frequency": "2 in 3 months (previously daily)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal otoscopy and pure-tone thresholds within normal limits, ruling out peripheral hearing loss. The primary presentation is functional audiogenic seizures (nonepileptic) triggered by unexpected sounds, consistent with Functional Neurological Disorder (FND).",
+  "counseling_points": [
+    "Explain that the hearing test confirms the ears are working normally (hardware is intact).",
+    "Discuss the diagnosis of Functional Neurological Disorder (FND): the symptoms are real, but they are due to a 'software' or signal processing issue in the brain, not damage to the ear or epilepsy.",
+    "Clarify that 'functional' does not mean 'faked' or 'imagined'.",
+    "Advise that constant use of noise-cancelling headphones reinforces the brain's threat response to sound.",
+    "Recommend a gradual, self-paced reduction in hearing protection to retrain the brain to tolerate everyday sounds.",
+    "Coordinate with the medical team regarding the discontinuation of medications like nortriptyline if they are suspected triggers."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is highly anxious about sound exposure.",
+    "Wear noise-cancelling headphones initially and perhaps use a wheelchair.",
+    "If a sound occurs (even a whistle or moderate noise), demonstrate a 'seizure' characterized by upper body/neck spasms, facial grimacing, and eye closure.",
+    "During the seizure, appear dissociated or 'not yourself'.",
+    "Do not act as though you cannot hear; your hearing is normal. The issue is the physical reaction to the sound.",
+    "Express relief when the FND diagnosis is explained, as it provides a concrete label for your suffering."
+  ]
+}

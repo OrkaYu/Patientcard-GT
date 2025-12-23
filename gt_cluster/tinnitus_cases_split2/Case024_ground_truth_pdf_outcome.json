@@ -1,0 +1,169 @@
+{
+  "case_id": "Case024",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Misophonia (Annoyance Hyperacusis)",
+      "rationale_short": "Patient exhibits strong emotional reactions (anger, anxiety) to specific trigger sounds (chewing, breathing) despite normal peripheral hearing and normal loudness discomfort levels."
+    },
+    {
+      "rank": 2,
+      "label": "Central Auditory Nervous System (CANS) Inefficiencies",
+      "rationale_short": "Objective testing revealed absent cortical auditory evoked potentials and asymmetric TEOAE suppression, suggesting inefficient central processing."
+    },
+    {
+      "rank": 3,
+      "label": "Loudness Hyperacusis",
+      "rationale_short": "Ruled out as the primary diagnosis due to clinically acceptable loudness discomfort levels (≥ 90 dB HL)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To assess the physical status of the ear canal and tympanic membrane."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear compliance and pressure."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the middle ear muscle reflex arc."
+      },
+      {
+        "action": "DPOAE",
+        "urgency": "routine",
+        "rationale_short": "To evaluate outer hair cell function."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds across standard frequencies."
+      },
+      {
+        "action": "Ultra-high frequency audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity in the extended high-frequency range."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition thresholds and word recognition in quiet and noise."
+      },
+      {
+        "action": "Loudness Discomfort Levels (UCLs)",
+        "urgency": "routine",
+        "rationale_short": "To determine dynamic range and rule out loudness hyperacusis."
+      },
+      {
+        "action": "Cortical Auditory Evoked Potentials (CAEP)",
+        "urgency": "routine",
+        "rationale_short": "To objectively assess central auditory nervous system maturation and processing."
+      },
+      {
+        "action": "TEOAE Suppression",
+        "urgency": "routine",
+        "rationale_short": "To assess the function of the medial olivo-cochlear system (MOCS)."
+      },
+      {
+        "action": "Misophonia Assessment Questionnaire (MAQ)",
+        "urgency": "routine",
+        "rationale_short": "To quantify the perceived degree of impairment from sound sensitivity."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrated normal peripheral hearing sensitivity, including ultra-high frequencies, and excellent speech recognition. Middle ear function was normal, though right contralateral reflexes were absent. These findings rule out peripheral hearing loss as the cause of symptoms.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "result_summary": "Nonoccluding cerumen, intact tympanic membranes bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Normal middle ear system compliance and pressure bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Ipsilateral present 500-4000 Hz AU; Left contralateral present; Right contralateral absent at 100 dB HL."
+          },
+          {
+            "name": "DPOAE",
+            "result_summary": "Present 2,000 to 6,000 Hz bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Normal hearing sensitivity from 250 to 8,000 Hz."
+          },
+          {
+            "name": "Ultra-high frequency audiometry",
+            "result_summary": "Thresholds within or better than accepted values (9,000 to 20,000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRT 5 dB HL AU; WRS 100% in quiet, 96% in noise (+5 dB SNR)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Specialized testing ruled out loudness hyperacusis due to normal discomfort levels. However, central assessment revealed absent cortical responses and asymmetric TEOAE suppression, suggesting inefficiencies in the central auditory nervous system and efferent pathways consistent with misophonia.",
+        "tests": [
+          {
+            "name": "Loudness Discomfort Levels (UCLs)",
+            "result_summary": "Range ≥ 90 dB HL (500-4000 Hz), clinically acceptable dynamic range."
+          },
+          {
+            "name": "Cortical Auditory Evoked Potentials (CAEP)",
+            "result_summary": "Absent P1/N1 and P2/N2 responses bilaterally in quiet and noise."
+          },
+          {
+            "name": "TEOAE Suppression",
+            "result_summary": "Reduced suppression in the left ear; 7.21 dB asymmetry between ears."
+          },
+          {
+            "name": "Misophonia Assessment Questionnaire (MAQ)",
+            "result_summary": "Total score 25, indicating moderate severity."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Trial with sound therapy using ear-level sound generator devices (broadband and environmental sounds).",
+      "Psychology consultation for Cognitive Behavioral Therapy (CBT).",
+      "Acceptance and Commitment Therapy (ACT).",
+      "Biofeedback training (diaphragmatic breathing)."
+    ],
+    "counseling_actions": [
+      "Explained that hearing sensitivity is normal but the brain processes sound differently.",
+      "Clarified the diagnosis as Misophonia (Annoyance Hyperacusis) rather than loudness hyperacusis.",
+      "Discussed the goal of sound therapy to mask trigger sounds and reduce aversive responses.",
+      "Recommended coping strategies including thought restructuring, mindfulness, and self-advocacy."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Psychology",
+      "rationale_short": "Referral for CBT and management of misophonia and anxiety symptoms."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor efficacy of sound therapy and psychological interventions."
+  },
+  "expected_outcome": [
+    "Patient reported that strategies including CBT, ACT, biofeedback, and sound therapy had limited benefit.",
+    "Patient returned the ear-level sound generator devices as she did not demonstrate meaningful improvement.",
+    "Patient continues to be seen through the behavioral health department for psychological services.",
+    "Family is seeking alternative treatment and management plans."
+  ]
+}

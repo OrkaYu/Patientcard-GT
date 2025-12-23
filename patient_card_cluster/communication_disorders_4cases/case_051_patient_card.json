@@ -1,0 +1,198 @@
+{
+  "case_id": "case_51",
+  "title": "Denise: Adult Auditory Rehabilitation and the 'Difficult Patient'",
+  "demographics": {
+    "age_years": null,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I am having a lot of trouble hearing in group settings and noisy places like restaurants and church. These hearing aids just don't sound right, and the loudness is inconsistent.",
+  "problem_summary": {
+    "onset": "Long-standing; first hearing aids in 2001/2004 (historical context), presented to current practice in 2015.",
+    "course": "Progressive dissatisfaction with amplification; history of multiple hearing aid returns and frequent reprogramming requests ('tweaking').",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Social withdrawal, embarrassment, feeling 'less than', hearing aid casings cracking due to hair products.",
+    "functional_impact": "Significant participation restrictions in social and family life; HHI score indicates severe handicap.",
+    "goals_motivation": "Desires better hearing but has high cosmetic concerns and reluctance regarding technology costs."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-09-01",
+      "setting": "Private Pay Audiology Practice",
+      "history": {
+        "present_illness": "Patient presented with moderate sloping to profound sensorineural hearing loss. She reported hearing poorly in noise. She was new to wearing hearing aids at this practice but had a history of prior use.",
+        "otologic_history": "Hereditary hair loss mentioned; no specific otologic disease listed.",
+        "prior_management": "Previous hearing aids in 2001 and 2004. Switched from ITE to BTE at this practice.",
+        "patient_goals": "Cosmetic concerns are high (pixie haircut makes aids visible).",
+        "medical_psych_history": "Described as having an 'abrasive interpersonal style' by clinicians."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 51-1"
+          ],
+          "key_findings": "Bilateral moderate precipitously sloping to profound sensorineural hearing loss. Thresholds drop significantly above 1000 Hz.",
+          "numeric_results": {
+            "RE_250Hz": "55 dB HL",
+            "RE_500Hz": "55 dB HL",
+            "RE_1000Hz": "60 dB HL",
+            "RE_2000Hz": "110 dB HL",
+            "RE_4000Hz": "110 dB HL",
+            "RE_8000Hz": "105 dB HL",
+            "LE_250Hz": "35 dB HL",
+            "LE_500Hz": "60 dB HL",
+            "LE_1000Hz": "60 dB HL",
+            "LE_2000Hz": "105 dB HL",
+            "LE_4000Hz": "110 dB HL",
+            "LE_8000Hz": "95 dB HL"
+          }
+        },
+        {
+          "name": "Articulation Index (AI) Calculation",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "aided vs unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Aided performance is poor due to severity of loss in high frequencies.",
+          "numeric_results": {
+            "Unaided_AI": "0.02 (2%)",
+            "Aided_AI": "0.23 (23%)",
+            "Predicted_Sentence_Score_Quiet": "~50%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2015-2016",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "6-month period of 'tweaking'. Patient requested reprogramming 9 times, returned devices, and complained of casing cracks.",
+        "prior_management": "Fitted with new BTEs. Casing cracked 9 times over 3 years due to hair products.",
+        "patient_goals": "Requests for adjustments were contradictory (more gain vs less gain)."
+      },
+      "tests": [
+        {
+          "name": "Hearing Aid Follow-up",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 51-1"
+          ],
+          "key_findings": "Patient made 9 visits between Sept 2015 and March 2016 for reprogramming, returns, and new fittings. Clinicians noted 'indecisiveness' and 'failure to commit'.",
+          "numeric_results": {
+            "Total_Visits_6_Months": "9"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "University Clinic (Research Study)",
+      "history": {
+        "present_illness": "Occurred during the 6th year of treatment. Patient invited to 6-week Group Auditory Rehabilitation (AR) program.",
+        "patient_goals": "Address social and emotional responses to hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Hearing Handicap Inventory (HHI)",
+          "timepoint_label": "Pre-AR Class",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Score indicated significant impairment due to hearing loss.",
+          "numeric_results": {
+            "HHI_Score": "86"
+          }
+        },
+        {
+          "name": "Hearing Handicap Inventory (HHI)",
+          "timepoint_label": "Post-AR Class",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Significant improvement after 6-week group class. Patient reported understanding the limitations of her hearing aids for the first time.",
+          "numeric_results": {
+            "HHI_Score": "58"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "6 months after completing the AR program.",
+        "prior_management": "Benefit from group AR was brief.",
+        "patient_goals": "Communication difficulties persisted."
+      },
+      "tests": [
+        {
+          "name": "Hearing Handicap Inventory (HHI)",
+          "timepoint_label": "6-Months Post-AR",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Handicap score increased again, indicating regression.",
+          "numeric_results": {
+            "HHI_Score": "82"
+          }
+        },
+        {
+          "name": "Cochlear Implant Evaluation",
+          "timepoint_label": "Recommendation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Audiologists recommended CI consideration. Retrospective analysis suggested she was a candidate as early as 2001/2015 based on audiogram and lack of benefit.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Denise presents with a bilateral moderate precipitously sloping to profound sensorineural hearing loss. Despite amplification, her aided Articulation Index is only 0.23, suggesting limited speech audibility (approx. 50% in quiet). She demonstrates significant fluctuation in self-perceived handicap (HHI scores), initially improving with group rehabilitation but regressing shortly after. Her profile is consistent with a candidate for cochlear implantation due to the lack of functional benefit from conventional hearing aids in the high frequencies.",
+  "counseling_points": [
+    "Hearing aids cannot fully restore hearing, especially in the high frequencies where your loss is profound; they are an aid, not a cure.",
+    "Frequent 'tweaking' of the hearing aid settings may not provide the clarity you seek because the damage to the inner ear limits what amplification can achieve.",
+    "Your feelings of embarrassment and social withdrawal are common, and group rehabilitation can help you realize you are not alone.",
+    "Given the limited benefit from hearing aids, a cochlear implant evaluation is strongly recommended to potentially provide better access to speech sounds."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is demanding, indecisive, and frequently dissatisfied ('abrasive interpersonal style').",
+    "Express frustration that 'things just don't sound right' despite multiple adjustments.",
+    "Show deep concern about the cosmetic appearance of the hearing aids and how they interact with your hair/hairstyle.",
+    "Convey a sense of cultural stigma or feeling 'less than' because of the hearing loss."
+  ]
+}

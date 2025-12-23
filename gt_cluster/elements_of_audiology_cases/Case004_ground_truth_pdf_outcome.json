@@ -1,0 +1,125 @@
+{
+  "case_id": "Case004",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Nonorganic hearing loss (malingering)",
+      "rationale_short": "Subjective claim of total deafness contradicts normal objective findings (ABR, TEOAE, reflexes) and lacks the expected shadow curve on the audiogram."
+    },
+    {
+      "rank": 2,
+      "label": "Normal hearing",
+      "rationale_short": "Objective measures (ABR, TEOAE, acoustic reflexes) indicate normal auditory pathway function bilaterally."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess behavioral hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition thresholds and discrimination."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess reflex pathways; presence at normal levels contradicts profound loss."
+      },
+      {
+        "action": "ABR",
+        "urgency": "routine",
+        "rationale_short": "Objective assessment of the auditory pathway to rule out organic pathology."
+      },
+      {
+        "action": "TEOAE",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function."
+      },
+      {
+        "action": "Stenger Test",
+        "urgency": "routine",
+        "rationale_short": "To evaluate for nonorganic hearing loss in the context of unilateral complaints."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient claims total deafness in the left ear, but the audiogram lacks the expected shadow curve. Objective measures (ABR, TEOAE, acoustic reflexes) are normal bilaterally, and the Stenger test is positive, confirming the hearing loss is nonorganic.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Right ear normal (0-10 dB HL). Left ear responses >90 dB HL or no response. Lack of shadow curve is inconsistent with interaural attenuation."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Right SRT 5 dB HL, SRS 100%. Left SRT NR, SRS NR."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A bilaterally (Right 0.62 cc, Left 0.66 cc)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present bilaterally at normal levels (Left Ipsilateral 95 dB HL, Contralateral 95 dB HL), proving total loss is impossible."
+          },
+          {
+            "name": "ABR",
+            "category": "Electrophysiology",
+            "result_summary": "All waves normal; interpeak latencies and latency-intensity functions normal bilaterally."
+          },
+          {
+            "name": "TEOAE",
+            "category": "OAE",
+            "result_summary": "Present bilaterally."
+          },
+          {
+            "name": "Stenger Test",
+            "category": "Special",
+            "result_summary": "Positive. Minimum contralateral interference level (MCIL) of 35 dB HL in the left ear."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Prepare a detailed report outlining reasons for suspecting nonorganic hearing loss",
+      "Retain and file all test forms and paper readouts",
+      "Write a letter to the referring attorney stating hearing is believed to be normal or near normal",
+      "Suggest reevaluation"
+    ],
+    "counseling_actions": [
+      "Explain that test results are inconsistent",
+      "Inform the patient that objective tests indicate normal hearing nerve and ear structure function",
+      "State belief that hearing in the left ear is normal or near normal",
+      "Do not use the word 'malingering'",
+      "Obtain express written permission before releasing findings to another party"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Referring Attorney",
+      "rationale_short": "To report findings of nonorganic hearing loss and suggest reevaluation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Reevaluation to obtain consistent behavioral results."
+  },
+  "expected_outcome": []
+}

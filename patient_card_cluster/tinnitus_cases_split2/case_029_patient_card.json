@@ -1,0 +1,140 @@
+{
+  "case_id": "Case29_Tinnitus_and_CoVID19",
+  "title": "Tinnitus and CoVID-19",
+  "demographics": {
+    "age_years": 48,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a ringing in my left ear that started immediately after I was diagnosed with COVID-19. I am also very anxious about the lingering effects of the virus, especially my loss of smell.",
+  "problem_summary": {
+    "onset": "November 2020, immediately following a positive COVID-19 diagnosis via nasal swab.",
+    "course": "Persistent since diagnosis.",
+    "laterality": "Left-sided, unilateral tinnitus.",
+    "associated_symptoms": "Anosmia (loss of smell), significant anxiety regarding long-term health effects of COVID-19.",
+    "functional_impact": "Severely bothersome; affects many aspects of life (THI 72, TFI 84).",
+    "goals_motivation": "Seeking evaluation of tinnitus symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "Early 2021",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient tested positive for COVID-19 in Nov 2020. Reported anosmia as the only initial symptom. Tinnitus in the left ear began immediately after diagnosis. Patient exhibits significant anxiety regarding the lack of conclusive data on long-term COVID effects.",
+        "otologic_history": "No complaints of hearing loss or other otologic symptoms prior to this. No hearing testing since grade school.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Diagnosed with COVID-19 (Nov 2020). Significant anxiety observed.",
+        "prior_management": "Completed THI and TFI prior to arrival.",
+        "patient_goals": "Evaluation of tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Self-Report Scales",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Scores indicate severely bothersome tinnitus affecting many aspects of life.",
+          "numeric_results": {
+            "Tinnitus Handicap Inventory (THI)": "72",
+            "Tinnitus Functional Index (TFI)": "84"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Type": "A"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Mild sensorineural hearing loss at 4,000 Hz and above. High-frequency audiometry showed mild-to-moderate loss from 9 kHz through 16 kHz, with no measurable thresholds beyond that.",
+          "numeric_results": {
+            "Hearing Loss Range": "4000 Hz and above",
+            "High Frequency Range": "9-16 kHz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Excellent word recognition in quiet.",
+          "numeric_results": {
+            "SRT": "25 dB HL",
+            "WRS": "96% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Loudness Tolerance",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Within normal limits for both speech and pure-tone stimuli.",
+          "numeric_results": {
+            "LDL": "> 90 dB HL"
+          }
+        },
+        {
+          "name": "Tinnitus Evaluation",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Pitch match, loudness match, and minimal masking levels obtained. Residual inhibition testing showed partial inhibition.",
+          "numeric_results": {
+            "Residual Inhibition Duration": "35 seconds",
+            "Stimulus for RI": "White noise for 1 min at 10 dB SL re: MML"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral, mild sensorineural hearing loss at 4,000 Hz and above, extending to a mild-to-moderate loss in the ultra-high frequencies (9–16 kHz). Despite the bilateral hearing loss, the tinnitus is reported as unilateral (left-sided). Speech recognition is excellent bilaterally, and loudness tolerance is normal. Self-report measures (THI: 72, TFI: 84) indicate the tinnitus is severely bothersome.",
+  "counseling_points": [
+    "Although you have hearing loss in both ears, your tinnitus is currently only on the left; however, managing the hearing loss can help the tinnitus.",
+    "Binaural amplification (hearing aids) is recommended to provide a sound-enriched environment, which often reduces tinnitus perception.",
+    "If hearing aids are not an option right now, you can use a smartphone app for sound therapy. Choose a sound like white noise or environmental sounds.",
+    "Set the volume of the sound therapy to a 'mixing point' where you can hear both the app sound and your tinnitus comfortably.",
+    "Use sound therapy whenever the tinnitus is most bothersome throughout the day.",
+    "Consider relaxation techniques, such as Mindfulness Based Tinnitus Stress Reduction (MBTSR), to help manage the distress.",
+    "A referral to a mental health professional is recommended to help address the significant anxiety you are experiencing related to your diagnosis."
+  ],
+  "notes_for_actor": [
+    "Portray significant anxiety, specifically focused on the unknown long-term effects of COVID-19 and the loss of smell.",
+    "You are visibly anxious throughout the testing procedures.",
+    "Despite the anxiety, you are a reliable patient during testing.",
+    "You have budget constraints that may prevent you from purchasing hearing aids immediately."
+  ]
+}

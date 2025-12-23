@@ -1,0 +1,167 @@
+{
+  "case_id": "case15_Auditory_Processing_Disorder_Therapy_for",
+  "title": "Auditory Processing Disorder Therapy for Mitochondrial Myopathy",
+  "demographics": {
+    "age_years": 47,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "The patient states, \"No one knows how to treat me.\" Her sister reports she has lost the ability to read and write, has difficulty understanding speech in noise, and gets frustrated easily.",
+  "problem_summary": {
+    "onset": "Symptoms began at age 20 with reading and speech-in-noise difficulties; diagnosed with Mitochondrial Myopathy (MM) at age 40.",
+    "course": "Progressive and degenerative. Condition worsened until she lost the ability to read and developed significant speech and memory problems.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Muscle weakness, fatigue, 'machine gun' style speech (staccato/unrelated sounds), word-finding difficulties, short-term memory loss, poor handwriting.",
+    "functional_impact": "Unable to write (sister completed history), graduated college/business prior to onset but now has severe communication and literacy deficits.",
+    "goals_motivation": "Seeking treatment for APD symptoms after referral from MM specialist and SLP."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2005-01-07",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient has Mitochondrial Myopathy. At age 20, noticed issues with reading and background noise. Now presents with severe speech processing, memory, and literacy deficits.",
+        "otologic_history": "History of 'extremely sound-sensitive ears'.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Diagnosed with Mitochondrial Myopathy (degenerative neurological disorder). Anxiety and emotional issues noted.",
+        "prior_management": "Referred by MM specialist and SLP.",
+        "patient_goals": "To find a treatment path as she feels no one knows how to help her."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.1"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally.",
+          "numeric_results": {
+            "Right PTA": "20 dB HL",
+            "Left PTA": "20 dB HL",
+            "Right Thresholds": "All tested frequencies (250-8000 Hz) within 10-25 dB HL range",
+            "Left Thresholds": "All tested frequencies (250-8000 Hz) within 15-25 dB HL range"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.1"
+          ],
+          "key_findings": "Normal speech recognition thresholds and excellent word recognition in quiet.",
+          "numeric_results": {
+            "SRT Right": "20 dB",
+            "SRT Left": "20 dB",
+            "WRS Right": "100% at 65 dB HL",
+            "WRS Left": "100% at 65 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.1"
+          ],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Type": "A (implied by normal classification)"
+          }
+        },
+        {
+          "name": "Buffalo Model Questionnaire (BMQ)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 15.1"
+          ],
+          "key_findings": "Results are severe for an adult. Indicates deficits in Decoding (DEC), Tolerance-Fading Memory (TFM), and Integration (INT).",
+          "numeric_results": {
+            "Total Affirmative Responses": "18 (Norm: 3)",
+            "DEC Score": "5 (Norm: 0)",
+            "TFM Score": "9 (Norm: 2)",
+            "INT Score": "4 (Norm: 0)"
+          }
+        },
+        {
+          "name": "Staggered Spondaic Word (SSW)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Extremely poor performance, indicating severe central auditory dysfunction.",
+          "numeric_results": {
+            "Score": "18 Standard Deviations (SDs) below normal"
+          }
+        },
+        {
+          "name": "Phonemic Synthesis (PS)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Performance is significantly below normal limits.",
+          "numeric_results": {
+            "Score": "16 Standard Deviations (SDs) below normal"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Mildly affected compared to norms.",
+          "numeric_results": {
+            "Right Ear": "76% (Norm: 82%)",
+            "Left Ear": "80% (Norm: 81%)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity and excellent word recognition in quiet. However, central auditory processing evaluation reveals severe deficits. She scored 18 SDs below normal on the SSW and 16 SDs below normal on Phonemic Synthesis, consistent with Decoding (DEC) and Tolerance-Fading Memory (TFM) subtypes of APD. Questionnaire results corroborate these findings, showing significant difficulty with processing speed, noise, and memory.",
+  "counseling_points": [
+    "Your peripheral hearing (the ears themselves) is normal, but the way your brain processes sound is significantly affected by the mitochondrial myopathy.",
+    "The 'power cells' (mitochondria) in your brain are struggling to provide enough energy for complex listening tasks, which explains your fatigue and difficulty with reading and speech.",
+    "We have identified specific patterns (Decoding and Memory issues) that we can target with therapy.",
+    "Therapy will start with basic skills like recognizing speech sounds and will gradually move to more complex tasks as you improve."
+  ],
+  "notes_for_actor": [
+    "Portray speech as 'machine gun' style—staccato, single unrelated speech sounds, or very halting.",
+    "Show frustration and a short temper, as described in the history ('snap at people I don't even know').",
+    "You are unable to read or write; rely on your 'sister' (if present) or the clinician to handle forms.",
+    "Express hopelessness initially ('no one knows how to treat me')."
+  ]
+}

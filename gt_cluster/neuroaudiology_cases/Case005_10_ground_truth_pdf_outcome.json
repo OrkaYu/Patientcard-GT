@@ -1,0 +1,129 @@
+{
+  "case_id": "Case005_10",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Brainstem Ganglioglioma",
+      "rationale_short": "MRI revealed a cystic mass in the right medulla; tissue biopsy confirmed ganglioglioma."
+    },
+    {
+      "rank": 2,
+      "label": "Brainstem Glioma",
+      "rationale_short": "Initial MRI findings implicated a brainstem glioma before specific histological confirmation."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Physical/Neurological Exam",
+        "urgency": "routine",
+        "rationale_short": "Initial assessment of headaches, dizziness, and coordination issues."
+      },
+      {
+        "action": "MRI",
+        "urgency": "urgent",
+        "rationale_short": "To investigate suspected central pathology given neurological signs."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate subjective muffled hearing."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess functional hearing ability."
+      },
+      {
+        "action": "Electronystagmography (ENG)",
+        "urgency": "soon",
+        "rationale_short": "Evaluate vestibular function given dizziness and nystagmus."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "Assess integrity of auditory brainstem pathways given brainstem signs."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presented with progressive neurological symptoms including headaches, ataxia, and dysphagia. Physical exam revealed nystagmus and dysmetria. MRI identified a cystic brainstem mass in the medulla, distorting the fourth ventricle.",
+        "tests": [
+          {
+            "name": "Physical/Neurological Exam",
+            "category": "Clinical Exam",
+            "result_summary": "Lateral and rotary nystagmus toward the right; minimal dysmetria on finger-to-nose testing on the right."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Abnormal cystic mass in the brainstem principally involving the right side of the medulla with distortion of the left inferior portion of the fourth ventricle."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Audiologic evaluation revealed normal peripheral hearing despite subjective complaints. ENG confirmed central vestibular dysfunction with spontaneous and down-beating nystagmus. ABR was borderline normal, suggesting the lesion in the rostral medulla spared the primary auditory tracts.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Hearing sensitivity within normal limits for both ears (10-15 dB HL); no significant asymmetry."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word recognition scores excellent bilaterally (92% AU)."
+          },
+          {
+            "name": "Electronystagmography (ENG)",
+            "category": "Vestibular",
+            "result_summary": "Significant spontaneous right-beating nystagmus; down-beating nystagmus present; abnormal smooth pursuit. Caloric testing refused."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Normal absolute latencies; borderline normal interwave intervals (I-III, I-V). Waveform morphology good."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Tissue biopsy for diagnosis confirmation",
+      "Radiation therapy",
+      "Neurology follow-up"
+    ],
+    "counseling_actions": [
+      "Explain that 'muffled' hearing is likely central/neurological given normal audiogram",
+      "Discuss correlation between dizziness and ENG findings (nystagmus)",
+      "Review MRI findings and necessity of immediate medical management",
+      "Discuss significance of family history of brainstem tumor"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Progressive headaches",
+      "Ataxia/poor coordination",
+      "Swallowing difficulties (dysphagia)",
+      "Down-beating nystagmus",
+      "Brainstem mass on MRI"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurology/Oncology",
+      "rationale_short": "Confirmed brainstem mass requires biopsy and radiation therapy."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor response to radiation therapy and neurological status."
+  },
+  "expected_outcome": [
+    "Diagnosis confirmed as ganglioglioma by tissue biopsy.",
+    "Patient completed radiation therapy.",
+    "Patient is being followed by a staff neurologist."
+  ]
+}

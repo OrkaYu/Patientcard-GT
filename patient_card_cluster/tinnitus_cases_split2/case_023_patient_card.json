@@ -1,0 +1,157 @@
+{
+  "case_id": "Case23_Tinnitus_and_Posttraumatic_Stress_Disorder",
+  "title": "Case 23: Tinnitus and Posttraumatic Stress Disorder",
+  "demographics": {
+    "age_years": 67,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have a loud ringing in my right ear that started about 2 months ago. I've also had some sudden dizzy spells recently.",
+  "problem_summary": {
+    "onset": "2 months ago, shortly after an on-the-job gunshot injury and subsequent retirement.",
+    "course": "Constant, extremely bothersome, fluctuates in intensity (louder at night).",
+    "laterality": "Right ear tinnitus.",
+    "associated_symptoms": "Dizziness (5 episodes, 10-20 seconds each), stress, anxiety, flashbacks, nightmares.",
+    "functional_impact": "Difficulty falling asleep, hesitant to leave home due to fear of vestibular episodes, stress exacerbates tinnitus.",
+    "goals_motivation": "Relief from tinnitus and dizziness; management of stress."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "University Hearing Clinic",
+      "history": {
+        "present_illness": "Patient reports loud ringing tinnitus in the right ear beginning 2 months ago following a gunshot wound to the shoulder and retirement. Tinnitus is constant and louder at night. He also reports 5 episodes of dizziness (10-20 seconds) in the last 2 months; one resulted in a fall.",
+        "otologic_history": "History of bilateral ear infections once a year since youth (most recent 11 months ago). No prior vestibular issues.",
+        "noise_exposure_history": "36 years in law enforcement. Monthly shooting range training for 25 years. Occasional hearing protection used. Close proximity to gunfire.",
+        "medical_psych_history": "Type 2 diabetes, high cholesterol, headaches. Recent gunshot wound to right shoulder (2 months ago). 'In shock' since shooting; flashbacks and nightmares (PTSD symptoms). Mother recently diagnosed with dementia.",
+        "prior_management": "Prescribed antibiotics for gunshot wound. Uses aspirin, metformin, dapagliflozin, simvastatin.",
+        "patient_goals": "Reduce tinnitus bother and address dizziness."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 23.1"
+          ],
+          "key_findings": "Right ear: Normal low frequencies sloping precipitously to severe mixed hearing loss in mid-to-high frequencies. Left ear: Normal low-to-mid frequencies sloping to moderate mixed loss in high frequencies. Air-bone gaps present at 250, 1000, and 4000 Hz.",
+          "numeric_results": {
+            "Right PTA": "16.6 dB HL",
+            "Left PTA": "10 dB HL",
+            "Right AC Thresholds": "250Hz: ~10, 1kHz: ~30, 2kHz: ~55, 4kHz: ~75, 8kHz: ~70 dB HL",
+            "Left AC Thresholds": "250Hz: ~5, 1kHz: ~10, 2kHz: ~20, 4kHz: ~45, 8kHz: ~50 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 23.1"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) consistent with pure-tone findings. Word Recognition Scores (WRS) excellent in the right ear and good in the left ear.",
+          "numeric_results": {
+            "Right SRT": "25 dB HL",
+            "Left SRT": "5 dB HL",
+            "Right WRS": "94% (at 80 dB HL, masked)",
+            "Left WRS": "88% (at 40 dB HL, masked)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 23.1"
+          ],
+          "key_findings": "Normal ear canal volumes. Type A tympanograms bilaterally, though right ear pressure is negative (-95 daPa).",
+          "numeric_results": {
+            "Right ECV": "0.8 cm3",
+            "Right Compliance": "0.8 ml",
+            "Right Pressure": "-95 daPa",
+            "Left ECV": "1.4 cm3",
+            "Left Compliance": "1.1 ml",
+            "Left Pressure": "35 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 23.1"
+          ],
+          "key_findings": "Right ipsilateral reflexes absent at 500, 1000, 2000 Hz. Left ipsilateral reflexes absent at 500 Hz, present at 1000 and 2000 Hz.",
+          "numeric_results": {
+            "Right Ipsi (500, 1k, 2k)": "NR (No Response)",
+            "Left Ipsi (1k, 2k)": "95 dB HL"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAE)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right ear: Pass at 3000 Hz, refer at 1500, 2000, 4000-6000 Hz. Left ear: Pass 1500-4000 Hz, refer 5000-6000 Hz. Consistent with pure-tone loss.",
+          "numeric_results": null
+        },
+        {
+          "name": "Tinnitus Functional Index (TFI)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Results suggest tinnitus has a significant negative impact on daily life.",
+          "numeric_results": {
+            "Overall Score": "82/100",
+            "Quality of Life Subscale": "77.5"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetrical mixed hearing loss, severe in the high frequencies for the right ear and moderate for the left. The conductive components and history of ear infections align with the mixed nature of the loss, while the high-frequency sensorineural deficit is consistent with long-term noise exposure. Tinnitus is causing significant distress (TFI 82/100), likely exacerbated by recent psychological trauma (PTSD) and stress. Vestibular testing (VNG) and MRI performed via referral were unremarkable.",
+  "counseling_points": [
+    "Discuss the 'mixed' nature of the hearing loss: a combination of noise damage (nerve) and history of ear infections (conductive).",
+    "Explain the link between stress, PTSD, and tinnitus perception; the brain's 'alarm system' is hyper-active.",
+    "Validate the dizziness but provide reassurance that the VNG and MRI results rule out dangerous anatomical causes.",
+    "Recommend a combination of amplification (hearing aids) and sound therapy/counseling for tinnitus management.",
+    "Emphasize the importance of the multidisciplinary approach involving his ENT and psychiatrist."
+  ],
+  "notes_for_actor": [
+    "Portray a man who is 'on edge' and anxious. You are a retired detective but feel vulnerable due to the recent shooting and dizziness.",
+    "You are having trouble sleeping and are worried about the ringing never going away.",
+    "Express guilt about your partner's injury during the shooting.",
+    "Show hesitation when discussing leaving the house due to fear of falling."
+  ]
+}

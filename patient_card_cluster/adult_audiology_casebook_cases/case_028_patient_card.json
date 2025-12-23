@@ -1,0 +1,163 @@
+{
+  "case_id": "case28_Benign_Paroxysmal_Positional_Vertigo_Lat",
+  "title": "Benign Paroxysmal Positional Vertigo Lateral Canal Conundrum",
+  "demographics": {
+    "age_years": 62,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been having severe dizzy spells again for the last few weeks, especially when I roll over in bed or tip my head.",
+  "problem_summary": {
+    "onset": "Original onset 2 years ago following whole-body vibration at a spa; recent recurrence after travel abroad.",
+    "course": "Episodic, debilitating vertigo lasting a few seconds.",
+    "laterality": "Bilateral symptoms reported; diagnostic challenge to identify the affected side.",
+    "associated_symptoms": "Nausea and vomiting (during initial onset 2 years ago); current episodes are debilitating.",
+    "functional_impact": "Debilitating vertigo preventing normal sleep and movement.",
+    "goals_motivation": "Resolution of vertigo symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Neuro-otology Clinic",
+      "history": {
+        "present_illness": "Patient reported a 2-year history of severe vertigo. Initial onset occurred after whole-body vibration at a spa, causing violent vertigo, nausea, and vomiting. Recurred days later after a flight.",
+        "otologic_history": "Prior diagnosis of positional vertigo by a physician; physical therapy provided no relief.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Travels abroad extensively.",
+        "prior_management": "Physical therapy (unsuccessful).",
+        "patient_goals": "Diagnosis and treatment."
+      },
+      "tests": [
+        {
+          "name": "Dix-Hallpike / Positional Testing",
+          "timepoint_label": "Baseline (2 years prior)",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Brisk upbeat geotropic torsional nystagmus when head hanging left. Nystagmus lasted 15-20 seconds after 2-3 second latency.",
+          "numeric_results": {
+            "Duration": "15-20 seconds",
+            "Latency": "2-3 seconds"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Physician Office",
+      "history": {
+        "present_illness": "Returned 2 years later with increasing debilitating vertigo over the last few weeks. Triggers include rolling over in bed and tipping head.",
+        "otologic_history": "Previous successful treatment of Left Posterior Canal BPPV.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Physician attempted log roll for Left Lateral Canal based on history, but symptoms worsened.",
+        "patient_goals": "Relief from recurrence."
+      },
+      "tests": [
+        {
+          "name": "Positional Testing (Clinical)",
+          "timepoint_label": "Recurrence",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Left Dix-Hallpike resulted in brisk geotropic horizontal nystagmus. Roll test showed eye movement stronger on right side initially, but physician treated left side. Symptoms worsened.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Vestibular Laboratory",
+      "history": {
+        "present_illness": "Referral for formal testing to differentiate the offending canal after failed bedside treatment.",
+        "otologic_history": "Recent failed repositioning maneuver.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": null,
+        "patient_goals": "Definitive diagnosis."
+      },
+      "tests": [
+        {
+          "name": "VNG/VOG - Spontaneous & Gaze",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": "vision_denied",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "1 deg/s rightward-beating spontaneous nystagmus without vision. No gaze nystagmus.",
+          "numeric_results": {
+            "Spontaneous Nystagmus": "1 deg/s rightward"
+          }
+        },
+        {
+          "name": "Positional Testing (Dix-Hallpike & Supine Roll)",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": "vision_denied",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 28.1",
+            "Figure 28.2",
+            "Figure 28.3",
+            "Figure 28.4",
+            "Table 28.1"
+          ],
+          "key_findings": "Robust geotropic horizontal nystagmus in both lateral positions. The response was more intense (higher velocity) in the right-side positions compared to the left.",
+          "numeric_results": {
+            "Dix-Hallpike Right": "87 deg/s rightward",
+            "Dix-Hallpike Left": "48 deg/s leftward",
+            "Supine Body Right": "135 deg/s rightward",
+            "Supine Body Left": "50 deg/s leftward"
+          }
+        },
+        {
+          "name": "Bow and Lean Test (BLT)",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": "vision_denied",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 28.5",
+            "Table 28.2"
+          ],
+          "key_findings": "Used to determine the affected ear in horizontal canalithiasis. Nystagmus beat rightward in the Bow position and leftward in the Lean position. In canalithiasis, the Bow nystagmus beats toward the affected ear.",
+          "numeric_results": {
+            "Bow Position": "97 deg/s rightward",
+            "Lean Position": "65 deg/s leftward"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with recurrent vertigo suggestive of BPPV. While initial history suggested left-sided involvement, formal vestibular testing revealed robust geotropic horizontal nystagmus in both head-right and head-left positions. The nystagmus was significantly stronger in right-sided positions (135 deg/s vs 50 deg/s). The Bow and Lean Test (BLT) confirmed the diagnosis, showing right-beating nystagmus in the bow position, indicating Right Horizontal (Lateral) Canalithiasis.",
+  "counseling_points": [
+    "Your testing confirms you have 'ear rocks' (otoconia) loose in the lateral canal of your right ear.",
+    "Although you had a problem with your left ear two years ago, the current dizziness is coming from the right side.",
+    "We determined this using the 'Bow and Lean' test; the direction your eyes moved when you bowed your head told us it was the right ear.",
+    "We will treat this with a 360-degree 'Log Roll' maneuver from right to left to move the particles out of the canal.",
+    "Tonight, please sleep on your left side with your head propped up slightly."
+  ],
+  "notes_for_actor": [
+    "When describing your history, mention the 'spa vibration' incident 2 years ago vividly.",
+    "You are frustrated because the doctor tried to fix your left ear last week, but it made you feel worse.",
+    "You cannot tell which side makes you dizzier when rolling over in bed; it feels terrible both ways."
+  ]
+}

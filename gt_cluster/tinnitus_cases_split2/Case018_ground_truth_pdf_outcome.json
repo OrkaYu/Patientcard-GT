@@ -1,0 +1,149 @@
+{
+  "case_id": "Case018",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Misophonia",
+      "rationale_short": "Patient exhibits intense emotional reactions (anger, crying) and avoidance behaviors to specific trigger sounds (chewing, breathing) produced by parents."
+    },
+    {
+      "rank": 2,
+      "label": "Tinnitus",
+      "rationale_short": "Chronic bilateral tinnitus present since age 8, described as painfully loud in quiet environments, with moderate quality of life impact (THI 54)."
+    },
+    {
+      "rank": 3,
+      "label": "Annoyance Hyperacusis",
+      "rationale_short": "Slightly reduced Loudness Discomfort Levels (85-100 dB HL) at 2 and 4 kHz suggest a component of decreased sound tolerance alongside misophonia."
+    },
+    {
+      "rank": 4,
+      "label": "Hashimoto Thyroiditis",
+      "rationale_short": "Co-occurring autoimmune condition which may contribute to fatigue, depression, and exacerbation of auditory symptoms."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Establish baseline hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess integrity of the acoustic reflex arc."
+      },
+      {
+        "action": "Otoacoustic Emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "Assess outer hair cell function."
+      },
+      {
+        "action": "High-frequency audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate hearing sensitivity in ultra-high frequencies (9-20 kHz)."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDLs)",
+        "urgency": "routine",
+        "rationale_short": "Determine sound tolerance levels for tones and speech."
+      },
+      {
+        "action": "Self-Report Scales",
+        "urgency": "routine",
+        "rationale_short": "Quantify the severity and impact of tinnitus and sound sensitivity (THI, TFI)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation by the referring otolaryngologist demonstrated normal peripheral hearing sensitivity and middle ear function. However, an asymmetry was noted in acoustic reflexes, which were absent in the left ear despite normal hearing.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity (0-10 dB HL) from 250 to 8,000 Hz bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 15 dB HL AU; WRS 100% at 50 dB HL AU."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral reflexes present in the right ear but absent in the left ear."
+          },
+          {
+            "name": "Otoacoustic Emissions (DPOAEs)",
+            "category": "OAEs",
+            "result_summary": "Present (12-frequency) in both ears."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Comprehensive assessment at the university clinic confirmed normal hearing through ultra-high frequencies. Testing revealed slightly reduced sound tolerance at specific frequencies and a moderate to severe subjective impact from tinnitus and misophonia.",
+        "tests": [
+          {
+            "name": "High-frequency audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal thresholds (better than 15 dB HL) from 9,000 to 20,000 Hz bilaterally."
+          },
+          {
+            "name": "Loudness Discomfort Levels (LDLs)",
+            "category": "Sound Tolerance",
+            "result_summary": "85-100 dB HL for tones (slightly reduced at 2 and 4 kHz); 100 dB HL for speech."
+          },
+          {
+            "name": "Self-Report Scales",
+            "category": "Questionnaires",
+            "result_summary": "THI 54/100; TFI 60/100; Subjective severity 9/10, annoyance 9/10, QoL impact 7/10."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Tinnitus Retraining Therapy (TRT) principles",
+      "Sound therapy using smartphone apps (relaxing sounds, broadband noise) via personal earphones",
+      "Multidisciplinary approach including psychology/CBT for misophonia and anxiety"
+    ],
+    "counseling_actions": [
+      "Directive counseling to reclassify tinnitus as a neutral stimulus",
+      "Education regarding misophonia (conditioned emotional response) versus hyperacusis",
+      "Discussion of the impact of stress and autoimmune health (Hashimoto's) on symptoms",
+      "Recommendation to avoid silence and use sound enrichment to reduce contrast of trigger sounds"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Mental Health / Psychology",
+      "rationale_short": "Referral indicated to address anxiety/depression and provide cognitive behavioral strategies for misophonia triggers."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Every 3 months for up to 18 months; audiometric re-evaluation at 6 months",
+    "objective": "Monitor for tinnitus habituation and changes in sound sensitivity."
+  },
+  "expected_outcome": []
+}

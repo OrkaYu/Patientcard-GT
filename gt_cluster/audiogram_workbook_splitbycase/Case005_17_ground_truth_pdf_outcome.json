@@ -1,0 +1,133 @@
+{
+  "case_id": "Case005_17",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Ménière’s disease (Cochlear Hydrops)",
+      "rationale_short": "Supported by low-frequency sensorineural hearing loss, episodic vertigo, and positive Electrocochleography (EcochG)."
+    },
+    {
+      "rank": 2,
+      "label": "Labyrinthitis",
+      "rationale_short": "Considered initially due to vertigo and hearing loss, but less likely given the recurrent nature and positive EcochG."
+    },
+    {
+      "rank": 3,
+      "label": "Retrocochlear pathology",
+      "rationale_short": "Unilateral hearing loss and vertigo raise suspicion, but ruled out by normal acoustic reflexes and normal MRI/CT."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding and check for rollover or retrocochlear signs."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology."
+      },
+      {
+        "action": "MRI and CT scans",
+        "urgency": "soon",
+        "rationale_short": "To rule out retrocochlear pathology (e.g., vestibular schwannoma) given unilateral symptoms."
+      },
+      {
+        "action": "Electrocochleography (EcochG)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate for cochlear hydrops given the clinical presentation of vertigo and low-frequency hearing loss."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The audiologic evaluation revealed a unilateral, moderate rising to mild sensorineural hearing loss in the right ear with excellent speech recognition. The left ear was within normal limits. Immittance testing showed normal middle ear function and acoustic reflexes, which reduces the likelihood of retrocochlear pathology but does not rule it out completely given the unilateral loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderate SNHL (250-1000 Hz) rising to mild (1500-8000 Hz). Left ear: Normal limits."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 42 dB, WRS 90% at 75 dB HL. Left ear: SRT 5 dB, WRS 100% at 55 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral and contralateral thresholds within normal limits (500-4000 Hz). Decay negative."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Medical workup was performed to differentiate between Labyrinthitis and Ménière’s disease. Imaging ruled out structural or retrocochlear lesions. Electrocochleography confirmed the presence of cochlear hydrops.",
+        "tests": [
+          {
+            "name": "MRI and CT scans",
+            "category": "Imaging",
+            "result_summary": "Normal."
+          },
+          {
+            "name": "Electrocochleography (EcochG)",
+            "category": "Electrophysiology",
+            "result_summary": "Positive for right-sided cochlear hydrops."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otolaryngology",
+      "High dose oral steroids",
+      "Intratympanic dexamethasone injections",
+      "Diuretic therapy",
+      "Low-salt diet"
+    ],
+    "counseling_actions": [
+      "Counsel on the diagnosis of Ménière’s disease (cochlear hydrops)",
+      "Explain the episodic nature of vertigo",
+      "Discuss dietary modifications (low salt) to manage symptoms"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral sensorineural hearing loss",
+      "Vertigo episodes"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otolaryngology",
+      "rationale_short": "Medical evaluation is required for unilateral hearing loss (to rule out retrocochlear pathology) and management of vertigo."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor hearing status and vertigo control following medical and dietary interventions."
+  },
+  "expected_outcome": [
+    "Slight improvement in hearing noted at follow-up visit.",
+    "Vertigo episodes continued despite initial steroid treatment.",
+    "Electrocochleography positive for right-sided cochlear hydrops.",
+    "Patient placed on diuretic and low-salt diet for long-term management."
+  ]
+}

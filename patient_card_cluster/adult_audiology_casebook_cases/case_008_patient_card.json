@@ -1,0 +1,143 @@
+{
+  "case_id": "case08_When_Mild_Hearing_Loss_Accompanies_Mild",
+  "title": "When Mild Hearing Loss Accompanies Mild Cognitive Impairment",
+  "demographics": {
+    "age_years": 73,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I don't think I have any significant difficulty with hearing or daily communication, but my wife says I'm asking for repetition more often.",
+  "problem_summary": {
+    "onset": "Gradual decrease over the past few years.",
+    "course": "Progressive.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Social withdrawal, difficulty with word-finding and remembering names (related to MCI).",
+    "functional_impact": "Patient is participating less in social conversations (e.g., family dinners). Wife reports communication is becoming stressful.",
+    "goals_motivation": "Patient is high-functioning (court interpreter, cantor) and wants to maintain this lifestyle; motivated by wife's concerns and link between hearing and cognition."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-08-11",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Referred by geriatrician following a diagnosis of Mild Cognitive Impairment (MCI) 1 month prior. Geriatrician noted hearing loss is a risk factor for cognitive decline. Patient denies hearing issues; wife reports frequent repetition and social withdrawal.",
+        "otologic_history": "No ear pain, drainage, surgery, or tinnitus. History of vertigo attributed to low blood pressure. Previous hearing test 6 months ago described as 'borderline normal'.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Diagnosed with amnestic MCI (MoCA score 25/30). Family history of Alzheimer's (mother). Cataracts and bifocals.",
+        "prior_management": "None.",
+        "patient_goals": "Identified needs via COSI: Hearing in court (job), synagogue (cantor), family dinners, and watching TV."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8.1"
+          ],
+          "key_findings": "Bilateral, slightly asymmetric high-frequency sensorineural hearing loss. Normal thresholds through 1000 Hz, sloping to moderate (Right) and moderately-severe (Left) in the high frequencies.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250-1000Hz: 5-10 dB; 2000Hz: 25 dB; 4000Hz: 50 dB; 8000Hz: 60 dB",
+            "Left_AC_Thresholds": "250-1000Hz: 5-10 dB; 2000Hz: 30 dB; 4000Hz: 55 dB; 8000Hz: 70 dB",
+            "Bone_Conduction": "Symmetric with AC thresholds (no air-bone gaps)."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8.1"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) indicate mild loss. Word Recognition Scores (WRS) are excellent/normal in quiet.",
+          "numeric_results": {
+            "SRT_Right": "25 dB HL",
+            "SRT_Left": "25 dB HL",
+            "WRS_Right": "100% at 60 dB HL",
+            "WRS_Left": "100% at 60 dB HL",
+            "LDL_UCL": "> 110 dB HL bilaterally"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Vol": "1.4 ml",
+            "Right_Pressure": "-5 daPa",
+            "Left_Vol": "1.3 ml",
+            "Left_Pressure": "-10 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8.1"
+          ],
+          "key_findings": "Ipsilateral reflexes present bilaterally. Contralateral reflexes present when stimulating left, absent when stimulating right. Retrocochlear pathology not suspected due to recent neurology workup.",
+          "numeric_results": {
+            "Ipsilateral_500_1k_2k": "Present (80-95 dB HL range)",
+            "Contralateral_Right_Stim": "Absent",
+            "Contralateral_Left_Stim": "Present"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "BKB-SIN test used due to cognitive status (less taxing on memory). Performance was within normal limits.",
+          "numeric_results": {
+            "SNR_Loss": "2.5 dB (Binaural)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the low frequencies sloping to a moderate (right) to moderately-severe (left) high-frequency sensorineural hearing loss. Speech understanding in quiet is excellent (100%) and speech-in-noise performance on the BKB-SIN is within normal limits. Middle ear function is normal.",
+  "counseling_points": [
+    "Although your hearing loss is mild, treating it is important because untreated hearing loss is a risk factor for cognitive decline.",
+    "Hearing aids can reduce the 'listening effort' your brain has to exert, freeing up resources for memory and processing.",
+    "We want to involve your wife in the process to help reduce the burden of repetition on her.",
+    "We will choose hearing aids that are simple to use (rechargeable) to minimize frustration.",
+    "I recommend a trial period with Receiver-In-The-Canal (RIC) hearing aids and attending group rehabilitation classes."
+  ],
+  "notes_for_actor": [
+    "You are a high-functioning professional (court interpreter) who speaks 5 languages.",
+    "You are slightly in denial about your hearing ('I hear fine'), but you are very worried about your recent diagnosis of Mild Cognitive Impairment (MCI).",
+    "You rely on your wife to fill in gaps in conversation.",
+    "You are motivated to try hearing aids primarily to protect your brain health and help your wife, rather than because you feel you can't hear."
+  ]
+}

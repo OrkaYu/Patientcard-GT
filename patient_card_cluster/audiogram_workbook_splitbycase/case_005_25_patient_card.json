@@ -1,0 +1,129 @@
+{
+  "case_id": "case_5_25",
+  "title": "Progressive Left-Sided Hearing Loss with Intermittent Dizziness",
+  "demographics": {
+    "age_years": 73,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I noticed hearing loss in my left ear many years ago, and it has continued to decline. I also hear a hissing sound in that ear, and lately, I've been having spells of dizziness.",
+  "problem_summary": {
+    "onset": "Hearing loss noticed many years ago; dizziness started in the last few months.",
+    "course": "Progressive decline in the left ear.",
+    "laterality": "Left ear worse; right ear perceived as relatively good.",
+    "associated_symptoms": "Hissing tinnitus in the left ear; intermittent dizziness.",
+    "functional_impact": "Noted decline in hearing ability in the left ear.",
+    "goals_motivation": "Seeking re-evaluation after being told previously there was 'nothing concerning'."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-04-27",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports long-standing, progressive left-sided hearing loss and hissing tinnitus. Intermittent dizziness began a few months ago.",
+        "otologic_history": "Previous exam years ago reportedly found 'nothing concerning'.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Previous hearing exam (results unknown/unremarkable per patient report).",
+        "patient_goals": "Evaluation of decline and dizziness."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.25"
+          ],
+          "key_findings": "Asymmetric sensorineural hearing loss. Right ear shows slight low-frequency loss rising to normal at 1kHz, then sloping to severe in high frequencies. Left ear shows a 'trough' or complex shape: moderately severe rising to mild in mid-frequencies, then sloping to severe at 3-4kHz.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 20, 500Hz: 20, 1000Hz: 10, 2000Hz: 25, 4000Hz: 65, 8000Hz: 45 dB HL",
+            "Left_AC_Thresholds": "250Hz: 50, 500Hz: 50, 1000Hz: 45, 2000Hz: 35, 4000Hz: 80, 8000Hz: 60 dB HL",
+            "Bone_Conduction": "Consistent with air conduction (Sensorineural) bilaterally."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.25"
+          ],
+          "key_findings": "SRT scores agree with PTA. Word recognition scores (WRS) show significant asymmetry, with the left ear performing notably worse than the right.",
+          "numeric_results": {
+            "Right_SRT": "20 dB HL",
+            "Right_WRS": "84% at 60 dB HL",
+            "Left_SRT": "47 dB HL",
+            "Left_WRS": "66% at 90 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.25"
+          ],
+          "key_findings": "Normal tympanograms bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Peak_Pressure": "-60 daPa",
+            "Right_Static_Admittance": "0.3 mL",
+            "Left_Peak_Pressure": "-50 daPa",
+            "Left_Static_Admittance": "0.3 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.25"
+          ],
+          "key_findings": "Reflexes generally elevated or absent, particularly at high frequencies. Contralateral decay could not be measured.",
+          "numeric_results": {
+            "Right_Ipsi_500_1k_2k_4k": "105, 105, ABS, ABS",
+            "Left_Ipsi_500_1k_2k_4k": "110, 110, 105, ABS",
+            "Right_Contra_Stim": "95, 100, 100, ABS",
+            "Left_Contra_Stim": "105, 105, ABS, ABS"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric sensorineural hearing loss, with the left ear exhibiting a greater degree of loss and a complex configuration compared to the right. Word recognition is significantly poorer in the left ear (66%) compared to the right (84%). While middle ear function is normal, the asymmetry in thresholds, speech scores, and the presence of unilateral tinnitus and dizziness raise red flags for retrocochlear pathology.",
+  "counseling_points": [
+    "Your hearing test confirms that the hearing in your left ear is significantly different from your right ear.",
+    "The word recognition score in your left ear is lower than we would expect based solely on the hearing loss levels.",
+    "Because of the difference between ears, the one-sided tinnitus, and the dizziness, we need to refer you to an ENT specialist.",
+    "An MRI will likely be recommended to rule out any issues along the hearing nerve (retrocochlear pathology).",
+    "Once we have medical clearance from the ENT, we can discuss hearing aids to help with the hearing loss."
+  ],
+  "notes_for_actor": [
+    "You are 73 years old and frustrated that previous doctors told you nothing was wrong, yet your hearing kept getting worse.",
+    "The hissing sound in your left ear is constant and annoying.",
+    "The dizziness is a new symptom (last few months) and concerns you.",
+    "You perceive your right ear as 'good', even though the test shows some high-frequency loss there too."
+  ]
+}

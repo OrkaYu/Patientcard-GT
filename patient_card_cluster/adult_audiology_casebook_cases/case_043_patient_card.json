@@ -1,0 +1,130 @@
+{
+  "case_id": "case43_Cochlear_Implantation_in_Meningitis_Caus",
+  "title": "Cochlear Implantation in Meningitis Caused by Streptococcus suis",
+  "demographics": {
+    "age_years": 66,
+    "sex": "female",
+    "primary_language": "Cantonese",
+    "country_region": "Hong Kong"
+  },
+  "chief_complaint": "I lost my hearing suddenly after getting sick with meningitis three years ago. I tried hearing aids, but they don't help enough for me to understand people.",
+  "problem_summary": {
+    "onset": "Sudden onset 3 years prior (at age 63).",
+    "course": "Acute onset following bacterial meningitis; slight improvement post-antibiotics but remained profound.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "History of fever, headache, myalgia (muscle pain), and general malaise associated with meningitis.",
+    "functional_impact": "Profound hearing loss preventing effective communication; insufficient benefit from amplification.",
+    "goals_motivation": "Patient and family are motivated for rehabilitation via cochlear implantation."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-06-24",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient contracted Streptococcus suis meningitis 3 years ago (likely via skin wounds while handling raw pork). Treated with ceftriaxone, linezolid, and dexamethasone. Hearing loss occurred shortly after admission.",
+        "otologic_history": "No prior history mentioned before meningitis.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "History of bacterial meningitis (S. suis).",
+        "prior_management": "Fitted with bilateral high-power hearing aids (Phonak Una SP AZ) 1 month post-meningitis. Trialed but provided limited benefit.",
+        "patient_goals": "To improve speech understanding and communication."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 43.1"
+          ],
+          "key_findings": "Bilateral profound sensorineural hearing loss. No responses noted at the limits of the audiometer for most frequencies.",
+          "numeric_results": {
+            "Right_Ear": "No response at limits (profound)",
+            "Left_Ear": "No response at limits (profound)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 43.1"
+          ],
+          "key_findings": "Performed using the Hong Kong Speech Perception Test. Auditory-only scores are negligible/extremely poor. Visual cues (lipreading) provide some benefit but overall performance is low.",
+          "numeric_results": {
+            "Everyday_Sentence_Recognition_Auditory_Only": "0%",
+            "Everyday_Sentence_Recognition_Audio_Visual": "41%",
+            "Open_Set_Sentence_Keyword_Auditory_Only": "3%",
+            "Open_Set_Sentence_Syllable_Auditory_Only": "2%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-op",
+          "ear": "soundfield",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 43.2"
+          ],
+          "key_findings": "Aided sound-field thresholds obtained with Phonak Una SP AZ hearing aids. Thresholds fall at the lower edge of the speech banana, providing insufficient gain.",
+          "numeric_results": {
+            "Aided_Thresholds_500_to_4000Hz": "55-65 dB HL",
+            "Aided_Response_4000Hz": "No response at 80 dB HL limit"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Declined by patient; could not tolerate probe insertion and pressure change.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Radiologic evaluation (CT) performed 1 month post-meningitis. Revealed no significant cochlear abnormality at that time.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral profound sensorineural hearing loss secondary to bacterial meningitis. Pre-operative evaluation demonstrates that conventional high-power amplification provides insufficient functional gain (aided thresholds 55-65 dB HL) and negligible open-set speech understanding (0-3% auditory-only).",
+  "counseling_points": [
+    "Your hearing loss is a direct result of the meningitis infection.",
+    "Current hearing aids are not providing enough volume or clarity for you to understand speech without lipreading.",
+    "Meningitis can cause the cochlea (inner ear) to turn to bone (ossify) very quickly. This makes cochlear implantation urgent.",
+    "We recommend proceeding with simultaneous bilateral cochlear implantation as soon as possible to ensure the electrodes can be fully inserted before any bone growth occurs.",
+    "While outcomes vary, a cochlear implant is the only option to potentially restore access to speech sounds."
+  ],
+  "notes_for_actor": [
+    "You are a 66-year-old woman who survived a serious illness (meningitis) but lost your hearing.",
+    "You rely heavily on lipreading; if the audiologist covers their mouth, you cannot understand them.",
+    "You may be anxious about the surgery but are motivated because the hearing aids are not working.",
+    "You have a history of handling raw pork, which is how you contracted the infection (S. suis)."
+  ]
+}

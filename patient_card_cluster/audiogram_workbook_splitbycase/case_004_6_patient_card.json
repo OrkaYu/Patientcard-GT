@@ -1,0 +1,124 @@
+{
+  "case_id": "case_4_6",
+  "title": "Family Concern Regarding Loud Voice",
+  "demographics": {
+    "age_years": 18,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "My father is worried about my hearing because he says I talk too loud. I do notice I have to ask people to repeat themselves sometimes, especially at my dance studio.",
+  "problem_summary": {
+    "onset": "Not specified",
+    "course": "Stable",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Loud voice production; difficulty hearing in noise (dance studio).",
+    "functional_impact": "Requires repetition in noisy environments like a dance studio.",
+    "goals_motivation": "Evaluate hearing status to address family concerns."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-05-14",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "18-year-old woman accompanied by her father. Father reports family concerns regarding hearing loss due to the patient's loud voice. Patient reports some need for repetition in noisy places (dance studio).",
+        "otologic_history": "Denies tinnitus, dizziness, or aural pressure.",
+        "noise_exposure_history": "Exposure to noise in dance studio implied.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "None reported.",
+        "patient_goals": "Determine if hearing loss is present."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.6"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally at all frequencies tested (250-8000 Hz). Thresholds are consistently between 0-10 dB HL.",
+          "numeric_results": {
+            "Right PTA": "10 dB HL",
+            "Left PTA": "8 dB HL",
+            "Frequency Range": "250-8000 Hz within normal limits (0-15 dB)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.6"
+          ],
+          "key_findings": "Normal ability to receive and recognize speech. SRTs are in agreement with PTAs. Word recognition scores are excellent (100%) bilaterally.",
+          "numeric_results": {
+            "Right SRT": "10 dB HL",
+            "Left SRT": "8 dB HL",
+            "Right WRS": "100% at 55 dB HL",
+            "Left WRS": "100% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.6"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally, indicating normal middle ear function.",
+          "numeric_results": {
+            "Right Static Admittance": "0.70 mmho",
+            "Right Peak Pressure": "-25 daPa",
+            "Left Static Admittance": "0.70 mmho",
+            "Left Peak Pressure": "0 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.6"
+          ],
+          "key_findings": "Could not test (CNT) due to inability to maintain a probe seal. Not interpreted as pathology.",
+          "numeric_results": {
+            "Result": "CNT (Could Not Test)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally, with thresholds between 0 and 10 dB HL across the frequency range. Speech discrimination is excellent (100%) in quiet. Middle ear function is normal as evidenced by Type A tympanograms. There is no audiologic evidence of hearing loss.",
+  "counseling_points": [
+    "Your hearing test results are completely normal in both ears.",
+    "The difficulty you experience hearing in the dance studio is likely due to the background noise and acoustics of the room, which can make hearing difficult even for people with normal hearing.",
+    "Your loud voice may be a habit or a natural reaction to the noisy environment you spend time in (the Lombard effect), rather than a sign of hearing loss.",
+    "We recommend monitoring your hearing and returning for a test if you notice any changes."
+  ],
+  "notes_for_actor": [
+    "You are a healthy 18-year-old.",
+    "You do not have hearing loss, but you genuinely find the dance studio noisy and hard to hear in.",
+    "You might be slightly annoyed that your father made you come in, but you are cooperative."
+  ]
+}

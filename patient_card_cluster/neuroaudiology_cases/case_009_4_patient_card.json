@@ -1,0 +1,156 @@
+{
+  "case_id": "case_9_4",
+  "title": "Multiple Sclerosis Case 9-4",
+  "demographics": {
+    "age_years": 39,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "The patient presented as a research case with a long-standing history of Multiple Sclerosis. He reports right-sided tinnitus since youth.",
+  "problem_summary": {
+    "onset": "Many-year history of MS; tinnitus since youth.",
+    "course": "Chronic MS symptoms including weakness, diplopia, and fatigue.",
+    "laterality": "Bilateral MS symptoms; Right-sided tinnitus.",
+    "associated_symptoms": "Weakness in all extremities (marked in lower left), intermittent diplopia, fatigue, labile emotions, difficult speech (dysarthria), swallowing difficulties, internuclear ophthalmoplegia, blurred vision, ataxia, nystagmus.",
+    "functional_impact": "Speech is difficult to understand but accurate; swallowing difficulties.",
+    "goals_motivation": "Seen as a research case."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic / Research Setting",
+      "history": {
+        "present_illness": "39-year-old male with many-year history of MS. Characterized by weakness, diplopia, fatigue, and labile emotions. Diagnosed with internuclear ophthalmoplegia, ataxia, intention-tremor nystagmus, and hyperreflexia.",
+        "otologic_history": "Right-sided tinnitus since youth.",
+        "noise_exposure_history": "Attributed tinnitus to a gunshot close to his ear in youth.",
+        "medical_psych_history": "Multiple Sclerosis.",
+        "prior_management": "Seen as a research case.",
+        "patient_goals": "Research participation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-9"
+          ],
+          "key_findings": "Thresholds within normal limits bilaterally (0-20 dB HL range).",
+          "numeric_results": {
+            "RE_thresholds": "0-20 dB HL across 250-8000 Hz",
+            "LE_thresholds": "0-20 dB HL across 250-8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-9"
+          ],
+          "key_findings": "Excellent speech recognition scores for both ears.",
+          "numeric_results": {
+            "WRS_RE": "92%",
+            "WRS_LE": "94%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanograms bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Contralateral reflexes present at normal levels with stimulus to Left Ear (500-4000 Hz). Absent at all frequencies with stimulus to Right Ear.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-11"
+          ],
+          "key_findings": "Abnormal bilaterally. Left Ear: Wave I and III present (normal latencies, III reduced amp), Wave V undetermined. Right Ear: Wave I identifiable, no other waves observed.",
+          "numeric_results": {
+            "Stimulus_Level": "80 dB nHL",
+            "Rates": "15.7 and 80.7"
+          }
+        },
+        {
+          "name": "Central Auditory Processing Tests",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-10"
+          ],
+          "key_findings": "MLD abnormal (4 dB). LPFS normal. Dichotic Digits normal RE. SSW abnormal (LE scores depressed). Frequency Patterns abnormal (bilaterally depressed).",
+          "numeric_results": {
+            "MLD_500Hz_Pulsed": "4 dB"
+          }
+        },
+        {
+          "name": "Radiology (CT Scan)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Cerebral atrophy (mid and anterior convexities). Questionable low-density area adjacent/superior to 4th ventricle on left.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 39-year-old male with MS presents with normal peripheral hearing sensitivity and speech recognition in quiet. However, neurodiagnostic results indicate significant retrocochlear/brainstem involvement. Key findings include: 1) Absent acoustic reflexes with Right Ear stimulation despite normal hearing; 2) Abnormal ABR, significantly worse in the Right Ear (Wave I only) compared to the Left (Waves I & III present); 3) Abnormal MLD (4 dB) suggesting low brainstem pathology; 4) Central behavioral deficits, particularly on the SSW (Left Ear deficit) and Frequency Patterns (bilateral deficit). The pattern of results (Reflexes, ABR, MLD) strongly suggests brainstem (low pons) involvement, consistent with the patient's MS diagnosis.",
+  "counseling_points": [
+    "Explain that while hearing sensitivity (volume) is normal, the neural pathways processing sound in the brainstem are affected by MS.",
+    "Discuss the correlation between the 'hidden' hearing difficulties (processing in noise, temporal patterning) and the neurological condition.",
+    "Highlight that the right ear shows more significant neural disruption (absent reflexes, poor ABR) despite normal audiometric thresholds.",
+    "Recommend communication strategies for complex listening environments due to central auditory deficits."
+  ],
+  "notes_for_actor": [
+    "Portray a patient with clear speech that is somewhat difficult to understand (dysarthria) but accurate in content.",
+    "You have a history of 'labile emotions' and fatigue.",
+    "You have physical weakness, especially in the left leg, and may have visible eye movement issues (nystagmus).",
+    "You attribute your tinnitus to a gunshot in youth, unaware it might be related to the neurological issues."
+  ]
+}

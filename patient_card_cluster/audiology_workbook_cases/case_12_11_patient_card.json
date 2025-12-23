@@ -1,0 +1,145 @@
+{
+  "case_id": "case_12_11",
+  "title": "Unilateral Conductive Hearing Loss with History of Ear Infections",
+  "demographics": {
+    "age_years": 21,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed some hearing loss and a feeling of fullness in both of my ears recently.",
+  "problem_summary": {
+    "onset": "Recent onset of current symptoms; history of frequent childhood ear infections.",
+    "course": "Symptoms in the left ear exacerbated after a recent airplane flight leading to an ear infection.",
+    "laterality": "Bilateral complaints; Left ear worse.",
+    "associated_symptoms": "Aural fullness. Denies dizziness.",
+    "functional_impact": "Subjective hearing loss.",
+    "goals_motivation": "Seeking evaluation per ENT referral."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a history of frequent ear infections in both ears when younger. Recently had an ear infection in the left ear following an airplane flight. Currently complains of hearing loss and fullness in both ears.",
+        "otologic_history": "Frequent childhood infections. Recent left ear infection.",
+        "noise_exposure_history": "Denied excessive exposure.",
+        "medical_psych_history": "Referred by ENT physician.",
+        "prior_management": null,
+        "patient_goals": "Evaluation of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right tympanic membrane is retracted. Left ear shows a whitish mass behind the tympanic membrane.",
+          "numeric_results": null
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Admittance (mmhos) vs Air Pressure graph"
+          ],
+          "key_findings": "Right ear shows negative middle ear pressure (Type C) with peak around -250 daPa. Left ear trace is flat (Type B).",
+          "numeric_results": {
+            "Vea_Right": "1.0",
+            "Vea_Left": "0.9",
+            "Right_Peak_Pressure": "~-250 daPa",
+            "Left_Peak_Pressure": "Not defined (flat)"
+          }
+        },
+        {
+          "name": "Wideband Reflectance",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Reflectance (%) vs Frequency graph"
+          ],
+          "key_findings": "Right ear shows a dip in reflectance around 1.5 kHz. Left ear shows abnormally high reflectance (near 80-90%) across the frequency range.",
+          "numeric_results": null
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram"
+          ],
+          "key_findings": "Right ear: Normal hearing sensitivity (0-10 dB HL) with no air-bone gaps. Left ear: Moderate conductive hearing loss in the low frequencies, rising to mild/normal in the high frequencies. Significant air-bone gaps present (approx. 50-55 dB at 250-1000 Hz). Bone conduction thresholds are normal (0 dB HL) bilaterally.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "10-10-10-5-5-10 dB HL (250-8000 Hz)",
+            "Left_AC_Thresholds": "50-55-55-35-25-25 dB HL (250-8000 Hz)",
+            "Left_BC_Thresholds": "0 dB HL across 250-4000 Hz",
+            "Left_Air_Bone_Gap": "~50-55 dB at low frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table"
+          ],
+          "key_findings": "Excellent word recognition scores bilaterally when presented at suprathreshold levels.",
+          "numeric_results": {
+            "WRS_Right": "100% @ 40 dB HL",
+            "WRS_Left": "97% @ 85 dB HL (masked)"
+          }
+        },
+        {
+          "name": "Stenger Test",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Negative at 1000 Hz.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient exhibits normal hearing sensitivity in the right ear and a moderate, rising conductive hearing loss in the left ear. Tympanometry indicates negative middle ear pressure on the right and a flat tympanogram on the left, consistent with middle ear pathology. Otoscopy reveals a retracted right TM and a whitish mass behind the left TM. Word recognition is excellent in both ears.",
+  "counseling_points": [
+    "Your hearing test shows normal hearing in your right ear, though there is some negative pressure which explains the retracted eardrum.",
+    "In your left ear, you have a 'conductive' hearing loss, meaning sound is being blocked from reaching the inner ear efficiently.",
+    "The flat pressure test and the 'whitish mass' seen behind your left eardrum suggest a middle ear issue that needs medical attention.",
+    "Your inner ear nerve function is excellent in both ears, which is a very positive sign.",
+    "It is important to follow up with your ENT physician to manage the condition in your left ear and monitor the right ear."
+  ],
+  "notes_for_actor": [
+    "You are a 21-year-old concerned about your hearing after a painful flight.",
+    "You have a history of ear infections as a child.",
+    "You feel 'plugged up' in both ears, but the left one gave you trouble recently.",
+    "You do not have dizziness."
+  ]
+}

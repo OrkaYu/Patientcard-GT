@@ -1,0 +1,101 @@
+{
+  "case_id": "case_12_17",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Congenital Ossicular Chain Anomaly (Fixation)",
+      "rationale_short": "Bilateral conductive hearing loss with normal (Type A) tympanometry and absent acoustic reflexes is highly suggestive of ossicular fixation (e.g., congenital stapes fixation)."
+    },
+    {
+      "rank": 2,
+      "label": "Congenital Ossicular Chain Anomaly (Discontinuity)",
+      "rationale_short": "Causes conductive loss, but typically presents with hypercompliant (Type Ad) tympanograms rather than the Type A seen here."
+    },
+    {
+      "rank": 3,
+      "label": "Otitis Media with Effusion (OME)",
+      "rationale_short": "A common cause of conductive loss in infants, but ruled out by the presence of normal middle ear pressure and mobility (Type A tympanograms)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Diagnostic ABR (Air and Bone Conduction)",
+        "urgency": "routine",
+        "rationale_short": "To define hearing thresholds and distinguish between sensorineural and conductive hearing loss in an infant."
+      },
+      {
+        "action": "Tympanometry and Acoustic Reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and differentiate between effusion, fixation, and discontinuity."
+      },
+      {
+        "action": "Wideband Acoustic Immittance (WAI)",
+        "urgency": "routine",
+        "rationale_short": "Provides comprehensive analysis of middle ear mechanics across frequencies."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results indicate a bilateral conductive hearing loss. Normal bone conduction thresholds confirm normal cochlear function. Normal tympanometry (Type A) rules out effusion, while absent reflexes and the air-bone gap suggest an ossicular chain anomaly, likely fixation.",
+        "tests": [
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A bilaterally, indicating normal middle ear pressure and mobility."
+          },
+          {
+            "name": "Acoustic Reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent bilaterally at 1000 Hz for both ipsilateral and contralateral stimulation."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Normal bone conduction thresholds (10-20 dB nHL). Elevated air conduction thresholds (30-50 dB nHL). Significant air-bone gaps present bilaterally."
+          },
+          {
+            "name": "Wideband Acoustic Immittance (WAI)",
+            "category": "Immittance",
+            "result_summary": "Reflectance curves show typical morphology with lower reflectance in mid-frequencies."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otolaryngology (ENT) for medical management.",
+      "Fit with non-surgical bone conduction hearing aids (e.g., softband) to bypass the conductive block.",
+      "Referral to Early Intervention services for speech and language monitoring.",
+      "Genetics referral to rule out syndromic associations.",
+      "Otolaryngology (ENT) Referral"
+    ],
+    "counseling_actions": [
+      "Explain that the hearing loss is 'conductive,' meaning the inner ear nerve is healthy, but sound isn't reaching it efficiently.",
+      "Clarify that normal eardrum movement (Type A tymp) combined with hearing loss points to a problem with the middle ear bones (ossicles), likely stiffness or fixation.",
+      "Emphasize the importance of amplification (bone conduction aids) for speech and language development even though the baby responds to some sounds.",
+      "Discuss that surgical correction is generally delayed until the child is older, making amplification the primary current treatment."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Failed newborn and follow-up hearing screenings.",
+      "Confirmed bilateral hearing loss in an infant."
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Pediatric Otolaryngologist",
+      "rationale_short": "To evaluate for congenital anatomical abnormalities and manage the conductive hearing loss medically."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3-6 months",
+    "objective": "Monitor hearing thresholds via behavioral testing (VRA) when age-appropriate and check function/fit of bone conduction aids."
+  },
+  "expected_outcome": [
+    "With appropriate amplification (bone conduction aids), speech and language development is expected to be within normal limits.",
+    "Potential for surgical reconstruction of the ossicular chain in later childhood."
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "case_id": "Case039",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Audiometry reveals bilateral symmetrical mild to profound sensorineural hearing loss with significant progression over 3 years."
+    },
+    {
+      "rank": 2,
+      "label": "Cochlear site of lesion",
+      "rationale_short": "Acoustic reflexes present at reduced sensation levels; negative reflex decay; MRI ruled out retrocochlear pathology."
+    },
+    {
+      "rank": 3,
+      "label": "Auditory distortion / processing deficit",
+      "rationale_short": "Word recognition scores are disproportionately poor compared to pure-tone thresholds, suggesting significant distortion."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess current hearing sensitivity and determine degree/configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition ability, particularly given patient complaints."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assist in differentiating cochlear from retrocochlear pathology."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To quantify difficulty in background noise (QuickSIN) and guide technology recommendations."
+      },
+      {
+        "action": "Electroacoustic Analysis",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aids meet manufacturer specifications before reprogramming."
+      },
+      {
+        "action": "Real-Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid output against prescriptive targets (NAL-NL2 vs DSL v5.0)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Evaluation revealed a bilateral symmetrical mild to profound sensorineural hearing loss with significant progression, particularly at 2000 Hz in the right ear. Word recognition was very poor bilaterally, and QuickSIN showed severe SNR loss. Acoustic reflexes suggested a cochlear site of lesion, and MRI (ordered due to asymmetric progression) was normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical mild to profound SNHL (250-8000 Hz); no measurable hearing at 6-8 kHz. Significant progression noted at 2 kHz (Right) and 6-8 kHz (Bilateral)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs agree with PTAs. WRS very poor (Right: 30%, Left: 36% best scores), suggesting significant distortion."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear pressure, volume, and admittance (Type A) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at 500-2000 Hz at reduced Sensation Levels (SL); absent at 4000 Hz. Decay negative."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "QuickSIN SNR Loss 20 dB, indicating severe difficulty in noise."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Hearing aids were verified and reprogrammed. The patient found standard adult targets (NAL-NL2) too quiet and preferred the loudness and sound quality of DSL v5.0 child targets.",
+        "tests": [
+          {
+            "name": "Electroacoustic Analysis",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Hearing aids met ANSI S3.22-2009 specifications; no repair needed."
+          },
+          {
+            "name": "Real-Ear Measures (REM)",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Verified fitting to NAL-NL2 and DSL v5.0 targets. Patient preferred DSL v5.0 child targets due to greater output/loudness."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Reprogram hearing aids to DSL v5.0 child targets based on patient preference",
+      "Fine-tuning to decrease output for soft low-frequency inputs to minimize ambient noise",
+      "Cochlear implant evaluation",
+      "Hearing Assistive Technology (HAT) trial (e.g., remote microphone or FM system)",
+      "Use of smartphone apps for direct audio streaming"
+    ],
+    "counseling_actions": [
+      "Counseling on hierarchy of treatment options",
+      "Explanation of differences between NAL-NL2 and DSL v5.0 prescriptive targets",
+      "Counseling on realistic expectations given poor word recognition and severe SNR loss",
+      "Discussion of cochlear implant candidacy and benefits"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Significant asymmetric progression of hearing loss (at 2000 Hz in right ear)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist",
+      "rationale_short": "Referral was made to rule out retrocochlear pathology due to asymmetric progression; MRI was subsequently normal."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As scheduled",
+    "objective": "Cochlear implant evaluation to determine candidacy for implantation."
+  },
+  "expected_outcome": [
+    "Patient reported satisfaction with loudness and sound quality after hearing aids were reprogrammed to DSL v5.0 child targets.",
+    "Fine-tuning required a decrease in output for soft low-frequency inputs to minimize the impact of ambient noise.",
+    "Patient is scheduled for a cochlear implant evaluation."
+  ]
+}

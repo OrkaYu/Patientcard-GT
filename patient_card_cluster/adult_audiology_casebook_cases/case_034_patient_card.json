@@ -1,0 +1,241 @@
+{
+  "case_id": "case34_I_Hear_Worse_When_I_Wear_Two_Hearing_Aid",
+  "title": "I Hear Worse When I Wear Two Hearing Aids",
+  "demographics": {
+    "age_years": 82,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "Australia"
+  },
+  "chief_complaint": "I am finding it increasingly difficult to hear in noisy environments with my hearing aids. The words sound 'jumbled' when multiple people speak. I actually find that I hear better in noise if I take my right hearing aid out and only use the left one.",
+  "problem_summary": {
+    "onset": "Gradual worsening over the last year since receiving new hearing aids.",
+    "course": "Stable hearing thresholds, but increasing functional difficulty in noise.",
+    "laterality": "Bilateral hearing loss; functional asymmetry favoring the left ear.",
+    "associated_symptoms": "Stress, exhaustion from listening, withdrawal from social gatherings.",
+    "functional_impact": "Significant difficulty in noise leading to social isolation; rejects remote microphone technology due to cosmetics.",
+    "goals_motivation": "Motivated hearing aid user but frustrated by current performance in noise."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-01-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returns 1 year after fitting of third pair of bilateral BTE aids. Reports limited benefit in noise and 'jumbled' speech. Discovered removing right aid helps in noise.",
+        "otologic_history": "No history of tinnitus, vertigo, or family history of hearing loss.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Generally healthy; takes OTC medication for headaches.",
+        "prior_management": "Experienced user (8 years). Currently wears bilateral BTE RIC aids with custom molds. Previously tried remote mic but rejected it for cosmetic reasons.",
+        "patient_goals": "Improve hearing in noise without adding more devices."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Re-assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 34.1"
+          ],
+          "key_findings": "Bilateral symmetrical mild to moderately severe sensorineural hearing loss, gradually falling configuration.",
+          "numeric_results": {
+            "Right PTA": "33 dB HL",
+            "Left PTA": "33 dB HL",
+            "Right Thresholds": "250Hz: 30, 500Hz: 30, 1kHz: 35, 2kHz: 35, 4kHz: 50, 8kHz: 60",
+            "Left Thresholds": "250Hz: 30, 500Hz: 30, 1kHz: 35, 2kHz: 35, 4kHz: 50, 8kHz: 70"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Re-assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 34.1"
+          ],
+          "key_findings": "Excellent word recognition in quiet bilaterally. No rollover observed.",
+          "numeric_results": {
+            "SRT Right": "30 dB HL",
+            "SRT Left": "35 dB HL",
+            "WRS Right": "100% at 80 dB HL",
+            "WRS Left": "100% at 80 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Re-assessment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 34.1"
+          ],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Type": "A (bilateral)",
+            "ECV Right": "1.1 mL",
+            "ECV Left": "1.2 mL",
+            "Peak Pressure": "0 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Re-assessment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 34.1"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral reflexes at maximum stimulus levels (100 dB HL).",
+          "numeric_results": {
+            "Reflexes": "Absent (ABS) at 500, 1k, 2k, 4k Hz"
+          }
+        },
+        {
+          "name": "Hearing Aid Verification",
+          "timepoint_label": "Re-assessment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing aids met manufacturer specs and NAL-NL2 REIG targets. Remote mic functioning correctly.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "University Audiology Clinic",
+      "history": {
+        "present_illness": "Referral for Central Auditory Processing (CAP) assessment to investigate 'jumbled' speech and preference for monaural listening.",
+        "otologic_history": "Same as V1.",
+        "noise_exposure_history": "Same as V1.",
+        "medical_psych_history": "Screened for cognitive status (memory tests) prior to CAP testing.",
+        "prior_management": "Same as V1.",
+        "patient_goals": "Understand why two hearing aids are worse than one."
+      },
+      "tests": [
+        {
+          "name": "Memory Screening",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Sufficient short-term and working memory to complete CAP testing.",
+          "numeric_results": null
+        },
+        {
+          "name": "Competing Sentences (CS)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 34.1"
+          ],
+          "key_findings": "Extreme asymmetry observed. Patient unable to repeat sentences in Right ear when ignoring Left ear, but performed excellently in Left ear when ignoring Right. Suggests 'Amblyaudia' or dominant left ear.",
+          "numeric_results": {
+            "Right Ear (0 dB SNR)": "5%",
+            "Left Ear (0 dB SNR)": "95%",
+            "Right Ear (+5 dB SNR)": "5%",
+            "Left Ear (+5 dB SNR)": "95%",
+            "Right Ear (+10 dB SNR)": "0%",
+            "Left Ear (+10 dB SNR)": "90%"
+          }
+        },
+        {
+          "name": "Two-Pair Dichotic Digits (TPDD)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 34.1"
+          ],
+          "key_findings": "High scores bilaterally with smaller asymmetry than CS test.",
+          "numeric_results": {
+            "Right Score": "82.5%",
+            "Left Score": "100%"
+          }
+        },
+        {
+          "name": "Low-Pass Filtered Speech (LPFS)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 34.1"
+          ],
+          "key_findings": "Poor performance bilaterally, consistent with SNHL.",
+          "numeric_results": {
+            "Right Score": "48%",
+            "Left Score": "44%"
+          }
+        },
+        {
+          "name": "Frequency Patterns (FP)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 34.1"
+          ],
+          "key_findings": "Good performance bilaterally.",
+          "numeric_results": {
+            "Right Score": "80%",
+            "Left Score": "86%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral symmetrical mild to moderately severe sensorineural hearing loss with excellent word recognition in quiet. However, central auditory processing evaluation reveals a diagnosis of Amblyaudia, characterized by a severe deficit in binaural integration with a marked left-ear dominance. This explains the 'binaural interference' where the patient performs worse with two hearing aids than with the left aid alone in complex listening environments.",
+  "counseling_points": [
+    "Your hearing test shows your ears are symmetrical, but the processing test shows your brain prefers the left ear significantly ('Amblyaudia').",
+    "This explains why you feel 'jumbled' in noise and why removing the right hearing aid sometimes helps—your brain is struggling to integrate the two signals.",
+    "We recommend a specific training program (ARIA) to help strengthen the weaker (right) side.",
+    "While you dislike the remote microphone for cosmetic reasons, it remains the most effective tool for signal-to-noise improvement if the training does not fully resolve the issue."
+  ],
+  "notes_for_actor": [
+    "You are 82 and cognitively sharp, but you feel exhausted by social situations.",
+    "You are frustrated because you spent money on high-end hearing aids but hear worse than before in noise.",
+    "You are adamant about not wearing 'extra gadgets' like the remote mic around your neck.",
+    "Emphasize that the speech sounds 'jumbled' or mixed up when many people talk."
+  ]
+}

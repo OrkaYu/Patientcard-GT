@@ -1,0 +1,78 @@
+{
+  "case_id": "Case006_27",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Conductive Hearing Loss",
+      "rationale_short": "History of right cholesteatoma with ossicular chain reconstruction and left tympanic membrane perforation; audiometry confirms conductive component."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Monitor hearing sensitivity in patient with long-standing history of ear pathology."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry / Immittance",
+        "urgency": "routine",
+        "rationale_short": "Standard battery test, though not measured in this instance due to surgical history."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Testing reveals a stable bilateral conductive hearing loss, moderate to moderately severe in the right ear and slight to mild in the left ear. The conductive nature is consistent with the history of right ossicular chain reconstruction and left tympanic membrane perforation. Speech recognition remains excellent bilaterally.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Flat moderate to moderately severe conductive loss (PTA 60 dB HL) with a rise to mild at 4000 Hz. Left ear: Flat slight to mild predominantly conductive loss (PTA 30 dB HL), except for sensorineural loss at 500 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 57 dB HL, WRS 92%. Left ear: SRT 25 dB HL, WRS 94%. Results agree with pure-tone thresholds."
+          },
+          {
+            "name": "Tympanometry / Immittance",
+            "category": "Immittance",
+            "result_summary": "Not measured due to the surgical history."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation to discuss amplification and HAT",
+      "Hearing protection in noise",
+      "Annual testing to monitor hearing sensitivity"
+    ],
+    "counseling_actions": [
+      "Review of test results showing stability compared to previous year",
+      "Encourage follow-up with physician as recommended"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Physician",
+      "rationale_short": "Continued medical monitoring of ear health due to history of cholesteatoma, reconstruction, and perforation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing sensitivity."
+  },
+  "expected_outcome": [
+    "Thresholds and WRS did not change from the test completed 1 year earlier."
+  ]
+}

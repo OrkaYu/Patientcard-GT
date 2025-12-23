@@ -1,0 +1,105 @@
+{
+  "case_id": "case05_Tympanic_Membrane_Perforation_as_a_Resul",
+  "title": "case05 Tympanic Membrane Perforation as a Resul",
+  "demographics": {
+    "age_years": 73,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "A Japanese beetle flew into my left ear while I was mowing the lawn about a month ago. I can hear ringing and have shooting pain, and my hearing is down in that ear.",
+  "problem_summary": {
+    "onset": "Acute onset 1 month prior to evaluation.",
+    "course": "Traumatic incident followed by unsuccessful paper patch myringoplasty; symptoms persist.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Extreme otalgia, bothersome tinnitus (increased intensity), intermittent shooting otalgia, imbalance.",
+    "functional_impact": "Hearing loss and persistent discomfort.",
+    "goals_motivation": "Resolution of perforation and symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-08-12",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient experienced trauma when a Japanese beetle entered the left ear canal. She used peroxide to remove it. Subsequent evaluation by an ENT revealed a TM perforation. A paper patch myringoplasty was attempted but was unsuccessful.",
+        "otologic_history": "History of left ear infections with otorrhea in the past; no recent episodes prior to incident.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Evaluation by local otolaryngologist; failed paper patch myringoplasty.",
+        "patient_goals": "Evaluation of hearing status following trauma."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5.1"
+          ],
+          "key_findings": "Right ear shows normal to slight sensorineural hearing loss. Left ear shows a mild sloping to moderately severe mixed hearing loss (250-2000 Hz), rising to slight/mild mixed loss (3000-8000 Hz).",
+          "numeric_results": {
+            "AD_thresholds": "10-20 dB HL range",
+            "AS_thresholds": "Mixed loss, air conduction approx 40-60 dB HL in lows"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5.1"
+          ],
+          "key_findings": "Normal ability to receive speech in the right ear; mild loss in ability to receive speech in the left ear. Word recognition is excellent bilaterally.",
+          "numeric_results": {
+            "SRT_RT": "15 dB HL",
+            "SRT_LT": "40 dB HL",
+            "WRS_RT": "100% at 50 dB HL",
+            "WRS_LT": "100% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5.1"
+          ],
+          "key_findings": "Right ear revealed normal ear canal volume, static compliance, and pressure. Left ear could not maintain a seal due to perforation.",
+          "numeric_results": {
+            "RT_Canal_Volume": "1.6 mL",
+            "RT_Static_Admittance": "1.5 mL",
+            "LT_Result": "Could not obtain seal"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a traumatic left tympanic membrane perforation resulting in a mixed hearing loss, ranging from mild to moderately severe in the low-to-mid frequencies. The right ear exhibits normal hearing to slight sensorineural loss. Speech recognition scores are excellent bilaterally, though the left ear requires elevated presentation levels. Tympanometry confirms the perforation on the left.",
+  "counseling_points": [
+    "Explain the 'mixed' nature of the hearing loss in the left ear: part is due to the hole in the eardrum (conductive) and part is likely underlying age-related change (sensorineural).",
+    "Discuss that the inability to seal the probe for the pressure test confirms the eardrum is not intact.",
+    "Review the impact of the perforation on hearing clarity versus volume.",
+    "Recommend following up with the otolaryngologist for surgical repair options (tympanoplasty) as the paper patch was unsuccessful."
+  ],
+  "notes_for_actor": [
+    "Portray significant distress regarding the 'bug in the ear' incident; it was a traumatic event.",
+    "Mention the tinnitus is bothersome and louder than it was before the incident.",
+    "React with concern about the shooting pain in the ear."
+  ]
+}

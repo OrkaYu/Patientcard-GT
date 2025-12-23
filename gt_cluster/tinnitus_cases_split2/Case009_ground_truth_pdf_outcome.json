@@ -1,0 +1,103 @@
+{
+  "case_id": "Case009",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Functional Neurological Disorder (FND) / Functional Audiogenic Seizures",
+      "rationale_short": "Seizures triggered by unexpected sounds rather than intensity; normal hearing thresholds; dissociative elements; symptoms inconsistent with organic pathology."
+    },
+    {
+      "rank": 2,
+      "label": "Hyperacusis",
+      "rationale_short": "Considered due to sound sensitivity and avoidance, but ruled out as triggers were not intensity-dependent and perception was not of overwhelming loudness."
+    },
+    {
+      "rank": 3,
+      "label": "Epilepsy",
+      "rationale_short": "Ruled out by multidisciplinary team; seizures determined to be nonepileptic in nature."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Other",
+        "urgency": "routine",
+        "rationale_short": "Initial assessment including otoscopy and observation of seizure triggers; audiometry deferred due to safety."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Formal assessment of hearing thresholds performed once safety support was available."
+      },
+      {
+        "action": "Other",
+        "urgency": "routine",
+        "rationale_short": "Follow-up assessment of seizure frequency and impact of management changes."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial assessment revealed normal otoscopy but formal testing was deferred due to the risk of seizures. A seizure was observed in the clinic triggered by a whistle, characterized by muscle spasms and dissociation.",
+        "tests": [
+          {
+            "name": "Other",
+            "category": "Clinical Observation / Otoscopy",
+            "result_summary": "Otoscopy was normal. A seizure was triggered by a colleague whistling; pure-tone audiometry was deferred."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Formal audiometric testing was successfully performed and ruled out peripheral hearing loss, supporting a non-organic or functional etiology for the sound sensitivity.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "All thresholds were found to be within normal limits."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Follow-up after FND diagnosis and medication changes showed a significant reduction in seizure frequency, attributed to removing exacerbating factors.",
+        "tests": [
+          {
+            "name": "Other",
+            "category": "Patient Report",
+            "result_summary": "Seizure frequency reduced to 2 in a 3-month period (previously daily)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Gradual, self-directed reduction of hearing protection",
+      "Increase in sound exposure",
+      "Discontinuation of nortriptyline and betahistine (coordinated with medical team)"
+    ],
+    "counseling_actions": [
+      "Explain that hearing tests confirm normal ear function ('hardware' is intact)",
+      "Discuss FND diagnosis as a 'software' or processing issue, not malingering",
+      "Advise that constant use of hearing protection reinforces the brain's threat response to sound",
+      "Validate that symptoms are real and distressing despite the lack of organic pathology"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "University Hospital multidisciplinary FND clinic",
+      "rationale_short": "To confirm the diagnosis of nonepileptic seizures/FND and access specialized multidisciplinary management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "6 months",
+    "objective": "Monitor seizure frequency and progress with reducing hearing protection."
+  },
+  "expected_outcome": [
+    "Patient was seizure free for the prior 6 months",
+    "Use of hearing protection was now exceptional rather than routine"
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "case_id": "case12_An_Unusual_Case_of_Fluctuating_Hearing_L",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Vestibular Migraine",
+      "rationale_short": "Supported by history of migraine with aura, vertigo, and response to migraine prophylaxis; significant overlap with Meniere's."
+    },
+    {
+      "rank": 2,
+      "label": "Meniere's Disease",
+      "rationale_short": "Suggested by low-frequency sensorineural hearing loss, roaring tinnitus, and episodic vertigo."
+    },
+    {
+      "rank": 3,
+      "label": "Hormonally Mediated Hearing Loss",
+      "rationale_short": "Strong correlation of symptom fluctuation with menstrual cycle and significant hearing improvement during pregnancies."
+    },
+    {
+      "rank": 4,
+      "label": "Autoimmune Inner Ear Disease",
+      "rationale_short": "Considered due to fluctuation, but the pattern of improvement during pregnancy rather than progression makes it less likely."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and monitor significant fluctuations over time."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech recognition abilities, which fluctuate alongside pure-tone thresholds."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Baseline evaluation showing bilateral asymmetric sensorineural hearing loss with a low-frequency component in the right ear and mild loss in the left. Speech recognition is good bilaterally.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Moderate SNHL 250-1000 Hz, improving to normal at 2000-3000 Hz, sloping to mild-moderate at high frequencies (PTA 30 dB HL). Left ear: Mild low-frequency SNHL rising to normal (PTA 15 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right SRT 30 dB, WRS 72-92%. Left SRT 15 dB, WRS 92%."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up 16 months later showing significant worsening of thresholds in both ears, particularly in the low-to-mid frequencies for the left ear.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Worsened at 3000-4000 Hz and 8000 Hz (PTA 40 dB HL). Left ear: Significantly poorer from 250-8000 Hz (PTA 45 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right SRT 40 dB, WRS 92%. Left SRT 45 dB, WRS 80%."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Evaluation during first pregnancy (31 weeks) revealing significant improvement in the right ear, consistent with hormonal influence.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Significant improvement to near-normal thresholds (PTA 10 dB HL). Left ear: Stable moderate loss (PTA 40 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right SRT 10 dB, WRS 96%. Left SRT 40 dB, WRS 86%."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Post-partum evaluation (3 months after delivery) showing regression of hearing in the right ear following the birth.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Worsened significantly at 1000 Hz and 3000-8000 Hz compared to pregnancy (PTA 30 dB HL). Left ear: Relatively unchanged (PTA 40 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right SRT 30 dB, WRS 90%. Left SRT 40 dB, WRS 84%."
+          }
+        ]
+      },
+      {
+        "visit_id": "V5",
+        "collective_interpretation": "Routine follow-up 20 months later. Thresholds are stable, but left ear word recognition has deteriorated significantly.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Air conduction thresholds relatively unchanged. Right PTA 30 dB HL, Left PTA 50 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Left WRS dropped significantly to 58%."
+          }
+        ]
+      },
+      {
+        "visit_id": "V6",
+        "collective_interpretation": "Evaluation during second pregnancy (24 weeks) again showing significant improvement in the right ear, while the left ear remains poorer with reduced speech recognition.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Significantly improved thresholds 250-8000 Hz (PTA 15 dB HL). Left ear: Stable moderate-severe loss (PTA 60 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right SRT 15 dB, WRS 96%. Left SRT 60 dB, WRS 45-60%."
+          }
+        ]
+      },
+      {
+        "visit_id": "V7",
+        "collective_interpretation": "Post-partum evaluation (4 months after second delivery) showing worsening in the right ear again. Left ear speech recognition improved slightly.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Significantly poorer from 250-1500 Hz and 6000-8000 Hz (PTA 40 dB HL). Left ear: Stable (PTA 50 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right SRT 40 dB, WRS 84%. Left SRT 50 dB, WRS 72%."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Dietary modifications including salt and caffeine restriction.",
+      "Medical management with diuretics (e.g., HCTZ/triamterene) and migraine prophylaxis (e.g., Paxil, Topamax).",
+      "Bilateral amplification with digital hearing aids (initially BTE, later RIC) featuring volume control and multiple programs to manage fluctuation.",
+      "Use of hearing-assistive technologies such as Bluetooth streamers and FM systems.",
+      "Regular audiologic monitoring every 6 to 12 months."
+    ],
+    "counseling_actions": [
+      "Educate on the link between hormonal changes (menstrual cycle, pregnancy) and symptom fluctuation.",
+      "Discuss the overlap between Vestibular Migraine and Meniere's Disease.",
+      "Counsel on realistic expectations for hearing aids given the fluctuating nature of the hearing loss."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss",
+      "Episodes of vertigo"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otolaryngology and Neurology (Migraine Specialist)",
+      "rationale_short": "To manage vestibular migraine/Meniere's symptoms and rule out retrocochlear pathology (MRI/CT were performed)."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Every 6 to 12 months",
+    "objective": "To monitor hearing thresholds and reprogram hearing aids as needed due to fluctuation."
+  },
+  "expected_outcome": [
+    "Hormonal treatment attempts for hearing loss were not successful.",
+    "Vertigo is currently resolved and headaches occur approximately once a month with medical management (alprazolam, nortriptyline, Paxil, magnesium, B2).",
+    "Hearing loss remains relatively stable at this time.",
+    "Successfully fitted with bilateral digital Receiver-In-the-Canal (RIC) hearing aids with custom molds.",
+    "Patient reports significant improvement with hearing aids and successfully uses a Bluetooth streamer."
+  ]
+}

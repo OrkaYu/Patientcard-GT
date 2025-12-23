@@ -1,0 +1,105 @@
+{
+  "case_id": "Case041",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral sensorineural hearing loss",
+      "rationale_short": "Audiometric testing reveals a bilateral, generally mild, sloping sensorineural hearing loss with normal middle ear function."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the retrocochlear pathway."
+      },
+      {
+        "action": "Speech-in-noise",
+        "urgency": "routine",
+        "rationale_short": "To quantify the patient's difficulty hearing in background noise (QuickSIN)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with bilateral, generally mild, sloping sensorineural hearing loss. While word recognition in quiet is excellent, QuickSIN testing reveals a severe signal-to-noise ratio loss, which correlates with the patient's chief complaint of difficulty hearing in noise. Middle ear function is normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Slight SNHL 250-3000 Hz, sloping to mild at 4000 Hz. Left ear: Normal to slight SNHL 250-2000 Hz, sloping to moderate at 6000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs (25 dB HL AU) consistent with pure tones. WRS excellent (96% AD, 100% AS)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal ear canal volume, static compliance, and middle ear pressure bilaterally (Type A)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present and normal for ipsilateral and contralateral stimulation at 500-4000 Hz. Decay negative."
+          },
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "QuickSIN unaided SNR loss average 18.17 dB, indicating severe SNR loss."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral open-fit receiver-in-the-canal (RIC) hearing aids",
+      "Made-for-iPhone hearing aids",
+      "Real-Ear Measurements (REM) for verification",
+      "Hearing Assistive Technology (HAT) such as amplified phones and TV ears (recommended)",
+      "Remote microphone (discussed)"
+    ],
+    "counseling_actions": [
+      "Counseling on hearing loss and realistic expectations",
+      "Recommendation for annual audiologic testing",
+      "Recommendation for hearing protection in noise",
+      "Instruction on hearing aid use, insertion/removal, batteries, and iPhone application",
+      "Discussion of tinnitus management through amplification"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient requires routine follow-up for hearing aid checks and annual monitoring."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2 weeks",
+    "objective": "Follow-up to check hearing aid benefit, satisfaction, and perform aided validation measures."
+  },
+  "expected_outcome": [
+    "Aided QuickSIN: Significant improvement noted with an SNR loss of 2.98 dB (mild), representing a 15.19 dB improvement over the unaided score of 18.17 dB (severe).",
+    "Washington University Self-Assessment Scale: Demonstrated improvement in all categories (Single Talker, Telephone, Multi-Talker, Entertainment Device) with hearing aids compared to unaided baseline.",
+    "Patient reported doing well with hearing aids, satisfied with overall results, and doing significantly better in noise."
+  ]
+}

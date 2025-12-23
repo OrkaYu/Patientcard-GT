@@ -1,0 +1,136 @@
+{
+  "case_id": "case_7_8",
+  "title": "Pre-Commissurotomy Central Auditory Assessment in a Patient with Intractable Seizures",
+  "demographics": {
+    "age_years": 23,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "Patient presents for evaluation prior to scheduled commissurotomy due to intractable seizure disorder.",
+  "problem_summary": {
+    "onset": "Seizures began at age 6.",
+    "course": "Intractable; initially right-sided focus, eventually became generalized. Recently experienced 8 episodes in 3 days.",
+    "laterality": "Seizure focus initially right-sided; Auditory deficits show right hemisphere patterns (left ear deficit) with some bilateral involvement.",
+    "associated_symptoms": "Tonic/clonic movements of all extremities, labored breathing during seizures.",
+    "functional_impact": "Severe disruption of daily life due to frequency and intensity of seizures.",
+    "goals_motivation": "Pre-surgical evaluation for commissurotomy to control seizures."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic / Neuroaudiology Center",
+      "history": {
+        "present_illness": "23-year-old female with a history of intractable seizures since age 6. Seizures typically last 5-10 minutes involving tonic/clonic movements and labored breathing. Recently hospitalized with 8 episodes in 3 days.",
+        "otologic_history": "No specific mention of peripheral hearing loss history.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Treated with Dilantin. Scheduled for commissurotomy 4 months after initial admission.",
+        "prior_management": "Medication management (Dilantin).",
+        "patient_goals": "Pre-operative assessment."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Pure tone thresholds were normal bilaterally from 250 to 8000 Hz.",
+          "numeric_results": null
+        },
+        {
+          "name": "Dichotic Digits Test",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-35"
+          ],
+          "key_findings": "Revealed a severe left ear deficit and a mild right ear deficit. This pattern raises the possibility of left hemisphere involvement in addition to the known right hemisphere issues.",
+          "numeric_results": {
+            "Left Ear (approx from graph)": "~20%",
+            "Right Ear (approx from graph)": "~65%"
+          }
+        },
+        {
+          "name": "Duration Patterns Test",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-35"
+          ],
+          "key_findings": "Severe bilateral deficit observed.",
+          "numeric_results": {
+            "Left Ear (approx from graph)": "~15%",
+            "Right Ear (approx from graph)": "~10%"
+          }
+        },
+        {
+          "name": "Dichotic Rhyme Test",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Performance was borderline normal for the left ear and normal for the right ear.",
+          "numeric_results": null
+        },
+        {
+          "name": "Radiologic Evaluation (SPECT and MRI)",
+          "timepoint_label": "Pre-op",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-36",
+            "Figure 7-37"
+          ],
+          "key_findings": "SPECT showed asymmetrical accumulation in right basal ganglia and right parietal region. MRI indicated a lesion in the area of Heschl's gyrus and inferior parietal region (right hemisphere).",
+          "numeric_results": null
+        },
+        {
+          "name": "EEG",
+          "timepoint_label": "Intra-operative (monitoring)",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Frequent scattered bursts of polyspike and slow wave discharge developed bilaterally, often independently. Greater activity recorded from the right hemisphere.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity but significant central auditory deficits consistent with her neurological history. Behavioral testing revealed a severe left ear deficit on dichotic digits (consistent with the radiologically confirmed right hemisphere lesion affecting Heschl's gyrus and the parietal lobe) and severe bilateral deficits on duration patterns. A mild right ear deficit on dichotic digits and bilateral EEG abnormalities suggest some left hemisphere involvement as well.",
+  "counseling_points": [
+    "Explain that peripheral hearing is normal.",
+    "Discuss how the brain processes sound and how the seizure disorder/lesion is affecting auditory processing (specifically in the left ear and temporal patterning).",
+    "Review the correlation between the MRI findings (right parietal/Heschl's gyrus) and the left-ear auditory deficits.",
+    "Prepare patient for post-operative reassessment following commissurotomy."
+  ],
+  "notes_for_actor": [
+    "You are a 23-year-old female with a long history of severe seizures.",
+    "You are likely anxious about the upcoming brain surgery (commissurotomy).",
+    "You do not report difficulty hearing simple sounds (beeps), but you may have subtle difficulties processing complex information, though the text does not explicitly describe your subjective auditory complaints."
+  ]
+}

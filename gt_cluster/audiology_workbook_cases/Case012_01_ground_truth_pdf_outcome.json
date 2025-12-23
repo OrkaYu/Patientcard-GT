@@ -1,0 +1,98 @@
+{
+  "case_id": "case_12_1",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otitis Media with Effusion (Right Ear)",
+      "rationale_short": "Unilateral moderate hearing loss, Type B tympanogram with normal canal volume, and elevated wideband reflectance are classic signs of middle ear fluid. History of frequent colds supports this."
+    },
+    {
+      "rank": 2,
+      "label": "Conductive Hearing Loss (Right Ear)",
+      "rationale_short": "Evidenced by the air-conduction thresholds (PTA 47 dB HL) and middle ear dysfunction; likely secondary to the effusion."
+    },
+    {
+      "rank": 3,
+      "label": "Cerumen Impaction",
+      "rationale_short": "Patient history notes excessive cerumen buildup, though normal ear canal volume (0.80 cm3) on tympanometry makes full occlusion less likely than effusion."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To visually inspect the ear canal for cerumen and the tympanic membrane for fluid lines, bubbles, or retraction."
+      },
+      {
+        "action": "Bone Conduction Audiometry",
+        "urgency": "routine",
+        "rationale_short": "To confirm the conductive nature of the hearing loss by establishing the air-bone gap."
+      },
+      {
+        "action": "Otoacoustic Emissions (OAEs)",
+        "urgency": "routine",
+        "rationale_short": "To assess cochlear function; expected to be absent in the right ear due to conductive pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation indicates a unilateral, moderate conductive hearing loss in the right ear consistent with middle ear pathology, likely Otitis Media with Effusion. The left ear is within normal limits.",
+        "tests": [
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Type B (flat) with normal volume (0.80 cm3). Left ear: Type A (normal)."
+          },
+          {
+            "name": "Wideband Reflectance",
+            "category": "Immittance",
+            "result_summary": "Right ear: Elevated reflectance (near 100%) in low-to-mid frequencies. Left ear: Normal."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderate hearing loss (PTA 47 dB HL). Left ear: Normal hearing (PTA 5 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs align with PTAs. Excellent WRS bilaterally (Right: 96% @ 85 dB HL; Left: 97% @ 40 dB HL)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otolaryngologist (ENT) or Pediatrician for medical management of middle ear pathology.",
+      "Preferential seating in the classroom (left ear toward the teacher).",
+      "Monitor hearing status following medical intervention."
+    ],
+    "counseling_actions": [
+      "Explain that the 'flat' tympanogram and hearing test results suggest fluid behind the eardrum is preventing sound from getting through efficiently.",
+      "Reassure parents that the nerve of hearing (based on speech scores) appears healthy and the loss is likely temporary/treatable.",
+      "Advise on communication strategies, such as getting the child's attention before speaking and reducing background noise."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral hearing loss (though likely conductive)",
+      "Abnormal tympanometry (Type B)"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Medical referral (ENT/PCP)",
+      "rationale_short": "Medical management is required to resolve the middle ear effusion and restore hearing thresholds."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "4-6 weeks",
+    "objective": "Re-evaluate hearing thresholds and middle ear status after medical treatment to ensure resolution of the conductive component."
+  },
+  "expected_outcome": [
+    "Resolution of middle ear effusion with medical management (e.g., antibiotics or observation) or surgical intervention (PE tubes).",
+    "Return of right ear hearing thresholds to within normal limits."
+  ]
+}

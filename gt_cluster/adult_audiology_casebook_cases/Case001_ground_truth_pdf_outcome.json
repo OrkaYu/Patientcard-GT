@@ -1,0 +1,122 @@
+{
+  "case_id": "Case001",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Meniere's Disease",
+      "rationale_short": "10-year history of fluctuating hearing (now stabilized), roaring tinnitus, and history of vertigo."
+    },
+    {
+      "rank": 2,
+      "label": "Binaural Interference",
+      "rationale_short": "Patient reports distortion in the right ear; aided testing shows bilateral performance (50%) is poorer than left monaural performance (66%)."
+    },
+    {
+      "rank": 3,
+      "label": "Retrocochlear Pathology",
+      "rationale_short": "Significant asymmetry in word recognition scores (Right 50%, Left 66%) despite symmetric thresholds requires exclusion of retrocochlear lesions."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and configuration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology."
+      },
+      {
+        "action": "Speech-in-noise / Aided Word Recognition",
+        "urgency": "routine",
+        "rationale_short": "To investigate reported distortion and verify benefit of amplification configurations."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results reveal bilateral symmetrical moderately severe sensorineural hearing loss with a flat configuration. Despite symmetric thresholds, word recognition scores are asymmetric (poorer in the right ear). Middle ear function is normal, but acoustic reflexes are absent bilaterally.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical moderately severe sensorineural hearing loss (~60-70 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs agree with PTAs (R 75 dB, L 65 dB). WRS is asymmetric: Right 50%, Left 66% at 85 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A bilaterally; normal middle ear pressure and compliance."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent bilaterally at 500 to 4,000 Hz."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Aided testing confirms binaural interference. The patient performs worse with bilateral amplification (50%) compared to the left hearing aid alone (66%), consistent with reports of distortion in the right ear.",
+        "tests": [
+          {
+            "name": "Speech-in-noise / Aided Word Recognition",
+            "category": "Functional",
+            "result_summary": "Left monaural aided: 66%; Right monaural aided: 40%; Bilateral aided: 50%. Demonstrates binaural interference."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit BiCROS hearing aid system (Transmitter on Right, Receiver/Aid on Left)",
+      "Verify fitting with Electroacoustic Analysis (Test Box) and Real Ear Measures (REM)",
+      "Provide remote microphone for speech understanding in noise",
+      "Include tinnitus program (noise generator) in the hearing aid settings"
+    ],
+    "counseling_actions": [
+      "Counsel on realistic expectations regarding speech understanding due to poor word recognition scores",
+      "Explain the concept of binaural interference and why the right hearing aid was causing difficulty",
+      "Explain the benefits of the BiCROS system for sound awareness without amplifying distortion",
+      "Discuss the recommendation for medical referral to rule out causes of asymmetry"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric Word Recognition Scores"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "To rule out retrocochlear pathology (e.g., acoustic neuroma) or other causes for the asymmetry in speech recognition despite symmetric thresholds."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Future appointment",
+    "objective": "Fit and verify the BiCROS system and monitor patient satisfaction."
+  },
+  "expected_outcome": [
+    "Test Box Verification: Left receiver hearing aid matched targets at 50, 65, and 75 dB SPL; transmitter verified to transmit signals to the receiver.",
+    "Real Ear Measures (REM): Left receiver matched NAL-NL2 targets; transmitter activation eliminated the head shadow effect (response at 90 degrees right matched 90 degrees left).",
+    "Patient reported significantly less distortion and improved listening effort with the BiCROS system.",
+    "Patient was very pleased with the left BiCROS system."
+  ]
+}

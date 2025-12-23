@@ -1,0 +1,128 @@
+{
+  "case_id": "case_4_3",
+  "title": "Sudden Onset Unilateral Tinnitus with Normal Hearing",
+  "demographics": {
+    "age_years": 54,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a constant ringing in my right ear that started suddenly about two months ago. It is extremely distracting and makes it hard for me to fall asleep.",
+  "problem_summary": {
+    "onset": "Sudden onset, 2 months prior to the visit.",
+    "course": "Constant and unchanged since onset.",
+    "laterality": "Right ear.",
+    "associated_symptoms": "Tinnitus is described as a low-level ringing, loudest upon waking. Patient denies hearing loss or dizziness.",
+    "functional_impact": "Interferes with ability to fall asleep; extremely distracting.",
+    "goals_motivation": "Seeking explanation and relief; attempted dietary changes (limiting caffeine and sodium) without success."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-05-07",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "2-month history of constant right-sided tinnitus. Loudest in the morning. No fluctuation reported.",
+        "otologic_history": "No reported history of ear pathology or familial hearing loss. Denies dizziness.",
+        "noise_exposure_history": "Denied.",
+        "medical_psych_history": "No significant health history reported.",
+        "prior_management": "Patient self-managed by limiting caffeine and sodium intake, but reported no change in tinnitus.",
+        "patient_goals": "Evaluation of tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.3"
+          ],
+          "key_findings": "Bilateral normal hearing sensitivity at all frequencies tested (250-8000 Hz). Air and bone conduction thresholds are interweaving.",
+          "numeric_results": {
+            "Right Ear Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "Left Ear Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "Right PTA": "7 dB",
+            "Left PTA": "5 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.3"
+          ],
+          "key_findings": "Normal ability to receive and recognize speech bilaterally. SRT is in agreement with PTA.",
+          "numeric_results": {
+            "Right SRT": "5 dB",
+            "Left SRT": "5 dB",
+            "Right WRS": "92% at 55 dB HL",
+            "Left WRS": "96% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.3"
+          ],
+          "key_findings": "Normal tympanograms bilaterally.",
+          "numeric_results": {
+            "Right Canal Volume": "1.10 mL",
+            "Right Static Admittance": "0.50 mmho",
+            "Right Peak Pressure": "-15 daPa",
+            "Left Canal Volume": "0.90 mL",
+            "Left Static Admittance": "1.10 mmho",
+            "Left Peak Pressure": "-30 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.3"
+          ],
+          "key_findings": "Acoustic reflex thresholds were within normal limits for ipsilateral and contralateral stimulation at 500 through 4,000 Hz. Contralateral acoustic reflex decay was negative at 500 and 1,000 Hz.",
+          "numeric_results": {
+            "Reflex Decay": "Negative at 500 and 1000 Hz bilaterally"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral normal hearing sensitivity and excellent word recognition abilities. Immittance testing, including tympanometry and acoustic reflexes, is within normal limits. There are no audiometric signs of retrocochlear pathology or middle ear dysfunction to explain the unilateral tinnitus.",
+  "counseling_points": [
+    "Your hearing test results are completely normal in both ears, which is excellent news.",
+    "Since the tinnitus is only in one ear, it is important to keep your scheduled appointment with the otologist (ENT) to rule out any medical causes, even though our hearing tests look normal.",
+    "Continue to protect your hearing in noisy environments to prevent future damage.",
+    "Since changing your diet didn't help, we can look at other management strategies if the ringing continues to be bothersome, such as sound therapy or sleep hygiene adjustments.",
+    "We will schedule follow-up testing as needed to monitor your hearing."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is tired and frustrated due to lack of sleep.",
+    "You are relieved that you don't have hearing loss but confused about why the ringing is there.",
+    "Emphasize that the ringing is 'distracting' rather than painful."
+  ]
+}

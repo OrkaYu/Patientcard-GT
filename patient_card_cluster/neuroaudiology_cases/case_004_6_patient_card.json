@@ -1,0 +1,126 @@
+{
+  "case_id": "case_4_6",
+  "title": "Bilateral CPA Lesions (Neurofibromatosis)",
+  "demographics": {
+    "age_years": 50,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a high-pitched ringing in both ears, but it pulses in my left ear. Over the last six months, I've lost hearing in my right ear and feel slightly off-balance.",
+  "problem_summary": {
+    "onset": "Tinnitus began 1 year ago; hearing loss began 6 months ago.",
+    "course": "Progressive hearing loss on the right side.",
+    "laterality": "Bilateral tinnitus (pulsatile left), Right hearing loss.",
+    "associated_symptoms": "Slight imbalance, intolerance to motion. History of vertigo with vomiting 10 years prior (resolved).",
+    "functional_impact": "Intolerance to motion.",
+    "goals_motivation": "Diagnosis and management of symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "50-year-old woman complaining of bilateral high-pitched tinnitus of 1-year duration (pulsatile in the left ear). 6-month history of progressive right-sided hearing loss, slight imbalance, and intolerance to motion.",
+        "otologic_history": "Ten years previously experienced two episodes of vertigo with vomiting which resolved spontaneously without recurrence.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Diagnosed with neurofibromatosis at age 50 (during this evaluation process).",
+        "prior_management": null,
+        "patient_goals": "Evaluation of hearing loss and tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-19"
+          ],
+          "key_findings": "Left ear: Normal hearing sensitivity. Right ear: Moderate to severe high-frequency sensorineural hearing loss.",
+          "numeric_results": {
+            "LE_thresholds": "0-10 dB HL across 250-8000 Hz",
+            "RE_thresholds": "250-500Hz ~30 dB HL, 1000Hz ~15 dB HL, sloping to ~50 dB HL at 2000Hz and ~65 dB HL at 8000Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-19"
+          ],
+          "key_findings": "Excellent speech recognition scores bilaterally despite the right-sided loss.",
+          "numeric_results": {
+            "RE_WRS": "96%",
+            "LE_WRS": "100%"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-20"
+          ],
+          "key_findings": "Abnormal bilaterally. Left ear: Extended absolute latency for wave V and abnormal III-V/I-V intervals (consistent with brainstem lesion). Right ear: Extended I-V interval and missing Wave III (consistent with acoustic nerve or brainstem lesion).",
+          "numeric_results": {
+            "LE_Wave_I": "1.78 msec",
+            "LE_Wave_III": "3.88 msec",
+            "LE_Wave_V": "6.65 msec",
+            "LE_I-III_interval": "2.1 msec (Normal)",
+            "LE_III-V_interval": "2.77 msec (Abnormal)",
+            "LE_I-V_interval": "4.87 msec (Abnormal)",
+            "RE_Wave_I": "1.64 msec",
+            "RE_Wave_V": "7.28 msec",
+            "RE_I-V_interval": "5.64 msec (Extended)",
+            "RE_Wave_III": "Absent"
+          }
+        },
+        {
+          "name": "MRI",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-21"
+          ],
+          "key_findings": "Mass lesions of the Cerebellopontine Angle (CPA) on both sides. Right side: Probable acoustic tumor with lateral extension into the Internal Auditory Meatus (IAM). Left side: Probable meningioma.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 50-year-old female presented with bilateral tinnitus and progressive right-sided hearing loss. Audiometry revealed normal hearing in the left ear and a high-frequency sensorineural loss in the right ear, though speech recognition remained excellent bilaterally. ABR was abnormal bilaterally; the right ear showed signs of retrocochlear pathology (extended I-V, missing III), while the left ear showed signs consistent with brainstem compression (extended III-V). MRI confirmed bilateral CPA lesions: a probable acoustic tumor on the right extending into the IAM (explaining the cochlear/nerve findings) and a meningioma on the left (compressing the brainstem). The patient was subsequently diagnosed with Neurofibromatosis.",
+  "counseling_points": [
+    "Discuss MRI findings indicating bilateral CPA masses.",
+    "Explain the diagnosis of Neurofibromatosis (unusually late diagnosis at age 50).",
+    "Correlate the right-sided hearing loss with the tumor's presence in the Internal Auditory Meatus.",
+    "Explain that the left-sided ABR abnormalities are likely due to brainstem compression by the meningioma.",
+    "Surgical consultation is required (patient had not yet gone to surgery at time of report)."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is concerned about the progressive nature of the hearing loss and the constant ringing.",
+    "You have a history of vertigo 10 years ago, but currently, you only feel 'slight imbalance' and motion intolerance, not full spinning vertigo.",
+    "The tinnitus in the left ear is pulsatile (like a heartbeat), which is distinct from the high-pitched ringing."
+  ]
+}

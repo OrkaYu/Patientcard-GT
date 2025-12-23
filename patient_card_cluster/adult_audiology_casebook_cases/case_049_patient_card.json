@@ -1,0 +1,175 @@
+{
+  "case_id": "case49_A_Case_of_Extreme_Misophonia_and_Hyperac",
+  "title": "Extreme Misophonia and Hyperacusis in a Young Adult",
+  "demographics": {
+    "age_years": 18,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I have extreme sensitivity to specific sounds like chewing, eating, and silverware scraping. It makes me physically uncomfortable and angry, and I sometimes hurt myself to cope.",
+  "problem_summary": {
+    "onset": "Specific onset age not reported, but previous audiology encounter at age 4 was normal.",
+    "course": "Current state is extreme/severe; triggers are worse when created by family members.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Obsessive concern with germs, refusal to touch hands, meticulousness about order/arrangement, self-mutilating behaviors (scratching hands/wrists).",
+    "functional_impact": "Significant negative impact on activities, thoughts, and feelings; resorts to self-harm; unable to remove himself from triggering situations without distress.",
+    "goals_motivation": "Patient denies knowing how injuries occurred; family is protective and resistant to mental health labeling."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-09-22",
+      "setting": "University Speech and Hearing Clinic",
+      "history": {
+        "present_illness": "Patient reports extreme sensitivity to specific sounds (talking, chewing, eating, silverware). Reactions include physical discomfort and anger. Patient resorts to digging fingernails into hands/wrists.",
+        "otologic_history": "Previous audiology exam at age 4 was normal.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Obsessive behaviors regarding germs and order. 'Gets lost in own complex creations'. Memory for 200 'super-powers' of toy cars. Parents resistant to psychological referral.",
+        "prior_management": "None reported.",
+        "patient_goals": "Assessment of sound sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.1"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. PTA is 12 dB HL in each ear. Thresholds obtained from 250 to 20,000 Hz.",
+          "numeric_results": {
+            "PTA_Right": "12 dB HL",
+            "PTA_Left": "12 dB HL",
+            "Frequency_Range": "250 - 20,000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.1"
+          ],
+          "key_findings": "Excellent word recognition scores consistent with normal hearing sensitivity.",
+          "numeric_results": {
+            "SRT_Right": "10 dB HL",
+            "SRT_Left": "10 dB HL",
+            "WRS_Right": "96% at 50 dB HL",
+            "WRS_Left": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right_ECV": "2.0",
+            "Left_ECV": "1.8",
+            "Right_Peak_Pressure": "-20 daPa",
+            "Left_Peak_Pressure": "-25 daPa",
+            "Right_Static_Admittance": "1.4",
+            "Left_Static_Admittance": "1.0"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.1"
+          ],
+          "key_findings": "Could not test (CNT) due to patient's extreme sound hypersensitivity.",
+          "numeric_results": null
+        },
+        {
+          "name": "Loudness Discomfort Levels (LDL)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 49.1"
+          ],
+          "key_findings": "Reduced loudness tolerance. LDLs measured between 60 and 80 dB HL for pure tones and 75 dB HL for speech.",
+          "numeric_results": {
+            "Right_500Hz": "70 dB HL",
+            "Right_1000Hz": "70 dB HL",
+            "Right_2000Hz": "60 dB HL",
+            "Right_4000Hz": "65 dB HL",
+            "Right_Speech": "75 dB HL",
+            "Left_500Hz": "80 dB HL",
+            "Left_1000Hz": "75 dB HL",
+            "Left_2000Hz": "70 dB HL",
+            "Left_4000Hz": "65 dB HL",
+            "Left_Speech": "75 dB HL"
+          }
+        },
+        {
+          "name": "Self-Report Scales",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.2",
+            "Figure 49.3"
+          ],
+          "key_findings": "Scores indicate extreme misophonia and severe impact on quality of life. Patient rated annoyance 10/10.",
+          "numeric_results": {
+            "MAQ_Total_Score": "51 (Extreme range)",
+            "A-MISO-S_Total_Score": "19 (Severe range)",
+            "Subjective_Severity": "9/10",
+            "Subjective_Annoyance": "10/10",
+            "Subjective_QoL_Impact": "9-10/10"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity bilaterally and normal middle ear function. However, Loudness Discomfort Levels (LDLs) are significantly reduced (60-80 dB HL), consistent with hyperacusis. Questionnaire results (MAQ score 51, A-MISO-S score 19) confirm the presence of extreme misophonia with severe negative impact on daily life.",
+  "counseling_points": [
+    "Your hearing test shows your ears are physically healthy and you hear very well.",
+    "The distress you feel is real; we call this misophonia (reaction to specific sounds) and hyperacusis (sensitivity to volume).",
+    "We can use sound therapy (ear-level devices) to help 'cushion' the trigger sounds, making them less sharp and bothersome.",
+    "It is important to have control over the sound therapy and use it to gradually build tolerance.",
+    "Given the high level of distress, working with a mental health professional for strategies to manage the emotional reaction is strongly recommended."
+  ],
+  "notes_for_actor": [
+    "Portray an 18-year-old who is visibly anxious or tense, especially if background noises occur.",
+    "You are meticulous and may refuse to shake hands due to germ concerns.",
+    "If asked about the scratches on your hands/wrists, deny knowing how they happened or be evasive.",
+    "Show reliance on your parent, who accompanies you.",
+    "You are intelligent (remembering complex details about toys) but socially guarded."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Case054",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Occupational Noise-Induced Hearing Loss (NIHL)",
+      "rationale_short": "The patient presents with a history of long-term unprotected occupational noise exposure and a bilateral, symmetric high-frequency sensorineural hearing loss with a characteristic 'noise notch' at 3000–6000 Hz and recovery at 8000 Hz."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Comprehensive diagnostic audiometry",
+        "urgency": "routine",
+        "rationale_short": "To define the degree, type, and configuration of hearing loss and assess for characteristic noise-induced patterns."
+      },
+      {
+        "action": "Hearing protection device (HPD) fit check and attenuation measurement",
+        "urgency": "routine",
+        "rationale_short": "To verify if current PPE provides adequate protection against workplace noise levels."
+      },
+      {
+        "action": "Personal noise dosimetry",
+        "urgency": "routine",
+        "rationale_short": "Recommended to quantify current noise exposure levels and ensure OSHA compliance."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Historical records show a progressive decline in high-frequency hearing sensitivity over 30+ years of employment, starting from a normal baseline.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry (Historical)",
+            "category": "Audiometry",
+            "result_summary": "Progressive high-frequency threshold shifts evident from 1971 to 1984, meeting criteria for Standard Threshold Shift (STS)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Diagnostic findings confirm bilateral, symmetric, high-frequency sensorineural hearing loss with a noise-notch configuration, consistent with NIHL.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral high-frequency SNHL with notch at 3-6 kHz and recovery at 8 kHz; STS confirmed."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Good word recognition scores (80%) bilaterally but at elevated presentation levels (50-60 dB HL)."
+          },
+          {
+            "name": "Immittance & OAEs",
+            "category": "Physiological",
+            "result_summary": "Type A tympanograms; acoustic reflexes absent at 4000 Hz; DPOAEs absent 2000-6000 Hz, consistent with cochlear damage."
+          },
+          {
+            "name": "HPD Fit Check",
+            "category": "Prevention",
+            "result_summary": "Field attenuation of foam earplugs measured 15-40 dB depending on frequency; adequate if worn correctly."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Medical evaluation rules out systemic or retrocochlear causes; confirms diagnosis of work-related NIHL.",
+        "tests": [
+          {
+            "name": "Medical Evaluation",
+            "category": "Medical",
+            "result_summary": "Normal otoscopy; negative labs; diagnosis of bilateral SNHL secondary to noise exposure (95% attributed to work)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit bilateral programmable hearing aids.",
+      "Process workers' compensation claim for settlement and lifetime hearing health provision.",
+      "Continue use of hearing protection devices (HPDs) for all occupational noise exposures.",
+      "Recommend electronic hearing protection for recreational firearm use.",
+      "Annual audiological monitoring.",
+      "Referral to Otolaryngology (ENT)"
+    ],
+    "counseling_actions": [
+      "Explain that the hearing loss is permanent and caused by hair cell damage from noise.",
+      "Emphasize the critical need to protect remaining hearing at work and during hobbies (hunting).",
+      "Discuss realistic expectations for hearing aids, noting good prognosis due to speech recognition scores.",
+      "Advise on the lifetime replacement cycle of hearing aids (approx. every 4-6 years)."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Standard Threshold Shift (STS) observed",
+      "History of unprotected noise exposure"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngologist (ENT)",
+      "rationale_short": "To provide medical clearance for hearing aids and formally determine work-relatedness for the compensation claim."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual audiological monitoring.",
+    "objective": "Monitor for any further threshold shifts and assess hearing aid function and benefit."
+  },
+  "expected_outcome": [
+    "Patient reports excellent subjective benefit and acceptance of hearing aids.",
+    "Improved communication with family and in meetings.",
+    "Successful settlement of workers' compensation claim including financial compensation and lifetime hearing care.",
+    "Prevention of further noise-induced loss through consistent HPD use."
+  ]
+}

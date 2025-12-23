@@ -1,0 +1,121 @@
+{
+  "case_id": "Case13_Acoustic_Shock_Disorder",
+  "title": "Acoustic Shock Disorder following acute noise trauma",
+  "demographics": {
+    "age_years": 65,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have extreme discomfort and sharp pain in my right ear with sounds that used to be tolerable. My ringing also got much louder immediately after a fire truck horn went off right near me.",
+  "problem_summary": {
+    "onset": "Acute onset 4 months prior to evaluation.",
+    "course": "Symptoms worsened immediately following the event and have persisted. Tinnitus is reactive.",
+    "laterality": "Bilateral hearing loss, but symptoms (pain, tinnitus exacerbation) are worse in the Right ear.",
+    "associated_symptoms": "Sharp otalgia (pain) in response to sound, anxiety, depression, startle response, sound avoidance.",
+    "functional_impact": "Avoids places expected to be loud; experiences anxiety regarding potential painful reactions; severe tinnitus distress.",
+    "goals_motivation": "Seeking relief from pain, anxiety, and tinnitus."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2012-00-00",
+      "setting": "Tinnitus Clinic",
+      "history": {
+        "present_illness": "Patient exposed to a firetruck horn at <50 meters directed at his right ear 4 months ago. He perceived the driver did this deliberately. Immediately felt sharp pain in the right ear and tinnitus grew louder. Since then, experiences pain with high-pitched/impulsive sounds.",
+        "otologic_history": "No familial history of hearing loss or vertigo. Pre-existing tinnitus worsened after the event.",
+        "noise_exposure_history": "35+ years of occupational and military-related noise exposure.",
+        "medical_psych_history": "Hypertension. Diagnosed with depression and anxiety subsequent to the acoustic shock event.",
+        "prior_management": "Infrequent use of OTC medication for sleep.",
+        "patient_goals": "Reduce pain and tinnitus severity."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 13.1"
+          ],
+          "key_findings": "Sloping mild-to-severe hearing loss bilaterally. Compared to pre-exposure records, the Right ear shows a worsening of 10-20 dB HL at 3, 4, 6, and 8 kHz. Left ear also shows decline but remains slightly better than the right.",
+          "numeric_results": {
+            "Post-PT R (250-8000 Hz)": "20, 20, 20, 25, 45, 55, 75, 90 dB HL",
+            "Post-PT L (250-8000 Hz)": "15, 20, 15, 30, 50, 65, 80 dB HL"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry (Historical)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 13.1"
+          ],
+          "key_findings": "Historical audiogram from 4 years prior to the event, used for comparison to demonstrate threshold shift.",
+          "numeric_results": {
+            "Pre-PT R (250-8000 Hz)": "10, 20, 20, 30, 45, 60, 70 dB HL",
+            "Pre-PT L (250-8000 Hz)": "20, 10, 15, 15, 30, 45, 55 dB HL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table 13.1"
+          ],
+          "key_findings": "Reflexes present ipsilaterally; Right Contralateral reflexes absent at 1000/2000 Hz.",
+          "numeric_results": {
+            "AR RI (500, 1k, 2k)": "100, 85, 85 dB",
+            "AR RC (500, 1k, 2k)": "105, NR, NR",
+            "AR LI (500, 1k, 2k)": "100, 85, 90 dB",
+            "AR LC (500, 1k, 2k)": "90, 95, 95 dB"
+          }
+        },
+        {
+          "name": "Self-report scales",
+          "timepoint_label": null,
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Scores indicate severe handicap and distress. Patient rates tinnitus severity and sound intolerance very high.",
+          "numeric_results": {
+            "THI Score": "70/100",
+            "TFI Score": "86/100",
+            "Tinnitus Severity Rating": "9/10",
+            "Sound Intolerance Rating": "9/10"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral sloping mild-to-severe sensorineural hearing loss, with a documented threshold shift in the right ear following acoustic trauma. The clinical picture is dominated by Acoustic Shock Disorder symptoms, including severe tinnitus distress (TFI 86/100), hyperacusis, and otalgia (pain) upon sound exposure. Acoustic reflexes are elevated or absent, consistent with the degree of hearing loss.",
+  "counseling_points": [
+    "Validate that the pain experienced in the ear is real and consistent with Acoustic Shock Disorder (tonic tensor tympani syndrome).",
+    "Explain the connection between the traumatic event, the emotional reaction (anxiety/anger), and the physical symptoms.",
+    "Discuss the importance of avoiding silence and gradually reintroducing sound (desensitization) rather than over-protecting hearing.",
+    "Recommend management for the associated anxiety and depression alongside audiological treatment."
+  ],
+  "notes_for_actor": [
+    "Portray significant anxiety when discussing loud sounds or the possibility of testing with loud beeps.",
+    "When describing the firetruck incident, express resentment or anger that the driver did it 'deliberately'.",
+    "Emphasize that high-pitched sounds cause physical *pain*, not just annoyance.",
+    "You are knowledgeable about your history but guarded about exposing yourself to new sounds."
+  ]
+}

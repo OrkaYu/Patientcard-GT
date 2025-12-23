@@ -1,0 +1,157 @@
+{
+  "case_id": "Case004_04",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Left Cerebellopontine Angle (CPA) Tumor",
+      "rationale_short": "Progressive unilateral SNHL, significant decline in speech recognition, absent reflexes, abnormal ABR, and MRI confirmation of a 5 cm mass."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Initial assessment of hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Initial assessment of speech understanding."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Initial assessment of middle ear function."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up evaluation for progressive symptoms."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up evaluation of speech understanding."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Follow-up evaluation of middle ear status."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assessment of retrocochlear pathway integrity."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "Investigation of potential retrocochlear pathology due to asymmetry and speech decline."
+      },
+      {
+        "action": "MRI",
+        "urgency": "urgent",
+        "rationale_short": "Definitive imaging to visualize the CPA and internal auditory canal."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation at an external clinic 4 years prior revealed a borderline normal to mild flat sensorineural hearing loss in the left ear with excellent speech recognition. Middle ear function was normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear: Borderline normal to mild, flat SNHL (20-30 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear: Excellent speech recognition (96%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanogram."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Current evaluation at the audiology clinic shows progression to a mild-to-moderate flat SNHL in the left ear with a significant decline in speech recognition (58%). Diagnostic testing (absent reflexes, abnormal ABR) indicates retrocochlear pathology, confirmed by MRI as a large CPA tumor.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal (0-10 dB HL). Left ear: Mild-to-moderate flat SNHL (30-60 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: 96%. Left ear: 58% (significant decline)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ear: Normal. Left ear: Absent ipsilateral and contralateral stimulation at 500-4000 Hz."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Left ear: No repeatable response. Right ear: Normal waves I-IV, prolonged III-V interval (3.36 msec) suggesting brainstem compression."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Large mass lesion measuring nearly 5 cm in the left CPA, displacing the pons."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical removal of the CPA tumor",
+      "Facial nerve grafting",
+      "Long-term monitoring for other CNS tumors"
+    ],
+    "counseling_actions": [
+      "Explain the correlation between the large mass found on MRI and the progressive hearing loss and balance issues.",
+      "Discuss the significant degradation in speech understanding (rollover) as characteristic of retrocochlear involvement.",
+      "Explain that the abnormal ABR on the 'good' ear is likely due to the large tumor compressing the brainstem.",
+      "Counsel on surgical management and potential outcomes, including sacrifice of the auditory nerve and facial nerve risks."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Progressive unilateral sensorineural hearing loss",
+      "Unilateral tinnitus",
+      "Significant decline in speech recognition",
+      "Absent acoustic reflexes",
+      "Abnormal ABR (absent response and contralateral latency prolongation)",
+      "Large CPA mass on MRI",
+      "Brainstem compression signs (headaches, off-balance)"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurosurgery/Neuro-otology",
+      "rationale_short": "Large 5 cm CPA tumor compressing the brainstem requires immediate surgical management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-surgical",
+    "objective": "Monitor recovery, facial nerve function, and surveillance for other tumors."
+  },
+  "expected_outcome": [
+    "Tumor removal: The tumor was removed and the auditory nerve was sacrificed.",
+    "Facial nerve function: The facial nerve had to be grafted, but the patient regained good facial nerve function following surgery.",
+    "Neurological status: The patient has no neurological symptoms at the present time and functions well in everyday situations.",
+    "Long-term course: She subsequently developed an acoustic tumor on the other side as well as other CNS tumors and is currently being followed."
+  ]
+}

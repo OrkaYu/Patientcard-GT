@@ -1,0 +1,127 @@
+{
+  "case_id": "case_5_10",
+  "title": "Sudden Decrease in Speech Understanding with Asymmetric SNHL",
+  "demographics": {
+    "age_years": 58,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I don't feel like I'm hearing as well as I used to. I'm not sure if my hearing aids are malfunctioning or if my hearing has actually changed.",
+  "problem_summary": {
+    "onset": "Recent change noticed after 2 years of successful hearing aid use.",
+    "course": "Deteriorating (perceived).",
+    "laterality": "Bilateral, but Right ear is reported as worse.",
+    "associated_symptoms": "Long-standing tinnitus.",
+    "functional_impact": "Reduced benefit from current hearing aids.",
+    "goals_motivation": "Determine if equipment is broken or if hearing has changed."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-07-22",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports successful bilateral hearing aid use for the past 2 years. Recently feels she is not hearing as well as previously. Unsure if cause is device or physiological.",
+        "otologic_history": "Right ear historically slightly worse than left. Long-standing tinnitus reported. Denies dizziness, otalgia, aural pressure, or fullness.",
+        "noise_exposure_history": "No reported history of loud noise exposure.",
+        "medical_psych_history": "None reported.",
+        "prior_management": "Bilateral hearing aids for 2 years. Previous hearing tests available for comparison.",
+        "patient_goals": "Check hearing aids and hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 5.10"
+          ],
+          "key_findings": "Right ear: Normal to slight SNHL (250-1k Hz), steeply sloping to severe (3k-8k Hz). Left ear: Normal to slight SNHL (250-2k Hz), sloping to severe (3k-8k Hz). Comparison to prior tests shows a slight decrease at 2000 and 3000 Hz in the Right ear.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250Hz: 20, 500Hz: 25, 1000Hz: 25, 1500Hz: 45, 2000Hz: 55, 3000Hz: 65, 4000Hz: 70, 8000Hz: 80 dB HL",
+            "LE_AC_Thresholds": "250Hz: 15, 500Hz: 15, 1000Hz: 15, 2000Hz: 20, 3000Hz: 50, 4000Hz: 60, 8000Hz: 75 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 5.10"
+          ],
+          "key_findings": "SRT aligns with PTA. Significant asymmetry in Word Recognition Scores (WRS). Right ear WRS is poor (52-56%) and has dropped significantly from a previous score of 88%. Left ear WRS remains good (86%).",
+          "numeric_results": {
+            "RE_SRT": "25 dB",
+            "LE_SRT": "20 dB",
+            "RE_WRS": "52% at 80 dB HL (Text notes 56%)",
+            "LE_WRS": "86% at 70 dB HL",
+            "Previous_RE_WRS": "88%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 5.10"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "RE_Vol": "0.9 mL",
+            "RE_Static_Admittance": "0.5 mL",
+            "RE_Peak_Pressure": "-20 daPa",
+            "LE_Vol": "0.7 mL",
+            "LE_Static_Admittance": "0.4 mL",
+            "LE_Peak_Pressure": "-15 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 5.10"
+          ],
+          "key_findings": "Reflexes present at 500 and 1000 Hz; absent at 2000 and 4000 Hz (ipsi and contra). Reflex decay negative at 500 and 1000 Hz.",
+          "numeric_results": {
+            "Reflex_Decay": "Negative"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral sloping sensorineural hearing loss, with the right ear exhibiting slightly poorer thresholds in the mid-to-high frequencies compared to the left. Most notably, there is a significant asymmetry in speech understanding; the right ear Word Recognition Score (WRS) has deteriorated to ~52-56% compared to a prior baseline of 88%, while the left ear remains stable at 86%. Peripheral middle ear function is normal.",
+  "counseling_points": [
+    "Your hearing test confirms that your hearing aids are not malfunctioning; rather, there has been a change in your right ear's hearing ability.",
+    "While the change in hearing levels (beeps) is slight, there is a significant drop in your right ear's ability to understand words clearly.",
+    "Because of this asymmetry and the change in speech understanding, I am referring you to an ENT specialist for further evaluation to rule out any medical causes beyond the inner ear.",
+    "The ENT may recommend an ABR test or imaging to investigate the nerve pathway."
+  ],
+  "notes_for_actor": [
+    "You are 58 years old.",
+    "You are not in pain or dizzy, just frustrated that you can't hear as well as you did two years ago.",
+    "You initially assume the hearing aids are broken. You should appear concerned when told the aids are fine but your ear has changed medically.",
+    "You have had ringing (tinnitus) in your ears for a long time."
+  ]
+}

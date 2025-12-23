@@ -1,0 +1,109 @@
+{
+  "case_id": "case_12_2",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otosclerosis",
+      "rationale_short": "Patient age, family history, progressive conductive hearing loss, Type As tympanogram (stiffness), and high wideband reflectance are classic indicators."
+    },
+    {
+      "rank": 2,
+      "label": "Ossicular Chain Fixation",
+      "rationale_short": "Conductive loss with increased stiffness (Type As) indicates fixation; otosclerosis is the most likely etiology given history, but other fixation causes exist."
+    },
+    {
+      "rank": 3,
+      "label": "Tympanosclerosis",
+      "rationale_short": "Can cause conductive loss and stiffness, though typically associated with visible scarring on the tympanic membrane (not explicitly noted)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To assess ear canal status and tympanic membrane appearance (e.g., check for Schwartze sign)."
+      },
+      {
+        "action": "Pure-tone Audiometry",
+        "urgency": "routine",
+        "rationale_short": "To quantify hearing sensitivity and determine the type (conductive) and degree of loss."
+      },
+      {
+        "action": "Speech Audiometry",
+        "urgency": "routine",
+        "rationale_short": "To validate pure-tone thresholds and assess word recognition ability (cochlear reserve)."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear compliance; Type As supports a diagnosis of stiffness/fixation."
+      },
+      {
+        "action": "Wideband Acoustic Immittance (Reflectance)",
+        "urgency": "routine",
+        "rationale_short": "To confirm middle ear stiffness through power reflectance analysis."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results show a unilateral moderate conductive hearing loss in the right ear with excellent word recognition. Immittance testing (Type As tympanogram, high reflectance) indicates increased stiffness of the middle ear system, consistent with otosclerosis.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderate conductive hearing loss (AC thresholds 30-50 dB HL) with significant air-bone gap. Left ear: Normal hearing."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 45 dB HL, WRS 97% at 85 dB HL. Left ear: SRT 10 dB HL, WRS 100% at 45 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Type As (reduced peak admittance/stiff). Left ear: Type A (normal)."
+          },
+          {
+            "name": "Wideband Acoustic Immittance",
+            "category": "Immittance",
+            "result_summary": "Right ear: Abnormally high power reflectance (>90%) in low-to-mid frequencies, confirming stiffness."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otolaryngology (ENT) for medical evaluation.",
+      "Discussion of surgical management (stapedectomy).",
+      "Discussion of amplification (hearing aids) as an alternative to surgery."
+    ],
+    "counseling_actions": [
+      "Explain the 'conductive' nature of the loss, involving the middle ear bones not vibrating efficiently.",
+      "Discuss the strong likelihood of a hereditary condition (otosclerosis) given the family history and test results.",
+      "Reassure the patient that the inner ear nerve function is healthy.",
+      "Advise that the condition is often progressive but treatable."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral hearing loss",
+      "Conductive hearing loss (Air-Bone Gap)"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngologist (ENT)",
+      "rationale_short": "Medical clearance is required for unilateral conductive pathology to discuss surgical options or clear for hearing aids."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Following ENT consultation",
+    "objective": "To conduct post-surgical audiogram or proceed with hearing aid selection and fitting."
+  },
+  "expected_outcome": [
+    "Potential closure of air-bone gap and restoration of thresholds via surgery.",
+    "Successful remediation of hearing difficulty with hearing aids if surgery is not performed."
+  ]
+}

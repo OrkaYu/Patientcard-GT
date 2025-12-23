@@ -1,0 +1,123 @@
+{
+  "case_id": "case_5_29",
+  "title": "Noise-Induced Hearing Loss and Tinnitus Post-Concert",
+  "demographics": {
+    "age_years": 36,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I went to a loud concert about a month ago and noticed ringing in both ears and distorted hearing afterwards. While the sensitivity to loud sounds has improved, I still have the ringing and trouble hearing in background noise.",
+  "problem_summary": {
+    "onset": "Acute onset 1 month prior to visit following a loud concert.",
+    "course": "Symptoms (decreased hearing, hyperacusis, distortion) improved after 2 weeks; tinnitus remains constant.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Constant bilateral tinnitus, initial hyperacusis (sensitivity to sirens/seat belts), sound distortion (music), difficulty in background noise.",
+    "functional_impact": "Difficulty hearing in background noise; initial distortion of music quality.",
+    "goals_motivation": "Patient is already using hearing protection now; likely seeking evaluation of residual symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-09-03",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient attended a loud concert 1 month ago without hearing protection. Immediately noted constant bilateral tinnitus, hearing loss, hyperacusis, and distortion. Symptoms improved after 2 weeks, but tinnitus persists (not bothersome, fluctuates in intensity).",
+        "otologic_history": "No other reported otologic symptoms.",
+        "noise_exposure_history": "History of working around loud music for many years. Attended loud concert 1 month ago without protection. Now wears protection.",
+        "medical_psych_history": "Family history of hearing loss (grandfather, late onset, possibly noise-related).",
+        "prior_management": "None reported prior to this visit.",
+        "patient_goals": "Evaluation of current hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.29"
+          ],
+          "key_findings": "Bilateral normal hearing thresholds from 250-2000 Hz. Right ear shows a mild sensorineural notch at 3000 Hz. Left ear shows a slight sensorineural notch at 3000-4000 Hz. Both ears recover to normal limits at 6000-8000 Hz.",
+          "numeric_results": {
+            "Right AC Thresholds (dB HL)": "250-2k: ~5, 3k: 30, 4k: 15, 8k: 5",
+            "Left AC Thresholds (dB HL)": "250-2k: ~5, 3k: 20, 4k: 25, 8k: 5"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.29"
+          ],
+          "key_findings": "SRT scores align with pure-tone averages. Word recognition scores are excellent bilaterally.",
+          "numeric_results": {
+            "SRT Right": "2 dB HL",
+            "SRT Left": "5 dB HL",
+            "WRS Right": "100% at 50 dB HL",
+            "WRS Left": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.29"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "Ear Canal Volume": "RT: 2.3, LT: 2.4 mL",
+            "Static Admittance": "RT: 0.6, LT: 0.6 mmho",
+            "Peak Pressure": "RT: 25, LT: 25 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.29"
+          ],
+          "key_findings": "Ipsilateral and contralateral reflexes present and normal 500-2000 Hz. Right ear elevated at 4000 Hz; Left ear absent at 4000 Hz. Decay negative at 500 and 1000 Hz.",
+          "numeric_results": {
+            "Right 4k Reflex": "105 dB HL (Elevated)",
+            "Left 4k Reflex": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally from 250 to 2000 Hz, sloping to a mild sensorineural 'noise notch' at 3000-4000 Hz, and recovering to normal limits in the high frequencies. Speech recognition is excellent in quiet. Middle ear function is normal, though acoustic reflexes at 4000 Hz are elevated or absent, consistent with the cochlear damage at that frequency.",
+  "counseling_points": [
+    "Your hearing test shows a specific pattern often caused by noise exposure, called a 'noise notch,' where hearing dips in the high pitches but recovers.",
+    "The ringing (tinnitus) and difficulty in background noise are likely related to this damage.",
+    "It is excellent that you have started wearing hearing protection; continuing to do so is the most important step to prevent this notch from deepening or widening.",
+    "Since your speech understanding in quiet is excellent, hearing aids are not currently indicated, but we should monitor your hearing annually."
+  ],
+  "notes_for_actor": [
+    "You have worked around loud music for years but this specific concert was the 'tipping point'.",
+    "You are not currently in pain, but you were very sensitive to sounds (hyperacusis) a few weeks ago.",
+    "You are proactive about hearing protection now because the experience scared you."
+  ]
+}

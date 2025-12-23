@@ -1,0 +1,110 @@
+{
+  "case_id": "Case045",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sensorineural hearing loss",
+      "rationale_short": "Bilateral symmetrical gradually sloping mild to severe hearing loss with air-conduction thresholds consistent with sensorineural origin."
+    },
+    {
+      "rank": 2,
+      "label": "Presbycusis",
+      "rationale_short": "Hearing loss configuration and onset are consistent with age-related progression in an 88-year-old patient."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Self-report scales",
+        "urgency": "routine",
+        "rationale_short": "To assess perceived hearing handicap (HHIE) and identify specific communication needs (COSI)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results indicate a bilateral symmetrical mild to severe sensorineural hearing loss with excellent speech recognition potential. Self-report scales reveal a mild perceived handicap but specific difficulties with TV, telephone, and home conversations.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetrical gradually sloping mild to severe sensorineural hearing loss (250-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 38 dB HL AU; Word Recognition Scores excellent (96%) bilaterally at elevated levels."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A bilaterally with normal ear canal volume and middle ear pressure."
+          },
+          {
+            "name": "Self-report scales",
+            "category": "Questionnaire",
+            "result_summary": "HHIE score 22 (mild handicap); COSI identified needs for home conversations, telephone, and television."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Patient fitted with custom hearing aids incorporating retention strategies to address history of loss.",
+        "tests": [
+          {
+            "name": "Hearing Aid Fitting",
+            "category": "Management",
+            "result_summary": "Fitted with mid-level full-shell ITE hearing aids with 2.5mm vent, controls deactivated, and retention tether attached; verified with REM."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Custom ITE hearing aids with physical retention system (tether/clip)",
+      "Pocketalker personal amplifier with supra-aural headphones",
+      "Wireless radio frequency TV headset",
+      "Internet-based captioned telephone"
+    ],
+    "counseling_actions": [
+      "Instruction on hearing aid insertion, removal, and use of retention clip",
+      "Counseling on communication strategies",
+      "Instruction on use and functionality of HAT devices (Pocketalker, TV headset, captioned phone)"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Routine follow-up to assess benefit of recommended devices."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2 weeks",
+    "objective": "To assess the benefit of the fitted devices and verify usability."
+  },
+  "expected_outcome": [
+    "Hearing aids were returned for credit after 2 weeks due to lack of benefit, poor retention, and inability to manage the devices (wrong batteries inserted, low usage).",
+    "Pocketalker personal amplifier: Patient indicated improved understanding of conversation at home and in her church group.",
+    "Wireless TV headset: Patient reported being able to enjoy television much more without the volume bothering others.",
+    "Captioned telephone: Patient and daughter reported improvement in conversation, especially with voicemail transcription.",
+    "COSI: Ratings indicated perceived improvement in all identified areas using the HAT devices."
+  ]
+}

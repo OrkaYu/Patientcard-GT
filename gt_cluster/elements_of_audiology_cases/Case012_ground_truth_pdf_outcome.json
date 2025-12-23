@@ -1,0 +1,114 @@
+{
+  "case_id": "Case012",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Collapsing ear canals",
+      "rationale_short": "High-frequency air-bone gap with normal bone conduction, normal tympanometry, normal acoustic reflexes, and normal OAEs/ABR suggests artifactual loss from supra-aural headphones."
+    },
+    {
+      "rank": 2,
+      "label": "Normal hearing",
+      "rationale_short": "Confirmed by normal ABR, TEOAEs, and bone conduction thresholds."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity across frequencies."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and compliance."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc and rule out retrocochlear pathology."
+      },
+      {
+        "action": "ABR",
+        "urgency": "routine",
+        "rationale_short": "To objectively assess the auditory pathway and confirm hearing status."
+      },
+      {
+        "action": "TEOAE",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function and confirm cochlear integrity."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with an apparent bilateral high-frequency conductive hearing loss on the audiogram. However, all physiological measures—including tympanometry, acoustic reflexes, ABR, and TEOAEs—are completely normal. The discrepancy between the significant air-bone gap in the high frequencies and the normal objective tests indicates the hearing loss is artifactual, caused by collapsing ear canals under the pressure of supra-aural headphones.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Bilateral high-frequency air-conduction loss (40-55 dB HL at 4000-8000 Hz) with normal bone conduction (0 dB HL), creating a significant air-bone gap."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "SRT 15 dB HL (Right) and 20 dB HL (Left); SRS 100% bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally (Static compliance: 0.62 cc Right, 0.59 cc Left)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at normal levels (Right: 90/85 dB HL; Left: 90/95 dB HL)."
+          },
+          {
+            "name": "ABR",
+            "category": "Electrophysiology",
+            "result_summary": "All waves normal; interpeak latencies and latency-intensity function normal."
+          },
+          {
+            "name": "TEOAE",
+            "category": "Otoacoustic Emissions",
+            "result_summary": "Present bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Retest with insert receivers, stock earmolds, or plastic tubing to keep the ear canal open.",
+      "Send a letter to the referring physician with the correct audiogram and explanation of findings."
+    ],
+    "counseling_actions": [
+      "Explain to parents that the 'hearing loss' was an artifact caused by the headphones collapsing the ear canals.",
+      "Demonstrate the canal collapse effect to the parents using an empty earphone cushion.",
+      "Reassure the parents and child that hearing is normal."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Referring physician",
+      "rationale_short": "To communicate the correct diagnosis of normal hearing and explain the cause of the screening failures."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate (during visit)",
+    "objective": "Demonstrate normal hearing thresholds using insert earphones to confirm the diagnosis."
+  },
+  "expected_outcome": [
+    "Normal hearing bilaterally.",
+    "Identification of collapsing ear canals as the cause of the artifactual high-frequency conductive loss."
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "case_id": "case_12_16",
+  "title": "Case Study 16: Ollie Otoscope",
+  "demographics": {
+    "age_years": 6,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I am here for audiologic testing due to a history of progressive hearing problems.",
+  "problem_summary": {
+    "onset": "Congenital/Early childhood. Newborn screening passed Right, referred Left. Progression noted at age 3 (Left) and age 4 (Right).",
+    "course": "Progressive sensorineural hearing loss.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Enlarged vestibular aqueducts (EVA) identified on imaging at age 4.",
+    "functional_impact": "Requires amplification; currently uses a BTE hearing aid in the left ear.",
+    "goals_motivation": "Monitor hearing thresholds and manage progression."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Ollie is 6 years old with a history of progressive hearing loss. He passed newborn screening on the right but referred on the left. ABR at 2 months showed moderate SNHL in the left ear and normal hearing in the right. He was fit with a left BTE hearing aid.",
+        "otologic_history": "Progression of loss in left ear noted at age 3. Hearing loss emerged in right ear at age 4. Imaging (CT/MRI) at age 4 revealed enlarged vestibular aqueducts bilaterally.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Enlarged vestibular aqueducts.",
+        "prior_management": "Left BTE hearing aid since infancy.",
+        "patient_goals": "Assessment of current hearing status."
+      },
+      "tests": [
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table: Tymps R L",
+            "Graph: Admittance"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right Vea": "0.7 mmhos",
+            "Right Ytm": "1.2 mmhos",
+            "Right TPP": "-25 daPa",
+            "Right TW": "90 daPa",
+            "Left Vea": "0.8 mmhos",
+            "Left Ytm": "1.1 mmhos",
+            "Left TPP": "-40 daPa",
+            "Left TW": "90 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table: ART @1 kHz"
+          ],
+          "key_findings": "Reflexes present when stimulating the Right ear (Ipsi R, Contra L) but absent when stimulating the Left ear (Ipsi L, Contra R), consistent with severe left-sided afferent deficit.",
+          "numeric_results": {
+            "Ipsi R": "100 dB HL",
+            "Stim L/Probe R": "NR",
+            "Ipsi L": "NR",
+            "Stim R/Probe L": "100 dB HL"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram",
+            "Table: PTA"
+          ],
+          "key_findings": "Right ear: Mild low/mid-frequency SNHL sloping to moderately-severe/severe in high frequencies. Left ear: Moderate-to-severe sloping to profound SNHL. Bone conduction consistent with sensorineural loss.",
+          "numeric_results": {
+            "Right PTA": "20 dB",
+            "Left PTA": "65 dB (based on 500 & 1000 Hz)",
+            "Right 250-2000 Hz": "~20-30 dB HL",
+            "Right 4000-8000 Hz": "~55-60 dB HL",
+            "Left 250-500 Hz": "~50-60 dB HL",
+            "Left 1000 Hz": "70 dB HL",
+            "Left 2000-8000 Hz": "Profound/No Response"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table: SRT WRS"
+          ],
+          "key_findings": "Right ear shows excellent discrimination. Left ear shows very poor discrimination even at high intensity.",
+          "numeric_results": {
+            "Right SRT": "25 dB",
+            "Right WRS": "100% @ 60 dB HL (Phoneme scoring)",
+            "Left SRT": "65 dB",
+            "Left WRS": "16% @ 95 dB HL"
+          }
+        },
+        {
+          "name": "Wideband Reflectance",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Graph: Reflectance (%)"
+          ],
+          "key_findings": "Reflectance patterns appear similar between ears, generally consistent with normal middle ear status shown in tympanometry.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric, bilateral sensorineural hearing loss, consistent with the diagnosis of Enlarged Vestibular Aqueducts (EVA). The Right ear exhibits a mild sloping to severe hearing loss with excellent speech recognition. The Left ear exhibits a moderate sloping to profound hearing loss with very poor speech recognition (16%). Middle ear function is normal bilaterally.",
+  "counseling_points": [
+    "Discuss the progressive nature of hearing loss associated with Enlarged Vestibular Aqueducts (EVA).",
+    "Emphasize the importance of avoiding head trauma and contact sports to preserve residual hearing.",
+    "Recommend fitting/adjustment of amplification for the Right ear given the progression.",
+    "Discuss the limited benefit of the current hearing aid in the Left ear due to poor speech clarity (16% WRS).",
+    "Refer for Cochlear Implant evaluation for the Left ear.",
+    "Recommend FM/DM system use in the classroom to support learning."
+  ],
+  "notes_for_actor": [
+    "Portray a concerned parent if the patient is a child, or the child himself if age-appropriate.",
+    "Focus on the anxiety regarding the recent drop in hearing in the 'good' (right) ear.",
+    "Ask questions about whether the hearing will get worse and if sports are safe."
+  ]
+}

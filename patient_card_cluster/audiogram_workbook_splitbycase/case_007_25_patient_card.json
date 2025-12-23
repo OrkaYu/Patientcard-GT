@@ -1,0 +1,131 @@
+{
+  "case_id": "case_7_25",
+  "title": "Bilateral Asymmetric Hearing Loss with Mixed Component",
+  "demographics": {
+    "age_years": 78,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed hearing loss for about 10 years, but recently my right ear seems to be getting worse than my left. I also have ringing in both ears that sounds equally loud, and I'm finding it difficult to follow conversations.",
+  "problem_summary": {
+    "onset": "Gradual onset over the last 10 years.",
+    "course": "Progressive; recent decline noted specifically in the right ear.",
+    "laterality": "Bilateral, asymmetric (Right worse than Left).",
+    "associated_symptoms": "Bilateral tinnitus (equal loudness). No pain or pressure reported.",
+    "functional_impact": "Difficulty following conversations.",
+    "goals_motivation": "Considering hearing aids to improve communication."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-10-25",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "78-year-old female reports 10-year history of hearing loss, recently worse in the right ear.",
+        "otologic_history": "Denies pain or pressure.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "None reported.",
+        "patient_goals": "Evaluation for potential hearing aids."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.25"
+          ],
+          "key_findings": "Right ear shows moderate sloping to severe mixed hearing loss with a significant air-bone gap. Left ear shows slight sloping to mild sensorineural loss (250-2000 Hz) dropping to moderately severe (3000-8000 Hz).",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250Hz: 55, 500Hz: 60, 1000Hz: 65, 2000Hz: 70, 4000Hz: 80, 8000Hz: 85 dB HL",
+            "RE_BC_Thresholds": "250Hz: 30, 500Hz: 30, 1000Hz: 40, 2000Hz: 50, 4000Hz: 60 dB HL",
+            "LE_AC_Thresholds": "250Hz: 30, 500Hz: 35, 1000Hz: 30, 2000Hz: 40, 4000Hz: 60, 8000Hz: 70 dB HL",
+            "LE_BC_Thresholds": "Consistent with AC (Sensorineural)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.25"
+          ],
+          "key_findings": "SRT scores agree with PTA. Word recognition is good in the right ear (slight difficulty) and excellent in the left ear.",
+          "numeric_results": {
+            "RE_SRT": "60 dB HL",
+            "RE_WRS": "80% at 90 dB HL",
+            "LE_SRT": "33 dB HL",
+            "LE_WRS": "96% at 70 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.25"
+          ],
+          "key_findings": "Normal tympanograms bilaterally (Type A).",
+          "numeric_results": {
+            "RE_Vol": "1.5 mL",
+            "RE_Static_Admittance": "0.3 mmho",
+            "RE_Pressure": "-10 daPa",
+            "LE_Vol": "1.3 mL",
+            "LE_Static_Admittance": "0.7 mmho",
+            "LE_Pressure": "-30 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.25"
+          ],
+          "key_findings": "Right ipsilateral and contralateral reflexes absent. Left ipsilateral elevated/absent at 4k. Left contralateral absent.",
+          "numeric_results": {
+            "RE_Ipsi": "Absent (ABS) at all frequencies",
+            "LE_Ipsi": "105 dB at 500-2k Hz, Absent at 4k Hz",
+            "Contra_Stim_Right": "Absent",
+            "Contra_Stim_Left": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric hearing loss. The left ear exhibits a slight-to-mild sloping to moderately severe sensorineural hearing loss with excellent speech discrimination. The right ear exhibits a moderate sloping to severe mixed hearing loss (conductive component present) with reduced but good speech discrimination. Tympanometry is normal bilaterally, but acoustic reflexes are largely absent or elevated, consistent with the mixed nature of the loss in the right ear.",
+  "counseling_points": [
+    "You have hearing loss in both ears, but the right ear is significantly worse than the left.",
+    "The loss in your right ear is 'mixed,' meaning there is both a nerve issue and a mechanical issue preventing sound from getting through efficiently.",
+    "Because of the difference between your ears and the mechanical component in the right ear, I need to refer you to an ENT (ear specialist) for a medical evaluation.",
+    "Following medical clearance, hearing aids would be very beneficial to help you follow conversations and balance your hearing."
+  ],
+  "notes_for_actor": [
+    "Portray a 78-year-old woman who is cooperative and pleasant.",
+    "You are not in pain, but you are frustrated by your difficulty following conversations.",
+    "You are aware your right ear is worse.",
+    "You are open to hearing aids but want to know why the right ear is declining faster."
+  ]
+}

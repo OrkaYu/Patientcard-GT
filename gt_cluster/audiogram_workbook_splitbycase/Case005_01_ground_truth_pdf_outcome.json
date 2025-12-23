@@ -1,0 +1,88 @@
+{
+  "case_id": "case_5_1",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Severe to profound sensorineural hearing loss",
+      "rationale_short": "History of progressive bilateral loss over 20 years; audiometry confirms symmetrical severe-to-profound SNHL with poor word recognition."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, configuration, and type of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition ability."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and check for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometric testing reveals a symmetrical severe sensorineural hearing loss from 250-2000 Hz, sloping to profound from 3000-8000 Hz. Speech audiometry shows SRTs in agreement with PTAs, but word recognition is poor to very poor (54% AD, 48% AS), indicating significant distortion. Immittance testing is normal (Type A tympanograms) with absent acoustic reflexes, consistent with the severity of the hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Severe SNHL (250-2000 Hz) sloping to profound (3000-8000 Hz), PTA 83 dB HL. Left ear: Severe SNHL (250-2000 Hz) sloping to profound (3000-8000 Hz), PTA 80 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 75 dB HL, WRS 54%. Left SRT 75 dB HL, WRS 48%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes from 500 to 4000 Hz bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Cochlear implant evaluation"
+    ],
+    "counseling_actions": [
+      "Discuss the severe-to-profound nature of the hearing loss.",
+      "Explain that poor word recognition scores limit the benefit of traditional hearing aids.",
+      "Counsel on cochlear implantation as a potential option for better speech understanding."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist for cochlear implant consideration",
+      "rationale_short": "Patient has poor word recognition and severe-to-profound loss, making him a candidate for cochlear implantation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Following ENT consultation",
+    "objective": "Determine candidacy for cochlear implantation."
+  },
+  "expected_outcome": [
+    "Patient was found to be a surgical candidate for a cochlear implant.",
+    "Patient was referred for a formal cochlear implant evaluation."
+  ]
+}

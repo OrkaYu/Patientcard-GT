@@ -1,0 +1,171 @@
+{
+  "case_id": "elements_case_14",
+  "title": "Bilateral SNHL with Right Facial Nerve Paralysis",
+  "demographics": {
+    "age_years": 79,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "The patient reports a sudden drooping of the right side of his face, attributed to a severe cold several days prior. He also reports difficulty discriminating speech in background noise.",
+  "problem_summary": {
+    "onset": "Hearing loss gradual over 15 years; facial drooping sudden (several days ago).",
+    "course": "Hearing loss progressive; facial paralysis feels like it is 'getting better'.",
+    "laterality": "Hearing loss bilateral; facial paralysis right-sided.",
+    "associated_symptoms": "Recent severe cold.",
+    "functional_impact": "Difficulty hearing in noise.",
+    "goals_motivation": "Patient states he has no interest in purchasing hearing aids."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "79-year-old male with gradually progressive bilateral hearing loss (15 years). Sudden onset right facial drooping following a cold.",
+        "otologic_history": "Denies ear infections.",
+        "noise_exposure_history": "Denies noise exposure.",
+        "medical_psych_history": "Recent severe cold.",
+        "prior_management": "None reported.",
+        "patient_goals": "Evaluation of facial symptoms and hearing; explicitly not interested in hearing aids."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Bilateral, symmetrical sensorineural hearing loss. Thresholds are normal to mild in the low frequencies, sloping to moderately-severe in the high frequencies. No air-bone gaps.",
+          "numeric_results": {
+            "250 Hz": "~10-15 dB HL",
+            "1000 Hz": "~25 dB HL",
+            "2000 Hz": "~40 dB HL",
+            "4000 Hz": "~55 dB HL",
+            "8000 Hz": "~60 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "SRT aligns with pure-tone averages. Word recognition scores are good bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "15 dB HL",
+            "SRT_Left": "15 dB HL",
+            "SRS_Right": "88%",
+            "SRS_Left": "84%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanogram",
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Static_Compliance_Right": "0.50 cc",
+            "Static_Compliance_Left": "0.54 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Pattern consistent with right facial nerve pathology (efferent pathway issue). Reflexes are absent when the probe is in the right ear (Right Ipsi and Left Contra [stim L/probe R]).",
+          "numeric_results": {
+            "ART_4kHz_Ipsi_Right": "Absent",
+            "ART_4kHz_Ipsi_Left": "95 dB HL",
+            "ART_4kHz_Contra_StimRight_ProbeLeft": "90 dB HL",
+            "ART_4kHz_Contra_StimLeft_ProbeRight": "Absent"
+          }
+        },
+        {
+          "name": "ABR",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "All waves prolonged; interpeak latencies normal; latency-intensity function steep. Consistent with cochlear hearing loss.",
+          "numeric_results": null
+        },
+        {
+          "name": "TEOAE",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Present bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Tone decay test",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Minimal decay, consistent with cochlear pathology.",
+          "numeric_results": {
+            "Decay_Right_4kHz": "10 dB in 60 seconds",
+            "Decay_Left_4kHz": "15 dB in 60 seconds"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, mild sloping to moderately-severe sensorineural hearing loss consistent with presbycusis. Speech recognition remains good. Diagnostic testing reveals a pattern consistent with right facial nerve paralysis (Bell's palsy): acoustic reflexes are absent whenever the probe is placed in the right ear (due to stapedius muscle paralysis), while cochlear function tests (ABR, OAE, Tone Decay) rule out retrocochlear VIII nerve pathology.",
+  "counseling_points": [
+    "Your hearing test shows a hearing loss due to aging (presbycusis) in both ears.",
+    "The tests confirm that the nerve of hearing is working properly, but the nerve that controls your facial movement (the facial nerve) is currently affected, likely by Bell's palsy.",
+    "We recommend you see an otolaryngologist (ENT) regarding the facial paralysis.",
+    "While hearing aids would help with your hearing loss, we understand you are not interested at this time. We can monitor your hearing annually."
+  ],
+  "notes_for_actor": [
+    "Portray a 79-year-old male who is unconcerned about his hearing loss but worried about the sudden facial drooping.",
+    "Be firm about not wanting hearing aids ('I don't need them', 'I'm not interested').",
+    "Mention that you think the facial drooping is already getting a bit better."
+  ]
+}

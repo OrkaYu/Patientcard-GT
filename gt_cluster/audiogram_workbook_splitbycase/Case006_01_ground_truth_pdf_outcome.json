@@ -1,0 +1,96 @@
+{
+  "case_id": "Case006_01",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Middle Ear Effusion",
+      "rationale_short": "Unilateral conductive hearing loss, flat tympanogram (Type B), and absent reflexes post-trauma are consistent with fluid in the middle ear."
+    },
+    {
+      "rank": 2,
+      "label": "Ossicular Discontinuity",
+      "rationale_short": "Trauma history and conductive loss could suggest ossicular issues, though the flat tympanogram strongly favors effusion over discontinuity (which typically shows Type Ad)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and tympanic membrane mobility."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the acoustic reflex arc and support differential diagnosis of conductive pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals normal hearing in the right ear and a mild-to-moderate conductive hearing loss in the left ear. Tympanometry indicates normal middle ear function on the right but significant dysfunction (flat, Type B) on the left, consistent with the patient's 'underwater' sensation. Acoustic reflexes are absent in the left ear and for contralateral stimulation, confirming a conductive component.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal hearing (0-10 dB HL). Left ear: Mild rising to slight conductive loss (250-1000 Hz) sloping to mild/moderate (2000-8000 Hz) with 25-40 dB air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs agree with PTA (Right 3 dB, Left 27 dB). WRS is excellent bilaterally (Right 100%, Left 92%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Type A (normal). Left ear: Type B (flat)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral present. Left ipsilateral, Left contralateral, and Right contralateral absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Monitor for resolution of middle ear effusion",
+      "Possible pressure equalization tube placement if effusion persists"
+    ],
+    "counseling_actions": [
+      "Explain the conductive nature of the hearing loss",
+      "Discuss the likelihood of middle ear fluid ('underwater' sensation) resulting from the trauma",
+      "Advise on the need for ENT medical evaluation"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral conductive hearing loss post-trauma"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "To medically evaluate and treat the unilateral conductive hearing loss and diagnosed middle ear effusion."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing monitoring",
+    "objective": "To determine if the effusion resolves spontaneously or requires surgical intervention (PE tubes)."
+  },
+  "expected_outcome": [
+    "Diagnosed with middle ear effusion by the ENT specialist.",
+    "Plan established to watch for resolution or consider pressure equalization tube."
+  ]
+}

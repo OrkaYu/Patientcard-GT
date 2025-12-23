@@ -1,0 +1,125 @@
+{
+  "case_id": "case_7_10",
+  "title": "Right External Ear Canal Mass with Mixed Hearing Loss",
+  "demographics": {
+    "age_years": 61,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a mass growing in my right ear canal that causes pain and intermittent bloody discharge. I've had trouble hearing on that side for over a year, but I couldn't come in earlier because I didn't have insurance.",
+  "problem_summary": {
+    "onset": "Over a year ago.",
+    "course": "Hearing decreased in the right ear over the last year; symptoms persisted due to inability to seek care.",
+    "laterality": "Right ear (symptoms), Left ear (reported good hearing).",
+    "associated_symptoms": "Mass in ear canal, intermittent bloody discharge, pain.",
+    "functional_impact": "Extreme difficulty hearing in the right ear.",
+    "goals_motivation": "Seeking evaluation now that care is accessible."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-06-30",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a mass growing in the right ear canal with intermittent bloody discharge and pain for over a year. Hearing has decreased in the right ear during this time.",
+        "otologic_history": "Right ear mass/lesion.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Lack of insurance delayed medical intervention.",
+        "prior_management": "None reported.",
+        "patient_goals": "Evaluation of hearing and condition."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.10"
+          ],
+          "key_findings": "Right ear shows severe mixed hearing loss (250-8000 Hz) with a profound mixed notch at 500 and 1000 Hz. Left ear shows mild rising to slight sensorineural loss (250-4000 Hz) sloping to moderate sensorineural loss (6000-8000 Hz).",
+          "numeric_results": {
+            "Right_AC_Range": "Approx 80-110 dB HL",
+            "Right_BC_Range": "Approx 30-45 dB HL",
+            "Left_AC_Range": "Approx 20-50 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.10"
+          ],
+          "key_findings": "SRT scores agree with PTA. Word recognition scores (WRS) are excellent bilaterally when presented at suprathreshold levels.",
+          "numeric_results": {
+            "Right_SRT": "87 dB HL",
+            "Right_WRS": "92% at 100 dB HL",
+            "Left_SRT": "30 dB HL",
+            "Left_WRS": "92% at 70 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.10"
+          ],
+          "key_findings": "Right ear revealed a flat tympanogram with small ear canal volume (consistent with mass occupying space). Left ear was normal.",
+          "numeric_results": {
+            "Right_Volume": "0.5 mL",
+            "Left_Volume": "1.4 mL",
+            "Left_Static_Admittance": "0.6 mmho",
+            "Left_Peak_Pressure": "-10 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.10"
+          ],
+          "key_findings": "Right ipsilateral and contralateral reflexes absent. Left ipsilateral reflexes normal; Left contralateral reflexes absent.",
+          "numeric_results": {
+            "Right_Reflexes": "Absent",
+            "Left_Ipsi_Reflexes": "Present (85-100 dB HL)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a severe-to-profound mixed hearing loss in the right ear, characterized by a significant air-bone gap and a flat tympanogram with reduced canal volume, consistent with the reported external ear mass. The left ear exhibits a mild-to-moderate sensorineural hearing loss. Speech recognition remains excellent in the right ear when sufficient volume is provided to overcome the conductive component.",
+  "counseling_points": [
+    "The hearing loss in your right ear is 'mixed,' meaning there is both a permanent sensorineural component and a conductive component caused by the blockage in your ear canal.",
+    "The mass in your ear canal is blocking sound and likely causing the flat pressure test results.",
+    "You require an immediate referral to an ENT specialist to evaluate the mass and schedule surgical removal.",
+    "We will need to re-evaluate your hearing after the surgery to see how much hearing has been restored once the canal is clear."
+  ],
+  "notes_for_actor": [
+    "Portray significant discomfort or pain in the right ear.",
+    "Emphasize the financial hardship (lack of insurance) as the primary reason for delaying treatment despite the bleeding and pain.",
+    "You believe your hearing is fine on the left side, though testing shows some mild loss there."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "case_id": "Case008_02",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Nonorganic hearing loss",
+      "rationale_short": "Initial testing showed significant PTA-SRT discrepancies (22-23 dB) and inconsistent behaviors, which resolved after reinstruction."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural hearing loss (bilateral)",
+      "rationale_short": "Valid post-reinstruction thresholds revealed mild-to-moderately severe (Right) and moderate-to-severe (Left) SNHL, consistent with noise exposure history."
+    },
+    {
+      "rank": 3,
+      "label": "Tympanic membrane perforation (Left)",
+      "rationale_short": "Left tympanometry was flat (Type B) with a large ear canal volume (2.30 cm3), consistent with perforation and history of chronic infections."
+    },
+    {
+      "rank": 4,
+      "label": "Tinnitus",
+      "rationale_short": "Patient reported constant bilateral ringing, worse in the left ear, causing stress."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given reports of hearing loss, tinnitus, and noise exposure."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function given the history of chronic ear infections, pain, and fullness."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial pure-tone testing demonstrated significant functional overlay with PTA-SRT discrepancies of 22-23 dB. Following reinstruction, valid thresholds were obtained showing bilateral sensorineural hearing loss (mild-to-moderately severe in the right ear, moderate-to-severe in the left ear). Tympanometry revealed a normal right middle ear but a left tympanic membrane perforation indicated by a large canal volume.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Baseline (Initial)",
+            "result_summary": "Significant functional overlay; PTA-SRT differences of 22 dB (Right) and 23 dB (Left); inconsistent responses."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Post-reinstruction",
+            "result_summary": "Valid thresholds obtained. Right: mild SNHL sloping to moderately-severe. Left: moderate SNHL sloping to severe. SRTs (R: 40 dB, L: 43 dB) in agreement with PTAs. WRS 100% bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Post-reinstruction",
+            "result_summary": "Right: Normal (Type A, 1.30 cm3). Left: Flat (Type B) with large canal volume (2.30 cm3), consistent with perforation."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Return for hearing test after medical management",
+      "Annual hearing monitoring",
+      "Hearing protection strategies"
+    ],
+    "counseling_actions": [
+      "Discuss the discrepancy between initial and final tests to explain the true hearing levels",
+      "Explain the tympanometry results indicating a likely left eardrum perforation",
+      "Counsel on hearing protection given noise exposure history",
+      "Discuss tinnitus management and stress reduction"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "To manage the left tympanic membrane perforation and chronic ear infections."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After medical management and annually",
+    "objective": "To monitor the stability of hearing thresholds."
+  },
+  "expected_outcome": [
+    "Patient encouraged to follow up with an otologist as scheduled for medical management.",
+    "Audiological recommendations established to return for a hearing test after medical management and annually to monitor hearing stability."
+  ]
+}

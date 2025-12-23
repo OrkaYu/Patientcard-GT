@@ -1,0 +1,117 @@
+{
+  "case_id": "Case027",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Superior Semicircular Canal Dehiscence (SSCD)",
+      "rationale_short": "Consistent with low-frequency air-bone gap, normal tympanometry, autophony, and Tullio's phenomenon; confirmed by CT."
+    },
+    {
+      "rank": 2,
+      "label": "Enlarged Vestibular Aqueduct (EVA)",
+      "rationale_short": "Another third-window pathology that can present with similar audiometric findings; ruled out by CT."
+    },
+    {
+      "rank": 3,
+      "label": "Otic capsule deficits (e.g., tumor)",
+      "rationale_short": "Less frequent cause of third-window effect; ruled out by CT."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and identify air-bone gaps."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status and rule out middle ear effusion."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear function; elicited vertigo (Tullio's phenomenon)."
+      },
+      {
+        "action": "Temporal bone CT scan",
+        "urgency": "soon",
+        "rationale_short": "To visualize the temporal bone and confirm third-window pathology (SSCD)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry revealed a slight conductive hearing loss at 250 Hz in the right ear (air-bone gap) and slight sensorineural hearing loss in the left ear. Tympanometry was normal bilaterally. A critical finding was the report of vertigo induced by loud sounds during acoustic reflex testing (Tullio's phenomenon), raising suspicion for third-window pathology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: slight conductive loss at 250 Hz (20 dB air-bone gap), normal 500-8000 Hz. Left ear: slight sensorineural hearing loss."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal Word Recognition Scores (100%) bilaterally; SRT aligned with PTA."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) bilaterally with normal ear canal volume and static admittance."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at normal levels; patient reported vertigo during testing at 500 and 1000 Hz (Tullio's phenomenon)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Imaging confirmed the diagnosis of bilateral Superior Semicircular Canal Dehiscence (SSCD), consistent with the clinical presentation and audiometric findings.",
+        "tests": [
+          {
+            "name": "Other",
+            "category": "Imaging",
+            "result_summary": "Noncontrast temporal bone CT scan revealed bilateral Superior Semicircular Canal Dehiscence (SSCD). No evidence of EVA or other masses."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Discontinue scuba diving to avoid exacerbating symptoms",
+      "Monitor symptoms (surgical intervention not recommended at this time due to mild symptoms)"
+    ],
+    "counseling_actions": [
+      "Explain the 'third window' mechanism causing the air-bone gap and autophony",
+      "Discuss Tullio's phenomenon and its relation to the inner ear defect",
+      "Explain that the scuba diving incident likely incited the symptoms by disrupting the thin bony barrier",
+      "Advise to follow up if symptoms worsen"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Consultation to confirm diagnosis of SSCD and discuss management options."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor for worsening of symptoms which might necessitate surgical intervention."
+  },
+  "expected_outcome": [
+    "Diagnosis of bilateral Superior Semicircular Canal Dehiscence (SSCD) was confirmed by CT scan.",
+    "Surgical intervention was not recommended as the risks outweighed the benefits given the mild nature of the symptoms.",
+    "Patient was advised to discontinue scuba diving to prevent exacerbation of symptoms."
+  ]
+}

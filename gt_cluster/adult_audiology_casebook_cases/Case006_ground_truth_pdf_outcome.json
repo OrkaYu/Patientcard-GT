@@ -1,0 +1,175 @@
+{
+  "case_id": "Case006",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Flaccid Tympanic Membrane / Atelectasis",
+      "rationale_short": "History of high intraoral pressures from trumpet playing, hypercompliant tympanometry (Type Ad), and video otoscopy showing significant TM distension during Valsalva."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-Induced Hearing Loss",
+      "rationale_short": "Left ear high-frequency sensorineural hearing loss notch (3-8 kHz) consistent with long-term exposure to loud music."
+    },
+    {
+      "rank": 3,
+      "label": "Eustachian Tube Dysfunction",
+      "rationale_short": "Underlying mechanism allowing pressure transfer to middle ear, though specific symptoms like autophony (patulous ET) were denied."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Initial evaluation of hearing sensitivity for reported fluctuating loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition ability."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and tympanic membrane compliance."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess integrity of the reflex arc and check for conductive pathology."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "3-year follow-up to monitor progression."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "3-year follow-up to monitor functional speech understanding."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "3-year follow-up to monitor middle ear status."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "10-year follow-up to monitor progression."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "10-year follow-up to monitor middle ear status."
+      },
+      {
+        "action": "Video otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To visualize tympanic membrane movement during Valsalva maneuver."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation reveals a mixed hearing loss in the right ear with significant air-bone gaps and a high-frequency sensorineural loss in the left ear. Tympanometry indicates a hypercompliant right tympanic membrane (Type Ad), and right acoustic reflexes are absent, consistent with a conductive component likely due to flaccidity from instrument playing.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear normal sloping to mild-moderate SNHL (3-8 kHz). Right ear moderate mixed loss with significant air-bone gaps (250-2000 Hz); RE PTA 38 dB HL, LE PTA 12 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs agree with PTA (RE 38 dB, LE 12 dB). Word recognition excellent (100%) in both ears."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal volume. Right ear static admittance excessively high (1.4 mL) compared to left (0.6 mL), consistent with Type Ad (deep)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral reflex present at 1000 Hz in the left ear, absent in the right ear."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "At the 3-year follow-up, pure-tone thresholds remain stable with persistent air-bone gaps in the right ear. Right ear word recognition has declined slightly. Tympanometry continues to show excessive static admittance in the right ear.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Thresholds similar to initial visit. RE PTA 43 dB HL, LE PTA 10 dB HL. Significant air-bone gaps persist in RE."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "RE WRS decreased to 88% (slight difficulty). LE WRS remains normal (94%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "RE static admittance remains excessively high (1.6 mL) compared to left (0.8 mL)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "At the 10-year follow-up, right ear low-frequency thresholds show a slight decrease (5-10 dB). Video otoscopy performed during a Valsalva maneuver confirms severe atelectasis and distension of the right tympanic membrane, explaining the conductive hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "LE unchanged. RE low-frequency thresholds decreased by an additional 5-10 dB. RE PTA 43 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "RE admittance (0.91 mL) remains higher than left (0.68 mL), though lower than previous visits in this snapshot."
+          },
+          {
+            "name": "Video otoscopy",
+            "category": "Other",
+            "result_summary": "Performed during Valsalva maneuver; showed significant distension of the tympanic membrane into the ear canal."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Mass loading of the tympanic membrane (e.g., blue tack or cigarette paper) as a trial",
+      "Cartilage-graft tympanoplasty",
+      "Traditional hearing instrument fitting",
+      "Bone-anchored device (soft band trial)"
+    ],
+    "counseling_actions": [
+      "Explain that high intraoral pressures from trumpet playing caused the eardrum to become flaccid/stretchy",
+      "Discuss that the 'floppiness' of the eardrum causes the conductive hearing loss and fullness",
+      "Advise that the left ear high-frequency loss is likely permanent noise damage",
+      "Discuss surgical options versus amplification"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngology",
+      "rationale_short": "Referral for evaluation of surgical options (tympanoplasty) or medical management of the flaccid tympanic membrane."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed following ENT consultation",
+    "objective": "Determine candidacy for surgery or proceed with hearing aid trial."
+  },
+  "expected_outcome": [
+    "Otological referral was obtained and physical examination was consistent with audiometric and immittance results.",
+    "Patient is not enthusiastic about surgical options.",
+    "Patient may consider hearing instruments, with a soft band bone-conduction aid for a trial."
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "case_id": "Case031",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Superior Semicircular Canal Dehiscence Syndrome (SSCDS)",
+      "rationale_short": "Supported by autophony, Tullio's phenomenon, conductive hearing loss with preserved acoustic reflexes, supranormal bone conduction, downbeating nystagmus with humming, massive oVEMP asymmetry, and CT confirmation of dehiscence."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and identify air-bone gaps characteristic of third-window lesions."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition ability, typically preserved in SSCDS."
+      },
+      {
+        "action": "Tympanometry & Reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function; reflexes are typically present in SSCDS despite conductive loss, distinguishing it from middle ear pathology."
+      },
+      {
+        "action": "Self-Report Scales",
+        "urgency": "routine",
+        "rationale_short": "To quantify the handicap from dizziness (DHI) and anxiety/depression levels (HADS)."
+      },
+      {
+        "action": "Videonystagmography (VNG) & Calorics",
+        "urgency": "routine",
+        "rationale_short": "To evaluate vestibular function and check for nystagmus provoked by sound or pressure (Tullio/Hennebert)."
+      },
+      {
+        "action": "Video Head Impulse Test (vHIT)",
+        "urgency": "routine",
+        "rationale_short": "To assess VOR gain across all six semicircular canals."
+      },
+      {
+        "action": "Cervical VEMP (cVEMP)",
+        "urgency": "routine",
+        "rationale_short": "To assess saccular function; lower thresholds are common in SSCDS."
+      },
+      {
+        "action": "Ocular VEMP (oVEMP)",
+        "urgency": "routine",
+        "rationale_short": "To assess utricular function; elevated amplitudes and presence of 4000 Hz responses are highly specific for SSCDS."
+      },
+      {
+        "action": "CT Imaging",
+        "urgency": "soon",
+        "rationale_short": "High-resolution CT is the gold standard to visualize the bony dehiscence of the superior semicircular canal."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation confirms Left Superior Semicircular Canal Dehiscence Syndrome. Audiometry shows a low-frequency conductive loss with supranormal bone conduction and preserved acoustic reflexes, a hallmark of third-window pathology. Vestibular testing reveals a massive oVEMP amplitude asymmetry favoring the left ear, the presence of abnormal 4000 Hz VEMP responses on the left, and downbeating nystagmus provoked by humming. CT imaging confirms the dehiscence.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear slight conductive loss; Left ear mild mixed loss (low/mid frequency) with supranormal bone conduction thresholds (-5 to -10 dB HL) and significant air-bone gap."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word Recognition Scores were 100% bilaterally."
+          },
+          {
+            "name": "Tympanometry & Reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal tympanograms (Type A) and acoustic reflexes present at normal levels bilaterally, despite the conductive hearing loss."
+          },
+          {
+            "name": "Self-Report Scales",
+            "category": "Questionnaires",
+            "result_summary": "DHI score 64/100 (severe handicap); HADS Anxiety 18/21 (abnormal); HADS Depression 7/21 (normal)."
+          },
+          {
+            "name": "Videonystagmography (VNG) & Calorics",
+            "category": "Vestibular",
+            "result_summary": "Normal ocular motility and calorics (8% right weakness, 19% left directional preponderance). Downbeating nystagmus observed when humming."
+          },
+          {
+            "name": "Video Head Impulse Test (vHIT)",
+            "category": "Vestibular",
+            "result_summary": "Normal VOR gains in all planes (Lateral, RALP, LARP)."
+          },
+          {
+            "name": "Cervical VEMP (cVEMP)",
+            "category": "Vestibular",
+            "result_summary": "500 Hz thresholds relatively symmetrical (atypical), but response present at 4000 Hz in the Left ear (abnormal)."
+          },
+          {
+            "name": "Ocular VEMP (oVEMP)",
+            "category": "Vestibular",
+            "result_summary": "Massive amplitude asymmetry (88%) with Left ear response significantly larger; response present at 4000 Hz on the Left side only."
+          },
+          {
+            "name": "CT Imaging",
+            "category": "Imaging",
+            "result_summary": "Confirmed dehiscence of the superior semicircular canal on the left; normal coverage on the right."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical repair (canal resurfacing or plugging) via middle fossa or transmastoid approach",
+      "Vestibular rehabilitative therapy (VRT) post-operatively",
+      "Steroid taper (post-operative management)"
+    ],
+    "counseling_actions": [
+      "Explain the 'third window' mechanism causing sound/pressure to leak into the balance system",
+      "Discuss triggers for dizziness (loud sounds, straining) and autophony",
+      "Counsel on surgical options versus observation based on quality of life impact"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurotology",
+      "rationale_short": "Referral for surgical evaluation due to severe symptoms and confirmed structural dehiscence."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month and 2 months post-surgery",
+    "objective": "Monitor symptom resolution, hearing status, and vestibular compensation."
+  },
+  "expected_outcome": [
+    "Postoperative cVEMP: Left and right ear responses were equally scaled with no amplitude asymmetry; VEMP threshold was approximately 85 dB nHL.",
+    "Postoperative oVEMP: Left and right ear responses were equally scaled with no amplitude asymmetry; no response was recorded to a 4,000-Hz tone burst on the left side.",
+    "Postoperative audiometry: Pure-tone thresholds returned to within normal limits in each ear.",
+    "Patient reported all symptoms completely resolved 2 months after surgery following a steroid taper and vestibular rehabilitative therapy."
+  ]
+}

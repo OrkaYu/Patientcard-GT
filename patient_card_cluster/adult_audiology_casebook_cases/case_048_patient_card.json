@@ -1,0 +1,147 @@
+{
+  "case_id": "case48_Tinnitus_and_Hyperacusis",
+  "title": "Tinnitus and Hyperacusis following Acoustic Shock",
+  "demographics": {
+    "age_years": 66,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have ringing in my ears and I am afraid to return to work because of the pain caused by the noise levels there. It started two weeks ago when a caller unexpectedly yelled in my ear while I was wearing my headset.",
+  "problem_summary": {
+    "onset": "Sudden onset 2 weeks prior to evaluation.",
+    "course": "Started immediately after an acoustic incident (caller yelling in headset); symptoms are persistent and severe.",
+    "laterality": "Bilateral.",
+    "associated_symptoms": "Pain, anxiety, fear of loud sounds, spasms, aural fullness, reduced sleep and concentration.",
+    "functional_impact": "Severe reaction to moderately loud sounds; locks herself in her room; unable to work.",
+    "goals_motivation": "Wants to reduce pain and fear to return to work."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-08-17",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient works in a call center (70 calls/day). 2 weeks ago, a caller yelled while she was wearing a headset. She experienced immediate bilateral tinnitus, pain, anxiety, and fear. She now has severe reactions to moderately loud sounds (hyperacusis).",
+        "otologic_history": "Reports frequent pain, spasms, and aural fullness in both ears. 'Ear popping' and distorted speech.",
+        "noise_exposure_history": "Call center environment with ~50 other employees talking simultaneously.",
+        "medical_psych_history": "Seen by PCP and pain specialist; TMJ disorder ruled out.",
+        "prior_management": "None specific for hearing yet.",
+        "patient_goals": "Relief from pain and sound sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 48.1"
+          ],
+          "key_findings": "Mild bilateral symmetrical Sensorineural Hearing Loss (SNHL), essentially flat in configuration.",
+          "numeric_results": {
+            "Right PTA": "26 dB HL",
+            "Left PTA": "28 dB HL",
+            "Configuration": "Flat thresholds approx 25-35 dB HL across 250-8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 48.1"
+          ],
+          "key_findings": "Word Recognition Scores (WRS) obtained at Most Comfortable Level (65 dB HL) due to loudness discomfort at standard levels. Normal recognition in right ear, slight difficulty in left.",
+          "numeric_results": {
+            "Right SRT": "26 dB HL",
+            "Left SRT": "28 dB HL",
+            "Right WRS": "90% at 65 dB HL",
+            "Left WRS": "86% at 65 dB HL",
+            "MCL": "65 dB HL (bilateral)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 48.1"
+          ],
+          "key_findings": "Normal ear canal volume, static admittance, and middle ear pressure (Type A).",
+          "numeric_results": {
+            "Right Volume": "1.1 mL",
+            "Left Volume": "1.4 mL",
+            "Right Admittance": "1.1 mmho",
+            "Left Admittance": "1.2 mmho",
+            "Right Pressure": "70 daPa",
+            "Left Pressure": "80 daPa"
+          }
+        },
+        {
+          "name": "Loudness Discomfort Levels (LDLs)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 48.1"
+          ],
+          "key_findings": "LDLs hovered around 70 to 80 dB HL, which is lower than expected for mild hearing loss, indicating hyperacusis/reduced sound tolerance.",
+          "numeric_results": {
+            "Right PT LDLs (250-8k Hz)": "72-78 dB HL",
+            "Left PT LDLs (250-8k Hz)": "72-78 dB HL",
+            "Right BBN LDL": "70 dB HL",
+            "Left BBN LDL": "74 dB HL"
+          }
+        },
+        {
+          "name": "Tinnitus Assessment",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "High-pitched continuously ringing sound. Minimum Masking Levels (MML) could not be identified as masking noise was too uncomfortable.",
+          "numeric_results": {
+            "Pitch Match": "4,000 Hz (bilateral)",
+            "Loudness Match Right": "56 dB HL",
+            "Loudness Match Left": "60 dB HL",
+            "TFI Score": "60 (0-100 scale)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild, flat, bilateral sensorineural hearing loss. However, the primary findings are significant reduced sound tolerance (hyperacusis) with LDLs ranging from 70-80 dB HL and bothersome tinnitus matched to 4000 Hz. Speech recognition is good but testing required reduced presentation levels due to discomfort.",
+  "counseling_points": [
+    "Your symptoms are consistent with Tonic Tensor Tympani Syndrome (TTTS) following acoustic shock.",
+    "Although loud sounds are annoying or painful, they are unlikely to damage your hearing further.",
+    "Overprotecting your ears (using earplugs constantly) can actually make the hyperacusis worse by increasing the brain's sensitivity.",
+    "We will use sound therapy (Widex Zen) and gradual desensitization to help your brain filter out the tinnitus and tolerate normal sounds again."
+  ],
+  "notes_for_actor": [
+    "Portray significant anxiety and fear when loud sounds occur (e.g., a door closing, a chair scraping).",
+    "Describe a physical sensation of 'spasms' or 'fluttering' in your ear along with the pain.",
+    "Express reluctance to undergo testing that involves loud beeps."
+  ]
+}

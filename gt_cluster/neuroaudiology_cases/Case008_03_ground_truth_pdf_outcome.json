@@ -1,0 +1,89 @@
+{
+  "case_id": "Case008_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Normal peripheral hearing sensitivity",
+      "rationale_short": "Pure-tone thresholds were normal bilaterally (250-8000 Hz) both pre- and post-operatively."
+    },
+    {
+      "rank": 2,
+      "label": "Pre-existing central auditory dysfunction (Frequency Patterns)",
+      "rationale_short": "Frequency Patterns performance was abnormal bilaterally before surgery and remained abnormal after, likely due to long-standing epilepsy rather than the surgical intervention."
+    },
+    {
+      "rank": 3,
+      "label": "Preserved interhemispheric auditory transfer",
+      "rationale_short": "Dichotic and degraded speech tests remained normal after anterior commissurotomy, indicating auditory callosal fibers are located posteriorly and were spared."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate peripheral hearing sensitivity baseline and post-surgery."
+      },
+      {
+        "action": "Central Auditory Test Battery",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory processing (dichotic listening, degraded speech) for changes following commissurotomy."
+      },
+      {
+        "action": "Frequency Patterns Test",
+        "urgency": "routine",
+        "rationale_short": "To evaluate temporal patterning and interhemispheric transfer."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrated normal peripheral hearing both before and after anterior commissurotomy. Central auditory testing revealed that dichotic listening and degraded speech perception were normal and unaffected by the surgery. However, frequency pattern recognition was abnormal bilaterally at baseline and remained so post-operatively, suggesting a pre-existing deficit related to the seizure disorder rather than a surgical effect. The stability of the central test results confirms that the anterior section of the corpus callosum does not contain the primary auditory interhemispheric fibers.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally (250-8000 Hz) both pre- and post-operatively."
+          },
+          {
+            "name": "Central Auditory Test Battery",
+            "category": "Central Auditory Processing",
+            "result_summary": "Staggered Spondaic Words (SSW), Dichotic Digits (DD), Competing Sentences, and Low Pass Filtered Speech (LPFS) were essentially within the normal range both pre- and post-operatively."
+          },
+          {
+            "name": "Frequency Patterns Test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Abnormal bilaterally both pre- and post-operatively. Pre-op: Left ~55%, Right ~35%. Post-op: Left ~20%, Right ~30%. No significant change attributed to surgery."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue medical management for epilepsy",
+      "Routine audiological monitoring as needed"
+    ],
+    "counseling_actions": [
+      "Explain that the anterior commissurotomy did not negatively impact hearing or speech processing abilities",
+      "Clarify that the difficulty with pitch sequencing (Frequency Patterns) is a pre-existing issue related to the neurological history, not a result of the surgery"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology/Neurosurgery",
+      "rationale_short": "Patient requires ongoing management for the underlying seizure disorder; audiological findings are stable."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor auditory function and seizure control."
+  },
+  "expected_outcome": [
+    "Anterior commissurotomy had no effect on central auditory tests, with performance remaining essentially similar to pre-operative levels.",
+    "The patient did not lose any significant auditory function as a result of the surgical intervention.",
+    "Results imply that the auditory fibers of the corpus callosum were left intact and are located in the posterior half of the corpus callosum."
+  ]
+}

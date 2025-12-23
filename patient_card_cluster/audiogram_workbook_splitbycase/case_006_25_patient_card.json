@@ -1,0 +1,129 @@
+{
+  "case_id": "case_6_25",
+  "title": "Sudden Right-Sided Hearing Loss Post-Trauma",
+  "demographics": {
+    "age_years": 20,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I can hear out of my right ear, but the sound is muffled and seems far away. This started immediately after I fell and hit my head about two weeks ago.",
+  "problem_summary": {
+    "onset": "Sudden onset approximately 2 weeks prior to the hearing test.",
+    "course": "Stable; no reported improvement in symptoms over the past 2 weeks.",
+    "laterality": "Right ear.",
+    "associated_symptoms": "Tinnitus in the right ear; history of skull fracture (right temporal bone) and concussion.",
+    "functional_impact": "Sound is muffled and distant in the affected ear.",
+    "goals_motivation": "Evaluation following head trauma."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-02-04",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient suffered a fall and head trauma 2 weeks ago, resulting in a skull fracture through the right temporal bone and a concussion. Immediate onset of hearing loss and tinnitus followed.",
+        "otologic_history": "No history of hearing loss or tinnitus prior to the head trauma.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Recent concussion and skull fracture.",
+        "prior_management": "Medical management for head trauma; referred for audiological evaluation.",
+        "patient_goals": "Determine the extent of hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.25"
+          ],
+          "key_findings": "Left ear thresholds are within normal limits. Right ear shows a slight sensorineural loss at 250 Hz, rising to normal at 500 Hz, then sloping to a mild conductive loss (750-4000 Hz) and moderate-to-moderately severe loss (6000-8000 Hz). Significant air-bone gaps present in the right ear.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250Hz: 20, 500Hz: 10, 1000Hz: 30, 2000Hz: 35, 4000Hz: 40, 8000Hz: 60 dB HL",
+            "RE_BC_Thresholds": "500Hz: 5, 1000Hz: 5, 2000Hz: 5, 4000Hz: 5 dB HL",
+            "LE_AC_Thresholds": "All frequencies 0-10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.25"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) agree with pure-tone averages. Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "32 dB HL",
+            "RE_WRS": "96% at 70 dB HL",
+            "LE_SRT": "3 dB HL",
+            "LE_WRS": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.25"
+          ],
+          "key_findings": "Right ear tympanogram is hypercompliant (Type Ad), consistent with ossicular discontinuity. Left ear tympanogram is normal (Type A).",
+          "numeric_results": {
+            "RE_Static_Admittance": "1.9 mL",
+            "RE_Peak_Pressure": "15 daPa",
+            "LE_Static_Admittance": "0.5 mL",
+            "LE_Peak_Pressure": "5 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.25"
+          ],
+          "key_findings": "Reflexes absent for right ear stimulation (ipsi and contra) and absent for left ear contra stimulation (probe right). Left ipsilateral reflexes present.",
+          "numeric_results": {
+            "RE_Ipsi": "Absent",
+            "RE_Contra": "Absent",
+            "LE_Ipsi": "Present",
+            "LE_Contra": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the left ear and a conductive hearing loss in the right ear, characterized by significant air-bone gaps and hypercompliant tympanometry. The audiometric configuration and immittance findings (Type Ad tympanogram and absent reflexes with probe right) are consistent with ossicular discontinuity secondary to the reported temporal bone fracture. Speech recognition ability remains excellent in the affected ear when sound is made sufficiently loud.",
+  "counseling_points": [
+    "The 'muffled' hearing is caused by a disruption in the chain of bones behind your eardrum, likely due to the head injury.",
+    "Your hearing nerve itself is mostly intact, which is why your speech understanding scores are excellent.",
+    "We observed a 'hypercompliant' eardrum, meaning it is moving more than normal, which supports the finding that the bones are not connected properly.",
+    "It is crucial to follow up with your otologist as scheduled to discuss potential medical or surgical management to repair the hearing mechanism.",
+    "Continue to use hearing protection in noisy environments to preserve your remaining hearing."
+  ],
+  "notes_for_actor": [
+    "You are a young adult male (approx. 20 years old).",
+    "You have parents present at the appointment.",
+    "You recently had a serious fall and head injury (concussion/skull fracture), so you may appear slightly fatigued or sensitive.",
+    "You are clear that the hearing loss happened *exactly* after the fall."
+  ]
+}

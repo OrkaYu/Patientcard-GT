@@ -1,0 +1,127 @@
+{
+  "case_id": "case_6_6",
+  "title": "Subcortical and Insular Lesions: Right Insula Lesion",
+  "demographics": {
+    "age_years": 12,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "The patient had no complaint of auditory problems. He was studied as a research case due to a relatively rare lesion of the insula.",
+  "problem_summary": {
+    "onset": "Approximately 1.5 years prior to evaluation.",
+    "course": "Periodic seizures occurring with anxiety, excitement, or overexertion.",
+    "laterality": "Right hemisphere lesion; Left ear auditory deficits.",
+    "associated_symptoms": "Grand mal seizures involving mouth/eye movement to the left and left arm/leg movements; mild nystagmus; bilateral ptosis; mild left-sided weakness; clumsiness of both hands.",
+    "functional_impact": "Neurological symptoms (seizures, motor weakness) are primary; no reported functional auditory impact despite significant central test deficits.",
+    "goals_motivation": "Research evaluation to understand the role of the insula in central auditory function."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic / Research Setting",
+      "history": {
+        "present_illness": "12-year-old male with a history of seizures starting 1.5 years ago. Seizures involve left-sided motor movements. EEG showed rhythmic delta/spike discharges from the right hemisphere with some spread to the left, consistent with severe right hemisphere irritability.",
+        "otologic_history": "No reported auditory complaints.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Diagnosed with a possible low-grade glioma in the right fronto-temporal region (operculum or insula) based on outside CT and MRI reports.",
+        "prior_management": "Undergoing neurologic monitoring; radiology performed at an outside agency.",
+        "patient_goals": "Participate in research evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-28"
+          ],
+          "key_findings": "Normal pure tone thresholds bilaterally (0-15 dB HL range).",
+          "numeric_results": {
+            "RE_thresholds": "0-15 dB HL",
+            "LE_thresholds": "0-15 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-28"
+          ],
+          "key_findings": "Word recognition scores were normal bilaterally.",
+          "numeric_results": {
+            "WRS_RE": "88%",
+            "WRS_LE": "92%"
+          }
+        },
+        {
+          "name": "Central Behavioral Tests",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-29"
+          ],
+          "key_findings": "All central behavioral tests were abnormal. Marked left ear deficits were noted on Dichotic Rhyme, Competing Sentences, Dichotic Digits, Compressed Speech, and Low Pass Filtered Speech. Bilateral deficits were noted for Frequency Patterns.",
+          "numeric_results": {
+            "Dichotic_Rhyme_RE": "~65% (Normal Range)",
+            "Dichotic_Rhyme_LE": "~10% (Abnormal)",
+            "Competing_Sentences_RE": "100%",
+            "Competing_Sentences_LE": "0%",
+            "Dichotic_Digits_RE": "~95%",
+            "Dichotic_Digits_LE": "~50%",
+            "Compressed_Speech_RE": "~85%",
+            "Compressed_Speech_LE": "~55%",
+            "Frequency_Patterns_RE": "~10% (Abnormal)",
+            "Frequency_Patterns_LE": "~10% (Abnormal)"
+          }
+        },
+        {
+          "name": "Middle Latency Response (MLR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-30"
+          ],
+          "key_findings": "Difficult to interpret. The Left Ear T4 tracing showed the best Pa wave, which was puzzling given the lesion site. The Pa wave was reduced or non-replicable in other conditions. ABR Wave V was of greater amplitude than Pa. Na waves appeared present with normal latencies.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity and speech recognition in quiet. However, central auditory processing evaluation reveals severe deficits consistent with a right hemisphere lesion affecting the insula. There is a marked 'left ear effect' (contralateral to lesion) on dichotic tasks (Digits, Rhyme, Competing Sentences) and monaural low-redundancy speech tasks (Compressed Speech). Bilateral deficits were observed on temporal patterning tasks (Frequency Patterns). The MLR was abnormal/unusual, with reduced Pa waves, supporting central dysfunction.",
+  "counseling_points": [
+    "Explain that while the ears 'hear' sounds normally (peripheral hearing), the brain (specifically the right hemisphere/insula) is struggling to process complex signals, especially from the left side.",
+    "Discuss the 'left ear deficit' pattern observed in dichotic listening tasks, which correlates with the right-sided brain lesion.",
+    "Highlight that despite no subjective complaints, the auditory system is compromised in challenging listening environments.",
+    "Note that the findings support the critical role of the insula in central auditory function."
+  ],
+  "notes_for_actor": [
+    "You are a 12-year-old boy. You do not feel like you have hearing loss.",
+    "You have a history of seizures which are scary and involve your left side shaking.",
+    "You might feel a bit clumsy with your hands.",
+    "You are cooperative but perhaps tired of medical tests.",
+    "If asked about hearing, say 'I hear fine, I just have these seizures.'"
+  ]
+}

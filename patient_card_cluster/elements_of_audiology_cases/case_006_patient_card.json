@@ -1,0 +1,169 @@
+{
+  "case_id": "elements_case_06",
+  "title": "Chronic Otitis Media with Bilateral Mastoidectomies",
+  "demographics": {
+    "age_years": 16,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My hearing fluctuates; sometimes it seems near normal, but other times it creates severe problems in communication.",
+  "problem_summary": {
+    "onset": "Lifelong history of ear infections.",
+    "course": "Fluctuating hearing loss with constant drainage.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Strong pungent odor near ears; constant drainage.",
+    "functional_impact": "Severe problems in communication; unable to use air-conduction hearing aid due to drainage.",
+    "goals_motivation": "Patient has been told nothing can be done, but previous hearing aid attempt failed due to drainage."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports lifelong ear infections and fluctuating hearing. A strong pungent odor is noticeable near her ears.",
+        "otologic_history": "Bilateral mastoidectomies. History of constant drainage.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Family doctor has prescribed renewable eardrops and stated nothing can be done to improve hearing.",
+        "prior_management": "Tried a hearing aid in the right ear, but constant drainage made use impossible; the aid was subsequently lost.",
+        "patient_goals": "Determine if hearing can be improved despite previous advice."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Bilateral mixed hearing loss. Air-conduction thresholds are essentially flat around 40-50 dB HL. Bone-conduction thresholds indicate good cochlear reserve in the low/mid frequencies (0-10 dB HL) dropping in the high frequencies (30-40 dB HL at 4000 Hz). Significant air-bone gaps present bilaterally.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "Flat ~40-50 dB HL across 250-8000 Hz",
+            "Left_AC_Thresholds": "Flat ~40-50 dB HL across 250-8000 Hz",
+            "BC_Thresholds": "0-10 dB HL at 500-1000 Hz, sloping to ~35-40 dB HL at 4000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "SRT aligns with pure-tone averages. Word recognition scores (SRS) are excellent bilaterally.",
+          "numeric_results": {
+            "Right_SRT": "45 dB HL",
+            "Left_SRT": "40 dB HL",
+            "Right_SRS": "92%",
+            "Left_SRS": "94%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table",
+            "Tympanogram"
+          ],
+          "key_findings": "Unable to obtain a seal in either ear, consistent with patent perforations or open mastoid cavities.",
+          "numeric_results": {
+            "Static_compliance": "No seal",
+            "Note": "NO SEAL OBTAINABLE written on tympanogram"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Untestable ipsilaterally and contralaterally.",
+          "numeric_results": {
+            "Result": "Untestable"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "All waves prolonged absolute latencies, but interpeak latencies and latency-intensity functions are normal. This pattern is consistent with conductive hearing loss.",
+          "numeric_results": null
+        },
+        {
+          "name": "TEOAE",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Absent bilaterally.",
+          "numeric_results": {
+            "Result": "Absent"
+          }
+        },
+        {
+          "name": "Tone decay test",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Negative for retrocochlear pathology at 4000 Hz.",
+          "numeric_results": {
+            "Right_Decay": "0 dB in 60 seconds",
+            "Left_Decay": "5 dB in 60 seconds"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral mixed hearing loss, predominantly conductive in nature, with significant air-bone gaps and excellent speech recognition scores. The sensorineural component is mild to moderate in the high frequencies. Immittance testing could not be completed due to inability to obtain a seal, likely due to tympanic membrane perforations or mastoid cavities. ABR results support a conductive etiology (prolonged absolute latencies with normal interpeaks).",
+  "counseling_points": [
+    "Your hearing test shows a 'mixed' hearing loss, meaning there is a problem with how sound gets to the inner ear (conductive) and a smaller issue with the inner ear itself.",
+    "The good news is your ability to understand speech is excellent when sounds are loud enough.",
+    "The strong odor and drainage you described are concerning for an active infection or cholesteatoma. It is critical that you see an Ear, Nose, and Throat specialist (Otologist) for a second opinion immediately.",
+    "Contrary to what you were told, there are options to help you hear. If the drainage persists, we can consider a bone-conduction hearing aid, which bypasses the ear canal entirely and won't be damaged by drainage.",
+    "Do not give up hope; we need to address the medical health of your ears first, then we can address the hearing."
+  ],
+  "notes_for_actor": [
+    "Portray a 16-year-old who is frustrated and resigned because a doctor told her 'nothing can be done'.",
+    "You should mention the smell/odor yourself or react with embarrassment if the clinician notices it.",
+    "Emphasize that the previous hearing aid was gross/wet from drainage and you lost it."
+  ]
+}

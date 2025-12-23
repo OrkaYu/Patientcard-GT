@@ -1,0 +1,106 @@
+{
+  "case_id": "Case043",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral profound sensorineural hearing loss secondary to bacterial meningitis",
+      "rationale_short": "Sudden onset of profound hearing loss following confirmed Streptococcus suis meningitis infection."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree and configuration of hearing loss."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function (declined by patient due to intolerance)."
+      },
+      {
+        "action": "Other",
+        "urgency": "routine",
+        "rationale_short": "Aided sound-field thresholds to assess functional gain with current hearing aids."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech perception capabilities with and without visual cues."
+      },
+      {
+        "action": "Other",
+        "urgency": "urgent",
+        "rationale_short": "Radiologic evaluation (CT) to check for cochlear ossification."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Assessments confirmed bilateral profound sensorineural hearing loss with negligible speech perception benefits from high-power hearing aids (aided thresholds 55-65 dB HL, 0-3% auditory-only speech scores). CT imaging 1 month post-meningitis showed no ossification, indicating the patient was a candidate for urgent cochlear implantation.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral profound sensorineural hearing loss; no responses at audiometer limits for most frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech Perception",
+            "result_summary": "Hong Kong Speech Perception Test: Auditory-only scores were negligible (0% everyday sentences, 3% keywords). Visual cues improved everyday sentence recognition to 41%."
+          },
+          {
+            "name": "Other",
+            "category": "Aided Testing",
+            "result_summary": "Aided sound-field thresholds with Phonak Una SP AZ aids were 55-65 dB HL (500-4000 Hz), providing insufficient gain."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Declined by patient due to inability to tolerate probe insertion."
+          },
+          {
+            "name": "Other",
+            "category": "Imaging",
+            "result_summary": "CT scan performed 1 month post-meningitis revealed no significant cochlear abnormality (no ossification)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Simultaneous bilateral cochlear implantation",
+      "Post-operative cochlear implant programming and mapping",
+      "Auditory rehabilitation"
+    ],
+    "counseling_actions": [
+      "Counsel on the urgency of implantation due to the high risk of cochlear ossification (osteoneogenesis) following meningitis",
+      "Discuss realistic expectations regarding cochlear implant outcomes",
+      "Emphasize the importance of motivation and family support for rehabilitation"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset profound sensorineural hearing loss",
+      "History of bacterial meningitis (risk of cochlear ossification)"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Cochlear Implant Team",
+      "rationale_short": "Urgent referral is required to proceed with implantation before potential cochlear ossification prevents electrode insertion."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-operative follow-up",
+    "objective": "To activate and map the cochlear implants and monitor speech perception progress."
+  },
+  "expected_outcome": [
+    "Sound-field audiometry with bilateral CIs: Thresholds obtained within the speech banana (approx. 30-40 dB HL) across 500-4000 Hz.",
+    "Hong Kong Speech Perception Test (3 years post-op): Everyday Sentence Recognition (syllable scoring) 100% in auditory-only mode.",
+    "Hong Kong Speech Perception Test (3 years post-op): Open-set Sentence Recognition (keyword scoring) 67% in auditory-only mode.",
+    "Hong Kong Speech Perception Test (3 years post-op): Open-set Sentence Recognition (syllable scoring) 79% in auditory-only mode.",
+    "Patient is able to perceive open-set sentences without visual cues and communicate verbally in quiet and most noisy situations."
+  ]
+}

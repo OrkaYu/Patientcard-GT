@@ -1,0 +1,142 @@
+{
+  "case_id": "case22_A_Classic_Case_of_Vestibular_Neuritis",
+  "title": "A Classic Case of Vestibular Neuritis",
+  "demographics": {
+    "age_years": 40,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have had constant dizziness and imbalance for 5 years since a severe vertigo attack. My vision blurs when I turn my head to the right, and I have trouble driving at night or being in busy places like supermarkets.",
+  "problem_summary": {
+    "onset": "Sudden onset 5 years ago with a single, severe attack of vertigo, nausea, and vomiting lasting all day.",
+    "course": "Chronic persistent dizziness and postural instability. Minimal improvement with initial physical therapy.",
+    "laterality": "Right ear (symptoms triggered by rightward head turns; sensation of fullness on right side of head).",
+    "associated_symptoms": "Motion-induced visual blurring (oscillopsia) with rightward head turns, sensation of fullness on the right side of the head.",
+    "functional_impact": "Significant difficulty driving at night and navigating busy visual environments (e.g., crowded supermarkets).",
+    "goals_motivation": "Desires relief from dizziness/imbalance, improved tolerance of busy environments, and return to recreational sports."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Otolaryngology/Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a 5-year history of persistent dizziness following a severe acute vertigo attack. He did not lose consciousness during the initial event. He reports constant imbalance and specific visual blurring when turning his head to the right.",
+        "otologic_history": "Denies tinnitus and denies 'aural fullness' (though reports 'fullness on right side of head'). No reported changes in hearing.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Claustrophobia (refused rotational chair).",
+        "prior_management": "Evaluated by a hometown physician and underwent physical therapy initially with minimal improvement.",
+        "patient_goals": "Relief from symptoms and return to normal activities."
+      },
+      "tests": [
+        {
+          "name": "Bithermal Caloric Irrigation",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Revealed a 100% right reduced vestibular response (RVR).",
+          "numeric_results": {
+            "Right Vestibular Response": "100% reduced (absent)"
+          }
+        },
+        {
+          "name": "Video Head Impulse Test (vHIT)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 22.1"
+          ],
+          "key_findings": "Right lateral canal impulses revealed covert saccades and reduced gain. Leftward impulses and vertical canal impulses (anterior/posterior) were within normal limits.",
+          "numeric_results": {
+            "Right Lateral Gain": "0.5",
+            "Left Lateral Gain": "1.0",
+            "Normal Range": "0.7 - 1.0"
+          }
+        },
+        {
+          "name": "Cervical Vestibular-Evoked Myogenic Potential (cVEMP)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 22.2"
+          ],
+          "key_findings": "Responses obtained and replicated in both ears at normal thresholds. Suggests normal function of the saccule and inferior vestibular nerve.",
+          "numeric_results": {
+            "Left Threshold": "75 dB nHL",
+            "Right Threshold": "80 dB nHL"
+          }
+        },
+        {
+          "name": "Ocular Vestibular-Evoked Myogenic Potential (oVEMP)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 22.3"
+          ],
+          "key_findings": "Responses present in the left ear but absent in the right ear. Suggests dysfunction of the utricle and superior branch of the vestibular nerve.",
+          "numeric_results": {
+            "Right Ear Response": "Absent",
+            "Left Ear Response": "Present"
+          }
+        },
+        {
+          "name": "Video-oculography (VOG)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Results within normal limits (excluding the caloric component).",
+          "numeric_results": {}
+        },
+        {
+          "name": "Rotational Chair",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient refused testing due to claustrophobia.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Evaluation indicates uncompensated right peripheral vestibular dysfunction. Specifically, findings are consistent with vestibular neuritis affecting the superior branch of the vestibular nerve (abnormal calorics, abnormal vHIT for lateral canal, absent oVEMP) while sparing the inferior branch (normal cVEMP, normal posterior canal vHIT). The patient exhibits functional deficits in the Vestibulo-Ocular Reflex (VOR) towards the right side, evidenced by covert saccades and visual blurring.",
+  "counseling_points": [
+    "Your testing confirms a weakness in the balance system of your right ear, specifically the upper nerve branch, likely caused by the viral infection (neuritis) you had 5 years ago.",
+    "The 'blurring' you see when turning your head right is because your eyes are slipping off target; your inner ear isn't sending the signal fast enough to keep your eyes steady.",
+    "Although you had physical therapy before, your brain hasn't fully compensated yet. We see 'covert saccades' (hidden corrective eye movements) that show the system is trying to work but needs more specific training.",
+    "We are referring you to a physical therapist who specializes specifically in Vestibular Rehabilitation to perform exercises that will help your brain compensate for this weakness."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated that symptoms have persisted for 5 years despite seeing a doctor previously.",
+    "When describing the 'blurring,' emphasize that it happens specifically when you turn your head quickly to the right.",
+    "Express anxiety about crowded places like supermarkets; you find them visually overwhelming.",
+    "You are claustrophobic and should adamantly refuse the rotational chair test if offered."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "case_id": "case_6_10",
+  "title": "Unilateral Conductive Hearing Loss Secondary to Otitis Media",
+  "demographics": {
+    "age_years": 41,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I feel like I'm underwater in my right ear. It started with pain and fullness after my allergies acted up, and now I can barely hear out of that side.",
+  "problem_summary": {
+    "onset": "Acute; symptoms began a few days prior to the visit.",
+    "course": "Progressive; started with otalgia/fullness and worsened to significant hearing loss.",
+    "laterality": "Right ear",
+    "associated_symptoms": "Otalgia, aural fullness, history of recent allergies.",
+    "functional_impact": "Patient feels she hears very little from the right ear.",
+    "goals_motivation": "Resolve the fullness and restore hearing."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-04-27",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient experienced otalgia and fullness in the right ear a few days ago following allergy difficulties. This progressed to a sensation of being 'under water' and perceived hearing loss in that ear.",
+        "otologic_history": "Recent history of allergies precipitating the current ear symptoms.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Allergies.",
+        "prior_management": "None reported prior to this visit.",
+        "patient_goals": "Diagnosis and management of right ear symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.10",
+            "Audiological Record"
+          ],
+          "key_findings": "Right ear shows a mild-to-moderate conductive hearing loss (air-bone gap present), except at 2000 Hz where the gap closes slightly. Left ear thresholds are within normal limits (0-10 dB HL).",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250Hz: 30, 500Hz: 35, 1000Hz: 40, 2000Hz: 15, 4000Hz: 40 dB HL",
+            "RE_BC_Thresholds": "0-10 dB HL across frequencies",
+            "LE_AC_Thresholds": "0-10 dB HL across frequencies",
+            "LE_BC_Thresholds": "0-10 dB HL across frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Speech Audiometry Table"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) align with Pure Tone Averages (PTA). Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "35 dB HL",
+            "RE_PTA": "30 dB HL",
+            "RE_WRS": "100% at 70 dB HL",
+            "LE_SRT": "15 dB HL",
+            "LE_PTA": "7 dB HL",
+            "LE_WRS": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanometry Table"
+          ],
+          "key_findings": "Right ear shows a flat (Type B) tympanogram with normal canal volume, consistent with middle ear effusion. Left ear shows a normal (Type A) tympanogram.",
+          "numeric_results": {
+            "RE_Type": "B (Flat)",
+            "RE_Canal_Volume": "1.2 mL",
+            "RE_Static_Admittance": "NP (No Peak)",
+            "LE_Type": "A",
+            "LE_Canal_Volume": "0.8 mL",
+            "LE_Static_Admittance": "0.8 mmho",
+            "LE_Peak_Pressure": "-60 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Acoustic Reflex Thresholds Table"
+          ],
+          "key_findings": "Right ipsilateral and contralateral reflexes are absent. Left ipsilateral reflexes are present/normal. Left contralateral reflexes (probe right) are absent due to the conductive pathology in the right ear.",
+          "numeric_results": {
+            "RE_Ipsi": "Absent",
+            "RE_Contra_Stim": "Absent",
+            "LE_Ipsi": "Present (85-95 dB HL)",
+            "LE_Contra_Stim": "Absent (Probe in RE)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a unilateral, mild-to-moderate conductive hearing loss in the right ear and normal hearing in the left ear. Immittance testing reveals a flat tympanogram (Type B) in the right ear with absent acoustic reflexes, while the left ear demonstrates normal middle ear function. These findings are consistent with middle ear pathology, specifically otitis media, likely secondary to recent allergies.",
+  "counseling_points": [
+    "Your hearing test confirms a 'conductive' hearing loss in your right ear, which means sound is being blocked from reaching the inner ear.",
+    "The flat pressure test (tympanogram) suggests there is fluid behind your eardrum, likely related to your recent allergies.",
+    "This condition is very treatable. I am referring you to an ENT (Ear, Nose, and Throat) physician for medical management.",
+    "The 'underwater' sensation you are feeling is a classic symptom of this fluid buildup.",
+    "We will schedule a follow-up hearing test in one month to ensure your hearing has returned to normal after treatment."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is uncomfortable due to ear pressure/pain.",
+    "You may occasionally rub or tug at your right ear.",
+    "Speak with a slightly 'stuffed up' nasal quality if possible to mimic allergy congestion.",
+    "Emphasize the 'underwater' feeling—it is your most bothersome symptom."
+  ]
+}

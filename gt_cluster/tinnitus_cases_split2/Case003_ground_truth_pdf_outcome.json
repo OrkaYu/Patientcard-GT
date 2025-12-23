@@ -1,0 +1,85 @@
+{
+  "case_id": "Case003",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Cochlear Meniere's Disease (Left Ear)",
+      "rationale_short": "Diagnosed by otologist based on fluctuating low-frequency sensorineural hearing loss, aural fullness, and roaring tinnitus without vertigo."
+    },
+    {
+      "rank": 2,
+      "label": "Single-Sided Deafness (Right Ear)",
+      "rationale_short": "Result of right acoustic neuroma removal 1.6 years prior."
+    },
+    {
+      "rank": 3,
+      "label": "Chronic Tinnitus (Bilateral)",
+      "rationale_short": "Persisting since tumor removal, with recent exacerbation in the left ear associated with Meniere's diagnosis."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess current hearing thresholds given recent fluctuation and history of acoustic neuroma/Meniere's."
+      },
+      {
+        "action": "Self-Report Scales (Questionnaires)",
+        "urgency": "routine",
+        "rationale_short": "To quantify tinnitus severity, functional impact, and psychological distress (SHQ-S, THQ, TPFQ)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry confirms profound right-sided deafness and left-sided low-frequency sensorineural hearing loss consistent with Cochlear Meniere's. Self-report measures indicate significant tinnitus distress, particularly affecting emotions and sleep, as well as expected localization deficits.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Profound sensorineural hearing loss/no response. Left ear: Moderate low-frequency SNHL (250 Hz at 65 dB HL, 500 Hz at 55 dB HL) rising to mild/normal in mid-frequencies (2000 Hz at 25 dB HL) and sloping slightly at 8000 Hz (45 dB HL)."
+          },
+          {
+            "name": "Self-Report Scales (Questionnaires)",
+            "category": "Questionnaires",
+            "result_summary": "SHQ-S Total: 16.7 (poor localization). THQ Total: 40.7 (Hearing subscale 64.2). TPFQ Total: 48.8, with high impact on Emotion (78.3) and Sleep (40.0)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Tinnitus Activities Treatment (TAT)",
+      "Bi-CROS hearing aid use (up to 12 hours/day for communication and masking)",
+      "Low-level sound therapy (nature sounds, music, fan) for sleep and background relief",
+      "Keep a diary of thoughts, emotions, and activities related to tinnitus",
+      "Client Oriented Scale of Improvement in Tinnitus (COSIT) for goal setting"
+    ],
+    "counseling_actions": [
+      "Education on tinnitus, hearing loss, and attention",
+      "Cognitive restructuring to modify negative thought patterns dictating emotions",
+      "Sleep hygiene counseling and review of sleep session of TAT",
+      "Discuss relationship between Cochlear Meniere's and fluctuating symptoms",
+      "Validate anxiety regarding deafness and social withdrawal"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient is already under otologic care for Meniere's; proceed with audiological tinnitus management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2 months",
+    "objective": "Complete Tinnitus Activities Treatment sessions and re-evaluate using questionnaires (TPFQ, COSIT)."
+  },
+  "expected_outcome": [
+    "Tinnitus Primary Functions Questionnaire (TPFQ) post-treatment: Significant improvement in reactions to tinnitus, with the Emotion subscale score dropping from ~78 to ~25 and Sleep subscale from ~40 to ~15.",
+    "Client Oriented Scale of Improvement in Tinnitus (COSIT) post-treatment: Patient reported reduced hearing difficulties, much improved enjoyment of daily life, and slightly better avoidance of social situations.",
+    "Subjective Report: Patient enjoys work and social activities with less fear and anxiety, and has improved reactions to fluctuating tinnitus loudness."
+  ]
+}

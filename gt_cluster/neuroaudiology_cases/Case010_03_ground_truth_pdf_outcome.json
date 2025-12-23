@@ -1,0 +1,114 @@
+{
+  "case_id": "Case010_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Deafness (Cortical Deafness)",
+      "rationale_short": "Dissociation between intact peripheral function (normal reflexes, present ABR) and profound central deficit (absent MLR/Late potentials, inability to recognize speech)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity, though results were extremely variable and unreliable."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech detection and recognition capabilities."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate brainstem/peripheral auditory pathway integrity."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To assess neural integrity of the auditory nerve and brainstem."
+      },
+      {
+        "action": "Middle Latency Response (MLR)",
+        "urgency": "routine",
+        "rationale_short": "To assess thalamocortical auditory pathway function."
+      },
+      {
+        "action": "Late Auditory Evoked Potentials",
+        "urgency": "routine",
+        "rationale_short": "To assess cortical auditory processing."
+      },
+      {
+        "action": "Radiologic Evaluation (CT)",
+        "urgency": "routine",
+        "rationale_short": "To visualize the location and extent of cerebrovascular lesions."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals a classic profile of central deafness. Peripheral auditory mechanisms are intact as evidenced by normal acoustic reflexes and preserved ABR Wave V. However, central auditory processing is profoundly disrupted, indicated by the absence of MLR and Late Potentials, and the inability to recognize speech or reliably respond to tones. The patient is functionally deaf despite peripheral integrity.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Extreme variability in thresholds; estimates ranged from mild-moderate flat loss to profound loss/no response; reliability consistently poor."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Speech detection thresholds (SDT) approx 10-15 dB HL (Right) and 30 dB HL (Left); speech recognition scores could not be established (0%)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Normal contralateral reflexes bilaterally (500-4000 Hz)."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "result_summary": "Wave V present bilaterally down to ~50 dB nHL; slightly low amplitude; normal I-V interwave intervals."
+          },
+          {
+            "name": "Middle Latency Response (MLR)",
+            "result_summary": "Absent; no repeatable responses observed for either ear."
+          },
+          {
+            "name": "Late Auditory Evoked Potentials",
+            "result_summary": "Absent; failed to demonstrate repeatable responses."
+          },
+          {
+            "name": "Radiologic Evaluation (CT)",
+            "result_summary": "Bilateral lesions. Right: Extensive involvement of temporal (including Heschl's), parietal, and frontal lobes. Left: Patchy low density in temporal/parietal areas; Left Heschl's gyrus interpreted as intact."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Reliance on non-auditory communication strategies such as writing, signing, and visual cues"
+    ],
+    "counseling_actions": [
+      "Explain the diagnosis of Central Deafness: the ears are working, but the brain cannot process sound into meaning",
+      "Discuss that inconsistency in hearing tests is a symptom of the brain injury, not malingering",
+      "Advise that recovery has been minimal and is likely limited by age and extent of lesions",
+      "Explain that the tinnitus is likely central in origin"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology and Audiology for long-term monitoring",
+      "rationale_short": "Patient is stable post-stroke; long-term follow-up required to monitor for any potential recovery."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Long-term (followed for over 8 years)",
+    "objective": "To monitor auditory behavior and potential recovery of function."
+  },
+  "expected_outcome": [
+    "Transient improvement in auditory behavior observed over 8 years of follow-up.",
+    "Extreme variability in pure tone thresholds persisted, ranging from mild-moderate to profound loss.",
+    "Speech recognition scores could never be established as the patient could not understand words.",
+    "Patient maintained reliance on writing as the main means of communication."
+  ]
+}

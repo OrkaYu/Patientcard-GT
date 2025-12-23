@@ -1,0 +1,226 @@
+{
+  "case_id": "Case012",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Tinnitus secondary to barotrauma",
+      "rationale_short": "Onset of symptoms occurred during a flight with significant pain and pressure; tinnitus perception shifted laterality following PE tube placement, suggesting central involvement."
+    },
+    {
+      "rank": 2,
+      "label": "Mixed hearing loss (Right Ear)",
+      "rationale_short": "Developed following PE tube placement for barotrauma, characterized by an air-bone gap and patent tube volume."
+    },
+    {
+      "rank": 3,
+      "label": "Sensorineural hearing loss (Bilateral)",
+      "rationale_short": "Underlying mild high-frequency sensorineural loss present at baseline."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To assess outer ear and tympanic membrane status following barotrauma."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and pressure."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear pathway integrity."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine degree and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and word recognition abilities."
+      },
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Follow-up post-ENT intervention to check PE tube status."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To confirm patency of the PE tube."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Re-evaluation post-intervention."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To monitor hearing thresholds post-tube placement."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To monitor speech recognition performance."
+      },
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Routine check at 6-month follow-up."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Routine check at 6-month follow-up."
+      },
+      {
+        "action": "Other",
+        "urgency": "routine",
+        "rationale_short": "Tinnitus evaluation (pitch/loudness match, MML, residual inhibition)."
+      },
+      {
+        "action": "Other",
+        "urgency": "routine",
+        "rationale_short": "Hearing aid/masker check and adjustment."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Baseline evaluation following airplane barotrauma revealed normal otoscopy and Type A tympanograms. Audiometry showed normal sloping to mild sensorineural hearing loss bilaterally with absent acoustic reflexes. Tinnitus was reported in the left ear.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Clear ear canals and normal tympanic membranes bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A bilaterally (Right: -2 daPa, 1.3 cc; Left: -2 daPa, 1.4 cc)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral reflexes absent bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal sloping to mild sensorineural hearing loss bilaterally. Negative Stenger at 3000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 15 dB HL bilaterally; WRS 100% at 60 dB HL bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up 1 month later after ENT placed a PE tube in the right ear. Tinnitus perception shifted to be louder in the right ear. Right ear showed mixed hearing loss with a patent PE tube (large volume flat tympanogram). Left ear remained stable.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Right ear: tube and debris visible. Left ear: unremarkable."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Flat (Type B) with large ECV (8.9 cc), consistent with patent PE tube. Left ear: Normal (Type A)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral reflexes absent."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Mixed loss with 20 dB threshold decrease and air-bone gap at 250 Hz. Left ear: Stable SNHL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT 20 dB HL bilaterally; WRS 100% at 60 dB HL bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "6-month follow-up. Patient reported low-frequency narrowband noise in the right ear and 'cicadas' in the head. Tinnitus evaluation characterized the right ear tinnitus.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Right ear: Nonoccluding cerumen."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Large volume flat tympanogram consistent with patent PE tube."
+          },
+          {
+            "name": "Other",
+            "category": "Tinnitus Evaluation",
+            "result_summary": "Right ear: Pitch match 500 Hz (narrowband noise); Loudness match 45 dB HL; MML 60 dB HL (white noise); Residual inhibition present but brief."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Follow-up after fitting with right-only hearing aid/masker. Patient reported 'unmasking' phenomenon where suppressing the right-sided tinnitus made the left-sided tinnitus perceptible again.",
+        "tests": [
+          {
+            "name": "Other",
+            "category": "Management Follow-up",
+            "result_summary": "Patient reported right ear tinnitus was more 'mellow', but she was now able to hear tinnitus in her left ear."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otolaryngologist (ENT) for medical management",
+      "Antibiotic drops (prescribed by ENT post-tube insertion)",
+      "Progressive Tinnitus Management (PTM) materials (self-guided)",
+      "Cognitive Behavioral Therapy (CBT) and biofeedback (discussed)",
+      "Right ear receiver-in-canal hearing aid/masker",
+      "Binaural masking/sound enrichment (trial/demo hearing aid on left ear added to right device)"
+    ],
+    "counseling_actions": [
+      "Explain that tinnitus involves the central auditory system and not just the ears",
+      "Discuss the phenomenon of 'unmasking' where treating only one ear allows the brain to focus on tinnitus in the untreated ear",
+      "Recommend binaural sound enrichment to prevent shifting perception",
+      "Personal adjustment counseling regarding tinnitus management strategies"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset of pain and pressure in the ear (barotrauma)",
+      "Sudden onset tinnitus associated with trauma"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otolaryngologist",
+      "rationale_short": "Medical evaluation of barotrauma and management of middle ear status (PE tube placement)."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "2 weeks",
+    "objective": "Monitor changes in hearing sensitivity and tinnitus, and adjust masker settings."
+  },
+  "expected_outcome": [
+    "Amplification was turned off and masker settings were extensively changed for patient comfort.",
+    "A trial/demo hearing aid was fitted on the left ear with a tinnitus masker (in addition to using the device already fitted on the right ear).",
+    "Initial findings in clinic were positive, with the patient reporting her tinnitus seemed completely 'dulled out'."
+  ]
+}

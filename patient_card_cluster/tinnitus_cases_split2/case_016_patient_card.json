@@ -1,0 +1,200 @@
+{
+  "case_id": "Case16_Hyperacusis_and_Military_Noise_Exposure",
+  "title": "Hyperacusis and Military Noise Exposure",
+  "demographics": {
+    "age_years": 54,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "United States"
+  },
+  "chief_complaint": "I am very sensitive to everyday sounds like sirens, vacuum cleaners, and clapping hands; they actually cause me pain. I also have a constant ringing in my ears and trouble hearing when there is background noise.",
+  "problem_summary": {
+    "onset": "Tinnitus onset 6 to 8 months prior; Hyperacusis symptoms began 8 years ago during deployment but pain has been notable over the past year.",
+    "course": "Chronic and constant; tinnitus interferes with sleep.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Pain in ears with loud sounds, sleep disturbance due to tinnitus, difficulty hearing in noise.",
+    "functional_impact": "Pain rating 3-4/10 with loud sounds; bothersome at concerts, movie theaters, and with household chores (dishes, doors closing).",
+    "goals_motivation": "Primary concern is sound tolerance; agreed to sound therapy recommendation."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2019-01-01",
+      "setting": "Hearing Conservation / Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports sensitivity to specific sounds (sirens, vacuums) and difficulty hearing in noise. Constant bilateral tinnitus onset 6-8 months ago.",
+        "otologic_history": "Otoscopy revealed clear ear canals bilaterally.",
+        "noise_exposure_history": "Active duty service member. Past military noise exposure to airfields and gunfire. Deployed to Afghanistan 8 years ago with quarters next to an airfield.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "None reported.",
+        "patient_goals": "Evaluation of hearing and sound sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.1 (Left Panel)"
+          ],
+          "key_findings": "Normal hearing thresholds from 250 to 3000 Hz, sloping to a mild high-frequency sensorineural hearing loss at 8000 Hz bilaterally.",
+          "numeric_results": {
+            "250-3000 Hz": "< 20 dB HL",
+            "8000 Hz": "~35-40 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Excellent word recognition ability in quiet.",
+          "numeric_results": {
+            "WRS": "100% AU"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanic membrane/middle ear compliance and pressure.",
+          "numeric_results": null
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Ipsilateral reflexes present at normal levels bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Tinnitus and Hearing Survey (THS)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Results indicate sound tolerance is a significant issue relative to the maximum subscale score.",
+          "numeric_results": {
+            "Tinnitus Subscale": "5 (Max 16)",
+            "Hearing Subscale": "12 (Max 16)",
+            "Sound Tolerance Subscale": "3 (Max 4)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2019-01-21",
+      "setting": "Audiology Clinic (Specialty Evaluation)",
+      "history": {
+        "present_illness": "Follow-up for hyperacusis evaluation. Patient reports pain with loud sounds (3-4/10).",
+        "otologic_history": "Previous findings noted.",
+        "noise_exposure_history": "Reports appropriate use of hearing protection for hazardous noise, denies overprotection for general sounds.",
+        "medical_psych_history": null,
+        "prior_management": "Referral from hearing conservation.",
+        "patient_goals": "Address reduced sound tolerance."
+      },
+      "tests": [
+        {
+          "name": "Loudness Discomfort Levels (LDLs)",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 16.1 (Right Panel)"
+          ],
+          "key_findings": "Significantly reduced LDLs across the frequency range (500-8000 Hz). Pattern converges with thresholds in high frequencies, consistent with hyperacusis.",
+          "numeric_results": {
+            "Range": "55 to 65 dB HL"
+          }
+        },
+        {
+          "name": "Tinnitus Functional Index (TFI)",
+          "timepoint_label": "Pre-treatment",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Indicates a significant problem with tinnitus.",
+          "numeric_results": {
+            "Score": "33.6"
+          }
+        },
+        {
+          "name": "Subjective Scales",
+          "timepoint_label": "Pre-treatment",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient rated severity, effect on life, and distress related to sound tolerance.",
+          "numeric_results": {
+            "Tolerance Problem Severity": "7/10",
+            "Effect on Life": "3/10",
+            "Distress": "3/10"
+          }
+        },
+        {
+          "name": "Real-Ear Measures (Probe Microphone)",
+          "timepoint_label": "Fitting",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Used to verify sound generator output. Volume adjusted to be 'comfortable but soft' and verified to be above the room noise floor.",
+          "numeric_results": {
+            "Initial Volume": "44 dB SPL",
+            "Final Volume": "49 dB SPL",
+            "Bandwidth": "500-4000 Hz"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal low-to-mid frequency hearing sloping to a mild high-frequency sensorineural hearing loss bilaterally, with excellent speech recognition in quiet. The primary audiologic finding is clinically significant hyperacusis, evidenced by Loudness Discomfort Levels (LDLs) reduced to 55–65 dB HL across frequencies. Tinnitus is also present and bothersome, but sound tolerance is the primary complaint.",
+  "counseling_points": [
+    "Your sensitivity to sound is called hyperacusis; the goal of treatment is to desensitize your auditory system.",
+    "We will use sound therapy (broadband noise) through ear-level devices to help expand your range of comfortable loudness.",
+    "It is important not to 'overprotect' your ears (e.g., wearing earplugs in normal environments like the grocery store), as this can make sensitivity worse.",
+    "Wear the sound generators for at least 8 hours per day.",
+    "Set the volume to a level that is 'comfortable but soft'—it should be audible but not annoying."
+  ],
+  "notes_for_actor": [
+    "You are an active duty service member with a history of noise exposure (airfields/gunfire).",
+    "You are not deaf; you hear quite well in quiet, but loud sounds like dishes clattering or sirens physically hurt your ears (pain rating 3-4/10).",
+    "You are anxious about loud environments (concerts, movies) but you do not wear earplugs all the time, only for hazardous noise.",
+    "You are cooperative and willing to try the sound therapy devices."
+  ]
+}

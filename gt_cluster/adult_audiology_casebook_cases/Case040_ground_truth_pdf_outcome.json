@@ -1,0 +1,104 @@
+{
+  "case_id": "Case040",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sensorineural hearing loss",
+      "rationale_short": "Bilateral symmetrical mild to moderate-severe gradually sloping hearing loss with a history of noise exposure."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity across frequencies."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear pathway integrity."
+      },
+      {
+        "action": "Patient Report/Outcome",
+        "urgency": "routine",
+        "rationale_short": "To evaluate subjective benefit and satisfaction with amplification."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic assessment revealed a bilateral symmetrical mild to moderate-severe sensorineural hearing loss with excellent word recognition scores in quiet. Immittance testing was normal. The patient was counseled and fitted with hearing aids using a manufacturer's 'Quick-Fit' protocol without real-ear verification.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Bilateral symmetrical mild to moderate-severe gradually sloping sensorineural hearing loss (thresholds 15-60 dB HL). Unaided audibility index calculated as 0.44."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRTs (32-33 dB HL) consistent with PTA; Word Recognition Scores excellent (92-96% at 70 dB HL)."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Normal Type A bilaterally (ECV 1.1-1.3 mL, Peak Y 0.5-0.6 mmho)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Generally within normal limits; slightly elevated at 2000 and 4000 Hz for left ipsilateral and 4000 Hz for left contralateral stimulation."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "The patient returned for follow-up reporting no benefit from the devices and requested to terminate the trial. Retrospective analysis indicated the 'Quick-Fit' settings provided insufficient audibility compared to prescriptive targets.",
+        "tests": [
+          {
+            "name": "Patient Report/Outcome",
+            "result_summary": "Patient reported devices did not improve ability to understand speech and wished to terminate the trial period."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Smartphone-enabled receiver-in-the-canal (RIC) hearing aids with open domes",
+      "Wireless remote microphone",
+      "Smartphone application for streaming phone calls",
+      "Real-Ear Measurement (REM) verification (recommended in discussion to ensure NAL-NL2 targets are met)"
+    ],
+    "counseling_actions": [
+      "Counseling on audiologic evaluation results",
+      "Counseling on use and maintenance of devices",
+      "Communication strategies",
+      "Counseling on the importance of verification (implied by case lesson)"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiologist",
+      "rationale_short": "Patient requires audiological management for hearing loss, specifically verified hearing aid fitting."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 week",
+    "objective": "Follow-up appointment to check progress and benefit."
+  },
+  "expected_outcome": [
+    "Patient reported that the devices did not improve his ability to understand speech.",
+    "Patient wished to terminate the trial period.",
+    "Patient had a negative reaction toward his audiologist and the possible benefit provided by hearing aids."
+  ]
+}

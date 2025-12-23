@@ -1,0 +1,118 @@
+{
+  "case_id": "Case028",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right Horizontal (Lateral) Canalithiasis",
+      "rationale_short": "Supine roll testing showed geotropic nystagmus stronger on the right side (135 deg/s vs 50 deg/s); Bow and Lean Test showed right-beating nystagmus in the bow position, confirming the right ear as the affected side."
+    },
+    {
+      "rank": 2,
+      "label": "Left Horizontal (Lateral) Canalithiasis",
+      "rationale_short": "Initially suspected by the referring physician due to history, but ruled out by the intensity of nystagmus (stronger on right) and the direction of the Bow and Lean Test results."
+    },
+    {
+      "rank": 3,
+      "label": "Posterior Canal BPPV",
+      "rationale_short": "Ruled out during the current presentation as the nystagmus was purely horizontal without the torsional component seen in the patient's previous episode 2 years prior."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Dix-Hallpike / Positional Testing",
+        "urgency": "routine",
+        "rationale_short": "Initial assessment performed 2 years prior for vertigo triggered by head movement."
+      },
+      {
+        "action": "Positional Testing (Clinical)",
+        "urgency": "routine",
+        "rationale_short": "Bedside assessment of recurrent vertigo symptoms at the physician's office."
+      },
+      {
+        "action": "VNG/VOG - Spontaneous & Gaze",
+        "urgency": "routine",
+        "rationale_short": "Part of the formal vestibular battery to assess for central or peripheral vestibular dysfunction."
+      },
+      {
+        "action": "Positional Testing (Dix-Hallpike & Supine Roll)",
+        "urgency": "routine",
+        "rationale_short": "To identify the specific canal and side involved in BPPV using video goggles for precise measurement."
+      },
+      {
+        "action": "Bow and Lean Test (BLT)",
+        "urgency": "routine",
+        "rationale_short": "To differentiate the affected ear in lateral canal BPPV when roll test lateralization is ambiguous or to confirm findings."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Two years prior, the patient presented with vertigo. Testing revealed Left Posterior Canal BPPV, which was successfully treated with an Epley maneuver.",
+        "tests": [
+          {
+            "name": "Dix-Hallpike / Positional Testing",
+            "category": "Vestibular",
+            "result_summary": "Brisk upbeat geotropic torsional nystagmus in head-hanging left position; duration 15-20 seconds after 2-3 second latency."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "The patient returned with recurrent vertigo. Clinical examination showed horizontal nystagmus consistent with lateral canal BPPV. Although eye movements appeared stronger on the right, the physician treated the left side based on history, which worsened symptoms.",
+        "tests": [
+          {
+            "name": "Positional Testing (Clinical)",
+            "category": "Vestibular",
+            "result_summary": "Left Dix-Hallpike elicited brisk geotropic horizontal nystagmus. Roll test showed stronger eye movement on the right side."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Formal vestibular testing confirmed Right Horizontal Canalithiasis. Positional testing showed geotropic nystagmus stronger on the right side (135 deg/s vs 50 deg/s). The Bow and Lean Test confirmed the right side as affected (Bow right, Lean left).",
+        "tests": [
+          {
+            "name": "VNG/VOG - Spontaneous & Gaze",
+            "category": "Vestibular",
+            "result_summary": "1 deg/s rightward-beating spontaneous nystagmus without vision; no gaze nystagmus."
+          },
+          {
+            "name": "Positional Testing (Dix-Hallpike & Supine Roll)",
+            "category": "Vestibular",
+            "result_summary": "Robust geotropic horizontal nystagmus in lateral positions. Stronger in Supine Body Right (135 deg/s) compared to Supine Body Left (50 deg/s)."
+          },
+          {
+            "name": "Bow and Lean Test (BLT)",
+            "category": "Vestibular",
+            "result_summary": "Bow position: 97 deg/s rightward nystagmus. Lean position: 65 deg/s leftward nystagmus. Indicates right ear affected."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "360-degree log roll maneuver from right to left"
+    ],
+    "counseling_actions": [
+      "Sleep on left side with head propped up slightly to avoid recurrence",
+      "Return if symptoms recur"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "routine follow-up",
+      "rationale_short": "Patient was treated successfully in the clinic and instructed to return only if symptoms recur."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor for recurrence of symptoms."
+  },
+  "expected_outcome": [
+    "Patient remains symptom-free for 20 months to date."
+  ]
+}

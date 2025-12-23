@@ -1,0 +1,165 @@
+{
+  "case_id": "Case19_Severe_Hyperacusis_and_Tinnitus",
+  "title": "Severe Hyperacusis and Tinnitus",
+  "demographics": {
+    "age_years": 56,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "The sounds in the waiting room were incredibly bothersome. Eating sounds cause my tinnitus to become unbearable, and I can't sleep through the night.",
+  "problem_summary": {
+    "onset": "Sound intolerance began approximately 1 year ago; tinnitus began abruptly 2 months ago.",
+    "course": "Worsened substantially with the onset of tinnitus; symptoms exacerbated during quarantine.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Anxiety, sleep disturbance, significant weight loss (inability to chew/swallow due to noise), reactive tinnitus.",
+    "functional_impact": "Catastrophic (10/10) effect on life. Patient removes sound sources from home, wears ear protection in quiet, and fears loud sounds (phonophobia).",
+    "goals_motivation": "Seeking relief from sound intolerance and tinnitus."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2020-05-12",
+      "setting": "Otolaryngology Practice (ENT)",
+      "history": {
+        "present_illness": "Initial evaluation for hearing loss.",
+        "otologic_history": "Diagnosed with hyperacusis by PA.",
+        "prior_management": "Referred to speech and hearing clinic.",
+        "patient_goals": "Patient did not understand hyperacusis diagnosis at this time."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 19.1"
+          ],
+          "key_findings": "Normal hearing sensitivity from 250-6000 Hz in the left ear and 250-4000 Hz in the right ear. Mild-to-moderate high-frequency sensorineural hearing loss at 8000 Hz bilaterally.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "250Hz: 15, 500Hz: 10, 1kHz: 5, 2kHz: 10, 4kHz: 10, 8kHz: 40 dB HL",
+            "Left_Ear_Thresholds": "250Hz: 10, 500Hz: 15, 1kHz: 10, 2kHz: 5, 4kHz: 10, 8kHz: 50 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 19.1"
+          ],
+          "key_findings": "Excellent word recognition ability bilaterally at conversational levels.",
+          "numeric_results": {
+            "SRT_Right": "0 dB",
+            "SRT_Left": "0 dB",
+            "WRS_Right": "100% @ 40 dB",
+            "WRS_Left": "100% @ 40 dB"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "University Speech and Hearing Center",
+      "history": {
+        "present_illness": "Patient waited in restroom to avoid waiting room noise. Flinched at door opening, otoscope placement, and normal speaking volumes.",
+        "otologic_history": "Otoscopy unremarkable. Immittance deferred due to severe sound intolerance.",
+        "noise_exposure_history": "Describes 'loud' as a car passing by.",
+        "medical_psych_history": "Symptoms consistent with anxiety disorder (DSM-5 criteria).",
+        "prior_management": "Used phone app sound generator but found it ineffective. Wears ear protection in quiet.",
+        "patient_goals": "Reduce sound intolerance and tinnitus disturbance."
+      },
+      "tests": [
+        {
+          "name": "Self-report scales",
+          "timepoint_label": "Pre-treatment",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Scores indicate catastrophic handicap and a very big problem.",
+          "numeric_results": {
+            "Tinnitus_Functional_Index_(TFI)": "83",
+            "Tinnitus_Handicap_Inventory_(THI)": "84"
+          }
+        },
+        {
+          "name": "Ultra-high-frequency audiometry",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 19.2"
+          ],
+          "key_findings": "Moderate-to-severe loss from 9,000 to 14,000 Hz. No responses above 14,000 Hz.",
+          "numeric_results": {
+            "Range_9k-14k": "Thresholds approx 50-90 dB HL",
+            "Above_14k": "No Response"
+          }
+        },
+        {
+          "name": "Loudness Discomfort Levels (LDL)",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 19.2"
+          ],
+          "key_findings": "Significantly reduced sound tolerance bilaterally. Tolerance for tones was worse than for speech.",
+          "numeric_results": {
+            "LDL_Speech_Right": "55 dB HL",
+            "LDL_Speech_Left": "45 dB HL",
+            "LDL_Pure_Tones_(500-4k)": "20-30 dB HL"
+          }
+        },
+        {
+          "name": "Tinnitus Evaluation",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Pitch/loudness match and minimum masking completed. Residual inhibition testing stopped early due to discomfort.",
+          "numeric_results": {
+            "Residual_Inhibition_Duration": "Stopped at 24 seconds"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity through 4000-6000 Hz, dropping to a mild-to-moderate loss at 8000 Hz and moderate-to-severe ultra-high-frequency loss. The primary audiological finding is severe hyperacusis with collapsed Loudness Discomfort Levels (20-30 dB HL for tones), accompanied by catastrophic tinnitus distress (THI 84).",
+  "counseling_points": [
+    "Hyperacusis is not a hearing loss, but a sensitivity where the brain's 'volume control' is turned up too high.",
+    "Over-protection of ears (wearing plugs in quiet) can actually make the sensitivity worse over time.",
+    "We need to gradually reintroduce sound to the auditory system (desensitization) rather than avoiding it.",
+    "Reactive tinnitus (spikes in ringing after noise) is common with this condition and usually settles back down."
+  ],
+  "notes_for_actor": [
+    "You are extremely jumpy and anxious. Flinch visibly at small sounds like a pen clicking, a door closing, or the doctor speaking at a normal volume.",
+    "You are terrified of eating because the chewing noise spikes your tinnitus.",
+    "You have lost weight because you are afraid to chew.",
+    "You are wearing earplugs or muffs when you enter, or you are covering your ears."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "case_id": "Case004_06",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Normal hearing",
+      "rationale_short": "Pure-tone thresholds are within normal limits (0-10 dB HL) bilaterally, with excellent speech recognition scores and normal tympanograms."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity across the frequency range given family concerns about hearing."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc, although testing was attempted."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation revealed normal hearing sensitivity bilaterally with thresholds between 0 and 10 dB HL. Speech audiometry showed excellent word recognition (100%) and SRTs consistent with pure-tone averages. Tympanometry indicated normal middle ear function. Acoustic reflexes could not be measured due to technical difficulties with the probe seal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally (0-10 dB HL) at 250-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs (Right: 10 dB HL, Left: 8 dB HL) in agreement with PTA. WRS 100% bilaterally at 55 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally (Static Admittance 0.70 mmho)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Could not test (CNT) due to inability to maintain a probe seal."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Return for hearing test as needed"
+    ],
+    "counseling_actions": [
+      "Explain that hearing test results are completely normal in both ears.",
+      "Discuss that difficulty hearing in the dance studio is likely due to background noise and acoustics.",
+      "Explain that the loud voice may be a habit or a natural reaction to the noisy environment (Lombard effect)."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient is scheduled to follow up with the otologist; no audiologic pathology was identified."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor hearing status if patient notices changes."
+  },
+  "expected_outcome": []
+}

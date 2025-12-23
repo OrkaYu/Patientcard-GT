@@ -1,0 +1,176 @@
+{
+  "case_id": "Case15_Pulsatile_Tinnitus",
+  "title": "Case 15: Pulsatile Tinnitus with Hearing Aid Use",
+  "demographics": {
+    "age_years": 81,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I hear my heartbeat in my left ear, but only when I wear these new hearing aids. I never had this problem with my old ones.",
+  "problem_summary": {
+    "onset": "June 2019, immediately following the fitting of new custom ITE hearing aids.",
+    "course": "Persistent and stable sensation of pulsing in the left ear only when the device is inserted. Resistant to standard programming adjustments.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Sensation of heartbeat (pulsatile tinnitus).",
+    "functional_impact": "Patient is annoyed and frustrated; believes the devices are at fault.",
+    "goals_motivation": "Wants the pulsing to stop so he can use his hearing aids like he used to."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2019-05-01",
+      "setting": "ENT Office / Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presented for routine examination. Current ITE devices (fitted 1995, same brand) were malfunctioning.",
+        "otologic_history": "History of successful ITE use since 1995.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Recent heart issues; stents placed. Pacemaker placed later in Dec 2019.",
+        "prior_management": "Experienced hearing aid user.",
+        "patient_goals": "Order new ITE hearing devices."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Clear canals bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Type A tympanograms bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Symmetric, moderate-to-profound sensorineural hearing loss. Stable since 2013.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "SRTs consistent with PTA. Word recognition scores poor to fair.",
+          "numeric_results": {
+            "SRT_Right": "65 dB HL",
+            "SRT_Left": "65 dB HL",
+            "WRS_Right": "48% at 95 dB HL",
+            "WRS_Left": "64% at 95 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2019-06-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Initial fit of new ITE instruments. Patient immediately complained of hearing his heartbeat in the left ear.",
+        "otologic_history": "Patient insists he never experienced this with previous devices.",
+        "medical_psych_history": "Patient initially refused ENT/Cardiology referrals, convinced the hearing aid was the cause.",
+        "prior_management": "Fine-tuning adjustments attempted (decreasing LF gain, overall gain, MPO) without success.",
+        "patient_goals": "Eliminate the pulsing sound."
+      },
+      "tests": []
+    },
+    {
+      "visit_id": "V3",
+      "date": "2019-11-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up for persistent pulsatile tinnitus despite remakes (open jaw impressions, larger vent).",
+        "prior_management": "Manufacturer representative present. Wedging a cotton ball between device and outer ear (triangular fossa) stopped the heartbeat sound.",
+        "patient_goals": "Modify device to replicate the pressure provided by the cotton ball."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Troubleshooting",
+          "ear": "left",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Physical pressure on the device near the triangular fossa eliminated the pulsatile tinnitus.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "2020-09-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Ongoing issues. Previous helix build-up failed. Cardiology eval was negative. Gain reduction at 2-4kHz failed.",
+        "medical_psych_history": "CT Angiogram and Temporal Bone CT performed.",
+        "prior_management": "Sound therapy attempted but failed (minimum masking level could not be obtained).",
+        "patient_goals": "Resolution."
+      },
+      "tests": [
+        {
+          "name": "Imaging (CT Scan)",
+          "timepoint_label": "Diagnostic",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Dehiscence of the temporal bone portion separating the Eustachian tube from the internal carotid artery.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Intervention",
+          "ear": "left",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Manufacturer audiologist tapered the end of the ITE device (Redwing modification) to reduce contact with the ear canal while maintaining retention.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with symmetric, moderate-to-profound sensorineural hearing loss with poor-to-fair word recognition abilities. The primary audiological challenge is left-sided pulsatile tinnitus triggered mechanically by the physical fit of a custom ITE hearing aid, specifically related to contact with the canal wall in the presence of a temporal bone dehiscence.",
+  "counseling_points": [
+    "The pulsing sound you hear is your own heartbeat, which is becoming audible due to the specific way the hearing aid sits in your ear canal.",
+    "Imaging revealed a thinning of the bone between your ear structures and a major blood vessel (internal carotid artery). This is why the physical contact of the hearing aid transmits the sound.",
+    "We have modified the shape of the hearing aid tip to reduce contact with that sensitive area, which should stop the transfer of the pulse sound.",
+    "Since your cardiologist has cleared you, this sensation is annoying but benign."
+  ],
+  "notes_for_actor": [
+    "Portray an 81-year-old male who is experienced with hearing aids and very stubborn.",
+    "Initially, be resistant to medical referrals. Insist repeatedly: 'It's the hearing aid! My old ones never did this!'",
+    "You are frustrated that the new technology is worse than your 1995 devices.",
+    "Only report relief when the device is physically modified to not touch the canal wall (or when the cotton ball is wedged)."
+  ]
+}

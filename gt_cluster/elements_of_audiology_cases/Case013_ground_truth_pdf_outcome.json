@@ -1,0 +1,119 @@
+{
+  "case_id": "Case013",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral profound sensorineural hearing loss",
+      "rationale_short": "Retesting with insert receivers and mastoid bone conduction yielded no responses, confirming that initial responses were vibrotactile artifacts."
+    },
+    {
+      "rank": 2,
+      "label": "Severe mixed hearing loss",
+      "rationale_short": "Initial audiogram suggested air-bone gaps, but this was ruled out by normal tympanometry, absent reflexes, and the disappearance of thresholds during retest."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline evaluation of hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of speech detection and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluation of middle ear status to investigate potential conductive component."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assessment of reflex pathways to cross-check audiometric findings."
+      },
+      {
+        "action": "ABR and OAE",
+        "urgency": "routine",
+        "rationale_short": "Objective measures to confirm cochlear and neural integrity."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Retest with insert receivers and mastoid bone conduction to rule out vibrotactile responses."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial testing showed an audiogram resembling severe-to-profound mixed hearing loss with air-bone gaps. However, normal tympanometry and absent acoustic reflexes contradicted a conductive pathology. Objective measures (ABR, OAE) showed no response, supporting severe cochlear damage rather than a mixed loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Apparent mixed loss; AC 90-110 dB HL, BC 50-70 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: NR bilaterally; WRS: Could not test."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) bilaterally; static compliance 0.60 cc (Right), 0.57 cc (Left)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent ipsilateral and contralateral reflexes at 1000 Hz."
+          },
+          {
+            "name": "ABR and OAE",
+            "category": "Electrophysiology",
+            "result_summary": "ABR: NR; TEOAE: Absent."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Retesting with insert receivers resulted in no responses at audiometer limits, and moving the bone oscillator to the mastoid eliminated BC responses. This confirmed the initial 'hearing' was vibrotactile, establishing a diagnosis of profound sensorineural hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "No responses at audiometer limits with insert receivers; BC responses disappeared with mastoid placement."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Inform the physician that the air-bone gap is false, obviating the need for middle-ear surgery",
+      "Advise that successful use of hearing aids is unlikely due to lack of residual hearing",
+      "Pursue possibility of a cochlear implant",
+      "Consider vibrotactile devices"
+    ],
+    "counseling_actions": [
+      "Explain that previous responses were vibrotactile (felt vibrations) rather than auditory",
+      "Discuss the limitations of amplification given the profound loss",
+      "Approach changes to communication systems thoughtfully considering the patient's history and manual communication preference"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otolaryngologist",
+      "rationale_short": "To communicate the correct diagnosis and prevent the scheduled exploratory middle-ear surgery."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Not specified",
+    "objective": "Communicate findings to physician to prevent surgery and discuss rehabilitation options (CI, vibrotactile) with family."
+  },
+  "expected_outcome": []
+}

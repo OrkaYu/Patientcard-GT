@@ -1,0 +1,144 @@
+{
+  "case_id": "Case004",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder (CAPD)",
+      "rationale_short": "Normal peripheral hearing but significant deficits in dichotic listening, temporal patterning, and speech-in-noise (right ear), consistent with history of left functional hemispherectomy."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition thresholds and word recognition in quiet."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Otoacoustic Emissions (DPOAE)",
+        "urgency": "routine",
+        "rationale_short": "To assess cochlear outer hair cell function."
+      },
+      {
+        "action": "Words-in-Noise (WIN)",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition in noise as part of the CAPD battery."
+      },
+      {
+        "action": "Central Auditory Processing Battery",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory function given neurological history."
+      },
+      {
+        "action": "Electrophysiology (ABR/MLR/Late)",
+        "urgency": "routine",
+        "rationale_short": "To assess neural integrity and cortical processing of auditory information."
+      },
+      {
+        "action": "Functional Speech Perception (Boothroyd AB Lists)",
+        "urgency": "routine",
+        "rationale_short": "To assess functional benefit of amplification and FM in various conditions."
+      },
+      {
+        "action": "Hearing-in-Noise Test for Children (HINT-C)",
+        "urgency": "routine",
+        "rationale_short": "To assess sentence recognition in noise with and without technology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing sensitivity was within normal limits bilaterally. However, central auditory processing testing revealed significant deficits, particularly in the right ear (contralateral to the hemispherectomy) and in background noise. Electrophysiologic results confirmed that auditory information presented to the right ear was not processed efficiently by the remaining cortex. Functional testing demonstrated that a right hearing aid and FM system significantly improved speech recognition in noise and soft speech perception.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally (0-10 dB HL across frequencies)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs 0-5 dB HL; WRS 92% (Left) and 85% (Right)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear function bilaterally."
+          },
+          {
+            "name": "Otoacoustic Emissions (DPOAE)",
+            "category": "OAE",
+            "result_summary": "Present bilaterally."
+          },
+          {
+            "name": "Words-in-Noise (WIN)",
+            "category": "CAPD",
+            "result_summary": "Right ear severe difficulty (16.4 dB SNR), Left ear mild difficulty (7.6 dB SNR)."
+          },
+          {
+            "name": "Central Auditory Processing Battery",
+            "category": "CAPD",
+            "result_summary": "Significant deficits in Dichotic Digits (Right 50%), Dichotic Rhyme (Right 23%), and Frequency Patterns labeling (22%)."
+          },
+          {
+            "name": "Electrophysiology (ABR/MLR/Late)",
+            "category": "Electrophysiology",
+            "result_summary": "ABR normal; Late potentials (N1/P2) absent/abnormal when stimulating the right ear."
+          },
+          {
+            "name": "Functional Speech Perception (Boothroyd AB Lists)",
+            "category": "Functional",
+            "result_summary": "Aided (Right HA) and FM improved performance, reaching 100% in noise with FM (vs 70% unaided)."
+          },
+          {
+            "name": "Hearing-in-Noise Test for Children (HINT-C)",
+            "category": "Functional",
+            "result_summary": "Significant improvement with HA+FM (96%) compared to unaided (74%) in noise."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit mild gain hearing aid (Oticon Sensei Pro BTE) for the right ear",
+      "Provide personal FM/DM system (Phonak Roger/Oticon Amigo) coupled to HA for school",
+      "Trial of Dichotic Interaural Intensity Difference (DIID) training",
+      "Compensatory strategies (e.g., preferential seating)",
+      "Environmental modifications"
+    ],
+    "counseling_actions": [
+      "Explain CAPD diagnosis and link to neurological history (right ear pathway disconnection)",
+      "Provide in-services for family and school regarding device use",
+      "Discuss realistic expectations regarding brain plasticity and training outcomes"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "School system",
+      "rationale_short": "Coordination for FM/DM system implementation in the educational setting."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "7 months",
+    "objective": "Re-assess functional benefit of amplification/FM and evaluate outcomes of DIID training."
+  },
+  "expected_outcome": [
+    "Dichotic Interaural Intensity Difference (DIID) training results: No significant change in central auditory processing abilities (e.g., Dichotic Digits Double Right 37.5% post vs 35% pre).",
+    "Boothroyd Word Lists (7 months): Aided performance remained high (90-100% in soft/noise conditions); unaided scores showed slight, non-significant improvement.",
+    "Hearing-in-Noise Test for Children (HINT-C) (7 months): Aided performance in noise (86%) remained better than unaided baseline (74%).",
+    "Subjective reports: Mother reported reduced voice level and faster response to soft sounds; patient consistently requested and preferred wearing the hearing aid."
+  ]
+}

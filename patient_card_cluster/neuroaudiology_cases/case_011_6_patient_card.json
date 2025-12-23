@@ -1,0 +1,127 @@
+{
+  "case_id": "case_11_6",
+  "title": "19-Year-Old College Student with Undiagnosed CAPD and Learning Disabilities",
+  "demographics": {
+    "age_years": 19,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA (Massachusetts)"
+  },
+  "chief_complaint": "I have a very slow reading rate and trouble following lectures, especially if I try to take notes at the same time. I am worried this will hurt my chances for medical school, so I am seeking permission to take my qualifying exams on an untimed basis.",
+  "problem_summary": {
+    "onset": "Long-standing",
+    "course": "Stable, but compensated with strategies until college demands increased.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Difficulty hearing on the phone, difficulty listening in noise, inability to read or write cursive (alexia/agraphia features), slow response time.",
+    "functional_impact": "Academic struggle in lecture-heavy courses (especially with slides/dark rooms), reliance on speechreading, inability to multitask (listen and write).",
+    "goals_motivation": "Obtain academic accommodations (untimed testing) for medical school admission exams."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "University Communication Disorders Clinic",
+      "history": {
+        "present_illness": "Patient is a college sophomore with an A/A-B average in a competitive program. She reports difficulty following conversations if the speaker is not looking at her. She struggles significantly in an Art History class where the room is dark (slides), preventing speechreading. She cannot read or write cursive and has printed since 4th grade.",
+        "otologic_history": "None reported.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Previous neurologic and radiologic workups were essentially normal. Family history of learning problems (younger brother has LD).",
+        "prior_management": "Never previously diagnosed with LD; received informal support from teachers in private school. Developed own compensatory strategies (speechreading).",
+        "patient_goals": "Diagnosis to support request for untimed testing."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 11-12"
+          ],
+          "key_findings": "Thresholds well within the normal range bilaterally (0-10 dB HL across 250-8000 Hz).",
+          "numeric_results": {
+            "RE_thresholds": "0-10 dB HL",
+            "LE_thresholds": "0-10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 11-12"
+          ],
+          "key_findings": "Speech recognition scores in quiet were unexpectedly reduced for a patient with normal pure-tone sensitivity.",
+          "numeric_results": {
+            "RE_WRS": "70%",
+            "LE_WRS": "70%"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 11-13"
+          ],
+          "key_findings": "NU#6 lists in ipsilateral white noise (+10 dB SNR). Results were severely depressed bilaterally.",
+          "numeric_results": {
+            "RE_Score": "16%",
+            "LE_Score": "8%"
+          }
+        },
+        {
+          "name": "Central Auditory Processing Battery",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 11-13"
+          ],
+          "key_findings": "Bilateral deficits on all central tests. Moderate-to-severe deficits on temporal ordering; mild deficits on SSW; severe deficits on compressed speech and dichotic rhyme.",
+          "numeric_results": {
+            "Dichotic_Rhyme": "~20-30% (Abnormal)",
+            "SSW": "~70-80% (Mild Deficit)",
+            "Dichotic_Digits_RE": "Borderline Normal (~90%)",
+            "Dichotic_Digits_LE": "Mildly Depressed (~80%)",
+            "Compressed_Speech": "~0-5% (Severely Depressed)",
+            "Frequency_Patterns": "~40-60% (Moderate/Severe Deficit)",
+            "Duration_Patterns": "~40-50% (Moderate/Severe Deficit)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity but significant central auditory processing deficits. Key findings include reduced speech recognition in quiet (70%) and severely reduced speech recognition in noise (8-16%), alongside bilateral deficits in temporal ordering, dichotic listening, and compressed speech tasks. The profile suggests a severe central deficit, likely cortical, potentially involving the association regions (occipital/parietal/temporal convergence) given the comorbid agraphia/alexia for cursive script.",
+  "counseling_points": [
+    "Explain that the difficulty hearing in noise and on the phone is due to the central auditory deficit, not a peripheral hearing loss.",
+    "Recommend use of note-takers in class to allow the patient to focus on listening and speechreading.",
+    "Advise preferential seating to maximize visual cues and minimize background noise.",
+    "Support request for academic accommodations: untimed tests, small class sizes, and reduced courseload.",
+    "Discuss the link between the auditory processing issues and the reading/writing difficulties (neurological basis)."
+  ],
+  "notes_for_actor": [
+    "Demonstrate a noticeably slow response time to basic questions.",
+    "Show heavy reliance on visual cues; appear confused or ask for repetition if the speaker looks away or covers their mouth.",
+    "If asked to read or write something, print clearly. Do not use cursive.",
+    "Express anxiety about the medical school entrance exam specifically regarding the time limit, not the content difficulty."
+  ]
+}

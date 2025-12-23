@@ -1,0 +1,100 @@
+{
+  "case_id": "Case012_16",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Enlarged Vestibular Aqueducts (EVA)",
+      "rationale_short": "Confirmed by historical imaging (CT/MRI) at age 4; clinical presentation of progressive, stepwise sensorineural hearing loss in childhood is characteristic."
+    },
+    {
+      "rank": 2,
+      "label": "Bilateral Sensorineural Hearing Loss",
+      "rationale_short": "Audiometric findings show bone conduction thresholds consistent with air conduction thresholds, indicating sensorineural pathology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Comprehensive Audiologic Evaluation",
+        "urgency": "routine",
+        "rationale_short": "To assess current hearing thresholds and speech recognition abilities given the history of progression."
+      },
+      {
+        "action": "Cochlear Implant Evaluation",
+        "urgency": "routine",
+        "rationale_short": "Indicated for the left ear due to poor speech recognition (16%) and severity of hearing loss."
+      },
+      {
+        "action": "Imaging (CT/MRI)",
+        "urgency": "routine",
+        "rationale_short": "Previously performed at age 4, confirming the diagnosis of Enlarged Vestibular Aqueducts."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates asymmetric bilateral sensorineural hearing loss (Right: mild-severe, Left: moderate-profound). Middle ear function is normal. Speech understanding is excellent in the right ear but very poor in the left ear, suggesting limited benefit from conventional amplification on the left.",
+        "tests": [
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally, indicating normal middle ear pressure and mobility."
+          },
+          {
+            "name": "Acoustic Reflexes",
+            "category": "Immittance",
+            "result_summary": "Reflexes present when stimulating the Right ear (Ipsi and Contra) but absent when stimulating the Left ear, consistent with severe left-sided afferent deficit."
+          },
+          {
+            "name": "Pure-tone Audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Mild low/mid-frequency SNHL sloping to severe. Left ear: Moderate-to-severe sloping to profound SNHL."
+          },
+          {
+            "name": "Speech Audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 25 dB with 100% WRS; Left SRT 65 dB with 16% WRS."
+          },
+          {
+            "name": "Wideband Reflectance",
+            "category": "Immittance",
+            "result_summary": "Patterns consistent with normal middle ear status."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit and verify a BTE hearing aid for the Right ear.",
+      "Refer for Cochlear Implant (CI) evaluation for the Left ear.",
+      "Implement FM/DM system for classroom use."
+    ],
+    "counseling_actions": [
+      "Counsel on the progressive nature of hearing loss associated with EVA.",
+      "Strongly advise against contact sports and activities with risk of head trauma to preserve residual hearing.",
+      "Discuss the disparity in speech clarity between ears and the potential benefits of CI for the left ear."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Progressive hearing loss in a pediatric patient.",
+      "Asymmetric hearing loss.",
+      "Disproportionately poor speech recognition in the Left ear (16%)."
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Cochlear Implant Team / Otologist",
+      "rationale_short": "The left ear's speech recognition score is 16%, indicating that a hearing aid is providing insufficient benefit and a cochlear implant should be considered."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Every 3-6 months",
+    "objective": "Monitor hearing thresholds for further progression, check hearing aid function, and track CI evaluation status."
+  },
+  "expected_outcome": [
+    "Optimized audibility in the Right ear with amplification.",
+    "Potential restoration of functional hearing in the Left ear via Cochlear Implantation.",
+    "Prevention of sudden hearing drops through trauma avoidance."
+  ]
+}

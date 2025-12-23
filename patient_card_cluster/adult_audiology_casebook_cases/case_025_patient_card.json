@@ -1,0 +1,182 @@
+{
+  "case_id": "case25_Importance_of_Audiologic_and_Vestibular",
+  "title": "Unilateral Vestibular Schwannoma in a Police Officer",
+  "demographics": {
+    "age_years": 34,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I lost hearing in my right ear suddenly about 3 weeks ago, and I have this constant ringing sound in it. Two days ago, I started getting dizzy, feeling off-balance, and noticed weakness on the right side of my face.",
+  "problem_summary": {
+    "onset": "Sudden hearing loss and tinnitus 3 weeks prior; dizziness and facial weakness 2 days prior.",
+    "course": "Acute onset with recent addition of vestibular and facial nerve symptoms.",
+    "laterality": "Right",
+    "associated_symptoms": "Nonpulsatile tinnitus, intermittent vertigo, imbalance, right-sided facial weakness.",
+    "functional_impact": "Patient is a police officer; symptoms affect balance and communication.",
+    "goals_motivation": "Diagnosis and management of sudden symptoms to determine fitness for duty."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-08-12",
+      "setting": "Audiology and Vestibular Clinic",
+      "history": {
+        "present_illness": "Patient reports sudden HL and tinnitus (right) 3 weeks ago. Vertigo and facial weakness began 2 days ago.",
+        "otologic_history": "No prior mentioned issues until 3 weeks ago.",
+        "noise_exposure_history": "Police officer (likely occupational exposure, though not explicitly detailed in history text).",
+        "medical_psych_history": "History of non-Hodgkin lymphoma in early 20s (treated with chemotherapy and radiation).",
+        "prior_management": "Seen by Otolaryngology; prescribed oral steroids. Referred for comprehensive audiology and VNG.",
+        "patient_goals": "Determine cause of symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 25.1"
+          ],
+          "key_findings": "Right ear: Normal sloping to mild SNHL at 6-8 kHz. Left ear: Normal sloping to slight SNHL at 6-8 kHz. Asymmetry of 15-25 dB HL at 2, 4, and 6 kHz (Right poorer).",
+          "numeric_results": {
+            "RE_thresholds": "10-15 dB HL (low freqs) sloping to ~35 dB HL at 8 kHz",
+            "LE_thresholds": "5-10 dB HL (low freqs) sloping to ~20 dB HL at 8 kHz",
+            "Asymmetry": "15-25 dB difference at 2k, 4k, 6k Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 25.1"
+          ],
+          "key_findings": "Normal SRTs bilaterally. Significant rollover observed in the Right ear. Left ear WRS excellent.",
+          "numeric_results": {
+            "RE_SRT": "10 dB HL",
+            "LE_SRT": "5 dB HL",
+            "RE_WRS_PBmax": "68% at 50 dB HL (40 dB SL)",
+            "RE_WRS_PBmin": "16% at 75 dB HL",
+            "LE_WRS": "100% at 45 dB HL",
+            "Rollover_Index": "0.76 (Right Ear)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 25.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally.",
+          "numeric_results": {
+            "Type": "A (bilateral)",
+            "RE_Pressure": "-6 daPa",
+            "LE_Pressure": "-4 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 25.1"
+          ],
+          "key_findings": "Ipsilateral reflexes absent in the Right ear, present in the Left ear. Contralateral reflexes not performed due to equipment limits.",
+          "numeric_results": {
+            "RE_Ipsi": "Absent at 500, 1k, 2k, 4k Hz",
+            "LE_Ipsi": "Present (95, 95, 90, 90 dB HL)"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAE)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present and robust 1600-7100 Hz; absent at 8000 Hz bilaterally. Consistent with audiometric thresholds.",
+          "numeric_results": null
+        },
+        {
+          "name": "Gans Sensory Organization Performance (SOP)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 25.2"
+          ],
+          "key_findings": "Vestibular pattern of abnormality. Patient fell on conditions 4 and 6. Turned to the right on Fukuda step test.",
+          "numeric_results": {
+            "Condition_4_Tandem_Eyes_Closed": "Fall",
+            "Condition_6_Foam_Eyes_Closed": "Fall"
+          }
+        },
+        {
+          "name": "VNG (Videoconystagmography)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 25.3",
+            "Fig. 25.4",
+            "Fig. 25.5",
+            "Fig. 25.6",
+            "Fig. 25.7",
+            "Fig. 25.8"
+          ],
+          "key_findings": "Significant Right unilateral weakness. Left beating nystagmus post-high-frequency headshake. Oculomotor, Gaze, and Dix-Hallpike were normal.",
+          "numeric_results": {
+            "Right_Caloric_Weakness": "83%",
+            "Directional_Preponderance": "46% Left Beating",
+            "Spontaneous_Nystagmus": "None",
+            "Headshake_Nystagmus": "Left beating"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation reveals a mild high-frequency sensorineural hearing loss in the right ear with significant asymmetry compared to the left. Speech testing in the right ear shows 'rollover,' meaning clarity gets significantly worse as volume increases (dropping from 68% to 16%). Vestibular testing indicates a severe (83%) weakness of the right balance system and postural instability. Together with absent acoustic reflexes on the right, these findings strongly suggest retrocochlear pathology (an issue with the auditory/vestibular nerve) rather than a cochlear problem.",
+  "counseling_points": [
+    "Your hearing test confirms hearing loss in the right ear, but more importantly, we found that making speech louder actually makes it harder for you to understand in that ear.",
+    "The balance tests show your right inner ear balance system is 83% weaker than the left, which explains your dizziness and unsteadiness.",
+    "These findings—the specific type of hearing difficulty and the balance weakness—suggest the problem is located on the nerve connecting the ear to the brain.",
+    "Because of these results and your facial weakness, it is critical that you return to your ENT doctor immediately. They have ordered an MRI to look at the nerve, which is the necessary next step."
+  ],
+  "notes_for_actor": [
+    "Portray a 34-year-old police officer who is concerned about his ability to work in the field.",
+    "Demonstrate facial weakness on the right side (try to minimize movement of the right side of your mouth/forehead).",
+    "You are experiencing imbalance; you should appear slightly unsteady or cautious when moving.",
+    "You have nonpulsatile tinnitus (ringing) in the right ear."
+  ]
+}

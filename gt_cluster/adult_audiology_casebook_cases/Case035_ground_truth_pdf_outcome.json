@@ -1,0 +1,114 @@
+{
+  "case_id": "Case035",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sensorineural hearing loss",
+      "rationale_short": "Bilateral symmetric slight to severe high-frequency hearing loss consistent with presbycusis and noise exposure."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing sensitivity across frequencies."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech reception and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear function."
+      },
+      {
+        "action": "Otoacoustic Emissions (OAE)",
+        "urgency": "routine",
+        "rationale_short": "Assess outer hair cell function."
+      },
+      {
+        "action": "Real Ear Measurement (REM)",
+        "urgency": "routine",
+        "rationale_short": "Verify hearing aid output against prescriptive targets."
+      },
+      {
+        "action": "Subjective Music Evaluation",
+        "urgency": "routine",
+        "rationale_short": "Evaluate hearing aid performance with live music (tambourine)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometric evaluation revealed a bilateral symmetric slight to severe sensorineural hearing loss, sharply falling beyond 500 Hz, consistent with presbycusis and noise exposure. Speech understanding was excellent. Middle ear function was normal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral symmetric slight to severe SNHL, sharply falling beyond 500 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 30 dB HL, Left 25 dB HL. WRS: 100% at 60 dB HL bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear function bilaterally."
+          },
+          {
+            "name": "Otoacoustic Emissions (OAE)",
+            "category": "OAE",
+            "result_summary": "Responses present up to 1,000 Hz; absent above 1,000 Hz."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Hearing aids were fitted with gain matching NAL-NL1 targets. However, the patient reported significant distortion ('fuzzy', 'distorted') when playing the tambourine. This was identified as front-end clipping due to the high peak input level (110 dB SPL) exceeding the A/D converter's dynamic range.",
+        "tests": [
+          {
+            "name": "Real Ear Measurement (REM)",
+            "category": "Verification",
+            "result_summary": "Measured REIG closely matched NAL-NL1 targets for 50, 65, and 75 dB SPL inputs."
+          },
+          {
+            "name": "Subjective Music Evaluation",
+            "category": "Verification",
+            "result_summary": "Tambourine sound reported as 'useless' and 'distorted'. Peak input SPL measured at 110 dB SPL, exceeding the hearing aid input limit (~95 dB SPL)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit hearing aids with higher input dynamic range (e.g., post-16-bit architecture or analog compressor before A/D converter)",
+      "Utilize 'low-cut' microphone settings (-6 dB/octave) to reduce input sensitivity",
+      "Use hearing protection during high-volume performances"
+    ],
+    "counseling_actions": [
+      "Explain 'front-end' distortion: the tambourine's peak input (110 dB SPL) exceeds the hearing aid's A/D converter limit (~95 dB SPL)",
+      "Use the 'doorway' analogy: the signal is too tall to fit through the digital entrance without clipping",
+      "Reassure that the hearing aids are not broken but require specific technology for high-input music",
+      "Counsel on the nature of high-frequency hearing loss and the importance of hearing protection"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Continue management with appropriate technology selection for music."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Fit appropriate technology and verify resolution of music sound quality issues."
+  },
+  "expected_outcome": []
+}

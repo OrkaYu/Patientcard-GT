@@ -1,0 +1,139 @@
+{
+  "case_id": "Case004_07",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Auditory Nerve Involvement (Charcot-Marie-Tooth Syndrome)",
+      "rationale_short": "Supported by absent ABRs, significant speech rollover, and reflex decay despite mild hearing loss, consistent with neural dys-synchrony confirmed by CMT diagnosis."
+    },
+    {
+      "rank": 2,
+      "label": "Brainstem Lesion",
+      "rationale_short": "Considered due to abnormal central behavioral tests and ABR patterns, but radiologic findings were unremarkable."
+    },
+    {
+      "rank": 3,
+      "label": "Acoustic Neuroma",
+      "rationale_short": "Initial suspicion due to retrocochlear signs (rollover, decay), but ruled out by normal radiologic findings."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity baseline."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess recognition abilities and check for rollover at high intensities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology via reflex thresholds and decay."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate neural integrity given disproportionate speech difficulties."
+      },
+      {
+        "action": "Other (Central behavioral tests)",
+        "urgency": "soon",
+        "rationale_short": "To assess central auditory processing capabilities."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiological evaluation revealed mild sensorineural hearing loss with disproportionately poor speech recognition in noise and at high intensities (rollover). Objective measures showed excessive acoustic reflex decay and absent ABRs, strongly suggesting retrocochlear or neural dysfunction rather than cochlear pathology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Mild pure tone hearing loss bilaterally; thresholds generally in the 20-50 dB HL range."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "Excellent recognition at low levels (92% bilaterally) but significant rollover at high intensities (RE 44%, LE 48% at +50 dB SL)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Reflexes present at some frequencies but absent at high frequencies; excessive reflex decay (90-100%) present bilaterally."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "No repeatable response for either ear."
+          },
+          {
+            "name": "Other",
+            "category": "Central Auditory Tests",
+            "result_summary": "Abnormal performance on digits, competing sentences, SSW, frequency patterns, and filtered speech; abnormal binaural MLD (5 dB)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Medical workup ruled out space-occupying lesions but confirmed a systemic peripheral neuropathy affecting the auditory nerve.",
+        "tests": [
+          {
+            "name": "Other",
+            "category": "Medical Workup",
+            "result_summary": "Radiologic findings unremarkable; neurologic workup and EMG confirmed Charcot-Marie-Tooth (CMT) syndrome."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "FM assistive listening device trial",
+      "Communication and listening strategies"
+    ],
+    "counseling_actions": [
+      "Explain that hearing difficulty is due to neural dys-synchrony (clarity loss) rather than sensitivity loss",
+      "Discuss why standard hearing aids were unsuccessful due to amplification of distorted signals",
+      "Counsel on the nature of Charcot-Marie-Tooth syndrome and its effect on the auditory system",
+      "Discuss environmental modifications to reduce background noise"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Significant bilateral speech recognition rollover",
+      "Excessive acoustic reflex decay",
+      "Absent ABRs despite preserved pure-tone thresholds",
+      "Abnormal central auditory test results"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurology",
+      "rationale_short": "Referral for radiologic and neurologic workup to investigate retrocochlear pathology and confirm suspected neuropathy."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual or as needed",
+    "objective": "Monitor progression of auditory symptoms and functional communication status."
+  },
+  "expected_outcome": [
+    "Auditory symptoms progressed only slightly over many years of follow-up.",
+    "Audiological findings remained similar to initial evaluation.",
+    "FM assistive listening device provided the patient with some assistance.",
+    "Patient changed job to one that was not as auditorily demanding.",
+    "Patient continues to have considerable difficulty hearing in less than ideal acoustic environments."
+  ]
+}

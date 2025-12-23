@@ -1,0 +1,129 @@
+{
+  "case_id": "case_4_5",
+  "title": "Recovered Sudden Hearing Loss with Residual Functional Complaints",
+  "demographics": {
+    "age_years": 30,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I had sudden hearing loss in my right ear about 10 months ago. Even though it improved after the injections, I still have trouble hearing when there are multiple people talking or when speech is coming from a distance.",
+  "problem_summary": {
+    "onset": "Sudden onset approximately 10 months prior to evaluation.",
+    "course": "Initial moderately severe mixed loss in the right ear; improved to normal limits following intratympanic steroid injections.",
+    "laterality": "Right ear (symptoms); Bilateral (current normal thresholds).",
+    "associated_symptoms": "Episodic dizziness with nausea (2x/week), intermittent tinnitus, aural pressure, and otalgia in the right ear.",
+    "functional_impact": "Difficulty hearing in noise (multiple talkers) and over distance.",
+    "goals_motivation": "Interested in assistive hearing devices to manage functional difficulties."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-08-11",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports sudden hearing loss in the right ear 10 months ago. Previous audiogram showed moderately severe mixed loss rising to WNL. Treated with intratympanic steroids with slight improvement.",
+        "otologic_history": "Intermittent tinnitus, pressure, and otalgia in the right ear. No other otologic history reported.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Experiencing episodic dizziness with nausea (twice weekly); currently undergoing vestibular rehabilitation which has been helpful.",
+        "prior_management": "Intratympanic steroid injections; Vestibular rehabilitation.",
+        "patient_goals": "Seeking help for hearing in complex environments (noise/distance)."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4.5"
+          ],
+          "key_findings": "Bilateral air conduction thresholds are within normal limits (0-15 dB HL) from 250 to 8000 Hz. No significant air-bone gaps observed.",
+          "numeric_results": {
+            "RE_PTA": "Within normal limits (0-15 dB HL range)",
+            "LE_PTA": "Within normal limits (0-10 dB HL range)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4.5"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) are in agreement with pure-tone averages. Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "5 dB",
+            "RE_WRS": "96% at 50 dB HL",
+            "LE_SRT": "3 dB",
+            "LE_WRS": "96% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4.5"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "RE_Static_Admittance": "0.3 mL",
+            "RE_Peak_Pressure": "-20 daPa",
+            "RE_Volume": "0.9 mL",
+            "LE_Static_Admittance": "0.3 mL",
+            "LE_Peak_Pressure": "-20 daPa",
+            "LE_Volume": "0.6 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4.5"
+          ],
+          "key_findings": "Ipsilateral reflexes normal 500-4000 Hz. Contralateral reflexes normal 1000-4000 Hz but elevated at 500 Hz bilaterally. Reflex decay negative at 1000 Hz; CNT at 500 Hz due to elevated thresholds.",
+          "numeric_results": {
+            "RE_Contra_500Hz": "105 dB HL",
+            "LE_Contra_500Hz": "110 dB HL",
+            "Reflex_Decay_1kHz": "Negative"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient demonstrates bilateral hearing sensitivity within normal limits following treatment for sudden right-sided hearing loss. Speech recognition in quiet is excellent bilaterally. Immittance testing is largely normal, though contralateral acoustic reflexes are elevated at 500 Hz. Despite audiometric recovery, the patient reports persistent functional deficits in challenging listening environments.",
+  "counseling_points": [
+    "Your hearing test today shows that your hearing sensitivity has recovered to within the normal range in both ears.",
+    "Although the chart looks 'normal,' it is common for patients recovering from sudden hearing loss to still feel like they struggle in background noise or with distance.",
+    "Since you are interested in extra help, we can discuss Hearing Assistive Technology (HAT), such as remote microphone systems, which bring the speaker's voice directly to your ears to overcome distance and noise.",
+    "Continue with your vestibular rehabilitation as it seems to be helping with the dizziness.",
+    "It is important to use hearing protection in noisy environments to preserve your recovered hearing.",
+    "Please return for a re-evaluation immediately if you notice any sudden changes in hearing, pressure, or ringing."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is relieved that their hearing 'came back' after the scare 10 months ago, but is frustrated that doctors keep saying 'it's normal' when you still struggle in restaurants or meetings.",
+    "You have a history of dizziness/nausea (2x/week), so you might mention feeling off-balance or anxious about the dizziness returning.",
+    "You are motivated to try devices (HAT) even if you don't need full hearing aids, because you want to function better in noise."
+  ]
+}

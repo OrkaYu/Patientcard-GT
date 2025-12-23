@@ -1,0 +1,131 @@
+{
+  "case_id": "case_5_30",
+  "title": "Annual Monitoring of Right-Sided Vestibular Schwannoma",
+  "demographics": {
+    "age_years": 58,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I'm here for my annual hearing test to monitor my condition. My tinnitus is usually constant and low-level in both ears, but recently it seems to have become a little louder on the right side.",
+  "problem_summary": {
+    "onset": "Diagnosed with right-sided vestibular schwannoma in 2007.",
+    "course": "Hearing loss perceived as stable; recent slight increase in right-sided tinnitus loudness.",
+    "laterality": "Bilateral hearing loss (asymmetric); Right-sided tumor.",
+    "associated_symptoms": "Constant low-level bilateral tinnitus.",
+    "functional_impact": "Slight difficulty recognizing speech.",
+    "goals_motivation": "Monitor hearing sensitivity annually to track tumor status."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-03-31",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient diagnosed with right-sided vestibular schwannoma in 2007. Seen annually for monitoring. Reports stable hearing but slightly louder tinnitus in the right ear recently.",
+        "otologic_history": "Right-sided vestibular schwannoma.",
+        "noise_exposure_history": "No significant history of noise exposure.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Annual hearing evaluations.",
+        "patient_goals": "Monitor for changes in hearing sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.30"
+          ],
+          "key_findings": "Right ear: Normal 250-1000 Hz, sloping to mild loss at 1.5-2k Hz, steeply sloping to severe at 3-8k Hz with a profound notch at 6k Hz. Left ear: Normal 250-2k Hz, steeply sloping to moderately-severe at 3k Hz and severe at 4-8k Hz with a profound notch at 6k Hz.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 10, 500Hz: 15, 1kHz: 15, 2kHz: 30, 3kHz: 70, 4kHz: 80, 6kHz: 95, 8kHz: 80 dB HL",
+            "Left_AC_Thresholds": "250Hz: 5, 500Hz: 5, 1kHz: 10, 2kHz: 10, 3kHz: 55, 4kHz: 75, 6kHz: 95, 8kHz: 80 dB HL",
+            "Right_PTA": "20 dB",
+            "Left_PTA": "7 dB"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.30"
+          ],
+          "key_findings": "SRT agrees with PTA bilaterally. WRS indicates slight difficulty in the right ear and normal ability in the left ear.",
+          "numeric_results": {
+            "Right_SRT": "20 dB",
+            "Right_WRS": "88% at 75 dB HL",
+            "Left_SRT": "10 dB",
+            "Left_WRS": "92% at 70 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.30"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "Right_Vol": "1.2 mL",
+            "Right_Peak_Pressure": "5 daPa",
+            "Right_Admittance": "0.5 mL",
+            "Left_Vol": "1.3 mL",
+            "Left_Peak_Pressure": "15 daPa",
+            "Left_Admittance": "0.4 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.30"
+          ],
+          "key_findings": "Ipsilateral: Present at 500/1k Hz, absent at higher frequencies. Contralateral: Right stimulation absent at 2k/4k Hz; Left stimulation absent at 4k Hz. Reflex decay negative where tested.",
+          "numeric_results": {
+            "Right_Ipsi": "500Hz: 95, 1kHz: 90, 2kHz: 95, 4kHz: ABS",
+            "Left_Ipsi": "500Hz: 95, 1kHz: 90, 2kHz: 95, 4kHz: ABS",
+            "Right_Contra_Stim": "500Hz: 100, 1kHz: 105, 2kHz: ABS, 4kHz: ABS",
+            "Left_Contra_Stim": "500Hz: 95, 1kHz: 90, 2kHz: 95, 4kHz: ABS"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal low-frequency hearing sloping to severe high-frequency sensorineural hearing loss bilaterally. The loss is asymmetric, with the right ear (tumor side) sloping earlier (1.5 kHz) than the left (3 kHz). Speech recognition remains good bilaterally, and results are stable compared to previous evaluations.",
+  "counseling_points": [
+    "Your hearing test results are stable compared to your last visit; there are no clinically significant changes.",
+    "We will continue to monitor your hearing annually as recommended by your otologist.",
+    "Given your high-frequency hearing loss, you may benefit from Hearing Assistive Technology (HAT) for the TV.",
+    "It is important to use hearing protection in noisy environments to preserve your remaining hearing.",
+    "Amplification (hearing aids) is an option to consider to help with the high-frequency loss."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is calm and accustomed to these annual checks.",
+    "You are not in acute distress, but you have noticed your tinnitus is slightly louder on the right side recently.",
+    "You perceive your hearing loss as stable."
+  ]
+}

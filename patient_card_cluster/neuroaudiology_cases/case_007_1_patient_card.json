@@ -1,0 +1,145 @@
+{
+  "case_id": "case_7_1",
+  "title": "Auditory Cortex Involvement: Right Middle Cerebral Artery Stroke",
+  "demographics": {
+    "age_years": 57,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "United States"
+  },
+  "chief_complaint": "I have trouble hearing in difficult listening situations, and I feel like my left ear is not as good as my right. Also, I used to be a singer, but now I can't carry a tune and music doesn't sound melodic to me anymore.",
+  "problem_summary": {
+    "onset": "6.5 years prior to evaluation",
+    "course": "Stable sequelae following a stroke",
+    "laterality": "Bilateral functional difficulty; Left ear perceived worse; Right hemisphere lesion",
+    "associated_symptoms": "Left arm and leg restricted movement, mild left-sided visual perceptual problems, amusia (loss of music appreciation/ability).",
+    "functional_impact": "Difficulty in noise, inability to sing or appreciate music, reliance on right hand for daily activities.",
+    "goals_motivation": "Research participant; interested in understanding his auditory deficits."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Research Evaluation",
+      "history": {
+        "present_illness": "The patient suffered a stroke 6.5 years ago involving the distribution of the right middle cerebral artery. Acute symptoms included severe frontal headache, left hemiparesis, left vision loss, nausea, and vomiting. He was hospitalized for a month.",
+        "otologic_history": "Subjective hearing difficulty in the left ear despite feeling the right ear is 'better'.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Right middle cerebral artery (RMCA) stroke. Residual left hemiparesis and mild visual perceptual problems. Cognitively intact.",
+        "prior_management": "Hospitalization for stroke; current research evaluation.",
+        "patient_goals": "Patient notes he understands/appreciates songs in his native European language better than in English."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-5"
+          ],
+          "key_findings": "Essentially normal thresholds on the left. Very mild high-frequency sensorineural hearing loss on the right.",
+          "numeric_results": {
+            "LE_Thresholds": "0-10 dB HL (250-8000 Hz)",
+            "RE_Thresholds": "10-20 dB HL (250-2000 Hz), sloping to 30-35 dB HL (4000-8000 Hz)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-5"
+          ],
+          "key_findings": "Excellent speech recognition bilaterally.",
+          "numeric_results": {
+            "WRS_RE": "100%",
+            "WRS_LE": "100%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-6"
+          ],
+          "key_findings": "Central behavioral tests (Dichotic Rhyme, Dichotic Digits, Compressed Speech) showed significant left ear deficits (contralateral to lesion). Duration and Frequency Pattern tests were normal bilaterally, likely due to patient's musical background.",
+          "numeric_results": {
+            "Dichotic_Rhyme_LE": "~30% (Deficit)",
+            "Dichotic_Digits_LE": "~65% (Deficit)",
+            "Compressed_Speech_LE": "~45% (Deficit)",
+            "Duration_Patterns": "Normal bilaterally",
+            "Frequency_Patterns": "Normal bilaterally"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-7",
+            "Figure 7-8",
+            "Figure 7-9"
+          ],
+          "key_findings": "Electrophysiology: ABR normal bilaterally. MLR showed electrode effect: T4 (right/lesion side) absent/poor responses; T3 (left) normal. Late potentials (N1/P2) showed smaller amplitudes for right hemisphere (C4) recordings and left ear stimulation.",
+          "numeric_results": {
+            "MLR_T4": "Noisy/Absent response",
+            "MLR_T3": "Normal Na, Pa, Nb, Pb",
+            "P300_Latency": "Grossly within accepted range"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Post-op",
+          "ear": "null",
+          "condition": "null",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-2",
+            "Figure 7-3",
+            "Figure 7-4"
+          ],
+          "key_findings": "CT scans show large area of encephalomalacia in right frontal, temporal, and parietal lobes, consistent with RMCA stroke.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a classic profile of right hemisphere auditory cortex involvement following an RMCA stroke. Peripheral hearing is essentially normal (mild HF loss in the right ear), but the patient subjectively reports the left ear is worse. This is corroborated by central auditory processing deficits in the left ear (contralateral to lesion) on dichotic and low-redundancy speech tests. Electrophysiologic testing confirms right temporal lobe dysfunction (absent MLR at T4). Interestingly, pattern perception is preserved, possibly due to musical training/plasticity.",
+  "counseling_points": [
+    "Explain that the 'hearing loss' felt in the left ear is not due to the ear itself (which hears tones well) but due to the brain's right hemisphere having difficulty processing information from that ear.",
+    "Discuss the 'amusia' (difficulty with music) as a direct result of the right hemisphere injury, which specializes in melody and spectral processing.",
+    "Highlight the preserved ability to process duration and frequency patterns as a strength, likely related to prior musical expertise.",
+    "Validate the difficulty in noise as a central processing issue."
+  ],
+  "notes_for_actor": [
+    "You are intelligent, articulate, and cognitively sharp despite your stroke.",
+    "You have physical limitations on your left side (arm/leg) and some visual issues on the left.",
+    "You are frustrated that music, which used to be your passion, now sounds 'flat' or unmelodic.",
+    "You are convinced your left ear is bad, even if the doctor tells you the beep-test was normal.",
+    "You speak English fluently but have a background in a European language."
+  ]
+}

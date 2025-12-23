@@ -1,0 +1,106 @@
+{
+  "case_id": "case_6_15",
+  "title": "Unsuccessful Stapedectomy with Prosthesis Extrusion",
+  "demographics": {
+    "age_years": 53,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have hearing loss in my left ear and a constant low-level ringing that started right after my surgery 10 years ago.",
+  "problem_summary": {
+    "onset": "Approximately 10 years ago following a stapedectomy.",
+    "course": "Stable; no significant changes in hearing over the past 10 years.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Constant low-level ringing tinnitus in the left ear.",
+    "functional_impact": "Patient has been using amplification successfully in the left ear for the past 5 years.",
+    "goals_motivation": "Monitoring hearing sensitivity."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-02-17",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports history of conductive hearing loss in the left ear. She underwent a stapedectomy in the left ear ~10 years ago, but the prosthesis extruded over time. She noticed no significant improvement post-surgery.",
+        "otologic_history": "Left stapedectomy (10 years prior); prosthesis extrusion.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Successful use of amplification in the left ear for 5 years. Last hearing test was 3 years ago.",
+        "patient_goals": "Monitor hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.15"
+          ],
+          "key_findings": "Right ear shows normal hearing sensitivity (0-10 dB HL). Left ear shows a moderate rising to mild conductive loss in low frequencies, becoming a mixed loss in higher frequencies with significant air-bone gaps across the frequency range.",
+          "numeric_results": {
+            "RE_PTA": "Normal (thresholds 0-10 dB HL)",
+            "LE_250Hz": "50 dB HL (AC), 0 dB HL (BC)",
+            "LE_500Hz": "45 dB HL (AC), 5 dB HL (BC)",
+            "LE_1000Hz": "35 dB HL (AC), 5 dB HL (BC)",
+            "LE_2000Hz": "30 dB HL (AC), 10 dB HL (BC)",
+            "LE_4000Hz": "60 dB HL (AC), 20 dB HL (BC)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.15"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) are consistent with pure-tone averages. Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "3 dB",
+            "RE_WRS": "96% at 50 dB",
+            "LE_SRT": "27 dB",
+            "LE_WRS": "92% at 70 dB"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.15"
+          ],
+          "key_findings": "Immittance testing was not measured at this appointment.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a moderate-to-mild conductive/mixed hearing loss in the left ear. Significant air-bone gaps are present in the left ear, consistent with the history of stapedectomy with prosthesis extrusion. Speech recognition ability remains excellent in the affected ear when presented at suprathreshold levels.",
+  "counseling_points": [
+    "Your hearing test shows that the hearing levels in your left ear have remained stable compared to your history.",
+    "The 'gap' between your nerve hearing (bone conduction) and your total hearing (air conduction) confirms the conductive nature of your loss, related to the middle ear history.",
+    "Since you are doing well with your current hearing aid, we recommend you continue using it.",
+    "Please return for annual testing to monitor your hearing sensitivity.",
+    "Use hearing protection in noisy environments to preserve your remaining hearing."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is accustomed to their hearing loss and tinnitus.",
+    "You are not distressed by the condition as it has been stable for 10 years.",
+    "You are satisfied with your current hearing aid use."
+  ]
+}

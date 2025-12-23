@@ -1,0 +1,65 @@
+{
+  "case_id": "Case026",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Misophonia (Annoyance Hyperacusis)",
+      "rationale_short": "Extreme autonomic and emotional reactions (nausea, shivering, anger) to specific organic sounds (chewing, breathing) with significant functional impairment and avoidance behaviors."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Clinical Interview / Intake Assessment",
+        "urgency": "routine",
+        "rationale_short": "To identify specific triggers, emotional/physical reactions, and functional impact of sound sensitivity."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient reports a history of extreme sensitivity to chewing, slurping, and breathing sounds, particularly from family members. Reactions are severe (nausea, shivering, crying) and result in significant avoidance (eating separately, using headphones). Findings are consistent with misophonia.",
+        "tests": [
+          {
+            "name": "Clinical Interview / Intake Assessment",
+            "category": "History",
+            "result_summary": "Triggers identified as chewing, slurping, and breathing. Reactions include nausea, shivering, and urge to flee. Functional impact includes using noise-cancelling headphones at meals or mother eating in a separate room."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Cognitive Behavioral Therapy (CBT) for misophonia (12 sessions over 6 weeks)",
+      "Creation of an exposure hierarchy (e.g., ASMR videos to live family eating)",
+      "Daily exposure homework exercises",
+      "Gradual reduction of family accommodations (e.g., eating separately, wearing headphones)",
+      "Distress tolerance enhancement"
+    ],
+    "counseling_actions": [
+      "Psychoeducation regarding the disproportionate emotional response to trigger sounds",
+      "Counseling on the importance of parental involvement in exposure exercises",
+      "Discussion of family dynamics and reducing accommodations"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Mental Health / Therapist",
+      "rationale_short": "Referral to a nearby therapist who uses CBT for misophonia was provided at the conclusion of the study to maintain improvements."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "6 weeks (duration of study intervention)",
+    "objective": "Monitor compliance with exposure homework and assess reduction in symptom severity and functional impairment."
+  },
+  "expected_outcome": [
+    "Exposure task (Father): Patient experienced no distress when her father sat next to her chewing in an exaggerated manner (e.g., open-mouthed, smacking) for at least 5 minutes.",
+    "Exposure task (Mother): Patient experienced mild distress (subjective unit of distress rating of 20 out of 100) when her mother sat next to her chewing in an exaggerated manner for at least 5 minutes.",
+    "Functional outcome: Patient was able to tolerate family dinners without wearing noise-cancelling headphones with little to no distress.",
+    "Patient and parents reported she no longer experienced functional impairment due to annoyance hyperacusis.",
+    "Marked improvement in misophonia symptoms over the course of 6 weeks of CBT."
+  ]
+}

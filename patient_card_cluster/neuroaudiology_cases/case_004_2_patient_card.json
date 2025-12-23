@@ -1,0 +1,132 @@
+{
+  "case_id": "case_4_2",
+  "title": "Auditory Nerve Involvement: Large Left CPA Tumor",
+  "demographics": {
+    "age_years": 36,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a popping sound in my left ear and intermittent high-pitched ringing. I've also noticed some tingling on the left side of my face and numbness in my left arm and leg.",
+  "problem_summary": {
+    "onset": "Popping sound began approximately 2 months prior; facial tingling began several months prior; limb numbness began 2 weeks prior.",
+    "course": "Progressive, with recent onset of limb numbness.",
+    "laterality": "Left",
+    "associated_symptoms": "Intermittent high-pitched tinnitus, mild intermittent facial tingling (left), numbness in left arm and leg.",
+    "functional_impact": "Initially reported no hearing problems, but upon questioning admitted slight difficulty with the left ear ('not as good as the right').",
+    "goals_motivation": "Evaluation of auditory and neurologic symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Specialized Center)",
+      "history": {
+        "present_illness": "Patient referred after evaluation by an outside otolaryngologist. Primary symptom is popping in the left ear (2 months). Also reports intermittent high-pitched tinnitus and neurologic symptoms (facial tingling, limb numbness).",
+        "otologic_history": "No specific prior history mentioned other than current symptoms.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Neurologic symptoms (tingling/numbness) suggest CNS involvement.",
+        "prior_management": "Evaluated by an outside otolaryngologist; initial speech recognition was excellent bilaterally.",
+        "patient_goals": "Diagnosis of symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-5"
+          ],
+          "key_findings": "Essentially normal pure tone thresholds bilaterally.",
+          "numeric_results": {
+            "RE_thresholds": "0-20 dB HL (250-8000 Hz)",
+            "LE_thresholds": "0-20 dB HL (250-4000 Hz), slight dip at 8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-5"
+          ],
+          "key_findings": "Speech recognition dropped to 80% for the left ear at this center (was excellent initially). No rollover observed for high intensity testing.",
+          "numeric_results": {
+            "WRS_LE": "80% (text) / 92% (Figure 4-5 label)",
+            "WRS_RE": "92% (Figure 4-5 label)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Contralateral acoustic reflexes were absent with stimuli presented to the left ear and normal with presentation to the right ear.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "ABR",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-6"
+          ],
+          "key_findings": "LE: Wave I clear, but subsequent waves difficult to distinguish/abnormal latencies. RE: Four prominent waves, but Wave V appears absent or markedly diminished (suggesting brainstem compression from the large contralateral tumor).",
+          "numeric_results": {
+            "LE_Wave_I_latency": "1.44 msec",
+            "LE_Last_Large_Wave": "7.2 msec (if Wave V, grossly abnormal)",
+            "RE_Last_Large_Wave": "4.72 msec (too early for Wave V)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Radiology",
+          "ear": "left",
+          "condition": "CT Scan",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-7"
+          ],
+          "key_findings": "CT scan showed a large mass lesion in the left cerebellopontine angle (CPA). Pathology confirmed schwannoma.",
+          "numeric_results": {
+            "Tumor_Size": "4-5 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 36-year-old female presents with normal pure tone sensitivity bilaterally but significant retrocochlear signs on the left side. Key findings include reduced speech recognition on the left (80%), absent acoustic reflexes with left ear stimulation, and grossly abnormal ABR results. The ABR indicated abnormalities not only in the affected left ear but also in the non-involved right ear (absent/diminished Wave V), suggesting brainstem compression. Radiologic imaging confirmed a large (4-5 cm) left acoustic schwannoma. The case highlights that large tumors can exist with normal pure tone thresholds and that subtle neurologic symptoms (facial tingling/numbness) are critical indicators of CNS involvement.",
+  "counseling_points": [
+    "Explain that normal hearing on a beep-test (pure tones) does not rule out problems along the hearing nerve.",
+    "Discuss the correlation between the facial tingling/numbness and the size of the mass compressing nearby structures.",
+    "Review the ABR findings, specifically how the size of the mass is affecting the 'good' ear's test results by pressing on the brainstem.",
+    "Referral to neuro-otology/neurosurgery is immediate due to the confirmed large mass."
+  ],
+  "notes_for_actor": [
+    "You are a young patient (36) who initially thought your hearing was fine, but realized it wasn't 'as good' on the left when asked.",
+    "You are likely more concerned about the numbness in your arm/leg and face than the hearing loss, as the hearing loss is subtle.",
+    "Mention the popping sound in the left ear as the first symptom you noticed."
+  ]
+}

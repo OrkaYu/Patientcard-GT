@@ -1,0 +1,92 @@
+{
+  "case_id": "Case005_18",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Long-standing sensorineural hearing loss (Left Ear)",
+      "rationale_short": "Patient reports poor hearing in the left ear for as long as he can remember with no memory of normal hearing; configuration is low-frequency, which is inconsistent with ototoxicity."
+    },
+    {
+      "rank": 2,
+      "label": "Ototoxicity (ruled out as cause of asymmetry)",
+      "rationale_short": "History of aminoglycoside use, but the unilateral low-frequency configuration does not match the typical bilateral high-frequency loss associated with ototoxicity."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity thresholds given the history of ototoxic medication and subjective left ear hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometric testing revealed normal hearing sensitivity in the right ear and a mild-to-moderate low-frequency sensorineural hearing loss in the left ear, rising to normal in the high frequencies. Speech recognition was excellent in the right ear and good in the left ear, consistent with the pure-tone findings. Immittance testing indicated normal middle ear function and acoustic reflexes bilaterally.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal hearing (0-10 dB HL). Left ear: Mild-to-moderate sensorineural hearing loss at 250-1500 Hz (35-40 dB HL), rising to normal (10-15 dB HL) at 2000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 3 dB, WRS 92%. Left ear: SRT 37 dB, WRS 88%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal thresholds for ipsilateral and contralateral stimulation at 500-4000 Hz. Decay negative."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Annual hearing testing to monitor stability",
+      "Hearing protection in noise",
+      "Monitor for potential need of Hearing Assistive Technology (HAT) or amplification"
+    ],
+    "counseling_actions": [
+      "Discussed that the left ear hearing loss appears long-standing and unrelated to the history of ototoxic medication",
+      "Advised on the importance of hearing protection given the reliance on the normal right ear",
+      "Instructed to return for evaluation if difficulty with communication is noticed"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist",
+      "rationale_short": "Patient is scheduled to follow up with ENT; audiology results will be part of the ongoing medical monitoring."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor the stability of the hearing loss and surveillance for any changes."
+  },
+  "expected_outcome": []
+}

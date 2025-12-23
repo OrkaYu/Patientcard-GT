@@ -1,0 +1,126 @@
+{
+  "case_id": "case_7_1",
+  "title": "Bilateral Mixed Hearing Loss with Chronic Middle Ear Pathology",
+  "demographics": {
+    "age_years": 53,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I've had hearing loss in my left ear for 20 years after a cyst was removed. About 3 years ago, my right ear started getting worse too. I currently have a tube in the right ear, but I still feel pain and pressure there sometimes.",
+  "problem_summary": {
+    "onset": "Left ear 20 years ago; Right ear 3 years ago.",
+    "course": "Left ear stable/long-standing; Right ear fluctuating with frequent fluid and tube extrusions.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Pain and pressure in the right ear; intermittent bilateral tinnitus.",
+    "functional_impact": "Uses a hearing aid in the left ear occasionally; reports decreased hearing in the right ear.",
+    "goals_motivation": "Seeking management for right ear pain/hearing loss and monitoring of left ear."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-03-03",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a 20-year history of left ear hearing loss following cyst removal and infection. Right ear hearing decreased 3 years ago. Reports frequent fluid in the middle ear. Currently has a tube in the right ear but reports pain and pressure.",
+        "otologic_history": "Left ear: Cyst removal 20 years ago, infection, failed surgical repair. Right ear: Multiple PE tubes placed (often fell out); current tube in place.",
+        "noise_exposure_history": "Denied.",
+        "medical_psych_history": "Denied dizziness. No family history of hearing loss.",
+        "prior_management": "Occasional hearing aid use in the left ear.",
+        "patient_goals": "Address right ear pain/pressure and hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 7.1"
+          ],
+          "key_findings": "Right ear: Moderate mixed hearing loss, rising to normal at 2000 Hz, then sloping to severe sensorineural loss. Left ear: Severe mixed hearing loss with a profound mixed notch at 3000-4000 Hz. Significant air-bone gaps present bilaterally.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250Hz: 45, 500Hz: 45, 1000Hz: 30, 2000Hz: 20, 4000Hz: 65, 8000Hz: 80 dB HL",
+            "RE_BC_Thresholds": "250-2000Hz: ~15 dB HL, 4000Hz: 50 dB HL",
+            "LE_AC_Thresholds": "250-1000Hz: 70, 2000Hz: 80, 4000Hz: >110, 8000Hz: 90 dB HL",
+            "LE_BC_Thresholds": "250Hz: 20, 500Hz: 25, 1000Hz: 45, 2000Hz: 55 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 7.1 (Table)"
+          ],
+          "key_findings": "SRT scores align with PTA. Word recognition scores are excellent bilaterally despite the degree of loss.",
+          "numeric_results": {
+            "RE_SRT": "32 dB",
+            "RE_WRS": "96% at 70 dB HL",
+            "LE_SRT": "80 dB",
+            "LE_WRS": "92% at 100 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 7.1 (Table)"
+          ],
+          "key_findings": "Flat tympanograms (Type B) with large ear canal volumes bilaterally, consistent with patent PE tubes or perforation/surgical cavity.",
+          "numeric_results": {
+            "RE_Volume": "5.7 mL",
+            "LE_Volume": "7.1 mL",
+            "Static_Admittance": "NP (No Peak)",
+            "Peak_Pressure": "NP (No Peak)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 7.1 (Table)"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral reflexes from 500 to 4000 Hz bilaterally. Decay could not be measured.",
+          "numeric_results": {
+            "Reflexes": "Absent (ABS) at all tested frequencies"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral mixed hearing loss. The left ear shows a severe-to-profound mixed loss (sequelae of previous cyst/surgery), while the right ear exhibits a moderate mixed loss rising to normal in the mid-frequencies before sloping to severe. Speech recognition remains excellent bilaterally. Immittance testing confirms large ear canal volumes consistent with the history of PE tubes and surgical intervention.",
+  "counseling_points": [
+    "Referral to ENT is necessary to manage the active infection/pain in the right ear and check the status of the PE tube.",
+    "Continue using the hearing aid in the left ear as it provides benefit.",
+    "Once the right ear is medically cleared by the ENT, a hearing aid evaluation is recommended for the right ear to balance hearing.",
+    "Explanation of 'mixed' hearing loss: a combination of permanent nerve loss and mechanical issues (middle ear fluid/damage)."
+  ],
+  "notes_for_actor": [
+    "Portray a male patient, approx 54 years old.",
+    "You have a long history of ear surgeries on the left, but now the right ear is bothering you with pain and pressure.",
+    "You are frustrated that tubes keep falling out of your ears.",
+    "You deny any dizziness or noise exposure."
+  ]
+}

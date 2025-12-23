@@ -1,0 +1,167 @@
+{
+  "case_id": "Case010_02",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Deafness (Cortical Deafness)",
+      "rationale_short": "Etiology of herpes encephalitis with bilateral temporal lobe damage; absent cortical potentials (MLR/LLR) despite intact peripheral function (OAEs, ABR, reflexes)."
+    },
+    {
+      "rank": 2,
+      "label": "Pure Word Deafness (Auditory Agnosia)",
+      "rationale_short": "Patient recovered sound detection sensitivity (SDT 5-25 dB HL) but remains unable to discriminate speech; intact reading/writing/speaking."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Behavioral Observation",
+        "urgency": "urgent",
+        "rationale_short": "Initial assessment of auditory responsiveness during acute hospitalization."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "urgent",
+        "rationale_short": "To assess integrity of the auditory nerve and brainstem in an unresponsive patient."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "soon",
+        "rationale_short": "To determine behavioral hearing thresholds once patient was stable enough to test."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "soon",
+        "rationale_short": "To cross-check behavioral findings and assess brainstem reflex pathways."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech detection and recognition abilities."
+      },
+      {
+        "action": "Middle Latency Response (MLR)",
+        "urgency": "routine",
+        "rationale_short": "To assess thalamo-cortical auditory pathways given suspected central damage."
+      },
+      {
+        "action": "Late Auditory Evoked Potentials",
+        "urgency": "routine",
+        "rationale_short": "To assess cortical auditory processing."
+      },
+      {
+        "action": "Otoacoustic Emissions (OAE)",
+        "urgency": "routine",
+        "rationale_short": "To confirm integrity of outer hair cells and rule out cochlear pathology."
+      },
+      {
+        "action": "Psychoacoustics (Difference Limens)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate frequency and intensity discrimination abilities."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1_Acute_Hospitalization",
+        "collective_interpretation": "During the acute phase of herpes encephalitis, the patient was behaviorally unresponsive to sound. However, electrophysiological testing (ABR) indicated normal brainstem function, suggesting the deficit was central (cortical) rather than peripheral.",
+        "tests": [
+          {
+            "name": "Behavioral Observation",
+            "result_summary": "Patient was auditorily unresponsive; no behavioral response to pure tone stimuli."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "result_summary": "Reported as normal absolute and interwave intervals."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2_Second_Hospital",
+        "collective_interpretation": "Several months post-illness, behavioral testing showed profound hearing loss, yet acoustic reflexes were largely intact. This dissociation further supported a diagnosis of central deafness, as peripheral mechanisms (middle ear, cochlea, lower brainstem) appeared functional.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Profound hearing loss range for mid-frequencies; low frequencies yielded vibration responses only."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Contralateral reflexes present at normal levels (500-4000 Hz); Ipsilateral reflexes present normal (500-2000 Hz), absent at 4000 Hz."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3_Neuroaudiology_Center",
+        "collective_interpretation": "Longitudinal evaluation revealed significant recovery of sound detection sensitivity (pure tones and SDT), particularly in the right ear. However, speech recognition remained absent (pure word deafness). Objective tests confirmed intact peripheral function (normal OAEs, ABR) but absent cortical processing (absent MLR, Late Potentials). Psychoacoustic testing revealed extremely poor discrimination.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Significant recovery: Right ear WNL/mild (250-3000 Hz); Left ear mild/moderate (20-30 dB HL at lows). High frequency deficits persist."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SDT consistent with pure tones (RE 5-15 dB, LE 15-25 dB); Speech recognition 0% (cannot understand speech except name)."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "result_summary": "Normal absolute and interwave intervals bilaterally; threshold 25 dB nHL bilaterally."
+          },
+          {
+            "name": "Middle Latency Response (MLR)",
+            "result_summary": "Unable to obtain any repeatable responses for either ear."
+          },
+          {
+            "name": "Late Auditory Evoked Potentials",
+            "result_summary": "No consistent responses for any electrode site or ear."
+          },
+          {
+            "name": "Otoacoustic Emissions (OAE)",
+            "result_summary": "Essentially normal bilaterally, indicating intact outer hair cells."
+          },
+          {
+            "name": "Psychoacoustics (Difference Limens)",
+            "result_summary": "Extremely poor intensity discrimination (could not reach 50% for 5 dB increments) and frequency discrimination (> 200 Hz at 1 kHz)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Auditory rehabilitation program focusing on detection and recognition of environmental sounds.",
+      "Metacognitive tasks relating sounds to objects.",
+      "Amplification of patient's own voice to aid auditory feedback and monitoring.",
+      "Speechreading training using gestural and situational cues.",
+      "Binaural training using diotic and dichotic signals.",
+      "Localization and lateralization tasks.",
+      "Prosody perception training (declarative vs. interrogative vs. exclamatory).",
+      "Temporal resolution training (gap detection).",
+      "Isolated phoneme recognition training.",
+      "Trial of assistive listening device (tried but not used long-term)."
+    ],
+    "counseling_actions": [
+      "Explain that the cochlea is working but the brain's processing center is damaged.",
+      "Emphasize reliance on visual cues and environmental context.",
+      "Discuss neuroplasticity and the need for active rehabilitation.",
+      "Manage expectations regarding fluctuation in hearing sensitivity with health/fatigue."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neuroaudiology/Rehabilitation",
+      "rationale_short": "Long-term management of central deafness and auditory rehabilitation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Long-term (years)",
+    "objective": "Monitor recovery of auditory sensitivity and discrimination; adjust rehabilitation strategies."
+  },
+  "expected_outcome": [
+    "Pure-tone audiometry: Thresholds improved significantly over 2 years, with the right ear reaching WNL/mild levels and the left ear showing mild/moderate loss.",
+    "Speech perception: Remained profoundly impaired; patient cannot understand speech except for recognizing her name, consistent with pure word deafness.",
+    "Localization: Skills improved steadily over several months of training.",
+    "Phoneme recognition: Noted improvement on isolated phoneme recognition and production after 1.5 years.",
+    "Academic/Functional: Patient is doing quite well in school, especially in math and reading, though motivation fluctuates."
+  ]
+}

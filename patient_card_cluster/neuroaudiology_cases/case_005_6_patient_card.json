@@ -1,0 +1,124 @@
+{
+  "case_id": "case_5_6",
+  "title": "Left Inferior Colliculus Lesion (Midbrain)",
+  "demographics": {
+    "age_years": 39,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I don't actually have any problems with my hearing or balance. My neurologist sent me here for testing after he saw a spot on my brain scan while treating my seizures.",
+  "problem_summary": {
+    "onset": "Incidental finding during workup for seizure disorder.",
+    "course": "Stable; research evaluation.",
+    "laterality": "Left-sided brainstem lesion (Inferior Colliculus).",
+    "associated_symptoms": "Seizure disorder (non-auditory locus). No auditory or vestibular symptoms reported.",
+    "functional_impact": "None reported by patient; subclinical deficits identified on complex central auditory tasks.",
+    "goals_motivation": "Diagnostic evaluation to determine if ABR is sensitive to the identified midbrain lesion."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic / Research Setting",
+      "history": {
+        "present_illness": "The patient is a 39-year-old female referred by a neurologist. She has a known seizure disorder. During a CT scan for the seizures, a specific lesion was identified at the left inferior colliculus (IC).",
+        "otologic_history": "No auditory or vestibular complaints.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Seizure disorder.",
+        "prior_management": "Under care of a neurologist.",
+        "patient_goals": "Complete evaluation as requested by neurology."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-24"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally.",
+          "numeric_results": {
+            "Thresholds": "0-10 dB HL across 250-8000 Hz bilaterally (visual estimate from Figure 5-24)."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal speech recognition scores bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-24"
+          ],
+          "key_findings": "Normal ABR for both ears. The lesion at the inferior colliculus did not affect the generation of waves I through V.",
+          "numeric_results": {
+            "Wave V Latency": "Normal (visual estimate ~5.5-5.8ms from Figure 5-24)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Behavioral central auditory tests (Dichotic Digits) showed bilateral abnormality, worse in the ear contralateral to the lesion.",
+          "numeric_results": {
+            "Dichotic Digits Right Ear": "72%",
+            "Dichotic Digits Left Ear": "85%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-23"
+          ],
+          "key_findings": "CT scan showing a defect at the level of the midbrain eccentric to the left (Inferior Colliculus). Believed to be a mass lesion, possibly a lipoma.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 39-year-old female presents with normal peripheral hearing sensitivity, normal speech recognition in quiet, and normal ABR results despite a confirmed lesion in the left Inferior Colliculus (midbrain). However, central auditory processing testing (dichotic digits) revealed deficits, particularly in the right ear (contralateral to the lesion). This case demonstrates that lesions above the pons (at the IC level) may not disrupt the ABR (supporting the theory that wave V is generated caudally to the IC) but can still cause deficits in complex behavioral listening tasks.",
+  "counseling_points": [
+    "Your standard hearing test and the nerve test (ABR) are completely normal, which is good news. It means the pathway from your ear up to the lower brainstem is working well.",
+    "The 'spot' the neurologist found is higher up in the auditory pathway (midbrain).",
+    "While you don't feel like you have hearing loss, our complex listening test (dichotic digits) showed some difficulty, especially in your right ear. This is expected because the left side of the brain helps process sound from the right ear.",
+    "This confirms that while you can hear sounds normally, your brain has a slight inefficiency in processing competing information due to the lesion."
+  ],
+  "notes_for_actor": [
+    "You are unconcerned about your hearing; you are compliant and helpful, participating in the study to help the doctors understand your condition.",
+    "You have no difficulty understanding the audiologist in a quiet room.",
+    "You might mention your history of seizures if asked about your general health."
+  ]
+}

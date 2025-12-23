@@ -1,0 +1,115 @@
+{
+  "case_id": "Case001",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Chronic Subjective Tinnitus",
+      "rationale_short": "Patient reports constant bilateral tinnitus for 2 years with complex sounds (ringing, buzzing, pulsating) attributed to noise exposure."
+    },
+    {
+      "rank": 2,
+      "label": "Hyperacusis",
+      "rationale_short": "Strong hyperacusis reported with a high baseline score (28/40) on the Hyperacusis Questionnaire; loud noises are annoying and aggravating."
+    },
+    {
+      "rank": 3,
+      "label": "Mild Sensorineural Hearing Loss",
+      "rationale_short": "History of noise exposure and patient report of mild hearing loss, though he refuses amplification."
+    },
+    {
+      "rank": 4,
+      "label": "Anxiety and Depression",
+      "rationale_short": "Mild levels identified on GAD-7 and PHQ-9 screening tools, associated with tinnitus distress."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Self-report scales (Baseline)",
+        "urgency": "routine",
+        "rationale_short": "To assess the baseline severity of tinnitus, hyperacusis, and comorbid psychological distress."
+      },
+      {
+        "action": "Self-report scales (Post-intervention)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the effectiveness of the 8-week Internet-based CBT intervention."
+      },
+      {
+        "action": "Self-report scales (1-year Follow-up)",
+        "urgency": "routine",
+        "rationale_short": "To assess the long-term maintenance of therapeutic gains one year after the intervention."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Baseline assessment reveals a moderate impact of tinnitus and strong hyperacusis. The patient also presents with mild anxiety, mild depression, and subthreshold insomnia. He attributes the condition to noise exposure and reports mild hearing loss but refuses hearing aids.",
+        "tests": [
+          {
+            "name": "Self-report scales (Baseline)",
+            "category": "Questionnaires",
+            "result_summary": "TFI: 44/100; THI: 48/100; HHIA: 14/40; HQ: 28/40; GAD-7: 8/21; PHQ-9: 5/28; ISI: 10/28; SWLS: 32; CFQ: 29."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Following the 8-week Internet-based CBT intervention, the patient shows significant improvement across all domains. Tinnitus severity and handicap scores dropped substantially, and scores for anxiety, depression, and insomnia normalized.",
+        "tests": [
+          {
+            "name": "Self-report scales (Post-intervention)",
+            "category": "Questionnaires",
+            "result_summary": "TFI: 9; THI: 18; HHIA: 6; HQ: 14; GAD-7: 5; PHQ-9: 1; ISI: 0; SWLS: 32; CFQ: 21."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "At the 1-year follow-up, the therapeutic gains were maintained or further improved. The patient continues to use CBT strategies and requires no further intervention.",
+        "tests": [
+          {
+            "name": "Self-report scales (1-year Follow-up)",
+            "category": "Questionnaires",
+            "result_summary": "TFI: 2; THI: 6; HHIA: 6; HQ: 11; GAD-7: 5; PHQ-9: 0; ISI: 0; SWLS: 33; CFQ: 19."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Internet-based cognitive behavioral therapy (iCBT) for tinnitus (8 weeks)",
+      "Core modules: Understanding tinnitus, Progressive relaxation, Reinterpreting tinnitus, Positive imagery, Identifying negative thoughts, Exposure to tinnitus, Focus",
+      "Optional modules: Sound enrichment, Sleep guidelines, Hyperacusis, Hearing tactics"
+    ],
+    "counseling_actions": [
+      "Education on tinnitus mechanisms and habituation",
+      "Sleep hygiene instruction",
+      "Training in deep and rapid relaxation techniques",
+      "Cognitive restructuring to challenge negative thoughts",
+      "Sound enrichment strategies",
+      "Hearing tactics for communication difficulties"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Discharge",
+      "rationale_short": "Patient achieved treatment goals, symptoms reduced below clinical significance, and he reported no need for further help."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 year",
+    "objective": "To monitor the long-term maintenance of treatment effects and ensure strategies remain effective."
+  },
+  "expected_outcome": [
+    "Tinnitus Functional Index (TFI): Score reduced from 44 (Baseline) to 9 (Post-intervention) and 2 (1-year Follow-up).",
+    "Tinnitus Handicap Inventory (THI): Score reduced from 48 (Baseline) to 18 (Post-intervention) and 6 (1-year Follow-up).",
+    "Hyperacusis Questionnaire (HQ): Score improved from 28 (Baseline) to 14 (Post-intervention) and 11 (1-year Follow-up).",
+    "Insomnia Severity Index (ISI): Improved from 10 (subthreshold insomnia) to 0 (no insomnia) at both post-intervention and follow-up.",
+    "Generalized Anxiety Disorder (GAD-7): Score reduced from 8 (mild) to 5 (mild) at post-intervention and follow-up.",
+    "Patient Health Questionnaire (PHQ-9): Score reduced from 5 (mild) to 1 (post-intervention) and 0 (follow-up).",
+    "Patient reported having enough strategies to cope, finding the program helpful, and requiring no further treatment."
+  ]
+}

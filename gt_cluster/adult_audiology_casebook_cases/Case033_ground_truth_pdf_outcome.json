@@ -1,0 +1,110 @@
+{
+  "case_id": "Case033",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Single-Sided Deafness (SSD) post-acoustic neuroma removal",
+      "rationale_short": "Patient history of left acoustic neuroma removal 3 years prior with resulting stable profound sensorineural hearing loss in the left ear and normal hearing in the right ear."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and confirm degree of hearing loss in both ears."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech recognition ability and determine if speech is audible in the poorer ear."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the reflex arc, expected to be absent on the affected side."
+      },
+      {
+        "action": "Unaided transcranial thresholds",
+        "urgency": "routine",
+        "rationale_short": "To measure the level at which sound presented to the deaf ear crosses over to the good ear via bone conduction."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation confirms single-sided deafness with profound sensorineural hearing loss in the left ear and normal hearing in the right ear. Middle ear function is normal bilaterally. Results are consistent with the history of acoustic neuroma removal.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal hearing (thresholds 0-15 dB HL). Left ear: Profound SNHL/anacusis (SAT 95 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 15 dB HL, WRS 100% at 50 dB HL. Left ear: SAT 95 dB HL, WRS not tested."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal (Type A) bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral and contralateral present. Left ipsilateral and contralateral absent."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Measurement of unaided transcranial thresholds indicates that high-intensity sound presented to the left ear crosses over to stimulate the right cochlea at levels (approx 40-65 dB HL) feasible for a high-power hearing aid, suggesting candidacy for a transcranial CROS fitting.",
+        "tests": [
+          {
+            "name": "Other",
+            "category": "Special Testing",
+            "result_summary": "Unaided transcranial thresholds (crossover to right cochlea) measured at ~55 dB HL (250 Hz), ~55 dB HL (500 Hz), ~50 dB HL (1000 Hz), ~40 dB HL (2000 Hz), and ~65 dB HL (4000 Hz)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit left behind-the-ear (BTE) transcranial CROS hearing aid",
+      "Take deep ear impression (past the second bend) with open-mouth/bite block technique",
+      "Perform Real Ear Measures (REM) to verify aided response exceeds unaided transcranial thresholds",
+      "Implement 'mute' program for situations with noise on the aided side"
+    ],
+    "counseling_actions": [
+      "Explain the mechanism of transcranial CROS (amplifying sound to vibrate skull and stimulate the good ear)",
+      "Counsel on the necessity of a tight, deep fit to prevent feedback and ensure retention",
+      "Discuss limitations, including lack of localization and potential for noise amplification from the poorer side",
+      "Advise on using the mute function in specific noise environments",
+      "Monitor for Tullio effect (dizziness with loud sounds), which would contraindicate this fitting"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology Clinic",
+      "rationale_short": "Proceed with hearing aid fitting and routine follow-up; no medical referral required as condition is stable post-surgery."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Monitor hearing aid fit, check for feedback or sores, and assess subjective benefit."
+  },
+  "expected_outcome": [
+    "Patient was extremely pleased with the left transcranial hearing aid.",
+    "Patient prefers the transcranial fitting to the previously tried standard CROS system.",
+    "Patient reports improved speech understanding using the left transcranial CROS."
+  ]
+}

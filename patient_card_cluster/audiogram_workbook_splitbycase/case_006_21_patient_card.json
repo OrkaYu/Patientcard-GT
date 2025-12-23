@@ -1,0 +1,102 @@
+{
+  "case_id": "case_6_21",
+  "title": "Bilateral Conductive Hearing Loss with History of Cholesteatoma",
+  "demographics": {
+    "age_years": 41,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've noticed a significant deterioration in my hearing in both ears over the past few years. I also have constant ringing in my ears that makes it hard to fall asleep.",
+  "problem_summary": {
+    "onset": "Long-standing history of hearing loss.",
+    "course": "Chronic with significant deterioration in recent years.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Constant bilateral tinnitus; chronic ear infections (last one a few months ago in the right ear).",
+    "functional_impact": "Tinnitus interferes with sleep; hearing loss has worsened.",
+    "goals_motivation": "Evaluation of current hearing status."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-04-02",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports long-standing bilateral hearing loss with significant recent deterioration. Last ear infection was in the right ear a few months ago.",
+        "otologic_history": "Multiple otosurgeries including canal wall down tympanomastoidectomies and ossiculoplasty. History of chronic ear infections and cholesteatoma. Last surgery was in the left ear 2 years ago.",
+        "noise_exposure_history": "No significant history of noise exposure.",
+        "medical_psych_history": "No significant ototoxic treatments reported.",
+        "prior_management": "Multiple previous hearing tests (unavailable for comparison).",
+        "patient_goals": "Monitor hearing and address tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.21"
+          ],
+          "key_findings": "Right ear: Moderate to moderately severe conductive hearing loss (rising to mild in mid-frequencies). Left ear: Mild predominantly conductive hearing loss. Normal bone conduction thresholds bilaterally indicate the loss is conductive. A masking dilemma was noted due to large bilateral air-bone gaps.",
+          "numeric_results": {
+            "Right PTA": "48 dB HL",
+            "Left PTA": "35 dB HL",
+            "Right BC": "0-10 dB HL (masked/unmasked mix)",
+            "Left BC": "0-10 dB HL (masked/unmasked mix)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.21"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA. Word recognition scores are excellent (100%) bilaterally at suprathreshold levels.",
+          "numeric_results": {
+            "Right SRT": "48 dB HL",
+            "Left SRT": "32 dB HL",
+            "Right WRS": "100% at 80 dB HL",
+            "Left WRS": "100% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not measured due to surgical history (canal wall down tympanomastoidectomies).",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a moderate to moderately severe conductive hearing loss in the right ear and a mild predominantly conductive hearing loss in the left ear. Word recognition ability is excellent bilaterally when speech is sufficiently loud. Testing was complicated by a masking dilemma due to significant bilateral air-bone gaps.",
+  "counseling_points": [
+    "Explain that the hearing loss is conductive, meaning the inner ear nerve is healthy (as shown by bone conduction), but sound is not being conducted efficiently through the middle ear due to previous surgeries and disease.",
+    "Recommend continuing scheduled follow-ups with the otologist, especially given the recent infection.",
+    "Discuss the option of a hearing aid evaluation once medical clearance is obtained from the otologist.",
+    "Suggest using background music or sound generators to help manage the tinnitus, particularly when trying to sleep.",
+    "Advise on the use of hearing protection if exposed to loud noise to preserve the remaining inner ear function."
+  ],
+  "notes_for_actor": [
+    "You have a long history of ear problems and surgeries, so you are knowledgeable but weary of ear issues.",
+    "The ringing in your ears (tinnitus) is constant and bothersome, especially at night.",
+    "You rely on music to help you sleep because of the tinnitus.",
+    "You are concerned about the recent drop in your hearing."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "case_id": "case_8_4",
+  "title": "Nonorganic Hearing Loss with History of Mastoidectomy",
+  "demographics": {
+    "age_years": 42,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I haven't been able to hear out of my left ear since a tumor was removed in 2004. I also have pain in that ear.",
+  "problem_summary": {
+    "onset": "Reported hearing loss onset in 2004 following ear surgery.",
+    "course": "Stable reported loss since surgery; recent onset of otalgia.",
+    "laterality": "Left ear reported; Right ear reported as normal.",
+    "associated_symptoms": "Otalgia (Left > Right), reported tympanic membrane perforation.",
+    "functional_impact": "Patient reports she cannot hear from her left ear.",
+    "goals_motivation": "Evaluation of hearing status and ear pain."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-07-22",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports hearing loss in the left ear since 2004. Initially denied otalgia but later reported pain greater in the left ear than the right. Reports a perforation in the left TM.",
+        "otologic_history": "History of childhood ear infections. Surgery in 2004 (patient reports tumor removal; ENT notes suggest mastoidectomy).",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Previous otosurgery (likely mastoidectomy).",
+        "patient_goals": "Assessment of hearing loss and pain."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.4"
+          ],
+          "key_findings": "Right ear shows mild low-frequency SNHL rising to normal, then sloping to moderately severe in high frequencies. Left ear shows a highly erratic, 'sawtooth' configuration (profound to mild to profound) inconsistent with organic pathology. Reliability was poor; retesting showed significant threshold shifts and inconsistencies.",
+          "numeric_results": {
+            "RE_250Hz": "25 dB HL",
+            "RE_1000Hz": "15 dB HL",
+            "RE_4000Hz": "35 dB HL",
+            "RE_8000Hz": "50 dB HL",
+            "LE_250Hz": "No Response",
+            "LE_1000Hz": "35 dB HL",
+            "LE_1500Hz": "No Response",
+            "LE_2000Hz": "60 dB HL",
+            "LE_PTA_Calculated": "25 dB HL (using 1k and 2k Hz only)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.4"
+          ],
+          "key_findings": "Right ear SRT agrees with PTA; WRS is good. Left ear SRT (53 dB) is in poor agreement with the calculated PTA (25 dB) and best thresholds. Left ear WRS is very poor.",
+          "numeric_results": {
+            "RE_SRT": "18 dB HL",
+            "RE_WRS": "86% @ 60 dB HL",
+            "LE_SRT": "53 dB HL",
+            "LE_WRS": "8% @ 100 dB HL"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Stenger test performed at 500 and 1000 Hz was positive, indicating false responses.",
+          "numeric_results": {
+            "Stenger": "Positive"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not measured due to patient report of otalgia and history of surgery.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presented with a reported left-sided hearing loss. Initial testing revealed a highly erratic 'sawtooth' audiometric configuration in the left ear and a mild-to-moderately severe loss in the right ear. However, results were deemed unreliable due to significant inter-test inconsistencies, poor SRT-PTA agreement in the left ear, and a positive Stenger test at 500 and 1000 Hz, indicating nonorganic hearing loss. Medical imaging later confirmed ossicular discontinuity and otitis media.",
+  "counseling_points": [
+    "Explain that the hearing test results today were inconsistent (e.g., speech hearing levels did not match tone hearing levels), making it difficult to determine the true hearing sensitivity.",
+    "Discuss the positive Stenger findings gently, indicating that the ear is detecting sound at softer levels than the voluntary responses suggest.",
+    "Recommend medical management for the reported ear pain and infection (otitis media) identified by the physician.",
+    "Emphasize the importance of consistent responses during the follow-up evaluation in 2 weeks to accurately plan for rehabilitation."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is somewhat defensive or vague about the hearing loss history.",
+    "During the hearing test, be intentionally inconsistent with button presses, especially in the left ear.",
+    "If the Stenger test is simulated, stop responding when the sound is louder in the 'bad' ear, even if it is audible in the 'good' ear.",
+    "Complain of ear pain to avoid pressure tests (tympanometry)."
+  ]
+}

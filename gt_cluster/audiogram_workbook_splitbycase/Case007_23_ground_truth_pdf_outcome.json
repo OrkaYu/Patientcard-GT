@@ -1,0 +1,98 @@
+{
+  "case_id": "Case007_23",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sudden Sensorineural Hearing Loss (Right Ear)",
+      "rationale_short": "Patient reported sudden onset of hearing loss 2 weeks ago; audiometry confirms sensorineural loss."
+    },
+    {
+      "rank": 2,
+      "label": "Chronic Mixed Hearing Loss (Left Ear)",
+      "rationale_short": "Long-standing history of chronic ear infections and mastoidectomy; audiometry shows mixed loss with air-bone gaps."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, configuration, and type of hearing loss given the sudden onset."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and rule out conductive pathology in the right ear."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear exhibits a mild sensorineural hearing loss sloping to severe, with word recognition scores showing slight difficulty (78%). The left ear shows a severe mixed hearing loss sloping to profound, consistent with the history of mastoidectomy. Immittance testing indicates normal middle ear function on the right (Type A) but could not be performed on the left due to surgery. Acoustic reflexes are present ipsilaterally on the right but absent in all other conditions.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Mild SNHL (250-2000 Hz) sloping to moderate-to-severe (3000-8000 Hz). Left ear: Severe mixed loss (250-3000 Hz) sloping to profound (4000-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 35 dB HL, WRS 78%. Left ear: SRT 73 dB HL, WRS 64%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Normal (Type A). Left ear: Could not be measured due to previous otosurgery."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral reflexes present (normal at 500, 1000, 4000 Hz; elevated at 2000 Hz). Left ipsilateral and all contralateral reflexes absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Annual hearing test",
+      "Evaluation for hearing aids",
+      "Use of Hearing Assistive Technology (HAT)",
+      "Use of hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Counseling on the sudden nature of the right ear hearing loss",
+      "Discussion of realistic expectations for amplification given the mixed and sensorineural losses"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden sensorineural hearing loss"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Otologist",
+      "rationale_short": "Sudden onset of sensorineural hearing loss requires immediate medical evaluation and potential steroid treatment."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After completion of steroid course (approx. 12 days)",
+    "objective": "To monitor for improvement in hearing thresholds or speech recognition following medical treatment."
+  },
+  "expected_outcome": [
+    "Pure-tone thresholds did not improve following the course of oral steroids.",
+    "Word recognition score (WRS) in the right ear increased to 96%.",
+    "Further medical management was not recommended."
+  ]
+}

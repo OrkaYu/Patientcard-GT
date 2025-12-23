@@ -1,0 +1,176 @@
+{
+  "case_id": "case_5_4",
+  "title": "Brainstem Involvement in a Child with Neurofibromatosis",
+  "demographics": {
+    "age_years": 9,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "The patient was referred to rule out acoustic neuroma involvement following a recent diagnosis of neurofibromatosis. She also presents with hypernasality and bilateral facial weakness.",
+  "problem_summary": {
+    "onset": "Symptoms (facial weakness) were apparent for a few months prior to the initial visit.",
+    "course": "Stable; repeated evaluations over a 1-year period showed no significant progression in audiologic or radiologic findings.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Hypernasality (poor velopalatal closure), bilateral facial weakness (inability to close eyes or lips tightly).",
+    "functional_impact": "Receives speech therapy and considerable supplemental academic help; functioning on grade level.",
+    "goals_motivation": "Monitor for tumor growth or progression of neurofibromatosis."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Recently diagnosed with neurofibromatosis. Receiving speech therapy for hypernasality related to poor velopalatal closure. Bilateral facial weakness noted.",
+        "otologic_history": "No other symptoms or concerns reported.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Neurofibromatosis.",
+        "prior_management": "Speech therapy.",
+        "patient_goals": "Rule out acoustic neuroma (AN)."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-14"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. Thresholds are essentially flat across the frequency range.",
+          "numeric_results": {
+            "Thresholds": "0-10 dB HL across 250-8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-14"
+          ],
+          "key_findings": "Normal speech recognition scores bilaterally. No rollover observed at high intensities.",
+          "numeric_results": {
+            "Word_Recognition_Score_RE": "96%",
+            "Word_Recognition_Score_LE": "96%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanograms bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal ipsilateral reflexes at 500 through 2000 Hz. Absent contralateral reflexes bilaterally for stimuli 500 through 4000 Hz.",
+          "numeric_results": null
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-15"
+          ],
+          "key_findings": "Abnormal. Left ear: Normal latencies for waves I, II, III; waves IV and V absent. I-III interval slightly extended. Right ear: Wave V present but reduced amplitude (<50% of Wave I) and disappears at high repetition rates. Bilaterally, responses at 60 dB nHL are difficult/impossible to read despite normal hearing sensitivity.",
+          "numeric_results": {
+            "LE_I-III_interval": "2.46 msec",
+            "RE_Wave_V_Amplitude": "Reduced (< 1/2 of Wave I)"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (OAE)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Robust responses bilaterally, consistent with normal cochlear function.",
+          "numeric_results": {
+            "Spectrum_Range": "600/700 Hz to 4500 Hz",
+            "Level": "> 20 dB SPL",
+            "Correlation": "> 90%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Central Auditory Tests: Dichotic rhyme and digits tests were mildly abnormal for age.",
+          "numeric_results": {
+            "Dichotic_Rhyme_Left": "27%",
+            "Dichotic_Rhyme_Right": "67%",
+            "Dichotic_Digits_Left": "70%",
+            "Dichotic_Digits_Right": "80%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Radiology",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 5-16",
+            "Figure 5-17"
+          ],
+          "key_findings": "MRI showed enlargement of the upper medulla, pons, cerebellum, and thalamic areas. Consistent with glial hypertrophy or brainstem glioma (intra-axial lesion).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity and normal cochlear function (OAEs). However, there is significant evidence of brainstem dysfunction. Key indicators include the dissociation between normal ipsilateral and absent contralateral acoustic reflexes, and abnormal ABR findings (preserved early waves I/II with absent or degraded late waves IV/V). The ABR morphology is compromised even at lower intensities (60 dB nHL) despite normal thresholds. Central auditory processing tests are mildly abnormal. These findings correlate with the MRI confirmation of an intra-axial brainstem lesion (glial hypertrophy) associated with her neurofibromatosis.",
+  "counseling_points": [
+    "Explain that hearing sensitivity (ability to hear soft sounds) is normal, but the pathways carrying sound through the brainstem are affected.",
+    "Discuss that the 'absent' reflexes and abnormal ABR are consistent with the known neurofibromatosis and the findings on the MRI, rather than a new tumor on the hearing nerve itself.",
+    "Highlight that the stability of the hearing and ABR over one year is a positive sign, aligning with the non-progressive nature of the lesion seen on MRI.",
+    "Reinforce the need for continued academic support and speech therapy, as the brainstem involvement can affect processing speed and complex listening tasks."
+  ],
+  "notes_for_actor": [
+    "You are a 9-year-old girl (or her parent).",
+    "You do not have trouble hearing beeps or quiet sounds.",
+    "You have trouble with speech clarity (hypernasality) and facial weakness (cannot close eyes tight).",
+    "You are doing okay in school but need extra help.",
+    "You have been seeing doctors a lot recently for the new diagnosis of Neurofibromatosis."
+  ]
+}

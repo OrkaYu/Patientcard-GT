@@ -1,0 +1,128 @@
+{
+  "case_id": "Case006",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Chronic otitis media",
+      "rationale_short": "History of lifelong infections, bilateral mastoidectomies, constant drainage, and mixed hearing loss with significant air-bone gaps."
+    },
+    {
+      "rank": 2,
+      "label": "Cholesteatoma",
+      "rationale_short": "Strong pungent odor and constant drainage suggest the possibility of cholesteatomas."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and tympanic membrane integrity."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and check for retrocochlear pathology."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To differentiate between conductive and retrocochlear pathology given the mixed loss."
+      },
+      {
+        "action": "TEOAE",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function."
+      },
+      {
+        "action": "Tone decay test",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Results indicate a bilateral mixed hearing loss, predominantly conductive, with significant air-bone gaps. Speech recognition is excellent. Immittance testing failed to obtain a seal, consistent with perforations or open mastoid cavities. ABR and tone decay results rule out retrocochlear pathology and support a conductive etiology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral mixed hearing loss. AC thresholds flat ~40-50 dB HL. BC thresholds 0-10 dB HL in low/mid frequencies, dropping to 30-40 dB HL at 4000 Hz. Significant air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT (Right: 45 dB HL, Left: 40 dB HL) aligns with pure-tone averages. SRS is excellent (Right: 92%, Left: 94%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "No seal obtainable in either ear, consistent with patent perforations or open mastoid cavities."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Untestable ipsilaterally and contralaterally."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "All waves prolonged absolute latencies; interpeak latencies and latency-intensity functions normal. Consistent with conductive hearing loss."
+          },
+          {
+            "name": "TEOAE",
+            "category": "Otoacoustic Emissions",
+            "result_summary": "Absent bilaterally."
+          },
+          {
+            "name": "Tone decay test",
+            "category": "Special Tests",
+            "result_summary": "Negative for retrocochlear pathology at 4000 Hz (0 dB decay Right, 5 dB decay Left)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Obtain written medical clearance before proceeding with hearing aid evaluation.",
+      "Consider bone-conduction hearing aids if ear drainage is a persistent problem preventing air-conduction aid use.",
+      "Consider conventional hearing aids if medical treatment resolves drainage and clearance is obtained.",
+      "Arrange for periodic monitoring of hearing loss."
+    ],
+    "counseling_actions": [
+      "Discuss the mixed nature of the hearing loss and its relationship to the history of infections.",
+      "Explain that while hearing can be improved, the sensorineural component means it cannot be made completely normal.",
+      "Use diplomacy when referring to the specialist to avoid criticizing the family doctor's previous advice.",
+      "Keep the patient informed of progress and implications of the diagnosis."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Strong pungent odor near ears",
+      "Constant drainage",
+      "History of mastoidectomies with current symptoms"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Otologist",
+      "rationale_short": "Strong odor and drainage suggest active infection or cholesteatoma requiring specialist management; second opinion needed as family doctor indicated no options."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Periodic",
+    "objective": "Monitor hearing loss and middle ear status; follow up on medical management outcomes."
+  },
+  "expected_outcome": []
+}

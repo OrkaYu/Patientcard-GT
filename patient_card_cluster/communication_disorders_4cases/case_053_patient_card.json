@@ -1,0 +1,175 @@
+{
+  "case_id": "case_53",
+  "title": "Ella: Sudden Idiopathic SNHL: Autoimmune Inner Ear Disease",
+  "demographics": {
+    "age_years": 85,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "Suddenly, I realized I couldn't hear anything from my right ear. Later, I started hearing chirping sounds, like crickets, and developed severe dizziness.",
+  "problem_summary": {
+    "onset": "Sudden onset of right-sided hearing loss at age 51, followed by fluctuating loss in the left ear approximately 1.5 years later.",
+    "course": "Right ear profound loss (dead ear) occurred rapidly. Left ear showed fluctuation and progression over 35 years, stabilized partially by immunosuppressive therapy (Cytoxan and prednisone).",
+    "laterality": "Bilateral; Right profound/anacusis, Left moderate-to-severe sloping.",
+    "associated_symptoms": "Severe vertigo (initially), unsteadiness, tinnitus ('chirping'), episcleritis, systemic autoimmune signs (canker sores, shortness of breath).",
+    "functional_impact": "Difficulty localizing sound, trouble in noise, loss of music appreciation, balance issues requiring visual cues and assistance.",
+    "goals_motivation": "Maintained an active career as a minister for many years; highly motivated to communicate with congregation and family."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "1985-08-22",
+      "setting": "Medical Facility / Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reported sudden onset of vertigo and nausea ~2 years prior, followed by unsteadiness. Tinnitus and hearing loss in Right ear noted in 1984. Most recent outside audio (Feb 1985) showed 50+ dB loss. Now reports total loss in Right ear.",
+        "otologic_history": "History of 'fullness and rushing sound' in Right ear 3 years prior. Diagnosed with SNHL Right ear in May 1984.",
+        "medical_psych_history": "Hysterectomy (fibroid tumor). History of canker sores. Mother had Meniere's disease.",
+        "prior_management": "Initially told she might have Meniere's; no treatment recommended by first ENT."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline (Diagnosis)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 53-1"
+          ],
+          "key_findings": "Right ear: No response to air or bone conduction (anacusis). Left ear: Mild sloping sensorineural hearing loss.",
+          "numeric_results": {
+            "Right_Ear_AC": "No Response at limits (100-110 dB HL)",
+            "Left_Ear_AC_250Hz": "15 dB HL",
+            "Left_Ear_AC_500Hz": "20 dB HL",
+            "Left_Ear_AC_1000Hz": "30 dB HL",
+            "Left_Ear_AC_2000Hz": "40 dB HL",
+            "Left_Ear_AC_4000Hz": "50 dB HL",
+            "Left_Ear_AC_8000Hz": "65 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Excellent word recognition in the left ear.",
+          "numeric_results": {
+            "Left_WRS": "Excellent at 40 dB SL"
+          }
+        },
+        {
+          "name": "Immittance",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Type A tympanograms bilaterally. Acoustic reflexes absent when stimulating Right ear; present at expected levels when stimulating Left ear. Reflex decay negative.",
+          "numeric_results": null
+        },
+        {
+          "name": "Electronystagmography (ENG)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Unilateral weakness on the right. Consistent with right peripheral deficit.",
+          "numeric_results": {
+            "Right_Caloric_Response": "0%",
+            "Left_Caloric_Response": "100%",
+            "Ice_Water_Caloric_Right": "3.7 deg/sec left-beating nystagmus"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "1990-01-09",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up after diagnosis of Autoimmune Inner Ear Disease (AIED) in Dec 1985. Patient had experienced fluctuation in Left ear and was treated with Cytoxan and Prednisone.",
+        "prior_management": "Aggressive chemotherapy (Cytoxan) and steroid treatment initiated in late 1985."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-Treatment Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 53-1"
+          ],
+          "key_findings": "Right ear remains anacusic. Left ear shows progression to moderate flat-to-sloping loss compared to 1985 baseline.",
+          "numeric_results": {
+            "Right_Ear_AC": "No Response",
+            "Left_Ear_AC_250Hz": "40 dB HL",
+            "Left_Ear_AC_500Hz": "40 dB HL",
+            "Left_Ear_AC_1000Hz": "40 dB HL",
+            "Left_Ear_AC_2000Hz": "50 dB HL",
+            "Left_Ear_AC_4000Hz": "60 dB HL",
+            "Left_Ear_AC_8000Hz": "75 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2018-12-03",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Long-term monitoring. Patient is now ~85 years old. Reports permanent decrease over the years but word recognition remains good in quiet.",
+        "prior_management": "Used BiCROS previously; now uses monaural digital BTE with FM on left ear."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Current Status",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 53-1"
+          ],
+          "key_findings": "Right ear anacusic. Left ear shows moderate-to-severe sloping sensorineural hearing loss.",
+          "numeric_results": {
+            "Right_Ear_AC": "No Response",
+            "Left_Ear_AC_250Hz": "45 dB HL",
+            "Left_Ear_AC_500Hz": "50 dB HL",
+            "Left_Ear_AC_1000Hz": "55 dB HL",
+            "Left_Ear_AC_2000Hz": "60 dB HL",
+            "Left_Ear_AC_4000Hz": "70 dB HL",
+            "Left_Ear_AC_8000Hz": "80 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a profound right sensorineural hearing loss (single-sided deafness) and a progressive, fluctuating left sensorineural hearing loss that has evolved from mild to moderate-severe over 35 years. The etiology is confirmed as Autoimmune Inner Ear Disease (AIED). Word recognition in the only hearing ear (left) has remained disproportionately good relative to thresholds in quiet, though performance in noise is significantly degraded. Vestibular testing confirmed a complete right peripheral vestibular deficit.",
+  "counseling_points": [
+    "Since you rely entirely on your left ear, immediate attention to any sudden changes in hearing is critical—treat it as a medical emergency.",
+    "Your difficulty in background noise is expected due to the loss of binaural hearing; continue using your FM system and preferential seating (good ear toward the speaker).",
+    "For balance, continue using visual cues (nightlights) and physical support (handrails), as your right balance system is not functioning.",
+    "Systemic management of your autoimmune condition is directly linked to preserving your remaining hearing."
+  ],
+  "notes_for_actor": [
+    "You are an educated, articulate professional (minister/musician) who is frustrated by being treated as 'stupid' when you miss parts of a conversation.",
+    "You rely heavily on lip-reading and visual cues; look intently at the speaker.",
+    "You have balance issues; you might reach for furniture or a steadying arm when walking or turning.",
+    "You are open about your hearing loss now but carry the emotional weight of having lost your music and easy communication."
+  ]
+}

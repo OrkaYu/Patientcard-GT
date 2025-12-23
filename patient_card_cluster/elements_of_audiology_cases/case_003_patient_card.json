@@ -1,0 +1,158 @@
+{
+  "case_id": "elements_case_03",
+  "title": "34-Month-Old with Language Delay and Suspected Hearing Loss",
+  "demographics": {
+    "age_years": 2.8,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "Parents are uncertain if hearing loss is present, but the child says 'huh' a good deal. The father feels the child 'does not pay attention.'",
+  "problem_summary": {
+    "onset": "Uncertain; language development has been 'slightly behind' older siblings.",
+    "course": "History of 'ear infections' on a few occasions, but more frequently treated for 'tonsillitis'.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Inattention, saying 'huh', language delay.",
+    "functional_impact": "Slightly behind language development milestones compared to siblings.",
+    "goals_motivation": "Determine if hearing loss is present and the cause of the behavioral/language issues."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "34-month-old male brought by parents. Child is otherwise healthy but has a history of antibiotic treatment for tonsillitis and occasional ear infections. No marked temperature elevations associated with these episodes.",
+        "otologic_history": "Recurrent treatments for tonsillitis and some ear infections.",
+        "noise_exposure_history": "None reported for child.",
+        "medical_psych_history": "Otherwise healthy.",
+        "prior_management": "Pediatrician has prescribed antibiotics.",
+        "patient_goals": "Diagnosis of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Air conduction thresholds obtained for 500-4000 Hz. Results indicate a mild, flat hearing loss bilaterally. Bone conduction was not obtained due to the child tiring.",
+          "numeric_results": {
+            "Right_AC_500Hz": "20 dB HL",
+            "Right_AC_1000Hz": "20 dB HL",
+            "Right_AC_2000Hz": "20 dB HL",
+            "Right_AC_4000Hz": "20 dB HL",
+            "Left_AC_500Hz": "25 dB HL",
+            "Left_AC_1000Hz": "25 dB HL",
+            "Left_AC_2000Hz": "25 dB HL",
+            "Left_AC_4000Hz": "30 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "SRT aligns with pure-tone averages. SRS not obtained.",
+          "numeric_results": {
+            "Right_SRT": "20 dB HL",
+            "Left_SRT": "25 dB HL",
+            "SRS": "Not obtained (?)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanogram Graph",
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Type B (flat) tympanograms bilaterally with low static compliance.",
+          "numeric_results": {
+            "Right_Static_Compliance": "0.25 cc",
+            "Left_Static_Compliance": "0.20 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral reflexes bilaterally.",
+          "numeric_results": {
+            "Right_ARTs": "Absent",
+            "Left_ARTs": "Absent"
+          }
+        },
+        {
+          "name": "ABR",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "All waves prolonged; interpeak latencies normal; latency-intensity function normal. This pattern is consistent with conductive pathology.",
+          "numeric_results": null
+        },
+        {
+          "name": "TEOAE",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Transient Evoked Otoacoustic Emissions are absent bilaterally.",
+          "numeric_results": {
+            "Result": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild, flat bilateral hearing loss (Right PTA ~20 dB, Left PTA ~25 dB) supported by consistent SRTs. Immittance testing reveals Type B tympanograms with low static compliance and absent acoustic reflexes, strongly suggesting middle ear pathology. ABR results show prolonged absolute latencies with normal interpeak latencies, confirming the conductive nature of the loss likely due to bilateral serous effusion.",
+  "counseling_points": [
+    "Your child appears to have fluid in both ears (bilateral serous effusion), which is causing a mild hearing loss.",
+    "This hearing loss explains why he says 'huh' often and seems inattentive.",
+    "The hearing loss is likely temporary and treatable, but medical management is required.",
+    "We need to refer you to an otologist (ENT) for evaluation and treatment.",
+    "It is crucial to return for a complete hearing test, including bone conduction, after medical treatment is completed to ensure hearing has returned to normal.",
+    "If hearing issues persist after medical treatment, we may consider a speech-language pathology referral to address the language delay."
+  ],
+  "notes_for_actor": [
+    "The father in the scenario has his own hearing loss (noise-induced from artillery) and tinnitus, but this is irrelevant to the child's genetic history.",
+    "The child tired quickly during testing, so the actor playing the clinician should emphasize the need for efficiency or breaks.",
+    "Parents may be confused about why the child was treated for tonsillitis if the issue is fluid in the ears."
+  ]
+}

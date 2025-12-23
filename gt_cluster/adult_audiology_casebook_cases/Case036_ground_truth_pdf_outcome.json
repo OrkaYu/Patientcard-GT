@@ -1,0 +1,144 @@
+{
+  "case_id": "Case036",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Vestibular Schwannoma",
+      "rationale_short": "Confirmed by MRI showing a 1.5 cm lesion; consistent with asymmetric SNHL, disproportionately poor word recognition, absent acoustic reflexes, and vestibular weakness."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Review of Historical Audiometry (2012)",
+        "urgency": "routine",
+        "rationale_short": "Review of patient-provided records to establish baseline and progression of hearing loss."
+      },
+      {
+        "action": "Review of Historical Audiometry (2015)",
+        "urgency": "routine",
+        "rationale_short": "Review of patient-provided records to assess rate of progression and previous findings."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine current hearing thresholds and confirm asymmetry."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess word recognition abilities and check for retrocochlear signs (rollover)."
+      },
+      {
+        "action": "Immittance & Reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function and screen for retrocochlear pathology via acoustic reflexes."
+      },
+      {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify the output of the patient's current hearing aids against prescriptive targets."
+      },
+      {
+        "action": "QuickSIN",
+        "urgency": "routine",
+        "rationale_short": "To quantify signal-to-noise ratio loss and assess aided performance in noise."
+      },
+      {
+        "action": "MRI Internal Auditory Canal",
+        "urgency": "soon",
+        "rationale_short": "Gold standard imaging to rule out retrocochlear pathology given asymmetric loss, poor WRS, and absent reflexes."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Review of historical audiograms revealed a progressive asymmetric sensorineural hearing loss, with the left ear deteriorating more rapidly than the right. The 2012 audiogram showed moderate loss on the right and mixed loss on the left (likely artifactual air-bone gaps). The 2015 audiogram showed significant degradation in the left ear with very poor word recognition (20%), raising suspicion for retrocochlear pathology.",
+        "tests": [
+          {
+            "name": "Review of Historical Audiometry (2012)",
+            "result_summary": "Right: Moderate SNHL (PTA 48 dB HL). Left: Moderately severe mixed loss (PTA 62 dB HL) with air-bone gaps. WRS: Right 100%, Left 30%."
+          },
+          {
+            "name": "Review of Historical Audiometry (2015)",
+            "result_summary": "Right: Moderate SNHL (PTA 53 dB HL). Left: Severe to profound loss (PTA 87 dB HL). WRS: Right 100%, Left 20%."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Comprehensive evaluation confirmed significant asymmetric SNHL, with the left ear showing severe-to-profound loss. Word recognition in the left ear was disproportionately poor (32%) compared to pure tones, consistent with retrocochlear pathology. Acoustic reflexes were absent bilaterally. Real-ear measures showed current aids were under-amplified. Vestibular testing (performed externally) indicated left caloric weakness.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right: Moderate flat to 2k sloping to severe SNHL (PTA 53 dB HL). Left: Severe to profound flat SNHL (PTA 88 dB HL). No air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "Right WRS: 92% at 80 dB HL. Left WRS: 32% at 95 dB HL (rollover/retrocochlear sign)."
+          },
+          {
+            "name": "Immittance & Reflexes",
+            "result_summary": "Type A tympanograms bilaterally. Acoustic reflexes absent ipsilateral and contralateral at 500, 1k, 2k, 4k Hz."
+          },
+          {
+            "name": "QuickSIN",
+            "result_summary": "SNR Loss of 23.5 dB (bilateral aided), indicating very poor performance in noise."
+          },
+          {
+            "name": "Real Ear Measures (REM)",
+            "result_summary": "Current Costco hearing aids found to be well below NAL-NL-2 targets."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "MRI results were reviewed, confirming the diagnosis of a vestibular schwannoma on the left side. This finding correlates with the asymmetric hearing loss, poor speech recognition, absent reflexes, and vestibular symptoms.",
+        "tests": [
+          {
+            "name": "MRI Internal Auditory Canal",
+            "result_summary": "1.5 cm lesion along left cerebellopontine angle extending into porus acusticus and IAC (Vestibular Schwannoma)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit with new hearing aids programmed to NAL-NL2 targets using REM",
+      "Wireless remote microphone and streaming accessories",
+      "Vestibular rehabilitation therapy",
+      "Referral to neurotologist for surgical/radiation consultation"
+    ],
+    "counseling_actions": [
+      "Discussed MRI results confirming vestibular schwannoma",
+      "Explained that asymmetric hearing loss and poor speech understanding are consistent with the tumor",
+      "Counseled on realistic expectations for hearing aid benefit in the left ear due to poor word recognition",
+      "Discussed management options (surgery, radiation, monitoring) and the need for specialist consultation",
+      "Advised on fall risk and safety due to vestibular dysfunction"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric sensorineural hearing loss",
+      "Unilateral tinnitus",
+      "Disproportionately poor word recognition scores in one ear",
+      "Absent acoustic reflexes",
+      "Vestibular symptoms (dizziness, imbalance)"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurotologist",
+      "rationale_short": "MRI confirmed 1.5 cm vestibular schwannoma requiring evaluation for potential surgical or radiation intervention."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Ongoing",
+    "objective": "Monitor tumor status and manage hearing/communication needs while patient considers treatment options."
+  },
+  "expected_outcome": [
+    "Patient is currently considering her treatment options and has currently taken no steps to schedule surgical or radiation intervention.",
+    "Patient is effectively using her new hearing aids with streaming capabilities on her cell phone, television, and other media.",
+    "Patient is using the wireless remote microphone provided with the hearing aids."
+  ]
+}

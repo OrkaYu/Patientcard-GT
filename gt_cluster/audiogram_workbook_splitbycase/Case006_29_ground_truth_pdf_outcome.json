@@ -1,0 +1,87 @@
+{
+  "case_id": "Case006_29",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Traumatic Tympanic Membrane Perforation (Right)",
+      "rationale_short": "History of branch puncture, otalgia, tinnitus, and Type B tympanogram with large ear canal volume (4.8 mL)."
+    },
+    {
+      "rank": 2,
+      "label": "Ossicular Discontinuity (Right)",
+      "rationale_short": "Significant conductive hearing loss and CT scan findings confirming discontinuity."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing sensitivity and type of loss given history of trauma."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech understanding and cross-check with pure-tone thresholds."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function and tympanic membrane integrity."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear presents with a mild to moderately severe conductive hearing loss. Tympanometry in the right ear reveals a flat trace (Type B) with a large ear canal volume (4.8 mL), consistent with a tympanic membrane perforation. Speech recognition is excellent bilaterally. The left ear is within normal limits.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear mild conductive loss (250-2000 Hz) sloping to moderate/moderately severe (3000-4000 Hz); PTA 40 dB HL. Left ear normal hearing (PTA 7 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear SRT 45 dB HL, WRS 96% at 80 dB HL. Left ear SRT 5 dB HL, WRS 96% at 50 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear Type B (flat) with large ear canal volume (4.8 mL). Left ear Type A (normal) with volume 1.3 mL."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to otologist for tympanoplasty and ossicular chain reconstruction",
+      "Retest hearing after surgery",
+      "Annual hearing evaluation",
+      "Use of hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Explain the conductive nature of the hearing loss and the presence of a tympanic membrane perforation",
+      "Discuss the CT scan findings of ossicular discontinuity",
+      "Advise to keep the right ear dry to prevent infection"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Traumatic tympanic membrane perforation",
+      "Ossicular discontinuity",
+      "Conductive hearing loss"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist",
+      "rationale_short": "Surgical management required for tympanic membrane repair and ossicular chain reconstruction."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After surgery and annually",
+    "objective": "Monitor hearing improvement post-surgery and annual surveillance."
+  },
+  "expected_outcome": []
+}

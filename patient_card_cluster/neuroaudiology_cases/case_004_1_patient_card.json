@@ -1,0 +1,144 @@
+{
+  "case_id": "case_4_1",
+  "title": "Auditory Nerve Involvement: Case 4-1",
+  "demographics": {
+    "age_years": 61,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am unable to hear over the phone when holding it to my right ear.",
+  "problem_summary": {
+    "onset": "Progressive symptoms over the past year.",
+    "course": "Progressive hearing loss; symptoms appeared to worsen during the year before evaluation.",
+    "laterality": "Right ear primarily; slight hearing difficulty noted in left ear on audiogram but patient focused on right.",
+    "associated_symptoms": "Occasional high-pitched tinnitus in the right ear; slight momentary imbalance on turning quickly.",
+    "functional_impact": "Inability to use the telephone with the right ear.",
+    "goals_motivation": "Initially sought help from a hearing aid dealer, then referred for consultation."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Healthy 61-year-old male presenting with progressive right-sided hearing loss, right-sided high-pitched tinnitus, and momentary imbalance when turning quickly.",
+        "otologic_history": "No specific prior otologic history noted other than current symptoms.",
+        "noise_exposure_history": "No noted history of noise exposure.",
+        "medical_psych_history": "Described as a 'healthy' male.",
+        "prior_management": "Patient initially contacted a hearing aid dealer but was referred for audiologic consultation.",
+        "patient_goals": "Diagnosis and management of hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-2"
+          ],
+          "key_findings": "Right ear shows moderate to severe sensorineural hearing loss. Left ear shows mild to severe sensorineural loss commencing at 2000 Hz.",
+          "numeric_results": {
+            "RE_250Hz": "~45 dB HL",
+            "RE_500Hz": "~60 dB HL",
+            "RE_1000Hz": "~60 dB HL",
+            "RE_2000Hz": "~70 dB HL",
+            "RE_4000Hz": "~65 dB HL",
+            "RE_8000Hz": "~75 dB HL",
+            "LE_250_to_1000Hz": "< 25 dB HL",
+            "LE_2000Hz": "~30 dB HL",
+            "LE_4000Hz": "~70 dB HL",
+            "LE_8000Hz": "~65 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-2"
+          ],
+          "key_findings": "Right ear spondee thresholds established with difficulty; patient could not recognize monosyllabic words at any intensity. Left ear showed good speech recognition.",
+          "numeric_results": {
+            "RE_WRS_NU6": "CNT (Could Not Test) / 0% recognition mentioned in text",
+            "LE_WRS": "88%"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Contralateral reflexes present at normal levels for Left Ear stimulation. Right Ear stimulation showed elevated or absent reflexes.",
+          "numeric_results": {
+            "LE_stim_500_1k_2k": "Normal intensity levels",
+            "RE_stim_500_1k": "Elevated",
+            "RE_stim_2k": "Absent"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-3"
+          ],
+          "key_findings": "Right ear showed no repeatable tracings at high intensities (80-90 dB nHL). Left ear demonstrated normal absolute latencies for waves III and V (Wave I not identified).",
+          "numeric_results": {
+            "RE_Wave_V": "Absent/Not repeatable",
+            "LE_Wave_III_V": "Normal absolute latencies"
+          }
+        },
+        {
+          "name": "CT Scan",
+          "timepoint_label": "Post-audiologic evaluation",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-4"
+          ],
+          "key_findings": "CT of right petrous pyramid with interthecal air injection. Air did not fill the Internal Auditory Meatus (IAM), indicating a mass. Axial cut showed mass extending into the Cerebellopontine Angle (CPA).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 61-year-old male presents with a classic retrocochlear profile on the right side. Audiometry reveals a moderate-to-severe SNHL in the right ear with disproportionately poor speech recognition (0% / CNT). Acoustic reflexes are elevated/absent with right ear stimulation, and ABR shows no repeatable waves on the right despite high intensity stimulation. The left ear shows high-frequency SNHL but preserved speech recognition and normal ABR latencies. Imaging confirmed a mass filling the right IAM and extending into the CPA, consistent with an acoustic tumor.",
+  "counseling_points": [
+    "Explain the discrepancy between the pure tone hearing loss and the inability to understand speech on the right side (retrocochlear pathology).",
+    "Discuss the results of the ABR and Reflex testing indicating neural involvement.",
+    "Review the radiological findings confirming the presence of a mass (acoustic tumor) on the auditory nerve.",
+    "Refer to Otolaryngology/Neurosurgery for management of the acoustic tumor (surgical removal was performed in this case)."
+  ],
+  "notes_for_actor": [
+    "You are a healthy 61-year-old male.",
+    "You are frustrated that you cannot use the phone on your right ear at all.",
+    "You have noticed a high-pitched ringing (tinnitus) in your right ear.",
+    "You occasionally feel off-balance if you turn your head too fast.",
+    "You have no history of working in loud noise.",
+    "You tried to buy a hearing aid first, but the seller told you to see an audiologist instead."
+  ]
+}

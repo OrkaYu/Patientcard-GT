@@ -1,0 +1,126 @@
+{
+  "case_id": "case_4_10",
+  "title": "Subjective Aural Fullness with Normal Hearing Sensitivity",
+  "demographics": {
+    "age_years": 59,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My right ear has felt plugged for about two months. It feels like there is fluid in there, even though the doctor said it looked clear.",
+  "problem_summary": {
+    "onset": "2 months prior to the visit.",
+    "course": "Persistent sensation of fullness despite medical report stating fluid resolution.",
+    "laterality": "Right ear.",
+    "associated_symptoms": "Sensation of fluid/fullness; recent ear infection.",
+    "functional_impact": "Subjective sensation of being plugged; no reported difficulty hearing prior to infection.",
+    "goals_motivation": "Evaluation of continued sensation of fullness."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-06-24",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a 2-month history of a plugged right ear following an ear infection.",
+        "otologic_history": "Recent ear infection. Seen by ENT specialist who noted fluid seemed to have resolved.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Evaluated by ENT specialist.",
+        "patient_goals": "Investigate cause of persistent fullness."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.10"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally at 250 through 8,000 Hz. No air-bone gaps observed.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "0-10 dB HL range across frequencies",
+            "Left_Ear_Thresholds": "0-10 dB HL range across frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.10"
+          ],
+          "key_findings": "Normal ability to receive and recognize speech. SRTs are in agreement with PTA.",
+          "numeric_results": {
+            "Right_SRT": "7 dB",
+            "Right_WRS": "100% at 55 dB HL",
+            "Left_SRT": "8 dB",
+            "Left_WRS": "100% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.10"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally, indicating normal middle ear mobility and pressure.",
+          "numeric_results": {
+            "Right_Canal_Volume": "0.90 mL",
+            "Right_Static_Admittance": "0.70 mL",
+            "Right_Peak_Pressure": "-35 daPa",
+            "Left_Canal_Volume": "0.80 mL",
+            "Left_Static_Admittance": "0.40 mL",
+            "Left_Peak_Pressure": "-35 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.10"
+          ],
+          "key_findings": "Acoustic reflex thresholds present and normal for ipsilateral and contralateral stimulation (500-4000 Hz). Reflex decay negative at 500 and 1000 Hz.",
+          "numeric_results": {
+            "Right_Ipsi_Reflexes": "90, 95, 90, 90 dB HL (500, 1k, 2k, 4k Hz)",
+            "Left_Ipsi_Reflexes": "80, 75, 80, 85 dB HL (500, 1k, 2k, 4k Hz)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient demonstrates normal bilateral hearing sensitivity with excellent word recognition scores. Immittance testing confirms normal middle ear function with no evidence of fluid or negative pressure, and acoustic reflexes are intact. The subjective sensation of fullness is not correlated with any peripheral audiologic deficit.",
+  "counseling_points": [
+    "Your hearing test today is completely normal in both ears.",
+    "The pressure test (tympanometry) confirms that your eardrums are moving perfectly and there is no sign of fluid behind them right now.",
+    "Since your hearing system looks healthy, the 'plugged' sensation might be related to other factors the ENT can investigate.",
+    "Please keep your follow-up appointment with the otologist as scheduled."
+  ],
+  "notes_for_actor": [
+    "You are a 59-year-old woman who is frustrated or confused because your ear feels 'full' or 'plugged', but you are being told the fluid is gone.",
+    "You do not have trouble hearing soft sounds; your hearing is normal.",
+    "Focus on describing the physical sensation of the ear being plugged rather than hearing loss."
+  ]
+}

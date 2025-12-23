@@ -1,0 +1,114 @@
+{
+  "case_id": "Case007_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Central Auditory Processing Disorder",
+      "rationale_short": "Classic central profile with contralateral (left ear) deficits on dichotic tests and bilateral temporal processing deficits, consistent with right temporal lobe pathology."
+    },
+    {
+      "rank": 2,
+      "label": "Right Temporal Lobe Glioblastoma Multiforme",
+      "rationale_short": "Known medical diagnosis; the tumor and surgical sequelae are the etiology of the central auditory deficits."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess peripheral hearing thresholds."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech recognition ability in quiet."
+      },
+      {
+        "action": "Dichotic Speech Tests",
+        "urgency": "routine",
+        "rationale_short": "Evaluate binaural integration and hemispheric function."
+      },
+      {
+        "action": "Duration Patterns Test",
+        "urgency": "routine",
+        "rationale_short": "Assess temporal processing abilities."
+      },
+      {
+        "action": "Late Potentials (N1, P2)",
+        "urgency": "routine",
+        "rationale_short": "Electrophysiological assessment of cortical auditory function."
+      },
+      {
+        "action": "P300",
+        "urgency": "routine",
+        "rationale_short": "Assess cognitive auditory processing."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates a classic central auditory profile associated with right temporal lobe pathology. Peripheral hearing is normal in the left ear, while the right ear shows a mild conductive loss. Central testing reveals a marked contralateral (left ear) deficit on dichotic tasks and bilateral deficits on temporal processing. Electrophysiologically, late potentials are paradoxically larger over the lesioned hemisphere, likely due to a lack of inhibition, while the P300 is largely absent.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear thresholds normal. Right ear shows mild conductive hearing loss (low-frequency dip)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent speech recognition (100%) bilaterally in quiet."
+          },
+          {
+            "name": "Dichotic Speech Tests",
+            "category": "Central Auditory Processing",
+            "result_summary": "Classic contralateral effect: Left ear scores markedly depressed on Dichotic Digits (~65%), Dichotic Rhyme, and Competing Sentences (~25%). Right ear scores normal."
+          },
+          {
+            "name": "Duration Patterns Test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Scores bilaterally depressed, falling below the normal range."
+          },
+          {
+            "name": "Late Potentials (N1, P2)",
+            "category": "Electrophysiology",
+            "result_summary": "N1 and P2 waves present bilaterally at normal latencies but paradoxically larger and better defined over the lesioned (right) hemisphere."
+          },
+          {
+            "name": "P300",
+            "category": "Electrophysiology",
+            "result_summary": "Absent for all tracings, with the possible exception of the C3 tracing for the right ear."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Communication strategies for complex listening environments"
+    ],
+    "counseling_actions": [
+      "Explain the 'contralateral effect': difficulty hearing in the left ear is due to right brain processing issues, not the ear itself.",
+      "Discuss that the mild right ear conductive loss is likely unrelated to the brain tumor.",
+      "Advise on difficulties in noise or with multiple speakers due to dichotic deficits."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Left arm numbness",
+      "Lightheadedness",
+      "Left-sided motor problems"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Report audiological findings consistent with known right temporal lobe pathology; patient is already under medical care."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor auditory processing status."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,120 @@
+{
+  "case_id": "Case009_04",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Brainstem involvement secondary to Multiple Sclerosis",
+      "rationale_short": "Normal peripheral hearing with absent acoustic reflexes (RE), abnormal ABR (bilateral), and abnormal MLD indicates retrocochlear pathology at the brainstem level."
+    },
+    {
+      "rank": 2,
+      "label": "Central Auditory Processing Disorder (secondary to MS)",
+      "rationale_short": "Deficits on SSW, Frequency Patterns, and MLD despite normal pure-tone thresholds suggest central dysfunction."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline assessment of peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech recognition abilities in quiet."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess integrity of the reflex arc and brainstem pathways."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "Evaluate neural synchrony and brainstem transmission times."
+      },
+      {
+        "action": "Central Auditory Processing Tests",
+        "urgency": "routine",
+        "rationale_short": "Assess central auditory function given the neurological history."
+      },
+      {
+        "action": "Radiology (CT Scan)",
+        "urgency": "routine",
+        "rationale_short": "Review structural brain imaging for correlation with auditory findings."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with normal peripheral hearing sensitivity and excellent speech recognition in quiet. However, neurodiagnostic and central processing evaluations reveal significant abnormalities consistent with brainstem involvement due to Multiple Sclerosis. Key findings include absent acoustic reflexes with right ear stimulation, a severely abnormal ABR (especially on the right), and an abnormal MLD. Behavioral central tests show bilateral and left-ear deficits, suggesting dysfunction in the low pons and potentially the corpus callosum.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Thresholds within normal limits bilaterally (0-20 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent speech recognition scores: Right Ear 92%, Left Ear 94%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Contralateral reflexes present at normal levels with Left Ear stimulus; absent at all frequencies with Right Ear stimulus."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Abnormal bilaterally. Left Ear: Waves I and III present with normal latencies, Wave V undetermined. Right Ear: Wave I identifiable, no other waves observed."
+          },
+          {
+            "name": "Central Auditory Processing Tests",
+            "category": "Central",
+            "result_summary": "MLD abnormal (4 dB). Low Pass Filtered Speech normal. Dichotic Digits normal RE, depressed LE. SSW abnormal (LE depressed). Frequency Patterns abnormal (bilaterally depressed)."
+          },
+          {
+            "name": "Radiology (CT Scan)",
+            "category": "Imaging",
+            "result_summary": "Cerebral atrophy (mid and anterior convexities); questionable low-density area adjacent/superior to 4th ventricle on the left."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Communication strategies training"
+    ],
+    "counseling_actions": [
+      "Explain that normal hearing sensitivity does not rule out central processing difficulties.",
+      "Discuss the correlation between neurological MS findings and auditory deficits (e.g., difficulty in noise, temporal processing).",
+      "Highlight the significant neural disruption in the right ear pathways despite normal thresholds."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Findings confirm brainstem involvement consistent with known Multiple Sclerosis; maintain current neurological management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor functional communication needs and progression of central deficits."
+  },
+  "expected_outcome": []
+}

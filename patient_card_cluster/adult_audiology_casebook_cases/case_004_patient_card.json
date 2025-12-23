@@ -1,0 +1,212 @@
+{
+  "case_id": "case04_Diagnostic_and_Treatment_Outcomes_for_an",
+  "title": "Adolescent with Left Functional Hemispherectomy",
+  "demographics": {
+    "age_years": 18,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I have difficulty hearing when there is background noise and I can't tell where sounds are coming from. My family says I watch TV and listen to music too loudly.",
+  "problem_summary": {
+    "onset": "Congenital/Early Childhood (Infantile spasms at 4 weeks, epilepsy at 9 months).",
+    "course": "Stable since left functional hemispherectomy at age 6; no seizures since surgery.",
+    "laterality": "Bilateral peripheral hearing; Right ear deficit in central processing.",
+    "associated_symptoms": "Right hemiparesis, right homonymous hemianopsia (visual field loss), difficulty localizing sound, loud voice volume.",
+    "functional_impact": "Significant difficulty in noise; relies on speakerphone; fatigue from listening effort.",
+    "goals_motivation": "Wants to hear better in noise and manage volume levels."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-11-03",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports difficulty hearing in background noise and localizing sound. He increases volume on TV/music to levels uncomfortable for others. Denies ear pain or tinnitus.",
+        "otologic_history": "No significant history of otitis media.",
+        "noise_exposure_history": "Listens to music at high volumes.",
+        "medical_psych_history": "History of infantile spasms and intractable epilepsy. Underwent left hemisphere resections at 2.5 and 3.5 years, and left functional hemispherectomy at age 6. Resulting right hemiparesis and visual field loss.",
+        "prior_management": "Audiologic evaluation at age 8 showed normal peripheral hearing. No CAPD testing until now.",
+        "patient_goals": "Improve hearing in noise."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4.1"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally from 250-8000 Hz.",
+          "numeric_results": {
+            "Right Ear Thresholds": "0-10 dB HL across frequencies",
+            "Left Ear Thresholds": "0-10 dB HL across frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4.1"
+          ],
+          "key_findings": "SRTs consistent with pure tones. WRS excellent in left ear, slight difficulty in right ear.",
+          "numeric_results": {
+            "SRT Right": "0 dB HL",
+            "SRT Left": "5 dB HL",
+            "WRS Right (PBK-50)": "85%",
+            "WRS Left (PBK-50)": "92%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally.",
+          "numeric_results": {
+            "Right Ear Pressure": "10 daPa",
+            "Left Ear Pressure": "5 daPa",
+            "Right Ear Compliance": "0.5 mL",
+            "Left Ear Compliance": "0.8 mL"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAE)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present at 1.5-3.5 kHz (Left) and 1.5-4 kHz (Right). Weak at 1 kHz in Right and 1 & 4 kHz in Left.",
+          "numeric_results": null
+        },
+        {
+          "name": "Words-in-Noise (WIN)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 4.1"
+          ],
+          "key_findings": "Mild difficulty in left ear, severe difficulty in right ear, moderate difficulty binaurally. Asymmetrical performance consistent with left hemispherectomy.",
+          "numeric_results": {
+            "Left Ear SNR Threshold": "7.6 dB",
+            "Right Ear SNR Threshold": "16.4 dB",
+            "Binaural SNR Threshold": "10.8 dB"
+          }
+        },
+        {
+          "name": "Central Auditory Processing Battery",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 4.1"
+          ],
+          "key_findings": "Significant deficits in binaural integration and temporal patterning (labeling). Right ear performance consistently poorer (contralateral to removed hemisphere). Hummed patterns were normal (right hemisphere function).",
+          "numeric_results": {
+            "Dichotic Digits (Double) Left": "90%",
+            "Dichotic Digits (Double) Right": "50%",
+            "Dichotic Rhyme Left": "53.3%",
+            "Dichotic Rhyme Right": "23%",
+            "Frequency Patterns (Labeling)": "22%",
+            "Frequency Patterns (Humming)": "100%"
+          }
+        },
+        {
+          "name": "Electrophysiology (ABR/MLR/Late)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "ABR normal bilaterally. MLR present but muscle artifact on right. Late potentials (N1/P2) present left, but absent at Cz, C4, C3 when stimulating right ear, suggesting impaired cortical processing of information from the right ear.",
+          "numeric_results": null
+        },
+        {
+          "name": "Functional Speech Perception (Boothroyd AB Lists)",
+          "timepoint_label": "In-office Trial",
+          "ear": "soundfield",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 4.2",
+            "Table 4.3"
+          ],
+          "key_findings": "Unaided performance good in quiet but degraded in soft/noise conditions. Aided (HA and HA+FM) showed improvement, particularly in soft speech and noise with FM.",
+          "numeric_results": {
+            "Unaided Quiet Soft (30 dB) Total Words": "50%",
+            "Aided Quiet Soft Total Words": "80%",
+            "Unaided Noise Steady Total Words": "70%",
+            "Aided Noise FM Right Ear Total Words": "100%"
+          }
+        },
+        {
+          "name": "Hearing-in-Noise Test for Children (HINT-C)",
+          "timepoint_label": "In-office Trial",
+          "ear": "soundfield",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 4.4"
+          ],
+          "key_findings": "Significant improvement in speech-in-noise performance with HA + FM system compared to unaided.",
+          "numeric_results": {
+            "Unaided Noise (50 dB HL +10 SNR)": "74%",
+            "Aided HA+FM Noise (50 dB HL +10 SNR)": "96%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Peripheral hearing sensitivity is within normal limits bilaterally. However, central auditory processing testing reveals significant deficits, particularly in the right ear (contralateral to the hemispherectomy) and in background noise. Electrophysiologic and behavioral results confirm that auditory information presented to the right ear is not processed efficiently by the remaining cortex. Functional testing demonstrates that amplification (Right HA) and FM systems significantly improve speech recognition in noise and soft speech perception.",
+  "counseling_points": [
+    "Although your hearing chart looks 'normal' for beeps, your brain has trouble processing complex sounds, especially from your right ear.",
+    "Because the left side of your brain was removed, the pathway from your right ear is disconnected, making it hard to hear in noise.",
+    "We recommend a hearing aid for your right ear to boost the signal to your brain.",
+    "An FM/DM system will be very helpful in school or noisy places to bring the speaker's voice directly to your ear.",
+    "You may notice your own voice sounds different or softer when wearing the device; this is normal and helps you regulate your volume."
+  ],
+  "notes_for_actor": [
+    "Portray a young adult who is articulate but may have a slightly loud voice or 'over-articulate' speech initially.",
+    "You have right-sided physical weakness (hemiparesis) and vision loss on the right side (hemianopsia)—adjust your gaze and posture accordingly.",
+    "You are motivated to use technology if it helps you hear in noise.",
+    "You do not have seizures anymore."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "case_id": "Case005_10",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Retrocochlear pathology",
+      "rationale_short": "Significant deterioration in right ear Word Recognition Score (88% to 56%) and slight threshold asymmetry."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural hearing loss",
+      "rationale_short": "Bilateral sloping hearing loss is present, though the asymmetry suggests a retrocochlear component."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and compare with previous evaluation."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding and check for retrocochlear signs (rollover or asymmetry)."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex pathway for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry reveals bilateral sloping sensorineural hearing loss, with the right ear showing a slight threshold decrease at 2000 and 3000 Hz compared to prior tests. Crucially, there is a significant deterioration in the right ear Word Recognition Score (from 88% to 56%), while the left ear remains stable. Tympanometry is normal bilaterally. Acoustic reflexes are absent at higher frequencies, consistent with the hearing loss, and decay is negative. The findings raise concern for retrocochlear pathology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal to slight SNHL (250-1000 Hz) sloping to severe (3000-8000 Hz). Left ear: Normal to slight SNHL (250-2000 Hz) sloping to severe. Right ear shows slight decrease at 2000 and 3000 Hz compared to prior."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear WRS 56% (poor, significantly decreased from previous 88%). Left ear WRS 86% (good). SRTs agree with PTA."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at 500 and 1000 Hz; absent at 2000 and 4000 Hz bilaterally. Reflex decay negative at 500 and 1000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "ABR evaluation (via ENT referral)"
+    ],
+    "counseling_actions": [
+      "Confirm that hearing aids are functioning correctly and are not the cause of reduced clarity",
+      "Explain the significant change in speech understanding in the right ear",
+      "Discuss the need for medical evaluation to rule out retrocochlear pathology"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Significant asymmetry in Word Recognition Scores",
+      "Unexplained asymmetric progression of hearing loss"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "To rule out retrocochlear pathology due to significant deterioration in right ear WRS."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate",
+    "objective": "ENT evaluation and ABR testing to investigate potential retrocochlear pathology."
+  },
+  "expected_outcome": []
+}

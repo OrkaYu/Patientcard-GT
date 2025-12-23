@@ -1,0 +1,102 @@
+{
+  "case_id": "Case007_04",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Recurrent Cholesteatoma",
+      "rationale_short": "History of cholesteatoma removal, recent hearing decrease, drainage, and pain."
+    },
+    {
+      "rank": 2,
+      "label": "Recurrent Cerebrospinal Fluid (CSF) Leak",
+      "rationale_short": "History of CSF leak repair and reported drainage (otorrhea)."
+    },
+    {
+      "rank": 3,
+      "label": "Mixed Hearing Loss (Left Ear)",
+      "rationale_short": "Audiometric evidence of air-bone gap with sensorineural component, consistent with post-surgical status."
+    },
+    {
+      "rank": 4,
+      "label": "Sensorineural Hearing Loss (Right Ear)",
+      "rationale_short": "Slight to mild SNHL observed on audiogram, though patient is asymptomatic in this ear."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and type of loss given patient complaints."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding and validate pure-tone thresholds."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status, especially given history of surgery and drainage."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear pathway and middle ear function."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a mixed hearing loss in the left ear and a slight to mild sensorineural loss in the right ear. Speech recognition is excellent bilaterally. Tympanometry in the left ear reveals a large ear canal volume consistent with the mastoidectomy cavity or perforation, while the right ear is normal. Acoustic reflexes are absent bilaterally.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Flat slight to mild SNHL (250-8000 Hz). Left ear: Moderately severe rising to moderate mixed loss (250-2000 Hz), sloping to moderately severe (3000-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRT: Right 25 dB HL, Left 52 dB HL. WRS: 100% bilaterally at suprathreshold levels."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Right: Normal (Type A). Left: Flat (Type B) with large ear canal volume (5.9 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Absent ipsilateral and contralateral reflexes from 500 to 4000 Hz bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to ENT physician",
+      "MRI to determine presence of cholesteatoma or new cerebrospinal fluid leak"
+    ],
+    "counseling_actions": [
+      "Discuss audiometric findings of mixed hearing loss in the left ear and slight loss in the right.",
+      "Explain that the large ear canal volume in the left ear is consistent with previous surgery.",
+      "Advise on the need for immediate medical follow-up due to symptoms of drainage, pain, and hearing change."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Otorrhea",
+      "Otalgia",
+      "Recent worsening of hearing",
+      "History of cholesteatoma and CSF leak"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "ENT physician",
+      "rationale_short": "To rule out recurrence of cholesteatoma or new CSF leak given active drainage and pain."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate",
+    "objective": "Medical evaluation and management of potential recurrence."
+  },
+  "expected_outcome": []
+}

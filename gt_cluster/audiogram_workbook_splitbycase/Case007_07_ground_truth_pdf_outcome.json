@@ -1,0 +1,99 @@
+{
+  "case_id": "case_7_7",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Mixed hearing loss (Right ear)",
+      "rationale_short": "Significant air-bone gaps present with history of radiation, surgery, and tympanic membrane perforation."
+    },
+    {
+      "rank": 2,
+      "label": "Tympanic membrane perforation (Right ear)",
+      "rationale_short": "Tympanometry revealed a flat trace with a very large ear canal volume (7.1 mL) and history of drainage."
+    },
+    {
+      "rank": 3,
+      "label": "Sensorineural hearing loss (Left ear)",
+      "rationale_short": "Air and bone conduction thresholds are consistent with no air-bone gaps; Type A tympanogram."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, configuration, and type of hearing loss bilaterally."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function, particularly given the reported perforation."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the auditory pathway and middle ear status."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear exhibits a moderately severe to profound mixed hearing loss with a large air-bone gap. Tympanometry confirms a perforated tympanic membrane in the right ear due to large canal volume. The left ear shows a slight sloping to severe sensorineural hearing loss with normal middle ear function. Speech recognition is fair in the right ear and good in the left.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderately severe sloping to severe mixed loss (250-4000 Hz), profound at 8000 Hz. Left ear: Slight sloping to moderate sensorineural loss (250-2000 Hz), sloping to severe at high frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right: SRT 75 dB, WRS 66% (moderate difficulty). Left: SRT 40 dB, WRS 84% (slight difficulty)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right: Flat tympanogram with large ear canal volume (7.1 mL), consistent with perforation. Left: Normal (Type A)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right: Absent ipsilateral and contralateral. Left: Ipsilateral present at 500-1000 Hz, absent at higher frequencies and contralateral."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing test after medical treatment",
+      "Hearing aid evaluation pending medical clearance"
+    ],
+    "counseling_actions": [
+      "Discuss the presence of mixed hearing loss and eardrum perforation in the right ear.",
+      "Advise on the necessity of medical clearance from an ENT before hearing aid fitting.",
+      "Instruct to keep the right ear dry to prevent further infection."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Intermittent drainage from the right ear",
+      "Perforated tympanic membrane"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "For treatment of recurring ear infection, perforated tympanic membrane, and to provide medical clearance for hearing aids."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After medical treatment",
+    "objective": "Re-evaluation of hearing and hearing aid evaluation."
+  },
+  "expected_outcome": []
+}

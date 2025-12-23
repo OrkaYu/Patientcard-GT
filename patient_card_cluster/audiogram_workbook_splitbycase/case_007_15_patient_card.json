@@ -1,0 +1,121 @@
+{
+  "case_id": "case_7_15",
+  "title": "Mixed Hearing Loss with Wegener’s Granulomatosis",
+  "demographics": {
+    "age_years": 56,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am having increased difficulty hearing speech in noise. I also feel very fatigued because I constantly have to turn my head to the left to hear people.",
+  "problem_summary": {
+    "onset": "Long-standing history.",
+    "course": "Right ear stable since last test (2 years ago); Left ear air conduction thresholds deteriorated slightly above 2,000 Hz.",
+    "laterality": "Asymmetric (Right worse than Left).",
+    "associated_symptoms": "Fatigue; history of Wegener's granulomatosis with cochlear/middle ear involvement and vasculitis; right tympanic membrane perforation.",
+    "functional_impact": "Difficulty hearing in noise; reliance on the left ear causing physical fatigue from turning head.",
+    "goals_motivation": "Monitor hearing stability and discuss amplification options."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-08-25",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient has a long-standing asymmetric hearing loss. Last evaluation was 2 years ago. She reports symptoms of Wegener's granulomatosis have subsided over the past few years and she is not currently taking medication for it.",
+        "otologic_history": "History of Wegener's granulomatosis involving cochlear and middle ear vasculitis. History of right tympanic membrane perforation.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Wegener's granulomatosis (subsided). Denies tinnitus or dizziness.",
+        "prior_management": "Previous hearing test 2 years ago.",
+        "patient_goals": "Monitor hearing and address difficulty in noise."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.15"
+          ],
+          "key_findings": "Right ear: Severe sensorineural hearing loss (250-1500 Hz) sloping to profound (2000-8000 Hz) with no measurable response at 4k-8k Hz. Left ear: Slight sloping to mild mixed hearing loss (250-3000 Hz), sloping to moderate at 4000 Hz, and steeply sloping to severe at 6000-8000 Hz.",
+          "numeric_results": {
+            "Right_PTA": "100 dB HL",
+            "Left_PTA": "30 dB HL",
+            "Right_AC_Thresholds": "~80-90 dB HL (low freqs), No Response (high freqs)",
+            "Left_AC_Thresholds": "~25-30 dB HL (low freqs), sloping to ~80+ dB HL",
+            "Left_Air_Bone_Gap": "Present (approx 20-25 dB gap in low frequencies)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.15"
+          ],
+          "key_findings": "Right ear: No measurable SRT; SAT obtained indicating severe loss. WRS could not be completed (vibrotactile response >100 dB HL). Left ear: SRT consistent with PTA; WRS excellent/normal.",
+          "numeric_results": {
+            "Right_SAT": "88 dB HL",
+            "Right_SRT": "CNT (Could Not Test)",
+            "Right_WRS": "CNT",
+            "Left_SRT": "30 dB HL",
+            "Left_WRS": "96% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right ear: Flat tympanogram with normal ear canal volume (Type B). Left ear: Hypercompliant tympanogram (Type Ad).",
+          "numeric_results": {
+            "Right_ECV": "Normal (despite history of perforation)",
+            "Left_Compliance": "Hypercompliant"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.15"
+          ],
+          "key_findings": "Not measured / Could not test.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a complex, asymmetric hearing loss profile. The right ear exhibits a severe-to-profound sensorineural hearing loss with no usable speech discrimination, while the left ear shows a slight-to-mild mixed hearing loss sloping to severe sensorineural loss in the high frequencies with excellent speech recognition. Immittance testing indicates middle ear pathology bilaterally (stiffness/mass effects or scarring on the right, hypercompliance on the left).",
+  "counseling_points": [
+    "Your hearing in the right ear has remained stable, but the left ear shows slight changes in the high pitches.",
+    "Because your right ear has very limited hearing, you are relying heavily on your left ear, which explains your fatigue from constantly turning your head.",
+    "We recommend an evaluation for hearing aids or assistive devices (like a CROS system or aid for the left ear) to help with speech in noise and reduce your fatigue.",
+    "Please continue to follow up with your otologist regarding the Wegener's granulomatosis and ear health.",
+    "It is important to use hearing protection in noisy environments to preserve your remaining hearing in the left ear."
+  ],
+  "notes_for_actor": [
+    "Portray fatigue and frustration regarding the effort required to hear.",
+    "Demonstrate the behavior of turning your left ear toward the speaker during the consultation.",
+    "You are knowledgeable about your medical history (Wegener's) but relieved that the systemic symptoms have subsided."
+  ]
+}

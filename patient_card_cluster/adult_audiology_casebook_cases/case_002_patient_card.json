@@ -1,0 +1,242 @@
+{
+  "case_id": "case02_An_Unexpected_Cause_of_Sudden_Hearing_Lo",
+  "title": "An Unexpected Cause of Sudden Hearing Loss",
+  "demographics": {
+    "age_years": 64,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I woke up in the ICU and noticed I couldn't hear well in either ear, though the left is worse. I also have ringing in my ears and everything sounds distorted.",
+  "problem_summary": {
+    "onset": "Sudden onset approximately 2.5 weeks prior to the initial visit, noticed upon regaining consciousness in the ICU.",
+    "course": "Sudden onset followed by some spontaneous recovery in the right ear over 2 months; left ear remained poor with fluctuation.",
+    "laterality": "Bilateral; asymmetric (Left worse than Right).",
+    "associated_symptoms": "Bilateral tinnitus (louder in left), blurry vision, decreased cognition, weakness, aphasia, fever. Later developed vertigo and diplacusis (tin-can distortion).",
+    "functional_impact": "Difficulty receiving speech, especially in the left ear. Sound distortion and diplacusis.",
+    "goals_motivation": "Patient is monitoring recovery; initially too weak for surgery/interventions."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-09-16",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient hospitalized for 2 weeks with encephalitis. Upon waking, noted bilateral hearing loss and tinnitus. Also reports 30 lb weight loss.",
+        "otologic_history": "No history of hearing loss prior to hospitalization. Right parotid Warthin's tumor (no surgery).",
+        "noise_exposure_history": "History of noise exposure from working as a farmer for many years.",
+        "medical_psych_history": "Atrial fibrillation, diabetes. Recent ICU stay for encephalitis.",
+        "prior_management": "None prior to this evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.1"
+          ],
+          "key_findings": "Right ear: slight sloping to severe SNHL. Left ear: moderately severe to severe flat SNHL.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "Sloping from ~20 dB HL at 250 Hz to ~80 dB HL at 8000 Hz",
+            "Left_AC_Thresholds": "Flat configuration ~60-80 dB HL range"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.1"
+          ],
+          "key_findings": "Slight loss in SRT for right ear; moderately severe loss for left ear. WRS showed slight difficulty in right ear and very poor ability in left ear.",
+          "numeric_results": {
+            "Right_SRT": "25 dB HL",
+            "Right_WRS": "80%",
+            "Left_SRT": "65 dB HL",
+            "Left_WRS": "32%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.1"
+          ],
+          "key_findings": "Within normal limits bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Pressure": "-5 daPa",
+            "Left_Pressure": "5 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Absent bilaterally in response to ipsilateral and contralateral stimulation.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2015-11-05",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 2 months later. Patient reports improved hearing, strength, and balance. Diagnosed with West Nile Virus (WNV).",
+        "medical_psych_history": "Diabetic (did not receive steroids).",
+        "prior_management": "Monitoring only."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.2"
+          ],
+          "key_findings": "Right ear: Significant improvement; normal sensitivity (250-1000 Hz) sloping to moderate SNHL (2-3k Hz) rising to mild (6-8k Hz). Left ear: Slight sloping to severe SNHL (250-8000 Hz).",
+          "numeric_results": {
+            "Right_Improvement": "Improved by 15 dB @ 250 Hz; 20 dB @ 500/4000 Hz; 25 dB @ 1000 Hz",
+            "Left_Thresholds": "Remains severe in highs, some low freq improvement"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.2"
+          ],
+          "key_findings": "Right ear SRT improved. Left ear SAT obtained. WRS very poor in left ear.",
+          "numeric_results": {
+            "Right_SRT": "20 dB HL",
+            "Right_WRS": "86%",
+            "Left_SRT_SAT": "35 dB HL",
+            "Left_WRS": "16%"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.2"
+          ],
+          "key_findings": "Ipsilateral: Normal at 500/1000 Hz, absent at 2000/4000 Hz bilaterally. Contralateral: Elevated or absent.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2016-08-24",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 9 months later. Reports otalgia (right), diplacusis/distortion (left), and constant ringing tinnitus (left). Reports vertigo when getting out of bed.",
+        "medical_psych_history": "Diagnosed with BPPV (Benign Paroxysmal Positional Vertigo) at this visit.",
+        "prior_management": "Epley maneuver performed for vertigo."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.3"
+          ],
+          "key_findings": "Right ear: Stable since last visit. Left ear: Slight sloping to severe SNHL.",
+          "numeric_results": {
+            "Right_Thresholds": "Normal to moderate SNHL",
+            "Left_Thresholds": "Severe SNHL in highs"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.3"
+          ],
+          "key_findings": "Right ear normal ability. Left ear moderately severe loss in ability to receive speech and very poor recognition.",
+          "numeric_results": {
+            "Right_SRT": "15 dB HL",
+            "Right_WRS": "100%",
+            "Left_SRT": "60 dB HL",
+            "Left_WRS": "22%"
+          }
+        },
+        {
+          "name": "Dix-Hallpike test",
+          "timepoint_label": "Follow-up",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Positive for right benign paroxysmal positional vertigo (BPPV).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric sensorineural hearing loss, initially severe bilaterally but showing significant spontaneous recovery in the right ear. The left ear exhibits a permanent moderately severe to severe sensorineural hearing loss with very poor word recognition scores (16-32%) and diplacusis. The hearing loss is attributed to West Nile Virus encephalitis.",
+  "counseling_points": [
+    "Explain that West Nile Virus can cause inflammation affecting the hearing nerve, which explains the sudden hearing loss.",
+    "Discuss the asymmetry: your right ear has recovered significantly, but the left ear has permanent damage and distortion.",
+    "Address the 'tin can' sound (diplacusis) in the left ear; this is due to the inner ear damage causing pitch mismatch.",
+    "Review the BPPV diagnosis for the dizziness and confirm the Epley maneuver was performed to treat it."
+  ],
+  "notes_for_actor": [
+    "In the first visit, you are recovering from encephalitis: act weak, slightly confused, and report significant difficulty hearing.",
+    "In the final visit, complain about the 'tin can' sound in your left ear—it makes music or voices sound strange.",
+    "Mention that the ringing in your left ear fluctuates and bothers you."
+  ]
+}

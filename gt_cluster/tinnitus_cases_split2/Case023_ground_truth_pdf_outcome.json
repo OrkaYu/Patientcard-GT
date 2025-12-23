@@ -1,0 +1,132 @@
+{
+  "case_id": "Case023",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Tinnitus",
+      "rationale_short": "Primary complaint of constant, bothersome ringing (TFI 82/100), exacerbated by stress."
+    },
+    {
+      "rank": 2,
+      "label": "Mixed Hearing Loss",
+      "rationale_short": "Audiometry shows mixed loss; history of noise exposure (sensorineural) and ear infections (conductive)."
+    },
+    {
+      "rank": 3,
+      "label": "Posttraumatic Stress Disorder (PTSD)",
+      "rationale_short": "Diagnosed by psychiatrist; symptoms (flashbacks, anxiety) exacerbate tinnitus and dizziness."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given complaints of tinnitus and noise exposure."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding and check for retrocochlear signs (rollover/asymmetry)."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function given history of infections and air-bone gaps."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology and check middle ear status."
+      },
+      {
+        "action": "Otoacoustic Emissions (DPOAE)",
+        "urgency": "routine",
+        "rationale_short": "To assess outer hair cell function, particularly regarding noise exposure history."
+      },
+      {
+        "action": "Tinnitus Functional Index (TFI)",
+        "urgency": "routine",
+        "rationale_short": "To quantify the functional impact of tinnitus on quality of life."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation revealed asymmetrical mixed hearing loss, worse in the right ear, consistent with the patient's history of occupational noise exposure and bilateral otitis media. Tinnitus is causing significant distress (TFI 82/100). The asymmetry and unilateral tinnitus, combined with reported dizziness, necessitated referrals for medical and vestibular evaluation, which were subsequently unremarkable.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal low frequencies sloping to severe mixed loss in high frequencies. Left ear: Normal sloping to moderate mixed loss. Air-bone gaps at 250, 1000, 4000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs consistent with pure tones (Right 25 dB, Left 5 dB). WRS excellent in Right (94%) and good in Left (88%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Type A bilaterally; Right ear showed negative pressure (-95 daPa)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral absent at 500-2000 Hz. Left ipsilateral absent at 500 Hz, present at 1000-2000 Hz."
+          },
+          {
+            "name": "Otoacoustic Emissions (DPOAE)",
+            "category": "OAE",
+            "result_summary": "Right: Pass at 3000 Hz, refer elsewhere. Left: Pass 1500-4000 Hz. Consistent with hearing loss."
+          },
+          {
+            "name": "Tinnitus Functional Index (TFI)",
+            "category": "Questionnaire",
+            "result_summary": "Overall score 82/100, indicating significant negative impact on daily life."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Bilateral hearing aids (Widex Evoke 440 RIC)",
+      "Widex Zen Therapy (Zen Aqua, Zen Noise programs)",
+      "Custom-molded earplugs with filters for shooting range",
+      "Cognitive Behavioral Therapy (CBT) for PTSD and tinnitus reaction",
+      "Annual audiologic monitoring"
+    ],
+    "counseling_actions": [
+      "Discuss the mixed nature of hearing loss (noise damage plus history of infections)",
+      "Explain the relationship between stress, PTSD, and tinnitus perception",
+      "Validate dizziness while reassuring that VNG/MRI ruled out dangerous causes",
+      "Counsel on use of Widex Zen mobile application",
+      "Educate on hearing protection for recreational shooting"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetrical hearing thresholds",
+      "Unilateral tinnitus",
+      "Episodes of dizziness with a fall"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT and Psychiatrist",
+      "rationale_short": "ENT referral to rule out retrocochlear pathology (MRI) and vestibular dysfunction (VNG) due to asymmetry and dizziness; Psychiatry referral to manage PTSD symptoms."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month for hearing aid check, then 6 months for re-evaluation",
+    "objective": "Monitor hearing thresholds, assess hearing aid benefit and usage, and re-evaluate tinnitus impact."
+  },
+  "expected_outcome": [
+    "AzBio sentences in quiet (1 month): 94% aided score compared to 76% unaided, indicating good benefit.",
+    "Tinnitus Functional Index (6 months): Overall score decreased to 60.4/100 (from 82/100 baseline), indicating reduced negative impact.",
+    "Pure-tone audiometry (6 months): Slight improvement in right ear low frequencies due to resolution of conductive components; high-frequency asymmetry persists.",
+    "Tympanometry (6 months): High compliance in the right ear suggestive of excessive tympanic membrane mobility; opaque right tympanic membrane noted.",
+    "Acoustic reflexes (6 months): Absent at all tested frequencies bilaterally.",
+    "Patient reported significant reduction in anxiety and tinnitus bother following 20 weeks of CBT and hearing aid use."
+  ]
+}

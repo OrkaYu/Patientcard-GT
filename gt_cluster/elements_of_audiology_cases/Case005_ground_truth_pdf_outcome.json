@@ -1,0 +1,126 @@
+{
+  "case_id": "Case005",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Noise-Induced Hearing Loss (Acoustic Trauma)",
+      "rationale_short": "Bilateral high-frequency SNHL with a distinct 4000 Hz notch, deeper in the left ear (consistent with right-handed rifle shooting). History of recreational noise exposure."
+    },
+    {
+      "rank": 2,
+      "label": "Otosclerosis",
+      "rationale_short": "Family history suggests otosclerosis, but patient's audiometric pattern (notch, high-frequency loss) and normal tympanograms make this unlikely/unrelated."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Determine hearing thresholds and configuration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess reflex pathways and check for recruitment."
+      },
+      {
+        "action": "ABR",
+        "urgency": "routine",
+        "rationale_short": "Rule out retrocochlear pathology given asymmetry."
+      },
+      {
+        "action": "TEOAE",
+        "urgency": "routine",
+        "rationale_short": "Assess cochlear outer hair cell function."
+      },
+      {
+        "action": "Tone decay test",
+        "urgency": "routine",
+        "rationale_short": "Screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometry reveals bilateral high-frequency sensorineural hearing loss with a prominent acoustic trauma notch at 4000 Hz, significantly worse in the left ear. This asymmetry is consistent with the acoustic shadow effect from shooting a rifle right-handed. Middle ear function is normal. Retrocochlear pathology is ruled out by negative tone decay, absent TEOAEs (consistent with cochlear loss), and ABR results showing a cochlear pattern (steep latency-intensity function). Speech recognition is excellent.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral high-frequency SNHL with 4000 Hz notch. Right 4000 Hz ~35 dB HL, Left 4000 Hz ~60 dB HL. Normal hearing 250-2000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT Right 15 dB HL, Left 25 dB HL. SRS 100% bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A bilaterally. Static compliance Right 0.52 cc, Left 0.70 cc."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present but elevated (85-95 dB HL), consistent with cochlear recruitment."
+          },
+          {
+            "name": "ABR",
+            "category": "Electrophysiology",
+            "result_summary": "All waves prolonged; interpeak latencies normal; latency-intensity function steep. Suggests cochlear pathology."
+          },
+          {
+            "name": "TEOAE",
+            "category": "OAE",
+            "result_summary": "Absent bilaterally."
+          },
+          {
+            "name": "Tone decay test",
+            "category": "Special Tests",
+            "result_summary": "Negative (5 dB decay in 60 seconds at 4000 Hz)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Use hearing protection (special impact-noise plugs or foam plugs) for hunting/shooting.",
+      "Minimize future noise exposure.",
+      "Use loudspeakers instead of earphones for music.",
+      "Lower volume when listening to music.",
+      "Re-evaluation of hearing in six months.",
+      "Test interoctave frequencies (3000 and 6000 Hz) at next visit."
+    ],
+    "counseling_actions": [
+      "Explain the nature of the loss (noise-induced) and the specific 4000 Hz notch.",
+      "Explain the asymmetry as likely due to the 'acoustic shadow' from shooting right-handed.",
+      "Stress the importance of preventing progression by avoiding noise.",
+      "Clarify that family history (otosclerosis) is likely unrelated to current findings."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology Clinic",
+      "rationale_short": "Routine monitoring for progression of noise-induced hearing loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Six months",
+    "objective": "Monitor for progression of hearing loss."
+  },
+  "expected_outcome": []
+}

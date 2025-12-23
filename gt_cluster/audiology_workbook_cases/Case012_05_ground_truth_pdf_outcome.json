@@ -1,0 +1,86 @@
+{
+  "case_id": "case_12_5",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Otitis Media with Effusion (OME) superimposed on Sensorineural Hearing Loss",
+      "rationale_short": "History of recent URI, 'plugged' sensation, significant air-bone gaps, and bilateral Type B tympanograms are classic signs of middle ear fluid."
+    },
+    {
+      "rank": 2,
+      "label": "Eustachian Tube Dysfunction",
+      "rationale_short": "Consistent with post-URI status and negative pressure development, but flat tympanograms strongly suggest progression to effusion."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "urgent",
+        "rationale_short": "To visually confirm the presence of middle ear effusion, air-fluid levels, or bubbles behind the tympanic membrane."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation indicates a temporary conductive pathology (OME) superimposed on the patient's known congenital sensorineural hearing loss, resulting in a mixed hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral mixed hearing loss. Underlying SNHL is mild-to-moderate (BC 30-55 dB HL). AC thresholds are moderately-severe to severe (60-75 dB HL) with a 30-35 dB air-bone gap."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Bilateral Type B (flat) tympanograms with normal ear canal volume, consistent with middle ear effusion."
+          },
+          {
+            "name": "Wideband Acoustic Immittance (Reflectance)",
+            "category": "Immittance",
+            "result_summary": "High reflectance (near 100%) at low-to-mid frequencies, indicating a stiff, fluid-filled middle ear system."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word recognition scores are fair to good (82% AD, 76% AS) when presented at high levels (100 dB HL) to overcome the conductive component."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to physician (PCP or ENT) for treatment of Otitis Media with Effusion.",
+      "Monitor hearing status until conductive component resolves.",
+      "Temporary reduction in hearing aid use or gain adjustment may be necessary if feedback occurs or benefit is minimal due to fluid.",
+      "Referral to ENT or Primary Care Physician"
+    ],
+    "counseling_actions": [
+      "Explain that the 'plugged' feeling and hearing drop are likely due to fluid from the recent cold.",
+      "Reassure the parent that the underlying 'nerve' hearing appears stable and the current drop is likely temporary.",
+      "Discuss why hearing aids are currently less effective (fluid acts as a plug blocking sound)."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden subjective worsening of hearing",
+      "Significant air-bone gap"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Primary Care Physician or Otolaryngologist",
+      "rationale_short": "To manage the middle ear fluid; not an emergency but requires medical attention to restore baseline hearing."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "4-6 weeks or following medical treatment",
+    "objective": "Audiologic re-evaluation to confirm resolution of the conductive component (air-bone gap) and return to baseline sensorineural thresholds."
+  },
+  "expected_outcome": [
+    "Resolution of middle ear effusion with medical management or time.",
+    "Closure of the air-bone gap.",
+    "Return of hearing thresholds to the baseline mild-to-moderate SNHL.",
+    "Restored effectiveness of current hearing aids."
+  ]
+}

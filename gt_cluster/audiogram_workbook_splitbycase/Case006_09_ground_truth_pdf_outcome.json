@@ -1,0 +1,86 @@
+{
+  "case_id": "Case006_09",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Chronic Otitis Media Sequelae (Left Ear)",
+      "rationale_short": "History of chronic ear infections and multiple surgeries in childhood and young adulthood."
+    },
+    {
+      "rank": 2,
+      "label": "Soft Tissue Stenosis (Left Ear)",
+      "rationale_short": "Documented in ENT report and history; sequela of chronic disease and surgery."
+    },
+    {
+      "rank": 3,
+      "label": "Mixed Hearing Loss (Left Ear)",
+      "rationale_short": "Audiometric findings show air-bone gaps and elevated bone conduction thresholds in the high frequencies."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and determine the type and degree of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function, though deferred in this case due to surgical history."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear demonstrates normal hearing sensitivity and speech recognition. The left ear exhibits a mild conductive hearing loss in the low frequencies sloping to a moderate-to-severe mixed hearing loss in the high frequencies, with significant air-bone gaps. Speech recognition in the left ear remains excellent despite the mixed loss. Immittance was not performed due to the history of otosurgery.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal hearing (0-10 dB HL). Left ear: Mild conductive loss (250-2000 Hz) sloping to moderate-to-severe mixed loss (3000-8000 Hz) with significant air-bone gaps."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 5 dB HL, Left 30 dB HL (consistent with PTAs). WRS: Right 96-100%, Left 100% at 75 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not measured due to previous otosurgery."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation for new technology",
+      "Annual hearing test to monitor stability",
+      "Semiannual otologist visits for cerumen removal and ear canal monitoring"
+    ],
+    "counseling_actions": [
+      "Review of audiometric results showing mixed loss in the left ear",
+      "Encouragement to schedule hearing aid evaluation"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Scheduled follow-up in 6 months for cerumen removal and monitoring of soft tissue stenosis."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "6 months (Otologist), 1 year (Audiology)",
+    "objective": "Monitor ear canal status (stenosis/cerumen) and hearing sensitivity stability."
+  },
+  "expected_outcome": []
+}

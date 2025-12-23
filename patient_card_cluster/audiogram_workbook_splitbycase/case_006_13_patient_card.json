@@ -1,0 +1,127 @@
+{
+  "case_id": "case_6_13",
+  "title": "Unilateral Conductive Hearing Loss with Tympanic Membrane Perforation",
+  "demographics": {
+    "age_years": 30,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have hearing loss in my left ear, and sometimes fluid drains from it. It also hurts occasionally. I had a hole in my eardrum as a child that surgery didn't fix.",
+  "problem_summary": {
+    "onset": "Childhood",
+    "course": "Persistent; failed surgical repair as a child.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Intermittent otorrhea (drainage), otalgia (pain).",
+    "functional_impact": "Reduced hearing sensitivity in the left ear.",
+    "goals_motivation": "Seeking evaluation and management options."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-01-15",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a history of a perforated tympanic membrane in the left ear since childhood. She underwent surgery for repair at that time, but it was unsuccessful. She reports continued hearing loss, intermittent otorrhea, and otalgia in the left ear.",
+        "otologic_history": "Left tympanic membrane perforation; failed tympanoplasty.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Denied dizziness and tinnitus.",
+        "prior_management": "Previous surgery (unsuccessful).",
+        "patient_goals": "Evaluation of current status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.13"
+          ],
+          "key_findings": "Right ear shows normal hearing thresholds (0-10 dB HL). Left ear shows a moderately severe to moderate conductive hearing loss in the low frequencies (250-500 Hz), rising to a mild to moderate loss in the mid-to-high frequencies. Bone conduction is normal bilaterally, indicating a significant air-bone gap in the left ear.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "LE_AC_Thresholds": "~55 dB HL at 250 Hz, improving to ~35-40 dB HL at 2000-4000 Hz",
+            "LE_BC_Thresholds": "0-10 dB HL (Normal)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.13"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) are in agreement with pure-tone averages. Word Recognition Scores (WRS) are excellent bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "13 dB HL",
+            "RE_WRS": "100% at 55 dB HL",
+            "LE_SRT": "40 dB HL",
+            "LE_WRS": "100% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.13"
+          ],
+          "key_findings": "Right ear tympanogram is normal (Type A). Left ear tympanogram is flat (Type B) with a large ear canal volume, consistent with a tympanic membrane perforation.",
+          "numeric_results": {
+            "RE_Canal_Volume": "1.5 mL",
+            "RE_Static_Admittance": "0.7 mmho",
+            "RE_Peak_Pressure": "-5 daPa",
+            "LE_Canal_Volume": "7.1 mL (Large)",
+            "LE_Type": "Type B (Flat)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.13"
+          ],
+          "key_findings": "Acoustic reflex thresholds were absent for both ipsilateral and contralateral stimulation in both ears at all frequencies tested (500-4000 Hz). Reflex decay could not be measured.",
+          "numeric_results": {
+            "Reflexes": "Absent (ABS) in all conditions"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a moderate-to-mild conductive hearing loss in the left ear. Immittance testing confirms a patent tympanic membrane perforation in the left ear (Type B tympanogram with large volume). Speech recognition remains excellent in the affected ear when presented at sufficient volume.",
+  "counseling_points": [
+    "Your hearing test confirms a conductive hearing loss in the left ear, meaning sound is being blocked from reaching the inner ear.",
+    "The pressure test (tympanometry) showed a very large volume in the left ear canal, which confirms the hole in your eardrum (perforation) is still present.",
+    "Because the inner ear nerve is healthy (normal bone conduction scores), you are a good candidate for medical or surgical intervention.",
+    "We will refer you to an ENT specialist to discuss imaging and the possibility of revision surgery (tympanoplasty) to repair the eardrum and hearing bones.",
+    "If surgery is not chosen or is unsuccessful, a hearing aid would be an effective option to help you hear on your left side.",
+    "Please keep the left ear dry and use water precautions until you see the ENT."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated by the chronic nature of the issue, as the childhood surgery failed.",
+    "You are not dizzy and do not have ringing in your ears (tinnitus), but the left ear sometimes hurts and drains fluid.",
+    "You are open to surgery but aware it failed once before."
+  ]
+}

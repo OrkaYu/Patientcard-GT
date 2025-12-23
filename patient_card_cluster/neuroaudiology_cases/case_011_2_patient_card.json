@@ -1,0 +1,178 @@
+{
+  "case_id": "case_11_2",
+  "title": "Right Hemisphere Atrophy Presenting as CAPD",
+  "demographics": {
+    "age_years": 9,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "The patient was referred due to poor school performance, particularly in verbally based subjects. He is easily distracted, has trouble hearing in noise, and teachers report it often seems he does not understand auditory information.",
+  "problem_summary": {
+    "onset": "Noted since starting school; evaluated a few weeks before 9th birthday.",
+    "course": "Chronic; deficits persisted from age 9 to age 15 despite some maturation.",
+    "laterality": "Bilateral central processing deficits with marked left ear weakness on dichotic tasks.",
+    "associated_symptoms": "Academic struggles, distractibility; later developed mild partial seizures involving left arm twitching in young adulthood.",
+    "functional_impact": "Significant academic difficulty requiring special education support; difficulty following auditory directions.",
+    "goals_motivation": "Improve school performance and auditory processing capabilities."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1_Age9",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Child seen for CAPD evaluation. Struggling in school, specifically verbal subjects. Well-behaved but 'lost' in the classroom.",
+        "otologic_history": "No reported history positive for CNS involvement initially.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Developmental milestones borderline normal or slightly delayed. Subsequently diagnosed with a language problem.",
+        "prior_management": "None prior to this evaluation.",
+        "patient_goals": "Evaluation for Central Auditory Processing Disorder (CAPD)."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Thresholds within the normal range bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Central Auditory Test Battery",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 11-7"
+          ],
+          "key_findings": "Marked left ear deficit on dichotic tests (Competing Sentences, Dichotic Digits, SSW). Frequency Pattern Perception abnormal bilaterally with no improvement during humming condition. Filtered speech normal.",
+          "numeric_results": {
+            "Competing Sentences LE": "~0%",
+            "Competing Sentences RE": "~95%",
+            "Dichotic Digits LE": "~45%",
+            "Dichotic Digits RE": "~85%",
+            "SSW LE": "~50%",
+            "SSW RE": "~80%",
+            "Frequency Patterns": "~0-5% (Bilateral)",
+            "Low Pass Filtered Speech": "Normal range (60-80%)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2_Age15",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up evaluation 6 years later. Academic struggles persisted.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "None.",
+        "medical_psych_history": "Unchanged at this time.",
+        "prior_management": "Auditory rehabilitation was recommended at age 9 (preferential seating, signal awareness, discrimination training), but consistency of follow-through was unclear.",
+        "patient_goals": "Re-evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Thresholds remained within the normal range bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Central Auditory Test Battery",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 11-7"
+          ],
+          "key_findings": "Some improvement noted due to maturation, but the same deficits and trends were present (Left Ear deficit on dichotic tasks; poor Frequency Patterns).",
+          "numeric_results": {
+            "Competing Sentences LE": "~20%",
+            "Competing Sentences RE": "~98%",
+            "Dichotic Digits LE": "~50%",
+            "Dichotic Digits RE": "~90%",
+            "SSW LE": "~60%",
+            "SSW RE": "~90%",
+            "Frequency Patterns": "~15-25% (Bilateral)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3_Medical_Workup",
+      "date": null,
+      "setting": "Neurology/Medical",
+      "history": {
+        "present_illness": "Patient began experiencing mild partial seizures involving twitching of the left arm after finishing school.",
+        "otologic_history": "N/A",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "Seizure onset.",
+        "prior_management": "N/A",
+        "patient_goals": "Medical diagnosis."
+      },
+      "tests": [
+        {
+          "name": "EEG",
+          "timepoint_label": "Post-School",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Abnormal spiking over right temporal and parietal lobes.",
+          "numeric_results": {}
+        },
+        {
+          "name": "MRI Head",
+          "timepoint_label": "Post-School",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 11-8"
+          ],
+          "key_findings": "Atrophy of the right hemisphere, predominantly involving the right temporal and parietal lobes. Suggestive of injury at a young age.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This patient presented with normal peripheral hearing but significant central auditory processing deficits characterized by a marked left ear deficit on dichotic tasks (Competing Sentences, Dichotic Digits, SSW) and bilateral deficits in Frequency Pattern perception. The lack of improvement in Frequency Patterns with a humming response, combined with the left ear dichotic deficit, strongly implicated Right Hemisphere pathology. Subsequent medical imaging in adulthood confirmed right temporal and parietal lobe atrophy, consistent with the neuroaudiological profile.",
+  "counseling_points": [
+    "Preferential seating to bias acoustic input to the right ear (the better processing ear).",
+    "Teaching strategies to signal awareness for important information.",
+    "Improvement of educational acoustics in the classroom.",
+    "Auditory discrimination training.",
+    "Interhemispheric processing tasks."
+  ],
+  "notes_for_actor": [
+    "Patient behavior: Well-behaved but easily distracted.",
+    "The patient struggles significantly with background noise.",
+    "The 'Left Ear Deficit' on tests does not mean the patient is deaf in the left ear; they hear the beep (tone) fine, but cannot process complex speech words presented to the left ear when the right ear is also hearing words.",
+    "The medical diagnosis (atrophy/seizures) was not known during the childhood audiology visits; at that time, it was treated as a functional CAPD case."
+  ]
+}

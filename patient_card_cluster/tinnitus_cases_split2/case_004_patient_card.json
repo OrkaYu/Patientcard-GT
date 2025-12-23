@@ -1,0 +1,149 @@
+{
+  "case_id": "Case04_A_Case_of_Pulsatile_Tinnitus_with",
+  "title": "A Case of Pulsatile Tinnitus with Predictable Pattern of Occurrence",
+  "demographics": {
+    "age_years": 80,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "The patient reports pulsatile tinnitus in the left ear described as \"I hear my pulse\" accompanied by a ringing, buzzing sound. He also reports difficulty hearing in both ears, worse in the right, and \"dripping of fluid\" from his nose when the tinnitus is active.",
+  "problem_summary": {
+    "onset": "2012 (left ear), possibly after ear flushing or head trauma.",
+    "course": "Predictable cycle: 3 days/nights on, then 2 days/nights off. Consistently begins in the middle of the night when lying flat.",
+    "laterality": "Left ear tinnitus; Bilateral hearing loss (worse in Right).",
+    "associated_symptoms": "Rhinorrhea ('dripping of fluid' from nose) concurrent with tinnitus episodes; difficulty hearing on telephone in right ear.",
+    "functional_impact": "Wakes him up at night; communication difficulty.",
+    "goals_motivation": "Seeking secondary ENT opinion for treatment; interested in 'mastoid surgery' which was previously declined by another provider."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-01-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports left pulsatile tinnitus with a specific on/off pattern (3 days on, 2 days off). Associated with clear rhinorrhea. Hearing loss worse in the non-tinnitus (right) ear.",
+        "otologic_history": "Previous CT scan showed 'mastoid opacification'. History of fall in 2012. Denies ear surgery, otalgia, or TM perforation.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Denies dizziness, vertigo, facial numbness. No previous medical records provided.",
+        "prior_management": "Consulted an ENT previously who did not recommend surgery.",
+        "patient_goals": "Wants a second opinion regarding mastoid surgery."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.1"
+          ],
+          "key_findings": "Bilateral asymmetric sensorineural hearing loss (SNHL). The right ear (non-tinnitus ear) shows poorer thresholds than the left.",
+          "numeric_results": {
+            "Right_Configuration": "Sloping SNHL (approx 30 dB HL in lows to >90 dB HL in highs)",
+            "Left_Configuration": "Sloping SNHL (approx 20 dB HL in lows to 60-70 dB HL in highs)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.1"
+          ],
+          "key_findings": "Word recognition scores are asymmetric and significantly poorer in the right ear.",
+          "numeric_results": {
+            "Right_SRT": "46 dB",
+            "Left_SRT": "38 dB",
+            "Right_WRS": "46% (at 75 dB HL)",
+            "Left_WRS": "72% (at 68 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 4.1"
+          ],
+          "key_findings": "Abnormal negative pressure in the left ear; normal pressure in the right ear.",
+          "numeric_results": {
+            "Right_Type": "Type A",
+            "Right_Peak_Pressure": "-60 daPa",
+            "Left_Type": "Type C",
+            "Left_Peak_Pressure": "-205 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Could not be obtained; clinician could not sustain an airtight seal in either ear.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Neurotology / Imaging",
+      "history": {
+        "present_illness": "Follow-up diagnostic imaging ordered by neurotologist.",
+        "otologic_history": "Suspicion of CSF leak based on rhinorrhea and pulsatile tinnitus.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": null,
+        "patient_goals": null
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Diagnostic Workup",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Imaging (MRI and CT) confirmed spontaneous CSF leak into the left mastoid. Tegmen tympani was very thin. No mass found.",
+          "numeric_results": {
+            "MRI_Findings": "Fluid in left mastoid with hyperintensity similar to CSF.",
+            "CT_Findings": "Opacification in mastoid; thin tegmen tympani; no sigmoid sinus diverticulum."
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral asymmetric sensorineural hearing loss, significantly worse in the right ear, and asymmetric word recognition ability (poorer in the right). Tympanometry reveals significant negative pressure (Type C) in the left ear, which correlates with the reported pulsatile tinnitus and fluid sensation. The constellation of symptoms (pulsatile tinnitus, rhinorrhea, Type C tympanogram) is consistent with the confirmed diagnosis of spontaneous CSF leak.",
+  "counseling_points": [
+    "Your symptoms of pulsing sound and fluid drainage suggest a connection between the fluid around your brain and your ear (CSF leak), which has been confirmed by imaging.",
+    "Because of the risks to your better hearing ear and other health factors, the specialist does not recommend surgery at this time.",
+    "We recommend Pneumovax vaccination every 5 years to prevent infection (meningitis) due to the fluid leak.",
+    "We can manage the tinnitus using sound therapy, hearing aids, and counseling strategies to help you sleep and cope better."
+  ],
+  "notes_for_actor": [
+    "Portray an 80-year-old male who is frustrated by the 'pulsing' noise that keeps waking you up.",
+    "Emphasize the specific pattern: 'It happens for 3 days, then stops for 2 days.' Be very specific about this.",
+    "Mention that your nose drips clear fluid only when the noise is happening.",
+    "You are eager for surgery because you want the noise to stop, even if doctors have told you it's risky."
+  ]
+}

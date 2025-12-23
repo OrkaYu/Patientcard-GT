@@ -1,0 +1,134 @@
+{
+  "case_id": "Case025",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Misophonia",
+      "rationale_short": "Specific triggers (chewing, sniffling) cause immediate autonomic arousal (fight/flight) and anger; hearing is normal; LDLs > 90 dB HL rule out hyperacusis."
+    },
+    {
+      "rank": 2,
+      "label": "Obsessive-Compulsive Disorder (OCD)",
+      "rationale_short": "Previously diagnosed due to 'ruminating' on sounds and perfectionism, but symptoms are driven by external auditory stimuli rather than internal intrusive thoughts."
+    },
+    {
+      "rank": 3,
+      "label": "Hyperacusis",
+      "rationale_short": "Considered due to sound sensitivity, but ruled out as Loudness Discomfort Levels exceeded 90 dB HL."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing sensitivity to rule out hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess word recognition ability."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function."
+      },
+      {
+        "action": "Otoacoustic emissions (OAEs)",
+        "urgency": "routine",
+        "rationale_short": "Assess outer hair cell function."
+      },
+      {
+        "action": "Loudness Discomfort Levels",
+        "urgency": "routine",
+        "rationale_short": "Evaluate sound tolerance limits to distinguish between misophonia and hyperacusis."
+      },
+      {
+        "action": "Other",
+        "urgency": "routine",
+        "rationale_short": "Assessment of psychological impact and identification of specific triggers."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Diagnostic testing revealed normal hearing sensitivity and middle ear function. OAEs were robust. Loudness Discomfort Levels > 90 dB HL ruled out loudness hyperacusis. The profile of specific trigger-based reactions without physical pain or general loudness intolerance is consistent with misophonia.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Hearing within normal limits bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word recognition in quiet was excellent."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Indicated normal middle ear function."
+          },
+          {
+            "name": "Otoacoustic emissions (OAEs)",
+            "category": "Electrophysiology",
+            "result_summary": "Present from 0.750 to 10 kHz bilaterally, suggesting normal outer hair cell function."
+          },
+          {
+            "name": "Loudness Discomfort Levels",
+            "category": "Audiometry",
+            "result_summary": "Tolerance of signals in excess of 90 dB HL contraindicates presence of loudness hyperacusis."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Initial session of the coping skills program focused on history and psychological impact. The patient reported feeling 'cursed' and identified specific triggers (father, teacher) and emotional responses (anger, feeling like a monster).",
+        "tests": [
+          {
+            "name": "Other",
+            "category": "Assessment",
+            "result_summary": "Assessment of psychological impact: Patient felt 'cursed' and feared triggers were spreading. Identified specific triggers (father, teacher)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Ear-level sound generators (broadband white noise)",
+      "Coping skills training (10 sessions)",
+      "Proprioceptive activities (weight lifting, hand gripper)",
+      "Breathing exercises (4 Square breathing)",
+      "Alternative family activities (outdoors, in motion)",
+      "Visual stimuli management (averting gaze)"
+    ],
+    "counseling_actions": [
+      "Psychoeducation regarding misophonia as a neurological/auditory disorder rather than a psychiatric one",
+      "Explanation of the fight/flight response mechanism",
+      "Debunking misinformation found on the internet",
+      "Cognitive reframing to separate the sound from the person",
+      "Advice to family to allow the patient to eat separately or take breaks until coping skills are developed"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient requires a specialized 10-week coping skills program managed by the audiologist."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "10 weeks",
+    "objective": "Complete 10 sessions of coping skills training to manage physiological arousal and improve quality of life."
+  },
+  "expected_outcome": [
+    "Patient demonstrated a much clearer understanding of misophonia and how it influenced her daily activities physiologically, cognitively, and emotionally.",
+    "Patient was able to separate the idea that people were triggers and understood that sounds were the issue.",
+    "Patient successfully utilized athletic abilities (light weights), four-square breathing, and hand grippers to manage arousal levels and return to homeostasis.",
+    "Patient utilized ear-level sound generators to mask sounds.",
+    "Activity level, interaction with family members, confidence in managing the condition, and reported sense of greater tolerance to potentially triggering sounds improved substantially."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "case_id": "Case007",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Possible brain stem lesion / Central auditory disorder",
+      "rationale_short": "Normal hearing sensitivity and normal ipsilateral reflexes combined with absent contralateral reflexes suggest involvement of crossover pathways in the brain stem."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity across frequencies."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To measure speech recognition thresholds and scores in quiet."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and brainstem crossover pathways."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear compliance and pressure."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To assess neural integrity of the auditory pathway."
+      },
+      {
+        "action": "TEOAE",
+        "urgency": "routine",
+        "rationale_short": "To confirm cochlear outer hair cell function."
+      },
+      {
+        "action": "Tone decay test",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates normal bilateral hearing sensitivity and excellent speech recognition in quiet. Middle ear function is normal, as are cochlear emissions (TEOAEs) and ABR waveforms. However, a specific abnormality is noted in acoustic reflex testing: while ipsilateral reflexes are present at normal levels, contralateral reflexes are absent bilaterally. This dissociation suggests a retrocochlear pathology specifically affecting the crossover pathways in the brainstem.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally; thresholds 0-10 dB HL across 250-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 0 dB HL, SRS 98%; Left SRT 5 dB HL, SRS 100%."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral reflexes present (Right 85 dB HL, Left 90 dB HL); Contralateral reflexes absent bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal static compliance (Right 0.72 cc, Left 0.80 cc)."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "All waves normal; interpeak latencies and latency-intensity functions normal."
+          },
+          {
+            "name": "TEOAE",
+            "category": "OAE",
+            "result_summary": "Present bilaterally."
+          },
+          {
+            "name": "Tone decay test",
+            "category": "Special Tests",
+            "result_summary": "No significant decay (0 dB right, 5 dB left in 60 seconds at 4000 Hz)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Reschedule for a complete battery of special tests for central auditory disorders (AMLR, PI-PB functions, SSI-ICM, SSI-CCM, staggered spondaic words)"
+    ],
+    "counseling_actions": [
+      "Explain that the difficulty is not due to sounds being too soft (normal pure tones) but likely due to processing within the brainstem.",
+      "Explain that additional stress must be placed on speech recognition ability to determine the extent of the difficulty.",
+      "Discuss referral to a neurologist."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Absent contralateral acoustic reflexes with normal ipsilateral reflexes",
+      "Suspected brain stem lesion"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Neurologist",
+      "rationale_short": "Imperative to rule out neurological issues or lesions affecting the auditory brainstem pathways."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Reschedule soon",
+    "objective": "Perform central auditory processing test battery and refer to neurology."
+  },
+  "expected_outcome": []
+}

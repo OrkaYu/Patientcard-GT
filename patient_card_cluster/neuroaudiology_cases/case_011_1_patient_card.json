@@ -1,0 +1,88 @@
+{
+  "case_id": "case_11_1",
+  "title": "Central Auditory Processing Disorders in Children and Adults with Learning Disabilities",
+  "demographics": {
+    "age_years": null,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am unable to hear well on the telephone. I also have trouble writing cursively and reading materials that are not printed.",
+  "problem_summary": {
+    "onset": "Evaluated several years prior to the availability of otoacoustic emissions.",
+    "course": "Patient had previous neurologic and radiologic workups which were essentially normal, despite persistent difficulties.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Learning disabilities (LD), inability to write cursively, inability to read non-printed materials.",
+    "functional_impact": "Significant difficulty with telephone communication and academic tasks involving cursive writing.",
+    "goals_motivation": "To succeed in postsecondary education (baccalaureate and medical school)."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Adolescent female presenting with learning disabilities and specific auditory/language deficits. She cannot hear on the phone and has specific reading/writing deficits.",
+        "otologic_history": "Previous neurologic and radiologic workups were essentially normal.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Diagnosed with Learning Disabilities. A subarachnoid cyst was identified (associated with morphological changes in the brain).",
+        "prior_management": "Previous medical evaluations yielded no specific diagnosis explaining the severity of symptoms.",
+        "patient_goals": "Academic accommodations and strategies for coping."
+      },
+      "tests": [
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Scores were depressed bilaterally.",
+          "numeric_results": {
+            "RE": "16%",
+            "LE": "8%"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Reduced speech recognition scores caused by a severe central deficit (cortical problem) rather than a peripheral one.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Central tests showed deficits consistent with dysfunction in the common association region where occipital, parietal, and temporal fibers converge.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Case 11-1 describes an adolescent female with Learning Disabilities and a subarachnoid cyst. Audiologic evaluation revealed severe central auditory processing deficits, characterized by significantly depressed speech-in-noise scores (16% RE, 8% LE) and reduced speech recognition, despite a lack of peripheral pathology. The auditory deficits are linked to morphological changes in the brain (occipital, parietal, and temporal association regions), which also manifest as an inability to read or write cursively.",
+  "counseling_points": [
+    "Utilize note-takers for classes.",
+    "Secure preferential seating to maximize speechreading and minimize background noise effects.",
+    "Seek administrative support for academic accommodations (e.g., untimed tests, small class sizes).",
+    "Recommend a reduced courseload for university studies.",
+    "Develop strategies for coping with everyday activities."
+  ],
+  "notes_for_actor": [
+    "The patient is an adolescent female (at time of diagnosis) who is highly motivated; she eventually completes college and applies to medical school.",
+    "She presents with a specific and unusual combination of symptoms: inability to hear on the phone and inability to read/write cursive, despite being able to read print.",
+    "She may express frustration that previous medical workups found nothing wrong."
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "case_id": "case_6_5",
+  "title": "Right Conductive Hearing Loss with Otalgia and Perforation",
+  "demographics": {
+    "age_years": 42,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have had decreased hearing in my right ear for the past few months that isn't getting better. I also have some pain, itching, and ringing in that ear.",
+  "problem_summary": {
+    "onset": "Several months ago.",
+    "course": "Persistent; did not subside with time or initial medical treatment (ear drops).",
+    "laterality": "Right ear.",
+    "associated_symptoms": "Otalgia (ear pain), intermittent tinnitus, occasional itching.",
+    "functional_impact": "Decreased hearing sensitivity in the right ear.",
+    "goals_motivation": "Seeking explanation for why symptoms persisted despite previous treatment."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-02-10",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports decreased hearing in the right ear for several months accompanied by otalgia. She previously saw a physician who diagnosed a right ear infection and prescribed drops, but symptoms did not resolve.",
+        "otologic_history": "Right tympanic membrane perforation noted. Intermittent tinnitus and itching in the right ear.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Prescribed ear drops by a physician for suspected infection; ineffective.",
+        "patient_goals": "Diagnosis and management of persistent right ear symptoms."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.5",
+            "Audiogram Graph"
+          ],
+          "key_findings": "Left ear thresholds are within normal limits. Right ear shows a mild-to-moderate conductive hearing loss in the low frequencies, rising to mild in the mid-frequencies, and sloping to a moderate/moderately severe loss in the high frequencies. Bone conduction is normal bilaterally, indicating a conductive pathology in the right ear.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "40-45 dB HL (250-500 Hz), 35-40 dB HL (1000-4000 Hz), sloping to 60-70 dB HL at 8000 Hz",
+            "RE_BC_Thresholds": "0-10 dB HL (Normal)",
+            "LE_Thresholds": "0-10 dB HL (Normal)",
+            "RE_Air_Bone_Gap": "Significant (approx 30-40 dB)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Speech Audiometry Table"
+          ],
+          "key_findings": "Speech Reception Thresholds (SRT) agree with pure-tone averages. Word Recognition Scores (WRS) are excellent/normal bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "40 dB HL",
+            "RE_WRS": "92% at 70 dB HL",
+            "LE_SRT": "10 dB HL",
+            "LE_WRS": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanometry Table"
+          ],
+          "key_findings": "Left ear tympanogram is normal (Type A). Right ear tympanogram is flat (Type B) with an abnormally large ear canal volume, consistent with a tympanic membrane perforation.",
+          "numeric_results": {
+            "RE_ECV": "6.7 mL (Large)",
+            "RE_Type": "Type B (Flat)",
+            "LE_ECV": "1.0 mL (Normal)",
+            "LE_Type": "Type A"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the left ear and a mild-to-moderately severe conductive hearing loss in the right ear. Word recognition remains excellent in the right ear when speech is loud enough. Tympanometry confirms a patent perforation in the right tympanic membrane (large ear canal volume). The findings are consistent with a middle ear pathology, later identified as cholesteatoma.",
+  "counseling_points": [
+    "Your hearing test confirms a 'conductive' hearing loss in the right ear, meaning sound is being blocked from reaching the inner nerve.",
+    "The pressure test (tympanometry) shows a large volume in the right ear canal, which confirms the presence of a hole (perforation) in the eardrum.",
+    "Because the ear drops did not help and there is a physical blockage/issue in the middle ear, this requires evaluation by an ENT specialist (otologist).",
+    "Keep the right ear dry (water precautions) until seen by the specialist to prevent infection."
+  ],
+  "notes_for_actor": [
+    "Portray frustration that the previous doctor just gave you drops and they didn't work.",
+    "Mention that the right ear feels 'deeply' itchy sometimes, not just on the skin.",
+    "You are worried because the hearing loss hasn't gone away."
+  ]
+}

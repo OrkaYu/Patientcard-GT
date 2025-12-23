@@ -1,0 +1,133 @@
+{
+  "case_id": "Case005_09",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right Vertebral Artery Aneurysm",
+      "rationale_short": "Confirmed by arteriogram; explains brainstem compression, facial numbness, and audiometric findings."
+    },
+    {
+      "rank": 2,
+      "label": "CPA Tumor",
+      "rationale_short": "Initial referral diagnosis due to asymmetric symptoms, but imaging identified a vascular lesion instead."
+    },
+    {
+      "rank": 3,
+      "label": "Brainstem Lesion",
+      "rationale_short": "Indicated by bilateral ABR abnormalities, central auditory signs (ascending vs descending threshold discrepancy), and ataxia."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To assess hearing sensitivity given progressive unilateral difficulty."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "urgent",
+        "rationale_short": "To evaluate recognition abilities; poor scores suggest retrocochlear pathology."
+      },
+      {
+        "action": "Bekesy Audiometry",
+        "urgency": "routine",
+        "rationale_short": "Performed due to difficulty with standard audiometry and to assess tone decay."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To rule out middle ear pathology."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the reflex arc and retrocochlear pathways."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "urgent",
+        "rationale_short": "To assess neural integrity of the auditory pathway and brainstem."
+      },
+      {
+        "action": "Radiology (CT/Arteriogram)",
+        "urgency": "urgent",
+        "rationale_short": "Definitive imaging to identify the suspected retrocochlear/brainstem lesion."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals a right-sided retrocochlear pathology with significant brainstem involvement. Pure tone testing shows a severe low-frequency sensorineural hearing loss on the right, with a notable inability to track ascending thresholds, suggesting central disruption of attentional mechanisms. Speech recognition is extremely poor and disproportionate to thresholds. Bekesy audiometry indicates significant tone decay. ABR results confirm brainstem involvement with absent late waves on the right and distorted waves on the left. Imaging confirms a large right vertebral artery aneurysm compressing the pons.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "LE normal. RE severe low-frequency SNHL (250Hz: 80 dB) rising to normal at high frequencies. Ascending thresholds were unobtainable; descending thresholds were sensitive."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "RE extremely poor: 8% at +20 dB, 4% at +30 dB."
+          },
+          {
+            "name": "Bekesy Audiometry",
+            "category": "Specialized",
+            "result_summary": "Significant abnormal adaptation (continuous thresholds 60-65 dB poorer than pulsed) in mid-frequencies; wide excursions noted."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent right (stimulus) at 500-4000 Hz. Left (stimulus) present 500-2000 Hz, absent 4000 Hz."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Abnormal bilaterally. LE: Normal waves I-III, distorted IV-V. RE: Normal waves I-II, absent waves after II."
+          },
+          {
+            "name": "Radiology (CT/Arteriogram)",
+            "category": "Imaging",
+            "result_summary": "CT showed a 5-6 cm extra-axial vascular lesion. Arteriogram confirmed a large right vertebral artery aneurysm displacing the pons and basilar artery."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Neurosurgery/Neurology for management of the aneurysm"
+    ],
+    "counseling_actions": [
+      "Explain the correlation between the hearing loss, dizziness, and the identified vascular lesion",
+      "Discuss the retrocochlear nature of the hearing loss and why speech clarity is poor",
+      "Explain the difficulty in testing (ascending vs descending) as a physiological manifestation of the central lesion"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral progressive hearing loss",
+      "Facial numbness (CN V)",
+      "Ataxia and dizziness",
+      "Diplopia",
+      "Disproportionately poor speech recognition",
+      "Abnormal ABR (brainstem signs)",
+      "Large vascular lesion on imaging"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurosurgery/Neurology",
+      "rationale_short": "Large vertebral artery aneurysm compressing the brainstem requires immediate specialist intervention."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate",
+    "objective": "Transfer to medical/surgical management for the aneurysm."
+  },
+  "expected_outcome": []
+}

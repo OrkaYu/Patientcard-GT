@@ -1,0 +1,98 @@
+{
+  "case_id": "Case004_05",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Recovered Sudden Sensorineural Hearing Loss (Right Ear)",
+      "rationale_short": "History of sudden hearing loss 10 months ago treated with intratympanic steroids, now presenting with normal hearing sensitivity."
+    },
+    {
+      "rank": 2,
+      "label": "Vestibular Dysfunction",
+      "rationale_short": "Patient reports episodic dizziness with nausea occurring twice per week."
+    },
+    {
+      "rank": 3,
+      "label": "Functional Hearing Difficulties",
+      "rationale_short": "Complaints of difficulty hearing in noise and at a distance despite normal audiometric thresholds and speech recognition in quiet."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess current hearing sensitivity following the history of sudden hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and check for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals bilateral hearing sensitivity within normal limits. Speech audiometry demonstrates excellent word recognition bilaterally, consistent with pure-tone thresholds. Tympanometry is normal (Type A) bilaterally. Acoustic reflexes are present and normal at most frequencies, though contralateral reflexes are elevated at 500 Hz bilaterally. Reflex decay is negative.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral thresholds within normal limits (0-15 dB HL) from 250 to 8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs (RE 5 dB, LE 3 dB) agree with PTA; WRS excellent (96% at 50 dB HL) bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral normal 500-4000 Hz; Contralateral normal 1000-4000 Hz but elevated at 500 Hz; Decay negative at 1000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing Assistive Technology (HAT)",
+      "Hearing protection in noise",
+      "Continue vestibular rehabilitation",
+      "Retest hearing as needed"
+    ],
+    "counseling_actions": [
+      "Counseled on Hearing Assistive Technology (HAT) options",
+      "Counseled on the use of hearing protection in noisy environments",
+      "Recommended retesting hearing as needed"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient has recovered hearing but requires assistance with functional listening difficulties (HAT) and routine monitoring."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor hearing sensitivity and functional status."
+  },
+  "expected_outcome": []
+}

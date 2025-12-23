@@ -1,0 +1,373 @@
+{
+  "case_id": "case12_An_Unusual_Case_of_Fluctuating_Hearing_L",
+  "title": "An Unusual Case of Fluctuating Hearing Loss",
+  "demographics": {
+    "age_years": 31,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have roaring and ringing noises in my ears, and my hearing seems to fluctuate. I also get dizzy spells where the room spins.",
+  "problem_summary": {
+    "onset": "Symptoms began 1 year prior to the initial appointment.",
+    "course": "Fluctuating symptoms; hearing loss and tinnitus increase prior to vertigo episodes. Symptoms improve near the middle of the menstrual cycle, while balance symptoms worsen around her period.",
+    "laterality": "Bilateral (tinnitus: left roaring, right ringing; hearing loss: bilateral).",
+    "associated_symptoms": "Spinning vertigo (30 mins to 1-2 days), migraine headaches with visual aura, anxiety, hyperhidrosis.",
+    "functional_impact": "Hearing difficulty and dizziness affecting daily life.",
+    "goals_motivation": "Seeking diagnosis and management for fluctuating hearing and vertigo."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2007-02-17",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports roaring tinnitus (left) and ringing tinnitus (right) varying daily. Episodes of spinning vertigo. Symptoms fluctuate with menstrual cycle.",
+        "otologic_history": "Previously followed at another clinic.",
+        "medical_psych_history": "Migraine with aura, anxiety, hyperhidrosis. Meds: pentoxifylline, HCTZ, diazepam, Paxil.",
+        "prior_management": "Consultation with otolaryngologist."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.1"
+          ],
+          "key_findings": "Right ear: Moderate SNHL 250-1000 Hz, rising to mild at 1500 Hz, normal at 2000-3000 Hz, sloping to mild-moderate SNHL 4000-8000 Hz. Left ear: Mild SNHL 250-500 Hz, normal 750-3000 Hz, slight SNHL 4000-8000 Hz.",
+          "numeric_results": {
+            "RT_PTA": "30 dB HL",
+            "LT_PTA": "15 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.1"
+          ],
+          "key_findings": "SRT revealed mild loss in right ear and normal ability in left ear. WRS normal in both ears.",
+          "numeric_results": {
+            "RT_SRT": "30 dB",
+            "RT_WRS": "72%",
+            "LT_SRT": "15 dB",
+            "LT_WRS": "92%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2008-06-16",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up evaluation approximately 16 months later."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.2"
+          ],
+          "key_findings": "Right ear: Significantly poorer hearing at 3000-4000 Hz and 8000 Hz. Left ear: Significantly poorer hearing from 250 to 8000 Hz.",
+          "numeric_results": {
+            "RT_PTA": "40 dB HL",
+            "LT_PTA": "45 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.2"
+          ],
+          "key_findings": "SRT revealed mild loss (Right) and moderate loss (Left). WRS normal (Right) and slight difficulty (Left).",
+          "numeric_results": {
+            "RT_SRT": "40 dB",
+            "RT_WRS": "92%",
+            "LT_SRT": "45 dB",
+            "LT_WRS": "80%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2008-12-15",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is in first pregnancy (31-week gestation).",
+        "otologic_history": "Hearing improved during pregnancy."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "During Pregnancy 1",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.3"
+          ],
+          "key_findings": "Right ear: Significantly improved hearing at 250-1000 Hz and 3000-8000 Hz. Left ear: No significant change except 15 dB improvement at 1500 Hz.",
+          "numeric_results": {
+            "RT_PTA": "10 dB HL",
+            "LT_PTA": "40 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "During Pregnancy 1",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.3"
+          ],
+          "key_findings": "Right SRT normal; Left SRT mild loss. WRS normal (Right) and slight difficulty (Left).",
+          "numeric_results": {
+            "RT_SRT": "10 dB",
+            "RT_WRS": "96%",
+            "LT_SRT": "40 dB",
+            "LT_WRS": "86%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "2009-03-13",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "3 months post-delivery of first baby. Hearing worsened approx 1 week after delivery."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-partum 1",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.4"
+          ],
+          "key_findings": "Right ear: Significantly poorer hearing at 1000 Hz and 3000-8000 Hz compared to pregnancy. Left ear: Relatively unchanged.",
+          "numeric_results": {
+            "RT_PTA": "30 dB HL",
+            "LT_PTA": "40 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-partum 1",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.4"
+          ],
+          "key_findings": "Mild SRT loss bilaterally. WRS did not significantly change.",
+          "numeric_results": {
+            "RT_SRT": "30 dB",
+            "RT_WRS": "90%",
+            "LT_SRT": "40 dB",
+            "LT_WRS": "84%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V5",
+      "date": "2010-11-12",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Routine follow-up 20 months later."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.5"
+          ],
+          "key_findings": "Air conduction thresholds relatively unchanged. Left WRS significantly poorer.",
+          "numeric_results": {
+            "RT_PTA": "30 dB HL",
+            "LT_PTA": "50 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.5"
+          ],
+          "key_findings": "Left WRS dropped significantly to 58%.",
+          "numeric_results": {
+            "RT_SRT": "30 dB",
+            "RT_WRS": "DNT",
+            "LT_SRT": "50 dB",
+            "LT_WRS": "58%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V6",
+      "date": "2011-11-09",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is in second pregnancy (24-week gestation)."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "During Pregnancy 2",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.6"
+          ],
+          "key_findings": "Right ear: Significantly improved thresholds 250-8000 Hz. Left ear: Not significantly different.",
+          "numeric_results": {
+            "RT_PTA": "15 dB HL",
+            "LT_PTA": "60 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "During Pregnancy 2",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.6"
+          ],
+          "key_findings": "Right ear: Normal ability to receive/recognize speech. Left ear: Moderately severe loss (SRT) and poor recognition.",
+          "numeric_results": {
+            "RT_SRT": "15 dB",
+            "RT_WRS": "96%",
+            "LT_SRT": "60 dB",
+            "LT_WRS": "45-60%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V7",
+      "date": "2012-03-16",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "4 months post-delivery of second baby."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-partum 2",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.7"
+          ],
+          "key_findings": "Right ear: Significantly poorer from 250-1500 Hz and 6000-8000 Hz. Left ear: Thresholds not significantly different.",
+          "numeric_results": {
+            "RT_PTA": "40 dB HL",
+            "LT_PTA": "50 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-partum 2",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 12.7"
+          ],
+          "key_findings": "Right WRS decreased. Left WRS improved.",
+          "numeric_results": {
+            "RT_SRT": "40 dB",
+            "RT_WRS": "84%",
+            "LT_SRT": "50 dB",
+            "LT_WRS": "72%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient exhibits bilateral, asymmetric, fluctuating sensorineural hearing loss. The hearing loss configuration is generally low-frequency or flat, with significant fluctuations correlated with hormonal status (improving during pregnancy, worsening post-partum). Speech recognition scores also fluctuate, particularly in the left ear, ranging from good to poor depending on the visit.",
+  "counseling_points": [
+    "Your hearing loss and dizziness appear linked to hormonal changes, as evidenced by improvements during pregnancy.",
+    "There is significant overlap between Vestibular Migraine and Meniere's Disease; your symptoms suggest features of both.",
+    "Dietary triggers, such as caffeine and salt, may influence your symptoms and should be monitored.",
+    "Because your hearing fluctuates, hearing aids with multiple programs or volume control flexibility will be important to accommodate 'good' and 'bad' hearing days."
+  ],
+  "notes_for_actor": [
+    "Portray anxiety about the unpredictability of the vertigo and hearing loss.",
+    "Mention that you feel much better when pregnant, but the symptoms crash back after the baby is born.",
+    "Emphasize the roaring sound in your left ear as very distracting."
+  ]
+}

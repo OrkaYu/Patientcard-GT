@@ -1,0 +1,102 @@
+{
+  "case_id": "case_5_16",
+  "title": "Musician with Exacerbated Tinnitus and Hearing Loss Post-Chemotherapy",
+  "demographics": {
+    "age_years": 56,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "My tinnitus has become 'out of control' recently, and I am having more difficulty hearing, especially in background noise.",
+  "problem_summary": {
+    "onset": "Chronic hearing loss and tinnitus for many years, with acute exacerbation over the last year.",
+    "course": "Previously stable and not bothersome; symptoms worsened following recent chemotherapy and radiation therapy.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Severe tinnitus described as 'out of control'.",
+    "functional_impact": "Increased difficulty hearing in noise; significant distress from tinnitus.",
+    "goals_motivation": "Seeking relief from tinnitus and help with hearing difficulties."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2011-05-29",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports hearing loss and tinnitus for many years which were previously unbothersome. Following multiple health issues in the last year, including chemotherapy and radiation therapy, he noted increased difficulty hearing in noise and tinnitus became louder.",
+        "otologic_history": "Annual hearing tests completed for the last 3 years.",
+        "noise_exposure_history": "Musician; has been around music the majority of his life.",
+        "medical_psych_history": "Cancer survivor (treated with chemotherapy and radiation). Unable to recall specific chemotherapy medications.",
+        "prior_management": "Monitoring via annual hearing tests.",
+        "patient_goals": "Address the 'out of control' tinnitus and hearing difficulty."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-treatment (Chemo/Radiation)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.16"
+          ],
+          "key_findings": "Bilateral sensorineural hearing loss. Normal hearing in low frequencies sloping to moderately severe hearing loss in the high frequencies. Comparison to prior tests shows a decrease of 10 dB HL at 8,000 Hz in the Right ear and 10 dB HL at 4,000 Hz in the Left ear.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250Hz: 10, 500Hz: 15, 1000Hz: 20, 2000Hz: 30, 4000Hz: 40, 8000Hz: 65 dB HL",
+            "LE_AC_Thresholds": "250Hz: 10, 500Hz: 15, 1000Hz: 25, 2000Hz: 30, 4000Hz: 55, 8000Hz: 60 dB HL",
+            "Bone_Conduction": "Consistent with air thresholds (Sensorineural)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-treatment (Chemo/Radiation)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.16"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA. Word recognition scores reveal only slight difficulty.",
+          "numeric_results": {
+            "RE_SRT": "23 dB HL",
+            "LE_SRT": "22 dB HL",
+            "RE_WRS": "86%",
+            "LE_WRS": "88%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-treatment (Chemo/Radiation)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.16"
+          ],
+          "key_findings": "Immittance testing was not measured.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral, symmetric, high-frequency sensorineural hearing loss, sloping from normal limits in the low frequencies to moderately severe in the high frequencies. Speech discrimination remains good bilaterally (86-88%). There is evidence of slight threshold shifts (10 dB) in the high frequencies compared to prior annual evaluations, temporally associated with recent ototoxic chemotherapy and radiation.",
+  "counseling_points": [
+    "Referral to an ENT specialist is necessary to evaluate the recent increase in tinnitus severity.",
+    "Hearing aids are recommended to improve audibility, particularly in noise, and may provide relief from tinnitus perception.",
+    "Tinnitus Retraining Therapy (TRT) is a recommended option to help manage the 'out of control' perception of the tinnitus.",
+    "Given your history as a musician and recent medical treatments, continued annual hearing monitoring is important."
+  ],
+  "notes_for_actor": [
+    "You are a musician who is used to being around sound, but now the ringing in your ears is distressing you more than the hearing loss itself.",
+    "You are vague about the medical details of your cancer treatment (you don't remember the drug names), but you know the hearing issues got worse after the treatment.",
+    "Emphasize that the tinnitus feels 'out of control'."
+  ]
+}

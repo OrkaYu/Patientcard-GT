@@ -1,0 +1,96 @@
+{
+  "case_id": "Case005_09",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bell's Palsy (Left)",
+      "rationale_short": "History of sudden facial paralysis; absent acoustic reflexes with probe in left ear consistent with facial nerve efferent pathway pathology."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural Hearing Loss",
+      "rationale_short": "Bilateral asymmetric sensorineural hearing loss, worse in the left ear."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc, specifically checking for facial nerve pathology given the history."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with bilateral asymmetric sensorineural hearing loss, worse in the left ear. Tympanometry is normal bilaterally. Acoustic reflexes show a pattern consistent with left facial nerve pathology (Bell's palsy), being absent whenever the probe is in the left ear (left ipsilateral, right contralateral) but present when the probe is in the right ear. Acoustic reflex decay was negative in the right ear and not measured in the left. Speech recognition is excellent in the right ear and good in the left.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: normal at 250 Hz sloping to moderate-severe (15-65 dB HL). Left ear: normal at 250 Hz sloping to moderate-severe (15-70 dB HL), generally worse than the right."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 30 dB HL, WRS 92%. Left SRT 43 dB HL, WRS 84%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral and left contralateral (probe right) present. Left ipsilateral and right contralateral (probe left) absent. Decay negative in right ear."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to otologist for medical evaluation",
+      "Hearing aid evaluation",
+      "Annual hearing test",
+      "Cerumen removal"
+    ],
+    "counseling_actions": [
+      "Discuss asymmetric hearing loss and need for medical clearance",
+      "Explain the relationship between Bell's palsy and absent acoustic reflexes",
+      "Counsel on hearing protection"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Asymmetric hearing loss",
+      "Facial paralysis"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Medical evaluation required for asymmetric hearing loss to rule out retrocochlear pathology."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Cerumen removal, evaluation of symptoms, hearing test, and hearing aid evaluation."
+  },
+  "expected_outcome": []
+}

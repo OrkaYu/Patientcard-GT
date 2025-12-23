@@ -1,0 +1,25 @@
+{
+  "case_id": "Case006_01",
+  "ranked_differential_diagnosis": [],
+  "investigations_and_interpretations": {
+    "ordered_list": [],
+    "expected_interpretations_by_visit": []
+  },
+  "treatment_and_management": {
+    "proposed_items": [],
+    "counseling_actions": []
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": null,
+      "rationale_short": null
+    }
+  },
+  "follow_up_plan": {
+    "timeline": null,
+    "objective": null
+  },
+  "expected_outcome": []
+}

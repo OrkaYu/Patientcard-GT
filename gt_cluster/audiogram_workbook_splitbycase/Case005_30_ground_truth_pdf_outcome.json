@@ -1,0 +1,90 @@
+{
+  "case_id": "Case005_30",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Vestibular Schwannoma",
+      "rationale_short": "Patient has a known diagnosis of right-sided vestibular schwannoma (2007) and presents for annual monitoring with stable asymmetric SNHL and unilateral tinnitus."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Monitor hearing sensitivity annually for tumor surveillance."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess functional speech recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess retrocochlear pathway integrity."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiologic evaluation reveals stable, asymmetric high-frequency sensorineural hearing loss, worse in the right ear (tumor side). Both ears show a profound notch at 6000 Hz. Speech recognition is good bilaterally. Acoustic reflexes are absent or elevated at high frequencies, consistent with the hearing loss and retrocochlear pathology, though reflex decay was negative where testable.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal 250-1000 Hz, sloping to severe at 3000-8000 Hz with profound notch at 6000 Hz. Left ear: Normal 250-2000 Hz, sloping to severe at 4000-8000 Hz with profound notch at 6000 Hz. Asymmetric SNHL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: 20 dB HL (Right), 10 dB HL (Left). WRS: 88% (Right), 92% (Left). Good recognition bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral: Present 500-1000 Hz, absent higher. Contralateral: Absent/elevated at high frequencies. Decay negative at 500 and 1000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Return annually for hearing testing",
+      "Use Hearing Assistive Technology (HAT) for TV",
+      "Use hearing protection in noisy environments",
+      "Consider amplification (hearing aids)"
+    ],
+    "counseling_actions": [
+      "Discuss stability of hearing results compared to previous tests",
+      "Counsel on the importance of hearing protection to preserve remaining hearing"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Continue annual monitoring with otologist for known vestibular schwannoma."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annually",
+    "objective": "Monitor hearing sensitivity and tumor status."
+  },
+  "expected_outcome": [
+    "Stable pure-tone thresholds and WRS compared to original test.",
+    "No clinically significant changes noted."
+  ]
+}

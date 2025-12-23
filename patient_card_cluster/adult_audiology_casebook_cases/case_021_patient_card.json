@@ -1,0 +1,221 @@
+{
+  "case_id": "case21_Hearing_Disorders_Vestibular_Schwannomas",
+  "title": "Vestibular Schwannoma Presenting as Sudden Sensorineural Hearing Loss",
+  "demographics": {
+    "age_years": 30,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I lost hearing in my right ear abruptly two days ago. I also have constant ringing, some dizziness, and loud sounds hurt that ear.",
+  "problem_summary": {
+    "onset": "Sudden onset (2 days prior to initial visit).",
+    "course": "Acute decline followed by significant recovery after steroid treatment.",
+    "laterality": "Right ear.",
+    "associated_symptoms": "Constant tinnitus (RE), slight imbalance, hyperacusis (RE), aural fullness (RE).",
+    "functional_impact": "Difficulty hearing on the phone and localizing sound initially; improved after treatment.",
+    "goals_motivation": "Evaluation of sudden hearing loss and potential recovery."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-02-20",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reported right ear hearing declined abruptly 2 days prior. Denies URI or illness.",
+        "otologic_history": "Denies otalgia or history of ear infections.",
+        "noise_exposure_history": "Denies excessive noise exposure.",
+        "medical_psych_history": "Unremarkable.",
+        "prior_management": "None prior to this visit.",
+        "patient_goals": "Diagnosis and management of sudden hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.1"
+          ],
+          "key_findings": "Left ear within normal limits. Right ear normal at 250 Hz sloping to moderately severe to severe SNHL from 750-8000 Hz.",
+          "numeric_results": {
+            "RE_250Hz": "10 dB HL",
+            "RE_500Hz": "25 dB HL",
+            "RE_1000Hz": "55 dB HL",
+            "RE_2000Hz": "65 dB HL",
+            "RE_4000Hz": "70 dB HL",
+            "RE_8000Hz": "75 dB HL",
+            "LE_Thresholds": "0-10 dB HL across range"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.1"
+          ],
+          "key_findings": "Left ear normal. Right ear showed moderately severe loss for speech reception and very poor word recognition (rollover not specified but score is disproportionately poor).",
+          "numeric_results": {
+            "RE_SRT": "65 dB HL",
+            "LE_SRT": "5 dB HL",
+            "RE_WRS": "48% at 85 dB HL (25 dB SL)",
+            "LE_WRS": "96% at 50 dB HL (45 dB SL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.1"
+          ],
+          "key_findings": "Normal tympanograms bilaterally (Type A).",
+          "numeric_results": {
+            "RE_Peak_Pressure": "20 daPa",
+            "LE_Peak_Pressure": "25 daPa",
+            "RE_Static_Admittance": "0.3 mmho",
+            "LE_Static_Admittance": "0.3 mmho"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Left ipsi/contra normal. Right ipsi present but elevated at 1k/2k Hz. Right contra absent at 500-4000 Hz. Reflex decay negative in Left ear; could not test Right due to absent thresholds.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2014-03-07",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned 2 weeks later following otology consult and 12-day prednisone taper. Reports hearing improved significantly and feels normal. Occasional tinnitus persists.",
+        "otologic_history": "Completed oral steroids.",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "Oral steroids prescribed by otologist.",
+        "patient_goals": "Follow-up testing and ABR."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.2"
+          ],
+          "key_findings": "Significant recovery. Bilateral hearing within normal limits, except for a slight SNHL notch at 4000 Hz in the right ear.",
+          "numeric_results": {
+            "RE_4000Hz": "25 dB HL",
+            "RE_Other_Freqs": "0-10 dB HL",
+            "LE_Thresholds": "0-10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.2"
+          ],
+          "key_findings": "Normal speech reception and excellent word recognition bilaterally.",
+          "numeric_results": {
+            "RE_SRT": "5 dB HL",
+            "LE_SRT": "5 dB HL",
+            "RE_WRS": "96% at 50 dB HL",
+            "LE_WRS": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Ipsilateral and contralateral reflexes present within normal limits bilaterally. Reflex decay negative bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.3"
+          ],
+          "key_findings": "Left ear: Normal absolute and interpeak latencies. Right ear: Normal Wave I, delayed absolute III and V. Prolonged I-III and I-V interpeak latencies. Abnormal interaural Wave V latency difference. Consistent with retrocochlear dysfunction.",
+          "numeric_results": {
+            "LE_I-V_Interlatency": "3.96 ms",
+            "RE_I-V_Interlatency": "4.91 ms",
+            "Stimulus_Rate": "11.1 and 71.1 clicks/sec",
+            "Stimulus_Level": "80 dB nHL (Left), 85 dB nHL (Right)"
+          }
+        },
+        {
+          "name": "MRI",
+          "timepoint_label": "Post-ABR",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Medium-sized (2.1-cm) solitary right Vestibular Schwannoma originating in the vestibular portion of the 8th nerve, just within the IAC.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient initially presented with a sudden, moderately severe to severe sensorineural hearing loss in the right ear with disproportionately poor word recognition. Following steroid treatment, pure-tone thresholds and speech recognition recovered to essentially normal levels. However, ABR testing revealed significant retrocochlear signs (prolonged I-V latency) on the right side, and subsequent MRI confirmed a 2.1 cm Vestibular Schwannoma.",
+  "counseling_points": [
+    "Although your hearing has recovered beautifully with the steroid treatment, the ABR test showed a delay in the nerve signal on the right side.",
+    "The MRI confirmed that this delay is caused by a benign growth called a Vestibular Schwannoma on your hearing and balance nerve.",
+    "Because the tumor is medium-sized and pressing on the nerve, we need to discuss management options, likely leaning toward surgery to remove it while trying to preserve this recovered hearing.",
+    "It is important to know that hearing recovery after sudden loss does not rule out a tumor, which is why we performed the full workup."
+  ],
+  "notes_for_actor": [
+    "In the first visit, you are anxious about the sudden loss and the loud ringing.",
+    "In the second visit, you are relieved and happy that your hearing came back, perhaps skeptical that you still need more testing (ABR/MRI) since you feel 'cured'.",
+    "You should express surprise that a tumor was found despite your hearing returning to normal."
+  ]
+}

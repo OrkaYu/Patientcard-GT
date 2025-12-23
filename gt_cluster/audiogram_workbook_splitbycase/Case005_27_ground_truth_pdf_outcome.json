@@ -1,0 +1,71 @@
+{
+  "case_id": "Case005_27",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Unilateral Sensorineural Hearing Loss",
+      "rationale_short": "Diagnosed 6 years ago with negative MRI; shows significant progression in high frequencies and WRS over time."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To monitor thresholds and assess stability of hearing loss compared to previous evaluations."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities, particularly given subjective difficulties."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear exhibits a slight sloping to moderate sensorineural hearing loss from 250-3000 Hz, progressing to severe at 4000 Hz and profound at 6000-8000 Hz. The left ear is normal from 250-4000 Hz with a slight high-frequency dip. Results are relatively stable compared to 2 years ago but show significant progression in high frequencies and word recognition decline compared to the original diagnosis 6 years ago.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: slight sloping to moderate SNHL (250-3000 Hz), severe at 4000 Hz, profound at 6000-8000 Hz. Left ear: normal (250-4000 Hz), mild/slight loss at 6000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT agrees with PTA (RE 35 dB HL, LE 5 dB HL). WRS is 74% (moderate difficulty) in the right ear and 92% (normal) in the left ear."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continued use of amplification",
+      "Use of Hearing Assistive Technology (HAT) for noisy group settings",
+      "Hearing protection in noise",
+      "Annual hearing tests"
+    ],
+    "counseling_actions": [
+      "Review test results showing stability over the last 2 years but progression since initial diagnosis",
+      "Discuss the decrease in word recognition scores in the right ear",
+      "Advise on hearing protection to preserve the left ear"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Significant progression of unilateral sensorineural hearing loss",
+      "Decrease in word recognition score"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Referral for medical clearance and follow-up regarding the progression of hearing loss and changes in WRS since original diagnosis."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annually",
+    "objective": "Monitor hearing stability."
+  },
+  "expected_outcome": []
+}

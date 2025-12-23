@@ -1,0 +1,118 @@
+{
+  "case_id": "Case012_11",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Cholesteatoma (Left Ear)",
+      "rationale_short": "The presence of a 'whitish mass' behind the tympanic membrane, combined with a history of frequent ear infections and significant conductive hearing loss, is highly suggestive of a congenital or acquired cholesteatoma."
+    },
+    {
+      "rank": 2,
+      "label": "Chronic Otitis Media with Effusion (Left Ear)",
+      "rationale_short": "History of recent infection following a flight and Type B tympanogram are consistent with effusion, though the specific description of a 'mass' makes this less likely than cholesteatoma."
+    },
+    {
+      "rank": 3,
+      "label": "Eustachian Tube Dysfunction (Right Ear)",
+      "rationale_short": "Retracted tympanic membrane and Type C tympanogram with negative pressure indicate eustachian tube dysfunction on the right side."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Visual inspection revealed a retracted right TM and a whitish mass behind the left TM."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assessed middle ear function, showing Type C (right) and Type B (left) patterns."
+      },
+      {
+        "action": "Pure Tone Audiometry",
+        "urgency": "routine",
+        "rationale_short": "Established normal hearing in the right ear and moderate conductive loss in the left ear."
+      },
+      {
+        "action": "CT Temporal Bone",
+        "urgency": "routine",
+        "rationale_short": "Likely to be ordered by ENT to determine the extent of the mass/cholesteatoma."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a unilateral (left) moderate conductive hearing loss and a 'whitish mass' in the middle ear, strongly suggesting cholesteatoma. The right ear shows evidence of negative pressure (Eustachian tube dysfunction) but normal hearing sensitivity.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Right: Retracted TM. Left: Whitish mass behind TM."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right: Type C (-250 daPa). Left: Type B (flat)."
+          },
+          {
+            "name": "Wideband Reflectance",
+            "category": "Immittance",
+            "result_summary": "Right: Dip at 1.5 kHz. Left: Abnormally high reflectance (80-90%)."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right: Normal hearing (0-10 dB HL). Left: Moderate rising conductive loss with 50-55 dB air-bone gaps in low frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent word recognition (Right: 100%, Left: 97% masked)."
+          },
+          {
+            "name": "Stenger Test",
+            "category": "Special Test",
+            "result_summary": "Negative at 1000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Otolaryngologist (ENT) for evaluation of left middle ear mass.",
+      "Potential surgical intervention (e.g., tympanomastoidectomy) if cholesteatoma is confirmed.",
+      "Monitoring of right ear for progression of Eustachian tube dysfunction.",
+      "Annual audiologic monitoring.",
+      "Referral to Otolaryngology"
+    ],
+    "counseling_actions": [
+      "Explain the difference between the conductive loss in the left ear and normal hearing in the right.",
+      "Discuss the significance of the 'whitish mass' and the necessity of medical follow-up to prevent complications.",
+      "Review the implications of negative pressure in the right ear.",
+      "Advise the patient to report any changes in hearing, drainage, or dizziness immediately."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral conductive hearing loss",
+      "Visible mass behind the tympanic membrane",
+      "Significant air-bone gap (>50 dB)"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otolaryngologist",
+      "rationale_short": "The presence of a middle ear mass (suspected cholesteatoma) requires specialist evaluation to prevent bone erosion and other complications."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-ENT evaluation/intervention",
+    "objective": "Re-evaluate hearing thresholds to assess the outcome of medical or surgical management."
+  },
+  "expected_outcome": [
+    "Diagnosis confirmation via imaging or surgery.",
+    "Potential restoration of hearing thresholds following surgical management.",
+    "Prevention of long-term complications associated with cholesteatoma."
+  ]
+}

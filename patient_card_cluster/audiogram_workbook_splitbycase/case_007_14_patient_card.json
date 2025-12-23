@@ -1,0 +1,122 @@
+{
+  "case_id": "case_7_14",
+  "title": "Chronic Tympanic Membrane Perforation with Mixed Hearing Loss",
+  "demographics": {
+    "age_years": 67,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a hole in my left eardrum that has been there for a long time, and I have trouble hearing on that side. I had surgery to fix it three years ago, but it didn't work, so I'm here for a second opinion.",
+  "problem_summary": {
+    "onset": "Childhood (chronic ear infections); long-standing perforation.",
+    "course": "Chronic; failed tympanoplasty 3 years ago.",
+    "laterality": "Left ear primarily; bilateral hearing loss noted on testing.",
+    "associated_symptoms": "Occasional otalgia, sensation of pressure in the left ear.",
+    "functional_impact": "Hearing loss in the left ear.",
+    "goals_motivation": "Second opinion regarding the perforation and hearing loss."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-10-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a long-standing TM perforation in the left ear with occasional otalgia and pressure. He reports hearing loss in the left ear.",
+        "otologic_history": "Chronic ear infections in the left ear since childhood. Tympanoplasty performed 3 years ago was unsuccessful.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Previous tympanoplasty (failed).",
+        "patient_goals": "Second opinion."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.14"
+          ],
+          "key_findings": "Right ear shows slight sensorineural hearing loss (250-1000 Hz) sloping to mild-to-moderately severe. Left ear shows moderate mixed hearing loss (250-3000 Hz) sloping to severe-to-profound, with a significant air-bone gap.",
+          "numeric_results": {
+            "Right_PTA": "27 dB HL",
+            "Left_PTA": "48 dB HL",
+            "Right_Configuration": "Sloping",
+            "Left_Configuration": "Sloping Mixed"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.14"
+          ],
+          "key_findings": "SRT scores align with PTA. Word recognition scores are excellent bilaterally despite the hearing loss.",
+          "numeric_results": {
+            "Right_SRT": "35 dB HL",
+            "Left_SRT": "55 dB HL",
+            "Right_WRS": "96% at 75 dB HL",
+            "Left_WRS": "92% at 90 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.14"
+          ],
+          "key_findings": "Right ear is normal (Type A). Left ear is flat (Type B) with a large ear canal volume, consistent with the reported perforation.",
+          "numeric_results": {
+            "Right_ECV": "1.9 mL",
+            "Right_Peak_Pressure": "-30 daPa",
+            "Left_ECV": "4.3 mL",
+            "Left_Type": "Type B (Flat)"
+          }
+        },
+        {
+          "name": "Otoscopy/Medical Exam",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Otorrhea present in the left ear (suctioned by otologist).",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a slight to moderately severe sensorineural hearing loss in the right ear and a moderate mixed sloping to severe/profound hearing loss in the left ear. Word recognition remains excellent in both ears. Tympanometry confirms a patent tympanic membrane perforation in the left ear (large volume Type B) and normal middle ear function in the right ear.",
+  "counseling_points": [
+    "You have an active infection (drainage) in the left ear which was suctioned today; please use the prescribed antibiotic drops.",
+    "It is critical to keep water out of your left ear to prevent further infection.",
+    "If the left ear remains free of infection for 3 months, a repeat tympanoplasty (surgery to repair the eardrum) may be considered.",
+    "We recommend an annual hearing test to monitor your hearing levels.",
+    "Once medically cleared, we can evaluate you for hearing aids to help with the hearing loss."
+  ],
+  "notes_for_actor": [
+    "You are a 67-year-old male.",
+    "You have dealt with ear infections since you were a child and are likely frustrated that the surgery 3 years ago did not fix the hole in your eardrum.",
+    "You currently feel some pressure and occasional pain in the left ear.",
+    "You are seeking a solution but may be cautious about surgery given the previous failure."
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "case_id": "case_8_3",
+  "title": "Partial (Anterior) Commissurotomy in a 24-Year-Old Woman",
+  "demographics": {
+    "age_years": 24,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "Patient presents for evaluation prior to and following neurosurgery for intractable epilepsy.",
+  "problem_summary": {
+    "onset": "Seizures began at 7 months of age following immunizations.",
+    "course": "Chronic and intractable; averaging 50-60 seizures per year despite medication.",
+    "laterality": "Bilateral auditory findings; Seizure focus in anterior temporal lobe/left anterior quadrant.",
+    "associated_symptoms": "Tonic-clonic motor seizures without warning; cognitive impairment (Performance I.Q. 63).",
+    "functional_impact": "Severe disruption of daily life due to frequent seizures; reading level is 12th grade despite cognitive deficits.",
+    "goals_motivation": "Surgical intervention (anterior commissurotomy) attempted to control seizures."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Medical Center / Audiology Clinic",
+      "history": {
+        "present_illness": "24-year-old woman with a history of major motor seizures since infancy. Seizures are tonic-clonic with no warning. Medications provide little relief.",
+        "otologic_history": "None specified.",
+        "noise_exposure_history": "None specified.",
+        "medical_psych_history": "Epilepsy since 7 months age. EEG shows abnormal discharges in anterior temporal lobe and left anterior quadrant. Verbal I.Q. 85, Performance I.Q. 63. CT scan normal.",
+        "prior_management": "Anticonvulsant medications (ineffective).",
+        "patient_goals": "Evaluation of auditory function pre- and post-anterior commissurotomy."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre- and Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal hearing sensitivity bilaterally (250-8000 Hz) both before and after surgery.",
+          "numeric_results": {
+            "Range": "250-8000 Hz within normal limits"
+          }
+        },
+        {
+          "name": "Central Auditory Test Battery",
+          "timepoint_label": "Pre- and Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-5"
+          ],
+          "key_findings": "Staggered Spondaic Words (SSW), Dichotic Digits (DD), Competing Sentences (Comp Sent), and Low Pass Filtered Speech (LPFS) were essentially within the normal range both pre- and post-operatively. No significant change noted after surgery.",
+          "numeric_results": {
+            "Comp Sent": "~95-100% (Normal)",
+            "Dichotic Digits": "~90-100% (Normal)",
+            "SSW": "~90-100% (Normal)",
+            "LPFS": "~70-80% (Within normal range)"
+          }
+        },
+        {
+          "name": "Frequency Patterns Test",
+          "timepoint_label": "Pre- and Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-5"
+          ],
+          "key_findings": "Performance was bilaterally abnormal both before and after surgery. The surgery did not degrade performance further; the deficit was pre-existing.",
+          "numeric_results": {
+            "Pre-op Left Ear": "~55% (Abnormal)",
+            "Pre-op Right Ear": "~35% (Abnormal)",
+            "Post-op Left Ear": "~20% (Abnormal)",
+            "Post-op Right Ear": "~30% (Abnormal)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This patient underwent an anterior commissurotomy (sectioning of the anterior one-half of the corpus callosum) for seizure control. Audiological evaluation revealed normal peripheral hearing. Central auditory testing (dichotic listening, degraded speech) remained within normal limits pre- and post-operatively, with the exception of Frequency Patterns which were abnormal at baseline and remained so. Crucially, the anterior sectioning of the corpus callosum resulted in NO change to central auditory function, unlike complete commissurotomies. This suggests auditory interhemispheric fibers are located in the posterior portion of the corpus callosum.",
+  "counseling_points": [
+    "The surgery to control seizures (anterior commissurotomy) has not negatively impacted auditory processing abilities.",
+    "The patient retains the ability to process dichotic speech and degraded speech signals normally.",
+    "Difficulty with frequency patterning (pitch sequencing) was present before surgery and persists, likely related to the long-standing neurological history rather than the surgical procedure."
+  ],
+  "notes_for_actor": [
+    "Patient has a history of lifelong epilepsy and some cognitive impairment (lower Performance IQ), but reads at a 12th-grade level.",
+    "The key takeaway is that 'nothing changed' audiologically after the surgery, which is a positive outcome compared to total split-brain patients."
+  ]
+}

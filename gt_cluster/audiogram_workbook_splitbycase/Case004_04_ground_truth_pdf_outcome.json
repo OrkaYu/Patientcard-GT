@@ -1,0 +1,86 @@
+{
+  "case_id": "Case004_04",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Normal hearing",
+      "rationale_short": "Pure-tone thresholds are within normal limits (0-15 dB HL) bilaterally, with excellent word recognition scores and normal middle ear function."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To establish baseline hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition ability."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc and rule out retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals normal hearing sensitivity bilaterally. Speech audiometry is consistent with pure-tone thresholds, showing excellent word recognition. Middle ear function is normal as evidenced by Type A tympanograms and robust acoustic reflexes with no decay.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally (thresholds 0-15 dB HL). PTA is 3 dB HL in the right ear and 5 dB HL in the left ear."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT (5 dB HL bilaterally) agrees with PTA. WRS is 100% at 50 dB HL bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally. Right: 1.2 mL volume, 0.5 mmho admittance. Left: 0.9 mL volume, 0.6 mmho admittance."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present and normal for ipsilateral and contralateral stimulation from 500 to 4,000 Hz. Reflex decay negative at 500 and 1,000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue use of non-custom musician earplugs during practice",
+      "Consider custom musician earplugs if desired",
+      "Monitor hearing annually"
+    ],
+    "counseling_actions": [
+      "Counsel on hearing conservation and the importance of protecting hearing during music exposure",
+      "Discuss the benefits of custom versus non-custom earplugs"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient has normal hearing; routine monitoring is recommended due to noise exposure risk."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing status due to regular music exposure."
+  },
+  "expected_outcome": []
+}

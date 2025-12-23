@@ -1,0 +1,128 @@
+{
+  "case_id": "case_5_19",
+  "title": "Progressive Asymmetric Sensorineural Hearing Loss with Disproportionate Speech Perception Deficit",
+  "demographics": {
+    "age_years": 38,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed a decrease in my hearing and an increase in ringing in my right ear over the last 6 months. I stopped using my right hearing aid because it doesn't seem to help anymore.",
+  "problem_summary": {
+    "onset": "Hearing difficulty began approximately 14 years ago; acute worsening in the right ear 6 months ago.",
+    "course": "Progressive; started 14 years ago, amplification started 9 years ago, recent decline.",
+    "laterality": "Bilateral, but currently worse in the right ear.",
+    "associated_symptoms": "Tinnitus (increased in right ear).",
+    "functional_impact": "Patient discontinued use of right hearing aid due to perceived lack of benefit.",
+    "goals_motivation": "Seeking evaluation due to recent changes and inability to adjust hearing aid for benefit."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-03-09",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "38-year-old female with a 14-year history of hearing loss. In the last 6 months, she noticed decreased hearing and increased tinnitus in the right ear.",
+        "otologic_history": "Denies otalgia, pressure, or dizziness.",
+        "noise_exposure_history": "Denies loud noise exposure.",
+        "medical_psych_history": "Family history of hearing loss (mother).",
+        "prior_management": "Amplification use for 9 years; current aids are 2 years old. Stopped using right aid recently.",
+        "patient_goals": "Evaluation of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.19"
+          ],
+          "key_findings": "Right ear: Normal at 250 Hz, sloping to profound sensorineural hearing loss at 6-8 kHz. Left ear: Normal at 250 Hz, sloping to severe sensorineural hearing loss at 8 kHz. Asymmetric configuration.",
+          "numeric_results": {
+            "RT_PTA": "58 dB HL",
+            "LT_PTA": "43 dB HL",
+            "RT_Thresholds": "250Hz: 15, 1000Hz: 60, 4000Hz: 80, 8000Hz: 95 dB HL",
+            "LT_Thresholds": "250Hz: 15, 1000Hz: 40, 4000Hz: 50, 8000Hz: 75 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.19"
+          ],
+          "key_findings": "SRT agrees with PTA bilaterally. Significant asymmetry in Word Recognition Scores (WRS). Right ear WRS is very poor (42%) and disproportionate to the pure-tone loss compared to the Left ear (82%).",
+          "numeric_results": {
+            "RT_SRT": "50 dB HL",
+            "LT_SRT": "40 dB HL",
+            "RT_WRS": "42% at 80 dB HL",
+            "LT_WRS": "82% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.19"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "RT_Static_Admittance": "1.2 mmho",
+            "LT_Static_Admittance": "1.5 mmho",
+            "Pressure": "-35 daPa bilateral"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.19"
+          ],
+          "key_findings": "Right Ipsi: Normal at 500 Hz, elevated/absent higher. Left Ipsi: Normal 500-2000 Hz. Contralateral reflexes show abnormalities. Reflex decay negative where measurable.",
+          "numeric_results": {
+            "RT_Ipsi_500Hz": "105 dB HL",
+            "RT_Ipsi_1000Hz": "ABS",
+            "LT_Ipsi_500Hz": "95 dB HL",
+            "LT_Ipsi_1000Hz": "100 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral, asymmetric sensorineural hearing loss, sloping from normal in the low frequencies to severe/profound in the high frequencies. The right ear shows significantly poorer thresholds and, critically, a disproportionately poor word recognition score (42%) compared to the left ear (82%). Tympanometry is normal.",
+  "counseling_points": [
+    "Your hearing test confirms a decrease in hearing in your right ear compared to the left.",
+    "More importantly, the clarity of speech in your right ear is significantly reduced (42%), which explains why the hearing aid volume isn't helping—making sounds louder isn't making them clearer.",
+    "Because of the difference between your ears and the sudden change, I am referring you to an ENT physician.",
+    "The physician will likely order an MRI to rule out any issues along the hearing nerve (retrocochlear pathology) that could explain these symptoms.",
+    "We will hold off on adjusting or replacing your hearing aids until we have medical clearance from the ENT."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated that their hearing aid 'stopped working' and is anxious about the new ringing in the right ear.",
+    "When the audiologist explains the poor speech score in the right ear, express concern about whether it can be fixed.",
+    "You have a family history of hearing loss, so you assumed this was just genetic progression, but the asymmetry is new to you."
+  ]
+}

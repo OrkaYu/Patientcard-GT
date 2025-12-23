@@ -1,0 +1,243 @@
+{
+  "case_id": "case_52",
+  "title": "Claude: Evaluation and Management of Vestibular Problems and Tinnitus Following Head Trauma",
+  "demographics": {
+    "age_years": 71,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a strange sensation of dizziness that isn't quite spinning when I move my head, but I get intense brief vertigo when I lie down or turn over in bed. My eyes don't seem to keep up with my head, and the ringing in my ears has gotten much worse since the accident.",
+  "problem_summary": {
+    "onset": "Symptoms began immediately following a motor vehicle accident (MVA) with head trauma.",
+    "course": "Initial constant vertigo/nausea improved over 3 days to brief episodes. Tinnitus worsened post-accident. Imbalance persists.",
+    "laterality": "Bilateral hearing loss; Right vestibular involvement (BPPV and vestibulopathy).",
+    "associated_symptoms": "Oscillopsia (blurred vision with head movement), imbalance in the dark, difficulty reading, sleep disturbance due to tinnitus.",
+    "functional_impact": "Requires touching walls/furniture to ambulate, difficulty reading newspaper, trouble falling asleep.",
+    "goals_motivation": "Wants to resolve dizziness, improve balance, and manage tinnitus."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology & Vestibular Clinic",
+      "history": {
+        "present_illness": "71-year-old male post-MVA head trauma. Developed immediate constant vertigo/nausea/emesis, improving over 3 days. Now reports positional vertigo and general imbalance/oscillopsia.",
+        "otologic_history": "No change in hearing status reported at hospital admission.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "CT scan unremarkable. Treated with suppressants for 5 days post-MVA.",
+        "prior_management": "Tapered off suppressant medication.",
+        "patient_goals": "Diagnosis and management of dizziness and tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Bilateral, symmetric mild to moderately severe sensorineural hearing loss.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tinnitus Assessment",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Tinnitus matched to 3 kHz tone. Residual inhibition observed (softer after 60s noise).",
+          "numeric_results": {
+            "Pitch Match": "3 kHz",
+            "Loudness Match": "20 dB SL",
+            "THI Score": "73 (Severe handicap)"
+          }
+        },
+        {
+          "name": "Vestibular Evaluation (VNG/Calorics/Rotational)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right unilateral weakness. Headshake elicited transient left-beating nystagmus. Oculomotor testing normal.",
+          "numeric_results": {
+            "Caloric Weakness": "50% Right",
+            "DHI Score": "85 (Severe)"
+          }
+        },
+        {
+          "name": "Dix-Hallpike Maneuver",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Positive for Right Posterior Canal BPPV. Intense vertigo and upbeating torsional nystagmus.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Dynamic Visual Acuity (DVA)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Significant degradation with head movement, consistent with VOR impairment.",
+          "numeric_results": {
+            "Static": "82%",
+            "Horizontal Head Movement": "42%",
+            "Vertical Head Movement": "60%"
+          }
+        },
+        {
+          "name": "Postural Stability",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Fukuda stepping test showed right turn. Fall on dynamic surface with eyes closed (VSR impairment).",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Immediate treatment for BPPV following diagnosis.",
+        "otologic_history": "Same as V1.",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "N/A",
+        "patient_goals": "Resolution of positional vertigo."
+      },
+      "tests": [
+        {
+          "name": "Canalith Repositioning (Gans Maneuver)",
+          "timepoint_label": "Treatment",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Gans Repositioning Maneuver (GRM) performed. After two maneuvers, no symptoms in provoking position.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "1 week post-treatment",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up to check BPPV status. Patient reported no vertigo but persistent dizziness with head movement.",
+        "otologic_history": "N/A",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "GRM performed 1 week prior.",
+        "patient_goals": "Confirm BPPV clearance."
+      },
+      "tests": [
+        {
+          "name": "Positional Testing",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Dix-Hallpike, side-lying, and deep head-hanging were all negative. VAST initially positive then negative (attributed to BPPV resolution).",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "Post-VRT (approx 4-5 weeks)",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Completed 4 weeks of Vestibular Retraining Therapy (VRT) and hearing aid trial.",
+        "otologic_history": "Fitted with hearing aids.",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "VRT and Hearing Aids.",
+        "patient_goals": "Evaluate compensation and tinnitus status."
+      },
+      "tests": [
+        {
+          "name": "Self-Report Scales",
+          "timepoint_label": "Post-VRT",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Significant improvement in dizziness handicap and tinnitus handicap.",
+          "numeric_results": {
+            "DHI Score": "4",
+            "THI Score": "24"
+          }
+        },
+        {
+          "name": "Dynamic Visual Acuity (DVA)",
+          "timepoint_label": "Post-VRT",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Functional recovery of VOR indicated.",
+          "numeric_results": {
+            "Horizontal Head Movement": "76%",
+            "Vertical Head Movement": "72%"
+          }
+        },
+        {
+          "name": "Postural Stability",
+          "timepoint_label": "Post-VRT",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal static stability; no falls on dynamic surface with eyes closed. Functional recovery of VSR.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presented with a mixed vestibular pathology following head trauma, including Right Posterior Canal BPPV and a right peripheral vestibulopathy (50% weakness) with associated VOR and VSR deficits. Audiometry revealed bilateral symmetric mild to moderately severe sensorineural hearing loss. Following successful repositioning for BPPV, a course of VRT, and hearing aid fitting, the patient demonstrated functional compensation for the vestibulopathy and significant reduction in tinnitus perception.",
+  "counseling_points": [
+    "BPPV Recurrence: There is a 5-30% chance the crystals may displace again. Contact us immediately if the spinning sensation returns.",
+    "VRT Expectations: Rehabilitation exercises may make you feel dizzier at first. This is normal and necessary for the brain to recalibrate.",
+    "Tinnitus Management: Hearing aids help by enriching your sound environment, making the tinnitus less noticeable. Avoid total silence.",
+    "Safety: Use nightlights and remove trip hazards at home, as your balance in the dark relies heavily on your inner ear."
+  ],
+  "notes_for_actor": [
+    "Portray frustration during the initial VRT phase—the exercises make you feel sick.",
+    "Initially, you are very reliant on touching walls to walk.",
+    "Describe the tinnitus as a constant ringing that keeps you awake.",
+    "Show relief when the intense spinning (BPPV) stops, but lingering dissatisfaction with the 'foggy' dizziness until the VRT kicks in."
+  ]
+}

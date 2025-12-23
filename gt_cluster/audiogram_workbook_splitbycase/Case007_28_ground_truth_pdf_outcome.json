@@ -1,0 +1,98 @@
+{
+  "case_id": "Case007_28",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Eustachian Tube Dysfunction / Middle Ear Effusion",
+      "rationale_short": "Patient reports fullness and congestion coinciding with allergies; tympanometry shows negative pressure and hypocompliance; air-bone gap present in the right ear."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-Induced Hearing Loss",
+      "rationale_short": "History of racing car noise exposure; audiogram shows a 4000 Hz notch in the left ear."
+    },
+    {
+      "rank": 3,
+      "label": "Presbycusis",
+      "rationale_short": "Underlying bilateral high-frequency sensorineural hearing loss consistent with age (68 years)."
+    },
+    {
+      "rank": 4,
+      "label": "Retrocochlear Pathology",
+      "rationale_short": "Asymmetric sensorineural hearing loss warrants investigation to rule out retrocochlear etiology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition scores."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear status given the report of fullness and congestion."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc and aid in differentiating conductive vs. sensorineural vs. retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear demonstrates a slight to mild mixed hearing loss sloping to severe sensorineural loss, with a conductive component indicated by an air-bone gap, excessive negative middle ear pressure, and hypocompliance. The left ear shows normal hearing sloping to a mild sensorineural notch at 4000 Hz. Acoustic reflexes are absent in the right ear (consistent with conductive pathology) and present in the left ear.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Right ear: Slight to mild mixed loss (250-2000 Hz) sloping to severe SNHL (3000-8000 Hz). Left ear: Normal (250-3000 Hz) sloping to mild SNHL notch at 4000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRT: Right 32 dB, Left 8 dB. WRS: Right 86% (slight difficulty), Left 96% (normal)."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Right: Excessive negative pressure (-150 daPa) and hypocompliance (0.1 mL). Left: Normal (-30 daPa, 0.7 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Right ipsilateral/contralateral: Absent. Left ipsilateral: Present 500-2000 Hz, absent 4000 Hz. Left contralateral: Absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Prescription of allergy medication to address Eustachian tube dysfunction",
+      "Referral for ABR to rule out retrocochlear pathology after conductive component clears"
+    ],
+    "counseling_actions": [
+      "Explain the mixed nature of the hearing loss in the right ear",
+      "Discuss the relationship between seasonal allergies, Eustachian tube dysfunction, and ear fullness",
+      "Review the impact of noise exposure and the noise notch observed in the left ear",
+      "Recommend hearing protection to prevent further damage"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist",
+      "rationale_short": "For management of allergy-related Eustachian tube dysfunction and evaluation of asymmetric hearing loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After resolution of the conductive component",
+    "objective": "Conduct ABR testing to rule out retrocochlear pathology."
+  },
+  "expected_outcome": []
+}

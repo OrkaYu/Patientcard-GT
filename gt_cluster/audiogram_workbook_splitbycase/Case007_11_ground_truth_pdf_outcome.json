@@ -1,0 +1,89 @@
+{
+  "case_id": "Case007_11",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Serous Otitis Media (Left Ear)",
+      "rationale_short": "History of URI, barotrauma, and 'pop' on flight, supported by mixed hearing loss and Type B tympanogram."
+    },
+    {
+      "rank": 2,
+      "label": "Eustachian Tube Dysfunction",
+      "rationale_short": "Precipitating event (flight), negative pressure in the right ear, and fluid accumulation in the left ear."
+    },
+    {
+      "rank": 3,
+      "label": "Barotrauma",
+      "rationale_short": "Sudden onset of otalgia, pressure, and hearing loss during an airplane flight."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "soon",
+        "rationale_short": "To determine the degree, type, and configuration of hearing loss given the sudden onset."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "soon",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "soon",
+        "rationale_short": "To evaluate middle ear function and detect presence of fluid or negative pressure."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals a mixed hearing loss in the left ear with a flat tympanogram, consistent with serous otitis media following barotrauma. The right ear shows high-frequency sensorineural loss with a patent PE tube but excessive negative pressure.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "RE: Normal (250-2000 Hz) sloping to moderate loss (6-8 kHz). LE: Slight-to-moderate mixed loss (250-1000 Hz), rising to mild SNHL at 2000 Hz, sloping to moderate/severe mixed loss (3-8 kHz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "RE: SRT 17 dB, WRS 96%. LE: SRT 40 dB, WRS 96%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "RE: Large ear canal volume (3.3 mL) with excessive negative pressure (-325 daPa). LE: Flat (Type B) with normal volume (1.6 mL)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Prescription of Augmentin (antibiotic)",
+      "Autoinsufflation exercises",
+      "Potential PE tube placement if effusion does not resolve"
+    ],
+    "counseling_actions": [
+      "Explanation of 'airplane ear' (barotrauma) and serous otitis media",
+      "Instruction on how to perform autoinsufflation exercises",
+      "Discussion of the treatment plan involving antibiotics and potential surgical intervention"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset hearing loss"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Otologist",
+      "rationale_short": "Medical management is required for serous otitis media and barotrauma; patient is already under otologist care."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Following antibiotic course",
+    "objective": "Re-evaluate middle ear status and hearing thresholds to determine if PE tube placement is necessary."
+  },
+  "expected_outcome": []
+}

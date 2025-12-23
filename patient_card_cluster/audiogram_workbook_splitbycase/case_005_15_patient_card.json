@@ -1,0 +1,127 @@
+{
+  "case_id": "case_5_15",
+  "title": "Bilateral Tinnitus and Asymmetric Noise-Induced Hearing Loss in a Shooter",
+  "demographics": {
+    "age_years": 33,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I have a constant high-pitched ringing in both ears, but over the last 3 months, the ringing in my right ear has suddenly gotten louder with some pressure. I'm having trouble understanding speech in noisy places.",
+  "problem_summary": {
+    "onset": "Long-standing tinnitus and hearing loss; sudden exacerbation in the right ear 3 months ago.",
+    "course": "Chronic with acute change in the right ear.",
+    "laterality": "Bilateral, asymmetric (Right worse).",
+    "associated_symptoms": "Aural fullness/head pressure; constant high-pitched tinnitus (worse on right).",
+    "functional_impact": "Difficulty understanding speech in noise; no perceived difficulty in quiet.",
+    "goals_motivation": "Concerned about recent changes in tinnitus and pressure."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-05-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports constant bilateral tinnitus (steady, low-level, high-pitched). Sudden change in right ear tinnitus 3 months ago (louder, noticeable for short periods) accompanied by aural/head pressure. Right ear hearing perceived as poorer.",
+        "otologic_history": "No report of ear pathology.",
+        "noise_exposure_history": "Significant history of firearms use without protection as a child. Currently uses protection. Left-handed shooter (consistent with right ear asymmetry).",
+        "medical_psych_history": "No significant health incidences reported.",
+        "prior_management": "None reported.",
+        "patient_goals": "Evaluation of hearing and tinnitus changes."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.15"
+          ],
+          "key_findings": "Right ear: Slight SNHL 250-2000 Hz, steeply sloping to severe loss 3-8 kHz with a profound notch at 6 kHz. Left ear: Normal sensitivity 250-2000 Hz, steeply sloping to moderately-severe SNHL 3-8 kHz with a recovery at 6 kHz. Asymmetry consistent with acoustic shadow of head for a left-handed shooter.",
+          "numeric_results": {
+            "RE_PTA": "17 dB HL",
+            "LE_PTA": "12 dB HL",
+            "RE_6kHz_Threshold": "~95 dB HL",
+            "LE_4kHz_Threshold": "~60 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.15"
+          ],
+          "key_findings": "SRT consistent with PTA. Word recognition scores are excellent bilaterally in quiet.",
+          "numeric_results": {
+            "RE_SRT": "17 dB HL",
+            "LE_SRT": "12 dB HL",
+            "RE_WRS": "96%",
+            "LE_WRS": "92%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.15"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "RE_Vol": "1.60 mL",
+            "LE_Vol": "1.80 mL",
+            "RE_Peak_Pressure": "-15 daPa",
+            "LE_Peak_Pressure": "-20 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.15"
+          ],
+          "key_findings": "Normal ipsilateral and contralateral thresholds at 500-2000 Hz. Absent at 4000 Hz. Reflex decay negative at 500 and 1000 Hz.",
+          "numeric_results": {
+            "Reflex_Decay": "Negative"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with asymmetric high-frequency sensorineural hearing loss, significantly worse in the right ear, consistent with noise exposure from left-handed firearms use. Speech recognition in quiet is excellent bilaterally. Middle ear function is normal.",
+  "counseling_points": [
+    "Referral to ENT is necessary due to the sudden change in tinnitus, pressure, and asymmetric hearing loss to rule out retrocochlear pathology.",
+    "Your hearing loss pattern matches your history of shooting left-handed; the right ear is more exposed to the noise.",
+    "Strict use of custom hearing protection is critical to prevent further damage.",
+    "We will monitor your hearing annually.",
+    "We can discuss assistive listening devices or amplification once medical clearance is obtained."
+  ],
+  "notes_for_actor": [
+    "You are a 33-year-old male, likely comfortable with firearms.",
+    "You are specifically a left-handed shooter.",
+    "You are not struggling in quiet conversations, but noisy restaurants are difficult.",
+    "You are concerned about the sudden increase in ringing and pressure in your right ear."
+  ]
+}

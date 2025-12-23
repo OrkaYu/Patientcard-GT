@@ -1,0 +1,86 @@
+{
+  "case_id": "Case005_08",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Genetic/Hereditary Sensorineural Hearing Loss",
+      "rationale_short": "Bilateral symmetric 'cookie-bite' (mid-frequency) configuration and strong family history (mother and grandmother) are highly characteristic of genetic etiology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To define hearing thresholds and configuration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess retrocochlear pathway and confirm middle ear status."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates a bilateral, symmetric sensorineural hearing loss with a 'cookie-bite' configuration (mid-frequency loss), with thresholds returning to normal in the high frequencies. Speech recognition is excellent bilaterally. Tympanometry is normal in the right ear and hypocompliant (stiff) in the left ear. Acoustic reflexes are normal in the right ear but elevated or absent in the left ear, consistent with the observed middle ear stiffness.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal at 250 Hz, slight-to-mild SNHL 500-1500 Hz, normal 2000-8000 Hz (PTA 25 dB HL). Left ear: Slight-to-mild SNHL 250-1500 Hz, normal 2000-8000 Hz (PTA 32 dB HL). 'Cookie-bite' configuration."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 30 dB HL, Left 30 dB HL. WRS: Right 96% at 65 dB HL, Left 100% at 65 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right: Normal (Type A, 0.4 mL). Left: Hypocompliant (Type As, 0.2 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right: Normal ipsilateral and contralateral thresholds. Left: Elevated or absent thresholds (Ipsi normal only at 2k; Contra elevated 500-1k, absent 2k-4k). Decay negative where measurable."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Fit with bilateral receiver-in-the-canal (RIC) hearing aids"
+    ],
+    "counseling_actions": [
+      "Discuss genetic etiology given family history and audiometric configuration",
+      "Explain 'cookie-bite' hearing loss characteristics (good low/high pitch hearing, missing mid-pitch speech volume)"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "For medical evaluation and confirmation of genetic etiology."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Routine",
+    "objective": "Monitor hearing thresholds and hearing aid benefit."
+  },
+  "expected_outcome": [
+    "Patient was able to hear her students well with amplification."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "case_id": "Case007_01",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right Hemisphere Auditory Cortex Lesion (RMCA Stroke)",
+      "rationale_short": "History of RMCA stroke, left ear deficits on central tests (contralateral to lesion), and absent MLR over the right hemisphere."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Basic assessment of peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assessment of speech recognition ability."
+      },
+      {
+        "action": "Dichotic Rhyme test",
+        "urgency": "routine",
+        "rationale_short": "Central auditory test to assess interhemispheric transfer and cortical function."
+      },
+      {
+        "action": "Dichotic Digits test",
+        "urgency": "routine",
+        "rationale_short": "Central auditory test sensitive to cortical lesions."
+      },
+      {
+        "action": "Compressed Speech test",
+        "urgency": "routine",
+        "rationale_short": "Low-redundancy speech test to assess temporal processing."
+      },
+      {
+        "action": "Duration Patterns test",
+        "urgency": "routine",
+        "rationale_short": "Assessment of temporal patterning and sequencing."
+      },
+      {
+        "action": "Frequency Patterns test",
+        "urgency": "routine",
+        "rationale_short": "Assessment of frequency discrimination and patterning."
+      },
+      {
+        "action": "Auditory brainstem response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "Electrophysiologic assessment of brainstem integrity."
+      },
+      {
+        "action": "Middle latency response (MLR)",
+        "urgency": "routine",
+        "rationale_short": "Electrophysiologic assessment of thalamocortical pathways."
+      },
+      {
+        "action": "Late potentials (N1/P2)",
+        "urgency": "routine",
+        "rationale_short": "Cortical evoked potentials to assess auditory cortex function."
+      },
+      {
+        "action": "P300",
+        "urgency": "routine",
+        "rationale_short": "Event-related potential to assess cognitive auditory processing."
+      },
+      {
+        "action": "CT scan review",
+        "urgency": "routine",
+        "rationale_short": "Review of radiologic findings to confirm lesion site."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Peripheral hearing was essentially normal with excellent speech recognition. Central testing revealed significant deficits in the left ear (contralateral to the right hemisphere lesion) on dichotic and low-redundancy speech tasks. Electrophysiology showed an absent Middle Latency Response (MLR) over the right hemisphere (T4), consistent with the lesion. Interestingly, pattern perception tests were normal, likely preserved due to the patient's musical background.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Left ear thresholds 0-10 dB HL; Right ear 10-20 dB HL sloping to 30-35 dB HL at 4-8 kHz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word recognition scores were 100% bilaterally."
+          },
+          {
+            "name": "Dichotic Rhyme test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Significant deficit in the left ear (~30%)."
+          },
+          {
+            "name": "Dichotic Digits test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Deficit in the left ear (~65%)."
+          },
+          {
+            "name": "Compressed Speech test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Deficit in the left ear (~45%)."
+          },
+          {
+            "name": "Duration Patterns test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Normal bilaterally."
+          },
+          {
+            "name": "Frequency Patterns test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Normal bilaterally."
+          },
+          {
+            "name": "Auditory brainstem response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Normal bilaterally."
+          },
+          {
+            "name": "Middle latency response (MLR)",
+            "category": "Electrophysiology",
+            "result_summary": "Absent/poor responses at T4 (right/lesion side); normal responses at T3."
+          },
+          {
+            "name": "Late potentials (N1/P2)",
+            "category": "Electrophysiology",
+            "result_summary": "Smaller amplitudes for right hemisphere (C4) recordings and left ear stimulation; extended latencies."
+          },
+          {
+            "name": "P300",
+            "category": "Electrophysiology",
+            "result_summary": "Latencies grossly within accepted range."
+          },
+          {
+            "name": "CT scan review",
+            "category": "Imaging",
+            "result_summary": "Large area of encephalomalacia in right frontal, temporal, and parietal lobes consistent with RMCA stroke."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Strategies for improving listening in noise"
+    ],
+    "counseling_actions": [
+      "Explain that the subjective 'hearing loss' in the left ear is due to the right hemisphere brain lesion affecting processing from the contralateral ear, not a peripheral ear problem.",
+      "Discuss amusia (difficulty with music) as a direct result of the right hemisphere injury, which specializes in melody and spectral processing.",
+      "Highlight the preserved ability to process duration and frequency patterns as a strength, likely related to prior musical expertise.",
+      "Validate the patient's difficulty in noise as a central processing issue."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Neurology",
+      "rationale_short": "Patient is a stable research case with established stroke sequelae."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor functional auditory status."
+  },
+  "expected_outcome": [
+    "Subjective left ear hearing difficulty attributed to central lesion affecting contralateral perception.",
+    "Amusia and inability to sing consistent with right hemisphere lesion.",
+    "Preserved pattern perception attributed to prior musical expertise/plasticity.",
+    "Normal P300 attributed to preserved cognitive sharpness despite large lesion."
+  ]
+}

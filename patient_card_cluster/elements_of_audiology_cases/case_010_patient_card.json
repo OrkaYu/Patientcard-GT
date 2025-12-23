@@ -1,0 +1,165 @@
+{
+  "case_id": "elements_case_10",
+  "title": "Elderly Male with Progressive Hearing Loss and History of Unsuccessful Hearing Aid Use",
+  "demographics": {
+    "age_years": 82,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "The patient's daughter-in-law reports that 'he does not pay attention.' The patient claims people do not speak clearly and that he understands better when they speak slowly.",
+  "problem_summary": {
+    "onset": "Gradual onset over the past 15 years.",
+    "course": "Progressive.",
+    "laterality": "Bilateral.",
+    "associated_symptoms": "Difficulty listening in groups.",
+    "functional_impact": "Social withdrawal; has ceased attending church, parties, and the theater.",
+    "goals_motivation": "Reluctant patient; previous hearing aids were 'useless' to him; no desire to purchase new ones."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "82-year-old male with a 15-year history of gradually progressive hearing loss. He reports fluctuation in hearing ability. He finds listening in groups difficult.",
+        "otologic_history": "None specified other than progressive loss.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "None reported.",
+        "prior_management": "Has tried several hearing aids in the past which were deemed useless; currently reluctant to try again.",
+        "patient_goals": "Patient is reluctant and brought in by family; he specifically compliments the audiologist for being easier to understand than most people."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Bilateral sloping sensorineural hearing loss. Thresholds are symmetrical. No air-bone gaps observed.",
+          "numeric_results": {
+            "Right_250Hz": "~15 dB HL",
+            "Right_500Hz": "~25 dB HL",
+            "Right_1000Hz": "~45 dB HL",
+            "Right_2000Hz": "~55 dB HL",
+            "Right_4000Hz": "~65 dB HL",
+            "Right_8000Hz": "~80 dB HL",
+            "Left_250Hz": "~10 dB HL",
+            "Left_500Hz": "~20 dB HL",
+            "Left_1000Hz": "~40 dB HL",
+            "Left_2000Hz": "~50 dB HL",
+            "Left_4000Hz": "~60 dB HL",
+            "Left_8000Hz": "~65 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "SRT is consistent with pure-tone averages (slightly poorer). Word recognition scores (SRS) are poor to fair, suggesting phonemic regression.",
+          "numeric_results": {
+            "SRT_Right": "50 dB HL",
+            "SRT_Left": "45 dB HL",
+            "SRS_Right": "62%",
+            "SRS_Left": "58%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table",
+            "Tympanogram Graph"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Static_Compliance_Right": "0.92 cc",
+            "Static_Compliance_Left": "0.65 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Reflexes present at expected levels for cochlear loss.",
+          "numeric_results": {
+            "ART_1000Hz_Ipsi_Right": "95 dB HL",
+            "ART_1000Hz_Ipsi_Left": "95 dB HL",
+            "ART_2000Hz_Contra_Right": "90 dB HL",
+            "ART_2000Hz_Contra_Left": "100 dB HL"
+          }
+        },
+        {
+          "name": "ABR",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "All waves normal at high sensation levels (SLs); interpeak latencies normal; latency-intensity function is steep (consistent with cochlear recruitment).",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "TEOAE: Absent. Tone-decay test: Minimal decay (negative for retrocochlear pathology).",
+          "numeric_results": {
+            "Tone_Decay_Right": "10 dB in 60 seconds",
+            "Tone_Decay_Left": "15 dB in 60 seconds"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral, symmetrical, sloping sensorineural hearing loss consistent with presbycusis. Speech recognition scores are disproportionately poor (62% AD, 58% AS) relative to the pure-tone thresholds, indicative of phonemic regression. Immittance, ABR, and tone-decay results rule out conductive or retrocochlear pathology, confirming a cochlear site of lesion.",
+  "counseling_points": [
+    "Acknowledge your frustration with previous hearing aids; technology and fitting strategies have improved.",
+    "Your hearing loss involves both volume and clarity (phonemic regression), which explains why hearing aids alone didn't solve the problem previously.",
+    "We recommend a trial period with amplification, but success will require auditory rehabilitation and coping strategies, not just the device.",
+    "Assistive listening devices (like TV ears or a personal FM system) may help in specific difficult situations where hearing aids struggle.",
+    "Family involvement is crucial; we need to teach your family how to speak to you so you can understand them better (slower, facing you)."
+  ],
+  "notes_for_actor": [
+    "Portray reluctance and skepticism regarding hearing aids.",
+    "Be defensive about your attention span ('I pay attention just fine, people just mumble').",
+    "Compliment the audiologist on speaking clearly compared to others.",
+    "Show signs of social withdrawal/resignation ('I just don't go to parties anymore')."
+  ]
+}

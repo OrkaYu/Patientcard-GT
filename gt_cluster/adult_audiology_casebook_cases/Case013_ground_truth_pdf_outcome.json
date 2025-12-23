@@ -1,0 +1,191 @@
+{
+  "case_id": "Case013",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Hidden Hearing Loss (Cochlear Synaptopathy)",
+      "rationale_short": "Supported by normal standard audiogram but difficulty in noise, reduced ABR Wave I amplitude, elevated ECochG SP/AP ratio, and extended high-frequency hearing loss."
+    },
+    {
+      "rank": 2,
+      "label": "(Central) Auditory Processing Disorder",
+      "rationale_short": "Considered due to speech-in-noise difficulties, but ruled out as most behavioral APD tests (dichotic, temporal processing) were normal."
+    },
+    {
+      "rank": 3,
+      "label": "Meniere's Disease",
+      "rationale_short": "Elevated SP/AP ratio is consistent with endolymphatic hydrops, but patient lacks vertigo or fluctuating low-frequency hearing loss."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Baseline assessment of hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech understanding in quiet and loudness tolerance."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess retrocochlear pathway integrity."
+      },
+      {
+        "action": "Otoacoustic Emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "Assess outer hair cell function."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "Evaluate neural integrity given reflex abnormalities."
+      },
+      {
+        "action": "SCAN-3:A (APD Screening)",
+        "urgency": "routine",
+        "rationale_short": "Screen for auditory processing deficits."
+      },
+      {
+        "action": "Speech-in-noise (QuickSIN)",
+        "urgency": "routine",
+        "rationale_short": "Quantify difficulty hearing in noise."
+      },
+      {
+        "action": "Masking Level Difference (MLD)",
+        "urgency": "routine",
+        "rationale_short": "Assess binaural interaction at the brainstem level."
+      },
+      {
+        "action": "Random Gap Detection Test (RGDT)",
+        "urgency": "routine",
+        "rationale_short": "Assess temporal processing abilities."
+      },
+      {
+        "action": "Extended High-Frequency Audiometry",
+        "urgency": "routine",
+        "rationale_short": "Investigate cochlear damage beyond standard frequencies."
+      },
+      {
+        "action": "Electrocochleography (ECochG)",
+        "urgency": "routine",
+        "rationale_short": "Investigate cochlear potentials and SP/AP ratio for synaptopathy."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Standard audiometry revealed normal hearing sensitivity and excellent speech recognition in quiet, but acoustic reflexes were abnormal (elevated or absent). ABR showed reduced Wave I amplitudes and slightly elevated Wave V thresholds despite normal MRI/CT (ordered by neuro-otology). DPOAEs were intact, suggesting normal outer hair cell function.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Normal limits bilaterally; PTA 5 dB HL (Left) and 10 dB HL (Right)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "WRS excellent (98% L, 90% R); LDLs high (105 dB HL L, 100 dB HL R)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Abnormal; ipsilateral present only at 500/1000 Hz (100 dB HL), absent at high frequencies; contralateral absent."
+          },
+          {
+            "name": "Otoacoustic Emissions (DPOAEs)",
+            "category": "Physiological",
+            "result_summary": "Present bilaterally."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Wave V present but thresholds slightly elevated (40-50 dB nHL); Wave I amplitudes reduced."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Specialized testing confirmed significant deficits in speech-in-noise (QuickSIN) and auditory figure-ground, alongside moderate extended high-frequency hearing loss. ECochG revealed abnormally large SP/AP ratios. Other APD tests (MLD, RGDT, dichotic) were normal, supporting a diagnosis of Hidden Hearing Loss rather than generalized APD.",
+        "tests": [
+          {
+            "name": "SCAN-3:A (APD Screening)",
+            "category": "Behavioral",
+            "result_summary": "Gap detection and Competing Words normal; Auditory Figure-Ground (0 dB SNR) abnormal."
+          },
+          {
+            "name": "Speech-in-noise (QuickSIN)",
+            "category": "Behavioral",
+            "result_summary": "Significant SNR loss: 15.5 dB (Left) and 14.5 dB (Right)."
+          },
+          {
+            "name": "Masking Level Difference (MLD)",
+            "category": "Behavioral",
+            "result_summary": "Normal binaural release from masking (9 dB at 500 Hz, 8 dB at 1000 Hz)."
+          },
+          {
+            "name": "Random Gap Detection Test (RGDT)",
+            "category": "Behavioral",
+            "result_summary": "Normal temporal processing (threshold 5 ms)."
+          },
+          {
+            "name": "Extended High-Frequency Audiometry",
+            "category": "Behavioral",
+            "result_summary": "Moderate hearing loss at 12-16 kHz; thresholds 40-55 dB HL."
+          },
+          {
+            "name": "Electrocochleography (ECochG)",
+            "category": "Electrophysiology",
+            "result_summary": "Abnormally large SP/AP amplitude ratios: 0.48 (Left) and 0.53 (Right)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Use of hearing protection (earplugs) in noisy environments like concerts",
+      "Monitoring volume of personal listening devices (PLDs)",
+      "Use of Frequency Modulation (FM) system in classroom",
+      "Preferential seating",
+      "Auditory training sessions",
+      "Periodic hearing assessment"
+    ],
+    "counseling_actions": [
+      "Counseling on the nature of Hidden Hearing Loss and cochlear synaptopathy",
+      "Education on noise-induced damage and conservation",
+      "Self-advocacy strategies for difficult listening situations",
+      "Informational counseling regarding tinnitus"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Audiology",
+      "rationale_short": "Patient was already cleared by neuro-otology (normal MRI/CT); ongoing management is audiologic."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "3 months",
+    "objective": "Monitor conventional and extended high-frequency thresholds and assess benefit of management strategies."
+  },
+  "expected_outcome": [
+    "Conventional and Extended High-Frequency Audiometry (3-month follow-up): No changes in thresholds compared to baseline.",
+    "Patient reported significant improvement in speech understanding in noisy environments following management strategies and auditory training.",
+    "Patient successfully uses an FM device and self-advocacy strategies at school."
+  ]
+}

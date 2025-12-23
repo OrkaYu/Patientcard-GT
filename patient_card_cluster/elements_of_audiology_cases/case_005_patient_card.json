@@ -1,0 +1,149 @@
+{
+  "case_id": "elements_case_05",
+  "title": "42-Year-Old Hunter with Noise-Induced Hearing Loss",
+  "demographics": {
+    "age_years": 42,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a high-pitched ringing in my ears that gets louder and lasts longer after I've been around loud noise. Speech often sounds muffled, and I have trouble hearing in groups or background noise.",
+  "problem_summary": {
+    "onset": "Gradual, with recent worsening of tinnitus duration.",
+    "course": "Progressive; tinnitus is becoming more prolonged after exposure.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "High-pitched tinnitus, muffled speech perception.",
+    "functional_impact": "Difficulty hearing in groups and background noise.",
+    "goals_motivation": "Diagnosis and substantiation of the hearing problem."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports high-pitched tinnitus that is exacerbated by noise exposure. He feels speech is muffled and struggles in noise.",
+        "otologic_history": "No history of ear infections.",
+        "noise_exposure_history": "Significant recreational noise exposure: fond of deer and duck hunting; enjoys listening to rock music under earphones.",
+        "medical_psych_history": "Right-handed.",
+        "prior_management": "None reported.",
+        "patient_goals": "Determine cause of hearing difficulties and tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Frequency in Hertz Graph"
+          ],
+          "key_findings": "Bilateral high-frequency sensorineural hearing loss characterized by a distinct acoustic trauma notch at 4000 Hz. The notch is deeper in the left ear. Hearing is within normal limits at 250-2000 Hz and recovers at 8000 Hz.",
+          "numeric_results": {
+            "Right_4000Hz": "~35 dB HL",
+            "Left_4000Hz": "~60 dB HL",
+            "Right_2000Hz": "5 dB HL",
+            "Left_2000Hz": "10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech Reception Thresholds (SRT) are consistent with the pure-tone average of the better frequencies. Word recognition scores (SRS) are excellent bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "15 dB HL",
+            "SRT_Left": "25 dB HL",
+            "SRS_Right": "100%",
+            "SRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanogram"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally, indicating normal middle ear function.",
+          "numeric_results": {
+            "Static_Compliance_Right": "0.52 cc",
+            "Static_Compliance_Left": "0.70 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Reflexes present but at elevated levels, consistent with cochlear recruitment.",
+          "numeric_results": {
+            "ART_1000Hz_Ipsi_Right": "85 dB HL",
+            "ART_1000Hz_Ipsi_Left": "90 dB HL",
+            "ART_Contra_Right": "95 dB HL",
+            "ART_Contra_Left": "90 dB HL"
+          }
+        },
+        {
+          "name": "ABR",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "All waves prolonged; interpeak latencies normal; latency-intensity function steep. Results suggest cochlear pathology rather than retrocochlear.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "TEOAEs are absent bilaterally. Tone decay test at 4000 Hz showed minimal decay (negative for retrocochlear pathology).",
+          "numeric_results": {
+            "TEOAE": "Absent",
+            "Tone_Decay_4000Hz": "5 dB decay in 60 seconds"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The evaluation reveals a bilateral sensorineural hearing loss with a prominent 'notch' configuration at 4000 Hz, consistent with noise-induced cochlear damage. The loss is asymmetric, with the left ear showing a significantly greater threshold shift at 4000 Hz, which is typical for a right-handed shooter. Middle ear function is normal, and retrocochlear tests (ABR, Tone Decay) are negative. Speech recognition remains excellent in quiet.",
+  "counseling_points": [
+    "Your hearing loss pattern is classic for noise exposure (acoustic trauma), specifically the 'notch' at 4000 Hz.",
+    "The left ear is worse likely due to the 'acoustic shadow' effect from shooting a rifle from your right shoulder.",
+    "It is critical to minimize future noise exposure to prevent the loss from spreading to speech frequencies.",
+    "Use hearing protection (such as special impact-noise plugs or foam plugs) whenever hunting or shooting.",
+    "Lower the volume when listening to music and prefer loudspeakers over earphones to reduce direct pressure on the ears.",
+    "We should re-evaluate your hearing in six months to monitor for any progression."
+  ],
+  "notes_for_actor": [
+    "You are an outdoorsman who loves hunting and rock music.",
+    "You might be slightly defensive about your hobbies but are concerned about the ringing in your ears.",
+    "You have noticed the ringing takes longer to go away than it used to.",
+    "You have a family history of hearing loss (sisters) and might wonder if it's genetic, though the audiologist will explain yours is likely noise-related."
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "case_id": "case19_Nonorganic_Hearing_Loss_A_Case_Study",
+  "title": "Nonorganic Hearing Loss: A Case Study",
+  "demographics": {
+    "age_years": 45,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have pain, a feeling of fullness, and I can't hear well out of my left ear. It started after I had a cold last month.",
+  "problem_summary": {
+    "onset": "Sudden onset in May 2016 following an upper respiratory infection.",
+    "course": "Patient reported infection, treated with antibiotics. Symptoms persisted leading to referral.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Otalgia, aural fullness, tenderness in the left external auditory canal.",
+    "functional_impact": "Reported decrease in hearing sensitivity.",
+    "goals_motivation": "Seeking treatment; previously elected for intratympanic steroid injection."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-06-14",
+      "setting": "Outside Clinic",
+      "history": {
+        "present_illness": "Patient reported infection in left ear following URI. Treated with antibiotics. Referred to ENT/Audiology.",
+        "otologic_history": "Unremarkable physical exam aside from tenderness in left EAC.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Treated with antibiotics by PCP.",
+        "patient_goals": "Evaluation of hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 19.1"
+          ],
+          "key_findings": "Mild flat SNHL in the right ear. Flat severe mixed hearing loss in the left ear. Significant interaural asymmetry.",
+          "numeric_results": {
+            "Right_Ear_Configuration": "Mild flat SNHL",
+            "Left_Ear_Configuration": "Severe mixed flat loss",
+            "Right_PTA": "Consistent with SRT (approx 30 dB HL)",
+            "Left_PTA": "Consistent with SRT (approx 80 dB HL)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 19.1"
+          ],
+          "key_findings": "SRTs consistent with PTA bilaterally. WRS normal in right ear, moderate difficulty in left ear.",
+          "numeric_results": {
+            "SRT_Right": "30 dB HL",
+            "SRT_Left": "80 dB HL",
+            "WRS_Right": "100% at 70 dB HL",
+            "WRS_Left": "72% at 105 dB HL (masked)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 19.1"
+          ],
+          "key_findings": "Normal middle ear pressure, ear canal volume, and compliance bilaterally.",
+          "numeric_results": {
+            "Type": "Type A bilaterally",
+            "Right_Static_Admittance": "0.79",
+            "Left_Static_Admittance": "1.07"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2016-06-22",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 2 weeks after Intratympanic (IT) steroid injection to determine impact on hearing.",
+        "otologic_history": "Previous diagnosis of SSNHL.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Received IT steroid injection.",
+        "patient_goals": "Re-evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up (Initial Attempt)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 19.2"
+          ],
+          "key_findings": "Poor reliability; patient demonstrated difficulty responding consistently. Ascending approach used. Unmasked bone conduction on left mastoid was significantly poorer than right (physiologically impossible due to 0dB interaural attenuation), suggesting nonorganic loss.",
+          "numeric_results": {
+            "Right_PTA": "33 dB HL",
+            "Left_PTA": "68 dB HL",
+            "Right_Configuration": "Slight to mild flat SNHL",
+            "Left_Configuration": "Flat moderately severe SNHL"
+          }
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up (Re-instruction)",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 19.3"
+          ],
+          "key_findings": "After re-instruction, AC thresholds improved, but SRT and PTA were no longer in agreement.",
+          "numeric_results": {
+            "Left_PTA": "51 dB HL",
+            "Left_SRT": "40 dB HL",
+            "Agreement_Gap": "11 dB (Poor agreement)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 19.2",
+            "Figure 19.3"
+          ],
+          "key_findings": "Initial SRTs agreed with PTAs. Repeat testing showed SRT/PTA mismatch in left ear. WRS showed slight difficulty in left ear.",
+          "numeric_results": {
+            "Initial_SRT_Right": "35 dB HL",
+            "Initial_SRT_Left": "75 dB HL",
+            "Repeat_SRT_Left": "40 dB HL",
+            "WRS_Left": "88% at 105 dB HL (Figure 19.2 table)"
+          }
+        },
+        {
+          "name": "Stenger Test",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Positive pure-tone Stenger obtained at 250 to 8,000 Hz. Suggestive of nonorganic hearing loss.",
+          "numeric_results": null
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAE)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Present and robust at 1,600 to 6,300 Hz. Reduced or absent at 7,100 to 8,000 Hz. Suggestive of normal or near-normal hearing bilaterally, contradicting the behavioral audiogram.",
+          "numeric_results": {
+            "Range_Present": "1600-6300 Hz"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with inconsistent audiometric findings suggestive of nonorganic hearing loss (pseudohypacusis). While initial behavioral thresholds indicated a severe mixed loss in the left ear, follow-up testing revealed poor reliability, a significant mismatch between SRT and PTA (11 dB difference), and a positive Stenger test. Crucially, objective DPOAE testing revealed robust emissions in the speech frequencies, indicating normal cochlear function, and unmasked bone conduction testing showed a lack of cross-hearing that is physiologically impossible.",
+  "counseling_points": [
+    "The results of our objective tests, specifically the otoacoustic emissions, are very encouraging.",
+    "These tests measure the response of the inner ear hair cells directly and show that the inner ear is working well in the speech range.",
+    "Because the inner ear is functioning normally, the hearing loss you are experiencing does not appear to be caused by permanent damage to the ear organ itself.",
+    "We see inconsistencies in the behavioral tests today, which can happen due to strain or fatigue, but the objective measures give us confidence that your hearing sensitivity is better than the button-pushing test suggests."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is vague about symptoms but insists on hearing difficulty.",
+    "During the pure-tone test, be inconsistent with your button pressing. Wait for tones to be quite loud before responding.",
+    "If the audiologist performs a Stenger test (playing a soft sound in your 'good' ear and a louder sound in your 'bad' ear simultaneously), do NOT respond at all. This mimics the 'positive Stenger' sign of nonorganic loss.",
+    "You may show mild confusion when re-instructed but do not become hostile."
+  ]
+}

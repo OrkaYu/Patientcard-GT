@@ -1,0 +1,158 @@
+{
+  "case_id": "elements_case_11",
+  "title": "Sudden Hearing Loss Following Automobile Accident",
+  "demographics": {
+    "age_years": 39,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have sudden hearing loss after my car was rear-ended. I also have dizziness, headaches, nausea, and blackout spells. I need a written report of your findings for my records.",
+  "problem_summary": {
+    "onset": "Sudden, following a recent automobile accident.",
+    "course": "Acute.",
+    "laterality": "Bilateral (based on testing presentation).",
+    "associated_symptoms": "Dizziness, severe bitemporal headaches, nausea, blackout spells; tinnitus (only reported upon direct questioning).",
+    "functional_impact": "Patient claims hearing loss and multiple somatic symptoms.",
+    "goals_motivation": "Explicitly requests a written report for her records (potential legal/insurance motivation)."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "39-year-old female complaining of sudden hearing loss after her car was struck from the rear. She reports multiple neurological/somatic symptoms (dizziness, headaches, nausea, blackouts).",
+        "otologic_history": "No reported history of hearing loss or ear infections prior to the accident.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Denies other symptoms prior to accident.",
+        "prior_management": "None reported.",
+        "patient_goals": "Obtain a written report for records."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph (Page 2)"
+          ],
+          "key_findings": "Flat configuration moderate-to-severe hearing loss presented behaviorally. Air and bone conduction thresholds are interwoven.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "Flat configuration approx 50-60 dB HL",
+            "Left_Ear_Thresholds": "Flat configuration approx 50-60 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "SRT is significantly better (lower) than the pure-tone average, indicating poor test reliability/validity. Word recognition scores are good.",
+          "numeric_results": {
+            "SRT_Right": "30 dB HL",
+            "SRT_Left": "35 dB HL",
+            "SRS_Right": "86%",
+            "SRS_Left": "80%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanogram Graph",
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Static_Compliance_Right": "0.70 cc",
+            "Static_Compliance_Left": "0.73 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Reflexes present at normal levels, which is inconsistent with the degree of hearing loss presented on the audiogram.",
+          "numeric_results": {
+            "ART_1000Hz_Ipsi_Right": "85 dB HL",
+            "ART_1000Hz_Ipsi_Left": "85 dB HL",
+            "ART_Contra_Right": "80 dB HL",
+            "ART_Contra_Left": "85 dB HL"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "All waves normal with normal interpeak latencies. Wave V thresholds indicate normal physiological hearing sensitivity.",
+          "numeric_results": {
+            "Wave_V_Threshold_Right": "15 dB nHL",
+            "Wave_V_Threshold_Left": "20 dB nHL"
+          }
+        },
+        {
+          "name": "TEOAE",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Transient Evoked Otoacoustic Emissions are present bilaterally, indicating normal outer hair cell function.",
+          "numeric_results": {
+            "Result": "Present bilaterally"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with behavioral pure-tone thresholds suggesting moderate-to-severe flat hearing loss (50-60 dB HL). However, there are significant inconsistencies indicating nonorganic hearing loss. The Speech Reception Thresholds (30/35 dB HL) are much better than the Pure Tone Averages. Furthermore, objective measures including normal acoustic reflexes, present TEOAEs, and ABR Wave V thresholds within normal limits (15/20 dB nHL) confirm normal physiological hearing sensitivity bilaterally.",
+  "counseling_points": [
+    "Inform the patient that the objective tests (ABR and OAEs) show the hearing nerve and inner ear are functioning normally.",
+    "Gently mention the discrepancy between the tone tests and the speech tests (e.g., 'You were able to hear speech at much softer levels than the tones').",
+    "Avoid accusatory language; accept responsibility for potential 'misunderstanding' of instructions to allow the patient a graceful way to improve behavioral responses.",
+    "If time permits, re-instruct and re-test behavioral thresholds.",
+    "Provide a report stating that inconsistencies preclude a definitive behavioral diagnosis, but objective tests suggest normal function."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is guarded and potentially motivated by a lawsuit (hence the request for a written report).",
+    "Do not volunteer symptoms like tinnitus unless specifically asked.",
+    "During pure-tone testing, simulate a hearing loss by waiting for tones to be loud (50-60 dB) before responding.",
+    "If the audiologist confronts you aggressively, become defensive. If they are gentle and blame the equipment or instructions, you may 'improve' your responses."
+  ]
+}

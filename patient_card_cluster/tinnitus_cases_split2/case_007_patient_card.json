@@ -1,0 +1,215 @@
+{
+  "case_id": "Case07_Tinnitus_in_a_Case_of_Meniere",
+  "title": "Tinnitus in a Case of Meniere’s Disease",
+  "demographics": {
+    "age_years": 56,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have a constant ringing in my right ear and I've had terrible dizziness and hearing loss that started after my weight loss surgery. The noise is unbearable, and I feel helpless; I just want a cure.",
+  "problem_summary": {
+    "onset": "Sudden hearing loss, vertigo, and tinnitus occurred following significant weight loss after lap band surgery.",
+    "course": "One year later, diagnosed with Meniere's disease (MD). Vestibular symptoms burned out, but right ear hearing worsened and tinnitus became severe, leading to suicidal ideation and psychiatric admission.",
+    "laterality": "Bilateral hearing loss, worse in the right ear.",
+    "associated_symptoms": "Vertigo with emesis (resolved), severe depression, suicidal ideation.",
+    "functional_impact": "Severe tinnitus distress (THI 76-72, TFI 88-80), difficulty hearing, significant psychological impact requiring hospitalization.",
+    "goals_motivation": "Looking forward to a 'cure' and relief from the constant tinnitus."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "First presentation with right ear tonal tinnitus, vertigo with emesis, and sudden hearing loss attributed to weight loss.",
+        "noise_exposure_history": "Significant factory and motorcycle noise exposure.",
+        "medical_psych_history": "Post-lap band surgery weight loss.",
+        "prior_management": "None listed prior to this visit.",
+        "patient_goals": "Assessment of hearing and tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.1"
+          ],
+          "key_findings": "Mild-to-moderate sensorineural hearing loss (SNHL) with asymmetrically worse hearing in the right ear.",
+          "numeric_results": {
+            "Right_Ear_Configuration": "Sloping mild to moderate SNHL",
+            "Left_Ear_Configuration": "Within normal limits to mild loss"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.2"
+          ],
+          "key_findings": "Speech results consistent with audiogram; no reported difficulty in noise.",
+          "numeric_results": {
+            "Right_SRT": "30 dB HL",
+            "Left_SRT": "15 dB HL",
+            "Right_WRS": "100% at high level (red text cut off), 70% at 50 dB",
+            "Left_WRS": "92% at high level, 55% at 35 dB"
+          }
+        },
+        {
+          "name": "Tinnitus Assessment",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.3"
+          ],
+          "key_findings": "Tinnitus pitch-matched to 6.5 kHz. Complete maskability.",
+          "numeric_results": {
+            "Pitch_Match": "6500 Hz",
+            "Loudness_Match": "12 dB SL",
+            "Residual_Inhibition": "8 s",
+            "THI_Score": "32 (Mild)"
+          }
+        },
+        {
+          "name": "Immittance",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.4"
+          ],
+          "key_findings": "Normal tympanometry but absent acoustic reflexes bilaterally.",
+          "numeric_results": {
+            "Tympanometry": "Type A bilateral",
+            "Acoustic_Reflexes": "Absent (bilateral, ipsi and contra)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Returned 1 year later. Diagnosed with Meniere's Disease (MD). Vestibular symptoms burned out. Tinnitus became severe.",
+        "medical_psych_history": "Admitted to hospital for psychiatric monitoring due to suicidal ideation. Depression screening (Beck) initially 10, improved to 3 (normal) after 1 month.",
+        "prior_management": "Referred to ENT (diagnosed MD via eCochG). Psychiatric admission. Progressive muscle relaxation (PMR) instruction.",
+        "patient_goals": "Desperate for relief; looking for a cure."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.6"
+          ],
+          "key_findings": "Right ear progressed to flat, moderately severe SNHL. Left ear shows moderate low-frequency loss rising to normal (reverse slope).",
+          "numeric_results": {
+            "Right_Thresholds": "Flat approx 65-70 dB HL",
+            "Left_Thresholds": "Rising from approx 45 dB HL (lows) to 10 dB HL (highs)",
+            "UCLs": "100-110 dB HL (bilateral)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.6"
+          ],
+          "key_findings": "Significant asymmetry in speech understanding.",
+          "numeric_results": {
+            "Right_SRT": "65 dB HL",
+            "Left_SRT": "25 dB HL",
+            "Right_WRS": "52% at 95 dB HL",
+            "Left_WRS": "90% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tinnitus Assessment",
+          "timepoint_label": "Follow-up",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.8"
+          ],
+          "key_findings": "Pitch match increased to 9 kHz. Positive residual inhibition observed.",
+          "numeric_results": {
+            "Pitch_Match": "9000 Hz",
+            "Loudness_Match": "14 dB SL",
+            "MML": "14 dB SL (34 dB HL)",
+            "Residual_Inhibition": "12 s",
+            "THI_Score": "72 (Severe)",
+            "TFI_Score": "80 (Severe)"
+          }
+        },
+        {
+          "name": "Immittance",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.7"
+          ],
+          "key_findings": "Normal tympanometry, absent reflexes confirmed.",
+          "numeric_results": {
+            "Tympanometry": "Type A bilateral",
+            "Acoustic_Reflexes": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with Meniere's Disease characterized by a progression from asymmetric high-frequency loss to a flat, moderately severe SNHL in the right ear and a low-frequency rising configuration in the left ear. Speech recognition is significantly degraded in the right ear (52%) compared to the left (90%). Tinnitus is high-pitched (9 kHz), tonal, and reactive to masking (positive residual inhibition), causing severe distress and psychological impact.",
+  "counseling_points": [
+    "Your hearing loss pattern and history are consistent with Meniere's Disease, which also explains the changes in your hearing levels over the last year.",
+    "The high-pitched ringing you hear is likely related to the hearing loss in the high frequencies, potentially exacerbated by your history of noise exposure.",
+    "Although the ringing is severe, testing shows that sound therapy (masking) can provide temporary relief (residual inhibition), suggesting you are a good candidate for combination hearing aids/maskers.",
+    "We will work closely with your mental health providers to ensure you are supported while we manage the hearing and tinnitus symptoms."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is exhausted and highly anxious about the noise in their head.",
+    "You should mention the past suicidal thoughts seriously but indicate you are currently 'safe' though still desperate for a solution.",
+    "Emphasize that the dizziness has stopped (burned out), but the ringing has taken its place as the primary torture."
+  ]
+}

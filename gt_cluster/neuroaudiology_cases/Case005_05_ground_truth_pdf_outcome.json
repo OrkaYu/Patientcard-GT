@@ -1,0 +1,126 @@
+{
+  "case_id": "Case005_05",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Hypothalamic/Thalamic Tumor (Glioblastoma Multiforme)",
+      "rationale_short": "Confirmed by surgery and pathology; explains the central auditory deficits (ABR, MLR, behavioral) and progressive neurological symptoms."
+    },
+    {
+      "rank": 2,
+      "label": "Multiple Sclerosis",
+      "rationale_short": "Considered for several years due to motor instability and weakness, but ruled out by the discovery of the tumor."
+    },
+    {
+      "rank": 3,
+      "label": "Presbycusis",
+      "rationale_short": "Likely accounts for the bilateral symmetrical sensorineural hearing loss but does not explain the central processing deficits or neurological decline."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "soon",
+        "rationale_short": "Assess hearing sensitivity given complaints of difficulty hearing conversations."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "soon",
+        "rationale_short": "Evaluate speech recognition abilities."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "soon",
+        "rationale_short": "Assess integrity of the reflex arc to screen for retrocochlear pathology."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "Evaluate neural integrity of the auditory brainstem pathways."
+      },
+      {
+        "action": "Auditory Middle Latency Response (MLR)",
+        "urgency": "soon",
+        "rationale_short": "Assess the thalamocortical auditory pathways."
+      },
+      {
+        "action": "Behavioral Central Auditory Tests",
+        "urgency": "soon",
+        "rationale_short": "Assess central auditory processing skills including dichotic listening and temporal processing."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient demonstrates a moderate-to-severe bilateral symmetrical sensorineural hearing loss with excellent speech recognition, likely presbycusic. However, retrocochlear testing reveals significant central pathology consistent with a lesion affecting the upper brainstem and thalamus. ABR shows absent waves IV-V on the left, MLR is absent or poor on the left, and behavioral central tests show significant left-sided deficits (dichotic digits, competing sentences) and bilateral temporal processing issues.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Moderate to severe bilaterally symmetrical sensorineural hearing loss, sloping from mild in low frequencies to severe in high frequencies."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent speech recognition scores bilaterally (RE 92%, LE 96%)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Present at normal levels (reduced sensation levels at mid and high frequencies) bilaterally for 500-4000 Hz."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear normal (Waves I, II, III present). Left ear: Normal waves I and II; Wave III delayed; Absence of IV-V complex."
+          },
+          {
+            "name": "Auditory Middle Latency Response (MLR)",
+            "category": "Electrophysiology",
+            "result_summary": "Noisy/poor responses. T3 (left temporal) showed no repeatable response. T4 (right temporal) showed response to right ear stimulation only."
+          },
+          {
+            "name": "Behavioral Central Auditory Tests",
+            "category": "Central Auditory Processing",
+            "result_summary": "Left ear deficit on dichotic digits (~75%), competing sentences (~35%), and compressed speech (~45%). Bilaterally suppressed filtered speech scores (~20%)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical intervention (tumor resection)",
+      "Communication strategies training for central auditory deficits"
+    ],
+    "counseling_actions": [
+      "Explain that peripheral hearing loss is likely age-related and not the primary cause of localization difficulties",
+      "Discuss abnormal brainstem and cortical responses indicating neural pathway disruption",
+      "Counsel on strategies to manage localization and speech-in-noise difficulties (e.g., visual cues, reducing background noise)"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Progressive neurological symptoms (left arm/leg weakness, confusion, memory loss)",
+      "Occipital headaches and dizziness",
+      "Difficulty localizing sounds",
+      "Fullness sensation in the left ear",
+      "Abnormal ABR and MLR findings with symmetrical audiogram"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurology/Neurosurgery",
+      "rationale_short": "Suspected retrocochlear lesion (tumor) requiring imaging and potential surgical intervention."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate",
+    "objective": "Referral for neuroimaging (CT/MRI) and neurosurgical management."
+  },
+  "expected_outcome": [
+    "Surgery revealed a tumor in the hypothalamus behind the optic chiasm with a diameter of approximately 1.5 cm, affecting the inferior thalamus.",
+    "The lesion extended on the left posteriorly and inferiorly towards the brainstem.",
+    "Pathology reported the tumor to be a glioblastoma multiforme."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "case_id": "Case004_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Unilateral Tinnitus",
+      "rationale_short": "Patient reports constant, sudden-onset ringing in the right ear."
+    },
+    {
+      "rank": 2,
+      "label": "Normal Hearing",
+      "rationale_short": "Audiometric thresholds and speech recognition scores are within normal limits bilaterally."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and rule out hearing loss as a cause of tinnitus."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception and recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology given the unilateral symptoms."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation revealed bilateral normal hearing sensitivity and excellent word recognition abilities. Immittance testing indicated normal middle ear function and acoustic reflexes. There were no audiometric signs of retrocochlear pathology or middle ear dysfunction to explain the unilateral tinnitus.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Normal hearing sensitivity (0-10 dB HL) at 250 through 8,000 Hz bilaterally."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "SRT 5 dB bilaterally; WRS 92% (Right) and 96% (Left) at 55 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal thresholds for ipsilateral and contralateral stimulation; negative reflex decay at 500 and 1,000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Use of hearing protection in noise",
+      "Consultation for tinnitus management if tinnitus does not improve"
+    ],
+    "counseling_actions": [
+      "Encouraged to continue with the scheduled consultation with the otologist",
+      "Discussed follow-up testing as needed"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset unilateral tinnitus"
+    ],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Medical evaluation required to rule out retrocochlear or other medical etiologies for unilateral tinnitus."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As needed",
+    "objective": "Monitor hearing status"
+  },
+  "expected_outcome": []
+}

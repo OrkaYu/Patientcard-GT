@@ -1,0 +1,60 @@
+{
+  "case_id": "Case26_A_Case_of_Early_Adolescent_Misophonia",
+  "title": "A Case of Early Adolescent Misophonia",
+  "demographics": {
+    "age_years": 13,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "The patient reports extreme sensitivity to specific sounds, particularly chewing, slurping, and breathing, which has intensified over the past year. She describes feeling nauseous and 'shivery' when exposed to these triggers.",
+  "problem_summary": {
+    "onset": "As long as she could remember.",
+    "course": "Sensitivity intensified over the past year.",
+    "laterality": "Bilateral (implied by covering both ears).",
+    "associated_symptoms": "Nausea, shivering, crying, shaking, curling up in a ball, fleeing the situation.",
+    "functional_impact": "Uses noise-cancelling headphones during family mealtimes; mother often eats in a separate room.",
+    "goals_motivation": "Patient is participating in a misophonia treatment research study."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Research Study Intake",
+      "history": {
+        "present_illness": "Patient reports extreme sensitivity to mouth and breathing sounds, most bothersome when produced by family members (especially her mother). Reactions are severe, including physical and emotional distress.",
+        "otologic_history": "No previous services sought from an audiologist.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Parents are divorced; patient alternates homes daily. No prior treatment for misophonia.",
+        "prior_management": "Use of noise-cancelling headphones; family accommodation (mother eating separately).",
+        "patient_goals": "To participate in treatment research."
+      },
+      "tests": [
+        {
+          "name": "Clinical Interview / Intake Assessment",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient presented with symptoms consistent with annoyance hyperacusis, or misophonia. Triggers identified as chewing, slurping, and breathing. Emotional response is disproportionate to the sound's value.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "A 13-year-old female presents with a history of misophonia (annoyance hyperacusis) characterized by extreme autonomic and emotional reactions to specific organic sounds (chewing, breathing). No hearing loss is noted, but functional impairment is significant, involving avoidance behaviors and family accommodation. Diagnosis is consistent with misophonia.",
+  "counseling_points": [
+    "Misophonia can be managed using Cognitive Behavioral Therapy (CBT) with an emphasis on exposure and desensitization.",
+    "The goal is to facilitate recognition that trigger sounds produce an emotional response disproportionate to the sound's value.",
+    "Treatment will involve psychoeducation, creating an exposure hierarchy, and gradually reducing family accommodations (like eating separately).",
+    "Parental involvement in exposure exercises is important for success."
+  ],
+  "notes_for_actor": [
+    "Portray a socially active teenager (involved in cheerleading and theater) who is specifically distressed by family sounds.",
+    "When describing the reaction to triggers, emphasize the physical sensations: feeling 'shivery', nauseous, and the urge to curl up or shake.",
+    "Express the tension of living between two homes (divorced parents) and the guilt/frustration that the mother is the primary trigger."
+  ]
+}

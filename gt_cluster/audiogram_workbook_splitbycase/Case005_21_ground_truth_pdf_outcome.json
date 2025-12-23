@@ -1,0 +1,67 @@
+{
+  "case_id": "Case005_21",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Sensorineural hearing loss",
+      "rationale_short": "History of right vestibular schwannoma treated with gamma knife radiation; audiogram shows stable asymmetric SNHL consistent with this history."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To monitor stability of hearing sensitivity in a patient with a history of vestibular schwannoma."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech recognition abilities and functional hearing status."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals a stable, asymmetric sensorineural hearing loss. The right ear exhibits severe hearing loss with no measurable speech recognition (historically), consistent with the history of vestibular schwannoma treatment. The left ear shows normal low-frequency hearing sloping to a high-frequency sensorineural loss with excellent speech recognition. Findings are unchanged from the previous evaluation in 2012.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Mild sloping to moderate SNHL (250-500 Hz), sloping to severe (4000-8000 Hz), PTA 67 dB HL. Left ear: Normal (250-500 Hz) sloping to moderately severe SNHL (6000-8000 Hz), PTA 27 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Not measured (DNT). Left ear: SRT 27 dB HL, WRS 96% at 70 dB HL."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continued use of amplification (BiCROS)",
+      "Use of HAT (Hearing Assistive Technology)",
+      "Annual hearing testing",
+      "Testing after medical management as needed"
+    ],
+    "counseling_actions": [
+      "Review stability of hearing sensitivity compared to previous tests",
+      "Discuss effectiveness of current BiCROS system and HAT"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "ENT specialist",
+      "rationale_short": "Patient returned to ENT specialist as scheduled for ongoing monitoring of vestibular schwannoma."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "To monitor hearing sensitivity."
+  },
+  "expected_outcome": []
+}

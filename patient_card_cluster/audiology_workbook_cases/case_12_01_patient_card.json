@@ -1,0 +1,123 @@
+{
+  "case_id": "case_12_1",
+  "title": "Case Study 1: Sammy Stapes",
+  "demographics": {
+    "age_years": 7,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "Parents and teachers have expressed recent concerns regarding apparent difficulty hearing from the right ear.",
+  "problem_summary": {
+    "onset": "Recent concerns noted by parents and teachers.",
+    "course": "History of frequent colds, otitis media, and excessive cerumen buildup.",
+    "laterality": "Right ear",
+    "associated_symptoms": "Frequent colds, otitis media history.",
+    "functional_impact": "Difficulty hearing in school and at home.",
+    "goals_motivation": "Evaluate hearing status to address concerns."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Sammy was seen for audiologic testing due to recent parent and teacher concerns regarding his apparent difficulty hearing from his right ear.",
+        "otologic_history": "History of frequent colds, otitis media, and excessive cerumen buildup.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": null,
+        "patient_goals": "Determine cause and extent of hearing difficulty."
+      },
+      "tests": [
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Table 1"
+          ],
+          "key_findings": "Right ear shows no peak (Type B) with normal ear canal volume. Left ear shows normal mobility (Type A).",
+          "numeric_results": {
+            "Right Vea": "0.80 cm3",
+            "Right Ytm": "NP (No Peak)",
+            "Right TPP": "NP",
+            "Right TW": "NP",
+            "Left Vea": "1.0 cm3",
+            "Left Ytm": "0.75 mmhos",
+            "Left TPP": "-15 daPa",
+            "Left TW": "85 daPa"
+          }
+        },
+        {
+          "name": "Wideband Reflectance",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Reflectance Graph"
+          ],
+          "key_findings": "Right ear reflectance is elevated (near 100%) across low-to-mid frequencies compared to the left ear, consistent with middle ear effusion/conductive pathology.",
+          "numeric_results": null
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Table 1"
+          ],
+          "key_findings": "Right ear presents with a moderate hearing loss (based on PTA). Left ear is within normal limits.",
+          "numeric_results": {
+            "Right PTA": "47 dB HL",
+            "Left PTA": "5 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Table 1"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) align with PTA. Word Recognition Scores (WRS) are excellent bilaterally when presented at suprathreshold levels.",
+          "numeric_results": {
+            "Right SRT": "45 dB HL",
+            "Right WRS": "96% @ 85 dB HL (with masking in left)",
+            "Left SRT": "5 dB HL",
+            "Left WRS": "97% @ 40 dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Evaluation reveals normal hearing sensitivity in the left ear and moderate hearing loss in the right ear (PTA 47 dB HL). Tympanometry indicates normal middle ear function on the left but a flat (Type B) tympanogram on the right, suggesting middle ear pathology (e.g., otitis media with effusion). Speech recognition remains excellent in the right ear when volume is sufficient.",
+  "counseling_points": [
+    "Your son has normal hearing in his left ear, but moderate hearing loss in his right ear today.",
+    "The test of his middle ear system (tympanometry) suggests fluid or congestion behind the eardrum on the right side, which is likely causing the hearing drop.",
+    "We recommend a medical follow-up with his pediatrician or an ENT to manage the middle ear issue.",
+    "In the meantime, ensure he sits with his left (better) ear towards the teacher in the classroom."
+  ],
+  "notes_for_actor": [
+    "Portray a concerned parent who has noticed the child asking 'what?' frequently or turning the 'good ear' towards sound.",
+    "Mention the history of frequent ear infections casually as a known issue."
+  ]
+}

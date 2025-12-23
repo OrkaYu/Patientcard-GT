@@ -1,0 +1,74 @@
+{
+  "case_id": "Case007_12",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Bilateral Otosclerosis (status post stapedectomy)",
+      "rationale_short": "History of bilateral stapedectomies with mixed hearing loss patterns."
+    },
+    {
+      "rank": 2,
+      "label": "Left ear surgical complication (prolapsed tympanic membrane)",
+      "rationale_short": "ENT notes indicate a prolapsed left tympanic membrane touching the prosthesis following a difficult recovery from surgery >10 years ago."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess thresholds and configuration of hearing loss given history of otosclerosis and surgeries."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition ability."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Audiometric testing reveals bilateral mixed hearing loss, asymmetric in configuration. The right ear (successful stapedectomy) shows moderate mixed loss improving to mild in the highs, while the left ear (failed stapedectomy) shows a flatter, moderately severe mixed loss. Word recognition is excellent bilaterally. Immittance testing was not performed due to the history of otosurgery.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderate mixed loss (250-3000 Hz), rising to mild (4000-6000 Hz), sloping to severe (8000 Hz). Left ear: Moderately severe mixed loss (250-2000 Hz), rising to moderate (3000-4000 Hz), sloping to severe/profound. Masking dilemma noted."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "Right: SRT 55 dB HL, WRS 100% at 85 dB HL. Left: SRT 60 dB HL, WRS 92% at 90 dB HL."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Follow-up with an otologist",
+      "Annual audiological testing",
+      "Hearing aid evaluation for new technology and bilateral amplification",
+      "Use of Hearing Assistive Technology (HAT)",
+      "Hearing protection in noise"
+    ],
+    "counseling_actions": [
+      "Discuss benefits of bilateral amplification",
+      "Counsel on use of HAT",
+      "Counsel on hearing protection in noise"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Medical follow-up per physician's recommendations, particularly regarding the left ear status."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing status and amplification needs."
+  },
+  "expected_outcome": []
+}

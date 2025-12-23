@@ -1,0 +1,98 @@
+{
+  "case_id": "case_5_21",
+  "title": "Follow-up of Asymmetric Hearing Loss Post-Gamma Knife Radiation",
+  "demographics": {
+    "age_years": 76,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am here for a follow-up to check if my hearing has changed. I do very well with my hearing aids, even when traveling on bus trips.",
+  "problem_summary": {
+    "onset": "Long-standing; original treatment in 2002.",
+    "course": "Stable; unchanged since last test in 2012.",
+    "laterality": "Asymmetric (Right worse than Left).",
+    "associated_symptoms": "History of right vestibular schwannoma treated with gamma knife radiation.",
+    "functional_impact": "Patient reports doing very well with current amplification (BiCROS).",
+    "goals_motivation": "Monitor stability of hearing sensitivity."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-02-17",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presents for routine follow-up. She has a history of asymmetric hearing loss following gamma knife radiation for a right vestibular schwannoma in 2002.",
+        "otologic_history": "Right vestibular schwannoma (treated 2002). Last hearing test was in 2012.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Currently uses left BiCROS amplification (hearing aid on left, transmitter on right).",
+        "patient_goals": "Monitor hearing stability."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.21"
+          ],
+          "key_findings": "Right ear: Mild sloping to moderate SNHL (250-500 Hz), sloping/rising to severe/moderately severe (750-3000 Hz), sloping to severe (4000-8000 Hz). Left ear: Normal (250-500 Hz), sloping to slight/mild SNHL (1000-4000 Hz), sloping to moderately severe (6000-8000 Hz).",
+          "numeric_results": {
+            "Right_PTA": "67 dB HL",
+            "Left_PTA": "27 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.21"
+          ],
+          "key_findings": "Right ear speech testing was not measured (DNT). Left ear SRT was in agreement with PTA; WRS revealed normal ability to recognize speech.",
+          "numeric_results": {
+            "Right_SRT": "DNT",
+            "Right_WRS": "DNT",
+            "Left_SRT": "27 dB HL",
+            "Left_WRS": "96% at 70 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Immittance testing was not measured at this visit.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient exhibits a stable, asymmetric sensorineural hearing loss. The right ear presents with a severe degree of loss (PTA 67 dB HL) and no measurable speech recognition, consistent with the history of vestibular schwannoma treatment. The left ear shows normal low-frequency hearing sloping to a high-frequency sensorineural loss with excellent speech recognition (96%). Findings are unchanged from 2012.",
+  "counseling_points": [
+    "Your hearing has remained stable since your last test in 2012.",
+    "The BiCROS hearing aid system is the appropriate choice for your type of hearing loss, and I am glad to hear it is working well for you, even during travel.",
+    "We will schedule you for an annual hearing test to continue monitoring your hearing sensitivity.",
+    "Please follow up with your ENT specialist as scheduled."
+  ],
+  "notes_for_actor": [
+    "Portray a satisfied patient who is accustomed to her hearing loss and manages well with her devices.",
+    "Emphasize that you travel by bus frequently and the hearing aids work well in that noisy environment.",
+    "You are not anxious; this is a routine check-up."
+  ]
+}

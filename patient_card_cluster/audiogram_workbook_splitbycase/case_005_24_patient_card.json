@@ -1,0 +1,124 @@
+{
+  "case_id": "case_5_24",
+  "title": "95-Year-Old Female with Longstanding Sensorineural Hearing Loss",
+  "demographics": {
+    "age_years": 95,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I am having difficulty hearing music when I go line dancing. Even though I use an amplified telephone, I don't get much benefit and struggle to understand speech during conversations.",
+  "problem_summary": {
+    "onset": "Diagnosed over 25 years ago; no hearing loss reported in childhood or young adulthood.",
+    "course": "Longstanding, presumably progressive given age.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Significant family history (maternal grandmother, sister, two children). Denies tinnitus and dizziness.",
+    "functional_impact": "Difficulty with music appreciation and telephone communication despite using amplification.",
+    "goals_motivation": "Improve hearing for social activities (line dancing) and telephone use."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-03-06",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient is a 95-year-old female with a 25-year history of hearing loss. She currently wears 7-year-old digital BTE hearing aids with custom standard earmolds.",
+        "otologic_history": "No report of ear pathology. Denies tinnitus or dizziness.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Not specified.",
+        "prior_management": "Has used amplification for 25 years. Current devices are 7 years old.",
+        "patient_goals": "Better understanding on the telephone and hearing music."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.24"
+          ],
+          "key_findings": "Bilateral, symmetrical, moderately severe sensorineural hearing loss at 250-2000 Hz (with a slight improvement at 1000 Hz), sloping to severe/profound in the high frequencies. No air-bone gaps.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 60, 500Hz: 60, 1kHz: 50, 2kHz: 65, 4kHz: 80, 8kHz: 95 dB HL",
+            "Left_AC_Thresholds": "250Hz: 60, 500Hz: 65, 1kHz: 55, 2kHz: 65, 4kHz: 85, 8kHz: No Response",
+            "Bone_Conduction": "Consistent with air conduction (Sensorineural)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.24"
+          ],
+          "key_findings": "SRT scores are in agreement with pure-tone averages. Word recognition scores (WRS) are very poor bilaterally, indicating significant distortion.",
+          "numeric_results": {
+            "Right_SRT": "60 dB HL",
+            "Left_SRT": "62 dB HL",
+            "Right_WRS": "40% at 90 dB HL",
+            "Left_WRS": "34% at 90 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.24"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right_Static_Admittance": "0.90 mmho",
+            "Right_Pressure": "45 daPa",
+            "Right_Volume": "2.00 mL",
+            "Left_Static_Admittance": "1.20 mmho",
+            "Left_Pressure": "-50 daPa",
+            "Left_Volume": "1.60 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Could not be measured due to excessive artifact.",
+          "numeric_results": {
+            "Result": "CNT (Could Not Test)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, symmetrical, moderately severe to profound sensorineural hearing loss. While middle ear function is normal, speech understanding is disproportionately poor (34-40%), suggesting significant cochlear or retrocochlear distortion common in advanced presbycusis. This poor clarity explains her limited benefit from the amplified telephone.",
+  "counseling_points": [
+    "Your hearing test confirms a significant permanent hearing loss in both ears.",
+    "The main challenge you are facing is 'clarity' rather than just volume. Even when speech is loud enough, your nerves are having trouble sending a clear signal to the brain, which is why the amplified phone isn't helping enough.",
+    "Your current hearing aids are 7 years old; newer technology may help manage background noise better, but we must be realistic about the clarity limitations.",
+    "For the telephone, I recommend trying a captioned telephone (like CapTel) so you can read what is being said while you listen.",
+    "When line dancing, position yourself where you can see the instructor or speakers best, but understand that music fidelity may be difficult to restore fully."
+  ],
+  "notes_for_actor": [
+    "You are 95 years old but active (you go line dancing).",
+    "You are frustrated that your amplified phone doesn't work well—you can hear the voice, but you can't understand the words.",
+    "You have a strong family history of hearing loss, so you accept the condition, but you want better functional solutions."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "case_id": "case_7_2",
+  "title": "Aphasic Patient with Central Auditory Dysfunction",
+  "demographics": {
+    "age_years": null,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "Patient presented with aphasia and an inability to repeat words or verbally describe items accurately.",
+  "problem_summary": {
+    "onset": "Not reported",
+    "course": "Not reported",
+    "laterality": "Unspecified (lesion present)",
+    "associated_symptoms": "Aphasia, inability to repeat words.",
+    "functional_impact": "Patient was initially considered untestable behaviorally due to language deficits.",
+    "goals_motivation": "Rehabilitation"
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient is aphasic and has a brain lesion. He was initially thought to be untestable behaviorally because he could not repeat words or verbally describe things accurately.",
+        "otologic_history": null,
+        "noise_exposure_history": null,
+        "medical_psych_history": "Brain lesion; Aphasia.",
+        "prior_management": null,
+        "patient_goals": "Rehabilitation"
+      },
+      "tests": [
+        {
+          "name": "Dichotic Digits",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient was able to repeat numbers with ease, allowing for the assessment of central auditory function despite the inability to repeat words.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Middle Latency Response (MLR)",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Demonstrated the 'electrode effect', where the electrode closest to the lesion showed the greatest effect.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Late Potentials",
+          "timepoint_label": null,
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Demonstrated the 'electrode effect', where the electrode closest to the lesion showed the greatest effect.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This case illustrates the importance of resourcefulness in assessing patients with central auditory dysfunction and language deficits. Although the patient was aphasic and could not repeat words, he retained the ability to repeat numbers, which allowed for the successful administration of the Dichotic Digits test. Electrophysiologic testing (MLR and Late Potentials) supported the diagnosis by demonstrating an electrode effect consistent with the location of the lesion.",
+  "counseling_points": [
+    "When patients cannot process specific linguistic stimuli (e.g., words), attempt alternative stimuli (e.g., numbers) to assess auditory function.",
+    "Combine behavioral results with electrophysiologic measures to confirm central auditory system integrity."
+  ],
+  "notes_for_actor": [
+    "The patient is male.",
+    "The patient has significant aphasia (cannot repeat words) but can repeat numbers fluently."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "case_id": "Case006_16",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Traumatic Tympanic Membrane Perforation",
+      "rationale_short": "History of direct trauma (branch puncture), flat conductive hearing loss, and Type B tympanogram with large ear canal volume (7.1 mL)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess hearing sensitivity and type of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear status and tympanic membrane integrity."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Evaluate reflex pathways to cross-check conductive pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The right ear is within normal limits. The left ear exhibits a mild-to-moderate flat conductive hearing loss with excellent word recognition. Tympanometry reveals a large ear canal volume in the left ear, confirming a tympanic membrane perforation. Acoustic reflexes are absent in conditions involving the left ear due to the conductive pathology.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal (PTA 10 dB HL). Left ear flat mild-to-moderate conductive loss (PTA 32 dB HL) with air-bone gap approx 30-35 dB."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 10 dB HL, WRS 96%. Left SRT 35 dB HL, WRS 100%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right Type A (normal). Left Type B (flat) with large ear canal volume (7.1 mL), consistent with perforation."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral present (90-95 dB HL). Left ipsilateral, right contralateral, and left contralateral absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to ENT for surgical evaluation",
+      "Imaging studies (as determined by ENT)",
+      "Surgical repair (tympanoplasty)",
+      "Keep ear dry (water precautions)"
+    ],
+    "counseling_actions": [
+      "Explain the conductive nature of the hearing loss due to the eardrum perforation",
+      "Reassure that inner ear nerve function is normal",
+      "Advise on keeping the ear dry to prevent infection",
+      "Discuss the recommendation for surgical repair"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "Evaluation of large traumatic tympanic membrane perforation for potential surgical repair."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Post-surgery",
+    "objective": "Determine if hearing improves following surgical intervention."
+  },
+  "expected_outcome": [
+    "Patient followed up with an ENT specialist regarding the perforated tympanic membrane.",
+    "It was determined that the perforation was large, and surgical intervention was recommended.",
+    "Imaging studies were performed and surgery was scheduled."
+  ]
+}

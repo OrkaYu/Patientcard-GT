@@ -1,0 +1,71 @@
+{
+  "case_id": "Case007_18",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Mixed hearing loss (Left ear)",
+      "rationale_short": "History of chronic otitis media, eustachian tube dysfunction, and four otosurgeries including ossiculoplasty. Audiogram confirms mixed loss."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural hearing loss (Right ear)",
+      "rationale_short": "Consistent with age (76 years) and lack of conductive component."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds given reported deterioration."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation revealed asymmetric hearing. The right ear showed slight sensorineural hearing loss sloping to mild. The left ear showed a mixed hearing loss, moderately severe in the lows rising to mild in the mids and sloping to moderate-to-severe in the highs. Speech recognition was excellent bilaterally. Results were stable compared to the previous test 3 years ago, despite the patient's subjective report of deterioration.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Slight SNHL (250-3000 Hz, except normal at 500 Hz) sloping to mild (4000-8000 Hz). Left ear: Mixed hearing loss; moderately severe (250-2000 Hz) rising to mild, then sloping to moderate-to-severe (3000-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 20 dB HL, WRS 92% at 65 dB HL. Left SRT 47 dB HL, WRS 92% at 85 dB HL. Excellent recognition bilaterally."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid evaluation to discuss options for amplification and Hearing Assistive Technology (HAT)",
+      "Use hearing protection in noise as needed",
+      "Annual hearing tests"
+    ],
+    "counseling_actions": [
+      "Reviewed hearing test results with the patient",
+      "Explained that thresholds showed minimal changes compared to the previous test despite subjective deterioration"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient is to follow up with an otologist as scheduled for chronic ear history."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annually",
+    "objective": "Monitor stability of hearing sensitivity."
+  },
+  "expected_outcome": []
+}

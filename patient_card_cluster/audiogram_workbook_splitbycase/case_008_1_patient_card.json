@@ -1,0 +1,144 @@
+{
+  "case_id": "case_8_1",
+  "title": "Unilateral Nonorganic Hearing Loss Post-Infection",
+  "demographics": {
+    "age_years": 53,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I had an ear infection a few months ago that caused a lot of pain and drainage. Since then, I haven't been able to hear anything at all out of my left ear.",
+  "problem_summary": {
+    "onset": "A few months ago, following an ear infection.",
+    "course": "Persistent since the initial infection and ER visits.",
+    "laterality": "Left ear reported as deaf; Right ear asymptomatic.",
+    "associated_symptoms": "Left otalgia (pain), otorrhea (drainage), history of ear drained in ER.",
+    "functional_impact": "Patient reports total inability to hear on the left side.",
+    "goals_motivation": "Evaluation of hearing status following medical event."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-05-22",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports left ear pain and drainage starting a few months ago due to an infection. She visited the ER where the ear was drained several times. She reports continued pain, drainage, and total hearing loss in that ear.",
+        "otologic_history": "Recent left ear infection and ER procedures.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Emergency department visits for ear drainage.",
+        "patient_goals": "Determine hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.1"
+          ],
+          "key_findings": "Right ear shows flat mild sensorineural hearing loss. Left ear shows no response to air or bone conduction at equipment limits. Crucially, no crossover (shadow curve) was observed for the left ear when unmasked, which is physiologically impossible for a true dead ear.",
+          "numeric_results": {
+            "Right_PTA": "30 dB HL",
+            "Left_PTA": "NR (No Response)",
+            "Right_Thresholds": "Flat ~30-35 dB HL (250-8000 Hz)",
+            "Left_Thresholds": "No response at 100-110 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.1"
+          ],
+          "key_findings": "Right ear SRT agrees with PTA; WRS is excellent. Left ear shows no response to speech stimuli.",
+          "numeric_results": {
+            "Right_SRT": "25 dB HL",
+            "Right_WRS": "92% (at 50 dB HL)",
+            "Left_SRT": "NR",
+            "Left_WRS": "NR"
+          }
+        },
+        {
+          "name": "Stenger Test",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.1"
+          ],
+          "key_findings": "Positive Stenger test at 1,000 and 2,000 Hz, indicating nonorganic hearing loss.",
+          "numeric_results": {
+            "Result": "Positive"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.1"
+          ],
+          "key_findings": "Right ear normal (Type A). Left ear shows excessive negative pressure (Type C), consistent with eustachian tube dysfunction or resolving pathology.",
+          "numeric_results": {
+            "Right_Pressure": "-50 daPa",
+            "Right_Volume": "1.1 mL",
+            "Left_Pressure": "-195 daPa",
+            "Left_Volume": "1.2 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 8.1"
+          ],
+          "key_findings": "Right ipsilateral normal 500-2k Hz, absent at 4k Hz. Left ipsilateral and contralateral absent at all frequencies.",
+          "numeric_results": {
+            "Right_Ipsi_500_1k_2k": "Present (85-95 dB)",
+            "Left_Ipsi": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild flat sensorineural hearing loss in the right ear and reports total deafness in the left ear. However, objective indicators suggest nonorganic hearing loss (pseudohypacusis) on the left side. Specifically, the absence of a shadow curve during unmasked testing and a positive Stenger test indicate the patient has better hearing in the left ear than admitted. Left tympanometry indicates negative middle ear pressure.",
+  "counseling_points": [
+    "Explain that the test results are inconsistent; specifically, that sound presented to the 'bad' ear should have been heard by the 'good' ear (cross-hearing) if the hearing loss were truly total, but this did not happen.",
+    "Discuss the positive Stenger result gently, indicating that the tests show the left ear is detecting sound.",
+    "Refer to an ENT specialist to manage the left ear pain, drainage, and negative pressure (possible infection/Eustachian tube dysfunction).",
+    "Recommend an objective test, such as an ABR (Auditory Brainstem Response), to determine true hearing thresholds."
+  ],
+  "notes_for_actor": [
+    "You are convinced you cannot hear anything in your left ear.",
+    "During standard hearing tests (beeps), do not press the button for any sound in the left ear, no matter how loud.",
+    "If the audiologist performs a Stenger test (playing sound in both ears at once, louder in your 'bad' ear), stop responding completely. This is a 'Positive Stenger'—you hear it in the bad ear, so you think you shouldn't respond, but you don't realize the sound in the good ear has stopped or is quieter.",
+    "Express concern about the pain and drainage in your left ear."
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "case_id": "Case02_Chiari_Malformation_with_Tinnitus_and_Hyperacusis",
+  "title": "Chiari Malformation with Tinnitus and Hyperacusis",
+  "demographics": {
+    "age_years": 53,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "My tinnitus is catastrophically affecting my quality of life, and I cannot tolerate loud sounds like vacuum cleaners or screaming children.",
+  "problem_summary": {
+    "onset": "History of Chiari malformation treated with decompression surgery in Nov 2017; also history of head injury, concussion, and epilepsy.",
+    "course": "Tinnitus exacerbated during migraines; symptoms persist despite prior myringotomy tube placement.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Hyperacusis, aural pressure, dizziness, migraines, seizures.",
+    "functional_impact": "Tinnitus severity 10/10; Sound intolerance 9/10. Greatly affects concentration, sleep, and quiet recreational activities.",
+    "goals_motivation": "Seeking relief from bothersome tinnitus and sound sensitivity."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2018-04-01",
+      "setting": "Otolaryngology Practice",
+      "history": {
+        "present_illness": "Patient presented for audiological evaluation prior to university referral.",
+        "otologic_history": "Prior myringotomy tube placement for ear pressure with no perceived benefit.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Chiari malformation, migraines.",
+        "prior_management": "Myringotomy tubes.",
+        "patient_goals": "Evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.1"
+          ],
+          "key_findings": "Normal hearing sensitivity in the right ear. Normal hearing through 4000 Hz sloping to a mild hearing loss at 6000 and 8000 Hz in the left ear.",
+          "numeric_results": {
+            "Right_Thresholds": "10-15 dB HL across standard frequencies",
+            "Left_Thresholds": "10-15 dB HL (250-4k Hz), dropping to ~30-40 dB HL at 6k-8k Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.1"
+          ],
+          "key_findings": "Excellent word recognition ability bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "15 dB",
+            "SRT_Left": "15 dB",
+            "WRS_Right": "100%",
+            "WRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.1"
+          ],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Type": "A (implied by normal pressure/compliance values)",
+            "Right_Pressure": "5 daPa",
+            "Left_Pressure": "20 daPa"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2018-07-01",
+      "setting": "University Speech and Hearing Clinic",
+      "history": {
+        "present_illness": "Patient experienced several seizures in days prior to appointment. Accompanied by a friend due to seizure disorder and travel distance.",
+        "otologic_history": "See V1.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Epilepsy/seizure disorder active.",
+        "prior_management": "Referral from ENT.",
+        "patient_goals": "Management of tinnitus and hyperacusis."
+      },
+      "tests": [
+        {
+          "name": "Self-report scales",
+          "timepoint_label": "Pre-treatment",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Scores indicate ability to carry out routine activities and quality of life are substantially reduced.",
+          "numeric_results": {
+            "THI_Score": "80",
+            "TFI_Score": "82%"
+          }
+        },
+        {
+          "name": "Loudness Discomfort Levels (LDL/UCL)",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.2"
+          ],
+          "key_findings": "Slightly reduced loudness tolerance identified for both speech and pure tones.",
+          "numeric_results": {
+            "UCL_Range": "80–95 dB HL from 500 to 4,000 Hz"
+          }
+        },
+        {
+          "name": "Tinnitus Evaluation",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Included pitch match, loudness match, minimal masking, and residual inhibition. During residual inhibition testing, patient experienced a partial seizure.",
+          "numeric_results": null
+        },
+        {
+          "name": "High-frequency audiometry",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.2"
+          ],
+          "key_findings": "Testing performed up to 20,000 Hz. Thresholds obtained in high frequencies.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity in the right ear and a mild high-frequency sensorineural hearing loss in the left ear. Middle ear function is normal bilaterally. The primary audiological issues are severe tinnitus (THI 80) and hyperacusis, evidenced by reduced uncomfortable loudness levels (80-95 dB HL) and high subjective severity ratings.",
+  "counseling_points": [
+    "We recommend sound therapy using a 'sleep band' headband, which is soft and fits loosely, as you have an intolerance to devices inside the ear.",
+    "Desensitization exercises can help manage your hyperacusis symptoms over time.",
+    "It is important to discuss with your neurologist whether the sounds during testing may have triggered your seizure activity.",
+    "Tinnitus and hyperacusis can be managed with a systematic program of sound therapy and counseling (TRT)."
+  ],
+  "notes_for_actor": [
+    "You have a complex medical history including Chiari malformation, migraines, and epilepsy.",
+    "You are extremely sensitive to touch in/around your ears ('anything in her ears' is intolerable).",
+    "During the tinnitus evaluation (specifically residual inhibition), portray a partial seizure: lose a few seconds of memory, report increased heart rate, audible heartbeats, and a sensation of 'electricity shooting through veins'.",
+    "You are accompanied by a friend who knows how to assist you during seizures.",
+    "Rate your tinnitus distress as catastrophic (10/10 quality of life impact)."
+  ]
+}

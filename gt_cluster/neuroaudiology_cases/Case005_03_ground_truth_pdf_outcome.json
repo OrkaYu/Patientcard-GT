@@ -1,0 +1,116 @@
+{
+  "case_id": "Case005_03",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right cerebellar medulloblastoma",
+      "rationale_short": "Confirmed by CT scan showing a large mass in the right posterior fossa with hydrocephalus."
+    },
+    {
+      "rank": 2,
+      "label": "Central Auditory Processing Disorder (secondary)",
+      "rationale_short": "Indicated by poor frequency pattern test performance, attributed to hydrocephalus affecting cerebral structures."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Computed tomography (CT) scans",
+        "urgency": "urgent",
+        "rationale_short": "To investigate neurological symptoms (headache, vomiting, imbalance) and visualize intracranial structures."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate word recognition abilities."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the auditory brainstem pathways."
+      },
+      {
+        "action": "Frequency Pattern Test",
+        "urgency": "routine",
+        "rationale_short": "To evaluate central auditory processing and pattern perception."
+      },
+      {
+        "action": "Masking Level Difference (MLD)",
+        "urgency": "routine",
+        "rationale_short": "To assess binaural interaction at the brainstem level."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a confirmed right cerebellar medulloblastoma and hydrocephalus. Peripheral hearing sensitivity and speech recognition are normal bilaterally. The ABR shows only a subtle prolongation of the I-III interval on the right, consistent with the extra-axial location of the tumor distant from the brainstem. However, central auditory processing is significantly impaired, as evidenced by poor bilateral performance on the frequency pattern test, likely due to the effects of hydrocephalus on cerebral auditory structures.",
+        "tests": [
+          {
+            "name": "Computed tomography (CT) scans",
+            "category": "Imaging",
+            "result_summary": "Large mass lesion in the right posterior fossa (cerebellum) with fourth ventricle compression and associated hydrocephalus."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Normal hearing sensitivity bilaterally; thresholds 0-10 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent word recognition scores: Right 96%, Left 92%."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Subtle abnormality on the right with I-III interval of 2.48 msec; left ear normal."
+          },
+          {
+            "name": "Frequency Pattern Test",
+            "category": "Central Auditory Processing",
+            "result_summary": "Poor performance bilaterally: Right 23%, Left 13%."
+          },
+          {
+            "name": "Masking Level Difference (MLD)",
+            "category": "Central Auditory Processing",
+            "result_summary": "Normal range (6 dB at 500 Hz)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "No audiological intervention (e.g., hearing aids) required as peripheral hearing is normal",
+      "Continue medical management with Neurology-Neurosurgery for tumor and hydrocephalus"
+    ],
+    "counseling_actions": [
+      "Explain that basic hearing sensitivity is normal",
+      "Discuss how the tumor location (cerebellum) primarily affects balance and coordination rather than direct hearing pathways",
+      "Explain that difficulty with complex sound patterns (frequency pattern test) is likely related to hydrocephalus affecting wider brain processing areas"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Right cerebellar medulloblastoma",
+      "Hydrocephalus",
+      "Right-sided headaches with nausea and vomiting",
+      "Imbalance and tendency to fall to the right"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Neurology-Neurosurgery",
+      "rationale_short": "Patient has a confirmed brain tumor and hydrocephalus requiring neurosurgical management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As determined by medical team",
+    "objective": "Monitor auditory status if requested by Neurosurgery."
+  },
+  "expected_outcome": []
+}

@@ -1,0 +1,96 @@
+{
+  "case_id": "Case005_15",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Noise-Induced Hearing Loss",
+      "rationale_short": "History of significant unprotected firearms use; asymmetric configuration (right ear worse) is consistent with the acoustic shadow effect in a left-handed shooter."
+    },
+    {
+      "rank": 2,
+      "label": "Retrocochlear pathology",
+      "rationale_short": "Sudden exacerbation of tinnitus and aural pressure in the right ear, combined with asymmetry, warrants exclusion of retrocochlear etiology."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To determine hearing thresholds and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities in quiet."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc and screen for retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with asymmetric high-frequency sensorineural hearing loss, significantly worse in the right ear, consistent with noise exposure from left-handed firearms use. Speech recognition in quiet is excellent bilaterally. Middle ear function is normal. The sudden change in right-sided tinnitus and pressure warrants medical referral.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Slight SNHL 250-2000 Hz, steeply sloping to severe loss 3-8 kHz with a profound notch at 6 kHz (PTA 17 dB HL). Left ear: Normal sensitivity 250-2000 Hz, steeply sloping to moderately-severe SNHL 3-8 kHz (PTA 12 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRTs (RE 17 dB HL, LE 12 dB HL) consistent with PTA. WRS excellent bilaterally (RE 96%, LE 92%)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Normal ipsilateral and contralateral thresholds 500-2000 Hz; absent at 4000 Hz. Reflex decay negative at 500 and 1000 Hz."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continued use of hearing protection, with emphasis on custom earplugs",
+      "Annual hearing testing to monitor sensitivity",
+      "Evaluation with an audiologist to discuss HAT or amplification when ready"
+    ],
+    "counseling_actions": [
+      "Discussed the correlation between left-handed shooting and right-sided hearing loss asymmetry",
+      "Emphasized the critical need for strict hearing protection to prevent further damage",
+      "Explained the need for ENT referral due to sudden tinnitus changes and asymmetry"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden change in tinnitus in one ear",
+      "Aural and head pressure",
+      "Asymmetric hearing loss"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "To rule out retrocochlear pathology given the sudden change in tinnitus, pressure, and asymmetric hearing loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annual",
+    "objective": "Monitor hearing sensitivity."
+  },
+  "expected_outcome": []
+}

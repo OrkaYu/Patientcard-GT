@@ -1,0 +1,194 @@
+{
+  "case_id": "Case20_Tinnitus_and_Hyponatremia",
+  "title": "Case 20: Tinnitus and Hyponatremia",
+  "demographics": {
+    "age_years": 35,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "Central Asia"
+  },
+  "chief_complaint": "I have a ringing in my right ear that started as crickets and now sounds like a waterfall.",
+  "problem_summary": {
+    "onset": "June 6, 2018",
+    "course": "Sudden onset while bending over; tinnitus character changed over time.",
+    "laterality": "Right unilateral",
+    "associated_symptoms": "Significant anxiety, recent hospitalization for hyponatremia (water intoxication) following fear of medication toxicity.",
+    "functional_impact": "Mildly bothered (THI 26, TFI 20).",
+    "goals_motivation": "Seeking evaluation for tinnitus; hesitant about medical imaging due to anxiety about contrast dye."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2018-06-25",
+      "setting": "ENT and Audiology Hospital Clinic",
+      "history": {
+        "present_illness": "Patient reported sudden onset of right tinnitus on June 6, 2018. Prior to evaluation, she consumed a partial Mucinex pill, feared toxicity, and drank >70 bottles of water, leading to ICU admission for hyponatremia.",
+        "otologic_history": "Sudden hearing loss in right ear.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "History of anxiety. Recent ICU stay for hyponatremia.",
+        "prior_management": "PA recommended steroids for sudden hearing loss and MRI (patient refused MRI).",
+        "patient_goals": "Tinnitus evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 20.1"
+          ],
+          "key_findings": "Right ear: Normal hearing through 4000 Hz, steeply sloping to moderate-to-severe loss at 6000-8000 Hz. Left ear: Normal hearing sensitivity 250-8000 Hz. Negative Stenger.",
+          "numeric_results": {
+            "Right_PTA": "8 dB HL",
+            "Left_PTA": "5 dB HL",
+            "Right_Thresholds_6k_8k": "55 dB HL, 50 dB HL",
+            "Left_Thresholds": "All ≤ 10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 20.1"
+          ],
+          "key_findings": "Excellent word recognition bilaterally with no rollover.",
+          "numeric_results": {
+            "SRT_Right": "5 dB HL",
+            "SRT_Left": "5 dB HL",
+            "WRS_Right": "100% at 45 dB, 100% at 80 dB",
+            "WRS_Left": "100% at 45 dB, 100% at 85 dB"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 20.1"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "Right_ECV": "0.87 ml",
+            "Left_ECV": "0.96 ml",
+            "Right_Peak_Pressure": "1 daPa",
+            "Left_Peak_Pressure": "-1 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 20.1"
+          ],
+          "key_findings": "Absent left contralateral reflexes. Present right contralateral and bilateral ipsilateral reflexes.",
+          "numeric_results": {
+            "Right_Contra_500_1000_2000": "110, 105, 85 dB",
+            "Left_Contra": "Absent",
+            "Right_Ipsi": "80, 80, 90 dB",
+            "Left_Ipsi": "95, 100 dB"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "University Speech and Hearing Clinic",
+      "history": {
+        "present_illness": "Follow-up for tinnitus evaluation approx 2 months after initial ENT visit.",
+        "otologic_history": "Otoscopy revealed nonoccluding cerumen bilaterally.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Continued anxiety regarding MRI contrast.",
+        "prior_management": "Refused MRI previously.",
+        "patient_goals": "Manage tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 20.2"
+          ],
+          "key_findings": "Ultra-high frequency audiometry. Right ear loss continues through 16 kHz, recovering to normal at 18-20 kHz. Left ear normal 10-20 kHz except mild dip at 16 kHz.",
+          "numeric_results": {
+            "Right_16kHz": "~60 dB HL (visual estimate)",
+            "Right_18kHz": "Normal range",
+            "Left_16kHz": "Mild range response"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Tinnitus Evaluation.",
+          "numeric_results": {
+            "Pitch_Match": "1,000 Hz",
+            "Loudness_Match": "10 dB SL (re: 1 kHz threshold)",
+            "Min_Masking_Level_White_Noise": "10 dB SL",
+            "Residual_Inhibition": "None"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Self-report questionnaires indicate mild bother.",
+          "numeric_results": {
+            "THI_Score": "26",
+            "TFI_Score": "20"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a right unilateral high-frequency sensorineural hearing loss (steeply sloping >4 kHz) and normal hearing in the left ear. Ultra-high frequency testing confirms the loss extends to 16 kHz in the right ear before recovering. Acoustic reflexes are abnormal (absent left contralateral). Tinnitus is matched to a low frequency (1000 Hz) despite the high-frequency loss configuration.",
+  "counseling_points": [
+    "We recommend sound therapy using a 'mixing point' strategy: set the sound level just below where it completely covers your tinnitus to help your brain habituate.",
+    "Because your hearing loss and reflexes are asymmetric (different between ears), an ABR test or MRI is strongly recommended to rule out retrocochlear pathology, despite your concerns about contrast.",
+    "We recommend psychiatric counseling to help manage the anxiety you are experiencing, which can exacerbate tinnitus perception.",
+    "Sound therapy apps on your smartphone can be a cost-effective way to manage the tinnitus."
+  ],
+  "notes_for_actor": [
+    "Portray high anxiety, specifically regarding medication and medical procedures (MRI contrast).",
+    "You are fixated on the 'Mucinex incident' and the subsequent hospitalization.",
+    "You are hesitant to undergo the MRI but are bothered by the tinnitus."
+  ]
+}

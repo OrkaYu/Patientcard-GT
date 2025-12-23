@@ -1,0 +1,94 @@
+{
+  "case_id": "Case005_07",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Cerebellopontine angle tumor (Vestibular Schwannoma)",
+      "rationale_short": "Unilateral progressive high-frequency SNHL, reduced word recognition in the left ear, and retrocochlear pattern on acoustic reflexes; confirmed by MRI."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing sensitivity and configuration given the reported subjective decline in the left ear."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception and recognition abilities, particularly to check for retrocochlear signs like disproportionately poor recognition."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and rule out conductive pathology."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex arc for signs of retrocochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The evaluation reveals normal hearing in the right ear and a progressive, steeply sloping high-frequency sensorineural hearing loss in the left ear. Word recognition is reduced in the left ear (76%). Tympanometry is normal bilaterally, but acoustic reflexes demonstrate a retrocochlear pattern with elevated or absent thresholds, particularly in the left ear and contralateral conditions, warranting medical referral.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal hearing (0-10 dB HL). Left ear: Normal 250-1000 Hz, sloping to mild loss at 2000 Hz, then steeply sloping to moderately-severe/severe loss at 3000-8000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT: Right 7 dB, Left 25 dB (consistent with PTA). WRS: Right 100%, Left 76%."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral normal. Left ipsilateral elevated/absent. Contralateral reflexes elevated or absent bilaterally. Reflex decay could not be measured due to elevated thresholds."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to ENT for medical evaluation and MRI",
+      "Gamma knife surgery (patient elected)",
+      "Postsurgical follow-up hearing testing"
+    ],
+    "counseling_actions": [
+      "Explained that the pattern of hearing loss and reflex results warrants further medical investigation.",
+      "Physician counseled on options for tumor management: translabyrinthine surgical removal vs. gamma knife surgery."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Unilateral progressive sensorineural hearing loss",
+      "Asymmetric hearing loss",
+      "Retrocochlear pattern on acoustic reflexes"
+    ],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "ENT specialist",
+      "rationale_short": "Unilateral SNHL and retrocochlear reflex findings require MRI to rule out cerebellopontine angle tumor."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Postsurgical",
+    "objective": "Monitor hearing thresholds following gamma knife surgery."
+  },
+  "expected_outcome": [
+    "MRI confirmed a cerebellopontine angle tumor on the left side.",
+    "Patient opted for gamma knife surgery for management of the tumor.",
+    "Postsurgical follow-up hearing testing was recommended."
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "case_id": "case_9_6",
+  "title": "Multiple Sclerosis: Neuroaudiologic Evaluation",
+  "demographics": {
+    "age_years": 33,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I haven't noticed specific hearing loss, but I have been dealing with numbness in my legs, shocks down my spine when I bend my neck, and recently I lost vision in my right eye.",
+  "problem_summary": {
+    "onset": "Initial symptoms (numbness) began 2 years prior to initial presentation; course spans over 10 years.",
+    "course": "Relapsing-remitting course. Symptoms waxed and waned, with new symptoms (burning feet, vision loss) appearing years later.",
+    "laterality": "Neurological symptoms bilateral but worse on Left (legs/body); Vision loss Right eye; Auditory neural deficits Right ear.",
+    "associated_symptoms": "Paresthesia (numbness/burning) in feet/legs/hands, Lhermitte's sign (shocks down spine), spasticity, optic neuritis (pain/vision loss), color vision diminution.",
+    "functional_impact": "Patient continued to jog and did not appear handicapped despite sensory deficits; recent vision loss is significant.",
+    "goals_motivation": "Medical diagnosis and monitoring of demyelinating disease."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Medical Center / Audiology",
+      "history": {
+        "present_illness": "33-year-old male with a long history of evanescent numbness and paresthesia. Initially diagnosed with possible MS (unconfirmed). Years later developed burning numbness after exercise, then spasticity. Most recently presented with dull ache and progressive visual failure in the right eye (optic neuritis).",
+        "otologic_history": "No specific mention of ear infections or prior hearing loss.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Suspected Multiple Sclerosis. History of measles (corneoretinitis). MRI shows diffuse bilateral asymmetric foci in periventricular white matter, left cortical spinal tract, and left medial cerebellar hemisphere.",
+        "prior_management": "Prednisone prescribed for spasticity.",
+        "patient_goals": "Neurological assessment."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Thresholds within normal limits bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech recognition was excellent for both ears.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-14"
+          ],
+          "key_findings": "Left ear: Normal waveform morphology and indices. Right ear: Normal to slightly extended absolute latencies, but abnormal I-III and I-V interwave latency differences.",
+          "numeric_results": {
+            "Left Ear Wave I Latency": "1.9 ms",
+            "Left Ear Wave III Latency": "4.0 ms",
+            "Left Ear Wave V Latency": "6.2 ms",
+            "Stimulus": "80 dB nHL, 15 clicks/sec"
+          }
+        },
+        {
+          "name": "Maximum Length Sequence (MLS) ABR",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-15"
+          ],
+          "key_findings": "Left ear: Normal response. Right ear: Extremely shallow response with questionable presence of waves. The MLS ABR highlighted the abnormality more clearly than conventional ABR.",
+          "numeric_results": {
+            "Left Ear Wave V Latency": "7.4 ms",
+            "Right Ear Morphology": "Absent/Poor",
+            "Stimulus": "60 dB nHL, approx 500 clicks/sec"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity and excellent speech recognition in quiet. However, electrophysiological testing reveals retrocochlear pathology affecting the right auditory pathway. While the conventional ABR showed mild abnormalities (interwave delays) on the right, the high-rate MLS ABR revealed a highly abnormal/absent response on the right side. This functional auditory compromise correlates with the diagnosis of Multiple Sclerosis, despite the MRI not explicitly showing brainstem involvement.",
+  "counseling_points": [
+    "Your hearing test shows you can hear soft sounds normally in both ears.",
+    "However, the nerve test (ABR) shows a delay in how the hearing nerve sends signals to the brain on the right side.",
+    "This finding is consistent with your other neurological symptoms and the diagnosis of Multiple Sclerosis.",
+    "Even though you hear beeps clearly, you might find it difficult to hear in complex environments (like noise) because the nerve transmission is slower on one side.",
+    "We will continue to monitor your auditory function as part of your overall neurological care."
+  ],
+  "notes_for_actor": [
+    "You are a 33-year-old male who is physically active (jogger) but plagued by strange neurological sensations.",
+    "You have experienced 'shocks' down your spine when bending your neck (Lhermitte's sign).",
+    "You are not complaining of deafness; you are likely at the audiologist because the neurologist sent you.",
+    "You might be anxious about the recent vision loss in your right eye.",
+    "You do not need to simulate hearing loss during the standard beep test."
+  ]
+}

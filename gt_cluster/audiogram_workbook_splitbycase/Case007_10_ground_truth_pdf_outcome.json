@@ -1,0 +1,100 @@
+{
+  "case_id": "Case007_10",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "External ear canal mass",
+      "rationale_short": "Visible mass in the ear canal with bloody discharge, pain, and flat tympanogram with small ear canal volume."
+    },
+    {
+      "rank": 2,
+      "label": "Mixed hearing loss",
+      "rationale_short": "Combination of sensorineural loss and conductive component due to canal occlusion by the mass."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Determine degree, type, and configuration of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear function and ear canal volume."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess integrity of the reflex arc and retrocochlear pathways."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a severe-to-profound mixed hearing loss in the right ear and mild-to-moderate sensorineural loss in the left. The right ear findings include a flat tympanogram with small canal volume, consistent with the reported external ear mass occluding the canal. Speech recognition is excellent when the conductive component is overcome.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Severe mixed loss (250-8000 Hz) with a profound mixed notch at 500 and 1000 Hz. Left ear: Mild rising to slight SNHL (250-4000 Hz) sloping to moderate SNHL (6000-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right SRT 87 dB HL, WRS 92% at 100 dB HL. Left SRT 30 dB HL, WRS 92% at 70 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Flat (Type B) with small ear canal volume (0.5 mL). Left ear: Normal (Type A, 1.4 mL)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ipsilateral and contralateral reflexes absent. Left ipsilateral normal; Left contralateral absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Surgical removal of the external ear lesion",
+      "Post-surgical hearing evaluation"
+    ],
+    "counseling_actions": [
+      "Explain the mixed nature of the hearing loss (permanent sensorineural + conductive blockage)",
+      "Discuss how the mass is blocking sound and causing the flat tympanogram results",
+      "Advise on the necessity of surgical intervention for the mass"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Mass in ear canal",
+      "Intermittent bloody discharge",
+      "Pain (otalgia)",
+      "Unilateral hearing loss"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "ENT specialist",
+      "rationale_short": "Immediate evaluation and surgical removal of the external ear mass causing pain, bleeding, and hearing loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "After surgery",
+    "objective": "Determine any improvement in hearing once the canal is clear."
+  },
+  "expected_outcome": [
+    "The lesion was determined to be an external ear lesion.",
+    "The patient was scheduled to have the lesion surgically removed.",
+    "A follow-up hearing evaluation was recommended to determine improvement after surgery."
+  ]
+}

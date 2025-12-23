@@ -1,0 +1,127 @@
+{
+  "case_id": "case_7_4",
+  "title": "Post-Surgical Mixed Hearing Loss with Recent Decline",
+  "demographics": {
+    "age_years": 29,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I'm worried my cholesteatoma has come back because my hearing in the left ear has gotten worse recently. I'm also having drainage, pain, and ringing in that ear.",
+  "problem_summary": {
+    "onset": "Long-standing history with recent acute worsening.",
+    "course": "Chronic post-surgical status; recent decline in hearing sensitivity.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Otorrhea (drainage), otalgia (pain), tinnitus, concern for cholesteatoma recurrence.",
+    "functional_impact": "Noted decrease in hearing ability in the left ear.",
+    "goals_motivation": "Determine cause of recent symptoms and rule out recurrence of pathology."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-03-03",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports recent decrease in hearing in the left ear accompanied by drainage, pain, and tinnitus.",
+        "otologic_history": "History of cholesteatoma removal (left ear) many years ago. Post-operative complications included otorrhea determined to be a CSF leak, which was subsequently repaired.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Previous surgeries for cholesteatoma and CSF leak repair.",
+        "patient_goals": "Investigate potential recurrence of cholesteatoma."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.4"
+          ],
+          "key_findings": "Right ear shows flat slight to mild sensorineural hearing loss. Left ear shows moderately severe rising to moderate mixed hearing loss, sloping back to moderately severe in high frequencies.",
+          "numeric_results": {
+            "Right_PTA": "25 dB HL",
+            "Left_PTA": "52 dB HL",
+            "Right_AC_Thresholds": "Flat ~20-25 dB HL (250-8000 Hz)",
+            "Left_AC_Thresholds": "~60 dB HL at 250 Hz, improving to ~45 dB HL at 1-2 kHz, sloping to ~65 dB HL at 4-8 kHz",
+            "Left_BC_Thresholds": "~20-30 dB HL (indicating significant air-bone gap)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.4"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA for both ears. Word recognition scores are excellent (100%) bilaterally at suprathreshold levels.",
+          "numeric_results": {
+            "Right_SRT": "25 dB HL",
+            "Left_SRT": "52 dB HL",
+            "Right_WRS": "100% at 60 dB HL",
+            "Left_WRS": "100% at 80 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.4"
+          ],
+          "key_findings": "Right ear normal. Left ear flat tympanogram with large ear canal volume (consistent with mastoid cavity or perforation).",
+          "numeric_results": {
+            "Right_Type": "Type A (implied normal)",
+            "Right_Volume": "1.1 mL",
+            "Left_Type": "Type B (flat)",
+            "Left_Volume": "5.9 mL (Large)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.4"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral reflexes for both ears from 500 to 4000 Hz. Decay could not be measured.",
+          "numeric_results": {
+            "Right_Reflexes": "Absent",
+            "Left_Reflexes": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a slight to mild sensorineural hearing loss in the right ear and a mixed hearing loss in the left ear (moderately severe to moderate degree). Speech understanding remains excellent in both ears when speech is loud enough. Immittance testing indicates a patent mastoid cavity or perforation in the left ear (large volume) and unexplained absent reflexes in the right ear.",
+  "counseling_points": [
+    "Your hearing test confirms the mixed hearing loss in your left ear, which means there is both a nerve component and a mechanical component (likely related to your previous surgeries).",
+    "The 'large volume' reading on the pressure test in your left ear is consistent with your history of ear surgery (mastoidectomy) or a perforation.",
+    "Given your symptoms of drainage, pain, and hearing change, immediate medical follow-up is necessary.",
+    "We are referring you back to the ENT physician to rule out a recurrence of the cholesteatoma or a new fluid leak."
+  ],
+  "notes_for_actor": [
+    "Portray anxiety regarding the potential return of the cholesteatoma.",
+    "Emphasize that the right ear feels 'normal' to you, despite the test showing slight loss.",
+    "Be specific about the physical sensations in the left ear: wetness (drainage) and pain."
+  ]
+}

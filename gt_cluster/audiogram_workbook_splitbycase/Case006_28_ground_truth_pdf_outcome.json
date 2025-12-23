@@ -1,0 +1,72 @@
+{
+  "case_id": "Case006_28",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Unilateral conductive hearing loss (Left)",
+      "rationale_short": "History of cholesteatoma and mastoidectomy with ossicular chain reconstruction; audiogram confirms conductive loss with normal bone conduction."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Monitor hearing sensitivity in patient with long-standing history of ear surgeries."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess speech reception and recognition abilities."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with normal hearing in the right ear and a slight sloping to mild conductive hearing loss in the left ear (250-6000 Hz), sloping to moderate at 8000 Hz. This is consistent with the history of mastoidectomy and ossicular chain reconstruction. Speech recognition is excellent bilaterally.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Normal hearing sensitivity (0-10 dB HL). Left ear: Slight sloping to mild conductive hearing loss (250-6000 Hz), sloping to moderate at 8000 Hz. Normal bone conduction."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "SRT consistent with PTA (Right: 5 dB, Left: 25 dB). WRS excellent (100%) in both ears."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Not measured at this appointment."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Continue use of amplification (hearing aid) in the left ear",
+      "Use hearing protection in noise",
+      "Return for annual hearing test"
+    ],
+    "counseling_actions": [
+      "Discussed results showing stable conductive loss consistent with surgical history",
+      "Confirmed excellent word recognition scores support continued hearing aid use",
+      "Advised on hearing protection to preserve inner ear function"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "Patient to follow up with otologist as scheduled."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Annually",
+    "objective": "Monitor hearing sensitivity"
+  },
+  "expected_outcome": []
+}

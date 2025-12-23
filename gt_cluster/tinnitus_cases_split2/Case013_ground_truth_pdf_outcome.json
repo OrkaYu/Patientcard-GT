@@ -1,0 +1,103 @@
+{
+  "case_id": "Case013",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Acoustic Shock Disorder",
+      "rationale_short": "History of acute high-intensity acoustic incident followed by immediate otalgia, worsening tinnitus, and hyperacusis."
+    },
+    {
+      "rank": 2,
+      "label": "Noise-Induced Hearing Loss",
+      "rationale_short": "Documented permanent threshold shift (10-20 dB) in the right ear at high frequencies following the acoustic trauma."
+    },
+    {
+      "rank": 3,
+      "label": "Tonic Tensor Tympani Syndrome",
+      "rationale_short": "Proposed mechanism for the cluster of symptoms including pain, anxiety, tinnitus, and sound intolerance."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry (Historical)",
+        "urgency": "routine",
+        "rationale_short": "Baseline assessment from 4 years prior to establish pre-exposure hearing levels."
+      },
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess current hearing thresholds to quantify any shift following the acoustic incident."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear and retrocochlear function."
+      },
+      {
+        "action": "Self-report scales",
+        "urgency": "routine",
+        "rationale_short": "Quantify the severity of tinnitus distress and sound intolerance (TFI, THI)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with bilateral sloping mild-to-severe sensorineural hearing loss. Comparison with historical records confirms a threshold shift in the right ear following the acoustic shock. Self-report measures indicate severe tinnitus distress and significant sound intolerance.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Bilateral sloping mild-to-severe SNHL. Right ear shows worsening of 10-20 dB HL at 3, 4, 6, and 8 kHz compared to baseline."
+          },
+          {
+            "name": "Pure-tone audiometry (Historical)",
+            "category": "Audiometry",
+            "result_summary": "Baseline thresholds from 4 years prior, showing better hearing in the right ear at high frequencies."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Reflexes present ipsilaterally; Right contralateral reflexes absent at 1000 and 2000 Hz."
+          },
+          {
+            "name": "Self-report scales",
+            "category": "Questionnaires",
+            "result_summary": "TFI 86/100 (severe); THI 70/100 (severe); Tinnitus Severity 9/10; Sound Intolerance 9/10."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aids with rudimentary tinnitus masking options",
+      "Sound enrichment (low-level masking noise)",
+      "Desensitization strategies (gradual exposure to sound)"
+    ],
+    "counseling_actions": [
+      "Validate that the ear pain is real and consistent with Acoustic Shock Disorder / Tonic Tensor Tympani Syndrome",
+      "Explain the connection between the traumatic event, emotional reaction, and physical symptoms",
+      "Advise on minimizing sound avoidance and the importance of not over-protecting hearing",
+      "Discuss the role of anxiety and depression in symptom maintenance"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Mental Health Professional",
+      "rationale_short": "Patient diagnosed with depression and anxiety subsequent to the event; high distress warrants psychological management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "6 months",
+    "objective": "Monitor tinnitus distress, sound tolerance, and benefit from hearing aids/masking."
+  },
+  "expected_outcome": [
+    "Tinnitus Functional Index (TFI): Score decreased from 86/100 to 57/100, a clinically significant improvement.",
+    "Tinnitus Handicap Inventory (THI): Score decreased from 70/100 to 44/100, a clinically significant improvement.",
+    "Subjective report: Patient reported that many environmental sounds remained too loud and pain was still produced by high-pitched sounds, horns, and sirens.",
+    "Self-management: Patient learned to navigate environmental exposures and maintain sound enrichment while avoiding setbacks."
+  ]
+}

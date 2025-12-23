@@ -1,0 +1,98 @@
+{
+  "case_id": "Case007_16",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right ear acute tympanic membrane perforation with mixed hearing loss",
+      "rationale_short": "History of severe infection and spontaneous rupture, confirmed by large ear canal volume on tympanometry and air-bone gaps."
+    },
+    {
+      "rank": 2,
+      "label": "Left ear sensorineural hearing loss",
+      "rationale_short": "Audiogram shows mild sloping to moderate sensorineural hearing loss with normal middle ear function."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess the degree and configuration of hearing loss given the sudden change."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status and confirm the suspected perforation."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the acoustic reflex arc."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with asymmetric hearing loss. The right ear demonstrates a profound mixed hearing loss with very poor word recognition, consistent with the history of acute infection and rupture. Tympanometry confirms a perforation in the right ear (large volume). The left ear shows a stable mild-to-moderate sensorineural hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear profound mixed loss rising to moderately severe (250-4000 Hz) then sloping to severe. Left ear flat mild sloping to moderate SNHL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear SRT 102 dB HL, WRS 10% (very poor). Left ear SRT 45 dB HL, WRS 70% (moderate difficulty)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear flat (Type B) with large ear canal volume (7.1 mL), indicating perforation. Left ear normal (Type A)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Right ear reflexes absent. Left ear ipsilateral present, contralateral absent."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Prescription of antibiotic ear drops",
+      "Discontinue hearing aid use in the right ear until infection clears",
+      "Water precautions for the right ear"
+    ],
+    "counseling_actions": [
+      "Explain the tympanic membrane perforation and its cause",
+      "Instruct on the proper use of antibiotic ear drops",
+      "Instruct to keep the right ear dry and use water precautions",
+      "Advise against wearing the hearing aid in the right ear until cleared",
+      "Discuss the follow-up plan to monitor healing"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden decrease in hearing",
+      "Aural pain",
+      "Tympanic membrane perforation"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "ENT specialist",
+      "rationale_short": "Immediate management of acute infection and tympanic membrane perforation."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month",
+    "objective": "To determine if the perforation is healing on its own or if surgical intervention is needed."
+  },
+  "expected_outcome": []
+}

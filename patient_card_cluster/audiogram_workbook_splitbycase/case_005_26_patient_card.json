@@ -1,0 +1,127 @@
+{
+  "case_id": "case_5_26",
+  "title": "Bilateral Profound Sensorineural Hearing Loss with Recent Decline",
+  "demographics": {
+    "age_years": 72,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I can't hear anything with my left hearing aid anymore. Over the last year, it has gotten worse, and now I have to rely on people writing things down for me.",
+  "problem_summary": {
+    "onset": "Long-standing history; sudden onset in the right ear, gradual in the left ear.",
+    "course": "Progressive decline in the left ear over the last year; right ear stable (profound).",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Intermittent clicking and noises in the left ear (tinnitus) when watching TV; occasional otalgia in the left ear.",
+    "functional_impact": "Extreme difficulty communicating; relies on writing; left BTE hearing aid no longer provides benefit.",
+    "goals_motivation": "Re-evaluation for cochlear implant candidacy."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-11-10",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a decrease in hearing with her left BTE hearing aid over the past year compared to her last test. She can no longer hear anything with the device. Communication during the appointment was conducted via writing.",
+        "otologic_history": "Long-standing bilateral profound SNHL. Right ear loss was sudden; left was gradual. Occasional left otalgia and intermittent clicking noises.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "History of heart condition which previously prevented anesthesia for surgery.",
+        "prior_management": "Uses a left BTE hearing aid (no longer effective). Previously evaluated for Cochlear Implant but did not qualify due to cardiac risks regarding anesthesia.",
+        "patient_goals": "Determine if hearing can be improved; re-evaluate for CI now that cardiac status may have improved."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.26"
+          ],
+          "key_findings": "Profound sensorineural hearing loss bilaterally with no measurable response at the limits of the audiometer.",
+          "numeric_results": {
+            "Right_AC": "No Response (NR) at 250-8000 Hz",
+            "Left_AC": "No Response (NR) at 250-8000 Hz",
+            "Comparison": "Left ear thresholds decreased to no response from 250-4000 Hz compared to previous test."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.26"
+          ],
+          "key_findings": "Unable to obtain Speech Awareness Thresholds (SAT) or Word Recognition Scores (WRS) due to severity of loss.",
+          "numeric_results": {
+            "Right_SAT": "NR",
+            "Left_SAT": "NR",
+            "Right_WRS": "CNT (Could Not Test)",
+            "Left_WRS": "CNT (Could Not Test)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.26"
+          ],
+          "key_findings": "Normal middle ear function bilaterally.",
+          "numeric_results": {
+            "Right_Type": "A",
+            "Right_Vol": "1.2 ml",
+            "Right_Pressure": "-20 daPa",
+            "Left_Type": "A",
+            "Left_Vol": "1.3 ml",
+            "Left_Pressure": "-55 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.26"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral reflexes consistent with profound hearing loss.",
+          "numeric_results": {
+            "Reflexes_500_to_4000Hz": "Absent (ABS)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral profound sensorineural hearing loss with no measurable responses to pure tones or speech stimuli. Tympanometry indicates normal middle ear function, ruling out a conductive component. The hearing in the left ear has deteriorated to 'no response' levels since the previous evaluation, rendering the current amplification ineffective.",
+  "counseling_points": [
+    "Your hearing test confirms that your hearing levels have dropped significantly in the left ear, which explains why the hearing aid is no longer helping.",
+    "Because standard hearing aids are no longer providing benefit, we need to revisit the option of a Cochlear Implant (CI).",
+    "Since your recent cardiology report is good, the otologist believes you may now be a candidate for the surgery.",
+    "We will schedule a CI evaluation and a CT scan to move forward with this process."
+  ],
+  "notes_for_actor": [
+    "You are profoundly deaf. You cannot hear the audiologist speaking.",
+    "You must rely entirely on the audiologist writing notes to you or using gestures.",
+    "You are frustrated because your 'good' ear (the left one) has recently failed you.",
+    "You are willing to try surgery now if your heart allows it, because you are completely isolated without hearing."
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "case_id": "Case005_11",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Ototoxicity (Amikacin-induced)",
+      "rationale_short": "Significant bilateral threshold shifts in high and ultra-high frequencies compared to baseline, coinciding with high-dose amikacin treatment."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "Monitor standard frequency thresholds (250-8000 Hz) for changes compared to baseline."
+      },
+      {
+        "action": "High-frequency audiometry",
+        "urgency": "routine",
+        "rationale_short": "Monitor ultra-high frequencies (9000-20000 Hz), which are typically the first to show ototoxic damage."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "Assess functional speech understanding capabilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear status."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "Assess retrocochlear function."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient exhibits normal hearing in the low-to-mid frequencies but significant bilateral sensorineural hearing loss in the high and ultra-high frequencies. Comparison with baseline reveals substantial threshold shifts consistent with amikacin ototoxicity. Speech recognition remains excellent in quiet.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear normal 250-4000 Hz, sloping to moderate SNHL at 6000-8000 Hz. Left ear normal 250-6000 Hz, mild SNHL at 8000 Hz. Significant shifts from baseline: Right ear decreased 35 dB at 6000 Hz and 45 dB at 8000 Hz; Left ear decreased 40 dB at 8000 Hz."
+          },
+          {
+            "name": "High-frequency audiometry",
+            "category": "Audiometry",
+            "result_summary": "Moderate to moderately severe loss 9000-14000 Hz bilaterally; no response 16000-20000 Hz. Significant shifts from baseline (e.g., 20-35 dB decreases across 9000-11200 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech",
+            "result_summary": "SRT Right 2 dB HL, Left -2 dB HL. WRS Right 100%, Left 96% at 50 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral and contralateral thresholds WNL 500-4000 Hz, except Left contralateral elevated at 500 Hz. Reflex decay negative."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Consult with prescribing physician to switch antibiotic",
+      "Hearing protection"
+    ],
+    "counseling_actions": [
+      "Discuss significant high-frequency hearing changes linked to medication",
+      "Explain the need to coordinate with the physician for potential medication change",
+      "Recommend hearing protection in loud environments"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Prescribing physician",
+      "rationale_short": "Significant ototoxic threshold shift requires immediate medical review to consider alternative treatment and prevent further loss."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "1 month",
+    "objective": "Monitor hearing stability following intervention."
+  },
+  "expected_outcome": [
+    "Physicians switched the patient from amikacin to another antibiotic due to hearing loss and lack of lung infection improvement.",
+    "Hearing was tested 1 month later and was stable.",
+    "Hearing protection was recommended."
+  ]
+}

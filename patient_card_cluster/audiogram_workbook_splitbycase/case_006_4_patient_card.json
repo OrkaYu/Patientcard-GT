@@ -1,0 +1,131 @@
+{
+  "case_id": "case_6_4",
+  "title": "Unilateral Conductive Hearing Loss Post-Trauma",
+  "demographics": {
+    "age_years": 31,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "Since my car accident 3 months ago, sounds seem muffled in my left ear and I am having trouble telling where sounds are coming from.",
+  "problem_summary": {
+    "onset": "Sudden onset 3 months ago following a motor vehicle accident.",
+    "course": "Stable since the accident.",
+    "laterality": "Left ear.",
+    "associated_symptoms": "Difficulty localizing sounds. Denies otalgia, pressure, tinnitus, or dizziness.",
+    "functional_impact": "Perception of muffled sounds and localization deficits.",
+    "goals_motivation": "Determine the cause of hearing loss and management options."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-04-14",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports being involved in a car accident 3 months prior. Since then, he has experienced difficulty hearing in the left ear.",
+        "otologic_history": "Denies otalgia, pressure, tinnitus, or dizziness.",
+        "noise_exposure_history": "No reported history of noise exposure.",
+        "medical_psych_history": "History of recent car accident.",
+        "prior_management": "None reported.",
+        "patient_goals": "Evaluation of left ear hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.4"
+          ],
+          "key_findings": "Right ear shows normal hearing thresholds (0-10 dB HL). Left ear shows a conductive hearing loss ranging from slight (low freqs) to moderately severe (high freqs) with significant air-bone gaps. Bone conduction is normal bilaterally.",
+          "numeric_results": {
+            "RT_PTA": "5 dB HL",
+            "LT_PTA": "25 dB HL",
+            "RT_Thresholds": "0-10 dB HL across 250-8000 Hz",
+            "LT_AC_Thresholds": "25 dB at 250Hz sloping to 60-70 dB at 8000Hz",
+            "LT_BC_Thresholds": "0-10 dB HL (Normal)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.4"
+          ],
+          "key_findings": "SRT is consistent with PTA bilaterally. Word recognition scores are excellent in both ears.",
+          "numeric_results": {
+            "RT_SRT": "0 dB HL",
+            "LT_SRT": "20 dB HL",
+            "RT_WRS": "96% at 40 dB HL",
+            "LT_WRS": "96% at 65 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.4"
+          ],
+          "key_findings": "Right ear tympanogram is normal (Type A). Left ear tympanogram is hypercompliant (Type Ad), suggesting ossicular discontinuity.",
+          "numeric_results": {
+            "RT_Static_Admittance": "0.5 mL",
+            "LT_Static_Admittance": "2.9 mL (High)",
+            "RT_Pressure": "-20 daPa",
+            "LT_Pressure": "-5 daPa",
+            "Canal_Volume_RT": "1.2 mL",
+            "Canal_Volume_LT": "1.3 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 6.4"
+          ],
+          "key_findings": "Right ipsilateral reflexes present; Right contralateral reflexes elevated. Left ipsilateral and contralateral reflexes are absent.",
+          "numeric_results": {
+            "RT_Ipsi": "Present (85-95 dB HL)",
+            "RT_Contra": "Elevated (105-110 dB HL)",
+            "LT_Ipsi": "Absent",
+            "LT_Contra": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a conductive hearing loss in the left ear. The left ear exhibits a significant air-bone gap with normal bone conduction thresholds. Immittance testing reveals a hypercompliant (Type Ad) tympanogram on the left and absent acoustic reflexes, consistent with an ossicular discontinuity likely resulting from the recent head trauma.",
+  "counseling_points": [
+    "Your hearing test confirms a 'conductive' hearing loss in the left ear, meaning sound is not being conducted efficiently to the inner ear.",
+    "The pressure test (tympanometry) shows your eardrum is moving more than normal (floppy), which, combined with the hearing loss, suggests a disconnection in the tiny bones behind the eardrum (ossicular discontinuity) caused by the car accident.",
+    "We recommend a referral to an Ear, Nose, and Throat (ENT) physician to discuss surgical options to repair the connection.",
+    "If surgery is not pursued or is unsuccessful, a hearing aid for the left ear is a viable option to restore balance to your hearing."
+  ],
+  "notes_for_actor": [
+    "Portray a 31-year-old male who is generally healthy but frustrated by the change in hearing since the accident.",
+    "You do not have pain or dizziness, but you should emphasize that sounds feel 'muffled' on the left side.",
+    "Mention that you have trouble telling where sounds are coming from (localization), which is a common symptom of unilateral loss."
+  ]
+}

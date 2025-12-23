@@ -1,0 +1,130 @@
+{
+  "case_id": "case_5_2",
+  "title": "Bilateral Sensorineural Hearing Loss Post-Airbag Deployment",
+  "demographics": {
+    "age_years": 77,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've noticed decreased hearing in both ears for about 4 to 6 months, ever since the air bags went off in my car accident. I also have constant, bothersome ringing and a feeling of pressure in my ears.",
+  "problem_summary": {
+    "onset": "Sudden onset 4-6 months ago following acoustic trauma (airbag deployment).",
+    "course": "Stable since the accident.",
+    "laterality": "Bilateral; patient perceives left ear as poorer.",
+    "associated_symptoms": "Constant tinnitus, aural fullness/pressure.",
+    "functional_impact": "Significant difficulty recognizing speech (very poor WRS).",
+    "goals_motivation": "Seeking evaluation and management of hearing loss and tinnitus."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-06-10",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient was involved in a car accident 4-6 months prior with airbag deployment. Reports bilateral hearing loss, tinnitus, and aural pressure since the event. A CT scan was performed and results were normal.",
+        "otologic_history": "No other reported otologic symptoms or history aside from the accident.",
+        "noise_exposure_history": "Acute acoustic trauma from airbag deployment.",
+        "medical_psych_history": "CT scan normal.",
+        "prior_management": "Had a hearing test prior to the accident used for comparison (showed significantly better scores previously).",
+        "patient_goals": "Evaluation of hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-accident",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.2"
+          ],
+          "key_findings": "Right ear: Normal to slight SNHL (250-1000 Hz) sloping to moderate-severe SNHL (1500-8000 Hz). Left ear: Normal (250-500 Hz) sloping to mild-to-moderately severe SNHL (750-8000 Hz). Symmetrical configuration.",
+          "numeric_results": {
+            "RE_PTA": "32 dB HL",
+            "LE_PTA": "33 dB HL",
+            "RE_250-1000Hz": "15-25 dB HL range",
+            "RE_1500-8000Hz": "45-75 dB HL range",
+            "LE_250-500Hz": "10-15 dB HL range",
+            "LE_750-8000Hz": "30-75 dB HL range"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-accident",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.2"
+          ],
+          "key_findings": "SRTs are in agreement with PTAs (mild loss). Word Recognition Scores (WRS) are very poor bilaterally, showing a significant decrease compared to pre-accident records (approx 50% drop Left, 70% drop Right).",
+          "numeric_results": {
+            "RE_SRT": "30 dB HL",
+            "LE_SRT": "40 dB HL",
+            "RE_WRS": "36% at 80 dB HL",
+            "LE_WRS": "42% at 85 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-accident",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.2"
+          ],
+          "key_findings": "Right ear shows hypercompliant tympanic membrane (Type Ad). Left ear shows normal tympanogram (Type A).",
+          "numeric_results": {
+            "RE_Static_Admittance": "2.0 mmho",
+            "RE_Peak_Pressure": "-40 daPa",
+            "RE_Volume": "1.8 mL",
+            "LE_Static_Admittance": "1.0 mmho",
+            "LE_Peak_Pressure": "-30 daPa",
+            "LE_Volume": "1.7 mL"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Post-accident",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.2"
+          ],
+          "key_findings": "Right: Normal thresholds 500-2000 Hz, absent at 4000 Hz. Left: Normal ipsi/contra 500-4000 Hz (except contra absent at 4000 Hz). Reflex decay negative at 500 and 1000 Hz.",
+          "numeric_results": {
+            "Reflex_Decay": "Negative"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral, sloping, high-frequency sensorineural hearing loss. While pure-tone thresholds indicate mild-to-severe loss, speech discrimination is disproportionately poor (36-42%), significantly reduced from pre-accident levels. Tympanometry indicates a hypercompliant system on the right and normal mobility on the left.",
+  "counseling_points": [
+    "Your hearing loss is likely a result of the acoustic trauma from the airbag deployment.",
+    "While we can amplify sound, your ability to understand speech (clarity) has been significantly affected, meaning making things louder may not make them perfectly clear.",
+    "We should discuss hearing aids to help with volume and tinnitus management, but given the poor speech clarity, we may also need to consider if a cochlear implant evaluation is appropriate.",
+    "Hearing protection is recommended in noisy environments to prevent further damage."
+  ],
+  "notes_for_actor": [
+    "You are a 77-year-old male.",
+    "You are likely frustrated because you had better hearing before the car accident 4-6 months ago.",
+    "Emphasize the constant ringing (tinnitus) and the feeling of pressure in your ears.",
+    "You perceive the left ear as worse, even though the test results show they are fairly similar in severity."
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "case_id": "case_7_23",
+  "title": "Sudden Sensorineural Hearing Loss in Right Ear with Chronic Mixed Loss in Left Ear",
+  "demographics": {
+    "age_years": 91,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I lost hearing in my right ear suddenly about 2 weeks ago. I heard a popping sound, and now I have static and distortion in that ear. It feels decreased compared to before.",
+  "problem_summary": {
+    "onset": "Sudden onset 2 weeks prior to visit.",
+    "course": "Stable since onset; patient notes prior episodes resolved but this one has not.",
+    "laterality": "Right ear (acute), Left ear (chronic).",
+    "associated_symptoms": "Popping sound at onset, static (tinnitus), distortion, itching in both ears (eczema).",
+    "functional_impact": "Significant difficulty due to loss of the 'better' ear; left ear has long-standing loss.",
+    "goals_motivation": "Hopes hearing will return as it has in the past; seeking evaluation."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-04-29",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports sudden right hearing loss 2 weeks ago preceded by a pop. Reports static and distortion. History of similar events that resolved, but this one persists.",
+        "otologic_history": "Left ear: Long-standing mixed hearing loss, chronic ear infections, and mastoidectomy. Both ears: Eczema causing itching.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Not reported.",
+        "prior_management": "Left mastoidectomy in the past.",
+        "patient_goals": "Evaluation of sudden drop in right ear hearing."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 7.23"
+          ],
+          "key_findings": "Right ear: Mild SNHL sloping to severe. Left ear: Severe mixed loss sloping to profound with significant air-bone gaps.",
+          "numeric_results": {
+            "RE_AC_Thresholds": "250Hz: 35, 500Hz: 35, 1000Hz: 35, 2000Hz: 45, 3000Hz: 55, 4000Hz: 70, 8000Hz: 80 dB HL",
+            "RE_BC_Thresholds": "500Hz: 30, 1000Hz: 35, 2000Hz: 40, 4000Hz: 60 dB HL",
+            "LE_AC_Thresholds": "250Hz: 70, 500Hz: 60, 1000Hz: 75, 2000Hz: 90, 4000Hz: 95, 8000Hz: 95 dB HL",
+            "LE_BC_Thresholds": "500Hz: 30, 1000Hz: 35, 2000Hz: 50, 4000Hz: 60 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 7.23"
+          ],
+          "key_findings": "Right ear SRT agrees with PTA; WRS shows slight difficulty. Left ear SRT agrees with PTA; WRS shows moderate difficulty.",
+          "numeric_results": {
+            "RE_SRT": "35 dB HL",
+            "RE_WRS": "78% at 80 dB HL",
+            "LE_SRT": "73 dB HL",
+            "LE_WRS": "64% at 95 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 7.23"
+          ],
+          "key_findings": "Right ear normal (Type A). Left ear could not be measured due to previous otosurgery (mastoidectomy).",
+          "numeric_results": {
+            "RE_Type": "A",
+            "RE_Vol": "1.2 mL",
+            "RE_Peak_Pressure": "15 daPa",
+            "LE_Type": "CNT/Not Measured"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Fig. 7.23"
+          ],
+          "key_findings": "Right ipsilateral reflexes present. All other conditions (Left Ipsi, Right Contra, Left Contra) absent.",
+          "numeric_results": {
+            "RE_Ipsi_500Hz": "100 dB HL",
+            "RE_Ipsi_1000Hz": "90 dB HL",
+            "RE_Ipsi_2000Hz": "105 dB HL",
+            "RE_Ipsi_4000Hz": "100 dB HL",
+            "LE_Ipsi": "Absent",
+            "RE_Contra": "Absent",
+            "LE_Contra": "Absent"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a sudden mild-to-severe sensorineural hearing loss in the right ear, accompanied by reduced word recognition (78%). The left ear exhibits a chronic severe mixed hearing loss sloping to profound, consistent with the history of mastoidectomy. Immittance testing confirms normal middle ear function on the right, while the left could not be tested due to surgical history. Acoustic reflexes are present only in the right ipsilateral condition.",
+  "counseling_points": [
+    "The hearing loss in your right ear is sensorineural (nerve-related) and requires immediate medical attention due to its sudden onset.",
+    "We will refer you to an otologist immediately for evaluation and potential steroid treatment to try and recover some hearing.",
+    "Your left ear shows the expected permanent mixed hearing loss from your previous surgeries.",
+    "We should monitor your hearing closely after medical treatment.",
+    "Long-term, we will need to evaluate you for hearing aids or assistive devices given the loss in both ears."
+  ],
+  "notes_for_actor": [
+    "You are 91 years old.",
+    "You are very concerned because the right ear was your 'good ear' and now it feels blocked and distorted.",
+    "You have a history of ear trouble on the left side (surgeries) but the right side has usually been reliable until now.",
+    "Mention the 'popping' sound clearly when asked about how it started."
+  ]
+}

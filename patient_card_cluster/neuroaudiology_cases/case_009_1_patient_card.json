@@ -1,0 +1,133 @@
+{
+  "case_id": "case_9_1",
+  "title": "Multiple Sclerosis with Brainstem Involvement",
+  "demographics": {
+    "age_years": 40,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been experiencing weakness, visual problems, and some vague auditory complaints.",
+  "problem_summary": {
+    "onset": "Initial symptoms began 9 years prior to evaluation; current relapse occurred 1.5 years ago.",
+    "course": "Relapsing-remitting course. Initial 'viral-like' illness resolved, followed by progressive cold, leg weakness, and unsteadiness. Symptoms subsided until a relapse 1.5 years ago.",
+    "laterality": "Bilateral symptoms generally, but auditory electrophysiological abnormalities are specific to the Right Ear.",
+    "associated_symptoms": "History of nausea, vomiting, chills, headaches, difficulty walking, unsteadiness, leg pain/numbness, ptosis, and nystagmus.",
+    "functional_impact": "Difficulty walking, visual deficits, and vague auditory issues.",
+    "goals_motivation": "Evaluation to investigate vague auditory complaints amidst neurological relapse."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient hospitalized 9 years ago for suspected viral infection (nausea, vomiting) followed by leg weakness and unsteadiness. Diagnosed with viral syndrome initially. Relapse occurred 1.5 years ago with weakness, visual deficits, and vague auditory complaints.",
+        "otologic_history": "Vague auditory complaints reported during recent relapse.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Diagnosed with Multiple Sclerosis (MS) 9 years after initial symptoms. History of ptosis, bilateral nystagmus, and decreased leg sensation.",
+        "prior_management": "Neurologic exam 9 years prior; recent MRI.",
+        "patient_goals": "Diagnostic evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-1"
+          ],
+          "key_findings": "Pure tone thresholds were essentially normal for both ears.",
+          "numeric_results": {
+            "Thresholds": "0-10 dB HL across 250-8000 Hz bilaterally"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-1"
+          ],
+          "key_findings": "Speech recognition was excellent bilaterally.",
+          "numeric_results": {
+            "WRS Right Ear": "100%",
+            "WRS Left Ear": "100%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Dichotic digits test showed normal performance for both ears.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-2"
+          ],
+          "key_findings": "Auditory Brainstem Response (ABR). Left ear: Poorly formed but normal latencies. Right ear: Well-defined normal Wave I, but significantly delayed Waves III and V. Extended interwave intervals.",
+          "numeric_results": {
+            "RE Wave I Latency": "Normal (approx 1.7 ms in Fig 9-2)",
+            "RE Wave III Latency": "5.0 ms (Delayed)",
+            "RE Wave V Latency": "7.0 ms (Delayed)",
+            "RE I-III Interval": "3.2 ms (Extended)",
+            "RE I-V Interval": "5.28 ms (Extended)",
+            "Interaural Latency Difference (ILD)": "1 ms (Abnormal)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Radiology",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-3"
+          ],
+          "key_findings": "MRI revealed a large plaque located at the right posterio-lateral surface of the brainstem (low pons), likely compromising the right dorsal cochlear nucleus.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity and excellent speech recognition in quiet. However, ABR testing reveals significant retrocochlear pathology in the Right Ear, characterized by delayed Waves III and V and extended interwave intervals, despite a normal Wave I. These electrophysiological findings correlate strongly with the MRI findings of a demyelinating plaque in the right low brainstem (pons), consistent with the diagnosis of Multiple Sclerosis.",
+  "counseling_points": [
+    "Explain that basic hearing tests (beep test) are normal, which is why hearing sensitivity seems fine.",
+    "Discuss the ABR results indicating a 'slowdown' of the hearing nerve signal on the right side as it moves through the brainstem.",
+    "Correlate the auditory findings with the known MS diagnosis and the specific location of the lesion seen on MRI.",
+    "Monitor for any changes in auditory processing or speech understanding in noise, as central involvement is present."
+  ],
+  "notes_for_actor": [
+    "You have a long history (9 years) of mysterious neurological symptoms that come and go.",
+    "You are currently in a 'relapse' phase with weakness and vision issues.",
+    "Your hearing complaints are 'vague'—you might not be able to describe them clearly, perhaps just a sense that things aren't quite right, even though you can hear quiet sounds.",
+    "You may be anxious due to the long duration of undiagnosed symptoms before the recent confirmation of MS."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "case_id": "Case009",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Psychogenic Hearing Loss / Non-organic Hearing Loss",
+      "rationale_short": "Significant discrepancy between elevated behavioral thresholds and normal objective measures (ABR, DPOAE, reflexes at reduced SL); history of anxiety and trauma."
+    },
+    {
+      "rank": 2,
+      "label": "Sensorineural Hearing Loss",
+      "rationale_short": "Initial behavioral presentation suggested SNHL, but this was ruled out by normal electrophysiological findings (ABR and OAEs)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess behavioral hearing sensitivity and monitor changes."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate middle ear function."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the acoustic reflex arc; reflexes at reduced sensation levels can indicate recruitment or non-organic loss."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "Objective assessment of neural integrity and threshold estimation to resolve discrepancies between behavioral and objective findings."
+      },
+      {
+        "action": "Otoacoustic Emissions (DPOAE)",
+        "urgency": "soon",
+        "rationale_short": "Objective assessment of cochlear outer hair cell function to rule out organic cochlear pathology."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Initial evaluation revealed an asymmetric mild-to-moderate sensorineural hearing loss. However, acoustic reflexes were obtained at reduced sensation levels, which is suspicious for cochlear recruitment or a non-organic component.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Mild to moderate SNHL in the right ear (PTA 40 dB HL); slight to mild SNHL in the left ear (PTA 20 dB HL)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRTs commensurate with PTA (Right 40 dB, Left 20 dB); WRS 80% at 80 dB HL (Right) and 80% at 50 dB HL (Left)."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Normal middle ear pressure and static admittance bilaterally (Type A)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Present ipsilateral and contralateral reflexes at reduced sensation levels; no decay."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Behavioral thresholds worsened significantly, suggesting mild-to-moderate loss bilaterally. However, objective testing (ABR and DPOAE) demonstrated normal cochlear and neural function with thresholds significantly better than behavioral responses, confirming non-organic hearing loss.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Significant decrease in sensitivity; mild to moderate SNHL bilaterally (Right PTA 50 dB, Left PTA 45 dB)."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "SRTs shifted (Right 50 dB, Left 45 dB); WRS 60% Right, 88% Left at 80 dB HL."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "result_summary": "Normal latencies; Wave V repeatable to 25 dB HL (Left) and 15 dB HL (Right), indicating normal sensitivity."
+          },
+          {
+            "name": "Otoacoustic Emissions (DPOAE)",
+            "result_summary": "Present and normal amplitudes 1000-6000 Hz, inconsistent with behavioral loss."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to otologist for medical clearance (completed)",
+      "Reassessment of pure-tone and speech audiometry using ascending method",
+      "Discussion of results with patient's psychologist (with consent)"
+    ],
+    "counseling_actions": [
+      "Counsel on the discrepancy between behavioral and objective test results",
+      "Explain that objective tests show the inner ear and nerve are working normally",
+      "Re-instruct on test procedures to encourage consistent responses",
+      "Avoid implying malingering or psychological disorder directly during counseling"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "soon",
+      "destination": "Mental Health / Psychiatry",
+      "rationale_short": "Psychogenic hearing loss identified; patient history of trauma (home invasion) requires psychological/psychiatric management."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate",
+    "objective": "Reassess behavioral thresholds to establish organic hearing levels and facilitate psychological referral."
+  },
+  "expected_outcome": [
+    "Pure-tone audiometry (reassessment): Thresholds were measured to be within normal limits bilaterally (PTA Right 13 dB HL, Left 15 dB HL).",
+    "Speech audiometry (reassessment): SRTs were commensurate with PTA (Right 13 dB HL, Left 15 dB HL) and WRS were normal bilaterally (96%).",
+    "The patient did not appear to realize her behavioral responses were inconsistent with previous sessions.",
+    "The patient's psychologist reported she was a survivor of a violent home invasion and referred her for psychiatric consultation."
+  ]
+}

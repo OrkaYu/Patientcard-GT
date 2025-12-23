@@ -1,0 +1,114 @@
+{
+  "case_id": "case_6_7",
+  "title": "Subcortical and Insular Lesions: Case 6-7",
+  "demographics": {
+    "age_years": 30,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I can't hear from my left ear and have severe difficulty hearing when there is background noise. I can't localize sounds or understand telephone conversations with my left ear. Music sounds off-key to me now, and I have trouble hearing the inflections in my own voice.",
+  "problem_summary": {
+    "onset": "Sudden onset following a collapse while skiing.",
+    "course": "Patient recovered well from the initial CVA motor deficits, but auditory complaints persisted during rehabilitation.",
+    "laterality": "Complaints are specific to the left ear (contralateral to the right-sided lesion).",
+    "associated_symptoms": "Left-sided hemiplegia, hemianopsia, parasthesia (at onset); intolerance to loud sounds; amusia (music sounds off-key); difficulty monitoring own voice prosody.",
+    "functional_impact": "Inability to use the telephone with the left ear, difficulty in noise, loss of enjoyment of music.",
+    "goals_motivation": "Patient complained often during rehab, seeking explanation and relief."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (referral during rehabilitation)",
+      "history": {
+        "present_illness": "The patient suffered an acute intracerebral bleed of the right insula and internal capsule after collapsing while skiing. He presented with left-sided hemiplegia and hemianopsia.",
+        "otologic_history": "No specific prior otologic history mentioned.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Father had a history of 3 CVAs.",
+        "prior_management": "Referred for audiogram during rehabilitation course due to persistent complaints.",
+        "patient_goals": "To understand why he cannot hear in noise or enjoy music despite recovering from the stroke."
+      },
+      "tests": [
+        {
+          "name": "Radiology (CT Scan)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 6-31",
+            "Figure 6-32"
+          ],
+          "key_findings": "Vascular lesion involving the right insula, lenticular process, and internal and external capsules.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal hearing sensitivity bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech recognition scores were normal bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Central Auditory Processing Evaluation (Behavioral)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal performance on dichotic digits, frequency patterns, and duration patterns. However, the Dichotic Rhyme Test showed a marked deficit for the left ear and above-normal performance for the right ear (consistent on retest).",
+          "numeric_results": {}
+        },
+        {
+          "name": "Middle Latency Response (MLR)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Considerable asymmetry observed. Both right and left ear stimulations revealed reduced responses for the T4 electrode site (right hemisphere/lesion side), indicating an electrode effect.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Despite normal peripheral hearing sensitivity and speech recognition in quiet, this 30-year-old male presents with significant central auditory deficits following a right insular/internal capsule hemorrhage. Behavioral testing revealed a specific deficit in the Dichotic Rhyme Test for the left ear (contralateral to lesion). Electrophysiologic testing (MLR) showed an electrode effect with reduced responses over the right hemisphere (T4). The findings correlate with the patient's complaints of difficulty in noise, localization issues, and amusia.",
+  "counseling_points": [
+    "Explain that the hearing difficulty is central (brain-based) rather than peripheral (ear-based), specifically related to the right insular lesion.",
+    "Validate the patient's complaints of 'hearing loss' in the left ear and music perception issues as real physiological consequences of the stroke.",
+    "Discuss the 'electrode effect' seen in MLR as confirmation of the deep brain lesion affecting auditory pathways.",
+    "Recommend music therapy training.",
+    "Teach metacognitive strategies for dealing with background noise."
+  ],
+  "notes_for_actor": [
+    "You are young (30) and were active (skiing) before the stroke.",
+    "You are relieved to find out there is a reason for your hearing issues, as standard tests might have told you your hearing was 'normal'.",
+    "You are musically inclined, so the fact that music sounds 'off-key' is particularly distressing.",
+    "You have clear trouble with the phone on your left ear."
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "case_id": "case_8_8",
+  "title": "Sturge-Weber Syndrome: Hemispherectomy and Plasticity",
+  "demographics": {
+    "age_years": 8,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "My son has severe, frequent seizures that cause him to fall and hurt himself. The medications aren't stopping them.",
+  "problem_summary": {
+    "onset": "Birth (hemangioma); Seizures began at age 3 months.",
+    "course": "Intractable seizures worsening over time despite anticonvulsants; required two-stage surgical intervention.",
+    "laterality": "Left hemisphere pathology (Sturge-Weber); Right hemiparesis; Left ear auditory superiority.",
+    "associated_symptoms": "Right-sided focal motor seizures, myoclonic seizures (drop attacks), right hemiparesis with atrophy, mild cognitive problems.",
+    "functional_impact": "Frequent physical injuries from falls; initially unable to complete auditory testing due to seizure severity.",
+    "goals_motivation": "Control seizure activity to prevent injury and improve quality of life."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Medical Center (Pre-operative)",
+      "history": {
+        "present_illness": "8-year-old male with intractable seizures secondary to Sturge-Weber syndrome. Seizures occur 4-6 times per day, often resulting in falls and injury.",
+        "otologic_history": "No specific otologic complaints mentioned, but testing was impossible due to condition.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "Prenatal history normal. Born with capillary hemangioma on left face (Vth nerve distribution). Right hemiparesis noted after first seizure at 3 months. Left-handed. No aphasia.",
+        "prior_management": "Multiple anticonvulsants failed to control seizures.",
+        "patient_goals": "Assessment prior to surgical intervention."
+      },
+      "tests": [
+        {
+          "name": "Behavioral Audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient was considered untestable due to the frequency and severity of seizures.",
+          "numeric_results": {
+            "Result": "Untestable"
+          }
+        },
+        {
+          "name": "CT Scan",
+          "timepoint_label": "Pre-op",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-22"
+          ],
+          "key_findings": "Thickened skull with extensive calcification in left frontal area; hemiatrophy of left cerebrum; enlarged left lateral and third ventricles.",
+          "numeric_results": null
+        },
+        {
+          "name": "MRI",
+          "timepoint_label": "Pre-op",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-23",
+            "Figure 8-24"
+          ],
+          "key_findings": "Grossly enlarged left ventricle and atrophy of the left hemisphere.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic (Post-Anterior Sectioning)",
+      "history": {
+        "present_illness": "Patient underwent sectioning of the anterior two-thirds of the corpus callosum. Seizures were not reduced/controlled.",
+        "otologic_history": "Able to respond to test requirements due to slight decrease in seizure severity/medications.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Post-surgical status (Stage 1).",
+        "prior_management": "Anterior commissurotomy.",
+        "patient_goals": "Audiologic evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-Anterior Sectioning",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal peripheral test results found for both ears.",
+          "numeric_results": {
+            "Hearing Sensitivity": "Normal limits"
+          }
+        },
+        {
+          "name": "Dichotic Digits (Single pairs)",
+          "timepoint_label": "Post-Anterior Sectioning",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-25"
+          ],
+          "key_findings": "Significant left ear superiority. Patient reported more items presented to the left ear than the right. Right ear performance at or below chance.",
+          "numeric_results": {
+            "Left Ear": "~40% (estimated from graph)",
+            "Right Ear": "~0-5% (estimated from graph)"
+          }
+        },
+        {
+          "name": "Dichotic Rhyme",
+          "timepoint_label": "Post-Anterior Sectioning",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-25"
+          ],
+          "key_findings": "Left ear score fell within normal limits. Right ear performance at or below chance.",
+          "numeric_results": {
+            "Left Ear": "~70% (estimated from graph)",
+            "Right Ear": "~15% (estimated from graph)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic (Post-Posterior Sectioning)",
+      "history": {
+        "present_illness": "Patient underwent second surgery to section the remaining posterior portion of the corpus callosum. Seizures abated significantly (1-2 brief episodes/week).",
+        "otologic_history": "Patient is more attentive and communicative.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Marked improvement in behavior and intellectual functioning. Able to play sports.",
+        "prior_management": "Total commissurotomy completed.",
+        "patient_goals": "Follow-up evaluation."
+      },
+      "tests": [
+        {
+          "name": "Dichotic Digits (Single pairs)",
+          "timepoint_label": "Post-Posterior Sectioning",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-25"
+          ],
+          "key_findings": "Performance similar to previous exam. Left ear performance improved somewhat; Right ear remained poor.",
+          "numeric_results": {
+            "Left Ear": "~45% (estimated from graph)",
+            "Right Ear": "~0% (estimated from graph)"
+          }
+        },
+        {
+          "name": "Dichotic Rhyme",
+          "timepoint_label": "Post-Posterior Sectioning",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8-25"
+          ],
+          "key_findings": "Left ear performance improved somewhat. Right ear performance dropped to 0%.",
+          "numeric_results": {
+            "Left Ear": "~75% (estimated from graph)",
+            "Right Ear": "0%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 8-year-old male with Sturge-Weber syndrome affecting the left hemisphere demonstrates normal peripheral hearing but profound central auditory deficits characterized by a 'paradoxical' left ear superiority on dichotic tasks. Typically, the right ear is dominant for language; however, due to early, diffuse left-hemisphere damage, language function likely lateralized to the right hemisphere (neuroplasticity). Consequently, the left ear (projecting directly to the language-dominant right hemisphere) performs well, while the right ear (projecting to the damaged left hemisphere) shows extinction/near-zero performance. Sectioning the corpus callosum (anterior then posterior) did not create the deficit but revealed the pre-existing lateralization and lack of interhemispheric transfer from the damaged left side.",
+  "counseling_points": [
+    "Explain that the child's hearing sensitivity is normal, but the brain processes sound differently due to the Sturge-Weber syndrome.",
+    "Discuss the 'Left Ear Advantage': The child processes speech much better when heard in the left ear because his language center has moved to the right side of the brain.",
+    "Highlight that the 'deafness' in the right ear for complex speech tasks is due to the brain injury on the left side, not an ear problem.",
+    "Reassure that the improvement in seizure control and behavior post-surgery is the primary success, and the auditory pattern confirms the brain's adaptation (plasticity)."
+  ],
+  "notes_for_actor": [
+    "Patient is a young child (8yo); history likely provided by parent or medical chart.",
+    "The child has right-sided physical weakness (hemiparesis) and may neglect the right side of space (visual field neglect mentioned in text).",
+    "The key audiologic feature is that he hears normally in terms of volume, but if you say different things to both ears, he only repeats what was in the LEFT ear.",
+    "Post-surgery, the child is much more alert, plays tennis, and is doing better in school."
+  ]
+}

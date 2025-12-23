@@ -1,0 +1,118 @@
+{
+  "case_id": "Case053",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Autoimmune Inner Ear Disease (AIED)",
+      "rationale_short": "The clinical presentation of bilateral, asymmetric, rapidly progressive SNHL with vestibular involvement, elevated ESR, and systemic autoimmune signs (episcleritis) strongly supports AIED. The positive response to immunosuppressive therapy confirms this diagnosis."
+    },
+    {
+      "rank": 2,
+      "label": "Idiopathic Sudden Sensorineural Hearing Loss (ISSHL)",
+      "rationale_short": "While the initial right ear loss fits the criteria for ISSHL, the subsequent involvement of the contralateral ear and systemic markers point to an underlying autoimmune etiology rather than a simple idiopathic event."
+    },
+    {
+      "rank": 3,
+      "label": "Meniere's Disease",
+      "rationale_short": "Symptoms of vertigo, tinnitus, and aural fullness overlap with Meniere's, but the rapid progression to anacusis and the high ESR are more consistent with AIED."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Comprehensive Audiologic Evaluation",
+        "urgency": "urgent",
+        "rationale_short": "Immediate assessment is critical to document the severity of loss and monitor for fluctuations in the only hearing ear."
+      },
+      {
+        "action": "Laboratory Blood Panel (ESR, CRP, ANA)",
+        "urgency": "urgent",
+        "rationale_short": "To screen for inflammatory or autoimmune markers; elevated ESR is a key diagnostic indicator for AIED."
+      },
+      {
+        "action": "Vestibular Assessment (ENG/VNG)",
+        "urgency": "soon",
+        "rationale_short": "To assess peripheral vestibular function given the history of severe vertigo and unsteadiness."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Right ear anacusis and left ear mild SNHL with right peripheral vestibular deficit.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Profound loss/No response. Left ear: Mild sloping sensorineural hearing loss."
+          },
+          {
+            "name": "Electronystagmography (ENG)",
+            "category": "Vestibular",
+            "result_summary": "Unilateral weakness on the right (0% caloric response)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Confirmation of systemic inflammation supporting AIED diagnosis.",
+        "tests": [
+          {
+            "name": "Laboratory Studies",
+            "category": "Blood work",
+            "result_summary": "Elevated Erythrocyte Sedimentation Rate (ESR) of 93 mm/h."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Long-term outcome showing permanent right anacusis and gradual progression of left ear loss despite treatment.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Anacusis. Left ear: Mild sloping to severe SNHL (15-20 dB decline from baseline)."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Medical management with corticosteroids (Prednisone) and immunosuppressants (Cytoxan) to stabilize hearing",
+      "Trial of BiCROS hearing aids (initially considered for single-sided deafness)",
+      "Fit monaural BTE hearing aid for the left ear (patient preference over BiCROS)",
+      "Use of assistive listening devices (FM system) for difficult listening situations",
+      "Vestibular rehabilitation strategies for balance compensation",
+      "Medical Referral (Otology/Rheumatology)"
+    ],
+    "counseling_actions": [
+      "Educate on the urgency of reporting any sudden changes in the 'good' ear immediately",
+      "Discuss realistic expectations regarding localization and speech-in-noise difficulties due to single-sided deafness",
+      "Advise on safety precautions (nightlights, visual cues) to compensate for vestibular loss",
+      "Counsel on stress management and the impact of chronic autoimmune conditions on hearing"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Sudden onset sensorineural hearing loss",
+      "Bilateral involvement (sequential)",
+      "Vestibular symptoms (vertigo, unsteadiness)",
+      "Elevated ESR and systemic autoimmune signs (episcleritis)"
+    ],
+    "escalation": {
+      "urgency": "urgent",
+      "destination": "Otologist and Rheumatologist",
+      "rationale_short": "AIED requires aggressive medical management to prevent total deafness; sudden drops are medical emergencies."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "Immediate medical review during fluctuations; routine audiological monitoring every 6-12 months.",
+    "objective": "Monitor thresholds in the only hearing ear to guide medical dosage and adjust amplification."
+  },
+  "expected_outcome": [
+    "Preservation of functional hearing in the left ear through medical management, despite some long-term decline.",
+    "Permanent profound hearing loss (anacusis) in the right ear.",
+    "Successful use of monaural amplification and communication strategies.",
+    "Adaptation to vestibular deficit with visual compensation."
+  ]
+}

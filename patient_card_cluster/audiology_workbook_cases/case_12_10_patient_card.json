@@ -1,0 +1,122 @@
+{
+  "case_id": "case_12_10",
+  "title": "Case Study 10",
+  "demographics": {
+    "age_years": 44,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've been having dizzy spells for the last 3 months and I'm having trouble hearing, especially in my left ear. I also hear a buzzy sound and my ear feels full.",
+  "problem_summary": {
+    "onset": "3 months ago (vertigo).",
+    "course": "Episodic vertigo; chronic perforation in right ear.",
+    "laterality": "Bilateral findings (Right perforation, Left hearing loss/symptoms).",
+    "associated_symptoms": "Vertigo, 'buzzy' tinnitus (left), aural fullness (left).",
+    "functional_impact": "Hearing difficulties reported, particularly in the left ear.",
+    "goals_motivation": "Evaluation of vertigo and hearing status."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient referred by ENT for evaluation due to episodes of vertigo over the past 3 months. ENT noted a perforation in the right ear. Patient reports hearing difficulties (Left > Right), tinnitus ('buzzy'), and aural fullness.",
+        "otologic_history": "Right ear perforation noted by physician.",
+        "noise_exposure_history": "Denied excessive noise exposure on a regular basis.",
+        "medical_psych_history": "Denied family history of hearing loss.",
+        "prior_management": "Referral from ENT.",
+        "patient_goals": "Diagnosis and management of vertigo and hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram Graph"
+          ],
+          "key_findings": "Right ear shows mild low-frequency conductive hearing loss rising to normal limits in the high frequencies with a significant air-bone gap in the lows. Left ear shows a mild-to-moderate relatively flat sensorineural hearing loss.",
+          "numeric_results": {
+            "Right_AC_Thresholds_dB_HL": "250Hz:30, 500Hz:25, 1000Hz:20, 2000Hz:15, 4000Hz:10, 8000Hz:10",
+            "Right_BC_Thresholds_dB_HL": "0-5 dB across 250-4000 Hz",
+            "Left_AC_Thresholds_dB_HL": "250Hz:40, 500Hz:35, 1000Hz:35, 2000Hz:30, 4000Hz:35, 8000Hz:40",
+            "Left_BC_Thresholds_dB_HL": "Consistent with AC thresholds (SNHL)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table: PTA SRT WRS"
+          ],
+          "key_findings": "Excellent word recognition in the right ear; good/fair word recognition in the left ear.",
+          "numeric_results": {
+            "Right_WRS": "100% @ 85 dB HL (masked)",
+            "Left_WRS": "84% @ 85 dB HL (masked)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Table: Tymps",
+            "Admittance Graph"
+          ],
+          "key_findings": "Right ear: Type B with large ear canal volume (consistent with perforation). Left ear: Type A (normal).",
+          "numeric_results": {
+            "Right_Vea": "3.9 mmhos",
+            "Right_Ytm": "NP",
+            "Left_Vea": "0.9 mmhos",
+            "Left_Ytm": "0.8 mmhos",
+            "Left_TPP": "-90 daPa",
+            "Left_TW": "85 daPa"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Reflectance Graph"
+          ],
+          "key_findings": "Wideband reflectance: Right ear shows very low reflectance across the frequency range (consistent with perforation). Left ear shows normal reflectance pattern.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a mild low-frequency conductive hearing loss in the right ear, consistent with the known tympanic membrane perforation (confirmed by large volume Type B tympanogram). The left ear exhibits a mild-to-moderate flat sensorineural hearing loss with reduced word recognition (84%). The constellation of left-sided SNHL, tinnitus, aural fullness, and episodic vertigo is clinically significant.",
+  "counseling_points": [
+    "Your hearing test confirms two different conditions affecting your ears.",
+    "In the right ear, the hole in the eardrum (perforation) is preventing sound from carrying efficiently, causing a mild hearing loss in the low pitches.",
+    "In the left ear, you have a nerve-related hearing loss. This, combined with the buzzing sound, fullness, and dizziness you described, suggests an inner ear condition that we need to manage medically.",
+    "It is important to keep your right ear dry to prevent infection due to the perforation.",
+    "We will coordinate with your ENT physician regarding the management of the dizziness and the perforation."
+  ],
+  "notes_for_actor": [
+    "You are experiencing 'buzzy' noise and fullness specifically in your LEFT ear, even though the doctor mentioned a hole in your RIGHT ear.",
+    "You are not in pain.",
+    "If asked about the dizziness, describe it as spinning sensations (vertigo) that come and go."
+  ]
+}

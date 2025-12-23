@@ -1,0 +1,287 @@
+{
+  "case_id": "case_10_1",
+  "title": "Complete Cortical Deafness / Central Deafness following Bilateral CVAs",
+  "demographics": {
+    "age_years": 20,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "Immediately following my seizure, I could not hear anything at all. Now, I can hear sounds and recognize familiar music, but I still struggle to understand words, especially if there is any background noise or if people speak quickly.",
+  "problem_summary": {
+    "onset": "Sudden onset of total deafness following a tonic-clonic seizure associated with a second CVA (17 months after first CVA).",
+    "course": "Total deafness for 1-2 weeks; faint buzzing at 2 weeks; perception of loud noises at 1 month. Recognition of environmental sounds and familiar music returned around 4 months. Speech perception began returning at 5-7 months (aided by lipreading) and improved gradually over 2 years, though deficits in noise persist.",
+    "laterality": "Bilateral central involvement; behavioral deficits worse in the left ear.",
+    "associated_symptoms": "Transient dysnomia and dysgraphia (cleared in days); left arm and leg paresis (residual from first CVA); inability to recognize unfamiliar music.",
+    "functional_impact": "Severe difficulty understanding speech in noise; reliance on speechreading; inability to appreciate new music.",
+    "goals_motivation": "Highly motivated; wife is a speech-language pathologist who assists with auditory training."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Acute Care / Inpatient",
+      "history": {
+        "present_illness": "Patient suffered second CVA. Became confused, collapsed, had tonic-clonic seizure. Post-seizure presented with total inability to hear.",
+        "otologic_history": "No prior hearing loss reported. First CVA 17 months prior involved right temporal/parietal lobes.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "History of two strokes in early 20s. Taken off Coumadin just before second stroke.",
+        "prior_management": "None.",
+        "patient_goals": "Restoration of hearing."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Acute (0-3 weeks post-CVA)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-3"
+          ],
+          "key_findings": "Essentially no response or responses in the profound loss range.",
+          "numeric_results": {
+            "Thresholds": "No response or Profound (>90 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Acute (Week 1)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal middle ear function.",
+          "numeric_results": {
+            "Result": "Normal (Type A implied)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Acute (Week 1)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Reflexes present and normal bilaterally, indicating integrity of the lower brainstem and peripheral system.",
+          "numeric_results": {
+            "Result": "Normal"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Acute (Week 1)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-6"
+          ],
+          "key_findings": "Normal morphology and latencies bilaterally. Responses observed down to 30 dB nHL.",
+          "numeric_results": {
+            "Wave V": "Present",
+            "Interwave intervals": "Normal"
+          }
+        },
+        {
+          "name": "Middle Latency Response (MLR)",
+          "timepoint_label": "Acute",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-7"
+          ],
+          "key_findings": "Na, Pa, Nb, and Pb responses were absent. Large positive wave observed around 20 msec interpreted as myogenic artifact.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up during spontaneous recovery period.",
+        "otologic_history": "N/A",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "N/A",
+        "patient_goals": "Monitoring recovery."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Sub-acute (4-5 weeks post-CVA)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-3"
+          ],
+          "key_findings": "Hearing sensitivity improved to the severe-to-profound loss range bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Recovery (8 weeks - 2 months post-CVA)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-3"
+          ],
+          "key_findings": "Thresholds improved considerably, varying from normal levels to mild hearing loss bilaterally. Subjective hearing did not always correlate with audiogram fluctuations.",
+          "numeric_results": {
+            "Range": "0-40 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "2 months post-CVA",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Speech Detection Thresholds (SDT) consistent with pure tones. Spondee thresholds could not be established (no word understanding).",
+          "numeric_results": {
+            "SDT Right": "22-30 dB HL",
+            "SDT Left": "22-30 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Long-term follow-up and rehabilitation assessment.",
+        "otologic_history": "N/A",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "Auditory training with SLP wife.",
+        "patient_goals": "Improve speech understanding."
+      },
+      "tests": [
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "6-10 months post-CVA",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Spondee thresholds established at 10 months. Left ear consistently poorer than right.",
+          "numeric_results": {
+            "SRT Right": "22 dB HL",
+            "SRT Left": "40 dB HL"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Long-term",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Background noise severely affects comprehension. Understanding drops to near zero with significant noise.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Longitudinal (14 months to 2+ years)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-4",
+            "Figure 10-5"
+          ],
+          "key_findings": "Word recognition (NU-6) showed right ear improvement over time, but left ear remained very poor. Binaural condition yielded best scores. Sentence recognition showed right ear reaching 100% by 2 years, while left ear fluctuated and remained poor.",
+          "numeric_results": {
+            "WRS Right (14 mo)": "16%",
+            "WRS Left (14 mo)": "10%",
+            "WRS Binaural (14 mo)": "36%",
+            "Sentence Recog Right (2 yrs)": "100%",
+            "Sentence Recog Left (2 yrs)": "~30-60% (fluctuating)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Long-term (8 years)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-8",
+            "Figure 10-9"
+          ],
+          "key_findings": "Late auditory evoked potentials (N1, P2, P300) remained absent for either ear or binaurally, despite behavioral improvements.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Radiology (Brain Print/MRI)",
+          "ear": "N/A",
+          "condition": "N/A",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 10-1",
+            "Figure 10-2"
+          ],
+          "key_findings": "Extensive Right Hemisphere damage (Temporal 64%, Parietal 45%, Frontal 40%, Insula 100%). Left Hemisphere damage limited but critical (Temporal 7% but 100% of Heschl's gyrus; Parietal 15%).",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This is a case of complete cortical deafness evolving into central deafness/word deafness due to bilateral temporal lobe lesions (extensive right, focal left involving Heschl's gyrus). Peripheral hearing (OAEs/Reflexes/ABR) is intact. Pure tone thresholds recovered to near-normal, but profound deficits in speech processing persist, particularly in the left ear (contralateral to the massive right hemisphere lesion) and in noise. Electrophysiologic markers of cortical processing (MLR/LLR) remain absent, suggesting behavioral recovery is due to neural plasticity/reorganization not captured by standard electrode montages.",
+  "counseling_points": [
+    "Explain the dissociation between 'hearing' (detection) and 'understanding' (processing); the ears are working, but the brain's auditory centers are damaged.",
+    "Emphasize the permanent difficulty with background noise; auditory processing in complex environments will remain compromised.",
+    "Highlight the importance of visual cues (speechreading) which the patient is already using effectively.",
+    "Discuss the 'better ear' phenomenon; the right ear is performing significantly better for speech than the left.",
+    "Encourage continued auditory training and exposure to familiar sounds/music to maximize plasticity, noting the patient's young age is a positive prognostic factor."
+  ],
+  "notes_for_actor": [
+    "In the early scenes (acute), you are completely deaf. You cannot hear your own voice, so modulation might be difficult.",
+    "In later scenes, you can hear sounds clearly (doorbells, phone rings), but speech sounds like 'mumbling' or a foreign language.",
+    "If there is background noise in the scene, you should act confused and unable to follow the conversation.",
+    "You recognize old, familiar music (from before the stroke) but new music sounds like noise/nonsense to you.",
+    "You rely heavily on watching the speaker's face."
+  ]
+}

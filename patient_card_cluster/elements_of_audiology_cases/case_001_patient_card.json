@@ -1,0 +1,158 @@
+{
+  "case_id": "elements_case_01",
+  "title": "Bilateral Conductive Hearing Loss (Otosclerosis)",
+  "demographics": {
+    "age_years": 26,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have had diminished hearing for several years that seems to be getting worse.",
+  "problem_summary": {
+    "onset": "Several years ago",
+    "course": "Progressive",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Difficulty hearing while chewing; hears better in noisy backgrounds than quiet places.",
+    "functional_impact": "Communication difficulties, particularly while eating.",
+    "goals_motivation": "Seeking diagnosis and management options."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "The patient reports progressive hearing loss over several years. She notes increased difficulty hearing while chewing (deprecusis) but surprisingly understands speech better in noisy backgrounds than in quiet places (paracusis willisii).",
+        "otologic_history": "Mother reports patient had ear infections as a small child, but patient has no memory of this.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Patient and family members have a bluish cast to the whites of their eyes (blue sclera).",
+        "prior_management": "None reported for the patient.",
+        "patient_goals": "Diagnosis and treatment."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiogram (Page 206)"
+          ],
+          "key_findings": "Bilateral conductive hearing loss. Low-frequency tilt (rising configuration) suggesting stiffness. Normal bone conduction with a dip at 2000 Hz (Carhart notch). Significant air-bone gaps present.",
+          "numeric_results": {
+            "Right_AC_250Hz": "~30-35 dB HL",
+            "Left_AC_250Hz": "~40-45 dB HL",
+            "Bone_Conduction": "0-10 dB HL (Normal)",
+            "Carhart_Notch": "Dip in BC at 2000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) align with pure tone averages. Word recognition scores (SRS) are excellent bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "25 dB HL",
+            "SRT_Left": "35 dB HL",
+            "SRS_Right": "98%",
+            "SRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Tympanogram (Page 206)",
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Type A tympanograms with normal static compliance.",
+          "numeric_results": {
+            "Static_Compliance_Right": "0.7 cc",
+            "Static_Compliance_Left": "0.65 cc"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral reflexes at equipment limits.",
+          "numeric_results": {
+            "ARTs_Ipsi": "Absent",
+            "ARTs_Contra": "Absent"
+          }
+        },
+        {
+          "name": "ABR",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "All waves prolonged absolute latencies; interpeak latencies normal; latency-intensity function normal. Consistent with conductive pathology.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Audiometric Data Table"
+          ],
+          "key_findings": "TEOAEs are absent. Tone decay is negative.",
+          "numeric_results": {
+            "TEOAE": "Absent",
+            "Tone_Decay_Right": "0 dB in 60s",
+            "Tone_Decay_Left": "5 dB in 60s"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, progressive conductive hearing loss characterized by a low-frequency stiffness tilt and a Carhart notch at 2000 Hz. Despite Type A tympanograms and normal static compliance, acoustic reflexes are absent, and TEOAEs are absent. Speech recognition is excellent. The audiometric profile, combined with the family history and physical finding of blue sclera, is strongly consistent with bilateral otosclerosis.",
+  "counseling_points": [
+    "Your hearing loss is 'conductive,' meaning sound is being blocked from reaching the inner ear efficiently, likely due to stiffness in the middle ear bones.",
+    "This condition runs in families; your sisters' history of hearing aids and surgery is very relevant.",
+    "You have two main options: surgical intervention (stapedectomy) or amplification (hearing aids).",
+    "I am referring you to an otologist (ear surgeon) to discuss the surgical option and confirm the medical diagnosis.",
+    "If you choose not to have surgery, hearing aids would likely be very effective given your excellent ability to understand speech."
+  ],
+  "notes_for_actor": [
+    "If asked about your eyes, mention that people have told you the whites look slightly blue.",
+    "Emphasize that you hear better at parties or noisy restaurants than you do in quiet rooms (Paracusis Willisii).",
+    "Mention that chewing makes it harder to hear (Deprecusis).",
+    "You are aware your sisters have hearing loss; one had surgery and one wears hearing aids."
+  ]
+}

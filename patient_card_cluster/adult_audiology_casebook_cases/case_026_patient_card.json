@@ -1,0 +1,182 @@
+{
+  "case_id": "case26_The_Presentation_of_Cerebellar_Disease_i",
+  "title": "The Presentation of Cerebellar Disease in Vestibular Testing of an Adult Patient",
+  "demographics": {
+    "age_years": 55,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I get dizzy if I turn too suddenly and if I change position too quickly.",
+  "problem_summary": {
+    "onset": "Lifelong history of imbalance; recent exacerbation/evaluation following mTBI and falls.",
+    "course": "Chronic, non-progressive (confirmed by 1-year follow-up).",
+    "laterality": "Bilateral (central findings).",
+    "associated_symptoms": "Mild short and long term memory loss, slow ambulation, headaches, diplopia, depression, gait ataxia, chronic lower back pain.",
+    "functional_impact": "Falls, difficulty with quick turns or position changes.",
+    "goals_motivation": "Patient is cooperative and motivated; seeking to rule out peripheral vestibular disease."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology/Vestibular Clinic",
+      "history": {
+        "present_illness": "Patient referred by fall prevention/mTBI team for comprehensive vestibular assessment. Initial working diagnosis was postural instability secondary to BPPV.",
+        "otologic_history": "Normal hearing.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "History of alcohol and tobacco dependence, multiple closed fractures from MVAs, hypothyroidism, depression, mood disorder. Recent diagnosis of rostral vermis syndrome (cerebellar disease) secondary to alcohol abuse.",
+        "prior_management": "Screened by fall prevention and mTBI team.",
+        "patient_goals": "Rule out peripheral vestibular system disease."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Assessments are well within normal limits bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Computerized Dynamic Posturography (CDP)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 26.1"
+          ],
+          "key_findings": "Motor Control (MC) composite within normal limits but with rightward weight symmetry. Sensory Organization Test (SOT) abnormal with falls in vestibular-dependent conditions (5 and 6).",
+          "numeric_results": {
+            "SOT Condition 5": "Fall (0 score)",
+            "SOT Condition 6": "Fall (0 score)",
+            "Center of Gravity": "Borderline normal (rightward)"
+          }
+        },
+        {
+          "name": "Rotary Chair Testing",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 26.2"
+          ],
+          "key_findings": "Normal Sinusoidal Harmonic Acceleration (SHA) and VOR gain. Abnormal Visual Fixation Suppression (VFX) with high failure gains. Step velocity low normal.",
+          "numeric_results": {
+            "SHA Phase/Gain": "Normal at 0.01, 0.04, 0.16 Hz",
+            "VFX Gain (0.04 Hz)": "0.36 to 0.40 (Abnormal/High)",
+            "Step Velocity": "Low normal"
+          }
+        },
+        {
+          "name": "Videonystagmography (VNG) - Oculomotor",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 26.3",
+            "Figure 26.4",
+            "Figure 26.5",
+            "Figure 26.6"
+          ],
+          "key_findings": "Central signs present: Spontaneous up-beating nystagmus. Direction-changing and rebounding gaze-evoked nystagmus. Saccades showed mild inaccuracies (undershoot). Pursuit showed 'cogwheeling' and low gain (especially at 0.40 Hz). Horizontal OKN essentially absent.",
+          "numeric_results": {
+            "Spontaneous Nystagmus": "1 to 3 deg/s up-beating",
+            "Horizontal Gaze Nystagmus": "5 to 8 deg/s SPV",
+            "Vertical Gaze Nystagmus": "3 to 6 deg/s SPV (up-beating)",
+            "Pursuit Gain": "Abnormally low at 0.40 Hz"
+          }
+        },
+        {
+          "name": "Videonystagmography (VNG) - Caloric",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 26.7"
+          ],
+          "key_findings": "Bithermal open-water calorics were clinically normal for labyrinthine function (no significant weakness), but showed failure of visual fixation suppression.",
+          "numeric_results": {
+            "Unilateral Weakness": "6% (Normal)",
+            "Directional Preponderance": "6% (Normal)",
+            "Fixation Suppression (Left Cool)": "78% (Abnormal failure)",
+            "Fixation Suppression (Right Warm)": "67% (Abnormal failure)"
+          }
+        },
+        {
+          "name": "VEMPs",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Cervical and ocular vestibular evoked myogenic potentials were without repeatable waveforms.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "1 year later",
+      "setting": "Audiology/Vestibular Clinic",
+      "history": {
+        "present_illness": "Follow-up to rule out progressive disorder.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "Previous comprehensive assessment.",
+        "patient_goals": "Monitor stability of condition."
+      },
+      "tests": [
+        {
+          "name": "Comprehensive Vestibular Assessment (Repeat)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Results equivalent to initial exam. Saccadic inaccuracies improved to marginally normal but remained asymmetric (undershooting left). Other findings (abnormal fixation suppression, poor OKN) remained unchanged.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing and normal peripheral vestibular function (normal caloric and rotary chair phase/gain). However, there are significant central vestibular findings consistent with a caudal (posterior) cerebellar syndrome. These include failure of visual fixation suppression, direction-changing and rebound gaze-evoked nystagmus, impaired pursuit, and absent optokinetic nystagmus. Functional balance is compromised in vestibular-dependent conditions due to the inability to utilize vestibular cues effectively.",
+  "counseling_points": [
+    "Your inner ear balance sensors (peripheral system) are working normally.",
+    "The difficulty lies in the brain's central processing center (cerebellum), which is having trouble integrating the balance signals.",
+    "This explains why you feel dizzy with quick turns or position changes, as your brain cannot suppress or process the motion signals quickly enough.",
+    "Safety is a priority; use caution when turning or changing positions to prevent falls.",
+    "Physical therapy for balance rehabilitation is recommended to help you develop strategies to manage these symptoms."
+  ],
+  "notes_for_actor": [
+    "Portray a cooperative and motivated patient who is nevertheless frustrated by a lifelong history of imbalance.",
+    "You have a history of alcohol abuse and mTBI, but you are currently alert and trying to find answers.",
+    "When describing your dizziness, emphasize that it is triggered by sudden turns or position changes.",
+    "You do not have hearing loss, so you can communicate normally without asking for repetition."
+  ]
+}

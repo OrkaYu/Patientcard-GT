@@ -1,0 +1,120 @@
+{
+  "case_id": "case_9_3",
+  "title": "Multiple Sclerosis: Sudden Hearing Loss and Brainstem Involvement",
+  "demographics": {
+    "age_years": 46,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been dealing with neurological issues for years, but about three weeks ago I developed constant ringing and a sudden loss of hearing in my right ear. I'm also having headaches and double vision again.",
+  "problem_summary": {
+    "onset": "Neurologic symptoms began 13 years ago; current auditory exacerbation began 3 weeks ago.",
+    "course": "Waxing and waning neurologic course; sudden onset hearing loss in the right ear.",
+    "laterality": "Bilateral neurologic involvement; Right ear sudden hearing loss; Left ear stable historical loss.",
+    "associated_symptoms": "Constant tinnitus (right), intermittent headaches, episodic double vision (diplopia), vertigo, gait difficulty, ataxia, numbness (extremities, tongue), swallowing difficulties.",
+    "functional_impact": "Inability to recognize speech in the right ear.",
+    "goals_motivation": "Diagnosis of sudden hearing loss etiology in the context of known neurologic history."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic / Neuroaudiology",
+      "history": {
+        "present_illness": "Patient presents with a 3-week history of constant tinnitus and sudden hearing loss in the right ear, accompanied by headaches and diplopia. This occurs against a backdrop of a 13-year history of waxing and waning MS symptoms (numbness, gait issues, swallowing problems).",
+        "otologic_history": "Previous history of left-sided, low-frequency hearing loss. Prior evaluation 10 years ago for suspected CPA tumor was negative.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Diagnosed with Multiple Sclerosis. History includes truncal paraesthesias, limb numbness, and swallowing difficulties.",
+        "prior_management": "Evaluated by neurosurgeon 10 years prior; symptoms subsided for 3 years before current flare-up.",
+        "patient_goals": "Evaluation of sudden hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-6"
+          ],
+          "key_findings": "Left ear shows mild low-frequency SNHL rising to normal. Right ear shows normal low-to-mid frequency thresholds with a precipitous drop to profound SNHL in the high frequencies starting at 3000 Hz.",
+          "numeric_results": {
+            "LE_thresholds": "250-500 Hz: ~25-35 dB HL; 1000-8000 Hz: ~10-20 dB HL",
+            "RE_thresholds": "250-2000 Hz: ~10-20 dB HL; 3000 Hz+: Profound loss/No Response",
+            "RE_Bone_Conduction": "No response at 4000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-6"
+          ],
+          "key_findings": "Excellent recognition in the left ear. Right ear could not be assessed due to inability to recognize stimuli.",
+          "numeric_results": {
+            "LE_WRS": "96%",
+            "RE_WRS": "CNT (Could Not Test/Recognize)"
+          }
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-7"
+          ],
+          "key_findings": "Abnormal bilaterally. LE: Normal Waves I & II, but poor definition of later waves; extended I-III interval; no obvious Wave V. RE: Only delayed Wave I evident; no Wave II.",
+          "numeric_results": {
+            "RE_Wave_I": "Delayed latency at 80 and 90 dB nHL",
+            "RE_Wave_II_V": "Absent"
+          }
+        },
+        {
+          "name": "MRI",
+          "timepoint_label": "Current Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 9-8"
+          ],
+          "key_findings": "Plaques in low pons and medulla, and periventricular regions. Lesions on both sides of low pons, greater involvement on the right side extending anterior-posterior.",
+          "numeric_results": {}
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This 46-year-old female with a history of MS presents with sudden right-sided hearing loss. Audiometry reveals a precipitous high-frequency SNHL in the right ear and a stable, mild low-frequency SNHL in the left ear. Speech recognition is excellent in the left but absent in the right. ABR is grossly abnormal bilaterally, showing retrocochlear signs (delayed/absent waves, extended intervals) that correlate with MRI findings of demyelinating plaques in the lateral low pons, likely affecting the cochlear nuclei and proximal auditory nerve fibers.",
+  "counseling_points": [
+    "Discuss the correlation between the sudden hearing loss and the MS flare-up (plaques in the brainstem).",
+    "Explain that the hearing loss in the right ear is sensorineural and currently affects speech understanding significantly.",
+    "Review ABR results indicating disruption in the neural pathways, consistent with the MRI findings.",
+    "Recommend continued management with neurology for the MS exacerbation.",
+    "Monitor hearing status, though recovery of the sudden loss may depend on the resolution of the acute MS plaque activity."
+  ],
+  "notes_for_actor": [
+    "You have a long history (13 years) of strange neurological symptoms that come and go, so you are familiar with medical settings.",
+    "You are currently anxious because this is a 'sudden' loss in your 'good' ear (the right one), whereas your left ear has had mild issues for a long time.",
+    "You may exhibit slight physical signs of ataxia or unsteadiness if asked to walk.",
+    "You report 'constant' ringing in the right ear which is very bothersome."
+  ]
+}

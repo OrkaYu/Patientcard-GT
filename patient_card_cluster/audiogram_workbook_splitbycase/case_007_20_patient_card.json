@@ -1,0 +1,147 @@
+{
+  "case_id": "case_7_20",
+  "title": "Bilateral Asymmetric Mixed Hearing Loss",
+  "demographics": {
+    "age_years": 73,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've had hearing loss for a long time in both ears, but the left one is definitely worse than the right. It's getting much harder to hear when there is background noise, and I want to see what my options are for hearing aids.",
+  "problem_summary": {
+    "onset": "Long-standing",
+    "course": "Stable or slowly progressive (long-standing history)",
+    "laterality": "Bilateral, asymmetric (Left worse than Right)",
+    "associated_symptoms": "Difficulty hearing in background noise",
+    "functional_impact": "Increased difficulty in noise",
+    "goals_motivation": "Interested in learning about amplification options"
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-09-17",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports long-standing bilateral hearing loss, noting the left ear is poorer than the right. He reports increased difficulty in background noise.",
+        "otologic_history": "No other reported otologic symptoms (pain, drainage, vertigo, etc.).",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Family history of hearing loss.",
+        "prior_management": "None specified.",
+        "patient_goals": "Interested in amplification options."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.20"
+          ],
+          "key_findings": "Right ear: Normal thresholds 250-2000 Hz, sloping to moderately severe sensorineural loss at 8000 Hz. Left ear: Asymmetric, poorer thresholds. Moderately severe to mild mixed loss in low frequencies (250-500 Hz), rising to normal at 750-1000 Hz, then sloping to mild to moderately severe mixed loss in high frequencies.",
+          "numeric_results": {
+            "RE_250Hz": "10 dB HL",
+            "RE_1000Hz": "10 dB HL",
+            "RE_4000Hz": "50 dB HL",
+            "RE_8000Hz": "65 dB HL",
+            "LE_250Hz": "55 dB HL (Air), 15 dB HL (Bone)",
+            "LE_1000Hz": "20 dB HL (Air), 10 dB HL (Bone)",
+            "LE_4000Hz": "60 dB HL (Air), 45 dB HL (Bone)",
+            "LE_8000Hz": "70 dB HL (Air)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.20"
+          ],
+          "key_findings": "Right ear: Normal ability to receive and recognize speech. Left ear: Slight loss in ability to receive speech and slight difficulty recognizing speech. Results in agreement with PTA.",
+          "numeric_results": {
+            "RE_SRT": "12 dB",
+            "RE_WRS": "96%",
+            "LE_SRT": "25 dB",
+            "LE_WRS": "80%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.20"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally.",
+          "numeric_results": {
+            "RE_ECV": "1.4 mL",
+            "RE_Peak_Pressure": "-10 daPa",
+            "LE_ECV": "1.3 mL",
+            "LE_Peak_Pressure": "-10 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.20"
+          ],
+          "key_findings": "Normal ipsilateral and contralateral thresholds (500-4000 Hz). Acoustic reflex decay negative at 500 and 1000 Hz.",
+          "numeric_results": {
+            "Reflexes": "Present/Normal",
+            "Decay": "Negative"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "ABR ordered due to asymmetry; results abnormal. MRI ordered; results normal.",
+          "numeric_results": {
+            "ABR": "Abnormal",
+            "MRI": "Normal"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral, asymmetric hearing loss. The right ear exhibits high-frequency sensorineural hearing loss, while the left ear shows a complex mixed hearing loss configuration (poorer in lows and highs, better in mids) with significant air-bone gaps despite normal tympanometry. Speech recognition is excellent in the right ear and good in the left ear. Further medical workup (ABR and MRI) ruled out retrocochlear pathology, attributing the loss to presbycusis and genetics.",
+  "counseling_points": [
+    "Your hearing test confirms that you have hearing loss in both ears, but as you suspected, the left ear is weaker than the right.",
+    "The type of hearing loss in your left ear is 'mixed,' meaning there is an issue with both the nerve and the conduction of sound, though your middle ear pressure test was normal.",
+    "Because there is a difference between your ears, we obtained medical clearance (MRI) which came back normal, ruling out any growths on the hearing nerve.",
+    "You are a good candidate for hearing aids. Using two hearing aids will help balance your hearing and improve your ability to hear in background noise.",
+    "We will need to monitor your hearing annually due to the complex nature of the loss."
+  ],
+  "notes_for_actor": [
+    "You are a 73-year-old male.",
+    "You have been aware of this hearing loss for a long time; you are not surprised by the results.",
+    "You are motivated to get hearing aids primarily because social situations with background noise are becoming frustrating.",
+    "You are cooperative and have no other dizziness or pain symptoms."
+  ]
+}

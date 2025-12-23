@@ -1,0 +1,114 @@
+{
+  "case_id": "Case022",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Right Superior Vestibular Neuritis (Uncompensated)",
+      "rationale_short": "History of single severe vertigo attack 5 years ago without hearing loss; testing shows specific deficit of superior vestibular nerve structures (lateral canal, utricle) with sparing of inferior structures (posterior canal, saccule)."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Bithermal Caloric Irrigation",
+        "urgency": "routine",
+        "rationale_short": "To assess the function of the horizontal semicircular canals and lateralize the lesion."
+      },
+      {
+        "action": "Video-oculography (VOG)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate oculomotor function and rule out central pathology."
+      },
+      {
+        "action": "Video Head Impulse Test (vHIT)",
+        "urgency": "routine",
+        "rationale_short": "To assess high-frequency VOR function across all six semicircular canals."
+      },
+      {
+        "action": "Cervical Vestibular-Evoked Myogenic Potential (cVEMP)",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the saccule and inferior vestibular nerve."
+      },
+      {
+        "action": "Ocular Vestibular-Evoked Myogenic Potential (oVEMP)",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the utricle and superior vestibular nerve."
+      },
+      {
+        "action": "Rotational Chair",
+        "urgency": "routine",
+        "rationale_short": "To evaluate VOR gain and phase over a range of frequencies and assess compensation status (though refused by patient)."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "Evaluation reveals uncompensated right peripheral vestibular dysfunction affecting the superior branch of the vestibular nerve. Key findings include a 100% reduced caloric response on the right, abnormal right lateral vHIT with reduced gain and covert saccades, and absent right oVEMP. The inferior branch is spared, evidenced by normal cVEMP and normal posterior canal vHIT.",
+        "tests": [
+          {
+            "name": "Bithermal Caloric Irrigation",
+            "category": "Vestibular",
+            "result_summary": "100% right reduced vestibular response (RVR)."
+          },
+          {
+            "name": "Video-oculography (VOG)",
+            "category": "Vestibular",
+            "result_summary": "Results within normal limits (excluding the caloric component)."
+          },
+          {
+            "name": "Video Head Impulse Test (vHIT)",
+            "category": "Vestibular",
+            "result_summary": "Right lateral canal: reduced gain (0.5) with covert saccades. Left lateral and all vertical canals (anterior/posterior): normal gain and function."
+          },
+          {
+            "name": "Cervical Vestibular-Evoked Myogenic Potential (cVEMP)",
+            "category": "Vestibular",
+            "result_summary": "Responses present bilaterally at normal thresholds (Left: 75 dB nHL, Right: 80 dB nHL), indicating normal saccule and inferior nerve function."
+          },
+          {
+            "name": "Ocular Vestibular-Evoked Myogenic Potential (oVEMP)",
+            "category": "Vestibular",
+            "result_summary": "Responses present in the left ear but absent in the right ear, indicating dysfunction of the utricle and superior vestibular nerve."
+          },
+          {
+            "name": "Rotational Chair",
+            "category": "Vestibular",
+            "result_summary": "Patient refused testing due to claustrophobia."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Referral to Physical Therapy specializing in Vestibular Rehabilitation",
+      "Balance retraining exercises",
+      "Neuromuscular re-education",
+      "Home exercise program"
+    ],
+    "counseling_actions": [
+      "Explain that the 'blurring' (oscillopsia) is due to the VOR failure causing eyes to slip off target during head movement",
+      "Discuss that 'covert saccades' indicate the brain is attempting to compensate but requires specific training",
+      "Clarify that the pattern of results (superior nerve deficit, inferior sparing) is consistent with the viral neuritis from 5 years ago",
+      "Reassure that despite the chronic duration (5 years), vestibular rehabilitation can still promote compensation"
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Physical Therapy (Vestibular Rehabilitation)",
+      "rationale_short": "Patient requires vestibular rehabilitation therapy to promote central compensation for chronic right vestibular hypofunction."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "10 weeks",
+    "objective": "Complete physical therapy course and re-evaluate symptom relief and functional goals."
+  },
+  "expected_outcome": [
+    "Patient met with PT twice a month and performed home exercises over 10 weeks.",
+    "At discharge, the majority of goals were met, including less anxiety when driving and return to recreational sports.",
+    "Patient reported an 85 to 90% improvement in balance.",
+    "Tolerance of busy visual environments continued to be difficult, but was improving; patient instructed to continue home exercises."
+  ]
+}

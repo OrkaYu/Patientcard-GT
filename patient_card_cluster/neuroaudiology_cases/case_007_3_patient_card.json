@@ -1,0 +1,150 @@
+{
+  "case_id": "case_7_3",
+  "title": "Glioblastoma Multiforme of the Right Temporal Lobe",
+  "demographics": {
+    "age_years": 40,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have numbness in my left arm, feel lightheaded, and I am having difficulty hearing in my left ear.",
+  "problem_summary": {
+    "onset": "Seizure disorder began 2 months prior to first hospital admission; hearing difficulties noted subsequent to two neurosurgeries (craniotomy and debulking) over the course of a year.",
+    "course": "Progressive tumor growth requiring multiple surgeries; current status is post-surgical.",
+    "laterality": "Right temporal lobe lesion; Left ear auditory symptoms.",
+    "associated_symptoms": "Left arm numbness, lightheadedness, left-sided motor problems, history of grand mal seizures, headaches, decreased vision.",
+    "functional_impact": "Subjective hearing difficulty in the left ear despite normal pure tone thresholds in that ear.",
+    "goals_motivation": "Evaluation of auditory function following neurosurgical intervention."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Neuroaudiology)",
+      "history": {
+        "present_illness": "Patient presented with a history of seizure disorder (grand mal), headaches, and visual field deficits. Diagnosed with glioblastoma multiforme in the right temporal lobe. Underwent craniotomy and a second debulking surgery the following year.",
+        "otologic_history": "Complaints of hearing difficulties in the left ear.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Seizure disorder (treated with Dilantin), Glioblastoma multiforme.",
+        "prior_management": "Two neurosurgical procedures on the right temporal lobe.",
+        "patient_goals": "Assessment of hearing difficulties."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-17"
+          ],
+          "key_findings": "Left ear thresholds are within normal limits. Right ear shows a mild conductive hearing loss (low-frequency dip).",
+          "numeric_results": {
+            "LE_Thresholds": "10-15 dB HL across 250-8000 Hz",
+            "RE_Thresholds": "30-35 dB HL at 250-1000 Hz, improving to 10-15 dB HL at 2000-4000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-17"
+          ],
+          "key_findings": "Excellent speech recognition ability in quiet for both ears.",
+          "numeric_results": {
+            "WRS_Right": "100%",
+            "WRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Dichotic Speech Tests",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-18"
+          ],
+          "key_findings": "Classic contralateral ear effect. Left ear scores are markedly depressed on Dichotic Digits and Competing Sentences. Right ear scores are normal.",
+          "numeric_results": {
+            "Dichotic_Digits_LE": "~65%",
+            "Dichotic_Digits_RE": "~95-100%",
+            "Competing_Sentences_LE": "~25%",
+            "Competing_Sentences_RE": "~75%"
+          }
+        },
+        {
+          "name": "Duration Patterns Test",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-18"
+          ],
+          "key_findings": "Scores were bilaterally depressed, falling below the normal range.",
+          "numeric_results": {
+            "Score": "Below normal range (approx 60-70% based on visual graph estimate)"
+          }
+        },
+        {
+          "name": "Late Potentials (N1, P2)",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-19",
+            "Figure 7-20"
+          ],
+          "key_findings": "N1 and P2 waves present bilaterally at normal latencies. Paradoxically, potentials were larger and better defined over the lesioned hemisphere (Right/C4) than the non-involved hemisphere.",
+          "numeric_results": null
+        },
+        {
+          "name": "P300",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Absent for all tracings with the possible exception of the C3 tracing for the right ear.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient demonstrates a classic central auditory profile associated with right temporal lobe pathology. While peripheral hearing sensitivity is normal in the left ear (with a mild conductive loss in the right), central testing reveals significant deficits. There is a marked contralateral (left ear) deficit on dichotic speech tasks (Digits, Rhyme, Competing Sentences) and bilateral deficits on temporal processing (Duration Patterns). Electrophysiologically, late potentials (N1/P2) are present but show abnormally large amplitudes over the lesioned hemisphere, potentially due to a lack of inhibition fibers. The P300 response is largely absent.",
+  "counseling_points": [
+    "Explain that the difficulty hearing in the left ear is not due to the ear itself (which hears tones normally) but due to the brain's right temporal lobe struggling to process information from that side.",
+    "Discuss the 'contralateral effect': damage to the right side of the brain affects processing of sounds from the left ear.",
+    "Recommend communication strategies for complex listening environments, as dichotic deficits imply trouble hearing in noise or when multiple people are speaking.",
+    "Explain that the mild hearing loss in the right ear is conductive and likely unrelated to the brain tumor, but the primary functional deficit is the central processing issue affecting the left ear."
+  ],
+  "notes_for_actor": [
+    "You have significant medical history including seizures and two brain surgeries.",
+    "You have physical symptoms on your LEFT side (arm numbness, motor problems) and you feel like you can't hear well in your LEFT ear.",
+    "You might be confused when the audiologist tells you the 'beep test' was normal in your left ear, because you genuinely struggle to understand speech in that ear.",
+    "You are cooperative but likely fatigued given your medical history."
+  ]
+}

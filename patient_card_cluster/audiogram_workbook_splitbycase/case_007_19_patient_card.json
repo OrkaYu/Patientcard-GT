@@ -1,0 +1,125 @@
+{
+  "case_id": "case_7_19",
+  "title": "Sudden Bilateral Hearing Loss with Aural Fullness",
+  "demographics": {
+    "age_years": 60,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I woke up one morning and suddenly couldn't hear well out of either ear, though the left one seems worse. My ears feel very full and the ringing in my ears has gotten much louder.",
+  "problem_summary": {
+    "onset": "Sudden; patient woke up with the symptoms.",
+    "course": "Acute onset.",
+    "laterality": "Bilateral; left reported as poorer than right.",
+    "associated_symptoms": "Aural fullness bilaterally; increased tinnitus intensity.",
+    "functional_impact": "Struggling to hear those around him.",
+    "goals_motivation": "Seeking explanation and relief for sudden hearing change."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2015-05-04",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports waking up with sudden bilateral hearing decrease and aural fullness. Tinnitus, which was present previously, has increased in intensity. He notes that his allergies are very bad this year.",
+        "otologic_history": "Denies prior ear problems.",
+        "noise_exposure_history": "Denies loud noise exposure.",
+        "medical_psych_history": "Reports bad allergies this year.",
+        "prior_management": "None reported.",
+        "patient_goals": "Diagnosis and management of sudden hearing loss."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.19"
+          ],
+          "key_findings": "Bilateral mixed hearing loss. Right ear shows mild sloping to severe loss. Left ear shows mild sloping to profound loss. Significant air-bone gaps present bilaterally.",
+          "numeric_results": {
+            "Right_Ear_Configuration": "Mild sloping to moderate mixed loss (250-2000 Hz), sloping to moderately severe/severe",
+            "Left_Ear_Configuration": "Mild sloping to moderate mixed loss (250-2000 Hz), sloping to profound at 3000 Hz",
+            "Bone_Conduction": "Generally better than air conduction, indicating conductive component"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.19"
+          ],
+          "key_findings": "SRT scores align with pure-tone averages. Word recognition scores are excellent (100%) bilaterally when presented at suprathreshold levels.",
+          "numeric_results": {
+            "SRT_Right": "42 dB",
+            "SRT_Left": "48 dB",
+            "SAT_Right": "40 dB",
+            "SAT_Left": "45 dB",
+            "WRS_Right": "100% at 75 dB HL",
+            "WRS_Left": "100% at 80 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.19"
+          ],
+          "key_findings": "Flat tympanograms (Type B) bilaterally with normal ear canal volumes.",
+          "numeric_results": {
+            "Canal_Volume_Right": "1.5 mL",
+            "Canal_Volume_Left": "1.2 mL",
+            "Static_Admittance": "NP (No Peak) bilaterally",
+            "Peak_Pressure": "NP (No Peak) bilaterally"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.19"
+          ],
+          "key_findings": "Absent ipsilateral and contralateral reflexes from 500 to 4,000 Hz bilaterally. Reflex decay could not be measured.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral mixed hearing loss, characterized by significant air-bone gaps. Immittance testing reveals flat tympanograms with normal ear canal volumes and absent acoustic reflexes, strongly suggesting middle ear pathology (e.g., effusion). Despite the degree of hearing loss, word recognition ability remains excellent (100%) when speech is made loud enough.",
+  "counseling_points": [
+    "Your hearing test shows a 'mixed' hearing loss, meaning there is a problem with how sound is conducted through the middle ear, likely due to fluid.",
+    "The flat results on the pressure test (tympanometry) combined with your report of allergies and aural fullness suggest fluid behind the eardrums (Acute Otitis Media).",
+    "The good news is that your nerve function for understanding speech is excellent (100%) once sounds are loud enough.",
+    "I am referring you to an ENT specialist immediately for medical management, which may include treatment for allergies and the middle ear fluid."
+  ],
+  "notes_for_actor": [
+    "Portray a sense of urgency and distress; waking up with sudden hearing loss is frightening.",
+    "Emphasize the physical sensation of 'fullness' or 'pressure' in your ears.",
+    "Mention the allergies casually as context, perhaps sneezing or sniffing occasionally.",
+    "You should have no difficulty understanding the audiologist if they speak up slightly, as your discrimination is good."
+  ]
+}

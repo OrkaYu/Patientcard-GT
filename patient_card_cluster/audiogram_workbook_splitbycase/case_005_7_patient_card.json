@@ -1,0 +1,130 @@
+{
+  "case_id": "case_5_7",
+  "title": "Unilateral Progressive High-Frequency Sensorineural Hearing Loss",
+  "demographics": {
+    "age_years": 46,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I had a hearing test years ago that showed mild hearing loss in my left ear, but I feel like my hearing in that ear has declined in the last few months.",
+  "problem_summary": {
+    "onset": "Original mild loss noted years ago; recent decline noticed over the last few months.",
+    "course": "Progressive in the left ear; stable/normal in the right.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Denies tinnitus, dizziness, otalgia, or aural pressure/fullness.",
+    "functional_impact": "Subjective decline in hearing ability in the left ear.",
+    "goals_motivation": "Evaluation of recent hearing decline."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2013-08-09",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports a history of mild high-frequency sensorineural hearing loss in the left ear diagnosed years ago. She reports a subjective decline in left ear hearing over the past few months. Right ear hearing is reported as normal.",
+        "otologic_history": "Denies otalgia, aural pressure, or fullness. Denies tinnitus or dizziness.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Previous hearing evaluation years ago.",
+        "patient_goals": "Assess current hearing status."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.7"
+          ],
+          "key_findings": "Right ear shows normal hearing sensitivity (0-10 dB HL). Left ear shows normal sensitivity 250-1000 Hz, sloping to mild loss at 2000 Hz, then steeply sloping to moderately-severe/severe loss at 3000-8000 Hz.",
+          "numeric_results": {
+            "RE_PTA": "Normal (thresholds ~0-10 dB HL)",
+            "LE_250_1000Hz": "~10-20 dB HL",
+            "LE_2000Hz": "25 dB HL",
+            "LE_3000Hz": "55 dB HL",
+            "LE_4000_8000Hz": "70-75 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.7"
+          ],
+          "key_findings": "SRT agrees with PTA for both ears. Word recognition is excellent (100%) in the right ear but reduced (76%) in the left ear.",
+          "numeric_results": {
+            "RE_SRT": "7 dB",
+            "LE_SRT": "25 dB",
+            "RE_WRS": "100%",
+            "LE_WRS": "76%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.7"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "RE_Static_Admittance": "0.5 mL",
+            "RE_Pressure": "-10 daPa",
+            "LE_Static_Admittance": "0.7 mL",
+            "LE_Pressure": "-5 daPa",
+            "Ear_Canal_Volume": "1.3 mL (Bilateral)"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.7"
+          ],
+          "key_findings": "Right ipsilateral reflexes are normal. Left ipsilateral reflexes are elevated/absent. Contralateral reflexes are elevated or absent bilaterally. Reflex decay could not be tested due to elevated thresholds.",
+          "numeric_results": {
+            "RE_Ipsi_500_1k_2k_4k": "90, 90, 85, 85 dB HL",
+            "LE_Ipsi_500_1k_2k_4k": "110, 110, ABS, ABS dB HL",
+            "Stim_RT_Probe_LT_Contra": "105, 105, ABS, ABS dB HL",
+            "Stim_LT_Probe_RT_Contra": "105, 105, ABS, ABS dB HL"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing in the right ear and a steeply sloping, high-frequency sensorineural hearing loss in the left ear. Word recognition is reduced in the left ear (76%) compared to the right (100%). Acoustic reflexes demonstrate a retrocochlear pattern, with elevated or absent thresholds particularly in the left ear and contralateral conditions, despite normal tympanometry.",
+  "counseling_points": [
+    "Your hearing test confirms the decline you noticed in your left ear, specifically in the high pitches.",
+    "While the right ear is hearing normally, the pattern of hearing loss in the left ear, combined with the reflex test results, warrants further investigation.",
+    "We are referring you to an ENT specialist for a medical evaluation, which will likely include an MRI to rule out any structural causes on the hearing nerve.",
+    "We will discuss hearing aid options or other interventions after the medical evaluation is complete."
+  ],
+  "notes_for_actor": [
+    "You are calm but concerned about the recent change in your left ear.",
+    "You do not have dizziness or ringing (tinnitus), just the hearing drop.",
+    "Emphasize that you had a 'mild' loss years ago, but this feels different/worse recently."
+  ]
+}

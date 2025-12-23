@@ -1,0 +1,205 @@
+{
+  "case_id": "case_4_4",
+  "title": "Neuroaudiology: Case Studies",
+  "demographics": {
+    "age_years": 35,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have noticed a gradually progressive hearing loss and intermittent tinnitus in my left ear for at least four years. I also have some headaches and feel a little off-balance when walking up stairs.",
+  "problem_summary": {
+    "onset": "Gradual onset, symptoms present for at least 4 years.",
+    "course": "Progressive hearing loss and decline in speech understanding over a 4-year period.",
+    "laterality": "Left ear",
+    "associated_symptoms": "Intermittent tinnitus (left), mid-frontal headaches, slight unsteadiness/off-balance sensation on stairs.",
+    "functional_impact": "Significant decline in speech recognition ability in the left ear.",
+    "goals_motivation": "Evaluation of progressive symptoms."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "1984-04-03",
+      "setting": "External Clinic (Prior Evaluation)",
+      "history": {
+        "present_illness": "Patient initially noticed left-sided hearing difficulty.",
+        "otologic_history": "None reported prior to this onset.",
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Sought otolaryngologic and audiological evaluation.",
+        "patient_goals": "Initial diagnosis."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-11"
+          ],
+          "key_findings": "Borderline normal to mild, flat sensorineural hearing loss.",
+          "numeric_results": {
+            "thresholds_approx": "20-30 dB HL across 250-8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-11"
+          ],
+          "key_findings": "Excellent speech recognition scores.",
+          "numeric_results": {
+            "WRS": "96%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal tympanogram.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "1988-11-21",
+      "setting": "Audiology Clinic (Current Evaluation)",
+      "history": {
+        "present_illness": "Complaints of worsening hearing and tinnitus over the last 4 years. Upon closer questioning, patient admits difficulty may have existed longer than 4 years.",
+        "otologic_history": "History of mid-frontal headaches attributed to sinus problems.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "No major vestibular problems reported, but feels off-balance on stairs.",
+        "prior_management": "Monitoring.",
+        "patient_goals": "Re-evaluation due to progression."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-11"
+          ],
+          "key_findings": "Right ear remains normal. Left ear shows progression to a mild-to-moderate flat sensorineural loss.",
+          "numeric_results": {
+            "RE_thresholds": "0-10 dB HL (Normal)",
+            "LE_thresholds_approx": "30-60 dB HL (Flat configuration)"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-11"
+          ],
+          "key_findings": "Right ear excellent; Left ear shows significant decline in recognition ability.",
+          "numeric_results": {
+            "RE_WRS": "96%",
+            "LE_WRS": "58%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right ear: Normal ipsilateral and contralateral. Left ear: Absent ipsilateral and contralateral stimulation at 500-4000 Hz.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-12"
+          ],
+          "key_findings": "Auditory Brainstem Response (ABR). Left ear: No repeatable response at 80/90 dB nHL (possible meager wave I). Right ear: Normal waves I-IV, but Wave V extended, suggesting brainstem involvement.",
+          "numeric_results": {
+            "RE_III-V_interval": "3.36 msec (increased)"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 4-13"
+          ],
+          "key_findings": "MRI (Coronal view) indicated a large mass lesion in the left CPA, displacing the pons.",
+          "numeric_results": {
+            "tumor_size": "nearly 5 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "This mid-30s female presents with a 4-year history of progressive left-sided sensorineural hearing loss and tinnitus. Audiometric monitoring reveals a decline from mild hearing loss with excellent speech recognition (96%) to moderate flat loss with poor speech recognition (58%). Diagnostic testing indicates retrocochlear pathology: absent acoustic reflexes in the left ear and an abnormal ABR (absent response left, prolonged III-V latency right suggesting brainstem compression). MRI confirms a large (5 cm) mass in the left cerebellopontine angle (CPA).",
+  "counseling_points": [
+    "Explain the correlation between the large mass found on MRI and the progressive hearing loss/balance issues.",
+    "Discuss the 'rollover' or significant degradation in speech understanding (58%) which is characteristic of retrocochlear (nerve) involvement.",
+    "Explain that the abnormal ABR on the 'good' (right) ear is likely due to the large size of the tumor compressing the brainstem.",
+    "Refer immediately to neuro-otology/neurosurgery for management of the CPA tumor."
+  ],
+  "notes_for_actor": [
+    "You are a woman in your mid-30s.",
+    "You have been dealing with this for 4 years, but you might realize now that the hearing was bad even before that.",
+    "You are not extremely dizzy, but you feel 'off' when climbing stairs.",
+    "You have headaches in the front of your head which you thought were just sinus issues.",
+    "You are likely anxious about the progression; your hearing used to be okay (mild loss), but now you can't understand speech clearly in that ear."
+  ]
+}

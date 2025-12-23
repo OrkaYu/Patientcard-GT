@@ -1,0 +1,105 @@
+{
+  "case_id": "case_7_2",
+  "title": "Bilateral Otosclerosis with Mixed Hearing Loss",
+  "demographics": {
+    "age_years": 60,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've had hearing loss in both ears for several years, along with ringing. My hearing aid in my left ear is ten years old and keeps cutting in and out.",
+  "problem_summary": {
+    "onset": "Several years duration.",
+    "course": "Chronic; patient has worn a hearing aid for 10 years.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Bilateral tinnitus; history of noise exposure (hunting).",
+    "functional_impact": "Current ITC hearing aid (left ear) is intermittent and has an omnidirectional microphone.",
+    "goals_motivation": "Seeking management for hearing loss and replacement/upgrade of malfunctioning device."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-01-28",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports bilateral hearing loss due to otosclerosis. She experiences bilateral tinnitus.",
+        "otologic_history": "History of otosurgery in the left ear. No other otologic symptoms reported.",
+        "noise_exposure_history": "History of noise exposure from hunting.",
+        "medical_psych_history": "Family history of hearing loss (father and grandfather).",
+        "prior_management": "Has worn a Left ITC hearing aid for 10 years (omnidirectional mic, currently intermittent).",
+        "patient_goals": "Evaluation for new amplification."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.2"
+          ],
+          "key_findings": "Right ear: Severe mixed hearing loss (250-1000 Hz), rising to moderately severe at 2000 Hz, sloping to severe at 3000-4000 Hz. Left ear: Mild to moderately severe mixed hearing loss (250-3000 Hz), rising to moderate at 4000 Hz, sloping to severe at 6000-8000 Hz. Significant air-bone gaps present bilaterally.",
+          "numeric_results": {
+            "Right PTA": "72 dB HL",
+            "Left PTA": "43 dB HL",
+            "Right BC Masking": "Effective masking levels used",
+            "Left BC Masking": "Could not mask for left BC at 250, 1k, 3k, 4k Hz due to magnitude of HL and ABG in right ear"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.2"
+          ],
+          "key_findings": "SRT scores are in agreement with PTA. Word recognition scores (WRS) show slight difficulty in the right ear and normal ability in the left ear at elevated presentation levels.",
+          "numeric_results": {
+            "Right SRT": "75 dB HL",
+            "Right WRS": "88% at 95 dB HL",
+            "Left SRT": "50 dB HL",
+            "Left WRS": "90% at 75 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.2"
+          ],
+          "key_findings": "Immittance testing was not measured due to the previous otosurgery.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral mixed hearing loss consistent with her history of otosclerosis. The right ear exhibits a severe degree of loss, while the left ear (previous surgery) shows a mild to moderately severe degree. Despite the mixed nature and severity of the loss, word recognition ability remains good in both ears when speech is amplified sufficiently.",
+  "counseling_points": [
+    "Your hearing test confirms mixed hearing loss in both ears, likely related to the otosclerosis and family history you described.",
+    "Because of your previous ear surgery, we did not perform pressure tests today.",
+    "We recommend a trial with new hearing aids before considering any further surgery. Binaural (two) BTE (Behind-The-Ear) hearing aids would provide significant benefit over your single, intermittent in-the-canal aid.",
+    "It is important to use hearing protection when hunting to prevent further noise-induced damage.",
+    "We recommend annual hearing tests to monitor your hearing levels."
+  ],
+  "notes_for_actor": [
+    "You are a 60-year-old female.",
+    "You have a history of hunting, which is a specific detail regarding your noise exposure.",
+    "You are likely frustrated that your current hearing aid (left ear) is 10 years old and not working reliably.",
+    "You have a strong family history of hearing loss (father and grandfather)."
+  ]
+}

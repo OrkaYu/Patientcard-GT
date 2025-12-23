@@ -1,0 +1,189 @@
+{
+  "case_id": "Case11_Tonic_Tensor_Tympanic_Syndrome",
+  "title": "Tonic Tensor Tympanic Syndrome",
+  "demographics": {
+    "age_years": 23,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have ringing in both ears, but the right one is considerably worse. I also feel pressure, sensitivity to sound, and a 'fluttering' sensation in my right ear.",
+  "problem_summary": {
+    "onset": "A few months prior to the appointment, following a hunting trip.",
+    "course": "Tinnitus persisted longer than usual after the trip; symptoms worsened over time including new 'fluttering' sensation and increased anxiety.",
+    "laterality": "Bilateral, worse in right ear.",
+    "associated_symptoms": "Aural pressure, sound sensitivity (hyperacusis), minimal dull otalgia, mild dizziness/light-headedness, nausea, significant anxiety and depression.",
+    "functional_impact": "Patient no longer wanted to return to school for the spring semester due to anxiety and depression.",
+    "goals_motivation": "Seeking relief from tinnitus and anxiety; requested least invasive approach first."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Private practice speech and hearing center",
+      "history": {
+        "present_illness": "Patient went on a hunting trip using hearing protection. Experienced tinnitus lasting longer than usual (previously only lasted a few hours). Right ear tinnitus worsened the morning after return. Developed aural pressure, sound sensitivity, and later a 'fluttering' sensation in the right ear.",
+        "otologic_history": "History of hunting trips. Evaluated by urgent care (antibiotics/steroids prescribed with no effect). Evaluated by two ENT physicians (no anatomical abnormalities). Diagnosed with Tonic Tensor Tympanic Syndrome (TTTS) by ENT.",
+        "noise_exposure_history": "Hunting trips; reported use of hearing protection devices.",
+        "medical_psych_history": "MRI was normal. Reports significant anxiety and depression, which increased after receiving the TTTS diagnosis.",
+        "prior_management": "Antibiotics and steroid shot (urgent care). ENT evaluation.",
+        "patient_goals": "Reduce symptoms and anxiety."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Clear ear canals bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.1"
+          ],
+          "key_findings": "Normal hearing sensitivity from 250 to 8,000 Hz bilaterally.",
+          "numeric_results": {
+            "Right_PTA": "13 dB HL",
+            "Left_PTA": "12 dB HL",
+            "Right_Thresholds": "10-15 dB HL across frequencies",
+            "Left_Thresholds": "10-15 dB HL across frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.1"
+          ],
+          "key_findings": "SRTs consistent with PTA. Word recognition scores excellent in quiet.",
+          "numeric_results": {
+            "SRT_Right": "10 dB HL",
+            "SRT_Left": "15 dB HL",
+            "WRS_Right": "92% at 55 dB HL",
+            "WRS_Left": "96% at 55 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.1"
+          ],
+          "key_findings": "Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Right_ECV": "1.1 mL",
+            "Left_ECV": "1.3 mL",
+            "Right_Peak_Pressure": "-23 daPa",
+            "Left_Peak_Pressure": "-10 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.1"
+          ],
+          "key_findings": "Normal in both ipsilateral and contralateral conditions.",
+          "numeric_results": {
+            "Thresholds": "85-100 dB HL range"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "QuickSIN administered at 60 dBA. Normal finding.",
+          "numeric_results": {
+            "SNR_Loss": "2 dB"
+          }
+        },
+        {
+          "name": "Tinnitus Evaluation",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.1"
+          ],
+          "key_findings": "Testing performed on the more bothersome ear (Right). Pitch match at 6kHz. Partial residual inhibition observed (slight decrease for 2-3 seconds).",
+          "numeric_results": {
+            "Pitch_Match": "6000 Hz",
+            "Loudness_Match": "22 dB SL (37 dB HL)",
+            "Minimum_Masking_Level": "23 dB SL (38 dB HL) white noise"
+          }
+        },
+        {
+          "name": "Self-Report Scales",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 11.2"
+          ],
+          "key_findings": "Tinnitus Reaction Questionnaire (TRQ) indicates catastrophic reaction.",
+          "numeric_results": {
+            "TRQ_Score": "88/104 (Grade 5 - Catastrophic)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally, excellent word recognition in quiet, and normal speech-in-noise ability. Middle ear function and acoustic reflexes are normal. However, the patient exhibits a 'catastrophic' reaction to tinnitus (TRQ score 88) and reports symptoms consistent with Tonic Tensor Tympanic Syndrome (TTTS), including fluttering and sound sensitivity, exacerbated by high levels of anxiety.",
+  "counseling_points": [
+    "Reassure the patient that standard hearing tests show normal hearing sensitivity and no structural damage.",
+    "Explain the mechanism of Tonic Tensor Tympanic Syndrome (TTTS) as an involuntary muscle reflex often linked to anxiety and acoustic shock.",
+    "Discuss the strong link between tinnitus/TTTS and anxiety/depression, validating the patient's distress.",
+    "Recommend sound therapy (using a smartphone app or sound generator) to manage tinnitus and hyperacusis.",
+    "Provide a strong referral to a mental health professional (psychologist/therapist) to address the underlying anxiety and depression."
+  ],
+  "notes_for_actor": [
+    "You are highly anxious and distressed. The previous diagnosis of 'Tonic Tensor Tympanic Syndrome' scared you because you didn't understand it.",
+    "You describe a 'fluttering' sensation in your right ear which is very disturbing.",
+    "You are hesitant about invasive treatments (like on-ear devices) and prefer to start with something simple like an app.",
+    "You have stopped going to school because of the distress."
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "case_id": "case_7_5",
+  "title": "Auditory Cortex Involvement: Left Temporal Astrocytoma",
+  "demographics": {
+    "age_years": 24,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have been having seizures since I was a child, but recently I started having 'drop attacks' where I suddenly fall backward. My speech feels slurred and I'm having some trouble with my memory.",
+  "problem_summary": {
+    "onset": "Seizures began at age 7; diagnosed with left temporal astrocytoma at age 10.",
+    "course": "Chronic nonconvulsive seizures; condition worsened at age 20 with onset of drop attacks causing physical injury (subdural hematoma).",
+    "laterality": "Left hemisphere (temporal lobe lesion).",
+    "associated_symptoms": "Daydreaming, chewing/staring spells, drop attacks, slurred speech, memory deficits, attention/concentration deficits.",
+    "functional_impact": "Unable to perform cognitive tasks like counting rare stimuli; moderate deficits in attention; mild deficits in manual dexterity.",
+    "goals_motivation": "Evaluation prior to anterior commissurotomy to control intractable seizure disorder."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Neuroaudiology)",
+      "history": {
+        "present_illness": "Patient presents with a long history of seizure activity. At age 20, 'drop attacks' began (falling backward from standing/sitting). Currently experiences several seizures weekly, up to 3-4 per day.",
+        "otologic_history": "No specific peripheral otologic complaints mentioned; hearing sensitivity reported as normal.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Diagnosed with left temporal astrocytoma at age 10 (partial resection). History of skull fracture and subdural hematoma due to falls. Neuropsychological exam confirms memory, attention, and concentration deficits.",
+        "prior_management": "Partial resection of tumor at age 10. Currently being evaluated for anterior commissurotomy.",
+        "patient_goals": "Assessment of central auditory function pre-surgery."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-25"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. Thresholds are approximately 0-10 dB HL across the frequency range (250-8000 Hz).",
+          "numeric_results": {
+            "RE_thresholds": "0-10 dB HL range",
+            "LE_thresholds": "0-10 dB HL range"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-25"
+          ],
+          "key_findings": "Excellent speech recognition scores bilaterally.",
+          "numeric_results": {
+            "RE_WRS": "100%",
+            "LE_WRS": "100%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-26"
+          ],
+          "key_findings": "Central behavioral test battery. Dichotic Rhyme Test showed mild right ear deficit. Dichotic Digits showed mild bilateral deficit (RE poorer than LE). Duration Patterns Test showed severe bilateral deficit. Competing Sentences (inferred from chart) showed bilateral deficits below normal range.",
+          "numeric_results": {
+            "Dichotic_Digits_LE": "~80%",
+            "Dichotic_Digits_RE": "~70%",
+            "Duration_Patterns_LE": "~15%",
+            "Duration_Patterns_RE": "~15%",
+            "Competing_Sentences_LE": "~30%",
+            "Competing_Sentences_RE": "~50%"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7-27"
+          ],
+          "key_findings": "Late auditory evoked potentials (N1/P2) at C3 and C4. Right ear stimulation showed well-defined N1 and P2. Left ear stimulation showed smaller, less defined responses. N1 latencies were abnormal; P2 latencies were normal/borderline. (Note: Text in 'Comments' section suggests contralateral ear effect, but 'Findings' section and Figure 7-27 labels indicate smaller responses for Left Ear stimulation).",
+          "numeric_results": {
+            "N1_Morphology": "Well-defined in RE, smaller/poor in LE",
+            "P2_Morphology": "Well-defined in RE, smaller/poor in LE"
+          }
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Pre-op",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "P300 testing was attempted but could not be derived because the patient was unable to keep an accurate count of the rare stimuli, likely due to cognitive/attention deficits.",
+          "numeric_results": {
+            "P300": "Not derivable (task failure)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity and excellent speech recognition in quiet. However, central auditory processing evaluation reveals significant deficits consistent with left temporal lobe involvement. Key findings include mild deficits on dichotic speech tasks (with the right ear—contralateral to the lesion—performing poorer on digits) and severe bilateral deficits on temporal patterning (Duration Patterns). Electrophysiologically, late potentials (N1/P2) showed morphology reductions (specifically noted for the left ear in the findings section, though the discussion notes contralateral effects) and P300 could not be elicited due to the patient's inability to perform the oddball task. MRI confirms involvement of the mesial left temporal lobe and encephalomalacia.",
+  "counseling_points": [
+    "Explain that hearing sensitivity is normal, but the brain's ability to process complex sounds (like rapid speech or patterns) is compromised due to the temporal lobe lesion.",
+    "Discuss the difficulty with 'hearing' in complex environments despite normal audiogram.",
+    "Highlight that the inability to perform the P300 task reflects the impact of the condition on attention and cognitive processing, not just hearing.",
+    "Review how the central auditory deficits correlate with the known left temporal lobe pathology."
+  ],
+  "notes_for_actor": [
+    "Portray a 24-year-old female with a history of chronic seizures.",
+    "Speech should be slightly slurred.",
+    "Demonstrate mild memory problems and difficulty concentrating during the history taking.",
+    "If asked about the 'drop attacks', describe them as sudden backward falls that happen without warning.",
+    "You are cooperative but may struggle with complex instructions (like the counting task for P300)."
+  ]
+}

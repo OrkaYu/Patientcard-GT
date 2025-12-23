@@ -1,0 +1,125 @@
+{
+  "case_id": "case_12_9",
+  "title": "Case Study 9: Sudden Tinnitus and High-Frequency Loss",
+  "demographics": {
+    "age_years": 26,
+    "sex": "male",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I've had severe ringing in my ears for the past 2 weeks. My hearing seems fine, but I occasionally confuse words and have a harder time in noisy environments.",
+  "problem_summary": {
+    "onset": "2 weeks ago",
+    "course": "Sudden onset following medical treatment",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Severe tinnitus, difficulty hearing in noise",
+    "functional_impact": "Occasional confusion of words, difficulty in noisy environments",
+    "goals_motivation": "Evaluation of tinnitus and hearing status"
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports severe tinnitus for the past 2 weeks. Subjectively feels hearing is fine but notes difficulty in noise.",
+        "otologic_history": "None reported prior to current episode.",
+        "noise_exposure_history": "Not specified.",
+        "medical_psych_history": "Recently treated for a severe urinary tract infection; cannot recall the name of the medication.",
+        "prior_management": "None.",
+        "patient_goals": "Determine cause of ringing and hearing difficulties."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table Data",
+            "Other Data/Comments"
+          ],
+          "key_findings": "Standard PTA indicates normal hearing sensitivity. However, high-frequency PTA (2, 4, 8 kHz) is elevated compared to the standard PTA, suggesting a high-frequency slope. Extended high-frequency testing reveals significant loss.",
+          "numeric_results": {
+            "PTA_Right": "5 dB HL",
+            "PTA_Left": "0 dB HL",
+            "HF_PTA_Right_2k_4k_8k": "23 dB HL",
+            "HF_PTA_Left_2k_4k_8k": "18 dB HL",
+            "Extended_Range_10kHz": "Elevated thresholds",
+            "Extended_Range_12_16kHz": "No responses"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table Data"
+          ],
+          "key_findings": "Speech Reception Thresholds align with pure tone averages. Word Recognition Scores are excellent bilaterally.",
+          "numeric_results": {
+            "SRT_Right": "5 dB HL",
+            "SRT_Left": "0 dB HL",
+            "WRS_Right": "97% @ 40 dB HL",
+            "WRS_Left": "94% @ 35 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Admittance Graph"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally, indicating normal middle ear function. Curves overlap with peaks near 0 daPa.",
+          "numeric_results": {
+            "Peak_Pressure": "~0 daPa",
+            "Admittance": "~1.3 mmhos"
+          }
+        },
+        {
+          "name": "Otoacoustic Emissions (DPOAEs)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "DP-gram"
+          ],
+          "key_findings": "DPOAEs are present and robust from 0.5 to 4 kHz. Amplitudes drop sharply and become indistinguishable from the noise floor at frequencies above 4-6 kHz.",
+          "numeric_results": {
+            "0.5_to_4_kHz": "Present (approx 0-10 dB SPL)",
+            "6_to_8_kHz": "Absent/Reduced (at noise floor)"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient demonstrates normal hearing sensitivity in the conventional frequency range (250-8000 Hz), supported by excellent speech recognition scores and normal middle ear function. However, extended high-frequency testing reveals a significant bilateral sensorineural hearing loss (no response at 12-16 kHz) and reduced DPOAEs above 4 kHz. These findings, combined with the history of recent antibiotic treatment for a severe infection, are consistent with ototoxicity.",
+  "counseling_points": [
+    "Explain that while standard hearing is normal, the ringing and difficulty in noise are likely caused by damage to the very high-pitch hearing cells.",
+    "Discuss the likelihood that the medication used for the UTI (possibly an aminoglycoside) caused this damage (ototoxicity).",
+    "Advise on hearing conservation strategies, as the ears may be more susceptible to noise damage.",
+    "Discuss tinnitus management strategies, such as sound enrichment or masking, since the ringing is the primary complaint."
+  ],
+  "notes_for_actor": [
+    "Portray a young adult who is confused because they feel they can hear fine generally, but the ringing is very bothersome.",
+    "Emphasize the difficulty in noisy environments despite 'normal' hearing in quiet.",
+    "Be unsure about the specific medication name but confirm it was for a severe infection."
+  ]
+}

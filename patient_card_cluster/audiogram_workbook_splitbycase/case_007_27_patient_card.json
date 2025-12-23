@@ -1,0 +1,120 @@
+{
+  "case_id": "case_7_27",
+  "title": "Bilateral Severe-to-Profound Mixed Hearing Loss in an Elderly Patient",
+  "demographics": {
+    "age_years": 92,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I feel my hearing loss is about the same in both ears, though I've only ever worn a hearing aid in my right ear. I've had trouble hearing for about 60 years.",
+  "problem_summary": {
+    "onset": "60-year history of hearing loss.",
+    "course": "Long-standing, stable perception.",
+    "laterality": "Bilateral (perceived as balanced).",
+    "associated_symptoms": "Denied tinnitus or dizziness.",
+    "functional_impact": "Patient has used amplification in the right ear for 20 years; relies on daughter as historian.",
+    "goals_motivation": "Evaluation of hearing status; amplification was never recommended for the left ear previously."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2014-06-17",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "92-year-old female with a 60-year history of hearing loss. Uses right ear amplification (20 years). Reports balanced loss. Denies tinnitus/dizziness.",
+        "otologic_history": "No reported history of known ear pathology, otosurgery, or noise exposure.",
+        "noise_exposure_history": "Denied.",
+        "medical_psych_history": "Family history: Maternal aunt had significant hearing loss early in life.",
+        "prior_management": "Right ear hearing aid use for 20 years. Left ear never aided.",
+        "patient_goals": "Follow-up and evaluation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.27"
+          ],
+          "key_findings": "Bilateral severe-to-profound mixed hearing loss. Significant air-bone gaps are present, but masking could not be completed (CNM) due to the severity of the loss and audiometer limits. No measurable response at 6-8 kHz bilaterally.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "Severe to profound (approx 90-100 dB HL range)",
+            "Left_AC_Thresholds": "Severe sloping to profound (approx 90-110 dB HL range)",
+            "Masking_Note": "CNM - Could not mask air or bone conduction thresholds."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.27"
+          ],
+          "key_findings": "SRT scores align with PTA. Word recognition is moderate in the right ear but very poor in the left ear.",
+          "numeric_results": {
+            "Right_SRT": "92 dB HL",
+            "Right_WRS": "62% at 110 dB HL",
+            "Left_SRT": "105 dB HL",
+            "Left_WRS": "20% at 110 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.27"
+          ],
+          "key_findings": "Normal tympanograms (Type A) bilaterally, though the right ear canal volume is notably large.",
+          "numeric_results": {
+            "Right_Volume": "3.4 mL",
+            "Right_Pressure": "10 daPa",
+            "Left_Volume": "1.8 mL",
+            "Left_Pressure": "-65 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Absent for ipsilateral and contralateral stimulation at all frequencies. Reflex decay could not be measured.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a bilateral severe-to-profound mixed hearing loss. While air conduction thresholds suggest symmetry in severity, speech recognition is significantly poorer in the left ear (20%) compared to the right (62%). A masking dilemma occurred, preventing verification of specific bone conduction thresholds. Tympanometry was normal, though the right ear volume was unusually large (3.4 mL) despite no reported surgical history.",
+  "counseling_points": [
+    "Your hearing loss is severe to profound in both ears and involves both the nerve and the mechanism conducting sound to the nerve (mixed loss).",
+    "Because your hearing loss is so severe, we could not fully isolate each ear during testing (masking dilemma), but the pattern is consistent.",
+    "Your ability to understand speech is significantly better in your right ear than your left, which explains why you have relied on the right hearing aid.",
+    "We recommend continuing amplification for the right ear. We should also consider options for the left ear (such as a hearing aid or BAHA) and Hearing Assistive Technology (HAT) to help with daily communication."
+  ],
+  "notes_for_actor": [
+    "You are 92 years old and rely heavily on your daughter to answer questions.",
+    "You have very severe hearing loss. Without amplification or visual cues, you should struggle significantly to hear the audiologist.",
+    "You believe your hearing is 'balanced' despite the test showing your left ear has much poorer clarity.",
+    "You deny any history of ear surgery, even though the test shows a large ear canal volume on the right side."
+  ]
+}

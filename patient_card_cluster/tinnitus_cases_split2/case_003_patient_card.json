@@ -1,0 +1,96 @@
+{
+  "case_id": "Case03_Tinnitus_Treatment_Following_Acoustic_Neuroma",
+  "title": "Tinnitus Treatment Following Acoustic Neuroma and Meniere’s Disease",
+  "demographics": {
+    "age_years": 60,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": "USA"
+  },
+  "chief_complaint": "I experienced a dramatic increase in the ringing in my left ear about two weeks ago. It sounds like a siren and a whooshing noise, and it is distressing and debilitating.",
+  "problem_summary": {
+    "onset": "Chronic tinnitus following acoustic neuroma removal 1.6 years ago; recent exacerbation lasting 2 weeks.",
+    "course": "Fluctuating tinnitus loudness; recent spike associated with new diagnosis of Cochlear Meniere's.",
+    "laterality": "Bilateral tinnitus; Right unilateral deafness; Left hearing loss.",
+    "associated_symptoms": "Aural fullness, roaring tinnitus, hearing loss (no vertigo).",
+    "functional_impact": "Avoidance of noisy situations (church, restaurants), anxiety about total deafness, sleep disturbance.",
+    "goals_motivation": "Reduce fear of deafness, decrease avoidance behaviors, and manage anxiety regarding work interference."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Augustana College Center for Speech, Language, and Hearing",
+      "history": {
+        "present_illness": "Patient had right acoustic neuroma removed 1.6 years ago resulting in profound deafness. Recently experienced 2-week spike in left ear tinnitus (siren/whooshing). Diagnosed with Cochlear Meniere's disease (hydrops) by otologist due to fluctuating tinnitus and low-frequency HL without vertigo.",
+        "otologic_history": "Right acoustic neuroma removal. No history of ear infections. No vertigo or dizziness.",
+        "noise_exposure_history": "None reported.",
+        "medical_psych_history": "High blood pressure, seasonal allergies. Family history of age-related hearing loss.",
+        "prior_management": "Fit with Bi-CROS hearing aid by local audiologist (helpful for communication).",
+        "patient_goals": "Manage tinnitus distress, improve sleep, reduce anxiety about becoming deaf."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.1"
+          ],
+          "key_findings": "Right ear shows profound sensorineural hearing loss (post-tumor removal). Left ear shows moderate low-frequency sensorineural hearing loss rising to mild/normal in the mid-frequencies, then sloping slightly at high frequencies.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "Profound/No Response across all frequencies",
+            "Left_Ear_250Hz": "65 dB HL",
+            "Left_Ear_500Hz": "55 dB HL",
+            "Left_Ear_1000Hz": "40 dB HL",
+            "Left_Ear_2000Hz": "25 dB HL",
+            "Left_Ear_4000Hz": "30 dB HL",
+            "Left_Ear_8000Hz": "45 dB HL"
+          }
+        },
+        {
+          "name": "Self-Report Scales (Questionnaires)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 3.1"
+          ],
+          "key_findings": "Results indicate tinnitus is bothersome and substantially influences thoughts, emotions, and sleep. Spatial hearing is poor (expected with SSD).",
+          "numeric_results": {
+            "SHQ-S_Total": "16.7 (Range 0-50)",
+            "SHQ-S_Localization": "0.0",
+            "THQ_Total": "40.7 (Range 0-100)",
+            "THQ_Hearing_Subscale": "64.2",
+            "TPFQ_Total": "48.8 (Range 20-80)",
+            "TPFQ_Emotion_Subscale": "78.3",
+            "TPFQ_Sleep_Subscale": "40.0"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with single-sided deafness (SSD) in the right ear following acoustic neuroma removal and a moderate, low-frequency sensorineural hearing loss in the left ear consistent with Cochlear Meniere's disease. Self-report measures reveal significant tinnitus handicap, particularly affecting emotional well-being and sleep, alongside expected deficits in sound localization due to SSD.",
+  "counseling_points": [
+    "Explain the relationship between Cochlear Meniere's disease (hydrops) and the fluctuating low-frequency hearing loss/tinnitus.",
+    "Discuss Tinnitus Activities Treatment (TAT) to explore how thoughts dictate emotions and modify negative thought patterns.",
+    "Encourage continued use of the Bi-CROS hearing aid for communication and masking (up to 12 hours/day).",
+    "Recommend low-level sound therapy (nature sounds, music, fan) to manage tinnitus perception, especially for sleep.",
+    "Address fears of total deafness and validate the anxiety regarding work and social withdrawal."
+  ],
+  "notes_for_actor": [
+    "You are very anxious about losing the hearing in your 'good' (left) ear because you are already deaf in the right.",
+    "You describe the tinnitus as a 'siren' and 'whooshing'—it is very intrusive.",
+    "You have started avoiding restaurants and church because you are afraid of the noise and can't hear well there.",
+    "You are motivated to work but worried the noise in your head will make it impossible."
+  ]
+}

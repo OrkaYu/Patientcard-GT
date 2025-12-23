@@ -1,0 +1,97 @@
+{
+  "case_id": "Case006_02",
+  "ranked_differential_diagnosis": [
+    {
+      "rank": 1,
+      "label": "Otosclerosis (Right ear)",
+      "rationale_short": "CT scan revealed a fixed stapes; audiometry shows conductive hearing loss with air-bone gap."
+    },
+    {
+      "rank": 2,
+      "label": "Ossicular chain discontinuity (Right ear)",
+      "rationale_short": "CT scan revealed absent malleus and incus; history of cholesteatoma and tympanoplasty."
+    },
+    {
+      "rank": 3,
+      "label": "Hypercompliant tympanic membrane (Left ear)",
+      "rationale_short": "Tympanometry revealed a Type Ad tympanogram."
+    }
+  ],
+  "investigations_and_interpretations": {
+    "ordered_list": [
+      {
+        "action": "Pure-tone audiometry",
+        "urgency": "routine",
+        "rationale_short": "To assess hearing thresholds and determine the type and degree of hearing loss."
+      },
+      {
+        "action": "Speech audiometry",
+        "urgency": "routine",
+        "rationale_short": "To evaluate speech reception thresholds and word recognition abilities."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear status and tympanic membrane compliance."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the integrity of the acoustic reflex arc."
+      }
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_id": "V1",
+        "collective_interpretation": "The patient presents with a unilateral, moderately severe conductive hearing loss in the right ear and normal hearing in the left ear. The right ear demonstrates a significant air-bone gap but excellent word recognition ability when amplified, consistent with the history of middle ear pathology. The left ear is audiometrically normal but exhibits a hypercompliant tympanic membrane.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Moderately severe conductive hearing loss (250-1500 Hz), rising to mild-moderate (2000-4000 Hz), sloping to moderately severe (6000-8000 Hz). Left ear: Normal limits (250-8000 Hz)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: SRT 57 dB HL, WRS 100% at 85 dB HL. Left ear: SRT 13 dB HL, WRS 100% at 55 dB HL."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear: Not tested due to previous surgery. Left ear: Hypercompliant (Type Ad)."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Left ear: Could not be measured due to artifact from the hypercompliant tympanic membrane."
+          }
+        ]
+      }
+    ]
+  },
+  "treatment_and_management": {
+    "proposed_items": [
+      "Hearing aid (Right ear)",
+      "Bone-anchored hearing aid (BAHA)",
+      "Ossicular chain reconstruction (future consideration)"
+    ],
+    "counseling_actions": [
+      "Explain the conductive nature of the hearing loss and the intact nerve function in the right ear.",
+      "Discuss the excellent prognosis for amplification given the high word recognition scores.",
+      "Explain that the hypercompliant tympanic membrane in the left ear is likely a physiological variance."
+    ]
+  },
+  "escalation_and_red_flags": {
+    "red_flags_present": [],
+    "escalation": {
+      "urgency": "routine",
+      "destination": "Otologist",
+      "rationale_short": "For management of otosclerosis and ossicular chain abnormalities identified on CT."
+    }
+  },
+  "follow_up_plan": {
+    "timeline": "As recommended by otologist",
+    "objective": "Proceed with amplification options or surgical consultation."
+  },
+  "expected_outcome": []
+}
