@@ -1,0 +1,207 @@
+{
+  "case_id": "case10_How_Auditory_Processing_Deficits_Can_Int",
+  "title": "How Auditory Processing Deficits Can Interfere with a College Student’s Success in School and Work",
+  "demographics": {
+    "age_years": 21,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I have trouble following what teachers are saying and following social conversations. I also have a hard time tolerating loud noises like sirens, fire alarms, people yelling, and noisy places like malls.",
+  "problem_summary": {
+    "onset": "Adolescence (associated with anxiety disorder diagnosis).",
+    "course": "Persistent; academic struggles in high school and college; difficulty maintaining employment due to listening issues.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Anxiety, emotional reactions to loud sounds, confusion in noise, inability to follow instructions.",
+    "functional_impact": "Dropped out of community college; quit two retail jobs (grocery and department store) due to errors and noise intolerance.",
+    "goals_motivation": "Seeking a comprehensive evaluation to understand why she is struggling despite previous normal hearing tests."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports inability to follow verbal instructions and social conversations. She experiences significant distress and negative behavioral reactions (flinching, grimacing) to loud sounds.",
+        "otologic_history": "Evaluated twice by school audiologist; results were normal hearing. No history of ear infections mentioned.",
+        "noise_exposure_history": "Not significant, but reports intolerance to everyday environmental noises.",
+        "medical_psych_history": "Diagnosed with anxiety disorder as an adolescent. Received remedial educational services and IEP (extended time, note taker).",
+        "prior_management": "Previous audiologic evaluations ruled out peripheral hearing loss. Accommodations in school included note takers and extended test time.",
+        "patient_goals": "Determine the cause of listening difficulties and sound intolerance."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing within normal limits at 250 to 8,000 Hz bilaterally.",
+          "numeric_results": {
+            "Range": "250-8000 Hz within normal limits"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 10.1"
+          ],
+          "key_findings": "Normal Speech Recognition Thresholds (SRT) and Word Recognition Scores (WRS) in quiet.",
+          "numeric_results": {
+            "WRS Right (Quiet)": "100%",
+            "WRS Left (Quiet)": "100%"
+          }
+        },
+        {
+          "name": "Immittance audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal ear canal volume, middle ear pressure, and static compliance. Ipsilateral acoustic reflexes normal 500-4000 Hz.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {},
+      "tests": [
+        {
+          "name": "Auditory Hypersensitivity Assessment",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 10.1"
+          ],
+          "key_findings": "Significant hypersensitivity. Tolerance thresholds were considerably lower than normal (90 dB HL). Negative reactions included flinching and grimacing.",
+          "numeric_results": {
+            "Warbled Tone Tolerance": "65-70 dB HL",
+            "Narrowband Noise Tolerance": "70 dB HL"
+          }
+        },
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 10.1"
+          ],
+          "key_findings": "Performance within normal limits for W-22 in noise and SCAN-3A Auditory Figure-Ground.",
+          "numeric_results": {
+            "WRS in noise (SNR +5) Right": "88%",
+            "WRS in noise (SNR +5) Left": "92%",
+            "Quiet/Noise Difference Right": "12% (Normal)",
+            "Quiet/Noise Difference Left": "8% (Normal)",
+            "SCAN-3A AFG 0 dB": "9 (37th percentile)",
+            "SCAN-3A AFG +8 dB": "9 (37th percentile)"
+          }
+        },
+        {
+          "name": "Auditory Temporal Processing",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 10.1"
+          ],
+          "key_findings": "Normal temporal processing abilities on both Time Compressed Sentences and Pitch Pattern Sequence tests.",
+          "numeric_results": {
+            "SCAN-3A Time Compressed Sentences": "8 (25th percentile)",
+            "Pitch Pattern Sequence Right": "100%",
+            "Pitch Pattern Sequence Left": "85%"
+          }
+        },
+        {
+          "name": "Auditory Phonological Processing",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 10.1"
+          ],
+          "key_findings": "Normal phonological processing on Phonemic Synthesis and Filtered Words tests.",
+          "numeric_results": {
+            "Phonemic Synthesis Quantitative": "25 correct",
+            "Phonemic Synthesis Qualitative": "25 correct",
+            "SCAN-3A Filtered Words": "8 (25th percentile)"
+          }
+        },
+        {
+          "name": "Dichotic Listening (Integration)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 10.1"
+          ],
+          "key_findings": "Significant deficits in auditory integration. Abnormal performance on Competing Words (Free and Directed Recall) and Staggered Spondaic Word (SSW) test. Competing Sentences (separation task) was normal.",
+          "numeric_results": {
+            "SCAN-3A Competing Words Free Recall": "5 (5th percentile) - Abnormal",
+            "SCAN-3A Competing Words Directed Recall": "3 (1st percentile) - Abnormal",
+            "SCAN-3A Competing Sentences": "8 (25th percentile) - Normal",
+            "SCAN-3A Ear Advantage": "Abnormal (Right > Left)",
+            "SSW RC Errors": "5 (Abnormal)",
+            "SSW LC Errors": "8 (Abnormal)",
+            "SSW RNC Errors": "0",
+            "SSW LNC Errors": "0",
+            "SSW Reversals": "4 (Abnormal)",
+            "SSW Ear Effect LH": "Difference of -3 (Abnormal)",
+            "SSW Type A": "1",
+            "SSW Order Effect": "2",
+            "SSW SIR": "0.68"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "Peripheral hearing sensitivity is within normal limits bilaterally with excellent word recognition in quiet and normal speech-in-noise performance. However, central auditory processing evaluation reveals significant deficits in two specific areas: Auditory Hypersensitivity (tolerance levels 65-70 dB HL) and Auditory Integration (dichotic listening deficits on SSW and Competing Words). Temporal and phonological processing are intact.",
+  "counseling_points": [
+    "Your standard hearing test is normal, meaning your ears detect sound perfectly well.",
+    "The difficulties you experience are due to Auditory Processing Disorder (APD), specifically problems with 'Auditory Integration' (how your brain combines information from both ears) and 'Auditory Hypersensitivity' (reduced tolerance to loud sounds).",
+    "Your intolerance to noise is real; sounds that are comfortable for others (above 65-70 dB) cause you physical or emotional distress.",
+    "The trouble you had in retail jobs and school stems from these processing issues, not a lack of intelligence or effort."
+  ],
+  "notes_for_actor": [
+    "Portray a young adult who is anxious and frustrated by previous 'normal' hearing test results despite genuine struggles.",
+    "React visibly if loud sounds are mentioned or presented; you find them physically uncomfortable.",
+    "Emphasize that you can 'hear' people, but you get confused when there is a lot going on or when instructions are complex."
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "case_id": "Case023",
+  "timestamp_utc": "2025-12-24T02:08:24Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case23_Vestibular_Migraine_Disease_and_Horizont.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case23_Vestibular_Migraine_Disease_and_Horizont.pdf",
+    "patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_023_patient_card.json",
+    "remark": "缺少V3 Follow-up (2 weeks post-treatment) 和V4 Final Follow-up (1 month post V3)",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V3 encounter (2 weeks post-treatment) based on 'Outcome' section describing partial improvement and repeat Lempert Roll.",
+      "Added V4 encounter (1 month post V3) based on 'Outcome' section describing final resolution of symptoms and negative Dix-Hallpike."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "Physician's Office",
+          "history": {
+            "present_illness": "Patient reported headaches improved 90%. Still reported some positional vertigo with improvement since the previous visit.",
+            "otologic_history": null,
+            "noise_exposure_history": null,
+            "medical_psych_history": null,
+            "prior_management": "Lempert Roll maneuver performed again.",
+            "patient_goals": null
+          },
+          "tests": []
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Patient reported no further positional nystagmus and resolution of headaches.",
+            "otologic_history": null,
+            "noise_exposure_history": null,
+            "medical_psych_history": null,
+            "prior_management": "Amitriptyline.",
+            "patient_goals": null
+          },
+          "tests": [
+            {
+              "name": "Dix-Hallpike",
+              "timepoint_label": "Final Follow-up",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Negative in both directions.",
+              "numeric_results": null
+            },
+            {
+              "name": "VNG Goggles Examination",
+              "timepoint_label": "Final Follow-up",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Examined using VNG goggles.",
+              "numeric_results": null
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

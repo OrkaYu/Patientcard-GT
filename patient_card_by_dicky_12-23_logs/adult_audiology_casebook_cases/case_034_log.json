@@ -1,0 +1,168 @@
+{
+  "case_id": "Case034",
+  "timestamp_utc": "2025-12-24T02:10:44Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case34_I_Hear_Worse_When_I_Wear_Two_Hearing_Aid.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case34_I_Hear_Worse_When_I_Wear_Two_Hearing_Aid.pdf",
+    "patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_034_patient_card.json",
+    "remark": "缺少V3，Post-ARIA CAP evaluation\n缺少V4，一个月后follow up\nV1 缺少Remote microphone listening check\nV2缺少Initial pure-tone audiometry\nV2的memory test不完整，缺少ANMF/ANMB/AWM/ASM",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Remote microphone listening check' to V1 tests.",
+      "Added 'Pure-tone audiometry' to V2 tests as the initial check before CAP testing.",
+      "Updated V2 'Memory Screening' key_findings to explicitly list ANMF, ANMB, AWM, and ASM.",
+      "Added V3 encounter for Post-ARIA CAP evaluation with results from Table 34.1.",
+      "Added V4 encounter for the 1-month follow-up visit."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Remote microphone listening check",
+          "timepoint_label": "Re-assessment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Device confirmed to be working properly.",
+          "numeric_results": null
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/0",
+        "value": {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-CAP assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "No significant change in hearing status compared to previous assessment.",
+          "numeric_results": null
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/1/key_findings",
+        "value": "Administered Auditory Number Memory Forward (ANMF), Auditory Number Memory Backward (ANMB), Auditory Word Memory (AWM), and Auditory Sentence Memory (ASM). Results showed sufficient short-term and working memory to complete CAP testing."
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "University Audiology Clinic",
+          "history": {
+            "present_illness": "Post-ARIA training assessment. Patient completed four 1-hour sessions of ARIA training over a 3-week period."
+          },
+          "tests": [
+            {
+              "name": "Competing Sentences (CS)",
+              "timepoint_label": "Post-ARIA",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Table 34.1"
+              ],
+              "key_findings": "Significant improvement in the right ear scores compared to baseline.",
+              "numeric_results": {
+                "Right Ear (0 dB SNR)": "30%",
+                "Left Ear (0 dB SNR)": "95%",
+                "Right Ear (+5 dB SNR)": "70%",
+                "Left Ear (+5 dB SNR)": "90%",
+                "Right Ear (+10 dB SNR)": "90%",
+                "Left Ear (+10 dB SNR)": "90%"
+              }
+            },
+            {
+              "name": "Two-Pair Dichotic Digits (TPDD)",
+              "timepoint_label": "Post-ARIA",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Table 34.1"
+              ],
+              "key_findings": "No significant change.",
+              "numeric_results": {
+                "Right Score": "95%",
+                "Left Score": "98%"
+              }
+            },
+            {
+              "name": "Low-Pass Filtered Speech (LPFS)",
+              "timepoint_label": "Post-ARIA",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Table 34.1"
+              ],
+              "key_findings": "No significant change.",
+              "numeric_results": {
+                "Right Score": "36%",
+                "Left Score": "56%"
+              }
+            },
+            {
+              "name": "Frequency Patterns (FP)",
+              "timepoint_label": "Post-ARIA",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Table 34.1"
+              ],
+              "key_findings": "No significant change.",
+              "numeric_results": {
+                "Right Score": "86%",
+                "Left Score": "80%"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Follow-up 1 month after completing ARIA training.",
+            "course": "Reported mildly improved benefit when wearing both hearing aids in noisy environments and less stress/exhaustion. Continued withdrawal from some social gatherings.",
+            "plan": "Continue monitoring amblyaudia; referral for cognitive assessment."
+          },
+          "tests": []
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

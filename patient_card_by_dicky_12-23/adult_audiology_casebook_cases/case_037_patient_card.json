@@ -1,0 +1,243 @@
+{
+  "case_id": "case37_Innovative_Hearing_Device_for_the_Treatm",
+  "title": "Innovative Hearing Device for the Treatment of Mild to Severe Sensorineural Hearing Loss",
+  "demographics": {
+    "age_years": 77,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have trouble following conversations with my wife and daughter without asking them to repeat themselves, and the clarity of soft speech is degraded.",
+  "problem_summary": {
+    "onset": "At least 20 years ago.",
+    "course": "Gradual onset due to cumulative effects of aging and noise exposure.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Denied otalgia, aural fullness, tinnitus, and vertigo.",
+    "functional_impact": "Difficulty hearing in noise and perceiving soft speech clarity despite current hearing aid use.",
+    "goals_motivation": "Wishes to follow conversations better without asking for repetition; volunteered for a pilot study."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-07-06",
+      "setting": "Audiology Clinic / Clinical Trial Site",
+      "history": {
+        "present_illness": "Patient reports bilateral hearing loss for >20 years. Currently wears open-fit Receiver-In-the-Canal (RIC) hearing aids (4 years duration). Reports overall satisfaction but specific deficits in noise and with soft speech. Previously rejected closed fittings due to occlusion.",
+        "otologic_history": "Negative for familial loss, rapid progression, ototoxicity, ear infections, surgery, or trauma.",
+        "noise_exposure_history": "Retired hardware engineer with >10 years exposure to low- to moderate-level machine noise without protection.",
+        "medical_psych_history": "No history of stroke or head trauma.",
+        "prior_management": "Has used bilateral open-fit RIC hearing aids for 4 years.",
+        "patient_goals": "Improve speech understanding in noise and clarity of soft speech."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.1"
+          ],
+          "key_findings": "Normal hearing at 125-500 Hz, sloping to moderate SNHL at 750-1000 Hz, and severe SNHL at 1500-8000 Hz. Symmetrical configuration.",
+          "numeric_results": {
+            "Right_AC_Thresholds": "250Hz: 15, 500Hz: 20, 1000Hz: 50, 2000Hz: 80, 4000Hz: 95, 8000Hz: 95 dB HL",
+            "Left_AC_Thresholds": "250Hz: 20, 500Hz: 20, 1000Hz: 55, 2000Hz: 85, 4000Hz: 95, 8000Hz: 100 dB HL",
+            "High_Freq": "Thresholds obtained at 10,000 Hz (labeled 12k on chart) were approx 95-100 dB HL."
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.1"
+          ],
+          "key_findings": "SRTs agree with PTA. WRS indicates slight difficulty in the right ear and moderate difficulty in the left ear.",
+          "numeric_results": {
+            "SRT_Right": "30 dB HL",
+            "SRT_Left": "35 dB HL",
+            "WRS_Right": "82% (at 85 dB HL)",
+            "WRS_Left": "70% (at 85 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right_ECV": "1.5 mL",
+            "Left_ECV": "1.3 mL",
+            "Right_Peak_Pressure": "-30 daPa",
+            "Left_Peak_Pressure": "-25 daPa"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.1"
+          ],
+          "key_findings": "Absent ipsilateral reflexes at 2000 and 4000 Hz, consistent with magnitude of hearing loss. Contralateral reflexes not assessed.",
+          "numeric_results": {
+            "Ipsi_500Hz": "Present (85 dB)",
+            "Ipsi_1000Hz": "Present (95 dB)",
+            "Ipsi_2000Hz": "Absent",
+            "Ipsi_4000Hz": "Absent"
+          }
+        },
+        {
+          "name": "TEN Test",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Results suggested high-frequency dead regions at 8,000 and 10,000 Hz for each ear.",
+          "numeric_results": null
+        },
+        {
+          "name": "Real-Ear Measures (REM)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.2"
+          ],
+          "key_findings": "Performed with patient's current open-fit hearing aids. Targets for soft, average, and loud speech were undershot and mostly inaudible between 2000-8000 Hz (Right) and 1500-8000 Hz (Left). Clear roll-off observed beyond 4000 Hz.",
+          "numeric_results": {
+            "SII_Right_Avg": "47",
+            "SII_Left_Avg": "45"
+          }
+        },
+        {
+          "name": "Speech-in-noise (HIST)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing In Speech Test (HIST) performed with current directional aids. Performance significantly poorer than normal-hearing listeners.",
+          "numeric_results": {
+            "RTS": "+3.0 dB (Normal hearing reference: -4.9 dB)"
+          }
+        },
+        {
+          "name": "Soundfield Thresholds",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.3"
+          ],
+          "key_findings": "Comparison of unaided vs. current open-fit aids. Little to no significant benefit in high frequencies. Improvement of >= 15 dB HL noted only at 1000 Hz in the right ear.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2016-09-13",
+      "setting": "Audiology Clinic / Clinical Trial Site",
+      "history": {
+        "present_illness": "Follow-up after 2-month fitting optimization period with Earlens hearing aids. Patient also compared Earlens with his original acoustic aids for 2 weeks.",
+        "patient_goals": "Evaluate benefit of Earlens device and compare with acoustic aids."
+      },
+      "tests": [
+        {
+          "name": "Soundfield Thresholds",
+          "timepoint_label": "Post-treatment (Earlens)",
+          "ear": "bilateral",
+          "condition": "aided (Earlens)",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 37.5"
+          ],
+          "key_findings": "Significant improvement in high-frequency audibility compared to open-fit aids. Improvements of 25-40 dB HL (Right) noted between 2,000-10,000 Hz and 20-35 dB HL (Left) noted between 1,000-10,000 Hz.",
+          "numeric_results": {
+            "Right_Improvement": "25-40 dB HL (2-10 kHz)",
+            "Left_Improvement": "20-35 dB HL (1-10 kHz)"
+          }
+        },
+        {
+          "name": "Speech-in-noise (HIST)",
+          "timepoint_label": "Post-treatment (Earlens)",
+          "ear": "bilateral",
+          "condition": "aided (Earlens)",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "RTS of -2.8 dB, representing a 5.8 dB SNR improvement over open-fit aids (which were +3.0 dB).",
+          "numeric_results": {
+            "RTS": "-2.8 dB",
+            "SNR_Improvement": "5.8 dB"
+          }
+        },
+        {
+          "name": "Subjective Assessment",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": "aided (Earlens)",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient reported speech and music sounded clearer and more natural with Earlens compared to acoustic devices. Denied autophony and damping effects. Elected to keep Earlens.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral, symmetrical, steeply sloping sensorineural hearing loss, normal in the low frequencies and dropping to severe levels in the high frequencies. Testing indicates the presence of cochlear dead regions at 8 and 10 kHz. His current open-fit amplification provides limited high-frequency audibility (undershooting targets above 1.5-2 kHz) and poor speech-in-noise performance compared to norms, likely due to the acoustic limitations of open domes for this degree of high-frequency loss.",
+  "counseling_points": [
+    "Your hearing is normal in the low pitches but drops off sharply in the high pitches, which is why you hear people talking but struggle to understand the clarity, especially in noise.",
+    "We found 'dead regions' in the very high pitches (8000 Hz and above), meaning the nerve cells there may not process sound effectively even when amplified.",
+    "Your current open-fit hearing aids are comfortable, but they let the high-pitch sounds leak out, making it hard to give you the volume you need for clarity without feedback.",
+    "Because you found closed ear molds uncomfortable in the past, we are exploring a light-driven device (Earlens) that might provide the necessary high-pitch amplification without the plugged-up feeling."
+  ],
+  "notes_for_actor": [
+    "You are a retired engineer, so you are analytical and interested in the technology.",
+    "You are generally satisfied with your current hearing aids but frustrated by specific situations: noisy restaurants and soft speech.",
+    "You are cooperative and willing to try new technology (volunteered for the study).",
+    "You strongly dislike the feeling of your ears being plugged (occlusion)."
+  ]
+}

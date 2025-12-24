@@ -1,0 +1,218 @@
+{
+  "case_id": "case38_It_Is_Never_Too_Late",
+  "title": "It Is Never Too Late: Managing Hearing Loss with Comorbidities",
+  "demographics": {
+    "age_years": 87,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have trouble hearing, especially in background noise, and a bothersome buzzing in my ears. I also feel off-balance sometimes, though the room isn't spinning.",
+  "problem_summary": {
+    "onset": "Long-standing history of hearing loss; previous hearing aid trial 2 years ago was unsuccessful.",
+    "course": "Progressive; slight decrease in thresholds over the last 2 years.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Bothersome tinnitus (7/10), intermittent dizziness/off-balance sensation, chronic coughing (COPD).",
+    "functional_impact": "Struggling to participate in conversations; family feels she is withdrawing; tinnitus affects sleep.",
+    "goals_motivation": "Willing to try amplification again to help with hearing and tinnitus, despite previous failure."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-08-26",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returns 2 years after a failed hearing aid trial. Reports hearing loss and tinnitus (7/10 awareness and bothersomeness). Reports intermittent dizziness/lightheadedness but no vertigo.",
+        "otologic_history": "Diagnosed with bilateral moderate-to-severe SNHL 2 years ago. Previous Dix-Hallpike negative, though Epley maneuver alleviated prior dizziness. No ear infections or surgeries.",
+        "medical_psych_history": "COPD (chronic cough, uses inhalers), Hypothyroidism (Synthroid), Peripheral Neuropathy (Lyrica, Elavil), Sleep issues (Ambien), Vitamin D deficiency. Recent eval by neurologist for memory loss/cognitive decline.",
+        "prior_management": "Tried custom half-shell ITEs 2 years ago; returned them after 1 month due to lack of acclimatization and medical burden.",
+        "patient_goals": "Improve hearing and reduce tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Re-evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image",
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 38.1"
+          ],
+          "key_findings": "Bilateral sloping moderate-to-severe sensorineural hearing loss. Slight decrease in thresholds compared to 2 years ago. LDLs 85-90 dB HL.",
+          "numeric_results": {
+            "Right Ear Thresholds (dB HL)": "250Hz: 35, 500Hz: 40, 1000Hz: 50, 2000Hz: 60, 4000Hz: 75, 8000Hz: 80",
+            "Left Ear Thresholds (dB HL)": "250Hz: 40, 500Hz: 45, 1000Hz: 55, 2000Hz: 65, 4000Hz: 75, 8000Hz: 85",
+            "LDL 500Hz": "85 dB HL",
+            "LDL 3000Hz": "90 dB HL"
+          }
+        },
+        {
+          "name": "QuickSIN",
+          "timepoint_label": "Re-evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 38.2"
+          ],
+          "key_findings": "Severe SNR loss. Performance improves significantly with increased loudness and visual cues.",
+          "numeric_results": {
+            "SNR Loss at 65 dB HL (Auditory Only)": "19.5 dB",
+            "SNR Loss at 75 dB HL (Auditory Only)": "14.5 dB",
+            "SNR Loss at 75 dB HL (Auditory + Visual)": "5.5 dB"
+          }
+        },
+        {
+          "name": "Tinnitus Assessment",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient rated tinnitus on 1-10 scale.",
+          "numeric_results": {
+            "Awareness": "7/10",
+            "Bothersomeness": "7/10"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Re-evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.1"
+          ],
+          "key_findings": "Type A tympanograms bilaterally.",
+          "numeric_results": {
+            "Right Ear": "Volume: 1.5 mL, Admittance: 1.2 mmho, Pressure: -20 daPa",
+            "Left Ear": "Volume: 1.1 mL, Admittance: 1.4 mmho, Pressure: -20 daPa"
+          }
+        },
+        {
+          "name": "Acoustic Reflex Thresholds",
+          "timepoint_label": "Re-evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.1"
+          ],
+          "key_findings": "Ipsilateral reflexes present at 500, 1000, and 2000 Hz; absent at 4000 Hz. Contralateral reflexes could not be tested.",
+          "numeric_results": {
+            "Right Ipsi (dB HL)": "500Hz: 100, 1000Hz: 95, 2000Hz: 90, 4000Hz: ABS",
+            "Left Ipsi (dB HL)": "500Hz: 100, 1000Hz: 95, 2000Hz: 90, 4000Hz: ABS"
+          }
+        },
+        {
+          "name": "Speech Audiometry",
+          "timepoint_label": "Re-evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "SRT and WRS were not completed at this visit.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Hearing aid fitting and verification. Programmed to NAL-NL1 targets but gain reduced to 70% for acclimatization. A second speech-in-noise program with adaptive directionality was added.",
+        "prior_management": "Decision made to try BTE style aids this time."
+      },
+      "tests": [
+        {
+          "name": "Real Ear Measurements (REM)",
+          "timepoint_label": "Fitting",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Slim-tube BTE with power domes failed to meet NAL-NL1 targets. Switched to Receiver-In-Canal (RIC) with power domes, which met targets for 50, 65, and 80 dB SPL inputs. RESR90 measured to ensure output accommodated reduced dynamic range.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up visits revealed dexterity issues. Patient lost one RIC aid. Getting caught in hair/brush. Family assisting but process is tiresome.",
+        "patient_goals": "Need a solution that is easier to handle and consistent."
+      },
+      "tests": [
+        {
+          "name": "Extended-Wear Hearing Aid Fitting",
+          "timepoint_label": "Alternative Treatment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Switched to extended-wear (deep insertion) devices. Patient reported own voice sounded 'echoic'. Reprogrammed to reduce low-frequency gain, which resolved the issue.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Complication with extended-wear device. Patient's chronic coughing (COPD) dislodged the device, causing pain and redness.",
+        "prior_management": "Left device removed to allow healing."
+      },
+      "tests": [
+        {
+          "name": "Refitting",
+          "timepoint_label": "Resolution",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Inserted larger size device with lubrication to prevent slippage during coughing episodes. Patient reported tighter fit but comfortable. Subsequent follow-up showed no movement despite coughing.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral sloping moderate-to-severe sensorineural hearing loss and significantly reduced dynamic range (LDLs 85-90 dB HL). Speech-in-noise ability is severely compromised (19.5 dB SNR loss) but improves dramatically with visual cues. Tinnitus is a significant comorbid factor initially rated 7/10.",
+  "counseling_points": [
+    "Hearing aids are 'medicine for the brain'—they must be used consistently to be effective.",
+    "Visual cues are essential for your understanding; look at the speaker.",
+    "Your medications and conditions (COPD, thyroid) can contribute to dizziness and tinnitus.",
+    "Consistent auditory stimulation can help reduce tinnitus perception."
+  ],
+  "notes_for_actor": [
+    "Portray an 87-year-old with COPD; include occasional coughing fits.",
+    "Initially, speak loudly and laugh at inappropriate times (due to not hearing).",
+    "After treatment (V3/V4), soften your voice and show appropriate humor/personality.",
+    "Express frustration with handling small objects (dexterity issues).",
+    "When asked about tinnitus after treatment, respond with 'What tinnitus?' to show relief."
+  ]
+}

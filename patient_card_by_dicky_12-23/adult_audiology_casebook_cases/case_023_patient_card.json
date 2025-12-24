@@ -1,0 +1,243 @@
+{
+  "case_id": "case23_Vestibular_Migraine_Disease_and_Horizont",
+  "title": "Vestibular Migraine and Horizontal Canal BPPV",
+  "demographics": {
+    "age_years": 27,
+    "sex": "female",
+    "primary_language": null,
+    "country_region": null
+  },
+  "chief_complaint": "I woke up in the middle of the night with severe spinning about 6 weeks ago. Now I get dizzy every time I lie down or turn my head, so I've been sleeping sitting up in a chair.",
+  "problem_summary": {
+    "onset": "Sudden onset 6 weeks prior to visit, waking from sleep.",
+    "course": "Persistent 'bobbing' sensation between episodes; severe spinning provoked by position changes. Symptoms have lasted for days at a time.",
+    "laterality": "Bilateral tinnitus; vertigo direction unidentified by patient.",
+    "associated_symptoms": "Photophobia, headaches, bilateral tinnitus (1 week duration), otalgia, aural fullness, and anxiety.",
+    "functional_impact": "Patient has been sleeping upright in a chair for several weeks to avoid vertigo.",
+    "goals_motivation": "Resolution of dizziness to return to normal sleeping and daily activities."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-02-01",
+      "setting": "Referring Otolaryngologist's Office",
+      "history": {
+        "present_illness": "Patient reported waking with vertigo 6 weeks prior. Diagnosed with bilateral ear infections and prescribed antibiotics by PCP, but symptoms persisted.",
+        "otologic_history": "Otalgia and fullness began 6 weeks prior.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "History of migraines (evaluated by neurologist). Anxiety.",
+        "prior_management": "Antibiotics from PCP (ineffective).",
+        "patient_goals": null
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 23.1"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. Air and bone conduction thresholds within normal limits (0-15 dB HL).",
+          "numeric_results": {
+            "Right_PTA": "Normal",
+            "Left_PTA": "Normal"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 23.1"
+          ],
+          "key_findings": "Speech Recognition Thresholds (SRT) in good agreement with PTA. Word Recognition Scores (WRS) excellent.",
+          "numeric_results": {
+            "SRT_Right": "12 dB",
+            "SRT_Left": "13 dB",
+            "WRS_Right": "100% (at 45 dB HL)",
+            "WRS_Left": "100% (at 45 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal ear canal volume, middle ear pressure, and static compliance.",
+          "numeric_results": null
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Not completed in either ear.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2016-03-08",
+      "setting": "Audiology Clinic (Vestibular Evaluation)",
+      "history": {
+        "present_illness": "Continued dizziness, sleeping upright. Photophobia and headaches noted.",
+        "otologic_history": "Bilateral tinnitus.",
+        "noise_exposure_history": null,
+        "medical_psych_history": "Migraines.",
+        "prior_management": "Referral for VNG.",
+        "patient_goals": "Diagnosis of vertigo source."
+      },
+      "tests": [
+        {
+          "name": "Videonystagmography (VNG) - Oculomotor",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Normal ocular motility.",
+          "numeric_results": null
+        },
+        {
+          "name": "Videonystagmography (VNG) - Caloric Testing",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 23.2"
+          ],
+          "key_findings": "Results indicate a left unilateral weakness, though text describes it as 'equivocal' (21%) while figure caption notes 27%. The clinic cutoff for abnormal is 25%.",
+          "numeric_results": {
+            "Unilateral_Weakness": "21% Left (text) / 27% Left (figure caption)",
+            "Directional_Preponderance": "Right 21% (from image)"
+          }
+        },
+        {
+          "name": "Dix-Hallpike",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 23.3"
+          ],
+          "key_findings": "Right ear down: Unremarkable. Left ear down: Positive for horizontal left-beating nystagmus (no torsional component). Nystagmus did not fatigue on repeat.",
+          "numeric_results": null
+        },
+        {
+          "name": "Positional Testing",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 23.4"
+          ],
+          "key_findings": "Geotropic direction-changing positional nystagmus in all positions. Torsional component present in head-left and body-left positions. Strongest nystagmus in head-left position.",
+          "numeric_results": {
+            "Max_Nystagmus_Velocity": "60 deg/s (horizontal component)",
+            "Vertical_Component": "30 deg/s"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Physician's Office",
+      "history": {
+        "present_illness": "Patient reported headaches improved 90%. Still reported some positional vertigo with improvement since the previous visit.",
+        "otologic_history": null,
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Lempert Roll maneuver performed again.",
+        "patient_goals": null
+      },
+      "tests": []
+    },
+    {
+      "visit_id": "V4",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reported no further positional nystagmus and resolution of headaches.",
+        "otologic_history": null,
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Amitriptyline.",
+        "patient_goals": null
+      },
+      "tests": [
+        {
+          "name": "Dix-Hallpike",
+          "timepoint_label": "Final Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Negative in both directions.",
+          "numeric_results": null
+        },
+        {
+          "name": "VNG Goggles Examination",
+          "timepoint_label": "Final Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Examined using VNG goggles.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally. Vestibular evaluation reveals geotropic direction-changing positional nystagmus, strongest in the head-left position, and horizontal left-beating nystagmus during the left Dix-Hallpike. These findings are consistent with Horizontal Canal Benign Paroxysmal Positional Vertigo (BPPV) affecting the left ear (canalithiasis). The patient also presents with symptoms consistent with vestibular migraine.",
+  "counseling_points": [
+    "Your hearing test is normal, ruling out hearing loss as a component of your condition.",
+    "The dizziness you experience when lying down is caused by loose crystals in the horizontal canal of your left inner ear (Horizontal Canal BPPV).",
+    "Because the nystagmus beats toward the ground (geotropic) and is stronger on the left, we treat the left side.",
+    "We will perform a maneuver called the Lempert Roll (or BBQ Roll) to move the crystals back where they belong.",
+    "Your other symptoms (light sensitivity, headaches) suggest you also have Vestibular Migraine, which may require dietary changes or medication managed by your doctor."
+  ],
+  "notes_for_actor": [
+    "You are very anxious about lying flat or turning your head because it triggers severe spinning.",
+    "You have been sleeping in a recliner or chair for weeks.",
+    "Describe a 'bobbing' sensation when you aren't spinning.",
+    "Mention that bright lights bother you (photophobia) and you have headaches."
+  ]
+}

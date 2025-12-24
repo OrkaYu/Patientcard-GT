@@ -1,0 +1,234 @@
+{
+  "case_id": "case36_I_Only_Want_Hearing_Aids_Today",
+  "title": "I Only Want Hearing Aids—Today!",
+  "demographics": {
+    "age_years": 77,
+    "sex": "female",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I am here to purchase better performing hearing aids. My current ones aren't working well, and I don't want to discuss my medical history.",
+  "problem_summary": {
+    "onset": "Dizziness began in 2000; severe vertigo event in July 2011. Hearing loss has been progressive.",
+    "course": "Progressive hearing loss bilaterally, with the left ear declining more rapidly. Vestibular symptoms have persisted.",
+    "laterality": "Bilateral; asymmetric (Left worse than Right).",
+    "associated_symptoms": "Dizziness with high-intensity sound (Tullio phenomenon), imbalance, heavy pressure-headed sensation, tinnitus (left ear), diplopia.",
+    "functional_impact": "Unable to enjoy walking; symptoms exacerbated by complex visual environments, loud noises, and rapid head movements. Poor hearing aid performance.",
+    "goals_motivation": "Primary initial goal was to buy new hearing aids immediately without medical evaluation."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": null,
+      "setting": "Audiology Clinic (Initial Consult)",
+      "history": {
+        "present_illness": "Patient presented demanding to buy hearing aids. Refused to discuss medical history initially. Disclosed dizziness with loud sounds.",
+        "otologic_history": "Provided two previous audiograms (2012 and 2015) from an otolaryngologist showing degradation of left ear hearing.",
+        "prior_management": "Saw otolaryngologist in 2012 and 2015. Currently wearing RIC hearing aids from Costco.",
+        "patient_goals": "Purchase new hearing aids immediately."
+      },
+      "tests": [
+        {
+          "name": "Review of Historical Audiometry (2012)",
+          "timepoint_label": "Baseline (2012)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 36.1"
+          ],
+          "key_findings": "Right ear: Moderate SNHL sloping to severe. Left ear: Moderately severe mixed loss with air-bone gaps. Poor word recognition on left.",
+          "numeric_results": {
+            "RE_PTA": "48 dB HL",
+            "LE_PTA": "62 dB HL",
+            "RE_WRS": "100%",
+            "LE_WRS": "30%",
+            "LE_Air_Bone_Gap": "Significant at 500-1000 Hz"
+          }
+        },
+        {
+          "name": "Review of Historical Audiometry (2015)",
+          "timepoint_label": "Baseline (2015)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 36.2"
+          ],
+          "key_findings": "Significant degradation in left ear thresholds. No air-bone gaps noted (Type A tymps reported in text). WRS in left ear dropped significantly.",
+          "numeric_results": {
+            "RE_PTA": "53 dB HL",
+            "LE_PTA": "87 dB HL",
+            "RE_WRS": "100%",
+            "LE_WRS": "20%",
+            "RE_Aided_SRT": "40 dB HL",
+            "LE_Aided_SRT": "65 dB HL"
+          }
+        },
+        {
+          "name": "Costco Screening Audiograms",
+          "timepoint_label": "Recent (Pre-Consult)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Two recent pure-tone screening audiograms performed approximately 1 month apart. Results were significantly different for each ear."
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2016-03-28",
+      "setting": "Audiology Clinic (Comprehensive Eval)",
+      "history": {
+        "present_illness": "Patient returned after visiting a vestibular clinic. More amenable to questions. Reports dizziness, imbalance, and pressure sensation.",
+        "medical_psych_history": "Anxiety, depression, sleep apnea (CPAP), hypothyroidism. History of pelvic radiation.",
+        "vestibular_history": "Vestibular clinic results (outside): 78% caloric weakness LE, abnormal phase lead, short VOR time constants."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 36.3"
+          ],
+          "key_findings": "Asymmetric SNHL. Right: Moderate flat to 2k sloping to severe. Left: Severe to profound flat loss. No conductive component found (Type A tymps).",
+          "numeric_results": {
+            "RE_PTA": "53 dB HL",
+            "LE_PTA": "88 dB HL",
+            "RE_Thresholds_250-2k": "~50-55 dB HL",
+            "LE_Thresholds_250-4k": "~80-90 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 36.3"
+          ],
+          "key_findings": "Excellent recognition in right ear; very poor recognition in left ear (rollover/retrocochlear sign).",
+          "numeric_results": {
+            "RE_SRT": "50 dB HL",
+            "LE_SRT": "80 dB HL",
+            "RE_WRS": "92% (80 dB)",
+            "LE_WRS": "32% (95 dB)"
+          }
+        },
+        {
+          "name": "Immittance & Reflexes",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 36.3"
+          ],
+          "key_findings": "Normal tympanograms (Type A). Acoustic reflexes absent ipsilateral and contralateral.",
+          "numeric_results": {
+            "RE_Tymp_Vol": "1.6 ml",
+            "LE_Tymp_Vol": "1.6 ml",
+            "Reflexes": "Absent at 500, 1k, 2k, 4k"
+          }
+        },
+        {
+          "name": "QuickSIN",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Very poor performance in noise.",
+          "numeric_results": {
+            "SNR_Loss": "23.5 dB"
+          }
+        },
+        {
+          "name": "Real Ear Measures (REM)",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Current Costco hearing aids found to be well below NAL-NL-2 targets."
+        },
+        {
+          "name": "Olsen-Noffsinger tone decay test",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 36.3"
+          ],
+          "key_findings": "Performed as part of the comprehensive evaluation to resolve discrepancies."
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic (Follow-up)",
+      "history": {
+        "present_illness": "Review of MRI results."
+      },
+      "tests": [
+        {
+          "name": "MRI Internal Auditory Canal",
+          "timepoint_label": "Post-Referral",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "1.5 cm lesion along left cerebellopontine angle extending into porus acusticus and IAC. Cochlea/vestibule normal.",
+          "numeric_results": {
+            "Lesion_Size": "1.5 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a significant asymmetric sensorineural hearing loss, characterized by a moderate-to-severe loss in the right ear and a severe-to-profound loss in the left ear. Word recognition is excellent in the right ear but disproportionately poor in the left ear (32%), consistent with retrocochlear pathology. Diagnostic testing reveals absent acoustic reflexes and significant signal-to-noise ratio loss (23.5 dB). MRI confirmed a 1.5 cm vestibular schwannoma on the left side.",
+  "counseling_points": [
+    "Your hearing test shows a significant difference between your ears, which is a 'red flag' requiring medical investigation.",
+    "The MRI results confirm a growth (vestibular schwannoma) on the hearing nerve of your left ear, which explains the dizziness and rapid hearing drop.",
+    "We need to refer you to a neurotologist to discuss management options like surgery or radiation.",
+    "Regarding hearing aids: Your ability to understand speech in the left ear is very poor, even with amplification. We will need to set realistic expectations for how much a hearing aid can help on that side."
+  ],
+  "notes_for_actor": [
+    "In the first encounter, be defensive, impatient, and focused solely on buying a product ('The customer is always right'). Refuse to answer medical questions.",
+    "Express frustration that the audiologist won't just sell you the aids.",
+    "In later encounters, after the medical scare and failed appointment, become more cooperative and open about your symptoms.",
+    "Portray the dizziness as a heavy, pressure-headed sensation that makes walking difficult."
+  ]
+}

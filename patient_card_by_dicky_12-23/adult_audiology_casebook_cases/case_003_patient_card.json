@@ -1,0 +1,235 @@
+{
+  "case_id": "case03_Audiologic_Management_of_an_African_American",
+  "title": "Audiologic Management of a Patient with Sickle Cell Disease",
+  "demographics": {
+    "age_years": 20,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I've been having hearing loss and pain in my right ear for about 6 months. It's hard to hear my instructors in class.",
+  "problem_summary": {
+    "onset": "Approximately 6 months prior to initial evaluation.",
+    "course": "Fluctuating hearing loss; symptoms worsened over time.",
+    "laterality": "Right ear initially; bilateral involvement noted at follow-up.",
+    "associated_symptoms": "Otalgia (right ear), chronic fatigue, joint pain, swelling of feet.",
+    "functional_impact": "Difficulty hearing instructors in a university setting.",
+    "goals_motivation": "Patient is a college student on scholarship seeking an education degree; needs to hear for class."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2001-04-03",
+      "setting": "University Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports fluctuating hearing loss and pain in the right ear for the past 6 months. Previously seen by NP for ear infection and treated with antibiotics; hearing improved but did not return to normal.",
+        "otologic_history": "Positive for chronic upper respiratory infections. Negative for tinnitus, vertigo, or head trauma.",
+        "medical_psych_history": "Prenatal and family history unremarkable.",
+        "prior_management": "Prescribed antibiotics by student health clinic prior to referral."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.1"
+          ],
+          "key_findings": "Right ear shows mild-to-moderately severe SNHL. Left ear thresholds are within normal limits.",
+          "numeric_results": {
+            "Right_PTA": "40 dB HL",
+            "Left_PTA": "7 dB HL",
+            "Right_AC_Thresholds": "Range approx 40-70 dB HL",
+            "Left_AC_Thresholds": "Range approx 0-10 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.1"
+          ],
+          "key_findings": "SRTs agree with PTA. Right ear WRS shows rollover (PB-PI Rollover Index 0.27), suggestive of cochlear pathology.",
+          "numeric_results": {
+            "Right_SRT": "40 dB HL",
+            "Left_SRT": "5 dB HL",
+            "Right_WRS_80dB": "64%",
+            "Right_WRS_70dB": "88%",
+            "Left_WRS_70dB": "100%",
+            "Left_WRS_80dB": "100%"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.1"
+          ],
+          "key_findings": "Normal ear canal volume and static admittance bilaterally. Left ear normal pressure; Right ear negative pressure.",
+          "numeric_results": {
+            "Right_Pressure": "-100 daPa",
+            "Left_Pressure": "-25 daPa",
+            "Right_Admittance": "0.9 mmho",
+            "Left_Admittance": "1.1 mmho"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Consistent with cochlear hearing loss in the right ear (obtained at reduced sensation levels). Normal sensation levels in the left ear. No decay observed.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Baseline (Day 2)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.2"
+          ],
+          "key_findings": "ABR: Normal absolute and interwave latencies; Wave V repeatable. DPOAEs: Absent through 2000 Hz in right ear; present/normal in left ear >2000 Hz.",
+          "numeric_results": {
+            "ABR_Stimulus": "Click at 80 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2001-05-04",
+      "setting": "University Audiology Clinic",
+      "history": {
+        "present_illness": "Patient presented with severe joint pain and fever (101.2 F). Reported recently observed changes in hearing sensitivity.",
+        "medical_psych_history": "Inter-visit medical workup revealed 28% hemoglobin S, confirming Sickle Cell Disease (SCD). Patient reports chronic swelling of feet, fatigue, and achy joints since childhood.",
+        "prior_management": "Referred to otologist and rheumatologist between visits."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.3"
+          ],
+          "key_findings": "Left ear now shows slight mid-frequency SNHL. Right ear shows significant decrease in thresholds at 2000-8000 Hz compared to baseline.",
+          "numeric_results": {
+            "Right_PTA": "43 dB HL",
+            "Left_PTA": "18 dB HL",
+            "Right_Threshold_4kHz": "Approx 90 dB HL",
+            "Left_Threshold_2kHz": "Approx 25 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.3"
+          ],
+          "key_findings": "Right ear mild to moderately severe loss in ability to receive speech. Left ear normal ability.",
+          "numeric_results": {
+            "Right_SRT": "50 dB HL",
+            "Left_SRT": "15 dB HL",
+            "Right_WRS": "88% (80 dB HL)",
+            "Left_WRS": "96% (80 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.3"
+          ],
+          "key_findings": "Normal ear canal volume, middle ear pressure, and static compliance bilaterally.",
+          "numeric_results": {
+            "Right_Pressure": "-50 daPa",
+            "Left_Pressure": "-30 daPa",
+            "Right_Admittance": "1.0 mmho",
+            "Left_Admittance": "1.3 mmho"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Consistent with previous sensation levels in each ear.",
+          "numeric_results": null
+        },
+        {
+          "name": "Other",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.4"
+          ],
+          "key_findings": "DPOAEs: Absent at high frequencies in left ear and mid-frequencies in right ear. ABR could not be completed due to patient discomfort.",
+          "numeric_results": null
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with a fluctuating, asymmetrical sensorineural hearing loss that has progressed over a one-month period. Initially, the right ear exhibited mild-to-moderately severe SNHL with rollover, while the left ear was normal. Follow-up testing revealed worsening high-frequency thresholds in the right ear and new slight mid-frequency SNHL in the left ear, coincident with a Sickle Cell Disease pain crisis.",
+  "counseling_points": [
+    "Your hearing loss appears to be related to the Sickle Cell Disease diagnosis, likely due to reduced blood flow to the inner ear.",
+    "Because you are currently in a pain crisis with a fever, you need to see your SCD specialist immediately.",
+    "We see some changes in your hearing today compared to last month, including a slight change in your left ear.",
+    "Once your current medical crisis is managed, please return for a re-evaluation and we can discuss hearing aids to help with your classes."
+  ],
+  "notes_for_actor": [
+    "In the first visit, you are concerned about school and the pain in your right ear.",
+    "In the second visit, you are in significant physical distress (pain crisis), feverish, and uncomfortable. You may be impatient with testing due to body pain."
+  ]
+}

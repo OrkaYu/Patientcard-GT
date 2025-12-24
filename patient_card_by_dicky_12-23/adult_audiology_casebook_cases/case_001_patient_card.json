@@ -1,0 +1,148 @@
+{
+  "case_id": "case01_Meniere_s_Disease_and_Aided_Distortion",
+  "title": "Meniere's Disease and Aided Distortion",
+  "demographics": {
+    "age_years": 61,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": "USA"
+  },
+  "chief_complaint": "I have a history of Meniere's disease with fluctuating hearing that has stabilized recently, but I still have roaring tinnitus. Although my dizziness has improved with diet changes, I am having significant trouble understanding speech.",
+  "problem_summary": {
+    "onset": "Diagnosed with Meniere's disease 10 years ago.",
+    "course": "Fluctuating hearing loss stabilized for approximately 1 year; vertigo subsided following dietary changes.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Intermittent bilateral low-frequency roaring tinnitus; history of vertigo (currently resolved).",
+    "functional_impact": "Difficulty understanding speech, particularly in noise. Reports distortion in the right ear.",
+    "goals_motivation": "Improve speech understanding; initially tried bilateral amplification but dissatisfied with right ear performance."
+  },
+  "encounters": [
+    {
+      "visit_id": "V1",
+      "date": "2016-04-28",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reports stabilized hearing loss after 10 years of Meniere's. Denies recent vertigo. Reports low-frequency roaring tinnitus.",
+        "otologic_history": "Meniere's disease. No recent infections, fullness, or drainage.",
+        "noise_exposure_history": "History of occupational noise exposure.",
+        "medical_psych_history": "Mother had hearing loss at a young age (unknown cause).",
+        "prior_management": "Dietary changes (low salt, no caffeine) helped dizziness.",
+        "patient_goals": "Assessment for amplification."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 1.1"
+          ],
+          "key_findings": "Bilateral symmetrical moderately severe sensorineural hearing loss. Flat configuration.",
+          "numeric_results": {
+            "Right_Ear_Thresholds": "~60-70 dB HL across frequencies",
+            "Left_Ear_Thresholds": "~60-70 dB HL across frequencies",
+            "PTA_Right": "70 dB HL",
+            "PTA_Left": "61 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 1.1"
+          ],
+          "key_findings": "SRTs agree with PTAs. WRS shows significant asymmetry with poorer performance in the right ear despite symmetric thresholds.",
+          "numeric_results": {
+            "SRT_Right": "75 dB HL",
+            "SRT_Left": "65 dB HL",
+            "WRS_Right": "50% (at 85 dB HL)",
+            "WRS_Left": "66% (at 85 dB HL)"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 1.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally.",
+          "numeric_results": {
+            "Type": "Type A bilaterally",
+            "Static_Compliance": "Within normal limits",
+            "Ear_Canal_Volume": "Within normal limits"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Absent bilaterally at 500 to 4,000 Hz (Ipsilateral and Contralateral).",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned after a 1-month trial with bilateral RIC hearing aids.",
+        "prior_management": "Fitted with bilateral RICs (custom c-shells) programmed to NAL-NL2. Tinnitus program included.",
+        "patient_goals": "Patient wants to return the right hearing aid. Reports the right unit sounds 'extremely distorted' even in quiet and makes speech difficult to understand compared to the left alone."
+      },
+      "tests": [
+        {
+          "name": "Aided Word Recognition",
+          "timepoint_label": "Post-op",
+          "ear": "soundfield",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Aided testing performed to investigate reported distortion. Results confirm binaural interference; bilateral performance (50%) was poorer than left monaural performance (66%).",
+          "numeric_results": {
+            "Input_Level": "65 dB SPL (0 degrees azimuth)",
+            "Left_Monaural_Aided_Score": "66%",
+            "Right_Monaural_Aided_Score": "40%",
+            "Bilateral_Aided_Score": "50%"
+          }
+        }
+      ]
+    }
+  ],
+  "overall_audiologic_summary": "The patient presents with bilateral symmetrical moderately severe sensorineural hearing loss associated with Meniere's disease. Despite symmetric pure-tone thresholds, speech recognition is asymmetric, with the right ear performing significantly worse (50%) than the left (66%). Aided testing reveals binaural interference, where bilateral amplification results in poorer speech understanding (50%) compared to the left aid alone (66%), consistent with the patient's report of distortion in the right ear.",
+  "counseling_points": [
+    "Your hearing test shows that while your hearing levels are similar in both ears, your right ear has much more difficulty clarifying speech (distortion) than your left.",
+    "Using a hearing aid in your right ear is actually interfering with your ability to understand speech, rather than helping. This is why you feel you hear better with just the left one.",
+    "We recommend trying a BiCROS system or a monaural fit. A BiCROS would pick up sound from your right side and send it to your better left ear, giving you awareness without the distortion.",
+    "Because of the difference in speech clarity between your ears, we recommend a referral to an otologist for further evaluation (possibly including an MRI) to rule out other causes for this asymmetry."
+  ],
+  "notes_for_actor": [
+    "Portray a patient who is frustrated specifically with the right hearing aid.",
+    "Emphasize that the right ear sounds 'broken' or 'distorted' like a bad speaker, not just quiet.",
+    "Be resistant to keeping the right hearing aid as a standard amplifier, but open to new technology (BiCROS) if explained that it won't amplify the distortion."
+  ]
+}

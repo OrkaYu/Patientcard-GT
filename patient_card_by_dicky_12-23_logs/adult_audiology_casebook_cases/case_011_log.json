@@ -1,0 +1,95 @@
+{
+  "case_id": "Case011",
+  "timestamp_utc": "2025-12-24T02:07:40Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case11_Hearing_versus_Auditory_Processing_Disor.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case11_Hearing_versus_Auditory_Processing_Disor.pdf",
+    "patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_011_patient_card.json",
+    "remark": "SSW测试遗漏了Order Effect HL，Reversals，Type A\n缺少V2，Post-training Re-evaluation (1 year later)，测试：WRS in noise，SSW，SCAN-3A",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added missing SSW metrics (Order Effect HL, Reversals, Type A) to V1 numeric_results based on Table 11.1.",
+      "Added V2 encounter for Post-training Re-evaluation (1 year later) with WRS in noise, SSW, and SCAN-3A results as per Section 11.5."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/4/numeric_results/Order Effect HL",
+        "value": "2"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/4/numeric_results/Reversals",
+        "value": "0"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/4/numeric_results/Type A",
+        "value": "2"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": "1 year later",
+          "setting": "Audiology Clinic (Post-training Re-evaluation)",
+          "history": {
+            "present_illness": "Patient returned for re-evaluation after 1 year of auditory training (DOT program and SIN training).",
+            "patient_goals": "Assess progress after training."
+          },
+          "tests": [
+            {
+              "name": "Speech-in-noise (W-22)",
+              "timepoint_label": "1 year post-training",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text"
+              ],
+              "key_findings": "Normal findings.",
+              "numeric_results": {
+                "SNR": "+5 dB",
+                "Quiet/Noise Difference Right": "8%",
+                "Quiet/Noise Difference Left": "12%"
+              }
+            },
+            {
+              "name": "Staggered Spondaic Word (SSW) Test",
+              "timepoint_label": "1 year post-training",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text"
+              ],
+              "key_findings": "Normal findings for all conditions.",
+              "numeric_results": {
+                "LC Errors": "2",
+                "Ear Effect LH": "1"
+              }
+            },
+            {
+              "name": "SCAN-3A (Auditory Processing Battery)",
+              "timepoint_label": "1 year post-training",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text"
+              ],
+              "key_findings": "Normal results for all measures.",
+              "numeric_results": {
+                "Result": "Scaled scores of 9 (37th percentile) or better for all measures"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

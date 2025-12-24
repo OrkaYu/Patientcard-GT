@@ -1,0 +1,71 @@
+{
+  "case_id": "Case003",
+  "timestamp_utc": "2025-12-24T02:04:41Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case03_Audiologic_Management_of_an_African_Amer.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case03_Audiologic_Management_of_an_African_Amer.pdf",
+    "patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_003_patient_card.json",
+    "remark": "Case id不完整，缺少\"African American\"\nV1: \"Left_SRT\": \"7 dB HL\",应该为5 dB HL\nV2: PTA RT=50, LT=15; SRT RT=43, LT=18 应该改为PTA RT=43, LT=18; SRT RT=50, LT=15\nV2缺少acoustic reflex threshold",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected truncated case_id to include full 'African_American'.",
+      "Updated V1 Left_SRT from 7 dB HL to 5 dB HL.",
+      "Swapped V2 PTA and SRT values for Right and Left ears as requested.",
+      "Added missing Acoustic reflexes test to V2 based on text description."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/case_id",
+        "value": "case03_Audiologic_Management_of_an_African_American"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/Left_SRT",
+        "value": "5 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/0/numeric_results/Right_PTA",
+        "value": "43 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/0/numeric_results/Left_PTA",
+        "value": "18 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/1/numeric_results/Right_SRT",
+        "value": "50 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/1/numeric_results/Left_SRT",
+        "value": "15 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/3",
+        "value": {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Consistent with previous sensation levels in each ear.",
+          "numeric_results": null
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

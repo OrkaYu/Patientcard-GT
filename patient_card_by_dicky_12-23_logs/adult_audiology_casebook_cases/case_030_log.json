@@ -1,0 +1,51 @@
+{
+  "case_id": "Case030",
+  "timestamp_utc": "2025-12-24T02:09:34Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case30_A_Case_of_Definite_Meniere_s_Disease_Uni.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case30_A_Case_of_Definite_Meniere_s_Disease_Uni.pdf",
+    "patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_030_patient_card.json",
+    "remark": "缺少V2 Otology Follow-up (2 months post-initial evaluation) 和V3 Neurology Consultation",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 Otology Follow-up encounter (2 months post-initial) detailing continued drop attacks and prescription of diuretics.",
+      "Added V3 Neurology Consultation encounter detailing the diagnosis of migrainous vertigo."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": "2 months post-initial evaluation",
+          "setting": "Otology Clinic",
+          "history": {
+            "present_illness": "Patient reported continued 'drop' attacks (sudden spontaneous falls when walking or standing)."
+          },
+          "tests": [],
+          "management": "Prescribed diuretic (Maxzide) and encouraged to continue sodium and caffeine restrictions. No amplification recommended at this time. Scheduled for re-evaluation in 6 months with an accompanying audiogram."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": "Post-V2",
+          "setting": "Neurology Clinic",
+          "history": {
+            "present_illness": "Evaluation for headaches."
+          },
+          "tests": [],
+          "assessment": "Diagnosed with migrainous vertigo in addition to Meniere's disease."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}
