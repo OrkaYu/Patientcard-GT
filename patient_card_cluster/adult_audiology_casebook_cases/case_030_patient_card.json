@@ -172,6 +172,26 @@
           "numeric_results": null
         }
       ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2 months post-initial evaluation",
+      "setting": "Otology Clinic",
+      "history": {
+        "present_illness": "Patient reported continued 'drop' attacks (sudden spontaneous falls when walking or standing)."
+      },
+      "tests": [],
+      "management": "Prescribed diuretic (Maxzide) and encouraged to continue sodium and caffeine restrictions. No amplification recommended at this time. Scheduled for re-evaluation in 6 months with an accompanying audiogram."
+    },
+    {
+      "visit_id": "V3",
+      "date": "Post-V2",
+      "setting": "Neurology Clinic",
+      "history": {
+        "present_illness": "Evaluation for headaches."
+      },
+      "tests": [],
+      "assessment": "Diagnosed with migrainous vertigo in addition to Meniere's disease."
     }
   ],
   "overall_audiologic_summary": "The patient presents with a left moderate-to-severe fluctuating sensorineural hearing loss and very poor word recognition (8%), consistent with cochlear pathology. Vestibular testing reveals a dissociation between low-frequency and high-frequency vestibular function: caloric testing (low frequency) shows a significant 42% left unilateral weakness, while vHIT (high frequency) is normal. This pattern, along with the phase lead on rotary chair and normal VEMPs, is consistent with 'definite' Meniere's disease affecting the low-frequency spectrum of the peripheral vestibular system.",

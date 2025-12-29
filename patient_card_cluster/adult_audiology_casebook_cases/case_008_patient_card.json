@@ -122,6 +122,23 @@
           "numeric_results": {
             "SNR_Loss": "2.5 dB (Binaural)"
           }
+        },
+        {
+          "name": "Client Oriented Scale of Improvement (COSI)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient identified four priority situations for communication improvement.",
+          "numeric_results": {
+            "Priority_1": "Hearing in court (court interpreter)",
+            "Priority_2": "Synagogue (cantor) and social events",
+            "Priority_3": "Family dinners",
+            "Priority_4": "Watching TV"
+          }
         }
       ]
     }

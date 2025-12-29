@@ -166,6 +166,52 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "3 months post-intervention",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned to assess outcomes after using the tabletop conference microphone with her hearing aids for 3 months.",
+        "prior_management": "Implemented Option 2 (hearing aids + tabletop conference microphone) for 3 months."
+      },
+      "tests": [
+        {
+          "name": "COSI (Client Oriented Scale of Improvement)",
+          "timepoint_label": "Post-intervention",
+          "ear": null,
+          "condition": "aided with ALD",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Degree of change rated as 'better'. Final ability to hear rated as 'most of the time' for identified situations.",
+          "numeric_results": {
+            "Degree_of_Change": "Better",
+            "Final_Ability_to_Hear": "Most of the time"
+          }
+        },
+        {
+          "name": "IOI-AI (International Outcome Inventory for Alternative Interventions)",
+          "timepoint_label": "Post-intervention",
+          "ear": null,
+          "condition": "aided with ALD",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient reported high usage and satisfaction, with improved quality of life.",
+          "numeric_results": {
+            "Daily_Use": "100% of time in meetings",
+            "Benefit": "Helped quite a lot",
+            "Residual_Activity_Limitations": "Slight difficulty",
+            "Satisfaction": "Quite a lot worth it",
+            "Residual_Participation_Restrictions": "Affected moderately",
+            "Impact_on_Others": "Only slightly",
+            "Quality_of_Life": "Quite a lot better"
+          }
+        }
+      ]
     }
   ],
   "overall_audiologic_summary": "The patient presents with a bilateral, symmetrical, mild-to-severe sloping sensorineural hearing loss with good speech recognition ability at elevated levels. While her current amplification meets prescriptive targets, she experiences significant functional deficits in complex work environments involving noise and groups. Self-report measures indicate high levels of work-related stress and fatigue directly linked to auditory effort.",

@@ -70,6 +70,17 @@
             "RE_Aided_SRT": "40 dB HL",
             "LE_Aided_SRT": "65 dB HL"
           }
+        },
+        {
+          "name": "Costco Screening Audiograms",
+          "timepoint_label": "Recent (Pre-Consult)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Two recent pure-tone screening audiograms performed approximately 1 month apart. Results were significantly different for each ear."
         }
       ]
     },
@@ -165,6 +176,20 @@
           ],
           "figure_refs": [],
           "key_findings": "Current Costco hearing aids found to be well below NAL-NL-2 targets."
+        },
+        {
+          "name": "Olsen-Noffsinger tone decay test",
+          "timepoint_label": "Current",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 36.3"
+          ],
+          "key_findings": "Performed as part of the comprehensive evaluation to resolve discrepancies."
         }
       ]
     },

@@ -171,6 +171,59 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Physician's Office",
+      "history": {
+        "present_illness": "Patient reported headaches improved 90%. Still reported some positional vertigo with improvement since the previous visit.",
+        "otologic_history": null,
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Lempert Roll maneuver performed again.",
+        "patient_goals": null
+      },
+      "tests": []
+    },
+    {
+      "visit_id": "V4",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reported no further positional nystagmus and resolution of headaches.",
+        "otologic_history": null,
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": "Amitriptyline.",
+        "patient_goals": null
+      },
+      "tests": [
+        {
+          "name": "Dix-Hallpike",
+          "timepoint_label": "Final Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Negative in both directions.",
+          "numeric_results": null
+        },
+        {
+          "name": "VNG Goggles Examination",
+          "timepoint_label": "Final Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Examined using VNG goggles.",
+          "numeric_results": null
+        }
+      ]
     }
   ],
   "overall_audiologic_summary": "The patient presents with normal hearing sensitivity bilaterally. Vestibular evaluation reveals geotropic direction-changing positional nystagmus, strongest in the head-left position, and horizontal left-beating nystagmus during the left Dix-Hallpike. These findings are consistent with Horizontal Canal Benign Paroxysmal Positional Vertigo (BPPV) affecting the left ear (canalithiasis). The patient also presents with symptoms consistent with vestibular migraine.",

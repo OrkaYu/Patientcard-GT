@@ -149,6 +149,64 @@
           "numeric_results": {}
         }
       ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2016-03-07",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 2 weeks post-fitting. Patient reported lack of benefit and retention issues. Hearing aids fell out multiple times and tether was disconnected. Misplaced devices for 4 days.",
+        "medical_psych_history": "Daughter did not assist mother with devices, citing cultural respect for independence.",
+        "plan": "Hearing aids returned for credit. Recommended HATs (Pocketalker, wireless TV headset, captioning phone)."
+      },
+      "tests": [
+        {
+          "name": "Device Inspection & Data Logging",
+          "timepoint_label": "Treatment Follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Devices not properly inserted. Wrong battery size (312) used. Minimal usage recorded.",
+          "numeric_results": {
+            "Usage_Time": "4 hours",
+            "Battery_Found": "Size 312",
+            "Battery_Required": "Size 13"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "2016-03-21",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 2 weeks after HAT recommendation. Patient and daughter reported improvement in all areas.",
+        "outcome": "Pocketalker improved conversation at home/church. Wireless headset improved TV enjoyment. Captioning phone improved telephone communication."
+      },
+      "tests": [
+        {
+          "name": "COSI",
+          "timepoint_label": "Post-treatment (HAT)",
+          "ear": "bilateral",
+          "condition": "aided (HAT)",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 45.3"
+          ],
+          "key_findings": "Perceived improvement in all identified listening situations.",
+          "numeric_results": {
+            "Conversations_at_home": "Better",
+            "Telephone": "Better",
+            "Television": "Better"
+          }
+        }
+      ]
     }
   ],
   "overall_audiologic_summary": "The patient presents with a bilateral symmetrical gradually sloping mild to severe sensorineural hearing loss with excellent word recognition abilities (96% AU). Despite good speech discrimination potential, the patient has a significant history of losing hearing aids (3 pairs in 2 years). Self-assessment (HHIE) reveals a mild perceived handicap, and COSI identifies TV, telephone, and home conversations as priority needs. Management focused on custom ITE devices with physical retention systems (tethers) to address the loss issue.",
