@@ -149,6 +149,89 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "5 years post-initial visit",
+      "setting": "Audiology Clinic",
+      "history": {
+        "interval_history": "Patient returned for follow-up 5 years later at age 39. He had previously decided to forgo surgical treatment for his bilateral vestibular schwannomas.",
+        "present_illness": "Hearing sensitivity has decreased substantially in both ears."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "5-year follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.3"
+          ],
+          "key_findings": "Left ear: Moderate mid-frequency sensorineural hearing loss. Right ear: Moderate to severe high-frequency sensorineural hearing loss.",
+          "numeric_results": {
+            "Left_Ear_Configuration": "Moderate mid-frequency SNHL",
+            "Right_Ear_Configuration": "Moderate to severe high-frequency SNHL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "5-year follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.3"
+          ],
+          "key_findings": "Left ear WRS consistent with cochlear loss. Right ear WRS disproportionately poor (retrocochlear).",
+          "numeric_results": {
+            "Left_WRS": "70% at 80 dB HL",
+            "Right_WRS": "0% at all intensities"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "5-year follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.3"
+          ],
+          "key_findings": "Normal middle ear function bilaterally.",
+          "numeric_results": {
+            "Tympanogram_Type": "Type A bilateral"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "5-year follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 13.3"
+          ],
+          "key_findings": "Right ear stimulation: Absent reflexes. Left ear stimulation: Contralateral (Probe Right) present; Ipsilateral (Probe Left) absent (suggesting left facial nerve involvement).",
+          "numeric_results": {
+            "Left_Contra_Reflex": "Present/Normal",
+            "Left_Ipsi_Reflex": "Absent",
+            "Right_Stimulus_Reflexes": "Absent"
+          }
+        }
+      ]
     }
   ],
   "overall_audiologic_summary": "The patient presents with mild sensorineural hearing loss in the right ear and normal hearing sensitivity in the left ear. However, diagnostic testing reveals bilateral retrocochlear pathology consistent with Neurofibromatosis type 2 (NF2). The right ear exhibits classic retrocochlear signs including significant WRS rollover, absent acoustic reflexes with right-ear stimulation, and a grossly abnormal ABR. The left ear, despite normal thresholds and speech scores, shows abnormal ABR latencies due to a large CPA tumor.",

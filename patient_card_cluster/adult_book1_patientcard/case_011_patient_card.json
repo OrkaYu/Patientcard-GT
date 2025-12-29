@@ -189,6 +189,110 @@
       ]
     },
     {
+      "visit_id": "V2_5m",
+      "date": "2006-04-05",
+      "setting": "Neurosurgery and Audiology",
+      "history": {
+        "present_illness": "Follow-up 5 months after V2. Patient chose to wait and consider options.",
+        "otologic_history": "MRI repeated. Tumor slightly increased.",
+        "prior_management": "Watchful waiting."
+      },
+      "tests": [
+        {
+          "name": "MRI",
+          "timepoint_label": "Pre-treatment",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Tumor measured 1.7 x 0.9 x 1.0 cm, slightly increased in size compared with previous study.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Left ear unchanged. Right ear thresholds decreased by 15 dB at 500 Hz, 35 dB at 6000 Hz, and 10 dB at 8000 Hz.",
+          "numeric_results": {
+            "RE_change": "Decrease of 15 dB at 500 Hz, 35 dB at 6000 Hz, 10 dB at 8000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Pre-treatment",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "WRS decreased to 56% at 90 dB HL, increased to 70% at 100 dB HL.",
+          "numeric_results": {
+            "RE_WRS": "56% at 90 dB HL, 70% at 100 dB HL"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V_PostGK_7m",
+      "date": "2006-12-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 7 months following Gamma Knife treatment.",
+        "otologic_history": "Underwent Gamma Knife treatment approximately 2 weeks after the previous visit.",
+        "prior_management": "Gamma Knife radiosurgery."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-treatment (7 months)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Left ear stable. Right ear showed additional decrease: 10 dB at 250 Hz; 15 dB at 1000, 3000, 4000, 8000 Hz; 25 dB at 2000 Hz.",
+          "numeric_results": {
+            "RE_change": "Decrease of 10-25 dB across frequencies"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-treatment (7 months)",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "WRS remained moderately impaired (64%).",
+          "numeric_results": {
+            "RE_WRS": "64%"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Post-treatment (7 months)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "All right ipsilateral and contralateral ARTs were now absent.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
       "visit_id": "V3",
       "date": "2011-03-24",
       "setting": "Audiology Clinic",
@@ -238,18 +342,6 @@
             "RE_SRT": "88 dB HL",
             "LE_SRT": "48 dB HL"
           }
-        },
-        {
-          "name": "Acoustic reflexes",
-          "timepoint_label": "Post-treatment",
-          "ear": "bilateral",
-          "condition": null,
-          "sources": [
-            "text"
-          ],
-          "figure_refs": [],
-          "key_findings": "All right ipsilateral and contralateral reflexes absent (noted in text during interim follow-up).",
-          "numeric_results": {}
         }
       ]
     }

@@ -66,8 +66,8 @@
           ],
           "key_findings": "SRTs in agreement with PTA. Word recognition scores excellent bilaterally.",
           "numeric_results": {
-            "SRT_Right": "7 dB",
-            "SRT_Left": "3 dB",
+            "SRT_Right": "10 dB",
+            "SRT_Left": "5 dB",
             "WRS_Right": "100% (at 50 dB HL)",
             "WRS_Left": "100% (at 45 dB HL)"
           }
@@ -195,6 +195,44 @@
           "numeric_results": {
             "Accuracy": "100%"
           }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "VA Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned 1 month later for follow-up to assess outcomes of the treatment plan.",
+        "prior_management": "Patient reported using the Phonak iSense FM system at least 3 hours a day. Only completed 5 of the 20 recommended hours of auditory training (BFP).",
+        "patient_goals": "Evaluate benefit of FM system and auditory training."
+      },
+      "tests": [
+        {
+          "name": "Performance Perceptual Test (PPT)",
+          "timepoint_label": "1 month follow-up",
+          "ear": "binaural",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Revealed an SNR advantage of approximately +14 dB when using the FM system, enabling the patient to overcome the significant SNR loss observed at baseline.",
+          "numeric_results": {
+            "SNR_Advantage": "+14 dB"
+          }
+        },
+        {
+          "name": "Subjective Outcome Questionnaires",
+          "timepoint_label": "1 month follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Self-report measures reflected self-perceived improvement in auditory memory, confidence in auditory tasks, and processing speed. 6 of 26 items on a generic quality of life questionnaire reflected improvements.",
+          "numeric_results": {}
         }
       ]
     }

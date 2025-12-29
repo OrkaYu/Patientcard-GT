@@ -1,0 +1,171 @@
+{
+  "status": "patched",
+  "case_id": "Case016",
+  "timestamp_utc": "2025-12-28T20:14:18Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/16_Part_2.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/16_Part_2.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_016_patient_card.json",
+    "remark": "V2顺序错误，应改为Initial Audiogram → OAEs → ABR → Vestibular → Follow-up Audiogram\nVestibular测试遗漏",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Reordered tests in Visit V2 to follow the sequence: Initial Audiogram -> OAEs -> ABR -> Vestibular -> Follow-up Audiogram."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests",
+        "value": [
+          {
+            "name": "Pure-tone audiometry",
+            "timepoint_label": "Initial Evaluation",
+            "ear": "bilateral",
+            "condition": "unaided",
+            "sources": [
+              "text",
+              "image"
+            ],
+            "figure_refs": [
+              "Figure 16.1"
+            ],
+            "key_findings": "Left ear normal. Right ear showed severe conductive hearing loss inconsistent with other findings. Air-bone gaps 65-75 dB HL. Positive Stenger results.",
+            "numeric_results": {
+              "Right_AC_Thresholds": "80-90 dB HL flat configuration",
+              "Right_BC_Thresholds": "10-20 dB HL",
+              "Left_Thresholds": "0-10 dB HL (Normal)",
+              "Stenger": "Positive at 500, 1000, 2000, 4000 Hz"
+            }
+          },
+          {
+            "name": "Speech audiometry",
+            "timepoint_label": "Initial Evaluation",
+            "ear": "right",
+            "condition": "unaided",
+            "sources": [
+              "text",
+              "image"
+            ],
+            "figure_refs": [
+              "Figure 16.1"
+            ],
+            "key_findings": "Excellent word recognition at low sensation level, inconsistent with severe loss.",
+            "numeric_results": {
+              "SRT": "80 dB HL",
+              "WRS": "85% at 90 dB HL (10 dB SL)"
+            }
+          },
+          {
+            "name": "Acoustic reflexes",
+            "timepoint_label": "Initial Evaluation",
+            "ear": "bilateral",
+            "condition": null,
+            "sources": [
+              "text",
+              "image"
+            ],
+            "figure_refs": [
+              "Figure 16.1"
+            ],
+            "key_findings": "Normal reflexes bilaterally, which contradicts the severe conductive loss presented in pure tones.",
+            "numeric_results": {
+              "Right_Contralateral_Thresholds": "90-95 dB HL",
+              "Left_Contralateral_Thresholds": "85-95 dB HL",
+              "Tympanometry": "Normal pressure and compliance bilaterally (Type A)"
+            }
+          },
+          {
+            "name": "Other",
+            "timepoint_label": "Initial Evaluation",
+            "ear": "bilateral",
+            "condition": null,
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "Distortion-product otoacoustic emissions (DPOAEs).",
+            "numeric_results": {
+              "Right_Ear": "Present 2000-4000 Hz",
+              "Left_Ear": "Present 2000-6000 Hz",
+              "Interpretation": "Normal outer hair cell function bilaterally"
+            }
+          },
+          {
+            "name": "Other",
+            "timepoint_label": "Initial Evaluation",
+            "ear": "right",
+            "condition": null,
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "Auditory Brainstem Response (ABR).",
+            "numeric_results": {
+              "Wave_V": "Present at 20 dB nHL",
+              "Latencies": "Appropriate",
+              "Interpretation": "Normal hearing sensitivity 1000-4000 Hz"
+            }
+          },
+          {
+            "name": "Other",
+            "timepoint_label": "Vestibular Evaluation",
+            "ear": "bilateral",
+            "condition": null,
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "Comprehensive vestibular battery (VNG, Rotary Chair, Posturography, VEMPs).",
+            "numeric_results": {
+              "VNG": "Normal (no nystagmus, normal calorics)",
+              "Rotary_Chair": "Normal",
+              "VEMPs": "Normal Left, Absent Right (likely secondary to middle ear surgeries)",
+              "Posturography": "Normal"
+            }
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "timepoint_label": "Follow-up (Same Day)",
+            "ear": "right",
+            "condition": "unaided",
+            "sources": [
+              "text",
+              "image"
+            ],
+            "figure_refs": [
+              "Figure 16.2"
+            ],
+            "key_findings": "Obtained after counseling regarding inconsistencies. Results indicate essentially normal hearing with slight low-frequency conductive component.",
+            "numeric_results": {
+              "Right_AC_Thresholds": "0-15 dB HL (250-8000 Hz)",
+              "Air_Bone_Gap": "10 dB at 250-1000 Hz"
+            }
+          },
+          {
+            "name": "Speech audiometry",
+            "timepoint_label": "Follow-up (Same Day)",
+            "ear": "right",
+            "condition": "unaided",
+            "sources": [
+              "text",
+              "image"
+            ],
+            "figure_refs": [
+              "Figure 16.2"
+            ],
+            "key_findings": "Consistent with pure tone thresholds.",
+            "numeric_results": {
+              "SRT": "10 dB HL",
+              "WRS": "100% at 50 dB HL"
+            }
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

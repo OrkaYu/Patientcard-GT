@@ -131,6 +131,77 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V2",
+      "setting": "Audiology Clinic",
+      "history": {
+        "interval_history": "Postoperative evaluation following cochlear implantation. Speech recognition scores on sentence materials in quiet nearly doubled. Speech recognition in noise significantly improved in the bimodal condition. Patient continues to use FM system in bimodal condition."
+      },
+      "tests": [
+        {
+          "name": "Speech audiometry (CNC Words)",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 63.3",
+            "Figure 63.2"
+          ],
+          "numeric_results": {
+            "CNC_Phonemes_Right": "79%",
+            "CNC_Words_Right": "60%",
+            "CNC_Phonemes_Left": "64%",
+            "CNC_Words_Left": "36%",
+            "CNC_Phonemes_Bimodal": "96%",
+            "CNC_Words_Bimodal": "88%"
+          }
+        },
+        {
+          "name": "Speech audiometry (AzBio)",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 63.3",
+            "Figure 63.2"
+          ],
+          "numeric_results": {
+            "AzBio_Quiet_Right": "97%",
+            "AzBio_Quiet_Left": "42%",
+            "AzBio_Quiet_Bimodal": "96%",
+            "AzBio_Plus10SNR_Bimodal": "92%",
+            "AzBio_Plus5SNR_Right": "21%",
+            "AzBio_Plus5SNR_Bimodal": "57%"
+          }
+        },
+        {
+          "name": "Speech-in-noise (BKB-SIN)",
+          "timepoint_label": "Post-op",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 63.3",
+            "Figure 63.2"
+          ],
+          "numeric_results": {
+            "SNR_Loss_Right": "12.5 dB (Moderate)",
+            "SNR_Loss_Bimodal": "5.5 dB (Mild)"
+          }
+        }
+      ]
     }
   ],
   "overall_audiologic_summary": "The patient has a bilateral symmetrical sensorineural hearing loss, sloping from mild/moderate in the low frequencies to profound in the highs. While unaided word recognition is poor, initial aided testing with HINT sentences in quiet showed artificially high scores (ceiling effect). Comprehensive testing with the revised MSTB (AzBio, CNC, BKB-SIN) revealed significant deficits in speech understanding, particularly for single words and in noise, confirming CI candidacy.",

@@ -34,7 +34,6 @@
           "name": "Electroacoustic Analysis (2-cc coupler)",
           "timepoint_label": "Dispensing (Baseline)",
           "ear": "right",
-          "condition": "unaided",
           "sources": [
             "text",
             "image"
@@ -70,7 +69,6 @@
           "name": "Electroacoustic Analysis (2-cc coupler)",
           "timepoint_label": "4-month check",
           "ear": "right",
-          "condition": "unaided",
           "sources": [
             "text",
             "image"
@@ -85,6 +83,23 @@
             "Avg_Gain_50dB_Input": "41 dB (Decreased from baseline)",
             "Equivalent_Input_Noise": "39 dB",
             "Distortion_500Hz": "5%"
+          }
+        },
+        {
+          "name": "Electroacoustic Analysis (2-cc coupler)",
+          "timepoint_label": "Post-cleaning",
+          "ear": "right",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Performance returned to optimal, consistent with baseline.",
+          "numeric_results": {
+            "OSPL90_peak": "124 dB SPL @ 1600 Hz",
+            "Avg_OSPL90": "118 dB SPL",
+            "Avg_Gain_50dB_Input": "44 dB",
+            "Equivalent_Input_Noise": "35 dB",
+            "Distortion_500Hz": "3%"
           }
         }
       ]
@@ -130,7 +145,6 @@
           "name": "Electroacoustic Analysis (2-cc coupler)",
           "timepoint_label": "8-month check",
           "ear": "right",
-          "condition": "unaided",
           "sources": [
             "image"
           ],

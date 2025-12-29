@@ -62,10 +62,12 @@
           ],
           "key_findings": "Mild loss in ability to receive speech (SRT). Word recognition good in quiet with no significant rollover.",
           "numeric_results": {
-            "SRT_Right": "35 dB HL",
-            "SRT_Left": "33 dB HL",
+            "SRT_Right": "40 dB HL",
+            "SRT_Left": "40 dB HL",
             "WRS_Right": "80% at 80 dB HL",
-            "WRS_Left": "90% at 80 dB HL"
+            "WRS_Left": "90% at 80 dB HL",
+            "PTA_Right": "35 dB HL",
+            "PTA_Left": "33 dB HL"
           }
         },
         {
@@ -102,6 +104,18 @@
             "Noise_Unaided_HP": "54%",
             "Noise_Aided_HP": "18% (Worse than unaided)"
           }
+        },
+        {
+          "name": "Hearing Aid Verification",
+          "timepoint_label": "During HA Trial",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing aids performing within manufacturer specifications. Real-ear insertion gain (REIG) met NAL-NL2 targets.",
+          "numeric_results": null
         }
       ]
     },
@@ -163,6 +177,37 @@
             "MLD": "0 dB (No release from masking)",
             "LPFS": "Significantly decreased scores (approx 20-25%)",
             "Frequency_Pattern": "Normal (able to describe patterns)"
+          }
+        },
+        {
+          "name": "Auditory Late Latency Response (ALLR)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 19.3"
+          ],
+          "key_findings": "Degraded waveform morphology and poor repeatability bilaterally. Waves N1 and P1 identified at latencies and amplitudes within normal limits.",
+          "numeric_results": {
+            "Stimulus": "1000 Hz tone-burst at 90 dB nHL"
+          }
+        },
+        {
+          "name": "Memory Screening",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Passed screening assessment of short-term and working memory (TAPS-R subtests).",
+          "numeric_results": {
+            "Result": "Pass"
           }
         }
       ]

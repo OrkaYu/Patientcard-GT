@@ -1,0 +1,125 @@
+{
+  "status": "patched",
+  "case_id": "Case009",
+  "timestamp_utc": "2025-12-28T20:09:27Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/09_9_An_Unexpected_Case_of_Otosclerosis.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/09_9_An_Unexpected_Case_of_Otosclerosis.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_009_patient_card.json",
+    "remark": "缺少V3 CT follow up, V4 surgery, V5 post-op follow up",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V2 to represent the initial consult on the same day as V1 (2012-12-04) and removed CT findings which occurred later.",
+      "Added V3 to capture the 1-month follow-up for CT review and confirmation of diagnosis.",
+      "Added V4 to capture the left stapedotomy surgery.",
+      "Added V5 to capture the 1-month post-operative follow-up."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/1/date",
+        "value": "2012-12-04"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/0/key_findings",
+        "value": "Microscopic otoscopy revealed bilateral Schwartze signs (reddish hue on promontory)."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/0/numeric_results",
+        "value": {}
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": "1 month post-V1",
+          "setting": "Otology Consult Follow-up",
+          "history": {
+            "present_illness": "Follow-up to review CT scan results.",
+            "patient_goals": "Discuss treatment options."
+          },
+          "tests": [
+            {
+              "name": "CT Scan",
+              "timepoint_label": "Pre-op",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "No temporal bone abnormalities; questionable oval window otosclerosis bilaterally.",
+              "numeric_results": {
+                "Diagnosis": "Bilateral Otosclerosis"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "date": "Post-V3",
+          "setting": "Surgery",
+          "history": {
+            "present_illness": "Admitted for left stapedotomy."
+          },
+          "tests": [
+            {
+              "name": "Surgery",
+              "timepoint_label": "Intra-op",
+              "ear": "Left",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Left stapedotomy performed without complications. Initial mild imbalance postsurgery.",
+              "numeric_results": {}
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V5",
+          "date": "1 month post-surgery",
+          "setting": "Post-op Follow-up",
+          "history": {
+            "present_illness": "Follow-up 1 month after left stapedotomy.",
+            "otologic_history": "History of left stapedotomy."
+          },
+          "tests": [
+            {
+              "name": "Clinical Evaluation",
+              "timepoint_label": "Post-op",
+              "ear": "Left",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Imbalance subsided. Marked improvement in hearing reported. No audiogram performed.",
+              "numeric_results": {
+                "Outcome": "Patient declined right ear surgery due to success of left ear."
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

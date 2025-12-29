@@ -1,0 +1,78 @@
+{
+  "status": "patched",
+  "case_id": "Case006",
+  "timestamp_utc": "2025-12-28T20:07:26Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/06_6_You_Really_Should_See_a_Doctor_about_That.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/06_6_You_Really_Should_See_a_Doctor_about_That.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_006_patient_card.json",
+    "remark": "V1和V2之间缺少otologic examination，V2和V3之间缺少诊断信息",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Inserted an Otologic Examination encounter between V1 and V2 as requested.",
+      "Inserted a Diagnosis/Consultation encounter between V2 and V3 as requested."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/1",
+        "value": {
+          "visit_id": "V_Otology_Exam",
+          "date": null,
+          "setting": "Otology Clinic",
+          "history": {
+            "present_illness": "Referral from audiologist due to asymmetric findings.",
+            "prior_management": "Audiologist recommended medical evaluation."
+          },
+          "tests": [
+            {
+              "name": "Otologic Examination",
+              "timepoint_label": "Medical Evaluation",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "No abnormalities detected. Referred for MRI.",
+              "numeric_results": {}
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/3",
+        "value": {
+          "visit_id": "V_Diagnosis",
+          "date": null,
+          "setting": "Otology Clinic",
+          "history": {
+            "present_illness": "Review of MRI results.",
+            "prior_management": "MRI performed."
+          },
+          "tests": [
+            {
+              "name": "Medical Consultation",
+              "timepoint_label": "Diagnosis",
+              "ear": "right",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Diagnosed with acoustic neuroma (vestibular schwannoma). Discussed treatment options (monitoring, microsurgery, radiosurgery). Patient elected stereotactic radiosurgery.",
+              "numeric_results": {}
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

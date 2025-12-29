@@ -1,0 +1,69 @@
+{
+  "status": "patched",
+  "case_id": "Case034",
+  "timestamp_utc": "2025-12-28T20:21:57Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/34_34_Right_Internuclear_Ophthalmoplegia_following_a.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/34_34_Right_Internuclear_Ophthalmoplegia_following_a.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_034_patient_card.json",
+    "remark": "Test 缺少Smooth Pursuit (normal)，Optokinetic Nystagmus (normal)\n缺少18个月后follow up的visit",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Smooth Pursuit and Optokinetic Nystagmus tests to the 11-month encounter as they were described as normal/intact in the text.",
+      "Added a new encounter for the 18-month follow-up visit with the neurologist, documenting continued symptoms and new issues (depression, insomnia)."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Smooth Pursuit",
+          "timepoint_label": "Post-stroke (11 months)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Intact.",
+          "numeric_results": {}
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Optokinetic Nystagmus",
+          "timepoint_label": "Post-stroke (11 months)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Within normal limits.",
+          "numeric_results": {}
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": null,
+          "setting": "Neurology",
+          "history": {
+            "present_illness": "Follow-up 18 months after stroke. Reported continued diplopia and imbalance. Experiencing significant post-stroke depression and insomnia."
+          },
+          "tests": []
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

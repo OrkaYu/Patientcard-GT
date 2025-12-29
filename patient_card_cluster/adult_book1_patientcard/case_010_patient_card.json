@@ -63,8 +63,8 @@
           ],
           "key_findings": "Speech recognition thresholds mildly impaired bilaterally. Word recognition scores excellent/within normal limits.",
           "numeric_results": {
-            "SRT_Right": "33 dB HL",
-            "SRT_Left": "28 dB HL",
+            "SRT_Right": "35 dB HL",
+            "SRT_Left": "30 dB HL",
             "WRS_Right": "96%",
             "WRS_Left": "100%"
           }

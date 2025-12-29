@@ -1,0 +1,75 @@
+{
+  "status": "patched",
+  "case_id": "Case003",
+  "timestamp_utc": "2025-12-28T20:04:59Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/03_3_Auditory_Neuroma.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/03_3_Auditory_Neuroma.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_003_patient_card.json",
+    "remark": "缺少V2 post surgery follow up 结果",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Extracted V2 post-surgery follow-up details from Section 3.6 and Fig 3.3.",
+      "Added new encounter V2 dated April 2012 with history of surgery outcomes (dizziness, facial weakness) and audiological results (Left ear PTA 47 dB, SRT 45 dB, WRS 92%)."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": "2012-04-01",
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Postoperative follow-up 11 months after initial exam. Patient reports dizziness and left-sided facial weakness following surgery. Reports decrease in hearing sensitivity in the left ear.",
+            "prior_management": "Left acoustic neuroma removal surgery.",
+            "medical_psych_history": "Unable to continue profession as construction worker due to lingering dizziness; receiving counseling from Vocational Rehabilitation."
+          },
+          "tests": [
+            {
+              "name": "Pure-tone audiometry",
+              "timepoint_label": "Post-surgery",
+              "ear": "left",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Fig. 3.3"
+              ],
+              "key_findings": "Significant decrease in hearing sensitivity at 250 to 8000 Hz in the left ear compared to baseline.",
+              "numeric_results": {
+                "LE_PTA": "47 dB HL",
+                "LE_configuration": "Flat loss approx 45-50 dB HL"
+              }
+            },
+            {
+              "name": "Speech audiometry",
+              "timepoint_label": "Post-surgery",
+              "ear": "left",
+              "condition": "unaided",
+              "sources": [
+                "image"
+              ],
+              "figure_refs": [
+                "Fig. 3.3"
+              ],
+              "key_findings": "SRT consistent with PTA. Word recognition score is 92%.",
+              "numeric_results": {
+                "LE_SRT": "45 dB HL",
+                "LE_WRS": "92% at 75 dB HL"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

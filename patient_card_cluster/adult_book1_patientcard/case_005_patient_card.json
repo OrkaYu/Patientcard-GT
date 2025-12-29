@@ -180,6 +180,78 @@
           "numeric_results": {}
         }
       ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "3 months post-initial",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up monitoring of hearing loss fluctuation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "3 months post-initial",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.1b"
+          ],
+          "key_findings": "Reveals fluctuant nature of hearing loss.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "5 months post-initial",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up monitoring of hearing loss fluctuation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "5 months post-initial",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.1c"
+          ],
+          "key_findings": "Reveals fluctuant nature of hearing loss.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V5",
+      "date": "14 months post-initial",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up monitoring of hearing loss fluctuation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "14 months post-initial",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.1d"
+          ],
+          "key_findings": "Reveals fluctuant nature of hearing loss.",
+          "numeric_results": {}
+        }
+      ]
     }
   ],
   "overall_audiologic_summary": "The patient presents with a classic profile of Auditory Neuropathy Spectrum Disorder (ANSD) and concurrent vestibular neuropathy. Behavioral audiometry shows a fluctuating, low-frequency sensorineural hearing loss with extremely poor word recognition that is disproportionate to pure-tone thresholds. Objective testing confirms the diagnosis: Otoacoustic emissions and Cochlear Microphonics are preserved (indicating normal outer hair cell function), while ABR neural components and acoustic reflexes are absent (indicating neural dyssynchrony). Vestibular testing reveals a bilateral peripheral vestibular weakness affecting both the superior and inferior vestibular nerves.",

@@ -117,8 +117,41 @@
           "figure_refs": [],
           "key_findings": "Normal results.",
           "numeric_results": {}
+        },
+        {
+          "name": "Smooth Pursuit",
+          "timepoint_label": "Post-stroke (11 months)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Intact.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Optokinetic Nystagmus",
+          "timepoint_label": "Post-stroke (11 months)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Within normal limits.",
+          "numeric_results": {}
         }
       ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Neurology",
+      "history": {
+        "present_illness": "Follow-up 18 months after stroke. Reported continued diplopia and imbalance. Experiencing significant post-stroke depression and insomnia."
+      },
+      "tests": []
     }
   ],
   "overall_audiologic_summary": "The evaluation identifies central vestibular pathology consistent with the history of a right pontine stroke. Key findings include a persistent Right Internuclear Ophthalmoplegia (INO) evidenced by disconjugate saccades (lag in right eye adduction) and gaze-evoked nystagmus in the left eye. Additionally, there is a 48% left reduced vestibular response on caloric testing, which may represent a peripheral component or central pathway involvement. cVEMPs are absent bilaterally.",

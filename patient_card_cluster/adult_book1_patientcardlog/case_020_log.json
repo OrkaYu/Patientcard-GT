@@ -1,0 +1,80 @@
+{
+  "status": "patched",
+  "case_id": "Case020",
+  "timestamp_utc": "2025-12-28T20:15:48Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/20_20_In_Utero_and_Early_Childhood_Drug_Exposure.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/20_20_In_Utero_and_Early_Childhood_Drug_Exposure.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_020_patient_card.json",
+    "remark": "SCAN-3A 数据不完整\nEar advantage数据缺失\nSSW测试数据不完整",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added missing SCAN-3A supplementary test results (CW-FR, AFG+8, AFG+12) from Table 20.3.",
+      "Added missing SCAN-3A Ear Advantage data from Table 20.4.",
+      "Added missing SSW Non-Competing condition error counts from Table 20.5."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Competing_Words_Free_Recall_Percentile",
+        "value": "37%"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Auditory_Figure_Ground_Plus_8dB_Percentile",
+        "value": "1%"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Auditory_Figure_Ground_Plus_12dB_Percentile",
+        "value": "1%"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Ear_Advantage_Auditory_Figure_Ground_0dB",
+        "value": "5% REA"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Ear_Advantage_Filtered_Words",
+        "value": "10% LEA"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Ear_Advantage_Competing_Words_Directed_Ear",
+        "value": "2% LEA"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Ear_Advantage_Competing_Sentences",
+        "value": "15% LEA"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Ear_Advantage_Auditory_Figure_Ground_Plus_12dB",
+        "value": "10% LEA"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Ear_Advantage_Time_Compressed_Sentences",
+        "value": "10% LEA"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/4/numeric_results/Right_Ear_Non_Competing_Errors",
+        "value": "3 (Norm: .04)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/4/numeric_results/Left_Ear_Non_Competing_Errors",
+        "value": "5 (Norm: .3)"
+      }
+    ],
+    "unresolved": []
+  }
+}

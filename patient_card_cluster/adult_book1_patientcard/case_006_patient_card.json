@@ -112,6 +112,29 @@
       ]
     },
     {
+      "visit_id": "V_Otology_Exam",
+      "date": null,
+      "setting": "Otology Clinic",
+      "history": {
+        "present_illness": "Referral from audiologist due to asymmetric findings.",
+        "prior_management": "Audiologist recommended medical evaluation."
+      },
+      "tests": [
+        {
+          "name": "Otologic Examination",
+          "timepoint_label": "Medical Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "No abnormalities detected. Referred for MRI.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
       "visit_id": "V2",
       "date": null,
       "setting": "Medical / Radiology",
@@ -133,6 +156,29 @@
           "numeric_results": {
             "Mass_Size": "5 mm"
           }
+        }
+      ]
+    },
+    {
+      "visit_id": "V_Diagnosis",
+      "date": null,
+      "setting": "Otology Clinic",
+      "history": {
+        "present_illness": "Review of MRI results.",
+        "prior_management": "MRI performed."
+      },
+      "tests": [
+        {
+          "name": "Medical Consultation",
+          "timepoint_label": "Diagnosis",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Diagnosed with acoustic neuroma (vestibular schwannoma). Discussed treatment options (monitoring, microsurgery, radiosurgery). Patient elected stereotactic radiosurgery.",
+          "numeric_results": {}
         }
       ]
     },

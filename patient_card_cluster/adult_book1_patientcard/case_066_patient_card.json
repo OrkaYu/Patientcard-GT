@@ -124,7 +124,9 @@
             "LE_500Hz": "80 dB HL (95.5 dB SPL)",
             "LE_1000Hz": "90 dB HL (100.7 dB SPL)",
             "LE_2000Hz": "85 dB HL (103.2 dB SPL)",
-            "LE_4000Hz": "85 dB HL (96.1 dB SPL)"
+            "LE_4000Hz": "85 dB HL (96.1 dB SPL)",
+            "RE_3000Hz": "85 dB HL (103.0 dB SPL)",
+            "LE_3000Hz": "75 dB HL (96.1 dB SPL)"
           }
         }
       ]

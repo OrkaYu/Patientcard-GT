@@ -1,0 +1,42 @@
+{
+  "status": "patched",
+  "case_id": "Case050",
+  "timestamp_utc": "2025-12-28T20:23:23Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/50_50_Evaluation_of_a_Fully_Implantable_Hearing_Devic.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/50_50_Evaluation_of_a_Fully_Implantable_Hearing_Devic.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_050_patient_card.json",
+    "remark": "V1 缺少sound field 数据 V1 的sound field数据要和V2 的sound field数据格式对齐",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added missing soundfield aided Pure-tone audiometry test to V1 (Baseline) based on Fig. 50.2 and text description, aligning with the format of the soundfield test in V2."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/1",
+        "value": {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "soundfield",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 50.2"
+          ],
+          "key_findings": "Aided sound-field thresholds with M75 hearing aids reveal functional gain of 30 to 50 dB depending upon test frequency.",
+          "numeric_results": null
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

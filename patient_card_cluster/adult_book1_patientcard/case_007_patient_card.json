@@ -109,7 +109,7 @@
             "Stim_Right_Ipsi": "Normal (80-85 dB)",
             "Stim_Right_Contra": "Normal (80-90 dB)",
             "Stim_Left_Ipsi": "Normal at 500/1k; Elevated (105 dB) at 2k; Elevated/Absent (105 dB) at 4k",
-            "Stim_Left_Contra": "Normal at 500/1k; Elevated (105 dB) at 2k; Elevated (105 dB) at 4k"
+            "Stim_Left_Contra": "Normal at 500/1k/2k; Elevated (105 dB) at 4k"
           }
         },
         {

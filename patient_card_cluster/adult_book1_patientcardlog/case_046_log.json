@@ -1,0 +1,19 @@
+{
+  "status": "copied",
+  "copy_reason": "no_actionable_remark_in_excel",
+  "case_id": "Case046",
+  "timestamp_utc": "2025-12-28T20:22:02Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_046_patient_card.json",
+    "remark": "",
+    "model": "gemini-3-pro-preview"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "No remark -> copied original JSON without changes."
+    ],
+    "patch_ops": [],
+    "unresolved": []
+  }
+}

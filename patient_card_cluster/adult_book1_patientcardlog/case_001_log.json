@@ -1,0 +1,109 @@
+{
+  "status": "patched",
+  "case_id": "Case001",
+  "timestamp_utc": "2025-12-28T20:04:21Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/01_Part_1.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/01_Part_1.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_001_patient_card.json",
+    "remark": "V1 pure tone threshold 250-500 Hz 应改为250-1000 Hz\n缺少V3 follow up 数据",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected V1 pure tone threshold frequency range from 250-500 Hz to 250-1000 Hz in numeric_results.",
+      "Added V3 encounter for the 12-week follow-up visit containing data from Table 1.2 and Section 1.7."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/numeric_results/Right_Ear_Thresholds",
+        "value": "20-25 dB HL at 250-1000 Hz, improving to 0-10 dB HL at 2k-8k Hz"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/numeric_results/Left_Ear_Thresholds",
+        "value": "15-20 dB HL at 250-1000 Hz, improving to 0-5 dB HL at 2k-8k Hz"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "VA Audiology Clinic",
+          "history": {
+            "present_illness": "12-week follow-up after counseling to assess outcomes.",
+            "otologic_history": "Previous diagnosis of APD.",
+            "noise_exposure_history": "Unchanged.",
+            "medical_psych_history": "Received counseling through VA Mental Health Services for PTSD.",
+            "prior_management": "Completed counseling on communication strategies and hearing conservation. Used disposable ear plugs. Completed Client-Oriented Scale of Improvement (COSI).",
+            "patient_goals": "Review COSI goals: listening in social situations, attending college lectures, feeling less anxious in noisy environments."
+          },
+          "tests": [
+            {
+              "name": "Speech-in-noise",
+              "timepoint_label": "12-week Follow-up",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "Table 1.2"
+              ],
+              "figure_refs": [
+                "Table 1.2"
+              ],
+              "key_findings": "WIN score improved to 15.6 dB SNR but remains a severe SNR loss.",
+              "numeric_results": {
+                "WIN_Score": "15.6 dB SNR",
+                "Norm": "<= 6.0 dB SNR"
+              }
+            },
+            {
+              "name": "Other",
+              "timepoint_label": "12-week Follow-up",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "Table 1.2"
+              ],
+              "figure_refs": [
+                "Table 1.2"
+              ],
+              "key_findings": "ATTR gap detection threshold improved to 15.5 msec.",
+              "numeric_results": {
+                "Test_Name": "ATTR",
+                "Gap_Detection_Threshold": "15.5 msec",
+                "Norm": "3.0 msec"
+              }
+            },
+            {
+              "name": "Other",
+              "timepoint_label": "12-week Follow-up",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "Table 1.2"
+              ],
+              "figure_refs": [
+                "Table 1.2"
+              ],
+              "key_findings": "LiSN-S scores showed improvement.",
+              "numeric_results": {
+                "Test_Name": "LiSN-S",
+                "Low_cue_SRT": "10.6 dB",
+                "High_cue_SRT": "8.2 dB",
+                "Talker_Advantage": "1.4 dB",
+                "Spatial_Advantage": "5.6 dB",
+                "Total_Advantage": "4.5 dB"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

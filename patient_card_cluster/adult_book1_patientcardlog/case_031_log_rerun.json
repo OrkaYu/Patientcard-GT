@@ -1,0 +1,21 @@
+{
+  "case_id": "Case031",
+  "timestamp_utc": "2025-12-28T21:54:04Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_031_patient_card.json",
+    "excel_key_or_path": "2025-12-23-Dickysuggestion/adult_audiology_casebook1.xlsx",
+    "pdf_key": "audiology_casebook_split_by_case/31_31_Could_It_Be_Central_Auditory_Processing_Disorde.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/31_31_Could_It_Be_Central_Auditory_Processing_Disorde.pdf",
+    "remark": "V1 speech audiometry出现了PTA和SRT的结果互换",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "patch_ops": [],
+    "logic_summary": [
+      "The remark states that PTA and SRT results are swapped in V1 speech audiometry. However, in the provided JSON, the values for PTA (in Pure-tone audiometry) and SRT (in Speech audiometry) are identical: Right=8 dB HL and Left=12 dB HL. Therefore, swapping them results in no change. The values are also consistent with the pure-tone thresholds (5-10 dB) and the description of hearing being slightly poorer in the left ear."
+    ],
+    "unresolved": []
+  }
+}

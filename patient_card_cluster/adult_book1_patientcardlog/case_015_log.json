@@ -1,0 +1,133 @@
+{
+  "status": "patched",
+  "case_id": "Case015",
+  "timestamp_utc": "2025-12-28T20:13:29Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/15_15_Multiple_Pathologies_in_a_Single_Patient.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/15_15_Multiple_Pathologies_in_a_Single_Patient.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_015_patient_card.json",
+    "remark": "V2 缺少Speech audiometry独立item\nV3缺少Speech, acoustic reflexes, Tymps数据",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "V2: Extracted WRS data from Pure-tone audiometry and created a separate Speech audiometry test item.",
+      "V3: Extracted WRS data from Pure-tone audiometry and created a separate Speech audiometry test item.",
+      "V3: Added Acoustic reflexes test based on Fig 15.3 and text stating ARTs returned to normal.",
+      "V3: Added Tympanometry test based on Fig 15.3 data."
+    ],
+    "patch_ops": [
+      {
+        "op": "remove",
+        "path": "/encounters/1/tests/0/numeric_results/Left_WRS"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/-",
+        "value": {
+          "name": "Speech audiometry",
+          "timepoint_label": "Historical (3 Years Prior)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.2"
+          ],
+          "key_findings": "Right: Normal WRS. Left: Very poor recognition (8%).",
+          "numeric_results": {
+            "WRS_Right": "Normal",
+            "WRS_Left": "8%"
+          }
+        }
+      },
+      {
+        "op": "remove",
+        "path": "/encounters/2/tests/0/numeric_results/WRS_Right"
+      },
+      {
+        "op": "remove",
+        "path": "/encounters/2/tests/0/numeric_results/WRS_Left"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2/tests/-",
+        "value": {
+          "name": "Speech audiometry",
+          "timepoint_label": "Historical (1 Year Prior)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.3"
+          ],
+          "key_findings": "WRS returned to normal (100%) in both ears.",
+          "numeric_results": {
+            "WRS_Right": "100%",
+            "WRS_Left": "100%"
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2/tests/-",
+        "value": {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Historical (1 Year Prior)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.3"
+          ],
+          "key_findings": "ARTs returned to normal.",
+          "numeric_results": {
+            "Right_Ipsi_500_2000Hz": "85 dB HL",
+            "Left_Ipsi_500_2000Hz": "80-90 dB HL",
+            "Right_Contra_500_2000Hz": "85 dB HL",
+            "Left_Contra_500_2000Hz": "90 dB HL"
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2/tests/-",
+        "value": {
+          "name": "Tympanometry",
+          "timepoint_label": "Historical (1 Year Prior)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.3"
+          ],
+          "key_findings": "Normal Type A tympanograms.",
+          "numeric_results": {
+            "Type_Right": "A",
+            "Type_Left": "A",
+            "Volume_Right": "2.4 mL",
+            "Volume_Left": "2.3 mL",
+            "Static_Admittance_Right": "1.6 mL",
+            "Static_Admittance_Left": "1.4 mL",
+            "Peak_Pressure_Right": "-20 daPa",
+            "Peak_Pressure_Left": "-25 daPa"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

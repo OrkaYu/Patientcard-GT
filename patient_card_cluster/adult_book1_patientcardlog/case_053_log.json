@@ -1,0 +1,81 @@
+{
+  "status": "patched",
+  "case_id": "Case053",
+  "timestamp_utc": "2025-12-28T20:24:24Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/53_53_Hearing_Aid_Candidacy_and_Selection.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/53_53_Hearing_Aid_Candidacy_and_Selection.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_053_patient_card.json",
+    "remark": "缺少V2，30天的follow up数据\nV1 缺少COSI",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added COSI test to V1 encounters as requested.",
+      "Added V2 encounter (30-day follow-up) with history, amplified phone trial, and counseling points."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "COSI (Client Oriented Scale of Improvement)",
+          "timepoint_label": "Baseline",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Administered to identify listening goals. Specific item included ability to hear the television better.",
+          "numeric_results": {
+            "Goals": "Hear television better"
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": "2013-04-27",
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Returned for 30-day follow-up. Reported adjusting well and finding aids beneficial in most situations. Primary complaint was difficulty hearing over the phone. Also reported wind noise was loud when gardening.",
+            "patient_goals": "Improve phone communication; manage wind noise."
+          },
+          "tests": [
+            {
+              "name": "Amplified Telephone Trial",
+              "timepoint_label": "30-day follow-up",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Patient used the amplified telephone available in the clinic and reported it was much better than her phone at home."
+            },
+            {
+              "name": "Hearing Aid Check",
+              "timepoint_label": "30-day follow-up",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Wind program (Program #4) checked and found to be working well. Patient had forgotten to use it."
+            }
+          ],
+          "counseling_points": [
+            "Recommended purchasing an amplified telephone similar to the one in the clinic.",
+            "Reinstructed patient to use Program #4 when outdoors/gardening."
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

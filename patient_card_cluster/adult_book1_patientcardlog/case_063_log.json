@@ -1,0 +1,98 @@
+{
+  "status": "patched",
+  "case_id": "Case063",
+  "timestamp_utc": "2025-12-28T20:27:43Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/63_63_Test_Measures_Matter.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/63_63_Test_Measures_Matter.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_063_patient_card.json",
+    "remark": "缺少V2数据，术后就诊数据。",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 encounter with post-operative data derived from Table 63.3 and Section 63.9."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "setting": "Audiology Clinic",
+          "history": {
+            "interval_history": "Postoperative evaluation following cochlear implantation. Speech recognition scores on sentence materials in quiet nearly doubled. Speech recognition in noise significantly improved in the bimodal condition. Patient continues to use FM system in bimodal condition."
+          },
+          "tests": [
+            {
+              "name": "Speech audiometry (CNC Words)",
+              "timepoint_label": "Post-op",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Table 63.3",
+                "Figure 63.2"
+              ],
+              "numeric_results": {
+                "CNC_Phonemes_Right": "79%",
+                "CNC_Words_Right": "60%",
+                "CNC_Phonemes_Left": "64%",
+                "CNC_Words_Left": "36%",
+                "CNC_Phonemes_Bimodal": "96%",
+                "CNC_Words_Bimodal": "88%"
+              }
+            },
+            {
+              "name": "Speech audiometry (AzBio)",
+              "timepoint_label": "Post-op",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Table 63.3",
+                "Figure 63.2"
+              ],
+              "numeric_results": {
+                "AzBio_Quiet_Right": "97%",
+                "AzBio_Quiet_Left": "42%",
+                "AzBio_Quiet_Bimodal": "96%",
+                "AzBio_Plus10SNR_Bimodal": "92%",
+                "AzBio_Plus5SNR_Right": "21%",
+                "AzBio_Plus5SNR_Bimodal": "57%"
+              }
+            },
+            {
+              "name": "Speech-in-noise (BKB-SIN)",
+              "timepoint_label": "Post-op",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Table 63.3",
+                "Figure 63.2"
+              ],
+              "numeric_results": {
+                "SNR_Loss_Right": "12.5 dB (Moderate)",
+                "SNR_Loss_Bimodal": "5.5 dB (Mild)"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

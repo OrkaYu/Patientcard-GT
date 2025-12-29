@@ -1,0 +1,86 @@
+{
+  "status": "patched",
+  "case_id": "Case061",
+  "timestamp_utc": "2025-12-28T20:27:00Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/61_Part_5.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/61_Part_5.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_061_patient_card.json",
+    "remark": "缺少V4，一个月后的follow up数据\nV1 缺少hearing aid verification 数据\nV3 HINT的数据缺少HINT Binaural 85% @ 60dB",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Hearing Aid Verification' to V1 tests as per text ('hearing aid verification of JH's current hearing aids... was completed').",
+      "Added missing 'HINT_Quiet_Binaural_60dBHL': '85%' to V3 HINT results as per Table 61.1.",
+      "Added V4 (Post-operative Follow-up) to capture the missing outcome data ('Missing V4, one month later follow up data' interpreted as the post-op outcome sequence)."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Hearing Aid Verification",
+          "timepoint_label": "Pre-op Baseline",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Current ITE hearing aids verified to be underamplifying to adult DSL targets."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2/tests/0/numeric_results/HINT_Quiet_Binaural_60dBHL",
+        "value": "85%"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "date": "Post-operative Follow-up",
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Follow-up after cochlear implantation and activation."
+          },
+          "tests": [
+            {
+              "name": "Aided Soundfield Thresholds",
+              "timepoint_label": "Post-op",
+              "ear": "left",
+              "condition": "aided (CI)",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Fig. 61.3"
+              ],
+              "key_findings": "Improved thresholds compared to pre-op aids; stable over time."
+            },
+            {
+              "name": "Speech Perception",
+              "timepoint_label": "Post-op",
+              "ear": "left",
+              "condition": "aided (CI)",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Fig. 61.4"
+              ],
+              "key_findings": "Significant benefit; HINT scores improved significantly compared to pre-op."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

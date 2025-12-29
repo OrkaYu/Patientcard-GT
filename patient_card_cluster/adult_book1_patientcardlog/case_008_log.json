@@ -1,0 +1,141 @@
+{
+  "status": "patched",
+  "case_id": "Case008",
+  "timestamp_utc": "2025-12-28T20:08:36Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/08_8_Clinical_Management_of_a_Patient_with_Bilateral.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/08_8_Clinical_Management_of_a_Patient_with_Bilateral.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_008_patient_card.json",
+    "remark": "缺少Otoscopy，Psychological assessment，Intraoperative monitoring，Speech audiometry Post-activation (6 months)，Speech audiometry 5-year follow-up，CT scan，Electrode impedance check",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Otoscopy findings from initial evaluation.",
+      "Added Psychological assessment from CI candidacy.",
+      "Added Intraoperative monitoring results.",
+      "Added Speech audiometry results for 6-month post-activation.",
+      "Added Speech audiometry results for 5-year follow-up.",
+      "Added CT scan results from 5-year follow-up.",
+      "Added Electrode impedance check history."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Otoscopy",
+          "timepoint_label": "Pre-op Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Normal otoscopic findings.",
+          "numeric_results": null
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Psychological assessment",
+          "timepoint_label": "CI Candidacy",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Minimal risk of depression, realistic expectations regarding potential benefit, and appropriate motivation.",
+          "numeric_results": null
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Intraoperative monitoring",
+          "timepoint_label": "Surgery",
+          "ear": "Right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Normal impedance. Auto and advanced neural response telemetry (NRT) revealed no measurable response.",
+          "numeric_results": null
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-activation (6 months)",
+          "ear": "Right",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "graph"
+          ],
+          "key_findings": "HINT score improved from 0% unaided to a ceiling aided performance of 88%.",
+          "numeric_results": {
+            "HINT_Quiet": "88%"
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Speech audiometry",
+          "timepoint_label": "5-year follow-up",
+          "ear": "Right",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "graph"
+          ],
+          "key_findings": "81% on AzBio sentences in quiet and 37% on AzBio sentences mixed with 10-talker babble presented at a +10 SNR.",
+          "numeric_results": {
+            "AzBio_Quiet": "81%",
+            "AzBio_Noise_10SNR": "37%"
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "CT scan",
+          "timepoint_label": "5-year follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Did not demonstrate any tumor growth.",
+          "numeric_results": null
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Electrode impedance check",
+          "timepoint_label": "Longitudinal",
+          "ear": "Right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Impedances stable over 5 years, except electrodes 16 and 19 identified as short circuits in 2013.",
+          "numeric_results": null
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}
