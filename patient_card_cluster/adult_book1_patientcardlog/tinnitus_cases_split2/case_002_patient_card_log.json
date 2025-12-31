@@ -1,0 +1,32 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:36:47Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Tinnitus"
+    ],
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_002_patient_card.json",
+    "case_key": "2",
+    "remark": "Medical histroy 缺少motion sickness",
+    "pdf_key": "Tinnitus_Cases_split2/Case02_Chiari_Malformation_with_Tinnitus_and_Hyperacusis.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case02_Chiari_Malformation_with_Tinnitus_and_Hyperacusis.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'motion sickness' to the medical_psych_history in the first encounter as indicated in the remarks and supported by the text (Section 2.1)."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/history/medical_psych_history",
+        "value": "Chiari malformation, migraines, motion sickness."
+      }
+    ],
+    "unresolved": []
+  }
+}

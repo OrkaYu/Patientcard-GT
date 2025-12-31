@@ -55,7 +55,11 @@
             "LE_AC_1000Hz": "60 dB HL",
             "LE_AC_2000Hz": "65 dB HL",
             "LE_AC_4000Hz": "80 dB HL",
-            "LE_PTA": "63 dB HL"
+            "LE_PTA": "63 dB HL",
+            "RE_AC_6000Hz": "75 dB HL",
+            "RE_AC_8000Hz": "70 dB HL",
+            "LE_AC_6000Hz": "85 dB HL",
+            "LE_AC_8000Hz": "65 dB HL"
           }
         },
         {

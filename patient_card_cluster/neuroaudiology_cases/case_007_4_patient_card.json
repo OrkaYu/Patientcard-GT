@@ -120,6 +120,18 @@
           "numeric_results": null
         },
         {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-treatment (Resolved)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Essentially unchanged from initial evaluation (normal speech recognition scores).",
+          "numeric_results": null
+        },
+        {
           "name": "Other",
           "timepoint_label": "Post-treatment (Resolved)",
           "ear": "bilateral",

@@ -1,0 +1,43 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:16:22Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_009_6_patient_card.json",
+    "case_key": "9_6",
+    "remark": "Test 缺少Visual evoked response",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_9-6.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_9-6.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Visual evoked responses' to the test list as requested, based on the text description of findings in the right optic nerve and left side."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Visual evoked responses",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Confirmed a demyelinating lesion in the right optic nerve and axonal dropout in the left.",
+          "numeric_results": {}
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

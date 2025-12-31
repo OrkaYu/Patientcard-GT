@@ -78,14 +78,14 @@
           "figure_refs": [
             "Figure 7-26"
           ],
-          "key_findings": "Central behavioral test battery. Dichotic Rhyme Test showed mild right ear deficit. Dichotic Digits showed mild bilateral deficit (RE poorer than LE). Duration Patterns Test showed severe bilateral deficit. Competing Sentences (inferred from chart) showed bilateral deficits below normal range.",
+          "key_findings": "Central behavioral test battery. Dichotic Rhyme Test showed mild right ear deficit. Dichotic Digits showed mild bilateral deficit (RE poorer than LE). Duration Patterns Test showed severe bilateral deficit. Competing speech (inferred from chart) showed bilateral deficits below normal range.",
           "numeric_results": {
             "Dichotic_Digits_LE": "~80%",
             "Dichotic_Digits_RE": "~70%",
             "Duration_Patterns_LE": "~15%",
             "Duration_Patterns_RE": "~15%",
-            "Competing_Sentences_LE": "~30%",
-            "Competing_Sentences_RE": "~50%"
+            "Competing_Speech_LE": "~30%",
+            "Competing_Speech_RE": "~50%"
           }
         },
         {

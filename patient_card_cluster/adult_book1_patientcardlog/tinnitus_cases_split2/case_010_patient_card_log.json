@@ -1,0 +1,64 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:38:23Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Tinnitus"
+    ],
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_010_patient_card.json",
+    "case_key": "10",
+    "remark": "V1缺少THI，Hyperacusis Questionnaire",
+    "pdf_key": "Tinnitus_Cases_split2/Case10_Postconcussive_Tinnitus_and_Hyperacusis.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case10_Postconcussive_Tinnitus_and_Hyperacusis.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Tinnitus Handicap Inventory (THI) with a score of 48 to V1 tests based on the 'Outcome' section describing initial scores.",
+      "Added Hyperacusis Questionnaire with a score of 72 to V1 tests based on the 'Outcome' section describing initial scores."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Tinnitus Handicap Inventory (THI)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Score of 48, consistent with a moderate degree of self-perceived tinnitus impact.",
+          "numeric_results": {
+            "Score": "48"
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Hyperacusis Questionnaire",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Score of 72, consistent with a severe degree of impact from sound sensitivity.",
+          "numeric_results": {
+            "Score": "72"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

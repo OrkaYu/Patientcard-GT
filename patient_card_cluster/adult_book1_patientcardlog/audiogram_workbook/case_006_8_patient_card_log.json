@@ -1,0 +1,16 @@
+{
+  "action": "COPY",
+  "timestamp_utc": "2025-12-31T08:18:54Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Audiogram workbook"
+    ],
+    "src_patient_card_key": "patient_card_cluster/audiogram_workbook_splitbycase/case_006_8_patient_card.json",
+    "case_key": "6_8",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  }
+}

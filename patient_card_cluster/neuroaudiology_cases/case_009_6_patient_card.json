@@ -92,6 +92,18 @@
             "Right Ear Morphology": "Absent/Poor",
             "Stimulus": "60 dB nHL, approx 500 clicks/sec"
           }
+        },
+        {
+          "name": "Visual evoked responses",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Confirmed a demyelinating lesion in the right optic nerve and axonal dropout in the left.",
+          "numeric_results": {}
         }
       ]
     }

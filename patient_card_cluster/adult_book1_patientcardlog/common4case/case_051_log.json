@@ -1,0 +1,14 @@
+{
+  "case_id": "Case051",
+  "timestamp_utc": "2025-12-29T06:58:37Z",
+  "mode": "copied_no_remark",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "old_patient_card_key": "patient_card_cluster/communication_disorders_4cases/case_051_patient_card.json",
+    "has_actionable_remark": false,
+    "pdf_prefix": "audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/",
+    "pc_prefix": "patient_card_cluster/communication_disorders_4cases/",
+    "excel": "2025-12-23-Dickysuggestion/dickypatch.xlsx"
+  },
+  "model_outputs": null
+}

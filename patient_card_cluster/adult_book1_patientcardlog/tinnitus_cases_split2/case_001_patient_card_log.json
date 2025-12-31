@@ -1,0 +1,32 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:36:21Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Tinnitus"
+    ],
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_001_patient_card.json",
+    "case_key": "1",
+    "remark": "Chief complaints 缺少 low and high pitched sounds 和 humming相关的描述",
+    "pdf_key": "Tinnitus_Cases_split2/Case01_InternetBased_Tinnitus_Intervention.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case01_InternetBased_Tinnitus_Intervention.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated chief_complaint to include 'low and high pitched sounds' and 'humming' as described in the source text (Section 1.1) and requested by remarks."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/chief_complaint",
+        "value": "I have distressing tinnitus in both ears that sounds like ringing, buzzing, low and high pitched sounds, pulsating, clicking, music, voices, and humming. It makes me grumpy and irritable, and I have trouble sleeping and concentrating."
+      }
+    ],
+    "unresolved": []
+  }
+}

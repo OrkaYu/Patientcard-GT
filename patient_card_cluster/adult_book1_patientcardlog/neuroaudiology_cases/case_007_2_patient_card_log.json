@@ -1,0 +1,29 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:10:49Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_007_2_patient_card.json",
+    "case_key": "7_2",
+    "remark": "JSON没有数据和具体内容，只有框架",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-2.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-2.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "The provided JSON is already populated with the information available in the OCR text (Summary of Chapter 7, page 174).",
+      "The text confirms the patient is aphasic, male, unable to repeat words but able to repeat numbers (Dichotic Digits), and showed an 'electrode effect' on MLR and Late Potentials.",
+      "No specific age, audiometric data, or lesion laterality is mentioned in the provided text.",
+      "The JSON accurately reflects the 'lesson' and findings described in the summary."
+    ],
+    "patch_ops": [],
+    "unresolved": []
+  }
+}

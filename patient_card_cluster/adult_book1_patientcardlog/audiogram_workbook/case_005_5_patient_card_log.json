@@ -1,0 +1,49 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:18:32Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Audiogram workbook"
+    ],
+    "src_patient_card_key": "patient_card_cluster/audiogram_workbook_splitbycase/case_005_5_patient_card.json",
+    "case_key": "5_5",
+    "remark": "Pure tone threshold 左右耳缺少6000Hz和8000Hz数据",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.5.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.5.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Extracted missing 6000Hz and 8000Hz pure tone thresholds from the audiogram in Fig 5.5.",
+      "Right Ear: 6000Hz at 75 dB HL, 8000Hz at 70 dB HL.",
+      "Left Ear: 6000Hz at 85 dB HL, 8000Hz at 65 dB HL."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/RE_AC_6000Hz",
+        "value": "75 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/RE_AC_8000Hz",
+        "value": "70 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/LE_AC_6000Hz",
+        "value": "85 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/LE_AC_8000Hz",
+        "value": "65 dB HL"
+      }
+    ],
+    "unresolved": []
+  }
+}

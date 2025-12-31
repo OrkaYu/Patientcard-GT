@@ -1,0 +1,47 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:37:14Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Tinnitus"
+    ],
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_003_patient_card.json",
+    "case_key": "3",
+    "remark": "V1 缺少COSIT",
+    "pdf_key": "Tinnitus_Cases_split2/Case03_Tinnitus_Treatment_Following_Acoustic_Neuroma.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case03_Tinnitus_Treatment_Following_Acoustic_Neuroma.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added COSIT (Client Oriented Scale of Improvement in Tinnitus) to V1 tests as indicated in Section 3.5 of the text."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Client Oriented Scale of Improvement in Tinnitus (COSIT)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Three specific goals were identified for therapy: (a) fears that she would become deaf and her tinnitus would get worse, (b) avoidance of noisy situations such as church and restaurants with family, and (c) anxiety about tinnitus interfering with daily activities such as work.",
+          "numeric_results": {
+            "Goal_1": "Fear of deafness and worsening tinnitus",
+            "Goal_2": "Avoidance of noisy situations (church, restaurants)",
+            "Goal_3": "Anxiety about tinnitus interfering with work"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

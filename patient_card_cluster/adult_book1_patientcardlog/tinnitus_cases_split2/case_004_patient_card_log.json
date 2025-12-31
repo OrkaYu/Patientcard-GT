@@ -1,0 +1,32 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:37:32Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Tinnitus"
+    ],
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_004_patient_card.json",
+    "case_key": "4",
+    "remark": "Right WRS应为48%，不是46%",
+    "pdf_key": "Tinnitus_Cases_split2/Case04_A_Case_of_Pulsatile_Tinnitus_with.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case04_A_Case_of_Pulsatile_Tinnitus_with.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated Right WRS in Speech audiometry from 46% to 48% based on remarks and Figure 4.1 data."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/Right_WRS",
+        "value": "48% (at 75 dB HL)"
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:15:28Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_007_8_patient_card.json",
+    "case_key": "7_8",
+    "remark": "Tests: 缺少Competing speech，Compressed speech，Frequency patterns",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-8.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-8.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "The remarks request adding 'Competing speech', 'Compressed speech', and 'Frequency patterns'.",
+      "These tests appear as column headers (Comp Sent, Comp Speech, FP) in Figure 7-35.",
+      "However, there are no data points plotted for these columns in the graph (the lines connecting data points skip these columns), indicating they were not administered.",
+      "The text does not mention results for these tests (only Dichotic Digits, Duration Patterns, and Dichotic Rhyme are discussed).",
+      "Therefore, no results can be added for these tests."
+    ],
+    "patch_ops": [],
+    "unresolved": [
+      "Competing speech",
+      "Compressed speech",
+      "Frequency patterns"
+    ]
+  }
+}

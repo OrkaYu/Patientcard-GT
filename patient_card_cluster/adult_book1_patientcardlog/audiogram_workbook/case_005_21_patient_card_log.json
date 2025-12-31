@@ -1,0 +1,32 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:18:48Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Audiogram workbook"
+    ],
+    "src_patient_card_key": "patient_card_cluster/audiogram_workbook_splitbycase/case_005_21_patient_card.json",
+    "case_key": "5_21",
+    "remark": "\"Left_SRT\": \"27 dB HL\" 应该为30 dB HL",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.21.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.21.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated Left_SRT to 30 dB HL based on the remarks and verification with the audiogram table in the source image."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/Left_SRT",
+        "value": "30 dB HL"
+      }
+    ],
+    "unresolved": []
+  }
+}
