@@ -96,15 +96,14 @@
         {
           "name": "Visual evoked responses",
           "timepoint_label": "Baseline",
-          "ear": "bilateral",
-          "condition": "unaided",
-          "sources": [
-            "text"
-          ],
+          "eye": "bilateral",
+          "condition": null,
+          "sources": ["text"],
           "figure_refs": [],
-          "key_findings": "Confirmed a demyelinating lesion in the right optic nerve and axonal dropout in the left.",
+          "key_findings": "Confirmed a demyelinating lesion in the right optic nerve and axonal dropout in the left, presumably from an earlier attack.",
           "numeric_results": {}
         }
+
       ]
     }
   ],

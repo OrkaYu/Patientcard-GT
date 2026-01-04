@@ -182,14 +182,12 @@
           "timepoint_label": "Current",
           "ear": "bilateral",
           "condition": "unaided",
-          "sources": [
-            "text",
-            "image"
-          ],
-          "figure_refs": [
-            "Figure 36.3"
-          ],
-          "key_findings": "Performed as part of the comprehensive evaluation to resolve discrepancies."
+          "sources": ["text", "image"],
+          "figure_refs": ["Figure 36.3"],
+          "key_findings": "Reflex decay testing not possible due to absence of acoustic reflex thresholds. Vibrotactile responses noted via BC at 250 and 1000 Hz.",
+          "numeric_results": {
+            "Status": "Could not be completed - absent ARTs"
+          }
         }
       ]
     },

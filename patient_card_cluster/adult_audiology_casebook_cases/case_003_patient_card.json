@@ -201,7 +201,38 @@
           ],
           "figure_refs": [],
           "key_findings": "Consistent with previous sensation levels in each ear.",
-          "numeric_results": null
+          "numeric_results": {
+            "Acoustic_Reflex_Thresholds": {
+              "contralateral": {
+                "right_ear_stimulated": {
+                  "measured_in": "LT",
+                  "thresholds_dB": {
+                    "500Hz": 80,
+                    "1000Hz": 85,
+                    "2000Hz": 95,
+                    "4000Hz": 90
+                  },
+                  "decay": {
+                    "500Hz": "negative",
+                    "1000Hz": "negative"
+                  }
+                },
+                "left_ear_stimulated": {
+                  "measured_in": "RT",
+                  "thresholds_dB": {
+                    "500Hz": 85,
+                    "1000Hz": 80,
+                    "2000Hz": 80,
+                    "4000Hz": 95
+                  },
+                  "decay": {
+                    "500Hz": "positive",
+                    "1000Hz": "positive"
+                  }
+                }
+              }
+            }
+          }
         },
         {
           "name": "Other",

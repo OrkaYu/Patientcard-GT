@@ -83,9 +83,7 @@
             "Dichotic_Digits_LE": "~80%",
             "Dichotic_Digits_RE": "~70%",
             "Duration_Patterns_LE": "~15%",
-            "Duration_Patterns_RE": "~15%",
-            "Competing_Speech_LE": "~30%",
-            "Competing_Speech_RE": "~50%"
+            "Duration_Patterns_RE": "~15%"
           }
         },
         {

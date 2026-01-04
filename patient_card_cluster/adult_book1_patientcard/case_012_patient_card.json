@@ -209,8 +209,8 @@
           ],
           "key_findings": "SRTs consistent with PTAs. WRS slightly decreased in left ear.",
           "numeric_results": {
-            "SRT_Right": "6 dB HL",
-            "SRT_Left": "23 dB HL",
+            "SRT_Right": "10 dB HL",
+            "SRT_Left": "20 dB HL",
             "WRS_Right": "100% at 50 dB HL",
             "WRS_Left": "88% at 60 dB HL"
           }
@@ -281,7 +281,7 @@
           ],
           "key_findings": "WRS in left ear slightly improved compared to 6-month follow-up.",
           "numeric_results": {
-            "SRT_Right": "6 dB HL",
+            "SRT_Right": "10 dB HL",
             "SRT_Left": "20 dB HL",
             "WRS_Right": "100% at 40 dB HL",
             "WRS_Left": "92% at 65 dB HL"

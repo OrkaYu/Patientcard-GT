@@ -218,14 +218,15 @@
           "timepoint_label": "Post-op",
           "ear": "left",
           "condition": "aided (CI)",
-          "sources": [
-            "text",
-            "image"
-          ],
-          "figure_refs": [
-            "Fig. 61.4"
-          ],
-          "key_findings": "Significant benefit; HINT scores improved significantly compared to pre-op."
+          "sources": ["text","image"],
+          "figure_refs": ["Fig. 61.4"],
+          "key_findings": "Significant benefit; HINT scores improved significantly compared to pre-op.",
+          "numeric_results": {
+            "HINT_+10_5mo": "~65%",
+            "HINT_+10_2.7yr": "~75%",
+            "CNC_2mo": "~38%",
+            "CNC_2.7yr": "~65%"
+          }
         }
       ]
     }
