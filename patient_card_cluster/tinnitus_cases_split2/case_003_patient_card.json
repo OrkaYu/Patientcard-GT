@@ -75,6 +75,22 @@
             "TPFQ_Emotion_Subscale": "78.3",
             "TPFQ_Sleep_Subscale": "40.0"
           }
+        },
+        {
+          "name": "Client Oriented Scale of Improvement in Tinnitus (COSIT)",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Three specific goals were identified for therapy: (a) fears that she would become deaf and her tinnitus would get worse, (b) avoidance of noisy situations such as church and restaurants with family, and (c) anxiety about tinnitus interfering with daily activities such as work.",
+          "numeric_results": {
+            "Goal_1": "Fear of deafness and worsening tinnitus",
+            "Goal_2": "Avoidance of noisy situations (church, restaurants)",
+            "Goal_3": "Anxiety about tinnitus interfering with work"
+          }
         }
       ]
     }

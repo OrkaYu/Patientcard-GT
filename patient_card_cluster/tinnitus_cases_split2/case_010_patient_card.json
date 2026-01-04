@@ -183,6 +183,34 @@
             "Pre_Test_Loudness": "8/10",
             "Post_Test_Loudness": "5/10"
           }
+        },
+        {
+          "name": "Tinnitus Handicap Inventory (THI)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Score of 48, consistent with a moderate degree of self-perceived tinnitus impact.",
+          "numeric_results": {
+            "Score": "48"
+          }
+        },
+        {
+          "name": "Hyperacusis Questionnaire",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Score of 72, consistent with a severe degree of impact from sound sensitivity.",
+          "numeric_results": {
+            "Score": "72"
+          }
         }
       ]
     }

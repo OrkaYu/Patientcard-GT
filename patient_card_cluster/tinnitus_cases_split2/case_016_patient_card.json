@@ -45,7 +45,9 @@
           "key_findings": "Normal hearing thresholds from 250 to 3000 Hz, sloping to a mild high-frequency sensorineural hearing loss at 8000 Hz bilaterally.",
           "numeric_results": {
             "250-3000 Hz": "< 20 dB HL",
-            "8000 Hz": "~35-40 dB HL"
+            "8000 Hz": "~35-40 dB HL",
+            "4000 Hz": "20 dB HL",
+            "6000 Hz": "30 dB HL"
           }
         },
         {

@@ -173,7 +173,7 @@
           "numeric_results": {
             "Pitch_Match": "9000 Hz",
             "Loudness_Match": "14 dB SL",
-            "MML": "14 dB SL (34 dB HL)",
+            "MML": "14 SL (48 HL)",
             "Residual_Inhibition": "12 s",
             "THI_Score": "72 (Severe)",
             "TFI_Score": "80 (Severe)"
