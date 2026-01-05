@@ -72,7 +72,7 @@
       "tests": [
         {
           "name": "Self-report scales (Post-intervention)",
-          "timepoint_label": "Post-op",
+          "timepoint_label": "Post-intervention",
           "ear": null,
           "condition": null,
           "sources": [

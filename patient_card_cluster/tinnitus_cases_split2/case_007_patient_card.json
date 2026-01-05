@@ -84,7 +84,10 @@
             "Pitch_Match": "6500 Hz",
             "Loudness_Match": "12 dB SL",
             "Residual_Inhibition": "8 s",
-            "THI_Score": "32 (Mild)"
+            "THI_Score": "32 (Mild)",
+            "Hearing_Threshold": "30 dB HL (Right), 8 dB HL (Left)",
+            "Masking_Noise_Threshold": "12 dB HL (Right), 4 dB HL (Binaural), 2 dB HL (Left)",
+            "Inhibition_Characteristic": "Complete (Right)"
           }
         },
         {
@@ -173,10 +176,13 @@
           "numeric_results": {
             "Pitch_Match": "9000 Hz",
             "Loudness_Match": "14 dB SL",
-            "MML": "14 SL (48 HL)",
+            "MML": "14 dB SL (48 dB HL)",
             "Residual_Inhibition": "12 s",
             "THI_Score": "72 (Severe)",
-            "TFI_Score": "80 (Severe)"
+            "TFI_Score": "80 (Severe)",
+            "Hearing_Threshold": "10 dB HL (Left)",
+            "Masking_Noise_Threshold": "34 dB HL (Right), -6 dB HL (Binaural), -4 dB HL (Left)",
+            "Inhibition_Characteristic": "Complete (Right), Complete (Binaural)"
           }
         },
         {

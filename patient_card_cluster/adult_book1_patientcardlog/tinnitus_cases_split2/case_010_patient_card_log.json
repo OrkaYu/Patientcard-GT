@@ -1,6 +1,6 @@
 {
   "action": "PATCH",
-  "timestamp_utc": "2025-12-31T08:38:23Z",
+  "timestamp_utc": "2026-01-05T02:05:55Z",
   "inputs": {
     "bucket": "case_study_audult_book",
     "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
@@ -9,7 +9,7 @@
     ],
     "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_010_patient_card.json",
     "case_key": "10",
-    "remark": "V1缺少THI，Hyperacusis Questionnaire",
+    "remark": "V1缺少THI，Hyperacusis Questionnaire\n缺少V2 和 V3作为follow up的内容",
     "pdf_key": "Tinnitus_Cases_split2/Case10_Postconcussive_Tinnitus_and_Hyperacusis.pdf",
     "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case10_Postconcussive_Tinnitus_and_Hyperacusis.pdf",
     "model": "gemini-3-pro-preview",
@@ -18,8 +18,9 @@
   },
   "model_outputs": {
     "logic_summary": [
-      "Added Tinnitus Handicap Inventory (THI) with a score of 48 to V1 tests based on the 'Outcome' section describing initial scores.",
-      "Added Hyperacusis Questionnaire with a score of 72 to V1 tests based on the 'Outcome' section describing initial scores."
+      "Added Tinnitus Handicap Inventory (THI) and Hyperacusis Questionnaire results to V1 (Baseline) based on Section 10.6 Outcome text describing initial scores.",
+      "Added V2 (3-month follow-up) encounter with THI and Hyperacusis Questionnaire results.",
+      "Added V3 (5-month follow-up) encounter with repeat Pure-tone audiometry and Loudness Discomfort Levels (Table 10.2) and subjective outcomes."
     ],
     "patch_ops": [
       {
@@ -56,6 +57,109 @@
           "numeric_results": {
             "Score": "72"
           }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "timepoint_label": "3-month follow-up",
+          "history": {
+            "present_illness": "Follow-up appointment 3 months after initial evaluation."
+          },
+          "tests": [
+            {
+              "name": "Tinnitus Handicap Inventory (THI)",
+              "timepoint_label": "3-month follow-up",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Score reduced to 16, indicating improvement in tinnitus distress.",
+              "numeric_results": {
+                "Score": "16"
+              }
+            },
+            {
+              "name": "Hyperacusis Questionnaire",
+              "timepoint_label": "3-month follow-up",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Score reduced to 36, indicating an overall decrease in sound sensitivity.",
+              "numeric_results": {
+                "Score": "36"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "timepoint_label": "5-month follow-up",
+          "history": {
+            "present_illness": "Follow-up appointment 5 months after initial evaluation.",
+            "patient_goals": "Still expressed needing time to decompress during the school day but felt these breaks were not as necessary as initially. Acknowledged improvement when using hearing devices despite continued difficulty hearing in noise."
+          },
+          "tests": [
+            {
+              "name": "Pure-tone audiometry",
+              "timepoint_label": "5-month follow-up",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Thresholds remained the same on a repeat audiogram.",
+              "numeric_results": {}
+            },
+            {
+              "name": "Loudness Discomfort Levels",
+              "timepoint_label": "5-month follow-up",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "table"
+              ],
+              "figure_refs": [
+                "Table 10.2"
+              ],
+              "key_findings": "LDLs improved slightly by 3 to 5 dB across all frequencies.",
+              "numeric_results": {
+                "Right_250Hz": "78 dB HL",
+                "Right_500Hz": "80 dB HL",
+                "Right_1000Hz": "79 dB HL",
+                "Right_2000Hz": "80 dB HL",
+                "Right_3000Hz": "80 dB HL",
+                "Right_4000Hz": "82 dB HL",
+                "Right_6000Hz": "83 dB HL",
+                "Right_8000Hz": "80 dB HL",
+                "Left_250Hz": "79 dB HL",
+                "Left_500Hz": "81 dB HL",
+                "Left_1000Hz": "81 dB HL",
+                "Left_2000Hz": "82 dB HL",
+                "Left_3000Hz": "80 dB HL",
+                "Left_4000Hz": "82 dB HL",
+                "Left_6000Hz": "83 dB HL",
+                "Left_8000Hz": "80 dB HL"
+              }
+            }
+          ]
         }
       }
     ],

@@ -59,7 +59,19 @@
             "RE_AC_6000Hz": "75 dB HL",
             "RE_AC_8000Hz": "70 dB HL",
             "LE_AC_6000Hz": "85 dB HL",
-            "LE_AC_8000Hz": "65 dB HL"
+            "LE_AC_8000Hz": "65 dB HL",
+
+            "LE_BC_250Hz": "40 dB HL",
+            "LE_BC_500Hz": "60 dB HL",
+            "LE_BC_1000Hz": "65 dB HL",
+            "LE_BC_2000Hz": "NR",
+            "LE_BC_3000Hz": "70 dB HL",
+            "LE_BC_4000Hz": "75 dB HL",
+            "LE_BC_8000Hz": "70 dB HL",
+            "RE_BC_250Hz": "50 dB HL",
+            "RE_BC_500Hz": "NR",
+            "RE_BC_1000Hz": "NR",
+            "RE_BC_2000Hz": "NR"
           }
         },
         {

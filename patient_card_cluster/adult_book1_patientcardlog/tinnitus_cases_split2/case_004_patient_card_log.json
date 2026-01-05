@@ -1,6 +1,6 @@
 {
   "action": "PATCH",
-  "timestamp_utc": "2025-12-31T08:37:32Z",
+  "timestamp_utc": "2026-01-05T02:03:53Z",
   "inputs": {
     "bucket": "case_study_audult_book",
     "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
@@ -9,7 +9,7 @@
     ],
     "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_004_patient_card.json",
     "case_key": "4",
-    "remark": "Right WRS应为48%，不是46%",
+    "remark": "Right WRS应为48%，不是46%\n缺少V3 follow up (outcome)",
     "pdf_key": "Tinnitus_Cases_split2/Case04_A_Case_of_Pulsatile_Tinnitus_with.pdf",
     "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case04_A_Case_of_Pulsatile_Tinnitus_with.pdf",
     "model": "gemini-3-pro-preview",
@@ -18,13 +18,32 @@
   },
   "model_outputs": {
     "logic_summary": [
-      "Updated Right WRS in Speech audiometry from 46% to 48% based on remarks and Figure 4.1 data."
+      "Corrected Right WRS from 46% to 48% in V1 Speech Audiometry based on remarks.",
+      "Added V3 encounter to capture the 2016 outcome/follow-up details described in section 4.7."
     ],
     "patch_ops": [
       {
         "op": "replace",
         "path": "/encounters/0/tests/1/numeric_results/Right_WRS",
         "value": "48% (at 75 dB HL)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": "2016",
+          "setting": "Follow-up",
+          "history": {
+            "present_illness": "Continued left pulsatile tinnitus occurring in the pattern of 2 to 3 days of bothersome tinnitus followed by 2 to 3 days with no tinnitus.",
+            "otologic_history": null,
+            "noise_exposure_history": null,
+            "medical_psych_history": "Taking Clonazepam for sleep disturbance related to tinnitus.",
+            "prior_management": "Inconsistent hearing instrument user; reported he 'could barely hear' his tinnitus when wearing hearing aids. Infrequent use of bedside sound conditioner.",
+            "patient_goals": "Requested surgical intervention in the left ear regardless of risks; denied by neurotologist and additional ENT physicians."
+          },
+          "tests": []
+        }
       }
     ],
     "unresolved": []
