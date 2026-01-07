@@ -30,6 +30,11 @@
         "rationale_short": "To assess the baseline severity of tinnitus, hyperacusis, and comorbid psychological distress."
       },
       {
+        "action": "Weekly THI screening",
+        "urgency": "routine",
+        "rationale_short": "To monitor tinnitus severity weekly during the 8-week intervention."
+      },
+      {
         "action": "Self-report scales (Post-intervention)",
         "urgency": "routine",
         "rationale_short": "To evaluate the effectiveness of the 8-week Internet-based CBT intervention."

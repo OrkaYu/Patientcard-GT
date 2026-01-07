@@ -1,0 +1,30 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T18:59:44Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case010_ground_truth_pdf_outcome.json",
+    "case_key": "10",
+    "remark": "Ordered list: Add Competing Sentences under dichotic listening.",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case10_How_Auditory_Processing_Deficits_Can_Int.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case10_How_Auditory_Processing_Deficits_Can_Int.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Competing Sentences' to the rationale of the 'Dichotic Listening (Integration)' item in the ordered list, as it is a dichotic listening test mentioned in the text (specifically for auditory separation)."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/ordered_list/7/rationale_short",
+        "value": "To assess binaural integration and separation abilities (Competing Words, Competing Sentences, SSW)."
+      }
+    ],
+    "unresolved": []
+  }
+}

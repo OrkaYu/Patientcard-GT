@@ -38,6 +38,16 @@
         "action": "Pure-tone Stenger test",
         "urgency": "routine",
         "rationale_short": "To check for non-organic unilateral hearing loss."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To estimate organic hearing sensitivity."
+      },
+      {
+        "action": "Auditory Steady-State Response (ASSR)",
+        "urgency": "soon",
+        "rationale_short": "To estimate organic hearing sensitivity."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -58,7 +68,7 @@
           {
             "name": "Speech audiometry",
             "category": "Audiometry",
-            "result_summary": "Right ear SRT (26 dB HL) elevated compared to PTA (poor agreement). Left ear SRT (56 dB HL) agrees with voluntary PTA but WRS is very poor (26% at 92 dB HL)."
+            "result_summary": "Right ear SRT (26 dB HL) elevated compared to PTA (poor agreement); WRS 80% at 66 dB HL. Left ear SRT (56 dB HL) agrees with voluntary PTA but WRS is very poor (26-28% at 92 dB HL)."
           },
           {
             "name": "Tympanometry",
@@ -74,6 +84,22 @@
             "name": "Pure-tone Stenger test",
             "category": "Special Test",
             "result_summary": "Negative at 500 and 1000 Hz."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "ASSR test results indicated hearing to be within normal limits in the right ear and a mild to moderate hearing loss in the left ear at 250 to 2000 Hz. ABR waveforms were established with Wave V peaks identified at 40 dB nHL bilaterally, indicating no more than a mild hearing loss in either ear between 2000 and 4000 Hz. The patient was counseled regarding the results and that a functional hearing loss was suspected. The patient was referred for a repeat audiogram.",
+        "tests": [
+          {
+            "name": "Auditory Steady-State Response (ASSR)",
+            "category": "Electrophysiology",
+            "result_summary": "Right ear within normal limits. Left ear mild to moderate hearing loss at 250-2000 Hz."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "Wave V peaks identified at 40 dB nHL bilaterally, indicating no more than mild hearing loss between 2000-4000 Hz."
           }
         ]
       }
@@ -103,10 +129,5 @@
     "timeline": "Soon",
     "objective": "Obtain objective thresholds via ABR/ASSR and repeat behavioral testing."
   },
-  "expected_outcome": [
-    "ASSR test results indicated hearing to be within normal limits in the right ear and a mild to moderate hearing loss in the left ear at 250 to 2000 Hz.",
-    "ABR waveforms were established with Wave V peaks identified at 40 dB nHL bilaterally, indicating no more than a mild hearing loss in either ear between 2000 and 4000 Hz.",
-    "The patient was counseled regarding the results and that a functional hearing loss was suspected.",
-    "The patient was referred for a repeat audiogram."
-  ]
+  "expected_outcome": []
 }

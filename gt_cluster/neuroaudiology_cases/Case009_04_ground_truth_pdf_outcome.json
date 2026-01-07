@@ -78,12 +78,12 @@
           {
             "name": "Auditory Brainstem Response (ABR)",
             "category": "Electrophysiology",
-            "result_summary": "Abnormal bilaterally. Left Ear: Waves I and III present with normal latencies, Wave V undetermined. Right Ear: Wave I identifiable, no other waves observed."
+            "result_summary": "Abnormal bilaterally. Left Ear: Waves I, II, and III present with normal latencies, Wave V undetermined. Right Ear: Wave I identifiable, no other waves observed."
           },
           {
             "name": "Central Auditory Processing Tests",
             "category": "Central",
-            "result_summary": "MLD abnormal (4 dB). Low Pass Filtered Speech normal. Dichotic Digits normal RE, depressed LE. SSW abnormal (LE depressed). Frequency Patterns abnormal (bilaterally depressed)."
+            "result_summary": "MLD abnormal (4 dB). Low Pass Filtered Speech normal. Dichotic Digits normal RE, depressed LE. SSW abnormal (LE depressed). Frequency Patterns abnormal (bilaterally depressed). Duration Recognition normal. Duration Patterns abnormal (bilaterally depressed)."
           },
           {
             "name": "Radiology (CT Scan)",

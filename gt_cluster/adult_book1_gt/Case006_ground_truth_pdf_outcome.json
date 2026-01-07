@@ -82,6 +82,11 @@
         "collective_interpretation": "MRI confirmed the presence of a retrocochlear lesion in the right internal auditory canal, consistent with the asymmetric audiological findings.",
         "tests": [
           {
+            "name": "Otologic examination",
+            "category": "Medical Examination",
+            "result_summary": "No abnormalities detected."
+          },
+          {
             "name": "MRI (T2-weighted with gadolinium)",
             "category": "Imaging",
             "result_summary": "5 mm nodular mass in the right internal auditory canal with subtle widening of the right porus acusticus internus; Left ear normal."

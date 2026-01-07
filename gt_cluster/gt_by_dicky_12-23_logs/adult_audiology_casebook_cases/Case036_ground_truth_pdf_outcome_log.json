@@ -1,0 +1,60 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:03:59Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case036_ground_truth_pdf_outcome.json",
+    "case_key": "36",
+    "remark": "Ordered list: Add Tone Decay Test and UCL/Contour Test.\nV2: Add Tone Decay Test and UCL/Contour Test.",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case36_I_Only_Want_Hearing_Aids_Today.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case36_I_Only_Want_Hearing_Aids_Today.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Tone Decay Test and UCL/Contour Test to the ordered list.",
+      "Added Tone Decay Test and UCL/Contour Test to the V2 results as they were explicitly mentioned as performed in the text."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Tone Decay Test",
+          "urgency": "routine",
+          "rationale_short": "To screen for retrocochlear pathology (auditory adaptation)."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "UCL/Contour Test",
+          "urgency": "routine",
+          "rationale_short": "To measure uncomfortable loudness levels for hearing aid fitting."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Tone Decay Test",
+          "result_summary": "Olsen-Noffsinger tone decay test performed."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "UCL/Contour Test",
+          "result_summary": "Measured using contour test instructions."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -3,8 +3,8 @@
   "ranked_differential_diagnosis": [
     {
       "rank": 1,
-      "label": "Ménière’s disease (Right ear)",
-      "rationale_short": "History of progressive hearing loss in the right ear with a severe to profound sensorineural configuration and reverse slope, consistent with Ménière’s disease."
+      "label": "Meniere's disease (Right ear)",
+      "rationale_short": "History of progressive hearing loss in the right ear with a severe to profound sensorineural configuration and reverse slope, consistent with Meniere's disease."
     },
     {
       "rank": 2,
@@ -28,7 +28,7 @@
     "expected_interpretations_by_visit": [
       {
         "visit_id": "V1",
-        "collective_interpretation": "Pure-tone testing revealed a severe to profound sensorineural hearing loss in the right ear (250-1000 Hz) rising to severe, and a moderate sloping to severe sensorineural hearing loss in the left ear. Speech audiometry showed poor agreement with PTA in the right ear (SAT 70 dB HL vs PTA 92 dB HL) with no measurable word recognition, while the left ear had good agreement and fair word recognition (80%). Results are consistent with Ménière’s disease on the right and presbycusis/noise exposure on the left.",
+        "collective_interpretation": "Pure-tone testing revealed a severe to profound sensorineural hearing loss in the right ear (250-1000 Hz) rising to severe, and a moderate sloping to severe sensorineural hearing loss in the left ear. Speech audiometry showed poor agreement with PTA in the right ear (SAT 70 dB HL vs PTA 92 dB HL) with no measurable word recognition, while the left ear had good agreement and fair word recognition (80%). Results are consistent with Meniere's disease on the right and presbycusis/noise exposure on the left.",
         "tests": [
           {
             "name": "Pure-tone audiometry",
@@ -61,7 +61,7 @@
     "escalation": {
       "urgency": "routine",
       "destination": "Audiology and Otolaryngology",
-      "rationale_short": "Patient requires ongoing management with BiCROS hearing aid and monitoring of Ménière’s disease."
+      "rationale_short": "Patient requires ongoing management with BiCROS hearing aid and monitoring of Meniere's disease."
     }
   },
   "follow_up_plan": {

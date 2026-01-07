@@ -1,0 +1,57 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:44:32Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case065_ground_truth_pdf_outcome.json",
+    "case_key": "65",
+    "remark": "Ordered list: Missing self‑report questionnaires.\nV1: Missing vestibular evaluation and DPOAEs.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/65_Part_6.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/65_Part_6.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Distortion-product otoacoustic emissions (DPOAEs)' and 'Self-report questionnaires' to the ordered list.",
+      "Added 'Distortion-product otoacoustic emissions (DPOAEs)' to V1 tests. Vestibular evaluation was already present in V1."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Distortion-product otoacoustic emissions (DPOAEs)",
+          "urgency": "routine",
+          "rationale_short": "To evaluate cochlear outer hair cell function."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Self-report questionnaires",
+          "urgency": "routine",
+          "rationale_short": "To assess self-perceived auditory processing skills and quality of life."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/-",
+        "value": {
+          "name": "Distortion-product otoacoustic emissions (DPOAEs)",
+          "category": "Otoacoustic Emissions",
+          "result_summary": "Included in conventional audiological examination."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

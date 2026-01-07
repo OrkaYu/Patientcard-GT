@@ -1,0 +1,93 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:34:17Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case012_ground_truth_pdf_outcome.json",
+    "case_key": "12",
+    "remark": "Differential diagnosis: “Superior semicircular canal dehiscence (Rank 3)” should be lateral semicircular canal dehiscence.\nOrdered list: Add MRI with gadolinium.\nExpected outcome: Contains V3–V4 content (split accordingly).",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/12_12_Vestibular_Schwannoma.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/12_12_Vestibular_Schwannoma.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected rank 3 differential diagnosis from Superior to Lateral Semicircular Canal Dehiscence as per remarks and text.",
+      "Added MRI with gadolinium to the ordered list of investigations.",
+      "Moved detailed post-radiation visit data (6 months and 13 months) from 'expected_outcome' to 'expected_interpretations_by_visit' as V3 and V4, structuring the test results properly.",
+      "Retained the final summary statement in 'expected_outcome'."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/ranked_differential_diagnosis/2/label",
+        "value": "Lateral Semicircular Canal Dehiscence"
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "MRI with gadolinium",
+          "urgency": "soon",
+          "rationale_short": "To visualize retrocochlear structures and confirm diagnosis given the asymmetric sensorineural hearing loss and absent reflexes."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "6 months post-radiation evaluation.",
+          "tests": [
+            {
+              "name": "Pure-tone audiometry",
+              "category": "Audiometry",
+              "result_summary": "Slight decrease in hearing sensitivity with more obvious asymmetry; PTA Right 6 dB HL, Left 23 dB HL."
+            },
+            {
+              "name": "Speech audiometry",
+              "category": "Audiometry",
+              "result_summary": "WRS Right 100% at 50 dB HL, Left slightly decreased to 88% at 60 dB HL."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V4",
+          "collective_interpretation": "13 months post-radiation evaluation.",
+          "tests": [
+            {
+              "name": "Pure-tone audiometry",
+              "category": "Audiometry",
+              "result_summary": "Stable asymmetry; PTA Right 6 dB HL, Left 20 dB HL."
+            },
+            {
+              "name": "Speech audiometry",
+              "category": "Audiometry",
+              "result_summary": "WRS Right 100% at 40 dB HL, Left 92% at 65 dB HL."
+            }
+          ]
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/expected_outcome",
+        "value": [
+          "Patient maintained completely serviceable bilateral hearing and required no amplification devices."
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

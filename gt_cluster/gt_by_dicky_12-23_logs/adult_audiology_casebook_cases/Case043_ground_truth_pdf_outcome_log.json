@@ -1,0 +1,34 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:09:51Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case043_ground_truth_pdf_outcome.json",
+    "case_key": "43",
+    "remark": "Ordered list: Add REM.",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case43_Cochlear_Implantation_in_Meningitis_Caus.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case43_Cochlear_Implantation_in_Meningitis_Caus.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Real Ear Measures (REM) to the ordered list of investigations as it was attempted but could not be performed due to patient resistance."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/2",
+        "value": {
+          "action": "Real Ear Measures (REM)",
+          "urgency": "routine",
+          "rationale_short": "To verify hearing aid fitting (could not be performed as patient resisted probe insertion)."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

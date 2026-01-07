@@ -1,0 +1,34 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:30:16Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case007_ground_truth_pdf_outcome.json",
+    "case_key": "7",
+    "remark": "V1: Acoustic reflexes missing 2000 Hz elevation detail.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/07_7_Acoustic_Neuroma.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/07_7_Acoustic_Neuroma.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V1 Acoustic reflexes result summary to include the specific elevation at 2000 Hz (ipsilateral) as noted in the text description (Section 7.2) and Figure 7.1."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/3/result_summary",
+        "value": "Right ear normal. Left ear reflexes elevated at 4000 Hz (105 dB HL) and 2000 Hz (ipsilateral)."
+      }
+    ],
+    "unresolved": []
+  }
+}

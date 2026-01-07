@@ -38,6 +38,21 @@
         "action": "Real Ear Measurements (REM)",
         "urgency": "routine",
         "rationale_short": "Verify hearing aid fitting to ensure targets are met and dynamic range is addressed."
+      },
+      {
+        "action": "Loudness Discomfort Levels (LDL)",
+        "urgency": "routine",
+        "rationale_short": "Assess dynamic range to ensure amplification does not exceed uncomfortable levels."
+      },
+      {
+        "action": "RESR90",
+        "urgency": "routine",
+        "rationale_short": "Ensure maximum output of hearing aids does not exceed patient's loudness discomfort levels."
+      },
+      {
+        "action": "Aided sound-field measurements",
+        "urgency": "routine",
+        "rationale_short": "Verify extended-wear hearing aid fitting since REM was not possible."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -70,28 +85,93 @@
             "name": "Real Ear Measurements (REM)",
             "category": "Verification",
             "result_summary": "Slim-tube BTE failed targets. RIC with power domes met NAL-NL1 targets for 50, 65, and 80 dB SPL inputs."
+          },
+          {
+            "name": "RESR90",
+            "category": "Verification",
+            "result_summary": "Measured to ensure output did not exceed reduced dynamic range."
           }
         ]
       },
       {
         "visit_id": "V3",
-        "collective_interpretation": "Follow-up revealed dexterity issues with RICs. Patient switched to extended-wear devices. Subjective verification used as REM was not possible with deep insertion.",
+        "collective_interpretation": "2-week follow-up. One hearing aid lost and replaced. Discussion regarding wearing aids during sleep.",
         "tests": [
           {
-            "name": "Extended-Wear Hearing Aid Fitting",
-            "category": "Fitting",
-            "result_summary": "Switched to extended-wear devices. Patient reported 'echoic' voice; resolved by reducing low-frequency gain."
+            "name": "Hearing Aid Check",
+            "category": "Management",
+            "result_summary": "Lost aid replaced. Counseling on retention and sleep use provided."
           }
         ]
       },
       {
         "visit_id": "V4",
-        "collective_interpretation": "Management of device retention issue caused by chronic coughing. Larger device size and lubrication resolved the problem.",
+        "collective_interpretation": "2-week follow-up. Tinnitus significantly subsided. Patient reconnecting with family. Dexterity issues with RIC insertion/removal noted.",
+        "tests": [
+          {
+            "name": "Subjective Report",
+            "category": "Self-Report",
+            "result_summary": "Tinnitus improved. Dexterity issues with RICs causing frustration."
+          }
+        ]
+      },
+      {
+        "visit_id": "V5",
+        "collective_interpretation": "Discussion of alternatives due to dexterity issues. Switched to extended-wear devices. Subjective verification used.",
+        "tests": [
+          {
+            "name": "Extended-Wear Hearing Aid Fitting",
+            "category": "Fitting",
+            "result_summary": "Switched to extended-wear devices. Patient reported 'echoic' voice; resolved by reducing low-frequency gain."
+          },
+          {
+            "name": "Aided sound-field measurements",
+            "category": "Verification",
+            "result_summary": "Used for verification as REM was not possible with deep insertion."
+          }
+        ]
+      },
+      {
+        "visit_id": "V6",
+        "collective_interpretation": "1-week follow-up. Patient and family delighted with ease of use. No programming changes needed.",
+        "tests": [
+          {
+            "name": "Follow-up Check",
+            "category": "Management",
+            "result_summary": "Devices functioning well. Patient satisfied."
+          }
+        ]
+      },
+      {
+        "visit_id": "V7",
+        "collective_interpretation": "1-week later. Left device removed due to pain/redness caused by coughing episode dislodging the device. Ear canal allowed to heal.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Redness midway down ear canal. Device removed to allow healing."
+          }
+        ]
+      },
+      {
+        "visit_id": "V8",
+        "collective_interpretation": "Refitting of extended-wear device. Larger size and lubrication used to prevent slippage during coughing.",
         "tests": [
           {
             "name": "Refitting",
             "category": "Fitting",
-            "result_summary": "Inserted larger size device with lubrication to prevent slippage during coughing. Fit remained secure."
+            "result_summary": "Inserted larger size device with lubrication. Fit remained secure despite coughing."
+          }
+        ]
+      },
+      {
+        "visit_id": "V9",
+        "collective_interpretation": "Final appointment. Family training on device inspection and volume control. Patient doing very well.",
+        "tests": [
+          {
+            "name": "Counseling/Training",
+            "category": "Management",
+            "result_summary": "Videotaped instructions for family. Confirmed tinnitus control and improved quality of life."
           }
         ]
       }

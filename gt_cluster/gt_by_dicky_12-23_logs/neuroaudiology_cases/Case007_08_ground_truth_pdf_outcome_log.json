@@ -1,0 +1,55 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T22:25:00Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case007_08_ground_truth_pdf_outcome.json",
+    "case_key": "7_8",
+    "remark": "Ordered list: Missing Competing Sentences Test, Competing Speech Test, Frequency Patterns Test.",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-8.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-8.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Competing Sentences Test, Competing Speech Test, and Frequency Patterns Test to the ordered list as indicated in the remarks and supported by the test battery figure (Figure 7-35)."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Competing Sentences Test",
+          "urgency": "routine",
+          "rationale_short": "To assess central auditory function."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Competing Speech Test",
+          "urgency": "routine",
+          "rationale_short": "To assess central auditory function."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Frequency Patterns Test",
+          "urgency": "routine",
+          "rationale_short": "To assess temporal processing."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:39:58Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case034_ground_truth_pdf_outcome.json",
+    "case_key": "34",
+    "remark": "Formatting: “4°/s”.\nOrdered list: Smooth pursuit and optokinetics missing.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/34_34_Right_Internuclear_Ophthalmoplegia_following_a.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/34_34_Right_Internuclear_Ophthalmoplegia_following_a.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Video-oculography (Smooth Pursuit)' and 'Video-oculography (Optokinetics)' to the ordered list and test results, as the text confirms these components of the VOG battery were performed and yielded normal results.",
+      "Verified formatting of '4°/s' in existing JSON matches the requirement."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/3",
+        "value": {
+          "action": "Video-oculography (Smooth Pursuit)",
+          "urgency": "routine",
+          "rationale_short": "Evaluate central vestibular function; sensitive to central pathology."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/4",
+        "value": {
+          "action": "Video-oculography (Optokinetics)",
+          "urgency": "routine",
+          "rationale_short": "Assess central oculomotor function using full-field visual stimulation."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/3",
+        "value": {
+          "name": "Video-oculography (Smooth Pursuit)",
+          "category": "Vestibular",
+          "result_summary": "Normal results."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/4",
+        "value": {
+          "name": "Video-oculography (Optokinetics)",
+          "category": "Vestibular",
+          "result_summary": "Normal results."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

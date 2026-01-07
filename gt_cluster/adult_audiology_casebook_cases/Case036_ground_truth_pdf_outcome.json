@@ -48,6 +48,16 @@
         "action": "MRI Internal Auditory Canal",
         "urgency": "soon",
         "rationale_short": "Gold standard imaging to rule out retrocochlear pathology given asymmetric loss, poor WRS, and absent reflexes."
+      },
+      {
+        "action": "Tone Decay Test",
+        "urgency": "routine",
+        "rationale_short": "To screen for retrocochlear pathology (auditory adaptation)."
+      },
+      {
+        "action": "UCL/Contour Test",
+        "urgency": "routine",
+        "rationale_short": "To measure uncomfortable loudness levels for hearing aid fitting."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -88,6 +98,14 @@
           {
             "name": "Real Ear Measures (REM)",
             "result_summary": "Current Costco hearing aids found to be well below NAL-NL-2 targets."
+          },
+          {
+            "name": "Tone Decay Test",
+            "result_summary": "Olsen-Noffsinger tone decay test performed."
+          },
+          {
+            "name": "UCL/Contour Test",
+            "result_summary": "Measured using contour test instructions."
           }
         ]
       },

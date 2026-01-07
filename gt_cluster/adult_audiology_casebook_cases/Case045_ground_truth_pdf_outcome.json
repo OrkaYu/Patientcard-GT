@@ -33,6 +33,11 @@
         "action": "Self-report scales",
         "urgency": "routine",
         "rationale_short": "To assess perceived hearing handicap (HHIE) and identify specific communication needs (COSI)."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To evaluate the acoustic reflex pathways."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -48,7 +53,7 @@
           {
             "name": "Speech audiometry",
             "category": "Audiometry",
-            "result_summary": "SRT 38 dB HL AU; Word Recognition Scores excellent (96%) bilaterally at elevated levels."
+            "result_summary": "SRT Right 38 dB, Left 35 dB; Word Recognition Scores excellent (96%) bilaterally at elevated levels."
           },
           {
             "name": "Tympanometry",
@@ -64,6 +69,22 @@
       },
       {
         "visit_id": "V2",
+        "collective_interpretation": "Daughter-accompanied counseling session involving additional history, vision/dexterity assessment, and hearing aid option evaluation.",
+        "tests": [
+          {
+            "name": "Vision and Dexterity Assessment",
+            "category": "Physical Assessment",
+            "result_summary": "Identified limited vision and manual dexterity."
+          },
+          {
+            "name": "Hearing Aid Selection",
+            "category": "Management",
+            "result_summary": "Recommended full-shell custom ITE hearing aids with 2.5mm vent, controls deactivated, and retention tether."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
         "collective_interpretation": "Patient fitted with custom hearing aids incorporating retention strategies to address history of loss.",
         "tests": [
           {

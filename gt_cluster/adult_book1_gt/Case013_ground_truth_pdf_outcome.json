@@ -50,6 +50,11 @@
         "rationale_short": "To assess neural synchrony and retrocochlear function given asymmetric findings."
       },
       {
+        "action": "Middle and Late Latency Responses",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory pathway function."
+      },
+      {
         "action": "MRI",
         "urgency": "urgent",
         "rationale_short": "Definitive imaging to visualize potential tumors in the internal auditory canal or cerebellopontine angle."
@@ -91,9 +96,40 @@
             "result_summary": "Right ear: Only Wave I present. Left ear: Prolonged Wave I-V interval (4.8 ms)."
           },
           {
+            "name": "Middle and Late Latency Responses",
+            "category": "Electrophysiological",
+            "result_summary": "Normal bilaterally."
+          },
+          {
             "name": "MRI",
             "category": "Imaging",
             "result_summary": "Bilateral vestibular schwannomas (Right 2 cm, Left 2.5 cm), olfactory meningioma, and glomus jugulare tumor."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Significant decline in hearing sensitivity and speech recognition bilaterally over 5 years.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Behavioral",
+            "result_summary": "Left ear progressed to moderate mid-frequency SNHL; Right ear progressed to moderate-to-severe high-frequency SNHL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Left WRS decreased to 70% at 80 dB HL; Right WRS dropped to 0% at all intensities."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A tympanograms bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent with right ear stimulation. Left ipsilateral reflex absent (suggesting left facial nerve involvement); left contralateral reflex preserved."
           }
         ]
       }
@@ -132,12 +168,5 @@
   "follow_up_plan": {
     "timeline": "Close follow-up (seen 5 years later in outcome)",
     "objective": "Monitor tumor growth and progression of hearing loss."
-  },
-  "expected_outcome": [
-    "Pure-tone audiometry (5 years later): Left ear progressed to moderate mid-frequency SNHL; Right ear progressed to moderate-to-severe high-frequency SNHL.",
-    "Speech audiometry (5 years later): Left WRS decreased to 70% at 80 dB HL; Right WRS dropped to 0% at all intensities.",
-    "Immittance audiometry (5 years later): Normal Type A tympanograms bilaterally. Acoustic reflexes absent with right ear stimulation.",
-    "Acoustic reflexes (5 years later): Left ipsilateral reflex absent (suggesting left facial nerve involvement); left contralateral reflex preserved.",
-    "Functional status: Significant decline in hearing sensitivity and speech recognition bilaterally over 5 years."
-  ]
+  }
 }

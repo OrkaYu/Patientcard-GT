@@ -1,0 +1,79 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:42:37Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case061_ground_truth_pdf_outcome.json",
+    "case_key": "61",
+    "remark": "Visit alignment: Aided sound‑field thresholds should be in V3 (not V2). Speech perception (HINT/CNC) should be in V4.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/61_Part_5.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/61_Part_5.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Moved 'Aided Soundfield Thresholds' from V2 to V3 as the text indicates these were measured upon the patient's return for the third visit.",
+      "Created V4 for 'Speech-in-noise / Speech Perception' as the text states these were measured at the next visit following a 1-month adjustment period.",
+      "Updated collective interpretations for V2 and V3 to reflect the redistribution of tests and chronological flow."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/collective_interpretation",
+        "value": "Hearing aid verification and trial were conducted. Loaner aids were verified to meet DSL targets; patient reported settings comfortable."
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests",
+        "value": [
+          {
+            "name": "Real Ear Measures (REM)",
+            "result_summary": "Loaner aids adjusted to meet adult DSL targets; patient reported settings comfortable."
+          }
+        ]
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/collective_interpretation",
+        "value": "Upon return, the patient reported no noticeable functional improvement. Aided sound-field thresholds were measured but the goal of 25 dB HL was not met. ABR testing ruled out ANSD."
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests",
+        "value": [
+          {
+            "name": "Aided Soundfield Thresholds",
+            "result_summary": "30-45 dB HL range achieved; goal of 25 dB HL not met."
+          },
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "result_summary": "Wave I, III, V complex present; ruled out ANSD."
+          }
+        ]
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V4",
+          "collective_interpretation": "Following a 1-month trial, speech perception scores fell within CI candidacy criteria despite the 'off-label' residual hearing.",
+          "tests": [
+            {
+              "name": "Speech-in-noise / Speech Perception",
+              "result_summary": "HINT (Quiet) 59% binaural, 30% left; CNC 32% binaural. Scores met CI candidacy criteria."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

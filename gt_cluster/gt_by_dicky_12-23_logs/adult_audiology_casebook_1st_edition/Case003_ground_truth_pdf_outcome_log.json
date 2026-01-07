@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:26:56Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case003_ground_truth_pdf_outcome.json",
+    "case_key": "3",
+    "remark": "Ordered list: Same as Case 2.\nPostoperative speech audiometry: Left ear SRT should be “47/45 dB HL” (confirm exact formatting).",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/03_3_Auditory_Neuroma.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/03_3_Auditory_Neuroma.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Otoscopy' to the ordered list to align with the standard protocol referenced as 'Case 2'.",
+      "Updated the postoperative speech audiometry result in expected outcomes to reflect the specific SRT values '47/45 dB HL' as requested."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/0",
+        "value": {
+          "action": "Otoscopy",
+          "urgency": "routine",
+          "rationale_short": "Assess external ear canal and tympanic membrane."
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/expected_outcome/3",
+        "value": "Postoperative Speech Audiometry: Left ear SRT 47/45 dB HL, WRS 92% at 75 dB HL."
+      }
+    ],
+    "unresolved": []
+  }
+}

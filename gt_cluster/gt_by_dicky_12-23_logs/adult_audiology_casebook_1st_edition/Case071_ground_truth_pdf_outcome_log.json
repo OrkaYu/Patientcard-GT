@@ -1,0 +1,85 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:45:37Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case071_ground_truth_pdf_outcome.json",
+    "case_key": "71",
+    "remark": "Ordered list: Otoscopy missing.\nV2: Missing hearing aid fitting.\nV4: Missing otoscopy, tympanometry, speech audiometry, hearing aid fitting.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/71_71_Exostoses_Hearing_Aids_and_Brain_Training.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/71_71_Exostoses_Hearing_Aids_and_Brain_Training.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Otoscopy to the ordered list of investigations.",
+      "Added Hearing aid fitting to V2 tests.",
+      "Added Otoscopy, Tympanometry, Speech audiometry, and Hearing aid fitting to V4 tests."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/0",
+        "value": {
+          "action": "Otoscopy",
+          "urgency": "routine",
+          "rationale_short": "Visual inspection of ear canals to identify exostoses."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Hearing aid fitting",
+          "category": "Management",
+          "result_summary": "Fit with left CIC hearing aid; right ear fitting prevented by exostoses."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/3/tests/-",
+        "value": {
+          "name": "Otoscopy",
+          "category": "Physical Exam",
+          "result_summary": "Exostoses appeared to have decreased in size bilaterally."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/3/tests/-",
+        "value": {
+          "name": "Tympanometry",
+          "category": "Immittance",
+          "result_summary": "Normal tympanograms."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/3/tests/-",
+        "value": {
+          "name": "Speech audiometry",
+          "category": "Audiometry",
+          "result_summary": "Word recognition scores in quiet remained within normal limits."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/3/tests/-",
+        "value": {
+          "name": "Hearing aid fitting",
+          "category": "Management",
+          "result_summary": "Fit with bilateral open-fit mini-BTE hearing aids."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -45,6 +45,11 @@
         "rationale_short": "To verify that hearing aid gain and output match prescribed NAL-NL1 targets."
       },
       {
+        "action": "Telecoil verification",
+        "urgency": "routine",
+        "rationale_short": "To verify the telecoil response and ensure adequate sensitivity (RSETS) for the neckloop receiver."
+      },
+      {
         "action": "FM Verification",
         "urgency": "routine",
         "rationale_short": "To verify the transparency and telecoil response of the FM system."

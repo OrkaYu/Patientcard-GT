@@ -1,0 +1,34 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:01:25Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case019_ground_truth_pdf_outcome.json",
+    "case_key": "19",
+    "remark": "V2: Tympanometry is missing.",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case19_Nonorganic_Hearing_Loss_A_Case_Study.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case19_Nonorganic_Hearing_Loss_A_Case_Study.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Tympanometry results to V2 based on the text in section 19.2 (page 3) stating 'Tympanometry indicated normal middle ear pressure, ear canal volume, and compliance bilaterally.'"
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Tympanometry",
+          "category": "Immittance",
+          "result_summary": "Normal middle ear pressure, ear canal volume, and compliance bilaterally."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

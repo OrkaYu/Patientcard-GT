@@ -1,0 +1,41 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:32:31Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case010_ground_truth_pdf_outcome.json",
+    "case_key": "10",
+    "remark": "Differential diagnosis: Textbook uses “Ossicular Fixation”; “Otosclerosis” should be inferred (not explicitly named).\nSpelling: Fix to “Ménière's”.\nSRT values: Update to Right 35 dB HL, Left 30 dB HL (from 33/28).",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/10_10_A_Case_of_Mistaken_Identity.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/10_10_A_Case_of_Mistaken_Identity.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Replaced 'Otosclerosis' with 'Ossicular Fixation' in the differential diagnosis label to align with textbook terminology as requested.",
+      "Updated SRT values in Speech Audiometry results to 35 dB HL (Right) and 30 dB HL (Left) to match the text description, correcting the values from the figure (33/28).",
+      "The spelling of 'Ménière's' in the JSON was found to be already correct (with accents and apostrophe), so no changes were applied for that remark."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/ranked_differential_diagnosis/2/label",
+        "value": "Ossicular Fixation"
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/1/result_summary",
+        "value": "SRTs 35 dB HL (Right) and 30 dB HL (Left); WRS excellent (96% Right, 100% Left)."
+      }
+    ],
+    "unresolved": []
+  }
+}

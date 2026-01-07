@@ -35,6 +35,11 @@
         "rationale_short": "To evaluate the acoustic reflex arc and rule out retrocochlear pathology."
       },
       {
+        "action": "Distortion-product otoacoustic emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "To assess cochlear outer hair cell function."
+      },
+      {
         "action": "Hearing Handicap Inventory for Adults (HHIA-S)",
         "urgency": "routine",
         "rationale_short": "To quantify the self-perceived functional hearing handicap."
@@ -114,7 +119,28 @@
           {
             "name": "Listening in Spatialized Noise (LiSN-S)",
             "category": "APD",
-            "result_summary": "Deficits in spatial and talker cues; Low-cue SRT 14.6 dB, High-cue SRT 14.2 dB."
+            "result_summary": "Deficits in spatial and talker cues; Low-cue SRT 14.6 dB, High-cue SRT 14.2 dB, Talker Advantage: -0.4 dB, Spatial Advantage: -0.2 dB, Total Advantage: 0.5 dB."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Patient reported significantly reduced anxiety and avoidance behaviors in social situations. Patient found the FM system and Brain Fitness Program helpful and reported significant improvements in daily quality of life.",
+        "tests": [
+          {
+            "name": "Words-in-Noise (WIN) test",
+            "category": "APD",
+            "result_summary": "15.6 dB SNR (severe SNR loss), showing improvement from baseline but remaining abnormal."
+          },
+          {
+            "name": "Adaptive Test of Temporal Resolution (ATTR)",
+            "category": "APD",
+            "result_summary": "Gap detection threshold 15.5 msec, significantly improved from baseline but still abnormal."
+          },
+          {
+            "name": "Listening in Spatialized Noise (LiSN-S)",
+            "category": "APD",
+            "result_summary": "Low-cue SRT 10.6 dB, High-cue SRT 8.2 dB, Talker Advantage 1.4 dB, Spatial Advantage 5.6 dB, Total Advantage: 4.5 dB; improved scores but still below normal limits."
           }
         ]
       }
@@ -144,12 +170,5 @@
   "follow_up_plan": {
     "timeline": "12 weeks",
     "objective": "Re-evaluation of auditory processing skills and review of functional goals (COSI) following counseling and therapy."
-  },
-  "expected_outcome": [
-    "Words-in-Noise (WIN) test: 15.6 dB SNR (severe SNR loss), showing improvement from baseline but remaining abnormal.",
-    "Adaptive Test of Temporal Resolution (ATTR): Gap detection threshold 15.5 msec, significantly improved from baseline but still abnormal.",
-    "Listening in Spatialized Noise (LiSN-S): Low-cue SRT 10.6 dB, High-cue SRT 8.2 dB, Talker Advantage 1.4 dB, Spatial Advantage 5.6 dB; improved scores but still below normal limits.",
-    "Patient reported significantly reduced anxiety and avoidance behaviors in social situations.",
-    "Patient found the FM system and Brain Fitness Program helpful and reported significant improvements in daily quality of life."
-  ]
+  }
 }

@@ -1,0 +1,38 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:29:39Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case006_ground_truth_pdf_outcome.json",
+    "case_key": "6",
+    "remark": "V2: Otologic exam is missing.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/06_6_You_Really_Should_See_a_Doctor_about_That.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/06_6_You_Really_Should_See_a_Doctor_about_That.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Otologic examination' to V2 tests as indicated by the remarks and supported by the text ('After examining AB's ears and reporting no abnormalities detected')."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/0",
+        "value": {
+          "name": "Otologic examination",
+          "category": "Medical Examination",
+          "result_summary": "No abnormalities detected."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

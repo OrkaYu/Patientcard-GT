@@ -13,7 +13,7 @@
     },
     {
       "rank": 3,
-      "label": "Superior Semicircular Canal Dehiscence",
+      "label": "Lateral Semicircular Canal Dehiscence",
       "rationale_short": "Considered due to possible conductive component in low frequencies, but ruled out by normal bone conduction and imaging."
     }
   ],
@@ -38,6 +38,11 @@
         "action": "Acoustic reflexes",
         "urgency": "routine",
         "rationale_short": "To assess retrocochlear pathway integrity; critical for detecting retrocochlear pathology."
+      },
+      {
+        "action": "MRI with gadolinium",
+        "urgency": "soon",
+        "rationale_short": "To visualize retrocochlear structures and confirm diagnosis given the asymmetric sensorineural hearing loss and absent reflexes."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -82,6 +87,38 @@
             "result_summary": "Right ipsilateral reflexes present/normal; Left ipsilateral reflexes absent at maximum levels (>100-105 dB HL)."
           }
         ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "6 months post-radiation evaluation.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Slight decrease in hearing sensitivity with more obvious asymmetry; PTA Right 6 dB HL, Left 23 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "WRS Right 100% at 50 dB HL, Left slightly decreased to 88% at 60 dB HL."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "13 months post-radiation evaluation.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Stable asymmetry; PTA Right 6 dB HL, Left 20 dB HL."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "WRS Right 100% at 40 dB HL, Left 92% at 65 dB HL."
+          }
+        ]
       }
     ]
   },
@@ -115,10 +152,6 @@
     "objective": "Comprehensive audiological examination to monitor hearing status post-radiation."
   },
   "expected_outcome": [
-    "Pure-tone audiometry (6 months post-radiation): Slight decrease in hearing sensitivity with more obvious asymmetry; PTA Right 6 dB HL, Left 23 dB HL.",
-    "Speech audiometry (6 months post-radiation): WRS Right 100% at 50 dB HL, Left slightly decreased to 88% at 60 dB HL.",
-    "Pure-tone audiometry (13 months post-radiation): Stable asymmetry; PTA Right 6 dB HL, Left 20 dB HL.",
-    "Speech audiometry (13 months post-radiation): WRS Right 100% at 40 dB HL, Left 92% at 65 dB HL.",
     "Patient maintained completely serviceable bilateral hearing and required no amplification devices."
   ]
 }

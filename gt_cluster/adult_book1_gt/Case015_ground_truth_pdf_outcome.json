@@ -38,6 +38,11 @@
         "action": "Acoustic reflexes",
         "urgency": "routine",
         "rationale_short": "To test the reflex arc; absence or elevation can indicate retrocochlear pathology."
+      },
+      {
+        "action": "MRI",
+        "urgency": "urgent",
+        "rationale_short": "To confirm tumor status and evaluate potential recurrence or progression of the left CPA meningioma."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -80,6 +85,10 @@
           {
             "name": "Pure-tone audiometry",
             "result_summary": "Thresholds returned to normal/near-normal with a bilateral notch at 6000 Hz."
+          },
+          {
+            "name": "Speech audiometry",
+            "result_summary": "WRS 100% bilaterally with normal speech recognition."
           }
         ]
       }

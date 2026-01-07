@@ -1,0 +1,80 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:35:49Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case014_ground_truth_pdf_outcome.json",
+    "case_key": "14",
+    "remark": "Ordered list: Add otoscopy; neurological exams (MRI, EKG, EEG, MRA).\nV2: Missing SOAE repeated 2 weeks later with same result.\nV3: Should equal expected outcome.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/14_14_Musical_Hallucinations.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/14_14_Musical_Hallucinations.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Otoscopy to ordered_list.",
+      "Added Neurological exams (MRI, EKG, EEG, MRA) to ordered_list.",
+      "Added V2 to expected_interpretations_by_visit for the repeat SOAE test mentioned in the text.",
+      "Added V3 to expected_interpretations_by_visit to reflect the 3-month outcome described in the text and expected_outcome."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/0",
+        "value": {
+          "action": "Otoscopy",
+          "urgency": "routine",
+          "rationale_short": "To assess the ear canal and tympanic membrane."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Neurological exams (MRI, EKG, EEG, MRA)",
+          "urgency": "routine",
+          "rationale_short": "To identify the origin of the perceived music and rule out central pathology."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "Repeat SOAE testing 2 weeks later confirmed the initial findings.",
+          "tests": [
+            {
+              "name": "Spontaneous otoacoustic emissions (SOAEs)",
+              "category": "OAEs",
+              "result_summary": "Repeated 2 weeks later with same result (Present Right, Absent Left)."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "Patient elected to continue wearing hearing instruments. After 3 months, reported significant improvement in ability to recognize speech but no reduction in musical hallucinations. Reported gradual habituation and rated perception as half as annoying.",
+          "tests": [
+            {
+              "name": "Follow-up Assessment",
+              "category": "Outcome",
+              "result_summary": "Significant speech improvement; habituation to hallucinations; no reduction in hallucination intensity."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

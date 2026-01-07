@@ -20,6 +20,11 @@
   "investigations_and_interpretations": {
     "ordered_list": [
       {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Visual inspection of ear canals to identify exostoses."
+      },
+      {
         "action": "Pure-tone audiometry",
         "urgency": "routine",
         "rationale_short": "Baseline evaluation of hearing sensitivity."
@@ -105,6 +110,11 @@
             "name": "Pure-tone audiometry",
             "category": "Audiometry",
             "result_summary": "Hearing loss found to be stable."
+          },
+          {
+            "name": "Hearing aid fitting",
+            "category": "Management",
+            "result_summary": "Fit with left CIC hearing aid; right ear fitting prevented by exostoses."
           }
         ]
       },
@@ -132,6 +142,26 @@
             "name": "Speech-in-noise",
             "category": "Functional",
             "result_summary": "QuickSIN score decreased to mild-to-moderate SNR loss (5.5 dB SNR loss at 65 dB HL)."
+          },
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Exostoses appeared to have decreased in size bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal tympanograms."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Word recognition scores in quiet remained within normal limits."
+          },
+          {
+            "name": "Hearing aid fitting",
+            "category": "Management",
+            "result_summary": "Fit with bilateral open-fit mini-BTE hearing aids."
           }
         ]
       },

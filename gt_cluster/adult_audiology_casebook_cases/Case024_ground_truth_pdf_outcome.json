@@ -68,6 +68,11 @@
         "action": "MRI Brain",
         "urgency": "soon",
         "rationale_short": "Visualize brain structure to rule out space-occupying lesions or degeneration."
+      },
+      {
+        "action": "Hospital Anxiety and Depression Scale (HADS)",
+        "urgency": "soon",
+        "rationale_short": "Screen for anxiety and depression."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -125,6 +130,11 @@
             "name": "MRI Brain",
             "category": "Imaging",
             "result_summary": "Mild diffuse cerebellar and cerebral atrophy."
+          },
+          {
+            "name": "Hospital Anxiety and Depression Scale (HADS)",
+            "category": "Questionnaire",
+            "result_summary": "Positive for anxiety and depression."
           }
         ]
       }

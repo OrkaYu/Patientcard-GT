@@ -102,6 +102,11 @@
             "result_summary": "Normal ear canal volume, middle ear pressure, and static compliance bilaterally."
           },
           {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "ARTs were consistent with previous sensation levels in each ear."
+          },
+          {
             "name": "Other",
             "category": "Electrophysiology",
             "result_summary": "DPOAEs: Absent at high frequencies in left ear and mid-frequencies in right ear. ABR could not be completed due to patient discomfort."

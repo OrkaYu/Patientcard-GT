@@ -20,9 +20,29 @@
   "investigations_and_interpretations": {
     "ordered_list": [
       {
-        "action": "Comprehensive Audiologic Evaluation",
+        "action": "Speech audiometry",
         "urgency": "urgent",
-        "rationale_short": "Immediate assessment is critical to document the severity of loss and monitor for fluctuations in the only hearing ear."
+        "rationale_short": "To assess word recognition abilities and functional hearing status."
+      },
+      {
+        "action": "Stenger test",
+        "urgency": "urgent",
+        "rationale_short": "To rule out non-organic hearing loss given the unilateral presentation."
+      },
+      {
+        "action": "Tympanometry",
+        "urgency": "urgent",
+        "rationale_short": "To evaluate middle ear function and rule out conductive pathology."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "urgent",
+        "rationale_short": "To assess retrocochlear function; absence in the right ear and presence in the left helps localize the lesion."
+      },
+      {
+        "action": "Western blot analysis",
+        "urgency": "urgent",
+        "rationale_short": "To investigate specific immune activity (e.g., anti-HSP70 antibodies) associated with AIED."
       },
       {
         "action": "Laboratory Blood Panel (ESR, CRP, ANA)",
@@ -60,6 +80,22 @@
             "name": "Laboratory Studies",
             "category": "Blood work",
             "result_summary": "Elevated Erythrocyte Sedimentation Rate (ESR) of 93 mm/h."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Intermediate follow-up showing progression of hearing loss in the left ear while maintaining good speech recognition.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear: Anacusis. Left ear: Moderate sloping sensorineural hearing loss (approx. 40-80 dB)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "Excellent word recognition scores in quiet environments."
           }
         ]
       },

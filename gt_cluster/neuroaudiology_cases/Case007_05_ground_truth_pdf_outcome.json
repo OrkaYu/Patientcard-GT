@@ -63,6 +63,11 @@
         "action": "EEG",
         "urgency": "soon",
         "rationale_short": "Evaluation of seizure activity and localization of epileptogenic foci."
+      },
+      {
+        "action": "Frequency Patterns",
+        "urgency": "routine",
+        "rationale_short": "Assessment of temporal patterning and interhemispheric transfer."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -98,7 +103,7 @@
           {
             "name": "Competing Sentences",
             "category": "Central Auditory Processing",
-            "result_summary": "Bilateral deficits below normal range; left ear ~30%, right ear ~50%."
+            "result_summary": "Within normal limits bilaterally."
           },
           {
             "name": "Late auditory evoked potentials",
@@ -119,6 +124,11 @@
             "name": "EEG",
             "category": "Electrophysiology",
             "result_summary": "Abnormal; focal slowing and paroxysmal instability arising from the left anterior and mid temporal regions."
+          },
+          {
+            "name": "Frequency Patterns",
+            "category": "Central Auditory Processing",
+            "result_summary": "Within normal limits bilaterally."
           }
         ]
       }

@@ -20,6 +20,11 @@
   "investigations_and_interpretations": {
     "ordered_list": [
       {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To inspect the external auditory canal and tympanic membrane."
+      },
+      {
         "action": "Pure-tone audiometry",
         "urgency": "routine",
         "rationale_short": "To determine the degree, type, and configuration of hearing loss."

@@ -95,6 +95,11 @@
             "name": "Otoacoustic Emissions (DPOAE)",
             "category": "Objective",
             "result_summary": "Present and robust at 1,600 to 6,300 Hz bilaterally, consistent with normal cochlear function in speech frequencies."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear pressure, ear canal volume, and compliance bilaterally."
           }
         ]
       }

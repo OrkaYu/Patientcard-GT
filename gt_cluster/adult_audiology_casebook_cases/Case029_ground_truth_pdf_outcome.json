@@ -70,6 +70,11 @@
         "rationale_short": "Post-operative assessment of tympanic membrane healing and mobility."
       },
       {
+        "action": "Hearing aid verification (Real-Ear / REM)",
+        "urgency": "routine",
+        "rationale_short": "Verification of hearing aid output to prescribed targets."
+      },
+      {
         "action": "HHIE-S",
         "urgency": "routine",
         "rationale_short": "Follow-up assessment of subjective benefit."
@@ -125,6 +130,10 @@
           {
             "name": "Tympanometry (226 Hz)",
             "result_summary": "Right: Hypocompliant (0.2 mL) with normal volume (perf closed). Left: Normal."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Absent in both ears for ipsilateral and contralateral stimulation."
           },
           {
             "name": "Hearing Aid Verification (Real-Ear)",

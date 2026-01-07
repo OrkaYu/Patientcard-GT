@@ -1,0 +1,63 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T22:26:26Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case010_01_ground_truth_pdf_outcome.json",
+    "case_key": "10_1",
+    "remark": "Ordered list & V3: Missing Frequency Patterns Test and Intensity Discrimination.",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_10-1.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_10-1.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Frequency Patterns Test and Intensity Discrimination to the ordered list of investigations.",
+      "Added specific results for Frequency Patterns Test and Intensity Discrimination to the long-term follow-up (V3) section."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Frequency Patterns Test",
+          "urgency": "routine",
+          "rationale_short": "To assess central auditory temporal processing and interhemispheric transfer."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Intensity Discrimination",
+          "urgency": "routine",
+          "rationale_short": "To evaluate intensity difference limens using a modified SISI technique."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests/-",
+        "value": {
+          "name": "Frequency Patterns Test",
+          "result_summary": "Pediatric version: 6 mo 30% AU; 10 mo RE 80%, LE 47%; 18 mo RE 60%, LE 30%; >2 yrs 100% AU."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests/-",
+        "value": {
+          "name": "Intensity Discrimination",
+          "result_summary": "Modified SISI (1000 Hz, 60 dB HL): 6 mo RE detected 2 dB (100%), LE failed 6 dB. 14 mo RE detected 1 dB (35%), LE detected 4 dB (100%)."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

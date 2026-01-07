@@ -1,0 +1,174 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:31:12Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case008_ground_truth_pdf_outcome.json",
+    "case_key": "8",
+    "remark": "Ordered list: Missing psychological assessment; X‑ray; CT follow‑up.\nVisit structure: Should be V1 Initial Evaluation; V2 Post‑MRI/CI candidacy; V3 Surgery; V4 Post‑Activation; V5 5‑Year Follow‑up.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/08_8_Clinical_Management_of_a_Patient_with_Bilateral.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/08_8_Clinical_Management_of_a_Patient_with_Bilateral.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated ordered_list to include Psychological assessment, Plain film X-ray, and CT scan as requested.",
+      "Restructured expected_interpretations_by_visit into 5 visits (V1-V5) to reflect the clinical flow: Initial, Candidacy, Surgery, Post-Activation, and 5-Year Follow-up.",
+      "Moved Vestibular Assessment to V2 as per text indicating it was part of the candidacy evaluation.",
+      "Added specific test results for the new visits (NRT, X-ray, HINT, AzBio, CT)."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/ordered_list",
+        "value": [
+          {
+            "action": "Pure-tone audiometry",
+            "urgency": "routine",
+            "rationale_short": "To assess degree and configuration of hearing loss."
+          },
+          {
+            "action": "Speech audiometry",
+            "urgency": "routine",
+            "rationale_short": "To determine speech awareness thresholds given profound loss."
+          },
+          {
+            "action": "Diagnostic Imaging (MRI)",
+            "urgency": "soon",
+            "rationale_short": "To evaluate for retrocochlear lesions given sudden loss and history of VS."
+          },
+          {
+            "action": "Speech-in-noise",
+            "urgency": "routine",
+            "rationale_short": "To evaluate aided performance for CI candidacy (HINT)."
+          },
+          {
+            "action": "Vestibular Assessment",
+            "urgency": "routine",
+            "rationale_short": "To assess vestibular function given reports of imbalance and bilateral pathology."
+          },
+          {
+            "action": "Psychological assessment",
+            "urgency": "routine",
+            "rationale_short": "To assess motivation, expectations, and mental health suitability for CI."
+          },
+          {
+            "action": "Plain film X-ray",
+            "urgency": "routine",
+            "rationale_short": "To confirm electrode placement post-insertion."
+          },
+          {
+            "action": "Computed tomographic (CT) scan",
+            "urgency": "routine",
+            "rationale_short": "To monitor tumor growth and internal device status at long-term follow-up."
+          }
+        ]
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit",
+        "value": [
+          {
+            "visit_id": "V1 Initial Evaluation",
+            "collective_interpretation": "Initial audiometric testing revealed bilateral profound SNHL. MRI confirmed bilateral vestibular schwannomas consistent with NF2.",
+            "tests": [
+              {
+                "name": "Pure-tone audiometry",
+                "category": "Audiometry",
+                "result_summary": "Bilateral profound SNHL; no response at limits."
+              },
+              {
+                "name": "Speech audiometry",
+                "category": "Audiometry",
+                "result_summary": "Left SAT 100 dB HL; Right No Response."
+              },
+              {
+                "name": "Diagnostic Imaging (MRI)",
+                "category": "Imaging",
+                "result_summary": "Bilateral vestibular schwannomas; Left 1.8 cm (filling IAC), Right 4.4 mm (intracanalicular)."
+              }
+            ]
+          },
+          {
+            "visit_id": "V2 Post-MRI/CI candidacy",
+            "collective_interpretation": "Candidacy evaluation confirmed poor aided benefit and bilateral vestibular hypofunction. Psychological assessment cleared patient for surgery.",
+            "tests": [
+              {
+                "name": "Speech-in-noise",
+                "category": "Functional",
+                "result_summary": "Aided HINT in quiet: 0%."
+              },
+              {
+                "name": "Vestibular Assessment",
+                "category": "Vestibular",
+                "result_summary": "Absent cVEMPs bilaterally; no measurable caloric responses (bilateral hypofunction)."
+              },
+              {
+                "name": "Psychological assessment",
+                "category": "Psychological",
+                "result_summary": "Minimal risk of depression; realistic expectations; appropriate motivation."
+              }
+            ]
+          },
+          {
+            "visit_id": "V3 Surgery",
+            "collective_interpretation": "Successful implantation of right ear. No neural response on NRT, but placement confirmed.",
+            "tests": [
+              {
+                "name": "Intraoperative neural response telemetry (NRT)",
+                "category": "Electrophysiology",
+                "result_summary": "No measurable response."
+              },
+              {
+                "name": "Plain film X-ray",
+                "category": "Imaging",
+                "result_summary": "Confirmed full electrode insertion."
+              }
+            ]
+          },
+          {
+            "visit_id": "V4 Post-Activation",
+            "collective_interpretation": "Early post-activation showed significant improvement in speech recognition despite lack of NRT.",
+            "tests": [
+              {
+                "name": "Speech recognition (HINT)",
+                "category": "Functional",
+                "result_summary": "Improved to 88% in quiet within several months."
+              },
+              {
+                "name": "Mapping",
+                "category": "Electrophysiology",
+                "result_summary": "Stable impedances; normal morphology on AutoNRT (later)."
+              }
+            ]
+          },
+          {
+            "visit_id": "V5 5-Year Follow-up",
+            "collective_interpretation": "Long-term follow-up showed sustained benefit and no tumor growth.",
+            "tests": [
+              {
+                "name": "Speech recognition (AzBio)",
+                "category": "Functional",
+                "result_summary": "81% in quiet; 37% in noise (+10 dB SNR)."
+              },
+              {
+                "name": "Computed tomographic (CT) scan",
+                "category": "Imaging",
+                "result_summary": "No tumor growth demonstrated."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

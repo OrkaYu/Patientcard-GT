@@ -1,0 +1,73 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T23:14:31Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case002_ground_truth_pdf_outcome.json",
+    "case_key": "2",
+    "remark": "Missing items:\n- Ordered list: acoustic reflexes\n- V1: acoustic reflexes\n- V2: tympanometry, acoustic reflexes, pure‑tone test\n- Escalation: missing referral to mental health professional",
+    "pdf_key": "Tinnitus_Cases_split2/Case02_Chiari_Malformation_with_Tinnitus_and_Hyperacusis.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case02_Chiari_Malformation_with_Tinnitus_and_Hyperacusis.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Acoustic reflexes' to the ordered list.",
+      "Added 'Acoustic reflexes' to V1 tests based on Figure 2.1.",
+      "Added 'Tympanometry', 'Acoustic reflexes', and 'Pure-tone audiometry' to V2 tests based on text descriptions and Figure 2.2 (DNT for reflexes).",
+      "Updated escalation destination to include referral to a Mental Health Professional as recommended in the text."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Acoustic reflexes",
+          "urgency": "routine",
+          "rationale_short": "To assess the integrity of the auditory pathway."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/-",
+        "value": {
+          "name": "Acoustic reflexes",
+          "result_summary": "Reflexes present at normal levels bilaterally."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Tympanometry",
+          "result_summary": "Bilateral Type A tympanograms, consistent with normal middle ear function."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Acoustic reflexes",
+          "result_summary": "Not tested (DNT)."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Pure-tone audiometry",
+          "result_summary": "Screening confirmed no changes in hearing sensitivity since prior testing."
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/escalation_and_red_flags/escalation/destination",
+        "value": "Neurologist, Pain Management Specialist, and Mental Health Professional"
+      }
+    ],
+    "unresolved": []
+  }
+}

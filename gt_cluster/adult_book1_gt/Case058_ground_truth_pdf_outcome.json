@@ -15,6 +15,11 @@
   "investigations_and_interpretations": {
     "ordered_list": [
       {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "Visual inspection of the ear canal and tympanic membrane."
+      },
+      {
         "action": "Pure-tone audiometry",
         "urgency": "routine",
         "rationale_short": "Assess hearing sensitivity to confirm degree and configuration of loss."
@@ -43,6 +48,11 @@
         "action": "Feedback Analysis",
         "urgency": "routine",
         "rationale_short": "Determine maximum stable gain available before feedback occurs."
+      },
+      {
+        "action": "Occlusion effect test",
+        "urgency": "routine",
+        "rationale_short": "Assess potential occlusion effect with closed domes."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -58,7 +68,7 @@
           {
             "name": "Speech audiometry",
             "category": "Audiometry",
-            "result_summary": "SRTs consistent with pure-tone averages (R 35, L 40 dB HL); WRS showed slight difficulty (R 80%, L 84% at 65 dB HL)."
+            "result_summary": "SRTs consistent with pure-tone averages (R 40, L 35 dB HL); WRS showed slight difficulty (R 80%, L 84% at 65 dB HL)."
           },
           {
             "name": "Tympanometry",
@@ -73,7 +83,7 @@
           {
             "name": "Real Ear Measures (REM)",
             "category": "Hearing Aid Verification",
-            "result_summary": "Pre-adjustment: Significant under-amplification relative to DSL v5.0 targets, particularly >2000 Hz."
+            "result_summary": "Pre-adjustment: Significant under-amplification relative to DSL v5.0 targets, particularly >2000 Hz. SII (Left): Soft 27, Avg 47, Loud 64."
           },
           {
             "name": "Feedback Analysis",
@@ -83,7 +93,12 @@
           {
             "name": "Real Ear Measures (REM)",
             "category": "Hearing Aid Verification",
-            "result_summary": "Post-adjustment (with closed domes): Improved high-frequency audibility matching DSL v5.0 targets; occlusion effect test showed no issues."
+            "result_summary": "Post-adjustment (with closed domes): Improved high-frequency audibility matching DSL v5.0 targets; occlusion effect test showed no issues. SII (Left): Soft 45, Avg 71, Loud 79."
+          },
+          {
+            "name": "Occlusion effect test",
+            "category": "Hearing Aid Verification",
+            "result_summary": "No significant occlusion effect measured objectively or reported subjectively."
           }
         ]
       }
