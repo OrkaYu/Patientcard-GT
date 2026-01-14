@@ -1,0 +1,215 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:07:34Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case025_ground_truth_pdf_outcome.json",
+    "case_key": "25",
+    "remark": "{\n  \"case_id\": \"Case025\",\n  \"ranked_differential_diagnosis\": [\n    {\n      \"rank\": 1,\n      \"label\": \"Vestibular Schwannoma\",\n      \"rationale_short\": \"Strongly suggested by asymmetric SNHL, significant rollover (0.76), absent ipsilateral reflexes, 83% unilateral vestibular weakness, and facial weakness indicating CN VII/VIII compression.\"\n    },\n    {\n      \"rank\": 2,\n      \"label\": \"Sudden Sensorineural Hearing Loss (idiopathic)\",\n      \"rationale_short\": \"Initial presentation consistent with sudden SNHL, though retrocochlear signs point to specific tumor etiology.\"\n    }\n  ],\n  \"investigations_and_interpretations\": {\n    \"ordered_list\": [\n      {\n        \"action\": \"Pure-tone audiometry\",\n        \"urgency\": \"routine\",\n        \"rationale_short\": \"To assess hearing sensitivity and configuration.\"\n      },\n      {\n        \"action\": \"Speech audiometry\",\n        \"urgency\": \"routine\",\n        \"rationale_short\": \"To assess speech discrimination and check for rollover.\"\n      },\n      {\n        \"action\": \"Tympanometry\",\n        \"urgency\": \"routine\",\n        \"rationale_short\": \"To evaluate middle ear function.\"\n      },\n      {\n        \"action\": \"Acoustic reflexes\",\n        \"urgency\": \"routine\",\n        \"rationale_short\": \"To assess reflex pathways; absence can indicate retrocochlear pathology.\"\n      },\n      {\n        \"action\": \"Otoacoustic Emissions (DPOAE)\",\n        \"urgency\": \"routine\",\n        \"rationale_short\": \"To evaluate cochlear outer hair cell function and differentiate cochlear vs retrocochlear site.\"\n      },\n      {\n        \"action\": \"Gans Sensory Organization Performance (SOP)\",\n        \"urgency\": \"routine\",\n        \"rationale_short\": \"To assess postural stability and differentiate central vs vestibular pathology.\"\n      },\n      {\n        \"action\": \"VNG (Videonystagmography)\",\n        \"urgency\": \"routine\",\n        \"rationale_short\": \"To evaluate vestibular system function and identify site of lesion.\"\n      },\n      {\n        \"action\": \"MRI of internal auditory canals with and without contrast\",\n        \"urgency\": \"urgent\",\n        \"rationale_short\": \"To confirm or rule out retrocochlear lesion given multiple red flags.\"\n      }\n    ],\n    \"expected_interpretations_by_visit\": [\n      {\n        \"visit_id\": \"V1\",\n        \"visit_dates\": \"8/12/2016 - 8/13/2016\",\n        \"visit_type\": \"Comprehensive audiologic and vestibular evaluation\",\n        \"collective_interpretation\": \"Audiologic evaluation reveals mild high-frequency SNHL in the right ear with asymmetry (15-25 dB poorer at 2-6 kHz) and significant rollover (RI=0.76), strongly suggesting retrocochlear pathology. Absent ipsilateral ARTs on the right further support this impression. DPOAEs present bilaterally consistent with intact cochlear function. Vestibular testing shows severe right unilateral weakness (83% RVR) with left-beating nystagmus post-headshake (peripheral pattern) and postural instability on conditions requiring vestibular input. Findings highly suspicious for right vestibular schwannoma.\",\n        \"tests\": [\n          {\n            \"name\": \"Pure-tone audiometry\",\n            \"category\": \"Audiometry\",\n            \"result_summary\": \"Right ear: Normal sloping to mild SNHL at 6-8 kHz. Left ear: Normal sloping to slight SNHL at 6-8 kHz. Interaural asymmetry of 15-25 dB HL at 2000, 4000, and 6000 Hz (right poorer).\"\n          },\n          {\n            \"name\": \"Speech audiometry\",\n            \"category\": \"Audiometry\",\n            \"result_summary\": \"SRT: Right 10 dB HL, Left 5 dB HL (normal bilaterally). WRS: Right ear shows significant rollover (68% at 40 dB SL dropping to 16% at 75 dB HL; Rollover Index 0.76). Left ear WRS 100% at 45 dB HL.\"\n          },\n          {\n            \"name\": \"Tympanometry\",\n            \"category\": \"Immittance\",\n            \"result_summary\": \"Type A bilaterally. Normal middle ear pressure, ear canal volume, and compliance.\"\n          },\n          {\n            \"name\": \"Acoustic reflexes\",\n            \"category\": \"Immittance\",\n            \"result_summary\": \"Ipsilateral ARTs: Absent in Right ear at 500-4000 Hz; Present in Left ear (95, 90, 90 dB HL at 500, 1K, 2K Hz). Contralateral ARTs: Not performed due to equipment limitations.\"\n          },\n          {\n            \"name\": \"Otoacoustic Emissions (DPOAE)\",\n            \"category\": \"OAE\",\n            \"result_summary\": \"Present and robust at 1600-7100 Hz bilaterally; absent at 8000 Hz bilaterally. Consistent with audiometric thresholds and suggests intact cochlear function.\"\n          },\n          {\n            \"name\": \"Gans Sensory Organization Performance (SOP)\",\n            \"category\": \"Vestibular\",\n            \"result_summary\": \"Vestibular pattern of abnormality. Falls on Condition 4 (tandem stance, eyes closed) and Condition 6 (foam, eyes closed). Rightward deviation on Fukuda stepping test.\"\n          },\n          {\n            \"name\": \"VNG (Videonystagmography)\",\n            \"category\": \"Vestibular\",\n            \"result_summary\": \"Caloric: 83% reduced vestibular response (RVR) right ear. High-frequency headshake: Left-beating nystagmus (peripheral pattern). Spontaneous nystagmus: Absent. Horizontal gaze: Normal. Oculomotor (saccades, pursuit, OPK): Within normal limits. Dix-Hallpike: Negative bilaterally. Positional: Normal.\"\n          }\n        ]\n      },\n      {\n        \"visit_id\": \"V2\",\n        \"visit_date\": \"Day after V1\",\n        \"visit_type\": \"ENT follow-up and imaging\",\n        \"collective_interpretation\": \"MRI confirmed right vestibular schwannoma. Decision made to proceed with Gamma Knife radiosurgery.\",\n        \"tests\": [\n          {\n            \"name\": \"MRI internal auditory canals with/without contrast\",\n            \"category\": \"Imaging\",\n            \"result_summary\": \"6-mm vestibular schwannoma within the right internal auditory canal, protruding into the cerebellopontine angle, compressing cranial nerves VII (facial) and VIII (vestibulocochlear).\"\n          }\n        ]\n      }\n    ]\n  },\n  \"treatment_and_management\": {\n    \"proposed_items\": [\n      \"Gamma Knife radiosurgery\",\n      \"Vestibular Rehabilitation Therapy (VRT)\",\n      \"Hearing conservation strategies (earplugs/earmuffs in noise)\",\n      \"Annual audiologic monitoring\",\n      \"Serial MRI monitoring by neurology\"\n    ],\n    \"treatment_rationale\": \"Gamma Knife radiosurgery selected to halt tumor growth while preserving residual hearing; avoids surgical risks of complete hearing loss in right ear.\",\n    \"counseling_actions\": [\n      \"Explain retrocochlear findings (tumor compressing CN VIII)\",\n      \"Discuss rollover (louder speech becomes less clear due to neural involvement)\",\n      \"Explain vestibular weakness and contribution to imbalance\",\n      \"Advise hearing protection in noisy environments (firing range)\",\n      \"Discuss importance of VRT for occupational fitness requirements as police officer\"\n    ]\n  },\n  \"escalation_and_red_flags\": {\n    \"red_flags_present\": [\n      \"Sudden sensorineural hearing loss\",\n      \"Asymmetric hearing loss (15-25 dB)\",\n      \"Unilateral tinnitus\",\n      \"Facial weakness (CN VII involvement)\",\n      \"Vertigo and imbalance\",\n      \"Rollover on speech audiometry (RI=0.76)\",\n      \"Absent ipsilateral acoustic reflexes\",\n      \"Unilateral vestibular weakness (83% RVR)\"\n    ],\n    \"escalation\": {\n      \"urgency\": \"urgent\",\n      \"destination\": \"Otolaryngology/Neurology\",\n      \"rationale_short\": \"Immediate ENT follow-up for MRI due to facial weakness and multiple retrocochlear signs strongly suggesting vestibular schwannoma.\"\n    }\n  },\n  \"follow_up_plan\": {\n    \"timeline\": \"6 months post-treatment\",\n    \"date\": \"February 2017\",\n    \"objective\": \"Follow-up audiometric evaluation post-Gamma Knife surgery. Annual evaluations thereafter if stable.\"\n  },\n  \"expected_outcome\": [\n    \"Patient completed Gamma Knife surgery in August 2016.\",\n    \"Neurologist will monitor tumor size with serial MRIs.\",\n    \"Patient referred for Vestibular Rehabilitation Therapy (VRT) to aid central compensation.\",\n    \"Scheduled for 6-month follow-up audiometric evaluation in February 2017.\",\n    \"If stable, annual audiologic monitoring thereafter.\"\n  ]\n}",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case25_Importance_of_Audiologic_and_Vestibular.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case25_Importance_of_Audiologic_and_Vestibular.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated differential diagnosis to include facial weakness and specific test metrics.",
+      "Updated investigations to include MRI in ordered list and add a second visit (V2) for MRI results.",
+      "Enhanced V1 test results with specific data points (frequencies, dB levels, rollover index, specific vestibular findings) from the text.",
+      "Updated treatment and management to include Gamma Knife radiosurgery and specific counseling regarding police work.",
+      "Updated escalation flags to be more specific (e.g., 83% RVR).",
+      "Updated follow-up plan with specific dates and long-term monitoring.",
+      "Updated expected outcome to reflect the completed surgery and future plan."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/ranked_differential_diagnosis",
+        "value": [
+          {
+            "rank": 1,
+            "label": "Vestibular Schwannoma",
+            "rationale_short": "Strongly suggested by asymmetric SNHL, significant rollover (0.76), absent ipsilateral reflexes, 83% unilateral vestibular weakness, and facial weakness indicating CN VII/VIII compression."
+          },
+          {
+            "rank": 2,
+            "label": "Sudden Sensorineural Hearing Loss (idiopathic)",
+            "rationale_short": "Initial presentation consistent with sudden SNHL, though retrocochlear signs point to specific tumor etiology."
+          }
+        ]
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations",
+        "value": {
+          "ordered_list": [
+            {
+              "action": "Pure-tone audiometry",
+              "urgency": "routine",
+              "rationale_short": "To assess hearing sensitivity and configuration."
+            },
+            {
+              "action": "Speech audiometry",
+              "urgency": "routine",
+              "rationale_short": "To assess speech discrimination and check for rollover."
+            },
+            {
+              "action": "Tympanometry",
+              "urgency": "routine",
+              "rationale_short": "To evaluate middle ear function."
+            },
+            {
+              "action": "Acoustic reflexes",
+              "urgency": "routine",
+              "rationale_short": "To assess reflex pathways; absence can indicate retrocochlear pathology."
+            },
+            {
+              "action": "Otoacoustic Emissions (DPOAE)",
+              "urgency": "routine",
+              "rationale_short": "To evaluate cochlear outer hair cell function and differentiate cochlear vs retrocochlear site."
+            },
+            {
+              "action": "Gans Sensory Organization Performance (SOP)",
+              "urgency": "routine",
+              "rationale_short": "To assess postural stability and differentiate central vs vestibular pathology."
+            },
+            {
+              "action": "VNG (Videonystagmography)",
+              "urgency": "routine",
+              "rationale_short": "To evaluate vestibular system function and identify site of lesion."
+            },
+            {
+              "action": "MRI of internal auditory canals with and without contrast",
+              "urgency": "urgent",
+              "rationale_short": "To confirm or rule out retrocochlear lesion given multiple red flags."
+            }
+          ],
+          "expected_interpretations_by_visit": [
+            {
+              "visit_id": "V1",
+              "visit_dates": "8/12/2016 - 8/13/2016",
+              "visit_type": "Comprehensive audiologic and vestibular evaluation",
+              "collective_interpretation": "Audiologic evaluation reveals mild high-frequency SNHL in the right ear with asymmetry (15-25 dB poorer at 2-6 kHz) and significant rollover (RI=0.76), strongly suggesting retrocochlear pathology. Absent ipsilateral ARTs on the right further support this impression. DPOAEs present bilaterally consistent with intact cochlear function. Vestibular testing shows severe right unilateral weakness (83% RVR) with left-beating nystagmus post-headshake (peripheral pattern) and postural instability on conditions requiring vestibular input. Findings highly suspicious for right vestibular schwannoma.",
+              "tests": [
+                {
+                  "name": "Pure-tone audiometry",
+                  "category": "Audiometry",
+                  "result_summary": "Right ear: Normal sloping to mild SNHL at 6-8 kHz. Left ear: Normal sloping to slight SNHL at 6-8 kHz. Interaural asymmetry of 15-25 dB HL at 2000, 4000, and 6000 Hz (right poorer)."
+                },
+                {
+                  "name": "Speech audiometry",
+                  "category": "Audiometry",
+                  "result_summary": "SRT: Right 10 dB HL, Left 5 dB HL (normal bilaterally). WRS: Right ear shows significant rollover (68% at 40 dB SL dropping to 16% at 75 dB HL; Rollover Index 0.76). Left ear WRS 100% at 45 dB HL."
+                },
+                {
+                  "name": "Tympanometry",
+                  "category": "Immittance",
+                  "result_summary": "Type A bilaterally. Normal middle ear pressure, ear canal volume, and compliance."
+                },
+                {
+                  "name": "Acoustic reflexes",
+                  "category": "Immittance",
+                  "result_summary": "Ipsilateral ARTs: Absent in Right ear at 500-4000 Hz; Present in Left ear (95, 90, 90 dB HL at 500, 1K, 2K Hz). Contralateral ARTs: Not performed due to equipment limitations."
+                },
+                {
+                  "name": "Otoacoustic Emissions (DPOAE)",
+                  "category": "OAE",
+                  "result_summary": "Present and robust at 1600-7100 Hz bilaterally; absent at 8000 Hz bilaterally. Consistent with audiometric thresholds and suggests intact cochlear function."
+                },
+                {
+                  "name": "Gans Sensory Organization Performance (SOP)",
+                  "category": "Vestibular",
+                  "result_summary": "Vestibular pattern of abnormality. Falls on Condition 4 (tandem stance, eyes closed) and Condition 6 (foam, eyes closed). Rightward deviation on Fukuda stepping test."
+                },
+                {
+                  "name": "VNG (Videonystagmography)",
+                  "category": "Vestibular",
+                  "result_summary": "Caloric: 83% reduced vestibular response (RVR) right ear. High-frequency headshake: Left-beating nystagmus (peripheral pattern). Spontaneous nystagmus: Absent. Horizontal gaze: Normal. Oculomotor (saccades, pursuit, OPK): Within normal limits. Dix-Hallpike: Negative bilaterally. Positional: Normal."
+                }
+              ]
+            },
+            {
+              "visit_id": "V2",
+              "visit_date": "Day after V1",
+              "visit_type": "ENT follow-up and imaging",
+              "collective_interpretation": "MRI confirmed right vestibular schwannoma. Decision made to proceed with Gamma Knife radiosurgery.",
+              "tests": [
+                {
+                  "name": "MRI internal auditory canals with/without contrast",
+                  "category": "Imaging",
+                  "result_summary": "6-mm vestibular schwannoma within the right internal auditory canal, protruding into the cerebellopontine angle, compressing cranial nerves VII (facial) and VIII (vestibulocochlear)."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/treatment_and_management",
+        "value": {
+          "proposed_items": [
+            "Gamma Knife radiosurgery",
+            "Vestibular Rehabilitation Therapy (VRT)",
+            "Hearing conservation strategies (earplugs/earmuffs in noise)",
+            "Annual audiologic monitoring",
+            "Serial MRI monitoring by neurology"
+          ],
+          "treatment_rationale": "Gamma Knife radiosurgery selected to halt tumor growth while preserving residual hearing; avoids surgical risks of complete hearing loss in right ear.",
+          "counseling_actions": [
+            "Explain retrocochlear findings (tumor compressing CN VIII)",
+            "Discuss rollover (louder speech becomes less clear due to neural involvement)",
+            "Explain vestibular weakness and contribution to imbalance",
+            "Advise hearing protection in noisy environments (firing range)",
+            "Discuss importance of VRT for occupational fitness requirements as police officer"
+          ]
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/escalation_and_red_flags",
+        "value": {
+          "red_flags_present": [
+            "Sudden sensorineural hearing loss",
+            "Asymmetric hearing loss (15-25 dB)",
+            "Unilateral tinnitus",
+            "Facial weakness (CN VII involvement)",
+            "Vertigo and imbalance",
+            "Rollover on speech audiometry (RI=0.76)",
+            "Absent ipsilateral acoustic reflexes",
+            "Unilateral vestibular weakness (83% RVR)"
+          ],
+          "escalation": {
+            "urgency": "urgent",
+            "destination": "Otolaryngology/Neurology",
+            "rationale_short": "Immediate ENT follow-up for MRI due to facial weakness and multiple retrocochlear signs strongly suggesting vestibular schwannoma."
+          }
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/follow_up_plan",
+        "value": {
+          "timeline": "6 months post-treatment",
+          "date": "February 2017",
+          "objective": "Follow-up audiometric evaluation post-Gamma Knife surgery. Annual evaluations thereafter if stable."
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/expected_outcome",
+        "value": [
+          "Patient completed Gamma Knife surgery in August 2016.",
+          "Neurologist will monitor tumor size with serial MRIs.",
+          "Patient referred for Vestibular Rehabilitation Therapy (VRT) to aid central compensation.",
+          "Scheduled for 6-month follow-up audiometric evaluation in February 2017.",
+          "If stable, annual audiologic monitoring thereafter."
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

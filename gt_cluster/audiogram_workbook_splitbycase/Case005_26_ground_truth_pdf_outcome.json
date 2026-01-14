@@ -54,6 +54,11 @@
             "name": "Acoustic reflexes",
             "category": "Immittance",
             "result_summary": "Absent ipsilateral and contralateral reflexes at 500-4000 Hz bilaterally."
+          },
+          {
+            "name": "Acoustic reflex decay",
+            "category": "Immittance",
+            "result_summary": "Could not be measured at 500 and 1,000 Hz due to absent contralateral acoustic reflex thresholds."
           }
         ]
       }

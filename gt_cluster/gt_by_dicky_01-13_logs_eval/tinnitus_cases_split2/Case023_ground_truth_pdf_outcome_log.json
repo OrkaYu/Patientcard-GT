@@ -1,0 +1,75 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:35:00Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case023_ground_truth_pdf_outcome.json",
+    "case_key": "23",
+    "remark": "缺少 V2 (1-month hearing aid check)、V3 (6-month follow-up)。",
+    "pdf_key": "Tinnitus_Cases_split2/Case23_Tinnitus_and_Posttraumatic_Stress_Disorder.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case23_Tinnitus_and_Posttraumatic_Stress_Disorder.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 (1-month hearing aid check) to expected_interpretations_by_visit with data logging and AzBio results.",
+      "Added V3 (6-month follow-up) to expected_interpretations_by_visit with audiometry, tympanometry, reflexes, and TFI results."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "At the 1-month hearing aid check, the patient reported high satisfaction with the hearing aids and Zen programs, noting tinnitus had become much less noticeable. Objective measures confirmed good benefit and consistent usage.",
+          "tests": [
+            {
+              "name": "Data logging",
+              "category": "Hearing Aid Verification",
+              "result_summary": "Average of 14 hours of daily use."
+            },
+            {
+              "name": "AzBio sentences",
+              "category": "Speech Audiometry",
+              "result_summary": "94% aided score in quiet compared to 76% unaided."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "At the 6-month follow-up, the patient reported a reduction in tinnitus annoyance and anxiety. Audiologic testing showed slight improvement in low-frequency thresholds in the right ear, likely due to resolution of conductive components, though high-frequency asymmetry persisted. TFI scores indicated a significant reduction in the negative impact of tinnitus.",
+          "tests": [
+            {
+              "name": "Pure-tone audiometry",
+              "category": "Audiometry",
+              "result_summary": "Slight improvement in right ear low frequencies; high-frequency asymmetry persists."
+            },
+            {
+              "name": "Tympanometry",
+              "category": "Immittance",
+              "result_summary": "Right ear showed high compliance (suggestive of excessive TM mobility) and an opaque TM. Left ear was normal."
+            },
+            {
+              "name": "Acoustic reflexes",
+              "category": "Immittance",
+              "result_summary": "Absent at all tested frequencies bilaterally."
+            },
+            {
+              "name": "Tinnitus Functional Index (TFI)",
+              "category": "Questionnaire",
+              "result_summary": "Overall score decreased to 60.4/100 (from 82/100 baseline)."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

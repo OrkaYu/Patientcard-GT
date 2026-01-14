@@ -1,25 +1,65 @@
 {
   "case_id": "Case027",
-  "ranked_differential_diagnosis": [],
+  "ranked_differential_diagnosis": [
+    "Bilateral facial nerve paralysis (HB Grade VI/VI)",
+    "Bilateral longitudinal temporal bone fractures",
+    "Conductive hearing loss (left ear) secondary to ossicular chain disruption",
+    "Sensorineural hearing loss (right ear, slight)"
+  ],
   "investigations_and_interpretations": {
-    "ordered_list": [],
-    "expected_interpretations_by_visit": []
+    "ordered_list": [
+      "Computed Tomography (CT) scan",
+      "Electromyography (EMG)",
+      "Pure-tone audiometry",
+      "Speech audiometry (SAT)",
+      "Immittance audiometry (Tympanometry, Acoustic Reflexes)",
+      "Electroneuronography (ENoG)"
+    ],
+    "expected_interpretations_by_visit": [
+      {
+        "visit_description": "Initial presentation (14 days post-trauma)",
+        "interpretations": [
+          "CT: Bilateral longitudinal temporal bone fractures traversing horizontal segment of facial nerve canal; small subarachnoid hemorrhage; pulmonary contusions.",
+          "Audiometry: Right ear slight hearing loss at 250 Hz, normal 500-8000 Hz. Left ear slight conductive loss 250-500 Hz, mild conductive loss 2000-8000 Hz with air-bone gaps.",
+          "Immittance: Normal tympanograms bilaterally (suggesting ossicular disruption rather than fluid); ARTs present ipsilateral right (100 dB HL), absent otherwise.",
+          "ENoG: Right side minimal response (58 µV); Left side absent response initially. Serial monitoring showed transient recovery on left, then disappearance (critical distress)."
+        ]
+      }
+    ]
   },
   "treatment_and_management": {
-    "proposed_items": [],
-    "counseling_actions": []
+    "proposed_items": [
+      "Prednisone (60 mg daily, initiated prior to audiology visit)",
+      "Serial ENoG monitoring (every 3-5 days)",
+      "Surgical decompression of the left facial nerve"
+    ],
+    "counseling_actions": [
+      "Discuss ENoG findings indicating critical distress of left facial nerve",
+      "Recommend surgical intervention for left side",
+      "Monitor right facial nerve for spontaneous recovery",
+      "Discuss management of persistent conductive hearing loss (patient declined)"
+    ]
   },
   "escalation_and_red_flags": {
-    "red_flags_present": [],
+    "red_flags_present": [
+      "Bilateral facial nerve paralysis (HB Grade VI/VI)",
+      "Declining ENoG response on left side indicating nerve degeneration",
+      "Head trauma with temporal bone fractures"
+    ],
     "escalation": {
-      "urgency": "routine",
-      "destination": null,
-      "rationale_short": null
+      "urgency": "urgent",
+      "destination": "Surgery",
+      "rationale_short": "Left facial nerve showed declining response on serial ENoG, indicating critical distress and need for decompression."
     }
   },
   "follow_up_plan": {
-    "timeline": null,
-    "objective": null
+    "timeline": "1 week post-op, 2 months, 6 months",
+    "objective": "Monitor facial nerve function recovery and hearing status."
   },
-  "expected_outcome": []
+  "expected_outcome": [
+    "1 week post-op: Upper brow and lip movement on left side.",
+    "2 months: Significant facial recovery (HB III/VI).",
+    "6 months: Full facial recovery (HB I/VI) bilaterally.",
+    "Persistent conductive hearing loss in left ear."
+  ]
 }

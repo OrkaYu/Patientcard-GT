@@ -60,12 +60,23 @@
       },
       {
         "visit_id": "V3",
-        "collective_interpretation": "Follow-up after FND diagnosis and medication changes showed a significant reduction in seizure frequency, attributed to removing exacerbating factors.",
+        "collective_interpretation": "Patient returned to the audiology clinic with an FND diagnosis. A self-directed program of gradual reduction of hearing protection and increased sound exposure was initiated. Nortriptyline and betahistine were discontinued. Follow-up showed a significant reduction in seizure frequency.",
         "tests": [
           {
             "name": "Other",
             "category": "Patient Report",
             "result_summary": "Seizure frequency reduced to 2 in a 3-month period (previously daily)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Subsequent review revealed the patient was seizure-free for the prior 6 months. Use of hearing protection was now exceptional rather than routine.",
+        "tests": [
+          {
+            "name": "Other",
+            "category": "Outcome Review",
+            "result_summary": "Patient was seizure-free for the prior 6 months; hearing protection use was exceptional."
           }
         ]
       }

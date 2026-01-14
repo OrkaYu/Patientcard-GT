@@ -53,7 +53,7 @@
           {
             "name": "Central Auditory Processing Battery",
             "category": "Central Auditory Processing",
-            "result_summary": "Bilateral deficits on Dichotic Digits (~70-75%) and Frequency Patterns (<60%). Compressed speech showed a slight left ear deficit (~70%) compared to the right (~85%)."
+            "result_summary": "Dichotic Rhyme scores were significantly reduced (~40%). Bilateral deficits on Dichotic Digits (~70-75%) and Frequency Patterns (<60%). Compressed speech showed a slight left ear deficit (~70%) compared to the right (~85%)."
           },
           {
             "name": "Auditory Brainstem Response (ABR)",
@@ -66,6 +66,11 @@
             "result_summary": "N1 and P2 components were normal. The P300 component was essentially absent bilaterally."
           }
         ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "At 1 year follow-up, the patient was asymptomatic and back at work. Subjectively, she reported no hearing difficulties. Formal follow-up audiologic testing could not be completed due to logistical reasons.",
+        "tests": []
       }
     ]
   },

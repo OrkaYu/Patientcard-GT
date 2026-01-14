@@ -1,0 +1,45 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:10:48Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case048_ground_truth_pdf_outcome.json",
+    "case_key": "48",
+    "remark": "缺少 V2 (6 month follow up)。",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case48_Tinnitus_and_Hyperacusis.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case48_Tinnitus_and_Hyperacusis.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 (6-month follow-up) to expected_interpretations_by_visit based on Section 48.7 Outcome and Table 48.2."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "At the 6-month follow-up, the patient reported significant improvements in annoyance from tinnitus and hyperacusis. Tinnitus loudness decreased by 10 dB in each ear, and the TFI score reduced by 30 points to 30. LDLs increased by 6 to 10 dB across frequencies, indicating improved sound tolerance. The patient could tolerate moderately loud sounds.",
+          "tests": [
+            {
+              "name": "Loudness Discomfort Levels (LDLs)",
+              "category": "Sound Tolerance",
+              "result_summary": "Improved sound tolerance; LDLs increased by 6-10 dB across frequencies (BBN: 78 dB HL Right, 80 dB HL Left)."
+            },
+            {
+              "name": "Tinnitus Assessment",
+              "category": "Tinnitus",
+              "result_summary": "Loudness match 46 dB HL (R) / 50 dB HL (L); TFI score 30."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

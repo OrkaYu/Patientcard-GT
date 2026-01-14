@@ -1,0 +1,191 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:05:40Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case016_ground_truth_pdf_outcome.json",
+    "case_key": "16",
+    "remark": "Ordered list 缺少 Auditory Brainstem Response (ABR)，MRI of internal auditory canal，electroacoustic verification，Aided COSI\n修改：V1 → V2(新增) → V3(原V2) → V4(原V3) → V5(新增)\nV2: Medical Evaluation - Otology（新增）\nV5: 2-Week Follow-up Assessment（新增）\n需新增 V2: Medical Evaluation 包含测试：\n  1) ABR - 结果：waves I-V latencies normal bilaterally, 90 dBnHL, no dysfunction\n  2) MRI - 结果：normal internal auditory canals bilaterally, clear of pathology\nV4(原V3)缺少3项测试：electroacoustic verification，Directional microphone verification，RESR90\nV5: 2-Week Follow-up Assessment 缺少：Aided COSI，Aided QuickSIN，2cc coupler measurement",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case16_Asymmetric_Hearing_Loss_Evaluation_Diagn.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case16_Asymmetric_Hearing_Loss_Evaluation_Diagn.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added missing items to ordered_list: ABR, MRI, Electroacoustic verification, Aided COSI.",
+      "Restructured visits: V1 (Initial), V2 (New Medical Eval), V3 (Old V2), V4 (Old V3), V5 (New Follow-up).",
+      "Added ABR and MRI results to new V2.",
+      "Added Electroacoustic verification, Directional microphone verification, and RESR90 to V4 (formerly V3).",
+      "Added Aided COSI, Aided QuickSIN, and 2cc coupler measurement to new V5."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Auditory Brainstem Response (ABR)",
+          "urgency": "soon",
+          "rationale_short": "To rule out retrocochlear pathology."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "MRI of internal auditory canal",
+          "urgency": "soon",
+          "rationale_short": "To rule out retrocochlear pathology."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Electroacoustic verification",
+          "urgency": "routine",
+          "rationale_short": "To ensure hearing aids meet manufacturer specifications."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Aided COSI",
+          "urgency": "routine",
+          "rationale_short": "To assess subjective benefit with hearing aids."
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit",
+        "value": [
+          {
+            "visit_id": "V1",
+            "collective_interpretation": "Initial evaluation revealed bilateral asymmetric sensorineural hearing loss, worse in the left ear, with high-frequency sloping configuration. Middle ear function was normal. Acoustic reflexes were elevated or absent, consistent with the degree of loss or potential retrocochlear pathology. The asymmetry and unilateral symptoms (tinnitus, fullness) constitute red flags requiring medical referral.",
+            "tests": [
+              {
+                "name": "Otoscopy",
+                "category": "Physical Exam",
+                "result_summary": "Clear external ear canals bilaterally."
+              },
+              {
+                "name": "Pure-tone audiometry",
+                "category": "Audiometry",
+                "result_summary": "Right: Normal sloping to moderately severe SNHL. Left: Normal sloping to severe SNHL. Asymmetric configuration."
+              },
+              {
+                "name": "Speech audiometry",
+                "category": "Audiometry",
+                "result_summary": "SRT aligned with PTA. WRS excellent in Right (92%) and good in Left (80%)."
+              },
+              {
+                "name": "Tympanometry",
+                "category": "Immittance",
+                "result_summary": "Normal Type A bilaterally."
+              },
+              {
+                "name": "Acoustic reflexes",
+                "category": "Immittance",
+                "result_summary": "Ipsilateral normal to absent; Contralateral mostly absent. Consistent with cochlear loss or retrocochlear pathology."
+              }
+            ]
+          },
+          {
+            "visit_id": "V2",
+            "collective_interpretation": "Medical evaluation performed by Otology to rule out retrocochlear pathology. ABR and MRI were ordered and results were normal. Patient cleared for amplification.",
+            "tests": [
+              {
+                "name": "Auditory Brainstem Response (ABR)",
+                "category": "Electrophysiology",
+                "result_summary": "waves I-V latencies normal bilaterally, 90 dBnHL, no dysfunction"
+              },
+              {
+                "name": "MRI of internal auditory canal",
+                "category": "Imaging",
+                "result_summary": "normal internal auditory canals bilaterally, clear of pathology"
+              }
+            ]
+          },
+          {
+            "visit_id": "V3",
+            "collective_interpretation": "Patient returned after medical clearance (normal MRI and ABR). Pre-fitting evaluation showed a moderate SNR loss on QuickSIN, suggesting hearing aids alone may be insufficient in noise. LDLs were normal, and COSI goals were established focusing on TV, restaurants, and grandchildren.",
+            "tests": [
+              {
+                "name": "Speech-in-noise",
+                "category": "Functional",
+                "result_summary": "QuickSIN SNR Loss 14 dB (moderate loss)."
+              },
+              {
+                "name": "Loudness Discomfort Levels (LDLs)",
+                "category": "Audiometry",
+                "result_summary": "Normal range at all frequencies tested."
+              },
+              {
+                "name": "Self-report scale",
+                "category": "Questionnaire",
+                "result_summary": "COSI goals: Hearing wife in restaurants, hearing grandchildren, hearing TV."
+              }
+            ]
+          },
+          {
+            "visit_id": "V4",
+            "collective_interpretation": "Hearing aid fitting performed with bilateral RIC devices. Real-ear measures verified gain to NAL-NL2 targets. Aided loudness judgments confirmed appropriate perception of soft, comfortable, and loud sounds. Verification of electroacoustic performance and directional microphones was completed.",
+            "tests": [
+              {
+                "name": "Real-Ear Measures (REM)",
+                "category": "Verification",
+                "result_summary": "Verified to NAL-NL2 targets; inputs 50, 65, 80 dB SPL provided appropriate gain."
+              },
+              {
+                "name": "Aided Loudness Judgments",
+                "category": "Verification",
+                "result_summary": "Patient rated speech signals appropriately (Soft, Comfortable, Loud but okay)."
+              },
+              {
+                "name": "Electroacoustic verification",
+                "category": "Verification",
+                "result_summary": "Met manufacturer specifications (ANSI S3.22–2009)."
+              },
+              {
+                "name": "Directional microphone verification",
+                "category": "Verification",
+                "result_summary": "Directional microphones operating properly."
+              },
+              {
+                "name": "RESR90",
+                "category": "Verification",
+                "result_summary": "Performed at 90 dB SPL; patient did not report loudness discomfort."
+              }
+            ]
+          },
+          {
+            "visit_id": "V5",
+            "collective_interpretation": "Two-week follow-up assessment. Patient reported doing well but still having difficulty in noise. Adjustments were made to high-frequency gain and noise reduction. Aided testing demonstrated significant improvement.",
+            "tests": [
+              {
+                "name": "Aided COSI",
+                "category": "Questionnaire",
+                "result_summary": "Patient reported hearing 'better' or 'much better' in listening environments compared to unaided."
+              },
+              {
+                "name": "Aided QuickSIN",
+                "category": "Functional",
+                "result_summary": "SNR Loss of 6 dB (mild loss), significantly improved from 14 dB unaided."
+              },
+              {
+                "name": "2cc coupler measurement",
+                "category": "Verification",
+                "result_summary": "Electroacoustic analysis performed at user settings to serve as a baseline."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

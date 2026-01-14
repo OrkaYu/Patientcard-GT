@@ -111,6 +111,28 @@
             "result_summary": "THI 56 (moderate handicap); TFI 51; COAT minimal concern with hearing loss."
           }
         ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "1-month follow-up: Patient reported hearing better in small groups and better tolerating collective sound levels. He was pleased with the reduction in duration and loudness of his tinnitus.",
+        "tests": [
+          {
+            "name": "Self-Report Scales",
+            "category": "Questionnaire",
+            "result_summary": "THI 42; TFI 36; COSI: Pleased with reduction in duration and loudness."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "3-month follow-up: Tinnitus reported at a manageable level; successfully practicing PMR to assist with sleep.",
+        "tests": [
+          {
+            "name": "Self-Report Scales",
+            "category": "Questionnaire",
+            "result_summary": "THI 28; TFI 30."
+          }
+        ]
       }
     ]
   },

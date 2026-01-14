@@ -1,0 +1,90 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:28:47Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case005_05_ground_truth_pdf_outcome.json",
+    "case_key": "5_5",
+    "remark": "缺少 V2、V3。\nV1: Behavioral Central Auditory Tests 缺少 Frequency Patterns (FP) 测试结果；Competing Sentences 左耳应为 65% 而非 35%。\nV2：ABR 右耳应修正为 \"Waves I, III, V present\"（latencies: I=1.7ms, III=3.7ms, V=5.9ms），而非 \"Waves I, II, III present\"。\nV3（影像学检查）。",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-5.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-5.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Restructured investigations into V1 (Audiometry/Behavioral), V2 (Electrophysiology), and V3 (Imaging) as requested.",
+      "V1: Updated Behavioral Central Auditory Tests to include Frequency Patterns (normal) and corrected Competing Sentences LE score to 65%.",
+      "V2: Moved ABR and MLR from V1. Updated ABR Right Ear result to specify Waves I, III, V present with latencies.",
+      "V3: Added Radiologic and Surgical Findings."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit",
+        "value": [
+          {
+            "visit_id": "V1",
+            "collective_interpretation": "The patient demonstrates a moderate-to-severe bilateral symmetrical sensorineural hearing loss with excellent speech recognition, likely presbycusic. Behavioral central tests show significant left-sided deficits (dichotic digits, competing sentences) and bilateral temporal processing issues.",
+            "tests": [
+              {
+                "name": "Pure-tone audiometry",
+                "category": "Audiometry",
+                "result_summary": "Moderate to severe bilaterally symmetrical sensorineural hearing loss, sloping from mild in low frequencies to severe in high frequencies."
+              },
+              {
+                "name": "Speech audiometry",
+                "category": "Audiometry",
+                "result_summary": "Excellent speech recognition scores bilaterally (RE 92%, LE 96%)."
+              },
+              {
+                "name": "Acoustic reflexes",
+                "category": "Immittance",
+                "result_summary": "Present at normal levels (reduced sensation levels at mid and high frequencies) bilaterally for 500-4000 Hz."
+              },
+              {
+                "name": "Behavioral Central Auditory Tests",
+                "category": "Central Auditory Processing",
+                "result_summary": "Left ear deficit on dichotic digits (~75%), competing sentences (65%), and compressed speech (~45%). Bilaterally suppressed filtered speech scores (~20%). Frequency Patterns (FP) normal bilaterally."
+              }
+            ]
+          },
+          {
+            "visit_id": "V2",
+            "collective_interpretation": "Electrophysiological testing reveals significant central pathology consistent with a lesion affecting the upper brainstem and thalamus. ABR shows absent waves IV-V on the left, and MLR is absent or poor on the left.",
+            "tests": [
+              {
+                "name": "Auditory Brainstem Response (ABR)",
+                "category": "Electrophysiology",
+                "result_summary": "Right ear: Waves I, III, V present (latencies: I=1.7ms, III=3.7ms, V=5.9ms). Left ear: Normal waves I and II; Wave III delayed; Absence of IV-V complex."
+              },
+              {
+                "name": "Auditory Middle Latency Response (MLR)",
+                "category": "Electrophysiology",
+                "result_summary": "Noisy/poor responses. T3 (left temporal) showed no repeatable response. T4 (right temporal) showed response to right ear stimulation only."
+              }
+            ]
+          },
+          {
+            "visit_id": "V3",
+            "collective_interpretation": "Radiologic and surgical findings confirmed the presence of a tumor.",
+            "tests": [
+              {
+                "name": "Radiologic and Surgical Findings",
+                "category": "Imaging/Surgery",
+                "result_summary": "CT scans were difficult to read. Surgery revealed a tumor in the hypothalamus behind the optic chiasm (approx 1.5 cm), affecting the inferior thalamus. Pathology: Glioblastoma multiforme."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

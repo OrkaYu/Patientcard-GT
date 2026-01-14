@@ -3,22 +3,22 @@
   "ranked_differential_diagnosis": [
     {
       "rank": 1,
-      "label": "Unilateral utricular dysfunction",
+      "label": "Right unilateral utricular dysfunction",
       "rationale_short": "Specific deficit on DSVV testing (lack of tilt change with right utricular stimulation) consistent with symptoms during high-velocity leftward turns."
-    },
-    {
-      "rank": 2,
-      "label": "Migraine or small vessel disease",
-      "rationale_short": "MRI showed nonspecific T2 signal alterations, though symptoms are highly specific to driving maneuvers."
-    },
-    {
-      "rank": 3,
-      "label": "Arnold-Chiari malformation",
-      "rationale_short": "Low-lying cerebellar tonsils noted on MRI but malformation was excluded upon review."
     }
   ],
   "investigations_and_interpretations": {
     "ordered_list": [
+      {
+        "action": "MRI brain with/without contrast",
+        "urgency": "routine",
+        "rationale_short": "Rule out central pathology; previous MRI showed nonspecific T2 signal alterations."
+      },
+      {
+        "action": "Laboratory studies (CBC, comprehensive metabolic panel, thyroid panel, sedimentation rate)",
+        "urgency": "routine",
+        "rationale_short": "Rule out metabolic or systemic causes of dizziness."
+      },
       {
         "action": "Pure-tone audiometry",
         "urgency": "routine",
@@ -38,6 +38,11 @@
         "action": "Videonystagmography (VNG)",
         "urgency": "routine",
         "rationale_short": "Evaluate horizontal semicircular canal and central vestibular function."
+      },
+      {
+        "action": "Neurotologic physical examination",
+        "urgency": "routine",
+        "rationale_short": "Assess vital signs, cranial nerves, and basic vestibular function before specialized testing."
       },
       {
         "action": "cVEMP",

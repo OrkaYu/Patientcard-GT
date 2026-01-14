@@ -64,6 +64,11 @@
             "name": "Acoustic reflexes",
             "category": "Immittance",
             "result_summary": "Right ipsilateral/contralateral absent. Left ipsilateral elevated/absent at 4k Hz; Left contralateral absent."
+          },
+          {
+            "name": "Acoustic reflex decay",
+            "category": "Immittance",
+            "result_summary": "Could not be measured."
           }
         ]
       }

@@ -115,7 +115,7 @@
       },
       {
         "visit_id": "V3",
-        "collective_interpretation": "Vestibular assessment was largely inconclusive as the patient became nauseous and anxious, aborting the vHIT. Self-report indicated severe handicap from dizziness.",
+        "collective_interpretation": "Vestibular assessment was largely inconclusive as the patient became nauseous and anxious, aborting the vHIT. Self-report indicated severe handicap from dizziness. Pre-fitting evaluation showed normalization of loudness tolerance levels following desensitization exercises, allowing for successful hearing aid fitting.",
         "tests": [
           {
             "name": "Dizziness Handicap Inventory (DHI)",
@@ -126,13 +126,7 @@
             "name": "vHIT",
             "category": "Vestibular",
             "result_summary": "Aborted because patient became quickly nauseous."
-          }
-        ]
-      },
-      {
-        "visit_id": "V4",
-        "collective_interpretation": "Pre-fitting evaluation showed normalization of loudness tolerance levels following desensitization exercises, allowing for successful hearing aid fitting.",
-        "tests": [
+          },
           {
             "name": "Loudness Discomfort Levels (LDL)",
             "category": "Loudness Tolerance",

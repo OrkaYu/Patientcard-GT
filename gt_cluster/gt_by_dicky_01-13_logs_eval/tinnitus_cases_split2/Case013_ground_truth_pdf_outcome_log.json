@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:31:07Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case013_ground_truth_pdf_outcome.json",
+    "case_key": "13",
+    "remark": "缺少 V2 follow up 数据。",
+    "pdf_key": "Tinnitus_Cases_split2/Case13_Acoustic_Shock_Disorder.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case13_Acoustic_Shock_Disorder.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 follow-up visit data derived from section 13.5 (Outcome), which details the 6-month post-treatment assessment including TFI/THI score reductions and persistent subjective symptoms."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "Follow-up at 6 months showed clinically significant improvements in TFI and THI scores. Despite this, the patient reported persistent sound intolerance and pain with high-pitched sounds.",
+          "tests": [
+            {
+              "name": "Self-report scales",
+              "category": "Questionnaires",
+              "result_summary": "TFI decreased from 86/100 to 57/100; THI decreased from 70/100 to 44/100."
+            },
+            {
+              "name": "Subjective report",
+              "category": "Clinical Interview",
+              "result_summary": "Environmental sounds remained too loud; pain routinely produced by high-pitched sounds, horns, and sirens."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

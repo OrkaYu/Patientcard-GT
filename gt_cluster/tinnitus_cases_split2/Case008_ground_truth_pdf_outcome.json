@@ -116,6 +116,37 @@
             "result_summary": "Large acoustic neuroma (2.95 x 2.4 cm) on the left CP angle compressing the brainstem and VIIIth cranial nerve."
           }
         ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up 6 months after stereotactic radiosurgery. Otoscopy and tympanometry were normal. Pure-tone audiometry showed normal hearing in the right ear but mild sensorineural hearing loss in the left ear from 1000 Hz through higher frequencies, with increased asymmetry. HINT performance was within normal percentiles. The patient denied worsening of tinnitus.",
+        "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Exam",
+            "result_summary": "Clear ear canals and intact tympanic membranes bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal ear canal volumes, peak pressure, and static admittance bilaterally."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Right ear thresholds within normal limits. Left ear showed mild sensorineural hearing loss from 1000 Hz through higher frequencies; asymmetry increased compared to initial visit."
+          },
+          {
+            "name": "Hearing in Noise Test (HINT)",
+            "category": "Speech Audiometry",
+            "result_summary": "Performance within normal percentiles for both quiet and noise front conditions."
+          },
+          {
+            "name": "Subjective Assessment",
+            "category": "Clinical History",
+            "result_summary": "Patient denied any worsening of tinnitus."
+          }
+        ]
       }
     ]
   },

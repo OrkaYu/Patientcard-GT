@@ -43,7 +43,7 @@
           {
             "name": "Speech audiometry",
             "category": "Audiometry",
-            "result_summary": "CNC Words: Right 28%, Left 16%, Bilateral 24%. AzBio Quiet: Right 19%, Left 4%, Bilateral 36%."
+            "result_summary": "CNC Phonemes: Right 64%, Left 51%, Bilateral 43%. CNC Words: Right 28%, Left 16%, Bilateral 24%. AzBio Quiet: Right 19%, Left 4%, Bilateral 36%."
           },
           {
             "name": "Speech-in-noise",
@@ -72,6 +72,11 @@
             "result_summary": "User Settings SNR Loss: Everyday 11 dB, Noise 8.5 dB, Focus 5.0 dB. Recommended Settings SNR Loss: Everyday 6.5 dB, Noise 3.5 dB, Focus 0 dB."
           }
         ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "At the 2-week follow-up, the patient reported his marriage had been saved and he could not believe how much better he was hearing. Patient is making judicious changes to the volume control setting as needed and selecting appropriate programs based on the listening environment.",
+        "tests": []
       }
     ]
   },

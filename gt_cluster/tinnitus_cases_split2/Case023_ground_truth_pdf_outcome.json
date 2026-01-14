@@ -86,6 +86,48 @@
             "result_summary": "Overall score 82/100, indicating significant negative impact on daily life."
           }
         ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "At the 1-month hearing aid check, the patient reported high satisfaction with the hearing aids and Zen programs, noting tinnitus had become much less noticeable. Objective measures confirmed good benefit and consistent usage.",
+        "tests": [
+          {
+            "name": "Data logging",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Average of 14 hours of daily use."
+          },
+          {
+            "name": "AzBio sentences",
+            "category": "Speech Audiometry",
+            "result_summary": "94% aided score in quiet compared to 76% unaided."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "At the 6-month follow-up, the patient reported a reduction in tinnitus annoyance and anxiety. Audiologic testing showed slight improvement in low-frequency thresholds in the right ear, likely due to resolution of conductive components, though high-frequency asymmetry persisted. TFI scores indicated a significant reduction in the negative impact of tinnitus.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Slight improvement in right ear low frequencies; high-frequency asymmetry persists."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Right ear showed high compliance (suggestive of excessive TM mobility) and an opaque TM. Left ear was normal."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Absent at all tested frequencies bilaterally."
+          },
+          {
+            "name": "Tinnitus Functional Index (TFI)",
+            "category": "Questionnaire",
+            "result_summary": "Overall score decreased to 60.4/100 (from 82/100 baseline)."
+          }
+        ]
       }
     ]
   },

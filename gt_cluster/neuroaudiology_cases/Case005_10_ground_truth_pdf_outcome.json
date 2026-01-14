@@ -69,12 +69,12 @@
           {
             "name": "Pure-tone audiometry",
             "category": "Audiometry",
-            "result_summary": "Hearing sensitivity within normal limits for both ears (10-15 dB HL); no significant asymmetry."
+            "result_summary": "External report: Hearing sensitivity within normal limits for both ears (10-15 dB HL); no significant asymmetry."
           },
           {
             "name": "Speech audiometry",
             "category": "Audiometry",
-            "result_summary": "Word recognition scores excellent bilaterally (92% AU)."
+            "result_summary": "External report: Word recognition scores excellent bilaterally (92% AU)."
           },
           {
             "name": "Electronystagmography (ENG)",

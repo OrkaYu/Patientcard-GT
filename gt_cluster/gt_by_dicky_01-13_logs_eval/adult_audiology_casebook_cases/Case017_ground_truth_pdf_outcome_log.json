@@ -1,0 +1,57 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:06:20Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case017_ground_truth_pdf_outcome.json",
+    "case_key": "17",
+    "remark": "\"ranked_differential_diagnosis\" 缺少：\n{ \"rank\": 6, \"label\": \"Postural-Induced Intracranial Pressure Changes\", \"rationale_short\": \"Ruled out; spikes remained unchanged in amplitude and frequency across 90° upright, 0° supine, and 30° reclined positions.\" },\n{ \"rank\": 7, \"label\": \"Contraction of Mouth Musculature\", \"rationale_short\": \"Ruled out; spike amplitude remained at baseline (20 dB SPL) with jaw held open.\" }\nV1 的 \"Pure-tone audiometry\" 和 \"Speech audiometry\" 应修正为：\n{ \"name\": \"Hearing screening\", \"category\": \"Audiometry\", \"result_summary\": \"Passed hearing screening at 20 dB HL from 250 to 8,000 Hz bilaterally. No specific pure-tone thresholds or speech audiometry performed on the participant.\" }",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case17_The_Origins_of_Physiologic_Modulation_of.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case17_The_Origins_of_Physiologic_Modulation_of.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added ranks 6 and 7 to ranked_differential_diagnosis as requested.",
+      "Replaced 'Pure-tone audiometry' and removed 'Speech audiometry' in V1 tests, substituting them with the single 'Hearing screening' entry provided."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/ranked_differential_diagnosis/-",
+        "value": {
+          "rank": 6,
+          "label": "Postural-Induced Intracranial Pressure Changes",
+          "rationale_short": "Ruled out; spikes remained unchanged in amplitude and frequency across 90° upright, 0° supine, and 30° reclined positions."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/ranked_differential_diagnosis/-",
+        "value": {
+          "rank": 7,
+          "label": "Contraction of Mouth Musculature",
+          "rationale_short": "Ruled out; spike amplitude remained at baseline (20 dB SPL) with jaw held open."
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/0",
+        "value": {
+          "name": "Hearing screening",
+          "category": "Audiometry",
+          "result_summary": "Passed hearing screening at 20 dB HL from 250 to 8,000 Hz bilaterally. No specific pure-tone thresholds or speech audiometry performed on the participant."
+        }
+      },
+      {
+        "op": "remove",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/1"
+      }
+    ],
+    "unresolved": []
+  }
+}

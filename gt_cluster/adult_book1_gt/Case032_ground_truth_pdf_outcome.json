@@ -122,6 +122,28 @@
             "result_summary": "Pre-op scores showed profound symptoms (5/5) for dizziness, loud noise sensitivity, and pressure changes."
           }
         ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "At 3 weeks post-operatively, the patient completed a follow-up questionnaire. Results indicated partial improvement: pressure-induced vertigo had resolved, and general dizziness and loud-noise sensitivity were reduced. However, vertigo triggered by coughing, sneezing, or straining remained profound (5/5), and tinnitus severity was unchanged. The global severity of symptoms was rated as moderate.",
+        "tests": [
+          {
+            "name": "Subjective Questionnaire (SSCD Symptoms)",
+            "category": "Questionnaire",
+            "result_summary": "3 weeks post-op scores: Dizziness 2/5 (Mild), Loud Noise Vertigo 1/5 (Slight), Pressure Vertigo 0/5 (None), Cough/Sneeze Vertigo 5/5 (Profound), Tinnitus 5/5 (Profound), Global Severity 3/5 (Moderate)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "At 11 weeks post-operatively, the patient reported significant overall improvement. Vertigo and imbalance were largely resolved, including triggers from pressure and coughing/sneezing. Slight sensitivity to loud noises persisted. Tinnitus remained profound, and some hearing trouble persisted, but aural fullness and autophony had resolved. The global impact on daily activities was reduced to slight.",
+        "tests": [
+          {
+            "name": "Subjective Questionnaire (SSCD Symptoms)",
+            "category": "Questionnaire",
+            "result_summary": "11 weeks post-op scores: Dizziness 0/5 (None), Loud Noise Vertigo 1/5 (Slight), Pressure Vertigo 0/5 (None), Cough/Sneeze Vertigo 0/5 (None), Tinnitus 5/5 (Profound), Global Severity 1/5 (Slight)."
+          }
+        ]
       }
     ]
   },

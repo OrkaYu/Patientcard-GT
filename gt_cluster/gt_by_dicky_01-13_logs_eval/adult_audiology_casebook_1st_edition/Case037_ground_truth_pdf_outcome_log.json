@@ -1,0 +1,96 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:04:42Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case037_ground_truth_pdf_outcome.json",
+    "case_key": "37",
+    "remark": "缺少 V2；缺少 术后 V3；缺少 术后 V4。",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/37_37_Di_erential_Diagnosis_of_Central_versus.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/37_37_Di_erential_Diagnosis_of_Central_versus.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 (Imaging/Diagnosis) based on section 37.9.",
+      "Added V3 (1 week post-op) based on section 37.10.",
+      "Added V4 (6 months post-op) based on section 37.10."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "Imaging studies were conducted to confirm the diagnosis. The MRI was negative, ruling out retrocochlear lesions. The CT scan confirmed bilateral Superior Semicircular Canal Dehiscence (SSCD), consistent with the audiological findings.",
+          "tests": [
+            {
+              "name": "MRI of internal auditory canals and brain",
+              "category": "Imaging",
+              "result_summary": "Negative."
+            },
+            {
+              "name": "CT scan of temporal bones",
+              "category": "Imaging",
+              "result_summary": "Revealed bilateral Superior Semicircular Canal Dehiscence (SSCD)."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "One week post-surgery (left superior semicircular canal plugging), the patient reported significant improvement with only occasional vertigo. Objective testing showed resolution of the third window effect and expected post-surgical vestibular signs.",
+          "tests": [
+            {
+              "name": "VNG (Post-surgical)",
+              "category": "Vestibular",
+              "result_summary": "Mild right beat nystagmus post-headshake; downbeating nystagmus in head-hanging position (expected outcome of canal plugging)."
+            },
+            {
+              "name": "cVEMP (Post-surgical)",
+              "category": "Vestibular",
+              "result_summary": "Reduced left threshold response no longer present; results within normal limits."
+            },
+            {
+              "name": "Bithermal Caloric Irrigations (Post-surgical)",
+              "category": "Vestibular",
+              "result_summary": "No change in horizontal semicircular canal function."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V4",
+          "collective_interpretation": "Six months post-surgery, the patient was fully resolved of all symptoms, denied falls, and was able to walk unassisted. Follow-up testing confirmed successful compensation.",
+          "tests": [
+            {
+              "name": "VNG (Post-surgical follow-up)",
+              "category": "Vestibular",
+              "result_summary": "No evidence of downbeating nystagmus on headshake or head-hanging positional testing."
+            },
+            {
+              "name": "Clinical Status",
+              "category": "General",
+              "result_summary": "Patient fully resolved of all symptoms, denied falls, and was able to walk unassisted."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

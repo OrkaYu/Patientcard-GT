@@ -1,0 +1,99 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:16:26Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Comm Disorders Casebook",
+    "src_gt_key": "gt_cluster/communication_disorders_4cases/Case054_ground_truth_pdf_outcome.json",
+    "case_key": "54",
+    "remark": "缺少 V4 (hearing aid fitting)。\nV1 缺少 February 2003 数据。\nV2 缺少患者访谈、IH/OHN 信息、8问评估。\nV3 缺少重复听力图、损伤评级。",
+    "pdf_key": "audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case54_Jack.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case54_Jack.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added February 2003 audiometry data to V1.",
+      "Added Patient Interview, Employer/IH/OHN Report, and Work-Relatedness Assessment to V2.",
+      "Added Repeat Pure-tone audiometry and Impairment Rating to V3.",
+      "Added V4 for hearing aid fitting and outcome."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/-",
+        "value": {
+          "name": "Pure-tone audiometry (February 2003)",
+          "category": "Audiometry",
+          "result_summary": "Thresholds indicated progressive high-frequency hearing loss; Third STS-A evident."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Patient Interview",
+          "category": "History",
+          "result_summary": "Reported gradual onset bilateral hearing loss, tinnitus, and difficulty in noise. History of unprotected occupational noise (jackhammering) and recreational noise (firearms)."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Employer/IH/OHN Report",
+          "category": "History",
+          "result_summary": "Confirmed hazardous noise levels (up to 100 dBA) and lack of consistent hearing conservation program enrollment."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Work-Relatedness Assessment",
+          "category": "Evaluation",
+          "result_summary": "8-question assessment confirmed hearing loss is consistent with NIHL, exposure occurred at work, and HPD use was inconsistent."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests/-",
+        "value": {
+          "name": "Repeat Pure-tone audiometry",
+          "category": "Audiometry",
+          "result_summary": "Consistent with previous diagnostic evaluation."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests/-",
+        "value": {
+          "name": "Impairment Rating (AAO-1979)",
+          "category": "Medical",
+          "result_summary": "28.1% right ear, 18.8% left ear; 20.3% binaural impairment."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V4",
+          "collective_interpretation": "Successful rehabilitation with amplification.",
+          "tests": [
+            {
+              "name": "Hearing Aid Fitting",
+              "category": "Treatment",
+              "result_summary": "Binaural programmable hearing aids dispensed 4 months post-claim. Patient reports excellent subjective benefit and full-time use."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

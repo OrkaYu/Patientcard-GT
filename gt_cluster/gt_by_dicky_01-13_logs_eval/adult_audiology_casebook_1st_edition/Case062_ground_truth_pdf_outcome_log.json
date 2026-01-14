@@ -1,0 +1,131 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:08:50Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case062_ground_truth_pdf_outcome.json",
+    "case_key": "62",
+    "remark": "缺少 V2（验配后的 follow up），V3（术前评估），V4（术中术后），V5（CI 激活）。",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/62_62_Clinical_Management_of_a_Patient_with_a_Folded.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/62_62_Clinical_Management_of_a_Patient_with_a_Folded.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Reconstructed the visit timeline to include missing intermediate steps.",
+      "V1: Restricted to initial evaluation.",
+      "V2: Added post-reprogramming follow-up (1 month later).",
+      "V3: Added pre-operative workup (CT, Vestibular) which was previously merged into V1.",
+      "V4: Added intraoperative/postoperative checks (X-ray, NRT).",
+      "V5: Added activation visit (1 month postsurgery).",
+      "V6: Renamed original V2 (6 months post-reactivation) to V6."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit",
+        "value": [
+          {
+            "visit_id": "V1",
+            "collective_interpretation": "Initial evaluation for reprogramming revealed profound SNHL. The right Hybrid CI provided minimal benefit (10% speech recognition) due to loss of residual hearing. The left Standard CI provided good benefit (76%).",
+            "tests": [
+              {
+                "name": "Pure-tone audiometry",
+                "category": "Audiometry",
+                "result_summary": "Profound SNHL bilaterally. Right ear measurable at 500-750 Hz (105-110 dB HL); no measurable hearing in left ear."
+              },
+              {
+                "name": "Sound-field Thresholds",
+                "category": "Audiometry",
+                "result_summary": "Right Hybrid CI thresholds 40-95 dB HL; Left Standard CI thresholds 15-30 dB HL."
+              },
+              {
+                "name": "Speech audiometry",
+                "category": "Speech Perception",
+                "result_summary": "AzBio in quiet (60 dB SPL): Right CI 10%, Left CI 76%, Bilateral 76%."
+              }
+            ]
+          },
+          {
+            "visit_id": "V2",
+            "collective_interpretation": "Follow-up 1 month after reprogramming adjustments. Aided thresholds improved, but speech recognition showed no significant change.",
+            "tests": [
+              {
+                "name": "Sound-field Thresholds",
+                "category": "Audiometry",
+                "result_summary": "Improved to expected levels at 250-3000 Hz. Thresholds at 4000-6000 Hz remained 45 dB HL and 'no response'."
+              },
+              {
+                "name": "Speech audiometry",
+                "category": "Speech Perception",
+                "result_summary": "No significant change from initial evaluation."
+              }
+            ]
+          },
+          {
+            "visit_id": "V3",
+            "collective_interpretation": "Pre-operative workup for reimplantation. CT imaging confirmed good position of right Hybrid leads but revealed an electrode fold-over in the left ear. Vestibular function was normal.",
+            "tests": [
+              {
+                "name": "CT Scan",
+                "category": "Imaging",
+                "result_summary": "Right Hybrid leads in good position. Left CI showed electrode fold-over in the ascending limb of the basal turn."
+              },
+              {
+                "name": "Vestibular Assessment",
+                "category": "Vestibular",
+                "result_summary": "Normal vestibular function bilaterally (VNG and CDP)."
+              }
+            ]
+          },
+          {
+            "visit_id": "V4",
+            "collective_interpretation": "Intraoperative and postoperative confirmation of right ear reimplantation.",
+            "tests": [
+              {
+                "name": "Plain film X-ray",
+                "category": "Imaging",
+                "result_summary": "Confirmed placement of the full electrode insertion in the right ear."
+              },
+              {
+                "name": "Neural Response Telemetry (NRT)",
+                "category": "Electrophysiology",
+                "result_summary": "Revealed responses across several electrodes with good morphology."
+              }
+            ]
+          },
+          {
+            "visit_id": "V5",
+            "collective_interpretation": "Activation of new processor 1 month postsurgery. Patient reported immediate improvement in speech recognition and 'fuller' sound quality.",
+            "tests": []
+          },
+          {
+            "visit_id": "V6",
+            "collective_interpretation": "Follow-up 6 months post-reactivation. The patient demonstrated significant improvement, with right ear performance (92%) surpassing the left ear.",
+            "tests": [
+              {
+                "name": "Sound-field Thresholds",
+                "category": "Audiometry",
+                "result_summary": "Right CI thresholds improved to 20-25 dB HL."
+              },
+              {
+                "name": "Speech audiometry",
+                "category": "Speech Perception",
+                "result_summary": "AzBio in quiet: Right CI 92%, Left CI 68%, Bilateral 96%."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

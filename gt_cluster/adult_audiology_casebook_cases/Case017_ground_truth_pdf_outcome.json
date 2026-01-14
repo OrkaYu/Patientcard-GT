@@ -25,6 +25,16 @@
       "rank": 5,
       "label": "Paraganglioma",
       "rationale_short": "Ruled out; normal otoscopy and spikes were not coincident with the patient's pulse."
+    },
+    {
+      "rank": 6,
+      "label": "Postural-Induced Intracranial Pressure Changes",
+      "rationale_short": "Ruled out; spikes remained unchanged in amplitude and frequency across 90° upright, 0° supine, and 30° reclined positions."
+    },
+    {
+      "rank": 7,
+      "label": "Contraction of Mouth Musculature",
+      "rationale_short": "Ruled out; spike amplitude remained at baseline (20 dB SPL) with jaw held open."
     }
   ],
   "investigations_and_interpretations": {
@@ -61,14 +71,9 @@
         "collective_interpretation": "The participant has normal hearing sensitivity and normal DPOAE amplitudes. However, a unique, asymptomatic physiologic phenomenon was observed consisting of transient broadband noise floor 'spikes' (42-50 dB SPL). These were audible to the otologist via stethoscope but not the patient. Extensive troubleshooting ruled out common causes like patulous eustachian tube or myoclonus; the source appears modulated by neck pressure and heart rate (exercise) but remains poorly understood.",
         "tests": [
           {
-            "name": "Pure-tone audiometry",
+            "name": "Hearing screening",
             "category": "Audiometry",
-            "result_summary": "Normal hearing sensitivity bilaterally. PTA Right 8.3 dB HL, Left 10 dB HL."
-          },
-          {
-            "name": "Speech audiometry",
-            "category": "Audiometry",
-            "result_summary": "SRT 10 dB HL bilaterally, consistent with pure-tone averages."
+            "result_summary": "Passed hearing screening at 20 dB HL from 250 to 8,000 Hz bilaterally. No specific pure-tone thresholds or speech audiometry performed on the participant."
           },
           {
             "name": "Otologic Examination",

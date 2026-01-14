@@ -54,6 +54,11 @@
             "name": "Acoustic reflexes",
             "category": "Immittance",
             "result_summary": "Right ipsilateral/contralateral absent/artifact. Left ipsilateral present at 500 Hz (100 dB HL), absent 1000-4000 Hz. Left contralateral absent."
+          },
+          {
+            "name": "Acoustic reflex decay",
+            "category": "Immittance",
+            "result_summary": "Could not be measured at 500 and 1,000 Hz due to absent contralateral acoustic reflex thresholds and artifacts."
           }
         ]
       }

@@ -1,0 +1,91 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:29:28Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case006_ground_truth_pdf_outcome.json",
+    "case_key": "6",
+    "remark": "缺少 V2 (1-month follow-up)、V3 (3-month follow-up)、V4 (6-month follow-up)。",
+    "pdf_key": "Tinnitus_Cases_split2/Case06_Tinnitus_Following_Concussion.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case06_Tinnitus_Following_Concussion.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 (1-month follow-up) details including THI and TFI scores.",
+      "Added V3 (3-month follow-up) details including THI and TFI scores.",
+      "Added V4 (6-month follow-up) details including Post Concussion Symptom Scale, THI, and TFI scores."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "One-month follow-up. Patient began sound enrichment at home using the masker-app and classical music at a comfortable volume.",
+          "tests": [
+            {
+              "name": "Tinnitus Handicap Inventory (THI)",
+              "category": "Questionnaire",
+              "result_summary": "Score 62"
+            },
+            {
+              "name": "Tinnitus Functional Index (TFI)",
+              "category": "Questionnaire",
+              "result_summary": "Score 78"
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "Three-month follow-up. Patient attended a first visit with CBT and decided not to pursue it, reporting good strategies for working through her anxiety.",
+          "tests": [
+            {
+              "name": "Tinnitus Handicap Inventory (THI)",
+              "category": "Questionnaire",
+              "result_summary": "Score 48"
+            },
+            {
+              "name": "Tinnitus Functional Index (TFI)",
+              "category": "Questionnaire",
+              "result_summary": "Score 50"
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V4",
+          "collective_interpretation": "Six-month follow-up. Patient reported symptoms improved dramatically and she was managing tinnitus well with TRT device/streamed masking sounds. Sleep improved; transitioned to Melatonin.",
+          "tests": [
+            {
+              "name": "Post Concussion Symptom Scale",
+              "category": "Questionnaire",
+              "result_summary": "Score 33"
+            },
+            {
+              "name": "Tinnitus Handicap Inventory (THI)",
+              "category": "Questionnaire",
+              "result_summary": "Score 36"
+            },
+            {
+              "name": "Tinnitus Functional Index (TFI)",
+              "category": "Questionnaire",
+              "result_summary": "Score 48"
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

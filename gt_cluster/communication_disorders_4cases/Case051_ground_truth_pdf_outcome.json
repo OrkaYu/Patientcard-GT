@@ -38,49 +38,85 @@
     "expected_interpretations_by_visit": [
       {
         "visit_id": "V1",
-        "collective_interpretation": "Baseline evaluation reveals severe high-frequency deficits that are likely unaidable with conventional amplification.",
-        "tests": [
-          {
-            "name": "Pure-tone audiometry",
-            "result_summary": "Bilateral moderate precipitously sloping to profound SNHL; thresholds >100 dB HL above 2000 Hz."
-          },
-          {
-            "name": "Articulation Index (AI) Calculation",
-            "result_summary": "Aided AI is only 0.23 (23%), predicting poor speech understanding even with amplification."
-          }
-        ]
+        "collective_interpretation": "2001: Patient purchased hearing aids. Retrospectively identified as a potential CI candidate, but not referred.",
+        "tests": []
       },
       {
         "visit_id": "V2",
-        "collective_interpretation": "Repeated requests for 'tweaking' indicate unmet auditory needs that cannot be resolved by gain adjustments alone.",
-        "tests": [
-          {
-            "name": "Hearing Aid Check/Fitting",
-            "result_summary": "Subjective dissatisfaction and inconsistent requests for gain changes; casing damage noted due to hair products."
-          }
-        ]
+        "collective_interpretation": "2004: Patient purchased replacement hearing aids. Continued lack of referral for CI evaluation despite candidacy.",
+        "tests": []
       },
       {
         "visit_id": "V3",
-        "collective_interpretation": "Group rehabilitation provided significant but temporary psychosocial relief.",
+        "collective_interpretation": "2007: Patient underwent Cochlear Implant (CI) implantation.",
+        "tests": []
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "2007 (2.5 months post-activation): Post-operative follow-up showing significant reduction in handicap.",
         "tests": [
           {
             "name": "Hearing Handicap Inventory (HHI)",
-            "result_summary": "Pre-group score of 86 (severe handicap) improved to 58 immediately post-intervention."
+            "result_summary": "Score decreased to 60 (significant improvement from pre-implant baseline)."
           }
         ]
       },
       {
-        "visit_id": "V4",
-        "collective_interpretation": "Regression of handicap score confirms that counseling/AR alone is insufficient without better auditory access (CI).",
+        "visit_id": "V5",
+        "collective_interpretation": "2015-09-01: Initial visit at private practice. Presented with moderate precipitously sloping to profound SNHL and dissatisfaction with current amplification.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Bilateral moderate precipitously sloping to profound SNHL."
+          },
+          {
+            "name": "Hearing Aid Fitting",
+            "result_summary": "Switched from ITE to BTE hearing aids."
+          }
+        ]
+      },
+      {
+        "visit_id": "V6-V17",
+        "collective_interpretation": "2015-09 to 2016-03: 12 visits for 'tweaking', reprogramming, and device exchanges. Clinicians frustrated by 'difficult' behavior; adjustments provided no objective benefit.",
+        "tests": [
+          {
+            "name": "Hearing Aid Adjustments",
+            "result_summary": "Multiple gain adjustments (increases and decreases) and brand switches without resolution of complaints."
+          }
+        ]
+      },
+      {
+        "visit_id": "V18",
+        "collective_interpretation": "2016-03: Patient purchased new hearing aids after 6 months of trials.",
+        "tests": []
+      },
+      {
+        "visit_id": "V19",
+        "collective_interpretation": "Ongoing: Repeated hearing aid casing repairs (9 times in 3 years) due to damage from hair products.",
+        "tests": []
+      },
+      {
+        "visit_id": "V20",
+        "collective_interpretation": "Family counseling session to address stigma and embarrassment regarding BTE hearing aids.",
+        "tests": []
+      },
+      {
+        "visit_id": "V21",
+        "collective_interpretation": "Treatment Year 6: Participation in Group Auditory Rehabilitation program.",
         "tests": [
           {
             "name": "Hearing Handicap Inventory (HHI)",
-            "result_summary": "Score regressed to 82 six months post-group."
-          },
+            "result_summary": "Pre-group score: 86. Post-group score: 58. Patient reported understanding benefits of HAs for the first time."
+          }
+        ]
+      },
+      {
+        "visit_id": "V22",
+        "collective_interpretation": "6 months post-group follow-up: Regression of psychosocial benefit, indicating need for further intervention.",
+        "tests": [
           {
-            "name": "Cochlear Implant Candidacy Review",
-            "result_summary": "Patient meets criteria for evaluation due to profound high-frequency loss and lack of HA benefit."
+            "name": "Hearing Handicap Inventory (HHI)",
+            "result_summary": "Score regressed to 82."
           }
         ]
       }

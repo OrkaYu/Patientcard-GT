@@ -62,6 +62,17 @@
             "result_summary": "Fit with Oticon Intiga 8 RITE hearing instruments and ConnectLine streamer. Paired with Audiologist's Choice Bluetooth Amplified Stethoscope (AC-Scope)."
           }
         ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Due to persistent connectivity issues with the AC-Scope, the patient was subsequently fit with a modified E-Scope II with oversized headphones, which met her needs.",
+        "tests": [
+          {
+            "name": "Hearing Aid Fitting",
+            "category": "Management",
+            "result_summary": "Fit with modified E-Scope II with oversized headphones."
+          }
+        ]
       }
     ]
   },

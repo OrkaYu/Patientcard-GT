@@ -38,7 +38,7 @@
     "expected_interpretations_by_visit": [
       {
         "visit_id": "V1",
-        "collective_interpretation": "The patient presents with bilateral, generally mild, sloping sensorineural hearing loss. While word recognition in quiet is excellent, QuickSIN testing reveals a severe signal-to-noise ratio loss, which correlates with the patient's chief complaint of difficulty hearing in noise. Middle ear function is normal.",
+        "collective_interpretation": "The patient presents with bilateral, generally mild, sloping sensorineural hearing loss. Word recognition in quiet is excellent. Middle ear function is normal.",
         "tests": [
           {
             "name": "Pure-tone audiometry",
@@ -59,11 +59,28 @@
             "name": "Acoustic reflexes",
             "category": "Immittance",
             "result_summary": "Present and normal for ipsilateral and contralateral stimulation at 500-4000 Hz. Decay negative."
-          },
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Unaided QuickSIN testing performed prior to fitting reveals a severe signal-to-noise ratio loss, correlating with the patient's chief complaint.",
+        "tests": [
           {
             "name": "Speech-in-noise",
             "category": "Functional",
             "result_summary": "QuickSIN unaided SNR loss average 18.17 dB, indicating severe SNR loss."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Aided QuickSIN testing at the 2-week follow-up reveals significant improvement.",
+        "tests": [
+          {
+            "name": "Speech-in-noise",
+            "category": "Functional",
+            "result_summary": "Aided QuickSIN SNR loss of 2.98 dB (mild), representing a 15.19 dB improvement over the unaided score."
           }
         ]
       }

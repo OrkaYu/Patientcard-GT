@@ -72,6 +72,28 @@
             "result_summary": "Unaided transcranial thresholds (crossover to right cochlea) measured at ~55 dB HL (250 Hz), ~55 dB HL (500 Hz), ~50 dB HL (1000 Hz), ~40 dB HL (2000 Hz), and ~65 dB HL (4000 Hz)."
           }
         ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "The patient was fitted with a left BTE transcranial CROS hearing aid. Verification using Real Ear Measures (REM) confirmed that the aided response exceeded the unaided transcranial thresholds, ensuring signal crossover to the better ear.",
+        "tests": [
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Hearing Aid Verification",
+            "result_summary": "Aided response (REAR) at 50, 65, and 75 dB SPL exceeded unaided transcranial thresholds."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Outcome assessment indicates the patient is extremely pleased with the transcranial CROS, preferring it to the standard CROS and reporting improved speech understanding.",
+        "tests": [
+          {
+            "name": "Subjective Assessment",
+            "category": "Outcome Measures",
+            "result_summary": "Patient reports improved speech understanding and preference for the transcranial fitting."
+          }
+        ]
       }
     ]
   },

@@ -1,0 +1,34 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-14T00:00:08Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Audiogram workbook",
+    "src_gt_key": "gt_cluster/audiogram_workbook_splitbycase/Case007_25_ground_truth_pdf_outcome.json",
+    "case_key": "7_25",
+    "remark": "缺少 Acoustic reflex decay：could not be measured。",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case7.25.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case7.25.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Acoustic reflex decay' to the tests list with result 'Could not be measured' as per remarks."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/-",
+        "value": {
+          "name": "Acoustic reflex decay",
+          "category": "Immittance",
+          "result_summary": "Could not be measured."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

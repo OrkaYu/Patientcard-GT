@@ -1,0 +1,81 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:02:40Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case033_ground_truth_pdf_outcome.json",
+    "case_key": "33",
+    "remark": "缺少 V5 (庆大霉素后随访)。\nV3 缺少：Tympanometry: RT 1.20 mL Type A, LT 1.00 mL Type Ad；Acoustic reflexes: 右耳全部缺失，左耳500Hz/1kHz存在(100/105 dB)。\nV4 缺少：CDP 与之前相比下降，SOT 5 跌倒，SOT 6 困难，适应性差，重心后移；Rotational Chair: 结果正常。",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/33_33_Hyperventilation_Induced_Nystagmus.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/33_33_Hyperventilation_Induced_Nystagmus.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Tympanometry and Acoustic Reflexes to V3 based on remarks and Fig 33.2.",
+      "Added CDP and Rotational Chair to V4 based on remarks and text description of November 2012 visit.",
+      "Added V5 (post-gentamicin follow-up) with VOG and clinical observations as described in the Outcome section."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests/-",
+        "value": {
+          "name": "Tympanometry",
+          "result_summary": "RT 1.20 mL Type A, LT 1.00 mL Type Ad."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests/-",
+        "value": {
+          "name": "Acoustic reflexes",
+          "result_summary": "Right ear absent at all frequencies. Left ear present at 500 Hz (100 dB) and 1 kHz (105 dB)."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/3/tests/-",
+        "value": {
+          "name": "Computerized dynamic posturography (CDP)",
+          "result_summary": "Decline compared to previous. Falls on SOT 5, difficulty on SOT 6. Poor effective use of vestibular input. Center of gravity remained backward."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/3/tests/-",
+        "value": {
+          "name": "Rotational Chair",
+          "result_summary": "Results normal."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V5",
+          "collective_interpretation": "Follow-up after second gentamicin injection revealed further subjective decline in balance. VOG showed post-headshake nystagmus beating toward the stronger ear and persistent hyperventilation-induced nystagmus.",
+          "tests": [
+            {
+              "name": "Video-oculography (VOG)",
+              "result_summary": "8°/s leftward beating post-headshake nystagmus; 12°/s rightward beating hyperventilation nystagmus. Caloric response: no change in symmetry, decrease in total eye speed."
+            },
+            {
+              "name": "Clinical Observation",
+              "result_summary": "Reported difficulty in open spaces, climbing bleachers, walking in the dark, and navigating narrow walkways."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:11:31Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case049_ground_truth_pdf_outcome.json",
+    "case_key": "49",
+    "remark": "缺少 V2 (one year follow up)。",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case49_A_Case_of_Extreme_Misophonia_and_Hyperac.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case49_A_Case_of_Extreme_Misophonia_and_Hyperac.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 (1-year follow-up) to expected_interpretations_by_visit based on the text describing the follow-up appointment results (LDL decrease, MAQ/A-MISO-S scores)."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "At the 1-year follow-up, the patient demonstrated no change in pure-tone thresholds compared to baseline. However, results indicated worsened hyperacusis with LDLs markedly decreased to 35-50 dB HL. Misophonia severity increased to the extreme category with an MAQ score of 60 and A-MISO-S score of 21. The patient was visibly distressed, communicated only by text, and reported inconsistent use of sound therapy.",
+          "tests": [
+            {
+              "name": "Pure-tone audiometry",
+              "category": "Audiometry",
+              "result_summary": "No change in pure-tone air conduction thresholds compared to baseline (250-20,000 Hz)."
+            },
+            {
+              "name": "Loudness Discomfort Levels (LDL)",
+              "category": "Loudness Tolerance",
+              "result_summary": "Markedly decreased to levels between 35 and 50 dB HL in each ear."
+            },
+            {
+              "name": "Self-Report Scales",
+              "category": "Questionnaire",
+              "result_summary": "MAQ score 60 (Extreme); A-MISO-S score 21 (Extreme)."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

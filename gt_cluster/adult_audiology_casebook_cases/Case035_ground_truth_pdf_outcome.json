@@ -25,6 +25,11 @@
         "rationale_short": "Evaluate middle ear function."
       },
       {
+        "action": "Acoustic Reflex Thresholds (ART)",
+        "urgency": "routine",
+        "rationale_short": "Assess acoustic reflex pathways."
+      },
+      {
         "action": "Otoacoustic Emissions (OAE)",
         "urgency": "routine",
         "rationale_short": "Assess outer hair cell function."
@@ -59,6 +64,11 @@
             "name": "Tympanometry",
             "category": "Immittance",
             "result_summary": "Normal middle ear function bilaterally."
+          },
+          {
+            "name": "Acoustic Reflex Thresholds (ART)",
+            "category": "Immittance",
+            "result_summary": "Ipsilateral ARTs consistent with audiometric thresholds. Contralateral ARTs not performed due to equipment limitations."
           },
           {
             "name": "Otoacoustic Emissions (OAE)",

@@ -53,7 +53,7 @@
     "expected_interpretations_by_visit": [
       {
         "visit_id": "V1",
-        "collective_interpretation": "The patient demonstrates a moderate-to-severe bilateral symmetrical sensorineural hearing loss with excellent speech recognition, likely presbycusic. However, retrocochlear testing reveals significant central pathology consistent with a lesion affecting the upper brainstem and thalamus. ABR shows absent waves IV-V on the left, MLR is absent or poor on the left, and behavioral central tests show significant left-sided deficits (dichotic digits, competing sentences) and bilateral temporal processing issues.",
+        "collective_interpretation": "The patient demonstrates a moderate-to-severe bilateral symmetrical sensorineural hearing loss with excellent speech recognition, likely presbycusic. Behavioral central tests show significant left-sided deficits (dichotic digits, competing sentences) and bilateral temporal processing issues.",
         "tests": [
           {
             "name": "Pure-tone audiometry",
@@ -71,19 +71,36 @@
             "result_summary": "Present at normal levels (reduced sensation levels at mid and high frequencies) bilaterally for 500-4000 Hz."
           },
           {
+            "name": "Behavioral Central Auditory Tests",
+            "category": "Central Auditory Processing",
+            "result_summary": "Left ear deficit on dichotic digits (~75%), competing sentences (65%), and compressed speech (~45%). Bilaterally suppressed filtered speech scores (~20%). Frequency Patterns (FP) normal bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Electrophysiological testing reveals significant central pathology consistent with a lesion affecting the upper brainstem and thalamus. ABR shows absent waves IV-V on the left, and MLR is absent or poor on the left.",
+        "tests": [
+          {
             "name": "Auditory Brainstem Response (ABR)",
             "category": "Electrophysiology",
-            "result_summary": "Right ear normal (Waves I, II, III present). Left ear: Normal waves I and II; Wave III delayed; Absence of IV-V complex."
+            "result_summary": "Right ear: Waves I, III, V present (latencies: I=1.7ms, III=3.7ms, V=5.9ms). Left ear: Normal waves I and II; Wave III delayed; Absence of IV-V complex."
           },
           {
             "name": "Auditory Middle Latency Response (MLR)",
             "category": "Electrophysiology",
             "result_summary": "Noisy/poor responses. T3 (left temporal) showed no repeatable response. T4 (right temporal) showed response to right ear stimulation only."
-          },
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Radiologic and surgical findings confirmed the presence of a tumor.",
+        "tests": [
           {
-            "name": "Behavioral Central Auditory Tests",
-            "category": "Central Auditory Processing",
-            "result_summary": "Left ear deficit on dichotic digits (~75%), competing sentences (~35%), and compressed speech (~45%). Bilaterally suppressed filtered speech scores (~20%)."
+            "name": "Radiologic and Surgical Findings",
+            "category": "Imaging/Surgery",
+            "result_summary": "CT scans were difficult to read. Surgery revealed a tumor in the hypothalamus behind the optic chiasm (approx 1.5 cm), affecting the inferior thalamus. Pathology: Glioblastoma multiforme."
           }
         ]
       }

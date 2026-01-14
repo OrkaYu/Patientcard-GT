@@ -48,7 +48,7 @@
     "expected_interpretations_by_visit": [
       {
         "visit_id": "V1",
-        "collective_interpretation": "Evaluation for reprogramming revealed profound SNHL. The right Hybrid CI provided minimal benefit (10% speech recognition) due to loss of residual hearing. The left Standard CI provided good benefit (76%) despite a 'hollow' sound quality. CT imaging confirmed good position of right Hybrid leads but revealed an electrode fold-over in the left ear. Vestibular function was normal.",
+        "collective_interpretation": "Initial evaluation for reprogramming revealed profound SNHL. The right Hybrid CI provided minimal benefit (10% speech recognition) due to loss of residual hearing. The left Standard CI provided good benefit (76%).",
         "tests": [
           {
             "name": "Pure-tone audiometry",
@@ -64,7 +64,29 @@
             "name": "Speech audiometry",
             "category": "Speech Perception",
             "result_summary": "AzBio in quiet (60 dB SPL): Right CI 10%, Left CI 76%, Bilateral 76%."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up 1 month after reprogramming adjustments. Aided thresholds improved, but speech recognition showed no significant change.",
+        "tests": [
+          {
+            "name": "Sound-field Thresholds",
+            "category": "Audiometry",
+            "result_summary": "Improved to expected levels at 250-3000 Hz. Thresholds at 4000-6000 Hz remained 45 dB HL and 'no response'."
           },
+          {
+            "name": "Speech audiometry",
+            "category": "Speech Perception",
+            "result_summary": "No significant change from initial evaluation."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Pre-operative workup for reimplantation. CT imaging confirmed good position of right Hybrid leads but revealed an electrode fold-over in the left ear. Vestibular function was normal.",
+        "tests": [
           {
             "name": "CT Scan",
             "category": "Imaging",
@@ -78,8 +100,29 @@
         ]
       },
       {
-        "visit_id": "V2",
-        "collective_interpretation": "Follow-up 6 months after right ear reimplantation with a standard array. The patient demonstrated significant improvement, with right ear performance (92%) surpassing the left ear. Subjective sound quality was reported as 'fuller'.",
+        "visit_id": "V4",
+        "collective_interpretation": "Intraoperative and postoperative confirmation of right ear reimplantation.",
+        "tests": [
+          {
+            "name": "Plain film X-ray",
+            "category": "Imaging",
+            "result_summary": "Confirmed placement of the full electrode insertion in the right ear."
+          },
+          {
+            "name": "Neural Response Telemetry (NRT)",
+            "category": "Electrophysiology",
+            "result_summary": "Revealed responses across several electrodes with good morphology."
+          }
+        ]
+      },
+      {
+        "visit_id": "V5",
+        "collective_interpretation": "Activation of new processor 1 month postsurgery. Patient reported immediate improvement in speech recognition and 'fuller' sound quality.",
+        "tests": []
+      },
+      {
+        "visit_id": "V6",
+        "collective_interpretation": "Follow-up 6 months post-reactivation. The patient demonstrated significant improvement, with right ear performance (92%) surpassing the left ear.",
         "tests": [
           {
             "name": "Sound-field Thresholds",

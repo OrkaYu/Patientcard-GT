@@ -43,7 +43,7 @@
           {
             "name": "Pure-tone audiometry",
             "category": "Audiometry",
-            "result_summary": "Right ear normal thresholds sloping to slight SNHL at 4 kHz. Left ear slight to mild mixed loss (250-2000 Hz) sloping to moderate/moderately-severe mixed loss in high frequencies; air-bone gaps present."
+            "result_summary": "Right ear normal thresholds sloping to slight SNHL at 4 kHz, and rising to within normal limits from 6,000 to 8,000 Hz. Left ear slight to mild mixed loss (250-2000 Hz) sloping to moderate/moderately-severe mixed loss in high frequencies, and rising to moderate at 8,000 Hz; air-bone gaps present."
           },
           {
             "name": "Speech audiometry",
@@ -59,6 +59,11 @@
             "name": "Acoustic reflexes",
             "category": "Immittance",
             "result_summary": "Right Ipsi present. Left Ipsi absent. Right Contra (Probe Left) absent/elevated. Left Contra (Probe Right) present at 1-2 kHz. Pattern suggests left efferent (facial nerve) pathology."
+          },
+          {
+            "name": "Acoustic reflex decay",
+            "category": "Immittance",
+            "result_summary": "Could not be measured at 500 and 1000 Hz due to absent contralateral acoustic reflex thresholds."
           }
         ]
       }

@@ -90,6 +90,11 @@
             "name": "Real Ear Measures (REM)",
             "category": "Hearing Aid Verification",
             "result_summary": "Initial fit matched NAL-NL2 targets. Gain reduction at 274 Hz and 554 Hz did not help. A 15 dB notch filter between 1000 Hz and 1500 Hz substantially improved piano sound quality."
+          },
+          {
+            "name": "Aided Piano Verification",
+            "category": "Functional",
+            "result_summary": "Gain reduction of 15 dB at 274 Hz and 554 Hz yielded no subjective improvement. Notch filtering of 15 dB in the 1000–1500 Hz region substantially improved the sound quality of the piano."
           }
         ]
       }

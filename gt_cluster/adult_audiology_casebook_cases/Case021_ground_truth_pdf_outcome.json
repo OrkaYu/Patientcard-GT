@@ -87,6 +87,11 @@
             "result_summary": "Excellent word recognition bilaterally (RE 96%, LE 100%)."
           },
           {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Tympanograms were within normal limits, bilaterally."
+          },
+          {
             "name": "Acoustic reflexes",
             "category": "Immittance",
             "result_summary": "Present and within normal limits bilaterally; reflex decay negative."
