@@ -7,7 +7,7 @@
     "primary_language": null,
     "country_region": null
   },
-  "chief_complaint": "I have distressing tinnitus in both ears that sounds like ringing, buzzing, pulsating, clicking, and even music or voices. It makes me grumpy and irritable, and I have trouble sleeping and concentrating.",
+  "chief_complaint": "I have distressing tinnitus in both ears that sounds like ringing, buzzing, low and high pitched sounds, pulsating, clicking, music, voices, and humming. It makes me grumpy and irritable, and I have trouble sleeping and concentrating.",
   "problem_summary": {
     "onset": "2 years prior to initial contact.",
     "course": "Constant; attributed to long periods of noise exposure without protection.",
@@ -72,7 +72,7 @@
       "tests": [
         {
           "name": "Self-report scales (Post-intervention)",
-          "timepoint_label": "Post-op",
+          "timepoint_label": "Post-intervention",
           "ear": null,
           "condition": null,
           "sources": [

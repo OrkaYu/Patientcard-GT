@@ -1,0 +1,103 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T22:21:56Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case007_02_ground_truth_pdf_outcome.json",
+    "case_key": "7_2",
+    "remark": "Ordered list: Original text does not include MLR. Missing: attempted speech audiometry, Dichotic Digits Test, Monaural Digit Testing, Late Auditory Evoked Potentials and P300.\nV1: Missing pure‑tone audiometry, speech audiometry, monaural digits, P300.",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-2.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-2.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Replaced ordered_list to remove MLR and add Attempted speech audiometry, Monaural Digit Testing, and P300 as per remarks.",
+      "Renamed 'Dichotic Digits' to 'Dichotic Digits Test' and 'Late Potentials' to 'Late Auditory Evoked Potentials' in ordered_list to match remarks.",
+      "Updated V1 tests to include missing Pure-tone audiometry, Speech audiometry, Monaural digits, and P300.",
+      "Maintained MLR in V1 tests as the text explicitly mentions results for Case 7-2, despite the ordered list remark."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/ordered_list",
+        "value": [
+          {
+            "action": "Attempted speech audiometry",
+            "urgency": "routine",
+            "rationale_short": "To assess verbal repetition and description abilities."
+          },
+          {
+            "action": "Monaural Digit Testing",
+            "urgency": "routine",
+            "rationale_short": "To assess ability to repeat numbers."
+          },
+          {
+            "action": "Dichotic Digits Test",
+            "urgency": "routine",
+            "rationale_short": "To assess central auditory function using number stimuli."
+          },
+          {
+            "action": "Late Auditory Evoked Potentials",
+            "urgency": "routine",
+            "rationale_short": "To objectively assess cortical auditory processing."
+          },
+          {
+            "action": "P300",
+            "urgency": "routine",
+            "rationale_short": "To assess cognitive auditory processing."
+          }
+        ]
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests",
+        "value": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Not explicitly detailed, but implied sufficient for central testing."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Patient could not repeat words or verbally describe things accurately."
+          },
+          {
+            "name": "Monaural Digit Testing",
+            "category": "Behavioral",
+            "result_summary": "Patient could repeat numbers with ease."
+          },
+          {
+            "name": "Dichotic Digits Test",
+            "category": "Behavioral Central Test",
+            "result_summary": "Patient was able to repeat numbers with ease, allowing for successful assessment of central function."
+          },
+          {
+            "name": "Middle Latency Response (MLR)",
+            "category": "Electrophysiology",
+            "result_summary": "Demonstrated the 'electrode effect', where the electrode closest to the lesion showed the greatest effect."
+          },
+          {
+            "name": "Late Auditory Evoked Potentials",
+            "category": "Electrophysiology",
+            "result_summary": "Demonstrated the 'electrode effect', where the electrode closest to the lesion showed the greatest effect."
+          },
+          {
+            "name": "P300",
+            "category": "Electrophysiology",
+            "result_summary": "Demonstrated the 'electrode effect'."
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -130,6 +130,53 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2012-04-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Postoperative follow-up 11 months after initial exam. Patient reports dizziness and left-sided facial weakness following surgery. Reports decrease in hearing sensitivity in the left ear.",
+        "prior_management": "Left acoustic neuroma removal surgery.",
+        "medical_psych_history": "Unable to continue profession as construction worker due to lingering dizziness; receiving counseling from Vocational Rehabilitation."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Post-surgery",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.3"
+          ],
+          "key_findings": "Significant decrease in hearing sensitivity at 250 to 8000 Hz in the left ear compared to baseline.",
+          "numeric_results": {
+            "LE_PTA": "47 dB HL",
+            "LE_configuration": "Flat loss approx 45-50 dB HL"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-surgery",
+          "ear": "left",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 3.3"
+          ],
+          "key_findings": "SRT consistent with PTA. Word recognition score is 92%.",
+          "numeric_results": {
+            "LE_SRT": "45 dB HL",
+            "LE_WRS": "92% at 75 dB HL"
+          }
+        }
+      ]
     }
   ],
   "overall_audiologic_summary": "The patient presents with asymmetric sensorineural hearing loss, worse in the left ear, accompanied by unilateral tinnitus and aural fullness. While word recognition is excellent bilaterally, retrocochlear pathology is strongly indicated by positive acoustic reflex decay in the left ear and delayed ABR latencies. MRI confirmed a small left-sided acoustic neuroma.",

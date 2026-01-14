@@ -58,6 +58,11 @@
         "action": "Tinnitus Evaluation",
         "urgency": "routine",
         "rationale_short": "To characterize tinnitus pitch, loudness, and maskability."
+      },
+      {
+        "action": "Acoustic reflexes",
+        "urgency": "routine",
+        "rationale_short": "To assess the integrity of the auditory pathway."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -76,6 +81,10 @@
           {
             "name": "Tympanometry",
             "result_summary": "Type A tympanograms bilaterally, indicating normal middle ear function."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Reflexes present at normal levels bilaterally."
           }
         ]
       },
@@ -98,6 +107,18 @@
           {
             "name": "Tinnitus Evaluation",
             "result_summary": "Included pitch/loudness match and minimal masking. During residual inhibition, patient experienced a partial seizure."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "Bilateral Type A tympanograms, consistent with normal middle ear function."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Not tested (DNT)."
+          },
+          {
+            "name": "Pure-tone audiometry",
+            "result_summary": "Screening confirmed no changes in hearing sensitivity since prior testing."
           }
         ]
       }
@@ -122,7 +143,7 @@
     ],
     "escalation": {
       "urgency": "soon",
-      "destination": "Neurologist and Pain Management Specialist",
+      "destination": "Neurologist, Pain Management Specialist, and Mental Health Professional",
       "rationale_short": "To address seizure activity potentially triggered by sound and coordinate care for migraines and complex medical history."
     }
   },

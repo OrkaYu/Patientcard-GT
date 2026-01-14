@@ -149,6 +149,23 @@
           }
         },
         {
+          "name": "Other",
+          "timepoint_label": "Vestibular Evaluation",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Comprehensive vestibular battery (VNG, Rotary Chair, Posturography, VEMPs).",
+          "numeric_results": {
+            "VNG": "Normal (no nystagmus, normal calorics)",
+            "Rotary_Chair": "Normal",
+            "VEMPs": "Normal Left, Absent Right (likely secondary to middle ear surgeries)",
+            "Posturography": "Normal"
+          }
+        },
+        {
           "name": "Pure-tone audiometry",
           "timepoint_label": "Follow-up (Same Day)",
           "ear": "right",
@@ -182,23 +199,6 @@
           "numeric_results": {
             "SRT": "10 dB HL",
             "WRS": "100% at 50 dB HL"
-          }
-        },
-        {
-          "name": "Other",
-          "timepoint_label": "Vestibular Evaluation",
-          "ear": "bilateral",
-          "condition": null,
-          "sources": [
-            "text"
-          ],
-          "figure_refs": [],
-          "key_findings": "Comprehensive vestibular battery (VNG, Rotary Chair, Posturography, VEMPs).",
-          "numeric_results": {
-            "VNG": "Normal (no nystagmus, normal calorics)",
-            "Rotary_Chair": "Normal",
-            "VEMPs": "Normal Left, Absent Right (likely secondary to middle ear surgeries)",
-            "Posturography": "Normal"
           }
         }
       ]

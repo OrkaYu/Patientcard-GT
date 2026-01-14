@@ -102,6 +102,90 @@
             "cVEMPs_500Hz_95dB": "Absent bilaterally",
             "Caloric_Responses": "No measurable response (warm or ice water)"
           }
+        },
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "Pre-op Evaluation",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Normal otoscopic findings.",
+          "numeric_results": null
+        },
+        {
+          "name": "Psychological assessment",
+          "timepoint_label": "CI Candidacy",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Minimal risk of depression, realistic expectations regarding potential benefit, and appropriate motivation.",
+          "numeric_results": null
+        },
+        {
+          "name": "Intraoperative monitoring",
+          "timepoint_label": "Surgery",
+          "ear": "Right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Normal impedance. Auto and advanced neural response telemetry (NRT) revealed no measurable response.",
+          "numeric_results": null
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-activation (6 months)",
+          "ear": "Right",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "graph"
+          ],
+          "key_findings": "HINT score improved from 0% unaided to a ceiling aided performance of 88%.",
+          "numeric_results": {
+            "HINT_Quiet": "88%"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "5-year follow-up",
+          "ear": "Right",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "graph"
+          ],
+          "key_findings": "81% on AzBio sentences in quiet and 37% on AzBio sentences mixed with 10-talker babble presented at a +10 SNR.",
+          "numeric_results": {
+            "AzBio_Quiet": "81%",
+            "AzBio_Noise_10SNR": "37%"
+          }
+        },
+        {
+          "name": "CT scan",
+          "timepoint_label": "5-year follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Did not demonstrate any tumor growth.",
+          "numeric_results": null
+        },
+        {
+          "name": "Electrode impedance check",
+          "timepoint_label": "Longitudinal",
+          "ear": "Right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Impedances stable over 5 years, except electrodes 16 and 19 identified as short circuits in 2013.",
+          "numeric_results": null
         }
       ]
     }

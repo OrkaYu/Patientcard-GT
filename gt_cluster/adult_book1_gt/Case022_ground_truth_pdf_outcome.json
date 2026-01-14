@@ -79,7 +79,7 @@
           {
             "name": "Speech audiometry",
             "category": "Audiometry",
-            "result_summary": "SRTs consistent with PTAs (Right 5 dB, Left 40 dB). Excellent word recognition (Right 96%, Left 92%)."
+            "result_summary": "SRTs consistent with PTAs (Right 25 dB, Left 40 dB). Excellent word recognition (Right 92%, Left 96%)."
           },
           {
             "name": "Tympanometry",
@@ -114,7 +114,11 @@
     ]
   },
   "escalation_and_red_flags": {
-    "red_flags_present": [],
+    "red_flags_present": [
+      "Asymmetric hearing loss",
+      "New dizziness after stopping medication",
+      "Family history"
+    ],
     "escalation": {
       "urgency": "routine",
       "destination": "Otologist",

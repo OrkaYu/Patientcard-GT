@@ -47,7 +47,7 @@
             "Right_Ear_Thresholds": "~60-70 dB HL across frequencies",
             "Left_Ear_Thresholds": "~60-70 dB HL across frequencies",
             "PTA_Right": "70 dB HL",
-            "PTA_Left": "75 dB HL"
+            "PTA_Left": "61 dB HL"
           }
         },
         {
@@ -114,7 +114,7 @@
       },
       "tests": [
         {
-          "name": "Speech-in-noise / Aided Word Recognition",
+          "name": "Aided Word Recognition",
           "timepoint_label": "Post-op",
           "ear": "soundfield",
           "condition": "aided",

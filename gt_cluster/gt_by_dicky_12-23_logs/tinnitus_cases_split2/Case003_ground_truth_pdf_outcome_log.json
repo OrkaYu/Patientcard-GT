@@ -1,0 +1,43 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T23:14:56Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case003_ground_truth_pdf_outcome.json",
+    "case_key": "3",
+    "remark": "Ordered list: Add hearing intake questionnaire (clinic history) and COSIT (Improvement in Tinnitus).",
+    "pdf_key": "Tinnitus_Cases_split2/Case03_Tinnitus_Treatment_Following_Acoustic_Neuroma.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case03_Tinnitus_Treatment_Following_Acoustic_Neuroma.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Hearing intake questionnaire (clinic history)' to the ordered list of investigations based on section 3.5.",
+      "Added 'Client Oriented Scale of Improvement in Tinnitus (COSIT)' to the ordered list of investigations based on section 3.5."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/1",
+        "value": {
+          "action": "Hearing intake questionnaire (clinic history)",
+          "urgency": "routine",
+          "rationale_short": "To document the patient's hearing history."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Client Oriented Scale of Improvement in Tinnitus (COSIT)",
+          "urgency": "routine",
+          "rationale_short": "To identify therapy goals and document treatment effectiveness."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

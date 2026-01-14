@@ -53,6 +53,11 @@
         "action": "Video Head Impulse Test (vHIT)",
         "urgency": "routine",
         "rationale_short": "To assess high-frequency VOR function for all six semicircular canals."
+      },
+      {
+        "action": "MRI",
+        "urgency": "routine",
+        "rationale_short": "To rule out retrocochlear pathology."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -99,6 +104,11 @@
             "name": "Video Head Impulse Test (vHIT)",
             "category": "Vestibular",
             "result_summary": "Normal VOR gains for lateral canals; no overt or covert saccades."
+          },
+          {
+            "name": "MRI",
+            "category": "Imaging",
+            "result_summary": "Normal."
           }
         ]
       }

@@ -104,7 +104,7 @@
           }
         },
         {
-          "name": "Other",
+          "name": "Auditory Brainstem Response (ABR)",
           "timepoint_label": "Baseline",
           "ear": "bilateral",
           "condition": null,
@@ -123,7 +123,7 @@
           }
         },
         {
-          "name": "Other",
+          "name": "Dichotic Digit Test",
           "timepoint_label": "Baseline",
           "ear": "bilateral",
           "condition": null,
@@ -138,7 +138,7 @@
           }
         },
         {
-          "name": "Other",
+          "name": "Radiologic Findings (Arteriogram/MRI)",
           "timepoint_label": "Baseline",
           "ear": "bilateral",
           "condition": null,

@@ -48,7 +48,7 @@
           {
             "name": "Central Auditory Processing Battery",
             "category": "Central",
-            "result_summary": "Marked LE deficits on SSW (~20%), Dichotic Digits (0%), NU#20 (0%), and LPFS (~40%). Bilateral deficit on Frequency Patterns (0%)."
+            "result_summary": "Marked LE deficits on SSW (~20%), Dichotic Digits (0%), NU#20 (0%), and LPFS (~40%). Bilateral deficit on Frequency Patterns (0%). Dichotic Rhyme (Normal)."
           }
         ]
       },
@@ -60,6 +60,11 @@
             "name": "Pure-tone audiometry",
             "category": "Peripheral",
             "result_summary": "Essentially unchanged from initial evaluation (mild hearing loss)."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Peripheral",
+            "result_summary": "Essentially unchanged; normal speech recognition scores."
           },
           {
             "name": "Central Auditory Processing Battery",

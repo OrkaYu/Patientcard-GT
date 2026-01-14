@@ -129,8 +129,24 @@
             "Fig. 15.2"
           ],
           "key_findings": "Right: Normal 250-3k Hz, slight loss 6k-8k Hz. Left: Normal 250-1k Hz, moderate-severe SNHL 1.5k-6k Hz, recovery to mild at 8k Hz.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Historical (3 Years Prior)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.2"
+          ],
+          "key_findings": "Right: Normal WRS. Left: Very poor recognition (8%).",
           "numeric_results": {
-            "Left_WRS": "8% (Very poor)"
+            "WRS_Right": "Normal",
+            "WRS_Left": "8%"
           }
         }
       ]
@@ -160,9 +176,67 @@
             "Fig. 15.3"
           ],
           "key_findings": "Hearing thresholds had largely returned to normal/near-normal. Both ears showed a 'notch' at 6000 Hz attributed to noise exposure.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Historical (1 Year Prior)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.3"
+          ],
+          "key_findings": "WRS returned to normal (100%) in both ears.",
           "numeric_results": {
             "WRS_Right": "100%",
             "WRS_Left": "100%"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Historical (1 Year Prior)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.3"
+          ],
+          "key_findings": "ARTs returned to normal.",
+          "numeric_results": {
+            "Right_Ipsi_500_2000Hz": "85 dB HL",
+            "Left_Ipsi_500_2000Hz": "80-90 dB HL",
+            "Right_Contra_500_2000Hz": "85 dB HL",
+            "Left_Contra_500_2000Hz": "90 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Historical (1 Year Prior)",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 15.3"
+          ],
+          "key_findings": "Normal Type A tympanograms.",
+          "numeric_results": {
+            "Type_Right": "A",
+            "Type_Left": "A",
+            "Volume_Right": "2.4 mL",
+            "Volume_Left": "2.3 mL",
+            "Static_Admittance_Right": "1.6 mL",
+            "Static_Admittance_Left": "1.4 mL",
+            "Peak_Pressure_Right": "-20 daPa",
+            "Peak_Pressure_Left": "-25 daPa"
           }
         }
       ]

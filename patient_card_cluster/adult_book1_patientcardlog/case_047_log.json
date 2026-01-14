@@ -1,0 +1,57 @@
+{
+  "status": "patched",
+  "case_id": "Case047",
+  "timestamp_utc": "2025-12-28T20:22:41Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/47_47_Do_You_Hear_What_I_Hear.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/47_47_Do_You_Hear_What_I_Hear.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_047_patient_card.json",
+    "remark": "Electroacoustic Analysis 的\"condition\": \"unaided\"是错误的，要删除\nV2缺少清洁后的复测数据",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Removed incorrect 'condition': 'unaided' from Electroacoustic Analysis tests in all encounters.",
+      "Added post-cleaning Electroacoustic Analysis test to V2, reflecting return to baseline performance as described in the text."
+    ],
+    "patch_ops": [
+      {
+        "op": "remove",
+        "path": "/encounters/0/tests/0/condition"
+      },
+      {
+        "op": "remove",
+        "path": "/encounters/1/tests/0/condition"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/-",
+        "value": {
+          "name": "Electroacoustic Analysis (2-cc coupler)",
+          "timepoint_label": "Post-cleaning",
+          "ear": "right",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Performance returned to optimal, consistent with baseline.",
+          "numeric_results": {
+            "OSPL90_peak": "124 dB SPL @ 1600 Hz",
+            "Avg_OSPL90": "118 dB SPL",
+            "Avg_Gain_50dB_Input": "44 dB",
+            "Equivalent_Input_Noise": "35 dB",
+            "Distortion_500Hz": "3%"
+          }
+        }
+      },
+      {
+        "op": "remove",
+        "path": "/encounters/2/tests/2/condition"
+      }
+    ],
+    "unresolved": []
+  }
+}

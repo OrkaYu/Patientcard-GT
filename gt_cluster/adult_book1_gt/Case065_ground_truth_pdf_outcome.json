@@ -68,6 +68,16 @@
         "action": "Staggered Spondaic Word (SSW)",
         "urgency": "routine",
         "rationale_short": "To assess binaural separation and interhemispheric transfer."
+      },
+      {
+        "action": "Distortion-product otoacoustic emissions (DPOAEs)",
+        "urgency": "routine",
+        "rationale_short": "To evaluate cochlear outer hair cell function."
+      },
+      {
+        "action": "Self-report questionnaires",
+        "urgency": "routine",
+        "rationale_short": "To assess self-perceived auditory processing skills and quality of life."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -99,6 +109,11 @@
             "name": "Vestibular Evaluation",
             "category": "Vestibular",
             "result_summary": "Rotational chair and calorics revealed left peripheral weakness; diagnosed as Left BPPV."
+          },
+          {
+            "name": "Distortion-product otoacoustic emissions (DPOAEs)",
+            "category": "Otoacoustic Emissions",
+            "result_summary": "Included in conventional audiological examination."
           }
         ]
       },

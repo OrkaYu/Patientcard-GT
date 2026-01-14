@@ -1,0 +1,52 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:16:54Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_010_1_patient_card.json",
+    "case_key": "10_1",
+    "remark": "V3 缺少Frequency pattern test",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_10-1.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_10-1.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Frequency Pattern Test (pediatric version) to V3 encounter as requested.",
+      "Extracted longitudinal data points (6mo, 10mo, 18mo, 2yrs+) from text description."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/2/tests/-",
+        "value": {
+          "name": "Frequency Pattern Test (pediatric version)",
+          "timepoint_label": "Longitudinal (6 months to 2+ years)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Initial scores at 6 months were 30% for each ear. Right ear improved to 80% at 10 months, while left reached 47%. Scores fluctuated at 18 months (Right 60%, Left 30%) before reaching 100% bilaterally at >2 years.",
+          "numeric_results": {
+            "Right (6 mo)": "30%",
+            "Left (6 mo)": "30%",
+            "Right (10 mo)": "80%",
+            "Left (10 mo)": "47%",
+            "Right (18 mo)": "60%",
+            "Left (18 mo)": "30%",
+            "Bilateral (>2 yrs)": "100%"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

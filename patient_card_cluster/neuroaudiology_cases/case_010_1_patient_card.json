@@ -265,6 +265,26 @@
           ],
           "key_findings": "Extensive Right Hemisphere damage (Temporal 64%, Parietal 45%, Frontal 40%, Insula 100%). Left Hemisphere damage limited but critical (Temporal 7% but 100% of Heschl's gyrus; Parietal 15%).",
           "numeric_results": null
+        },
+        {
+          "name": "Frequency Pattern Test (pediatric version)",
+          "timepoint_label": "Longitudinal (6 months to 2+ years)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Initial scores at 6 months were 30% for each ear. Right ear improved to 80% at 10 months, while left reached 47%. Scores fluctuated at 18 months (Right 60%, Left 30%) before reaching 100% bilaterally at >2 years.",
+          "numeric_results": {
+            "Right (6 mo)": "30%",
+            "Left (6 mo)": "30%",
+            "Right (10 mo)": "80%",
+            "Left (10 mo)": "47%",
+            "Right (18 mo)": "60%",
+            "Left (18 mo)": "30%",
+            "Bilateral (>2 yrs)": "100%"
+          }
         }
       ]
     }

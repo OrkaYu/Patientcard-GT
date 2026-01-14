@@ -15,19 +15,29 @@
   "investigations_and_interpretations": {
     "ordered_list": [
       {
-        "action": "Dichotic Digits",
+        "action": "Attempted speech audiometry",
         "urgency": "routine",
-        "rationale_short": "To assess central auditory function using number stimuli, as the patient retained the ability to repeat numbers despite aphasia."
+        "rationale_short": "To assess verbal repetition and description abilities."
       },
       {
-        "action": "Middle Latency Response (MLR)",
+        "action": "Monaural Digit Testing",
         "urgency": "routine",
-        "rationale_short": "To objectively assess the central auditory pathway and check for electrode effects consistent with the brain lesion."
+        "rationale_short": "To assess ability to repeat numbers."
       },
       {
-        "action": "Late Potentials",
+        "action": "Dichotic Digits Test",
         "urgency": "routine",
-        "rationale_short": "To objectively assess cortical auditory processing and check for electrode effects."
+        "rationale_short": "To assess central auditory function using number stimuli."
+      },
+      {
+        "action": "Late Auditory Evoked Potentials",
+        "urgency": "routine",
+        "rationale_short": "To objectively assess cortical auditory processing."
+      },
+      {
+        "action": "P300",
+        "urgency": "routine",
+        "rationale_short": "To assess cognitive auditory processing."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -36,7 +46,22 @@
         "collective_interpretation": "The patient, initially considered untestable due to aphasia, successfully completed the Dichotic Digits test by repeating numbers. Both behavioral and electrophysiologic testing (MLR, Late Potentials) confirmed central auditory dysfunction, specifically demonstrating an 'electrode effect' where the electrode closest to the lesion showed the greatest abnormality.",
         "tests": [
           {
-            "name": "Dichotic Digits",
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Not explicitly detailed, but implied sufficient for central testing."
+          },
+          {
+            "name": "Speech audiometry",
+            "category": "Behavioral",
+            "result_summary": "Patient could not repeat words or verbally describe things accurately."
+          },
+          {
+            "name": "Monaural Digit Testing",
+            "category": "Behavioral",
+            "result_summary": "Patient could repeat numbers with ease."
+          },
+          {
+            "name": "Dichotic Digits Test",
             "category": "Behavioral Central Test",
             "result_summary": "Patient was able to repeat numbers with ease, allowing for successful assessment of central function."
           },
@@ -46,9 +71,14 @@
             "result_summary": "Demonstrated the 'electrode effect', where the electrode closest to the lesion showed the greatest effect."
           },
           {
-            "name": "Late Potentials",
+            "name": "Late Auditory Evoked Potentials",
             "category": "Electrophysiology",
             "result_summary": "Demonstrated the 'electrode effect', where the electrode closest to the lesion showed the greatest effect."
+          },
+          {
+            "name": "P300",
+            "category": "Electrophysiology",
+            "result_summary": "Demonstrated the 'electrode effect'."
           }
         ]
       }

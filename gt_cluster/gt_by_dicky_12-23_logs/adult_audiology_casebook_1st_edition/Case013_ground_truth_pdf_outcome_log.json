@@ -1,0 +1,83 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:34:54Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case013_ground_truth_pdf_outcome.json",
+    "case_key": "13",
+    "remark": "Ordered list & V1: Add Middle/Late Latency Responses.\nTimeline: Expected outcome should belong to V2.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/13_13_Auditory_Nerve_Disorder_Structure_versus_Functi.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/13_13_Auditory_Nerve_Disorder_Structure_versus_Functi.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Middle and Late Latency Responses' to ordered_list and V1 tests based on OCR findings.",
+      "Converted 'expected_outcome' strings into a structured 'V2' visit within 'expected_interpretations_by_visit' to reflect the 5-year follow-up.",
+      "Removed the original 'expected_outcome' field as its content has been moved to V2."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/6",
+        "value": {
+          "action": "Middle and Late Latency Responses",
+          "urgency": "routine",
+          "rationale_short": "To assess central auditory pathway function."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/6",
+        "value": {
+          "name": "Middle and Late Latency Responses",
+          "category": "Electrophysiological",
+          "result_summary": "Normal bilaterally."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "Significant decline in hearing sensitivity and speech recognition bilaterally over 5 years.",
+          "tests": [
+            {
+              "name": "Pure-tone audiometry",
+              "category": "Behavioral",
+              "result_summary": "Left ear progressed to moderate mid-frequency SNHL; Right ear progressed to moderate-to-severe high-frequency SNHL."
+            },
+            {
+              "name": "Speech audiometry",
+              "category": "Behavioral",
+              "result_summary": "Left WRS decreased to 70% at 80 dB HL; Right WRS dropped to 0% at all intensities."
+            },
+            {
+              "name": "Tympanometry",
+              "category": "Immittance",
+              "result_summary": "Normal Type A tympanograms bilaterally."
+            },
+            {
+              "name": "Acoustic reflexes",
+              "category": "Immittance",
+              "result_summary": "Absent with right ear stimulation. Left ipsilateral reflex absent (suggesting left facial nerve involvement); left contralateral reflex preserved."
+            }
+          ]
+        }
+      },
+      {
+        "op": "remove",
+        "path": "/expected_outcome"
+      }
+    ],
+    "unresolved": []
+  }
+}

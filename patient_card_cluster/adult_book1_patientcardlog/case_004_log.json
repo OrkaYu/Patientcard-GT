@@ -1,0 +1,72 @@
+{
+  "status": "patched",
+  "case_id": "Case004",
+  "timestamp_utc": "2025-12-28T20:05:40Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/04_4_Functional_Hearing_Loss.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/04_4_Functional_Hearing_Loss.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_004_patient_card.json",
+    "remark": "缺少V2 ABR 和 ASSR 结果\n\"LE_WRS\": \"26% at 92 dB HL\" 应改为 \"28% at 92 dB HL\"",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected LE_WRS value in V1 Speech Audiometry from 26% to 28% as requested.",
+      "Added V2 encounter containing ABR and ASSR results extracted from Section 4.6 Outcome."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/2/numeric_results/LE_WRS",
+        "value": "28% at 92 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Patient referred for objective testing (ABR and ASSR) due to fair test reliability and asymmetrical hearing loss in initial evaluation."
+          },
+          "tests": [
+            {
+              "name": "Auditory Steady-State Response (ASSR)",
+              "timepoint_label": "Follow-up",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Right ear: Hearing within normal limits. Left ear: Mild to moderate hearing loss at 250 to 2000 Hz.",
+              "numeric_results": {}
+            },
+            {
+              "name": "Auditory Brainstem Response (ABR)",
+              "timepoint_label": "Follow-up",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Wave V peaks identified at 40 dB nHL bilaterally, indicating no more than a mild hearing loss in either ear between 2000 and 4000 Hz.",
+              "numeric_results": {
+                "Stimulus_Rate": "27.79 clicks/sec",
+                "Polarity": "Rarefaction",
+                "Amplifier_Gain": "240,000",
+                "Wave_V_Threshold_Bilateral": "40 dB nHL"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

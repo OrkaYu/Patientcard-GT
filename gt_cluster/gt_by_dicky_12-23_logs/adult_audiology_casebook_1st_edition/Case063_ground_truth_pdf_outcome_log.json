@@ -1,0 +1,45 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:43:21Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case063_ground_truth_pdf_outcome.json",
+    "case_key": "63",
+    "remark": "Ordered list: BKB‑SIN duplicated; BKB‑SIN belongs to MSTB Revised.\nExpected outcome: Missing CNC phonemes (R 79%, L 64%, Bi 96%).",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/63_63_Test_Measures_Matter.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/63_63_Test_Measures_Matter.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated the rationale for 'Speech audiometry (MSTB Revised)' in the ordered list to explicitly include BKB-SIN, as it is part of the battery.",
+      "Removed the separate 'Speech-in-noise (BKB-SIN)' entry from the ordered list to avoid duplication.",
+      "Added the missing 'Aided CNC Phonemes' post-operative scores to the expected outcome list."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/ordered_list/3/rationale_short",
+        "value": "To assess aided speech recognition using more ecologically valid stimuli (AzBio, CNC, BKB-SIN) for CI candidacy."
+      },
+      {
+        "op": "remove",
+        "path": "/investigations_and_interpretations/ordered_list/4"
+      },
+      {
+        "op": "add",
+        "path": "/expected_outcome/1",
+        "value": "Aided CNC Phonemes (Post-op): Right 79%, Left 64%, Bimodal 96%."
+      }
+    ],
+    "unresolved": []
+  }
+}

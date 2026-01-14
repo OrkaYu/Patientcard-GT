@@ -1,0 +1,47 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:36:10Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case015_ground_truth_pdf_outcome.json",
+    "case_key": "15",
+    "remark": "Ordered list: Add MRI.\nV3: Add speech audiometry summary: WRS 100% bilaterally with normal speech recognition.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/15_15_Multiple_Pathologies_in_a_Single_Patient.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/15_15_Multiple_Pathologies_in_a_Single_Patient.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added MRI to the ordered list of investigations based on the critical need to evaluate tumor status.",
+      "Added Speech audiometry summary to Visit V3 as requested."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "MRI",
+          "urgency": "urgent",
+          "rationale_short": "To confirm tumor status and evaluate potential recurrence or progression of the left CPA meningioma."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests/-",
+        "value": {
+          "name": "Speech audiometry",
+          "result_summary": "WRS 100% bilaterally with normal speech recognition."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

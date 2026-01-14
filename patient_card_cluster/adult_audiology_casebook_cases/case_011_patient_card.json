@@ -122,7 +122,10 @@
             "RC Errors": "1",
             "LC Errors": "8 (Abnormal)",
             "LNC Errors": "0",
-            "Ear Effect LH": "Difference of 5 (Abnormal)"
+            "Ear Effect LH": "Difference of 5 (Abnormal)",
+            "Order Effect HL": "2",
+            "Reversals": "0",
+            "Type A": "2"
           }
         },
         {
@@ -159,6 +162,59 @@
           "numeric_results": {
             "Quantitative Score": "25 correct",
             "Qualitative Score": "25 correct"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "1 year later",
+      "setting": "Audiology Clinic (Post-training Re-evaluation)",
+      "history": {
+        "present_illness": "Patient returned for re-evaluation after 1 year of auditory training (DOT program and SIN training).",
+        "patient_goals": "Assess progress after training."
+      },
+      "tests": [
+        {
+          "name": "Speech-in-noise (W-22)",
+          "timepoint_label": "1 year post-training",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Normal findings.",
+          "numeric_results": {
+            "SNR": "+5 dB",
+            "Quiet/Noise Difference Right": "8%",
+            "Quiet/Noise Difference Left": "12%"
+          }
+        },
+        {
+          "name": "Staggered Spondaic Word (SSW) Test",
+          "timepoint_label": "1 year post-training",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Normal findings for all conditions.",
+          "numeric_results": {
+            "LC Errors": "2",
+            "Ear Effect LH": "1"
+          }
+        },
+        {
+          "name": "SCAN-3A (Auditory Processing Battery)",
+          "timepoint_label": "1 year post-training",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Normal results for all measures.",
+          "numeric_results": {
+            "Result": "Scaled scores of 9 (37th percentile) or better for all measures"
           }
         }
       ]

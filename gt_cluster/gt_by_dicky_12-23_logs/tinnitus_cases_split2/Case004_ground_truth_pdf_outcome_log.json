@@ -1,0 +1,29 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T23:15:23Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case004_ground_truth_pdf_outcome.json",
+    "case_key": "4",
+    "remark": "V1 speech audiometry: Right WRS 46% @75 dB HL; 48% @76 dB HL.",
+    "pdf_key": "Tinnitus_Cases_split2/Case04_A_Case_of_Pulsatile_Tinnitus_with.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case04_A_Case_of_Pulsatile_Tinnitus_with.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V1 Speech audiometry result_summary to include the additional Right WRS data point (48% at 76 dB HL) as specified in the remarks."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/1/result_summary",
+        "value": "Asymmetric WRS. Right: 46% at 75 dB HL; 48% at 76 dB HL. Left: 72% at 68 dB HL. SRT: Right 46 dB, Left 38 dB."
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:02:21Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case029_ground_truth_pdf_outcome.json",
+    "case_key": "29",
+    "remark": "Ordered list: Add hearing aid verification (Real‑Ear / REM).\nV2: Acoustic reflexes are missing.",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case29_Adult_Patient_with_Chronic_Otitis_Media.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case29_Adult_Patient_with_Chronic_Otitis_Media.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Hearing aid verification (Real-Ear / REM)' to the ordered list as requested, positioned chronologically before the final follow-up.",
+      "Added 'Acoustic reflexes' to the V2 tests list as requested, with results derived from the text."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/10",
+        "value": {
+          "action": "Hearing aid verification (Real-Ear / REM)",
+          "urgency": "routine",
+          "rationale_short": "Verification of hearing aid output to prescribed targets."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/3",
+        "value": {
+          "name": "Acoustic reflexes",
+          "result_summary": "Absent in both ears for ipsilateral and contralateral stimulation."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

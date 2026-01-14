@@ -23,6 +23,41 @@
         "action": "Speech audiometry",
         "urgency": "routine",
         "rationale_short": "To assess speech reception thresholds and word recognition abilities to determine potential benefit from amplification."
+      },
+      {
+        "action": "Unaided QuickSIN",
+        "urgency": "routine",
+        "rationale_short": "To assess speech understanding in noise and establish a baseline for verification."
+      },
+      {
+        "action": "COSI (baseline)",
+        "urgency": "routine",
+        "rationale_short": "To identify specific listening needs and goals for amplification."
+      },
+      {
+        "action": "Hearing aid analyzer",
+        "urgency": "routine",
+        "rationale_short": "To verify that the hearing aids meet manufacturer specifications."
+      },
+      {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify that hearing aid gain and output match prescribed targets (NAL-NL1)."
+      },
+      {
+        "action": "Aided Loudness Discomfort Levels (LDL)",
+        "urgency": "routine",
+        "rationale_short": "To ensure the maximum output of the hearing aids is not uncomfortable."
+      },
+      {
+        "action": "Aided QuickSIN",
+        "urgency": "routine",
+        "rationale_short": "To validate improvement in speech understanding in noise with amplification."
+      },
+      {
+        "action": "Aided COSI",
+        "urgency": "routine",
+        "rationale_short": "To validate that the patient's specific listening goals have been addressed."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -32,7 +67,7 @@
         "tests": [
           {
             "name": "Pure-tone audiometry",
-            "result_summary": "Right ear: Severe mixed loss at 250 Hz, rising to moderately severe at 3000 Hz, falling to profound mixed at 8000 Hz (PTA 70 dB HL). Left ear: Normal at 250 Hz sloping to severe SNHL at 8000 Hz (PTA 35 dB HL)."
+            "result_summary": "Right ear: Severe mixed loss at 250 Hz, rising to moderately severe at 3000 Hz, falling to profound mixed at 8000 Hz. Left ear: Normal at 250 Hz sloping to severe SNHL at 8000 Hz."
           },
           {
             "name": "Speech audiometry",

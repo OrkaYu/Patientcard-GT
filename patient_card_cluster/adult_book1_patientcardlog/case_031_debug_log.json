@@ -1,0 +1,13 @@
+{
+  "case_id": "Case031",
+  "timestamp_utc": "2025-12-28T20:21:30Z",
+  "error": "Model output invalid (null/empty). See debug log.",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_031_patient_card.json",
+    "excel_key": "2025-12-23-Dickysuggestion/adult_audiology_casebook1.xlsx",
+    "has_actionable_remark": true,
+    "pdf_prefix": "audiology_casebook_split_by_case/",
+    "pc_prefix": "processed/patient_cards_from_pdf/"
+  }
+}

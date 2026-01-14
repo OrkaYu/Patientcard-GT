@@ -35,6 +35,11 @@
         "rationale_short": "Assess word recognition ability in ideal listening conditions."
       },
       {
+        "action": "Immittance audiometry (Tympanometry + Acoustic Reflexes)",
+        "urgency": "routine",
+        "rationale_short": "Assess middle ear function and acoustic reflex pathways."
+      },
+      {
         "action": "Speech-in-noise (W-22)",
         "urgency": "routine",
         "rationale_short": "Evaluate speech understanding in the presence of background noise."

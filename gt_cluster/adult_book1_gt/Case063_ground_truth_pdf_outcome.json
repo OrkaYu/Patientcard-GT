@@ -27,12 +27,7 @@
       {
         "action": "Speech audiometry (MSTB Revised)",
         "urgency": "routine",
-        "rationale_short": "To assess aided speech recognition using more ecologically valid stimuli (AzBio, CNC) for CI candidacy."
-      },
-      {
-        "action": "Speech-in-noise (BKB-SIN)",
-        "urgency": "routine",
-        "rationale_short": "To assess signal-to-noise ratio loss and speech understanding in noise."
+        "rationale_short": "To assess aided speech recognition using more ecologically valid stimuli (AzBio, CNC, BKB-SIN) for CI candidacy."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -96,6 +91,7 @@
   },
   "expected_outcome": [
     "Aided CNC Words (Post-op): Right 60%, Left 36%, Bimodal 88%.",
+    "Aided CNC Phonemes (Post-op): Right 79%, Left 64%, Bimodal 96%.",
     "Aided AzBio in Quiet (Post-op): Right 97%, Left 42%, Bimodal 96%.",
     "Aided AzBio +10 SNR (Post-op): Bimodal 92%.",
     "Aided AzBio +5 SNR (Post-op): Right 21%, Bimodal 57%.",

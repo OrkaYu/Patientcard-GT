@@ -1,0 +1,103 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T18:59:12Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case008_ground_truth_pdf_outcome.json",
+    "case_key": "8",
+    "remark": "Visits: Textbook indicates 9 visits total, but JSON records only 1 visit.",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case08_When_Mild_Hearing_Loss_Accompanies_Mild.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case08_When_Mild_Hearing_Loss_Accompanies_Mild.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Expanded 'expected_interpretations_by_visit' from 1 visit to 9 visits based on the clinical narrative.",
+      "Added V2 (Evaluation), V3 (Fitting), V4 (2-week check), V5 (Unscheduled impressions), V6 (Custom mold fit/Psychologist consult), V7 (Return of aids), V8 (Re-fitting), and V9 (Final outcome) to reflect the full course of treatment described in the text."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit",
+        "value": [
+          {
+            "visit_id": "V1",
+            "collective_interpretation": "Testing revealed bilateral, slightly asymmetric high-frequency sensorineural hearing loss, sloping to moderate/moderately-severe levels. Speech recognition in quiet was excellent, and speech-in-noise performance (BKB-SIN) was within normal limits. Middle ear function was normal. Acoustic reflexes were largely present, though contralateral right stimulation was absent; however, retrocochlear pathology was not suspected due to a recent negative neurology workup.",
+            "tests": [
+              {
+                "name": "Pure-tone audiometry",
+                "category": "Audiometry",
+                "result_summary": "Normal thresholds through 1000 Hz, sloping to moderate (Right) and moderately-severe (Left) high-frequency SNHL."
+              },
+              {
+                "name": "Speech audiometry",
+                "category": "Audiometry",
+                "result_summary": "SRT 25 dB HL bilaterally; WRS 100% at 60 dB HL bilaterally; LDLs > 110 dB HL."
+              },
+              {
+                "name": "Tympanometry",
+                "category": "Immittance",
+                "result_summary": "Normal (Type A) bilaterally."
+              },
+              {
+                "name": "Acoustic reflexes",
+                "category": "Immittance",
+                "result_summary": "Ipsilateral present bilaterally; Contralateral present left stim, absent right stim."
+              },
+              {
+                "name": "Speech-in-noise",
+                "category": "Functional",
+                "result_summary": "BKB-SIN score 2.5 dB SNR loss (within normal limits)."
+              }
+            ]
+          },
+          {
+            "visit_id": "V2",
+            "collective_interpretation": "Hearing Aid Evaluation: Discussed lifestyle needs, cosmetic concerns, and cognitive status. Administered COSI to identify communication goals. Selected bilateral premium rechargeable RIC hearing aids.",
+            "tests": []
+          },
+          {
+            "visit_id": "V3",
+            "collective_interpretation": "Hearing Aid Fitting: Fitted with bilateral RIC hearing aids using open domes. Counseled on use and care.",
+            "tests": []
+          },
+          {
+            "visit_id": "V4",
+            "collective_interpretation": "Follow-up (2 weeks post-fitting): Patient reported hearing aids were very helpful. COSI indicated 'better' or 'much better' hearing in 3/4 situations. Rated ability to hear as 'almost always'.",
+            "tests": []
+          },
+          {
+            "visit_id": "V5",
+            "collective_interpretation": "Unscheduled Visit (same week as V4): Reported hearing aids falling out despite correct insertion. Impressions taken for custom earmolds to improve retention.",
+            "tests": []
+          },
+          {
+            "visit_id": "V6",
+            "collective_interpretation": "Custom Earmold Fitting (2 weeks after V5): Patient had great difficulty inserting custom molds and handling charger (dead batteries). Wife distressed about his cognitive decline. Psychologist consulted during session. Red dot placed on charger to assist.",
+            "tests": []
+          },
+          {
+            "visit_id": "V7",
+            "collective_interpretation": "Follow-up (3 weeks after V6): Patient returned hearing aids due to management difficulties and frustration. Couple decided to 'take a break'.",
+            "tests": []
+          },
+          {
+            "visit_id": "V8",
+            "collective_interpretation": "Re-fitting (1 month after V7): Patient requested new prescription. Agreed to proceed with RICs but with a different style of custom earmolds for better retention.",
+            "tests": []
+          },
+          {
+            "visit_id": "V9",
+            "collective_interpretation": "Final Follow-up (3 months after V8): Patient reported significant benefit and successful use with wife's assistance.",
+            "tests": []
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

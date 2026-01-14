@@ -1,0 +1,39 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T22:25:50Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case009_04_ground_truth_pdf_outcome.json",
+    "case_key": "9_4",
+    "remark": "V1 ABR: Left ear missing Wave II; should state Waves I–III present (normal latencies).\nV1: Missing DR (Duration Recognition) and Duration Patterns (D.Patt.).",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_9-4.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_9-4.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated ABR result summary to explicitly state Waves I, II, and III are present in the Left Ear, as noted in the case comments.",
+      "Added Duration Recognition (normal) and Duration Patterns (abnormal/bilaterally depressed) to the Central Auditory Processing Tests result summary based on Figure 9-10."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/4/result_summary",
+        "value": "Abnormal bilaterally. Left Ear: Waves I, II, and III present with normal latencies, Wave V undetermined. Right Ear: Wave I identifiable, no other waves observed."
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/5/result_summary",
+        "value": "MLD abnormal (4 dB). Low Pass Filtered Speech normal. Dichotic Digits normal RE, depressed LE. SSW abnormal (LE depressed). Frequency Patterns abnormal (bilaterally depressed). Duration Recognition normal. Duration Patterns abnormal (bilaterally depressed)."
+      }
+    ],
+    "unresolved": []
+  }
+}

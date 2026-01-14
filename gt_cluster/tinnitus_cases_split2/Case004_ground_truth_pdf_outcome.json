@@ -58,7 +58,7 @@
           {
             "name": "Speech audiometry",
             "category": "Audiometry",
-            "result_summary": "Asymmetric WRS. Right: 46% at 75 dB HL. Left: 72% at 68 dB HL. SRT: Right 46 dB, Left 38 dB."
+            "result_summary": "Asymmetric WRS. Right: 46% at 75 dB HL; 48% at 76 dB HL. Left: 72% at 68 dB HL. SRT: Right 46 dB, Left 38 dB."
           },
           {
             "name": "Tympanometry",

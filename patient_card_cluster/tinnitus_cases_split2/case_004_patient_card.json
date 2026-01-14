@@ -64,7 +64,7 @@
           "numeric_results": {
             "Right_SRT": "46 dB",
             "Left_SRT": "38 dB",
-            "Right_WRS": "46% (at 75 dB HL)",
+            "Right_WRS": "48% (at 75 dB HL)",
             "Left_WRS": "72% (at 68 dB HL)"
           }
         },
@@ -131,6 +131,20 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2016",
+      "setting": "Follow-up",
+      "history": {
+        "present_illness": "Continued left pulsatile tinnitus occurring in the pattern of 2 to 3 days of bothersome tinnitus followed by 2 to 3 days with no tinnitus.",
+        "otologic_history": null,
+        "noise_exposure_history": null,
+        "medical_psych_history": "Taking Clonazepam for sleep disturbance related to tinnitus.",
+        "prior_management": "Inconsistent hearing instrument user; reported he 'could barely hear' his tinnitus when wearing hearing aids. Infrequent use of bedside sound conditioner.",
+        "patient_goals": "Requested surgical intervention in the left ear regardless of risks; denied by neurotologist and additional ENT physicians."
+      },
+      "tests": []
     }
   ],
   "overall_audiologic_summary": "The patient presents with bilateral asymmetric sensorineural hearing loss, significantly worse in the right ear, and asymmetric word recognition ability (poorer in the right). Tympanometry reveals significant negative pressure (Type C) in the left ear, which correlates with the reported pulsatile tinnitus and fluid sensation. The constellation of symptoms (pulsatile tinnitus, rhinorrhea, Type C tympanogram) is consistent with the confirmed diagnosis of spontaneous CSF leak.",

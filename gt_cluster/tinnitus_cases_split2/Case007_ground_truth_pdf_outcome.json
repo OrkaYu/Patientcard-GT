@@ -89,7 +89,7 @@
         "tests": [
           {
             "name": "Pure-tone audiometry",
-            "result_summary": "Right ear: Flat moderately severe SNHL (65-70 dB HL). Left ear: Moderate low-frequency loss rising to normal."
+            "result_summary": "Right ear: Flat moderately severe SNHL (65-70 dB HL). Left ear: Moderate low-frequency loss rising to normal. UCLs 100-110 dB HL."
           },
           {
             "name": "Speech audiometry",
@@ -97,11 +97,21 @@
           },
           {
             "name": "Tinnitus Assessment",
-            "result_summary": "Pitch match 9 kHz; Loudness match 14 dB SL; Residual inhibition 12 s; THI 76 (Severe); TFI 88 (Severe)."
+            "result_summary": "Pitch match 9 kHz; Loudness match 14 dB SL; Residual inhibition 12 s; THI 76 (Severe); TFI 88 (Severe); Beck Depression Inventory 10 (Normal to mild)."
           },
           {
             "name": "Immittance",
             "result_summary": "Type A tympanometry bilateral; Acoustic reflexes absent bilaterally."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Pre-fitting baseline evaluation 1 month later. Patient reported feeling more equipped to handle tinnitus but still disturbed. Permission granted to proceed with audiological evaluation and management.",
+        "tests": [
+          {
+            "name": "Tinnitus Assessment",
+            "result_summary": "THI 72 (Severe); TFI 80 (Severe); Beck Depression Inventory 3 (Normal)."
           }
         ]
       }

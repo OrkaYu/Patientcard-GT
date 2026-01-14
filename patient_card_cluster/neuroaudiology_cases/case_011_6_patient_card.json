@@ -100,11 +100,12 @@
           "numeric_results": {
             "Dichotic_Rhyme": "~20-30% (Abnormal)",
             "SSW": "~70-80% (Mild Deficit)",
-            "Dichotic_Digits_RE": "Borderline Normal (~90%)",
-            "Dichotic_Digits_LE": "Mildly Depressed (~80%)",
-            "Compressed_Speech": "~0-5% (Severely Depressed)",
+            "Dichotic_Digits_RE": "~90% (Borderline Normal)",
+            "Dichotic_Digits_LE": "~85% (Mildly Depressed)",
             "Frequency_Patterns": "~40-60% (Moderate/Severe Deficit)",
-            "Duration_Patterns": "~40-50% (Moderate/Severe Deficit)"
+            "Duration_Patterns": "~40-50% (Moderate/Severe Deficit)",
+            "Compressed_Speech_RE": "~0% (Severely Depressed)",
+            "Compressed_Speech_LE": "~27% (Severely Depressed)"
           }
         }
       ]

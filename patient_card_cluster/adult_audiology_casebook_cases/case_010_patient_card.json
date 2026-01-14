@@ -73,7 +73,15 @@
           "figure_refs": [],
           "key_findings": "Normal ear canal volume, middle ear pressure, and static compliance. Ipsilateral acoustic reflexes normal 500-4000 Hz.",
           "numeric_results": null
-        },
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {},
+      "tests": [
         {
           "name": "Auditory Hypersensitivity Assessment",
           "timepoint_label": "Baseline",
@@ -148,6 +156,7 @@
           "key_findings": "Normal phonological processing on Phonemic Synthesis and Filtered Words tests.",
           "numeric_results": {
             "Phonemic Synthesis Quantitative": "25 correct",
+            "Phonemic Synthesis Qualitative": "25 correct",
             "SCAN-3A Filtered Words": "8 (25th percentile)"
           }
         },
@@ -168,10 +177,16 @@
             "SCAN-3A Competing Words Free Recall": "5 (5th percentile) - Abnormal",
             "SCAN-3A Competing Words Directed Recall": "3 (1st percentile) - Abnormal",
             "SCAN-3A Competing Sentences": "8 (25th percentile) - Normal",
+            "SCAN-3A Ear Advantage": "Abnormal (Right > Left)",
             "SSW RC Errors": "5 (Abnormal)",
             "SSW LC Errors": "8 (Abnormal)",
+            "SSW RNC Errors": "0",
+            "SSW LNC Errors": "0",
             "SSW Reversals": "4 (Abnormal)",
-            "SSW Ear Effect LH": "Difference of -3 (Abnormal)"
+            "SSW Ear Effect LH": "4 (Abnormal)",
+            "SSW Type A": "1",
+            "SSW Order Effect": "2",
+            "SSW SIR": "0.68"
           }
         }
       ]

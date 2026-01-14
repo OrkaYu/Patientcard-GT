@@ -1,0 +1,52 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:17:38Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_011_6_patient_card.json",
+    "case_key": "11_6",
+    "remark": "V1: \"Central Auditory Processing Battery\", and severe on compressed speech (~0-5%), (RE ~0%, LE ~27%); Dichotic Digits 遗漏, Dichotic Digits: left ear mildly depressed (~85%), right ear borderline normal (~90%)",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_11-6.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_11-6.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Split 'Compressed_Speech' into specific ear values (RE ~0%, LE ~27%) as per remarks.",
+      "Updated 'Dichotic_Digits_LE' to ~85% and 'Dichotic_Digits_RE' to ~90% based on remarks and graph interpretation."
+    ],
+    "patch_ops": [
+      {
+        "op": "remove",
+        "path": "/encounters/0/tests/3/numeric_results/Compressed_Speech"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Compressed_Speech_RE",
+        "value": "~0% (Severely Depressed)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Compressed_Speech_LE",
+        "value": "~27% (Severely Depressed)"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/3/numeric_results/Dichotic_Digits_LE",
+        "value": "~85% (Mildly Depressed)"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/3/numeric_results/Dichotic_Digits_RE",
+        "value": "~90% (Borderline Normal)"
+      }
+    ],
+    "unresolved": []
+  }
+}

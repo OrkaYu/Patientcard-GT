@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:01:46Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case024_ground_truth_pdf_outcome.json",
+    "case_key": "24",
+    "remark": "Ordered list: Add Hospital Anxiety and Depression Scale (HADS).\nV2: HADS results are missing.",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case24_A_Case_of_Central_and_Peripheral_Vestibu.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case24_A_Case_of_Central_and_Peripheral_Vestibu.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Hospital Anxiety and Depression Scale (HADS) to the ordered list.",
+      "Added HADS results to V2 tests based on the text stating the patient was found to be positive for anxiety and depression via HADS."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Hospital Anxiety and Depression Scale (HADS)",
+          "urgency": "soon",
+          "rationale_short": "Screen for anxiety and depression."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Hospital Anxiety and Depression Scale (HADS)",
+          "category": "Questionnaire",
+          "result_summary": "Positive for anxiety and depression."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

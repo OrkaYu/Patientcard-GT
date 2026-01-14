@@ -43,6 +43,36 @@
         "action": "Speech-in-noise / Aided Word Recognition",
         "urgency": "routine",
         "rationale_short": "To investigate reported distortion and verify benefit of amplification configurations."
+      },
+      {
+        "action": "Electroacoustic analysis",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid performance against specifications."
+      },
+      {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid gain matches prescriptive targets."
+      },
+      {
+        "action": "MRI/CT scan",
+        "urgency": "routine",
+        "rationale_short": "To rule out retrocochlear pathology or lesions along the auditory pathway."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "routine",
+        "rationale_short": "To assess neural integrity of the auditory pathway."
+      },
+      {
+        "action": "Otoacoustic Emissions (OAE)",
+        "urgency": "routine",
+        "rationale_short": "To assess cochlear outer hair cell function."
+      },
+      {
+        "action": "Central auditory processing tests",
+        "urgency": "routine",
+        "rationale_short": "To evaluate central auditory function."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -74,12 +104,49 @@
       },
       {
         "visit_id": "V2",
-        "collective_interpretation": "Aided testing confirms binaural interference. The patient performs worse with bilateral amplification (50%) compared to the left hearing aid alone (66%), consistent with reports of distortion in the right ear.",
+        "collective_interpretation": "Initial fitting of RIC hearing aids with custom c-shells. Verified using Real Ear Measures (REM) to NAL-NL2 targets. Tinnitus program enabled.",
         "tests": [
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Verification",
+            "result_summary": "Real-ear insertion gain (REIG) within 5 dB of prescribed targets at 50, 65, and 80 dB SPL."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Patient returns (1-month follow-up) reporting distortion in the right ear. Electroacoustic analysis confirms aids are functioning correctly. Aided testing confirms binaural interference.",
+        "tests": [
+          {
+            "name": "Electroacoustic analysis",
+            "category": "Verification",
+            "result_summary": "Hearing aids meet manufacturer specifications. Directional microphone functioning as expected."
+          },
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Verification",
+            "result_summary": "Directional microphone verification completed."
+          },
           {
             "name": "Speech-in-noise / Aided Word Recognition",
             "category": "Functional",
             "result_summary": "Left monaural aided: 66%; Right monaural aided: 40%; Bilateral aided: 50%. Demonstrates binaural interference."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Fitting of BiCROS system (Transmitter Right, Receiver Left). Verified via Test Box and REM. Patient reports improved listening effort and less distortion.",
+        "tests": [
+          {
+            "name": "Test Box Verification",
+            "category": "Verification",
+            "result_summary": "Left receiver matched targets; transmitter verified to transmit signals."
+          },
+          {
+            "name": "Real Ear Measures (REM)",
+            "category": "Verification",
+            "result_summary": "Left receiver matched NAL-NL2 targets; transmitter activation eliminated the head shadow effect."
           }
         ]
       }
@@ -111,7 +178,7 @@
   },
   "follow_up_plan": {
     "timeline": "Future appointment",
-    "objective": "Fit and verify the BiCROS system and monitor patient satisfaction."
+    "objective": "Fit and verify the BiCROS system, verify remote microphone, and monitor patient satisfaction."
   },
   "expected_outcome": [
     "Test Box Verification: Left receiver hearing aid matched targets at 50, 65, and 75 dB SPL; transmitter verified to transmit signals to the receiver.",

@@ -73,6 +73,16 @@
         "action": "Acoustic reflexes",
         "urgency": "routine",
         "rationale_short": "Monitoring of neural integrity post-treatment."
+      },
+      {
+        "action": "Magnetic Resonance Imaging (MRI)",
+        "urgency": "soon",
+        "rationale_short": "To visualize the cerebellopontine angle and internal auditory canal for tumor confirmation."
+      },
+      {
+        "action": "Real ear measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid fitting and performance."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -145,7 +155,7 @@
           {
             "name": "Acoustic reflexes",
             "category": "Immittance",
-            "result_summary": "All right ipsilateral and contralateral reflexes absent."
+            "result_summary": "Acoustic reflexes absent (ipsi/contra) while overall immittance battery incomplete."
           }
         ]
       }

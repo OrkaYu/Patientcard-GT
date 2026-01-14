@@ -93,7 +93,16 @@
             "Auditory_Figure_Ground_Percentile": "5%",
             "Competing_Words_Percentile": "25%",
             "Competing_Sentences_Percentile": "1%",
-            "Time_Compressed_Sentences_Percentile": "53%"
+            "Time_Compressed_Sentences_Percentile": "53%",
+            "Competing_Words_Free_Recall_Percentile": "37%",
+            "Auditory_Figure_Ground_Plus_8dB_Percentile": "1%",
+            "Auditory_Figure_Ground_Plus_12dB_Percentile": "1%",
+            "Ear_Advantage_Auditory_Figure_Ground_0dB": "5% REA",
+            "Ear_Advantage_Filtered_Words": "10% LEA",
+            "Ear_Advantage_Competing_Words_Directed_Ear": "2% LEA",
+            "Ear_Advantage_Competing_Sentences": "15% LEA",
+            "Ear_Advantage_Auditory_Figure_Ground_Plus_12dB": "10% LEA",
+            "Ear_Advantage_Time_Compressed_Sentences": "10% LEA"
           }
         },
         {
@@ -112,7 +121,9 @@
           "numeric_results": {
             "Total_Errors": "21 (Normative data: 1.61)",
             "Right_Ear_Competing_Errors": "8 (Norm: .07)",
-            "Left_Ear_Competing_Errors": "5 (Norm: 1.2)"
+            "Left_Ear_Competing_Errors": "5 (Norm: 1.2)",
+            "Right_Ear_Non_Competing_Errors": "3 (Norm: .04)",
+            "Left_Ear_Non_Competing_Errors": "5 (Norm: .3)"
           }
         },
         {

@@ -1,0 +1,38 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T22:20:32Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case005_09_ground_truth_pdf_outcome.json",
+    "case_key": "5_9",
+    "remark": "Red flags: Missing occipital headaches and clumsiness.",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-9.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-9.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Severe occipital headaches' and 'Clumsiness' to red_flags_present as indicated in the remarks and supported by the case history."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/escalation_and_red_flags/red_flags_present/-",
+        "value": "Severe occipital headaches"
+      },
+      {
+        "op": "add",
+        "path": "/escalation_and_red_flags/red_flags_present/-",
+        "value": "Clumsiness"
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -68,6 +68,21 @@
         "action": "VEMPs (cVEMP and oVEMP)",
         "urgency": "soon",
         "rationale_short": "To assess the function of the otolith organs and vestibular nerve divisions."
+      },
+      {
+        "action": "Magnetic Resonance Imaging (MRI)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate the brain and spinal cord for structural abnormalities."
+      },
+      {
+        "action": "Computed Tomography (CT)",
+        "urgency": "soon",
+        "rationale_short": "To evaluate the brain and spinal cord for structural abnormalities."
+      },
+      {
+        "action": "Bloodwork",
+        "urgency": "soon",
+        "rationale_short": "To screen for rheumatoid arthritis, thyroid disease, autoimmune disease, and syphilis."
       }
     ],
     "expected_interpretations_by_visit": [

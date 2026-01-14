@@ -1,0 +1,83 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-05T02:02:31Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Tinnitus"
+    ],
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_002_patient_card.json",
+    "case_key": "2",
+    "remark": "Medical histroy 缺少motion sickness\nV1 缺少acoustic reflex\nV2缺少tympanometry",
+    "pdf_key": "Tinnitus_Cases_split2/Case02_Chiari_Malformation_with_Tinnitus_and_Hyperacusis.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case02_Chiari_Malformation_with_Tinnitus_and_Hyperacusis.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated problem_summary.onset to include 'motion sickness' as requested.",
+      "Added Acoustic Reflex test to V1 (encounters[0]) based on Figure 2.1 data.",
+      "Added Tympanometry test to V2 (encounters[1]) based on Figure 2.2 data and text."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/problem_summary/onset",
+        "value": "History of Chiari malformation treated with decompression surgery in Nov 2017; also history of head injury, concussion, motion sickness, and epilepsy."
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Acoustic Reflex",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.1"
+          ],
+          "key_findings": "Reflexes present.",
+          "numeric_results": {
+            "Right_Ipsi_Thresholds": "500 Hz: 80, 1000 Hz: 85, 2000 Hz: 90 dB HL",
+            "Left_Ipsi_Thresholds": "500 Hz: 85, 1000 Hz: 85, 2000 Hz: 95 dB HL",
+            "Right_Contra_Thresholds": "500 Hz: 90, 1000 Hz: 90, 2000 Hz: 95 dB HL",
+            "Left_Contra_Thresholds": "500 Hz: 90, 1000 Hz: 95, 2000 Hz: 95 dB HL"
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/-",
+        "value": {
+          "name": "Tympanometry",
+          "timepoint_label": "Pre-treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 2.2"
+          ],
+          "key_findings": "Bilateral Type A tympanograms, consistent with normal middle ear function.",
+          "numeric_results": {
+            "Right_Type": "A",
+            "Right_Pressure": "20 daPa",
+            "Right_Volume": "1.5 ml",
+            "Left_Type": "A",
+            "Left_Pressure": "25 daPa",
+            "Left_Volume": "1.8 ml"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

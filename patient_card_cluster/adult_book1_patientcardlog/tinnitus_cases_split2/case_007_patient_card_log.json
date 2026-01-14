@@ -1,0 +1,64 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-05T02:04:54Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Tinnitus"
+    ],
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_007_patient_card.json",
+    "case_key": "7",
+    "remark": "MML: 14 dB SL (34 dB HL) 应改为14 SL (48 HL)\n缺少V1和V2的Hearing threshold、Masking Noise threshold、Inhibition characteristic",
+    "pdf_key": "Tinnitus_Cases_split2/Case07_Tinnitus_in_a_Case_of_Meniere.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case07_Tinnitus_in_a_Case_of_Meniere.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added missing Hearing Threshold, Masking Noise Threshold, and Inhibition Characteristic to V1 Tinnitus Assessment based on Fig 7.3.",
+      "Updated MML in V2 Tinnitus Assessment to '14 dB SL (48 dB HL)' as requested.",
+      "Added missing Hearing Threshold, Masking Noise Threshold, and Inhibition Characteristic to V2 Tinnitus Assessment based on Fig 7.8."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/2/numeric_results/Hearing_Threshold",
+        "value": "30 dB HL (Right), 8 dB HL (Left)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/2/numeric_results/Masking_Noise_Threshold",
+        "value": "12 dB HL (Right), 4 dB HL (Binaural), 2 dB HL (Left)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/2/numeric_results/Inhibition_Characteristic",
+        "value": "Complete (Right)"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/2/numeric_results/MML",
+        "value": "14 dB SL (48 dB HL)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/2/numeric_results/Hearing_Threshold",
+        "value": "10 dB HL (Left)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/2/numeric_results/Masking_Noise_Threshold",
+        "value": "34 dB HL (Right), -6 dB HL (Binaural), -4 dB HL (Left)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/2/numeric_results/Inhibition_Characteristic",
+        "value": "Complete (Right), Complete (Binaural)"
+      }
+    ],
+    "unresolved": []
+  }
+}

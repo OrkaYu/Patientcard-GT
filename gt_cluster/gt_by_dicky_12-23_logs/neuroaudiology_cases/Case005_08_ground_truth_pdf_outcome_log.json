@@ -1,0 +1,43 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T22:20:10Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case005_08_ground_truth_pdf_outcome.json",
+    "case_key": "5_8",
+    "remark": "Scope: “Medical management of vascular compression” is outside audiologist scope.\nContent gaps: Original text has no treatment plan, referral plan, prognosis, etc. (avoid inventing).",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-8.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-8.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Removed 'Medical management of vascular compression' from proposed items as it is outside the audiologist's scope.",
+      "Removed the escalation and follow-up plans because the original text provides no specific treatment, referral, or prognosis plan, and inventing these details is to be avoided."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/treatment_and_management/proposed_items",
+        "value": []
+      },
+      {
+        "op": "remove",
+        "path": "/escalation_and_red_flags/escalation"
+      },
+      {
+        "op": "replace",
+        "path": "/follow_up_plan",
+        "value": {}
+      }
+    ],
+    "unresolved": []
+  }
+}

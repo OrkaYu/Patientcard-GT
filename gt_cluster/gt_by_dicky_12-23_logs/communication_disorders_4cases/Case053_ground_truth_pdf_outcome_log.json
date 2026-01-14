@@ -1,0 +1,89 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T21:51:18Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Comm Disorders Casebook",
+    "src_gt_key": "gt_cluster/communication_disorders_4cases/Case053_ground_truth_pdf_outcome.json",
+    "case_key": "53",
+    "remark": "Ordered list: “Comprehensive Audiologic Evaluation” is too general; must specify speech audiometry, Stenger test, tympanometry, acoustic reflexes, Western blot.\nVisits: V3 information missing (PTA, speech audiometry); JSON jumps directly to V4.",
+    "pdf_key": "audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case53_Ella.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case53_Ella.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Replaced the general 'Comprehensive Audiologic Evaluation' in the ordered list with specific tests (Speech audiometry, Stenger test, Tympanometry, Acoustic reflexes, Western blot) as requested, while retaining the existing Lab Panel and Vestibular Assessment.",
+      "Added Visit V3 to the expected interpretations to provide the missing intermediate data (PTA and speech audiometry) between V2 and V4, based on the 1990 audiogram and case notes."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/ordered_list",
+        "value": [
+          {
+            "action": "Speech audiometry",
+            "urgency": "urgent",
+            "rationale_short": "To assess word recognition abilities and functional hearing status."
+          },
+          {
+            "action": "Stenger test",
+            "urgency": "urgent",
+            "rationale_short": "To rule out non-organic hearing loss given the unilateral presentation."
+          },
+          {
+            "action": "Tympanometry",
+            "urgency": "urgent",
+            "rationale_short": "To evaluate middle ear function and rule out conductive pathology."
+          },
+          {
+            "action": "Acoustic reflexes",
+            "urgency": "urgent",
+            "rationale_short": "To assess retrocochlear function; absence in the right ear and presence in the left helps localize the lesion."
+          },
+          {
+            "action": "Western blot analysis",
+            "urgency": "urgent",
+            "rationale_short": "To investigate specific immune activity (e.g., anti-HSP70 antibodies) associated with AIED."
+          },
+          {
+            "action": "Laboratory Blood Panel (ESR, CRP, ANA)",
+            "urgency": "urgent",
+            "rationale_short": "To screen for inflammatory or autoimmune markers; elevated ESR is a key diagnostic indicator for AIED."
+          },
+          {
+            "action": "Vestibular Assessment (ENG/VNG)",
+            "urgency": "soon",
+            "rationale_short": "To assess peripheral vestibular function given the history of severe vertigo and unsteadiness."
+          }
+        ]
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "Intermediate follow-up showing progression of hearing loss in the left ear while maintaining good speech recognition.",
+          "tests": [
+            {
+              "name": "Pure-tone audiometry",
+              "category": "Audiometry",
+              "result_summary": "Right ear: Anacusis. Left ear: Moderate sloping sensorineural hearing loss (approx. 40-80 dB)."
+            },
+            {
+              "name": "Speech audiometry",
+              "category": "Audiometry",
+              "result_summary": "Excellent word recognition scores in quiet environments."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

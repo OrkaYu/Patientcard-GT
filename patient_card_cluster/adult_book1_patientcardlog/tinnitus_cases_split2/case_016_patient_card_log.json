@@ -1,0 +1,37 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-05T02:06:30Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Tinnitus"
+    ],
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_016_patient_card.json",
+    "case_key": "16",
+    "remark": "V1缺少4000 Hz和6000Hz 的pure tone threshold",
+    "pdf_key": "Tinnitus_Cases_split2/Case16_Hyperacusis_and_Military_Noise_Exposure.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case16_Hyperacusis_and_Military_Noise_Exposure.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Extracted 4000 Hz (20 dB HL) and 6000 Hz (30 dB HL) thresholds from Figure 16.1 (Left Panel) as requested by remarks."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/4000 Hz",
+        "value": "20 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/6000 Hz",
+        "value": "30 dB HL"
+      }
+    ],
+    "unresolved": []
+  }
+}

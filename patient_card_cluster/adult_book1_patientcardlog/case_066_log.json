@@ -1,0 +1,33 @@
+{
+  "status": "patched",
+  "case_id": "Case066",
+  "timestamp_utc": "2025-12-28T20:28:42Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/66_66_Recommendation_and_Verification_of_a_Personally.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/66_66_Recommendation_and_Verification_of_a_Personally.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_066_patient_card.json",
+    "remark": "缺少3000 Hz LDL: \"RE_3000Hz\": \"85 dB HL (103.0 dB SPL)\", \"LE_3000Hz\": \"75 dB HL (96.1 dB SPL)\"",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added missing 3000 Hz LDL values for Right and Left ears to the Loudness Discomfort Levels test results."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/4/numeric_results/RE_3000Hz",
+        "value": "85 dB HL (103.0 dB SPL)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/4/numeric_results/LE_3000Hz",
+        "value": "75 dB HL (96.1 dB SPL)"
+      }
+    ],
+    "unresolved": []
+  }
+}

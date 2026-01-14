@@ -20,6 +20,11 @@
   "investigations_and_interpretations": {
     "ordered_list": [
       {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To assess the ear canal and tympanic membrane."
+      },
+      {
         "action": "Pure-tone audiometry",
         "urgency": "routine",
         "rationale_short": "To assess hearing sensitivity and configuration given the complaint of auditory hallucinations and tinnitus."
@@ -63,6 +68,11 @@
         "action": "Vestibular testing",
         "urgency": "routine",
         "rationale_short": "Comprehensive assessment (VNG, Dix-Hallpike, calorics) as part of a research study protocol."
+      },
+      {
+        "action": "Neurological exams (MRI, EKG, EEG, MRA)",
+        "urgency": "routine",
+        "rationale_short": "To identify the origin of the perceived music and rule out central pathology."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -114,6 +124,28 @@
             "name": "Vestibular testing",
             "category": "Vestibular",
             "result_summary": "VNG, Dix-Hallpike, and bithermal caloric testing were all within normal limits."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Repeat SOAE testing 2 weeks later confirmed the initial findings.",
+        "tests": [
+          {
+            "name": "Spontaneous otoacoustic emissions (SOAEs)",
+            "category": "OAEs",
+            "result_summary": "Repeated 2 weeks later with same result (Present Right, Absent Left)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Patient elected to continue wearing hearing instruments. After 3 months, reported significant improvement in ability to recognize speech but no reduction in musical hallucinations. Reported gradual habituation and rated perception as half as annoying.",
+        "tests": [
+          {
+            "name": "Follow-up Assessment",
+            "category": "Outcome",
+            "result_summary": "Significant speech improvement; habituation to hallucinations; no reduction in hallucination intensity."
           }
         ]
       }

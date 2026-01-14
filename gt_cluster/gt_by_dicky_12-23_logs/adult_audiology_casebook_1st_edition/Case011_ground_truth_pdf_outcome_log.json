@@ -1,0 +1,53 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:33:01Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case011_ground_truth_pdf_outcome.json",
+    "case_key": "11",
+    "remark": "Ordered list: Add MRI and REM.\nV3: Reconcile note “immittance testing not completed” with described acoustic reflex results by stating: acoustic reflexes absent (ipsi/contra) while overall immittance battery incomplete.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/11_11_Gamma_Knife_Treatment_for_Acoustic_Tumor.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/11_11_Gamma_Knife_Treatment_for_Acoustic_Tumor.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added MRI and REM to the ordered list of investigations.",
+      "Updated V3 acoustic reflex result summary to reconcile the absence of reflexes with the note about incomplete immittance testing."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Magnetic Resonance Imaging (MRI)",
+          "urgency": "soon",
+          "rationale_short": "To visualize the cerebellopontine angle and internal auditory canal for tumor confirmation."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Real ear measures (REM)",
+          "urgency": "routine",
+          "rationale_short": "To verify hearing aid fitting and performance."
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests/2/result_summary",
+        "value": "Acoustic reflexes absent (ipsi/contra) while overall immittance battery incomplete."
+      }
+    ],
+    "unresolved": []
+  }
+}

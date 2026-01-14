@@ -1,0 +1,43 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T22:23:28Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case007_04_ground_truth_pdf_outcome.json",
+    "case_key": "7_4",
+    "remark": "V1: Missing DR (Dichotic Rhyme).\nV2: Missing speech audiometry.",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-4.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-4.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Dichotic Rhyme (Normal) to V1 Central Auditory Processing Battery results. The test appears in the graph (DR*) but is not listed among the deficits in the text, implying normal performance.",
+      "Added Speech audiometry to V2 tests as the text states speech recognition scores were essentially unchanged (normal) after abscess resolution."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/2/result_summary",
+        "value": "Marked LE deficits on SSW (~20%), Dichotic Digits (0%), NU#20 (0%), and LPFS (~40%). Bilateral deficit on Frequency Patterns (0%). Dichotic Rhyme (Normal)."
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/1",
+        "value": {
+          "name": "Speech audiometry",
+          "category": "Peripheral",
+          "result_summary": "Essentially unchanged; normal speech recognition scores."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

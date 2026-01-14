@@ -68,6 +68,16 @@
         "action": "Frequency Patterns (FP)",
         "urgency": "routine",
         "rationale_short": "Assess temporal patterning."
+      },
+      {
+        "action": "Hearing aid analyzer assessment",
+        "urgency": "routine",
+        "rationale_short": "Verify hearing aids meet manufacturer specifications for gain, distortion, and output."
+      },
+      {
+        "action": "Hearing aid verification",
+        "urgency": "routine",
+        "rationale_short": "Verify real-ear insertion gain (REIG) meets NAL-NL2 targets."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -106,6 +116,11 @@
         "visit_id": "V2",
         "collective_interpretation": "Central Auditory Processing (CAP) assessment revealed Amblyaudia, characterized by a severe deficit in binaural integration with marked left-ear dominance on the Competing Sentences test. Other tests showed smaller asymmetries or deficits consistent with SNHL. Memory screening confirmed cognitive ability to complete the battery.",
         "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "No significant change in hearing status."
+          },
           {
             "name": "Memory Screening",
             "category": "Screening",

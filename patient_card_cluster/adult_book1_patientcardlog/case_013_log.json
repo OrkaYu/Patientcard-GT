@@ -1,0 +1,111 @@
+{
+  "status": "patched",
+  "case_id": "Case013",
+  "timestamp_utc": "2025-12-28T20:12:07Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/13_13_Auditory_Nerve_Disorder_Structure_versus_Functi.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/13_13_Auditory_Nerve_Disorder_Structure_versus_Functi.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_013_patient_card.json",
+    "remark": "缺少V2数据，5年后的follow up数据",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 encounter for the 5-year follow-up visit as requested.",
+      "Included pure-tone, speech, tympanometry, and acoustic reflex data for V2 based on Section 13.6 and Figure 13.3."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": "5 years post-initial visit",
+          "setting": "Audiology Clinic",
+          "history": {
+            "interval_history": "Patient returned for follow-up 5 years later at age 39. He had previously decided to forgo surgical treatment for his bilateral vestibular schwannomas.",
+            "present_illness": "Hearing sensitivity has decreased substantially in both ears."
+          },
+          "tests": [
+            {
+              "name": "Pure-tone audiometry",
+              "timepoint_label": "5-year follow-up",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 13.3"
+              ],
+              "key_findings": "Left ear: Moderate mid-frequency sensorineural hearing loss. Right ear: Moderate to severe high-frequency sensorineural hearing loss.",
+              "numeric_results": {
+                "Left_Ear_Configuration": "Moderate mid-frequency SNHL",
+                "Right_Ear_Configuration": "Moderate to severe high-frequency SNHL"
+              }
+            },
+            {
+              "name": "Speech audiometry",
+              "timepoint_label": "5-year follow-up",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 13.3"
+              ],
+              "key_findings": "Left ear WRS consistent with cochlear loss. Right ear WRS disproportionately poor (retrocochlear).",
+              "numeric_results": {
+                "Left_WRS": "70% at 80 dB HL",
+                "Right_WRS": "0% at all intensities"
+              }
+            },
+            {
+              "name": "Tympanometry",
+              "timepoint_label": "5-year follow-up",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 13.3"
+              ],
+              "key_findings": "Normal middle ear function bilaterally.",
+              "numeric_results": {
+                "Tympanogram_Type": "Type A bilateral"
+              }
+            },
+            {
+              "name": "Acoustic reflexes",
+              "timepoint_label": "5-year follow-up",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 13.3"
+              ],
+              "key_findings": "Right ear stimulation: Absent reflexes. Left ear stimulation: Contralateral (Probe Right) present; Ipsilateral (Probe Left) absent (suggesting left facial nerve involvement).",
+              "numeric_results": {
+                "Left_Contra_Reflex": "Present/Normal",
+                "Left_Ipsi_Reflex": "Absent",
+                "Right_Stimulus_Reflexes": "Absent"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

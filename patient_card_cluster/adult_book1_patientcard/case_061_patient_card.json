@@ -90,6 +90,16 @@
           "numeric_results": {
             "DPOAEs": "Absent bilaterally"
           }
+        },
+        {
+          "name": "Hearing Aid Verification",
+          "timepoint_label": "Pre-op Baseline",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Current ITE hearing aids verified to be underamplifying to adult DSL targets."
         }
       ]
     },
@@ -160,7 +170,8 @@
             "HINT_Quiet_Binaural_50dBHL": "59%",
             "CNC_Words_Binaural_50dBHL": "32%",
             "HINT_Quiet_Right_60dBHL": "51%",
-            "HINT_Quiet_Left_60dBHL": "30%"
+            "HINT_Quiet_Left_60dBHL": "30%",
+            "HINT_Quiet_Binaural_60dBHL": "85%"
           }
         },
         {
@@ -176,6 +187,45 @@
           "numeric_results": {
             "waveforms": "Wave I, III, V complex present at threshold and suprathreshold",
             "diagnosis": "Ruled out ANSD"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "Post-operative Follow-up",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up after cochlear implantation and activation."
+      },
+      "tests": [
+        {
+          "name": "Aided Soundfield Thresholds",
+          "timepoint_label": "Post-op",
+          "ear": "left",
+          "condition": "aided (CI)",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 61.3"
+          ],
+          "key_findings": "Improved thresholds compared to pre-op aids; stable over time."
+        },
+        {
+          "name": "Speech Perception",
+          "timepoint_label": "Post-op",
+          "ear": "left",
+          "condition": "aided (CI)",
+          "sources": ["text","image"],
+          "figure_refs": ["Fig. 61.4"],
+          "key_findings": "Significant benefit; HINT scores improved significantly compared to pre-op.",
+          "numeric_results": {
+            "HINT_+10_5mo": "~65%",
+            "HINT_+10_2.7yr": "~75%",
+            "CNC_2mo": "~38%",
+            "CNC_2.7yr": "~65%"
           }
         }
       ]

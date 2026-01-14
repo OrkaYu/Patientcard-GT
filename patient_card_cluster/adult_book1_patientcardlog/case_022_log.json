@@ -1,0 +1,33 @@
+{
+  "status": "patched",
+  "case_id": "Case022",
+  "timestamp_utc": "2025-12-28T20:17:16Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/22_22_One_Patient_with_Two_Audiological_Examinations.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/22_22_One_Patient_with_Two_Audiological_Examinations.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_022_patient_card.json",
+    "remark": "V2的WRS 结果左右互换",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Swapped V2 WRS results for Right and Left ears as per remarks."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/1/numeric_results/WRS_Right",
+        "value": "92% at 65 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/1/numeric_results/WRS_Left",
+        "value": "96% at 50 dB HL"
+      }
+    ],
+    "unresolved": []
+  }
+}

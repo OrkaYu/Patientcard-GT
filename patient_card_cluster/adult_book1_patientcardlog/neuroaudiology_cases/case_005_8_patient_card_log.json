@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:09:32Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_005_8_patient_card.json",
+    "case_key": "5_8",
+    "remark": "v1 的test name，有三个other，应改为完整测试名，Auditory Brainstem Response (ABR)，Dichotic Digit Test，Radiologic Findings (Arteriogram/MRI)",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-8.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-8.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated test name for ABR from 'Other' to 'Auditory Brainstem Response (ABR)'",
+      "Updated test name for Dichotic Digit Test from 'Other' to 'Dichotic Digit Test'",
+      "Updated test name for Radiologic Findings from 'Other' to 'Radiologic Findings (Arteriogram/MRI)'"
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/4/name",
+        "value": "Auditory Brainstem Response (ABR)"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/5/name",
+        "value": "Dichotic Digit Test"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/6/name",
+        "value": "Radiologic Findings (Arteriogram/MRI)"
+      }
+    ],
+    "unresolved": []
+  }
+}

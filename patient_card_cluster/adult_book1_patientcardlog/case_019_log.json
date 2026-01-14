@@ -1,0 +1,101 @@
+{
+  "status": "patched",
+  "case_id": "Case019",
+  "timestamp_utc": "2025-12-28T20:15:06Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/19_19_My_Hearing_Aids_Do_Not_Help_Me_at_All.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/19_19_My_Hearing_Aids_Do_Not_Help_Me_at_All.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_019_patient_card.json",
+    "remark": "V1 的SRT_Right和SRT_Left 都改为\"40 dB HL\"\n增加\"PTA_Right\": \"35 dB HL\" 和\"PTA_Left\": \"33 dB HL\"\n缺少hearing aid verification的数据\nV2 缺少ALLR，memory screening",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V1 SRT values to 40 dB HL as requested.",
+      "Added PTA values to V1 Speech Audiometry numeric_results.",
+      "Added 'Hearing Aid Verification' test to V1 covering electroacoustic analysis and REIG.",
+      "Added 'Auditory Late Latency Response (ALLR)' and 'Memory Screening' tests to V2."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Right",
+        "value": "40 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Left",
+        "value": "40 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/1/numeric_results/PTA_Right",
+        "value": "35 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/1/numeric_results/PTA_Left",
+        "value": "33 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Hearing Aid Verification",
+          "timepoint_label": "During HA Trial",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Hearing aids performing within manufacturer specifications. Real-ear insertion gain (REIG) met NAL-NL2 targets.",
+          "numeric_results": null
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/-",
+        "value": {
+          "name": "Auditory Late Latency Response (ALLR)",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 19.3"
+          ],
+          "key_findings": "Degraded waveform morphology and poor repeatability bilaterally. Waves N1 and P1 identified at latencies and amplitudes within normal limits.",
+          "numeric_results": {
+            "Stimulus": "1000 Hz tone-burst at 90 dB nHL"
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/-",
+        "value": {
+          "name": "Memory Screening",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Passed screening assessment of short-term and working memory (TAPS-R subtests).",
+          "numeric_results": {
+            "Result": "Pass"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

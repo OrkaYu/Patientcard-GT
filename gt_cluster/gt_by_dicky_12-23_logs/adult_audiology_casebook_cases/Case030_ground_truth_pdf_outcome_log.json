@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:02:48Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case030_ground_truth_pdf_outcome.json",
+    "case_key": "30",
+    "remark": "Ordered list: Add MRI.\nV1: Include MRI.",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case30_A_Case_of_Definite_Meniere_s_Disease_Uni.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case30_A_Case_of_Definite_Meniere_s_Disease_Uni.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added MRI to the ordered list as it was completed and found to be normal.",
+      "Included MRI results in the V1 interpretations."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "MRI",
+          "urgency": "routine",
+          "rationale_short": "To rule out retrocochlear pathology."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/-",
+        "value": {
+          "name": "MRI",
+          "category": "Imaging",
+          "result_summary": "Normal."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

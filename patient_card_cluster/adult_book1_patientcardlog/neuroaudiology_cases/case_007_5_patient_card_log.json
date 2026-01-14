@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:13:52Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_007_5_patient_card.json",
+    "case_key": "7_5",
+    "remark": "Tests: 缺少Competing speech",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-5.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-5.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Renamed 'Competing Sentences' to 'Competing speech' in the central behavioral test battery (Test 3) based on the user remark and chart labels (Figure 7-26 lists 'Comp Speech'). The existing values were likely misattributed to Competing Sentences."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/2/key_findings",
+        "value": "Central behavioral test battery. Dichotic Rhyme Test showed mild right ear deficit. Dichotic Digits showed mild bilateral deficit (RE poorer than LE). Duration Patterns Test showed severe bilateral deficit. Competing speech (inferred from chart) showed bilateral deficits below normal range."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/2/numeric_results",
+        "value": {
+          "Dichotic_Digits_LE": "~80%",
+          "Dichotic_Digits_RE": "~70%",
+          "Duration_Patterns_LE": "~15%",
+          "Duration_Patterns_RE": "~15%",
+          "Competing_Speech_LE": "~30%",
+          "Competing_Speech_RE": "~50%"
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -30,6 +30,16 @@
         "rationale_short": "Assess central oculomotor function, specifically looking for disconjugate eye movements consistent with INO."
       },
       {
+        "action": "Video-oculography (Smooth Pursuit)",
+        "urgency": "routine",
+        "rationale_short": "Evaluate central vestibular function; sensitive to central pathology."
+      },
+      {
+        "action": "Video-oculography (Optokinetics)",
+        "urgency": "routine",
+        "rationale_short": "Assess central oculomotor function using full-field visual stimulation."
+      },
+      {
         "action": "Bithermal Caloric Irrigation",
         "urgency": "routine",
         "rationale_short": "Assess lateral semicircular canal function and determine if a peripheral vestibular weakness exists."
@@ -64,6 +74,16 @@
             "name": "Video-oculography (Saccades)",
             "category": "Vestibular",
             "result_summary": "Disconjugate saccades consistent with Right INO; lag noted in the right (adducting) eye when moving leftward."
+          },
+          {
+            "name": "Video-oculography (Smooth Pursuit)",
+            "category": "Vestibular",
+            "result_summary": "Normal results."
+          },
+          {
+            "name": "Video-oculography (Optokinetics)",
+            "category": "Vestibular",
+            "result_summary": "Normal results."
           },
           {
             "name": "Bithermal Caloric Irrigation",

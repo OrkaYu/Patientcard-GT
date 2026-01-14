@@ -1,0 +1,64 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:37:06Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case016_ground_truth_pdf_outcome.json",
+    "case_key": "16",
+    "remark": "Ordered list: Add HADS and caloric testing.\nV2: Add initial & follow‑up PTA; tympanometry; vestibular evaluation details (bithermal caloric normal, Dix‑Hallpike/roll negative, pursuit/saccades normal, Valsalva negative, platform pressure normal).",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/16_Part_2.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/16_Part_2.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added HADS and Caloric testing to the ordered list.",
+      "Added Tympanometry to V2 tests.",
+      "Updated V2 Vestibular Evaluation result summary to include specific details (caloric, Dix-Hallpike, pursuit/saccades, Valsalva, platform pressure) as requested.",
+      "Initial and Follow-up PTA were already present in V2, so no changes were made to those entries."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Hospital Anxiety and Depression Scale (HADS)",
+          "urgency": "routine",
+          "rationale_short": "To screen for anxiety and depression as part of the vestibular evaluation."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Caloric testing",
+          "urgency": "routine",
+          "rationale_short": "To assess peripheral vestibular function (lateral semicircular canals)."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Tympanometry",
+          "category": "Immittance",
+          "result_summary": "Normal middle ear pressure and compliance bilaterally; multiple-peaked tympanogram in the right ear."
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/7/result_summary",
+        "value": "VNG, Rotary Chair, and Posturography normal. Bithermal caloric normal, Dix‑Hallpike/roll negative, pursuit/saccades normal, Valsalva negative, platform pressure normal. VEMPs normal left, absent right (likely secondary to middle ear surgeries)."
+      }
+    ],
+    "unresolved": []
+  }
+}

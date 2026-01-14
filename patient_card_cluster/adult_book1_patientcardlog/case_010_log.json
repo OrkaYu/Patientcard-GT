@@ -1,0 +1,34 @@
+{
+  "status": "patched",
+  "case_id": "Case010",
+  "timestamp_utc": "2025-12-28T20:09:38Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/10_10_A_Case_of_Mistaken_Identity.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/10_10_A_Case_of_Mistaken_Identity.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_010_patient_card.json",
+    "remark": "\"SRT_Right\": \"33 dB HL\", 应改为35\n\"SRT_Left\": \"28 dB HL\", 应改为30",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected SRT_Right to 35 dB HL based on remarks and text confirmation.",
+      "Corrected SRT_Left to 30 dB HL based on remarks and text confirmation."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Right",
+        "value": "35 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Left",
+        "value": "30 dB HL"
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -124,6 +124,85 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "Post-diagnosis",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned for fitting of sound generators.",
+        "treatment_plan": "Fitted bilaterally with General Hearing Instruments, Inc. custom ITE white-noise sound generators. Recommended protocol: wear for at least 8 hours/day, gradually increasing to Comfortable Listening Level (CLL)."
+      },
+      "tests": []
+    },
+    {
+      "visit_id": "V3",
+      "date": "2 weeks post-fitting",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up visit 2 weeks after fitting.",
+        "outcome": "Patient reported the sound generators seemed to be helping and did not exacerbate her headaches."
+      },
+      "tests": []
+    },
+    {
+      "visit_id": "V4",
+      "date": "11 months post-treatment start",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "11-month follow-up.",
+        "outcome": "Patient reported wearing sound generators consistently for 7 months, now 30-60 minutes/day. Tinnitus no longer interferes with sleep. No longer taking headache medications.",
+        "tinnitus_status": "Awareness reduced to 10% of awake time; disturbance reduced to 5%."
+      },
+      "tests": [
+        {
+          "name": "Loudness Discomfort Levels (LDLs)",
+          "timepoint_label": "11-month follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "Table 68.2"
+          ],
+          "key_findings": "Significant improvement in loudness tolerance; LDLs > 90 dB HL.",
+          "numeric_results": {
+            "Right Ear 500 Hz": "96 dB HL",
+            "Right Ear 1000 Hz": "96 dB HL",
+            "Right Ear 2000 Hz": "94 dB HL",
+            "Right Ear 4000 Hz": "98 dB HL",
+            "Left Ear 500 Hz": "94 dB HL",
+            "Left Ear 1000 Hz": "96 dB HL",
+            "Left Ear 2000 Hz": "92 dB HL",
+            "Left Ear 4000 Hz": "96 dB HL"
+          }
+        },
+        {
+          "name": "Tinnitus Reaction Questionnaire (TRQ)",
+          "timepoint_label": "11-month follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "Fig. 68.2"
+          ],
+          "key_findings": "Score reduced to 3, indicating no significant disturbance.",
+          "numeric_results": {
+            "Total Score": "3"
+          }
+        },
+        {
+          "name": "Subjective Tinnitus Ratings",
+          "timepoint_label": "11-month follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Significant reduction in awareness and disturbance.",
+          "numeric_results": {
+            "Awareness (awake time)": "10%",
+            "Disturbance/Bother (awake time)": "5%"
+          }
+        }
+      ]
     }
   ],
   "overall_audiologic_summary": "The patient presents with normal hearing sensitivity, speech recognition, and middle ear function. However, she exhibits significant hyperacusis, evidenced by reduced Loudness Discomfort Levels (LDLs) ranging from 70–76 dB HL bilaterally. Tinnitus assessment reveals high distress (TRQ score 40) and constant awareness (100% of awake time), with symptoms heavily influenced by environmental sounds and perceived electrical emissions.",

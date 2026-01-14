@@ -1,0 +1,38 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:31:30Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case009_ground_truth_pdf_outcome.json",
+    "case_key": "9",
+    "remark": "Ordered list: Add otoscopy.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/09_9_An_Unexpected_Case_of_Otosclerosis.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/09_9_An_Unexpected_Case_of_Otosclerosis.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Otoscopy' to the beginning of the ordered list of investigations, corresponding to the initial unremarkable otoscopy mentioned in section 9.2, distinct from the later microscopic otoscopy."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/0",
+        "value": {
+          "action": "Otoscopy",
+          "urgency": "routine",
+          "rationale_short": "To inspect the external auditory canal and tympanic membrane."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

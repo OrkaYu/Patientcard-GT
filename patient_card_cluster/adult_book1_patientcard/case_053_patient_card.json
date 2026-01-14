@@ -120,7 +120,56 @@
             "Telephone_Use": "Landline, wants acoustic coupling",
             "Preference": "Wants to try two aids"
           }
+        },
+        {
+          "name": "COSI (Client Oriented Scale of Improvement)",
+          "timepoint_label": "Baseline",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Administered to identify listening goals. Specific item included ability to hear the television better.",
+          "numeric_results": {
+            "Goals": "Hear television better"
+          }
         }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2013-04-27",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Returned for 30-day follow-up. Reported adjusting well and finding aids beneficial in most situations. Primary complaint was difficulty hearing over the phone. Also reported wind noise was loud when gardening.",
+        "patient_goals": "Improve phone communication; manage wind noise."
+      },
+      "tests": [
+        {
+          "name": "Amplified Telephone Trial",
+          "timepoint_label": "30-day follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient used the amplified telephone available in the clinic and reported it was much better than her phone at home."
+        },
+        {
+          "name": "Hearing Aid Check",
+          "timepoint_label": "30-day follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Wind program (Program #4) checked and found to be working well. Patient had forgotten to use it."
+        }
+      ],
+      "counseling_points": [
+        "Recommended purchasing an amplified telephone similar to the one in the clinic.",
+        "Reinstructed patient to use Program #4 when outdoors/gardening."
       ]
     }
   ],

@@ -20,6 +20,11 @@
         "rationale_short": "To assess middle ear function (declined by patient due to intolerance)."
       },
       {
+        "action": "Real Ear Measures (REM)",
+        "urgency": "routine",
+        "rationale_short": "To verify hearing aid fitting (could not be performed as patient resisted probe insertion)."
+      },
+      {
         "action": "Other",
         "urgency": "routine",
         "rationale_short": "Aided sound-field thresholds to assess functional gain with current hearing aids."

@@ -1,0 +1,79 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:28:21Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case004_ground_truth_pdf_outcome.json",
+    "case_key": "4",
+    "remark": "Ordered list: ABR and ASSR missing.\nSpeech audiometry: Left ear WRS very poor (26–28% at 92 dB HL). Right ear WRS missing.\nTimeline: Expected outcome should belong to V2.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/04_4_Functional_Hearing_Loss.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/04_4_Functional_Hearing_Loss.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added ABR and ASSR to the ordered list of investigations.",
+      "Updated Speech audiometry results to include missing Right Ear WRS (80% at 66 dB HL) and updated Left Ear WRS to 26-28% as per remarks.",
+      "Moved the content of expected_outcome to a new visit V2 in expected_interpretations_by_visit and cleared the expected_outcome field."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Auditory Brainstem Response (ABR)",
+          "urgency": "soon",
+          "rationale_short": "To estimate organic hearing sensitivity."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Auditory Steady-State Response (ASSR)",
+          "urgency": "soon",
+          "rationale_short": "To estimate organic hearing sensitivity."
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/2/result_summary",
+        "value": "Right ear SRT (26 dB HL) elevated compared to PTA (poor agreement); WRS 80% at 66 dB HL. Left ear SRT (56 dB HL) agrees with voluntary PTA but WRS is very poor (26-28% at 92 dB HL)."
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "ASSR test results indicated hearing to be within normal limits in the right ear and a mild to moderate hearing loss in the left ear at 250 to 2000 Hz. ABR waveforms were established with Wave V peaks identified at 40 dB nHL bilaterally, indicating no more than a mild hearing loss in either ear between 2000 and 4000 Hz. The patient was counseled regarding the results and that a functional hearing loss was suspected. The patient was referred for a repeat audiogram.",
+          "tests": [
+            {
+              "name": "Auditory Steady-State Response (ASSR)",
+              "category": "Electrophysiology",
+              "result_summary": "Right ear within normal limits. Left ear mild to moderate hearing loss at 250-2000 Hz."
+            },
+            {
+              "name": "Auditory Brainstem Response (ABR)",
+              "category": "Electrophysiology",
+              "result_summary": "Wave V peaks identified at 40 dB nHL bilaterally, indicating no more than mild hearing loss between 2000-4000 Hz."
+            }
+          ]
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/expected_outcome",
+        "value": []
+      }
+    ],
+    "unresolved": []
+  }
+}

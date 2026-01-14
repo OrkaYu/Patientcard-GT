@@ -53,6 +53,16 @@
         "action": "Radiology (Brain Print/MRI)",
         "urgency": "routine",
         "rationale_short": "To quantify the extent and location of bilateral brain lesions."
+      },
+      {
+        "action": "Frequency Patterns Test",
+        "urgency": "routine",
+        "rationale_short": "To assess central auditory temporal processing and interhemispheric transfer."
+      },
+      {
+        "action": "Intensity Discrimination",
+        "urgency": "routine",
+        "rationale_short": "To evaluate intensity difference limens using a modified SISI technique."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -117,6 +127,14 @@
             "name": "Other",
             "category": "Radiology",
             "result_summary": "MRI/Brain Print: Extensive Right Hemisphere damage (Temporal 64%, Heschl's 100%); Left Hemisphere damage focal (Temporal 7%, Heschl's 100%)."
+          },
+          {
+            "name": "Frequency Patterns Test",
+            "result_summary": "Pediatric version: 6 mo 30% AU; 10 mo RE 80%, LE 47%; 18 mo RE 60%, LE 30%; >2 yrs 100% AU."
+          },
+          {
+            "name": "Intensity Discrimination",
+            "result_summary": "Modified SISI (1000 Hz, 60 dB HL): 6 mo RE detected 2 dB (100%), LE failed 6 dB. 14 mo RE detected 1 dB (35%), LE detected 4 dB (100%)."
           }
         ]
       }

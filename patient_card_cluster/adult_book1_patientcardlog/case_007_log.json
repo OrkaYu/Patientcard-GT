@@ -1,0 +1,28 @@
+{
+  "status": "patched",
+  "case_id": "Case007",
+  "timestamp_utc": "2025-12-28T20:07:44Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/07_7_Acoustic_Neuroma.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/07_7_Acoustic_Neuroma.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_007_patient_card.json",
+    "remark": "\"Stim_Left_Contra\": 修改为\"Normal at 500/1k/2k; Elevated (105 dB) at 4k\"",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated 'Stim_Left_Contra' in Acoustic Reflexes numeric results to reflect that 2k Hz is considered normal in the contralateral condition, aligning with the text description despite the table value of 105 dB."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/3/numeric_results/Stim_Left_Contra",
+        "value": "Normal at 500/1k/2k; Elevated (105 dB) at 4k"
+      }
+    ],
+    "unresolved": []
+  }
+}

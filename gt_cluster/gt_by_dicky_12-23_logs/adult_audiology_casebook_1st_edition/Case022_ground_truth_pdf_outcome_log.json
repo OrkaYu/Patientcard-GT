@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:39:07Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case022_ground_truth_pdf_outcome.json",
+    "case_key": "22",
+    "remark": "Red flags: Add asymmetric hearing loss, new dizziness after stopping medication, family history.\nV2 speech audiometry: Update to Right WRS 92%, Left WRS 96%; Right SRT 25 dB, Left SRT 40 dB.",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/22_22_One_Patient_with_Two_Audiological_Examinations.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/22_22_One_Patient_with_Two_Audiological_Examinations.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V2 speech audiometry results to reflect corrected values: Right SRT 25 dB, Right WRS 92%, Left WRS 96%.",
+      "Added specified red flags."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/1/result_summary",
+        "value": "SRTs consistent with PTAs (Right 25 dB, Left 40 dB). Excellent word recognition (Right 92%, Left 96%)."
+      },
+      {
+        "op": "replace",
+        "path": "/escalation_and_red_flags/red_flags_present",
+        "value": [
+          "Asymmetric hearing loss",
+          "New dizziness after stopping medication",
+          "Family history"
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

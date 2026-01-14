@@ -83,6 +83,16 @@
         "action": "Psychiatric Consult",
         "urgency": "routine",
         "rationale_short": "To evaluate for anxiety, depression, or other contributors to functional symptoms."
+      },
+      {
+        "action": "Hospital Anxiety and Depression Scale (HADS)",
+        "urgency": "routine",
+        "rationale_short": "To screen for anxiety and depression as part of the vestibular evaluation."
+      },
+      {
+        "action": "Caloric testing",
+        "urgency": "routine",
+        "rationale_short": "To assess peripheral vestibular function (lateral semicircular canals)."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -139,7 +149,12 @@
           {
             "name": "Vestibular Evaluation",
             "category": "Vestibular",
-            "result_summary": "VNG, Rotary Chair, and Posturography normal. VEMPs normal left, absent right (likely secondary to middle ear surgeries)."
+            "result_summary": "VNG, Rotary Chair, and Posturography normal. Bithermal caloric normal, Dix‑Hallpike/roll negative, pursuit/saccades normal, Valsalva negative, platform pressure normal. VEMPs normal left, absent right (likely secondary to middle ear surgeries)."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal middle ear pressure and compliance bilaterally; multiple-peaked tympanogram in the right ear."
           }
         ]
       },

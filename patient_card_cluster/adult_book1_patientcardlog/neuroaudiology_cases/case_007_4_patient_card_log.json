@@ -1,0 +1,43 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:11:16Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_007_4_patient_card.json",
+    "case_key": "7_4",
+    "remark": "V2 缺少speech audiometry",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-4.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_7-4.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added missing Speech audiometry test to V2 based on text stating findings were essentially unchanged from the initial evaluation."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/1",
+        "value": {
+          "name": "Speech audiometry",
+          "timepoint_label": "Post-treatment (Resolved)",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Essentially unchanged from initial evaluation (normal speech recognition scores).",
+          "numeric_results": null
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

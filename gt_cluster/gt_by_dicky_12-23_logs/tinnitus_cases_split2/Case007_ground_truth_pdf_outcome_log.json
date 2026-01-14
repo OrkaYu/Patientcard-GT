@@ -1,0 +1,50 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T23:16:38Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case007_ground_truth_pdf_outcome.json",
+    "case_key": "7",
+    "remark": "Pre‑fitting (V3) baseline missing: THI 72 (severe); TFI 80 (severe); Beck Depression Inventory score 3 (normal).\nV2: Missing Beck Depression Inventory and UCL.",
+    "pdf_key": "Tinnitus_Cases_split2/Case07_Tinnitus_in_a_Case_of_Meniere.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case07_Tinnitus_in_a_Case_of_Meniere.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added UCLs (100-110 dB HL) to V2 Pure-tone audiometry as requested.",
+      "Added Beck Depression Inventory (score 10) to V2 Tinnitus Assessment as requested.",
+      "Added V3 (Pre-fitting baseline) with THI 72, TFI 80, and Beck 3 as requested."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/0/result_summary",
+        "value": "Right ear: Flat moderately severe SNHL (65-70 dB HL). Left ear: Moderate low-frequency loss rising to normal. UCLs 100-110 dB HL."
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/2/result_summary",
+        "value": "Pitch match 9 kHz; Loudness match 14 dB SL; Residual inhibition 12 s; THI 76 (Severe); TFI 88 (Severe); Beck Depression Inventory 10 (Normal to mild)."
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "Pre-fitting baseline evaluation 1 month later. Patient reported feeling more equipped to handle tinnitus but still disturbed. Permission granted to proceed with audiological evaluation and management.",
+          "tests": [
+            {
+              "name": "Tinnitus Assessment",
+              "result_summary": "THI 72 (Severe); TFI 80 (Severe); Beck Depression Inventory 3 (Normal)."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

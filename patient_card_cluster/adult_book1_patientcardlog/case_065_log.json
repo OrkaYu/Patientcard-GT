@@ -1,0 +1,76 @@
+{
+  "status": "patched",
+  "case_id": "Case065",
+  "timestamp_utc": "2025-12-28T20:28:26Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "pdf_key": "audiology_casebook_split_by_case/65_Part_6.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/65_Part_6.pdf",
+    "old_patient_card_key": "processed/patient_cards_from_pdf/case_065_patient_card.json",
+    "remark": "V1 的SRT_Right 7 dB 改为 10 dB，SRT_Left 3 dB 改为 5dB\n缺少V3，一个月后的follow up",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected V1 Speech Audiometry SRT values (Right: 10 dB, Left: 5 dB) based on remarks and Fig 65.1.",
+      "Added V3 encounter for the 1-month follow-up visit described in section '65.7 Outcome', including PPT results with FM system and subjective questionnaire findings."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Right",
+        "value": "10 dB"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Left",
+        "value": "5 dB"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "VA Audiology Clinic",
+          "history": {
+            "present_illness": "Patient returned 1 month later for follow-up to assess outcomes of the treatment plan.",
+            "prior_management": "Patient reported using the Phonak iSense FM system at least 3 hours a day. Only completed 5 of the 20 recommended hours of auditory training (BFP).",
+            "patient_goals": "Evaluate benefit of FM system and auditory training."
+          },
+          "tests": [
+            {
+              "name": "Performance Perceptual Test (PPT)",
+              "timepoint_label": "1 month follow-up",
+              "ear": "binaural",
+              "condition": "aided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Revealed an SNR advantage of approximately +14 dB when using the FM system, enabling the patient to overcome the significant SNR loss observed at baseline.",
+              "numeric_results": {
+                "SNR_Advantage": "+14 dB"
+              }
+            },
+            {
+              "name": "Subjective Outcome Questionnaires",
+              "timepoint_label": "1 month follow-up",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Self-report measures reflected self-perceived improvement in auditory memory, confidence in auditory tasks, and processing speed. 6 of 26 items on a generic quality of life questionnaire reflected improvements.",
+              "numeric_results": {}
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -10,6 +10,11 @@
   "investigations_and_interpretations": {
     "ordered_list": [
       {
+        "action": "Otoscopy",
+        "urgency": "routine",
+        "rationale_short": "To inspect the external ear canal and tympanic membrane."
+      },
+      {
         "action": "Pure-tone audiometry",
         "urgency": "routine",
         "rationale_short": "To assess hearing thresholds and configuration of hearing loss."
@@ -55,6 +60,11 @@
         "visit_id": "V1",
         "collective_interpretation": "The assessment confirmed a bilateral mild-to-severe sensorineural hearing loss with normal middle ear function. Although hearing aids were verified to meet targets, the patient reported significant difficulty and stress in work meetings. The Amsterdam Checklist highlighted high job demands and stress. The COSI identified meetings as the primary goal. Decision aids (Ottawa Guide, Ida Line) were used to select a tabletop microphone as the preferred intervention over other options.",
         "tests": [
+          {
+            "name": "Otoscopy",
+            "category": "Physical Examination",
+            "result_summary": "Unremarkable bilaterally."
+          },
           {
             "name": "Pure-tone audiometry",
             "category": "Audiometry",

@@ -25,9 +25,19 @@
         "rationale_short": "To assess current hearing thresholds given recent fluctuation and history of acoustic neuroma/Meniere's."
       },
       {
+        "action": "Hearing intake questionnaire (clinic history)",
+        "urgency": "routine",
+        "rationale_short": "To document the patient's hearing history."
+      },
+      {
         "action": "Self-Report Scales (Questionnaires)",
         "urgency": "routine",
         "rationale_short": "To quantify tinnitus severity, functional impact, and psychological distress (SHQ-S, THQ, TPFQ)."
+      },
+      {
+        "action": "Client Oriented Scale of Improvement in Tinnitus (COSIT)",
+        "urgency": "routine",
+        "rationale_short": "To identify therapy goals and document treatment effectiveness."
       }
     ],
     "expected_interpretations_by_visit": [

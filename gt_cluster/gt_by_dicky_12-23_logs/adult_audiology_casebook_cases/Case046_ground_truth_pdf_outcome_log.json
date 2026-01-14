@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:11:13Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case046_ground_truth_pdf_outcome.json",
+    "case_key": "46",
+    "remark": "Ordered list & V1: Ensure otoscopy is included.",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case46_Coping_with_Hearing_Challenges_at_Work.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case46_Coping_with_Hearing_Challenges_at_Work.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Otoscopy to the ordered list as it is a standard initial assessment step mentioned in the text.",
+      "Added Otoscopy results to V1 tests based on the text statement: 'Otoscopic examination was unremarkable bilaterally'."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/0",
+        "value": {
+          "action": "Otoscopy",
+          "urgency": "routine",
+          "rationale_short": "To inspect the external ear canal and tympanic membrane."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/0",
+        "value": {
+          "name": "Otoscopy",
+          "category": "Physical Examination",
+          "result_summary": "Unremarkable bilaterally."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

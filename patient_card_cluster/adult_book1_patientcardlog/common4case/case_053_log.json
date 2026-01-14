@@ -1,0 +1,31 @@
+{
+  "case_id": "Case053",
+  "timestamp_utc": "2025-12-29T06:59:29Z",
+  "mode": "patched_with_remark",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "old_patient_card_key": "patient_card_cluster/communication_disorders_4cases/case_053_patient_card.json",
+    "pdf_key": "audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case53_Ella.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case53_Ella.pdf",
+    "remark": "Chief complaint: 应先描述耳鸣",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false,
+    "excel": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "pdf_prefix": "audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/",
+    "pc_prefix": "patient_card_cluster/communication_disorders_4cases/"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Reordered the chief complaint to describe tinnitus ('chirping sounds') first, as requested by the remarks and consistent with the case history where tinnitus preceded the realization of profound hearing loss."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/chief_complaint",
+        "value": "I started hearing chirping sounds, like crickets, in my right ear. Later, I realized I couldn't hear anything from my right ear and developed severe dizziness."
+      }
+    ],
+    "unresolved": []
+  }
+}

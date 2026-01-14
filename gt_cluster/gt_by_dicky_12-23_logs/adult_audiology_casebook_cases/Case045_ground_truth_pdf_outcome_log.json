@@ -1,0 +1,66 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:10:51Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case045_ground_truth_pdf_outcome.json",
+    "case_key": "45",
+    "remark": "V1: Speech audiometry correction: split “SRT 38 dB HL AU” to Right 38 dB, Left 35 dB.\nOrdered list: Add acoustic reflexes.\nVisits: V2 missing daughter‑accompanied counseling session (additional history, vision/dexterity assessment, and hearing aid option evaluation).",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case45_Hearing_Assistive_Technology_A_Viable_Al.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case45_Hearing_Assistive_Technology_A_Viable_Al.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected V1 Speech audiometry SRT values to Right 38 dB, Left 35 dB based on the audiogram.",
+      "Added Acoustic reflexes to the ordered list of investigations.",
+      "Inserted the missing daughter-accompanied counseling session as V2 and re-indexed the subsequent fitting visit to V3."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/1/result_summary",
+        "value": "SRT Right 38 dB, Left 35 dB; Word Recognition Scores excellent (96%) bilaterally at elevated levels."
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Acoustic reflexes",
+          "urgency": "routine",
+          "rationale_short": "To evaluate the acoustic reflex pathways."
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/visit_id",
+        "value": "V3"
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "Daughter-accompanied counseling session involving additional history, vision/dexterity assessment, and hearing aid option evaluation.",
+          "tests": [
+            {
+              "name": "Vision and Dexterity Assessment",
+              "category": "Physical Assessment",
+              "result_summary": "Identified limited vision and manual dexterity."
+            },
+            {
+              "name": "Hearing Aid Selection",
+              "category": "Management",
+              "result_summary": "Recommended full-shell custom ITE hearing aids with 2.5mm vent, controls deactivated, and retention tether."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

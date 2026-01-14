@@ -118,6 +118,18 @@
           "figure_refs": [],
           "key_findings": "Hearing aids met manufacturer specs and NAL-NL2 REIG targets. Remote mic functioning correctly.",
           "numeric_results": null
+        },
+        {
+          "name": "Remote microphone listening check",
+          "timepoint_label": "Re-assessment",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Device confirmed to be working properly.",
+          "numeric_results": null
         }
       ]
     },
@@ -135,6 +147,18 @@
       },
       "tests": [
         {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Pre-CAP assessment",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "No significant change in hearing status compared to previous assessment.",
+          "numeric_results": null
+        },
+        {
           "name": "Memory Screening",
           "timepoint_label": "Baseline",
           "ear": "bilateral",
@@ -143,7 +167,7 @@
             "text"
           ],
           "figure_refs": [],
-          "key_findings": "Sufficient short-term and working memory to complete CAP testing.",
+          "key_findings": "Administered Auditory Number Memory Forward (ANMF), Auditory Number Memory Backward (ANMB), Auditory Word Memory (AWM), and Auditory Sentence Memory (ASM). Results showed sufficient short-term and working memory to complete CAP testing.",
           "numeric_results": null
         },
         {
@@ -223,6 +247,103 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "University Audiology Clinic",
+      "history": {
+        "present_illness": "Post-ARIA training assessment. Patient completed four 1-hour sessions of ARIA training over a 3-week period."
+      },
+      "tests": [
+        {
+          "name": "Competing Sentences (CS)",
+          "timepoint_label": "Post-ARIA",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 34.1"
+          ],
+          "key_findings": "Significant improvement in the right ear scores compared to baseline.",
+          "numeric_results": {
+            "Right Ear (0 dB SNR)": "30%",
+            "Left Ear (0 dB SNR)": "95%",
+            "Right Ear (+5 dB SNR)": "70%",
+            "Left Ear (+5 dB SNR)": "90%",
+            "Right Ear (+10 dB SNR)": "90%",
+            "Left Ear (+10 dB SNR)": "90%"
+          }
+        },
+        {
+          "name": "Two-Pair Dichotic Digits (TPDD)",
+          "timepoint_label": "Post-ARIA",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 34.1"
+          ],
+          "key_findings": "No significant change.",
+          "numeric_results": {
+            "Right Score": "95%",
+            "Left Score": "98%"
+          }
+        },
+        {
+          "name": "Low-Pass Filtered Speech (LPFS)",
+          "timepoint_label": "Post-ARIA",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 34.1"
+          ],
+          "key_findings": "No significant change.",
+          "numeric_results": {
+            "Right Score": "36%",
+            "Left Score": "56%"
+          }
+        },
+        {
+          "name": "Frequency Patterns (FP)",
+          "timepoint_label": "Post-ARIA",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 34.1"
+          ],
+          "key_findings": "No significant change.",
+          "numeric_results": {
+            "Right Score": "86%",
+            "Left Score": "80%"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up 1 month after completing ARIA training.",
+        "course": "Reported mildly improved benefit when wearing both hearing aids in noisy environments and less stress/exhaustion. Continued withdrawal from some social gatherings.",
+        "plan": "Continue monitoring amblyaudia; referral for cognitive assessment."
+      },
+      "tests": []
     }
   ],
   "overall_audiologic_summary": "The patient presents with bilateral symmetrical mild to moderately severe sensorineural hearing loss with excellent word recognition in quiet. However, central auditory processing evaluation reveals a diagnosis of Amblyaudia, characterized by a severe deficit in binaural integration with a marked left-ear dominance. This explains the 'binaural interference' where the patient performs worse with two hearing aids than with the left aid alone in complex listening environments.",

@@ -1,0 +1,90 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T21:36:19Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case042_ground_truth_pdf_outcome.json",
+    "case_key": "42",
+    "remark": "Expected outcome: Fix value formatting to “–3.5 dB” (encoding issue).\nOrdered list: Add unaided QuickSIN; COSI (baseline); hearing aid analyzer; REM; aided LDL; aided QuickSIN; aided COSI.\nV1: Pure‑tone audiometry present, but PTA value may be incorrect.",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case42_Patient_Decision_to_Purchase_Hearing_Aid.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case42_Patient_Decision_to_Purchase_Hearing_Aid.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false,
+    "response_mime_type": null,
+    "attempt": "plain_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated ordered_list to include unaided QuickSIN, COSI (baseline), hearing aid analyzer, REM, aided LDL, aided QuickSIN, and aided COSI as requested.",
+      "Removed PTA values from V1 Pure-tone audiometry result summary as they were flagged as potentially incorrect.",
+      "Ensured correct formatting of '–3.5 dB' in expected_outcome."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/ordered_list",
+        "value": [
+          {
+            "action": "Pure-tone audiometry",
+            "urgency": "routine",
+            "rationale_short": "To evaluate current hearing thresholds and verify stability compared to the previous 2016 evaluation."
+          },
+          {
+            "action": "Speech audiometry",
+            "urgency": "routine",
+            "rationale_short": "To assess speech reception thresholds and word recognition abilities to determine potential benefit from amplification."
+          },
+          {
+            "action": "Unaided QuickSIN",
+            "urgency": "routine",
+            "rationale_short": "To assess speech understanding in noise and establish a baseline for verification."
+          },
+          {
+            "action": "COSI (baseline)",
+            "urgency": "routine",
+            "rationale_short": "To identify specific listening needs and goals for amplification."
+          },
+          {
+            "action": "Hearing aid analyzer",
+            "urgency": "routine",
+            "rationale_short": "To verify that the hearing aids meet manufacturer specifications."
+          },
+          {
+            "action": "Real Ear Measures (REM)",
+            "urgency": "routine",
+            "rationale_short": "To verify that hearing aid gain and output match prescribed targets (NAL-NL1)."
+          },
+          {
+            "action": "Aided Loudness Discomfort Levels (LDL)",
+            "urgency": "routine",
+            "rationale_short": "To ensure the maximum output of the hearing aids is not uncomfortable."
+          },
+          {
+            "action": "Aided QuickSIN",
+            "urgency": "routine",
+            "rationale_short": "To validate improvement in speech understanding in noise with amplification."
+          },
+          {
+            "action": "Aided COSI",
+            "urgency": "routine",
+            "rationale_short": "To validate that the patient's specific listening goals have been addressed."
+          }
+        ]
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/0/result_summary",
+        "value": "Right ear: Severe mixed loss at 250 Hz, rising to moderately severe at 3000 Hz, falling to profound mixed at 8000 Hz. Left ear: Normal at 250 Hz sloping to severe SNHL at 8000 Hz."
+      },
+      {
+        "op": "replace",
+        "path": "/expected_outcome/1",
+        "value": "Aided QuickSIN: Significant improvement in aided performance (i.e., –3.5 dB Signal-to-Noise Ratio Hearing Loss [SNRHL])."
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -20,6 +20,11 @@
   "investigations_and_interpretations": {
     "ordered_list": [
       {
+        "action": "Tympanometry",
+        "urgency": "routine",
+        "rationale_short": "Evaluate middle ear function to investigate the conductive component."
+      },
+      {
         "action": "Pure-tone audiometry",
         "urgency": "routine",
         "rationale_short": "Initial assessment of hearing thresholds."
@@ -28,11 +33,6 @@
         "action": "Speech audiometry",
         "urgency": "routine",
         "rationale_short": "Assess speech reception thresholds and word recognition abilities."
-      },
-      {
-        "action": "Tympanometry",
-        "urgency": "routine",
-        "rationale_short": "Evaluate middle ear function to investigate the conductive component."
       },
       {
         "action": "Acoustic reflexes",
@@ -112,6 +112,11 @@
             "result_summary": "REUR in collapsed state showed loss of natural resonance; REUR with Lucite stent showed restored resonance similar to a normal unoccluded canal."
           }
         ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Patient reported ability to carry on normal activities and hear most people, even in many adverse listening environments. Measured Speech Intelligibility Index (SII) improved from 40% (collapsed state) to 100% (with Lucite stent).",
+        "tests": []
       }
     ]
   },

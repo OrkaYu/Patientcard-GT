@@ -117,7 +117,9 @@
       "Diplopia",
       "Disproportionately poor speech recognition",
       "Abnormal ABR (brainstem signs)",
-      "Large vascular lesion on imaging"
+      "Large vascular lesion on imaging",
+      "Severe occipital headaches",
+      "Clumsiness"
     ],
     "escalation": {
       "urgency": "urgent",

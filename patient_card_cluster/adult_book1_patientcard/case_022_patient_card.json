@@ -135,8 +135,8 @@
           "numeric_results": {
             "SRT_Right": "5 dB HL",
             "SRT_Left": "40 dB HL",
-            "WRS_Right": "96% at 50 dB HL",
-            "WRS_Left": "92% at 65 dB HL"
+            "WRS_Right": "92% at 65 dB HL",
+            "WRS_Left": "96% at 75 dB HL"
           }
         },
         {

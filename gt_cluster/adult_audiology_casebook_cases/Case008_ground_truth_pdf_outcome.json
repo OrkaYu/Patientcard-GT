@@ -71,6 +71,46 @@
             "result_summary": "BKB-SIN score 2.5 dB SNR loss (within normal limits)."
           }
         ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Hearing Aid Evaluation: Discussed lifestyle needs, cosmetic concerns, and cognitive status. Administered COSI to identify communication goals. Selected bilateral premium rechargeable RIC hearing aids.",
+        "tests": []
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Hearing Aid Fitting: Fitted with bilateral RIC hearing aids using open domes. Counseled on use and care.",
+        "tests": []
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Follow-up (2 weeks post-fitting): Patient reported hearing aids were very helpful. COSI indicated 'better' or 'much better' hearing in 3/4 situations. Rated ability to hear as 'almost always'.",
+        "tests": []
+      },
+      {
+        "visit_id": "V5",
+        "collective_interpretation": "Unscheduled Visit (same week as V4): Reported hearing aids falling out despite correct insertion. Impressions taken for custom earmolds to improve retention.",
+        "tests": []
+      },
+      {
+        "visit_id": "V6",
+        "collective_interpretation": "Custom Earmold Fitting (2 weeks after V5): Patient had great difficulty inserting custom molds and handling charger (dead batteries). Wife distressed about his cognitive decline. Psychologist consulted during session. Red dot placed on charger to assist.",
+        "tests": []
+      },
+      {
+        "visit_id": "V7",
+        "collective_interpretation": "Follow-up (3 weeks after V6): Patient returned hearing aids due to management difficulties and frustration. Couple decided to 'take a break'.",
+        "tests": []
+      },
+      {
+        "visit_id": "V8",
+        "collective_interpretation": "Re-fitting (1 month after V7): Patient requested new prescription. Agreed to proceed with RICs but with a different style of custom earmolds for better retention.",
+        "tests": []
+      },
+      {
+        "visit_id": "V9",
+        "collective_interpretation": "Final Follow-up (3 months after V8): Patient reported significant benefit and successful use with wife's assistance.",
+        "tests": []
       }
     ]
   },

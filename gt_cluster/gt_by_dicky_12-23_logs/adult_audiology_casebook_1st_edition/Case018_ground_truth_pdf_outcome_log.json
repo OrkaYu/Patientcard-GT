@@ -1,0 +1,14 @@
+{
+  "action": "COPY",
+  "timestamp_utc": "2026-01-07T19:38:01Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case018_ground_truth_pdf_outcome.json",
+    "case_key": "18",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  }
+}

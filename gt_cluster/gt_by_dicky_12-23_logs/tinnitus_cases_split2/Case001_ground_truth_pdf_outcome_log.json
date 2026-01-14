@@ -1,0 +1,33 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T23:13:46Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case001_ground_truth_pdf_outcome.json",
+    "case_key": "1",
+    "remark": "Ordered list: Missing weekly THI screening during the 8‑week intervention.",
+    "pdf_key": "Tinnitus_Cases_split2/Case01_InternetBased_Tinnitus_Intervention.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case01_InternetBased_Tinnitus_Intervention.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Weekly THI screening' to the ordered list of investigations, as the text notes the patient was monitored weekly using the THI screening version during the intervention."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/1",
+        "value": {
+          "action": "Weekly THI screening",
+          "urgency": "routine",
+          "rationale_short": "To monitor tinnitus severity weekly during the 8-week intervention."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -95,9 +95,7 @@
     ]
   },
   "treatment_and_management": {
-    "proposed_items": [
-      "Medical management of vascular compression"
-    ],
+    "proposed_items": [],
     "counseling_actions": [
       "Explain that while hearing loss appears symmetrical, stress tests (ABR, reflexes, dichotic digits) reveal left brainstem pathway dysfunction.",
       "Discuss the correlation between the vascular loop seen on imaging and the patient's chronic dizziness and headaches.",
@@ -108,16 +106,8 @@
     "red_flags_present": [
       "Asymmetrical retrocochlear findings (ABR, reflexes, dichotic digits)",
       "Brainstem displacement on imaging"
-    ],
-    "escalation": {
-      "urgency": "soon",
-      "destination": "Neurology or Neurosurgery",
-      "rationale_short": "To address the vascular compression of the brainstem identified on imaging."
-    }
+    ]
   },
-  "follow_up_plan": {
-    "timeline": "As recommended by neurology/neurosurgery",
-    "objective": "Management of vascular compression and monitoring of symptoms."
-  },
+  "follow_up_plan": {},
   "expected_outcome": []
 }

@@ -1,0 +1,98 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-05T02:03:26Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Tinnitus"
+    ],
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_003_patient_card.json",
+    "case_key": "3",
+    "remark": "V1 缺少COSIT\n遗漏V2，follow-up数据",
+    "pdf_key": "Tinnitus_Cases_split2/Case03_Tinnitus_Treatment_Following_Acoustic_Neuroma.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case03_Tinnitus_Treatment_Following_Acoustic_Neuroma.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added COSIT test to V1 (Baseline) as per remarks and section 3.5.",
+      "Added V2 encounter (2 months post-counseling) with TPFQ and COSIT outcomes as per remarks and section 3.7."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Client Oriented Scale of Improvement in Tinnitus (COSIT)",
+          "timepoint_label": "Baseline",
+          "ear": "N/A",
+          "condition": "N/A",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Three specific therapy goals identified regarding fears of deafness, avoidance of noisy situations, and anxiety about work interference.",
+          "numeric_results": {
+            "Goal_1": "Fears that she would become deaf and her tinnitus would get worse",
+            "Goal_2": "Avoidance of noisy situations such as church and restaurants with family",
+            "Goal_3": "Anxiety about tinnitus interfering with daily activities such as work"
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": "2 months post-counseling",
+          "setting": "Augustana College Center for Speech, Language, and Hearing",
+          "history": {
+            "interval_history": "Patient completed 2 months of counseling using Tinnitus Activities Treatment (group and individual). Implemented masking sounds via Bi-CROS (12 h/d) and low-level sound therapy for sleep. Kept diary of thoughts/emotions."
+          },
+          "tests": [
+            {
+              "name": "Tinnitus Primary Functions Questionnaire (TPFQ)",
+              "timepoint_label": "Post-treatment",
+              "ear": "N/A",
+              "condition": "N/A",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Fig. 3.2"
+              ],
+              "key_findings": "Significant improvement in reactions to tinnitus, especially for thoughts and emotions and sleep subscales.",
+              "numeric_results": {
+                "TPFQ_Concentration_Subscale": "Improved",
+                "TPFQ_Emotion_Subscale": "Significant improvement",
+                "TPFQ_Hearing_Subscale": "Improved",
+                "TPFQ_Sleep_Subscale": "Significant improvement"
+              }
+            },
+            {
+              "name": "Client Oriented Scale of Improvement in Tinnitus (COSIT)",
+              "timepoint_label": "Post-treatment",
+              "ear": "N/A",
+              "condition": "N/A",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Reported reduced hearing difficulties, slightly better avoidance of social situations, and much improved enjoyment of daily life.",
+              "numeric_results": {
+                "Goal_1_Outcome": "Hearing difficulties reduced",
+                "Goal_2_Outcome": "Avoidance of social situations slightly better (still prefers to avoid noisy places)",
+                "Goal_3_Outcome": "Enjoys work and social activities with less fear and anxiety"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

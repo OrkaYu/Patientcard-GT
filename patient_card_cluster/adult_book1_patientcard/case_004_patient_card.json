@@ -78,7 +78,7 @@
             "RE_SRT": "26 dB HL",
             "LE_SRT": "56 dB HL",
             "RE_WRS": "80% at 66 dB HL",
-            "LE_WRS": "26% at 92 dB HL"
+            "LE_WRS": "28% at 92 dB HL"
           }
         },
         {
@@ -130,6 +130,45 @@
           "figure_refs": [],
           "key_findings": "Pure-tone Stenger test was negative at 500 and 1000 Hz.",
           "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient referred for objective testing (ABR and ASSR) due to fair test reliability and asymmetrical hearing loss in initial evaluation."
+      },
+      "tests": [
+        {
+          "name": "Auditory Steady-State Response (ASSR)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right ear: Hearing within normal limits. Left ear: Mild to moderate hearing loss at 250 to 2000 Hz.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Auditory Brainstem Response (ABR)",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Wave V peaks identified at 40 dB nHL bilaterally, indicating no more than a mild hearing loss in either ear between 2000 and 4000 Hz.",
+          "numeric_results": {
+            "Stimulus_Rate": "27.79 clicks/sec",
+            "Polarity": "Rarefaction",
+            "Amplifier_Gain": "240,000",
+            "Wave_V_Threshold_Bilateral": "40 dB nHL"
+          }
         }
       ]
     }

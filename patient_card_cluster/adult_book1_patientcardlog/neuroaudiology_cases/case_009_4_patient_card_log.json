@@ -1,0 +1,32 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2025-12-31T08:16:00Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/dickypatch.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_009_4_patient_card.json",
+    "case_key": "9_4",
+    "remark": "Dichotic digits左耳结果遗漏",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_9-4.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_9-4.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated key_findings for Central Auditory Processing Tests to include the missing Left Ear result for Dichotic Digits (depressed), as noted in the case history text."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/5/key_findings",
+        "value": "MLD abnormal (4 dB). LPFS normal. Dichotic Digits normal RE, depressed LE. SSW abnormal (LE scores depressed). Frequency Patterns abnormal (bilaterally depressed)."
+      }
+    ],
+    "unresolved": []
+  }
+}

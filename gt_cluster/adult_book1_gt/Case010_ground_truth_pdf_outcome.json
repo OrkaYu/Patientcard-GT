@@ -13,7 +13,7 @@
     },
     {
       "rank": 3,
-      "label": "Otosclerosis",
+      "label": "Ossicular Fixation",
       "rationale_short": "Considered due to air-bone gaps, but ruled out by presence of acoustic reflexes and hypersensitive bone conduction."
     }
   ],
@@ -73,7 +73,7 @@
           {
             "name": "Speech audiometry",
             "category": "Audiometry",
-            "result_summary": "SRTs 33 dB HL (Right) and 28 dB HL (Left); WRS excellent (96% Right, 100% Left)."
+            "result_summary": "SRTs 35 dB HL (Right) and 30 dB HL (Left); WRS excellent (96% Right, 100% Left)."
           },
           {
             "name": "Tympanometry",

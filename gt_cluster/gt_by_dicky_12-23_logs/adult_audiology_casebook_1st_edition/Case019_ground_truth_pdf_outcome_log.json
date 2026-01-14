@@ -1,0 +1,56 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-07T19:38:45Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case019_ground_truth_pdf_outcome.json",
+    "case_key": "19",
+    "remark": "Ordered list: Add ALLR; memory screening (TAPS‑R).\nV2: Add SPIN: LP score 6% (aided).",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/19_19_My_Hearing_Aids_Do_Not_Help_Me_at_All.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/19_19_My_Hearing_Aids_Do_Not_Help_Me_at_All.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Auditory Late Latency Response (ALLR)' and 'Memory screening (TAPS-R)' to the ordered list as requested.",
+      "Added 'Speech-in-noise (SPIN)' with the specific result 'LP score 6% (aided)' to the tests in Visit 2 (V2) as requested."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Auditory Late Latency Response (ALLR)",
+          "urgency": "routine",
+          "rationale_short": "To assess the central auditory nervous system."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Memory screening (TAPS-R)",
+          "urgency": "routine",
+          "rationale_short": "To screen short-term and working memory."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/-",
+        "value": {
+          "name": "Speech-in-noise (SPIN)",
+          "result_summary": "LP score 6% (aided)."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}
