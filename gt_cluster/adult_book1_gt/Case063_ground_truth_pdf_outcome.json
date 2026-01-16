@@ -53,12 +53,7 @@
           {
             "name": "Speech audiometry (MSTB Revised)",
             "category": "Speech",
-            "result_summary": "Aided AzBio in quiet: 45% Right, 36% Left, 54% Bilateral. Aided CNC Words: 20% Right, 0% Left, 4% Bilateral. Aided CNC Phonemes: 47% Right, 21% Left, 33% Bilateral."
-          },
-          {
-            "name": "Speech-in-noise (BKB-SIN)",
-            "category": "Speech",
-            "result_summary": "Aided SNR Loss: 20 dB Right (Severe), 22 dB Left (Severe), 17 dB Bilateral (Severe)."
+            "result_summary": "Aided AzBio in quiet: 45% Right, 36% Left, 54% Bilateral. Aided CNC Words: 20% Right, 0% Left, 4% Bilateral. Aided CNC Phonemes: 47% Right, 21% Left, 33% Bilateral. Aided BKB-SIN SNR Loss: 20 dB Right (Severe), 22 dB Left (Severe), 17 dB Bilateral (Severe)."
           }
         ]
       }

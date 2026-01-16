@@ -61,6 +61,11 @@
             "result_summary": "Type A bilaterally with normal ear canal volume and middle ear pressure."
           },
           {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "Acoustic reflex thresholds obtained at expected sensation levels for ipsilateral and contralateral stimulation bilaterally; absent at 4 kHz."
+          },
+          {
             "name": "Self-report scales",
             "category": "Questionnaire",
             "result_summary": "HHIE score 22 (mild handicap); COSI identified needs for home conversations, telephone, and television."
