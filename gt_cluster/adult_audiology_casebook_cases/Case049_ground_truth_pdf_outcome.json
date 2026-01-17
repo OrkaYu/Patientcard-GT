@@ -1,141 +1,295 @@
 {
-  "case_id": "Case049",
-  "ranked_differential_diagnosis": [
+  "case_id": "case49_A_Case_of_Extreme_Misophonia_and_Hyperac",
+  "title": "Extreme Misophonia and Hyperacusis in a Young Adult",
+  "demographics": {
+    "age_years": 18,
+    "sex": "male",
+    "primary_language": "English",
+    "country_region": null
+  },
+  "chief_complaint": "I have extreme sensitivity to specific sounds like chewing, eating, and silverware scraping. It makes me physically uncomfortable and angry, and I sometimes hurt myself to cope.",
+  "problem_summary": {
+    "onset": "Specific onset age not reported, but previous audiology encounter at age 4 was normal.",
+    "course": "Current state is extreme/severe; triggers are worse when created by family members. Condition worsened at 1-year follow-up despite sound therapy intervention.",
+    "laterality": "Bilateral",
+    "associated_symptoms": "Obsessive concern with germs, refusal to touch hands, meticulousness about order/arrangement, self-mutilating behaviors (scratching hands/wrists).",
+    "functional_impact": "Significant negative impact on activities, thoughts, and feelings; resorts to self-harm; unable to remove himself from triggering situations without distress. At 1-year follow-up, unable to tolerate clinical waiting room and could only communicate via text message.",
+    "goals_motivation": "Patient denies knowing how injuries occurred; family is protective and resistant to mental health labeling."
+  },
+  "encounters": [
     {
-      "rank": 1,
-      "label": "Misophonia",
-      "rationale_short": "Extreme emotional reactions (anger, rage) and physical discomfort to specific trigger sounds (chewing, eating); MAQ score 51 (Extreme) and A-MISO-S score 19 (Severe)."
+      "visit_id": "V1",
+      "date": "2016-09-22",
+      "setting": "University Speech and Hearing Clinic",
+      "history": {
+        "present_illness": "Patient reports extreme sensitivity to specific sounds (talking, chewing, eating, silverware). Reactions include physical discomfort and anger. Patient resorts to digging fingernails into hands/wrists.",
+        "otologic_history": "Previous audiology exam at age 4 was normal.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Obsessive behaviors regarding germs and order. 'Gets lost in own complex creations'. Memory for 200 'super-powers' of toy cars. Parents resistant to psychological referral.",
+        "prior_management": "None reported.",
+        "patient_goals": "Assessment of sound sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.1"
+          ],
+          "key_findings": "Normal hearing sensitivity bilaterally. PTA is 12 dB HL in each ear. Thresholds obtained from 250 to 20,000 Hz.",
+          "numeric_results": {
+            "PTA_Right": "12 dB HL",
+            "PTA_Left": "12 dB HL",
+            "Frequency_Range": "250 - 20,000 Hz"
+          }
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.1"
+          ],
+          "key_findings": "Excellent word recognition scores consistent with normal hearing sensitivity.",
+          "numeric_results": {
+            "SRT_Right": "10 dB HL",
+            "SRT_Left": "10 dB HL",
+            "WRS_Right": "96% at 50 dB HL",
+            "WRS_Left": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.1"
+          ],
+          "key_findings": "Normal middle ear function bilaterally (Type A).",
+          "numeric_results": {
+            "Right_ECV": "2.0",
+            "Left_ECV": "1.8",
+            "Right_Peak_Pressure": "-20 daPa",
+            "Left_Peak_Pressure": "-25 daPa",
+            "Right_Static_Admittance": "1.4",
+            "Left_Static_Admittance": "1.0"
+          }
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.1"
+          ],
+          "key_findings": "Could not test (CNT) due to patient's extreme sound hypersensitivity.",
+          "numeric_results": null
+        },
+        {
+          "name": "Loudness Discomfort Levels (LDL)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 49.1"
+          ],
+          "key_findings": "Reduced loudness tolerance. LDLs measured between 60 and 80 dB HL for pure tones and 75 dB HL for speech.",
+          "numeric_results": {
+            "Right_500Hz": "70 dB HL",
+            "Right_1000Hz": "70 dB HL",
+            "Right_2000Hz": "60 dB HL",
+            "Right_4000Hz": "65 dB HL",
+            "Right_Speech": "75 dB HL",
+            "Left_500Hz": "80 dB HL",
+            "Left_1000Hz": "75 dB HL",
+            "Left_2000Hz": "70 dB HL",
+            "Left_4000Hz": "65 dB HL",
+            "Left_Speech": "75 dB HL"
+          }
+        },
+        {
+          "name": "Self-Report Scales",
+          "timepoint_label": "Baseline",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.2",
+            "Figure 49.3"
+          ],
+          "key_findings": "Scores indicate extreme misophonia and severe impact on quality of life. Patient rated annoyance 10/10.",
+          "numeric_results": {
+            "MAQ_Total_Score": "51 (Extreme range)",
+            "A-MISO-S_Total_Score": "19 (Severe range)",
+            "Subjective_Severity": "9/10",
+            "Subjective_Annoyance": "10/10",
+            "Subjective_QoL_Impact": "9-10/10"
+          }
+        }
+      ]
     },
     {
-      "rank": 2,
-      "label": "Hyperacusis",
-      "rationale_short": "Decreased loudness tolerance with LDLs between 60 and 80 dB HL; patient reports physical discomfort to sounds."
+      "visit_id": "V2",
+      "date": "2017-11-06",
+      "setting": "University Speech and Hearing Clinic",
+      "history": {
+        "present_illness": "Patient arrived in acute distress, had to be removed from waiting room due to inability to tolerate sound sensitivity. 'Triggered' on the drive to the clinic and was only able to communicate by text message to parent. Not consistently utilizing sound therapy devices.",
+        "otologic_history": "No change.",
+        "noise_exposure_history": "Not reported.",
+        "medical_psych_history": "Has not seen a mental health professional. Parents remain concerned about JM 'being labeled.' Never prescribed medication or treatment plan for any possible mental health disorder.",
+        "prior_management": "Fitted with bilateral Resound LINX2 5 RIC hearing aids with 'water creek' sound therapy at V1. Seen on three occasions for hearing aid repairs and maintenance. Inconsistent use of sound therapy.",
+        "patient_goals": "Follow-up evaluation of sound sensitivity."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "1-year follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.4"
+          ],
+          "key_findings": "No change in pure-tone air conduction thresholds from baseline. Normal hearing sensitivity maintained.",
+          "numeric_results": {
+            "Frequency_Range": "250 - 20,000 Hz",
+            "Status": "Stable, unchanged from baseline"
+          }
+        },
+        {
+          "name": "Loudness Discomfort Levels (LDL)",
+          "timepoint_label": "1-year follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Table 49.2"
+          ],
+          "key_findings": "Markedly decreased LDLs compared to baseline (35-50 dB HL vs. 60-80 dB HL), indicating significant worsening of loudness tolerance. Note: Patient's distressed state upon arrival may have contributed to the significant decrease.",
+          "numeric_results": {
+            "Right_500Hz": "35 dB HL",
+            "Right_1000Hz": "35 dB HL",
+            "Right_2000Hz": "40 dB HL",
+            "Right_4000Hz": "35 dB HL",
+            "Right_Speech": "45 dB HL",
+            "Left_500Hz": "50 dB HL",
+            "Left_1000Hz": "45 dB HL",
+            "Left_2000Hz": "45 dB HL",
+            "Left_4000Hz": "45 dB HL",
+            "Left_Speech": "40 dB HL"
+          }
+        },
+        {
+          "name": "Self-Report Scales",
+          "timepoint_label": "1-year follow-up",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 49.5",
+            "Figure 49.6"
+          ],
+          "key_findings": "Scores indicate worsening of misophonia severity. MAQ increased from 51 to 60; A-MISO-S increased from 19 to 21. Both scores remain in the extreme category.",
+          "numeric_results": {
+            "MAQ_Total_Score": "60 (Extreme range)",
+            "A-MISO-S_Total_Score": "21 (Extreme range)"
+          }
+        }
+      ],
+      "treatment_and_management": {
+        "current_status": "Sound therapy not being utilized consistently. No measurable improvement in managing sound sensitivities.",
+        "patient_reported_outcomes": "Sound therapy, when utilized, helped patient function while with friends in noisy environments. Little improvement noted when exposed to trigger sounds around family.",
+        "management_decisions": [
+          "Reinforced importance of consistent sound therapy use",
+          "Discussed additional intervention needed to address possibility of underlying psychological disorders",
+          "Addressed parent inquiry about anxiety medication - advised to discuss with physician",
+          "Counseled on challenges JM may face in academic, social, and communal living settings of college"
+        ],
+        "referrals": "Mental health referral strongly re-recommended; family continues to decline"
+      }
     }
   ],
-  "investigations_and_interpretations": {
-    "ordered_list": [
-      {
-        "action": "Pure-tone audiometry",
-        "urgency": "routine",
-        "rationale_short": "To assess peripheral hearing sensitivity."
-      },
-      {
-        "action": "Speech audiometry",
-        "urgency": "routine",
-        "rationale_short": "To assess speech recognition abilities."
-      },
-      {
-        "action": "Tympanometry",
-        "urgency": "routine",
-        "rationale_short": "To assess middle ear function."
-      },
-      {
-        "action": "Acoustic reflexes",
-        "urgency": "routine",
-        "rationale_short": "To assess retrocochlear pathway integrity."
-      },
-      {
-        "action": "Loudness Discomfort Levels (LDL)",
-        "urgency": "routine",
-        "rationale_short": "To evaluate loudness tolerance and screen for hyperacusis."
-      },
-      {
-        "action": "Self-Report Scales",
-        "urgency": "routine",
-        "rationale_short": "To quantify the severity and impact of misophonia and sound sensitivity (MAQ, A-MISO-S)."
-      }
+  "escalation_status": {
+    "is_escalated": true,
+    "escalation_date": "2017-11-06",
+    "indicators": [
+      "LDL decreased by 20-35 dB HL from baseline",
+      "MAQ score increased from 51 to 60",
+      "A-MISO-S score increased from 19 to 21",
+      "Patient unable to tolerate clinical waiting room",
+      "Communication limited to text messaging only during acute episode"
     ],
-    "expected_interpretations_by_visit": [
-      {
-        "visit_id": "V1",
-        "collective_interpretation": "The patient demonstrated normal peripheral hearing sensitivity and middle ear function bilaterally. However, results indicated significant hyperacusis (reduced LDLs) and extreme misophonia (high scores on MAQ and A-MISO-S), with severe negative impact on daily life including self-mutilating behaviors.",
-        "tests": [
-          {
-            "name": "Pure-tone audiometry",
-            "category": "Audiometry",
-            "result_summary": "Normal hearing sensitivity bilaterally with PTA of 12 dB HL in each ear (250-20,000 Hz)."
-          },
-          {
-            "name": "Speech audiometry",
-            "category": "Audiometry",
-            "result_summary": "SRT 10 dB HL AU; WRS 96% (Right) and 100% (Left) at 50 dB HL."
-          },
-          {
-            "name": "Tympanometry",
-            "category": "Immittance",
-            "result_summary": "Normal middle ear function (Type A) bilaterally."
-          },
-          {
-            "name": "Acoustic reflexes",
-            "category": "Immittance",
-            "result_summary": "Could not test (CNT) due to patient's extreme sound hypersensitivity."
-          },
-          {
-            "name": "Loudness Discomfort Levels (LDL)",
-            "category": "Loudness Tolerance",
-            "result_summary": "Reduced loudness tolerance; LDLs 60-80 dB HL for pure tones and 75 dB HL for speech."
-          },
-          {
-            "name": "Self-Report Scales",
-            "category": "Questionnaire",
-            "result_summary": "MAQ score 51 (Extreme); A-MISO-S score 19 (Severe); Subjective annoyance 10/10."
-          }
-        ]
-      },
-      {
-        "visit_id": "V2",
-        "collective_interpretation": "At the 1-year follow-up, the patient demonstrated no change in pure-tone thresholds compared to baseline. However, results indicated worsened hyperacusis with LDLs markedly decreased to 35-50 dB HL. Misophonia severity increased to the extreme category with an MAQ score of 60 and A-MISO-S score of 21. The patient was visibly distressed, communicated only by text, and reported inconsistent use of sound therapy.",
-        "tests": [
-          {
-            "name": "Pure-tone audiometry",
-            "category": "Audiometry",
-            "result_summary": "No change in pure-tone air conduction thresholds compared to baseline (250-20,000 Hz)."
-          },
-          {
-            "name": "Loudness Discomfort Levels (LDL)",
-            "category": "Loudness Tolerance",
-            "result_summary": "Markedly decreased to levels between 35 and 50 dB HL in each ear."
-          },
-          {
-            "name": "Self-Report Scales",
-            "category": "Questionnaire",
-            "result_summary": "MAQ score 60 (Extreme); A-MISO-S score 21 (Extreme)."
-          }
-        ]
-      }
+    "contributing_factors": [
+      "Inconsistent use of sound therapy devices",
+      "No mental health intervention despite strong recommendations",
+      "No medication management"
     ]
-  },
-  "treatment_and_management": {
-    "proposed_items": [
-      "Fit with bilateral Resound LINX2 5 receiver-in-the-canal (RIC) hearing aids programmed with 'water creek' sound therapy.",
-      "Systematic program of sound therapy with gradual increase in exposure.",
-      "Referral to psychologist or psychiatrist for evaluation and intervention."
-    ],
-    "counseling_actions": [
-      "Counseling on the nature of misophonia and hyperacusis.",
-      "Instruction on using sound therapy devices (increase volume when bothered, decrease when less bothered) to build tolerance.",
-      "Recommendation for mental health intervention due to self-harm and obsessive behaviors.",
-      "Discussion of challenges related to college transition and communal living."
-    ]
-  },
-  "escalation_and_red_flags": {
-    "red_flags_present": [],
-    "escalation": {
-      "urgency": "urgent",
-      "destination": "Psychologist or psychiatrist",
-      "rationale_short": "Patient exhibits self-mutilating behaviors (digging fingernails into hands/wrists) and extreme rage in response to sounds."
-    }
   },
   "follow_up_plan": {
-    "timeline": "1 year",
-    "objective": "Monitor hearing thresholds, loudness discomfort levels, and misophonia severity via questionnaires."
+    "next_steps": [
+      "Continue ear-level sound therapy with emphasis on consistent daily use",
+      "Re-evaluate LDL and questionnaire scores at next follow-up",
+      "Encourage family to reconsider mental health referral",
+      "Support transition planning for college environment"
+    ],
+    "recommended_interval": "As-needed basis for hearing aid maintenance",
+    "barriers_to_care": [
+      "Family resistance to mental health referral",
+      "Patient denial of self-harm injuries",
+      "Inconsistent device use"
+    ]
   },
-  "expected_outcome": [
-    "Pure-tone audiometry (1-year follow-up): Thresholds at 250 to 20,000 Hz revealed no change in pure-tone air conduction thresholds compared to baseline.",
-    "Loudness Discomfort Levels (1-year follow-up): Markedly decreased to levels between 35 and 50 dB HL in each ear, indicating worsened sound tolerance.",
-    "Misophonia Assessment Questionnaire (MAQ) (1-year follow-up): Total score of 60, placing patient in the extreme misophonia category.",
-    "Amsterdam Misophonia Scale (A-MISO-S) (1-year follow-up): Total score of 21, placing patient in the extreme misophonia category.",
-    "Patient was not consistently utilizing sound therapy and showed no measurable improvement in managing sound sensitivities.",
-    "Patient was visibly distressed during the evaluation, unable to tolerate the waiting room, and communicated only by text message."
+  "overall_audiologic_summary": "The patient presents with normal peripheral hearing sensitivity bilaterally and normal middle ear function. However, Loudness Discomfort Levels (LDLs) are significantly reduced, consistent with hyperacusis. At baseline (September 2016), LDLs were 60-80 dB HL; at 1-year follow-up (November 2017), LDLs markedly worsened to 35-50 dB HL. Questionnaire results confirm the presence of extreme misophonia with worsening impact on daily life: MAQ score increased from 51 to 60, and A-MISO-S score increased from 19 to 21. Despite fitting with ear-level sound therapy devices, the patient has not shown measurable improvement due to inconsistent use and lack of mental health intervention.",
+  "counseling_points": [
+    "Your hearing test shows your ears are physically healthy and you hear very well.",
+    "The distress you feel is real; we call this misophonia (reaction to specific sounds) and hyperacusis (sensitivity to volume).",
+    "We can use sound therapy (ear-level devices) to help 'cushion' the trigger sounds, making them less sharp and bothersome.",
+    "It is important to have control over the sound therapy and use it to gradually build tolerance.",
+    "Sound therapy must be used consistently for measurable improvements to be seen.",
+    "Given the high level of distress, working with a mental health professional for strategies to manage the emotional reaction is strongly recommended."
+  ],
+  "notes_for_actor": [
+    "Portray an 18-year-old who is visibly anxious or tense, especially if background noises occur.",
+    "You are meticulous and may refuse to shake hands due to germ concerns.",
+    "If asked about the scratches on your hands/wrists, deny knowing how they happened or be evasive.",
+    "Show reliance on your parent, who accompanies you.",
+    "You are intelligent (remembering complex details about toys) but socially guarded."
   ]
 }

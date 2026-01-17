@@ -4,7 +4,7 @@
     {
       "rank": 1,
       "label": "Otosclerosis",
-      "rationale_short": "Patient age, family history, progressive conductive hearing loss, Type As tympanogram (stiffness), and high wideband reflectance are classic indicators."
+      "rationale_short": "Patient age, family history, progressive conductive hearing loss, Carhart's notch at 2000 Hz, Type As tympanogram (stiffness), and high wideband reflectance are classic indicators."
     },
     {
       "rank": 2,
@@ -69,6 +69,11 @@
             "name": "Wideband Acoustic Immittance",
             "category": "Immittance",
             "result_summary": "Right ear: Abnormally high power reflectance (>90%) in low-to-mid frequencies, confirming stiffness."
+          },
+          {
+            "name": "Acoustic Reflex Testing",
+            "category": "Immittance",
+            "result_summary": "Right ear: Acoustic reflexes absent. Left ear: Ipsilateral 85 dB HL."
           }
         ]
       }
