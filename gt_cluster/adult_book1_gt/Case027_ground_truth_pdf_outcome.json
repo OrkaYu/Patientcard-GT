@@ -1,65 +1,103 @@
 {
   "case_id": "Case027",
   "ranked_differential_diagnosis": [
-    "Bilateral facial nerve paralysis (HB Grade VI/VI)",
-    "Bilateral longitudinal temporal bone fractures",
+    "Bilateral facial nerve paralysis (House-Brackmann Grade VI/VI)",
+    "Bilateral longitudinal temporal bone fractures with involvement of horizontal segment of facial nerve canal",
     "Conductive hearing loss (left ear) secondary to ossicular chain disruption",
-    "Sensorineural hearing loss (right ear, slight)"
+    "Slight hearing loss at 250 Hz (right ear, type undetermined - bone conduction not tested due to patient sensitivity from fractures)"
   ],
   "investigations_and_interpretations": {
     "ordered_list": [
       "Computed Tomography (CT) scan",
       "Electromyography (EMG)",
       "Pure-tone audiometry",
-      "Speech audiometry (SAT)",
-      "Immittance audiometry (Tympanometry, Acoustic Reflexes)",
-      "Electroneuronography (ENoG)"
+      "Speech awareness threshold (SAT)",
+      "Immittance audiometry (Tympanometry and Acoustic Reflex Thresholds)",
+      "Electroneuronography (ENoG) - serial monitoring"
     ],
     "expected_interpretations_by_visit": [
       {
         "visit_description": "Initial presentation (14 days post-trauma)",
         "interpretations": [
           "CT: Bilateral longitudinal temporal bone fractures traversing horizontal segment of facial nerve canal; small subarachnoid hemorrhage; pulmonary contusions.",
-          "Audiometry: Right ear slight hearing loss at 250 Hz, normal 500-8000 Hz. Left ear slight conductive loss 250-500 Hz, mild conductive loss 2000-8000 Hz with air-bone gaps.",
-          "Immittance: Normal tympanograms bilaterally (suggesting ossicular disruption rather than fluid); ARTs present ipsilateral right (100 dB HL), absent otherwise.",
-          "ENoG: Right side minimal response (58 µV); Left side absent response initially. Serial monitoring showed transient recovery on left, then disappearance (critical distress)."
+          "EMG: Performed in hospital (results not detailed in case).",
+          "Pure-tone audiometry: Right ear - slight hearing loss at 250 Hz, normal hearing 500-8000 Hz; masked bone conduction not performed due to patient sensitivity. Left ear - slight conductive hearing loss at 250-500 Hz, normal at 1000 Hz, mild conductive hearing loss at 2000-8000 Hz with air-bone gaps at 500 Hz and 2000-4000 Hz.",
+          "SAT: Slight loss bilaterally, consistent with pure-tone average. Word recognition scores not measured due to patient's bilateral facial paralysis limiting speech ability.",
+          "Tympanometry: Normal tympanograms bilaterally (Type A); canal volume 1.1 mL bilaterally; static admittance 0.8 mL right, 0.7 mL left; peak pressure 0 daPa right, -80 daPa left. Normal middle ear pressure and mobility suggests partial ossicular dislocation without total separation.",
+          "Acoustic Reflex Thresholds: Present at 100 dB HL for 1000 and 2000 Hz ipsilateral stimulation in right ear only; absent for right and left contralateral stimulation and left ipsilateral stimulation. Pattern indicates probe effect consistent with facial nerve pathology; elevated right ipsilateral ARTs suggest slightly more residual facial nerve function on right than left.",
+          "ENoG Initial: Right side - minimal response at 8 ms, amplitude 58 µV (normal ≥500 µV); masseter response noted at 5.3 ms. Left side - absent response; masseter response at 5.5 ms."
+        ]
+      },
+      {
+        "visit_description": "Follow-up day 3",
+        "interpretations": [
+          "ENoG: Right side - stable response. Left side - initial recovery observed with emergence of facial nerve response."
+        ]
+      },
+      {
+        "visit_description": "Follow-up day 10",
+        "interpretations": [
+          "ENoG: Right side - stable response. Left side - response present but beginning to decline.",
+          "Patient reported morning headaches and decreased lip sensation when lying down, attributed to skull base shifting during sleep due to bilateral fractures."
+        ]
+      },
+      {
+        "visit_description": "Follow-up day 15",
+        "interpretations": [
+          "ENoG: Right side - response remains intact but does not improve. Left side - response disappeared completely, indicating critical distress of left facial nerve requiring surgical intervention."
         ]
       }
     ]
   },
   "treatment_and_management": {
     "proposed_items": [
-      "Prednisone (60 mg daily, initiated prior to audiology visit)",
-      "Serial ENoG monitoring (every 3-5 days)",
-      "Surgical decompression of the left facial nerve"
+      "Prednisone 60 mg daily (initiated prior to audiology visit, for 6 days)",
+      "Serial ENoG monitoring every 3-5 days until 21 days post-insult (extended to 29 days due to initial apparent recovery)",
+      "Surgical decompression of the left facial nerve (to reduce swelling and/or relieve pressure by removing small portion of temporal bone)"
     ],
     "counseling_actions": [
-      "Discuss ENoG findings indicating critical distress of left facial nerve",
-      "Recommend surgical intervention for left side",
-      "Monitor right facial nerve for spontaneous recovery",
-      "Discuss management of persistent conductive hearing loss (patient declined)"
+      "Explain ENoG findings showing critical distress of left facial nerve with declining then absent response",
+      "Recommend surgical intervention for left facial nerve decompression",
+      "Continue monitoring right facial nerve for spontaneous recovery (response stable but low amplitude)",
+      "Discuss persistent conductive hearing loss management options (patient declined medical management due to mild degree)",
+      "Advise sleep positioning considerations given bilateral skull fractures affecting nerve status"
     ]
   },
   "escalation_and_red_flags": {
     "red_flags_present": [
-      "Bilateral facial nerve paralysis (HB Grade VI/VI)",
-      "Declining ENoG response on left side indicating nerve degeneration",
-      "Head trauma with temporal bone fractures"
+      "Bilateral facial nerve paralysis (House-Brackmann Grade VI/VI) - complete paralysis",
+      "Declining then absent ENoG response on left side indicating Wallerian degeneration and critical nerve distress",
+      "Head trauma with bilateral longitudinal temporal bone fractures",
+      "Fractures traversing facial nerve canal",
+      "Positional symptoms (headaches, decreased lip sensation when lying down) suggesting skull base instability affecting left facial nerve"
     ],
     "escalation": {
       "urgency": "urgent",
-      "destination": "Surgery",
-      "rationale_short": "Left facial nerve showed declining response on serial ENoG, indicating critical distress and need for decompression."
+      "destination": "Neurotology/Surgery for facial nerve decompression",
+      "rationale_short": "Left facial nerve showed initial recovery on serial ENoG then declined to absent response by day 15, indicating critical distress and need for surgical decompression to preserve facial function."
     }
   },
   "follow_up_plan": {
-    "timeline": "1 week post-op, 2 months, 6 months",
-    "objective": "Monitor facial nerve function recovery and hearing status."
+    "timeline": "1 week post-operative, 2 months post-operative, 6 months post-operative",
+    "objectives": [
+      "Monitor facial nerve function recovery using House-Brackmann grading",
+      "Assess hearing status and conductive hearing loss",
+      "Evaluate tympanometry and acoustic reflex recovery",
+      "Address patient complaints (tinnitus, aural fullness)"
+    ]
   },
   "expected_outcome": [
-    "1 week post-op: Upper brow and lip movement on left side.",
-    "2 months: Significant facial recovery (HB III/VI).",
-    "6 months: Full facial recovery (HB I/VI) bilaterally.",
-    "Persistent conductive hearing loss in left ear."
+    "1 week post-op: Upper brow and lip movement on left side of face observed.",
+    "2 months post-op: Significant facial recovery achieved (House-Brackmann Grade III/VI).",
+    "6 months post-op: Full facial recovery bilaterally (House-Brackmann Grade I/VI).",
+    "Persistent findings: Conductive hearing loss in left ear (consistent with ossicular chain disruption); left tinnitus, decreased hearing, and aural fullness reported but patient declined medical management; tympanometry remained normal; acoustic reflex thresholds did not recover."
+  ],
+  "key_clinical_points": [
+    "ENoG is essential for determining treatment course and prognosis in facial nerve paralysis cases.",
+    "Greater than 90% denervation indicates need for surgical intervention; less than 90% has high spontaneous recovery rate.",
+    "In bilateral involvement, percent denervation calculation is not appropriate; instead monitor overall amplitude changes.",
+    "Wallerian degeneration occurs over 72 hours; baseline ENoG should be performed after this period.",
+    "Monitoring typically continues to 21 days post-onset but may extend if nerve shows initial recovery.",
+    "Temporal bone fracture patients are at risk for conductive, mixed, or sensorineural hearing loss requiring comprehensive audiological evaluation."
   ]
 }
