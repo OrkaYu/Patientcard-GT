@@ -176,6 +176,20 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2 weeks later",
+      "setting": "Follow-up",
+      "history": {
+        "present_illness": "Patient returned 2 weeks later reporting his marriage had been saved and he could not believe how much better he was hearing.",
+        "otologic_history": "Patient is making judicious changes to the volume control setting as needed.",
+        "noise_exposure_history": "Selecting the appropriate programs based on his listening environment.",
+        "medical_psych_history": "No changes.",
+        "prior_management": "Sensitivity locked at 12; ASC breakpoint decreased to 50 dB SPL.",
+        "patient_goals": "Maintain improved performance."
+      },
+      "tests": []
     }
   ],
   "overall_audiologic_summary": "The patient is a bimodal user (CI left, HA right) presenting with subjective decline. Evaluation revealed the patient was using inappropriate device settings (high volume, low sensitivity), which compressed the dynamic range and reduced audibility of soft sounds. When tested with these user settings, performance was poor (30% CI-only in quiet). Restoring recommended settings (Volume 5, Sensitivity 12) resulted in clinically significant improvements in both quiet (72% CI-only) and noise (normal/near-normal SNR loss in Focus program).",

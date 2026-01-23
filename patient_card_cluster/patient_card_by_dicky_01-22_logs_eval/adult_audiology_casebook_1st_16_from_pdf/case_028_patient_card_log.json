@@ -1,0 +1,50 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:11:22Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_028_patient_card.json",
+    "case_main": 28,
+    "remark": "V2 缺少pure tone audiometry, speech audiometry的记录",
+    "pdf_key": "audiology_casebook_split_by_case/28_28_Acquired_Auditory_Neuropathy_in_Human.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/28_28_Acquired_Auditory_Neuropathy_in_Human.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added missing Pure-tone and speech audiometry record to V2 (Follow-up) based on section 28.5 text."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/0",
+        "value": {
+          "name": "Pure-tone and speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Left ear: No behavioral responses to speech or pure-tone stimuli. Right ear: SAT of 25 dB HL obtained. Responded to some pure tones but reliable and valid thresholds could not be established.",
+          "numeric_results": {
+            "LE_Response": "No response",
+            "RE_SAT": "25 dB HL",
+            "RE_Pure_Tone_Thresholds": "Unreliable/Not established"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

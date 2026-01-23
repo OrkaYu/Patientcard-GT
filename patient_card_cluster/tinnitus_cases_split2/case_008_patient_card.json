@@ -129,10 +129,16 @@
           "numeric_results": {
             "Pitch_Match": "1.5 kHz"
           }
-        },
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "setting": "Audiology Clinic",
+      "tests": [
         {
           "name": "TEN (Threshold Equalizing Noise) Test",
-          "timepoint_label": "Additional Testing",
+          "timepoint_label": "Diagnostic Workup",
           "ear": "bilateral",
           "condition": null,
           "sources": [
@@ -154,7 +160,7 @@
         },
         {
           "name": "Auditory Brainstem Response (ABR)",
-          "timepoint_label": "Additional Testing",
+          "timepoint_label": "Diagnostic Workup",
           "ear": "bilateral",
           "condition": null,
           "sources": [
@@ -163,7 +169,13 @@
           "figure_refs": [],
           "key_findings": "Right ear showed normal peak and interpeak latencies. Left ear showed absence of wave V at 70 dBnHL.",
           "numeric_results": {}
-        },
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "setting": "Radiology",
+      "tests": [
         {
           "name": "MRI",
           "timepoint_label": "Radiology",
@@ -180,6 +192,60 @@
           "numeric_results": {
             "Tumor_Size": "2.95 x 2.4 cm"
           }
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "6 months post-treatment",
+      "setting": "Audiology Clinic",
+      "history": {
+        "interval_history": "Follow-up 6 months after stereotactic radiosurgery. Patient denied any worsening of tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Otoscopy",
+          "timepoint_label": "6-month Follow-up",
+          "ear": "bilateral",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Clear ear canals and intact tympanic membranes bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "6-month Follow-up",
+          "ear": "bilateral",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Ear canal volumes, peak pressure, and static admittance were within normal range bilaterally.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Pure-tone audiometry",
+          "timepoint_label": "6-month Follow-up",
+          "ear": "bilateral",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 8.3"
+          ],
+          "key_findings": "Right ear thresholds within normal limits. Left ear revealed mild sensorineural hearing loss from 1000 Hz through higher frequencies; asymmetry became more significant.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Hearing in Noise Test (HINT)",
+          "timepoint_label": "6-month Follow-up",
+          "ear": "bilateral",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Performed within normal percentiles for both quiet and noise front conditions.",
+          "numeric_results": {}
         }
       ]
     }

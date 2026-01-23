@@ -99,6 +99,18 @@
       "tests": []
     },
     {
+      "visit_id": "V_Oct2019",
+      "date": "2019-10-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient reported ongoing pulsatile tinnitus and requested further adjustments.",
+        "otologic_history": "Wore devices until October 2019 with persistent symptoms.",
+        "prior_management": "New open jaw earmold impressions made of the left ear canal. Left device sent back to manufacturer for remake with a larger vent.",
+        "patient_goals": "Eliminate pulsatile tinnitus."
+      },
+      "tests": []
+    },
+    {
       "visit_id": "V3",
       "date": "2019-11-01",
       "setting": "Audiology Clinic",
@@ -121,6 +133,18 @@
           "numeric_results": {}
         }
       ]
+    },
+    {
+      "visit_id": "V_Jan2020",
+      "date": "2020-01-01",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient remained aware of the pulsatile tinnitus.",
+        "medical_psych_history": "Pacemaker placed in December 2019. Cardiologist evaluation reported no findings.",
+        "prior_management": "Manufacturer audiologist assessed physical fit. Devices sent to manufacturer to replicate physical fitting of previous devices. Cardiologist recommended gain reduction (2000-4000 Hz), which was attempted but failed.",
+        "patient_goals": "Resolution."
+      },
+      "tests": []
     },
     {
       "visit_id": "V4",

@@ -1,0 +1,178 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:07:01Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_id": "gs://case_study_audult_book/2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "common4cases",
+      "common 4",
+      "communication disorders",
+      "comm disorders",
+      "comm disorders casebook",
+      "comm disorders (4 cases)",
+      "communicationdisorders_4cases"
+    ],
+    "src_patient_card_key": "patient_card_cluster/communication_disorders_4cases/case_052_patient_card.json",
+    "case_key": "52",
+    "remark_key_used": "52",
+    "remark": "visit调整：\nV1: 初诊评估 + BPPV即刻治疗（同一天）\n    - 添加：VEMP (bilateral normal)\n    - 添加：VAST (right positive)\n    - 添加：OAE/鼓室图 (consistent with audiometry)\n    - 保留：GRM治疗内容\nV2: 1周复查（原V3）\n    - 保持不变\nV3: 助听器验配（可选，与VRT同步开始）\nV4: VRT后最终评估\n    - 添加：甩头测试（无可诱发眼震）",
+    "pdf_key": "audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case52_Claude.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case52_Claude.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Merged original V2 (Treatment) into V1, adding VEMP, VAST, OAE, and GRM tests.",
+      "Shifted original V3 (Follow-up) to V2.",
+      "Created new V3 for Hearing Aid fitting and VRT initiation.",
+      "Added Headshake Test to V4 (Post-VRT)."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Vestibular Evoked Myogenic Potentials (VEMP)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Bilateral normal waveforms (ocular and cervical).",
+          "numeric_results": {}
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Vertebrobasilar Artery Screening Test (VAST)",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right positive (transient dizziness with hyperextension/rotation). Left unremarkable.",
+          "numeric_results": {}
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Otoacoustic Emissions and Immittance",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Consistent with audiometric data.",
+          "numeric_results": {}
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Canalith Repositioning (Gans Maneuver)",
+          "timepoint_label": "Treatment",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Gans Repositioning Maneuver (GRM) performed. After two maneuvers, no symptoms in provoking position.",
+          "numeric_results": {}
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1",
+        "value": {
+          "visit_id": "V2",
+          "date": "1 week post-treatment",
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Follow-up to check BPPV status. Patient reported no vertigo but persistent dizziness with head movement.",
+            "otologic_history": "N/A",
+            "noise_exposure_history": "N/A",
+            "medical_psych_history": "N/A",
+            "prior_management": "GRM performed 1 week prior.",
+            "patient_goals": "Confirm BPPV clearance."
+          },
+          "tests": [
+            {
+              "name": "Positional Testing",
+              "timepoint_label": "Follow-up",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Dix-Hallpike, side-lying, and deep head-hanging were all negative. VAST initially positive then negative (attributed to BPPV resolution).",
+              "numeric_results": {}
+            }
+          ]
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/2",
+        "value": {
+          "visit_id": "V3",
+          "date": "Start of VRT",
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Initiation of VRT and hearing aid trial.",
+            "otologic_history": "Fitted with hearing aids.",
+            "noise_exposure_history": "N/A",
+            "medical_psych_history": "N/A",
+            "prior_management": "BPPV resolved.",
+            "patient_goals": "Manage tinnitus and imbalance."
+          },
+          "tests": [
+            {
+              "name": "Hearing Aid Fitting",
+              "timepoint_label": "Intervention",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Fitted with amplification. Initial frustration, refitted at week 3 with benefit.",
+              "numeric_results": {}
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/3/tests/-",
+        "value": {
+          "name": "Headshake Test",
+          "timepoint_label": "Post-VRT",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "No provocable nystagmus.",
+          "numeric_results": {}
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

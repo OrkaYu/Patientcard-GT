@@ -1,0 +1,39 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T23:22:11Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_017_patient_card.json",
+    "case_num": 17,
+    "remark": "补充Bing test (self-administered)结果",
+    "pdf_key": "Tinnitus_Cases_split2/Case17_Diplacusis_or_the_A_ected_Audiologist.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case17_Diplacusis_or_the_A_ected_Audiologist.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added the self-administered Bing test results to the tests array in the first encounter, as described in the text (Assessment section)."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Bing Test (Self-administered)",
+          "timepoint_label": "Onset",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Phonation of the vowel /a/ increased in loudness when occluding either ear, consistent with a positive Bing test (no conductive component).",
+          "numeric_results": null
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

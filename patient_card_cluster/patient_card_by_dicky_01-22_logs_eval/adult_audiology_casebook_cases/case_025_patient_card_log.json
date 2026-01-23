@@ -1,0 +1,81 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:07:29Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (11 cases)",
+    "src_patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_025_patient_card.json",
+    "case_main": 25,
+    "remark": "V1 修改： history.noise_exposure_history: \"Police officer (likely occupational exposure, though not explicitly detailed in history text)\" → \"Police officer; occupational noise exposure likely (firing range)\"\n缺少 V2（耳科随访）和V3（MRI）和V4（治疗）和V5（计划随访）",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case25_Importance_of_Audiologic_and_Vestibular.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case25_Importance_of_Audiologic_and_Vestibular.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V1 noise exposure history to explicitly mention 'firing range' as requested.",
+      "Added V2 (Otology follow-up) on 2016-08-13 (day after V1).",
+      "Added V3 (MRI) in August 2016 confirming vestibular schwannoma.",
+      "Added V4 (Gamma Knife Surgery) in August 2016.",
+      "Added V5 (Planned Follow-up) for February 2017 including VRT referral."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/history/noise_exposure_history",
+        "value": "Police officer; occupational noise exposure likely (firing range)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": "2016-08-13",
+          "setting": "Otolaryngology Clinic",
+          "history": {
+            "present_illness": "Follow-up to review audiologic and VNG findings."
+          },
+          "management": "Ordered MRI of internal auditory canals with and without contrast."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": "August 2016",
+          "setting": "Imaging Center",
+          "tests": [
+            {
+              "name": "MRI Internal Auditory Canals",
+              "key_findings": "Small 6-mm vestibular schwannoma within the right internal auditory canal protruding into the cerebellopontine angle and pressing on the seventh (facial) and eighth (vestibulocochlear) cranial nerves."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "date": "August 2016",
+          "setting": "Hospital",
+          "management": "Gamma knife radiosurgery performed (2 days after MRI) to stunt tumor growth."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V5",
+          "date": "February 2017",
+          "setting": "Audiology Clinic",
+          "management": "Scheduled 6-month follow-up audiometric evaluation. Referred for Vestibular Rehabilitation Therapy (VRT)."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

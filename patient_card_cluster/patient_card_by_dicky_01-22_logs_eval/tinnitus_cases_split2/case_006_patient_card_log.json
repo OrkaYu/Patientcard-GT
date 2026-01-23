@@ -1,0 +1,128 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T23:17:39Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_006_patient_card.json",
+    "case_num": 6,
+    "remark": "缺少V2 （1 month follow-up），V3 （3 month follow-up）和V4（6 month follow-up）",
+    "pdf_key": "Tinnitus_Cases_split2/Case06_Tinnitus_Following_Concussion.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case06_Tinnitus_Following_Concussion.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 (1 month follow-up) with THI 62, TFI 78 and notes on sound enrichment/TRT initiation.",
+      "Added V3 (3 month follow-up) with THI 48, TFI 50 and notes on CBT.",
+      "Added V4 (6 month follow-up) with THI 36, TFI 48, Concussion Checklist 33, and notes on medication changes and TRT success."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "1 month follow-up. Patient began sound enrichment at home using masker-app and classical music at a comfortable volume.",
+            "otologic_history": null,
+            "noise_exposure_history": null,
+            "medical_psych_history": null,
+            "prior_management": "Started TRT + mild amplification for the left ear. Initiated an app-based masker when driving; acquired filtered earplugs (ETY plugs) for sporting events.",
+            "patient_goals": null
+          },
+          "tests": [
+            {
+              "name": "Questionnaires",
+              "timepoint_label": "1 month follow-up",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "THI score was 62 and TFI score 78.",
+              "numeric_results": {
+                "THI_Score": "62",
+                "TFI_Score": "78"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "3 month follow-up. Attended a first visit with CBT and decided not to pursue it. Reported receiving good strategies for working through anxiety and was able to practice techniques at home.",
+            "otologic_history": null,
+            "noise_exposure_history": null,
+            "medical_psych_history": null,
+            "prior_management": null,
+            "patient_goals": null
+          },
+          "tests": [
+            {
+              "name": "Questionnaires",
+              "timepoint_label": "3 month follow-up",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "THI score was 48 and TFI 50.",
+              "numeric_results": {
+                "THI_Score": "48",
+                "TFI_Score": "50"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "6 month follow-up. Patient was emotional, expressing gratitude and reporting symptoms had improved dramatically. Taking Melatonin for sleep; no longer Desyrel.",
+            "otologic_history": null,
+            "noise_exposure_history": null,
+            "medical_psych_history": null,
+            "prior_management": "Managing tinnitus with TRT device/streamed masking sounds during the day with good success.",
+            "patient_goals": "Recommended to continue TRT for at least 18 months before starting sound therapy reduction plan."
+          },
+          "tests": [
+            {
+              "name": "Questionnaires",
+              "timepoint_label": "6 month follow-up",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Concussion symptom checklist score was 33, THI 36, and TFI 48.",
+              "numeric_results": {
+                "Concussion_Symptom_Checklist": "33",
+                "THI_Score": "36",
+                "TFI_Score": "48"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

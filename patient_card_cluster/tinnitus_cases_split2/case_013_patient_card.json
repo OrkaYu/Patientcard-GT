@@ -103,6 +103,32 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "6 months post-V1",
+      "setting": "Tinnitus Clinic",
+      "history": {
+        "prior_management": "Patient was provided a set of hearing aids that contained rudimentary tinnitus masking options (default setting included low-level masking noise).",
+        "present_illness": "Patient returned for follow-up. Despite improvements in distress scores, he reported that many environmental sounds remained too loud, and pain was routinely produced by sounds that did not bother other people, particularly high-pitched sounds, horns, and sirens."
+      },
+      "tests": [
+        {
+          "name": "Self-report scales",
+          "timepoint_label": "6 months follow-up",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Clinically significant decreases in scores from initial administration.",
+          "numeric_results": {
+            "THI Score": "44/100",
+            "TFI Score": "57/100"
+          }
+        }
+      ]
     }
   ],
   "overall_audiologic_summary": "The patient presents with bilateral sloping mild-to-severe sensorineural hearing loss, with a documented threshold shift in the right ear following acoustic trauma. The clinical picture is dominated by Acoustic Shock Disorder symptoms, including severe tinnitus distress (TFI 86/100), hyperacusis, and otalgia (pain) upon sound exposure. Acoustic reflexes are elevated or absent, consistent with the degree of hearing loss.",

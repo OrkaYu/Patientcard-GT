@@ -130,6 +130,29 @@
           "numeric_results": {}
         }
       ]
+    },
+    {
+      "visit_id": "V4",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Final appointment 1 year after the initial visit. Reported significant progress despite ongoing issues with sound tolerance.",
+        "prior_management": "Used sound generators when necessary to manage situations and mask sounds."
+      },
+      "tests": [
+        {
+          "name": "Subjective Report",
+          "timepoint_label": "1-year Follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Able to participate in activities previously impossible (e.g., supermarket, dentist, optician, GP during normal hours). Gained a sense of control. Reported satisfaction with devices. Did not have a preferred program, choosing between the four based on mood and situation.",
+          "numeric_results": {}
+        }
+      ]
     }
   ],
   "overall_audiologic_summary": "The patient presents with normal pure-tone hearing sensitivity and normal middle ear function bilaterally. The primary diagnosis is misophonia, characterized by severe emotional and behavioral reactions to specific trigger sounds. Treatment involves the use of ear-level sound generators (no amplification) to provide masking and a sense of control, alongside environmental sound enrichment.",

@@ -44,8 +44,8 @@
           ],
           "key_findings": "Bilateral normal hearing in the low frequencies sloping to severe high-frequency sensorineural hearing loss. A 'noise notch' configuration is evident, though eroding into a slope due to age/progression. Significant threshold shift (STS) confirmed compared to 1971 baseline.",
           "numeric_results": {
-            "Left_Ear_Thresholds_Hz_dBHL": "500:20, 1000:30, 2000:55, 3000:80, 4000:75, 6000:70, 8000:50",
-            "Right_Ear_Thresholds_Hz_dBHL": "500:15, 1000:45, 2000:60, 3000:70, 4000:65, 6000:65, 8000:45",
+            "Left_Ear_Thresholds_Hz_dBHL": "500:10, 1000:20, 2000:55, 3000:65, 4000:75, 6000:70, 8000:50",
+            "Right_Ear_Thresholds_Hz_dBHL": "500:15, 1000:40, 2000:55, 3000:65, 4000:65, 6000:65, 8000:45",
             "Left_STS_Status": "Third STS-A confirmed",
             "Right_STS_Status": "Third STS-A confirmed"
           }

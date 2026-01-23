@@ -64,9 +64,9 @@
           ],
           "key_findings": "SRT scores agree with PTA. Word recognition is good in the right ear (slight difficulty) and excellent in the left ear.",
           "numeric_results": {
-            "RE_SRT": "60 dB HL",
+            "RE_SRT": "55 dB HL",
             "RE_WRS": "80% at 90 dB HL",
-            "LE_SRT": "33 dB HL",
+            "LE_SRT": "30 dB HL",
             "LE_WRS": "96% at 70 dB HL"
           }
         },

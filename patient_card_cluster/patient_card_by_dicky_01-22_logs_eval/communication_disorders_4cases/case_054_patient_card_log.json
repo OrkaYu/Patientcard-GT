@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:07:27Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_id": "gs://case_study_audult_book/2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "common4cases",
+      "common 4",
+      "communication disorders",
+      "comm disorders",
+      "comm disorders casebook",
+      "comm disorders (4 cases)",
+      "communicationdisorders_4cases"
+    ],
+    "src_patient_card_key": "patient_card_cluster/communication_disorders_4cases/case_054_patient_card.json",
+    "case_key": "54",
+    "remark_key_used": "54",
+    "remark": "V1 PTA - Left 500:20, 1000:30, 3000:80改为500:10, 1000:20, 3000:65\nV1 PTA - Right 1000:45, 2000:60, 3000:70 改为1000:40, 2000:55, 3000:65",
+    "pdf_key": "audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case54_Jack.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case54_Jack.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V1 Pure-tone audiometry Left Ear thresholds: 500 Hz (20->10), 1000 Hz (30->20), 3000 Hz (80->65) per remarks.",
+      "Updated V1 Pure-tone audiometry Right Ear thresholds: 1000 Hz (45->40), 2000 Hz (60->55), 3000 Hz (70->65) per remarks."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/numeric_results/Left_Ear_Thresholds_Hz_dBHL",
+        "value": "500:10, 1000:20, 2000:55, 3000:65, 4000:75, 6000:70, 8000:50"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/numeric_results/Right_Ear_Thresholds_Hz_dBHL",
+        "value": "500:15, 1000:40, 2000:55, 3000:65, 4000:65, 6000:65, 8000:45"
+      }
+    ],
+    "unresolved": []
+  }
+}

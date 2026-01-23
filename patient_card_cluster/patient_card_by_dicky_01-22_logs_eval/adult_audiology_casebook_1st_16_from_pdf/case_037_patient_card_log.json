@@ -1,0 +1,150 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:16:18Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_037_patient_card.json",
+    "case_main": 37,
+    "remark": "V1 Speech audiometry SRT_Right改为\"10 dB HL\"，SRT_Left改为\"10 dB HL\"\nV1 pure tone audiometry Right_AC_Thresholds 250Hz 改为\"30 dB HL\"\nV1 cVEMP Right_Threshold改为\"Normal (≥70 dB nHL)\"\n缺少V2 （初诊后） V3（影像确诊后） V4 （术后1周） V5 （术后6个月）",
+    "pdf_key": "audiology_casebook_split_by_case/37_37_Di_erential_Diagnosis_of_Central_versus.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/37_37_Di_erential_Diagnosis_of_Central_versus.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V1 Pure-tone audiometry Right_AC_Thresholds at 250Hz to 30 dB HL.",
+      "Updated V1 Speech audiometry SRT_Right and SRT_Left to 10 dB HL.",
+      "Updated V1 cVEMP Right_Threshold to 'Normal (≥70 dB nHL)'.",
+      "Added V2 (Post-Initial/MRI), V3 (Imaging Confirmation/CT), V4 (1 week postsurgery), and V5 (6 months postoperative) encounters based on case history and outcomes."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/numeric_results/Right_AC_Thresholds",
+        "value": "250Hz: 30 dB HL, 500Hz: ~25 dB HL, 1000-2000Hz: ~10-15 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Right",
+        "value": "10 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Left",
+        "value": "10 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/5/numeric_results/Right_Threshold",
+        "value": "Normal (≥70 dB nHL)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "timepoint_label": "Post-Initial",
+          "setting": "Imaging",
+          "history": {
+            "present_illness": "Evaluation for Third Window Syndrome."
+          },
+          "tests": [
+            {
+              "name": "MRI",
+              "ear": "bilateral",
+              "key_findings": "Negative."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "timepoint_label": "Imaging Confirmation",
+          "setting": "Imaging",
+          "history": {
+            "present_illness": "CT scan ordered after negative MRI."
+          },
+          "tests": [
+            {
+              "name": "CT Scan",
+              "ear": "bilateral",
+              "key_findings": "Bilateral Superior Semicircular Canal Dehiscence (SSCD/DSSC). Left side symptomatic."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "timepoint_label": "1 week postsurgery",
+          "setting": "Audiology and Vestibular Clinic",
+          "history": {
+            "present_illness": "Reported significant improvement in symptoms, but still reported occasional vertigo."
+          },
+          "tests": [
+            {
+              "name": "VNG",
+              "condition": "Post-headshake",
+              "key_findings": "Mild right beat nystagmus."
+            },
+            {
+              "name": "Positional testing",
+              "condition": "Head-hanging",
+              "key_findings": "Downbeating nystagmus (test of anterior/superior semicircular canal)."
+            },
+            {
+              "name": "cVEMP",
+              "key_findings": "Reduced left threshold response was no longer present (results now within normal limits).",
+              "numeric_results": {
+                "Left_Threshold": "Normal"
+              }
+            },
+            {
+              "name": "Caloric irrigation",
+              "key_findings": "No change in horizontal semicircular canal function."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V5",
+          "timepoint_label": "6 months postoperative",
+          "setting": "Audiology and Vestibular Clinic",
+          "history": {
+            "present_illness": "Fully resolved of all symptoms, denied falls, and was able to walk unassisted."
+          },
+          "tests": [
+            {
+              "name": "VNG",
+              "condition": "Post-headshake",
+              "key_findings": "No evidence of downbeating nystagmus."
+            },
+            {
+              "name": "Positional testing",
+              "condition": "Head-hanging",
+              "key_findings": "No evidence of downbeating nystagmus."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

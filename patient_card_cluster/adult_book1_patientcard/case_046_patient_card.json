@@ -163,6 +163,47 @@
             "Final_Adjustment": "15 dB notch filter between 1000 Hz and 1500 Hz",
             "Target_Match": "Good match to NAL-NL2 prior to notch filtering"
           }
+        },
+        {
+          "name": "Piano Verification",
+          "timepoint_label": "Fitting",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Figure 46.2"
+          ],
+          "key_findings": "Subjective verification while playing the piano. Reducing gain at 274 Hz and 554 Hz yielded no improvement. Notch filtering of 15 dB between 1000 Hz and 1500 Hz substantially improved sound quality.",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up report on hearing aid usage.",
+        "otologic_history": "Unchanged.",
+        "noise_exposure_history": "Unchanged.",
+        "medical_psych_history": "Unchanged.",
+        "prior_management": "Hearing aids fitted with notch filter.",
+        "patient_goals": "Continued use of amplification."
+      },
+      "tests": [
+        {
+          "name": "Outcome Assessment",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Patient reported the piano sounded significantly better, though not perfect. He was able to use the hearing aids in many social situations with significant benefit.",
+          "numeric_results": null
         }
       ]
     }

@@ -129,10 +129,10 @@
           ],
           "key_findings": "Significant SRT/PTA discrepancy in the left ear (SRT 25 dB better than PTA).",
           "numeric_results": {
-            "RE_SRT": "8 dB HL",
+            "RE_SRT": "10 dB HL",
             "RE_WRS": "96%",
             "LE_SRT": "55 dB HL",
-            "LE_WRS": "62%"
+            "LE_WRS": "62% (recorded as 'NONE 62%')"
           }
         },
         {
@@ -170,6 +170,39 @@
             "Predicted_True_Threshold_500Hz": "15-20 dB HL",
             "Predicted_True_Threshold_4000Hz": "30-35 dB HL"
           }
+        },
+        {
+          "name": "Immittance test battery",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Performed to confirm Stenger/MCIL results; specific data unavailable due to PDF truncation.",
+          "numeric_results": {}
+        },
+        {
+          "name": "DPOAEs",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Performed to confirm Stenger/MCIL results; specific data unavailable due to PDF truncation.",
+          "numeric_results": {}
+        },
+        {
+          "name": "ABR test",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Performed to confirm Stenger/MCIL results; specific data unavailable due to PDF truncation.",
+          "numeric_results": {}
         }
       ]
     }

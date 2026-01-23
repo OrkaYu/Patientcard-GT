@@ -1,0 +1,425 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:04:47Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (11 cases)",
+    "src_patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_016_patient_card.json",
+    "case_main": 16,
+    "remark": "参考:      \n{\n  \"case_id\": \"case16_Asymmetric_Hearing_Loss_Evaluation_Diagn\",\n  \"title\": \"Asymmetric Sensorineural Hearing Loss with Tinnitus and Aural Fullness\",\n  \"demographics\": {\n    \"age_years\": 66,\n    \"sex\": \"male\",\n    \"date_of_birth\": \"1951-04-25\",\n    \"primary_language\": null,\n    \"country_region\": null\n  },\n  \"chief_complaint\": \"I have noticed a gradual hearing loss over the past 2 years, and my right ear seems better than my left. I also have constant ringing and a slight feeling of fullness in my left ear, and I'm having more trouble hearing in background noise and asking for repetitions.\",\n  \"problem_summary\": {\n    \"onset\": \"Gradual deterioration over the past 2 years.\",\n    \"course\": \"Slowly progressive.\",\n    \"laterality\": \"Bilateral but asymmetric (Left ear worse).\",\n    \"associated_symptoms\": \"Constant tinnitus (left), slight aural fullness (left), difficulty in background noise.\",\n    \"functional_impact\": \"Asking for repetitions more often; difficulty hearing in noise.\",\n    \"goals_motivation\": \"Wants to improve hearing for TV, restaurants, and grandchildren.\"\n  },\n  \"encounters\": [\n    {\n      \"visit_id\": \"V1\",\n      \"date\": \"2017-09-27\",\n      \"setting\": \"Audiology Clinic\",\n      \"visit_type\": \"Initial Audiologic Evaluation\",\n      \"history\": {\n        \"present_illness\": \"Patient reports gradual hearing loss, worse in the left ear, with constant left-sided tinnitus and slight aural fullness.\",\n        \"otologic_history\": \"Denied otalgia or dizziness.\",\n        \"noise_exposure_history\": \"Long history of unprotected noise exposure from factory work and using rifles held on the right shoulder.\",\n        \"medical_psych_history\": \"None reported.\",\n        \"prior_management\": \"Initial evaluation.\",\n        \"patient_goals\": \"Assessment of hearing status.\"\n      },\n      \"tests\": [\n        {\n          \"name\": \"Otoscopy\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"Clear external ear canals bilaterally.\",\n          \"numeric_results\": {}\n        },\n        {\n          \"name\": \"Pure-tone audiometry\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\"text\", \"image\"],\n          \"figure_refs\": [\"Figure 16.1\"],\n          \"key_findings\": \"Right ear: Normal at 250-500 Hz, sloping to mild SNHL at 1000-2000 Hz, to moderately severe SNHL at 4000-8000 Hz. Left ear: Normal at 250-500 Hz, sloping to mild SNHL at 1000 Hz, moderate SNHL at 2000 Hz, to severe SNHL at 4000-8000 Hz. Asymmetric configuration (Left worse).\",\n          \"numeric_results\": {\n            \"RE_250Hz\": \"10 dB HL\",\n            \"RE_500Hz\": \"15 dB HL\",\n            \"RE_1000Hz\": \"25 dB HL\",\n            \"RE_2000Hz\": \"35 dB HL\",\n            \"RE_4000Hz\": \"60 dB HL\",\n            \"RE_8000Hz\": \"65 dB HL\",\n            \"LE_250Hz\": \"15 dB HL\",\n            \"LE_500Hz\": \"15 dB HL\",\n            \"LE_1000Hz\": \"30 dB HL\",\n            \"LE_2000Hz\": \"50 dB HL\",\n            \"LE_4000Hz\": \"80 dB HL\",\n            \"LE_8000Hz\": \"90 dB HL\"\n          }\n        },\n        {\n          \"name\": \"Speech audiometry\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\"text\", \"image\"],\n          \"figure_refs\": [\"Figure 16.1\"],\n          \"key_findings\": \"SRT indicates slight loss in the ability to receive speech in the right ear and mild loss in the left ear. Word recognition reveals normal ability in the right ear and slight difficulty in the left ear.\",\n          \"numeric_results\": {\n            \"RE_SRT\": \"25 dB HL\",\n            \"LE_SRT\": \"30 dB HL\",\n            \"RE_WRS\": \"92%\",\n            \"RE_WRS_Level\": \"75 dB HL\",\n            \"LE_WRS\": \"80%\",\n            \"LE_WRS_Level\": \"85 dB HL\",\n            \"Word_List\": \"NU-6 Female\"\n          }\n        },\n        {\n          \"name\": \"Tympanometry\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\"text\", \"image\"],\n          \"figure_refs\": [\"Figure 16.1\"],\n          \"key_findings\": \"Normal middle ear pressure, ear canal volume, and static admittance bilaterally (Type A).\",\n          \"numeric_results\": {\n            \"RE_Vol\": \"2.2 mL\",\n            \"RE_Compliance\": \"0.8 mL\",\n            \"RE_Pressure\": \"-7 daPa\",\n            \"RE_Type\": \"A\",\n            \"LE_Vol\": \"2.0 mL\",\n            \"LE_Compliance\": \"0.7 mL\",\n            \"LE_Pressure\": \"-5 daPa\",\n            \"LE_Type\": \"A\"\n          }\n        },\n        {\n          \"name\": \"Acoustic reflexes\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\"text\", \"image\"],\n          \"figure_refs\": [\"Figure 16.1\"],\n          \"key_findings\": \"Ipsilateral: Normal at 500-2000 Hz, absent at 4000 Hz in the right ear; Normal at 500 Hz, elevated at 1000-2000 Hz, absent at 4000 Hz in the left ear. Contralateral: Normal at 500-1000 Hz probe right, absent at 2000-4000 Hz; Normal at 500 Hz probe left, absent at 1000-4000 Hz. Reflex decay normal in the right ear, could not be tested (CNT) in the left ear. Elevated ARTs correlate with cochlear loss; absent ARTs indicate severe cochlear loss or possible retrocochlear pathology.\",\n          \"numeric_results\": {\n            \"Ipsi_RE_500Hz\": \"90 dB HL\",\n            \"Ipsi_RE_1000Hz\": \"90 dB HL\",\n            \"Ipsi_RE_2000Hz\": \"95 dB HL\",\n            \"Ipsi_RE_4000Hz\": \"ABS\",\n            \"Ipsi_LE_500Hz\": \"100 dB HL\",\n            \"Ipsi_LE_1000Hz\": \"105 dB HL\",\n            \"Ipsi_LE_2000Hz\": \"105 dB HL\",\n            \"Ipsi_LE_4000Hz\": \"ABS\",\n            \"Contra_RE_500Hz\": \"95 dB HL\",\n            \"Contra_RE_1000Hz\": \"95 dB HL\",\n            \"Contra_RE_2000Hz\": \"ABS\",\n            \"Contra_RE_4000Hz\": \"ABS\",\n            \"Contra_LE_500Hz\": \"100 dB HL\",\n            \"Contra_LE_1000Hz\": \"ABS\",\n            \"Contra_LE_2000Hz\": \"ABS\",\n            \"Contra_LE_4000Hz\": \"ABS\",\n            \"Reflex_Decay_RE\": \"Normal\",\n            \"Reflex_Decay_LE\": \"CNT\"\n          }\n        }\n      ],\n      \"recommendations\": \"Referral to Otology due to asymmetric hearing thresholds, unilateral tinnitus, and aural fullness on the same side as the poorer hearing ear. Medical clearance required before amplification. Hearing protection in noise recommended.\"\n    },\n    {\n      \"visit_id\": \"V2\",\n      \"date\": null,\n      \"setting\": \"Audiology Clinic\",\n      \"visit_type\": \"Hearing Aid Evaluation (HAE)\",\n      \"history\": {\n        \"present_illness\": \"Patient returned following medical clearance from Otology.\",\n        \"otologic_history\": \"Evaluated by Otology. ABR testing completed utilizing rarefaction polarity click stimuli at 11.1 and 71.3 clicks per second, presentation level 90 dBnHL. Absolute and interpeak latency for waves I-V were normal bilaterally. ABR did not suggest auditory nerve or brainstem dysfunction. MRI with and without contrast showed normal internal auditory canals bilaterally (clear of retrocochlear pathology). Patient cleared for amplification.\",\n        \"noise_exposure_history\": \"Asymmetry attributed to noise exposure (right-handed rifle shooter).\",\n        \"medical_psych_history\": \"Cleared of retrocochlear pathology.\",\n        \"prior_management\": \"Medical workup completed.\",\n        \"patient_goals\": \"Proceed with hearing aid evaluation.\"\n      },\n      \"tests\": [\n        {\n          \"name\": \"Speech-in-noise\",\n          \"timepoint_label\": \"Pre-fitting\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"QuickSIN performed binaurally in sound field. Signal (female talker) presented at 40 dB HL from 0-degree azimuth, multi-talker babble from 180-degree azimuth. Six sentences per list at SNRs of 25, 20, 15, 10, 5, and 0 dB. Results indicate moderate SNR loss, suggesting hearing aids alone may not provide sufficient benefit in noise. Remote microphone technology recommended.\",\n          \"numeric_results\": {\n            \"SNR_Loss\": \"14 dB\",\n            \"SNR_Loss_Category\": \"Moderate\"\n          }\n        },\n        {\n          \"name\": \"Loudness Discomfort Levels (LDLs)\",\n          \"timepoint_label\": \"Pre-fitting\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"LDLs evaluated using TDH-50 earphones with Contour Loudness categories (1-7 scale). Ascending pulsed warble-tone stimuli used. LDLs found to be within the normal range at all frequencies tested. Results will be used to ensure RESR does not exceed LDLs.\",\n          \"numeric_results\": {\n            \"Frequencies_Tested\": \"500, 1000, 2000, 4000 Hz\",\n            \"Result\": \"Within normal limits\"\n          }\n        },\n        {\n          \"name\": \"Self-report scale\",\n          \"timepoint_label\": \"Pre-fitting\",\n          \"ear\": null,\n          \"condition\": \"unaided\",\n          \"sources\": [\"text\", \"image\"],\n          \"figure_refs\": [\"Figure 16.2\"],\n          \"key_findings\": \"Unaided COSI completed. Patient identified three specific listening needs in order of significance.\",\n          \"numeric_results\": {\n            \"Goal_1\": \"Hearing my wife better in noisy restaurants\",\n            \"Goal_2\": \"Hearing my grandchildren better than I currently do\",\n            \"Goal_3\": \"Hearing and understanding my TV, and the volume be lower\"\n          }\n        },\n        {\n          \"name\": \"Ear impressions\",\n          \"timepoint_label\": \"Pre-fitting\",\n          \"ear\": \"bilateral\",\n          \"condition\": null,\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"Bilateral silicone impressions taken without incident.\",\n          \"numeric_results\": {}\n        }\n      ],\n      \"hearing_aid_selection\": {\n        \"devices\": \"Bilateral ReSound LiNX 3D 9 62 RIC hearing aids\",\n        \"accessories\": \"ReSound wireless remote Multi Mic\",\n        \"rationale\": \"Patient elected to pursue after discussing differences between levels of hearing aid technology including number of channels and bands, sophistication of automatic program, and flexibility in direct streaming iPhone applications.\",\n        \"warranty\": \"3 years with manufacturer, includes all clinic services, manufacturer repairs, and one-time loss and damage policy per device. Option to extend warranty annually after 3 years.\",\n        \"service_model\": \"Unbundled approach after warranty expiration.\"\n      }\n    },\n    {\n      \"visit_id\": \"V3\",\n      \"date\": null,\n      \"setting\": \"Audiology Clinic\",\n      \"visit_type\": \"Hearing Aid Fitting (HAF)\",\n      \"history\": {\n        \"present_illness\": \"Hearing Aid Fitting appointment. Hearing aids arrived 1.5 weeks after order.\",\n        \"prior_management\": \"Hearing aids verified to meet order specifications (model, color, receiver wire length, power, earmold features including vent size, bore length, color, and material).\",\n        \"patient_goals\": \"Fit and verify devices.\"\n      },\n      \"tests\": [\n        {\n          \"name\": \"ANSI S3.22-2009 verification\",\n          \"timepoint_label\": \"Fitting\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"aided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"Verification testing completed on FONIX 8000 Hearing Aid Test System with each hearing aid in test mode. Testing met manufacturer specifications for each aid.\",\n          \"numeric_results\": {}\n        },\n        {\n          \"name\": \"Directional microphone verification\",\n          \"timepoint_label\": \"Fitting\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"aided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"Directional microphone performance verified on FONIX 8000. Directional microphones operating properly.\",\n          \"numeric_results\": {}\n        },\n        {\n          \"name\": \"Real-Ear Measures (REM)\",\n          \"timepoint_label\": \"Fitting\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"aided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"Performed on FONIX 8000 to establish appropriate prescriptive real-ear insertion gain, corrected for 17 channel summation and binaural summation (3-5 dB). REM for nonlinear hearing aids performed with input levels of 50, 65, and 80 dB SPL provided appropriate gain and smooth frequency response.\",\n          \"numeric_results\": {\n            \"Prescription\": \"NAL-NL2 (implied)\",\n            \"Input_Levels_Tested\": \"50, 65, 80 dB SPL\"\n          }\n        },\n        {\n          \"name\": \"Aided Loudness Judgments\",\n          \"timepoint_label\": \"Fitting\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"aided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"Performed with composite speech signal provided by FONIX 8000. Patient rated speech signals appropriately across input levels.\",\n          \"numeric_results\": {\n            \"50_dB_SPL\": \"Soft\",\n            \"65_dB_SPL\": \"Comfortable\",\n            \"80_dB_SPL\": \"Loud, but okay\"\n          }\n        },\n        {\n          \"name\": \"RESR90\",\n          \"timepoint_label\": \"Fitting\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"aided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"RESR90 performed at 90 dB SPL. Patient did not report loudness discomfort. Maximum output programmed so that each frequency did not exceed unaided LDLs.\",\n          \"numeric_results\": {}\n        }\n      ],\n      \"hearing_aid_setup\": {\n        \"programs_activated\": [\"All-Around\", \"Restaurant\", \"Party\", \"T-coil\"],\n        \"iphone_paired\": true,\n        \"app\": \"Smart 3D\",\n        \"multi_mic_counseling\": \"Counseled on how to wirelessly stream signals from Multi Mic, in which situations it may be helpful, and how to deactivate hearing aid microphones to receive input only from Multi Mic in noisy environments (accessed in iPhone app).\",\n        \"app_features_counseled\": \"Reducing background noise, narrowing the beam of speech input in Restaurant and Party programs, switching between programs.\",\n        \"telecoil_counseling\": \"Counseled on potential use of T-coil in environments with looping capability.\",\n        \"care_and_maintenance\": \"Counseled on use and maintenance of hearing aids and earmolds. Warranty information reviewed. Hearing aid contract reviewed and signed.\"\n      },\n      \"follow_up_scheduled\": \"2 weeks\"\n    },\n    {\n      \"visit_id\": \"V4\",\n      \"date\": null,\n      \"setting\": \"Audiology Clinic\",\n      \"visit_type\": \"Hearing Aid Assessment (HAA)\",\n      \"history\": {\n        \"present_illness\": \"Two weeks after HAF, patient returned for hearing aid assessment. Reports doing well with hearing aids in most listening situations but still having difficulty hearing and understanding speech in noisy places. Prefers using iPhone app to adjust volume and settings. Reports hearing well when using cellphone through direct streaming. Reports he had not utilized the Multi Mic much.\",\n        \"prior_management\": \"Using bilateral ReSound LiNX 3D 9 hearing aids for 2 weeks.\",\n        \"patient_goals\": \"Improve performance in noisy environments.\"\n      },\n      \"tests\": [\n        {\n          \"name\": \"Self-report scale\",\n          \"timepoint_label\": \"Post-fitting\",\n          \"ear\": null,\n          \"condition\": \"aided\",\n          \"sources\": [\"text\", \"image\"],\n          \"figure_refs\": [\"Figure 16.2\"],\n          \"key_findings\": \"Aided COSI completed. Results revealed that with hearing aids, patient is hearing better or much better in his listening environments compared to performance without hearing aids.\",\n          \"numeric_results\": {\n            \"Goal_1\": \"Hearing my wife better in noisy restaurants\",\n            \"Goal_1_Degree_of_Change\": \"Much Better\",\n            \"Goal_1_Final_Ability\": \"Most of the Time\",\n            \"Goal_2\": \"Hearing my grandchildren better than I currently do\",\n            \"Goal_2_Degree_of_Change\": \"Much Better\",\n            \"Goal_2_Final_Ability\": \"Most of the Time\",\n            \"Goal_3\": \"Hearing and understanding my TV, and the volume be lower\",\n            \"Goal_3_Degree_of_Change\": \"Better\",\n            \"Goal_3_Final_Ability\": \"Almost Always\"\n          }\n        },\n        {\n          \"name\": \"Speech-in-noise\",\n          \"timepoint_label\": \"Post-fitting\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"aided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"Aided QuickSIN performed. Significant improvement compared to unaided performance. Results indicate mild SNR loss, still not within normal range. Further proof that remote microphone technology could help in noise.\",\n          \"numeric_results\": {\n            \"SNR_Loss\": \"6 dB\",\n            \"SNR_Loss_Category\": \"Mild\",\n            \"Improvement_from_Unaided\": \"8 dB\"\n          }\n        },\n        {\n          \"name\": \"Electroacoustic analysis\",\n          \"timepoint_label\": \"Post-fitting\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"aided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"2cc coupler measurement performed on FONIX 8000 at user settings. Will be used as baseline measurement for future tests.\",\n          \"numeric_results\": {}\n        }\n      ],\n      \"hearing_aid_adjustments\": {\n        \"programs_modified\": [\"Restaurant\", \"Party\"],\n        \"frequency_response_changes\": \"Adjusted to provide more high-frequency emphasis.\",\n        \"noise_reduction_changes\": \"Programmed to be stronger.\",\n        \"re_counseling\": \"Re-counseled on utilizing Smart 3D app features for adjusting noise reduction and beam focus of speech signal. Counseled on importance of using Multi Mic when hearing aids are not providing adequate benefit in noise, to correct for background noise, reverberation, and distance.\"\n      },\n      \"follow_up_scheduled\": \"2 weeks\"\n    },\n    {\n      \"visit_id\": \"V5\",\n      \"date\": null,\n      \"setting\": \"Audiology Clinic\",\n      \"visit_type\": \"Follow-up\",\n      \"history\": {\n        \"present_illness\": \"Patient returned 2 weeks after HAA. Reports he has been hearing significantly better. Using the Multi Mic has been a significant help.\",\n        \"prior_management\": \"Using bilateral hearing aids with adjusted programs and Multi Mic.\",\n        \"patient_goals\": \"Continue current management.\"\n      },\n      \"tests\": [],\n      \"plan\": {\n        \"next_appointment\": \"Hearing aid check (HAC) scheduled in 6 months.\",\n        \"hac_procedures\": [\n          \"Hearing aids will be cleaned and evaluated\",\n          \"Electroacoustic analysis performed and compared to baseline measurement\",\n          \"Hearing needs assessed\",\n          \"Programming adjustments made if required\",\n          \"Supplies provided as needed (wax guards, sanitizer spray, etc.)\"\n        ],\n        \"return_instructions\": \"Return sooner if needed.\"\n      }\n    }\n  ],\n  \"overall_audiologic_summary\": \"The patient presents with a bilateral, asymmetric sensorineural hearing loss, sloping from normal in the low frequencies to moderately-severe (Right) and severe (Left) in the high frequencies. The asymmetry, along with left-sided tinnitus and aural fullness, necessitated a medical referral, which ruled out retrocochlear pathology via MRI and ABR. Unaided speech-in-noise testing revealed a moderate SNR loss (14 dB), indicating significant difficulty in background noise that likely requires assistive technology beyond hearing aids alone. Patient was fit with bilateral ReSound LiNX 3D 9 RIC hearing aids and a ReSound Multi Mic. Post-fitting aided QuickSIN improved to 6 dB (mild SNR loss), representing an 8 dB improvement. Aided COSI indicated better or much better performance in all targeted listening situations. Patient reports significant benefit from both hearing aids and Multi Mic at final follow-up.\",\n  \"counseling_points\": [\n    \"Your hearing loss is uneven between ears, and you have symptoms on the left side (ringing, fullness) that required us to rule out medical issues. The MRI and ABR results were normal, which is great news.\",\n    \"The pattern of your hearing loss is consistent with your history of noise exposure and shooting rifles right-handed.\",\n    \"You have a 'moderate' difficulty hearing in noise (SNR Loss of 14 dB). Hearing aids will help, but they might not be enough in very noisy places like restaurants.\",\n    \"We are recommending a remote microphone (Multi Mic) to help you hear your wife in restaurants. This streams her voice directly to your hearing aids.\",\n    \"It is critical to protect your hearing from any future noise exposure.\",\n    \"Your hearing has improved with the hearing aids. Your ability to hear in noise improved from a 'moderate' difficulty (14 dB) to a 'mild' difficulty (6 dB).\",\n    \"Continue using the Multi Mic in noisy situations like restaurants - you've reported it helps significantly.\",\n    \"We will see you in 6 months for a hearing aid check to make sure everything is working well.\"\n  ],\n  \"red_flags_identified\": [\n    \"Asymmetric hearing loss (left ear worse)\",\n    \"Unilateral tinnitus (left)\",\n    \"Unilateral aural fullness (left)\",\n    \"Tinnitus and aural fullness on the ear with poorer hearing\"\n  ],\n  \"differential_diagnosis_considered\": [\n    \"Retrocochlear pathology (e.g., vestibular schwannoma)\",\n    \"Noise-induced hearing loss with asymmetry due to rifle shooting\"\n  ],\n  \"final_diagnosis\": \"Bilateral asymmetric sensorineural hearing loss, likely noise-induced with asymmetry attributed to right-handed rifle shooting. Retrocochlear pathology ruled out by normal ABR and MRI.\",\n  \"notes_for_actor\": [\n    \"Portray a 66-year-old male who has worked in factories and used firearms.\",\n    \"You are cooperative but frustrated by your difficulty hearing in noise.\",\n    \"You have specific goals: hearing the TV, your wife in restaurants, and your grandchildren.\",\n    \"You are relieved that the MRI/medical workup was clear but still need help with the hearing loss.\",\n    \"At the 2-week follow-up (V4), report that you haven't been using the Multi Mic much and are still struggling in noisy places.\",\n    \"At the final follow-up (V5), report significant improvement and that the Multi Mic has been very helpful.\"\n  ]\n}",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case16_Asymmetric_Hearing_Loss_Evaluation_Diagn.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case16_Asymmetric_Hearing_Loss_Evaluation_Diagn.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added date of birth to demographics.",
+      "Updated V1 history and test findings (PTA, Speech, Reflexes) with more precise text and numeric data.",
+      "Added recommendations to V1.",
+      "Updated V2 history and test findings (QuickSIN, LDLs) and added Ear Impressions and Hearing Aid Selection details.",
+      "Updated V3 history, replaced tests with full verification suite (ANSI, Directional, REM, Loudness, RESR90), and added Hearing Aid Setup and Follow-up details.",
+      "Added new encounters V4 (Hearing Aid Assessment) and V5 (Follow-up).",
+      "Updated Overall Audiologic Summary and Counseling Points.",
+      "Added Red Flags, Differential Diagnosis, and Final Diagnosis.",
+      "Updated Notes for Actor."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/demographics/date_of_birth",
+        "value": "1951-04-25"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/history/present_illness",
+        "value": "Patient reports gradual hearing loss, worse in the left ear, with constant left-sided tinnitus and slight aural fullness."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/key_findings",
+        "value": "Right ear: Normal at 250-500 Hz, sloping to mild SNHL at 1000-2000 Hz, to moderately severe SNHL at 4000-8000 Hz. Left ear: Normal at 250-500 Hz, sloping to mild SNHL at 1000 Hz, moderate SNHL at 2000 Hz, to severe SNHL at 4000-8000 Hz. Asymmetric configuration (Left worse)."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/2/key_findings",
+        "value": "SRT indicates slight loss in the ability to receive speech in the right ear and mild loss in the left ear. Word recognition reveals normal ability in the right ear and slight difficulty in the left ear."
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/2/numeric_results/RE_WRS_Level",
+        "value": "75 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/2/numeric_results/LE_WRS_Level",
+        "value": "85 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/2/numeric_results/Word_List",
+        "value": "NU-6 Female"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/4/key_findings",
+        "value": "Ipsilateral: Normal at 500-2000 Hz, absent at 4000 Hz in the right ear; Normal at 500 Hz, elevated at 1000-2000 Hz, absent at 4000 Hz in the left ear. Contralateral: Normal at 500-1000 Hz probe right, absent at 2000-4000 Hz; Normal at 500 Hz probe left, absent at 1000-4000 Hz. Reflex decay normal in the right ear, could not be tested (CNT) in the left ear. Elevated ARTs correlate with cochlear loss; absent ARTs indicate severe cochlear loss or possible retrocochlear pathology."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/4/numeric_results",
+        "value": {
+          "Ipsi_RE_500Hz": "90 dB HL",
+          "Ipsi_RE_1000Hz": "90 dB HL",
+          "Ipsi_RE_2000Hz": "95 dB HL",
+          "Ipsi_RE_4000Hz": "ABS",
+          "Ipsi_LE_500Hz": "100 dB HL",
+          "Ipsi_LE_1000Hz": "105 dB HL",
+          "Ipsi_LE_2000Hz": "105 dB HL",
+          "Ipsi_LE_4000Hz": "ABS",
+          "Contra_RE_500Hz": "95 dB HL",
+          "Contra_RE_1000Hz": "95 dB HL",
+          "Contra_RE_2000Hz": "ABS",
+          "Contra_RE_4000Hz": "ABS",
+          "Contra_LE_500Hz": "100 dB HL",
+          "Contra_LE_1000Hz": "ABS",
+          "Contra_LE_2000Hz": "ABS",
+          "Contra_LE_4000Hz": "ABS",
+          "Reflex_Decay_RE": "Normal",
+          "Reflex_Decay_LE": "CNT"
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/recommendations",
+        "value": "Referral to Otology due to asymmetric hearing thresholds, unilateral tinnitus, and aural fullness on the same side as the poorer hearing ear. Medical clearance required before amplification. Hearing protection in noise recommended."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/history/otologic_history",
+        "value": "Evaluated by Otology. ABR testing completed utilizing rarefaction polarity click stimuli at 11.1 and 71.3 clicks per second, presentation level 90 dBnHL. Absolute and interpeak latency for waves I-V were normal bilaterally. ABR did not suggest auditory nerve or brainstem dysfunction. MRI with and without contrast showed normal internal auditory canals bilaterally (clear of retrocochlear pathology). Patient cleared for amplification."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/0/key_findings",
+        "value": "QuickSIN performed binaurally in sound field. Signal (female talker) presented at 40 dB HL from 0-degree azimuth, multi-talker babble from 180-degree azimuth. Six sentences per list at SNRs of 25, 20, 15, 10, 5, and 0 dB. Results indicate moderate SNR loss, suggesting hearing aids alone may not provide sufficient benefit in noise. Remote microphone technology recommended."
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/0/numeric_results/SNR_Loss_Category",
+        "value": "Moderate"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/1/key_findings",
+        "value": "LDLs evaluated using TDH-50 earphones with Contour Loudness categories (1-7 scale). Ascending pulsed warble-tone stimuli used. LDLs found to be within the normal range at all frequencies tested. Results will be used to ensure RESR does not exceed LDLs."
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/1/numeric_results/Frequencies_Tested",
+        "value": "500, 1000, 2000, 4000 Hz"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/1/numeric_results/Result",
+        "value": "Within normal limits"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/-",
+        "value": {
+          "name": "Ear impressions",
+          "timepoint_label": "Pre-fitting",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Bilateral silicone impressions taken without incident.",
+          "numeric_results": {}
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/hearing_aid_selection",
+        "value": {
+          "devices": "Bilateral ReSound LiNX 3D 9 62 RIC hearing aids",
+          "accessories": "ReSound wireless remote Multi Mic",
+          "rationale": "Patient elected to pursue after discussing differences between levels of hearing aid technology including number of channels and bands, sophistication of automatic program, and flexibility in direct streaming iPhone applications.",
+          "warranty": "3 years with manufacturer, includes all clinic services, manufacturer repairs, and one-time loss and damage policy per device. Option to extend warranty annually after 3 years.",
+          "service_model": "Unbundled approach after warranty expiration."
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/2/history/present_illness",
+        "value": "Hearing Aid Fitting appointment. Hearing aids arrived 1.5 weeks after order."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/2/history/prior_management",
+        "value": "Hearing aids verified to meet order specifications (model, color, receiver wire length, power, earmold features including vent size, bore length, color, and material)."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/2/tests",
+        "value": [
+          {
+            "name": "ANSI S3.22-2009 verification",
+            "timepoint_label": "Fitting",
+            "ear": "bilateral",
+            "condition": "aided",
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "Verification testing completed on FONIX 8000 Hearing Aid Test System with each hearing aid in test mode. Testing met manufacturer specifications for each aid.",
+            "numeric_results": {}
+          },
+          {
+            "name": "Directional microphone verification",
+            "timepoint_label": "Fitting",
+            "ear": "bilateral",
+            "condition": "aided",
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "Directional microphone performance verified on FONIX 8000. Directional microphones operating properly.",
+            "numeric_results": {}
+          },
+          {
+            "name": "Real-Ear Measures (REM)",
+            "timepoint_label": "Fitting",
+            "ear": "bilateral",
+            "condition": "aided",
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "Performed on FONIX 8000 to establish appropriate prescriptive real-ear insertion gain, corrected for 17 channel summation and binaural summation (3-5 dB). REM for nonlinear hearing aids performed with input levels of 50, 65, and 80 dB SPL provided appropriate gain and smooth frequency response.",
+            "numeric_results": {
+              "Prescription": "NAL-NL2 (implied)",
+              "Input_Levels_Tested": "50, 65, 80 dB SPL"
+            }
+          },
+          {
+            "name": "Aided Loudness Judgments",
+            "timepoint_label": "Fitting",
+            "ear": "bilateral",
+            "condition": "aided",
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "Performed with composite speech signal provided by FONIX 8000. Patient rated speech signals appropriately across input levels.",
+            "numeric_results": {
+              "50_dB_SPL": "Soft",
+              "65_dB_SPL": "Comfortable",
+              "80_dB_SPL": "Loud, but okay"
+            }
+          },
+          {
+            "name": "RESR90",
+            "timepoint_label": "Fitting",
+            "ear": "bilateral",
+            "condition": "aided",
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "RESR90 performed at 90 dB SPL. Patient did not report loudness discomfort. Maximum output programmed so that each frequency did not exceed unaided LDLs.",
+            "numeric_results": {}
+          }
+        ]
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2/hearing_aid_setup",
+        "value": {
+          "programs_activated": [
+            "All-Around",
+            "Restaurant",
+            "Party",
+            "T-coil"
+          ],
+          "iphone_paired": true,
+          "app": "Smart 3D",
+          "multi_mic_counseling": "Counseled on how to wirelessly stream signals from Multi Mic, in which situations it may be helpful, and how to deactivate hearing aid microphones to receive input only from Multi Mic in noisy environments (accessed in iPhone app).",
+          "app_features_counseled": "Reducing background noise, narrowing the beam of speech input in Restaurant and Party programs, switching between programs.",
+          "telecoil_counseling": "Counseled on potential use of T-coil in environments with looping capability.",
+          "care_and_maintenance": "Counseled on use and maintenance of hearing aids and earmolds. Warranty information reviewed. Hearing aid contract reviewed and signed."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2/follow_up_scheduled",
+        "value": "2 weeks"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "visit_type": "Hearing Aid Assessment (HAA)",
+          "history": {
+            "present_illness": "Two weeks after HAF, patient returned for hearing aid assessment. Reports doing well with hearing aids in most listening situations but still having difficulty hearing and understanding speech in noisy places. Prefers using iPhone app to adjust volume and settings. Reports hearing well when using cellphone through direct streaming. Reports he had not utilized the Multi Mic much.",
+            "prior_management": "Using bilateral ReSound LiNX 3D 9 hearing aids for 2 weeks.",
+            "patient_goals": "Improve performance in noisy environments."
+          },
+          "tests": [
+            {
+              "name": "Self-report scale",
+              "timepoint_label": "Post-fitting",
+              "ear": null,
+              "condition": "aided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 16.2"
+              ],
+              "key_findings": "Aided COSI completed. Results revealed that with hearing aids, patient is hearing better or much better in his listening environments compared to performance without hearing aids.",
+              "numeric_results": {
+                "Goal_1": "Hearing my wife better in noisy restaurants",
+                "Goal_1_Degree_of_Change": "Much Better",
+                "Goal_1_Final_Ability": "Most of the Time",
+                "Goal_2": "Hearing my grandchildren better than I currently do",
+                "Goal_2_Degree_of_Change": "Much Better",
+                "Goal_2_Final_Ability": "Most of the Time",
+                "Goal_3": "Hearing and understanding my TV, and the volume be lower",
+                "Goal_3_Degree_of_Change": "Better",
+                "Goal_3_Final_Ability": "Almost Always"
+              }
+            },
+            {
+              "name": "Speech-in-noise",
+              "timepoint_label": "Post-fitting",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Aided QuickSIN performed. Significant improvement compared to unaided performance. Results indicate mild SNR loss, still not within normal range. Further proof that remote microphone technology could help in noise.",
+              "numeric_results": {
+                "SNR_Loss": "6 dB",
+                "SNR_Loss_Category": "Mild",
+                "Improvement_from_Unaided": "8 dB"
+              }
+            },
+            {
+              "name": "Electroacoustic analysis",
+              "timepoint_label": "Post-fitting",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "2cc coupler measurement performed on FONIX 8000 at user settings. Will be used as baseline measurement for future tests.",
+              "numeric_results": {}
+            }
+          ],
+          "hearing_aid_adjustments": {
+            "programs_modified": [
+              "Restaurant",
+              "Party"
+            ],
+            "frequency_response_changes": "Adjusted to provide more high-frequency emphasis.",
+            "noise_reduction_changes": "Programmed to be stronger.",
+            "re_counseling": "Re-counseled on utilizing Smart 3D app features for adjusting noise reduction and beam focus of speech signal. Counseled on importance of using Multi Mic when hearing aids are not providing adequate benefit in noise, to correct for background noise, reverberation, and distance."
+          },
+          "follow_up_scheduled": "2 weeks"
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V5",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "visit_type": "Follow-up",
+          "history": {
+            "present_illness": "Patient returned 2 weeks after HAA. Reports he has been hearing significantly better. Using the Multi Mic has been a significant help.",
+            "prior_management": "Using bilateral hearing aids with adjusted programs and Multi Mic.",
+            "patient_goals": "Continue current management."
+          },
+          "tests": [],
+          "plan": {
+            "next_appointment": "Hearing aid check (HAC) scheduled in 6 months.",
+            "hac_procedures": [
+              "Hearing aids will be cleaned and evaluated",
+              "Electroacoustic analysis performed and compared to baseline measurement",
+              "Hearing needs assessed",
+              "Programming adjustments made if required",
+              "Supplies provided as needed (wax guards, sanitizer spray, etc.)"
+            ],
+            "return_instructions": "Return sooner if needed."
+          }
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/overall_audiologic_summary",
+        "value": "The patient presents with a bilateral, asymmetric sensorineural hearing loss, sloping from normal in the low frequencies to moderately-severe (Right) and severe (Left) in the high frequencies. The asymmetry, along with left-sided tinnitus and aural fullness, necessitated a medical referral, which ruled out retrocochlear pathology via MRI and ABR. Unaided speech-in-noise testing revealed a moderate SNR loss (14 dB), indicating significant difficulty in background noise that likely requires assistive technology beyond hearing aids alone. Patient was fit with bilateral ReSound LiNX 3D 9 RIC hearing aids and a ReSound Multi Mic. Post-fitting aided QuickSIN improved to 6 dB (mild SNR loss), representing an 8 dB improvement. Aided COSI indicated better or much better performance in all targeted listening situations. Patient reports significant benefit from both hearing aids and Multi Mic at final follow-up."
+      },
+      {
+        "op": "replace",
+        "path": "/counseling_points",
+        "value": [
+          "Your hearing loss is uneven between ears, and you have symptoms on the left side (ringing, fullness) that required us to rule out medical issues. The MRI and ABR results were normal, which is great news.",
+          "The pattern of your hearing loss is consistent with your history of noise exposure and shooting rifles right-handed.",
+          "You have a 'moderate' difficulty hearing in noise (SNR Loss of 14 dB). Hearing aids will help, but they might not be enough in very noisy places like restaurants.",
+          "We are recommending a remote microphone (Multi Mic) to help you hear your wife in restaurants. This streams her voice directly to your hearing aids.",
+          "It is critical to protect your hearing from any future noise exposure.",
+          "Your hearing has improved with the hearing aids. Your ability to hear in noise improved from a 'moderate' difficulty (14 dB) to a 'mild' difficulty (6 dB).",
+          "Continue using the Multi Mic in noisy situations like restaurants - you've reported it helps significantly.",
+          "We will see you in 6 months for a hearing aid check to make sure everything is working well."
+        ]
+      },
+      {
+        "op": "add",
+        "path": "/red_flags_identified",
+        "value": [
+          "Asymmetric hearing loss (left ear worse)",
+          "Unilateral tinnitus (left)",
+          "Unilateral aural fullness (left)",
+          "Tinnitus and aural fullness on the ear with poorer hearing"
+        ]
+      },
+      {
+        "op": "add",
+        "path": "/differential_diagnosis_considered",
+        "value": [
+          "Retrocochlear pathology (e.g., vestibular schwannoma)",
+          "Noise-induced hearing loss with asymmetry due to rifle shooting"
+        ]
+      },
+      {
+        "op": "add",
+        "path": "/final_diagnosis",
+        "value": "Bilateral asymmetric sensorineural hearing loss, likely noise-induced with asymmetry attributed to right-handed rifle shooting. Retrocochlear pathology ruled out by normal ABR and MRI."
+      },
+      {
+        "op": "replace",
+        "path": "/notes_for_actor",
+        "value": [
+          "Portray a 66-year-old male who has worked in factories and used firearms.",
+          "You are cooperative but frustrated by your difficulty hearing in noise.",
+          "You have specific goals: hearing the TV, your wife in restaurants, and your grandchildren.",
+          "You are relieved that the MRI/medical workup was clear but still need help with the hearing loss.",
+          "At the 2-week follow-up (V4), report that you haven't been using the Multi Mic much and are still struggling in noisy places.",
+          "At the final follow-up (V5), report significant improvement and that the Multi Mic has been very helpful."
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

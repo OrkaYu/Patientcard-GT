@@ -1,0 +1,103 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:23:21Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_069_patient_card.json",
+    "case_main": 69,
+    "remark": "调整visit结构：\nV1 (ENT)\nV2 (TMC)\nV3 (Follow-up)\nV4 (Outcome)",
+    "pdf_key": "audiology_casebook_split_by_case/69_69_Somatic_Tinnitus.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/69_69_Somatic_Tinnitus.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V1 (ENT) encounter to capture the initial otolaryngology visit, normal MRI/physical exam, and alprazolam prescription.",
+      "Renamed the existing TMC encounter from V1 to V2 to maintain chronological order.",
+      "Added V3 (Follow-up) encounter to capture the multidisciplinary treatment (dentistry, PT, self-help).",
+      "Added V4 (Outcome) encounter to capture the 7-month follow-up results including the reduced THI score and symptom resolution."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0",
+        "value": {
+          "visit_id": "V1",
+          "date": null,
+          "setting": "Otolaryngology Clinic",
+          "history": {
+            "present_illness": "Increased left-sided unilateral tinnitus over past 2 weeks accompanied by left ear otalgia (5/10). Pain exacerbated by cotton swab use or touching TMJ area. Neck and upper back discomfort.",
+            "otologic_history": "Previous episodes of vertigo.",
+            "medical_psych_history": "Prescribed 0.5 mg alprazolam."
+          },
+          "tests": [
+            {
+              "name": "Physical Examination",
+              "key_findings": "Within normal limits."
+            },
+            {
+              "name": "MRI",
+              "key_findings": "Within normal limits."
+            }
+          ]
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/visit_id",
+        "value": "V2"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "Dentistry and Physical Therapy",
+          "history": {
+            "present_illness": "Follow-up appointments for comprehensive examinations and treatment."
+          },
+          "tests": [],
+          "treatment": [
+            "Dental orthotic (bite splint) to improve jaw mechanics",
+            "Physical therapy (MTP release, posture retraining)",
+            "Self-help therapies (avoid gum/hard foods, tongue posture)",
+            "Relaxation CD"
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/3",
+        "value": {
+          "visit_id": "V4",
+          "date": "7 months post-treatment",
+          "setting": "Outcome Assessment",
+          "history": {
+            "present_illness": "Patient reported she was no longer bothered by the tinnitus and did not experience otalgia."
+          },
+          "tests": [
+            {
+              "name": "Tinnitus Handicap Inventory (THI)",
+              "timepoint_label": "7 months post-treatment",
+              "numeric_results": {
+                "THI_score": "12/100"
+              },
+              "key_findings": "Statistically and clinically significant reduction."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

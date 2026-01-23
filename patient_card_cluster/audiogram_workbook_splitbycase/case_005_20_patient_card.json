@@ -64,7 +64,7 @@
           ],
           "key_findings": "Right ear speech discrimination could not be tested (CNT) due to severity; only a Speech Awareness Threshold (SAT) was obtained. Left ear showed very poor word recognition ability.",
           "numeric_results": {
-            "Right_SAT": "95 dB HL",
+            "Right_SAT": "85 dB HL",
             "Right_WRS": "CNT",
             "Left_SRT": "70 dB HL",
             "Left_WRS": "16% at 105 dB HL"
@@ -106,6 +106,24 @@
           "numeric_results": {
             "Left_Ipsi_500Hz": "100 dB HL (Present)",
             "Others": "Absent or Artifact"
+          }
+        },
+        {
+          "name": "Acoustic reflex decay",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.20"
+          ],
+          "key_findings": "Could not be measured due to artifact.",
+          "numeric_results": {
+            "Right_Decay": "CNT",
+            "Left_Decay": "CNT"
           }
         }
       ]

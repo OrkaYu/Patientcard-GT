@@ -1,0 +1,33 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T23:23:15Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_022_patient_card.json",
+    "case_num": 22,
+    "remark": "缺少red flag",
+    "pdf_key": "Tinnitus_Cases_split2/Case22_Psychogenic_Tinnitus_and_Dizziness.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case22_Psychogenic_Tinnitus_and_Dizziness.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'red_flags' to problem_summary based on the presence of asymmetric hearing loss and neurological symptoms (diplopia, numbness, memory issues) described in the case history."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/problem_summary/red_flags",
+        "value": [
+          "Asymmetric hearing loss",
+          "Diplopia",
+          "Numbness and tingling in extremities",
+          "Memory and word retrieval issues"
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

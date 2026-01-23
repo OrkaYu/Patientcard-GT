@@ -65,7 +65,7 @@
           "figure_refs": [
             "Audiogram Graph"
           ],
-          "key_findings": "Bilateral sloping sensorineural hearing loss. Asymmetric configuration with the Left ear showing poorer thresholds than the Right ear across the frequency range. No significant air-bone gaps.",
+          "key_findings": "Bilateral sloping sensorineural hearing loss. Asymmetric configuration with the Right ear was about 20 to 30 dB poorer than the left ear across the frequency range. No significant air-bone gaps.",
           "numeric_results": {
             "Right_AC_250Hz": "~10 dB HL",
             "Right_AC_1000Hz": "~25 dB HL",
@@ -74,7 +74,9 @@
             "Left_AC_250Hz": "~20 dB HL",
             "Left_AC_1000Hz": "~40 dB HL",
             "Left_AC_4000Hz": "~60 dB HL",
-            "Left_AC_8000Hz": "~75 dB HL"
+            "Left_AC_8000Hz": "~75 dB HL",
+            "Right PTA": "25 dB HL",
+            "Left PTA": "40 dB HL"
           }
         },
         {
@@ -91,7 +93,9 @@
           "key_findings": "Word recognition scores (phoneme scoring) obtained at suprathreshold levels (85 dB HL). Scores suggest fair to poor clarity despite amplification.",
           "numeric_results": {
             "Right WRS": "64% @ 85 dB HL (Phoneme scoring, masked)",
-            "Left WRS": "74% @ 85 dB HL (Phoneme scoring, masked)"
+            "Left WRS": "74% @ 85 dB HL (Phoneme scoring, masked)",
+            "Right SRT": "25 dB HL",
+            "Left SRT": "40 dB HL"
           }
         },
         {

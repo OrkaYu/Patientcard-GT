@@ -1,0 +1,39 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:20:04Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "Audiogram workbook"
+    ],
+    "src_patient_card_key": "patient_card_cluster/audiogram_workbook_splitbycase/case_007_25_patient_card.json",
+    "case_key": "7_25",
+    "remark_key_used": "7_25",
+    "remark": "SRT: RT应为55dB(非60)，LT应为30dB(非33)",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case7.25.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case7.25.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected Right Ear SRT from 60 dB HL to 55 dB HL based on remarks and source table.",
+      "Corrected Left Ear SRT from 33 dB HL to 30 dB HL based on remarks and source table."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/RE_SRT",
+        "value": "55 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/LE_SRT",
+        "value": "30 dB HL"
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -41,10 +41,10 @@
           "figure_refs": [
             "Audiogram Graph"
           ],
-          "key_findings": "Left ear shows normal hearing sensitivity. Right ear shows a moderate conductive hearing loss with a significant air-bone gap across the frequency range.",
+          "key_findings": "Left ear shows normal hearing sensitivity. Right ear shows a moderate conductive hearing loss with a significant air-bone gap across the frequency range. A characteristic Carhart's notch (artifact dip in BC threshold) is present at 2000 Hz in the right ear.",
           "numeric_results": {
             "Right AC Thresholds (dB HL)": "250Hz: 50, 500Hz: 50, 1000Hz: 45, 2000Hz: 45, 4000Hz: 35, 8000Hz: 30",
-            "Right BC Thresholds (dB HL)": "250Hz: 10, 500Hz: 10, 1000Hz: 15, 2000Hz: 15, 4000Hz: 20",
+            "Right BC Thresholds (dB HL)": "250Hz: 10, 500Hz: 10, 1000Hz: 15, 2000Hz: 20, 4000Hz: 20",
             "Left AC Thresholds (dB HL)": "0-10 dB HL across 250-8000 Hz"
           }
         },
@@ -99,6 +99,16 @@
           "numeric_results": {
             "Right Reflectance": ">90% below 1.0 kHz",
             "Left Reflectance": "Normal pattern (dropping to ~40% in mid-frequencies)"
+          }
+        },
+        {
+          "name": "Acoustic Reflex Testing",
+          "key_findings": "Acoustic reflexes were absent bilaterally when probing the right ear (ipsilateral and contralateral), consistent with stapes fixation. Left ear ipsilateral reflex present at 85 dB.",
+          "numeric_results": {
+            "Ipsi R": "NR",
+            "Contra R (Stim L)": "NR",
+            "Ipsi L": "85 dB",
+            "Contra L (Stim R)": "NR"
           }
         }
       ]

@@ -76,7 +76,18 @@
     {
       "visit_id": "V3",
       "date": null,
-      "setting": "Audiology Clinic (Post-Diagnosis Management)",
+      "setting": "University Hospital FND clinic",
+      "history": {
+        "present_illness": "Referral to multidisciplinary team for assessment.",
+        "medical_psych_history": "Diagnosis of Functional Neurological Disorder (FND) confirmed by team.",
+        "prior_management": "Nortriptyline and betahistine discontinued."
+      },
+      "tests": []
+    },
+    {
+      "visit_id": "V4",
+      "date": null,
+      "setting": "Audiology Clinic (Follow-up)",
       "history": {
         "present_illness": "Patient returned following diagnosis of Functional Neurological Disorder (FND) and nonepileptic seizures by multidisciplinary team.",
         "otologic_history": "Unchanged.",
@@ -98,6 +109,30 @@
           "key_findings": "Patient reported immediate reduction in seizure occurrence (only 2 in a 3-month period, triggered by significant noise). Patient attributed improvement to stopping medication; FND team attributed it to removing exacerbating factors.",
           "numeric_results": {
             "Seizure frequency": "2 in 3 months (previously daily)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V5",
+      "date": null,
+      "setting": "Final Follow-up",
+      "history": {
+        "present_illness": "Final review of outcome."
+      },
+      "tests": [
+        {
+          "name": "Outcome Review",
+          "timepoint_label": "Final",
+          "ear": null,
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Seizure free for the prior 6 months. Use of hearing protection was now exceptional rather than routine.",
+          "numeric_results": {
+            "Seizure frequency": "0 in 6 months"
           }
         }
       ]

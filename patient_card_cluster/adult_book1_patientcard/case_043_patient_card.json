@@ -53,7 +53,21 @@
             "Left_AC_500Hz": "55 dB HL",
             "Left_AC_1000Hz": "55 dB HL",
             "Left_AC_2000Hz": "55 dB HL",
-            "Left_AC_4000Hz": "60 dB HL"
+            "Left_AC_4000Hz": "60 dB HL",
+            "Right_AC_3000Hz": "55 dB HL",
+            "Right_AC_6000Hz": "55 dB HL",
+            "Right_AC_8000Hz": "55 dB HL",
+            "Left_AC_3000Hz": "60 dB HL",
+            "Left_AC_6000Hz": "60 dB HL",
+            "Left_AC_8000Hz": "60 dB HL",
+            "Right_BC_500Hz": "50 dB HL",
+            "Right_BC_1000Hz": "50 dB HL",
+            "Right_BC_2000Hz": "55 dB HL",
+            "Right_BC_4000Hz": "55 dB HL",
+            "Left_BC_500Hz": "55 dB HL",
+            "Left_BC_1000Hz": "55 dB HL",
+            "Left_BC_2000Hz": "55 dB HL",
+            "Left_BC_4000Hz": "60 dB HL"
           }
         },
         {
@@ -115,6 +129,30 @@
             "Hearing_Aids": "Oticon Intiga 8 RITE",
             "Streamer": "ConnectLine",
             "Stethoscope": "Audiologist's Choice Bluetooth Amplified Stethoscope (AC-Scope)"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up regarding connectivity issues with the AC-Scope.",
+        "patient_goals": "Reliable auscultation solution."
+      },
+      "tests": [
+        {
+          "name": "Device Modification/Fitting",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "AC-Scope connectivity was intermittent. Patient fit with modified E-Scope II with oversized headphones. Patient eventually chose to use only the E-Scope II.",
+          "numeric_results": {
+            "Stethoscope": "E-Scope II (modified with oversized headphones)"
           }
         }
       ]

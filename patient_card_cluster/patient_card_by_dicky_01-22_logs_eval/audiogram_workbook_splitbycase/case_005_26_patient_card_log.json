@@ -1,0 +1,28 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:19:32Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "Audiogram workbook"
+    ],
+    "src_patient_card_key": "patient_card_cluster/audiogram_workbook_splitbycase/case_005_26_patient_card.json",
+    "case_key": "5_26",
+    "remark_key_used": "5_26",
+    "remark": "\"Left_AC\": \"No Response (NR) at 250-4000 Hz\"改为250-8000 Hz\nAcoustic reflex threashold: 所有ipsilateral和contralateral反射在500-4000Hz均为ABS",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.26.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.26.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "No changes required: 'Left_AC' in the original JSON is already 'No Response (NR) at 250-8000 Hz', which matches the corrected frequency range in the remarks (250-8000 Hz).",
+      "No changes required: Acoustic reflexes in the original JSON are already recorded as 'Absent (ABS)' for the 500-4000 Hz range, and the 'key_findings' explicitly mention both ipsilateral and contralateral reflexes are absent, satisfying the remark."
+    ],
+    "patch_ops": [],
+    "unresolved": []
+  }
+}

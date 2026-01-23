@@ -62,8 +62,8 @@
           ],
           "key_findings": "SRT revealed normal ability to receive speech, in agreement with PTA. WRS revealed excellent ability to recognize speech.",
           "numeric_results": {
-            "SRT_Right": "7 dB",
-            "SRT_Left": "3 dB",
+            "SRT_Right": "10 dB",
+            "SRT_Left": "10 dB",
             "WRS_Right": "100% at 50 dB HL",
             "WRS_Left": "100% at 50 dB HL"
           }

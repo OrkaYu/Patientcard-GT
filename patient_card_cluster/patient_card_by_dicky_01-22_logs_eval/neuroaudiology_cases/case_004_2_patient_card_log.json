@@ -1,0 +1,186 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:12:50Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_004_2_patient_card.json",
+    "case_key": "4_2",
+    "remark_key_used": "4_2",
+    "remark": "Visit 调整：\nV1外部初评\nV2本中心评价\nV3手术",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_4-2.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_4-2.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Split encounters into V1 (External), V2 (Center), and V3 (Surgery) based on remarks.",
+      "Moved initial audiometry, speech (92%), and reflexes to V1.",
+      "Moved center speech (80%), ABR, and CT to V2.",
+      "Added V3 for post-surgical outcome."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters",
+        "value": [
+          {
+            "visit_id": "V1",
+            "date": null,
+            "setting": "Outside Otolaryngologist",
+            "history": {
+              "present_illness": "Patient referred after evaluation by an outside otolaryngologist. Primary symptom is popping in the left ear (2 months). Also reports intermittent high-pitched tinnitus and neurologic symptoms (facial tingling, limb numbness).",
+              "otologic_history": "No specific prior history mentioned other than current symptoms.",
+              "noise_exposure_history": "Not reported.",
+              "medical_psych_history": "Neurologic symptoms (tingling/numbness) suggest CNS involvement.",
+              "prior_management": "Evaluated by an outside otolaryngologist.",
+              "patient_goals": "Diagnosis of symptoms."
+            },
+            "tests": [
+              {
+                "name": "Pure-tone audiometry",
+                "timepoint_label": "Initial Evaluation",
+                "ear": "bilateral",
+                "condition": "unaided",
+                "sources": [
+                  "text",
+                  "image"
+                ],
+                "figure_refs": [
+                  "Figure 4-5"
+                ],
+                "key_findings": "Essentially normal pure tone thresholds bilaterally.",
+                "numeric_results": {
+                  "RE_thresholds": "0-20 dB HL (250-8000 Hz)",
+                  "LE_thresholds": "0-20 dB HL (250-4000 Hz), slight dip at 8000 Hz"
+                }
+              },
+              {
+                "name": "Speech audiometry",
+                "timepoint_label": "Initial Evaluation",
+                "ear": "bilateral",
+                "condition": "unaided",
+                "sources": [
+                  "text",
+                  "image"
+                ],
+                "figure_refs": [
+                  "Figure 4-5"
+                ],
+                "key_findings": "Speech recognition was excellent bilaterally.",
+                "numeric_results": {
+                  "WRS_LE": "92%",
+                  "WRS_RE": "92%"
+                }
+              },
+              {
+                "name": "Acoustic reflexes",
+                "timepoint_label": "Initial Evaluation",
+                "ear": "bilateral",
+                "condition": null,
+                "sources": [
+                  "text"
+                ],
+                "figure_refs": [],
+                "key_findings": "Contralateral acoustic reflexes were absent with stimuli presented to the left ear and normal with presentation to the right ear.",
+                "numeric_results": null
+              }
+            ]
+          },
+          {
+            "visit_id": "V2",
+            "date": null,
+            "setting": "Audiology Clinic (Specialized Center)",
+            "history": {
+              "present_illness": "Referred to center for further testing after initial evaluation.",
+              "prior_management": "Initial speech recognition was excellent, but dropped upon testing at center."
+            },
+            "tests": [
+              {
+                "name": "Speech audiometry",
+                "timepoint_label": "Center Evaluation",
+                "ear": "left",
+                "condition": "unaided",
+                "sources": [
+                  "text"
+                ],
+                "figure_refs": [],
+                "key_findings": "Speech recognition dropped to 80% for the left ear at this center. No rollover observed for high intensity testing.",
+                "numeric_results": {
+                  "WRS_LE": "80%"
+                }
+              },
+              {
+                "name": "ABR",
+                "timepoint_label": "Center Evaluation",
+                "ear": "bilateral",
+                "condition": "ABR",
+                "sources": [
+                  "text",
+                  "image"
+                ],
+                "figure_refs": [
+                  "Figure 4-6"
+                ],
+                "key_findings": "LE: Wave I clear, but subsequent waves difficult to distinguish/abnormal latencies. RE: Four prominent waves, but Wave V appears absent or markedly diminished (suggesting brainstem compression from the large contralateral tumor).",
+                "numeric_results": {
+                  "LE_Wave_I_latency": "1.44 msec",
+                  "LE_Last_Large_Wave": "7.2 msec (if Wave V, grossly abnormal)",
+                  "RE_Last_Large_Wave": "4.72 msec (too early for Wave V)"
+                }
+              },
+              {
+                "name": "CT Scan",
+                "timepoint_label": "Radiology",
+                "ear": "left",
+                "condition": "CT Scan",
+                "sources": [
+                  "text",
+                  "image"
+                ],
+                "figure_refs": [
+                  "Figure 4-7"
+                ],
+                "key_findings": "CT scan showed a large mass lesion in the left cerebellopontine angle (CPA). Pathology confirmed schwannoma.",
+                "numeric_results": {
+                  "Tumor_Size": "4-5 cm"
+                }
+              }
+            ]
+          },
+          {
+            "visit_id": "V3",
+            "date": null,
+            "setting": "Surgery",
+            "history": {
+              "present_illness": "Patient underwent tumor removal."
+            },
+            "tests": [
+              {
+                "name": "Post-operative Audiometry",
+                "timepoint_label": "Post-Surgery",
+                "ear": "bilateral",
+                "condition": "unaided",
+                "sources": [
+                  "text"
+                ],
+                "figure_refs": [],
+                "key_findings": "Following surgery, no hearing remained in the left ear. Right ear thresholds remained stable.",
+                "numeric_results": {
+                  "LE_Hearing": "No hearing",
+                  "RE_Hearing": "Stable"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

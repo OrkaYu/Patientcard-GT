@@ -19,6 +19,7 @@
   "encounters": [
     {
       "visit_id": "V1",
+      "type": "Initial Audiologic Evaluation",
       "date": null,
       "setting": "University Hearing Clinic",
       "history": {
@@ -135,6 +136,84 @@
           "numeric_results": {
             "Overall Score": "82/100",
             "Quality of Life Subscale": "77.5"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "type": "ENT Consultation",
+      "history": {
+        "referral_reason": "Asymmetrical hearing thresholds and unilateral tinnitus."
+      },
+      "tests": [
+        {
+          "name": "Physical Examination",
+          "key_findings": "Unremarkable. No suspicion of medication-induced tinnitus."
+        },
+        {
+          "name": "MRI",
+          "key_findings": "Unremarkable bilaterally. No significant anatomical anomalies."
+        }
+      ],
+      "key_findings": "Suspects mixed hearing loss components are related to long-term history of bilateral otitis media.",
+      "plan": "Medical clearance for amplification provided. Referral for psychological evaluation."
+    },
+    {
+      "visit_id": "V3",
+      "type": "Vestibular Assessment",
+      "setting": "University Hearing Clinic",
+      "tests": [
+        {
+          "name": "Videonystagmography (VNG)",
+          "key_findings": "Within normal limits. Slight nystagmus noted during gaze testing (insignificant)."
+        },
+        {
+          "name": "Positional and Caloric Testing",
+          "key_findings": "Within normal limits. No vestibular symptoms noted during testing."
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "type": "Psychiatric Evaluation",
+      "history": {
+        "referral_reason": "Referral from ENT for stress/PTSD management."
+      },
+      "key_findings": "Diagnosed with PTSD related to shooting involvement. Flashbacks and nightmares exacerbating tinnitus and vestibular issues. Guilt regarding partner's injury.",
+      "plan": "Cognitive Behavioral Therapy (CBT) recommended (weekly 60-minute sessions)."
+    },
+    {
+      "visit_id": "V5",
+      "type": "Hearing Aid Fitting",
+      "treatment": "Bilateral Widex Evoke 440 receiver-in-the-canal (RIC) instruments with Widex Zen Therapy (Zen Lavender, Zen noise, Zen Aqua). Custom-molded earplugs with filters.",
+      "outcome": "At 1-month follow-up: High satisfaction, 14 hours/day use. Tinnitus less noticeable. AzBio in quiet: 94% aided (vs 76% unaided)."
+    },
+    {
+      "visit_id": "V6",
+      "type": "6-Month Follow-up",
+      "date": "6 months post-initial",
+      "history": {
+        "interim": "Reported reduction in tinnitus annoyance. One episode of lightheadedness attributed to dehydration. Completed 20 weeks of CBT with significant reduction in anxiety."
+      },
+      "tests": [
+        {
+          "name": "Pure-tone audiometry",
+          "key_findings": "Slight improvement in low frequencies in right ear (resolution of conductive components). Asymmetrical high-frequency loss persists."
+        },
+        {
+          "name": "Tympanometry",
+          "key_findings": "Right ear: High compliance (excessive tympanic membrane mobility). Left ear: Normal."
+        },
+        {
+          "name": "Acoustic reflexes",
+          "key_findings": "Absent at all tested frequencies bilaterally."
+        },
+        {
+          "name": "Tinnitus Functional Index (TFI)",
+          "numeric_results": {
+            "Overall Score": "60.4/100",
+            "Quality of Life Subscale": "57.5"
           }
         }
       ]

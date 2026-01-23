@@ -190,6 +190,50 @@
           ],
           "key_findings": "Reconstructed CT revealed a clear dehiscence (loss of bone) overlying the superior semicircular canal on the left side.",
           "numeric_results": null
+        },
+        {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.2"
+          ],
+          "key_findings": "SRTs consistent with air thresholds.",
+          "numeric_results": null
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.2"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": null
+        },
+        {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.2"
+          ],
+          "key_findings": "Present at normal levels ipsilaterally and contralaterally.",
+          "numeric_results": null
         }
       ]
     }

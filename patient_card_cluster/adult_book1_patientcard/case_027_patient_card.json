@@ -126,38 +126,133 @@
             "Right_Response_Latency": "8 ms",
             "Left_Response": "Absent"
           }
+        },
+        {
+          "name": "Rinne test",
+          "timepoint_label": "Initial Assessment",
+          "ear": "bilateral",
+          "key_findings": "Positive bilaterally",
+          "sources": [
+            "text"
+          ]
         }
       ]
     },
     {
-      "visit_id": "V2",
-      "date": null,
-      "setting": "Audiology Clinic (Serial Monitoring)",
+      "visit_id": "V3",
+      "timepoint_label": "Day 17 (3 days post-initial)",
+      "setting": "Audiology Clinic",
+      "tests": [
+        {
+          "name": "Electroneuronography (ENoG)",
+          "ear": "bilateral",
+          "key_findings": "Right side stable. Left side showed transient recovery (small response appeared).",
+          "figure_refs": [
+            "Figure 27.2"
+          ],
+          "sources": [
+            "text",
+            "image"
+          ]
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "timepoint_label": "Day 24 (10 days post-initial)",
+      "setting": "Audiology Clinic",
       "history": {
-        "present_illness": "Serial monitoring over 15 days following initial assessment (up to ~29 days post-trauma).",
-        "otologic_history": "Patient reported headaches and decreased lip sensation when lying down.",
-        "prior_management": "Monitoring to determine need for surgical decompression.",
-        "patient_goals": "Evaluation for surgery."
+        "present_illness": "Reported headaches upon waking and decreased lip sensation when lying down."
       },
       "tests": [
         {
           "name": "Electroneuronography (ENoG)",
-          "timepoint_label": "Serial Monitoring (Days 3, 10, 15 post-initial)",
           "ear": "bilateral",
-          "condition": null,
-          "sources": [
-            "text",
-            "image"
-          ],
+          "key_findings": "Facial nerve responses decreasing on the left side.",
           "figure_refs": [
             "Figure 27.2"
           ],
-          "key_findings": "Right side remained stable with low amplitude. Left side showed transient recovery (small response appeared) but then declined and disappeared by Day 15 follow-up, indicating critical distress.",
-          "numeric_results": {
-            "Right_Response": "Stable low amplitude (~58 µV range)",
-            "Left_Response_Day_3_10": "Small response present (transient recovery)",
-            "Left_Response_Day_15": "Absent"
-          }
+          "sources": [
+            "text",
+            "image"
+          ]
+        }
+      ]
+    },
+    {
+      "visit_id": "V5",
+      "timepoint_label": "Day 29 (15 days post-initial)",
+      "setting": "Audiology Clinic",
+      "history": {
+        "plan": "Scheduled for left facial nerve decompression."
+      },
+      "tests": [
+        {
+          "name": "Electroneuronography (ENoG)",
+          "ear": "bilateral",
+          "key_findings": "Left response absent (disappeared). Right side stable.",
+          "figure_refs": [
+            "Figure 27.2"
+          ],
+          "sources": [
+            "text",
+            "image"
+          ]
+        }
+      ]
+    },
+    {
+      "visit_id": "V6",
+      "timepoint_label": "Surgery",
+      "setting": "Hospital",
+      "history": {
+        "procedure": "Left facial nerve decompression"
+      }
+    },
+    {
+      "visit_id": "V7",
+      "timepoint_label": "1-week post-op",
+      "setting": "Clinic",
+      "history": {
+        "key_findings": "Presented with upper brow and lip movement on the left side."
+      }
+    },
+    {
+      "visit_id": "V8",
+      "timepoint_label": "2-month post-op",
+      "setting": "Clinic",
+      "history": {
+        "key_findings": "Significant facial recovery (House-Brackmann III/VI)."
+      }
+    },
+    {
+      "visit_id": "V9",
+      "timepoint_label": "6-month post-op",
+      "setting": "Clinic",
+      "history": {
+        "key_findings": "Full facial recovery (House-Brackmann I/VI) bilaterally. Left tinnitus, decreased hearing, and aural fullness persist."
+      },
+      "tests": [
+        {
+          "name": "Audiometry",
+          "key_findings": "Conductive hearing loss in the left ear persisted.",
+          "sources": [
+            "text"
+          ]
+        },
+        {
+          "name": "Tympanometry",
+          "key_findings": "Remained normal.",
+          "sources": [
+            "text"
+          ]
+        },
+        {
+          "name": "Acoustic reflexes",
+          "key_findings": "Did not recover.",
+          "sources": [
+            "text"
+          ]
         }
       ]
     }

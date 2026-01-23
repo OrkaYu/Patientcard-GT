@@ -101,6 +101,24 @@
           "figure_refs": [],
           "key_findings": "Responses present up to 1,000 Hz; absent above 1,000 Hz. Suggests good outer hair cell function in low frequencies.",
           "numeric_results": null
+        },
+        {
+          "name": "Acoustic Reflex Thresholds",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 35.1"
+          ],
+          "key_findings": "Ipsilateral ARTs were consistent with audiometric thresholds. Contralateral ARTs could not be performed due to limitations of the equipment.",
+          "numeric_results": {
+            "Right_Ipsi_Thresholds": "500 Hz: 95, 1000 Hz: 100, 2000 Hz: Absent, 4000 Hz: Absent dB HL",
+            "Left_Ipsi_Thresholds": "500 Hz: 90, 1000 Hz: 100, 2000 Hz: Absent, 4000 Hz: Absent dB HL"
+          }
         }
       ]
     },

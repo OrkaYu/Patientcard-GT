@@ -69,7 +69,7 @@
           "numeric_results": {
             "RE_SRT": "65 dB HL",
             "LE_SRT": "5 dB HL",
-            "RE_WRS": "48% at 85 dB HL (25 dB SL)",
+            "RE_WRS": "48% at 90 dB HL (25 dB SL)",
             "LE_WRS": "96% at 50 dB HL (45 dB SL)"
           }
         },
@@ -157,6 +157,28 @@
             "LE_SRT": "5 dB HL",
             "RE_WRS": "96% at 50 dB HL",
             "LE_WRS": "100% at 50 dB HL"
+          }
+        },
+        {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.2"
+          ],
+          "key_findings": "Normal tympanograms bilaterally (Type A).",
+          "numeric_results": {
+            "RE_Canal_Volume": "1.2 mL",
+            "RE_Static_Admittance": "0.4 mmho",
+            "RE_Peak_Pressure": "25 daPa",
+            "LE_Canal_Volume": "1.2 mL",
+            "LE_Static_Admittance": "0.3 mmho",
+            "LE_Peak_Pressure": "20 daPa"
           }
         },
         {

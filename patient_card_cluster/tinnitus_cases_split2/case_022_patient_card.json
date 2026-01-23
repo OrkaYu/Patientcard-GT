@@ -14,7 +14,13 @@
     "laterality": "Bilateral hearing loss and tinnitus; hearing loss reported worse in left ear.",
     "associated_symptoms": "Nausea, dizziness, sound sensitivity (hyperacusis), foot pain, cold feet, sensation of body being squeezed, word retrieval issues, memory issues, diplopia.",
     "functional_impact": "Difficulty at work (crisis intervention specialist), trouble with conversations, inability to tolerate loud sounds.",
-    "goals_motivation": "Seeking help for hearing difficulties and tinnitus, though presentation is complicated by severe anxiety."
+    "goals_motivation": "Seeking help for hearing difficulties and tinnitus, though presentation is complicated by severe anxiety.",
+    "red_flags": [
+      "Asymmetric hearing loss",
+      "Diplopia",
+      "Numbness and tingling in extremities",
+      "Memory and word retrieval issues"
+    ]
   },
   "encounters": [
     {

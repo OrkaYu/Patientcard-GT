@@ -42,7 +42,7 @@
           "figure_refs": [
             "Figure 4-2"
           ],
-          "key_findings": "Right ear shows moderate to severe sensorineural hearing loss. Left ear shows mild to severe sensorineural loss commencing at 2000 Hz.",
+          "key_findings": "Right ear shows moderate to severe sensorineural hearing loss. Left ear shows mild to severe sensorineural loss commencing at 2000 Hz. No air-bone gap.",
           "numeric_results": {
             "RE_250Hz": "~45 dB HL",
             "RE_500Hz": "~60 dB HL",
@@ -107,7 +107,17 @@
             "RE_Wave_V": "Absent/Not repeatable",
             "LE_Wave_III_V": "Normal absolute latencies"
           }
-        },
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Radiology",
+      "history": {
+        "present_illness": "Follow-up imaging for suspected retrocochlear pathology."
+      },
+      "tests": [
         {
           "name": "CT Scan",
           "timepoint_label": "Post-audiologic evaluation",
@@ -120,7 +130,29 @@
           "figure_refs": [
             "Figure 4-4"
           ],
-          "key_findings": "CT of right petrous pyramid with interthecal air injection. Air did not fill the Internal Auditory Meatus (IAM), indicating a mass. Axial cut showed mass extending into the Cerebellopontine Angle (CPA).",
+          "key_findings": "CT of right petrous pyramid with intrathecal air injection. Air did not fill the Internal Auditory Meatus (IAM), indicating a mass. Axial cut showed mass extending into the Cerebellopontine Angle (CPA).",
+          "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Surgery",
+      "history": {
+        "present_illness": "Surgical management of acoustic tumor."
+      },
+      "tests": [
+        {
+          "name": "Surgical Findings",
+          "timepoint_label": "Surgery",
+          "ear": "right",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Tumor filled most of the IAM and extended approximately 1.5 cm into the CPA. The tumor was removed successfully.",
           "numeric_results": null
         }
       ]

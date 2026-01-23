@@ -1,0 +1,71 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T00:37:25Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_strict": "Audiology Workbook",
+    "pc_key": "patient_card_cluster/audiology_workbook_cases/case_12_07_patient_card.json",
+    "chapter": 12,
+    "idx": 7,
+    "pdf_subcase": 7,
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_workbook_case12_cases/case12.7.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_workbook_case12_cases/case12.7.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated ABR numeric_results with provided IPL values and placeholders.",
+      "Added new Acoustic Reflex Testing (ART) test object.",
+      "Appended 'Diagnosis: Acoustic Neuroma' to overall_audiologic_summary as requested."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/4/numeric_results",
+        "value": {
+          "Wave_I_latency_Right": "...",
+          "Wave_III_latency_Right": "...",
+          "Wave_V_latency_Right": "...",
+          "IPL_I_III_Right": "2.2 ms",
+          "IPL_III_V_Right": "1.9 ms",
+          "IPL_I_V_Right": "4.1 ms",
+          "IPL_I_III_Left": "3.9 ms",
+          "IPL_III_V_Left": "2.0 ms",
+          "IPL_I_V_Left": "5.9 ms"
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Acoustic Reflex Testing (ART)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "ART @1 kHz Table"
+          ],
+          "key_findings": "Reflexes absent when left ear stimulated (Ipsi L: NR, Contra with Stim L: NR). Reflexes present when right ear stimulated (Ipsi R: 85, Contra with Stim R: 85). Pattern consistent with left retrocochlear lesion.",
+          "numeric_results": {
+            "Ipsi_Right": "85 dB HL",
+            "Contra_StimL_ProbeR": "NR",
+            "Ipsi_Left": "NR",
+            "Contra_StimR_ProbeL": "85 dB HL"
+          }
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/overall_audiologic_summary",
+        "value": "The patient presents with essentially normal hearing sensitivity bilaterally, with only a mild high-frequency dip in the left ear. However, there are significant signs of retrocochlear (neural) dysfunction on the left side, including significant WRS rollover (ratio 0.40) and degraded ABR waveforms, despite intact cochlear function (normal OAEs). This pattern, combined with the history of head trauma and unsteadiness, warrants immediate medical investigation. Diagnosis: Acoustic Neuroma."
+      }
+    ],
+    "unresolved": []
+  }
+}

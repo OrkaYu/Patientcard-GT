@@ -1,0 +1,39 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:17:41Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "Audiogram workbook"
+    ],
+    "src_patient_card_key": "patient_card_cluster/audiogram_workbook_splitbycase/case_004_2_patient_card.json",
+    "case_key": "4_2",
+    "remark_key_used": "4_2",
+    "remark": "Right SRT应为 10 dB，不是7 dB；Left SRT应为 10 dB，不是3 dB",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case4.2.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case4.2.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected Right SRT from 7 dB to 10 dB as per remarks.",
+      "Corrected Left SRT from 3 dB to 10 dB as per remarks."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Right",
+        "value": "10 dB"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Left",
+        "value": "10 dB"
+      }
+    ],
+    "unresolved": []
+  }
+}

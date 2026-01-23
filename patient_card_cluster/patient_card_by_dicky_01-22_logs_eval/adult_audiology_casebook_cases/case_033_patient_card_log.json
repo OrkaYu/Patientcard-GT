@@ -1,0 +1,67 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:08:30Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (11 cases)",
+    "src_patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_033_patient_card.json",
+    "case_main": 33,
+    "remark": "V1 history.prior_management 缺少CROS试戴细节及术后随访情况\nV1 history.medical_psych_history 添加\"denies family history\"\nV2 tests[0].name\"Other\" → \"Transcranial threshold testing\"\n缺少V3耳印模取模与助听器验配visit\n缺少V4随访与效果评估visit",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case33_Transcranial_Contralateral_Routing_of_Si.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case33_Transcranial_Contralateral_Routing_of_Si.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V1 history.prior_management to include missing CROS trial details (interference with better ear, speech difficulty) and lack of post-op follow-up.",
+      "Updated V1 history.medical_psych_history to include denial of family history.",
+      "Renamed V2 test 'Other' to 'Transcranial threshold testing'.",
+      "Added V3 encounter for ear impression and fitting.",
+      "Added V4 encounter for follow-up and outcome assessment."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/history/prior_management",
+        "value": "Previous trial with standard CROS system was unsuccessful. She felt the sound quality was very tinny and made speech understanding difficult. She also did not like wearing devices on both ears and felt it interfered with her better hearing right ear. She has not seen an audiologist since her postoperative evaluation following the removal of the acoustic neuroma."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/history/medical_psych_history",
+        "value": "Unremarkable aside from AN surgery. Denies family history of hearing loss."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/0/name",
+        "value": "Transcranial threshold testing"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Patient returns for ear impression and fitting of transcranial CROS. Deep ear impression taken past the second bend using an open-mouth technique with a bite block. Fitted with left BTE transcranial CROS hearing aid."
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Follow-up to evaluate the effectiveness of the transcranial CROS fitting. CR was extremely pleased with the left transcranial hearing aid. She prefers this fitting to the right CROS system she previously tried and finds her speech understanding to be improved using the left transcranial CROS."
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

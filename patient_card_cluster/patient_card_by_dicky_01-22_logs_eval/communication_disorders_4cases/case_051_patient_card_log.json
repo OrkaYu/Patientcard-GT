@@ -1,0 +1,94 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:05:51Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_id": "gs://case_study_audult_book/2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "common4cases",
+      "common 4",
+      "communication disorders",
+      "comm disorders",
+      "comm disorders casebook",
+      "comm disorders (4 cases)",
+      "communicationdisorders_4cases"
+    ],
+    "src_patient_card_key": "patient_card_cluster/communication_disorders_4cases/case_051_patient_card.json",
+    "case_key": "51",
+    "remark_key_used": "51",
+    "remark": "缺少2007年CI植入及术后随访visit（含Post-CI HHI=60）\nV4的CI状态从\"Recommendation\"改为\"已于2007年完成植入\"\noverall_audiologic_summary从\"CI候选人\"改为\"当前bimodal用户\"\nV2就诊次数从\"9\"改为\"14\"",
+    "pdf_key": "audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case51_Denise.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case51_Denise.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V2 visit count from 9 to 14 in history, key_findings, and numeric_results.",
+      "Updated V4 CI test to reflect 2007 implantation status instead of recommendation.",
+      "Updated overall_audiologic_summary to describe patient as a current bimodal user.",
+      "Added new encounter for 2007 CI implantation and post-op HHI score."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/1/history/present_illness",
+        "value": "6-month period of 'tweaking'. Patient requested reprogramming 14 times, returned devices, and complained of casing cracks."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/0/key_findings",
+        "value": "Patient made 14 visits between Sept 2015 and March 2016 for reprogramming, returns, and new fittings. Clinicians noted 'indecisiveness' and 'failure to commit'."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1/tests/0/numeric_results/Total_Visits_6_Months",
+        "value": "14"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/3/tests/1/timepoint_label",
+        "value": "Status"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/3/tests/1/key_findings",
+        "value": "Patient completed cochlear implantation in 2007."
+      },
+      {
+        "op": "replace",
+        "path": "/overall_audiologic_summary",
+        "value": "Denise presents with a bilateral moderate precipitously sloping to profound sensorineural hearing loss. Despite amplification, her aided Articulation Index is only 0.23, suggesting limited speech audibility (approx. 50% in quiet). She demonstrates significant fluctuation in self-perceived handicap (HHI scores), initially improving with group rehabilitation but regressing shortly after. Her profile is consistent with a current bimodal user (implanted in 2007) due to the lack of functional benefit from conventional hearing aids in the high frequencies."
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0",
+        "value": {
+          "visit_id": "V_2007",
+          "date": "2007",
+          "setting": "Hospital/Clinic",
+          "history": {
+            "present_illness": "Cochlear implantation surgery."
+          },
+          "tests": [
+            {
+              "name": "Hearing Handicap Inventory (HHI)",
+              "timepoint_label": "Post-CI (2.5 months)",
+              "ear": "bilateral",
+              "condition": "bimodal",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "HHI score of 60.",
+              "numeric_results": {
+                "HHI_Score": "60"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

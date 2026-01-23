@@ -1,0 +1,89 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T00:36:50Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_strict": "Audiology Workbook",
+    "pc_key": "patient_card_cluster/audiology_workbook_cases/case_12_06_patient_card.json",
+    "chapter": 12,
+    "idx": 6,
+    "pdf_subcase": 6,
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_workbook_case12_cases/case12.6.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_workbook_case12_cases/case12.6.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated Tympanometry findings and numeric results for Left ear (Type Ad, 5.9 mmhos) as per remarks.",
+      "Updated WAI findings to describe Left ear dip at 300-800 Hz as per remarks.",
+      "Added SRT data (Right 5 dB, Left 55 dB) to Speech Audiometry numeric results.",
+      "Added new Acoustic Reflex Thresholds test with provided data.",
+      "Updated Overall Audiologic Summary to reflect conductive loss and abnormal middle ear findings (Type Ad).",
+      "Updated counseling point to replace 'damage is to the inner ear/cochlea' with 'conductive loss' and corrected the context regarding middle ear status."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/key_findings",
+        "value": "Right ear: Type A tympanogram. Left ear: Type Ad tympanogram with high static admittance (5.9 mmhos)."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/numeric_results/Left Admittance",
+        "value": "5.9 mmhos"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/key_findings",
+        "value": "Right ear: Normal reflectance. Left ear: Dip/notch below normal range at 300-800 Hz."
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Right SRT",
+        "value": "5 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3/numeric_results/Left SRT",
+        "value": "55 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Acoustic Reflex Thresholds",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Table: ART @1 kHz"
+          ],
+          "key_findings": "Right Ipsi present at 90 dB HL. Left Ipsi and Contralateral reflexes are absent (NR).",
+          "numeric_results": {
+            "Ipsi R": "90 dB HL",
+            "Stim L/Probe R": "NR",
+            "Ipsi L": "NR",
+            "Stim R/Probe L": "NR"
+          }
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/overall_audiologic_summary",
+        "value": "The evaluation reveals normal hearing sensitivity in the right ear and a moderate conductive hearing loss in the left ear (PTA 55 dB HL). Word recognition is excellent in the left ear when presented at suprathreshold levels (94% at 85 dB HL). Middle ear function is abnormal in the left ear, evidenced by a Type Ad tympanogram (Ytm 5.9 mmhos) and a reflectance dip at 300-800 Hz. The negative Stenger test supports the validity of the left-sided hearing loss, consistent with the reported trauma."
+      },
+      {
+        "op": "replace",
+        "path": "/counseling_points/1",
+        "value": "The tests for your middle ear system show abnormalities consistent with a conductive loss."
+      }
+    ],
+    "unresolved": []
+  }
+}

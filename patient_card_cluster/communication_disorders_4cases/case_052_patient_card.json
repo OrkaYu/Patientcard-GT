@@ -112,22 +112,43 @@
           "figure_refs": [],
           "key_findings": "Fukuda stepping test showed right turn. Fall on dynamic surface with eyes closed (VSR impairment).",
           "numeric_results": {}
-        }
-      ]
-    },
-    {
-      "visit_id": "V2",
-      "date": null,
-      "setting": "Audiology Clinic",
-      "history": {
-        "present_illness": "Immediate treatment for BPPV following diagnosis.",
-        "otologic_history": "Same as V1.",
-        "noise_exposure_history": "N/A",
-        "medical_psych_history": "N/A",
-        "prior_management": "N/A",
-        "patient_goals": "Resolution of positional vertigo."
-      },
-      "tests": [
+        },
+        {
+          "name": "Vestibular Evoked Myogenic Potentials (VEMP)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Bilateral normal waveforms (ocular and cervical).",
+          "numeric_results": {}
+        },
+        {
+          "name": "Vertebrobasilar Artery Screening Test (VAST)",
+          "timepoint_label": "Baseline",
+          "ear": "right",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Right positive (transient dizziness with hyperextension/rotation). Left unremarkable.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Otoacoustic Emissions and Immittance",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Consistent with audiometric data.",
+          "numeric_results": {}
+        },
         {
           "name": "Canalith Repositioning (Gans Maneuver)",
           "timepoint_label": "Treatment",
@@ -143,7 +164,7 @@
       ]
     },
     {
-      "visit_id": "V3",
+      "visit_id": "V2",
       "date": "1 week post-treatment",
       "setting": "Audiology Clinic",
       "history": {
@@ -165,6 +186,33 @@
           ],
           "figure_refs": [],
           "key_findings": "Dix-Hallpike, side-lying, and deep head-hanging were all negative. VAST initially positive then negative (attributed to BPPV resolution).",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "Start of VRT",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Initiation of VRT and hearing aid trial.",
+        "otologic_history": "Fitted with hearing aids.",
+        "noise_exposure_history": "N/A",
+        "medical_psych_history": "N/A",
+        "prior_management": "BPPV resolved.",
+        "patient_goals": "Manage tinnitus and imbalance."
+      },
+      "tests": [
+        {
+          "name": "Hearing Aid Fitting",
+          "timepoint_label": "Intervention",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Fitted with amplification. Initial frustration, refitted at week 3 with benefit.",
           "numeric_results": {}
         }
       ]
@@ -222,6 +270,18 @@
           ],
           "figure_refs": [],
           "key_findings": "Normal static stability; no falls on dynamic surface with eyes closed. Functional recovery of VSR.",
+          "numeric_results": {}
+        },
+        {
+          "name": "Headshake Test",
+          "timepoint_label": "Post-VRT",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "No provocable nystagmus.",
           "numeric_results": {}
         }
       ]

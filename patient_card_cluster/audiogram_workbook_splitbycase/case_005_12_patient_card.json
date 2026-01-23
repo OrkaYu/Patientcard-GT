@@ -67,7 +67,7 @@
           "numeric_results": {
             "RE_SRT": "10 dB HL",
             "RE_WRS": "100% at 60 dB HL",
-            "LE_SRT": "33 dB HL",
+            "LE_SRT": "30 dB HL",
             "LE_WRS": "72% at 75 dB HL"
           }
         },

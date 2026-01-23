@@ -1,0 +1,209 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:21:24Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_062_patient_card.json",
+    "case_main": 62,
+    "remark": "右耳设备\"Hybrid L24\"改为\"S8 Hybrid (10mm, 6 electrodes)\"\n调整visit结构：\nV1：初评（纯音、声场、言语）\nV2：程序调整 + 复查（FAT调整，1个月后言语无改善）\nV3：术前评估（CT、前庭）+ 手术\nV4：激活 + 6个月随访",
+    "pdf_key": "audiology_casebook_split_by_case/62_62_Clinical_Management_of_a_Patient_with_a_Folded.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/62_62_Clinical_Management_of_a_Patient_with_a_Folded.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Replaced 'Hybrid L24' with 'S8 Hybrid (10mm, 6 electrodes)' in V1 history.",
+      "Restructured encounters into 4 visits as requested:",
+      "V1: Initial evaluation (Pure-tone, Sound-field, Speech).",
+      "V2: Programming adjustment (FAT) and 1-month recheck (Speech).",
+      "V3: Pre-op evaluation (CT, Vestibular moved from original V1) and surgery decision.",
+      "V4: Activation and 6-month follow-up (renamed from original V2)."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters",
+        "value": [
+          {
+            "visit_id": "V1",
+            "date": "2011-10-01",
+            "setting": "Audiology Clinic",
+            "history": {
+              "present_illness": "Patient presented for reprogramming. Right ear had a S8 Hybrid (10mm, 6 electrodes) device (implanted 2007) but lost residual hearing, rendering the acoustic component useless. Left ear had a Freedom Contour (implanted 2008).",
+              "otologic_history": "History of gradual hearing loss (25 years). Bilateral HA use for 23 years prior to CIs.",
+              "noise_exposure_history": "Not reported.",
+              "medical_psych_history": "History of dizziness and disequilibrium following left CI surgery.",
+              "prior_management": "Bimodal fitting initially, then bilateral CI. Declined right ear revision in 2008 due to dizziness fears.",
+              "patient_goals": "Improve performance of right device."
+            },
+            "tests": [
+              {
+                "name": "Pure-tone audiometry",
+                "timepoint_label": "Baseline",
+                "ear": "bilateral",
+                "condition": "unaided",
+                "sources": [
+                  "text"
+                ],
+                "key_findings": "Profound sensorineural hearing loss bilaterally.",
+                "numeric_results": {
+                  "Right_ear_measurable_hearing": "500-750 Hz at 105-110 dB HL",
+                  "Left_ear": "No measurable hearing reported in text"
+                }
+              },
+              {
+                "name": "Sound-field Thresholds",
+                "timepoint_label": "Baseline",
+                "ear": "bilateral",
+                "condition": "aided",
+                "sources": [
+                  "text"
+                ],
+                "key_findings": "Right hybrid CI performance was poor compared to the left standard CI.",
+                "numeric_results": {
+                  "Right_Hybrid_CI_thresholds": "40 to 95 dB HL (FM warble tones)",
+                  "Left_Standard_CI_thresholds": "15 to 30 dB HL"
+                }
+              },
+              {
+                "name": "Speech audiometry",
+                "timepoint_label": "Baseline",
+                "ear": "bilateral",
+                "condition": "aided",
+                "sources": [
+                  "text",
+                  "image"
+                ],
+                "figure_refs": [
+                  "Figure 62.2"
+                ],
+                "key_findings": "AzBio sentences in quiet at 60 dB SPL showed significant asymmetry in performance.",
+                "numeric_results": {
+                  "Right_CI_only": "10%",
+                  "Left_CI_only": "76%",
+                  "Bilateral": "76%"
+                }
+              }
+            ]
+          },
+          {
+            "visit_id": "V2",
+            "date": null,
+            "setting": "Audiology Clinic",
+            "history": {
+              "present_illness": "Follow-up 1 month after programming adjustments.",
+              "prior_management": "FAT adjusted (upper cutoff 6000 Hz, lower 70 Hz).",
+              "patient_goals": "Re-evaluate speech recognition."
+            },
+            "tests": [
+              {
+                "name": "Speech audiometry",
+                "timepoint_label": "1 month post-reprogramming",
+                "ear": "right",
+                "condition": "aided",
+                "sources": [
+                  "text"
+                ],
+                "key_findings": "No significant change in speech recognition.",
+                "numeric_results": null
+              }
+            ]
+          },
+          {
+            "visit_id": "V3",
+            "date": null,
+            "setting": "Audiology Clinic",
+            "history": {
+              "present_illness": "Pre-operative evaluation for revision surgery.",
+              "prior_management": "Decision to explant Hybrid and reimplant with Standard array.",
+              "patient_goals": "Proceed with surgery."
+            },
+            "tests": [
+              {
+                "name": "CT Scan",
+                "timepoint_label": "Pre-op",
+                "ear": "bilateral",
+                "condition": null,
+                "sources": [
+                  "text",
+                  "image"
+                ],
+                "figure_refs": [
+                  "Figure 62.1"
+                ],
+                "key_findings": "Right Hybrid CI leads in good position. Left CI showed electrode 'fold-over' in the ascending limb of the basal turn.",
+                "numeric_results": null
+              },
+              {
+                "name": "Vestibular Assessment",
+                "timepoint_label": "Pre-op",
+                "ear": "bilateral",
+                "condition": null,
+                "sources": [
+                  "text"
+                ],
+                "key_findings": "Normal vestibular function bilaterally (VNG and CDP).",
+                "numeric_results": null
+              }
+            ]
+          },
+          {
+            "visit_id": "V4",
+            "date": null,
+            "setting": "Audiology Clinic",
+            "history": {
+              "present_illness": "Follow-up 6 months after right ear revision surgery (explant of Hybrid, reimplant with Standard array).",
+              "prior_management": "Right ear reimplanted. Full insertion achieved. Activated 1 month post-op.",
+              "patient_goals": "Assess benefit of revision surgery."
+            },
+            "tests": [
+              {
+                "name": "Sound-field Thresholds",
+                "timepoint_label": "Post-op",
+                "ear": "right",
+                "condition": "aided",
+                "sources": [
+                  "text"
+                ],
+                "key_findings": "Significant improvement in detection thresholds with new standard array.",
+                "numeric_results": {
+                  "Right_CI_thresholds": "20 to 25 dB HL"
+                }
+              },
+              {
+                "name": "Speech audiometry",
+                "timepoint_label": "Post-op (6 months)",
+                "ear": "bilateral",
+                "condition": "aided",
+                "sources": [
+                  "text",
+                  "image"
+                ],
+                "figure_refs": [
+                  "Figure 62.2",
+                  "Figure 62.3"
+                ],
+                "key_findings": "Right ear performance surpassed the left ear. Patient reported 'fuller' sound quality.",
+                "numeric_results": {
+                  "Right_CI_AzBio_Quiet": "92%",
+                  "Left_CI_AzBio_Quiet": "68%",
+                  "Bilateral_AzBio_Quiet": "96%"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}
