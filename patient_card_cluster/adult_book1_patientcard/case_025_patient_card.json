@@ -136,6 +136,23 @@
           }
         },
         {
+          "name": "Additional Testing",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [],
+          "key_findings": "Additional objective tests were performed to assess middle ear status and cochlear/brainstem function; results did not support the severity of the voluntary behavioral thresholds.",
+          "numeric_results": {
+            "Immittance_test_battery": "Performed",
+            "DPOAEs": "Performed",
+            "ABR_test": "Performed"
+          }
+        },
+        {
           "name": "Stenger Test",
           "timepoint_label": "Diagnostic",
           "ear": "bilateral",
@@ -170,39 +187,6 @@
             "Predicted_True_Threshold_500Hz": "15-20 dB HL",
             "Predicted_True_Threshold_4000Hz": "30-35 dB HL"
           }
-        },
-        {
-          "name": "Immittance test battery",
-          "timepoint_label": "Diagnostic",
-          "ear": "bilateral",
-          "condition": "unaided",
-          "sources": [
-            "text"
-          ],
-          "key_findings": "Performed to confirm Stenger/MCIL results; specific data unavailable due to PDF truncation.",
-          "numeric_results": {}
-        },
-        {
-          "name": "DPOAEs",
-          "timepoint_label": "Diagnostic",
-          "ear": "bilateral",
-          "condition": "unaided",
-          "sources": [
-            "text"
-          ],
-          "key_findings": "Performed to confirm Stenger/MCIL results; specific data unavailable due to PDF truncation.",
-          "numeric_results": {}
-        },
-        {
-          "name": "ABR test",
-          "timepoint_label": "Diagnostic",
-          "ear": "bilateral",
-          "condition": "unaided",
-          "sources": [
-            "text"
-          ],
-          "key_findings": "Performed to confirm Stenger/MCIL results; specific data unavailable due to PDF truncation.",
-          "numeric_results": {}
         }
       ]
     }
