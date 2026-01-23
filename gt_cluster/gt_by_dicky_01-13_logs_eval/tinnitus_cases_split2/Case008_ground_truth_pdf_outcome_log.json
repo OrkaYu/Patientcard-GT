@@ -1,0 +1,59 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:30:00Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case008_ground_truth_pdf_outcome.json",
+    "case_key": "8",
+    "remark": "缺少 V2 (6 months follow up)。",
+    "pdf_key": "Tinnitus_Cases_split2/Case08_A_Case_of_a_Normal_Hearing.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case08_A_Case_of_a_Normal_Hearing.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 (6 months follow up) to expected_interpretations_by_visit based on Section 8.7 Outcome."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "Follow-up 6 months after stereotactic radiosurgery. Otoscopy and tympanometry were normal. Pure-tone audiometry showed normal hearing in the right ear but mild sensorineural hearing loss in the left ear from 1000 Hz through higher frequencies, with increased asymmetry. HINT performance was within normal percentiles. The patient denied worsening of tinnitus.",
+          "tests": [
+            {
+              "name": "Otoscopy",
+              "category": "Physical Exam",
+              "result_summary": "Clear ear canals and intact tympanic membranes bilaterally."
+            },
+            {
+              "name": "Tympanometry",
+              "category": "Immittance",
+              "result_summary": "Normal ear canal volumes, peak pressure, and static admittance bilaterally."
+            },
+            {
+              "name": "Pure-tone audiometry",
+              "category": "Audiometry",
+              "result_summary": "Right ear thresholds within normal limits. Left ear showed mild sensorineural hearing loss from 1000 Hz through higher frequencies; asymmetry increased compared to initial visit."
+            },
+            {
+              "name": "Hearing in Noise Test (HINT)",
+              "category": "Speech Audiometry",
+              "result_summary": "Performance within normal percentiles for both quiet and noise front conditions."
+            },
+            {
+              "name": "Subjective Assessment",
+              "category": "Clinical History",
+              "result_summary": "Patient denied any worsening of tinnitus."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

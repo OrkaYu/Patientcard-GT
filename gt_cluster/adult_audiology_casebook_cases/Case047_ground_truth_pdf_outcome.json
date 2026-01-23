@@ -43,6 +43,11 @@
         "action": "Subjective Report",
         "urgency": "routine",
         "rationale_short": "To monitor progress, mood, and social functioning 6 weeks later."
+      },
+      {
+        "action": "Final Appointment",
+        "urgency": "routine",
+        "rationale_short": "To monitor device usage, symptom severity, and social functioning at 1 year."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -81,6 +86,16 @@
           {
             "name": "Subjective Report",
             "result_summary": "Beneficial effect from mood stabilizers and sound therapy. Able to expose self to previously intolerable sounds (e.g., eating with a friend). Reduced self-harm."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "At the 1-year final appointment, the patient reported significant progress with symptoms and social functioning, despite ongoing tolerance issues.",
+        "tests": [
+          {
+            "name": "Final Appointment",
+            "result_summary": "Able to participate in activities previously impossible (supermarket, dentist, optician, GP). Used sound generators to manage situations and gain control. Reported satisfaction with devices and no preferred program."
           }
         ]
       }

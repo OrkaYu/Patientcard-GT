@@ -1,0 +1,69 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:03:38Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case035_ground_truth_pdf_outcome.json",
+    "case_key": "35",
+    "remark": "Rank 1: \"Unilateral utricular dysfunction\" 应改为 \"Right unilateral utricular dysfunction\"。\nRank 2: \"Migraine or small vessel disease\" 删除（MRI偶发发现的影像学鉴别，非患者症状鉴别）。\nRank 3: \"Arnold-Chiari malformation\" 删除。\nOrdered list 缺少：MRI brain with/without contrast；Neurotologic physical examination；Laboratory studies (CBC, comprehensive metabolic panel, thyroid panel, sedimentation rate)。",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/35_35_Unilateral_Utricular_Dysfunction_Presenting_as.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/35_35_Unilateral_Utricular_Dysfunction_Presenting_as.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated Rank 1 diagnosis label to 'Right unilateral utricular dysfunction'.",
+      "Removed Rank 2 (Migraine) and Rank 3 (Arnold-Chiari) as they were excluded or incidental findings.",
+      "Added MRI, Laboratory studies, and Neurotologic physical examination to the ordered list in chronological order based on the case description."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/ranked_differential_diagnosis",
+        "value": [
+          {
+            "rank": 1,
+            "label": "Right unilateral utricular dysfunction",
+            "rationale_short": "Specific deficit on DSVV testing (lack of tilt change with right utricular stimulation) consistent with symptoms during high-velocity leftward turns."
+          }
+        ]
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/0",
+        "value": {
+          "action": "MRI brain with/without contrast",
+          "urgency": "routine",
+          "rationale_short": "Rule out central pathology; previous MRI showed nonspecific T2 signal alterations."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/1",
+        "value": {
+          "action": "Laboratory studies (CBC, comprehensive metabolic panel, thyroid panel, sedimentation rate)",
+          "urgency": "routine",
+          "rationale_short": "Rule out metabolic or systemic causes of dizziness."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/6",
+        "value": {
+          "action": "Neurotologic physical examination",
+          "urgency": "routine",
+          "rationale_short": "Assess vital signs, cranial nerves, and basic vestibular function before specialized testing."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

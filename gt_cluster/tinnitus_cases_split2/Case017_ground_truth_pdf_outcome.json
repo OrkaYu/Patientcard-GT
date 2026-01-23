@@ -38,7 +38,7 @@
     "expected_interpretations_by_visit": [
       {
         "visit_id": "V1",
-        "collective_interpretation": "Results confirm a sudden, severe sensorineural hearing loss in the right ear, sloping in the high frequencies. The Weber test corroborates a sensorineural site of lesion by lateralizing to the better (left) ear. Informal testing confirms diplacusis with an upward pitch shift in the affected ear.",
+        "collective_interpretation": "Self-administered testing on the morning of onset confirmed a sudden sensorineural hearing loss in the right ear.",
         "tests": [
           {
             "name": "Pure-tone audiometry",
@@ -51,9 +51,52 @@
             "result_summary": "Lateralized to the left (better ear) at 1000 and 2000 Hz."
           },
           {
-            "name": "Informal Pitch Matching (Diplacusis check)",
+            "name": "Bing Test",
+            "category": "Tuning Fork",
+            "result_summary": "Phonation of vowel /a/ increased in loudness when occluding either ear, consistent with a positive Bing test (no conductive component)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "ENT consultation later the same day reviewed the audiometric results and prescribed steroids.",
+        "tests": [
+          {
+            "name": "Audiogram Interpretation",
+            "category": "Consultation",
+            "result_summary": "ENT reviewed patient's audiogram; confirmed SNHL diagnosis."
+          },
+          {
+            "name": "Prescription",
+            "category": "Management",
+            "result_summary": "Prednisone prescribed."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "Home observation confirmed diplacusis (pitch distortion).",
+        "tests": [
+          {
+            "name": "Informal Pitch Matching",
             "category": "Pitch Matching",
-            "result_summary": "Music shifted upward in pitch by a full step when listening with the affected (right) ear compared to the good ear."
+            "result_summary": "Music shifted upward in pitch by a full step when listening with the affected (right) ear compared to the good ear (confirmed by alternately plugging ears)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Follow-up 48 hours after starting prednisone showed significant recovery.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry (Recovery)",
+            "category": "Audiometry",
+            "result_summary": "Right ear thresholds improved significantly, ranging from 15-20 dB HL in low frequencies to 30-45 dB HL in high frequencies (2-8 kHz)."
+          },
+          {
+            "name": "Subjective Symptom Assessment",
+            "category": "Clinical Assessment",
+            "result_summary": "Sound clarity returned to pre-event quality and the diplacusis sensation faded."
           }
         ]
       }

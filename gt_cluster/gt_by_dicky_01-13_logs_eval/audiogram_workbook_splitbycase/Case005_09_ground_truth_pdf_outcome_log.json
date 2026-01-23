@@ -1,0 +1,30 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:57:36Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Audiogram workbook",
+    "src_gt_key": "gt_cluster/audiogram_workbook_splitbycase/Case005_09_ground_truth_pdf_outcome.json",
+    "case_key": "5_9",
+    "remark": "Speech audiometry 改为 Right SRT 25 dB HL, WRS 92%. Left SRT 40 dB HL, WRS 84%.",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.9.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.9.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated Speech audiometry result summary to reflect Right SRT 25 dB HL and Left SRT 40 dB HL as per remarks and audiogram data."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/1/result_summary",
+        "value": "Right SRT 25 dB HL, WRS 92%. Left SRT 40 dB HL, WRS 84%."
+      }
+    ],
+    "unresolved": []
+  }
+}

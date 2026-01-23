@@ -1,0 +1,56 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:08:29Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case033_ground_truth_pdf_outcome.json",
+    "case_key": "33",
+    "remark": "缺少 Visit 3 (fitting) 和 Visit 4 (Follow up)。",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case33_Transcranial_Contralateral_Routing_of_Si.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case33_Transcranial_Contralateral_Routing_of_Si.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Visit 3 (Fitting) with Real Ear Measures verification.",
+      "Added Visit 4 (Follow up) with subjective outcome assessment."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "The patient was fitted with a left BTE transcranial CROS hearing aid. Verification using Real Ear Measures (REM) confirmed that the aided response exceeded the unaided transcranial thresholds, ensuring signal crossover to the better ear.",
+          "tests": [
+            {
+              "name": "Real Ear Measures (REM)",
+              "category": "Hearing Aid Verification",
+              "result_summary": "Aided response (REAR) at 50, 65, and 75 dB SPL exceeded unaided transcranial thresholds."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V4",
+          "collective_interpretation": "Outcome assessment indicates the patient is extremely pleased with the transcranial CROS, preferring it to the standard CROS and reporting improved speech understanding.",
+          "tests": [
+            {
+              "name": "Subjective Assessment",
+              "category": "Outcome Measures",
+              "result_summary": "Patient reports improved speech understanding and preference for the transcranial fitting."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

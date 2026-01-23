@@ -3,18 +3,13 @@
   "ranked_differential_diagnosis": [
     {
       "rank": 1,
-      "label": "Retrocochlear pathology (Left VIII nerve injury)",
+      "label": "Vestibular Schwannoma / Acoustic Neuroma",
       "rationale_short": "History of head trauma, significant WRS rollover (0.40), degraded ABR waveforms, and preserved OAEs indicate neural dysfunction with intact cochlea."
     },
     {
       "rank": 2,
       "label": "Acquired Auditory Neuropathy Spectrum Disorder (ANSD)",
       "rationale_short": "The dissociation between normal outer hair cell function (OAEs) and abnormal neural function (ABR, speech rollover) fits the ANSD profile, likely secondary to trauma."
-    },
-    {
-      "rank": 3,
-      "label": "Vestibular Schwannoma",
-      "rationale_short": "Pre-existing tinnitus and retrocochlear signs raise this possibility, though the acute onset of speech issues suggests a traumatic etiology."
     }
   ],
   "investigations_and_interpretations": {
@@ -53,12 +48,17 @@
           {
             "name": "Auditory Brainstem Response (ABR)",
             "category": "Electrophysiology",
-            "result_summary": "Right ear normal morphology; Left ear degraded/poorly formed waveforms."
+            "result_summary": "Left ear: Wave I normal latency, Waves III and V delayed; IPLs abnormal (I-III=3.9ms, III-V=2.0ms, I-V=5.9ms)"
           },
           {
             "name": "Tympanometry",
             "category": "Immittance",
             "result_summary": "Type A (normal) bilaterally."
+          },
+          {
+            "name": "Acoustic Reflex Testing (ART)",
+            "category": "Immittance",
+            "result_summary": "Reflexes present with right ear stimulation; absent or elevated with left ear stimulation."
           }
         ]
       }

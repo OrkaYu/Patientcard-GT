@@ -1,0 +1,104 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:10:19Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case069_ground_truth_pdf_outcome.json",
+    "case_key": "69",
+    "remark": "V1 缺少 MRI 结果。\nV2 缺少 TMC 多学科评估。\nV3 缺少 7个月 follow up 结果。",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/69_69_Somatic_Tinnitus.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/69_69_Somatic_Tinnitus.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added MRI to ordered_list and V1 tests.",
+      "Added V2 for TMC multidisciplinary assessment.",
+      "Added V3 for 7-month follow-up results."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Magnetic Resonance Imaging (MRI)",
+          "urgency": "routine",
+          "rationale_short": "To rule out retrocochlear pathology and structural abnormalities given unilateral tinnitus and otalgia."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/-",
+        "value": {
+          "name": "Magnetic Resonance Imaging (MRI)",
+          "category": "Imaging",
+          "result_summary": "Within normal limits."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "Multidisciplinary team assessment (TMC) identified somatic triggers (jaw/neck) and psychological factors.",
+          "tests": [
+            {
+              "name": "Audiology Assessment",
+              "category": "Specialist Exam",
+              "result_summary": "Immediate relief from tinnitus using ear-level sound generators, Neuromonics, or music."
+            },
+            {
+              "name": "Dentistry Assessment",
+              "category": "Specialist Exam",
+              "result_summary": "Loudness changed with teeth clenching/jaw thrust; increased loudness and pain with masseter palpation."
+            },
+            {
+              "name": "Neurology Assessment",
+              "category": "Specialist Exam",
+              "result_summary": "Left C1 malrotation; significant somatic modulation with jaw/neck manipulation."
+            },
+            {
+              "name": "Physical Therapy Assessment",
+              "category": "Specialist Exam",
+              "result_summary": "Increased tinnitus loudness with jaw movements/neck rotation; poor posture."
+            },
+            {
+              "name": "Psychology Assessment",
+              "category": "Specialist Exam",
+              "result_summary": "PHQ-9: 19 (Moderate-Severe Depression); GAD-7: 11 (Moderate Anxiety)."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "7-month follow-up showed significant improvement.",
+          "tests": [
+            {
+              "name": "Tinnitus Handicap Inventory (THI)",
+              "category": "Questionnaire",
+              "result_summary": "Score: 12/100 (statistically significant reduction from baseline of 78/100)."
+            },
+            {
+              "name": "Subjective Report",
+              "category": "Interview",
+              "result_summary": "Patient reported she was 'no longer bothered by the tinnitus'; complete resolution of left ear otalgia."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

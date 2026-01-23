@@ -35,13 +35,8 @@
           "timepoint_label": "Baseline",
           "ear": "bilateral",
           "condition": "unaided",
-          "sources": [
-            "text",
-            "image"
-          ],
-          "figure_refs": [
-            "Figure 33.1"
-          ],
+          "sources": ["text", "image"],
+          "figure_refs": ["Figure 33.1"],
           "key_findings": "Mild sloping to moderate rising to mild SNHL in right ear; slight sloping to moderate rising to normal SNHL in left ear.",
           "numeric_results": {
             "Right_PTA": "~45-50 dB HL (estimated from graph)",
@@ -54,13 +49,8 @@
           "timepoint_label": "Baseline",
           "ear": "bilateral",
           "condition": "unaided",
-          "sources": [
-            "text",
-            "image"
-          ],
-          "figure_refs": [
-            "Figure 33.1"
-          ],
+          "sources": ["text", "image"],
+          "figure_refs": ["Figure 33.1"],
           "key_findings": "Significant asymmetry in word recognition scores.",
           "numeric_results": {
             "WRS_Right": "8%",
@@ -74,12 +64,8 @@
           "timepoint_label": "Baseline",
           "ear": "bilateral",
           "condition": null,
-          "sources": [
-            "image"
-          ],
-          "figure_refs": [
-            "Figure 33.1"
-          ],
+          "sources": ["image"],
+          "figure_refs": ["Figure 33.1"],
           "key_findings": "Normal middle ear function.",
           "numeric_results": {
             "Type": "Type A bilateral",
@@ -92,12 +78,8 @@
           "timepoint_label": "Baseline",
           "ear": "bilateral",
           "condition": null,
-          "sources": [
-            "image"
-          ],
-          "figure_refs": [
-            "Figure 33.1"
-          ],
+          "sources": ["image"],
+          "figure_refs": ["Figure 33.1"],
           "key_findings": "Absent reflexes in the right ear; present in the left ear.",
           "numeric_results": {
             "Right_Ipsi/Contra": "Absent",
@@ -124,27 +106,11 @@
           "timepoint_label": "Initial Vestib",
           "ear": "right",
           "condition": null,
-          "sources": [
-            "text"
-          ],
+          "sources": ["text"],
           "figure_refs": [],
           "key_findings": "Significant unilateral weakness.",
           "numeric_results": {
             "Caloric_Weakness": "42% right reduced vestibular response"
-          }
-        },
-        {
-          "name": "Computerized dynamic posturography (CDP)",
-          "timepoint_label": "Initial Vestib",
-          "ear": "bilateral",
-          "condition": null,
-          "sources": [
-            "text"
-          ],
-          "figure_refs": [],
-          "key_findings": "Generally normal except for center of gravity.",
-          "numeric_results": {
-            "Center_of_Gravity": "Backward"
           }
         }
       ]
@@ -167,13 +133,8 @@
           "timepoint_label": "Follow-up",
           "ear": "bilateral",
           "condition": "unaided",
-          "sources": [
-            "text",
-            "image"
-          ],
-          "figure_refs": [
-            "Figure 33.2"
-          ],
+          "sources": ["text", "image"],
+          "figure_refs": ["Figure 33.2"],
           "key_findings": "Severe rising to moderately severe SNHL in right ear (significant decline from V1). Left ear stable.",
           "numeric_results": {
             "Right_Thresholds": "Low freqs ~80-90 dB HL, rising to ~65 dB HL",
@@ -185,13 +146,8 @@
           "timepoint_label": "Follow-up",
           "ear": "bilateral",
           "condition": "unaided",
-          "sources": [
-            "text",
-            "image"
-          ],
-          "figure_refs": [
-            "Figure 33.2"
-          ],
+          "sources": ["text", "image"],
+          "figure_refs": ["Figure 33.2"],
           "key_findings": "Right ear word recognition dropped to 0%.",
           "numeric_results": {
             "WRS_Right": "0%",
@@ -205,13 +161,8 @@
           "timepoint_label": "Follow-up",
           "ear": "bilateral",
           "condition": null,
-          "sources": [
-            "text",
-            "image"
-          ],
-          "figure_refs": [
-            "Figure 33.3"
-          ],
+          "sources": ["text", "image"],
+          "figure_refs": ["Figure 33.3"],
           "key_findings": "Consistent with retrocochlear pathology in the right ear.",
           "numeric_results": {
             "Left_Ear": "Normal absolute latencies Waves I, III, V",
@@ -239,14 +190,14 @@
           "timepoint_label": "Follow-up Vestib",
           "ear": "bilateral",
           "condition": null,
-          "sources": [
-            "text"
-          ],
+          "sources": ["text"],
           "figure_refs": [],
-          "key_findings": "Decline in performance compared to June. Poor use of vestibular input.",
+          "key_findings": "Decline compared to previous. Falls on SOT 5, difficulty on SOT 6. Difficulty with toes-down rotations of adaptation. Poor effective use of vestibular input. Center of gravity remained backward.",
           "numeric_results": {
             "SOT_5": "Falls",
             "SOT_6": "Difficulty",
+            "Adaptation_Toes_Down": "Difficulty",
+            "Vestibular_Input_Use": "Poor",
             "Center_of_Gravity": "Backward"
           }
         },
@@ -255,12 +206,11 @@
           "timepoint_label": "Follow-up Vestib",
           "ear": "bilateral",
           "condition": null,
-          "sources": [
-            "text"
-          ],
+          "sources": ["text"],
           "figure_refs": [],
-          "key_findings": "cVEMP responses within normal limits.",
+          "key_findings": "cVEMP responses within normal limits bilaterally. Thresholds: left ear 90 dB nHL, right ear 95 dB nHL.",
           "numeric_results": {
+            "cVEMP": "WNL bilaterally",
             "Threshold_Left": "90 dB nHL",
             "Threshold_Right": "95 dB nHL"
           }
@@ -270,9 +220,7 @@
           "timepoint_label": "Follow-up Vestib",
           "ear": "bilateral",
           "condition": null,
-          "sources": [
-            "text"
-          ],
+          "sources": ["text"],
           "figure_refs": [],
           "key_findings": "Consistent with right unilateral vestibular weakness.",
           "numeric_results": {
@@ -286,9 +234,7 @@
           "timepoint_label": "Hyperventilation Test",
           "ear": "bilateral",
           "condition": null,
-          "sources": [
-            "text"
-          ],
+          "sources": ["text"],
           "figure_refs": [],
           "key_findings": "Hyperventilation induced nystagmus beating toward the weaker ear, suggesting an excitatory lesion (irritative focus).",
           "numeric_results": {

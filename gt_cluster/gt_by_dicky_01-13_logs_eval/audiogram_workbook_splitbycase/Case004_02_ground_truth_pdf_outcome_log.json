@@ -1,0 +1,36 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:56:13Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Audiogram workbook",
+    "src_gt_key": "gt_cluster/audiogram_workbook_splitbycase/Case004_02_ground_truth_pdf_outcome.json",
+    "case_key": "4_2",
+    "remark": "SRT 结果：\"SRT 7 dB (right) and 3 dB (left)\"，实际应为 \"SRT 10 dB bilaterally\"。7 和 3 是 PTA 值，不是 SRT 值。\nPeak Pressure 把 -10 改为 10。",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case4.2.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case4.2.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected Speech audiometry SRT values from PTA values (7/3 dB) to actual SRT values (10 dB bilaterally) as per the audiogram table.",
+      "Corrected Tympanometry Right ear Peak Pressure from -10 daPa to 10 daPa as per the tympanometry table."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/1/result_summary",
+        "value": "SRT 10 dB bilaterally; WRS 100% at 50 dB HL bilaterally."
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/2/result_summary",
+        "value": "Type A tympanograms bilaterally (Right: 1.0 mL, 0.7 mmho, 10 daPa; Left: 1.1 mL, 0.9 mmho, 0 daPa)."
+      }
+    ],
+    "unresolved": []
+  }
+}

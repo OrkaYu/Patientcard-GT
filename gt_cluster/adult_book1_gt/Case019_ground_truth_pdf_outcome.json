@@ -84,7 +84,7 @@
           },
           {
             "name": "Speech-in-noise (SPIN)",
-            "result_summary": "In noise (65 dB SPL), HP score dropped from 54% (unaided) to 18% (aided), confirming hearing aids were detrimental in noise."
+            "result_summary": "In noise (65 dB SPL), HP score dropped from 54% (unaided) to 18% (aided); LP score dropped from 40% (unaided) to 6% (aided), confirming hearing aids were detrimental in noise."
           }
         ]
       },
@@ -105,8 +105,12 @@
             "result_summary": "Poor performance on LPFS, CS, TPDD, RGDT (no gap detection <40ms), and MLD (0 dB release); normal Frequency Pattern."
           },
           {
-            "name": "Speech-in-noise (SPIN)",
-            "result_summary": "LP score 6% (aided)."
+            "name": "Auditory Late Latency Response (ALLR)",
+            "result_summary": "ALLR obtained with identifiable cortical responses bilaterally; findings support preserved cortical detection despite ABR abnormalities."
+          },
+          {
+            "name": "Memory screening (TAPS-R)",
+            "result_summary": "TAPS-R screening completed; no clinically significant short-term/working memory deficit noted."
           }
         ]
       }

@@ -1,0 +1,39 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:29:07Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case005_10_ground_truth_pdf_outcome.json",
+    "case_key": "5_10",
+    "remark": "V2 的 pure tone audiometry 和 speech audiometry 需说明是外部机构做的 report。",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-10.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-10.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V2 Pure-tone audiometry result summary to specify it is an external report.",
+      "Updated V2 Speech audiometry result summary to specify it is an external report."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/0/result_summary",
+        "value": "External report: Hearing sensitivity within normal limits for both ears (10-15 dB HL); no significant asymmetry."
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1/tests/1/result_summary",
+        "value": "External report: Word recognition scores excellent bilaterally (92% AU)."
+      }
+    ],
+    "unresolved": []
+  }
+}

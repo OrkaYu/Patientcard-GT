@@ -1,0 +1,43 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:27:36Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case005_02_ground_truth_pdf_outcome.json",
+    "case_key": "5_2",
+    "remark": "V3 缺少 Pure tone audiometry。",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-2.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-2.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Pure-tone audiometry to V3 tests as per text 'Pure tone data were unchanged'.",
+      "Updated V3 collective interpretation to mention the unchanged pure tone data."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/collective_interpretation",
+        "value": "At the 5-year research follow-up, pure tone data were unchanged. ABR testing demonstrated significant neural recovery, with Wave V latency decreasing by 0.6 msec compared to the 4-month post-op check, suggesting brain plasticity."
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests/0",
+        "value": {
+          "name": "Pure-tone audiometry",
+          "category": "Audiometry",
+          "result_summary": "Data were unchanged (normal)."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

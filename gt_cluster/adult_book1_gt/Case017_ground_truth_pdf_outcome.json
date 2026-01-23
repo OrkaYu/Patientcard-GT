@@ -48,7 +48,7 @@
           {
             "name": "Speech audiometry",
             "category": "Speech",
-            "result_summary": "Very poor recognition bilaterally, worse in right ear. Right SRT 70 dB, WRS 33% @80, 57% @100 (with contralateral masking), 60% @110. Left SRT 50 dB, WRS 50% @80, 77% @100 (with contralateral masking), 80% @110."
+            "result_summary": "Very poor recognition bilaterally, worse in right ear. Right SRT 70 dB, WRS 33% at80, 57% at100 (with contralateral masking), 60% at110. Left SRT 50 dB, WRS 50% at80, 77% at100 (with contralateral masking), 80% at110."
           },
           {
             "name": "Acoustic reflexes",

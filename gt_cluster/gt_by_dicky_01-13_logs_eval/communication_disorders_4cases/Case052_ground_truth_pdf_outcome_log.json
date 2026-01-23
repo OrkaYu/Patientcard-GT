@@ -1,0 +1,91 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:15:41Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Comm Disorders Casebook",
+    "src_gt_key": "gt_cluster/communication_disorders_4cases/Case052_ground_truth_pdf_outcome.json",
+    "case_key": "52",
+    "remark": "缺少 V2（BPPV 治疗）。\nV3 缺少：VAST 复查结果（初次阳性→复查阴性，提示初次阳性反应可能与右侧 BPPV 相关）；深头悬位检查（阴性，排除前半规管 BPPV）；左右侧卧位检查（阴性，排除水平半规管受累）。\nV4 缺少：静态姿势稳定性复评（正常，动态平面闭眼无跌倒）；摇头测试复查（video-oculography 未引出眼震，提示 VOR 功能恢复）。\nDHI/THI 结果表述应修正为 \"DHI 从 85 降至 4；THI 从 73 降至 24\"。",
+    "pdf_key": "audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case52_Claude.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case52_Claude.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 to record the immediate BPPV treatment session.",
+      "Updated V3 tests to include VAST recheck, Deep head-hanging, and Side-lying maneuvers as per remarks.",
+      "Updated V4 tests to include specific static stability findings, headshake test results, and corrected DHI/THI phrasing."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "Immediate treatment of Right PC-BPPV.",
+          "tests": [
+            {
+              "name": "Gans Repositioning Maneuver (GRM)",
+              "category": "Treatment",
+              "result_summary": "Performed twice; symptoms resolved in provoking position."
+            }
+          ]
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests",
+        "value": [
+          {
+            "name": "Vertebrobasilar Artery Screening Test (VAST) Recheck",
+            "category": "Screening",
+            "result_summary": "Initially positive, then negative; suggests initial positive was BPPV-related."
+          },
+          {
+            "name": "Dix-Hallpike Maneuver",
+            "category": "Vestibular",
+            "result_summary": "Negative."
+          },
+          {
+            "name": "Deep Head-Hanging",
+            "category": "Vestibular",
+            "result_summary": "Negative (excludes anterior canal BPPV)."
+          },
+          {
+            "name": "Side-lying Maneuvers (Left/Right)",
+            "category": "Vestibular",
+            "result_summary": "Negative (excludes horizontal canal BPPV)."
+          }
+        ]
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/3/tests",
+        "value": [
+          {
+            "name": "Functional Vestibular Testing",
+            "category": "Functional",
+            "result_summary": "DVA scores improved (76% horiz / 72% vert); Static postural stability normal (no fall on dynamic surface with eyes closed)."
+          },
+          {
+            "name": "Headshake Test",
+            "category": "Vestibular",
+            "result_summary": "Video-oculography showed no nystagmus, indicating VOR recovery."
+          },
+          {
+            "name": "Questionnaires (DHI/THI)",
+            "category": "Self-Report",
+            "result_summary": "DHI decreased from 85 to 4; THI decreased from 73 to 24."
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

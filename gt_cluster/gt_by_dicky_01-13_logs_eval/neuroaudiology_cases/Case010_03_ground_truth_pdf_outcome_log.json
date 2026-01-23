@@ -1,0 +1,33 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:30:38Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case010_03_ground_truth_pdf_outcome.json",
+    "case_key": "10_3",
+    "remark": "Speech audiometry 的 speech recognition scores could not be established (0%) 改为 speech recognition scores could never be established (patient could not understand words)。",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_10-3.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_10-3.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated the result summary for Speech audiometry to reflect that speech recognition scores could never be established because the patient could not understand words, replacing the previous mention of 0%."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/1/result_summary",
+        "value": "Speech detection thresholds (SDT) approx 10-15 dB HL (Right) and 30 dB HL (Left); speech recognition scores could never be established (patient could not understand words)."
+      }
+    ],
+    "unresolved": []
+  }
+}

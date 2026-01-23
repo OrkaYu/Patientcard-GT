@@ -1,0 +1,45 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:30:38Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case009_ground_truth_pdf_outcome.json",
+    "case_key": "9",
+    "remark": "缺少 V4 follow up 数据。\nV3 应补充：(1)患者带 FND 诊断返回听力诊所；(2)启动自我指导的听力保护减少计划和声音暴露增加计划；(3)停用 nortriptyline 和 betahistine。\n当前仅记录癫痫频率变化，遗漏治疗干预启动信息。",
+    "pdf_key": "Tinnitus_Cases_split2/Case09_Functional_Audiogenic_Seizure.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case09_Functional_Audiogenic_Seizure.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V3 collective_interpretation to explicitly include the return with FND diagnosis, the initiation of the self-directed management plan (hearing protection reduction, sound exposure increase), and the discontinuation of medications.",
+      "Added V4 follow-up visit to record the 6-month seizure-free outcome and the exceptional use of hearing protection."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/collective_interpretation",
+        "value": "Patient returned to the audiology clinic with an FND diagnosis. A self-directed program of gradual reduction of hearing protection and increased sound exposure was initiated. Nortriptyline and betahistine were discontinued. Follow-up showed a significant reduction in seizure frequency."
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V4",
+          "collective_interpretation": "Subsequent review revealed the patient was seizure-free for the prior 6 months. Use of hearing protection was now exceptional rather than routine.",
+          "tests": [
+            {
+              "name": "Other",
+              "category": "Outcome Review",
+              "result_summary": "Patient was seizure-free for the prior 6 months; hearing protection use was exceptional."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

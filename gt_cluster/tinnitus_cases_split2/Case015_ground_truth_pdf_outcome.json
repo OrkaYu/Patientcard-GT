@@ -80,6 +80,16 @@
       },
       {
         "visit_id": "V3",
+        "collective_interpretation": "New open jaw earmold impressions were made and the device was remade with a larger vent, but the pulsatile tinnitus persisted.",
+        "tests": [
+          {
+            "name": "Other",
+            "result_summary": "Remake with larger vent failed to resolve pulsatile tinnitus."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
         "collective_interpretation": "Troubleshooting visit. Mechanical manipulation (wedging a cotton ball) eliminated the pulsatile tinnitus, suggesting a physical fit issue rather than gain settings.",
         "tests": [
           {
@@ -89,7 +99,27 @@
         ]
       },
       {
-        "visit_id": "V4",
+        "visit_id": "V5",
+        "collective_interpretation": "Helix modification failed to resolve symptoms. Patient disclosed pacemaker history. Devices sent to replicate physical fit of previous successful hearing aids.",
+        "tests": [
+          {
+            "name": "Other",
+            "result_summary": "Helix build-up modification failed. Old devices sent for physical replication."
+          }
+        ]
+      },
+      {
+        "visit_id": "V6",
+        "collective_interpretation": "Cardiology evaluation yielded no findings. Recommended gain reduction (2000-4000 Hz) was attempted but ineffective.",
+        "tests": [
+          {
+            "name": "Other",
+            "result_summary": "Cardiology clearance obtained. Gain reduction at 2000-4000 Hz failed to relieve tinnitus."
+          }
+        ]
+      },
+      {
+        "visit_id": "V7",
         "collective_interpretation": "Imaging revealed a temporal bone dehiscence. Based on this, the hearing aid was modified to reduce canal contact, which successfully resolved the pulsatile tinnitus.",
         "tests": [
           {

@@ -4,12 +4,12 @@
     {
       "rank": 1,
       "label": "Misophonia",
-      "rationale_short": "Extreme emotional reactions (anger, rage) and physical discomfort to specific trigger sounds (chewing, eating); MAQ score 51 (Extreme) and A-MISO-S score 19 (Severe)."
+      "rationale_short": "Extreme emotional reactions (anger, rage) and physical discomfort to specific trigger sounds (chewing, eating, talking, silverware); MAQ score 51 (Extreme) and A-MISO-S score 19 (Severe) at baseline, worsening to MAQ 60 and A-MISO-S 21 at 1-year follow-up."
     },
     {
       "rank": 2,
       "label": "Hyperacusis",
-      "rationale_short": "Decreased loudness tolerance with LDLs between 60 and 80 dB HL; patient reports physical discomfort to sounds."
+      "rationale_short": "Decreased loudness tolerance with LDLs between 60-80 dB HL at baseline, significantly worsened to 35-50 dB HL at 1-year follow-up; patient reports physical discomfort to sounds."
     }
   ],
   "investigations_and_interpretations": {
@@ -18,6 +18,11 @@
         "action": "Pure-tone audiometry",
         "urgency": "routine",
         "rationale_short": "To assess peripheral hearing sensitivity."
+      },
+      {
+        "action": "High-frequency audiometry (9,000-20,000 Hz)",
+        "urgency": "routine",
+        "rationale_short": "To determine integrity of entire peripheral auditory system."
       },
       {
         "action": "Speech audiometry",
@@ -40,15 +45,20 @@
         "rationale_short": "To evaluate loudness tolerance and screen for hyperacusis."
       },
       {
-        "action": "Self-Report Scales",
+        "action": "Tinnitus and Hyperacusis Initial Interview Form",
         "urgency": "routine",
-        "rationale_short": "To quantify the severity and impact of misophonia and sound sensitivity (MAQ, A-MISO-S)."
+        "rationale_short": "To determine effects of sound sensitivity on patient well-being."
+      },
+      {
+        "action": "Self-Report Scales (MAQ, A-MISO-S)",
+        "urgency": "routine",
+        "rationale_short": "To quantify the severity and impact of misophonia and monitor progress."
       }
     ],
     "expected_interpretations_by_visit": [
       {
         "visit_id": "V1",
-        "collective_interpretation": "The patient demonstrated normal peripheral hearing sensitivity and middle ear function bilaterally. However, results indicated significant hyperacusis (reduced LDLs) and extreme misophonia (high scores on MAQ and A-MISO-S), with severe negative impact on daily life including self-mutilating behaviors.",
+        "collective_interpretation": "Patient demonstrated normal peripheral hearing sensitivity and middle ear function bilaterally. Results indicated significant hyperacusis (reduced LDLs 60-80 dB HL vs. normal ~100 dB HL) and extreme misophonia (MAQ 51, A-MISO-S 19), with severe negative impact on daily life including self-mutilating behaviors. Acoustic reflexes could not be tested due to extreme sound hypersensitivity.",
         "tests": [
           {
             "name": "Pure-tone audiometry",
@@ -73,41 +83,114 @@
           {
             "name": "Loudness Discomfort Levels (LDL)",
             "category": "Loudness Tolerance",
-            "result_summary": "Reduced loudness tolerance; LDLs 60-80 dB HL for pure tones and 75 dB HL for speech."
+            "result_summary": "Reduced loudness tolerance; Right ear: 60-70 dB HL, Left ear: 65-80 dB HL for pure tones; 75 dB HL for speech bilaterally."
+          },
+          {
+            "name": "Tinnitus and Hyperacusis Initial Interview Form",
+            "category": "Questionnaire",
+            "result_summary": "Severity 9/10, Annoyance 10/10, Impact on quality of life 9-10/10."
           },
           {
             "name": "Self-Report Scales",
             "category": "Questionnaire",
-            "result_summary": "MAQ score 51 (Extreme); A-MISO-S score 19 (Severe); Subjective annoyance 10/10."
+            "result_summary": "MAQ score 51 (Extreme); A-MISO-S score 19 (Severe)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V2",
+        "visit_type": "1-year follow-up",
+        "collective_interpretation": "Despite sound therapy intervention, patient showed significant worsening of both hyperacusis (LDLs markedly decreased to 35-50 dB HL) and misophonia (MAQ increased to 60, A-MISO-S to 21, both Extreme category). Patient was not consistently utilizing sound therapy. Behavioral observations confirmed severe functional impairment: unable to tolerate waiting room, removed upon arrival; 'triggered' on drive to clinic; communicated only via text message to parent. Pure-tone thresholds remained stable. Events leading to appointment may have contributed to decreased LDLs.",
+        "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "No change in pure-tone air conduction thresholds at 250-20,000 Hz compared to baseline."
+          },
+          {
+            "name": "Loudness Discomfort Levels (LDL)",
+            "category": "Loudness Tolerance",
+            "result_summary": "Markedly decreased; Right ear: 35-40 dB HL, Left ear: 40-50 dB HL for pure tones; Speech LDL 45 dB HL (Right), 40 dB HL (Left). Significant worsening from baseline."
+          },
+          {
+            "name": "Self-Report Scales",
+            "category": "Questionnaire",
+            "result_summary": "MAQ score 60 (Extreme, increased from 51); A-MISO-S score 21 (Extreme, increased from 19)."
           }
         ]
       }
     ]
   },
   "treatment_and_management": {
-    "proposed_items": [
-      "Fit with bilateral Resound LINX2 5 receiver-in-the-canal (RIC) hearing aids programmed with 'water creek' sound therapy.",
-      "Systematic program of sound therapy with gradual increase in exposure.",
-      "Referral to psychologist or psychiatrist for evaluation and intervention."
-    ],
-    "counseling_actions": [
-      "Counseling on the nature of misophonia and hyperacusis.",
-      "Instruction on using sound therapy devices (increase volume when bothered, decrease when less bothered) to build tolerance.",
-      "Recommendation for mental health intervention due to self-harm and obsessive behaviors.",
-      "Discussion of challenges related to college transition and communal living."
-    ]
-  },
-  "escalation_and_red_flags": {
-    "red_flags_present": [],
-    "escalation": {
-      "urgency": "urgent",
-      "destination": "Psychologist or psychiatrist",
-      "rationale_short": "Patient exhibits self-mutilating behaviors (digging fingernails into hands/wrists) and extreme rage in response to sounds."
+    "V1_initial_plan": {
+      "proposed_items": [
+        "Fit with bilateral Resound LINX2 5 receiver-in-the-canal (RIC) hearing aids programmed with 'water creek' sound therapy and no prescribed amplification.",
+        "Systematic program of sound therapy with gradual increase in exposure based on Jastreboff's TRT protocol.",
+        "Referral to psychologist or psychiatrist for evaluation and intervention.",
+        "As-needed follow-up visits for hearing aid maintenance."
+      ],
+      "counseling_actions": [
+        "Counseling on the nature and management of misophonia and hyperacusis.",
+        "Instruction on using sound therapy devices: increase volume when most bothered by offending sounds, decrease when less bothered.",
+        "Recommendation for mental health intervention due to self-harm behaviors and obsessive thoughts/actions."
+      ]
+    },
+    "V2_revised_plan": {
+      "treatment_status": "Treatment failure - patient not compliant with sound therapy; no mental health intervention implemented",
+      "barriers_identified": [
+        "Patient not consistently utilizing sound therapy devices.",
+        "Parents declined mental health referral due to concern about patient 'being labeled'.",
+        "Patient never prescribed medication or treatment plan for possible mental health disorder."
+      ],
+      "revised_proposed_items": [
+        "Strongly reinforce consistent use of sound therapy devices immediately to prepare for college environment.",
+        "Re-discuss referral to psychologist or psychiatrist for evaluation of underlying psychological disorders.",
+        "Consider anxiety medication - advised parents to discuss with physician; medication could provide symptom relief.",
+        "Continue as-needed hearing aid maintenance visits."
+      ],
+      "counseling_actions": [
+        "Discussed need for additional intervention to address possible underlying psychological disorders contributing to severity of sound sensitivities.",
+        "Discussed that anxiety medication could potentially provide symptom relief.",
+        "Extensive discussion of challenges JM may face in college: academic, social, and communal living settings.",
+        "Emphasized importance of consistent sound therapy use to be prepared for college environment.",
+        "Patient reported sound therapy helped when utilized with friends in noisy environments, but little improvement noted with trigger sounds around family."
+      ]
     }
   },
+  "escalation_and_red_flags": {
+    "red_flags_present": [
+      "Self-mutilating behaviors: digging fingernails into backs of hands and scratching inside of wrists",
+      "Visible injuries noted at initial and follow-up appointments",
+      "Patient denied knowing how injuries occurred",
+      "Parent-reported history of anger and rage",
+      "Obsessive thoughts and actions (germ concern, meticulous about order/arrangement/process)"
+    ],
+    "escalation_history": [
+      {
+        "visit_id": "V1",
+        "urgency": "urgent",
+        "destination": "Psychologist or psychiatrist",
+        "rationale_short": "Patient exhibits self-mutilating behaviors, extreme rage in response to sounds, and obsessive thoughts/actions. Mental health screenings (BDI, HADS) not administered as parents unwilling to seek referral.",
+        "outcome": "Parents declined referral due to concern about patient 'being labeled'."
+      },
+      {
+        "visit_id": "V2",
+        "urgency": "urgent",
+        "destination": "Psychologist or psychiatrist; Primary care physician for medication evaluation",
+        "rationale_short": "Significant clinical deterioration despite intervention. Unable to tolerate waiting room, communicates only via text after triggering. LDLs and misophonia scores worsened substantially. Continued self-harm risk.",
+        "outcome": "Pending - parents inquired about anxiety medication; advised to discuss with physician."
+      }
+    ]
+  },
   "follow_up_plan": {
-    "timeline": "1 year",
-    "objective": "Monitor hearing thresholds, loudness discomfort levels, and misophonia severity via questionnaires."
+    "V1_plan": {
+      "timeline": "As-needed for hearing aid repairs and maintenance; 1 year for comprehensive re-evaluation",
+      "objective": "Ensure sound therapy used consistently and hearing aids in good working order. Monitor hearing thresholds, LDLs, and misophonia severity."
+    },
+    "V2_plan": {
+      "timeline": "Ongoing - as-needed basis; recommend closer monitoring given deterioration",
+      "objective": "Continue monitoring; emphasize compliance with sound therapy before college transition. Reassess if patient/family willing to pursue mental health intervention. If no improvement with consistent sound therapy use, additional intervention modalities needed in conjunction with sound therapy and mental health referral."
+    }
   },
   "expected_outcome": [
     "Pure-tone audiometry (1-year follow-up): Thresholds at 250 to 20,000 Hz revealed no change in pure-tone air conduction thresholds compared to baseline.",
@@ -115,6 +198,7 @@
     "Misophonia Assessment Questionnaire (MAQ) (1-year follow-up): Total score of 60, placing patient in the extreme misophonia category.",
     "Amsterdam Misophonia Scale (A-MISO-S) (1-year follow-up): Total score of 21, placing patient in the extreme misophonia category.",
     "Patient was not consistently utilizing sound therapy and showed no measurable improvement in managing sound sensitivities.",
-    "Patient was visibly distressed during the evaluation, unable to tolerate the waiting room, and communicated only by text message."
+    "Patient was visibly distressed during evaluation, unable to tolerate waiting room, and communicated only by text message.",
+    "Patient reported sound therapy helpful with friends in noisy environments when utilized, but little improvement with trigger sounds around family."
   ]
 }

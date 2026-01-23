@@ -1,0 +1,82 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:09:30Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case041_ground_truth_pdf_outcome.json",
+    "case_key": "41",
+    "remark": "应该为三次 visit；QuickSIN 从 V1 移到 V2 和 V3。",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case41_Fitting_Hearing_Aids_to_a_Patient_with_M.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case41_Fitting_Hearing_Aids_to_a_Patient_with_M.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Split investigations into three visits (V1, V2, V3) as per remarks.",
+      "V1: Retained initial audiometric and immittance tests; removed QuickSIN.",
+      "V2: Added visit for hearing aid fitting; moved unaided QuickSIN results here.",
+      "V3: Added visit for follow-up; added aided QuickSIN results here."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit",
+        "value": [
+          {
+            "visit_id": "V1",
+            "collective_interpretation": "The patient presents with bilateral, generally mild, sloping sensorineural hearing loss. Word recognition in quiet is excellent. Middle ear function is normal.",
+            "tests": [
+              {
+                "name": "Pure-tone audiometry",
+                "category": "Audiometry",
+                "result_summary": "Right ear: Slight SNHL 250-3000 Hz, sloping to mild at 4000 Hz. Left ear: Normal to slight SNHL 250-2000 Hz, sloping to moderate at 6000 Hz."
+              },
+              {
+                "name": "Speech audiometry",
+                "category": "Audiometry",
+                "result_summary": "SRTs (25 dB HL AU) consistent with pure tones. WRS excellent (96% AD, 100% AS)."
+              },
+              {
+                "name": "Tympanometry",
+                "category": "Immittance",
+                "result_summary": "Normal ear canal volume, static compliance, and middle ear pressure bilaterally (Type A)."
+              },
+              {
+                "name": "Acoustic reflexes",
+                "category": "Immittance",
+                "result_summary": "Present and normal for ipsilateral and contralateral stimulation at 500-4000 Hz. Decay negative."
+              }
+            ]
+          },
+          {
+            "visit_id": "V2",
+            "collective_interpretation": "Unaided QuickSIN testing performed prior to fitting reveals a severe signal-to-noise ratio loss, correlating with the patient's chief complaint.",
+            "tests": [
+              {
+                "name": "Speech-in-noise",
+                "category": "Functional",
+                "result_summary": "QuickSIN unaided SNR loss average 18.17 dB, indicating severe SNR loss."
+              }
+            ]
+          },
+          {
+            "visit_id": "V3",
+            "collective_interpretation": "Aided QuickSIN testing at the 2-week follow-up reveals significant improvement.",
+            "tests": [
+              {
+                "name": "Speech-in-noise",
+                "category": "Functional",
+                "result_summary": "Aided QuickSIN SNR loss of 2.98 dB (mild), representing a 15.19 dB improvement over the unaided score."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:27:05Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case004_02_ground_truth_pdf_outcome.json",
+    "case_key": "4_2",
+    "remark": "缺少 V2，V3，V4。\nV1：ABR 应移至 V2 - our center；CT Scan 应移至 V3 影像学检查。\nSpeech audiometry：应明确为初始评估数据 \"RE: 92%, LE: 92%\"。\nV2：Speech audiometry (retest): LE dropped to 80%, RE 92%, no rollover at high intensity。\nABR: Left ear - Wave I clear (1.44 ms), subsequent waves abnormal/indistinguishable; Right ear - Wave V absent or markedly diminished, suggesting brainstem compression。\nV3：CT Scan: Large mass lesion (4-5 cm) in the left CPA；Pathology report: Confirmed schwannoma。\nV4：Post-surgical audiometry: Left ear - no measurable hearing remained；Right ear - thresholds stable。",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_4-2.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_4-2.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Restructured expected_interpretations_by_visit to include V1, V2, V3, and V4.",
+      "V1: Updated Speech audiometry to initial values (92% bilaterally) and removed ABR/CT.",
+      "V2: Added Speech audiometry (retest) and moved ABR here with updated details.",
+      "V3: Moved CT Scan here and added Pathology report.",
+      "V4: Added Post-surgical audiometry."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit",
+        "value": [
+          {
+            "visit_id": "V1",
+            "collective_interpretation": "Initial evaluation showed normal pure tone thresholds bilaterally and excellent speech recognition (92% bilaterally). However, contralateral acoustic reflexes were absent with left ear stimulation, raising suspicion of retrocochlear pathology.",
+            "tests": [
+              {
+                "name": "Pure-tone audiometry",
+                "category": "Audiometry",
+                "result_summary": "Essentially normal pure tone thresholds bilaterally (0-20 dB HL)."
+              },
+              {
+                "name": "Speech audiometry",
+                "category": "Audiometry",
+                "result_summary": "RE: 92%, LE: 92%"
+              },
+              {
+                "name": "Acoustic reflexes",
+                "category": "Immittance",
+                "result_summary": "Contralateral reflexes absent with left ear stimulation; normal with right ear stimulation."
+              }
+            ]
+          },
+          {
+            "visit_id": "V2",
+            "collective_interpretation": "Follow-up testing at our center showed a decline in left ear speech recognition. ABR results were grossly abnormal on the left and indicated brainstem compression on the right.",
+            "tests": [
+              {
+                "name": "Speech audiometry (retest)",
+                "category": "Audiometry",
+                "result_summary": "LE dropped to 80%, RE 92%, no rollover at high intensity"
+              },
+              {
+                "name": "Auditory Brainstem Response (ABR)",
+                "category": "Electrophysiology",
+                "result_summary": "Left ear - Wave I clear (1.44 ms), subsequent waves abnormal/indistinguishable; Right ear - Wave V absent or markedly diminished, suggesting brainstem compression"
+              }
+            ]
+          },
+          {
+            "visit_id": "V3",
+            "collective_interpretation": "Imaging and pathology confirmed the diagnosis.",
+            "tests": [
+              {
+                "name": "CT Scan",
+                "category": "Imaging",
+                "result_summary": "Large mass lesion (4-5 cm) in the left CPA"
+              },
+              {
+                "name": "Pathology report",
+                "category": "Pathology",
+                "result_summary": "Confirmed schwannoma"
+              }
+            ]
+          },
+          {
+            "visit_id": "V4",
+            "collective_interpretation": "Post-surgical status showed total hearing loss in the affected ear.",
+            "tests": [
+              {
+                "name": "Post-surgical audiometry",
+                "category": "Audiometry",
+                "result_summary": "Left ear - no measurable hearing remained; Right ear - thresholds stable"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

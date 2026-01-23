@@ -1,0 +1,49 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:10:16Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case047_ground_truth_pdf_outcome.json",
+    "case_key": "47",
+    "remark": "缺少 V4 (one year follow up)。",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case47_Young_Adult_with_Misophonia.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case47_Young_Adult_with_Misophonia.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Final Appointment' to ordered_list to reflect the 1-year follow-up mentioned in the text and follow-up plan.",
+      "Added V4 to expected_interpretations_by_visit to capture the 1-year outcome described in section 47.6."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/-",
+        "value": {
+          "action": "Final Appointment",
+          "urgency": "routine",
+          "rationale_short": "To monitor device usage, symptom severity, and social functioning at 1 year."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V4",
+          "collective_interpretation": "At the 1-year final appointment, the patient reported significant progress with symptoms and social functioning, despite ongoing tolerance issues.",
+          "tests": [
+            {
+              "name": "Final Appointment",
+              "result_summary": "Able to participate in activities previously impossible (supermarket, dentist, optician, GP). Used sound generators to manage situations and gain control. Reported satisfaction with devices and no preferred program."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

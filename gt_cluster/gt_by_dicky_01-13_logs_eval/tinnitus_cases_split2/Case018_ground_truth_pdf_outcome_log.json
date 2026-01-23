@@ -1,0 +1,33 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:33:09Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case018_ground_truth_pdf_outcome.json",
+    "case_key": "18",
+    "remark": "Ordered list 缺少 tinnitus evaluation。",
+    "pdf_key": "Tinnitus_Cases_split2/Case18_Tinnitus_and_Misophonia_in_an_Adolescent.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case18_Tinnitus_and_Misophonia_in_an_Adolescent.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Tinnitus evaluation' to the ordered_list as recommended in the 'Discussion of Questions for the Reader' section (item b), inserting it between High-frequency audiometry and LDLs to match the text's sequence."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/6",
+        "value": {
+          "action": "Tinnitus evaluation",
+          "urgency": "routine",
+          "rationale_short": "Includes pitch match, loudness match, minimum masking level, and residual inhibition."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

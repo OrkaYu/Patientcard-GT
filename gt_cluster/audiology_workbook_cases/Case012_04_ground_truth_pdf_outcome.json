@@ -3,8 +3,8 @@
   "ranked_differential_diagnosis": [
     {
       "rank": 1,
-      "label": "Noise-Induced Hearing Loss (High Frequency)",
-      "rationale_short": "History of significant noise exposure (firearms, ATVs) and tinnitus matched to 6700 Hz suggest cochlear damage, likely affecting high frequencies above the standard speech range."
+      "label": "Bilateral Asymmetric Noise-Induced Hearing Loss",
+      "rationale_short": "History of significant noise exposure (firearms, ATVs). Testing reveals 3000-6000 Hz notched sensorineural hearing loss, with the Right ear approximately 15 dB worse than the left. Asymmetry is likely due to the police radio worn on the right shoulder without ear protection."
     },
     {
       "rank": 2,
@@ -48,12 +48,17 @@
         "action": "Tinnitus Pitch Matching",
         "urgency": "routine",
         "rationale_short": "To characterize the frequency of the patient's tinnitus."
+      },
+      {
+        "action": "Wideband Acoustic Immittance (WAI)",
+        "urgency": "routine",
+        "rationale_short": "To assess middle ear function and reflectance."
       }
     ],
     "expected_interpretations_by_visit": [
       {
         "visit_id": "V1",
-        "collective_interpretation": "The patient exhibits normal middle ear function and normal hearing sensitivity in the speech frequencies. However, the presence of high-frequency tinnitus (6700 Hz) and the patient's report of difficulty in noise are consistent with noise-induced cochlear damage that may be affecting frequencies above 4000 Hz or causing subclinical functional deficits.",
+        "collective_interpretation": "Results indicate normal middle ear function. Audiometry demonstrates a 3000-6000 Hz notched sensorineural hearing loss, with the Right ear approximately 15 dB worse than the left, consistent with noise-induced damage. PTA and SRT are normal, and WRS is excellent. The tinnitus pitch match at 6700 Hz corresponds to the region of worst hearing thresholds.",
         "tests": [
           {
             "name": "Tympanometry",

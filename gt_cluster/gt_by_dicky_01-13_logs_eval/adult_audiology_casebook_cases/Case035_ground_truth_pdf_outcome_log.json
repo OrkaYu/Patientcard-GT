@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:08:49Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (19 cases)",
+    "src_gt_key": "gt_cluster/adult_audiology_casebook_cases/Case035_ground_truth_pdf_outcome.json",
+    "case_key": "35",
+    "remark": "Ordered list 缺少 Acoustic Reflex Thresholds (ART)；V1 缺少 Acoustic Reflex Thresholds (ART)。",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case35_You_Need_to_Take_Care_of_Your_Front_End.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case35_You_Need_to_Take_Care_of_Your_Front_End.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Acoustic Reflex Thresholds (ART) to the ordered list.",
+      "Added Acoustic Reflex Thresholds (ART) to V1 tests based on the text stating ipsilateral reflexes were consistent with thresholds and contralateral were not performed."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/3",
+        "value": {
+          "action": "Acoustic Reflex Thresholds (ART)",
+          "urgency": "routine",
+          "rationale_short": "Assess acoustic reflex pathways."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/3",
+        "value": {
+          "name": "Acoustic Reflex Thresholds (ART)",
+          "category": "Immittance",
+          "result_summary": "Ipsilateral ARTs consistent with audiometric thresholds. Contralateral ARTs not performed due to equipment limitations."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

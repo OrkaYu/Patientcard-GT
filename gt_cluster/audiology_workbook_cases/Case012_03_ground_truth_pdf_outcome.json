@@ -9,7 +9,7 @@
     {
       "rank": 2,
       "label": "Retrocochlear Pathology (e.g., Vestibular Schwannoma)",
-      "rationale_short": "Asymmetric sensorineural hearing loss (Left worse than Right) and disproportionately poor word recognition in the Right ear warrant exclusion of retrocochlear causes."
+      "rationale_short": "Asymmetric sensorineural hearing loss (Right worse than Left) and disproportionately poor word recognition in the Right ear warrant exclusion of retrocochlear causes."
     },
     {
       "rank": 3,
@@ -33,7 +33,7 @@
     "expected_interpretations_by_visit": [
       {
         "visit_id": "V1",
-        "collective_interpretation": "Bilateral asymmetric sloping sensorineural hearing loss (Left worse than Right) with normal middle ear function. Speech recognition is reduced bilaterally, with the Right ear showing poorer scores (64%) than the Left (74%) despite better thresholds.",
+        "collective_interpretation": "Bilateral asymmetric sloping sensorineural hearing loss (Right worse than Left) with normal middle ear function. Speech recognition is reduced bilaterally, with the Right ear showing poorer scores (64%) than the Left (74%), consistent with its poorer thresholds.",
         "tests": [
           {
             "name": "Tympanometry",
@@ -43,7 +43,7 @@
           {
             "name": "Pure-tone audiometry",
             "category": "Audiometry",
-            "result_summary": "Bilateral sloping sensorineural hearing loss; Asymmetric (Left thresholds poorer than Right)."
+            "result_summary": "Bilateral sloping sensorineural hearing loss; Asymmetric (Right thresholds poorer than Left by 20-30 dB)."
           },
           {
             "name": "Speech audiometry",
@@ -54,6 +54,11 @@
             "name": "Wideband Reflectance",
             "category": "Middle Ear Function",
             "result_summary": "Normal reflectance patterns bilaterally."
+          },
+          {
+            "name": "Acoustic Reflex Thresholds",
+            "category": "Middle Ear Function",
+            "result_summary": "Not reported."
           }
         ]
       }
@@ -78,8 +83,7 @@
   },
   "escalation_and_red_flags": {
     "red_flags_present": [
-      "Asymmetric sensorineural hearing loss (Left worse)",
-      "Disproportionately poor speech recognition in the better hearing ear (Right)",
+      "Asymmetric sensorineural hearing loss (Right worse)",
       "Subjective difficulty with phone use on the Right ear"
     ],
     "escalation": {

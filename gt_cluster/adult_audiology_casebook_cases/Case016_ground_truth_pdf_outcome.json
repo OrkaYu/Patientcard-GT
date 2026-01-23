@@ -63,6 +63,26 @@
         "action": "Aided Loudness Judgments",
         "urgency": "routine",
         "rationale_short": "To validate that amplified sounds are perceived at appropriate loudness levels."
+      },
+      {
+        "action": "Auditory Brainstem Response (ABR)",
+        "urgency": "soon",
+        "rationale_short": "To rule out retrocochlear pathology."
+      },
+      {
+        "action": "MRI of internal auditory canal",
+        "urgency": "soon",
+        "rationale_short": "To rule out retrocochlear pathology."
+      },
+      {
+        "action": "Electroacoustic verification",
+        "urgency": "routine",
+        "rationale_short": "To ensure hearing aids meet manufacturer specifications."
+      },
+      {
+        "action": "Aided COSI",
+        "urgency": "routine",
+        "rationale_short": "To assess subjective benefit with hearing aids."
       }
     ],
     "expected_interpretations_by_visit": [
@@ -99,6 +119,22 @@
       },
       {
         "visit_id": "V2",
+        "collective_interpretation": "Medical evaluation performed by Otology to rule out retrocochlear pathology. ABR and MRI were ordered and results were normal. Patient cleared for amplification.",
+        "tests": [
+          {
+            "name": "Auditory Brainstem Response (ABR)",
+            "category": "Electrophysiology",
+            "result_summary": "waves I-V latencies normal bilaterally, 90 dBnHL, no dysfunction"
+          },
+          {
+            "name": "MRI of internal auditory canal",
+            "category": "Imaging",
+            "result_summary": "normal internal auditory canals bilaterally, clear of pathology"
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
         "collective_interpretation": "Patient returned after medical clearance (normal MRI and ABR). Pre-fitting evaluation showed a moderate SNR loss on QuickSIN, suggesting hearing aids alone may be insufficient in noise. LDLs were normal, and COSI goals were established focusing on TV, restaurants, and grandchildren.",
         "tests": [
           {
@@ -119,8 +155,8 @@
         ]
       },
       {
-        "visit_id": "V3",
-        "collective_interpretation": "Hearing aid fitting performed with bilateral RIC devices. Real-ear measures verified gain to NAL-NL2 targets. Aided loudness judgments confirmed appropriate perception of soft, comfortable, and loud sounds.",
+        "visit_id": "V4",
+        "collective_interpretation": "Hearing aid fitting performed with bilateral RIC devices. Real-ear measures verified gain to NAL-NL2 targets. Aided loudness judgments confirmed appropriate perception of soft, comfortable, and loud sounds. Verification of electroacoustic performance and directional microphones was completed.",
         "tests": [
           {
             "name": "Real-Ear Measures (REM)",
@@ -131,6 +167,42 @@
             "name": "Aided Loudness Judgments",
             "category": "Verification",
             "result_summary": "Patient rated speech signals appropriately (Soft, Comfortable, Loud but okay)."
+          },
+          {
+            "name": "Electroacoustic verification",
+            "category": "Verification",
+            "result_summary": "Met manufacturer specifications (ANSI S3.22–2009)."
+          },
+          {
+            "name": "Directional microphone verification",
+            "category": "Verification",
+            "result_summary": "Directional microphones operating properly."
+          },
+          {
+            "name": "RESR90",
+            "category": "Verification",
+            "result_summary": "Performed at 90 dB SPL; patient did not report loudness discomfort."
+          }
+        ]
+      },
+      {
+        "visit_id": "V5",
+        "collective_interpretation": "Two-week follow-up assessment. Patient reported doing well but still having difficulty in noise. Adjustments were made to high-frequency gain and noise reduction. Aided testing demonstrated significant improvement.",
+        "tests": [
+          {
+            "name": "Aided COSI",
+            "category": "Questionnaire",
+            "result_summary": "Patient reported hearing 'better' or 'much better' in listening environments compared to unaided."
+          },
+          {
+            "name": "Aided QuickSIN",
+            "category": "Functional",
+            "result_summary": "SNR Loss of 6 dB (mild loss), significantly improved from 14 dB unaided."
+          },
+          {
+            "name": "2cc coupler measurement",
+            "category": "Verification",
+            "result_summary": "Electroacoustic analysis performed at user settings to serve as a baseline."
           }
         ]
       }

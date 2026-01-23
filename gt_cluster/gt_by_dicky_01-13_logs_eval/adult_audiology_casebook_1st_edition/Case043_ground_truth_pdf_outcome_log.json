@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:05:41Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case043_ground_truth_pdf_outcome.json",
+    "case_key": "43",
+    "remark": "缺少 V3（E-Scope II 验配）。",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/43_43_Medical_Professional_with_Hearing_Loss_Seeking.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/43_43_Medical_Professional_with_Hearing_Loss_Seeking.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V3 to expected_interpretations_by_visit to document the subsequent fitting of the E-Scope II described in the Outcome section."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "Due to persistent connectivity issues with the AC-Scope, the patient was subsequently fit with a modified E-Scope II with oversized headphones, which met her needs.",
+          "tests": [
+            {
+              "name": "Hearing Aid Fitting",
+              "category": "Management",
+              "result_summary": "Fit with modified E-Scope II with oversized headphones."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

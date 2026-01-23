@@ -1,0 +1,43 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:29:47Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Neuroaudiology (10 cases)",
+    "src_gt_key": "gt_cluster/neuroaudiology_cases/Case006_04_ground_truth_pdf_outcome.json",
+    "case_key": "6_4",
+    "remark": "缺少 V2 (1 year follow up)；V1 缺少 DR* 的结果。",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_6-4.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_6-4.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "strict_subcase_match": true,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Dichotic Rhyme (DR*) results (~40%) to the Central Auditory Processing Battery in V1 based on Figure 6-18.",
+      "Added V2 (1 year follow-up) to document the subjective recovery and lack of formal testing as described in the text."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/2/result_summary",
+        "value": "Dichotic Rhyme scores were significantly reduced (~40%). Bilateral deficits on Dichotic Digits (~70-75%) and Frequency Patterns (<60%). Compressed speech showed a slight left ear deficit (~70%) compared to the right (~85%)."
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "At 1 year follow-up, the patient was asymptomatic and back at work. Subjectively, she reported no hearing difficulties. Formal follow-up audiologic testing could not be completed due to logistical reasons.",
+          "tests": []
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

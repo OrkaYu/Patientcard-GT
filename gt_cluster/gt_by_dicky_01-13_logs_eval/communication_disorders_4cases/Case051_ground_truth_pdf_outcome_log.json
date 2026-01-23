@@ -1,0 +1,117 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:14:42Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Comm Disorders Casebook",
+    "src_gt_key": "gt_cluster/communication_disorders_4cases/Case051_ground_truth_pdf_outcome.json",
+    "case_key": "51",
+    "remark": "V1（2001年，助听器购买）\nV2（2004年，助听器更换）\nV3（2007年，CI 植入）\nV4（2007年 CI 激活后 2.5 个月，术后随访）\nV5（2015年9月1日，私人诊所初诊）\nV6-V17（2015年9月-2016年3月，12次调试/更换）\nV18（2016年3月，购买助听器）\nV19（持续性问题，助听器外壳维修）\nV20（家庭咨询）\nV21（治疗第6年，团体康复项目）\nV22（团体康复后6个月，随访）\n尝试以这个形式来调整内容。",
+    "pdf_key": "audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case51_Denise.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/CommunicationDisorders_4cases_split/Case51_Denise.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false,
+    "response_mime_type": "application/json",
+    "attempt": "json_mime_uri"
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Replaced expected_interpretations_by_visit to match the detailed timeline provided in REMARKS, covering history from 2001 to Year 6 of treatment."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit",
+        "value": [
+          {
+            "visit_id": "V1",
+            "collective_interpretation": "2001: Patient purchased hearing aids. Retrospectively identified as a potential CI candidate, but not referred.",
+            "tests": []
+          },
+          {
+            "visit_id": "V2",
+            "collective_interpretation": "2004: Patient purchased replacement hearing aids. Continued lack of referral for CI evaluation despite candidacy.",
+            "tests": []
+          },
+          {
+            "visit_id": "V3",
+            "collective_interpretation": "2007: Patient underwent Cochlear Implant (CI) implantation.",
+            "tests": []
+          },
+          {
+            "visit_id": "V4",
+            "collective_interpretation": "2007 (2.5 months post-activation): Post-operative follow-up showing significant reduction in handicap.",
+            "tests": [
+              {
+                "name": "Hearing Handicap Inventory (HHI)",
+                "result_summary": "Score decreased to 60 (significant improvement from pre-implant baseline)."
+              }
+            ]
+          },
+          {
+            "visit_id": "V5",
+            "collective_interpretation": "2015-09-01: Initial visit at private practice. Presented with moderate precipitously sloping to profound SNHL and dissatisfaction with current amplification.",
+            "tests": [
+              {
+                "name": "Pure-tone audiometry",
+                "result_summary": "Bilateral moderate precipitously sloping to profound SNHL."
+              },
+              {
+                "name": "Hearing Aid Fitting",
+                "result_summary": "Switched from ITE to BTE hearing aids."
+              }
+            ]
+          },
+          {
+            "visit_id": "V6-V17",
+            "collective_interpretation": "2015-09 to 2016-03: 12 visits for 'tweaking', reprogramming, and device exchanges. Clinicians frustrated by 'difficult' behavior; adjustments provided no objective benefit.",
+            "tests": [
+              {
+                "name": "Hearing Aid Adjustments",
+                "result_summary": "Multiple gain adjustments (increases and decreases) and brand switches without resolution of complaints."
+              }
+            ]
+          },
+          {
+            "visit_id": "V18",
+            "collective_interpretation": "2016-03: Patient purchased new hearing aids after 6 months of trials.",
+            "tests": []
+          },
+          {
+            "visit_id": "V19",
+            "collective_interpretation": "Ongoing: Repeated hearing aid casing repairs (9 times in 3 years) due to damage from hair products.",
+            "tests": []
+          },
+          {
+            "visit_id": "V20",
+            "collective_interpretation": "Family counseling session to address stigma and embarrassment regarding BTE hearing aids.",
+            "tests": []
+          },
+          {
+            "visit_id": "V21",
+            "collective_interpretation": "Treatment Year 6: Participation in Group Auditory Rehabilitation program.",
+            "tests": [
+              {
+                "name": "Hearing Handicap Inventory (HHI)",
+                "result_summary": "Pre-group score: 86. Post-group score: 58. Patient reported understanding benefits of HAs for the first time."
+              }
+            ]
+          },
+          {
+            "visit_id": "V22",
+            "collective_interpretation": "6 months post-group follow-up: Regression of psychosocial benefit, indicating need for further intervention.",
+            "tests": [
+              {
+                "name": "Hearing Handicap Inventory (HHI)",
+                "result_summary": "Score regressed to 82."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

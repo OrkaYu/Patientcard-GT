@@ -1,0 +1,40 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:59:25Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Audiogram workbook",
+    "src_gt_key": "gt_cluster/audiogram_workbook_splitbycase/Case007_17_ground_truth_pdf_outcome.json",
+    "case_key": "7_17",
+    "remark": "缺少 Acoustic reflex decay：Could not be measured at 500 and 1000 Hz due to absent contralateral acoustic reflex thresholds。\nPure tone audiometry 需要补充：右耳：and rising to within normal limits from 6,000 to 8,000 Hz；左耳：and rising to moderate at 8,000 Hz。",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case7.17.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case7.17.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated Pure-tone audiometry result summary to include high-frequency recovery details for both ears as per remarks.",
+      "Added missing Acoustic reflex decay test result."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/0/result_summary",
+        "value": "Right ear normal thresholds sloping to slight SNHL at 4 kHz, and rising to within normal limits from 6,000 to 8,000 Hz. Left ear slight to mild mixed loss (250-2000 Hz) sloping to moderate/moderately-severe mixed loss in high frequencies, and rising to moderate at 8,000 Hz; air-bone gaps present."
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/-",
+        "value": {
+          "name": "Acoustic reflex decay",
+          "category": "Immittance",
+          "result_summary": "Could not be measured at 500 and 1000 Hz due to absent contralateral acoustic reflex thresholds."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

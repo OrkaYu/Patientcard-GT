@@ -91,6 +91,59 @@
             "result_summary": "51% asymmetry (Left > Right); Left ear threshold reduced to 65 dB nHL; Tullio phenomenon (vertigo/nystagmus) observed during left ear stimulation."
           }
         ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Imaging studies were conducted to confirm the diagnosis. The MRI was negative, ruling out retrocochlear lesions. The CT scan confirmed bilateral Superior Semicircular Canal Dehiscence (SSCD), consistent with the audiological findings.",
+        "tests": [
+          {
+            "name": "MRI of internal auditory canals and brain",
+            "category": "Imaging",
+            "result_summary": "Negative."
+          },
+          {
+            "name": "CT scan of temporal bones",
+            "category": "Imaging",
+            "result_summary": "Revealed bilateral Superior Semicircular Canal Dehiscence (SSCD)."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
+        "collective_interpretation": "One week post-surgery (left superior semicircular canal plugging), the patient reported significant improvement with only occasional vertigo. Objective testing showed resolution of the third window effect and expected post-surgical vestibular signs.",
+        "tests": [
+          {
+            "name": "VNG (Post-surgical)",
+            "category": "Vestibular",
+            "result_summary": "Mild right beat nystagmus post-headshake; downbeating nystagmus in head-hanging position (expected outcome of canal plugging)."
+          },
+          {
+            "name": "cVEMP (Post-surgical)",
+            "category": "Vestibular",
+            "result_summary": "Reduced left threshold response no longer present; results within normal limits."
+          },
+          {
+            "name": "Bithermal Caloric Irrigations (Post-surgical)",
+            "category": "Vestibular",
+            "result_summary": "No change in horizontal semicircular canal function."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Six months post-surgery, the patient was fully resolved of all symptoms, denied falls, and was able to walk unassisted. Follow-up testing confirmed successful compensation.",
+        "tests": [
+          {
+            "name": "VNG (Post-surgical follow-up)",
+            "category": "Vestibular",
+            "result_summary": "No evidence of downbeating nystagmus on headshake or head-hanging positional testing."
+          },
+          {
+            "name": "Clinical Status",
+            "category": "General",
+            "result_summary": "Patient fully resolved of all symptoms, denied falls, and was able to walk unassisted."
+          }
+        ]
       }
     ]
   },

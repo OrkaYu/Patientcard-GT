@@ -34,6 +34,11 @@
             "name": "Pure-tone audiometry (Historical)",
             "category": "Audiometry",
             "result_summary": "Progressive high-frequency threshold shifts evident from 1971 to 1984, meeting criteria for Standard Threshold Shift (STS)."
+          },
+          {
+            "name": "Pure-tone audiometry (February 2003)",
+            "category": "Audiometry",
+            "result_summary": "Thresholds indicated progressive high-frequency hearing loss; Third STS-A evident."
           }
         ]
       },
@@ -60,6 +65,21 @@
             "name": "HPD Fit Check",
             "category": "Prevention",
             "result_summary": "Field attenuation of foam earplugs measured 15-40 dB depending on frequency; adequate if worn correctly."
+          },
+          {
+            "name": "Patient Interview",
+            "category": "History",
+            "result_summary": "Reported gradual onset bilateral hearing loss, tinnitus, and difficulty in noise. History of unprotected occupational noise (jackhammering) and recreational noise (firearms)."
+          },
+          {
+            "name": "Employer/IH/OHN Report",
+            "category": "History",
+            "result_summary": "Confirmed hazardous noise levels (up to 100 dBA) and lack of consistent hearing conservation program enrollment."
+          },
+          {
+            "name": "Work-Relatedness Assessment",
+            "category": "Evaluation",
+            "result_summary": "8-question assessment confirmed hearing loss is consistent with NIHL, exposure occurred at work, and HPD use was inconsistent."
           }
         ]
       },
@@ -71,6 +91,27 @@
             "name": "Medical Evaluation",
             "category": "Medical",
             "result_summary": "Normal otoscopy; negative labs; diagnosis of bilateral SNHL secondary to noise exposure (95% attributed to work)."
+          },
+          {
+            "name": "Repeat Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Consistent with previous diagnostic evaluation."
+          },
+          {
+            "name": "Impairment Rating (AAO-1979)",
+            "category": "Medical",
+            "result_summary": "28.1% right ear, 18.8% left ear; 20.3% binaural impairment."
+          }
+        ]
+      },
+      {
+        "visit_id": "V4",
+        "collective_interpretation": "Successful rehabilitation with amplification.",
+        "tests": [
+          {
+            "name": "Hearing Aid Fitting",
+            "category": "Treatment",
+            "result_summary": "Binaural programmable hearing aids dispensed 4 months post-claim. Patient reports excellent subjective benefit and full-time use."
           }
         ]
       }

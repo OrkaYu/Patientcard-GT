@@ -43,12 +43,12 @@
           {
             "name": "Speech audiometry",
             "category": "Audiometry",
-            "result_summary": "SRT 7 dB (right) and 3 dB (left); WRS 100% at 50 dB HL bilaterally."
+            "result_summary": "SRT 10 dB bilaterally; WRS 100% at 50 dB HL bilaterally."
           },
           {
             "name": "Tympanometry",
             "category": "Immittance",
-            "result_summary": "Type A tympanograms bilaterally (Right: 1.0 mL, 0.7 mmho, -10 daPa; Left: 1.1 mL, 0.9 mmho, 0 daPa)."
+            "result_summary": "Type A tympanograms bilaterally (Right: 1.0 mL, 0.7 mmho, 10 daPa; Left: 1.1 mL, 0.9 mmho, 0 daPa)."
           },
           {
             "name": "Acoustic reflexes",

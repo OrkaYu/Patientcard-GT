@@ -1,0 +1,65 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:07:45Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case049_ground_truth_pdf_outcome.json",
+    "case_key": "49",
+    "remark": "V2 缺少助听器验配内容。",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/49_49_Liquefaction_Hydrolytic_Necrosis_from_a_Hearing.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/49_49_Liquefaction_Hydrolytic_Necrosis_from_a_Hearing.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added 'Hearing aid fitting' to the ordered list of investigations.",
+      "Inserted a new visit (V2) to capture the hearing aid fitting event described in the text ('SR was fitted bilaterally...').",
+      "Renumbered the subsequent visits: the routine check becomes V3, and the foreign body discovery becomes V4."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/ordered_list/6",
+        "value": {
+          "action": "Hearing aid fitting",
+          "urgency": "routine",
+          "rationale_short": "Fit amplification to address hearing loss."
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/1",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "SR was fitted bilaterally with digitally programmable receiver-in-the-ear (RITE) instruments that used no. 312 batteries. The fitting required more counseling than usual due to the patient's reduced understanding of use and care.",
+          "tests": [
+            {
+              "name": "Hearing aid fitting",
+              "category": "Management",
+              "result_summary": "Bilateral RITE instruments fitted. Patient required extensive counseling on use and care."
+            }
+          ]
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/visit_id",
+        "value": "V3"
+      },
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/3/visit_id",
+        "value": "V4"
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -105,8 +105,13 @@
       },
       {
         "visit_id": "V3",
-        "collective_interpretation": "At the 5-year research follow-up, ABR testing demonstrated significant neural recovery, with Wave V latency decreasing by 0.6 msec compared to the 4-month post-op check, suggesting brain plasticity.",
+        "collective_interpretation": "At the 5-year research follow-up, pure tone data were unchanged. ABR testing demonstrated significant neural recovery, with Wave V latency decreasing by 0.6 msec compared to the 4-month post-op check, suggesting brain plasticity.",
         "tests": [
+          {
+            "name": "Pure-tone audiometry",
+            "category": "Audiometry",
+            "result_summary": "Data were unchanged (normal)."
+          },
           {
             "name": "Auditory Brainstem Response (ABR)",
             "category": "Electrophysiology",

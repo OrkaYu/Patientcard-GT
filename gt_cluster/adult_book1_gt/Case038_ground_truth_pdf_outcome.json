@@ -107,6 +107,21 @@
             "result_summary": "Increased air-bone gaps in Left ear (e.g., 40 dB at 500 Hz) compared to 3 years prior."
           },
           {
+            "name": "Speech audiometry",
+            "category": "Audiometry",
+            "result_summary": "100% word recognition bilaterally."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance",
+            "result_summary": "Normal Type A bilaterally."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "category": "Immittance",
+            "result_summary": "CNT (Could Not Test) due to fluctuating compliance."
+          },
+          {
             "name": "CT Scan",
             "category": "Imaging",
             "result_summary": "Revealed clear dehiscence (loss of bone) overlying the superior semicircular canal on the left side."

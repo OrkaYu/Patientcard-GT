@@ -95,6 +95,16 @@
             "name": "Tinnitus Evaluation",
             "category": "Tinnitus Assessment",
             "result_summary": "Pitch/loudness match completed; residual inhibition stopped at 24s due to discomfort."
+          },
+          {
+            "name": "Otoscopy",
+            "category": "Physical Examination",
+            "result_summary": "Unremarkable."
+          },
+          {
+            "name": "Tympanometry",
+            "category": "Immittance Audiometry",
+            "result_summary": "Not completed due to reported sound intolerance and reactive tinnitus."
           }
         ]
       }

@@ -132,6 +132,14 @@
           {
             "name": "Auditory Brainstem Response (ABR)",
             "result_summary": "Right ear: Absent waveforms. Left ear: Normal absolute latencies for Waves I, III, V."
+          },
+          {
+            "name": "Tympanometry",
+            "result_summary": "RT 1.20 mL Type A, LT 1.00 mL Type Ad."
+          },
+          {
+            "name": "Acoustic reflexes",
+            "result_summary": "Right ear absent at all frequencies. Left ear present at 500 Hz (100 dB) and 1 kHz (105 dB)."
           }
         ]
       },
@@ -150,6 +158,28 @@
           {
             "name": "Hyperventilation Test",
             "result_summary": "Positive for nystagmus, indicating retrocochlear pathology."
+          },
+          {
+            "name": "Computerized dynamic posturography (CDP)",
+            "result_summary": "Decline compared to previous. Falls on SOT 5, difficulty on SOT 6. Poor effective use of vestibular input. Center of gravity remained backward."
+          },
+          {
+            "name": "Rotational Chair",
+            "result_summary": "Results normal."
+          }
+        ]
+      },
+      {
+        "visit_id": "V5",
+        "collective_interpretation": "Follow-up after second gentamicin injection revealed further subjective decline in balance. VOG showed post-headshake nystagmus beating toward the stronger ear and persistent hyperventilation-induced nystagmus.",
+        "tests": [
+          {
+            "name": "Video-oculography (VOG)",
+            "result_summary": "8°/s leftward beating post-headshake nystagmus; 12°/s rightward beating hyperventilation nystagmus. Caloric response: no change in symmetry, decrease in total eye speed."
+          },
+          {
+            "name": "Clinical Observation",
+            "result_summary": "Reported difficulty in open spaces, climbing bleachers, walking in the dark, and navigating narrow walkways."
           }
         ]
       }

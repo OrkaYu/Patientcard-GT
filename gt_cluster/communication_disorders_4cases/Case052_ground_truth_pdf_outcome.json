@@ -78,13 +78,39 @@
         ]
       },
       {
+        "visit_id": "V2",
+        "collective_interpretation": "Immediate treatment of Right PC-BPPV.",
+        "tests": [
+          {
+            "name": "Gans Repositioning Maneuver (GRM)",
+            "category": "Treatment",
+            "result_summary": "Performed twice; symptoms resolved in provoking position."
+          }
+        ]
+      },
+      {
         "visit_id": "V3",
         "collective_interpretation": "Confirmation of BPPV resolution following treatment.",
         "tests": [
           {
-            "name": "Positioning Checks (Dix-Hallpike, Side-lying)",
+            "name": "Vertebrobasilar Artery Screening Test (VAST) Recheck",
+            "category": "Screening",
+            "result_summary": "Initially positive, then negative; suggests initial positive was BPPV-related."
+          },
+          {
+            "name": "Dix-Hallpike Maneuver",
             "category": "Vestibular",
-            "result_summary": "Negative for nystagmus and vertigo."
+            "result_summary": "Negative."
+          },
+          {
+            "name": "Deep Head-Hanging",
+            "category": "Vestibular",
+            "result_summary": "Negative (excludes anterior canal BPPV)."
+          },
+          {
+            "name": "Side-lying Maneuvers (Left/Right)",
+            "category": "Vestibular",
+            "result_summary": "Negative (excludes horizontal canal BPPV)."
           }
         ]
       },
@@ -95,12 +121,17 @@
           {
             "name": "Functional Vestibular Testing",
             "category": "Functional",
-            "result_summary": "DVA scores improved (76% horiz / 72% vert); normal static postural stability."
+            "result_summary": "DVA scores improved (76% horiz / 72% vert); Static postural stability normal (no fall on dynamic surface with eyes closed)."
+          },
+          {
+            "name": "Headshake Test",
+            "category": "Vestibular",
+            "result_summary": "Video-oculography showed no nystagmus, indicating VOR recovery."
           },
           {
             "name": "Questionnaires (DHI/THI)",
             "category": "Self-Report",
-            "result_summary": "DHI reduced to 4 (from 85); THI reduced to 24 (from 73)."
+            "result_summary": "DHI decreased from 85 to 4; THI decreased from 73 to 24."
           }
         ]
       }

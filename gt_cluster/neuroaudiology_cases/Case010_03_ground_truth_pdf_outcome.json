@@ -56,7 +56,7 @@
           },
           {
             "name": "Speech audiometry",
-            "result_summary": "Speech detection thresholds (SDT) approx 10-15 dB HL (Right) and 30 dB HL (Left); speech recognition scores could not be established (0%)."
+            "result_summary": "Speech detection thresholds (SDT) approx 10-15 dB HL (Right) and 30 dB HL (Left); speech recognition scores could never be established (patient could not understand words)."
           },
           {
             "name": "Acoustic reflexes",

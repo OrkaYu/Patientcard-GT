@@ -1,0 +1,58 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:34:23Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case022_ground_truth_pdf_outcome.json",
+    "case_key": "22",
+    "remark": "V3 和 V4 应该合并。",
+    "pdf_key": "Tinnitus_Cases_split2/Case22_Psychogenic_Tinnitus_and_Dizziness.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case22_Psychogenic_Tinnitus_and_Dizziness.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Merged V3 and V4 into a single visit entry (V3) because the text states the hearing aid fitting occurred on the same day as the vestibular evaluation."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "Vestibular assessment was largely inconclusive as the patient became nauseous and anxious, aborting the vHIT. Self-report indicated severe handicap from dizziness. Pre-fitting evaluation showed normalization of loudness tolerance levels following desensitization exercises, allowing for successful hearing aid fitting.",
+          "tests": [
+            {
+              "name": "Dizziness Handicap Inventory (DHI)",
+              "category": "Questionnaire",
+              "result_summary": "Score of 54, indicating severe handicap."
+            },
+            {
+              "name": "vHIT",
+              "category": "Vestibular",
+              "result_summary": "Aborted because patient became quickly nauseous."
+            },
+            {
+              "name": "Loudness Discomfort Levels (LDL)",
+              "category": "Loudness Tolerance",
+              "result_summary": "Normalized to 90-110 dB HL (tones) and 100-105 dB HL (speech)."
+            },
+            {
+              "name": "Pure-tone audiometry",
+              "category": "Audiometry",
+              "result_summary": "Confirmed mild sloping to moderate high-frequency SNHL."
+            }
+          ]
+        }
+      },
+      {
+        "op": "remove",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/3"
+      }
+    ],
+    "unresolved": []
+  }
+}

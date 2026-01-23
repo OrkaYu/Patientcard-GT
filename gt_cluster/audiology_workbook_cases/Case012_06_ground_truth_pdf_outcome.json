@@ -3,8 +3,8 @@
   "ranked_differential_diagnosis": [
     {
       "rank": 1,
-      "label": "Traumatic Sensorineural Hearing Loss (Cochlear Concussion)",
-      "rationale_short": "History of blunt trauma to the left ear followed by sudden hearing loss, consistent with cochlear damage given the sensorineural nature and normal middle ear function."
+      "label": "Ossicular Chain Disarticulation (Ossicular Discontinuity)",
+      "rationale_short": "History of blunt trauma, Type Ad tympanogram, high admittance, absent reflexes (except right ipsilateral), WAI showing reduced stiffness, and conductive hearing loss."
     },
     {
       "rank": 2,
@@ -13,8 +13,8 @@
     },
     {
       "rank": 3,
-      "label": "Ossicular Chain Discontinuity",
-      "rationale_short": "Possible after head trauma, but unlikely given the Type A tympanograms and lack of conductive component."
+      "label": "Traumatic Sensorineural Hearing Loss (Cochlear Concussion)",
+      "rationale_short": "Less likely given the conductive nature of the hearing loss and Type Ad tympanogram."
     }
   ],
   "investigations_and_interpretations": {
@@ -38,12 +38,12 @@
     "expected_interpretations_by_visit": [
       {
         "visit_id": "V1",
-        "collective_interpretation": "Results indicate a moderate sensorineural hearing loss in the left ear and normal hearing in the right ear. Middle ear function is normal bilaterally. The negative Stenger test confirms the left-sided loss is organic.",
+        "collective_interpretation": "Results indicate a moderate conductive hearing loss in the left ear and normal hearing in the right ear. Tympanometry reveals a Type Ad pattern in the left ear with abnormally high admittance, suggesting ossicular discontinuity. WAI confirms reduced stiffness in the left ear. ARTs are absent except for the right ipsilateral. The negative Stenger test confirms the left-sided loss is organic.",
         "tests": [
           {
             "name": "Pure-tone audiometry",
             "category": "Behavioral",
-            "result_summary": "Right ear normal (PTA 3 dB HL); Left ear moderate SNHL (PTA 55 dB HL)."
+            "result_summary": "Right ear normal (PTA 3 dB HL); Left ear moderate conductive hearing loss (PTA 55 dB HL)."
           },
           {
             "name": "Speech audiometry",
@@ -53,12 +53,22 @@
           {
             "name": "Tympanometry",
             "category": "Physiological",
-            "result_summary": "Bilateral Type A, normal pressure and admittance."
+            "result_summary": "Right Type A (TPP -30 daPa, Ytm 1.5 mmhos); Left Type Ad (TPP 0 daPa, Ytm 5.9 mmhos). Interpretation: Abnormally high admittance in the left ear suggests reduced stiffness of the middle ear system."
           },
           {
             "name": "Stenger Test",
             "category": "Behavioral",
             "result_summary": "Negative, supporting organic hearing loss."
+          },
+          {
+            "name": "Acoustic Reflex Thresholds (ART)",
+            "category": "Physiological",
+            "result_summary": "Right Ipsi present; Right Contra, Left Ipsi, and Left Contra absent."
+          },
+          {
+            "name": "Wideband Acoustic Immittance (WAI)",
+            "category": "Physiological",
+            "result_summary": "Left ear shows reduced stiffness (low reflectance at low frequencies)."
           }
         ]
       }

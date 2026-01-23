@@ -1,0 +1,34 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T22:59:01Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case025_ground_truth_pdf_outcome.json",
+    "case_key": "25",
+    "remark": "V3 右耳 speech audiometry 未报告：PTA 8, SRT 10, WRS 96%。",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/25_25_Pseudohypoacusis_The_Stenger_Test.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/25_25_Pseudohypoacusis_The_Stenger_Test.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V3 Speech audiometry result summary to include the missing Right Ear (RE) data (PTA 8, SRT 10, WRS 96%) as specified in the remarks and confirmed by Fig 25.3."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/2/tests/1/result_summary",
+        "value": "RE PTA 8 dB HL, SRT 10 dB HL, WRS 96%. LE SRT 55 dB HL, significantly better (25 dB) than the PTA of 80 dB HL. WRS 62%."
+      }
+    ],
+    "unresolved": []
+  }
+}

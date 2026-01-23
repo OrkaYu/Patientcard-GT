@@ -66,6 +66,22 @@
             "result_summary": "TFI 86/100 (severe); THI 70/100 (severe); Tinnitus Severity 9/10; Sound Intolerance 9/10."
           }
         ]
+      },
+      {
+        "visit_id": "V2",
+        "collective_interpretation": "Follow-up at 6 months showed clinically significant improvements in TFI and THI scores. Despite this, the patient reported persistent sound intolerance and pain with high-pitched sounds.",
+        "tests": [
+          {
+            "name": "Self-report scales",
+            "category": "Questionnaires",
+            "result_summary": "TFI decreased from 86/100 to 57/100; THI decreased from 70/100 to 44/100."
+          },
+          {
+            "name": "Subjective report",
+            "category": "Clinical Interview",
+            "result_summary": "Environmental sounds remained too loud; pain routinely produced by high-pitched sounds, horns, and sirens."
+          }
+        ]
       }
     ]
   },

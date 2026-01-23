@@ -1,0 +1,55 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:28:43Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Tinnitus & Sound Sensitivity (8 cases)",
+    "src_gt_key": "gt_cluster/tinnitus_cases_split2/Case005_ground_truth_pdf_outcome.json",
+    "case_key": "5",
+    "remark": "缺少 V2 (one month follow up)。\n缺少 V3 (3 months follow up)。\n缺少 COSI。",
+    "pdf_key": "Tinnitus_Cases_split2/Case05_Otosclerosis_with_Tinnitus.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case05_Otosclerosis_with_Tinnitus.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 (1-month follow-up) to expected_interpretations_by_visit, including COSI, THI, and TFI results.",
+      "Added V3 (3-month follow-up) to expected_interpretations_by_visit, including THI and TFI results."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V2",
+          "collective_interpretation": "1-month follow-up: Patient reported hearing better in small groups and better tolerating collective sound levels. He was pleased with the reduction in duration and loudness of his tinnitus.",
+          "tests": [
+            {
+              "name": "Self-Report Scales",
+              "category": "Questionnaire",
+              "result_summary": "THI 42; TFI 36; COSI: Pleased with reduction in duration and loudness."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "3-month follow-up: Tinnitus reported at a manageable level; successfully practicing PMR to assist with sleep.",
+          "tests": [
+            {
+              "name": "Self-Report Scales",
+              "category": "Questionnaire",
+              "result_summary": "THI 28; TFI 30."
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

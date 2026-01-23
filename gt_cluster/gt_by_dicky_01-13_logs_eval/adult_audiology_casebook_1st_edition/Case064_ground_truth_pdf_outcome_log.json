@@ -1,0 +1,44 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-13T23:09:22Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/ground_truth_review_notes_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook 1st edition (34 cases)",
+    "src_gt_key": "processed/ground_truth_pdf_outcome/Case064_ground_truth_pdf_outcome.json",
+    "case_key": "64",
+    "remark": "V1 遗缺少 CNC phoneme 数据；缺少 V3（2周后 follow up）。",
+    "pdf_keys": [
+      "audiology_casebook_split_by_case/64_64_Novel_Use_of_Speech_Recognition_Testing_for_Cou.pdf"
+    ],
+    "pdf_uris": [
+      "gs://case_study_audult_book/audiology_casebook_split_by_case/64_64_Novel_Use_of_Speech_Recognition_Testing_for_Cou.pdf"
+    ],
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added missing CNC Phoneme data to V1 Speech audiometry results based on Table 64.1.",
+      "Added V3 (2-week follow-up) to expected_interpretations_by_visit based on the Outcome section."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/0/tests/0/result_summary",
+        "value": "CNC Phonemes: Right 64%, Left 51%, Bilateral 43%. CNC Words: Right 28%, Left 16%, Bilateral 24%. AzBio Quiet: Right 19%, Left 4%, Bilateral 36%."
+      },
+      {
+        "op": "add",
+        "path": "/investigations_and_interpretations/expected_interpretations_by_visit/-",
+        "value": {
+          "visit_id": "V3",
+          "collective_interpretation": "At the 2-week follow-up, the patient reported his marriage had been saved and he could not believe how much better he was hearing. Patient is making judicious changes to the volume control setting as needed and selecting appropriate programs based on the listening environment.",
+          "tests": []
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

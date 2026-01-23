@@ -55,6 +55,11 @@
         "rationale_short": "Evaluate hearing sensitivity in ultra-high frequencies (9-20 kHz)."
       },
       {
+        "action": "Tinnitus evaluation",
+        "urgency": "routine",
+        "rationale_short": "Includes pitch match, loudness match, minimum masking level, and residual inhibition."
+      },
+      {
         "action": "Loudness Discomfort Levels (LDLs)",
         "urgency": "routine",
         "rationale_short": "Determine sound tolerance levels for tones and speech."

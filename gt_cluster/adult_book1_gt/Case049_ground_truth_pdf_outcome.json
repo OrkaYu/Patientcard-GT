@@ -45,6 +45,11 @@
         "rationale_short": "Assess perceived hearing handicap (HHIE)."
       },
       {
+        "action": "Hearing aid fitting",
+        "urgency": "routine",
+        "rationale_short": "Fit amplification to address hearing loss."
+      },
+      {
         "action": "Electroacoustic analysis",
         "urgency": "routine",
         "rationale_short": "Verify hearing aid function during follow-up check."
@@ -94,6 +99,17 @@
       },
       {
         "visit_id": "V2",
+        "collective_interpretation": "SR was fitted bilaterally with digitally programmable receiver-in-the-ear (RITE) instruments that used no. 312 batteries. The fitting required more counseling than usual due to the patient's reduced understanding of use and care.",
+        "tests": [
+          {
+            "name": "Hearing aid fitting",
+            "category": "Management",
+            "result_summary": "Bilateral RITE instruments fitted. Patient required extensive counseling on use and care."
+          }
+        ]
+      },
+      {
+        "visit_id": "V3",
         "collective_interpretation": "Routine hearing aid check confirmed devices were functioning correctly.",
         "tests": [
           {
@@ -104,7 +120,7 @@
         ]
       },
       {
-        "visit_id": "V3",
+        "visit_id": "V4",
         "collective_interpretation": "Investigation into reduced hearing aid benefit revealed a foreign body in the right ear canal, identified as a hearing aid battery.",
         "tests": [
           {

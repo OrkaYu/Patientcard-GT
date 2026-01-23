@@ -89,6 +89,21 @@
             "name": "EEG",
             "category": "Electrophysiology",
             "result_summary": "Frequent scattered bursts of polyspike and slow wave discharge bilaterally, with greater activity recorded from the right hemisphere."
+          },
+          {
+            "name": "Competing Sentences Test",
+            "category": "Central Auditory Test",
+            "result_summary": "Normal bilaterally (~90-95%)."
+          },
+          {
+            "name": "Competing Speech Test",
+            "category": "Central Auditory Test",
+            "result_summary": "Normal for right ear (~90%), severe deficit for left ear (~15%)."
+          },
+          {
+            "name": "Frequency Patterns Test",
+            "category": "Central Auditory Test",
+            "result_summary": "Normal bilaterally (~95-100%)."
           }
         ]
       }
