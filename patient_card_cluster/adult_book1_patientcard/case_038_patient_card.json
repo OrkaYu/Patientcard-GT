@@ -203,7 +203,10 @@
             "Figure 38.2"
           ],
           "key_findings": "SRTs consistent with air thresholds.",
-          "numeric_results": null
+          "numeric_results": {
+            "SRT": "10/20",
+            "WRS": "100%/100%"
+          }
         },
         {
           "name": "Tympanometry",
@@ -223,16 +226,7 @@
         {
           "name": "Acoustic reflexes",
           "timepoint_label": "Follow-up",
-          "ear": "bilateral",
-          "condition": null,
-          "sources": [
-            "text",
-            "image"
-          ],
-          "figure_refs": [
-            "Figure 38.2"
-          ],
-          "key_findings": "Present at normal levels ipsilaterally and contralaterally.",
+          "key_findings": "Could not test (CNT) due to fluctuating compliance.",
           "numeric_results": null
         }
       ]

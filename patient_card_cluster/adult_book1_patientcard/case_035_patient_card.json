@@ -85,6 +85,16 @@
           }
         },
         {
+          "name": "Neurotology Physical Examination",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": ["text"],
+          "figure_refs": [],
+          "key_findings": "Head impulse test (HIT) negative bilaterally. Post-headshake nystagmus negative. Romberg: stable on firm and foam, eyes closed. Gait: normal.",
+          "numeric_results": null
+        },
+        {
           "name": "cVEMP",
           "timepoint_label": "Specialized Eval",
           "ear": "bilateral",

@@ -42,7 +42,7 @@
       "date": null,
       "setting": "Tinnitus Management Clinic (TMC)",
       "history": {
-        "present_illness": "Patient reports increased left-sided tinnitus and otalgia (pain 5/10). Pain increases with cotton swab use or touching TMJ area. Tinnitus quality is 'cricket-like' but changes pitch/loudness with head position, jaw movement, and stress.",
+        "present_illness": "Patient reports increased left-sided tinnitus and otalgia (pain 5/10). Pain increases with cotton swab use or touching TMJ area. Tinnitus quality is 'cricket-like' but changes pitch/loudness with head position, jaw movement, and stress. Tinnitus typically consists of \"at least three sounds\" and can suddenly change to a completely different sound or pitch.",
         "otologic_history": "Prior ENT workup including physical exam and MRI were normal. History of vertigo.",
         "noise_exposure_history": "Not specified.",
         "medical_psych_history": "Neck/upper back discomfort. Prescribed 0.5 mg alprazolam for tinnitus/anxiety. Moderate to severe depression and anxiety indicated on screening.",
@@ -104,6 +104,12 @@
           "numeric_results": null
         },
         {
+          "name": "Audiological Testing",
+          "timepoint_label": "Baseline",
+          "key_findings": "Use of 3A insert earphones, TDH-50P headphones, and the immittance probe during testing each caused left ear pain/discomfort.",
+          "numeric_results": null
+        },
+        {
           "name": "Self-report scales",
           "timepoint_label": "Baseline",
           "ear": null,
@@ -135,7 +141,7 @@
           "figure_refs": [
             "Table 69.1"
           ],
-          "key_findings": "Tinnitus loudness/pitch modulates with jaw movement (clenching, opening), neck rotation, and palpation of masseter muscle trigger points (MTPs). Palpation also reproduces ear pain. Left C1 malrotation noted.",
+          "key_findings": "Tinnitus loudness/pitch modulates with jaw movement (clenching, opening), neck rotation, and palpation of masseter muscle trigger points (MTPs). Palpation also reproduces ear pain. Left C1 malrotation noted. Jaw manipulation increased tinnitus more than neck manipulation, suggesting TMJ/dental factors as the primary driver.",
           "numeric_results": null
         }
       ]
@@ -186,6 +192,7 @@
     "Portray a patient who is anxious and distressed by the ringing.",
     "When the clinician asks you to move your jaw or turn your head, report that the ringing gets louder or changes pitch.",
     "If the clinician touches your jaw area (masseter), wince slightly and say it hurts your ear.",
-    "Mention that the ringing sounds like crickets but changes often."
+    "Mention that the ringing sounds like crickets but changes often.",
+    "When the clinician places headphones or inserts earphones/earplugs or the immittance probe, show increased left ear pain/discomfort."
   ]
 }
