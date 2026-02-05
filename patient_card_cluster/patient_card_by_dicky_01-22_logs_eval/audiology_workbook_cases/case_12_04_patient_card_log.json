@@ -1,0 +1,31 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T00:35:56Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_strict": "Audiology Workbook",
+    "pc_key": "patient_card_cluster/audiology_workbook_cases/case_12_04_patient_card.json",
+    "chapter": 12,
+    "idx": 4,
+    "pdf_subcase": 4,
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_workbook_case12_cases/case12.4.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_workbook_case12_cases/case12.4.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated Pure-tone audiometry key_findings to describe the specific 3000-6000 Hz notched SNHL and right ear asymmetry, replacing the previous note about missing discrete thresholds."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/2/key_findings",
+        "value": "Normal hearing at speech frequencies (PTA 5-7 dB), but characteristic 3000-6000 Hz notched sensorineural hearing loss bilaterally. Right ear approximately 15 dB worse than left at 4000 Hz."
+      }
+    ],
+    "unresolved": []
+  }
+}

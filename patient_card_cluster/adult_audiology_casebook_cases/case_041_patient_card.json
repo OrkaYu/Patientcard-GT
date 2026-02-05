@@ -101,13 +101,39 @@
           "figure_refs": [],
           "key_findings": "Present and normal for ipsilateral and contralateral stimulation at 500 to 4,000 Hz. Decay negative.",
           "numeric_results": null
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2017-03-24",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returned for hearing aid fitting.",
+        "prior_management": "Hearing aids ordered at previous visit."
+      },
+      "tests": [
+        {
+          "name": "Real-Ear Measurements (REM)",
+          "timepoint_label": "Fitting",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 41.3"
+          ],
+          "key_findings": "Hearing aids verified to NAL-NL1 targets. Slight adjustments made for comfort and sound quality."
         },
         {
           "name": "Speech-in-noise",
-          "timepoint_label": "Baseline",
+          "timepoint_label": "Pre-fitting baseline",
           "ear": "soundfield",
           "condition": "unaided",
           "sources": [
+            "text",
             "image"
           ],
           "figure_refs": [
@@ -120,8 +146,74 @@
             "List_2_Score": "17.5 dB SNR Loss",
             "List_6_Score": "19.5 dB SNR Loss"
           }
+        },
+        {
+          "name": "Washington University Hearing Aid Self-Assessment Scale",
+          "timepoint_label": "Pre-fitting baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 41.4"
+          ],
+          "key_findings": "Hearing difficulty present in most situations (marked as 'Sometimes')."
+        }
+      ],
+      "treatments": [
+        {
+          "name": "Hearing Aid Fitting",
+          "details": "Bilateral open-fit receiver-in-the-canal (RIC) hearing aids with open domes. Made-for-iPhone. Programmed to NAL-NL1."
         }
       ]
+    },
+    {
+      "visit_id": "V3",
+      "date": "2017-04-07",
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "2-week follow-up. Patient reports doing well and is satisfied. Significantly better in noise."
+      },
+      "tests": [
+        {
+          "name": "Speech-in-noise",
+          "timepoint_label": "Post-fitting",
+          "ear": "soundfield",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 41.2"
+          ],
+          "key_findings": "Significant improvement noted with hearing aids.",
+          "numeric_results": {
+            "Aided_SNR_Loss_Avg": "2.98 dB",
+            "Improvement": "15.19 dB",
+            "List_8_Score": "5.5 dB SNR Loss",
+            "List_10_Score": "-0.5 dB SNR Loss",
+            "List_11_Score": "3.5 dB SNR Loss"
+          }
+        },
+        {
+          "name": "Washington University Hearing Aid Self-Assessment Scale",
+          "timepoint_label": "Post-fitting",
+          "ear": "bilateral",
+          "condition": "aided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 41.4"
+          ],
+          "key_findings": "Improvement in all categories (marked as 'Rarely' or 'Never' for difficulty)."
+        }
+      ],
+      "outcome": "Patient satisfied with hearing aids. No further intervention warranted."
     }
   ],
   "overall_audiologic_summary": "The patient presents with a bilateral, generally mild, sloping sensorineural hearing loss. While word recognition in quiet is excellent (96-100%), she demonstrates a severe deficit in signal-to-noise ratio (SNR) loss (~18 dB) on the QuickSIN test, which correlates with her chief complaint of difficulty hearing in noise. Middle ear function is normal.",

@@ -1,0 +1,149 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:10:28Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (11 cases)",
+    "src_patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_041_patient_card.json",
+    "case_main": 41,
+    "remark": "V1不包括QuickSIN，QuickSIN属于V2\n缺少V2(hearing aid fitting)和V3(2 week follow up)",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case41_Fitting_Hearing_Aids_to_a_Patient_with_M.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case41_Fitting_Hearing_Aids_to_a_Patient_with_M.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Removed QuickSIN from V1 as it was administered at the fitting visit (V2) according to the text.",
+      "Added V2 (Hearing Aid Fitting) on 2017-03-24 (date from Fig 41.3 timestamp). Included REM, Unaided QuickSIN (moved from V1), and Unaided Self-Assessment.",
+      "Added V3 (2-week follow-up) approx. 2017-04-07. Included Aided QuickSIN and Aided Self-Assessment showing improvement."
+    ],
+    "patch_ops": [
+      {
+        "op": "remove",
+        "path": "/encounters/0/tests/4"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": "2017-03-24",
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Patient returned for hearing aid fitting.",
+            "prior_management": "Hearing aids ordered at previous visit."
+          },
+          "tests": [
+            {
+              "name": "Real-Ear Measurements (REM)",
+              "timepoint_label": "Fitting",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 41.3"
+              ],
+              "key_findings": "Hearing aids verified to NAL-NL1 targets. Slight adjustments made for comfort and sound quality."
+            },
+            {
+              "name": "Speech-in-noise",
+              "timepoint_label": "Pre-fitting baseline",
+              "ear": "soundfield",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 41.2"
+              ],
+              "key_findings": "QuickSIN testing reveals a severe signal-to-noise ratio (SNR) loss unaided.",
+              "numeric_results": {
+                "Unaided_SNR_Loss_Avg": "18.17 dB",
+                "List_1_Score": "17.5 dB SNR Loss",
+                "List_2_Score": "17.5 dB SNR Loss",
+                "List_6_Score": "19.5 dB SNR Loss"
+              }
+            },
+            {
+              "name": "Washington University Hearing Aid Self-Assessment Scale",
+              "timepoint_label": "Pre-fitting baseline",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 41.4"
+              ],
+              "key_findings": "Hearing difficulty present in most situations (marked as 'Sometimes')."
+            }
+          ],
+          "treatments": [
+            {
+              "name": "Hearing Aid Fitting",
+              "details": "Bilateral open-fit receiver-in-the-canal (RIC) hearing aids with open domes. Made-for-iPhone. Programmed to NAL-NL1."
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": "2017-04-07",
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "2-week follow-up. Patient reports doing well and is satisfied. Significantly better in noise."
+          },
+          "tests": [
+            {
+              "name": "Speech-in-noise",
+              "timepoint_label": "Post-fitting",
+              "ear": "soundfield",
+              "condition": "aided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 41.2"
+              ],
+              "key_findings": "Significant improvement noted with hearing aids.",
+              "numeric_results": {
+                "Aided_SNR_Loss_Avg": "2.98 dB",
+                "Improvement": "15.19 dB",
+                "List_8_Score": "5.5 dB SNR Loss",
+                "List_10_Score": "-0.5 dB SNR Loss",
+                "List_11_Score": "3.5 dB SNR Loss"
+              }
+            },
+            {
+              "name": "Washington University Hearing Aid Self-Assessment Scale",
+              "timepoint_label": "Post-fitting",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 41.4"
+              ],
+              "key_findings": "Improvement in all categories (marked as 'Rarely' or 'Never' for difficulty)."
+            }
+          ],
+          "outcome": "Patient satisfied with hearing aids. No further intervention warranted."
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:05:57Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (11 cases)",
+    "src_patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_017_patient_card.json",
+    "case_main": 17,
+    "remark": "参考\n      \n{\n  \"case_id\": \"case17_The_Origins_of_Physiologic_Modulation_of\",\n  \"title\": \"Physiologic Modulation of a Low-Noise Microphone in a Human Ear Canal\",\n  \"demographics\": {\n    \"age_years\": 23,\n    \"sex\": \"female\",\n    \"primary_language\": null,\n    \"country_region\": \"USA (St. Louis)\"\n  },\n  \"chief_complaint\": \"I volunteered for a research study and do not have any hearing problems or symptoms.\",\n  \"problem_summary\": {\n    \"onset\": \"Incidental finding during research data collection.\",\n    \"course\": \"Consistent anomaly observed over days, weeks, and months of testing.\",\n    \"laterality\": \"Bilateral (Right > Left in amplitude).\",\n    \"associated_symptoms\": \"None reported; patient is asymptomatic and cannot hear the sounds.\",\n    \"functional_impact\": \"None on the patient; however, the signals disrupt low-noise DPOAE measurements.\",\n    \"goals_motivation\": \"Research participation.\"\n  },\n  \"encounters\": [\n    {\n      \"visit_id\": \"V1\",\n      \"date\": null,\n      \"date_note\": \"Multiple sessions spanning days, weeks, and months\",\n      \"setting\": \"Research Laboratory / Otolaryngology Department\",\n      \"history\": {\n        \"present_illness\": \"The participant volunteered for a research study. She is asymptomatic. During DPOAE measurements, 'spikes' or modulations of the noise floor were observed that disrupted the test, despite normal DPOAE amplitudes.\",\n        \"otologic_history\": \"Denied tinnitus, otalgia, aural fullness, dizziness, or vertigo. No history of otitis media, head or neck surgery, head trauma, or skull fracture. Denied family history of hearing loss.\",\n        \"noise_exposure_history\": \"Not reported.\",\n        \"medical_psych_history\": \"No current medications. No history of chemotherapy or radiation therapy.\",\n        \"prior_management\": \"None - healthy volunteer.\",\n        \"patient_goals\": \"Research participation.\"\n      },\n      \"tests\": [\n        {\n          \"name\": \"Hearing Screening\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"Passed hearing screening. Note: This was a screening only, not a full diagnostic audiogram.\",\n          \"numeric_results\": {\n            \"screening_level\": \"20 dB HL\",\n            \"frequency_range\": \"250 to 8,000 Hz\",\n            \"result\": \"Pass\"\n          }\n        },\n        {\n          \"name\": \"Spontaneous Otoacoustic Emissions (SOAE)\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"No spontaneous OAEs detectable in the traditional sense (steady state, ongoing sounds). The measures found were transient, not traditional SOAEs.\",\n          \"numeric_results\": {\n            \"average_noise_floor\": \"-20 dB SPL\",\n            \"traditional_SOAE_detected\": \"No\"\n          }\n        },\n        {\n          \"name\": \"DPOAE and Noise Floor Analysis\",\n          \"timepoint_label\": \"Experimental\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"equipment\": \"Eaton Peabody Laboratories Cochlear Function Test Suite with ER-10C DPOAE probe system\",\n          \"sources\": [\"text\", \"image\"],\n          \"figure_refs\": [\"Figure 17.1a\", \"Figure 17.2\"],\n          \"key_findings\": \"DPOAE amplitudes within normal limits. However, transient broadband 'spikes' (modulations) were observed in the noise floor, large enough to disrupt DPOAE amplitude measurements. Spikes continued without external stimuli, confirming they are not caused by DPOAE test tones. Spikes are broadband (all spectral bins up to 20,000 Hz spike simultaneously).\",\n          \"numeric_results\": {\n            \"DPOAE_amplitude\": \"Within normal limits\",\n            \"spectral_bin_analyzed\": \"20 Hz (centered at 2,840 Hz)\",\n            \"broadband_affected\": \"All bins up to 20,000 Hz\",\n            \"Spike_Intensity_Mean\": \"42.35 ± 5.58 dB SPL\",\n            \"Spike_Intensity_Max\": \"~50 dB SPL\",\n            \"Interspike_Interval\": \"35 to 75 seconds\",\n            \"recording_buffer\": \"50 ms\",\n            \"sampling_rate\": \"1,280 samples/minute\"\n          }\n        },\n        {\n          \"name\": \"Equipment Verification\",\n          \"timepoint_label\": \"Control\",\n          \"ear\": \"N/A\",\n          \"condition\": \"Probe outside ear canal, resting on body\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"Noise floor stable without significant modulations when probe was outside ear canal. Over 100 other study participants showed no physiologic modulation. Confirms modulations are unique to this participant and her ear canal, not equipment malfunction.\",\n          \"numeric_results\": {\n            \"other_participants_tested\": \">100\",\n            \"modulation_in_others\": \"None observed\"\n          }\n        },\n        {\n          \"name\": \"Otologic Examination\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"bilateral\",\n          \"condition\": null,\n          \"examiner_note\": \"Otologist (RAC) performed examination. His hearing was tested and confirmed normal (PTA: R 8.3 dB HL, L 10 dB HL; SRT: 10 dB HL bilaterally) to ensure reliable auscultation.\",\n          \"sources\": [\"text\"],\n          \"figure_refs\": [],\n          \"key_findings\": \"Normal tympanic membranes and aerated middle ears on binocular microscopy. Using a Toynbee stethoscope, the otologist heard a faint 'click' from both ear canals (Right > Left). The patient could NOT hear these clicks. No tympanic membrane movements observed. No palatal tremor observed.\",\n          \"numeric_results\": {\n            \"tympanic_membranes\": \"Normal\",\n            \"middle_ear_status\": \"Aerated\",\n            \"click_right_ear\": \"Audible (louder)\",\n            \"click_left_ear\": \"Audible (fainter)\",\n            \"patient_perception\": \"Inaudible\",\n            \"TM_movements_visible\": \"None\",\n            \"palatal_tremor\": \"None\"\n          }\n        },\n        {\n          \"name\": \"Physiologic Modulation Troubleshooting\",\n          \"timepoint_label\": \"Experimental\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"various manipulations\",\n          \"sources\": [\"text\", \"image\"],\n          \"figure_refs\": [\"Figure 17.1\"],\n          \"key_findings\": \"Extensive testing ruled out multiple potential causes. PETD ruled out via breathing manipulations and clinical admittance meter. Saccade-induced TM movement ruled out via eye gaze tests. Intracranial pressure changes ruled out via posture changes. Jaw musculature ruled out (spike remained at 20 dB SPL with mouth open). Myoclonus/tremor ruled out (interspike interval 35-75 sec much longer than typical myoclonus; patient cannot hear spikes; no visible TM movements). Paragangliomas ruled out (spikes not pulsatile, not coincident with pulse, inaudible to patient; normal TMs and middle ears on microscopy). Neck pressure altered spike amplitude. Exercise (50 jumping jacks) increased spike frequency. Left ear showed lower amplitude than right ear.\",\n          \"numeric_results\": {\n            \"Effect_of_Breathing\": \"None (PETD ruled out)\",\n            \"Effect_of_Admittance_Meter\": \"No PETD indicators\",\n            \"Effect_of_Eye_Gaze\": \"None (saccade-induced TM movement ruled out)\",\n            \"Effect_of_Posture\": \"None (intracranial pressure ruled out)\",\n            \"Effect_of_Mouth_Open\": \"Spike remained at 20 dB SPL (jaw musculature ruled out)\",\n            \"Myoclonus_Assessment\": \"Ruled out (interval 35-75 sec >> typical myoclonus rate)\",\n            \"Paraganglioma_Assessment\": \"Ruled out (not pulsatile, not pulse-coincident, inaudible)\",\n            \"Effect_of_Neck_Pressure\": \"Altered amplitude (reduced)\",\n            \"Effect_of_Exercise\": \"Increased frequency\",\n            \"Inter_aural_Difference\": \"Right > Left amplitude\"\n          }\n        }\n      ]\n    }\n  ],\n  \"overall_audiologic_summary\": \"A 23-year-old asymptomatic female research volunteer presents with normal hearing (screening pass at 20 dB HL, 250-8000 Hz) and normal DPOAE amplitudes bilaterally. No traditional spontaneous OAEs were detected. A unique physiologic phenomenon was discovered: transient, broadband noise floor modulations ('spikes') in the ear canal, measuring 42.35 ± 5.58 dB SPL (max ~50 dB SPL) with interspike intervals of 35-75 seconds. The spikes are bilateral (R > L amplitude), audible via Toynbee stethoscope but inaudible to the patient. Extensive testing ruled out: PETD, saccade-induced TM movement, intracranial pressure changes, jaw musculature, myoclonus/tremor, paragangliomas, and equipment malfunction. The phenomenon is modulated by neck pressure (reduces amplitude) and exercise (increases frequency). The source remains unknown but may involve physiologic filtering mechanisms being activated by internal body noise.\",\n  \"counseling_points\": [\n    \"Your hearing test results are completely normal.\",\n    \"During the research measurements, we detected a very faint sound coming from your ear canal.\",\n    \"This sound is audible to us with a stethoscope, but because you cannot hear it yourself, it is not considered a problem that requires treatment.\",\n    \"We have ruled out many common causes including muscle spasms, breathing-related issues, blood vessel abnormalities, and tumors.\",\n    \"This appears to be a harmless, unique physiologic signal.\",\n    \"We recommend periodic monitoring in case any symptoms develop in the future.\"\n  ],\n  \"notes_for_actor\": [\n    \"You are a healthy, asymptomatic volunteer with no hearing complaints.\",\n    \"You do not hear any clicking, ringing, whooshing, or pulsing sounds.\",\n    \"You are cooperative with unusual test requests (jumping jacks, holding breath, changing posture, pressing on neck).\",\n    \"If asked about your hearing: you have no problems and have never noticed anything unusual.\"\n  ]\n}",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case17_The_Origins_of_Physiologic_Modulation_of.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case17_The_Origins_of_Physiologic_Modulation_of.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added date_note to V1 to reflect the longitudinal nature of the study.",
+      "Updated otologic_history to include denial of family history.",
+      "Corrected prior_management to remove the screening result (moved to Tests) and reflect 'healthy volunteer' status.",
+      "Replaced the entire 'tests' array. The original JSON incorrectly attributed the Otologist's (RAC) audiogram results (PTA 8.3/10 dB HL) to the patient. The patient only had a screening. Added new tests (SOAE, Equipment Verification) and updated DPOAE/Troubleshooting with specific numeric data from the text.",
+      "Updated overall_audiologic_summary to be more precise regarding the screening vs diagnostic audiogram and specific rule-outs.",
+      "Updated counseling_points and notes_for_actor to align with the Remarks."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/date_note",
+        "value": "Multiple sessions spanning days, weeks, and months"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/history/otologic_history",
+        "value": "Denied tinnitus, otalgia, aural fullness, dizziness, or vertigo. No history of otitis media, head or neck surgery, head trauma, or skull fracture. Denied family history of hearing loss."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/history/prior_management",
+        "value": "None - healthy volunteer."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests",
+        "value": [
+          {
+            "name": "Hearing Screening",
+            "timepoint_label": "Baseline",
+            "ear": "bilateral",
+            "condition": "unaided",
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "Passed hearing screening. Note: This was a screening only, not a full diagnostic audiogram.",
+            "numeric_results": {
+              "screening_level": "20 dB HL",
+              "frequency_range": "250 to 8,000 Hz",
+              "result": "Pass"
+            }
+          },
+          {
+            "name": "Spontaneous Otoacoustic Emissions (SOAE)",
+            "timepoint_label": "Baseline",
+            "ear": "bilateral",
+            "condition": "unaided",
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "No spontaneous OAEs detectable in the traditional sense (steady state, ongoing sounds). The measures found were transient, not traditional SOAEs.",
+            "numeric_results": {
+              "average_noise_floor": "-20 dB SPL",
+              "traditional_SOAE_detected": "No"
+            }
+          },
+          {
+            "name": "DPOAE and Noise Floor Analysis",
+            "timepoint_label": "Experimental",
+            "ear": "bilateral",
+            "condition": "unaided",
+            "equipment": "Eaton Peabody Laboratories Cochlear Function Test Suite with ER-10C DPOAE probe system",
+            "sources": [
+              "text",
+              "image"
+            ],
+            "figure_refs": [
+              "Figure 17.1a",
+              "Figure 17.2"
+            ],
+            "key_findings": "DPOAE amplitudes within normal limits. However, transient broadband 'spikes' (modulations) were observed in the noise floor, large enough to disrupt DPOAE amplitude measurements. Spikes continued without external stimuli, confirming they are not caused by DPOAE test tones. Spikes are broadband (all spectral bins up to 20,000 Hz spike simultaneously).",
+            "numeric_results": {
+              "DPOAE_amplitude": "Within normal limits",
+              "spectral_bin_analyzed": "20 Hz (centered at 2,840 Hz)",
+              "broadband_affected": "All bins up to 20,000 Hz",
+              "Spike_Intensity_Mean": "42.35 ± 5.58 dB SPL",
+              "Spike_Intensity_Max": "~50 dB SPL",
+              "Interspike_Interval": "35 to 75 seconds",
+              "recording_buffer": "50 ms",
+              "sampling_rate": "1,280 samples/minute"
+            }
+          },
+          {
+            "name": "Equipment Verification",
+            "timepoint_label": "Control",
+            "ear": "N/A",
+            "condition": "Probe outside ear canal, resting on body",
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "Noise floor stable without significant modulations when probe was outside ear canal. Over 100 other study participants showed no physiologic modulation. Confirms modulations are unique to this participant and her ear canal, not equipment malfunction.",
+            "numeric_results": {
+              "other_participants_tested": ">100",
+              "modulation_in_others": "None observed"
+            }
+          },
+          {
+            "name": "Otologic Examination",
+            "timepoint_label": "Baseline",
+            "ear": "bilateral",
+            "condition": null,
+            "examiner_note": "Otologist (RAC) performed examination. His hearing was tested and confirmed normal (PTA: R 8.3 dB HL, L 10 dB HL; SRT: 10 dB HL bilaterally) to ensure reliable auscultation.",
+            "sources": [
+              "text"
+            ],
+            "figure_refs": [],
+            "key_findings": "Normal tympanic membranes and aerated middle ears on binocular microscopy. Using a Toynbee stethoscope, the otologist heard a faint 'click' from both ear canals (Right > Left). The patient could NOT hear these clicks. No tympanic membrane movements observed. No palatal tremor observed.",
+            "numeric_results": {
+              "tympanic_membranes": "Normal",
+              "middle_ear_status": "Aerated",
+              "click_right_ear": "Audible (louder)",
+              "click_left_ear": "Audible (fainter)",
+              "patient_perception": "Inaudible",
+              "TM_movements_visible": "None",
+              "palatal_tremor": "None"
+            }
+          },
+          {
+            "name": "Physiologic Modulation Troubleshooting",
+            "timepoint_label": "Experimental",
+            "ear": "bilateral",
+            "condition": "various manipulations",
+            "sources": [
+              "text",
+              "image"
+            ],
+            "figure_refs": [
+              "Figure 17.1"
+            ],
+            "key_findings": "Extensive testing ruled out multiple potential causes. PETD ruled out via breathing manipulations and clinical admittance meter. Saccade-induced TM movement ruled out via eye gaze tests. Intracranial pressure changes ruled out via posture changes. Jaw musculature ruled out (spike remained at 20 dB SPL with mouth open). Myoclonus/tremor ruled out (interspike interval 35-75 sec much longer than typical myoclonus; patient cannot hear spikes; no visible TM movements). Paragangliomas ruled out (spikes not pulsatile, not coincident with pulse, inaudible to patient; normal TMs and middle ears on microscopy). Neck pressure altered spike amplitude. Exercise (50 jumping jacks) increased spike frequency. Left ear showed lower amplitude than right ear.",
+            "numeric_results": {
+              "Effect_of_Breathing": "None (PETD ruled out)",
+              "Effect_of_Admittance_Meter": "No PETD indicators",
+              "Effect_of_Eye_Gaze": "None (saccade-induced TM movement ruled out)",
+              "Effect_of_Posture": "None (intracranial pressure ruled out)",
+              "Effect_of_Mouth_Open": "Spike remained at 20 dB SPL (jaw musculature ruled out)",
+              "Myoclonus_Assessment": "Ruled out (interval 35-75 sec >> typical myoclonus rate)",
+              "Paraganglioma_Assessment": "Ruled out (not pulsatile, not pulse-coincident, inaudible)",
+              "Effect_of_Neck_Pressure": "Altered amplitude (reduced)",
+              "Effect_of_Exercise": "Increased frequency",
+              "Inter_aural_Difference": "Right > Left amplitude"
+            }
+          }
+        ]
+      },
+      {
+        "op": "replace",
+        "path": "/overall_audiologic_summary",
+        "value": "A 23-year-old asymptomatic female research volunteer presents with normal hearing (screening pass at 20 dB HL, 250-8000 Hz) and normal DPOAE amplitudes bilaterally. No traditional spontaneous OAEs were detected. A unique physiologic phenomenon was discovered: transient, broadband noise floor modulations ('spikes') in the ear canal, measuring 42.35 ± 5.58 dB SPL (max ~50 dB SPL) with interspike intervals of 35-75 seconds. The spikes are bilateral (R > L amplitude), audible via Toynbee stethoscope but inaudible to the patient. Extensive testing ruled out: PETD, saccade-induced TM movement, intracranial pressure changes, jaw musculature, myoclonus/tremor, paragangliomas, and equipment malfunction. The phenomenon is modulated by neck pressure (reduces amplitude) and exercise (increases frequency). The source remains unknown but may involve physiologic filtering mechanisms being activated by internal body noise."
+      },
+      {
+        "op": "replace",
+        "path": "/counseling_points",
+        "value": [
+          "Your hearing test results are completely normal.",
+          "During the research measurements, we detected a very faint sound coming from your ear canal.",
+          "This sound is audible to us with a stethoscope, but because you cannot hear it yourself, it is not considered a problem that requires treatment.",
+          "We have ruled out many common causes including muscle spasms, breathing-related issues, blood vessel abnormalities, and tumors.",
+          "This appears to be a harmless, unique physiologic signal.",
+          "We recommend periodic monitoring in case any symptoms develop in the future."
+        ]
+      },
+      {
+        "op": "replace",
+        "path": "/notes_for_actor",
+        "value": [
+          "You are a healthy, asymptomatic volunteer with no hearing complaints.",
+          "You do not hear any clicking, ringing, whooshing, or pulsing sounds.",
+          "You are cooperative with unusual test requests (jumping jacks, holding breath, changing posture, pressing on neck).",
+          "If asked about your hearing: you have no problems and have never noticed anything unusual."
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

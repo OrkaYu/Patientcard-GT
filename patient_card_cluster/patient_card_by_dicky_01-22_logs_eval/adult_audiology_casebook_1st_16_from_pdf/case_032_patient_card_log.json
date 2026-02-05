@@ -1,0 +1,139 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:12:26Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_032_patient_card.json",
+    "case_main": 32,
+    "remark": "V1的speech audiometry SRT_Right改为\"10 dB HL\"；SRT_Left改为\"20 dB HL\"\n缺少V3 （手术）和V4（术后3周 follow up）和V5 （术后11周follow up）",
+    "pdf_key": "audiology_casebook_split_by_case/32_Part_3.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/32_Part_3.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected V1 Speech Audiometry SRT values: Right to 10 dB HL, Left to 20 dB HL.",
+      "Added V3 (Surgery) encounter with procedure details.",
+      "Added V4 (3 weeks Post-op) encounter with subjective questionnaire data.",
+      "Added V5 (11 weeks Post-op) encounter with subjective questionnaire data and outcome summary."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Right",
+        "value": "10 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/SRT_Left",
+        "value": "20 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "Surgery",
+          "history": {
+            "procedure": "Repair of left Superior Semicircular Canal Dehiscence (SSCD)",
+            "description": "Cartilage cap technique via transmastoid approach (cortical mastoidectomy). A tragal cartilage graft was harvested and positioned above the superior semicircular canal to reconstruct the dehiscence."
+          },
+          "tests": []
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "date": null,
+          "setting": "Post-operative Follow-up",
+          "history": {
+            "timepoint": "3 weeks post-op"
+          },
+          "tests": [
+            {
+              "name": "Subjective Questionnaire (SSCD Symptoms)",
+              "timepoint_label": "3 weeks Post-op",
+              "ear": "left",
+              "condition": "post-op",
+              "sources": [
+                "Table 32.1"
+              ],
+              "figure_refs": [
+                "Table 32.1"
+              ],
+              "key_findings": "Improvement in dizziness and pressure-induced vertigo. Coughing/sneezing still provoked profound vertigo. Tinnitus remained profound.",
+              "numeric_results": {
+                "Dizziness_Vertigo_Imbalance": "2 (Mild)",
+                "Vertigo_Loud_Noises": "1 (Slight)",
+                "Vertigo_Pressure_Changes": "0 (None)",
+                "Vertigo_Coughing_Sneezing": "5 (Profound)",
+                "Fullness_Sensation": "1 (Slight)",
+                "Hearing_Trouble": "2 (Mild)",
+                "Tinnitus": "5 (Profound)",
+                "Autophony": "1 (Slight)",
+                "Hear_Own_Heartbeat": "0 (None)",
+                "Global_Impact": "3 (Moderate)",
+                "Global_Severity": "3 (Moderate)"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V5",
+          "date": null,
+          "setting": "Post-operative Follow-up",
+          "history": {
+            "timepoint": "11 weeks post-op",
+            "outcome_summary": "Significant improvement in dizziness and balance. Denied vertigo from pressure or straining. Slight symptoms from loud noises. Tinnitus and hearing trouble persisted."
+          },
+          "tests": [
+            {
+              "name": "Subjective Questionnaire (SSCD Symptoms)",
+              "timepoint_label": "11 weeks Post-op",
+              "ear": "left",
+              "condition": "post-op",
+              "sources": [
+                "Table 32.1",
+                "text"
+              ],
+              "figure_refs": [
+                "Table 32.1"
+              ],
+              "key_findings": "Resolution of most vestibular symptoms. Persistent tinnitus and moderate hearing trouble.",
+              "numeric_results": {
+                "Dizziness_Vertigo_Imbalance": "0 (None)",
+                "Vertigo_Loud_Noises": "1 (Slight)",
+                "Vertigo_Pressure_Changes": "0 (None)",
+                "Vertigo_Coughing_Sneezing": "0 (None)",
+                "Fullness_Sensation": "0 (None)",
+                "Hearing_Trouble": "3 (Moderate)",
+                "Tinnitus": "5 (Profound)",
+                "Autophony": "0 (None)",
+                "Hear_Own_Heartbeat": "0 (None)",
+                "Global_Impact": "1 (Slight)",
+                "Global_Severity": "1 (Slight)"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

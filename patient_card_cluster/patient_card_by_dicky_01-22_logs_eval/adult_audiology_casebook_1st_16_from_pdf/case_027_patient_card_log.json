@@ -1,0 +1,191 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:10:37Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_027_patient_card.json",
+    "case_main": 27,
+    "remark": "缺少V3 (Day 17 - ENoG monitoring #1)\n缺少V4 (Day 24 - ENoG monitoring #2)\n缺少V5 (Day 29 - ENoG monitoring #3)\n缺少V6 (Surgery - left facial nerve decompression)\n缺少V7 (1-week post-op follow-up)\n缺少V8 (2-month post-op follow-up)\n缺少V9 (6-month final follow-up)\nV1缺少Rinne test results (positive bilaterally)",
+    "pdf_key": "audiology_casebook_split_by_case/27_27_Facial_Nerve_Monitoring_with_Electroneuronograp.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/27_27_Facial_Nerve_Monitoring_with_Electroneuronograp.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Rinne test results to V1 as requested.",
+      "Replaced the aggregated 'Serial Monitoring' visit (V2) with individual visits V3, V4, and V5 corresponding to Days 17, 24, and 29.",
+      "Added missing visits V6 (Surgery), V7 (1-week post-op), V8 (2-month post-op), and V9 (6-month post-op) with relevant findings."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Rinne test",
+          "timepoint_label": "Initial Assessment",
+          "ear": "bilateral",
+          "key_findings": "Positive bilaterally",
+          "sources": [
+            "text"
+          ]
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/1",
+        "value": {
+          "visit_id": "V3",
+          "timepoint_label": "Day 17 (3 days post-initial)",
+          "setting": "Audiology Clinic",
+          "tests": [
+            {
+              "name": "Electroneuronography (ENoG)",
+              "ear": "bilateral",
+              "key_findings": "Right side stable. Left side showed transient recovery (small response appeared).",
+              "figure_refs": [
+                "Figure 27.2"
+              ],
+              "sources": [
+                "text",
+                "image"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "timepoint_label": "Day 24 (10 days post-initial)",
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Reported headaches upon waking and decreased lip sensation when lying down."
+          },
+          "tests": [
+            {
+              "name": "Electroneuronography (ENoG)",
+              "ear": "bilateral",
+              "key_findings": "Facial nerve responses decreasing on the left side.",
+              "figure_refs": [
+                "Figure 27.2"
+              ],
+              "sources": [
+                "text",
+                "image"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V5",
+          "timepoint_label": "Day 29 (15 days post-initial)",
+          "setting": "Audiology Clinic",
+          "history": {
+            "plan": "Scheduled for left facial nerve decompression."
+          },
+          "tests": [
+            {
+              "name": "Electroneuronography (ENoG)",
+              "ear": "bilateral",
+              "key_findings": "Left response absent (disappeared). Right side stable.",
+              "figure_refs": [
+                "Figure 27.2"
+              ],
+              "sources": [
+                "text",
+                "image"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V6",
+          "timepoint_label": "Surgery",
+          "setting": "Hospital",
+          "history": {
+            "procedure": "Left facial nerve decompression"
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V7",
+          "timepoint_label": "1-week post-op",
+          "setting": "Clinic",
+          "history": {
+            "key_findings": "Presented with upper brow and lip movement on the left side."
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V8",
+          "timepoint_label": "2-month post-op",
+          "setting": "Clinic",
+          "history": {
+            "key_findings": "Significant facial recovery (House-Brackmann III/VI)."
+          }
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V9",
+          "timepoint_label": "6-month post-op",
+          "setting": "Clinic",
+          "history": {
+            "key_findings": "Full facial recovery (House-Brackmann I/VI) bilaterally. Left tinnitus, decreased hearing, and aural fullness persist."
+          },
+          "tests": [
+            {
+              "name": "Audiometry",
+              "key_findings": "Conductive hearing loss in the left ear persisted.",
+              "sources": [
+                "text"
+              ]
+            },
+            {
+              "name": "Tympanometry",
+              "key_findings": "Remained normal.",
+              "sources": [
+                "text"
+              ]
+            },
+            {
+              "name": "Acoustic reflexes",
+              "key_findings": "Did not recover.",
+              "sources": [
+                "text"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

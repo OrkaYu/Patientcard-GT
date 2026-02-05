@@ -55,6 +55,25 @@
           }
         },
         {
+          "name": "Acoustic Reflex Thresholds",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Table: ART @1 kHz"
+          ],
+          "key_findings": "Acoustic reflex thresholds present at normal levels, consistent with the degree of cochlear hearing loss at 1000 Hz based on data from Gelfand et al. (1990).",
+          "numeric_results": {
+            "Ipsi R": "90 dB HL",
+            "Stim L/Probe R (Contra)": "90 dB HL",
+            "Ipsi L": "90 dB HL",
+            "Stim R/Probe L (Contra)": "95 dB HL"
+          }
+        },
+        {
           "name": "Pure-tone audiometry",
           "timepoint_label": "Baseline",
           "ear": "bilateral",
@@ -65,16 +84,22 @@
           "figure_refs": [
             "Audiogram Graph"
           ],
-          "key_findings": "Bilateral sloping sensorineural hearing loss. Asymmetric configuration with the Left ear showing poorer thresholds than the Right ear across the frequency range. No significant air-bone gaps.",
+          "key_findings": "Bilateral sloping sensorineural hearing loss. Asymmetric configuration with the right ear approximately 20 to 30 dB poorer than the left ear across the frequency range. Left ear showed hearing within the normal range through 2000 Hz, sloping to a moderately severe sensorineural loss in the higher frequencies. Right ear showed hearing within the normal range at 250 Hz, sloping to severe loss in the higher frequencies. No significant air-bone gaps.",
           "numeric_results": {
-            "Right_AC_250Hz": "~10 dB HL",
-            "Right_AC_1000Hz": "~25 dB HL",
-            "Right_AC_4000Hz": "~45 dB HL",
-            "Right_AC_8000Hz": "~55 dB HL",
-            "Left_AC_250Hz": "~20 dB HL",
-            "Left_AC_1000Hz": "~40 dB HL",
-            "Left_AC_4000Hz": "~60 dB HL",
-            "Left_AC_8000Hz": "~75 dB HL"
+            "Left_AC_250Hz": "~10 dB HL",
+            "Left_AC_500Hz": "~10 dB HL",
+            "Left_AC_1000Hz": "~15 dB HL",
+            "Left_AC_2000Hz": "~25 dB HL",
+            "Left_AC_4000Hz": "~45 dB HL",
+            "Left_AC_8000Hz": "~55 dB HL",
+            "Right_AC_250Hz": "~20 dB HL",
+            "Right_AC_500Hz": "~25 dB HL",
+            "Right_AC_1000Hz": "~40 dB HL",
+            "Right_AC_2000Hz": "~50 dB HL",
+            "Right_AC_4000Hz": "~60 dB HL",
+            "Right_AC_8000Hz": "~75 dB HL",
+            "Left PTA": "18 dB HL",
+            "Right PTA": "38 dB HL"
           }
         },
         {
@@ -88,10 +113,12 @@
           "figure_refs": [
             "Table: PTA SRT WRS"
           ],
-          "key_findings": "Word recognition scores (phoneme scoring) obtained at suprathreshold levels (85 dB HL). Scores suggest fair to poor clarity despite amplification.",
+          "key_findings": "SRTs were consistent with PTAs. Word recognition scores (phoneme scoring) obtained at suprathreshold levels (85 dB HL). WRS was fair in both ears. Although the WRS for the right ear was 10% poorer than the left ear, these were not significantly different from each other based on critical difference values of the binomial distribution.",
           "numeric_results": {
-            "Right WRS": "64% @ 85 dB HL (Phoneme scoring, masked)",
-            "Left WRS": "74% @ 85 dB HL (Phoneme scoring, masked)"
+            "Right SRT": "40 dB HL",
+            "Right WRS": "64% @ 85 dB HL (Phoneme scoring, with masking in left)",
+            "Left SRT": "20 dB HL",
+            "Left WRS": "74% @ 85 dB HL (Phoneme scoring, with masking in right)"
           }
         },
         {
@@ -105,23 +132,24 @@
           "figure_refs": [
             "Reflectance Graph"
           ],
-          "key_findings": "Reflectance plotted against frequency (0.25 to 8 kHz). Curves for right and left ears are generally overlapping and follow a typical pattern, dipping in the mid-frequencies.",
+          "key_findings": "WAI showed normal reflectance across the frequency range. Curves for right and left ears are generally overlapping and follow a typical pattern, dipping in the mid-frequencies.",
           "numeric_results": null
         }
       ]
     }
   ],
-  "overall_audiologic_summary": "The evaluation reveals a bilateral, asymmetric sloping sensorineural hearing loss, with the left ear presenting with greater degrees of loss than the right. Middle ear function is normal bilaterally as evidenced by tympanometry. Speech recognition abilities are reduced bilaterally, with phoneme scores of 64% (Right) and 74% (Left) at high presentation levels, suggesting potential challenges with clarity even with amplification.",
+  "overall_audiologic_summary": "The evaluation reveals a bilateral, asymmetric sloping sensorineural hearing loss, with the right ear presenting with greater degrees of loss than the left (Right PTA: 38 dB HL; Left PTA: 18 dB HL). Middle ear function is normal bilaterally as evidenced by tympanometry. Acoustic reflex thresholds were present at normal levels. Speech recognition abilities are reduced bilaterally, with phoneme scores of 64% (Right) and 74% (Left) at high presentation levels, suggesting potential challenges with clarity even with amplification. The degree of hearing loss and speech results are consistent with her reported hearing and communication difficulties, which are most likely due to presbycusis.",
   "counseling_points": [
-    "Your hearing test shows permanent hearing loss in both ears, though the left ear is slightly worse than the right.",
+    "Your hearing test shows permanent hearing loss in both ears, with the right ear being noticeably worse than the left.",
     "This type of hearing loss explains why you hear people talking but have trouble understanding the words clearly, especially in background noise.",
+    "Your difficulty hearing on the phone with your right ear makes sense given that your right ear has more hearing loss.",
     "The ringing in your ears (tinnitus) is commonly associated with this type of hearing loss; often, treating the hearing loss helps reduce the perception of the ringing.",
-    "We recommend a trial with hearing aids to improve your access to speech sounds and help with the TV and phone.",
+    "We recommend a trial period with binaural hearing aids and aural rehabilitation as needed to improve your access to speech sounds and help with the TV and phone.",
     "Because there is a difference between your ears (asymmetry), we may recommend a medical consultation to rule out any other causes, although your history is otherwise benign."
   ],
   "notes_for_actor": [
     "Portray a 76-year-old who was reluctant to come in but admits to the difficulties now that you are here.",
-    "You specifically struggle with the phone on your right ear (which is interesting because your right ear is actually the 'better' one, though still impaired).",
+    "You specifically struggle with the phone on your right ear - this is consistent with test results showing your right ear is the worse ear.",
     "You have ringing in both ears."
   ]
 }

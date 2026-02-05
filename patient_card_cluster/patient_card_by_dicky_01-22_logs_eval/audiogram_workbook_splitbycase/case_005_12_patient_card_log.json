@@ -1,0 +1,33 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:17:59Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "Audiogram workbook"
+    ],
+    "src_patient_card_key": "patient_card_cluster/audiogram_workbook_splitbycase/case_005_12_patient_card.json",
+    "case_key": "5_12",
+    "remark_key_used": "5_12",
+    "remark": "LE_SRT应为30dB，非33dB",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.12.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.12.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated LE_SRT in Speech audiometry numeric_results from '33 dB HL' to '30 dB HL' based on the remark."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/LE_SRT",
+        "value": "30 dB HL"
+      }
+    ],
+    "unresolved": []
+  }
+}

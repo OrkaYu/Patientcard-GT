@@ -25,8 +25,8 @@
         "present_illness": "Patient had an acoustic neuroma removed from the left ear 3 years ago, resulting in single-sided deafness.",
         "otologic_history": "Left acoustic neuroma removal. No other history reported.",
         "noise_exposure_history": "Denied.",
-        "medical_psych_history": "Unremarkable aside from AN surgery.",
-        "prior_management": "Previous trial with standard CROS system was unsuccessful; patient reported poor sound quality ('tinny') and disliked wearing devices on both ears.",
+        "medical_psych_history": "Unremarkable aside from AN surgery. Denies family history of hearing loss.",
+        "prior_management": "Previous trial with standard CROS system was unsuccessful. She felt the sound quality was very tinny and made speech understanding difficult. She also did not like wearing devices on both ears and felt it interfered with her better hearing right ear. She has not seen an audiologist since her postoperative evaluation following the removal of the acoustic neuroma.",
         "patient_goals": "Evaluation for transcranial CROS candidacy."
       },
       "tests": [
@@ -119,7 +119,7 @@
       },
       "tests": [
         {
-          "name": "Other",
+          "name": "Transcranial threshold testing",
           "timepoint_label": "Pre-fitting Assessment",
           "ear": "left",
           "condition": "unaided",
@@ -140,6 +140,22 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Patient returns for ear impression and fitting of transcranial CROS. Deep ear impression taken past the second bend using an open-mouth technique with a bite block. Fitted with left BTE transcranial CROS hearing aid."
+      }
+    },
+    {
+      "visit_id": "V4",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "Follow-up to evaluate the effectiveness of the transcranial CROS fitting. CR was extremely pleased with the left transcranial hearing aid. She prefers this fitting to the right CROS system she previously tried and finds her speech understanding to be improved using the left transcranial CROS."
+      }
     }
   ],
   "overall_audiologic_summary": "The patient presents with single-sided deafness (left profound SNHL) and normal hearing in the right ear. Standard CROS was previously rejected. Investigation of transcranial crossover thresholds indicates that high-intensity sound presented to the left ear can successfully cross over to stimulate the right cochlea via bone conduction (transcranial thresholds approx 40-65 dB HL). This profile suggests she is a candidate for a high-power transcranial CROS fitting on the left ear.",

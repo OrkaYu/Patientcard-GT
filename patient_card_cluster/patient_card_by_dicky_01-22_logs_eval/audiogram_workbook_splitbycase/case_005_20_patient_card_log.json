@@ -1,0 +1,56 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:18:19Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "Audiogram workbook"
+    ],
+    "src_patient_card_key": "patient_card_cluster/audiogram_workbook_splitbycase/case_005_20_patient_card.json",
+    "case_key": "5_20",
+    "remark_key_used": "5_20",
+    "remark": "Right_SAT: 95 dB HL改为85\nAcoustic Reflex Decay结果缺失，均为CNT",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.20.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case5.20.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected Right_SAT from 95 dB HL to 85 dB HL in Speech audiometry results.",
+      "Added missing Acoustic reflex decay test with CNT results."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/Right_SAT",
+        "value": "85 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Acoustic reflex decay",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 5.20"
+          ],
+          "key_findings": "Could not be measured due to artifact.",
+          "numeric_results": {
+            "Right_Decay": "CNT",
+            "Left_Decay": "CNT"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

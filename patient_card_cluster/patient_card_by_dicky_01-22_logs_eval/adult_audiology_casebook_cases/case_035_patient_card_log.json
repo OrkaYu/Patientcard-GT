@@ -1,0 +1,46 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:09:12Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (11 cases)",
+    "src_patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_035_patient_card.json",
+    "case_main": 35,
+    "remark": "V1添加Acoustic Reflex Thresholds测试结果",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case35_You_Need_to_Take_Care_of_Your_Front_End.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case35_You_Need_to_Take_Care_of_Your_Front_End.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Acoustic Reflex Thresholds test results to V1 based on Figure 35.1 and text description."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Acoustic Reflex Thresholds",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 35.1"
+          ],
+          "key_findings": "Ipsilateral ARTs were consistent with audiometric thresholds. Contralateral ARTs could not be performed due to limitations of the equipment.",
+          "numeric_results": {
+            "Right_Ipsi_Thresholds": "500 Hz: 95, 1000 Hz: 100, 2000 Hz: Absent, 4000 Hz: Absent dB HL",
+            "Left_Ipsi_Thresholds": "500 Hz: 90, 1000 Hz: 100, 2000 Hz: Absent, 4000 Hz: Absent dB HL"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

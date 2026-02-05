@@ -41,12 +41,12 @@
           "figure_refs": [
             "Admittance vs Air Pressure Graph"
           ],
-          "key_findings": "Bilateral Type A tympanograms with normal peak pressure (approx. 0 daPa) and normal static admittance (approx. 1.5 mmhos).",
+          "key_findings": "Right ear: Type A tympanogram. Left ear: Type Ad tympanogram with high static admittance (5.9 mmhos).",
           "numeric_results": {
             "Right Peak Pressure": "~0 daPa",
             "Left Peak Pressure": "~0 daPa",
             "Right Admittance": "~1.5 mmhos",
-            "Left Admittance": "~1.5 mmhos"
+            "Left Admittance": "5.9 mmhos"
           }
         },
         {
@@ -60,7 +60,7 @@
           "figure_refs": [
             "Reflectance vs Frequency Graph"
           ],
-          "key_findings": "Reflectance patterns for both ears overlap and follow a normal configuration (lower reflectance in mid-frequencies, higher in low/high frequencies).",
+          "key_findings": "Right ear: Normal reflectance. Left ear: Dip/notch below normal range at 300-800 Hz.",
           "numeric_results": null
         },
         {
@@ -94,7 +94,9 @@
           "key_findings": "Excellent word recognition scores bilaterally. Left ear testing required masking.",
           "numeric_results": {
             "Right WRS": "100% @ 40 dB HL",
-            "Left WRS": "94% @ 85 dB HL (masked)"
+            "Left WRS": "94% @ 85 dB HL (masked)",
+            "Right SRT": "5 dB HL",
+            "Left SRT": "55 dB HL"
           }
         },
         {
@@ -112,14 +114,33 @@
           "numeric_results": {
             "Result": "Negative"
           }
+        },
+        {
+          "name": "Acoustic Reflex Thresholds",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [
+            "Table: ART @1 kHz"
+          ],
+          "key_findings": "Right Ipsi present at 90 dB HL. Left Ipsi and Contralateral reflexes are absent (NR).",
+          "numeric_results": {
+            "Ipsi R": "90 dB HL",
+            "Stim L/Probe R": "NR",
+            "Ipsi L": "NR",
+            "Stim R/Probe L": "NR"
+          }
         }
       ]
     }
   ],
-  "overall_audiologic_summary": "The evaluation reveals normal hearing sensitivity in the right ear and a moderate hearing loss in the left ear (PTA 55 dB HL). Word recognition is excellent in the left ear when presented at suprathreshold levels (94% at 85 dB HL). Middle ear function is normal bilaterally as evidenced by Type A tympanograms and normal reflectance patterns. The negative Stenger test supports the validity of the left-sided hearing loss, consistent with the reported trauma.",
+  "overall_audiologic_summary": "The evaluation reveals normal hearing sensitivity in the right ear and a moderate conductive hearing loss in the left ear (PTA 55 dB HL). Word recognition is excellent in the left ear when presented at suprathreshold levels (94% at 85 dB HL). Middle ear function is abnormal in the left ear, evidenced by a Type Ad tympanogram (Ytm 5.9 mmhos) and a reflectance dip at 300-800 Hz. The negative Stenger test supports the validity of the left-sided hearing loss, consistent with the reported trauma.",
   "counseling_points": [
     "Your hearing test confirms a moderate hearing loss in your left ear, likely related to the recent injury.",
-    "The tests for your middle ear system (eardrum and bones) are completely normal, suggesting the damage is to the inner ear (cochlea).",
+    "The tests for your middle ear system show abnormalities consistent with a conductive loss.",
     "We performed a specialized test called the Stenger test, which confirms that your hearing loss is genuine.",
     "Given your history of loud music exposure, it is critical to protect your hearing in both ears, but especially your 'good' right ear, from further noise damage.",
     "We should discuss options for hearing management, such as amplification, and ensure you have medical clearance from an ENT physician regarding the trauma."

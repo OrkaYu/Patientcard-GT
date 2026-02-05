@@ -1,0 +1,71 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:13:58Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_033_patient_card.json",
+    "case_main": 33,
+    "remark": "缺少V5 （Post-gentamicin follow-up）\nV2缺少Computerized dynamic posturography (CDP)结果",
+    "pdf_key": "audiology_casebook_split_by_case/33_33_Hyperventilation_Induced_Nystagmus.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/33_33_Hyperventilation_Induced_Nystagmus.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V5 encounter (Post-gentamicin follow-up) based on Section 33.7 Outcome, including VOG results and reported symptoms.",
+      "Added 'SOT': 'Normal' to V2 CDP numeric results to explicitly address the remark about missing results, as the text states CDP was normal except for COG."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/1/numeric_results/SOT",
+        "value": "Normal"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V5",
+          "date": "Post-Gentamicin Follow-up",
+          "setting": "Vestibular Clinic",
+          "history": {
+            "present_illness": "Patient reported further decline in balance following second gentamicin injection.",
+            "otologic_history": "Difficulty in open spaces, climbing bleachers, walking and looking around, stumbling in the dark, navigating narrow walkways.",
+            "noise_exposure_history": null,
+            "medical_psych_history": "Anxiety treated with amitriptyline.",
+            "prior_management": "Gentamicin injections.",
+            "patient_goals": "Manage persistent imbalance."
+          },
+          "tests": [
+            {
+              "name": "Video-oculography (VOG)",
+              "timepoint_label": "Post-Treatment",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Leftward beating post-headshake nystagmus; no change in caloric symmetry but decreased total eye speed; rightward beating hyperventilation nystagmus.",
+              "numeric_results": {
+                "Post_Headshake_Nystagmus": "8°/s leftward beating (toward stronger ear)",
+                "Caloric_Response": "Symmetry unchanged; Total eye speed decreased",
+                "Hyperventilation_Nystagmus": "12°/s rightward beating"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

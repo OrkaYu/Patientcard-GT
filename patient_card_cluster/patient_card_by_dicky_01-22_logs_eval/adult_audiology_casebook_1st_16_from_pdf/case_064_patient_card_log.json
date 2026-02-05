@@ -1,0 +1,48 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:22:06Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_064_patient_card.json",
+    "case_main": 64,
+    "remark": "缺少V3 （2 week follow up）",
+    "pdf_key": "audiology_casebook_split_by_case/64_64_Novel_Use_of_Speech_Recognition_Testing_for_Cou.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/64_64_Novel_Use_of_Speech_Recognition_Testing_for_Cou.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V3 encounter based on section 64.9 Outcome, describing the patient's return 2 weeks later with improved hearing and appropriate device usage."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": "2 weeks later",
+          "setting": "Follow-up",
+          "history": {
+            "present_illness": "Patient returned 2 weeks later reporting his marriage had been saved and he could not believe how much better he was hearing.",
+            "otologic_history": "Patient is making judicious changes to the volume control setting as needed.",
+            "noise_exposure_history": "Selecting the appropriate programs based on his listening environment.",
+            "medical_psych_history": "No changes.",
+            "prior_management": "Sensitivity locked at 12; ASC breakpoint decreased to 50 dB SPL.",
+            "patient_goals": "Maintain improved performance."
+          },
+          "tests": []
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

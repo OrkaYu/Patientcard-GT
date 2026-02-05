@@ -1,0 +1,89 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:09:14Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_025_patient_card.json",
+    "case_main": 25,
+    "remark": "PDF可能被截断，需要确认\nV3 Speech RE_SRT数值错误，改为 \"10 dB HL\"\nV3 SpeechLE_WRS 改为 \"62% (recorded as 'NONE 62%')\"\n补充Additional Testing，Immittance test battery，DPOAEs，ABR test 加入到V3",
+    "pdf_key": "audiology_casebook_split_by_case/25_25_Pseudohypoacusis_The_Stenger_Test.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/25_25_Pseudohypoacusis_The_Stenger_Test.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected V3 Speech RE_SRT to '10 dB HL' based on Figure 25.3.",
+      "Corrected V3 Speech LE_WRS to '62% (recorded as 'NONE 62%')' based on Figure 25.3.",
+      "Added Immittance, DPOAEs, and ABR test entries to V3 as requested. Note: Specific results are missing because the PDF is truncated after the mention of these tests."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/2/tests/1/numeric_results/RE_SRT",
+        "value": "10 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/2/tests/1/numeric_results/LE_WRS",
+        "value": "62% (recorded as 'NONE 62%')"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2/tests/-",
+        "value": {
+          "name": "Immittance test battery",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Performed to confirm Stenger/MCIL results; specific data unavailable due to PDF truncation.",
+          "numeric_results": {}
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2/tests/-",
+        "value": {
+          "name": "DPOAEs",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Performed to confirm Stenger/MCIL results; specific data unavailable due to PDF truncation.",
+          "numeric_results": {}
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2/tests/-",
+        "value": {
+          "name": "ABR test",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "key_findings": "Performed to confirm Stenger/MCIL results; specific data unavailable due to PDF truncation.",
+          "numeric_results": {}
+        }
+      }
+    ],
+    "unresolved": [
+      "Confirmed PDF is truncated after page 109. The text 'see below' describing the results of Immittance, DPOAEs, and ABR is missing."
+    ]
+  }
+}

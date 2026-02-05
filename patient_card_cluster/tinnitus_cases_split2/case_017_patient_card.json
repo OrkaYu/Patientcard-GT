@@ -81,6 +81,18 @@
           "numeric_results": {
             "Pitch_Shift": "Full step upward in affected (right) ear"
           }
+        },
+        {
+          "name": "Bing Test (Self-administered)",
+          "timepoint_label": "Onset",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Phonation of the vowel /a/ increased in loudness when occluding either ear, consistent with a positive Bing test (no conductive component).",
+          "numeric_results": null
         }
       ]
     }

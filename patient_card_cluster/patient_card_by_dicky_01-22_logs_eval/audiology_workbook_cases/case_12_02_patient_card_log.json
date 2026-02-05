@@ -1,0 +1,52 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T00:33:55Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_strict": "Audiology Workbook",
+    "pc_key": "patient_card_cluster/audiology_workbook_cases/case_12_02_patient_card.json",
+    "chapter": 12,
+    "idx": 2,
+    "pdf_subcase": 2,
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_workbook_case12_cases/case12.2.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_workbook_case12_cases/case12.2.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Appended Carhart's notch description to Pure-tone audiometry key_findings.",
+      "Corrected Right BC Threshold at 2000Hz from 15 to 20 dB HL.",
+      "Added new Acoustic Reflex Testing entry."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/key_findings",
+        "value": "Left ear shows normal hearing sensitivity. Right ear shows a moderate conductive hearing loss with a significant air-bone gap across the frequency range. A characteristic Carhart's notch (artifact dip in BC threshold) is present at 2000 Hz in the right ear."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/numeric_results/Right BC Thresholds (dB HL)",
+        "value": "250Hz: 10, 500Hz: 10, 1000Hz: 15, 2000Hz: 20, 4000Hz: 20"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/-",
+        "value": {
+          "name": "Acoustic Reflex Testing",
+          "key_findings": "Acoustic reflexes were absent bilaterally when probing the right ear (ipsilateral and contralateral), consistent with stapes fixation. Left ear ipsilateral reflex present at 85 dB.",
+          "numeric_results": {
+            "Ipsi R": "NR",
+            "Contra R (Stim L)": "NR",
+            "Ipsi L": "85 dB",
+            "Contra L (Stim R)": "NR"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

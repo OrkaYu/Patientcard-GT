@@ -1,0 +1,51 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:10:59Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (11 cases)",
+    "src_patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_047_patient_card.json",
+    "case_main": 47,
+    "remark": "缺少V4 (1 year follow up)",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case47_Young_Adult_with_Misophonia.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case47_Young_Adult_with_Misophonia.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V4 (1-year follow-up) encounter based on section 47.6 Outcome."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Final appointment 1 year after the initial visit. Reported significant progress despite ongoing issues with sound tolerance.",
+            "prior_management": "Used sound generators when necessary to manage situations and mask sounds."
+          },
+          "tests": [
+            {
+              "name": "Subjective Report",
+              "timepoint_label": "1-year Follow-up",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Able to participate in activities previously impossible (e.g., supermarket, dentist, optician, GP during normal hours). Gained a sense of control. Reported satisfaction with devices. Did not have a preferred program, choosing between the four based on mood and situation.",
+              "numeric_results": {}
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

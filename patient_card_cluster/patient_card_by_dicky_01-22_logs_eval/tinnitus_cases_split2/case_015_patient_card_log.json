@@ -1,0 +1,57 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T23:21:44Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_015_patient_card.json",
+    "case_num": 15,
+    "remark": "缺少October 2019就诊，缺少January 2020就诊，visit顺序重新排列",
+    "pdf_key": "Tinnitus_Cases_split2/Case15_Pulsatile_Tinnitus.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case15_Pulsatile_Tinnitus.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added missing October 2019 visit at index 2 (chronologically between June and November 2019).",
+      "Added missing January 2020 visit at index 4 (chronologically between November 2019 and September 2020).",
+      "Ensured visits are chronologically ordered: May 2019, June 2019, Oct 2019, Nov 2019, Jan 2020, Sept 2020."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/2",
+        "value": {
+          "visit_id": "V_Oct2019",
+          "date": "2019-10-01",
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Patient reported ongoing pulsatile tinnitus and requested further adjustments.",
+            "otologic_history": "Wore devices until October 2019 with persistent symptoms.",
+            "prior_management": "New open jaw earmold impressions made of the left ear canal. Left device sent back to manufacturer for remake with a larger vent.",
+            "patient_goals": "Eliminate pulsatile tinnitus."
+          },
+          "tests": []
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/4",
+        "value": {
+          "visit_id": "V_Jan2020",
+          "date": "2020-01-01",
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Patient remained aware of the pulsatile tinnitus.",
+            "medical_psych_history": "Pacemaker placed in December 2019. Cardiologist evaluation reported no findings.",
+            "prior_management": "Manufacturer audiologist assessed physical fit. Devices sent to manufacturer to replicate physical fitting of previous devices. Cardiologist recommended gain reduction (2000-4000 Hz), which was attempted but failed.",
+            "patient_goals": "Resolution."
+          },
+          "tests": []
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

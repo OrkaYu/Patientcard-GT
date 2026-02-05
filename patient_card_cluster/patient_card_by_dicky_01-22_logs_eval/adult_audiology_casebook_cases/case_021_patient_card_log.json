@@ -1,0 +1,56 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:06:31Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (11 cases)",
+    "src_patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_021_patient_card.json",
+    "case_main": 21,
+    "remark": "V1修改：RE_WRS: \"48% at 85 dB HL (25 dB SL)\" → \"48% at 90 dB HL (25 dB SL)\nV2 修改：Tympanometry — 结果：Normal tympanograms bilaterally (Type A); RE canal volume 1.2 mL, static admittance 0.4 mmho, peak pressure 25 daPa; LE canal volume 1.2 mL, static admittance 0.3 mmho, peak pressure 20 daPa",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case21_Hearing_Disorders_Vestibular_Schwannomas.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case21_Hearing_Disorders_Vestibular_Schwannomas.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V1 Speech audiometry RE_WRS to 90 dB HL as per remarks.",
+      "Added missing Tympanometry test to V2 encounter with specified numeric results."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/RE_WRS",
+        "value": "48% at 90 dB HL (25 dB SL)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/2",
+        "value": {
+          "name": "Tympanometry",
+          "timepoint_label": "Post-treatment",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 21.2"
+          ],
+          "key_findings": "Normal tympanograms bilaterally (Type A).",
+          "numeric_results": {
+            "RE_Canal_Volume": "1.2 mL",
+            "RE_Static_Admittance": "0.4 mmho",
+            "RE_Peak_Pressure": "25 daPa",
+            "LE_Canal_Volume": "1.2 mL",
+            "LE_Static_Admittance": "0.3 mmho",
+            "LE_Peak_Pressure": "20 daPa"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

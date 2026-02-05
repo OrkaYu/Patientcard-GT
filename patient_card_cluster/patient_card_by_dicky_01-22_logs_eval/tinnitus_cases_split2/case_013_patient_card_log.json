@@ -1,0 +1,53 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T23:20:47Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_013_patient_card.json",
+    "case_num": 13,
+    "remark": "缺少V2（follow up）",
+    "pdf_key": "Tinnitus_Cases_split2/Case13_Acoustic_Shock_Disorder.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case13_Acoustic_Shock_Disorder.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 follow-up encounter based on section 13.5 Outcome, capturing the 6-month return visit, hearing aid management, and updated TFI/THI scores."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": "6 months post-V1",
+          "setting": "Tinnitus Clinic",
+          "history": {
+            "prior_management": "Patient was provided a set of hearing aids that contained rudimentary tinnitus masking options (default setting included low-level masking noise).",
+            "present_illness": "Patient returned for follow-up. Despite improvements in distress scores, he reported that many environmental sounds remained too loud, and pain was routinely produced by sounds that did not bother other people, particularly high-pitched sounds, horns, and sirens."
+          },
+          "tests": [
+            {
+              "name": "Self-report scales",
+              "timepoint_label": "6 months follow-up",
+              "ear": null,
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Clinically significant decreases in scores from initial administration.",
+              "numeric_results": {
+                "THI Score": "44/100",
+                "TFI Score": "57/100"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

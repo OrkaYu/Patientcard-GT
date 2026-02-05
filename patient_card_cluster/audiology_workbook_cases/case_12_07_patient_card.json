@@ -119,12 +119,41 @@
             "ABR Waveforms"
           ],
           "key_findings": "Waveforms obtained at 80 dB nHL. Right ear shows clear morphology with identifiable Waves I, III, and V. Left ear waveforms appear degraded/poorly formed compared to the right, despite relatively preserved hearing sensitivity.",
-          "numeric_results": null
+          "numeric_results": {
+            "Wave_I_latency_Right": "...",
+            "Wave_III_latency_Right": "...",
+            "Wave_V_latency_Right": "...",
+            "IPL_I_III_Right": "2.2 ms",
+            "IPL_III_V_Right": "1.9 ms",
+            "IPL_I_V_Right": "4.1 ms",
+            "IPL_I_III_Left": "3.9 ms",
+            "IPL_III_V_Left": "2.0 ms",
+            "IPL_I_V_Left": "5.9 ms"
+          }
+        },
+        {
+          "name": "Acoustic Reflex Testing (ART)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "ART @1 kHz Table"
+          ],
+          "key_findings": "Reflexes absent when left ear stimulated (Ipsi L: NR, Contra with Stim L: NR). Reflexes present when right ear stimulated (Ipsi R: 85, Contra with Stim R: 85). Pattern consistent with left retrocochlear lesion.",
+          "numeric_results": {
+            "Ipsi_Right": "85 dB HL",
+            "Contra_StimL_ProbeR": "NR",
+            "Ipsi_Left": "NR",
+            "Contra_StimR_ProbeL": "85 dB HL"
+          }
         }
       ]
     }
   ],
-  "overall_audiologic_summary": "The patient presents with essentially normal hearing sensitivity bilaterally, with only a mild high-frequency dip in the left ear. However, there are significant signs of retrocochlear (neural) dysfunction on the left side, including significant WRS rollover (ratio 0.40) and degraded ABR waveforms, despite intact cochlear function (normal OAEs). This pattern, combined with the history of head trauma and unsteadiness, warrants immediate medical investigation.",
+  "overall_audiologic_summary": "The patient presents with essentially normal hearing sensitivity bilaterally, with only a mild high-frequency dip in the left ear. However, there are significant signs of retrocochlear (neural) dysfunction on the left side, including significant WRS rollover (ratio 0.40) and degraded ABR waveforms, despite intact cochlear function (normal OAEs). This pattern, combined with the history of head trauma and unsteadiness, warrants immediate medical investigation. Diagnosis: Acoustic Neuroma.",
   "counseling_points": [
     "Your hearing test shows that the 'volume' of your hearing is mostly normal, which explains why you hear sounds but struggle with clarity.",
     "We found a mismatch between the health of your inner ear (which looks good) and how your nerve processes speech, particularly in your left ear.",

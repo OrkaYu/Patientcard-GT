@@ -1,0 +1,116 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:18:05Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_039_patient_card.json",
+    "case_main": 39,
+    "remark": "缺少V5 （手术） V6 （术后三个月follow up）\nV2 History描述错误：\"follow-up\"应为\"new referral from PCP\"；缺少cVEMP潜伏期数据（P1: 13-15ms, N1: 21-24ms）；缺少cVEMP波形极性说明；缺少post-headshake nystagmus记录；缺少CT右侧对照描述",
+    "pdf_key": "audiology_casebook_split_by_case/39_39_Labyrinthine_Fistula.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/39_39_Labyrinthine_Fistula.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Corrected V2 history to reflect new referral from PCP.",
+      "Added missing post-headshake nystagmus negative finding to V3 VNG.",
+      "Added missing cVEMP latency data and waveform polarity description to V3 cVEMP.",
+      "Added description of intact right side (control) to V4 CT findings.",
+      "Added V5 (Surgery) and V6 (3-month follow-up) encounters based on Outcome section."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/1/history/present_illness",
+        "value": "New referral from primary care physician."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/2/tests/0/key_findings",
+        "value": "Normal oculomotor, positional, and caloric results. No significant unilateral weakness or directional preponderance. No post-headshake nystagmus was noted."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/2/tests/1/key_findings",
+        "value": "Responses present bilaterally. Left amplitude larger than right, but asymmetry ratio calculated as normal. Presence of cVEMP despite conductive hearing loss is the critical diagnostic indicator. Waveform polarity: P1 negative/downward, N1 positive/upward."
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2/tests/1/numeric_results/P1_Latency",
+        "value": "13-15 ms"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/2/tests/1/numeric_results/N1_Latency",
+        "value": "21-24 ms"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/3/tests/0/key_findings",
+        "value": "Revealed dehiscence (absence of bone) overlying the left superior semicircular canal. The right superior semicircular canal showed intact overlying bone."
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V5",
+          "date": null,
+          "setting": "Surgery",
+          "history": {
+            "present_illness": "Surgical management of SSCD."
+          },
+          "tests": [
+            {
+              "name": "Plugging Procedure",
+              "timepoint_label": "Treatment",
+              "ear": "left",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Underwent plugging procedure for left SSCD and received vestibular therapy.",
+              "numeric_results": {}
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V6",
+          "date": null,
+          "setting": "Neurotology Clinic",
+          "history": {
+            "present_illness": "3-month post-operative follow-up."
+          },
+          "tests": [
+            {
+              "name": "Follow-up Evaluation",
+              "timepoint_label": "3 months post-op",
+              "ear": "left",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Reported marked improvement in vertigo, hyperacusis, and pulsatile tinnitus.",
+              "numeric_results": {}
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

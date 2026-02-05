@@ -1,0 +1,95 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:11:28Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_004_1_patient_card.json",
+    "case_key": "4_1",
+    "remark_key_used": "4_1",
+    "remark": "缺少V2 （影像学检查）和V3 （手术）\nV1 pure tone audiometry 注明气骨导无差距\nCT的interthecal改为intrathecal",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_4-1.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_4-1.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated V1 Pure-tone audiometry key_findings to explicitly note 'No air-bone gap'.",
+      "Removed CT Scan from V1 to move it to a dedicated Imaging encounter.",
+      "Created V2 (Radiology) containing the CT Scan, correcting 'interthecal' to 'intrathecal'.",
+      "Created V3 (Surgery) containing the surgical findings regarding the tumor extent and removal."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/key_findings",
+        "value": "Right ear shows moderate to severe sensorineural hearing loss. Left ear shows mild to severe sensorineural loss commencing at 2000 Hz. No air-bone gap."
+      },
+      {
+        "op": "remove",
+        "path": "/encounters/0/tests/4"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": null,
+          "setting": "Radiology",
+          "history": {
+            "present_illness": "Follow-up imaging for suspected retrocochlear pathology."
+          },
+          "tests": [
+            {
+              "name": "CT Scan",
+              "timepoint_label": "Post-audiologic evaluation",
+              "ear": "right",
+              "condition": null,
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 4-4"
+              ],
+              "key_findings": "CT of right petrous pyramid with intrathecal air injection. Air did not fill the Internal Auditory Meatus (IAM), indicating a mass. Axial cut showed mass extending into the Cerebellopontine Angle (CPA).",
+              "numeric_results": null
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "Surgery",
+          "history": {
+            "present_illness": "Surgical management of acoustic tumor."
+          },
+          "tests": [
+            {
+              "name": "Surgical Findings",
+              "timepoint_label": "Surgery",
+              "ear": "right",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Tumor filled most of the IAM and extended approximately 1.5 cm into the CPA. The tumor was removed successfully.",
+              "numeric_results": null
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

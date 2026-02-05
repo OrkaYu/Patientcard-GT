@@ -42,8 +42,8 @@
           ],
           "key_findings": "Normal hearing sensitivity from 250-6000 Hz in the left ear and 250-4000 Hz in the right ear. Mild-to-moderate high-frequency sensorineural hearing loss at 8000 Hz bilaterally.",
           "numeric_results": {
-            "Right_Ear_Thresholds": "250Hz: 15, 500Hz: 10, 1kHz: 5, 2kHz: 10, 4kHz: 10, 8kHz: 40 dB HL",
-            "Left_Ear_Thresholds": "250Hz: 10, 500Hz: 15, 1kHz: 10, 2kHz: 5, 4kHz: 10, 8kHz: 50 dB HL"
+            "Right_Ear_Thresholds": "250Hz: 15, 500Hz: 10, 1kHz: 5, 2kHz: 10, 3kHz: 15, 4kHz: 10, 6kHz: 20, 8kHz: 40 dB HL",
+            "Left_Ear_Thresholds": "250Hz: 10, 500Hz: 15, 1kHz: 10, 2kHz: 5, 3kHz: 5, 4kHz: 10, 6kHz: 10, 8kHz: 50 dB HL"
           }
         },
         {

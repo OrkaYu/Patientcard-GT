@@ -143,7 +143,9 @@
             "Dichotic_Digits_LE": "~75% (Abnormal)",
             "Compressed_Speech_RE": "~80%",
             "Compressed_Speech_LE": "~45% (Abnormal)",
-            "Low_Pass_Filtered_Speech": "~20% (Bilaterally Abnormal)"
+            "Low_Pass_Filtered_Speech": "~20% (Bilaterally Abnormal)",
+            "Frequency_Patterns_RE": "~95% (Normal)",
+            "Frequency_Patterns_LE": "~90% (Normal)"
           }
         }
       ]

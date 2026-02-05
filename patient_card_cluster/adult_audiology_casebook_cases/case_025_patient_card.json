@@ -24,7 +24,7 @@
       "history": {
         "present_illness": "Patient reports sudden HL and tinnitus (right) 3 weeks ago. Vertigo and facial weakness began 2 days ago.",
         "otologic_history": "No prior mentioned issues until 3 weeks ago.",
-        "noise_exposure_history": "Police officer (likely occupational exposure, though not explicitly detailed in history text).",
+        "noise_exposure_history": "Police officer; occupational noise exposure likely (firing range)",
         "medical_psych_history": "History of non-Hodgkin lymphoma in early 20s (treated with chemotherapy and radiation).",
         "prior_management": "Seen by Otolaryngology; prescribed oral steroids. Referred for comprehensive audiology and VNG.",
         "patient_goals": "Determine cause of symptoms."
@@ -164,6 +164,38 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "2016-08-13",
+      "setting": "Otolaryngology Clinic",
+      "history": {
+        "present_illness": "Follow-up to review audiologic and VNG findings."
+      },
+      "management": "Ordered MRI of internal auditory canals with and without contrast."
+    },
+    {
+      "visit_id": "V3",
+      "date": "August 2016",
+      "setting": "Imaging Center",
+      "tests": [
+        {
+          "name": "MRI Internal Auditory Canals",
+          "key_findings": "Small 6-mm vestibular schwannoma within the right internal auditory canal protruding into the cerebellopontine angle and pressing on the seventh (facial) and eighth (vestibulocochlear) cranial nerves."
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "date": "August 2016",
+      "setting": "Hospital",
+      "management": "Gamma knife radiosurgery performed (2 days after MRI) to stunt tumor growth."
+    },
+    {
+      "visit_id": "V5",
+      "date": "February 2017",
+      "setting": "Audiology Clinic",
+      "management": "Scheduled 6-month follow-up audiometric evaluation. Referred for Vestibular Rehabilitation Therapy (VRT)."
     }
   ],
   "overall_audiologic_summary": "The evaluation reveals a mild high-frequency sensorineural hearing loss in the right ear with significant asymmetry compared to the left. Speech testing in the right ear shows 'rollover,' meaning clarity gets significantly worse as volume increases (dropping from 68% to 16%). Vestibular testing indicates a severe (83%) weakness of the right balance system and postural instability. Together with absent acoustic reflexes on the right, these findings strongly suggest retrocochlear pathology (an issue with the auditory/vestibular nerve) rather than a cochlear problem.",

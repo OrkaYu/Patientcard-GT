@@ -1,0 +1,38 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:13:07Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "Neuroaudiology"
+    ],
+    "src_patient_card_key": "patient_card_cluster/neuroaudiology_cases/case_005_5_patient_card.json",
+    "case_key": "5_5",
+    "remark_key_used": "5_5",
+    "remark": "在JSON的Behavioral Central Auditory Tests部分添加：\"Frequency_Patterns_RE\": \"~95% (Normal)\", \"Frequency_Patterns_LE\": \"~90% (Normal)\",",
+    "pdf_key": "audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-5.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/Neuroaudiology_Cases_Split/Case_5-5.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Frequency_Patterns_RE and Frequency_Patterns_LE to the numeric_results of the Behavioral Central Auditory Tests."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/5/numeric_results/Frequency_Patterns_RE",
+        "value": "~95% (Normal)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/5/numeric_results/Frequency_Patterns_LE",
+        "value": "~90% (Normal)"
+      }
+    ],
+    "unresolved": []
+  }
+}

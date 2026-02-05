@@ -129,10 +129,27 @@
           ],
           "key_findings": "Significant SRT/PTA discrepancy in the left ear (SRT 25 dB better than PTA).",
           "numeric_results": {
-            "RE_SRT": "8 dB HL",
+            "RE_SRT": "10 dB HL",
             "RE_WRS": "96%",
             "LE_SRT": "55 dB HL",
-            "LE_WRS": "62%"
+            "LE_WRS": "62% (recorded as 'NONE 62%')"
+          }
+        },
+        {
+          "name": "Additional Testing",
+          "timepoint_label": "Diagnostic",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [],
+          "key_findings": "Additional objective tests were performed to assess middle ear status and cochlear/brainstem function; results did not support the severity of the voluntary behavioral thresholds.",
+          "numeric_results": {
+            "Immittance_test_battery": "Performed",
+            "DPOAEs": "Performed",
+            "ABR_test": "Performed"
           }
         },
         {

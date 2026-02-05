@@ -115,7 +115,7 @@
       "date": null,
       "setting": "Neurotology Clinic",
       "history": {
-        "present_illness": "Follow-up for vertigo triggers."
+        "present_illness": "New referral from primary care physician."
       },
       "tests": [
         {
@@ -152,7 +152,7 @@
           "figure_refs": [
             "Fig. 39.2"
           ],
-          "key_findings": "Normal oculomotor, positional, and caloric results. No significant unilateral weakness or directional preponderance.",
+          "key_findings": "Normal oculomotor, positional, and caloric results. No significant unilateral weakness or directional preponderance. No post-headshake nystagmus was noted.",
           "numeric_results": {
             "Unilateral_Weakness": "7% (Left Ear Weakness - Non-significant)",
             "Directional_Preponderance": "1% (Right Beating - Non-significant)",
@@ -171,10 +171,12 @@
           "figure_refs": [
             "Fig. 39.3"
           ],
-          "key_findings": "Responses present bilaterally. Left amplitude larger than right, but asymmetry ratio calculated as normal. Presence of cVEMP despite conductive hearing loss is the critical diagnostic indicator.",
+          "key_findings": "Responses present bilaterally. Left amplitude larger than right, but asymmetry ratio calculated as normal. Presence of cVEMP despite conductive hearing loss is the critical diagnostic indicator. Waveform polarity: P1 negative/downward, N1 positive/upward.",
           "numeric_results": {
             "Asymmetry_Ratio": "23%",
-            "Stimulus": "500 Hz tone-burst"
+            "Stimulus": "500 Hz tone-burst",
+            "P1_Latency": "13-15 ms",
+            "N1_Latency": "21-24 ms"
           }
         }
       ]
@@ -199,7 +201,51 @@
           "figure_refs": [
             "Fig. 39.4"
           ],
-          "key_findings": "Revealed dehiscence (absence of bone) overlying the left superior semicircular canal.",
+          "key_findings": "Revealed dehiscence (absence of bone) overlying the left superior semicircular canal. The right superior semicircular canal showed intact overlying bone.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V5",
+      "date": null,
+      "setting": "Surgery",
+      "history": {
+        "present_illness": "Surgical management of SSCD."
+      },
+      "tests": [
+        {
+          "name": "Plugging Procedure",
+          "timepoint_label": "Treatment",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Underwent plugging procedure for left SSCD and received vestibular therapy.",
+          "numeric_results": {}
+        }
+      ]
+    },
+    {
+      "visit_id": "V6",
+      "date": null,
+      "setting": "Neurotology Clinic",
+      "history": {
+        "present_illness": "3-month post-operative follow-up."
+      },
+      "tests": [
+        {
+          "name": "Follow-up Evaluation",
+          "timepoint_label": "3 months post-op",
+          "ear": "left",
+          "condition": null,
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Reported marked improvement in vertigo, hyperacusis, and pulsatile tinnitus.",
           "numeric_results": {}
         }
       ]

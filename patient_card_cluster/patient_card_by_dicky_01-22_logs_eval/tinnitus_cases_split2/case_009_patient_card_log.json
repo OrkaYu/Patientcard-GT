@@ -1,0 +1,78 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T23:20:08Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_009_patient_card.json",
+    "case_num": 9,
+    "remark": "visit重新整理：\nV1 - Tinnitus/Hyperacusis clinic初诊：耳镜正常，纯音测听未做，发生癫痫\nV2 - Audiology clinic：纯音测听完成，阈值正常\nV3 - University Hospital FND clinic：多学科团队确认FND诊断，停药\nV4 - Audiology clinic随访：讨论渐进脱敏计划，3个月内2次癫痫\nV5 - 最终随访：6个月无癫痫，听力保护使用大幅减少",
+    "pdf_key": "Tinnitus_Cases_split2/Case09_Functional_Audiogenic_Seizure.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case09_Functional_Audiogenic_Seizure.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Inserted new V3 encounter for the University Hospital FND clinic visit (diagnosis and medication stop) as per remarks.",
+      "Shifted existing V3 to V4 and updated setting to 'Audiology Clinic (Follow-up)' to match remarks.",
+      "Added V5 encounter for the final follow-up outcome (6 months seizure-free, reduced protection)."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/2",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "University Hospital FND clinic",
+          "history": {
+            "present_illness": "Referral to multidisciplinary team for assessment.",
+            "medical_psych_history": "Diagnosis of Functional Neurological Disorder (FND) confirmed by team.",
+            "prior_management": "Nortriptyline and betahistine discontinued."
+          },
+          "tests": []
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/3/visit_id",
+        "value": "V4"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/3/setting",
+        "value": "Audiology Clinic (Follow-up)"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V5",
+          "date": null,
+          "setting": "Final Follow-up",
+          "history": {
+            "present_illness": "Final review of outcome."
+          },
+          "tests": [
+            {
+              "name": "Outcome Review",
+              "timepoint_label": "Final",
+              "ear": null,
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Seizure free for the prior 6 months. Use of hearing protection was now exceptional rather than routine.",
+              "numeric_results": {
+                "Seizure frequency": "0 in 6 months"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

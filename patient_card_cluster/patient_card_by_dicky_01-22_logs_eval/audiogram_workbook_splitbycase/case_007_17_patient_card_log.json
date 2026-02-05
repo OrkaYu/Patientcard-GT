@@ -1,0 +1,84 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T19:19:51Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_filters": [
+      "Audiogram workbook"
+    ],
+    "src_patient_card_key": "patient_card_cluster/audiogram_workbook_splitbycase/case_007_17_patient_card.json",
+    "case_key": "7_17",
+    "remark_key_used": "7_17",
+    "remark": "Right SRT改为10 dB HL，Left SRT改为30 dB HL\n声反射改为：\n{\n  \"name\": \"Acoustic reflexes\",\n  \"timepoint_label\": \"Baseline\",\n  \"ear\": \"bilateral\",\n  \"condition\": null,\n  \"sources\": [\n    \"text\",\n    \"image\"\n  ],\n  \"figure_refs\": [\n    \"Fig. 7.17\"\n  ],\n  \"key_findings\": \"Right ipsilateral reflexes present at 500-2000 Hz, absent at 4000 Hz. Left ipsilateral reflexes absent at all frequencies. Contralateral reflexes with probe in right ear (Stim L/Meas R) show elevated threshold at 1000 Hz only. Contralateral reflexes with probe in left ear (Stim R/Meas L) absent at all frequencies. Pattern suggests left efferent (facial nerve) pathway pathology.\",\n  \"numeric_results\": {\n    \"Right Ipsi (Stim R/Meas R)\": {\n      \"500 Hz\": \"95 dB\",\n      \"1000 Hz\": \"90 dB\",\n      \"2000 Hz\": \"90 dB\",\n      \"4000 Hz\": \"ABS\"\n    },\n    \"Left Ipsi (Stim L/Meas L)\": {\n      \"500 Hz\": \"ABS\",\n      \"1000 Hz\": \"ABS\",\n      \"2000 Hz\": \"ABS\",\n      \"4000 Hz\": \"ABS\"\n    },\n    \"Contra - Probe Right (Stim L/Meas R)\": {\n      \"500 Hz\": \"ABS\",\n      \"1000 Hz\": \"105 dB\",\n      \"2000 Hz\": \"ABS\",\n      \"4000 Hz\": \"ABS\"\n    },\n    \"Contra - Probe Left (Stim R/Meas L)\": {\n      \"500 Hz\": \"ABS\",\n      \"1000 Hz\": \"ABS\",\n      \"2000 Hz\": \"ABS\",\n      \"4000 Hz\": \"ABS\"\n    },\n    \"Reflex Decay\": \"CNT (Could Not Test) due to absent/elevated contralateral thresholds\"\n  }\n}",
+    "pdf_key": "audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case7.17.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiogram_workbook_splitbycase/case7.17.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated Right SRT to 10 dB HL and Left SRT to 30 dB HL in Speech Audiometry results.",
+      "Replaced the entire Acoustic Reflexes test object with the detailed structure provided in the remarks."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/Right SRT",
+        "value": "10 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results/Left SRT",
+        "value": "30 dB HL"
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/3",
+        "value": {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Fig. 7.17"
+          ],
+          "key_findings": "Right ipsilateral reflexes present at 500-2000 Hz, absent at 4000 Hz. Left ipsilateral reflexes absent at all frequencies. Contralateral reflexes with probe in right ear (Stim L/Meas R) show elevated threshold at 1000 Hz only. Contralateral reflexes with probe in left ear (Stim R/Meas L) absent at all frequencies. Pattern suggests left efferent (facial nerve) pathway pathology.",
+          "numeric_results": {
+            "Right Ipsi (Stim R/Meas R)": {
+              "500 Hz": "95 dB",
+              "1000 Hz": "90 dB",
+              "2000 Hz": "90 dB",
+              "4000 Hz": "ABS"
+            },
+            "Left Ipsi (Stim L/Meas L)": {
+              "500 Hz": "ABS",
+              "1000 Hz": "ABS",
+              "2000 Hz": "ABS",
+              "4000 Hz": "ABS"
+            },
+            "Contra - Probe Right (Stim L/Meas R)": {
+              "500 Hz": "ABS",
+              "1000 Hz": "105 dB",
+              "2000 Hz": "ABS",
+              "4000 Hz": "ABS"
+            },
+            "Contra - Probe Left (Stim R/Meas L)": {
+              "500 Hz": "ABS",
+              "1000 Hz": "ABS",
+              "2000 Hz": "ABS",
+              "4000 Hz": "ABS"
+            },
+            "Reflex Decay": "CNT (Could Not Test) due to absent/elevated contralateral thresholds"
+          }
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

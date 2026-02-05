@@ -1,0 +1,146 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:03:19Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (11 cases)",
+    "src_patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_007_patient_card.json",
+    "case_main": 7,
+    "remark": "参考:       \n{\n  \"case_id\": \"case07_Maximum_Conductive_Hearing_Loss_Secondary\",\n  \"title\": \"Maximum Conductive Hearing Loss Secondary to Surgical Closure of the External Auditory Canal\",\n  \"demographics\": {\n    \"age_years\": 48,\n    \"sex\": \"female\",\n    \"primary_language\": null,\n    \"country_region\": \"Colombia\"\n  },\n  \"chief_complaint\": \"I am having significant difficulty hearing and bothersome ringing in my left ear. I also have pain behind my left ear, a feeling of fullness in my left ear, and intermittent headaches. The pain and headaches started about 3 months ago.\",\n  \"problem_summary\": {\n    \"onset\": \"Pain and headaches began 3 months prior to the appointment; hearing loss is chronic following past surgeries.\",\n    \"course\": \"Stable hearing loss; recent onset of pain and headaches.\",\n    \"laterality\": \"Left ear\",\n    \"associated_symptoms\": \"Tinnitus (left), aural fullness (left), mastoid pain (left), headaches.\",\n    \"functional_impact\": \"Significant subjective hearing handicap.\",\n    \"goals_motivation\": \"Seeking evaluation for pain and hearing issues after referral from otolaryngology.\"\n  },\n  \"encounters\": [\n    {\n      \"visit_id\": \"V1\",\n      \"date\": \"2017-02-20\",\n      \"setting\": \"Audiology Clinic (University Hospital)\",\n      \"history\": {\n        \"present_illness\": \"Patient reports pain in the left mastoid region and headaches starting 3 months ago. Also reports significant hearing handicap and tinnitus in the left ear.\",\n        \"otologic_history\": \"History of recurrent cholesteatoma in the left ear. Underwent two surgeries in Colombia. The left external auditory canal was surgically closed during the second procedure (blind sac closure). Surgical records were not available.\",\n        \"noise_exposure_history\": \"Not reported.\",\n        \"medical_psych_history\": \"Fibromyalgia, meningoencephalocele, and a transient ischemic attack (TIA) 3 years ago.\",\n        \"prior_management\": \"Referred to neurotologist due to complex history, then to audiology.\",\n        \"patient_goals\": \"Comprehensive audiologic evaluation.\"\n      },\n      \"tests\": [\n        {\n          \"name\": \"Pure-tone audiometry\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\n            \"text\",\n            \"image\"\n          ],\n          \"figure_refs\": [\n            \"Figure 7.1\"\n          ],\n          \"key_findings\": \"Right ear: Normal hearing thresholds with slight elevation at 500 Hz for bone conduction. Left ear: Severe rising to moderately severe conductive hearing loss with significant air-bone gaps (45-65 dB) at 250-4000 Hz. Bone conduction thresholds are within normal limits bilaterally. Interaural asymmetry of 45-65 dB HL for air conduction thresholds, with the left ear being poorer than the right ear.\",\n          \"numeric_results\": {\n            \"PTA_Right\": \"7 dB HL\",\n            \"PTA_Left\": \"65 dB HL\",\n            \"Right_AC_Thresholds\": \"5-15 dB HL across frequencies\",\n            \"Left_AC_Thresholds\": \"55-70 dB HL (severe rising to moderately severe)\",\n            \"Interaural_Asymmetry_AC\": \"45-65 dB HL\",\n            \"Left_ABG\": \"45-65 dB (at 250-4000 Hz)\",\n            \"Bone_Conduction_Right\": \"Within normal limits; slight loss at 500 Hz\",\n            \"Bone_Conduction_Left\": \"Within normal limits (0-15 dB HL)\",\n            \"Effective_Masking_RE_250Hz\": \"0 dB\",\n            \"Effective_Masking_RE_500Hz\": \"40 dB\",\n            \"Effective_Masking_LE_250Hz\": \"40 dB\",\n            \"Effective_Masking_LE_500Hz\": \"35 dB\",\n            \"Effective_Masking_LE_1000Hz\": \"35 dB\",\n            \"Effective_Masking_LE_2000Hz\": \"30 dB\",\n            \"Effective_Masking_LE_4000Hz\": \"35 dB\",\n            \"Effective_Masking_LE_8000Hz\": \"35-40 dB\"\n          }\n        },\n        {\n          \"name\": \"Speech audiometry\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\n            \"text\",\n            \"image\"\n          ],\n          \"figure_refs\": [\n            \"Figure 7.1\"\n          ],\n          \"key_findings\": \"Normal speech reception and recognition in the right ear. Elevated SRT in the left ear consistent with conductive loss, but excellent word recognition (100%) when presented at sufficient volume.\",\n          \"numeric_results\": {\n            \"SRT_Right\": \"5 dB HL\",\n            \"SRT_Left\": \"65 dB HL\",\n            \"WRS_Right\": \"100% at 45 dB HL\",\n            \"WRS_Left\": \"100% at 85 dB HL\",\n            \"Test_Materials\": \"NU-6 full word list\",\n            \"Presentation_Mode\": \"MLV (Monitored Live Voice), female talker\",\n            \"Word_List_Right\": \"1A\",\n            \"Word_List_Left\": \"2A\"\n          }\n        },\n        {\n          \"name\": \"Tympanometry\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"right\",\n          \"condition\": \"unaided\",\n          \"sources\": [\n            \"text\",\n            \"image\"\n          ],\n          \"figure_refs\": [\n            \"Figure 7.1\"\n          ],\n          \"key_findings\": \"Normal middle ear function in the right ear. Left ear could not be tested due to surgically closed external auditory canal.\",\n          \"numeric_results\": {\n            \"Right_Type\": \"Type A\",\n            \"Right_Canal_Volume\": \"0.88 mL\",\n            \"Right_Static_Admittance\": \"0.32 mL\",\n            \"Right_Peak_Pressure\": \"-70 daPa\",\n            \"Left_Ear\": \"CNT (Could Not Test)\"\n          }\n        },\n        {\n          \"name\": \"Acoustic Reflex Thresholds\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"bilateral\",\n          \"condition\": \"unaided\",\n          \"sources\": [\n            \"image\"\n          ],\n          \"figure_refs\": [\n            \"Figure 7.1\"\n          ],\n          \"key_findings\": \"Could not evaluate immittance on the left ear due to surgical closure of the ear canal. Right ear acoustic reflex testing performed.\",\n          \"numeric_results\": {\n            \"Right_Ipsilateral\": \"Tested (specific values not recorded)\",\n            \"Right_Contralateral\": \"Tested (specific values not recorded)\",\n            \"Left_Ear\": \"CNT (Could Not Test)\"\n          }\n        },\n        {\n          \"name\": \"Distortion Product Otoacoustic Emissions (DPOAEs)\",\n          \"timepoint_label\": \"Baseline\",\n          \"ear\": \"right\",\n          \"condition\": \"unaided\",\n          \"sources\": [\n            \"text\"\n          ],\n          \"figure_refs\": [],\n          \"key_findings\": \"Present and robust at 1,600 to 8,000 Hz in the right ear, consistent with audiometric thresholds. Could not be performed in the left ear due to surgically closed external auditory canal.\",\n          \"numeric_results\": {\n            \"Right_Ear\": \"Present and robust (1,600-8,000 Hz)\",\n            \"Left_Ear\": \"CNT (Could Not Test)\"\n          }\n        }\n      ]\n    }\n  ],\n  \"overall_audiologic_summary\": \"The patient presents with normal hearing in the right ear and a maximum conductive hearing loss in the left ear. The left ear demonstrates a severe rising to moderately severe air-conduction loss, but bone conduction thresholds remain within normal limits, indicating intact cochlear function. Speech recognition scores are excellent (100%) bilaterally when the signal is loud enough to overcome the conductive component. This patient would be an excellent candidate for a Bone-Anchored Hearing Aid (BAHA) or CROS hearing aid.\",\n  \"counseling_points\": [\n    \"Your hearing test confirms that your inner ear (nerve) function is normal on both sides.\",\n    \"The hearing loss in your left ear is 'conductive,' meaning sound cannot travel through the ear canal to the inner ear because the canal was surgically closed.\",\n    \"Because the nerve is healthy, you have excellent potential to understand speech if sound can bypass the closed canal (e.g., via bone conduction).\",\n    \"We cannot perform standard pressure tests or look inside the left ear due to the surgical closure.\",\n    \"A Bone-Anchored Hearing Aid (BAHA) or CROS hearing aid would be good options to improve your hearing from the left side.\",\n    \"Your report of pain and headaches requires medical attention from the neurotologist.\"\n  ],\n  \"notes_for_actor\": [\n    \"Portray a patient with a complex medical history who is concerned about new pain in an ear that has been 'stable' since surgery years ago.\",\n    \"You are aware your left ear canal is closed and do not expect standard ear probes to be used on that side.\",\n    \"You have difficulty localizing sound and hearing in background noise due to the single-sided deafness effect caused by the conductive block.\",\n    \"Express concern about the new symptoms (pain, headaches) - these are different from your chronic hearing issues.\",\n    \"You had the surgeries in Colombia and do not have access to the surgical records.\"\n  ]\n}",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case07_Maximum_Conductive_Hearing_Loss_Secondar.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case07_Maximum_Conductive_Hearing_Loss_Secondar.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Updated Chief Complaint to include specific timeline and location details.",
+      "Updated Otologic History to mention unavailability of surgical records.",
+      "Enhanced Pure-tone Audiometry findings and numeric results with specific masking and asymmetry data.",
+      "Enhanced Speech Audiometry numeric results with test materials and word lists.",
+      "Updated Tympanometry numeric results keys for consistency.",
+      "Added missing Acoustic Reflex Thresholds test.",
+      "Updated DPOAE numeric results from null to specific findings.",
+      "Updated Counseling Points and Notes for Actor to include all points from the source."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/chief_complaint",
+        "value": "I am having significant difficulty hearing and bothersome ringing in my left ear. I also have pain behind my left ear, a feeling of fullness in my left ear, and intermittent headaches. The pain and headaches started about 3 months ago."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/history/otologic_history",
+        "value": "History of recurrent cholesteatoma in the left ear. Underwent two surgeries in Colombia. The left external auditory canal was surgically closed during the second procedure (blind sac closure). Surgical records were not available."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/key_findings",
+        "value": "Right ear: Normal hearing thresholds with slight elevation at 500 Hz for bone conduction. Left ear: Severe rising to moderately severe conductive hearing loss with significant air-bone gaps (45-65 dB) at 250-4000 Hz. Bone conduction thresholds are within normal limits bilaterally. Interaural asymmetry of 45-65 dB HL for air conduction thresholds, with the left ear being poorer than the right ear."
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/0/numeric_results",
+        "value": {
+          "PTA_Right": "7 dB HL",
+          "PTA_Left": "65 dB HL",
+          "Right_AC_Thresholds": "5-15 dB HL across frequencies",
+          "Left_AC_Thresholds": "55-70 dB HL (severe rising to moderately severe)",
+          "Interaural_Asymmetry_AC": "45-65 dB HL",
+          "Left_ABG": "45-65 dB (at 250-4000 Hz)",
+          "Bone_Conduction_Right": "Within normal limits; slight loss at 500 Hz",
+          "Bone_Conduction_Left": "Within normal limits (0-15 dB HL)",
+          "Effective_Masking_RE_250Hz": "0 dB",
+          "Effective_Masking_RE_500Hz": "40 dB",
+          "Effective_Masking_LE_250Hz": "40 dB",
+          "Effective_Masking_LE_500Hz": "35 dB",
+          "Effective_Masking_LE_1000Hz": "35 dB",
+          "Effective_Masking_LE_2000Hz": "30 dB",
+          "Effective_Masking_LE_4000Hz": "35 dB",
+          "Effective_Masking_LE_8000Hz": "35-40 dB"
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/numeric_results",
+        "value": {
+          "SRT_Right": "5 dB HL",
+          "SRT_Left": "65 dB HL",
+          "WRS_Right": "100% at 45 dB HL",
+          "WRS_Left": "100% at 85 dB HL",
+          "Test_Materials": "NU-6 full word list",
+          "Presentation_Mode": "MLV (Monitored Live Voice), female talker",
+          "Word_List_Right": "1A",
+          "Word_List_Left": "2A"
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/2/numeric_results",
+        "value": {
+          "Right_Type": "Type A",
+          "Right_Canal_Volume": "0.88 mL",
+          "Right_Static_Admittance": "0.32 mL",
+          "Right_Peak_Pressure": "-70 daPa",
+          "Left_Ear": "CNT (Could Not Test)"
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/3",
+        "value": {
+          "name": "Acoustic Reflex Thresholds",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 7.1"
+          ],
+          "key_findings": "Could not evaluate immittance on the left ear due to surgical closure of the ear canal. Right ear acoustic reflex testing performed.",
+          "numeric_results": {
+            "Right_Ipsilateral": "Tested (specific values not recorded)",
+            "Right_Contralateral": "Tested (specific values not recorded)",
+            "Left_Ear": "CNT (Could Not Test)"
+          }
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/4/numeric_results",
+        "value": {
+          "Right_Ear": "Present and robust (1,600-8,000 Hz)",
+          "Left_Ear": "CNT (Could Not Test)"
+        }
+      },
+      {
+        "op": "replace",
+        "path": "/counseling_points",
+        "value": [
+          "Your hearing test confirms that your inner ear (nerve) function is normal on both sides.",
+          "The hearing loss in your left ear is 'conductive,' meaning sound cannot travel through the ear canal to the inner ear because the canal was surgically closed.",
+          "Because the nerve is healthy, you have excellent potential to understand speech if sound can bypass the closed canal (e.g., via bone conduction).",
+          "We cannot perform standard pressure tests or look inside the left ear due to the surgical closure.",
+          "A Bone-Anchored Hearing Aid (BAHA) or CROS hearing aid would be good options to improve your hearing from the left side.",
+          "Your report of pain and headaches requires medical attention from the neurotologist."
+        ]
+      },
+      {
+        "op": "replace",
+        "path": "/notes_for_actor",
+        "value": [
+          "Portray a patient with a complex medical history who is concerned about new pain in an ear that has been 'stable' since surgery years ago.",
+          "You are aware your left ear canal is closed and do not expect standard ear probes to be used on that side.",
+          "You have difficulty localizing sound and hearing in background noise due to the single-sided deafness effect caused by the conductive block.",
+          "Express concern about the new symptoms (pain, headaches) - these are different from your chronic hearing issues.",
+          "You had the surgeries in Colombia and do not have access to the surgical records."
+        ]
+      }
+    ],
+    "unresolved": []
+  }
+}

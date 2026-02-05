@@ -1,0 +1,102 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:13:13Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "source_filter_exact": "Adult Audiology Casebook (11 cases)",
+    "src_patient_card_key": "patient_card_cluster/adult_audiology_casebook_cases/case_049_patient_card.json",
+    "case_main": 49,
+    "remark": "缺少V2 (1 year follow up)",
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_cases_all_book1/case49_A_Case_of_Extreme_Misophonia_and_Hyperac.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_cases_all_book1/case49_A_Case_of_Extreme_Misophonia_and_Hyperac.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added V2 (1 year follow-up) encounter based on text description, Table 49.2, and Figures 49.4, 49.5, 49.6.",
+      "Included history of distress, inconsistent device use, and refusal of mental health referral.",
+      "Included LDL results showing decreased tolerance and updated questionnaire scores."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "date": "Approximately 1 year post-initial evaluation",
+          "setting": "University Speech and Hearing Clinic",
+          "history": {
+            "present_illness": "Patient arrived visibly distressed and was removed from the waiting room due to inability to tolerate sound sensitivity. Triggered on the drive to the clinic and communicated only via text message. Reports inconsistent use of sound therapy devices.",
+            "prior_management": "Fitted with bilateral Resound LINX2 5 RIC hearing aids with 'water creek' sound therapy 1 year prior. Not consistently used.",
+            "medical_psych_history": "Parents declined mental health referral due to concerns about labeling."
+          },
+          "tests": [
+            {
+              "name": "Pure-tone audiometry",
+              "timepoint_label": "1-year follow-up",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 49.4"
+              ],
+              "key_findings": "No change in pure-tone air conduction thresholds compared to baseline (normal hearing sensitivity).",
+              "numeric_results": null
+            },
+            {
+              "name": "Loudness Discomfort Levels (LDL)",
+              "timepoint_label": "1-year follow-up",
+              "ear": "bilateral",
+              "condition": "unaided",
+              "sources": [
+                "text",
+                "table"
+              ],
+              "figure_refs": [
+                "Table 49.2"
+              ],
+              "key_findings": "Markedly decreased LDLs (35-50 dB HL) compared to baseline, indicating worsened sound tolerance.",
+              "numeric_results": {
+                "Right_500Hz": "35 dB HL",
+                "Right_1000Hz": "35 dB HL",
+                "Right_2000Hz": "40 dB HL",
+                "Right_4000Hz": "35 dB HL",
+                "Right_Speech": "45 dB HL",
+                "Left_500Hz": "50 dB HL",
+                "Left_1000Hz": "45 dB HL",
+                "Left_2000Hz": "45 dB HL",
+                "Left_4000Hz": "45 dB HL",
+                "Left_Speech": "40 dB HL"
+              }
+            },
+            {
+              "name": "Self-Report Scales",
+              "timepoint_label": "1-year follow-up",
+              "ear": null,
+              "condition": null,
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 49.5",
+                "Figure 49.6"
+              ],
+              "key_findings": "Scores indicate extreme misophonia, worsened since baseline.",
+              "numeric_results": {
+                "MAQ_Total_Score": "60 (Extreme range)",
+                "A-MISO-S_Total_Score": "21 (Extreme range)"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

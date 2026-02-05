@@ -46,7 +46,7 @@
           "numeric_results": {
             "Right_ABG_250Hz": "30 dB",
             "Left_ABG_250Hz": "20 dB",
-            "Right_AC_Thresholds": "250Hz: ~40 dB HL, 500Hz: ~25 dB HL, 1000-2000Hz: ~10-15 dB HL",
+            "Right_AC_Thresholds": "250Hz: 30 dB HL, 500Hz: ~25 dB HL, 1000-2000Hz: ~10-15 dB HL",
             "Left_AC_Thresholds": "250Hz: ~25 dB HL, 500Hz: ~20 dB HL, 1000-4000Hz: ~10-15 dB HL"
           }
         },
@@ -64,8 +64,8 @@
           ],
           "key_findings": "Speech recognition thresholds (SRT) and word recognition scores (WRS) are within normal limits bilaterally.",
           "numeric_results": {
-            "SRT_Right": "13 dB HL",
-            "SRT_Left": "17 dB HL",
+            "SRT_Right": "10 dB HL",
+            "SRT_Left": "10 dB HL",
             "WRS_Right": "100%",
             "WRS_Left": "100%"
           }
@@ -137,8 +137,89 @@
           "numeric_results": {
             "Asymmetry_Ratio": "51%",
             "Left_Threshold": "65 dB nHL (Reduced/Abnormal)",
-            "Right_Threshold": "Eliminated below 70 dB nHL (Normal)"
+            "Right_Threshold": "Normal (≥70 dB nHL)"
           }
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "timepoint_label": "Post-Initial",
+      "setting": "Imaging",
+      "history": {
+        "present_illness": "Evaluation for Third Window Syndrome."
+      },
+      "tests": [
+        {
+          "name": "MRI",
+          "ear": "bilateral",
+          "key_findings": "Negative."
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "timepoint_label": "Imaging Confirmation",
+      "setting": "Imaging",
+      "history": {
+        "present_illness": "CT scan ordered after negative MRI."
+      },
+      "tests": [
+        {
+          "name": "CT Scan",
+          "ear": "bilateral",
+          "key_findings": "Bilateral Superior Semicircular Canal Dehiscence (SSCD/DSSC). Left side symptomatic."
+        }
+      ]
+    },
+    {
+      "visit_id": "V4",
+      "timepoint_label": "1 week postsurgery",
+      "setting": "Audiology and Vestibular Clinic",
+      "history": {
+        "present_illness": "Reported significant improvement in symptoms, but still reported occasional vertigo."
+      },
+      "tests": [
+        {
+          "name": "VNG",
+          "condition": "Post-headshake",
+          "key_findings": "Mild right beat nystagmus."
+        },
+        {
+          "name": "Positional testing",
+          "condition": "Head-hanging",
+          "key_findings": "Downbeating nystagmus (test of anterior/superior semicircular canal)."
+        },
+        {
+          "name": "cVEMP",
+          "key_findings": "Reduced left threshold response was no longer present (results now within normal limits).",
+          "numeric_results": {
+            "Left_Threshold": "Normal"
+          }
+        },
+        {
+          "name": "Caloric irrigation",
+          "key_findings": "No change in horizontal semicircular canal function."
+        }
+      ]
+    },
+    {
+      "visit_id": "V5",
+      "timepoint_label": "6 months postoperative",
+      "setting": "Audiology and Vestibular Clinic",
+      "history": {
+        "present_illness": "Fully resolved of all symptoms, denied falls, and was able to walk unassisted."
+      },
+      "tests": [
+        {
+          "name": "VNG",
+          "condition": "Post-headshake",
+          "key_findings": "No evidence of downbeating nystagmus."
+        },
+        {
+          "name": "Positional testing",
+          "condition": "Head-hanging",
+          "key_findings": "No evidence of downbeating nystagmus."
         }
       ]
     }

@@ -159,6 +159,66 @@
           }
         }
       ]
+    },
+    {
+      "visit_id": "V2",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "1-month follow-up. Patient fitted with RIC devices (mild amplification and TRT) and instructed to use app-based masker overnight.",
+        "otologic_history": null,
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": null,
+        "patient_goals": null
+      },
+      "tests": [
+        {
+          "name": "Self-Report Scales",
+          "timepoint_label": "1-month follow-up",
+          "ear": null,
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "COSI suggested satisfaction with reduction in duration and loudness of tinnitus. Reported hearing better in small groups and better tolerating collective sound levels.",
+          "numeric_results": {
+            "THI_Score": "42",
+            "TFI_Score": "36"
+          }
+        }
+      ]
+    },
+    {
+      "visit_id": "V3",
+      "date": null,
+      "setting": "Audiology Clinic",
+      "history": {
+        "present_illness": "3-month follow-up. Patient successfully practicing PMR to assist with sleep.",
+        "otologic_history": null,
+        "noise_exposure_history": null,
+        "medical_psych_history": null,
+        "prior_management": null,
+        "patient_goals": "Not interested in pursuing CBT or additional strategies."
+      },
+      "tests": [
+        {
+          "name": "Self-Report Scales",
+          "timepoint_label": "3-month follow-up",
+          "ear": null,
+          "condition": "aided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Tinnitus reported at a manageable level. Attributes much of improvement to improved sleep.",
+          "numeric_results": {
+            "THI_Score": "28",
+            "TFI_Score": "30"
+          }
+        }
+      ]
     }
   ],
   "overall_audiologic_summary": "The patient presents with asymmetric hearing loss: mild-to-moderate high-frequency SNHL in the left ear and mild-to-severe mixed loss in the right ear (consistent with stapedectomy). Word recognition is excellent bilaterally. Key findings include reduced loudness tolerance (LDLs 80-90 dB HL) and bothersome tinnitus matched to 4000 Hz. Tinnitus assessment shows positive residual inhibition and a Minimum Masking Level of 26 dB SL.",

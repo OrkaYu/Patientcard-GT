@@ -155,6 +155,22 @@
       },
       "tests": [
         {
+          "name": "Pure-tone and speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Left ear: No behavioral responses to speech or pure-tone stimuli. Right ear: SAT of 25 dB HL obtained. Responded to some pure tones but reliable and valid thresholds could not be established.",
+          "numeric_results": {
+            "LE_Response": "No response",
+            "RE_SAT": "25 dB HL",
+            "RE_Pure_Tone_Thresholds": "Unreliable/Not established"
+          }
+        },
+        {
           "name": "Auditory Brainstem Response (ABR)",
           "timepoint_label": "Follow-up",
           "ear": "bilateral",

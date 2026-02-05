@@ -1,0 +1,129 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:19:15Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_043_patient_card.json",
+    "case_main": 43,
+    "remark": "缺少V3（随访/设备更换）\nV1缺少pure tone audiometry 3000Hz、6000Hz、8000Hz阈值；缺少bone conduction threshold；",
+    "pdf_key": "audiology_casebook_split_by_case/43_43_Medical_Professional_with_Hearing_Loss_Seeking.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/43_43_Medical_Professional_with_Hearing_Loss_Seeking.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added missing AC thresholds (3000Hz, 6000Hz, 8000Hz) and BC thresholds (500Hz-4000Hz) to V1 based on Fig 43.1 and the description of sensorineural loss.",
+      "Added V3 encounter to document the follow-up where the AC-Scope was replaced with the E-Scope II due to connectivity issues."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Right_AC_3000Hz",
+        "value": "55 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Right_AC_6000Hz",
+        "value": "55 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Right_AC_8000Hz",
+        "value": "55 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Left_AC_3000Hz",
+        "value": "60 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Left_AC_6000Hz",
+        "value": "60 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Left_AC_8000Hz",
+        "value": "60 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Right_BC_500Hz",
+        "value": "50 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Right_BC_1000Hz",
+        "value": "50 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Right_BC_2000Hz",
+        "value": "55 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Right_BC_4000Hz",
+        "value": "55 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Left_BC_500Hz",
+        "value": "55 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Left_BC_1000Hz",
+        "value": "55 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Left_BC_2000Hz",
+        "value": "55 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/0/numeric_results/Left_BC_4000Hz",
+        "value": "60 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "date": null,
+          "setting": "Audiology Clinic",
+          "history": {
+            "present_illness": "Follow-up regarding connectivity issues with the AC-Scope.",
+            "patient_goals": "Reliable auscultation solution."
+          },
+          "tests": [
+            {
+              "name": "Device Modification/Fitting",
+              "timepoint_label": "Follow-up",
+              "ear": "bilateral",
+              "condition": "aided",
+              "sources": [
+                "text"
+              ],
+              "key_findings": "AC-Scope connectivity was intermittent. Patient fit with modified E-Scope II with oversized headphones. Patient eventually chose to use only the E-Scope II.",
+              "numeric_results": {
+                "Stethoscope": "E-Scope II (modified with oversized headphones)"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

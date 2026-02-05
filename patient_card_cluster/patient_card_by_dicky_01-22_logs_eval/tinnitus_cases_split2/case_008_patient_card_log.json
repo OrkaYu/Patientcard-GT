@@ -1,0 +1,167 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-22T23:19:01Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "src_patient_card_key": "patient_card_cluster/tinnitus_cases_split2/case_008_patient_card.json",
+    "case_num": 8,
+    "remark": "缺少V2 （Diagnostic Workup），V3（Radiology），V4（Post-treatment Follow-up）",
+    "pdf_key": "Tinnitus_Cases_split2/Case08_A_Case_of_a_Normal_Hearing.pdf",
+    "pdf_uri": "gs://case_study_audult_book/Tinnitus_Cases_split2/Case08_A_Case_of_a_Normal_Hearing.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Removed TEN, ABR, and MRI tests from V1 as they represent subsequent diagnostic steps.",
+      "Created V2 (Diagnostic Workup) containing TEN and ABR tests.",
+      "Created V3 (Radiology) containing MRI test.",
+      "Created V4 (Post-treatment Follow-up) with 6-month follow-up data including Otoscopy, Tympanometry, Pure-tone audiometry, and HINT."
+    ],
+    "patch_ops": [
+      {
+        "op": "remove",
+        "path": "/encounters/0/tests/9"
+      },
+      {
+        "op": "remove",
+        "path": "/encounters/0/tests/8"
+      },
+      {
+        "op": "remove",
+        "path": "/encounters/0/tests/7"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V2",
+          "setting": "Audiology Clinic",
+          "tests": [
+            {
+              "name": "TEN (Threshold Equalizing Noise) Test",
+              "timepoint_label": "Diagnostic Workup",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Table 8.1"
+              ],
+              "key_findings": "Abnormal results in the left ear suggesting cochlear dead regions or neural dysfunction. Right ear results were normal.",
+              "numeric_results": {
+                "Masking_Level": "50 dB HL/ERBn",
+                "RE_Masked_Thresholds": "50 dB HL at all freqs (0.5-4.0 kHz)",
+                "LE_Masked_Threshold_1kHz": "60 dB HL (Abnormal)",
+                "LE_Masked_Threshold_1.5kHz": "62 dB HL (Abnormal)",
+                "LE_Masked_Threshold_3kHz": "62 dB HL (Abnormal)",
+                "LE_Masked_Threshold_4kHz": "60 dB HL (Abnormal)"
+              }
+            },
+            {
+              "name": "Auditory Brainstem Response (ABR)",
+              "timepoint_label": "Diagnostic Workup",
+              "ear": "bilateral",
+              "condition": null,
+              "sources": [
+                "text"
+              ],
+              "figure_refs": [],
+              "key_findings": "Right ear showed normal peak and interpeak latencies. Left ear showed absence of wave V at 70 dBnHL.",
+              "numeric_results": {}
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V3",
+          "setting": "Radiology",
+          "tests": [
+            {
+              "name": "MRI",
+              "timepoint_label": "Radiology",
+              "ear": "left",
+              "condition": null,
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 8.2"
+              ],
+              "key_findings": "Large acoustic neuroma on the left cerebellar pontine (CP) angle compressing the brainstem and VIIIth cranial nerve.",
+              "numeric_results": {
+                "Tumor_Size": "2.95 x 2.4 cm"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/-",
+        "value": {
+          "visit_id": "V4",
+          "date": "6 months post-treatment",
+          "setting": "Audiology Clinic",
+          "history": {
+            "interval_history": "Follow-up 6 months after stereotactic radiosurgery. Patient denied any worsening of tinnitus."
+          },
+          "tests": [
+            {
+              "name": "Otoscopy",
+              "timepoint_label": "6-month Follow-up",
+              "ear": "bilateral",
+              "sources": [
+                "text"
+              ],
+              "key_findings": "Clear ear canals and intact tympanic membranes bilaterally.",
+              "numeric_results": {}
+            },
+            {
+              "name": "Tympanometry",
+              "timepoint_label": "6-month Follow-up",
+              "ear": "bilateral",
+              "sources": [
+                "text"
+              ],
+              "key_findings": "Ear canal volumes, peak pressure, and static admittance were within normal range bilaterally.",
+              "numeric_results": {}
+            },
+            {
+              "name": "Pure-tone audiometry",
+              "timepoint_label": "6-month Follow-up",
+              "ear": "bilateral",
+              "sources": [
+                "text",
+                "image"
+              ],
+              "figure_refs": [
+                "Figure 8.3"
+              ],
+              "key_findings": "Right ear thresholds within normal limits. Left ear revealed mild sensorineural hearing loss from 1000 Hz through higher frequencies; asymmetry became more significant.",
+              "numeric_results": {}
+            },
+            {
+              "name": "Hearing in Noise Test (HINT)",
+              "timepoint_label": "6-month Follow-up",
+              "ear": "bilateral",
+              "sources": [
+                "text"
+              ],
+              "key_findings": "Performed within normal percentiles for both quiet and noise front conditions.",
+              "numeric_results": {}
+            }
+          ]
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

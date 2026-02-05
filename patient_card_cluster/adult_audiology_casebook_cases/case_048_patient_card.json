@@ -106,8 +106,10 @@
           ],
           "key_findings": "LDLs hovered around 70 to 80 dB HL, which is lower than expected for mild hearing loss, indicating hyperacusis/reduced sound tolerance.",
           "numeric_results": {
-            "Right PT LDLs (250-8k Hz)": "72-78 dB HL",
-            "Left PT LDLs (250-8k Hz)": "72-78 dB HL",
+            "Right PT LDLs": "250Hz: 76, 500Hz: 72, 1000Hz: 72, 2000Hz: 72, 4000Hz: 74, 8000Hz: 78 dB HL",
+            "Left PT LDLs": "250Hz: 78, 500Hz: 74, 1000Hz: 74, 2000Hz: 72, 4000Hz: 76, 8000Hz: 78 dB HL",
+            "Right NBN LDLs": "250Hz: 72, 500Hz: 70, 1000Hz: 70, 2000Hz: 70, 4000Hz: 70, 8000Hz: 74 dB HL",
+            "Left NBN LDLs": "250Hz: 74, 500Hz: 72, 1000Hz: 72, 2000Hz: 72, 4000Hz: 70, 8000Hz: 76 dB HL",
             "Right BBN LDL": "70 dB HL",
             "Left BBN LDL": "74 dB HL"
           }
@@ -127,6 +129,65 @@
             "Loudness Match Right": "56 dB HL",
             "Loudness Match Left": "60 dB HL",
             "TFI Score": "60 (0-100 scale)"
+          }
+        },
+        {
+          "name": "Acoustic Reflex Thresholds (ARTs)",
+          "timepoint_label": "Baseline",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Could not be assessed because SS was concerned about the loud presentation level."
+        }
+      ]
+    },
+    {
+      "visit_id": "V2",
+      "date": "6-month follow-up",
+      "setting": "Audiology Clinic",
+      "history": {
+        "interval_history": "After 6 months of management, SS reported significant improvements in annoyance from tinnitus and hyperacusis. She requested increased hearing aid acclimatization level (4/4). She no longer feared moderately loud sounds."
+      },
+      "tests": [
+        {
+          "name": "Loudness Discomfort Levels (LDLs)",
+          "timepoint_label": "6-month follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text",
+            "table"
+          ],
+          "figure_refs": [
+            "Table 48.2"
+          ],
+          "key_findings": "LDLs increased by 6 to 10 dB across frequencies compared to baseline.",
+          "numeric_results": {
+            "Right PT LDLs": "250Hz: 78, 500Hz: 78, 1000Hz: 76, 2000Hz: 82, 4000Hz: 78, 8000Hz: 78 dB HL",
+            "Left PT LDLs": "250Hz: 82, 500Hz: 76, 1000Hz: 80, 2000Hz: 80, 4000Hz: 82, 8000Hz: 80 dB HL",
+            "Right NBN LDLs": "250Hz: 78, 500Hz: 76, 1000Hz: 74, 2000Hz: 78, 4000Hz: 76, 8000Hz: 76 dB HL",
+            "Left NBN LDLs": "250Hz: 80, 500Hz: 76, 1000Hz: 78, 2000Hz: 80, 4000Hz: 80, 8000Hz: 78 dB HL",
+            "Right BBN LDL": "78 dB HL",
+            "Left BBN LDL": "80 dB HL"
+          }
+        },
+        {
+          "name": "Tinnitus Assessment",
+          "timepoint_label": "6-month follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "Tinnitus loudness reduced by 10 dB in each ear. TFI score reduced by 30 points.",
+          "numeric_results": {
+            "Loudness Match Right": "46 dB HL",
+            "Loudness Match Left": "50 dB HL",
+            "TFI Score": "30"
           }
         }
       ]

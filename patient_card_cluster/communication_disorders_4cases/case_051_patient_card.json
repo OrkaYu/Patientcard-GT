@@ -18,6 +18,30 @@
   },
   "encounters": [
     {
+      "visit_id": "V_2007",
+      "date": "2007",
+      "setting": "Hospital/Clinic",
+      "history": {
+        "present_illness": "Cochlear implantation surgery."
+      },
+      "tests": [
+        {
+          "name": "Hearing Handicap Inventory (HHI)",
+          "timepoint_label": "Post-CI (2.5 months)",
+          "ear": "bilateral",
+          "condition": "bimodal",
+          "sources": [
+            "text"
+          ],
+          "figure_refs": [],
+          "key_findings": "HHI score of 60.",
+          "numeric_results": {
+            "HHI_Score": "60"
+          }
+        }
+      ]
+    },
+    {
       "visit_id": "V1",
       "date": "2015-09-01",
       "setting": "Private Pay Audiology Practice",
@@ -80,7 +104,7 @@
       "date": "2015-2016",
       "setting": "Audiology Clinic",
       "history": {
-        "present_illness": "6-month period of 'tweaking'. Patient requested reprogramming 9 times, returned devices, and complained of casing cracks.",
+        "present_illness": "6-month period of 'tweaking'. Patient requested reprogramming 14 times, returned devices, and complained of casing cracks.",
         "prior_management": "Fitted with new BTEs. Casing cracked 9 times over 3 years due to hair products.",
         "patient_goals": "Requests for adjustments were contradictory (more gain vs less gain)."
       },
@@ -97,9 +121,9 @@
           "figure_refs": [
             "Table 51-1"
           ],
-          "key_findings": "Patient made 9 visits between Sept 2015 and March 2016 for reprogramming, returns, and new fittings. Clinicians noted 'indecisiveness' and 'failure to commit'.",
+          "key_findings": "Patient made 14 visits between Sept 2015 and March 2016 for reprogramming, returns, and new fittings. Clinicians noted 'indecisiveness' and 'failure to commit'.",
           "numeric_results": {
-            "Total_Visits_6_Months": "9"
+            "Total_Visits_6_Months": "14"
           }
         }
       ]
@@ -169,20 +193,20 @@
         },
         {
           "name": "Cochlear Implant Evaluation",
-          "timepoint_label": "Recommendation",
+          "timepoint_label": "Status",
           "ear": "bilateral",
           "condition": null,
           "sources": [
             "text"
           ],
           "figure_refs": [],
-          "key_findings": "Audiologists recommended CI consideration. Retrospective analysis suggested she was a candidate as early as 2001/2015 based on audiogram and lack of benefit.",
+          "key_findings": "Patient completed cochlear implantation in 2007.",
           "numeric_results": null
         }
       ]
     }
   ],
-  "overall_audiologic_summary": "Denise presents with a bilateral moderate precipitously sloping to profound sensorineural hearing loss. Despite amplification, her aided Articulation Index is only 0.23, suggesting limited speech audibility (approx. 50% in quiet). She demonstrates significant fluctuation in self-perceived handicap (HHI scores), initially improving with group rehabilitation but regressing shortly after. Her profile is consistent with a candidate for cochlear implantation due to the lack of functional benefit from conventional hearing aids in the high frequencies.",
+  "overall_audiologic_summary": "Denise presents with a bilateral moderate precipitously sloping to profound sensorineural hearing loss. Despite amplification, her aided Articulation Index is only 0.23, suggesting limited speech audibility (approx. 50% in quiet). She demonstrates significant fluctuation in self-perceived handicap (HHI scores), initially improving with group rehabilitation but regressing shortly after. Her profile is consistent with a current bimodal user (implanted in 2007) due to the lack of functional benefit from conventional hearing aids in the high frequencies.",
   "counseling_points": [
     "Hearing aids cannot fully restore hearing, especially in the high frequencies where your loss is profound; they are an aid, not a cure.",
     "Frequent 'tweaking' of the hearing aid settings may not provide the clarity you seek because the damage to the inner ear limits what amplification can achieve.",

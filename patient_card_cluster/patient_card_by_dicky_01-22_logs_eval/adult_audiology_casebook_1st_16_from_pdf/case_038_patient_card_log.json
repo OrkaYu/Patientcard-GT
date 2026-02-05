@@ -1,0 +1,88 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T01:17:17Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_stricts": [
+      "Adult Audiology Casebook 1st edition(16 cases)",
+      "Adult Audiology Casebook 1st edition (16 cases)",
+      "Adult Audiology Casebook 1st edition(16",
+      "Adult Audiology Casebook 1st edition (16"
+    ],
+    "src_patient_card_key": "processed/patient_cards_from_pdf/case_038_patient_card.json",
+    "case_main": 38,
+    "remark": "V2 缺少Speech audiometry，Tympanometry，Acoustic reflexes",
+    "pdf_key": "audiology_casebook_split_by_case/38_38_Identification_of_Superior_Semicircular_Canal_D.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiology_casebook_split_by_case/38_38_Identification_of_Superior_Semicircular_Canal_D.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Added Speech audiometry to V2 tests based on Figure 38.2 (Audiological Record).",
+      "Added Tympanometry to V2 tests based on Figure 38.2 caption stating 'normal tympanograms'.",
+      "Added Acoustic reflexes to V2 tests based on Figure 38.2 caption stating 'normal... acoustic reflex thresholds'."
+    ],
+    "patch_ops": [
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/-",
+        "value": {
+          "name": "Speech audiometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": "unaided",
+          "sources": [
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.2"
+          ],
+          "key_findings": "SRTs consistent with air thresholds.",
+          "numeric_results": null
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/-",
+        "value": {
+          "name": "Tympanometry",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.2"
+          ],
+          "key_findings": "Normal Type A tympanograms bilaterally.",
+          "numeric_results": null
+        }
+      },
+      {
+        "op": "add",
+        "path": "/encounters/1/tests/-",
+        "value": {
+          "name": "Acoustic reflexes",
+          "timepoint_label": "Follow-up",
+          "ear": "bilateral",
+          "condition": null,
+          "sources": [
+            "text",
+            "image"
+          ],
+          "figure_refs": [
+            "Figure 38.2"
+          ],
+          "key_findings": "Present at normal levels ipsilaterally and contralaterally.",
+          "numeric_results": null
+        }
+      }
+    ],
+    "unresolved": []
+  }
+}

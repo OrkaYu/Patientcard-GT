@@ -1,0 +1,55 @@
+{
+  "action": "PATCH",
+  "timestamp_utc": "2026-01-23T00:35:36Z",
+  "inputs": {
+    "bucket": "case_study_audult_book",
+    "excel_key": "2025-12-23-Dickysuggestion/patientcard_eval.xlsx",
+    "excel_source_strict": "Audiology Workbook",
+    "pc_key": "patient_card_cluster/audiology_workbook_cases/case_12_03_patient_card.json",
+    "chapter": 12,
+    "idx": 3,
+    "pdf_subcase": 3,
+    "pdf_key": "audiogram_workbook_splitbycase/audiology_workbook_case12_cases/case12.3.pdf",
+    "pdf_uri": "gs://case_study_audult_book/audiogram_workbook_splitbycase/audiology_workbook_case12_cases/case12.3.pdf",
+    "model": "gemini-3-pro-preview",
+    "max_output_tokens": 32768,
+    "attach_pdf_bytes": false
+  },
+  "model_outputs": {
+    "logic_summary": [
+      "Replaced the asymmetry description in Pure-tone audiometry key_findings as requested, although the new text ('Right ear was about 20 to 30 dB poorer') contradicts the provided audiogram graph and numeric results (which show the Left ear is poorer by ~15 dB).",
+      "Calculated PTA and SRT values from the audiogram graph (Right PTA ~25 dB, Left PTA ~40 dB) and added them to the respective tests to address the missing values remark.",
+      "ART values are blank in the source PDF table and cannot be calculated, so they were not added."
+    ],
+    "patch_ops": [
+      {
+        "op": "replace",
+        "path": "/encounters/0/tests/1/key_findings",
+        "value": "Bilateral sloping sensorineural hearing loss. Asymmetric configuration with the Right ear was about 20 to 30 dB poorer than the left ear across the frequency range. No significant air-bone gaps."
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/1/numeric_results/Right PTA",
+        "value": "25 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/1/numeric_results/Left PTA",
+        "value": "40 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/2/numeric_results/Right SRT",
+        "value": "25 dB HL"
+      },
+      {
+        "op": "add",
+        "path": "/encounters/0/tests/2/numeric_results/Left SRT",
+        "value": "40 dB HL"
+      }
+    ],
+    "unresolved": [
+      "ART values missing in source PDF."
+    ]
+  }
+}
